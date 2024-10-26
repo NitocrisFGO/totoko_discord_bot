@@ -182,7 +182,9 @@ async def random_play(ctx):
 
     play_list.clear()
     play_list.extend(music_dictionary.keys())
+
     current_song_index = random.randint(0, len(play_list) - 1)
+    print('随机数是：' + str(current_song_index))
 
     voice_client = ctx.voice_client
 
@@ -275,14 +277,31 @@ async def continue_play(ctx):
 
 @bot.command(name='skip', help='老板唱K你切歌')
 async def skip_play(ctx):
+
     global current_song_index
+    global allow_play
+
     if not await ensure_voice(ctx):
         return
 
     if ctx.voice_client:
+
         await ctx.send('切歌，切歌！不爱听这个。')
-        current_song_index = current_song_index + 1
+
+        if play_model == "列表循环":
+            current_song_index += 1
+        elif play_model == "随机播放":
+            current_song_index = random.randint(0, len(play_list) - 1)
+
+        allow_play = False
+
         ctx.voice_client.stop()
+
+        while ctx.voice_client.is_playing():
+            await asyncio.sleep(0.1)
+
+        allow_play = True
+
         await play_next(ctx, current_song_index)
     else:
         await ctx.send('没放呢，切不了一点。')
