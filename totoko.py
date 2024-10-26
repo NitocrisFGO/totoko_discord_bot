@@ -40,6 +40,7 @@ FFMPEG_OPTIONS = {
 file_path = 'music_base_list'
 music_dictionary = txt_to_dict(file_path)
 music_list = list(music_dictionary.keys())
+allow_play = False
 
 hello_text_list = ['哟~你好，魔法少女托托子竭诚为您服务。还有，是中国人就说你好。', '欸嘿，今天是 ' + str(today) + ' 过的怎么样啊？'
                    , '天气真好， 今天来一首 ' + random.choice(music_list) + ' 怎么样？']
@@ -67,6 +68,9 @@ async def ensure_voice(ctx):
 
 # 播放下一首音乐
 async def play_next(ctx, current_song_index):
+
+    if not allow_play:
+        return
 
     if play_model == '列表循环':
         # 如果已经到播放列表的末尾，重置索引以循环播放
@@ -132,6 +136,7 @@ async def leave(ctx):
 @bot.command(name='play', help='播放来自咱音乐存储库中的音乐。用法: !play <音乐名>')
 async def play(ctx, music_name):
     global current_song_index
+    global allow_play
     if not await ensure_voice(ctx):
         return
 
@@ -156,6 +161,7 @@ async def play(ctx, music_name):
         play_list.append(music_name)
         await ctx.send(music_name + " 加入列表成功！")
     else:
+        allow_play = True
         await ctx.send(music_name + "原声，启动！")
         play_list.append(music_name)
         current_song_index = len(play_list) - 1
@@ -167,6 +173,7 @@ async def play(ctx, music_name):
 async def random_play(ctx):
     global current_song_index
     global play_model
+    global allow_play
 
     play_model = '随机播放'
 
@@ -182,6 +189,7 @@ async def random_play(ctx):
     if voice_client.is_playing():
         await ctx.send("接下来该尝试刺激点的了哦~")
     else:
+        allow_play = True
         await ctx.send("陌生的城市坐公交，每一站都是惊喜捏。")
         await play_next(ctx, current_song_index)
 
@@ -189,7 +197,10 @@ async def random_play(ctx):
 # 全部播放 music database 中的音频
 @bot.command(name='all_play', help='全都给我来一遍！')
 async def all_play(ctx):
+
     global current_song_index
+    global allow_play
+
     if not await ensure_voice(ctx):
         return
 
@@ -202,6 +213,7 @@ async def all_play(ctx):
     if voice_client.is_playing():
         await ctx.send("从零开始的播放列表。")
     else:
+        allow_play = True
         await ctx.send("我们重新战斗吧，神龙凯欧，奥鹰格特，岩豹烈伽，冰龟罗克，赤蛇蒙洛，悍狼尼尔，天熊雷赫，肉蛋葱鸡。")
         await play_next(ctx, current_song_index)
 
@@ -226,7 +238,9 @@ async def music_play_list(ctx):
 # 停止播放音乐
 @bot.command(name='stop', help='太吵了！闭嘴！')
 async def stop(ctx):
+    global allow_play
     if ctx.voice_client:
+        allow_play = False
         ctx.voice_client.stop()
         await ctx.send('停止播放音乐喵~')
     else:
@@ -236,14 +250,18 @@ async def stop(ctx):
 @bot.command(name='continue', help='继续播放没放完的捏')
 async def continue_play(ctx):
 
+    global allow_play
+
     if not await ensure_voice(ctx):
         return
 
-    if ctx.voice_client:
+    if allow_play is True:
         await ctx.send('没暂停继续什么继续，笨蛋。')
     else:
-        await play_next(ctx, current_song_index)
+
+        allow_play = True
         await ctx.send('继续继续！接着奏乐接着舞。')
+        await play_next(ctx, current_song_index)
 
 
 @bot.command(name='skip', help='老板唱K你切歌')
