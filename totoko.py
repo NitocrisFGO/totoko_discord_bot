@@ -238,12 +238,21 @@ async def music_play_list(ctx):
 # 停止播放音乐
 @bot.command(name='stop', help='太吵了！闭嘴！')
 async def stop(ctx):
+
     global allow_play
+
     if ctx.voice_client:
         allow_play = False
         ctx.voice_client.stop()
+
+        # 强制结束 FFmpeg 进程
+        if ctx.voice_client.is_playing():
+            await ctx.voice_client.disconnect()
+            await ctx.voice_client.connect()
+
         await ctx.send('停止播放音乐喵~')
     else:
+
         await ctx.send('咱寻思咱也没有唱歌呀。')
 
 
