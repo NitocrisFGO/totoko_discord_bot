@@ -39,9 +39,12 @@ FFMPEG_OPTIONS = {
 hello_text_list = ['哟~你好，魔法少女托托子竭诚为您服务。还有，是中国人就说你好。', '欸嘿，今天是 ' + str(today) + ' 过的怎么样啊？']
 play_test_list = ['哦，在这停顿！ ', '阿伟，又在听音乐了，休息一下好不好。 ', '让我看看你在听什么？ ', '这首歌我还挺喜欢的，品味不错。 ']
 file_path = 'music_base_list'
+play_list = []
+play_model = '列表循环'
+current_song_index = 0
 music_dictionary = txt_to_dict(file_path)
 
-# print(music_dictionary)
+print(music_dictionary)
 
 
 # 让机器人加入用户所在的语音频道
@@ -55,6 +58,26 @@ async def ensure_voice(ctx):
             await ctx.send("要不你先开个房再叫咱？")
             return False
     return True
+
+
+# 播放下一首音乐
+async def play_next(ctx, current_song_index):
+
+    if play_model == '列表循环':
+        # 如果已经到播放列表的末尾，重置索引以循环播放
+        if current_song_index >= len(play_list):
+            current_song_index = 0
+
+    # 获取当前要播放的音乐文件
+    music_name = play_list[current_song_index]
+    music_dic_name = music_dictionary[music_name]
+    file_name = 'musics/' + music_dic_name + '.mp3'
+
+    # 播放音乐并设置回调
+    ctx.voice_client.play(discord.FFmpegPCMAudio(file_name, **FFMPEG_OPTIONS))
+    current_song_index += 1
+    play_text = random.choice(play_test_list)
+    await ctx.send(play_text + music_name)
 
 
 # 启动时的事件
@@ -109,10 +132,39 @@ async def play(ctx, music_name):
         await ctx.send(f'额，暂时不会这首: {music_name} ， 要不你找尼托帮你找找看？')
         return
 
-    voice_client.play(discord.FFmpegPCMAudio(file_name, **FFMPEG_OPTIONS))
+    # voice_client.play(discord.FFmpegPCMAudio(file_name, **FFMPEG_OPTIONS))
 
-    play_text = random.choice(play_test_list)
-    await ctx.send(play_text + music_name)
+    # play_text = random.choice(play_test_list)
+    if voice_client.is_playing():
+        play_list.append(music_name)
+        await ctx.send(music_name + " 加入列表成功！")
+    else:
+        await ctx.send(music_name + "原声，启动！")
+        play_list.append(music_name)
+        current_song_index = len(play_list) - 1
+        await play_next(ctx, current_song_index)
+
+# # 随机播放 music database 中的音频
+# @bot.command(name='random_play', help='那肯定是随机播放咯，这都看不懂吗？')
+# async def random_play(ctx, music_name):
+#
+#     if not await ensure_voice(ctx):
+#         return
+#
+#     music_dic_name = music_dictionary[music_name]
+#
+#     file_name = 'musics/' + music_dic_name + '.mp3'
+#     voice_client = ctx.voice_client
+#
+#     if not os.path.isfile(file_name):
+#         print(file_name)
+#         await ctx.send(f'额，暂时不会这首: {music_name} ， 要不你找尼托帮你找找看？')
+#         return
+#
+#     voice_client.play(discord.FFmpegPCMAudio(file_name, **FFMPEG_OPTIONS))
+#
+#     play_text = random.choice(play_test_list)
+#     await ctx.send(play_text + music_name)
 
 
 # 输出音乐列表
@@ -124,6 +176,14 @@ async def music_list(ctx):
     await ctx.send(f"音乐列表：\n{music_list_str}")
 
 
+@bot.command(name='play_list', help='看看你的歌单！')
+async def music_list(ctx):
+    await ctx.send('是放完了，还是没放完，这是一个问题')
+    await asyncio.sleep(3)
+    await ctx.send(f"播放列表：\n{play_list}")
+    await ctx.send(f"你现在播放到：\n{play_list[current_song_index]}")
+
+
 # 停止播放音乐
 @bot.command(name='stop', help='停止当前播放的音乐')
 async def stop(ctx):
@@ -132,6 +192,19 @@ async def stop(ctx):
         await ctx.send('停止播放音乐喵~')
     else:
         await ctx.send('咱寻思咱也没有唱歌呀。')
+
+
+@bot.command(name='continue', help='继续播放没放完的捏')
+async def continue_play(ctx):
+
+    if not await ensure_voice(ctx):
+        return
+
+    if ctx.voice_client:
+        await ctx.send('没暂停继续什么继续，笨蛋。')
+    else:
+        await play_next(ctx, current_song_index)
+        await ctx.send('继续继续！接着奏乐接着舞。')
 
 
 # 启动机器人
