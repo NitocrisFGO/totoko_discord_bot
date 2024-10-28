@@ -125,8 +125,14 @@ async def join(ctx):
 # 让机器人离开语音频道
 @bot.command(name='leave', help='真的假的，想把我踢出去吗？')
 async def leave(ctx):
+
+    global current_song_index
+    global play_list
+
     if ctx.voice_client:
         await ctx.voice_client.disconnect()
+        current_song_index = 0
+        play_list = []
         await ctx.send('拜~润咯')
     else:
         await ctx.send('额，离开哪儿啊？我不到啊，滴滴哒滴滴嘟。')
@@ -202,9 +208,12 @@ async def all_play(ctx):
 
     global current_song_index
     global allow_play
+    global play_model
 
     if not await ensure_voice(ctx):
         return
+
+    play_model = '列表循环'
 
     play_list.clear()
     current_song_index = 0
