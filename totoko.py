@@ -373,5 +373,5 @@ async def rps(ctx):
 
 
 # 启动机器人
-bot.run('MTI5OTU1MzExOTA4ODE1MjYwOA.G7gtNl.-olG9jwYGTGpnvH0M2DoVpDv6jabyjnVWV5law')
+bot.run('MTI5OTU1MzExOTA4ODE1MjYwOA.GgzRBr.J2uWpHXPDx0o3ezDbhGIZCV-kEeAlgPx8TiWek')
 
