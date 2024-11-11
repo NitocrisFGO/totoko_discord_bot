@@ -14,16 +14,20 @@ def txt_to_dict(file_path):
 
     # 逐行读取文件内容
     with open(file_path, 'r', encoding='utf-8') as file:
+        temp = 1
         for line in file:
             # 去除行尾的换行符，并按空格分隔键和值
-            parts = line.strip().split(maxsplit=1)
-
-            # 确保每行都有键和值
-            if len(parts) == 2:
-                key, value = parts
-                result_dict[key] = value
+            parts = line.strip().split(";")
+            music_list.append(line)
+            # 确保每行都有值
+            if len(parts) != 0:
+                # 对于每个值，都分配同一首歌的歌曲编号
+                for part in parts:
+                    # print(part)
+                    result_dict[part] = temp
             else:
                 print(f"格式错误：'{line}'")
+            temp += 1
 
     return result_dict
 
@@ -38,9 +42,9 @@ FFMPEG_OPTIONS = {
     'options': '-vn'
 }
 
-file_path = 'music_base_list'
+file_path = 'music_base_list.txt'
+music_list = []
 music_dictionary = txt_to_dict(file_path)
-music_list = list(music_dictionary.keys())
 allow_play = False
 
 seed = int(time.time() * 1000) ^ os.getpid() ^ random.randint(0, 100000)
@@ -62,6 +66,7 @@ rps_win_text = ["哎，杂鱼就是杂鱼，一边呆着去吧~", "去~去~你�
 play_list = []
 play_model = '列表循环'
 
+current_song_list = []
 current_song_index = 0
 
 print(music_dictionary)
@@ -80,24 +85,33 @@ async def ensure_voice(ctx):
     return True
 
 
+def check_current_list(current_song_list):
+    if len(current_song_list) >= 11:
+        current_song_list.pop(0)
+
+
 # 播放下一首音乐
 async def play_next(ctx, current_song_index):
 
     if not allow_play:
         return
 
+    current_song_list.append(current_song_index)
+    check_current_list(current_song_list)
+
+    # 如果已经到播放列表的末尾，重置索引以循环播放
     if play_model == '列表循环':
-        # 如果已经到播放列表的末尾，重置索引以循环播放
         if current_song_index >= len(play_list):
             current_song_index = 0
 
     # 获取当前要播放的音乐文件
     music_name = play_list[current_song_index]
     music_dic_name = music_dictionary[music_name]
-    file_name = 'musics/' + music_dic_name + '.mp3'
+    file_name = 'musics/' + str(music_dic_name) + '.mp3'
 
     if play_model == '随机播放':
-        current_song_index = random.randint(0, len(play_list) - 1)
+        while current_song_index in current_song_list:
+            current_song_index = random.randint(0, len(play_list) - 1)
     else:
         current_song_index += 1
 
