@@ -1,5 +1,6 @@
 import asyncio
 import os
+import time
 from datetime import date
 import random
 
@@ -42,6 +43,9 @@ music_dictionary = txt_to_dict(file_path)
 music_list = list(music_dictionary.keys())
 allow_play = False
 
+seed = int(time.time() * 1000) ^ os.getpid() ^ random.randint(0, 100000)
+random.seed(seed)
+
 hello_text_list = ['哟~你好，魔法少女托托子竭诚为您服务。还有，是中国人就说你好。', '欸嘿，今天是 ' + str(today) + ' 过的怎么样啊？'
                    , '天气真好， 今天来一首 ' + random.choice(music_list) + ' 怎么样？']
 play_test_list = ['哦，在这停顿！ ', '阿伟，又在听音乐了，休息一下好不好。 ', '让我看看你在听什么？ ', '这首歌我还挺喜欢的，品味不错。 ']
@@ -57,6 +61,7 @@ rps_win_text = ["哎，杂鱼就是杂鱼，一边呆着去吧~", "去~去~你�
 
 play_list = []
 play_model = '列表循环'
+
 current_song_index = 0
 
 print(music_dictionary)
@@ -197,6 +202,7 @@ async def random_play(ctx):
 
     play_list.clear()
     play_list.extend(music_dictionary.keys())
+    random.shuffle(play_list)
 
     current_song_index = random.randint(0, len(play_list) - 1)
     print('随机数是：' + str(current_song_index))
