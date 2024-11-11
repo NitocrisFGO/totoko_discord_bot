@@ -17,8 +17,8 @@ def txt_to_dict(file_path):
         temp = 1
         for line in file:
             # 去除行尾的换行符，并按空格分隔键和值
-            parts = line.strip().split(";")
-            music_list.append(line)
+            parts = line.strip().split("；")
+            base_list.append(line)
             # 确保每行都有值
             if len(parts) != 0:
                 # 对于每个值，都分配同一首歌的歌曲编号
@@ -43,7 +43,7 @@ FFMPEG_OPTIONS = {
 }
 
 file_path = 'music_base_list.txt'
-music_list = []
+base_list = []
 music_dictionary = txt_to_dict(file_path)
 allow_play = False
 
@@ -51,7 +51,7 @@ seed = int(time.time() * 1000) ^ os.getpid() ^ random.randint(0, 100000)
 random.seed(seed)
 
 hello_text_list = ['哟~你好，魔法少女托托子竭诚为您服务。还有，是中国人就说你好。', '欸嘿，今天是 ' + str(today) + ' 过的怎么样啊？'
-                   , '天气真好， 今天来一首 ' + random.choice(music_list) + ' 怎么样？']
+                   , '天气真好， 今天来一首 ' + random.choice(base_list) + ' 怎么样？']
 play_test_list = ['哦，在这停顿！ ', '阿伟，又在听音乐了，休息一下好不好。 ', '让我看看你在听什么？ ', '这首歌我还挺喜欢的，品味不错。 ']
 
 rps_lose_text = ["略~欺负人，真不行吧？", "不准走！再来！再来！", "你作弊了对吧，你作弊了对吧？", "不可能！我不承认！", "🙃",
@@ -258,19 +258,47 @@ async def all_play(ctx):
         await play_next(ctx, current_song_index)
 
 
+# 全部播放 music database 中的音频
+@bot.command(name='search', help='查找歌名捏。')
+async def search_music(ctx):
+    await ctx.send("想找什么？")
+
+    def check(message):
+        # 确保消息来自相同的用户且在同一频道中
+        return message.author == ctx.author and message.channel == ctx.channel
+
+    try:
+        # 等待用户输入，有效输入时返回消息对象，超时为 30 秒
+        message = await bot.wait_for("message", timeout=30.0, check=check)
+        search_word = message.content
+        result = []
+        for music in base_list:
+            if search_word in music:
+                result.append(music)
+        if len(result) == 0:
+            await ctx.send("没有找到，哥们儿。")
+        else:
+            await ctx.send(f'你看看也没有你喜欢的： \n' + ''.join(result))
+    except asyncio.TimeoutError:
+        # 如果用户没有在 30 秒内作出选择
+        await ctx.send(f"{ctx.author.mention}，似了？")
+
+
 # 输出音乐列表
 @bot.command(name='music_list', help='打开咱的百宝袋')
 async def music_list(ctx):
     await ctx.send('Emmm, 我找找看啊，都有哪些呢？')
-    await asyncio.sleep(3)
-    music_list_str = '\n'.join(music_dictionary.keys())
-    await ctx.send(f"音乐列表：\n{music_list_str}")
+    await asyncio.sleep(1)
+    chunk_size = 50
+    for i in range(0, len(base_list), chunk_size):
+        chunk = base_list[i:i + chunk_size]
+        await ctx.send("".join(chunk))
 
 
 @bot.command(name='play_list', help='看看你的歌单！')
 async def music_play_list(ctx):
     await ctx.send('是放完了，还是没放完，这是一个问题')
-    await asyncio.sleep(3)
+    await asyncio.sleep(1)
     await ctx.send(f"播放列表：\n{play_list}")
     await ctx.send(f"你现在播放到：\n{play_list[current_song_index]}")
 
