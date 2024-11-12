@@ -12,7 +12,8 @@ def create_response(content):
     response = client.chat.completions.create(
         model=MODEL,
         messages=[{"role": "user", "content": content}],
-        temperature=0,
+        temperature=0.7,
+        top_p=0.9,  # 让模型在前 90% 的概率空间内采样
     )
     return response.choices[0].message.content
 
