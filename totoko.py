@@ -86,7 +86,7 @@ async def ensure_voice(ctx):
 
 
 def check_current_list(current_song_list):
-    if len(current_song_list) >= 11:
+    if len(current_song_list) >= 31:
         current_song_list.pop(0)
 
 

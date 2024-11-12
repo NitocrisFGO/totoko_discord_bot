@@ -1,5 +1,15 @@
 import os
 import shutil
+from mutagen.easyid3 import EasyID3  # 确保你已经安装 mutagen
+
+
+def get_base_list(file_path):
+    base_list = []
+    # 逐行读取文件内容
+    with open(file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            base_list.append(line)
+    return base_list
 
 
 def add_one_music(file_name):
@@ -14,12 +24,27 @@ def add_one_music(file_name):
             os.makedirs(destination_folder)
 
         print("正在处理文件： " + file_name)
-        # 读取用户输入
-        user_input = input("请输入歌曲名，如果有其他语言名字并且想添加中文名，用；分割：" + '\n')
+
+        # 尝试读取文件标题
+        try:
+            audio = EasyID3(file_name)
+            title = audio.get('title', [None])[0]  # 获取歌曲标题，如果没有则返回 None
+        except Exception as e:
+            print("无法读取标题，需手动输入。")
+            title = None
+
+        # 如果无法读取标题，则让用户输入
+        if title is None:
+            user_input = input("请输入歌曲名，如果有其他语言名字并且想添加中文名，用；分割：" + '\n')
+            title = user_input
+
+        if title in base_list:
+            print("已经有这首歌了。 歌名： " + title)
+            return
 
         # 将用户输入写入 base_line_file 的末尾
         with open(base_file, 'a', encoding='utf-8') as f:
-            f.write('\n' + user_input)
+            f.write('\n' + title)
 
         # 计算文件行数
         with open(base_file, 'r', encoding='utf-8') as f:
@@ -30,7 +55,6 @@ def add_one_music(file_name):
         destination_path = os.path.join(destination_folder, new_filename)
 
         shutil.move(file_name, destination_path)
-        print(f"{file_name} 已重命名为 {new_filename} 并移动到 {destination_folder} 文件夹中。")
     else:
         print(f"文件 {file_name} 不存在。")
 
@@ -53,6 +77,7 @@ def add_all_music():
 
 
 if __name__ == '__main__':
+    base_list = get_base_list('music_base_list.txt')
     print("请选择将歌曲加入数据库的模式")
     print("1为仅加入一首歌，请将音乐拖动入根目录或给出该文件相对于根目录的路径")
     print("2为加入一个歌曲列表，请将多个音乐文件拖入wait_list中")
