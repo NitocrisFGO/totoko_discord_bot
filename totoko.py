@@ -3,9 +3,18 @@ import os
 import time
 from datetime import date
 import random
-
 import discord
 from discord.ext import commands
+from openai import OpenAI
+
+
+def create_response(content):
+    response = client.chat.completions.create(
+        model=MODEL,
+        messages=[{"role": "user", "content": content}],
+        temperature=0,
+    )
+    return response.choices[0].message.content
 
 
 # 将music_base_list转换为music_dictionary
@@ -52,16 +61,21 @@ random.seed(seed)
 
 hello_text_list = ['哟~你好，魔法少女托托子竭诚为您服务。还有，是中国人就说你好。', '欸嘿，今天是 ' + str(today) + ' 过的怎么样啊？'
                    , '天气真好， 今天来一首 ' + random.choice(base_list) + ' 怎么样？']
+
 play_test_list = ['哦，在这停顿！ ', '阿伟，又在听音乐了，休息一下好不好。 ', '让我看看你在听什么？ ', '这首歌我还挺喜欢的，品味不错。 ']
 
 rps_lose_text = ["略~欺负人，真不行吧？", "不准走！再来！再来！", "你作弊了对吧，你作弊了对吧？", "不可能！我不承认！", "🙃",
                  "哎，也就在石头剪刀布中能赢赢托托子了。", "这不去打个石头剪刀布的世界联赛我是不认可的，什么？阴阳？我才没有阴阳你。",
                  '欺负托托子的，你去和狗一桌。', "嘛~嘛~算你比较厉害"]
+
 rps_win_text = ["哎，杂鱼就是杂鱼，一边呆着去吧~", "去~去~你去抓只螃蟹和他玩吧。不过注意不要出布，因为你会输",
                 "打游戏会存在一直输的情况，所以，心情就很烦躁，凭什么自己会一直输，明明自己已经很努力了，但还是输了，所以，就会不断地责怪自己，然后就很不开心，很压抑，因此，应该怎么办？",
                 "玩原神玩的，🤣", "你有试过和蚂蚁比举重吗？", "噗~如果我道歉，你会好受些吗？", "菜，就多练，输不起就别玩。接下来的忘了",
                 "托托子是石头剪刀布界最高的山，最长的河，输给咱是很正常的。",
                 "https://baike.baidu.com/item/%E8%BC%95%E5%BA%A6%E5%BC%B1%E6%99%BA/4265374"]
+
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "sk-proj-ESdEUX1qNSKwXETDMZJNT3BlbkFJtOYzzLghfoteonNm5Arj"))
+MODEL = "gpt-4o-mini"
 
 play_list = []
 play_model = '列表循环'
@@ -86,7 +100,7 @@ async def ensure_voice(ctx):
 
 
 def check_current_list(current_song_list):
-    if len(current_song_list) >= 31:
+    if len(current_song_list) >= len(base_list) / 2 + 1:
         current_song_list.pop(0)
 
 
@@ -359,7 +373,8 @@ async def skip_play(ctx):
         if play_model == "列表循环":
             current_song_index += 1
         elif play_model == "随机播放":
-            current_song_index = random.randint(0, len(play_list) - 1)
+            while current_song_index in current_song_list:
+                current_song_index = random.randint(0, len(play_list) - 1)
 
         allow_play = False
 
@@ -419,6 +434,22 @@ async def rps(ctx):
         # 如果用户没有在 30 秒内作出选择
         await ctx.send(f"{ctx.author.mention}，不是，哥们儿，不玩就别狗叫。")
 
+
+# 监听用户消息
+@bot.event
+async def on_message(message):
+    # 如果消息是由 bot 发送的，则忽略
+    if message.author == bot.user:
+        return
+
+    # 判断是否提及 bot
+    if bot.user in message.mentions:
+        # 生成回复内容
+        response = message.author.mention + create_response(message.content)
+        await message.channel.send(response)
+
+    # 确保 bot 可以正常处理其他命令
+    await bot.process_commands(message)
 
 # 启动机器人
 bot.run('MTI5OTU1MzExOTA4ODE1MjYwOA.GgzRBr.J2uWpHXPDx0o3ezDbhGIZCV-kEeAlgPx8TiWek')
