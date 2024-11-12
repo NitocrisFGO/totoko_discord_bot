@@ -442,11 +442,16 @@ async def on_message(message):
     if message.author == bot.user:
         return
 
-    # 判断是否提及 bot
-    if bot.user in message.mentions:
-        # 生成回复内容
-        response = message.author.mention + create_response(message.content)
+    if isinstance(message.channel, discord.DMChannel):
+        # 私聊消息处理逻辑
+        response = create_response(message.content)
         await message.channel.send(response)
+    else:
+        # 判断是否提及 bot
+        if bot.user in message.mentions:
+            # 生成回复内容
+            response = message.author.mention + create_response(message.content)
+            await message.channel.send(response)
 
     # 确保 bot 可以正常处理其他命令
     await bot.process_commands(message)
