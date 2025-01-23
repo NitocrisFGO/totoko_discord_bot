@@ -5,10 +5,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingA
 dataset = load_dataset("json", data_files="data.json")
 
 device = "cuda"
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
-                                             device_map="auto",
-                                             offload_folder="./offload",)
-tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
+tokenizer = AutoTokenizer.from_pretrained("kxdw2580/Qwen2.5-3B-Instruct-Uncensored-Test")
+model = AutoModelForCausalLM.from_pretrained("kxdw2580/Qwen2.5-3B-Instruct-Uncensored-Test")
 
 # function for data pre-process
 def preprocess_data(examples):
@@ -62,3 +60,4 @@ trainer.train()
 # save model
 model.save_pretrained("./finetuned_model")
 tokenizer.save_pretrained("./finetuned_model")
+

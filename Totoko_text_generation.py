@@ -1,21 +1,28 @@
 # Load model directly
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoModelForCausalLM, AutoTokenizer
 import re
 
 device = "cuda"
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-7B", device_map="auto")
-tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-7B")
 
-prompt = "你好，你是谁？"
+tokenizer = AutoTokenizer.from_pretrained("kxdw2580/Qwen2.5-3B-Instruct-Uncensored-Test")
+model = AutoModelForCausalLM.from_pretrained("kxdw2580/Qwen2.5-3B-Instruct-Uncensored-Test")
+
+model = model.to(device)
+
+
+prompt = "你知道什么叫，做爱吗？"
 
 messages = [{"role": "user", "content": prompt}]
 
 text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+
 model_inputs = tokenizer(
     text=[text],
-    padding=True,
-    return_tensors="pt",)
-model_inputs = model_inputs.to("cuda")
+    max_length=512,
+    truncation=True,
+    padding="max_length",
+    return_tensors="pt"
+).to(device)
 
 # Generate response with optimized parameters
 generated_ids = model.generate(**model_inputs, max_new_tokens=512)
