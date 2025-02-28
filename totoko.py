@@ -6,8 +6,8 @@ import random
 import discord
 import torch
 from discord.ext import commands
-from openai import OpenAI
 from peft import PeftModel
+from discord.ext import commands, tasks
 from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer
 
 
@@ -67,17 +67,17 @@ rps_win_text = ["哎，杂鱼就是杂鱼，一边呆着去吧~", "去~去~你�
                 "托托子是石头剪刀布界最高的山，最长的河，输给咱是很正常的。",
                 "https://baike.baidu.com/item/%E8%BC%95%E5%BA%A6%E5%BC%B1%E6%99%BA/4265374"]
 
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "sk-proj-ESdEUX1qNSKwXETDMZJNT3BlbkFJtOYzzLghfoteonNm5Arj"))
-MODEL = "gpt-4o-mini"
-
 play_list = []
 play_model = '列表循环'
 
 current_song_list = []
 current_song_index = 0
 
+CHANNEL_ID = 0
+
 print(music_dictionary)
 
+current_music = ''
 
 # 让机器人加入用户所在的语音频道
 async def ensure_voice(ctx):
@@ -128,8 +128,18 @@ async def play_next(ctx, current_song_index):
         after=lambda e: asyncio.run_coroutine_threadsafe(play_next(ctx, current_song_index), bot.loop)
     )
 
-    music_text = create_response("如何评价歌曲：" + music_name)
-    await ctx.send(music_text)
+    global current_music
+    current_music = music_name
+
+
+# 任务循环，每 10 秒发送一次消息
+@tasks.loop(seconds=50)  # 设定循环间隔时间
+async def send_message_loop():
+    channel = bot.get_channel(CHANNEL_ID)  # 获取目标频道
+    if channel:
+        global current_music
+        text = create_response("评价一下歌曲： " + current_music)
+        await channel.send(text)  # 发送消息
 
 
 # 启动时的事件
@@ -137,6 +147,9 @@ async def play_next(ctx, current_song_index):
 async def on_ready():
     print(f'Logged in as {bot.user.name} ({bot.user.id})')
     print('------')
+
+    if not send_message_loop.is_running():  # 确保循环未启动时才启动
+        send_message_loop.start()
 
 
 # 一个简单的测试命令，用户可以输入 !hello，机器人会回应
@@ -208,6 +221,9 @@ async def random_play(ctx):
     global allow_play
 
     play_model = '随机播放'
+
+    global CHANNEL_ID
+    CHANNEL_ID = ctx.channel.id
 
     if not await ensure_voice(ctx):
         return
