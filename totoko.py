@@ -137,7 +137,7 @@ async def play_next(ctx, current_song_index):
     )
 
     play_text = random.choice(play_test_list)
-    await ctx.send(play_text + music_name)
+    # await ctx.send(play_text + music_name)
 
 
 # 启动时的事件
