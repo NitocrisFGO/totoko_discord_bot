@@ -1,0 +1,121 @@
+
+
+＄03-00-13-98-2-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252540 1 奥塞洛特尔1]
+[charaSet B 1098252500 1 奥塞洛特尔2]
+[charaSet C 1098252540 1 奥塞洛特尔3]
+[charaSet D 1098252540 1 奥塞洛特尔4]
+[charaSet E 1098252500 1 奥塞洛特尔5]
+[charaSet F 1098252540 1 奥塞洛特尔6]
+[charaSet G 1098253900 1 伊斯卡利]
+[charaSet H 1098254820 1 尼莫水兵]
+[charaSet I 1098257900 1 玛修]
+[charaSet J 1098253200 1 U－奥尔加玛丽]
+[charaSet K 1098252900 1 特佩乌]
+
+[sceneSet L 170000 1]
+
+[sceneSet M 10000 1]
+
+[charaSet N 98115000 1 特效用]
+[charaScale N 0.4]
+
+[imageSet O black_fade_re 1]
+[imageSet P black_fade_re 1]
+
+[scene 170000]
+
+
+[charaTalk depthOff]
+[charaDepth N 10]
+[charaDepth M 9]
+[charaDepth H 8]
+[charaDepth G 7]
+[charaDepth A 6]
+[charaDepth B 5]
+[charaDepth C 4]
+[charaDepth D 3]
+[charaDepth E 1]
+[charaDepth F 2]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFace H 11]
+[charaFace A 0]
+[charaFace D 0]
+[charaFace B 0]
+[charaFace E 0]
+[charaFace C 0]
+[charaFace F 0]
+[charaFadein G 0.1 50,0]
+[charaFadein H 0.1 -125,0]
+[charaFadein A 0.1 100,0]
+[charaFadein D 0.1 -150,0]
+[charaFadeinFSR B 0.1 250,-50]
+[charaFadeinFSL E 0.1 -300,-50]
+[charaFadeinFSSideR C 0.1 400,0]
+[charaFadeinFSSideL F 0.1 -450,0]
+[cameraMove 0.1 0,-15 1.1]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_69 0.1]
+
+＠伊斯卡利
+我就说吧，我就说吧！[r]我要向你道谢！　我会遵守约定！　定会遵守！
+[k]
+
+[messageOff]
+[se bac9]
+[seVolume bac9 0 0.5]
+[charaTalk H,G]
+[charaShake H 0.05 2 2 0.3]
+[charaMove H -160,-15 0.2]
+[wt 0.2]
+[se ad775]
+[seVolume ad775 0 0.4]
+[wt 1.0]
+[se ad346]
+[wt 0.3]
+[seStop ad346 0.2]
+[wt 1.0]
+[charaFace H 0]
+[wt 1.0]
+[charaFace H 9]
+＠尼莫水兵
+啊，啊哈哈，又搞砸了！[r]抱歉直到最后还在给大家添麻烦～～！
+[k]
+
+＠尼莫水兵
+反正每次都这样，不用放在心上！[r]我的事就不用告诉船长啦～～！
+[k]
+
+[messageOff]
+[cameraMove 2.5 0,0 1.01]
+[bgmStop BGM_EVENT_69 1.5]
+[charaTalk off]
+[wt 2.2]
+
+
+
+[se ade65]
+[charaFadein M 0.1 1]
+
+[charaPut N -150,-100]
+[charaEffect N bit_talk_35]
+[wt 1.5]
+
+[se ad528]
+
+[fadeout black 2.0]
+[wait fade]
+[charaFadeout G 0.1]
+[wt 0.5]
+[soundStopAll]
+[end]

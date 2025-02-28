@@ -1,0 +1,985 @@
+
+
+＄03-00-13-10-1-1
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252570 1 摊贩奥塞洛特尔1]
+[charaSet B 1098252570 1 摊贩奥塞洛特尔2]
+[charaSet C 1098252540 1 摊贩奥塞洛特尔3]
+[charaSet D 1098252520 1 路人奥塞洛特尔1]
+[charaSet E 1098252530 1 路人奥塞洛特尔2]
+[charaSet F 1098252530 1 路人奥塞洛特尔3]
+[charaSet G 1098252520 1 路人奥塞洛特尔4]
+[charaScale D 0.9]
+[charaScale E 0.9]
+[charaScale F 0.95]
+[charaScale G 0.95]
+
+[charaScale D 0.9]
+[charaScale E 0.9]
+
+[charaSet H 1098252900 1 特佩乌]
+[charaSet I 98001000 1 玛修]
+[charaSet J 1098254110 1 高扬斯卡娅]
+[charaSet K 1098257500 1 拉斯普京]
+[charaSet L 1098253200 1 U－奥尔加玛丽]
+[charaSet M 4018001 1 魁札尔·科亚特尔]
+
+[sceneSet N 170400 1]
+[charaScale N 1.3]
+[sceneSet O 170400 1]
+[charaScale O 1.3]
+[sceneSet P 170400 1]
+[charaScale P 1.4]
+
+[charaTalk depthOff]
+[charaDepth N 1]
+[charaDepth O 2]
+[charaDepth P 3]
+[charaDepth A 4]
+[charaDepth B 5]
+[charaDepth C 6]
+[charaDepth D 5]
+[charaDepth E 6]
+[charaDepth F 7]
+[charaDepth G 8]
+
+[scene 170400]
+[charaFadein N 0.1 195,-200]
+[wt 0.1]
+
+[charaMove N 95,-200 8.0]
+[se ad940]
+[seVolume ad940 0 0]
+[seVolume ad940 1.0 0.5]
+[fadein black 1.0]
+[wait fade]
+
+[wt 2.5]
+
+[charaFadein O 1.0 -190,-360]
+[charaMove O -190,-260 10.0]
+[wt 1.0]
+
+[charaFadeout N 0.1]
+[wt 3.0]
+
+[seVolume ad940 1.0 0.3]
+[bgm BGM_MAP_88 0.1]
+
+[charaFadein P 1.0 90,-360]
+[charaMove P 140,-360 1.0]
+[wt 1.2]
+
+[charaFadeout O 0.1]
+[charaTalk off]
+[charaFace D 0]
+[charaFace E 0]
+[charaFace F 0]
+[charaFace G 0]
+
+[charaFadein E 0.4 -200,-40]
+[charaMove E -650,-40 3.0]
+[wt 0.5]
+
+[charaFadein D 0.4 200,-40]
+[charaMove D -250,-40 3.0]
+[wt 0.5]
+
+[charaFadein F 0.4 250,-30]
+[charaMove F 650,-30 2.5]
+[charaFadein G 0.4 -250,-30]
+[charaMove G 150,-30 2.5]
+[wt 0.3]
+
+[charaFadeout D 0.4]
+[wt 0.5]
+[charaFadeout E 0.4]
+[wt 0.5]
+
+[charaFadeout F 0.4]
+[charaFadeout G 0.4]
+[wt 0.6]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[se adm46]
+[seVolume adm46 0 0.3]
+[wt 1.0]
+
+[cueSe SE_22 22_ad1223]
+[seVolume 22_ad1223 0 0.4]
+＠B：摊贩奥塞洛特尔
+[image npc_language_21][r][image npc_language_22]
+[k]
+
+[charaFadeout B 0.1]
+[cueSeStop 22_ad1223 0.5]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadeinFSR A 0.1 2]
+[charaMoveReturnFSR A 256,6 0.2]
+
+[charaFace C 0]
+[charaFadeinFSL C 0.1 0]
+
+[cueSe SE_22 22_ad1224]
+[seVolume 22_ad1224 0 0.4]
+
+＠A：摊贩奥塞洛特尔
+[image npc_language_23][r][image npc_language_24][wt 0.2][charaMoveReturnFSR A 256,6 0.2]
+[k]
+
+[cueSeStop 22_ad1224 0.5]
+
+[charaTalk C]
+[se ade191]
+[seVolume ade191 0 0.3]
+[cueSe SE_22 22_ad1202]
+[seVolume 22_ad1202 0 0.4]
+
+＠C：摊贩奥塞洛特尔
+[image npc_language_25][r][image npc_language_26]
+[k]
+
+[messageOff]
+[cueSeStop 22_ad1202 0.5]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaMoveScale P 1.2 1.5]
+[charaMove P 0,-300 1.5]
+[wt 1.7]
+
+[charaTalk off]
+[charaFace D 0]
+[charaFace E 0]
+[charaFace F 0]
+[charaFace G 0]
+[charaFadein E 0.4 150,-40]
+[charaMove E 650,-40 3.0]
+[wt 0.3]
+[charaFadein D 0.4 -250,-40]
+[charaMove D 250,-40 3.0]
+[wt 0.7]
+[charaFadein G 0.4 -150,-30]
+[charaMove G -650,-30 2.5]
+[wt 0.3]
+[charaFadein F 0.4 250,-30]
+[charaMove F -250,-30 2.5]
+[wt 0.3]
+[charaFadeout E 0.4]
+[wt 0.5]
+[charaFadeout D 0.4]
+[wt 0.5]
+[charaFadeout F 0.4]
+[charaFadeout G 0.4]
+[wt 0.5]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL C 0.1 0]
+
+[se adm47]
+[seVolume adm47 0 0.4]
+[seStop adm47 2.0]
+[cueSe SE_22 22_ad1200]
+[seVolume 22_ad1200 0 0.4]
+
+＠A：摊贩奥塞洛特尔
+[image npc_language_27][r][image npc_language_28]
+[k]
+
+[cueSeStop 22_ad1200 0.5]
+
+[charaTalk C]
+
+[se ade254]
+[seVolume ade254 0 0.4]
+[cueSe SE_22 22_ad1201]
+[seVolume 22_ad1201 0 0.4]
+[charaMoveReturnFSL C -256,8 0.6]
+
+＠C：摊贩奥塞洛特尔
+[image npc_language_29][r][image npc_language_30]
+[k]
+
+[cueSeStop 22_ad1201 0.5]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[se ad194]
+[seVolume ad194 0 0.4]
+[cueSe SE_22 22_ad1225]
+[seVolume 22_ad1225 0 0.4]
+
+＠B：摊贩奥塞洛特尔
+[image npc_language_31][r][image npc_language_32]
+[k]
+
+[messageOff]
+[cueSeStop 22_ad1225 0.5]
+[seStop ad940 1.2]
+[charaFadeout P 1.0]
+[charaFadeout A 1.0]
+[charaFadeout B 1.0]
+[charaFadeout C 1.0]
+[wt 1.2]
+
+[charaTalk depthOn]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠特佩乌
+这是[line 3]多么的[line 3]
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.5]
+？1：热闹得毫不逊色于乌鲁克……！
+？2：就像我老家的那条电器街一样！
+
+？！
+
+[charaTalk I]
+[charaFace I 6]
+[charaFadein I 0.1 1]
+＠玛修
+是的，熙熙攘攘的人、人、人[line 3][r]光是大街上就有超过3万人！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 29]
+[charaFadein J 0.1 1]
+
+＠高扬斯卡娅
+嗯嗯，相当热闹吧？
+[k]
+
+＠高扬斯卡娅
+这座墨西哥城目前的人口有10万人。[r]而且住在这里的只有战士职的奥塞洛特尔。
+[k]
+
+＠高扬斯卡娅
+非战士职的女性与小孩则在周围的树海建造村庄，[r]支撑着墨西哥城。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠拉斯普京
+唔。所以这里只是商业都市……不，[r]是为祭祀仪式而建造的都市吧？
+[k]
+
+＠拉斯普京
+而且还是从零开始建造。竟然不是[r]像奇琴伊察那样复兴了过去存在过的遗迹，
+[k]
+
+＠拉斯普京
+而是在空无一物的土地上建立起[r]如此巨大的都市？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 21]
+[charaFadein J 0.1 1]
+
+＠高扬斯卡娅
+…………不。很遗憾，都市本身[r]是特斯卡特利波卡所准备的。
+[k]
+
+[charaFace J 12]
+
+＠高扬斯卡娅
+[#隐匿者:Crypter]戴比特召唤的从者，[r]神灵特斯卡特利波卡。
+[k]
+
+＠高扬斯卡娅
+他赋予了奥塞洛特尔们[#文明:都市]，[r]让阿兹特克神话在米克特兰复活。
+[k]
+
+＠高扬斯卡娅
+这座城市信仰的不是[#太阳的教诲:库库尔坎]，[r]而是黑色太阳……[#烟雾镜:特斯卡特利波卡]。
+[k]
+
+＠高扬斯卡娅
+虽说奥塞洛特尔的物种强度不及迪诺斯，[r]但他们拥有优秀的繁殖能力与应对能力[line 3]
+[k]
+
+＠高扬斯卡娅
+最重要的是他们拥有迪诺斯们所不具备的『斗争心』，[r]才得以造就这般繁荣。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 13]
+[charaFadein L 0.1 1]
+＠U－奥尔加玛丽
+……我已理解那个叫特斯卡特利波卡的家伙[r]与奥塞洛特尔是迦勒底的敌人了……
+[k]
+
+[charaFace L 0]
+
+＠U－奥尔加玛丽
+不过这个问题另当别论！
+[k]
+
+＠U－奥尔加玛丽
+这座城市其实挺不错！[r]洋溢着“要活下去”、“要变得更好”的能量！
+[k]
+
+＠U－奥尔加玛丽
+反倒是这边呈现出的色彩[r]更接近[%1]和玛修！
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠特佩乌
+………………
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 8]
+[charaFadein K 0.1 1]
+
+＠拉斯普京
+大小姐。身为执政者，[r]不该神经大条到说这种伤害眼前支持者的话。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 15]
+[charaFadein L 0.1 1]
+
+＠U－奥尔加玛丽
+为什么啦！？　我可没说过相比起迪诺斯，[r]奥塞洛特尔更优秀之类的话吧？
+[k]
+
+＠U－奥尔加玛丽
+我不是说『另当别论』了吗！
+[k]
+
+＠U－奥尔加玛丽
+更何况，要谈好恶的话，我喜欢特佩乌一百倍啦！[r]他头脑聪明，人又温柔！
+[k]
+
+[bgmStop BGM_MAP_88 1.5]
+
+[messageOff]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+[wt 1.5]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 13]
+[charaFadein I 0.1 1]
+[wt 1.5]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+
+＠高扬斯卡娅
+好了。[r]对墨西哥城的氛围都掌握得差不多了吧？
+[k]
+
+＠高扬斯卡娅
+那么差不多该进入正题了。[r]被带走的迦勒底工作人员……
+[k]
+
+＠高扬斯卡娅
+莱昂纳多·达·芬奇、希翁·艾尔特纳姆、[r]英灵尼莫，还有卡多克先生。
+[k]
+
+＠高扬斯卡娅
+这四人被囚禁在哪里呢？[r]先从这方面着手调查吧。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠拉斯普京
+也就是说，要分头行动吗？
+[k]
+
+＠拉斯普京
+虽然已经用我的变装术让我们看起来跟奥塞洛特尔[r]别无二致，但还是完全听不懂他们的语言。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 8]
+[charaFadein I 0.1 1]
+
+＠玛修
+是的。看来连奥特瑙斯搭载的翻译机[r]也无法应对……
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 1]
+
+＠拉斯普京
+没错，我们无法通过对话来收集情报。
+[k]
+
+＠拉斯普京
+既然如此，只能亲自去寻找[r]『感觉可疑的地方』了。
+[k]
+
+＠拉斯普京
+寻找警备森严的地方，[r]或是探查英灵尼莫这名从者的气息也行。
+[k]
+
+[charaFace K 10]
+
+＠拉斯普京
+话虽如此，如果我是特斯卡特利波卡的话，[r]肯定会准备能遮蔽气息的牢笼。
+[k]
+
+[messageOff]
+[cameraMove 2.0 -110,-70 1.2]
+[charaFadeout K 0.1]
+[wt 2.2]
+
+？1：城市中央的那两座建筑物是？
+
+？！
+
+[cameraHome 1.5]
+[wt 1.6]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠玛修
+是……双子神殿吧。[r]高度应该有超过60米了。
+[k]
+
+＠玛修
+屋顶上分别建有道路，[r]中央看起来有像祭坛的东西……
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 24]
+[charaFadein J 0.1 1]
+
+＠高扬斯卡娅
+啊[line 3]那是活祭的祭坛。[r]活生生地挖出心脏的神圣之顶。
+[k]
+
+[charaFace J 18]
+
+＠高扬斯卡娅
+不过这个问题我们稍后再说吧。[r]毕竟现在不怎么重要。
+[k]
+
+[charaFace J 0]
+
+＠高扬斯卡娅
+然后，那两座神殿分别祭祀着特拉洛克神，[r]以及维齐洛波奇特利神。
+[k]
+
+＠高扬斯卡娅
+维齐洛波奇特利的神殿安放着[r]被召唤的特斯卡特利波卡休憩的神座。
+[k]
+
+＠高扬斯卡娅
+特拉洛克的神殿则安放着[r]奥塞洛特尔王的玉座。
+[k]
+
+＠高扬斯卡娅
+言峰神父的变装术对特斯卡特利波卡行不通。
+[k]
+
+＠高扬斯卡娅
+一旦被发现，就会不由分说地DIE！[r]所以千万不要靠近神殿。
+[k]
+
+？1：所谓的维齐洛波奇特利神是指什么？
+？2：……戴比特呢？
+[branch select01]
+？！
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠玛修
+在泛人类史中，他是阿兹特克人的部族神，[r]也被称作太阳神、战神。
+[k]
+
+＠玛修
+既是将失去土地，流浪于中南美的阿兹特克人[r]引领至[#月之湖:梅斯特利亚潘]的神明，
+[k]
+
+＠玛修
+也是要求大量活祭，[r]以充当驱动太阳之活力的军神。
+[k]
+
+＠玛修
+……另外，其手上拿着[#炎蛇:Xiuhcoatl]，[r]一条腿被描述为蛇，或是升腾的烟，
+[k]
+
+＠玛修
+因此也有说法称其为玛雅神话中的特斯卡特利波卡神[r]被阿兹特克人吸纳后的形象。
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_EVENT_70 0.5 0.5]
+[wait fade]
+
+[effect bit_sepia01_depth_fs]
+[charaFadeout I 0.1]
+[scene 32900]
+[charaTalk M]
+[charaFace M 1]
+[charaFadein M 0.1 1]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 2.5]
+
+[fadeout white 0.5]
+[wait fade]
+
+[charaFadeout M 0.1]
+[scene 170400]
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+[effectDestroy bit_sepia01_depth_fs]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_EVENT_70 0.5 1.0]
+[wait fade]
+
+[wt 0.5]
+
+
+？1：说到[#炎蛇:Xiuhcoatl]……
+？2：是指魁札尔·科亚特尔吗？
+
+？！
+
+[charaFace I 7]
+
+＠玛修
+是的。由于拿[#炎蛇:Xiuhcoatl]当武器滥用，[r]因此被描述为魁札尔·科亚特尔小姐的敌对者。
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+[wt 0.5]
+
+？1：……戴比特呢？
+？！
+
+[charaTalk J]
+[charaFace J 31]
+[charaFadein J 0.1 1]
+
+＠高扬斯卡娅
+戴比特氏基本不怎么靠近墨西哥城。
+[k]
+
+＠高扬斯卡娅
+每当我在这里露面时，[r]他必然都在树海调查遗迹。
+[k]
+
+[charaFace J 30]
+
+＠高扬斯卡娅
+城里的事……迪诺斯与奥塞洛特尔的战事[r]交给了特斯卡特利波卡神，
+[k]
+
+＠高扬斯卡娅
+自己只顾着埋头于感兴趣的田野调查呢。
+[k]
+
+＠高扬斯卡娅
+真是的。[r]搞不懂他究竟有没有身为[#隐匿者:Crypter]的干劲。
+[k]
+
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+[branch select01_end]
+
+
+[label select01]
+
+[charaFace J 31]
+
+＠高扬斯卡娅
+戴比特氏基本不怎么靠近墨西哥城。
+[k]
+
+＠高扬斯卡娅
+每当我在这里露面时，[r]他必然都在树海调查遗迹。
+[k]
+
+[charaFace J 30]
+
+＠高扬斯卡娅
+城里的事……迪诺斯与奥塞洛特尔的战事[r]交给了特斯卡特利波卡神，
+[k]
+
+＠高扬斯卡娅
+自己只顾着埋头于感兴趣的田野调查呢。
+[k]
+
+＠高扬斯卡娅
+真是的。[r]搞不懂他究竟有没有身为[#隐匿者:Crypter]的干劲。
+[k]
+
+[messageOff]
+
+
+？1：所谓的维齐洛波奇特利神是指什么？
+？！
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠玛修
+在泛人类史中，他是阿兹特克人的部族神，[r]也被称作太阳神、战神。
+[k]
+
+＠玛修
+既是将失去土地，流浪于中南美的阿兹特克人[r]引领至[#月之湖:梅斯特利亚潘]的神明，
+[k]
+
+＠玛修
+也是要求大量活祭，[r]以充当驱动太阳之活力的军神。
+[k]
+
+＠玛修
+……另外，其手上拿着[#炎蛇:Xiuhcoatl]，[r]一条腿被描述为蛇，或是升腾的烟，
+[k]
+
+＠玛修
+因此也有说法称其为玛雅神话中的特斯卡特利波卡神[r]被阿兹特克人吸纳后的形象。
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_EVENT_70 0.5 0.5]
+[wait fade]
+
+[effect bit_sepia01_depth_fs]
+[charaFadeout I 0.1]
+[scene 32900]
+[charaTalk M]
+[charaFace M 1]
+[charaFadein M 0.1 1]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 2.5]
+
+[fadeout white 0.5]
+[wait fade]
+
+[charaFadeout M 0.1]
+[scene 170400]
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+[effectDestroy bit_sepia01_depth_fs]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_EVENT_70 0.5 1.0]
+[wait fade]
+
+[wt 0.5]
+
+
+？1：说到[#炎蛇:Xiuhcoatl]……
+？2：是指魁札尔·科亚特尔吗？
+
+？！
+
+[charaFace I 7]
+
+＠玛修
+是的。由于拿[#炎蛇:Xiuhcoatl]当武器滥用，[r]因此被描述为魁札尔·科亚特尔小姐的敌对者。
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[branch select01_end]
+
+[label select01_end]
+
+[bgmStop BGM_EVENT_70 1.0]
+[wt 1.0]
+
+[charaTalk L]
+[charaFace L 22]
+[charaFadein L 0.1 1]
+
+＠U－奥尔加玛丽
+也罢。[r]总之只要随心所欲地在城市里逛逛就行了吧。
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+＠U－奥尔加玛丽
+我还是第一次观察人型人类的实际生活呢！
+[k]
+
+＠U－奥尔加玛丽
+麻烦你们负责解说啦，[%1]、[r]玛修！
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠拉斯普京
+这可不行，大小姐。
+[k]
+
+＠拉斯普京
+既然无法通过对话收集情报，[r]就必须更有效率地运用人手。
+[k]
+
+＠拉斯普京
+而且考虑到突发意外的可能性，[r]还是请大小姐与特佩乌氏在城外待命。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 10]
+[charaFadein L 0.1 1]
+
+＠U－奥尔加玛丽
+为什么啊！？
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠特佩乌
+因为我的尺寸太大了吧？
+[k]
+
+＠特佩乌
+就算外形看起来像是奥塞洛特尔，[r]混在人群中总免不了发生擦碰。
+[k]
+
+＠特佩乌
+而同样道理[line 3]
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 6]
+[charaFadein I 0.1 1]
+
+＠玛修
+啊……对哦……[r]奥尔加玛丽小姐长着角……
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 10]
+[charaFadein L 0.1 1]
+[wt 0.4]
+[cameraMove 1.0 0,-30 1.1]
+[wt 1.5]
+
+？1：毕竟横向太胖了嘛……
+
+[charaFace L 25]
+
+＠U－奥尔加玛丽
+我可一点都不胖哦？[r]你对我的敬意是不是越来越淡薄了？
+[k]
+
+？2：总统，你的角可以简易拆卸吗？
+
+[charaFace L 19]
+
+＠U－奥尔加玛丽
+别轻描淡写地给出猎奇的意见啦！
+[k]
+
+＠U－奥尔加玛丽
+我好歹已经缩小到极限了，[r]不可能再进一步小型化了！
+[k]
+
+？！
+
+[messageOff]
+[cameraMove 1.0 0,0 1.01]
+[wt 1.0]
+[charaFadeout L 0.2]
+[wt 0.2]
+
+[charaTalk I]
+[charaFace I 12]
+[charaFadein I 0.1 1]
+
+＠玛修
+非常抱歉，奥尔加玛丽小姐……[r]希望这次您能忍耐一下……
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 1]
+[charaFadein L 0.1 1]
+
+＠U－奥尔加玛丽
+…………也是。[r]毕竟攸关迦勒底同伴的性命嘛。
+[k]
+
+＠U－奥尔加玛丽
+好吧，视察殖民地就留待下次有机会再说好了。[r][line 3]相对的，
+[k]
+
+[charaFace L 7]
+
+＠U－奥尔加玛丽
+你们要仔细观察城市的情况哦，[r]玛修、[%1]！
+[k]
+
+＠U－奥尔加玛丽
+既然要与奥塞洛特尔战斗，先了解他们的文化、思想、[r]生态乃是最低限度的义务！
+[k]
+
+＠U－奥尔加玛丽
+此前『一无所知地战斗』是囿于情况所限，[r]但既然获得了『了解的机会』就另当别论了。
+[k]
+
+＠U－奥尔加玛丽
+千万别成为拿无知当挡箭牌的卑鄙小人！[r]你们可是我的特别秘书官啊！
+[k]
+
+[messageOff]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 6]
+[charaFadein I 0.1 1]
+[wt 1.0]
+
+[charaFaceFade I 26 0.2]
+[wt 1.5]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

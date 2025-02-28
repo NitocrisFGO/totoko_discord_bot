@@ -1,0 +1,1157 @@
+
+
+＄03-00-13-03-4-0
+
+
+
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098252900 1 特佩乌]
+[charaSet D 1098254800 1 尼莫水兵]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098257500 1 拉斯普京]
+[charaSet G 1098257500 1 拉斯普京_演出用]
+[charaSet H 1098253200 1 U－奥尔加玛丽_演出用]
+[sceneSet I 169100 1]
+[sceneSet J 169100 1]
+[charaScale G 1.2]
+[charaScale H 1.2]
+[charaScale I 1.2]
+[charaScale J 1.2]
+
+[sceneSet K 10000 1]
+[charaScale K 1.05]
+
+[charaSet L 1098259200 1 男人]
+
+[scene 169100]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_71 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 1.0]
+
+？1：格里戈里·拉斯普京……！
+？2：言峰神父……！
+
+？！
+
+[charaFace F 10]
+
+＠拉斯普京
+谢谢你，[%1]。[r]省去我向初次见面的几位自报姓名的工夫了。
+[k]
+
+＠拉斯普京
+称我为拉斯普京或是言峰神父都可以，[r]随各位喜欢。
+[k]
+
+[charaFace F 5]
+
+＠拉斯普京
+但真没想到会在找人时碰上你们。[r]这也是主的指引吗？
+[k]
+
+＠拉斯普京
+对了，情况我都看出来了。[r]不需要说明。
+[k]
+
+＠拉斯普京
+你们为了前往Storm Border，[r]想突破这『第一冥界』。
+[k]
+
+＠拉斯普京
+然而由于『冥界的守卫』，[r]而不得不暂时撤退。是这样吧？
+[k]
+
+？1：是的……但你为什么要出现在我们的面前？
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+是啊。[r]您与迦勒底是敌对关系。
+[k]
+
+＠玛修
+会出现在这里，只能认为[r]是来妨碍我们切除空想树的。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+哈哈哈哈哈。这可不成。[r]看来其中存在误会。
+[k]
+
+＠拉斯普京
+难道是因为此前其他使徒品行不良吗？[r]我是圣职者，并不喜欢战斗。
+[k]
+
+＠拉斯普京
+这次的行动是出于不同的目的。[r]我刚才说过吧，我在找人。
+[k]
+
+[charaFace F 10]
+
+＠拉斯普京
+只要能找到，我就不会与你们敌对。[r]而且，我的目的已经在此实现了。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth B 1]
+[charaDepth F 2]
+[charaDepth I 3]
+[charaDepth G 4]
+[charaDepth J 5]
+[charaDepth H 6]
+
+[charaTalk off]
+[charaFace G 10]
+[charaFadein G 0.5 -100,0]
+[charaFadein I 0.5 100,-200]
+[charaMove G -145,0 1.0]
+[charaMove I 50,-200 1.0]
+[wt 1.4]
+
+[charaFadeout F 0.1]
+
+[charaFaceFade G 2 0.2]
+[wt 1.2]
+
+[charaFace H 1]
+[charaFadein H 0.5 115,0]
+[charaFadein J 0.5 -90,-200]
+[charaMove H 110,0 1.0]
+[charaMove J -100,-200 1.0]
+[wt 1.0]
+
+[charaFadeout G 0.1]
+[charaFadeout I 0.1]
+
+[charaFace F 2]
+[charaFadeinFSL F 0.1 -250,0]
+[charaFace B 1]
+[charaFadeinFSR B 0.1 230,0]
+[wt 0.2]
+
+＠U－奥尔加玛丽
+[FFFFFF]？[-]
+[k]
+
+[messageOff]
+[charaFadeout H 1.0]
+[charaFadeout J 1.0]
+[wt 1.6]
+
+[charaTalk on]
+
+＠拉斯普京
+您在这种地方啊，大小姐。[r]我来迎接您了。
+[k]
+
+＠拉斯普京
+当您坠落到地上时，我还担心会发生什么呢，[r]既然玉体毫发无伤，那我就放心了。
+[k]
+
+＠拉斯普京
+来吧，跟我一起回地球统管府[r]Great Majestic House吧。
+[k]
+
+＠拉斯普京
+还有许多工作、许多佳肴，[r]以及许多学习教材在等着您。
+[k]
+
+[bgmStop BGM_EVENT_71 0.5]
+
+[charaFace B 20]
+
+＠U－奥尔加玛丽
+哎，关我什么事。[r]这家伙谁啊？
+[k]
+
+[charaFace F 10]
+
+＠拉斯普京
+哈哈哈。[bgm BGM_EVENT_146 0.1][r]虽说习以为常，但您的玩笑可真不留情面。
+[k]
+
+[charaFace F 1]
+＠拉斯普京
+我是您忠实的管家，拉斯普京。[r]您总不至于忘了吧。
+[k]
+
+＠U－奥尔加玛丽
+[FFFFFF]？　[wt 1.0]？？？　[wt 1.0]？？？？？？？[-]
+[k]
+
+[charaFace F 11]
+
+＠拉斯普京
+哈哈哈哈哈。[r]哈哈哈哈哈哈哈哈哈哈。
+[k]
+
+[charaFace F 0]
+
+＠拉斯普京
+抱歉，我对大小姐器量之大深感佩服，[r]忍不住笑出声来了。
+[k]
+
+＠拉斯普京
+您不需要记住我的名字。[r]或者今后干脆叫我『神父』就够了。
+[k]
+
+＠拉斯普京
+重要的是，我是大小姐的管家这件事。[r]我是您的仆从，您的伙伴。
+[k]
+
+＠拉斯普京
+这您明白了吧？
+[k]
+
+[messageOff]
+[charaTalk B]
+[charaFace B 23]
+[wt 1.2]
+
+[charaFace B 6]
+
+＠U－奥尔加玛丽
+这个嘛。虽然回忆不起来，[r]但我知道你并没有撒谎。
+[k]
+
+＠U－奥尔加玛丽
+如此浓厚[line 3]近乎黑色的蓝绝无仅有。[r]看来你真的是我的仆从。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+没问题吗！？　我倒是觉得这种[r]言行可疑的神父绝无仅有哦！？
+[k]
+
+[bgmStop BGM_EVENT_146 1.5]
+
+＠尼莫水兵
+U失忆了，应该多怀疑别人一点才行！[r]不然人生会吃很多亏哦！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+哼，像我这样高贵之人没管家才奇怪吧。[r]我不会被骗的啦。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+您说得太对了，大小姐。哪怕丧失记忆，[r]您也没有失去这份气节啊。
+[k]
+
+＠拉斯普京
+哈哈哈哈哈哈哈哈哈哈。
+[k]
+
+？1：（多么心怀鬼胎的笑容……！）
+？2：你葫芦里卖的什么药，拉斯普京！
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+竟然如此轻易拉拢了聪慧的奥尔加玛丽小姐……
+[k]
+
+＠玛修
+您究竟有何企图，言峰神父！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+不用那么警惕。[r]凡事都要注重沟通。
+[k]
+
+＠拉斯普京
+在遭遇意料外事态的问题上，[r]我和你们并没有什么差别。
+[k]
+
+＠拉斯普京
+我前来搜寻下落不明的大小姐，[r]结果大小姐已经交到了可疑的朋友。
+[k]
+
+＠拉斯普京
+我个人其实希望她能立刻跟你们断绝关系，[r]回想起自身的立场[line 3]
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+哈？[r]你打算让我当个只会开空头支票的总统吗？
+[k]
+
+＠U－奥尔加玛丽
+我已经允诺过要协助[%1]与玛修[line 3][r]协助迦勒底这个组织了。
+[k]
+
+＠U－奥尔加玛丽
+至少在抵达Storm Border前，[r]我不打算离开。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玛修
+奥尔加玛丽小姐……！[r]是，请多关照！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+[wt 1.5]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+原来如此，那就没办法了。[r]那我也跟大小姐一样好了。
+[k]
+
+＠拉斯普京
+在大小姐仍表示[#要协助迦勒底]的期间，[r]我也会协助你们。
+[k]
+
+[bgmStop BGM_EVENT_77 1.5]
+
+＠拉斯普京
+不过正如各位所见，我是个手无缚鸡之力的神父。[r]所以请恕我无法参与战斗。
+[k]
+
+？1：什么[line 3]
+？2：真是撒谎也不打草[line 3]
+
+？！
+
+[charaFace F 4]
+
+＠拉斯普京
+这不是撒谎。我不过是一介管家。[bgm BGM_EVENT_81 0.1][r]而且[#这样对你们来说也比较方便]吧？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玛修
+…………
+[k]
+
+[messageOff]
+[charaScale G 0.9]
+
+[charaTalk depthOff]
+[charaDepth F 1]
+[charaDepth I 2]
+[charaDepth A 3]
+[charaDepth G 4]
+[charaDepth K 5]
+
+[charaTalk off]
+[charaFadeout A 1.0]
+[charaFace G 4]
+[charaFadein G 1.0 -170,-30]
+[charaFadein I 1.0 0,-200]
+[wt 1.4]
+
+[charaMove G -250,-50 1.0]
+[charaMoveScale G 0.85 1.0]
+[charaMove I -50,-200 1.0]
+[blur lens 0.5 1 1]
+[wt 0.5]
+
+[subCameraOn 1]
+
+[charaLayer A sub #A]
+
+[subCameraFilter #A through]
+
+[charaScale F 1.0]
+[charaScale A 1.4]
+[charaFace A 0]
+[charaFadein A 0.1 50,0]
+[charaMove A 0,0 0.5]
+
+
+[subRenderFadein #A 0.5 250,0]
+
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk A]
+＠玛修
+（言峰神父说得确实没错。[r]　一旦断定他是『异星之神』的使徒，）
+[k]
+
+＠玛修
+（必然会导致奥尔加玛丽小姐知晓[r]　『异星之神』是什么。）
+[k]
+
+＠玛修
+（也无法预料知晓了事实的奥尔加玛丽小姐[r]　会陷入怎样的状态。）
+[k]
+
+＠玛修
+（若想维持现在的状况，[r]　只能请言峰神父以『管家』的身份加入了……）
+[k]
+
+[messageOff]
+
+[charaFadeout A 1.0]
+[charaFadeout G 1.0]
+[charaFadeout I 1.0]
+[wt 0.6]
+[blurOff lens 0.5]
+
+[wt 1.5]
+[subRenderFadeout #A 1.0]
+[charaScale A 1.0]
+
+[subCameraOff]
+[charaLayer A normal]
+
+[charaTalk depthOn]
+[charaTalk on]
+
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.2 1]
+[wt 0.2]
+
+＠拉斯普京
+你们能够理解就好。[r]放心吧，我发誓不会主动向大小姐进言。
+[k]
+
+＠拉斯普京
+毕竟现在的我对娱乐还没有饥渴到[r]要折断萌芽于地底世界的『友情之梦』。
+[k]
+
+？1：……这我知道了。可是……
+
+？！
+
+[messageOff]
+[wt 0.1]
+
+？1：你知道她为什么会变成这样吗？
+
+？！
+
+[charaFace F 0]
+
+＠拉斯普京
+这个嘛，我也无法想象是怎样的事态能够导致[r]在这颗[#行星:星球]无敌的大小姐失忆哦。
+[k]
+
+＠拉斯普京
+对了，说到无法想象[line 3]
+[k]
+
+[charaFace F 2]
+
+＠拉斯普京
+我也可以提一个问题吗？[r]虽然不怎么关心，但好歹曾为同事。
+[k]
+
+＠拉斯普京
+Limbo的结局是怎么样的？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠玛修
+Li……Limbo的结局吗？[r]这……前辈？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_81 2.0 0.7]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[wt 0.5]
+
+？1：很合理。
+？2：很合理。
+？3：还是很合理。
+
+？！
+
+[charaFace F 8]
+
+＠拉斯普京
+……………………
+[k]
+
+[charaFace F 2]
+
+＠拉斯普京
+好，就当没打听过好了。[r]还是召开作战会议吧，诸位。
+[k]
+
+＠拉斯普京
+各位是打算攻略成为了『冥界的守卫』……[r][#索奇托纳尔:Xochitonal]的她吧？
+[k]
+
+[charaFace F 5]
+
+＠拉斯普京
+我愿意向各位提供一点点智慧。[r]毕竟我在祓除恶灵方面好歹也有一家之言。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_81 1.5]
+[wait fade]
+
+[charaFadeout F 0.1]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_124 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+您是说……祓除恶灵吗，言峰神父？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+嗯。那位从者被恶灵附体了。[r]不必说，就是那个面具。
+[k]
+
+＠拉斯普京
+在墨西哥是叫[#骷髅:卡拉维拉]吧。[r]能感觉到强大的神灵之力。
+[k]
+
+＠拉斯普京
+只要摘下那个面具，从者就会恢复理智吧。[r]虽说无法保证[#能否恢复到原本的状态]。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+这什么啊，什么意思？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+成为了『冥界的守卫』的存在，[r]是一辈子都无法离开冥界的……
+[k]
+
+＠特佩乌
+生者穿行冥界，[r]与死者下冥界，都在试炼范围之内，
+[k]
+
+＠特佩乌
+但守卫却不被允许离开冥界？
+[k]
+
+＠特佩乌
+这就是泛人类史的神明创设的新规定吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+嗯。你很聪明呢，特佩乌。[r]想来是有神明做出了如此规定。
+[k]
+
+[charaFace F 2]
+
+＠拉斯普京
+不过，这同样是个机会。[r]被泛人类史神话所改写的冥界线，
+[k]
+
+＠拉斯普京
+既位于异闻带中，又不再是异闻带。[r]玛修，你能用那台机器测量人理奠基吗？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[se ad15]
+＠玛修
+能测量……这是……[wt 1.0][charaFace A 5][r]人理奠基值在变动……？
+[k]
+
+＠玛修
+这究竟是……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+这意味着既是编纂事象，也是剪定事象啊。
+[k]
+
+＠拉斯普京
+也可以说，过去、现在与未来，[r]这一切全都得到了容许。
+[k]
+
+＠拉斯普京
+在这里，只要[#魔力:资源]允许，[r]想召唤多少骑跟你们迦勒底有缘分的英灵都没问题。
+[k]
+
+＠拉斯普京
+而且就连『或许存在这个可能性』的缘分，[r]也能被暂时拽过来。
+[k]
+
+＠拉斯普京
+也就是说，[r]哪怕是[%1]A不认识的英灵，
+[k]
+
+＠拉斯普京
+只要[%1]B认识，[r]就可以召唤。
+[k]
+
+＠拉斯普京
+不过，一名魔术师召唤数骑就到极限了。[r]不能勉强。
+[k]
+
+＠拉斯普京
+反过来说，只要使用Storm Border的引擎，[r]就能召唤上百骑从者吧。
+[k]
+
+＠拉斯普京
+正如你们曾打算在通古斯卡尝试的那样。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠玛修
+您，您连这件事都知道了？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+放心吧，通古斯卡这件事只是我在套话。[r]我就知道你们最终会采取这种类型的作战。
+[k]
+
+＠拉斯普京
+幸好玛修非常坦率。[r]真希望卡多克能向你好好学习。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 21]
+[charaFadein A 0.1 1]
+[wt 1.6]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+解释到这份上，各位都明白了吧。[r]这里可以自由召唤。
+[k]
+
+＠拉斯普京
+只要研究并召唤出能力适用于攻略索奇托纳尔的从者，[r]就有可能攻略了吧？
+[k]
+
+？1：但是……
+？2：就算有再深的缘分……
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+神父，[%1]来到米克特兰以后，[r]就无法再召唤英灵了。
+[k]
+
+＠特佩乌
+非常抱歉，但这个作战无法成立。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+看起来确实如此呢，毕竟都连令咒都失去了。[r]那些令咒正被卡玛佐茨使用着。
+[k]
+
+＠拉斯普京
+[%1]，[r]你是在哪里放弃令咒的？
+[k]
+
+？1：是在[line 3]
+
+？！
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.7]
+[bgm BGM_EVENT_124 0.7 0.5]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+[scene 168801]
+
+[charaTalk L]
+[charaFace L 0]
+[charaFadein L 0.1 1]
+
+[effect bit_sepia01_depth_fs]
+[wt 0.7]
+
+[fadein white 0.7]
+[wait fade]
+
+[wt 1.5]
+
+[fadeout white 0.7]
+[wait fade]
+
+[effectDestroy bit_sepia01_depth_fs]
+[charaFadeout L 0.1]
+
+[scene 169100]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 0.7]
+
+[fadein white 0.7]
+[bgm BGM_EVENT_124 0.7 1.0]
+[wait fade]
+[wt 1.0]
+
+？1：想不起来了……但是个不可思议的地方……
+
+？！
+
+[charaFace F 3]
+
+＠拉斯普京
+这样啊。被浓雾包围的世界，以及为返回所做的交易。[r][line 3]情况我明白了。
+[k]
+
+＠拉斯普京
+你以令咒为担保，于九死中求得一生。[r]而那些令咒则在卡玛佐茨手上。
+[k]
+
+＠拉斯普京
+也难怪他能让Kingprotea[#异灵:Alter]化。
+[k]
+
+＠拉斯普京
+她应该是在某个时空[r]与你缔结过契约的从者吧。
+[k]
+
+＠拉斯普京
+所以才能用你的令咒下达那种命令。[r]『变成冥界守卫吧』的命令。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 24]
+[charaFadein A 0.1 1]
+
+＠玛修
+怎么会……所以Protea小姐信以为[r]是御主的令咒，才会变成那种模样？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+恐怕是的。若非如此，是不可能轻易献出[r]可谓灵魂的灵核吧。
+[k]
+
+[charaFace F 0]
+
+＠拉斯普京
+不过，现在重要的不是这点哦。
+[k]
+
+＠拉斯普京
+重要的是，[%1]为了复生，[r]而交出了令咒。
+[k]
+
+＠拉斯普京
+但这里是『冥界线』，并非生者的世界。[r]既然如此，恐怕[line 3]
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+原来如此。既然身处冥界，拿『令咒』[r]换取『复活』的契约就不成立了。
+[k]
+
+＠特佩乌
+毕竟『现在还没复活』，[r]契约就是无效的，是这样吧？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+特佩乌氏，稍后来杯俄罗斯[#红茶:Tea]如何。[r]您非常聪明。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaPut E 0,0]
+[charaFadeTime E 0.1 0.7]
+
+＠哈贝特洛特
+对哦。进入第一冥界以来，怀着『反正没戏』的想法，[r]压根没尝试过召唤。
+[k]
+
+＠哈贝特洛特
+不如试试看吧，[%1]？
+[k]
+
+？1：嗯[line 3]！
+
+？！
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[effect bit_talk_summon_fs]
+[se ad39]
+[se ad632]
+[seVolume ad632 0 0]
+[seVolume ad632 0 0.1]
+[se ad153]
+[seVolume ad153 0 0.0]
+[seVolume ad153 1.0 0.2]
+[wt 3.5]
+[seStop ad153 3.0]
+[seStop ad632 5.0]
+[wt 0.5]
+[effectDestroy bit_talk_summon_fs]
+
+[charaTalk depthOff]
+[charaDepth D 6]
+[charaDepth F 5]
+[charaDepth B 4]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.2 50,0]
+[wt 0.5]
+
+[charaScale B 0.95]
+[charaFace B 24]
+[charaFadein B 0.6 -230,-10]
+[charaMove B -250,-10 0.6]
+
+[charaTalk on]
+
+＠拉斯普京
+到此为止。[r]既然你已经意识到能够召唤，接下来就是作战计划。
+[k]
+
+＠拉斯普京
+光凭你一个人能召唤的数量有限。[r]仔细斟酌清楚再决定人选吧。
+[k]
+
+＠拉斯普京
+只要不搞错该使役的从者，[r]要攻略索奇托纳尔应该轻而易举。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_124 1.5]
+
+[charaFace B 16]
+[wt 1.2]
+
+？1：………………
+
+？！
+
+[charaTalk F]
+[charaFace F 3]
+
+＠拉斯普京
+[FFFFFF]？　唔，怎么无精打采的。[-][r]明明都看到胜算了，为何要露出那种阴郁的表情？
+[k]
+
+？1：……话是这么说……
+？2：……但这方法并不能让Protea重获自由。
+
+？！
+
+[messageOff]
+
+[charaFace B 22]
+[wt 1.0]
+[charaMove B -270,-10 0.4]
+[charaFadeout B 0.4]
+
+[charaTalk on]
+[charaFace F 2]
+
+＠拉斯普京
+这我自然清楚。
+[k]
+
+[bgm BGM_EVENT_63 0.1]
+
+＠拉斯普京
+我提议的是索奇托纳尔的攻略方法，[r]并非击败Kingprotea哦。
+[k]
+
+＠拉斯普京
+我是妖僧拉斯普京，[r]但也是不死之诱惑，是工于恶念的祭司。
+[k]
+
+＠拉斯普京
+只要你们能封住索奇托纳尔的行动，[r]届时就轮到我登场了。
+[k]
+
+＠拉斯普京
+我会切除粘在面具上，[r]与灵基相连的肿瘤。
+[k]
+
+＠拉斯普京
+毕竟是神父嘛。虽不擅长战斗，[r]但早就习惯切开伤口进行治疗的方法了。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaScale B 1.0]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+那Protea真的有救了吧！[r]好厉害～，管家先生真能干～～！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 50,0]
+
+＠U－奥尔加玛丽
+嗯，毕竟是服侍我的管家嘛。[r]能做到这些也是当然的。
+[k]
+
+[messageOff]
+[charaTalk B,D]
+[charaFace D 2]
+[charaFadein D 0.4 -180,0]
+[charaMove D -160,0 0.4]
+[wt 0.6]
+
+＠尼莫水兵
+真是的，明明自己都不记得还好意思说呢，总统～☆[r]不过我最喜欢你了，谢谢你陪在我们身边～～！
+[k]
+
+[messageOff]
+[charaTalk B,D]
+[charaMoveReturn D -160,5 0.3]
+[wt 0.4]
+[charaMoveReturn D -160,5 0.3]
+[wt 1.0]
+
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+那就开始选拔从者吧。
+[k]
+
+＠拉斯普京
+对手是被附加了巨大鬣蜥·[#索奇托纳尔:Xochitonal]灵基的高等从者。
+[k]
+
+＠拉斯普京
+大河的守卫、巨人、极大的防御力、[r]死亡面具导致的『体力如生病般衰减』。
+[k]
+
+＠拉斯普京
+御主[%1]。[r]考验你知识与决断的时候到了。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_63 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

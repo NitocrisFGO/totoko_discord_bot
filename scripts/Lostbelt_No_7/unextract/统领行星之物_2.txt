@@ -1,0 +1,1704 @@
+
+
+
+＄03-00-13-25-2-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253320 1 神官乌库伯]
+[charaSet B 1098252800 1 奥塞洛特尔]
+[charaSet C 1098252500 1 奥塞洛特尔1]
+[charaSet D 1098252550 1 奥塞洛特尔2]
+[charaSet E 1098252540 1 奥塞洛特尔3]
+[charaSet F 1098252540 1 奥塞洛特尔4]
+[charaSet G 1098239310 1 卡多克]
+[charaSet H 1098257300 1 达·芬奇]
+[charaSet I 1098255100 1 戈尔德鲁夫]
+[charaSet J 1098252900 1 特佩乌]
+[charaSet K 8001410 1 玛修]
+
+[sceneSet L 10000 1]
+[charaScale L 1.01]
+[sceneSet M 10001 1]
+[charaScale M 1.01]
+[sceneSet N 170402 1]
+[charaScale N 1.3]
+[sceneSet O 170402 1]
+[charaScale O 1.2]
+[sceneSet P 170504 1]
+[charaScale P 1.01]
+[sceneSet Q 170504 1]
+[charaScale Q 1.2]
+[sceneSet R 177300 1]
+[charaScale R 1.3]
+[sceneSet S 177301 1]
+[charaScale S 1.3]
+
+[charaSet T 98115000 1 特效用2]
+
+[imageSet U cut399_skull 1]
+
+
+[scene 170504]
+
+[charaPut T 1]
+[charaEffect T bit_talk_ort_flare]
+
+[pictureFrame cut063_cinema]
+
+[charaTalk depthOff]
+[charaDepth N 1]
+[charaDepth O 2]
+[charaDepth T 3]
+[charaDepth P 4]
+
+[charaFadein N 0.1 -195,-150]
+[wt 0.1]
+
+[cueSe SE_23 23_ad1254 1.0 0.3]
+[charaMove N -60,-150 25.0]
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.0]
+[cueSeVolume 23_ad1254 3.0 0.2]
+[bgm BGM_MAP_97 0.1]
+
+＠
+风暴要来了。[r]为了夺回自己的[#太阳:心脏]，毁灭世界的风暴要来了。
+[k]
+
+＠
+所有奥塞洛特尔都聚集在墨西哥城。
+[k]
+
+＠
+空想树的种子袭击了他们散布在树海各处的部落。
+[k]
+
+＠
+对于无法战斗的人们来说，[r]墨西哥城已经成为了守护他们的希望之要塞。
+[k]
+
+＠
+身为战士的奥塞洛特尔以枪械武装自己，[r]与聚集到墨西哥城的种子交战。
+[k]
+
+[messageOff]
+[charaFadein O 1.5 60,-300]
+[charaMove O 80,-350 25.0]
+[charaMoveScale O 1.3 25.0]
+[wt 1.7]
+[charaFadeout N 0.1]
+
+＠
+而现在，种子已经消失，风暴即将来临。
+[k]
+
+＠
+这是1小时前就已经明确了的事。[r]从米克特兰下层逼近的风暴肉眼可见。
+[k]
+
+＠
+轰飞树木的暴风，[r]从内部破坏动物的彩虹光辉。
+[k]
+
+＠
+拥有城市般巨大躯体的飞行圆盘。
+[k]
+
+＠
+奥塞洛特尔们都清楚，[r]留在墨西哥城内只有死路一条。
+[k]
+
+＠
+他们都知道只能迅速逃往都市外避难，[r]祈祷风暴能够过去。
+[k]
+
+＠
+[line 3]明知如此，[r]他们也没有一个人选择离开城市的[#未来:道路]。
+[k]
+
+[messageOff]
+[cueSeStop 23_ad1254 1.5]
+[charaFadein P 1.0 0,-200]
+[wt 1.5]
+[charaPut T 2500,2500]
+[charaFadeout O 0.1]
+
+[se ad1025]
+[charaTalk off]
+[charaDepth B 5]
+[charaDepth A 5]
+[charaDepth C 6]
+[charaDepth D 7]
+[charaDepth E 8]
+[charaDepth F 9]
+
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein C 0.4 -180,-50]
+[wt 0.2]
+[charaFadein F 0.4 160,-50]
+[wt 0.2]
+[charaFadeinFSL E 0.4 -440,-50]
+[wt 0.2]
+[seStop ad1025 0.5]
+[charaFadeinFSR D 0.4 400,-50]
+[wt 1.5]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 0,-50]
+
+＠神官乌库伯
+你，你们都在想些什么啊！[r]一个个都拿着武器，是想干什么！？
+[k]
+
+＠神官乌库伯
+难道看不见那只怪物吗！？[r]那家伙的目标是太阳！　墨西哥城已经完蛋了！
+[k]
+
+＠神官乌库伯
+赶紧乖乖逃跑，跟我来！[r]是来当神官的护卫哦，足以向其他奥塞洛特尔炫耀了哦！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaSet A 1098253310 1 神官乌库伯]
+[charaDepth A 5]
+
+[se ad769]
+[charaTalk off]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein C 0.1 -180,-50]
+[charaFadein F 0.1 160,-50]
+[charaFadeinFSL E 0.1 -440,-50]
+[charaFadeinFSR D 0.1 400,-50]
+[wt 0.3]
+
+[charaFace B 0]
+[charaFadein B 0.4 0,-50]
+[charaFadeout E 0.4]
+[charaMoveFSL E -540,-50 0.5]
+[wt 0.2]
+[charaFadeout C 0.4]
+[charaMove C -280,-50 0.5]
+[wt 0.2]
+[charaFadeout F 0.4]
+[charaMove F 60,-50 0.5]
+[wt 0.2]
+[seStop ad769 1.0]
+[charaFadeout D 0.4]
+[charaMoveFSR D 300,-50 0.5]
+[wt 2.0]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+
+＠神官乌库伯
+哈！？　莫名其妙，为何要下到城里！？[r]你们这群猴子有那么战斗狂吗！
+[k]
+
+[messageOff]
+[charaCrossFade A 1098253300 4 0.4]
+[wait charaCrossFade A]
+
+＠神官乌库伯
+可恶，好不容易才逃到这里，[r]没想到奥塞洛特尔这么没用……！
+[k]
+
+[charaFace A 5]
+
+＠神官乌库伯
+听好了，就算与那种东西交战，[r]米克特兰也不会属于你们！
+[k]
+
+＠神官乌库伯
+你们视为救命稻草的那什么特斯卡特里波卡，[r]还有[#隐匿者:Crypter]都不在！
+[k]
+
+＠神官乌库伯
+你们究竟是在为谁而战啊！
+[k]
+
+＠神官乌库伯
+是你们的王，伊斯卡利的命令吗！？[r]你们打算为了王而守护城市！？
+[k]
+
+[messageOff]
+[bgmStop BGM_MAP_97 1.5]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaSet A 1098253310 1 神官乌库伯]
+[charaDepth A 5]
+[wt 1.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠奥塞洛特尔
+[line 3]不是，这样。[r]不是，为了，王。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,-50]
+
+＠神官乌库伯
+[line 3]什么。[r]你这家伙，会说话？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_120 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠奥塞洛特尔
+嗯。终于，学会了。[r]所以，也知道，你的事。
+[k]
+
+＠奥塞洛特尔
+战斗，不是，为了王。
+[k]
+
+
+＠奥塞洛特尔
+为了，城市。[r]为了，米克特兰。
+[k]
+
+＠奥塞洛特尔
+我们，想在米克特兰，继续活下去。
+[k]
+
+＠奥塞洛特尔
+想要，变得，更聪明。[r]想让，孩子们，多点欢笑。
+[k]
+
+＠奥塞洛特尔
+所以，战斗。[r]不是，为了神。为我们的世界，战斗。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,-50]
+
+＠神官乌库伯
+[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+[wt 0.3]
+[charaMove B 25,-50 0.2]
+[wt 0.2]
+[cueSe Servants_703900 m43628 0 0.7]
+[charaMove B 0,-50 0.5]
+[wt 0.5]
+[charaMove B 25,-50 0.2]
+[wt 0.2]
+[cueSe Servants_703900 m43628 0 0.7]
+[charaMove B 0,-50 0.5]
+[wt 0.8]
+
+＠奥塞洛特尔
+破坏，祭坛。[r]这样，太阳就能，回到，你们那边了吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,-50]
+
+＠神官乌库伯
+你们要将好不容易到手的太阳权，[r]还给奇琴伊察……？
+[k]
+
+[charaDepth L 5]
+[charaDepth A 6]
+[charaPut L 0,-200]
+[charaFadeTime L 0.2 0.5]
+
+＠神官乌库伯
+（他们不是不理解ORT。[r]　这些家伙很清楚自己会毁灭。）
+[k]
+
+＠神官乌库伯
+（明知如此还打算守护吗！？[r]　不是为了自己，而是为了其他存在[line 3]！？）
+[k]
+
+[messageOff]
+[charaFadeout L 0.2]
+[charaCrossFade A 1098253320 2 0.4]
+[wait charaCrossFade A]
+
+＠神官乌库伯
+呜……！[r]连区区300周期都没活到的黄毛小子……！
+[k]
+
+[messageOff]
+[charaCrossFade A 1098253310 5 0.4]
+[wait charaCrossFade A]
+
+＠神官乌库伯
+可恶，为何要对我说这些！？[r]我对你们这群猴子[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaSet A 1098253320 1 神官乌库伯]
+[charaScale A 1.2]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠奥塞洛特尔
+我知道。你，坏迪诺斯。[r]背叛同伴，自己一个，逃到这里来。
+[k]
+
+＠奥塞洛特尔
+但是不讨厌你。[r]你，为了活下去，一直，很拼命。
+[k]
+
+＠奥塞洛特尔
+在从来不把我们放在眼里的迪诺斯中，[r]只有你，认同我们是交战对手。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth B 5]
+[charaDepth Q 6]
+[charaDepth A 7]
+
+[charaFace A 1]
+[charaFadein Q 0.5 0,-300]
+[charaFadein A 0.5 1]
+[wt 0.7]
+
+[charaTalk A]
+
+＠神官乌库伯
+[line 6]
+[k]
+
+[messageOff]
+[charaFadeout Q 0.5]
+[charaFadeout A 0.5]
+[wt 0.5]
+[charaScale A 1.0]
+
+[charaMove B 25,-50 0.2]
+[wt 0.2]
+[cueSe Servants_703900 m43628 0 0.7]
+[charaMove B 0,-50 0.5]
+[wt 0.5]
+[charaMove B 25,-50 0.2]
+[wt 0.2]
+[cueSe Servants_703900 m43628 0 0.7]
+[charaMove B 0,-50 0.5]
+[wt 0.8]
+
+＠奥塞洛特尔
+好硬，好硬。[r]得快点，得快点。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+
+＠神官乌库伯
+唔……唔，唔，呜唔唔唔唔！
+[k]
+
+[messageOff]
+[charaCrossFade A 1098253310 5 0.4]
+[wait charaCrossFade A]
+
+＠神官乌库伯
+让开，不是这样弄的！[r]一群猴子，连机制都没弄明白吗！
+[k]
+
+＠神官乌库伯
+祭坛不过是装饰。这里应该有一颗从奇琴伊察[r]抢来的石头吧？太阳是被那个吸引过来的。
+[k]
+
+＠神官乌库伯
+没错，就是那个。[line 3]给我。[r]我把它放回原来的地方。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaSet A 1098253300 1 神官乌库伯]
+[charaDepth A 5]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠奥塞洛特尔
+太好了。[r]这下我也，可以去战斗了。
+[k]
+
+
+[messageOff]
+[charaMoveScale B 1.05 0.3]
+[charaMove B 0,-47 0.3]
+[se ad775]
+[seVolume ad775 0 0.6]
+[wt 0.7]
+
+＠奥塞洛特尔
+给你，这个。[r]帮忙搬石头的交换。你被命运选中了。
+[k]
+
+[messageOff]
+[charaFadeout B 0.2]
+
+[charaDepth L 6]
+[charaDepth U 7]
+[wt 0.2]
+
+[charaScale L 1.2]
+[charaPut L 0,-200]
+[charaFadeTime L 0.4 0.5]
+[charaFadein U 0.4 0,-200]
+[wt 0.05]
+[se ade353]
+[wt 0.3]
+[seStop ade353 0.2]
+[wt 1.4]
+
+[messageOff]
+[charaFadeout L 0.4]
+[charaFadeout U 0.4]
+[wt 0.5]
+
+[charaScale B 1.0]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 0,-50]
+
+＠神官乌库伯
+这是什么。猴子们的头盖骨吗？[r]算了……至少能当做营养补给吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠奥塞洛特尔
+被选中的幸运，已经，在[#心中:这里]了。[r]有机会转交的话，你也转交给，下一个勇者吧。
+[k]
+
+
+[messageOff]
+[se ad59]
+[seStop ad59 1.0]
+[charaMove B -100,-50 0.5]
+[charaFadeout B 0.4]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 0,-50]
+
+＠神官乌库伯
+……慢着！[r]连个招呼都不打吗！
+[k]
+
+＠神官乌库伯
+你叫什么名字。[r]猴子至少也会有个名字吧！
+[k]
+
+[messageOff]
+[charaDepth A 5]
+[charaDepth Q 6]
+[charaDepth B 7]
+
+[se ad59]
+[seVolume ad59 0 0]
+[seVolume ad59 0.5 1.0]
+[charaFadein Q 0.5 70,-315]
+[charaMove Q 120,-315 0.5]
+[wt 0.5]
+[seStop ad59 0.7]
+[charaScale B 1.2]
+[charaTalk B]
+[charaFace B 0]
+[charaFadeinFSL B 0.4 -176,-65]
+[charaMoveFSL B -256,-65 0.5]
+[wt 1.0]
+
+＠奥塞洛特尔
+有。夸乌特莫克。[r]不是神，而是王[line 3]
+[k]
+
+＠奥塞洛特尔
+伟大的父亲赐给我的，充满勇气的发音。
+[k]
+
+[messageOff]
+[se ade191]
+[charaMoveReturnFSL B -256,-75 0.5]
+[wt 0.5]
+[charaMoveReturnFSL B -256,-80 0.5]
+[wt 1.3]
+[se ad59]
+[seStop ad59 1.5]
+[charaMoveFSL B -356,-65 0.5]
+[charaFadeout B 0.4]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadeout Q 0.5]
+[wt 0.7]
+
+＠神官乌库伯
+……哼。想死就随你自己的便吧。[r]蠢归蠢，但我不至于瞧不起这种自由。
+[k]
+
+＠神官乌库伯
+毕竟我也是同类。[r]一度任由他人夺走的东西，就由我自己亲[#脚:手]还回去。
+[k]
+
+＠神官乌库伯
+这等愚蠢行径，在米克特兰可谓史无前例。[r]啊，太可恨了[line 3]
+[k]
+
+[charaFaceFade A 1 0.2]
+
+＠神官乌库伯
+受不了，要是我们也具备几分[r]你们的这种鲁莽冲劲就好了。
+[k]
+
+[messageOff]
+[charaFace A 4]
+[cueSe Servants_404400 m45205 0 0.7]
+[charaMove A 0,50 0.3]
+[charaFadeout A 0.3]
+[wt 0.8]
+
+[cueSe Servants_900700 bac928 0 0.6]
+[wt 0.5]
+[charaPut T 1]
+[charaFadein N 0.1 80,-350]
+[cueSeStop bac928 2.4]
+[wt 0.5]
+[cueSe SE_23 23_ad1254 1.5 0.2]
+[charaFadeout P 1.5]
+[charaMove N 60,-300 25.0]
+[charaMoveScale N 1.2 25.0]
+[wt 2.0]
+
+＠
+嘴上骂骂咧咧，[r]神官启程飞向了奇琴伊察。
+[k]
+
+＠
+夸乌特莫克。[r]那是泛人类史中阿兹特克王国末代国王的名字。
+[k]
+
+＠
+莫特库索马二世亡故后，在西班牙占领下的[r]特诺奇蒂特兰继承了王位，
+[k]
+
+＠
+与仅仅数百名民众一同战斗至最后的，勇敢的年轻国王。[r]而这名字的含义，是俯冲之雕。
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 1.5]
+[cueSeStop 23_ad1254 1.5]
+[bgmStop BGM_EVENT_120 1.5]
+[wait fade]
+
+[charaEffectDestroy T bit_talk_ort_flare]
+
+[sceneSet P 170403 1]
+[charaScale P 1.3]
+
+[charaFadeout N 0.1]
+[pictureFrame]
+
+[scene 142000]
+[cameraMove 0.1 0,0 1.01]
+[wt 3.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_MAP_97 0.1]
+
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.1 1]
+
+＠卡多克
+[%1]！　30分钟到了，快休息！[r]调整呼吸！　你想缺氧而死吗！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 24]
+[charaFadein K 0.1 1]
+
+＠玛修
+ORT，距离墨西哥城还有6公里！[r]将在5分钟后登陆！
+[k]
+
+[charaFace K 4]
+
+＠玛修
+奥塞洛特尔们正在迎击，[r]但是凭他们的武装，对ORT……
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 18]
+[charaFadein I 0.1 1]
+
+＠戈尔德鲁夫
+果然不行吗……！[r]要是连[#太阳:心脏]都被它夺回去了，那家伙就……！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 24]
+[charaFadein H 0.1 1]
+
+＠达·芬奇
+[FFFFFF]？[-]　关于那个太阳……它是不是在移动？
+[k]
+
+？1：呼……呼……真的吗？
+？2：（边调整呼吸边看向显示器）
+
+？！
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠卡多克
+确实在移动……这个小型热源就是太阳遍历吗？[r]它正朝着奇琴伊察移动……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+
+＠特佩乌
+这个生体波动是乌库伯吧。[r]看来是他在搬运太阳遍历。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 17]
+[charaFadein I 0.1 1]
+
+＠戈尔德鲁夫
+什么！　虽不知他发生了什么心态变化，但是帮大忙了！
+[k]
+
+＠戈尔德鲁夫
+只要太阳回到奇琴伊察，[r]就能靠Storm Border来防卫了！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 12]
+[charaFadein H 0.1 1]
+
+＠达·芬奇
+不对，不行啊，来不及了！[r]以这个速度，会被追上的！
+[k]
+
+＠达·芬奇
+太阳遍历会被吞没进超级单体的范围内！
+[k]
+
+＠达·芬奇
+如果搬运它的是乌库伯，那就完蛋了！[r]太阳不会移动到奇琴伊察！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 3]
+[charaFadein J 0.1 1]
+
+＠特佩乌
+翼龙的优势是体重轻与速度快，[r]但如果带着太阳遍历，这速度已经是极限了吧。
+[k]
+
+＠特佩乌
+ORT的前进速度比乌库伯更快。[r]再过1分钟左右乌库伯就在风暴范围内了。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 7]
+[charaFadein I 0.1 1]
+
+＠戈尔德鲁夫
+唔，米克特兰就没有神佛保佑吗！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+[charaFadeout I 0.1]
+[scene 170403]
+[effect bit_talk_security_fs]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+
+＠玛修
+ORT抵达墨西哥城外缘。[r]奥塞洛特尔的防线撤退至都市区域。
+[k]
+
+＠玛修
+他们好像打算抗战到底……
+[k]
+
+＠卡多克
+……他们应该会战斗吧，战斗至最后一刻。
+[k]
+
+＠卡多克
+无论侵略者是什么人，都要守护自己的居所。[r]……对哪个时代的人类来说，这都是天经地义的行动。
+[k]
+
+[bgmStop BGM_MAP_97 1.5]
+
+＠卡多克
+……？[r]不，慢着，墨西哥的热源温度是不是高得有些异常？
+[k]
+
+＠玛修
+从墨西哥城全境检测到庞大的魔力量！[r]这是[line 3]神灵级的灵基反应！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[effectDestroy bit_talk_security_fs]
+[scene 10000]
+[wt 1.0]
+
+[cueSe SE_23 23_ad1254 1.0 0.2]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+＠
+反正谁都不在。[r]根本不可能有人去守护什么临时的居所。
+[k]
+
+＠
+所以，我来到了已经空无一人的都市中心，[r]打算见证完米克特兰的终末后就消失。
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1227]
+[seVolume 23_ad1227 0 0.4]
+[cueSeStop 23_ad1254 1.5]
+[wt 0.5]
+[se ad889]
+[seVolume ad889 0 0]
+[se ad647]
+[seVolume ad647 0 0]
+[seVolume ad889 0.5 1.0]
+[seVolume ad647 0.5 0.8]
+[wt 2.0]
+
+[seStop 23_ad1227 2.0]
+[seStop ad889 2.0]
+[seStop ad647 2.0]
+[wt 1.5]
+
+[bgm BGM_EVENT_123 0.1]
+
+＠特诺奇蒂特兰
+[line 3]不会吧。
+[k]
+
+＠
+热闹得令人怀疑自己的眼睛。[r]欢呼声震耳欲聋。
+[k]
+
+＠
+他们没有一个人逃跑。[r]手持武器，面对侵略者团结一致。
+[k]
+
+＠
+“想一直待在这个地方。”[r]“想永远在这座美丽的都市生活下去。”
+[k]
+
+＠
+他们将为此而战，视为一种喜悦。
+[k]
+
+＠
+……不过，也并非毫不畏惧。[r]奔赴战场的所有人，都做好了赴死的觉悟。
+[k]
+
+＠
+『绝对无法活着回去，[r]　我们会在这里灭绝。』
+[k]
+
+＠
+『但还是要战斗，哪怕最后死得一个不剩，[r]　也要为了此处曾有的喜悦与时间而战。』
+[k]
+
+＠
+这次的战斗并非生物之间的厮杀，[r]而是在前所未有的灾害中守护所爱之物的战斗。
+[k]
+
+＠
+是为了守护他们认为与生命同等[r]重要的归宿而打响的最后一战。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_123 1.5]
+[wt 1.0]
+[cueSe SE_23 23_ad1256 0 0.7]
+[wt 2.0]
+
+[bgm BGM_BATTLE_206 0.1]
+
+＠特诺奇蒂特兰
+[line 3]双神神殿，移动至双肩。[r]将都市水脉转换为魔术回路。[#点火星辰:Mamalhuaztli]，注入灵核。
+[k]
+
+＠
+[line 3]啊啊，真是的。[r]受不了，这究竟，算什么啊。
+[k]
+
+＠
+是在做梦以为只要勇敢战死就能前往天上吗？[r]肯定是这样吧。阿兹特克就是这样的世界。
+[k]
+
+＠
+只要在战斗中死去，无论是谁都能获得认可。[r]只要在战斗中获胜，无论是谁都会成为正义。
+[k]
+
+＠
+然而那仅限于对方也是战士的情况。[r]因事故或疾病而死之人会被送往不同的冥界。
+[k]
+
+＠
+因寿终或灾害而死之人，[r]只能前往特斯卡特利波卡神的乐园。
+[k]
+
+＠
+然而那位特斯卡特利波卡神已经不在了。[r]就算死在这里，也没有救赎他们的神。
+[k]
+
+＠特诺奇蒂特兰
+[line 3]既然如此。[r]也只能，由我来，做这件事了。
+[k]
+
+＠
+难以置信。[r]难道都以为我是个认真死板、不苟言笑的优等生？
+[k]
+
+＠
+别开玩笑了。我只是想避免麻烦事而已，[r]只是不想干累活而已。
+[k]
+
+＠
+只是讨厌没有收获的事而已。[r]然而[line 3]
+[k]
+
+＠
+分明已经无法战斗下去了，[r]连歪个头都，难以，做到。
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1257 0 0.7]
+[wt 2.0]
+
+＠特诺奇蒂特兰
+[#重神合体机构:奥梅特奥特尔]，确认。[r]心脏都市，启动[line 3]
+[k]
+
+[messageOff]
+[se ad780]
+[fadeout white 0.5]
+[wait fade]
+
+[scene 177300]
+[cameraMove 0.1 0,0 1.8]
+[wt 0.5]
+
+[se ade393]
+[seVolume ade393 0 0]
+[cueSe SE_23 23_ad1263]
+[seVolume 23_ad1263 0 0]
+[seVolume ade393 1.0 0.7]
+[seVolume 23_ad1263 1.0 0.6]
+
+[cameraMove 1.5 0,0 1.01]
+[fadein white 1.0]
+[wait fade]
+
+[wt 0.5]
+
+＠特诺奇蒂特兰
+你[messageShake 0.05 5 5 0.5]这混账[line 4]侵略者！[r]不许再踏入我的城市一步[line 3]！
+[k]
+
+[messageOff]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[cueSe SE_23 23_ad1258]
+[shake 0.05 6 5 1.5]
+[wt 1.5]
+[shake 0.04 5 4 1.5]
+[wt 1.0]
+
+[seStop ade393 1.5]
+[seStop 23_ad1263 1.5]
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[bgm BGM_BATTLE_206 0.5 0.5]
+[cueSeStop 23_ad1258 1.0]
+[wait wipe]
+
+[scene 142000]
+[wt 0.5]
+
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[bgm BGM_BATTLE_206 0.5 1.0]
+[wait wipe]
+
+[charaTalk H]
+[charaFace H 26]
+[charaFadein H 0.1 1]
+
+＠达·芬奇
+特诺奇蒂特兰的宝具！？[r]比跟我们战斗时还要大啊！
+[k]
+
+＠达·芬奇
+倒不如说，难不成[line 3][r]那座城市整体都是她的宝具吗！
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth K 1]
+[charaDepth G 2]
+
+[charaFace K 6]
+[charaFace G 3]
+[charaFadeinFSR K 0.1 2]
+[charaFadeinFSL G 0.1 0]
+[wt 1.5]
+
+[charaFadeout K 0.1]
+[charaFadeout G 0.1]
+[wt 0.5]
+
+[charaTalk depthOn]
+[charaTalk on]
+[charaSet K 1098257910 1 玛修]
+
+？1：好厉害，直接挡下了ORT……！
+？2：这下乌库伯也能逃掉了……！
+
+？！
+
+[charaTalk I]
+[charaFace I 17]
+[charaFadein I 0.1 1]
+
+＠戈尔德鲁夫
+噢噢噢，那英勇的身姿简直就像[r]斗轮式挖掘机！
+[k]
+
+＠戈尔德鲁夫
+人类引以为傲的最大巨无霸工程车！[r]斗轮式挖掘机！
+[k]
+
+？1：斗轮式挖掘机！
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+
+＠卡多克
+嗯，没错，[%1]！
+[k]
+
+＠卡多克
+全长超过200米的怪物挖掘机，[r]斗轮式挖掘机！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+？2：斗轮式挖掘机？
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 29]
+[charaFadein K 0.1 1]
+
+＠玛修
+您不知道吗，前辈！？
+[k]
+
+＠玛修
+全长超过200米的超级挖掘机，[r]斗轮式挖掘机！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠达·芬奇
+不完全不像而且特诺奇蒂特兰要是在场[r]估计会发火不过我明白你想表达什么！
+[k]
+
+[charaFace H 8]
+
+＠达·芬奇
+[line 3]不对，现在不是兴奋的时候！[r]戈尔德鲁夫，前进方向改为奇琴伊察！
+[k]
+
+＠达·芬奇
+趁特诺奇蒂特兰还在帮忙争取时间，[r]我们紧紧追上太阳！
+[k]
+
+＠达·芬奇
+决战就在第二冥界！[r]到那里再度对ORT发起总体战！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout H 0.1]
+
+[scene 177301]
+
+[charaTalk depthOff]
+[charaDepth R 2]
+[charaDepth M 2]
+[charaDepth S 1]
+[charaDepth P 1]
+[charaFadein R 0.1 -195,-350]
+
+[wt 1.0]
+
+[cueSe SE_23 23_ad1259 1.0 1.0]
+[shake 0.02 2 3 0]
+[charaMove R 50,-300 5.5]
+[fadein black 1.0]
+[wait fade]
+
+[wt 3.8]
+[bgmStop BGM_BATTLE_206 1.0]
+[cueSe SE_23 23_ad1260]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[shake 0.05 5 4 1.0]
+[wt 0.1]
+[charaFadeout R 0]
+[wt 1.2]
+
+＠特诺奇蒂特兰
+……！
+[k]
+
+[bgm BGM_EVENT_69 0.1]
+
+＠
+只有刚开始还有点气势。[r]只有刚开始还能势均力敌。
+[k]
+
+＠
+无法阻止圆盘的旋转，双[#神:臂]粉碎，[r]变回原本的石块不断掉落。
+[k]
+
+＠
+[#重神合体机构:奥梅特奥特尔]就是我自己。[r]都市所受的伤会原样返回到我身上。
+[k]
+
+[messageOff]
+[charaFadein S 1.0 -190,-150]
+[charaMove S -100,-270 30.0]
+[wt 1.2]
+
+＠特诺奇蒂特兰
+啊，啊[line 3]！[r]呜唔唔，好痛，好痛啊啊啊……！！！
+[k]
+
+＠
+泪水渗出，惨叫迸发。[r]早知道就不干了，近似愤怒的后悔涌上心头。
+[k]
+
+＠
+一旦我的灵魂衰弱，都市也会随之瓦解。
+[k]
+
+＠
+太不像样了，实际上连1分钟都没撑住。[r]我的阻挡简直毫无意义。
+[k]
+
+＠
+这种愚蠢的行径只会徒增疼痛与无力感。
+[k]
+
+＠
+我什么都守护不了。[r]无论是曾经存在过的时代，还是这个异闻带。
+[k]
+
+＠
+这段时间只是让我深刻体会到了这点，[r]就在我快要丢人地倒下时……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_69 1.0]
+[charaFadeout S 0.5]
+[wt 0.7]
+[se ade386]
+[seVolume ade386 0 0.5]
+[wt 0.8]
+[se ad96]
+[seVolume ad96 0 0.5]
+[wt 1.0]
+[se ad614]
+[seVolume ad614 0 0.4]
+[wt 0.7]
+[se bac61]
+[seVolume bac61 0 0.7]
+[wt 1.6]
+
+[bgm BGM_BATTLE_197 0.1]
+
+＠特诺奇蒂特兰
+[line 3]呜。[r]……呜…………[line 3]！
+[k]
+
+＠
+泪水滴落，呜咽流出。[r]为什么不逃，近似愤怒的喜悦涌上心头。
+[k]
+
+[messageOff]
+[charaFadein P 1.0 30,-150]
+[charaMove P 0,-150 10.0]
+[wt 1.5]
+
+[sceneSet S 177301 1]
+[charaScale S 1.3]
+
+＠
+他们正守护着，[r]我正被守护着。
+[k]
+
+＠
+守护着这座曾经没能被守护，[r]甚至连守卫之战都没打响的城市。
+[k]
+
+＠
+守护着被侵略者占领，被异文化的价值观[r]掩埋到泥土之下，被当作从未存在过的我。
+[k]
+
+＠特诺奇蒂特兰
+……不，还没被掩埋。[r]既然这座城市里还有期盼能活下去的人在，
+[k]
+
+＠
+哪怕照这样下去阻止不了你。[r]哪怕只能将1分钟的抵抗延长到2分钟。
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1257 0 0.7]
+[subCameraOn 1]
+[charaLayer S sub #A]
+[charaLayer M sub #A]
+
+[charaFadein S 0 -300,50]
+[subCameraFilter #A maskEdge cut359_mask09 5 0,0,0,255 0]
+[subRenderFadein #A 0.4 200,-300]
+[subRenderMove #A 200,-200 0.3]
+[wt 1.0]
+
+＠特诺奇蒂特兰
+这也不足以构成让我放弃的理由[line 3]！
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1262]
+[wt 1.0]
+[charaFadein M 0.1 0,200]
+[wt 0.1]
+[charaFadeout M 0.2]
+[wt 0.4]
+[charaFadein M 0.1 0,200]
+[wt 0.1]
+[charaFadeout M 0.2]
+[wt 0.4]
+
+[se ad780]
+[fadeout white 0.5]
+[wait fade]
+
+[subRenderFadeout #A 0.1]
+[charaFadeout M 0.1]
+[charaFadeout S 0.1]
+[charaFadeout P 0.1]
+[charaLayer M normal]
+[charaLayer S normal]
+[subCameraOff]
+[charaScale R 1.2]
+[charaFadein R 0.1 150,-270]
+[wt 0.1]
+
+[charaMove R 0,-270 1.0]
+[fadein white 1.0]
+[wait fade]
+[se ade393]
+[seVolume ade393 0 0]
+[cueSe SE_23 23_ad1258]
+[seVolume ade393 1.0 0.5]
+[shake 0.05 6 5 1.5]
+[wt 1.0]
+
+[cueSe SE_23 23_ad1263 0 0.7]
+[shake 0.05 3 2 0]
+[wt 2.0]
+
+＠
+无论多少次，无论多少次，都要建造起来，[r]守护他们的太阳，守护他们的梦想。
+[k]
+
+[messageOff]
+[charaMove R 0,-200 0.8]
+[charaMoveScale R 1.01 0.8]
+[wt 1.0]
+[shake 0.05 5 4 0]
+
+＠特诺奇蒂特兰
+吾名为特诺奇蒂特兰！[r]乃祭祀战士们的壮丽水之都！
+[k]
+
+＠特诺奇蒂特兰
+乃是即便死亡也能复生的，阿兹特克世界的心脏[line 3]！
+[k]
+
+[messageOff]
+[cueSeVolume 23_ad1263 1.5 1.0]
+[seVolume ade393 1.5 1.0]
+[bgmStop BGM_BATTLE_197 3.0]
+[fadeout white 3.0]
+[wait fade]
+
+[shakeStop]
+
+[charaFadeout R 0.1]
+[scene 10001]
+[wt 0.1]
+
+[fadein white 1.0]
+[wait fade]
+
+[fadeout black 3.0]
+[seStop ade393 4.0]
+[cueSeStop 23_ad1263 4.0]
+[wait fade]
+
+[scene 10000]
+[wt 1.0]
+
+[fadein black 0.1]
+[wait fade]
+
+[wipeout circleIn 0.1 1]
+[wait wipe]
+
+[charaSet A 1098252570 1 奥塞洛特尔5]
+[charaSet B 1098252520 1 奥塞洛特尔6]
+[charaSet C 1098252530 1 奥塞洛特尔7]
+[charaSet D 1098252570 1 奥塞洛特尔8]
+[charaSet E 1098252520 1 奥塞洛特尔9]
+[charaSet F 1098252530 1 奥塞洛特尔10]
+[charaSet G 1098259200 1 特斯卡特利波卡]
+[charaSet H 1098252800 1 夸乌特莫克]
+[charaSet I 1098253910 1 伊斯卡利]
+[charaSet J 1098255300 1 尼托克丽丝]
+[sceneSet Q 177400 1]
+[sceneSet R 177401 1]
+[charaScale Q 1.3]
+[charaScale R 1.3]
+[charaScale A 0.8]
+[charaScale B 0.8]
+[charaScale C 0.9]
+[charaScale D 0.9]
+
+[charaPut T 2500,2500]
+[charaEffect T bit_talk_06_blue]
+
+[scene 170400]
+[effect bit_sepia01_depth_fs]
+[wt 1.0]
+
+[wipein circleIn 2.0 1]
+[wait wipe]
+
+[bgm BGM_EVENT_45 0.1]
+
+[charaTalk off]
+[charaDepth A 1]
+[charaDepth B 2]
+[charaDepth C 3]
+[charaDepth D 4]
+[charaDepth E 5]
+[charaDepth F 6]
+
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFace F 0]
+[charaFadein B 0.1 -250,-100]
+[wt 0.2]
+[charaFadein A 0.4 100,-100]
+[charaMove A 50,-100 0.4]
+[wt 0.5]
+[charaMoveReturn A 50,-110 0.3]
+[wt 0.3]
+[charaMoveReturn A 50,-110 0.3]
+[wt 0.5]
+[charaMoveReturn B -250,-120 0.5]
+[charaFadein C 0.4 250,-40]
+[charaMove C -500,-40 3.5]
+[wt 1.0]
+[charaMove A 450,-100 1.6]
+[wt 0.2]
+[charaMove B 150,-100 1.6]
+[wt 1.0]
+[charaFadeout A 0.4]
+[charaFadein D 0.4 -450,-40]
+[charaMove D 150,-40 2.5]
+[wt 0.2]
+[charaFadeout B 0.4]
+[wt 0.5]
+[charaFadeout C 0.4]
+[wt 0.5]
+[charaFadein E 0.4 50,0]
+[charaMove E -500,0 2.2]
+[wt 0.2]
+[charaFadein F 0.4 350,0]
+[charaMove F -200,0 2.2]
+[wt 0.5]
+[charaFadeout D 0.4]
+[wt 1.0]
+[charaFadeout E 0.4]
+[wt 0.3]
+[charaFadeout F 0.4]
+[wt 1.0]
+
+[fadeout white 0.5]
+[wait fade]
+
+[scene 169100]
+
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 2.5]
+
+[fadeout white 0.5]
+[wait fade]
+
+[charaFadeout G 0.1]
+
+[scene 173200]
+
+[charaDepth H 1]
+[charaDepth I 2]
+[charaFace H 0]
+[charaFace I 0]
+[charaFadeinFSR H 0.1 2]
+[charaFadeinFSL I 0.1 0]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 0.2]
+[charaMoveReturnFSL I -256,-10 0.5]
+[wt 0.7]
+[charaMoveReturnFSL I -256,-10 0.5]
+[wt 1.0]
+[charaMoveReturnFSR H 256,-10 0.3]
+[wt 0.3]
+[charaMoveReturnFSR H 256,-10 0.3]
+[wt 1.8]
+
+[fadeMove white 0.5 1.0]
+[wait fade]
+
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+
+[scene 175000]
+
+[charaPut J 1]
+[charaPut T 0,-50]
+[charaFace J 6]
+[charaFadeTime J 0.1 0.7]
+[wt 0.1]
+
+[fadeMove white 0.5 0.2]
+[wait fade]
+
+[wt 2.5]
+
+[fadeMove white 0.5 1.0]
+[wait fade]
+
+[charaFadeout J 0.1]
+[charaPut T 2500,2500]
+[charaEffectStop T bit_talk_06_blue]
+
+[scene 170500]
+
+[charaSet I 1098253920 1 伊斯卡利]
+[charaFace I 11]
+[charaFadein I 0.1 1]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 1.0]
+[charaFaceFade I 12 0.2]
+[wt 1.5]
+
+[fadeout white 0.5]
+[wait fade]
+
+[charaFadeout I 0.1]
+[scene 171700]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 2.5]
+
+[fadeout black 2.0]
+[bgm BGM_EVENT_45 2.0 0.5]
+[wait fade]
+
+[effectDestroy bit_sepia01_depth_fs]
+[charaFadeout S 0.1]
+[scene 10000]
+[wt 0.1]
+
+[fadein black 0.1]
+[wait fade]
+
+[wipeout circleIn 0.1 1]
+[wait wipe]
+
+[scene 177401]
+[charaDepth Q 2]
+[charaDepth R 1]
+[charaFadein Q 0.1 -160,-280]
+[charaFadein R 0.1 -160,-280]
+[wt 1.0]
+
+[charaMove Q -190,-310 3.0]
+[charaMove R -190,-310 3.0]
+
+[wipein circleIn 3.0 1]
+[bgm BGM_EVENT_45 3.0 1.0]
+[wait wipe]
+
+[wt 0.5]
+
+＠特诺奇蒂特兰
+[line 3]啊。
+[k]
+
+＠特诺奇蒂特兰
+啊～…………知道了知道了。[r]还发生过，那种事，呢。
+[k]
+
+＠特诺奇蒂特兰
+ORT……已经不在了吗。[r]擅自改变前进路线，擅自扭头就走。
+[k]
+
+＠特诺奇蒂特兰
+在它看来，我们不过是路边的小石子吧。[r]真是不敬至极，呢。
+[k]
+
+[messageOff]
+[charaFadeout Q 0.5]
+[wt 0.5]
+
+＠特诺奇蒂特兰
+……不过，也罢。[r]多亏如此，快看，如此的[line 3]
+[k]
+
+[charaMove R 0,-370 40.0]
+
+＠
+天空放晴，声音传来。[r]分享胜利喜悦的美丽欢呼声传入耳中。
+[k]
+
+＠
+城市半毁，他们也只剩下寥寥几人，[r]米克特兰即将终结。
+[k]
+
+＠
+……即便如此，还是要说太好了。[r]能守护你们的世界，真是太好了。
+[k]
+
+＠
+虽然直到最后都在不情不愿地战斗，[r]但能够看到这般景色，也没什么好抱怨的了。
+[k]
+
+[messageOff]
+[charaFadeout R 2.0]
+[wt 2.5]
+
+[scene 177402 0.7]
+[wt 0.8]
+
+＠特诺奇蒂特兰
+……再见啦，我的城市，我的人民。[r]还有，爱管闲事的尼托克丽丝。
+[k]
+
+＠特诺奇蒂特兰
+如你所见[line 3][#留恋:热量]已从我的心脏流逝殆尽。
+[k]
+
+[scene 177403 0.4]
+
+＠特诺奇蒂特兰
+萌芽于都市之梦到此为止。[r]蜂鸟坠落，回归，月之湖吧。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout white 3.0]
+[wait fade]
+
+[scene 10001]
+[wt 1.0]
+
+[se ad528]
+[wt 2.5]
+
+[fadein white 0.1]
+[wait fade]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_45 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

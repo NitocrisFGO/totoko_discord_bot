@@ -1,0 +1,1632 @@
+
+
+＄04-00-02-16-5-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270000 1 希翁]
+[charaSet B 1098269100 1 拉妮－ⅩⅡ]
+[charaSet D 1098269320 1 塞蕾雪拉（演出用）]
+[charaSet F 1098269320 1 塞蕾雪拉]
+[charaSet G 1098270320 1 阿愈丝]
+[charaSet H 7046001 1 难敌]
+[charaSet I 1098269200 1 奥西里斯之尘]
+[charaSet J 1098270320 1 阿愈丝（演出用）]
+[charaSet K 7046001 1 难敌（演出用）]
+
+[sceneSet L 189603 1]
+[charaScale L 1.4]
+[sceneSet M 189603 1]
+[charaScale M 1.4]
+[sceneSet N 189603 1]
+[charaScale N 1.01]
+
+[imageSet O cut466_gate01 1]
+[imageSet P cut466_gate02 1]
+
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+[charaSet U 98115000 1 特效用dummy]
+
+[sceneSet V 10000 1]
+[charaScale V 1.03]
+[sceneSet W 10000 1]
+[charaScale W 1.03]
+
+
+
+[scene 10000]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_SHINYAMA_1 0.1]
+
+＠
+忽然想起，直到最后都没被他[r]攻击肚脐以下的部位呢。
+[k]
+
+＠
+这究竟意味着什么。那家伙当时究竟怀着什么想法，[r]带着什么样的心情才会那样做呢。
+[k]
+
+＠
+[#会选择不那样做的那家伙]的人格，[r]是否也存在于原本那家伙的心中呢？
+[k]
+
+＠
+下意识地正打算思考这个问题[line 3]
+[k]
+
+＠
+（不不不，管他呢。想再多也不会有任何改变。[r]　无论是本老爷、那家伙，还是过去，什么都不会改变。）
+[k]
+
+＠
+（总之，重要的是[line 3][r]　本老爷现在赢了！　哇哈哈哈！）
+[k]
+
+＠
+（从今往后就是本老爷的时代！　随心所欲的[r]　快乐难敌时光开始了[line 3]！）
+[k]
+
+[messageOff]
+[wipeout openEye 1.0 1.0]
+[bgmStop BGM_SHINYAMA_1 1.5]
+[wait wipe]
+
+[scene 189603]
+
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth G 2]
+[charaDepth L 3]
+[charaDepth J 4]
+
+[charaScale L 1.2]
+[charaScale J 1.3]
+
+[charaFace J 0]
+[charaFadein J 0.1 150,15]
+[charaFadein L 0.1 -120,-240]
+
+[blur lens 0.1 2 2]
+[wt 1.0]
+
+[wipein openEye 1.5 1.0]
+[wait wipe]
+[blurOff lens 1.0]
+[wt 1.5]
+
+[subCameraOn 1]
+[charaLayer H sub #A]
+[charaLayer M sub #A]
+[subCameraFilter #A maskEdge cut359_mask20 4 231,41,45,255]
+
+[charaDepth M 1]
+[charaDepth H 2]
+
+[charaScale H 1.35]
+[charaScale M 1.4]
+[charaFace H 17]
+[charaFadein H 0.1 0,150]
+[charaFadein M 0.1 250,50]
+
+[subRenderFadeinFSSideL #A 0.6 -270,-140]
+[subRenderMoveFSSideL #A -270,-190 0.6]
+[wt 1.0]
+
+[charaTalk on]
+＠难敌
+唔唔，嗯……[wt 0.7][messageShake 0.05 4 3 0.3]咳咳……
+[k]
+
+[charaFace H 15]
+＠难敌
+喂，赢家应该更帅气地，受到称赞才对。[r]为什么，却非得，躺在你的腿上啊……？
+[k]
+
+[bgm BGM_EVENT_159 0.1]
+
+[charaFace J 9]
+＠J：阿愈丝
+有什么关系嘛。[r]你耍帅耍过头了啦，每次都这样。
+[k]
+
+[charaFace H 12]
+＠难敌
+毕竟本老爷，确实，很帅气嘛。[r]不是吗？
+[k]
+
+[charaFace J 2]
+＠J：阿愈丝
+……要是你闭上嘴严肃一点，倒还算挺帅的吧。
+[k]
+
+[charaFace H 7]
+＠难敌
+哼。这是在掩饰害羞吧，本老爷明白。
+[k]
+
+[messageOff]
+[charaTalk J]
+[wt 1.0]
+
+[charaFace J 0]
+＠J：阿愈丝
+话说，[r]满足了吗？
+[k]
+
+[charaFace H 11]
+＠难敌
+……本老爷的回答不言自明。[r]所以反过来问你。
+[k]
+
+[charaFace H 0]
+＠难敌
+你呢，满足了吗？
+[k]
+
+[charaFace J 3]
+＠J：阿愈丝
+满意度……只达到最低标准哦。
+[k]
+
+＠J：阿愈丝
+哥哥们、丈夫、还有公公，[r]全都在我看不到的地方丢了性命。
+[k]
+
+＠J：阿愈丝
+自说自话地跑去打仗，自说自话地抛下我一个人，[r]说不定我恨过你们这群男人吧。
+[k]
+
+[charaFace H 11]
+＠难敌
+……[r]……
+[k]
+
+[charaFace J 5]
+＠J：阿愈丝
+所以，比起那时，至少好了那么一点吧。
+[k]
+
+[charaFace J 0]
+＠J：阿愈丝
+毕竟这次……我似乎能[r]陪你直到最后一刻了。
+[k]
+
+＠J：阿愈丝
+至少，能送你一程。
+[k]
+
+[charaFace H 0]
+＠难敌
+……是吗。
+[k]
+
+[charaFace H 6]
+＠难敌
+不，不对。你在胡扯什么呢？[r]本老爷还精神得很呢。
+[k]
+
+[charaFace H 7]
+＠难敌
+刚才关于满意度的回答也告诉你好了。[r]还完全没有满足呢，理所当然吧？
+[k]
+
+[charaFace J 2]
+＠J：阿愈丝
+[line 3]一点也没有？　半点也没有？
+[k]
+
+[charaFace H 2]
+＠难敌
+不……只是，还行吧。
+[k]
+
+＠难敌
+要说本老爷完全没得到自己寻找的东西，[r]那一定是在撒谎。
+[k]
+
+＠难敌
+说不定跟你一样，[r]也得到了最低标准的满足吧。
+[k]
+
+[charaFace H 11]
+＠难敌
+听好了。本老爷在寻找的、[r]所渴望的，是『一切』。
+[k]
+
+[charaFace H 2]
+＠难敌
+其中……怎么可能不包括[r]自己失去的妹妹嘛。
+[k]
+
+[charaFace J 1]
+＠J：阿愈丝
+……呵呵。谢谢。
+[k]
+
+[charaTalk H]
+[charaFace G 1]
+[charaFadein G 0.1 175,0]
+[charaFace H 15]
+＠难敌
+哼。
+[k]
+
+[messageOff]
+[charaTalk G,H]
+[subRenderFadeout #A 1.0]
+[charaFadeout J 1.0]
+[charaFadeout L 1.0]
+[wt 1.0]
+
+[charaFadeout H 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer H normal]
+[charaLayer M normal]
+[charaScale H 1.0]
+[charaScale M 1.0]
+[wt 0.2]
+
+[charaTalk off]
+[charaDepth H 1]
+[charaDepth G 2]
+
+[charaFace H 15]
+[charaFadein H 0.6 -175,-40]
+[charaMove H -175,0 0.8]
+[charaShake H 0.04 1 2 0.8]
+[wt 0.6]
+[se ad984]
+[wt 1.0]
+
+
+[charaTalk on]
+＠难敌
+毕竟在找到以后，才发现自己[r]究竟失去了什么，在意着什么嘛。
+[k]
+
+＠难敌
+这也没办法，毕竟我们兄弟太多了。
+[k]
+
+[charaFace H 10]
+＠难敌
+所以你可别自个儿走丢了哦，笨妹妹。[r]与其走丢不见，还不如一直抓着本老爷的衣角呢。
+[k]
+
+[charaFace H 12]
+＠难敌
+不，抓本老爷的衣角太烦了，驳回，[r]这事还是交给难降吧。
+[k]
+
+[charaFace G 8]
+＠阿愈丝
+我才不要。难降哥哥肯定也会因为嫌麻烦而生气啦。
+[k]
+
+[charaFace H 3]
+＠难敌
+那就去找其他弟弟吧，谁都可以。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[charaFace H 2]
+＠难敌
+本老爷呀，以前可是有很多事要忙的哦。
+[k]
+
+＠难敌
+弟弟们人数多得过头，既要督促他们锻炼，[r]自己又必须结交伙伴，
+[k]
+
+＠难敌
+在打仗时还不得不担任首领。
+[k]
+
+[charaFace H 12]
+＠难敌
+身在此处的本老爷，是能够比过去的本老爷[r]更随心所欲追求渴望之物的存在。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_159 1.0 0.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[scene 10000]
+[wt 0.5]
+
+[fadein black 0.2]
+[wait fade]
+
+＠
+[E7292D]……[#你是]，[#什么人]。[-]
+[k]
+
+＠
+倘若被这样询问，便如此回答。
+[k]
+
+＠
+自己恐怕[line 3]是贪欲之Alterego。[r]应该是这样的存在吧。
+[k]
+
+[messageOff]
+[fadeout black 0.2]
+[wait fade]
+
+[scene 189603]
+
+[charaTalk off]
+[charaFace H 7]
+[charaFace G 8]
+[charaFadein H 0.1 -175,0]
+[charaFadein G 0.1 175,0]
+[wt 0.5]
+
+[bgm BGM_EVENT_159 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+[charaTalk on]
+＠难敌
+能一味追求渴望之物固然轻松，[r]但相对的，也会感到有所不足。
+[k]
+
+[charaFace H 5]
+＠难敌
+根本无法满足，只靠这点东西，[r]只靠一个妹妹的话！
+[k]
+
+[charaFace G 4]
+＠阿愈丝
+唉，烂透了。
+[k]
+
+[charaFace G 5]
+＠阿愈丝
+不过……我早就知道了，[r]你就是这么一个人。
+[k]
+
+[messageOff]
+[charaTalk G,K]
+[charaDepth H 1]
+[charaDepth G 2]
+[charaDepth L 3]
+[charaDepth K 4]
+
+[charaScale K 1.2]
+[charaScale L 1.4]
+[charaFace K 5]
+[charaFadein K 1.0 1]
+[charaFadein L 1.0 0,-300]
+[wt 1.0]
+
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[wt 0.3]
+
+[charaFaceFade K 11 0.4]
+[wt 1.2]
+
+＠K：难敌
+……啊啊，好困啊。[r]强如本老爷也敌不过睡意。
+[k]
+
+＠K：难敌
+不甘心啊，在睡着之前，[r]本老爷还有很多东西想要……
+[k]
+
+[charaFace K 10]
+＠K：难敌
+没错，本老爷很贪婪。[r]所以嘛……喂，过来一下。
+[k]
+
+[bgmStop BGM_EVENT_159 1.5]
+
+＠K：难敌
+叫你呢，[%1]。
+[k]
+
+？1：…………？
+？！
+
+[charaFace K 10]
+＠K：难敌
+本老爷跟你们有合作关系，[r]因此本老爷命令你。
+[k]
+
+＠K：难敌
+代替本老爷，去弄到本老爷渴望得到的东西。[bgm BGM_EVENT_116 0.1]
+[k]
+
+[charaFace K 0]
+＠K：难敌
+别一脸呆愣的样子。虽然本老爷不清楚具体情况……[r]但接下来还有拯救世界的战斗在等着你吧？
+[k]
+
+[charaFace K 7]
+＠K：难敌
+倘若你的战斗能拯救世界，[r]那不就等同于你能获得世界了吧。
+[k]
+
+？1：不能这么说吧……
+？！
+
+＠K：难敌
+不～，可以这么说。所以本老爷要任命你为代理人。[r]换句话说，你要代替本老爷获得世界。
+[k]
+
+[charaFace K 12]
+＠K：难敌
+呵呵呵，很好。[r]这样一来，就能安心睡上一觉了……
+[k]
+
+[messageOff]
+[charaTalk K,H]
+[charaFadeout K 1.0]
+[charaFadeout L 1.0]
+[wt 1.4]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠阿愈丝
+真是的。对不起啦，你不用放在心上。
+[k]
+
+？1：我就把这当作难敌风格的鼓励好了。
+？！
+
+[charaFace G 3]
+＠阿愈丝
+是……这样吗？　我倒觉得不是，[r]但既然能从好的角度来解读，也行吧。
+[k]
+
+[charaFace G 0]
+＠阿愈丝
+机会难得，也让我讲几句吧。[r]因为刚才的乱来，我也快到极限了。
+[k]
+
+[messageOff]
+[charaFace G 5]
+[wt 1.2]
+
+[charaFace G 0]
+＠阿愈丝
+感谢你们一路上提供的帮助。
+[k]
+
+＠阿愈丝
+幸好最初遇见的御主是你。[r]我真的很高兴你救了[#修理部:Repair]的孩子们。
+[k]
+
+＠阿愈丝
+你的善良今后肯定也会继续拯救大家。
+[k]
+
+[charaFace G 1]
+＠阿愈丝
+要保重身体，加油哦！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth G 1]
+[charaDepth L 2]
+[charaDepth H 3]
+[charaDepth J 4]
+[charaDepth S 5]
+[charaDepth U 5]
+
+[charaScale L 1.2]
+[charaScale H 1.2]
+[charaScale J 1.2]
+[charaFace J 0]
+[charaFace H 11]
+[charaFadein J 1.0 180,0]
+[charaFadein H 1.0 -180,0]
+[charaFadein L 1.0 0,-220]
+[wt 1.0]
+
+[charaFadeout G 0.1]
+
+[charaPut S 1]
+[charaPut U 1]
+[charaEffect S bit_talk_06]
+[charaEffect U bit_talk_06_blue]
+[wt 2.4]
+
+[charaTalk on]
+[charaFace J 0]
+＠难敌
+哎呀……本老爷又要托付给别人了啊。当初也是，[r]托付给了马嘶。
+[k]
+
+[charaFace H 12]
+＠难敌
+最后把事情都推给别人，自己乐得轻松。[r]这才是聪明的本老爷的做法吧。
+[k]
+
+[charaFace H 10]
+＠难敌
+所以本老爷要明确说清楚。
+[k]
+
+＠难敌
+下一任总帅，就是你。
+[k]
+
+＠难敌
+听好了，千万别忘了啊。[r]要把世界[line 3]
+[k]
+
+[messageOff]
+[charaTalk off]
+[wt 1.2]
+
+[se ad52]
+[charaSpecialEffect H flashErasure 1 2.0]
+[charaSpecialEffect J flashErasure 1 2.0]
+[wait charaSpecialEffect H]
+[charaEffectStop S bit_talk_06]
+[charaEffectStop U bit_talk_06_blue]
+
+[wt 2.5]
+
+[fadeout black 2.5]
+[bgmStop BGM_EVENT_116 2.5]
+[wait fade]
+
+[charaFadeout L 0.1]
+
+[scene 189603]
+[wt 2.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_45 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠希翁
+他们[line 3]不，不只是他们，[r]身处这个世界的所有从者中，
+[k]
+
+＠希翁
+肯定还有其他人也找到了那个问题的答案吧，[r]正因为身为[#Alterego:他人格]才能获得什么的答案。
+[k]
+
+[charaFace A 10]
+＠希翁
+我无法否定这个意义本身。
+[k]
+
+[charaFace A 2]
+＠希翁
+所谓的[#Alterego:他人格]，[r]基本上都是『经过提纯的存在』。
+[k]
+
+＠希翁
+因此才有办法在『普通人格』难以实践的[r]方向性或是可能性上前进……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+也就是说，还是『制造方式』存在问题吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠希翁
+不对。[r]该瞩目的部分肯定正相反。
+[k]
+
+＠希翁
+并非制造方式[line 3]存在问题的生产方式，[r]而是出现问题以前的诞生方式。
+[k]
+
+＠希翁
+必须思考的问题，
+[k]
+
+＠希翁
+并非『该如何提纯后生产』，[r]而是『诞生之物为何经过了提纯』。
+[k]
+
+[messageOff]
+[charaFace A 10]
+[wt 1.0]
+
+[charaFace A 6]
+＠希翁
+正因经过了提纯，[#Alterego:他人格]才会诞生。[r]我是这么认为的。
+[k]
+
+＠希翁
+他们不同于寻常从者，是某个个体心中的[r]一份[#自我:感情]被单独提取出来的存在。
+[k]
+
+＠希翁
+正因为那种感情过于饱满，或是过于强烈[r]之类的缘由，才会导致『变成那样』[line 3]
+[k]
+
+＠希翁
+正因如此，他们才得以作为[r]『拥有全新可能性』的存在而成立吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+你的意思是，『自然溢出』的方向性[r]才是[#Alterego:他人格]最必不可少的吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+＠希翁
+我不会断言说，绝对不存在并非此类，而是[r]恰好作为拥有强大力量的存在成立的情况。
+[k]
+
+＠希翁
+而且在这个世界中，反倒是接近[r]这种可能性的人会残存到最后吧。
+[k]
+
+＠希翁
+进一步说，足以单体成立的自然情况[r]也未必会频繁发生。
+[k]
+
+[charaFace A 10]
+＠希翁
+有时充其量只算『人格碎片』，[r]强度是不够的……
+[k]
+
+[charaFace A 6]
+＠希翁
+恐怕正因如此，出于某种缘由与多个神性[r]连结在一起的情况才比较多见吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+也就是说，哪怕强行分化出形体，[r]能成为强大存在的概率也很低吧。
+[k]
+
+[charaFace B 1]
+＠拉妮－ⅩⅡ
+看来我的方法，说不定，
+[k]
+
+＠拉妮－ⅩⅡ
+就如同为了追求满天光华，而企图让[r]多个纸月漂浮在空中一般[line 3]
+[k]
+
+[charaFace B 8]
+＠拉妮－ⅩⅡ
+只推导出了被数字迷惑的空虚答案，[r]是个扭曲的算式吧。
+[k]
+
+？1：（……数字，与扭曲。）
+？2：（对了，必须回答她的那个问题才行。）
+？！
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[bgm BGM_EVENT_45 0.6 0.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+
+[scene 189601]
+
+[pictureFrame cut063_cinema]
+
+[cameraFilter gray]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 0,-50]
+[wt 0.7]
+
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+＠奥西里斯之尘
+若论扭曲，[r][#其早已存在于你们心中]。
+[k]
+
+＠奥西里斯之尘
+你们早已在使役无数[#Alterego:他人格]了。[r]也认同将他们作为战力来使用。
+[k]
+
+＠奥西里斯之尘
+认可一而不认百的理由为何？[r]容许十而弹劾千的理由为何？
+[k]
+
+＠奥西里斯之尘
+若你们心中没有答案，那才是扭曲。[r]哪怕仅使役一骑[#Alterego:他人格]也一样。
+[k]
+
+＠奥西里斯之尘
+这也就意味着你们毫无理由地接受了
+[k]
+
+＠奥西里斯之尘
+关于[#Alterego:他人格]这一存在本身的扭曲。
+[k]
+
+＠奥西里斯之尘
+这就是以感情来填补毫无计算，冒充合理的，[r]人类这一种族的坏毛病。
+[k]
+
+[messageOff]
+[fadeout white 0.6]
+[wait fade]
+
+[charaFadeout I 0.1]
+
+[scene 189603]
+
+[pictureFrame]
+
+[cameraFilter normal]
+[wt 0.7]
+
+[bgm BGM_EVENT_45 0.6 1.0]
+[fadein white 0.6]
+[wait fade]
+[wt 0.6]
+
+
+？1：你说得没错，使役[#Alterego:他人格][line 3]
+？2：确实无关于数量，本就是扭曲的。
+？！
+
+[messageOff]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.2 1]
+[wt 1.5]
+
+
+？1：但是，我希望那并不是种错误。
+？！
+
+[charaFace B 8]
+＠拉妮－ⅩⅡ
+……为什么？
+[k]
+
+[messageOff]
+[wt 1.0]
+
+？1：因为，他们都已经在本质上，
+？2：接受了身为[#Alterego:他人格]的自己。
+？！
+
+？1：既然接受了，那应该，就没问题了吧。
+？！
+
+[charaFace B 0]
+＠拉妮－ⅩⅡ
+……你相信身在迦勒底的[#Alterego:他人格]们吧。
+[k]
+
+＠拉妮－ⅩⅡ
+相信他们的自然性会证明其正确性。
+[k]
+
+[charaFace B 1]
+＠拉妮－ⅩⅡ
+这就是『理由』。就算你没有发现，[r]他们心中也早已存在『理由』。
+[k]
+
+[charaFace B 4]
+＠拉妮－ⅩⅡ
+原来如此。看起来扭曲，[r]但那[#只是堆叠在一起的正确性]而已[line 3]
+[k]
+
+＠拉妮－ⅩⅡ
+这种可能性，[r]也不能彻底否定。
+[k]
+
+[charaFace B 5]
+＠拉妮－ⅩⅡ
+哪怕那是只有天文级别的概率，[r]本不可能发生的……奇迹般的存在。
+[k]
+
+＠拉妮－ⅩⅡ
+啊啊，一直没能留意到这点，[r]就是我计算失误的最大原因吧。
+[k]
+
+[charaFace B 0]
+＠拉妮－ⅩⅡ
+感情、人、[#Alterego:他人格]，[r]拥有意志的[#容器:事物]的、拥有人格的[#力量:事物]的，存在方式。
+[k]
+
+＠拉妮－ⅩⅡ
+我应该更为深入地学习能从这纸月[r]眺望到的那些事物才对。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaPut S 1]
+[charaEffect S bit_talk_06_blue]
+
+
+[subCameraOn 1]
+[charaLayer T sub #A]
+[charaLayer I sub #A]
+[charaLayer L sub #A]
+[subCameraFilter #A through]
+
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth I 2]
+[charaDepth T 3]
+
+[charaScale I 1.2]
+[charaScale L 1.4]
+[charaFace I 3]
+[charaFadein I 0.1 -200,0]
+[charaFadein L 0.1 200,-240]
+
+[charaPut T 1]
+[charaEffect T bit_talk_06_blue]
+[wt 2.4]
+
+[charaMove L 250,-240 0.8]
+[charaMove I -150,0 0.8]
+
+[subRenderFadein #A 0.8 0,0]
+[wt 2.6]
+
+[subRenderFadeout #A 0.8]
+[charaMove L 200,-240 0.8]
+[charaMove I -200,0 0.8]
+[wt 0.8]
+
+[charaFadeout I 0.1]
+[charaFadeout L 0.1]
+[charaPut T 2000,2500]
+[charaEffectDestroy T bit_talk_06_blue]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer T normal]
+[charaLayer I normal]
+[charaLayer L normal]
+[charaScale T 1.0]
+[charaScale I 1.0]
+[charaScale L 1.0]
+[wt 0.3]
+
+[charaTalk on]
+[charaFace B 0]
+＠拉妮－ⅩⅡ
+处理已到最终阶段。
+[k]
+
+＠拉妮－ⅩⅡ
+无论身为对话界面的我，[r]还是身为ＡＩ圣杯战争系统本体的奥西里斯之尘，
+[k]
+
+＠拉妮－ⅩⅡ
+都很快就会消失了吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠希翁
+毕竟目前相当于即将进行根本性重启，
+[k]
+
+＠希翁
+没有[#非正规:Irregular]的存在残留的余地。
+[k]
+
+？1：这个世界会变成什么样呢？
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+这里是藉由诞生于微观领域的圣杯之力[r]获得了概念性形体的[#平面之月:Paper Moon]内部世界。
+[k]
+
+[charaFace B 0]
+＠拉妮－ⅩⅡ
+你们一旦回收了圣杯，[r]观测这个世界的手段便会消失吧。
+[k]
+
+＠拉妮－ⅩⅡ
+从外部来看，[r]只会看到平面之月这一装置在正常运转而已。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+[wt 0.05]
+
+[se ad60]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[wt 0.4]
+[seStop ad60 0.4]
+[wt 0.8]
+＠塞蕾雪拉
+那么……从内部看的话，会看到什么？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠希翁
+这算是一种思想实验吧。[r]『通常状态的这个世界』或许会继续存在。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+原来如此，既然是这样[line 3][r]我有一个请求。
+[k]
+
+[messageOff]
+[wipeout rollRight 1.0 1.0]
+[bgm BGM_EVENT_45 1.0 0.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[charaPut S 2000,2500]
+[wt 1.0]
+
+[bgm BGM_EVENT_45 1.0 1.0]
+[wipein rollLeft 1.0 1.0]
+[wait wipe]
+[wt 0.2]
+
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠希翁
+好吧，就当是额外服务。[r]我会帮你安排好步骤。
+[k]
+
+[charaFace A 6]
+＠希翁
+反正原本的机制就是圣杯战争的赢家[r]将成为这个世界的统管ＡＩ。
+[k]
+
+＠希翁
+届时，原本的你……拉妮－ⅩⅡ这个人格[r]将会被统合起来，消失不见。
+[k]
+
+＠希翁
+对你而言，ＡＩ圣杯战争的终结[r]既是下一轮的开始，也是注定的死……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+成大事者不拘小节。[r]只要功能可以得到继承，就没有问题。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+＠希翁
+虽说有可能最后只剩下名头，
+[k]
+
+＠希翁
+但空出来的下一任综合统管ＡＩ的位置[r]就设定为你吧，塞蕾雪拉小姐。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠塞蕾雪拉
+然后……只要正常地运营下去就行了吧。[r]在没人看见的地方，运营下去。
+[k]
+
+[charaFace F 16]
+＠塞蕾雪拉
+这样啊，既然[#生产部:Grow]和其他地方都能继续正常运作………[r]她应该多少也能安心一点吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠希翁
+话说回来，塞蕾雪拉小姐是什么类型的[r][#Alterego:他人格] ＡＩ呢？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+她也是与[#Berserker:狂战士]的御主同等程度的[r]实验性存在。
+[k]
+
+[charaFace B 1]
+＠拉妮－ⅩⅡ
+是我根据情况作出判断，匆忙间编进去的。[r]她是[line 3]
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_45 1.0 0.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth A 2]
+[charaDepth B 2]
+[charaDepth F 2]
+
+[charaScale L 1.2]
+[charaFadein L 0.1 0,-220]
+[wt 1.0]
+
+
+[bgm BGM_EVENT_45 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠希翁
+唔唔，为什么没发现呢。
+[k]
+
+[charaFace A 2]
+＠希翁
+不，毕竟我也[#Alterego:他人格]化了，[r]这种事倒也并非不可能。
+[k]
+
+？1：是这样吗……
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠塞蕾雪拉
+就算你这么说，我也毫无真实感啊。[r]不，感觉稍微有一点了……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+我该说的都说完了。[r]是时候道别了吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠希翁
+啊啊，请等一下。[r]倒是我这边还有话要说。
+[k]
+
+[charaFace A 6]
+＠希翁
+现阶段最新版本的综合统管ＡＩ，拉妮－ⅩⅡ。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+……？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠希翁
+纯粹是作为阿特拉斯院炼金术师要说的话。
+[k]
+
+[charaFace A 10]
+＠希翁
+虽说实验失败，方向性也错了……
+[k]
+
+＠希翁
+但无论如何，为了回避你所观测到的毁灭，[r]你采用了自己推导出的最佳策略。在无人知晓的情况下。
+[k]
+
+[bgmStop BGM_EVENT_45 1.5]
+
+[charaFace A 9]
+＠希翁
+[#这工作]，[#做得非常出色]。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+……！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[bgm BGM_EVENT_6 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠希翁
+你出色地完成了你的使命。
+[k]
+
+＠希翁
+哪怕从结果来说，你的行为是错误的，[r]我也不会加以否定。
+[k]
+
+[charaFace A 10]
+＠希翁
+虽然是老生常谈，但如果害怕失败，[r]就无法进行通往成功的实验了。
+[k]
+
+[charaFace A 9]
+＠希翁
+你很出色地尽到了自己的功能，拉妮－ⅩⅡ。
+[k]
+
+＠希翁
+珍惜地保存这份错误的数据，[r]无悔地沉睡吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaPut S 1]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+……[r]……
+[k]
+
+[charaFace B 5]
+＠拉妮－ⅩⅡ
+非常，感谢。
+[k]
+
+＠拉妮－ⅩⅡ
+没错。[r]我的愿望，只是回避毁灭。
+[k]
+
+[charaFace B 1]
+＠拉妮－ⅩⅡ
+因此，就让我将观测错误的可能性、实验失败的意义，[r]全都献给你们的旅途吧。
+[k]
+
+[charaFace B 0]
+＠拉妮－ⅩⅡ
+为你们献上星之祝福。
+[k]
+
+[charaFace B 7]
+＠拉妮－ⅩⅡ
+但愿无论身处何等困难、何等黑暗中，[r]北天之星都能照亮你们的道路[line 3]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout B 0.4]
+[wt 0.3]
+
+[charaDepth L 1]
+[charaDepth I 2]
+[charaDepth B 3]
+[charaDepth S 4]
+[charaDepth T 4]
+
+[charaScale M 1.4]
+[overlayFadein M 1.2 190,-250]
+[charaMove M 250,-250 1.2]
+[wt 1.4]
+
+[charaScale L 1.4]
+[charaScale I 1.0]
+[charaScale B 1.0]
+
+[charaPut S 1]
+[charaFace I 3]
+[charaFace B 7]
+[charaFadeinFSL I 0.1 0]
+[charaFadeinFSR B 0.1 2]
+[charaFadein L 0.1 250,-250]
+[wt 0.5]
+
+[charaFadeout M 0.8]
+[wt 2.0]
+
+[se ad52]
+[charaSpecialEffect I flashErasure 1 2.0]
+[charaSpecialEffect B flashErasure 1 2.0]
+[wait charaSpecialEffect I]
+[charaEffectStop S bit_talk_06_blue]
+[wt 2.2]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_6 1.5]
+[wait fade]
+
+[charaPut S 2000,2500]
+[charaEffectDestroy S bit_talk_06_blue]
+[charaFadeout L 0.1]
+
+
+[scene 189603]
+[wt 2.0]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.2]
+
+[bgm BGM_EVENT_78 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠希翁
+好了，雁过无痕，叶落无声。[r]哪怕只有门面，也要修整一下才行。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.3]
+
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth R 1]
+[charaDepth S 2]
+[charaDepth T 5]
+
+[cueSe SE_23 23_ad1307]
+[charaPut S 1]
+[charaEffect S bit_talk_ether_light02]
+
+[charaPut R 1]
+[charaFadeTime R 0.3 0.5]
+[wt 1.0]
+
+[cueSe SE_23 23_ad1299]
+[wt 0.3]
+[charaScale T 1.5]
+[charaPut T 1]
+[charaEffect T bit_talk_scan]
+[charaFadeout R 1.5]
+[wt 0.5]
+
+
+[scene 189600 1.7]
+[wt 1.9]
+[charaEffectStop S bit_talk_ether_light02]
+
+[charaPut O 2000,2500]
+[charaEffectEdgeBlur O FFFFFF FFFFFF 5 1.5]
+[wt 1.8]
+
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠希翁
+然后，打开[#灵子脱离:登出]门……[r]为求简单易懂，我做成了门扉的形状。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.25]
+
+[cueSe SE_23 23_ad1308]
+[effect bit_talk_ether_light01]
+[wt 0.9]
+
+[se ade282]
+[seVolume ade282 0 0.5]
+[fadeout white 0.5]
+[wait fade]
+
+[charaDepth O 1]
+[charaDepth P 2]
+[charaDepth S 3]
+[charaDepth A 4]
+[charaDepth F 4]
+
+[charaPut S 1]
+[charaEffect S bit_talk_under_light]
+
+[charaTalk O]
+[charaFace O 0]
+[charaFadein O 0.7 0,-200]
+
+[se ade404]
+[seVolume ade404 0 0]
+[wt 1.4]
+
+[seVolume ade404 1.0 0.1]
+[fadein white 1.0]
+[wait fade]
+[wt 1.8]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadeinFSL A 0.1 -340,0]
+＠希翁
+那我们走吧。[r]最后还有什么事吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadeinFSR F 0.1 325,0]
+＠塞蕾雪拉
+嗯，我至少决定了，[r]有一句话不得不说。
+[k]
+
+[charaFace F 0]
+＠塞蕾雪拉
+[#下次再见面时]，[#和她聊聊吧]。
+[k]
+
+＠塞蕾雪拉
+……就这句。
+[k]
+
+？1：当然可以啊。
+？！
+
+[messageOff]
+[charaFaceFade F 16 0.4]
+[wt 1.6]
+
+＠塞蕾雪拉
+再见了。
+[k]
+
+[messageOff]
+[charaFadeout F 0.7]
+[wt 1.9]
+
+[se ade500]
+[wt 1.2]
+[charaTalk P]
+[charaFace P 0]
+[charaFadein P 1.0 0,-200]
+[wt 0.7]
+[seStop ade500 0.5]
+[wt 1.2]
+
+[charaFadeout O 0.1]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadeinFSL A 0.1 -340,0]
+＠希翁
+对了，我突然想起来了。[r]这个我也要结束了吧。
+[k]
+
+[charaFace A 9]
+＠希翁
+所以我先把话给说了，[r][%1][&先生:小姐]。
+[k]
+
+＠希翁
+也是避免给外部的我带去依依不舍的反馈。
+[k]
+
+[messageOff]
+[charaFace A 10]
+[wt 1.2]
+
+[charaFace A 9]
+＠希翁
+我很高兴能跟你一起冒险。[r]就像做了一个美梦。
+[k]
+
+＠希翁
+这是对原本不该存在的我而言，[r]有如奇迹般的一段时光[line 3]
+[k]
+
+？1：……？
+？2：这是什么意思……？
+？！
+
+[messageOff]
+[charaFaceFade A 5 0.4]
+[wt 1.6]
+
+[charaFadeout A 0.7]
+[wt 1.5]
+
+[seVolume ade404 5.3 0.5]
+[se ad311]
+[wt 0.1]
+[cameraMove 5.0 0,0 1.1]
+[wt 0.3]
+[seStop ad311 0.1]
+[wt 0.1]
+[se ad311]
+[seVolume ad311 0 0]
+[wt 0.6]
+[seVolume ad311 0.1 1.0]
+[wt 0.4]
+[seStop ad311 0.1]
+[wt 0.7]
+[se ad311]
+[wt 0.4]
+[seStop ad311 0.1]
+[wt 0.1]
+[se ad311]
+[seVolume ad311 0 0]
+[wt 0.3]
+
+[fadeout white 1.5]
+[bgmStop BGM_EVENT_78 2.0]
+[wt 0.3]
+[seVolume ad311 0.1 1.0]
+[wt 0.4]
+[seStop ad311 0.1]
+[seStop ade404 1.5]
+[wt 0.7]
+[se ad311]
+[seVolume ad311 0 0.6]
+[wait fade]
+[wt 0.2]
+[seStop ad311 0.1]
+[wt 0.9]
+
+[se ad525]
+[wt 1.0]
+[seStop ad525 0.4]
+
+[charaPut O 2000,2500]
+[charaPut P 2000,2500]
+[charaFadeout P 0.1]
+[charaPut S 20000,2500]
+[charaEffectDestroy S bit_talk_under_light]
+
+[scene 10000]
+[wt 0.5]
+
+[se ade501]
+[fadein white 0.4]
+[wait fade]
+[wt 0.9]
+
+
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

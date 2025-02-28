@@ -1,0 +1,1261 @@
+
+
+＄03-00-13-09-1-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 1098231510 1 玛修]
+[charaDepth A 1]
+[charaSet B 1098255200 1 哈贝特洛特]
+[charaDepth B 1]
+[charaSet C 1098257500 1 拉斯普京]
+[charaDepth C 1]
+[charaSet D 1098252900 1 特佩乌]
+[charaDepth D 1]
+[charaSet L 1098252940 1 特佩乌b]
+[charaSet E 1098253200 1 U－奥尔加玛丽]
+[charaDepth E 1]
+[charaSet F 1098254100 1 高扬斯卡娅]
+[charaDepth F 1]
+[charaSet G 1098124330 1 戴比特]
+[charaDepth G 1]
+[charaSet H 1098253010 1 卡玛佐茨]
+[charaDepth H 1]
+
+[sceneSet I 170100 1]
+[charaScale I 1.3]
+[charaDepth I 2]
+[sceneSet J 170100 1]
+[charaScale J 1.2]
+[charaDepth J 1]
+[imageSet K back10001 1]
+[charaScale K 1.1]
+[charaDepth K 10]
+[imageSet M cut421_mtn01 1]
+[imageSet N cut421_mtn02 1]
+[imageSet O cut421_mtn03 1]
+
+[charaSet P 98115000 1 特效用]
+[charaScale P 1.3]
+[sceneSet Q 170100 1]
+[charaScale Q 1.2]
+
+[imageSet R cut428_text 1]
+
+[sceneSet V 10000 1]
+[charaFilter V silhouette 11586680]
+
+[cameraMove 0.1 0,0 1.01]
+[wt 0.1]
+
+[scene 169100]
+[fadein black 2.0]
+[wait fade]
+
+[bgm BGM_EVENT_124 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玛修
+风冷起来了。[r]看来总算接近第二冥界了。
+[k]
+
+＠玛修
+由于Storm Border尚在修复中，[r]目前尚无法与管制室通讯。
+[k]
+
+＠玛修
+虽然只限我们声音的话，还可以传送数秒时长，[r]但已经规定只在紧急时使用这个方法了。
+[k]
+
+＠玛修
+影像目前正在录制，说是希望我们回去后，[r]将影像作为资料提交上去。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut B 1]
+[charaTalk B]
+[charaFace B 6]
+[charaFadeTime B 0.1 0.7]
+
+＠哈贝特洛特
+毕竟奥特瑙斯也没来得及充满电嘛……[r]今后又得采取节能方式了。
+[k]
+
+[charaFace B 0]
+
+＠哈贝特洛特
+尽可能回避危险，[r]走最短距离前往墨西哥城吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠拉斯普京
+而在那之前挡在我们面前的，就是第二冥界线了。[r]特佩乌氏，接下来是什么样的试炼呢？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+以前我跨越时，[r]是翻越一座山的山路。
+[k]
+
+＠特佩乌
+风很强烈，登山也要消耗体力，[r]但除此以外，这个冥界并没有什么危害。
+[k]
+
+＠特佩乌
+对了，有时一不小心会脚底打滑摔下去吧。
+[k]
+
+＠特佩乌
+因此各位，当身旁的人快要摔倒时，[r]请记得扶好对方。
+[k]
+
+＠特佩乌
+另外，路上还混着久经强风打磨的黑曜石，[r]一旦摔倒就会被割伤。
+[k]
+
+＠特佩乌
+虽然不会造成什么严重的伤，但如果多次摔倒，[r]以大家的身体状况，说不定会流血。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+
+＠U－奥尔加玛丽
+这点倒不用担心我。[r]毕竟我一直漂浮着。
+[k]
+
+＠U－奥尔加玛丽
+我当然也不会被风吹跑。[r]我好歹……也是吨级的！
+[k]
+
+？1：[line 3]你刚才说什么？
+
+[charaFace E 18]
+
+＠U－奥尔加玛丽
+这是国家机密。[r]不知为何，在即将说出口前被理性拦住了。
+[k]
+
+？2：又在虚张声势了。你搞错重量单位啦。
+
+[charaDepth R 10]
+
+[charaFace E 7]
+＠U－奥尔加玛丽
+我没搞错啦！[charaFadein R 0.4 0,-90][r]我真的有1万多吨重啦！
+[k]
+
+[charaFadeout R 0.4]
+＠U－奥尔加玛丽
+只是因为我一直在操控重力，[r]才没对周围造成影响而已！
+[k]
+
+＠U－奥尔加玛丽
+若非如此，我怎么可能生成重力圈嘛！？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+您这种尺寸竟然有如此质量……！
+[k]
+
+[charaFace A 1]
+
+＠玛修
+奥尔加玛丽小姐光是存在于此[r]就会扭曲时间与空间吧！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 30]
+[charaFadein E 0.1 1]
+＠U－奥尔加玛丽
+总觉得这种说法有点伤人呢，玛修！？
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+嗯。那么，只要让U－奥尔加玛丽[r]帮忙挡风就没问题了吧。
+[k]
+
+＠特佩乌
+各位，到了。
+[k]
+
+＠特佩乌
+这片树林的那一头就是第二冥界。[r]刃与风之谷，弃骨之地[#白之线:伊斯塔乌基]。
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_124 1.0]
+[wipeout leftToRight 1.0 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[charaFadein K 0.1 0,-200]
+[charaFadein I 0.1 70,-200]
+[charaFadein J 0.1 -30,-200]
+[scene 170100]
+[wt 0.5]
+[fadeout black 0.1]
+[wait fade]
+[wipein rightToLeft 0.1 1]
+[wait wipe]
+
+[cueSe SE_22 22_ad1151]
+[cueSeVolume 22_ad1151 0 0.0]
+[se ad556]
+[seVolume ad556 0 0.0]
+[se ad207]
+[seVolume ad207 0 0.0]
+
+[cueSeVolume 22_ad1151 1.5 0.8]
+[seVolume ad556 1.5 0.6]
+[seVolume ad207 1.5 0.8]
+[fadein black 2.0]
+[wait fade]
+[wt 0.8]
+[charaFadeout K 1.0]
+[charaMove I 70,-250 4.5]
+[wt 3.5]
+[charaFadeout I 1.0]
+[charaMove J -70,-200 4.5]
+[wt 3.5]
+[charaFadeout J 1.0]
+[wt 1.0]
+[cueSeStop 22_ad1151 2.5]
+[seStop ad556 2.5]
+[seStop ad207 2.5]
+[wt 1.5]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+哎。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut P 1]
+[shake 0.05 2 2 3.5]
+[effect bit_talk_strongwind02_cl]
+[cueSe SE_22 22_ad1151]
+[cueSeVolume 22_ad1151 0.5 1.0]
+[se ad556 0]
+[seVolume ad556 0.5 1.0]
+[se ad207 0]
+[seVolume ad207 0.5 1.0]
+[wt 3.5]
+[effectStop bit_talk_strongwind02_cl]
+[wt 1.5]
+[cueSeStop 22_ad1151 4.5]
+[seStop ad556 4.5]
+[seStop ad207 4.5]
+
+？1：虽然早就料到了，
+？2：这跟特佩乌形容的不一样[line 4]！
+
+？！
+
+[bgm BGM_MAP_41 0.1]
+
+[charaTalk L]
+[charaFace L 3]
+[charaFadein L 0.1 1]
+
+＠L：特佩乌
+对吧？
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 15]
+[charaFadein E 0.1 1]
+＠U－奥尔加玛丽
+周围的岩石基本都能算是凶器了吧！？[r]那些剑山比我的手刀还要锐利哦！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠玛修
+风速10米每秒，最大瞬间风速20米每秒！[r]是难以前进，要留心飞来物体！　的级别！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut B 1]
+[charaTalk B]
+[charaFace B 14]
+[charaFadeTime B 0.1 0.7]
+
+＠哈贝特洛特
+真的吗！？　咱要是实体化了，[r]一定会被这风速掀飞吧！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 21]
+[charaFadein E 0.1 1]
+
+＠U－奥尔加玛丽
+哈贝喵你那么轻吗！？[r]那就严禁实体化，要躲好！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠拉斯普京
+而且气温也很严苛。感觉这冷风[r]甚至能让从者动作变得迟钝呢。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[se ad921]
+[seVolume ad921 0 0.5]
+[wt 0.4]
+
+＠高扬斯卡娅
+哎呀，这么可不像使徒会说的丧气话。[r]难道是管家生活让你身心都迟钝了吗？
+[k]
+
+＠高扬斯卡娅
+这点冷风，只要当作落山风就不成问题了吧。
+[k]
+
+？1：大衣！　太狡猾了！　NFF服务，也给我来一件！
+
+？！
+
+[charaFace F 31]
+＠高扬斯卡娅
+非常抱歉，这大衣仅此一件……
+[k]
+
+＠高扬斯卡娅
+以前某位送我的皮草大衣倒是还有……
+[k]
+
+[charaFace F 4]
+
+＠高扬斯卡娅
+啊，不，那件看到就火大，[r]被我扔仓库里去了☆　现在不在我手上呢！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠特佩乌
+唔，这种时候如果有辣椒水……[r]以及能把大家的身体绑在一起的东西……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玛修
+特佩乌先生。您说的辣椒，[r]是指香辛料的辣椒吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+不，我指的是奇琴伊察周边采摘的蜂蜜[r]与草混合而成的东西。也被称作蜂蜜兰。
+[k]
+
+＠特佩乌
+那个具有发热的功效，[r]常用于太阳停歇时的寒冷期。
+[k]
+
+[charaFace D 3]
+
+＠特佩乌
+很抱歉……由于我平常不会吃那种药，[r]所以没有准备……
+[k]
+
+？1：…………唔～～～～？
+？2：…………唔唔唔唔唔～～～～？
+
+？！
+
+[messageOff]
+[bgmStop BGM_MAP_41 1.5]
+[se ad77]
+[charaFadeout D 0.1]
+[wt 1.5]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠U－奥尔加玛丽
+干嘛？　淅淅索索地翻找行李。[r]没准备的东西怎么可能找得到嘛？
+[k]
+
+？1：……然而……好像……有哦？
+
+？！
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.7]
+[wait fade]
+[cameraFilter gray]
+[charaFadeout E 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[scene 169500]
+[wt 0.4]
+[fadein white 0.7]
+[wait fade]
+
+[wt 1.5]
+
+[fadeout white 0.7]
+[wait fade]
+
+[charaFadeout G 0.1]
+[cameraFilter normal]
+
+[scene 170100]
+[wt 0.4]
+
+[charaTalk depthOff]
+[charaDepth A 4]
+[charaDepth E 3]
+[charaDepth I 2]
+[charaDepth L 1]
+[charaDepth C 5]
+[charaDepth F 6]
+
+[fadein white 0.7]
+[wait fade]
+[wt 0.3]
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk off]
+[charaFace L 5]
+[charaFadein L 0.1 1]
+
+＠L：特佩乌
+这是……蜂蜜兰，和用藤蔓编成的绳子啊。[r]竟然事先准备好了，真厉害。
+[k]
+
+＠L：特佩乌
+甚至还有治疗创口的止血草！[r]不好意思，我先要一份。玛修也喝吧。
+[k]
+
+[messageOff]
+[cueSe SE_21 21_ade678]
+[seVolume 21_ade678 0 0.6]
+[wt 0.2]
+[charaScale I 1.1]
+[charaScale E 0.9]
+
+[charaFaceFade L 0 0.4]
+[wt 0.6]
+[charaMoveReturn L 0,-5 0.4]
+[wt 0.15]
+[cueSe SE_22 22_ade815 0.7]
+[wt 0.5]
+[seStop 22_ade815 0.2]
+[wt 0.5]
+
+[charaTalk off]
+[charaFace A 3]
+[charaFadein I 0.5 -100,-200]
+[charaFadein A 0.5 250,0]
+
+[charaMove I -120,-200 0.5]
+[charaMove A 230,0 0.5]
+[wt 0.8]
+[charaMoveReturn A 230,-5 0.4]
+[wt 0.15]
+[cueSe SE_22 22_ade815 0.4]
+[wt 0.5]
+[seStop 22_ade815 0.2]
+[charaFadeout L 0.1]
+
+
+
+
+
+[charaTalk E]
+[charaFace E 24]
+[charaFadein E 0.4 -180,-25]
+[charaMove E -150,-25 1.0]
+[wt 1.5]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 13]
+
+＠玛修
+啊，确实有种类似蜂蜜的口感呢。[r]很甜很好喝。
+[k]
+
+[messageOff]
+[charaMove I 100,-200 2.0]
+[charaMove A 530,0 2.0]
+[charaMove E 100,-25 2.0]
+[charaFadeout D 0.1]
+[charaFadeout A 0.5]
+[wt 2.5]
+[cueSe SE_22 22_ade815 0.7]
+[seStop 22_ade815 0.2]
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.4 -230,0]
+[wt 0.5]
+[seStop 22_ade815 0.2]
+
+＠拉斯普京
+原来如此。虽然并非我的专长，[r]但或许很适合拿来当咖喱的佐料。
+[k]
+
+[messageOff]
+[charaMove I -100,-200 2.0]
+[charaMove C -500,0 2.0]
+[charaMove E -150,-25 2.0]
+[charaFadeout C 0.5]
+[wt 2.0]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 360,0]
+＠高扬斯卡娅
+虽然对异闻带的药膳有点兴趣，但我还是免了。[r]我有这身大衣，防寒措施万无一失。
+[k]
+
+[messageOff]
+[charaFadeout F 0.5]
+[charaMove F 500,0 1.0]
+[charaMove I 0,-200 1.0]
+[charaMove E 0,-25 1.0]
+[wt 1.4]
+[charaTalk off]
+[charaFace E 22]
+[charaMoveScale E 0.95 1.5]
+[charaMove E 0,-10 1.5]
+[wt 1.6]
+
+？1：那我也来一份吧。
+
+？！
+
+[cueSe SE_21 21_ade678]
+[seVolume 21_ade678 0 0.6]
+[wt 0.6]
+[cameraMove 0.4 0,7 1.01]
+[wt 0.15]
+[cueSe SE_22 22_ade815]
+[wt 0.2]
+[cameraMove 0.4 0,0 1.01]
+[wt 0.3]
+[seStop 22_ade815 0.2]
+[wt 0.75]
+
+[charaMoveScale E 1.0 1.5]
+[charaMove E 0,0 1.5]
+[wt 1.5]
+[charaFace E 22]
+
+＠U－奥尔加玛丽
+[line 6]
+[k]
+
+[messageOff]
+[wt 1.5]
+[charaFaceFade E 20 0.2]
+
+＠U－奥尔加玛丽
+[line 6]
+[k]
+
+[messageOff]
+[wt 1.5]
+[charaFaceFade E 25 0.2]
+
+＠U－奥尔加玛丽
+喂，[%1]。
+[k]
+
+？1：抱歉，只有四份……要不要分一半喝？
+
+[charaFace E 26]
+
+＠U－奥尔加玛丽
+[messageShake 0.04 5 5 0.35]
+哈！？[wt 0.7]　没，没事，不用了。
+[k]
+
+＠U－奥尔加玛丽
+资源确实有限。[r]我不觉得冷，你自己摄取吧。
+[k]
+
+？2：总统应该不会冷吧？
+
+[charaFace E 11]
+＠U－奥尔加玛丽
+唔！　没错，我根本不觉得冷！[r]也根本不觉得寂寞！
+[k]
+
+＠U－奥尔加玛丽
+我迟早要把你发配到西伯利亚！[r]你就心怀感激地见证我开拓的英姿吧！
+[k]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_147 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout I 0.1]
+[charaFadeout E 0.1]
+[charaScale M 1.35]
+[charaScale N 1.35]
+[charaScale O 1.35]
+
+[charaTalk depthOff]
+[charaDepth M 3]
+[charaDepth N 2]
+[charaDepth O 1]
+[charaDepth D 4]
+[charaDepth A 5]
+[charaDepth C 6]
+[charaDepth E 7]
+[charaDepth H 8]
+[charaDepth B 8]
+[charaDepth I 9]
+
+[charaFadein M 0.1 3,-384]
+[charaFadein N 0.1 -4,-384]
+[charaFadein O 0.1 0,-384]
+
+[scene 170102]
+
+[charaScale I 1.4]
+[charaFadein I 0.1 -40,-180]
+[sceneSet J 35010 1]
+[wt 1.0]
+[cueSe SE_22 22_ad1151]
+[seVolume 22_ad1151 0 0.0]
+[seVolume 22_ad1151 1.5 0.4]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.5 0.3]
+[charaMove I 40,-185 4.5]
+[fadein black 1.5]
+[wait fade]
+
+[cueSe SE_21 21_ade674 0.4]
+[cueSe SE_21 21_ad1066 0.2]
+[wt 2.0]
+[seStop ad556 3.0]
+[seStop 22_ad1151 3.0]
+[seStop 21_ade674 1.5]
+[seStop 21_ad1066 1.5]
+[charaFadeout I 1.0]
+[wt 1.5]
+
+[bgm BGM_EVENT_141 0.1]
+[wt 0.5]
+
+？1：这还真是……相当，艰难，呢……！
+？2：距离山顶，还有一半……！
+
+？！
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠特佩乌
+是啊……幸好有U－奥尔加玛丽挺身帮忙挡风。
+[k]
+
+＠特佩乌
+虽然身处这种环境，但我能问个问题吗？[r]泛人类史也有这样的冥界吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+嗯，这里恐怕相当于[#泛人类史:我们]那儿米克特兰的[r]第三层伊兹特佩特尔吧。
+[k]
+
+＠玛修
+伊兹特佩特尔是一条铺满了锋利黑曜石的山路，[r]死者在前行时会被黑曜石割裂。
+[k]
+
+＠玛修
+据说山上呼啸的风会剥去死者的衣物、[r]武具、随身携带的物品，有时还包括肉身[line 2]
+[k]
+
+＠玛修
+这些生前『所有的饰物』，[r]只留下骸骨。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+只剩骨骼！[r]这样不就没人能到得了下一层了吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠拉斯普京
+不，接受冥界试炼的是死者。[r]他们[#哪怕化作骨头也能动]。
+[k]
+
+＠拉斯普京
+唯有承受得了这种痛苦的灵魂，[r]才有获得救赎的资格。
+[k]
+
+＠拉斯普京
+简直就像日本民间传承中的『地狱』。
+[k]
+
+[charaFace C 5]
+
+＠拉斯普京
+对了，这么说来，这景色恰似针山呢。
+[k]
+
+＠拉斯普京
+只为折磨罪人而存在的，[r]永无止尽的刑罚之地[line 3]真是可怕。
+[k]
+
+？1：……针山……？
+？2：……永无止尽……？
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_141 1.5]
+
+＠H：？？？
+地狱！　地狱吗！[r]我的庭院竟与那般[#纹样:Texture]具有亲和性！
+[k]
+
+＠H：？？？
+愚弄，聪明而愚弄！[r]独具慧眼令人折服！
+[k]
+
+＠H：？？？
+不[#拯救:拾起]死者，而是惩罚死者！[r]诚然如此此间乃是地狱！
+[k]
+
+＠H：？？？
+哈，哈哈，哈哈哈哈哈哈哈哈哈哈哈哈。[r]哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈…………！
+[k]
+
+[messageOff]
+[subCameraOn]
+[charaLayer V sub]
+[charaLayer J sub]
+[charaLayer H sub]
+[charaDepth J 2]
+[charaDepth V 3]
+[charaDepth H 4]
+[charaScale J 1.2]
+[charaScale V 1.3]
+[charaScale H 1.1]
+
+[se ad207]
+[seVolume ad207 0 0]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad207 1.0 0.3]
+[seVolume ad556 1.0 0.3]
+
+[charaEffect J bit_talk_43h_fs]
+[charaFadein J 0.1 0,-100]
+[charaPut V -100,0]
+[charaFadeTime V 0.1 0.5]
+
+[subCameraFilter maskEdge cut359_mask07 3 0,0,0,0]
+[subRenderFadein 0.4 0,-0]
+[subRenderMove 0,-200 0.3]
+[wt 0.6]
+
+[se ade216]
+[wt 0.7]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.2 0,220]
+[charaMove H 0,200 0.2]
+[seStop ade216 0.7]
+[wt 1.4]
+
+[messageOff]
+[subRenderFadeout 0.4]
+[wt 0.4]
+[charaFadeout V 0.1]
+[charaFadeout I 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaLayer I normal]
+[charaLayer V normal]
+[charaLayer H normal]
+[charaScale H 1.0]
+[subCameraOff]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaEffectStop J bit_talk_43h_fs]
+
+[bgm BGM_BATTLE_107 0.1]
+
+[charaTalk off]
+[charaFace E 12]
+[charaFadeinFSL E 0.1 0]
+[charaFace A 2]
+[charaFadeinFSR A 0.1 2]
+
+＠玛修＆U－奥尔加玛丽
+这诡异的扑翅声／笑声是[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout E 0.2]
+[charaFadeout A 0.2]
+[wt 0.4]
+
+[charaSet H 1098253000 1 卡玛佐茨]
+[charaDepth H 8]
+[cueSe SE_21 21_ad1078]
+[seStop 21_ad1078 1.5]
+[se ade216]
+[seStop ade216 1.5]
+[se ade437]
+[seStop ad207 0.5]
+[seStop ad556 0.5]
+[wt 0.4]
+[charaPut H 0,10]
+[charaTalk H]
+[charaFace H 0]
+[charaMove H 0,-4 0.2]
+[charaSpecialEffect H appearanceReverse 1 0.2]
+[effect bit_talk_impactlanding 0,-500]
+[wt 1.4]
+[charaMove H 0,0 1.0]
+[wt 1.0]
+
+＠卡玛佐茨
+欢迎光临，猴子们！[r]挑战下冥界的家伙啊！
+[k]
+
+＠卡玛佐茨
+引路吧，拜见吧！[r]让毫无变化的米克特兰开辟新的苦闷之[#痕:道]！
+[k]
+
+[charaFace H 1]
+＠卡玛佐茨
+畏惧与震颤之刻已至！[r]畏惧『恐惧之馆』的主人兼冥界之王[line 3]
+[k]
+
+[charaFace H 2]
+＠卡玛佐茨
+剥夺生者血肉之翼，卡玛佐茨的威名吧！
+[k]
+
+？1：卡玛佐茨……！
+？2：（这是夺回令咒的机会……！）
+
+？！
+
+[charaFace H 13]
+
+＠卡玛佐茨
+唔？　阵容跟上次不太一样？[r]少了一个，又多了一个。
+[k]
+
+[charaFace H 12]
+
+＠卡玛佐茨
+真遗憾，我还没尝过那个小孩的血。[r]若他已经丧命，我也只能道一声不幸了。
+[k]
+
+[charaFaceFade H 16 0.2]
+＠卡玛佐茨
+是啊，正可谓不幸，这正是不遇！
+[k]
+
+＠卡玛佐茨
+分明已经被卡玛佐茨盯上，[r]却错失向卡玛佐茨奉上鲜血的荣誉！
+[k]
+
+＠卡玛佐茨
+从者的血固然难喝，但这是两码事。[r]啊啊，太可惜了，太可惜了。
+[k]
+
+[charaFaceFade H 1 0.2]
+
+＠卡玛佐茨
+你们可千万不要遭此不幸。[r]毕竟你们无疑全都是稀客。
+[k]
+
+＠卡玛佐茨
+我喜欢泛人类史。[r]相比起[#恐龙人:迪诺斯]，猴子的血更合我口味。
+[k]
+
+[messageOff]
+[charaFadeout H 0.2]
+[wt 0.3]
+
+
+[se ad632]
+[seVolume ad632 0 0]
+[seVolume ad632 0.5 0.2]
+[charaEffect F bit_talk_lightning_01r_fs]
+
+[charaTalk F]
+[charaFace F 27]
+[charaFadein F 0.2 1]
+[wt 1.0]
+
+
+＠高扬斯卡娅
+[line 4]
+[k]
+
+[seStop ad632 1.5]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaEffectStop F bit_talk_lightning_01r_fs]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+高扬斯卡娅小姐？[r]（她本应不是那种毫不掩饰敌意的人啊……）
+[k]
+
+[charaFadeout I 0.1]
+[charaFadeout F 0.1]
+
+？1：那家伙是敌人。
+？2：是玛雅神话中名叫卡玛佐茨的死神。
+
+？！
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠高扬斯卡娅
+不用说明了。我也知道泛人类史玛雅的恶神，[r]卡玛佐茨之名。
+[k]
+
+[charaFace F 18]
+
+＠高扬斯卡娅
+那位就是玛修小姐的报告中，
+[k]
+
+＠高扬斯卡娅
+使用[%1]大人令咒的敌对生物吧？
+[k]
+
+[charaFace F 0]
+
+＠高扬斯卡娅
+那我们就赶紧解决掉他吧。[r]我总觉得他是那种越聊就会越头痛的[#人物:类型]。
+[k]
+
+[messageOff]
+[charaCrossFade F 1098254120 0 0.4]
+[se ade191]
+[wt 1.0]
+[seStop ade191 0.2]
+[wt 0.7]
+[wait charaCrossFade F]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠卡玛佐茨
+嚯！　这武器，这气味！[r]我想起你这张脸了！
+[k]
+
+＠卡玛佐茨
+你是那个潜入我的米克特兰，[r]将[#隐匿者:Crypter]送往外部世界的女人！
+[k]
+
+＠卡玛佐茨
+不仅如此！[r]还是向奥塞洛特尔批发武器的恶魔兔子！
+[k]
+
+＠卡玛佐茨
+你跟特斯卡特利波卡肯定度过了一段蜜月期吧！[r]那家伙也是个被近代兵器迷得神魂颠倒的奇怪神明！
+[k]
+
+[bgmStop BGM_BATTLE_107 1.5]
+
+＠卡玛佐茨
+噢噢，简直就是玛琳切！[r]向阿兹特克投毒，孕育出[#新国家:墨西哥]的恶女啊！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 25]
+[charaFadein E 0.1 1]
+
+＠U－奥尔加玛丽
+啊？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+你说什么？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadeTime B 0.1 0.7]
+[wt 0.1]
+
+＠哈贝特洛特
+从压根不想了解的途径得知了[r]奥塞洛特尔武器的出处！
+[k]
+
+[bgm BGM_EVENT_81 0.1]
+
+？1：[#高扬斯卡娅:NFF服务][line 3]！
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad660]
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+[charaShake F 0.04 3 3 0.2]
+[wt 0.3]
+[seStop ad660 0.2]
+[wt 0.1]
+
+＠高扬斯卡娅
+被啪叽！　地揍了一下！[r]我可是严禁触碰的说！
+[k]
+
+[charaFace F 29]
+
+？2：（确实……感觉能理解了！）
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠拉斯普京
+（※对爱用的火箭发射器是NFF服务[r]　生产的一事刻意保持沉默的表情）
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 29]
+[charaFadein F 0.1 1]
+
+？！
+
+＠高扬斯卡娅
+哼[line 3]既然暴露了，那就没办法了。
+[k]
+
+＠高扬斯卡娅
+向各位奥塞洛特尔提供枪械的确实是我，[r]是陪伴各位愚蠢人类的令人安心的NFF服务。
+[k]
+
+[charaFace F 9]
+
+＠高扬斯卡娅
+可那仅限试用期的一个月！[r]然而那个金色长发干了什么！
+[k]
+
+＠高扬斯卡娅
+『大致看明白了。剩下的我自己[#制造:做]就行了。』
+[k]
+
+＠高扬斯卡娅
+说着这种话，只掠夺了我的绝密技术！[r]我对商业对手可从未如此愤怒过！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠卡玛佐茨
+你太小瞧特斯卡特利波卡了。那家伙[#什么都干得出来]。[r]这都要怪称他为战神的[#泛人类史:人类]。
+[k]
+
+[charaFace H 2]
+＠卡玛佐茨
+然而在[#地底世界:米克特兰]，还是我更强！[r]比起倒霉、滑稽、没有太阳的特斯卡特利波卡更强！
+[k]
+
+[messageOff]
+[charaFadeout H 0.2]
+[bgmStop BGM_EVENT_81 3.0]
+[se ade393 0.7]
+[seStop ade393 3.5]
+[se ad619 0.4]
+[seStop ad619 3.5]
+[charaShake M 0.04 0 2 1.0]
+[charaShake N 0.04 0 2 1.0]
+[charaMove M 20,-384 3.0]
+[charaMove N -20,-384 3.0]
+[wt 2.2]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.2 1]
+
+＠卡玛佐茨
+废话说太多了。[r]现在是品尝杀戮滋味的时候。
+[k]
+
+[charaFace H 3]
+＠卡玛佐茨
+召唤英灵们吧，迦勒底的神官。[r]我想见识你的本领，知晓你的技艺。
+[k]
+
+[bgm BGM_EVENT_80 0.1]
+[charaFaceFade H 16 0.2]
+＠卡玛佐茨
+然后，我将喝下你的鲜血，[r]继承泛人类史的历史！
+[k]
+
+＠卡玛佐茨
+哈哈，哈哈哈，哈哈哈哈哈哈哈哈哈哈！[r]很好，正可谓天运，正可谓新生！
+[k]
+
+＠卡玛佐茨
+米克特兰将会藉由迦勒底罪人们的鲜血复苏！[r]来吧[line 3]交出你那娇艳的首级！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_80 0.4]
+[wait fade]
+[soundStopAll]
+[end]

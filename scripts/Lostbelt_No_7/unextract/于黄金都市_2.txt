@@ -1,0 +1,233 @@
+
+＄03-00-13-04-2-1
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet C 1098252900 1 特佩乌]
+[charaSet D 1098255200 1 哈贝特洛特]
+[charaSet E 1098253200 1 U－奥尔加玛丽]
+[charaSet F 1098257500 1 拉斯普京]
+
+[charaSet G 1098254300 1 迪诺斯1]
+[charaSet H 1098254300 1 迪诺斯2]
+[charaSet I 1098254300 1 迪诺斯3]
+[charaSet J 1098254300 1 迪诺斯4]
+[charaSet K 1098254300 1 迪诺斯5]
+
+[charaTalk depthOff]
+[charaDepth G 5]
+[charaDepth H 4]
+[charaDepth I 2]
+[charaDepth J 3]
+[charaDepth K 1]
+
+[charaFace G 0]
+[charaFadein G 0.1 -280,-30]
+[charaFace H 0]
+[charaFadein H 0.1 190,-30]
+[bgm BGM_EVENT_80 1.0]
+[scene 169400]
+
+[cameraMove 0.1 0,15 1.2]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[cameraMove 1.5 0,0 1.01]
+
+[cueSe SE_22 22_ade746 0]
+[seVolume 22_ade746 0.7 1.0]
+[charaTalk off]
+[charaFace I 0]
+[charaFadein I 0.4 -135,100]
+[wt 0.3]
+[charaFace J 0]
+[charaFadein J 0.4 -610,100]
+[wt 0.3]
+[charaFace K 0]
+[charaFadein K 0.4 340,100]
+[wt 0.4]
+[seStop 22_ade746 0.2]
+[wt 0.3]
+
+＠迪诺斯
+怎么回事怎么回事情况不太对还很难对付？[r]是手持前所未见武器的奥塞洛特尔吗？
+[k]
+
+＠迪诺斯
+让俺也／我也／吾也／咱家也[r]参战吧参战吧参战吧。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 16]
+[charaFadein D 0.1 1]
+
+＠哈贝特洛特
+哇哇哇，从四面八方源源不断地涌来了！[r]这样可对付不过来啦！？
+[k]
+
+＠哈贝特洛特
+U在干什么啊，快来帮忙！[r]哐啷地给他们一下啊，哐啷地！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 19]
+[charaFadein E 0.1 1]
+
+＠U－奥尔加玛丽
+我应付不了迪诺斯！[r]两个以下倒是习惯了，这数量还是让人心里大象乱撞！
+[k]
+
+？1：既然大象乱撞那就没办法了。
+？2：撤退[line 3]！
+
+？！
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[se ad769]
+[seStop ad769 2.5]
+[shake 0.04 0 1 3.0]
+[wt 1.0]
+[bgmStop BGM_EVENT_80 1.0]
+[wipeout rightToLeft 1.0 1]
+[wait wipe]
+
+[charaSet C 1098252940 1 特佩乌]
+[scene 169100]
+[wt 1.5]
+[wipein leftToRight 1.0 1]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+对吧？
+[k]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠哈贝特洛特
+对吧你个头啦！[r]难道那是关卡！？　根本过不去嘛！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaSet C 1098252900 1 特佩乌]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+看来确实如此。[r]这里等距离地部署着斗士职业的迪诺斯。
+[k]
+
+＠特佩乌
+那是在戒备来自下层的奥塞洛特尔吧。
+[k]
+
+＠特佩乌
+树海里姑且不论，在无处藏身的平原上，[r]是不可能避开他们耳目的。
+[k]
+
+[charaFace C 2]
+
+＠特佩乌
+而且他们还没法沟通。
+[k]
+
+＠特佩乌
+身居要职的迪诺斯顽固不化、[r]一丝不苟，且会不眠不休地工作。
+[k]
+
+＠特佩乌
+无论怎么交涉都毫无意义。[r]试图闯关的人都会尝到苦头。
+[k]
+
+？1：就没有什么办法了吗？
+
+[charaFace C 0]
+
+＠特佩乌
+当然有。
+[k]
+
+？2：你喜欢尝苦头吧？
+
+[charaFace C 0]
+
+＠特佩乌
+毕竟对迪诺斯来说，『疼痛』是为数不多的刺激。[r]很多迪诺斯都会把它挂在嘴边哦。
+[k]
+
+？！
+
+＠特佩乌
+综上所述，还是换条路线吧。[r]我推荐原路返回，前往奇琴伊察。
+[k]
+
+＠特佩乌
+既然那是恐龙王颁布的命令，[r]也只能去找恐龙王拿到通行许可了。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+嚯，奇琴伊察是指一大清早[r]就能远远望见的那座遗迹吗？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaSet C 1098252940 1 特佩乌]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+是的。那里是迪诺斯唯一的集体住所，[r]也是守护米克特兰太阳的圣地。
+[k]
+
+＠特佩乌
+是你们所谓的神[line 3][r]『太阳的教诲』，库库尔坎的所在之地。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_77 3.0]
+[wt 1.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

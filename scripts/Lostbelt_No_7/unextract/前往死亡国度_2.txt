@@ -1,0 +1,733 @@
+
+
+＄03-00-13-01-2-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 98001000 1 玛修]
+[charaSet B 1098239320 1 卡多克]
+[charaSet C 1098257400 1 希翁]
+[charaSet D 1098255100 1 戈尔德鲁夫]
+[charaSet E 1098158330 1 尼莫]
+[charaSet F 1098182000 1 尼莫护士]
+[charaSet G 1098257310 1 达·芬奇]
+[charaSet H 98115000 1 特效用]
+[charaSet I 98002000 1 芙芙]
+[imageSet J cut397_map 1]
+[charaSet L 1098123000 1 穆尼尔]
+[charaSet M 1098254800 1 尼莫水兵]
+[sceneSet P 132900 1]
+[charaSet Q 1098182110 1 尼莫教授]
+[charaSet R 1098255300 1 尼托克丽丝]
+[sceneSet S 10000 1]
+[sceneSet T 170900 1]
+
+[sceneSet U 168500 1]
+[sceneSet V 10001 1]
+
+[charaPut H 1200,1200]
+[charaEffect H bit_talk_10_LowLevel_depth]
+
+[scene 10000]
+
+[fadein black 1.0]
+[wait fade]
+
+[scene 10001 8.0]
+[criMovie talk_mov148 bgmPlay true]
+[fadeout white 1.0]
+[wait fade]
+
+[scene 132904]
+[wt 1.0]
+
+[fadein white 1.0]
+[bgm BGM_EVENT_63 0.1]
+[wait fade]
+
+
+
+[charaTalk M]
+[charaFace M 2]
+[charaFadein M 0.1 1]
+
+＠尼莫水兵
+突破『风暴之壁』啦～！！[r]舰体的损伤，当然是轻微！　太好啦～！
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠尼莫
+少说废话，专心报告！
+[k]
+
+＠尼莫
+将外面的情形投在显示器上！[r]要肉眼确认南美异闻带的状态！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 0]
+[charaFadein M 0.1 1]
+
+＠尼莫水兵
+遵命！　显示器，显示啦～！！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_63 1.0]
+[se ad1]
+[charaFadeout M 0.5]
+[scene 	132900 0.5]
+[wt 1.5]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth D 7]
+[charaDepth C 6]
+[charaDepth H 5]
+[charaDepth G 4]
+[charaDepth B 3]
+[charaDepth R 2]
+[charaDepth A 1]
+
+[charaFace D 4]
+[charaFace C 6]
+[charaFace G 25]
+[charaPutFSR H 320,0]
+[charaFadein D 0.1 1]
+[charaFadeinFSL C 0.1 -320,0]
+[charaFadeinFSR G 0.1 320,0]
+[wt 1.5]
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaPut H 2000,2000]
+[charaEffectStop H bit_talk_10_LowLevel_depth]
+
+[charaFace B 3]
+[charaFace R 9]
+[charaFace A 6]
+[charaFadein B 0.1 1]
+[charaFadeinFSL R 0.1 -320,0]
+[charaFadeinFSR A 0.1 320,0]
+[wt 1.5]
+[charaFadeout B 0.1]
+[charaFadeout R 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[cameraMove 2.1 0,-10 1.15]
+[wt 1.0]
+[fadeout white 1.0]
+[wait fade]
+
+[charaEffect H bit_talk_10_LowLevel]
+[cameraHome 0.1]
+[scene 170900]
+[charaScale T 1.2]
+[charaFadein T 0.1 -100,-250]
+[wt 1.0]
+
+[fadein white 1.0]
+[charaMove T 100,-250 8.0]
+[bgm BGM_EVENT_114 0.1]
+[wait fade]
+
+
+
+[wt 6.0]
+[charaFadeout T 1.0]
+[wt 2.0]
+
+？1：一望无际的……荒野？
+
+？！
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 132900]
+
+[charaTalk depthOn]
+[charaTalk on]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+[wt 0.6]
+
+
+[fadein black 1.0]
+[wait fade]
+
+＠戈尔德鲁夫
+这是什么地狱景象[line 3]！？[r]这里不是南美亚马逊的热带雨林吗！？
+[k]
+
+＠戈尔德鲁夫
+干涸的大地！　厚重的雷云！[r]不见动植物的身影！　倾泻如注的火山灰！
+[k]
+
+＠戈尔德鲁夫
+被誉为『地球之肺』亚马逊丛林成了这样，[r]人类还要怎样生存！
+[k]
+
+＠戈尔德鲁夫
+简直就是『火山冬天』！[r]异闻带再怎么离谱也该有点限度吧！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+
+＠希翁
+正如戈尔德鲁夫氏所言，[r]这可没法被称为[#生物圈:Biosphere]一号。
+[k]
+
+＠希翁
+就算异闻带是『被切除的人类史』，[r]这也偏离得太严重了。
+[k]
+
+＠希翁
+不知因何缘由……不，是因何来龙去脉，[r]才会演变成这种环境呢……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk Q]
+[charaFace Q 3]
+[charaFadein Q 0.1 1]
+
+＠尼莫教授
+是的，吓我一跳～。[r]不好意思～，可以打扰一下吗～。
+[k]
+
+[charaFace Q 2]
+
+＠尼莫教授
+地表的测量已经完成，我发送给你们～。[r]希翁氏，请发表意见～。
+[k]
+
+[messageOff]
+[charaFadeout Q 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[se ad1]
+[charaFadein J 0.5 0,-200]
+[wt 1.5]
+
+？1：这是……什么？
+？2：（[line 3]我知道。我记得这是[line 3]）
+
+？！
+
+[charaFadeout J 0.5]
+[wt 0.5]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+唔？　这是什么玩意。[r]总觉得好像在哪里见过……
+[k]
+
+＠戈尔德鲁夫
+泽姆露普斯，你知道吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠卡多克
+……啊，嗯。
+[k]
+
+＠卡多克
+这就是那个啦，是那个吧。[r]喂，基列莱特，你来说。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+这难不成是……盘古大陆？[r]可是，该说这是不可能的吗……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+＠希翁
+不，就是你猜的那样。[r]这毫无疑问是泛大陆[#盘古:Pangaea]。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 16]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+嚯，[#炸面包:Pão-age]。[r]那是哪个国家的面包啊？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 2]
+[charaFadein L 0.1 1]
+
+＠穆尼尔
+不是在谈吃的啦！[r]盘古大陆是指那个吧，中生代时的地球！
+[k]
+
+[charaFace L 0]
+
+＠穆尼尔
+远古时代的地球地壳运动活跃，[r]大陆发生着『漂移与碰撞』。
+[k]
+
+＠穆尼尔
+然后，也曾一度存在『所有大陆都连成一片』的时候。
+[k]
+
+[charaFace L 2]
+
+＠穆尼尔
+那就是被认为曾存在于中生代的泛大陆盘古！
+[k]
+
+？1：提起中生代……
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玛修
+是的，就是比当前的『新生代』[r]更早一代的地质年代。
+[k]
+
+＠玛修
+按照年代从古到今算起，
+[k]
+
+＠玛修
+约46亿年前到5亿3900万年前的时代，[r]被称作『前寒武纪』。
+[k]
+
+＠玛修
+约5亿3900万年前到2亿5200万年前的时代，[r]被称作『古生代』。
+[k]
+
+＠玛修
+约2亿5200万年前到6600万年前的时代，[r]被称作『中生代』。
+[k]
+
+＠玛修
+然后6600万年前到现在的时代，[r]被称作『新生代』。
+[k]
+
+＠玛修
+各『代』又能进一步细分为『纪』，[r]不过这方面等有机会再谈吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？2：2亿5200万年前到6600万年前！？
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth B 2]
+[charaDepth S 1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠卡多克
+没错，就是那个。[r]包含了三叠纪、侏罗纪、白垩纪的中生代。
+[k]
+
+[charaPut S 0,-200]
+[charaFadeTime S 0.2 0.5]
+
+＠卡多克
+（……该死，没能一下子反应过来……[r]　难道[%1]那家伙喜欢古生物学吗……？）
+[k]
+
+[charaFadeout S 0.2]
+[charaFadeout B 0.1]
+[wt 0.2]
+[charaTalk depthOn]
+
+？！
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+哈哈哈，你们这群青涩新生模样的菜鸟在说什么呢。
+[k]
+
+[charaFace D 1]
+
+＠戈尔德鲁夫
+我说你们啊，现在可是公元2018年哦？
+[k]
+
+＠戈尔德鲁夫
+那种6600万年前的地球怎么会展现在眼前呢？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk G]
+[charaFace G 34]
+[charaFadein G 0.1 1]
+
+＠达·芬奇
+我还想问这个问题呢。[r]虽然准确地说并不是盘古大陆啦，
+[k]
+
+＠达·芬奇
+毕竟在这种环境下人类是无从诞生的。
+[k]
+
+＠达·芬奇
+虽然据说相当于人类祖先的生命[r]出现在600万年前，
+[k]
+
+＠达·芬奇
+可这样子无论哪种生命都无法存在啦。[r]这情形只能认为是大灭绝之后[line 3]
+[k]
+
+[charaFace G 25]
+
+＠达·芬奇
+对哦，大灭绝！[r]这状况难不成是[line 3]
+[k]
+
+[bgmStop BGM_EVENT_114 1.0]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut H 2000,2000]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 0,0]
+[se adm21]
+[charaMoveReturn I 0,20 0.4]
+
+＠芙芙
+芙，芙[line 2]！[wt 0.4][se adm21][charaMoveReturn I 0,20 0.4]
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+芙芙？[r]突然蹦蹦跳跳的，好像想要说什么……
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+[flashin loop 0.8 0.8 D72727FF 00000000]
+[se ad9]
+[wt 1.6]
+[seStop ad9 1.4]
+[wt 1.2]
+[flashOff]
+[bgm BGM_EVENT_126 0.1]
+
+[charaTalk M]
+[charaFace M 3]
+[charaFadein M 0.1 1]
+
+＠尼莫水兵
+紧急传达！　有未确认物体正从[r]前方10公里处接近！
+[k]
+
+＠尼莫水兵
+好快，不，应该说好可怕！[r]这不是在空中飞翔，而是在空间中跳跃！
+[k]
+
+[charaFace M 6]
+
+＠尼莫水兵
+正通过反复地空间跳跃靠近本舰～～！[r]船长，怎么办～～！（泪）
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠尼莫
+别自乱阵脚！　于Storm Border表面[r]展开电磁屏障！　防备攻击！
+[k]
+
+＠尼莫
+观测手，抓紧确认！[r]将影像投到显示器上！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[se ad172]
+
+[charaPut H 1]
+[charaTalk Q]
+[charaFace Q 1]
+[charaFadein Q 0.1 1]
+
+＠尼莫教授
+是，这就来～。[r]这边捕捉到敌影……[wt 1.0][seStop ad172 0.5][charaFace Q 3]啊，糟糕。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_126 1.0]
+[fadeout black 1.0]
+[wait fade]
+
+[overlayFadein U 0.1 0,-200]
+[charaFadeout Q 0.1]
+[charaPut H 1200, 1200]
+[scene 168500]
+[cameraMove 0.1 0,0 1.05]
+[wt 1.0]
+
+[se ade106]
+[seVolume ade106 0 0]
+[seVolume ade106 1.0 0.6]
+[cameraMove 5.5 0,0 1.01]
+[fadein black 1.5]
+[wait fade]
+
+[wt 2.0]
+[criMovie talk_mov154 bgmPlay false]
+[wt 1.5]
+[scene 10001]
+[seStop ade106 1.0]
+[charaFadeout U 1.0]
+[bgm BGM_EVENT_115 2.0]
+[wt 15.0]
+
+[scene 179401]
+[wt 3.0]
+[overlayFadein V 1.0 0,-200]
+[wt 2.0]
+[charaFadeout V 1.0]
+[wt 1.5]
+[scene 179402 0.5]
+[wt 0.5]
+
+＠U－奥尔加玛丽
+……我还当什么事，原来是你们啊。[r]竟然自投罗网，你们傻吗？
+[k]
+
+＠U－奥尔加玛丽
+……哼，想必多半是乘势前来切除[r]第七棵空想树的吧，真是鼠目寸光。
+[k]
+
+[messageOff]
+[scene 179407 0.5]
+[wt 0.5]
+
+＠U－奥尔加玛丽
+你们以为这里是哪里？[r]这可是我专门选作寄宿家庭的异闻带哦？
+[k]
+
+＠U－奥尔加玛丽
+一出现任何异状我都能即刻感觉到。[r]作为地球的统治者，岂能容许偷渡入境。
+[k]
+
+＠U－奥尔加玛丽
+原本我应该二话不说就生成重力圈，[r]将你们连同这寒碜的交通工具一并粉碎才对……
+[k]
+
+[messageOff]
+[scene 179410 0.5]
+[wt 0.5]
+
+＠U－奥尔加玛丽
+感到高兴吧，我现在心情好到极致！[r]那种是叫[#冠位:Grand]从者吗？
+[k]
+
+＠U－奥尔加玛丽
+我才刚把你们人类最顶峰的，[r]那什么决战魔术的七骑一块收拾掉了。
+[k]
+
+[messageOff]
+[scene 179401 0.5]
+[wt 0.5]
+
+＠U－奥尔加玛丽
+对了，给你们一个机会好了！
+[k]
+
+＠U－奥尔加玛丽
+不靠嘴上说的，就以事实来向你们讲授，[r]我才是配得上统管这颗[#行星:星球]的存在吧。
+[k]
+
+＠U－奥尔加玛丽
+都给我出来吧，人类们！
+[k]
+
+＠U－奥尔加玛丽
+这就是最后一战，[r]就让我体验一下你们所谓的那什么白刃战好了！
+[k]
+
+[messageOff]
+
+
+[bgm BGM_EVENT_115 1.0 0.5]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 132900]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_115 1.5 1.0]
+[wait fade]
+
+
+
+？1：[line 3]（哑口无言）
+？2：不会吧，这么突然！？
+
+？！
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+唔唔唔唔嗯！[r]太过突然以至于我也脑袋一片空白！
+[k]
+
+＠戈尔德鲁夫
+而且怎么搞的，混蛋『异星之神』，[r]还当自己是来地球留学的留学生！　简直莫名其妙！
+[k]
+
+[charaFace D 12]
+
+＠戈尔德鲁夫
+不过，这显然是一次机会！[r]那家伙正得意忘形，似乎没打算使出那超破坏攻击……
+[k]
+
+＠戈尔德鲁夫
+也就是那个拟似黑洞！[r]蠢货！[bgmStop BGM_EVENT_115 1.0]
+[k]
+
+＠戈尔德鲁夫
+既然如此！　就如你所愿，[r]来打一场从者战吧！
+[k]
+
+[bgm BGM_MAP_58 0.1]
+[charaFace D 14]
+
+＠戈尔德鲁夫
+御主[%1]从管制室这里[r]召唤从者，传达指令！
+[k]
+
+＠戈尔德鲁夫
+玛修·基列莱特，你是防御的关键！[r]前往甲板出击，援护其他从者！
+[k]
+
+＠戈尔德鲁夫
+还有[line 3]希翁、达·芬奇！[r]虽说毫无准备，但你们说过随时候命的吧！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk G]
+[charaFace G 14]
+[charaFadein G 0.1 1]
+
+＠达·芬奇
+那是自然！[r]Hume Barrel当然能进入发射工序！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut H 2000,2000]
+
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+很好！　开始作战！[r]敌人为『异星之神』U－奥尔加玛丽！
+[k]
+
+＠戈尔德鲁夫
+首先通过从者战击败她，[r]把她驱离甲板！
+[k]
+
+＠戈尔德鲁夫
+然后再用主炮Hume Barrel直接轰她，[r]让她彻底丧失战斗力！
+[k]
+
+[charaFace D 14]
+
+＠戈尔德鲁夫
+迦勒底的命运，在此一役！[r]上吧，诸位！　都给我竭尽全力！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_MAP_58 0.4]
+[wait fade]
+[soundStopAll]
+[end]

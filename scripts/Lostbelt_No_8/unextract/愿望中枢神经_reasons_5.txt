@@ -1,0 +1,1676 @@
+
+
+
+＄04-00-02-04-5-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270330 1 阿愈丝]
+[charaSet B 1098270900 1 拉妮－Ｒ1]
+[charaSet C 1098270900 1 拉妮－Ｒ2]
+[charaSet D 1098270900 1 拉妮－Ｒ3]
+[charaSet E 1098270900 1 拉妮－Ｒ4]
+[charaSet F 1098270000 1 希翁]
+[charaSet G 7046001 1 难敌]
+[charaSet H 6037000 1 迦摩]
+[charaSet I 1098270700 1 拉妮－Ｔ]
+[charaSet J 1098270710 1 拉妮－Ｔ_花饰1]
+[charaSet K 1098266900 1 Lancer]
+[charaSet L 1098270600 1 维持部ＡＩ]
+
+[charaSet M 1098270710 1 拉妮－Ｔ_花饰1（演出用）]
+
+
+[imageSet O cut466_material 1]
+[imageSet P cut466_naan 1]
+
+
+[sceneSet Q 189400 1]
+[charaScale Q 1.2]
+[sceneSet R 189400 1]
+[charaScale R 1.2]
+[sceneSet S 189400 1]
+[charaScale S 1.2]
+[sceneSet T 189400 1]
+[charaScale T 1.2]
+
+[charaSet U 1098266900 1 Lancer（演出用）]
+[sceneSet V 189900 1]
+[charaScale V 1.2]
+[charaSet W 1098269300 1 塞蕾雪拉（演出用）]
+[sceneSet X 189800 1]
+[charaScale X 1.2]
+
+[imageSet Y back10000 1 1]
+[charaScale Y 1.3]
+
+[charaSet Z 98115000 1 特效用dummy]
+
+
+[scene 189400]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_167 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+好嘞～，通讯安全强化完毕。[r]遭掠劫的地方也收拾干净了。[wt 0.9][charaFace A 1]很完美！
+[k]
+
+＠阿愈丝
+已经天亮了，我们转换一下心情吧！[r]大家，打起精神来！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth B 4]
+[charaDepth C 5]
+[charaDepth D 3]
+[charaDepth E 6]
+
+[charaFace B 15]
+[charaFace C 15]
+[charaFace D 15]
+[charaFace E 15]
+[charaFadein B 0.1 150,0]
+[charaFadein C 0.1 -150,0]
+[charaFadeinFSR D 0.1 400,0]
+[charaFadeinFSL E 0.1 -400,0]
+＠拉妮－Ｒ们
+噢～。
+[k]
+
+？1：早上好。
+？！
+
+[charaSet A 1098270300 1 阿愈丝]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+早安，睡得还好吗？
+[k]
+
+[messageOff]
+[wt 1.0]
+
+？1：……睡得，还算挺舒服的！
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+
+＠希翁
+身体状况也在灵线神经的管理之下。[r]目前未见异常。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth B 2]
+[charaDepth R 3]
+[charaDepth C 4]
+[charaDepth S 5]
+[charaDepth D 6]
+[charaDepth T 7]
+[charaDepth E 8]
+
+
+[charaScale Q 1.4]
+[charaFadein Q 0.7 -200,-300]
+[charaMove Q -250,-300 0.7]
+[wt 0.9]
+
+[se ade422]
+[charaScale B 1.1]
+[charaFace B 0]
+[charaFadein B 0.4 100,10]
+[wt 0.4]
+[seStop ade422 0.3]
+[charaFadeout F 0.1]
+[wt 0.2]
+
+[charaTalk on]
+＠拉妮－Ｒ
+早上好。[r]再度欢迎您从中央区域归来。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMove B 150,10 0.6]
+[charaMove Q -200,-300 0.6]
+[wt 0.7]
+
+[se ade422]
+[charaScale C 1.1]
+[charaFace C 5]
+[charaFadein C 0.4 -150,10]
+[wt 0.4]
+[seStop ade422 0.3]
+[wt 0.2]
+
+[charaTalk on]
+＠拉妮－Ｒ
+早上好，欢迎回来。[r]您没事吧？　看来没事呢。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMove B 300,10 0.75]
+[charaMove C 0,10 0.75]
+[charaMove Q -100,-300 0.75]
+[wt 0.85]
+
+[se ade422]
+[charaScale D 1.1]
+[charaFace D 15]
+[charaFadein D 0.4 -300,10]
+[wt 0.4]
+[seStop ade422 0.3]
+[wt 0.2]
+
+[charaTalk on]
+＠拉妮－Ｒ
+早上好，欢迎回来。[r]搜索损伤……未发现结果。
+[k]
+
+[charaFace D 3]
+＠拉妮－Ｒ
+判断昨晚的战斗并未造成损伤，[r]或是既已治疗完毕。真遗憾。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMove B 450,10 0.7]
+[charaMove C 150,10 0.7]
+[charaMove D -150,10 0.7]
+[charaMove Q 0,-300 0.7]
+[wt 0.7]
+
+
+[se ade422]
+[charaScale E 1.1]
+[charaFace E 1]
+[charaFadeinFSL E 0.4 -400,10]
+[wt 0.4]
+[seStop ade422 0.3]
+[wt 0.2]
+
+[charaTalk on]
+＠拉妮－Ｒ
+早上好，欢迎回来。
+[k]
+
+＠拉妮－Ｒ
+绝对不是感到失望，只是对没有机会[r]展现原本的工作有种失落感，
+[k]
+
+[charaFace E 15]
+＠拉妮－Ｒ
+反过来说也是充满干劲的表现，敬请理解。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout B 0.6]
+[charaFadeout C 0.6]
+[charaFadeout D 0.6]
+[charaFadeout E 0.6]
+[charaFadeout Q 0.6]
+[wt 0.8]
+
+[charaSet A 1098270370 1 阿愈丝]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠希翁
+……[&他:她]非常受欢迎呢。[r]已经被团团围住了。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠阿愈丝
+呵呵，应该是想表现自己优秀的一面吧。
+[k]
+
+[charaFace A 0]
+＠阿愈丝
+毕竟我们基本上是一见到[#缺损:空洞][r]就想填补起来的治疗型号，
+[k]
+
+＠阿愈丝
+你们与我们平时治疗的ＡＩ不同，[r]治疗你们的机会无异于享用珍稀的美食。
+[k]
+
+[charaFace A 1]
+＠阿愈丝
+不过我觉得这也是因为她们起初都想报答[r][%1][&先生:小姐]的相救之恩吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠难敌
+唔。受到众人簇拥的中心[r]必须全都得是本老爷才行。
+[k]
+
+[charaFace G 5]
+＠难敌
+一大早就坏人心情。[r]好啦，解散解散！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth B 4]
+[charaDepth C 5]
+[charaDepth D 3]
+[charaDepth E 6]
+
+[charaScale B 1.0]
+[charaScale C 1.0]
+[charaScale D 1.0]
+[charaScale E 1.0]
+[charaFace B 3]
+[charaFace C 4]
+[charaFace D 10]
+[charaFace E 11]
+[charaFadein B 0.1 150,0]
+[charaFadein C 0.1 -150,0]
+[charaFadeinFSR D 0.1 400,0]
+[charaFadeinFSL E 0.1 -400,0]
+[wt 1.0]
+
+[charaTalk on]
+＠D：拉妮－Ｒ
+报告。太蛮横了。
+[k]
+
+[messageOff]
+[se ade423]
+[charaFadeout D 0.4]
+[seStop ade423 1.0]
+[wt 1.4]
+
+＠E：拉妮－Ｒ
+报告。老实说，很碍事。
+[k]
+
+[messageOff]
+[se ade423]
+[charaFadeout E 0.4]
+[seStop ade423 1.0]
+[wt 1.4]
+
+＠B：拉妮－Ｒ
+没办法，只能调整为标准距离模式，[r]我提议降低内部个别好感度比率[line 3]
+[k]
+
+[messageOff]
+[se ade423]
+[charaFadeout B 0.4]
+[seStop ade423 1.0]
+[wt 1.4]
+
+＠C：拉妮－Ｒ
+已受理。更新最低值。
+[k]
+
+[messageOff]
+[se ade423]
+[charaFadeout C 0.4]
+[seStop ade423 1.0]
+[wt 1.4]
+
+[charaSet A 1098270300 1 阿愈丝]
+
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+＠难敌
+喂，刚才是不是发生了什么[r]本老爷这个当红人物不能视若无睹的事？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠B：拉妮－Ｒ
+恐怕是您的心理作用
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+＠阿愈丝
+呵呵，这种热闹的氛围果然也很棒呢。
+[k]
+
+[charaFace A 0]
+＠阿愈丝
+身旁有知根知底、型号相似的同伴，[r]漫不经心地[#交换情报:闲聊][line 3]
+[k]
+
+？1：就像家人一样，很棒呢。
+？！
+
+[charaFace A 6]
+＠阿愈丝
+没错，你也这么觉得吧？[r]呵呵，你还记得我昨天说的话呢。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth F 4]
+[charaDepth H 5]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFace H 2]
+[charaFadeinFSL F 0.1 0]
+[charaFadeinFSR H 0.1 2]
+＠希翁
+当然记得。还记得你得出了我和迦摩[r]负责饰演女儿这种非我所愿的结论。
+[k]
+
+[charaFace H 5]
+＠希翁
+每当提到这种话题，我不惜重复无数遍[r]都要否定，我才不是那种孩童类存在。
+[k]
+
+[charaFace F 10]
+[charaFace H 1]
+＠希翁
+毕竟经过测量，我的身高[r]要比迦摩高上约3公分，[charaMoveFSR H 306,0 0.4][charaFadeout H 0.4]
+[k]
+
+[charaFace F 6]
+＠希翁
+请容我提出基于这层理由，[r]把我们相提并论也是不恰当的主张。
+[k]
+
+＠希翁
+更何况[line 3]
+[k]
+
+[bgmStop BGM_EVENT_167 1.5]
+
+[charaFace F 4]
+＠希翁
+……请等一下。[r][#迦摩去哪儿了]？
+[k]
+
+？1：咦，不见了！？
+？！
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaSet H 6037001 1 迦摩]
+
+[se ad95]
+[wt 1.4]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.4 1]
+[wt 0.2]
+[seStop ad95 0.4]
+[wt 0.8]
+[bgm BGM_HALLOWEEN_2021_1 0.1]
+
+＠迦摩
+你在慌张些什么呢，我就在这里哦。
+[k]
+
+＠迦摩
+我只是去了趟洗手间，或者说[r]换了套衣服而已。呵呵呵。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠希翁
+……！
+[k]
+
+？1：变大了呢……？
+？2：怎么突然就……？
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 12]
+[charaFadein H 0.1 1]
+＠迦摩
+没，没什么理由。[r]就像迎接新的一天，顺便转换心情而已。
+[k]
+
+[charaFace H 1]
+＠迦摩
+又不是非得保持以往那种娇小的外形不可吧？
+[k]
+
+＠迦摩
+这点你总明白吧。[r]对吧，御主……？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠阿愈丝
+咦，变大了！？[r]难道是安装了新的角色形象程序吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠迦摩
+唔嗯，这种形容真巧妙。[r]因为只改变了外表，内在完全没变。
+[k]
+
+[charaFace H 6]
+＠迦摩
+嗯，没错。就像是换了件衣服，[r]没什么特别的意思，请不必在意。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠难敌
+唔～，虽说是从者，但不愧是神灵呢。[r]可以随心所欲地改变外形，真羡慕。
+[k]
+
+＠难敌
+不过还是挺突然的。
+[k]
+
+？1：为什么呢。
+？2：我不明白原因。
+？！
+
+[charaFace G 7]
+＠难敌
+怎么，你不明白吗？
+[k]
+
+＠难敌
+……[r]……
+[k]
+
+[charaFace G 3]
+＠难敌
+哇哈哈！　本老爷还好奇使唤爱神的人类[r]是个多了不起的家伙呢，原来如此啊！
+[k]
+
+[charaFace G 0]
+＠难敌
+所谓的女人呀，当身在同一战场时，[r]好像不愿意用完全一样的武器战斗哦。
+[k]
+
+＠难敌
+听说光是衣服撞色就会令她们烦躁不已。[r]说白了就是这么一回事。
+[k]
+
+＠难敌
+看来神明也不例外吧。
+[k]
+
+？1：…………？
+？！
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgmStop BGM_HALLOWEEN_2021_1 2.0]
+[charaTalk H]
+[charaFace H 17]
+[charaFadein H 0.1 1]
+[wt 1.2]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠难敌
+哎哟，瞪人的眼神好凶哦。[r]还是给嘴巴拉上拉链吧。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+无妨啦，接下来我们要补充包含拉妮物质的素材，[r]你们打算怎么办？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠希翁
+我记得拉妮物质是相当于魔力的概念因子，[r]而素材则是这个世界物理材质的根基吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+没错，说得简单明了一些，[r]应该算『进食』吧。
+[k]
+
+＠阿愈丝
+是[#生产部:Grow]制作的素材经由[#维持部:Keep]加工后，[r]包含着微量拉妮物质的东西。就是这种东西哦。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[charaTalk off]
+[charaDepth Y 1]
+[charaDepth O 3]
+
+[cueSe Battle bas2]
+[wt 0.1]
+[charaScale O 0.7]
+[charaTalk O]
+[charaFace O 0]
+[charaFadein O 0.4 0,-100]
+[charaPut Y 1]
+[charaFadeTime Y 0.4 0.5]
+[wt 2.0]
+
+[charaFadeout O 0.4]
+[charaFadeout Y 0.4]
+[wt 0.6]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠希翁
+也就是说……通过摄取这个，你们ＡＩ就能恢复[r][#魔力:拉妮物质]，填补材质上的劣化吗？
+[k]
+
+＠希翁
+原来如此，那确实算进食。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+不过能获得的拉妮物质量只够[r]与自然消耗抵消来维持现状，
+[k]
+
+＠阿愈丝
+吃了也无法在战斗中占据优势。
+[k]
+
+[charaFace A 1]
+＠阿愈丝
+既然身份与ＡＩ相同，[r]我觉得你们应该也可以吃。要吃吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+＠希翁
+能量补给非常重要。如果能允许我先用[r]灵线神经确认安全性，请务必带上我们。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠拉妮－Ｒ
+稍等。有报告。
+[k]
+
+[charaFace B 0]
+＠拉妮－Ｒ
+首席，最近[#维持部:Keep]推出了[r]这样的素材，您知道吗？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.15]
+
+[charaTalk off]
+[charaDepth Y 1]
+[charaDepth P 3]
+
+[cueSe Battle bas2]
+[wt 0.1]
+[charaTalk P]
+[charaFace P 0]
+[charaFadein P 0.4 0,-200]
+[charaPut Y 1]
+[charaFadeTime Y 0.4 0.5]
+[wt 0.1]
+[wt 1.9]
+
+[charaFadeout P 0.4]
+[charaFadeout Y 0.4]
+[wt 0.6]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+这是什么，最近还有这种东西吗？
+[k]
+
+？1：像是……印度的，馕呢。
+？2：看起来似乎挺好吃。
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠难敌
+……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth G 1]
+[charaDepth I 2]
+
+[charaFace I 0]
+[charaFadein I 0.4 450,0]
+[charaMove I 400,0 0.4]
+[wt 0.6]
+
+[charaSet A 1098270310 1 阿愈丝]
+
+[charaTalk on]
+＠拉妮－Ｔ
+Hello。[r]那个是我转运过来的。
+[k]
+
+[charaFadeout I 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+你是……根据识别编号来看，[r]是昨天[#Rider:骑兵]带来的那孩子吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 0.1 1]
+＠拉妮－Ｔ
+Yes。那次承蒙各位的关照。
+[k]
+
+＠拉妮－Ｔ
+因此不忘谢礼的飚速王，[r]才会优先将最新的加工素材送达此处。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠阿愈丝
+真是太感谢啦。[r]给，这是答谢的拉妮物质。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth Z 9]
+[charaDepth A 2]
+[charaDepth I 2]
+
+[cueSe SE_23 23_ad1304 0 0.8]
+[charaPut Z 0,50]
+[charaEffect Z bit_talk_raniment01]
+[wt 2.5]
+
+[charaMove Z -150,50 0.9]
+[wt 0.3]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[cueSeVolume 23_ad1304 0.5 0.4]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[wt 0.3]
+
+[charaPut Z 100,0]
+[charaFace I 1]
+[charaFadein I 0.1 1]
+[wt 0.4]
+
+[charaMove Z 1 0.6]
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[cueSeVolume 23_ad1304 0.5 0.8]
+[wait wipe]
+[wt 0.2]
+[charaEffectEdgeBlur I FFF9A5 FFF9A5 4 1.5]
+[wt 0.3]
+[cueSeStop 23_ad1304 0.2]
+[cueSe SE_23 23_ad1305 0 0.8]
+[charaEffectStop Z bit_talk_raniment01]
+[wt 0.5]
+[se adm20]
+[wt 2.0]
+[charaEffectEdgeBlurStop I]
+[charaPut Z 2000,2500]
+[charaEffectDestroy Z bit_talk_raniment01]
+
+[charaFace I 6]
+＠拉妮－Ｔ
+我开动了。
+[k]
+
+[charaFace I 10]
+＠拉妮－Ｔ
+……盯～。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.05]
+[charaPut I 2000,2500]
+[wt 0.05]
+[charaEffectEdgeBlurDestroy I]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠希翁
+还有什么事吗？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 10]
+[charaFadein I 0.1 1]
+＠拉妮－Ｔ
+其实我们[#转运部:Transfer]采用小费系统。
+[k]
+
+＠拉妮－Ｔ
+我们各机都是竞争心强烈、想争当第一名的ＡＩ，[r]然而在速度上却很难拉出各机间的差距。
+[k]
+
+＠拉妮－Ｔ
+因此才会把收到的小费赠品视作无上的喜悦。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+＠阿愈丝
+说起来的确是这么回事。[wt 0.6][charaFace A 5][r]我想想，有什么能当作赠品的……
+[k]
+
+[charaFace A 4]
+＠阿愈丝
+你们有什么东西吗？
+[k]
+
+？1：没有呢～。
+？2：你们有吗？
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠迦摩
+真拿你没办法。
+[k]
+
+＠迦摩
+随便给你编个花朵造型的东西吧。[r]虽说徒有外表，但这种就可以了吧？
+[k]
+
+[messageOff]
+[charaPut Z 1]
+[charaEffect Z bit_talk_20b]
+[wt 0.2]
+[cueSe Battle bac283]
+[wt 1.8]
+
+[charaFadeout H 0]
+[charaPut Z 2000,2500]
+[charaEffectStop Z bit_talk_20b]
+[wt 0.15]
+
+[charaTalk off]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+[wt 0.4]
+
+[se ad236]
+[fowardEffect bit_talk_magical_pon]
+[wt 0.12]
+
+[charaFace J 8]
+[charaFadein J 0 1]
+[charaFadeout I 0.1]
+[wt 1.1]
+
+[subCameraOn 1]
+[charaLayer M sub #A]
+[charaLayer Q sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask14 4 255,255,255,255]
+
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth M 2]
+
+[charaScale M 2.0]
+[charaScale Q 2.0]
+[charaFace M 8]
+[charaFadein M 0.1 350,100]
+[charaFadein Q 0.1 350,-200]
+
+[subRenderScale #A 0.7]
+
+[subRenderFadein #A 0.4 -100,65]
+[wt 0.8]
+
+[charaFace J 10]
+[charaFace M 10]
+＠拉妮－Ｔ
+Good。[r]我进化成了与众不同的华丽飚速王。
+[k]
+
+＠拉妮－Ｔ
+期待您的再次惠顾。
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.4]
+
+[cueSe SE_23 23_ad1297]
+[charaMove J -70,0 0.4]
+[charaFadeout J 0.4]
+[cueSeStop 23_ad1297 1.2]
+[wt 0.4]
+
+[charaFadeout M 0.1]
+[charaFadeout Q 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer M normal]
+[charaLayer Q normal]
+[charaScale M 1.0]
+[charaScale Q 1.0]
+[wt 1.2]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠希翁
+好了。虽说盛情难却，[r]但还是得做好危机管理。
+[k]
+
+＠希翁
+我用灵线神经详细检查过了，[r]这东西本质上与能量棒外形的那种没什么差别。
+[k]
+
+＠希翁
+只是对边缘数据进行了细致的加工，[r]追加了多余的装饰而已。
+[k]
+
+[charaFace F 9]
+＠希翁
+以我们的感官来说，[r]就类似于『味道』和『香气』吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠拉妮－Ｒ
+由于在功能上完全相同，[r]因此对我们来说『哪种都行』，
+[k]
+
+[charaFace B 0]
+＠拉妮－Ｒ
+不过推测对来自外部的你们来说，[r]这种应该更容易摄取吧。
+[k]
+
+？1：谢谢你们。
+？2：既然可以收下，那我就开动了！
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠迦摩
+既然可以补充魔力……拉妮物质，[r]那我也来一点吧。
+[k]
+
+＠迦摩
+[#Berserker:狂战士]，你呢？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 10]
+[charaFadein G 0.1 1]
+＠难敌
+……那种东西本老爷怎么可能吃得下。[r]你们自己吃吧。
+[k]
+
+[messageOff]
+[se ad95]
+[charaMove G -50,0 0.4]
+[charaFadeout G 0.4]
+[seStop ad95 1.2]
+[wt 1.6]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠迦摩
+……？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_77 1.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+
+[scene 189300]
+
+[pictureFrame cut063_cinema]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+[se ad95]
+[wt 0.8]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.4 0,-50]
+[wt 0.3]
+[seStop ad95 0.4]
+[wt 0.7]
+
+＠难敌
+果然[line 3][r]并不是，看错了啊。
+[k]
+
+＠难敌
+那家伙确实在。[r]就在这个世界……
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout G 0.1]
+
+
+[charaSet M 1098269300 1 ？？？]
+[charaSet I 1098270730 1 拉妮－Ｔ]
+
+[scene 189900]
+
+[pictureFrame]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth K 1]
+[charaDepth V 2]
+[charaDepth U 3]
+
+[cueSe SE_22 22_ad1161]
+[se ade294]
+[seVolume ade294 0 0]
+[seVolume ade294 0.4 0.3]
+[wt 0.6]
+[se ad207]
+[seVolume ad207 0 0]
+[wt 0.6]
+
+[cueSe SE_23 23_ade829]
+[cueSeVolume 23_ade829 0 0.6]
+[wt 0.8]
+[charaFadein V 0.8 0,-220]
+[wt 0.8]
+
+[charaFace K 3]
+[charaFadein K 0.1 1]
+
+[wt 1.2]
+
+[charaScale U 1.2]
+[charaFace U 0]
+[charaFadein U 0.5 0,135]
+[wt 0.8]
+[seVolume ad207 0.2 1.0]
+[wt 1.6]
+
+
+[wt 0.5]
+[charaFace U 3]
+[cueSeStop 23_ade829 0.3]
+[seStop ade294 0.5]
+[cueSeStop 22_ad1161 0.5]
+[wt 0.5]
+[seStop ad207 1.0]
+[wt 1.2]
+
+[charaFadeout U 1.0]
+[charaFadeout V 1.0]
+[wt 1.4]
+
+[bgm BGM_MAP_49 0.1]
+
+[charaTalk on]
+[charaTalk K]
+[charaFace K 0]
+＠K：？？？
+……哼。今天的风儿莫名浮躁。[r]是在害怕吗，还是说[line 3]
+[k]
+
+[messageOff]
+[charaFace K 5]
+[wt 1.0]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 0]
+[charaFadein L 0.4 1]
+[wt 0.4]
+
+＠维持部ＡＩ
+主厨，请您确认一下品质。
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠K：？？？
+噢，有什么创新吗？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 4]
+[charaFadein L 0.1 1]
+＠维持部ＡＩ
+不需要什么创新。我们[#维持部:Keep]，[r]型号Ｋ的ＡＩ所需要的是稳定性。
+[k]
+
+[charaFace L 0]
+＠L：维持部ＡＩ（拉妮－Ｋ）
+……那么为何要模仿主厨的素材加工方式呢，[r]会产生这个疑问理所当然。
+[k]
+
+＠L：维持部ＡＩ（拉妮－Ｋ）
+这关系到各式各样的因素，[r]基于比较优势与劣势来评估[line 3]
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠K：？？？
+比起平淡无味，你们肯定也更喜欢美味的东西，[r]仅此而已吧。
+[k]
+
+＠K：？？？
+没什么好奇怪的。
+[k]
+
+＠K：？？？
+来，让我尝尝。唔……
+[k]
+
+[messageOff]
+[se ade162]
+[charaFace K 7]
+[wt 0.1]
+[wt 0.5]
+[wt 1.3]
+[seStop ade162 0.2]
+[wt 0.6]
+
+[charaFace K 5]
+＠K：？？？
+很好，虽然比不上我，但也算合格了吧。[r]如果有人想要，你大可挺起胸膛自信地递给对方。
+[k]
+
+[messageOff]
+[charaFadeout K 0.1]
+[wt 0.15]
+
+[se ad159]
+[seVolume ad159 0 0.8]
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 100,0]
+[charaMove I 1 0.4]
+[charaShake I 0.02 2 2 0.8]
+[wt 1.2]
+
+＠拉妮－Ｔ
+这里是各位的飚速王，可靠的[#转运部:Transfer]。
+[k]
+
+[charaMoveReturn I 0,-10 0.8]
+＠拉妮－Ｔ
+我来运送这些素材加工品。[r]Let's go。破风前行。
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1298]
+[charaMove I -100,0 0.4]
+[charaFadeout I 0.4]
+[cueSeStop 23_ad1298 1.2]
+[wt 1.8]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠K：？？？
+好了……去看看御主的情况吧。[r]今天的那份是我的得意之作，不知结果如何？
+[k]
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 1.0]
+[bgmStop BGM_MAP_49 1.0]
+[wait fade]
+
+[charaFadeout K 0.1]
+
+[scene 189800]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.5]
+
+[charaTalk off]
+[charaDepth M 1]
+[charaDepth X 2]
+[charaDepth W 3]
+
+[charaFadein X 0.7 0,-210]
+[wt 1.0]
+
+[charaFace M 0]
+[charaFadein M 0.1 1]
+
+[se ade422]
+[wt 0.1]
+[charaScale W 1.25]
+[charaFace W 0]
+[charaFadein W 0.4 0,190]
+[wt 0.3]
+[seStop ade422 0.2]
+[wt 1.0]
+
+[charaMove W 0,15 1.5]
+[charaMove X 0,-300 1.5]
+[wt 2.6]
+
+[charaFadeout W 0.8]
+[charaFadeout X 0.8]
+[wt 1.1]
+
+[charaTalk on]
+[charaFace M 4]
+＠？？？
+唉……
+[k]
+
+[messageOff]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[se ad95]
+[charaTalk K]
+[charaFace K 1]
+[charaFadein K 0.4 1]
+[wt 0.4]
+[seStop ad95 0.2]
+[wt 0.4]
+
+[bgm BGM_MAP_61 0.1]
+
+＠K：？？？
+哟！　你还精神吗，御主？[r]还是说吃了我做的菜就打起精神了呢，御主？
+[k]
+
+[charaFace K 5]
+＠K：？？？
+噢，既然盘子空了，就代表全都吃了吧。
+[k]
+
+[charaFace K 0]
+＠K：？？？
+我成功在原本就很美味的馕里加入了芝士。
+[k]
+
+＠K：？？？
+虽说只是所谓数据上的重现，但既然能吃出那种味道，[r]就等同于实际已经做出来了吧。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 5]
+[charaFadein M 0.1 1]
+＠？？？
+……[r]……
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 3]
+[charaFadein K 0.1 1]
+＠K：？？？
+唔嗯。[r]吃了我的[#得意之作:菜]，还打不起精神来吗？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 0]
+[charaFadein M 0.1 1]
+＠？？？
+不是精神不精神的问题，[#Lancer:枪兵]。
+[k]
+
+＠？？？
+我，一直是，这副状态。[r]仅此而已。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠Lancer
+唔～，只要吃了我做的菜，[r]大哥和弟弟们都会精神起来啊。
+[k]
+
+＠Lancer
+无论在被放逐出王国时，[r]还是多么难受、多么悲伤的时候。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 8]
+[charaFadein M 0.1 1]
+＠？？？
+我又不是你的兄弟。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠Lancer
+那当然啦，御主。
+[k]
+
+[charaFace K 3]
+＠Lancer
+可是……不对呢，还是不对。
+[k]
+
+[charaFace K 0]
+＠Lancer
+我确信自己能让你变得更有精神。
+[k]
+
+＠Lancer
+确信你真正有精神的时候不是这副状态。[r]……虽说毫无根据！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_61 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth Y 4]
+[charaDepth M 5]
+
+[charaPut Y 1]
+[charaFadeTime Y 0.2 0.5]
+
+[charaTalk M]
+[charaFace M 5]
+[charaFadein M 0.1 1]
+＠M：枪兵的御主
+（……原来毫无根据啊。）
+[k]
+
+[charaFadeout M 0.1]
+[charaFadeout Y 0.2]
+[wt 0.1]
+
+[bgm BGM_MAP_61 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk K]
+[charaFace K 1]
+[charaFadein K 0.1 1]
+＠Lancer
+所以我首要目标就是做出能让你打起精神来的菜！[r]否则谈何战斗！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 4]
+[charaFadein M 0.1 1]
+＠M：枪兵的御主
+虽然我不太了解，但你是位强大的英雄吧。[r]一个人去战斗不就好了嘛。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 1]
+[charaFadein K 0.1 1]
+＠Lancer
+哈哈哈，眼下做菜比战斗更为重要。
+[k]
+
+＠Lancer
+如果一直无法让御主打起精神来，[r]也就代表我做的菜到头来只有这点水平。
+[k]
+
+[charaFace K 5]
+＠Lancer
+我不会自大到认为自己厨艺天下第一，
+[k]
+
+＠Lancer
+但我至少不想让津津有味享用过我菜品的[r]兄弟和王宫里的人们蒙羞。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 0]
+[charaFadein M 0.1 1]
+＠M：枪兵的御主
+你难道是厨师英雄？
+[k]
+
+[messageOff]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+[wt 1.0]
+
+＠Lancer
+谁知道呢。我只知道[line 3]身为厨师的我，[r]也毫无疑问是我。
+[k]
+
+[charaFace K 1]
+＠Lancer
+总而言之！　既然今天的得意之作[r]也不足以让你打起精神，
+[k]
+
+＠Lancer
+那下次定要做出合你口味的东西！
+[k]
+
+[charaFace K 8]
+＠Lancer
+唔，[#素材:食材]不够了呢。
+[k]
+
+[charaFace K 0]
+＠Lancer
+那就得采购了，我去采购啦！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+[charaTalk M]
+[charaFace M 5]
+[charaFadein M 0.1 1]
+
+＠M：枪兵的御主
+……一路顺风。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠Lancer
+御主怎么能不一起来呢。[r]圣杯战争不就是这样的吗？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 3]
+[charaFadein M 0.1 1]
+＠M：枪兵的御主
+我……什么都做不到啦……[r]就算发生战斗……
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 8]
+[charaFadein K 0.1 1]
+＠Lancer
+不是战斗啦。我不是说了是去采购吗？
+[k]
+
+[charaFace K 0]
+＠Lancer
+总之，我得先用我做的菜让你露出笑容。[r]我已经决定最优先这件事了。
+[k]
+
+＠Lancer
+战斗不过是次要的！
+[k]
+
+[charaFace K 1]
+＠Lancer
+好啦，走吧，御主。[r]你要是不愿意走路，就由我来背你！
+[k]
+
+[messageOff]
+[wt 1.5]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_MAP_61 1.5]
+[wait fade]
+
+[charaFadeout K 0.1]
+
+
+[scene 189300]
+
+[pictureFrame cut063_cinema]
+
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk G]
+[charaFace G 10]
+[charaFadein G 0.1 0,-50]
+＠难敌
+……那个战斗狂。
+[k]
+
+＠难敌
+这次又打算妨碍本老爷吗……！
+[k]
+
+
+
+
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

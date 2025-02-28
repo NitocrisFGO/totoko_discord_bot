@@ -1,0 +1,938 @@
+
+
+
+＄03-00-13-24-3-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257700 1 特诺奇蒂特兰]
+[charaSet B 1098253920 1 伊斯卡利]
+[charaSet C 1098255300 1 尼托克丽丝]
+
+[charaSet D 1098256800 1 温和的迪诺斯]
+[charaSet E 1098258310 1 感到不可思议的迪诺斯]
+[charaSet F 1098258800 1 回来看店的迪诺斯]
+[charaSet G 1098256910 1 似乎很高兴的迪诺斯]
+[charaSet H 1098258500 1 似乎很悲伤的迪诺斯]
+
+[charaSet I 1098256810 1 迪诺斯（剪影）]
+[charaFilter I silhouette 00000080]
+[charaSet J 1098256900 1 迪诺斯（剪影）]
+[charaFilter J silhouette 00000080]
+[charaSet K 1098258500 1 迪诺斯（剪影）]
+[charaFilter K silhouette 00000080]
+[charaSet L 1098258600 1 迪诺斯（剪影）]
+[charaFilter L silhouette 00000080]
+
+[sceneSet M 169503 1]
+[sceneSet N 169503 1]
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+
+[sceneSet U 174701 1]
+
+[charaPut S 2000,2500]
+[charaEffect S bit_sepia01_fade_fs]
+[charaPut T 2000,2500]
+[charaEffect T bit_talk_06_blue]
+
+[scene 177000]
+
+
+[cameraMove 30.0 0,0 1.05]
+
+[fadein black 2.5]
+[wait fade]
+[wt 1.0]
+
+[bgm BGM_EVENT_142 0.1]
+
+＠
+毫不留情的终结到来了，[r]毫无理由的终结到来了。
+[k]
+
+＠
+地底世界没有安全之处。
+[k]
+
+＠
+如云霞般涌现的空想树种子[r]滥捕草木当作营养来源，
+[k]
+
+＠
+而非植物的生命体则被其视作外敌，[r]无差别地发动攻击。
+[k]
+
+＠
+被种子杀害的动物会水晶化、粉碎，[r]化作星尘消散于米克特兰。
+[k]
+
+＠
+无关迪诺斯还是奥塞洛特尔，[r]生活在树海聚落的人全都束手无策地命丧黄泉。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_142 1.0 0.5]
+[wait fade]
+
+[scene 174701]
+
+[cameraMove 0 0,0 1.01]
+
+[pictureFrameTop cut063_cinema]
+[wt 1.0]
+
+[bgm BGM_EVENT_142 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.4 0,-50]
+[wt 0.8]
+
+＠特诺奇蒂特兰
+…………是吗。[r]虽然我不知道那种生物为什么会泛滥成灾。
+[k]
+
+＠特诺奇蒂特兰
+……但米克特兰要终结了，对吧。[r]……仿佛，打从一开始就注定如此。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+＠
+自言自语中感受不到生气。[r]她的声音充满了失意与悔恨。
+[k]
+
+＠
+她身旁躺着一具不会言语的少年遗体。
+[k]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 0,-50]
+＠特诺奇蒂特兰
+………………
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+＠
+本打算在迦勒底前往地面后，[r]与逐渐崩塌的神殿一同被地幔吞没。
+[k]
+
+＠
+然而当看到被遗留下来的少年遗体后，[r]一股无名火顿时涌上心头，鞭策着行将崩溃的身体。
+[k]
+
+＠
+可那热量也已经到极限了。怒火彻底冷却，[r]开始厌烦所有一切，在神殿的入口处躺了下来。
+[k]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 0,-50]
+＠特诺奇蒂特兰
+……像个笨蛋似的。[r]明明死在哪里都一样。
+[k]
+
+[charaFace A 15]
+＠特诺奇蒂特兰
+既然早已结束，那无论变成什么，应该都没有区别。[r][line 3]我说得没错吧，伊斯卡利。
+[k]
+
+＠特诺奇蒂特兰
+毁灭了[#都市:我]的国王的现世之身。
+[k]
+
+＠特诺奇蒂特兰
+既不邪恶，也不无能，[r]只是不适合的，愚蠢的王。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+＠
+没有什么特别的意义，用手指触摸遗体的额头。[r]少年的额头上有道巨大的伤痕。
+[k]
+
+＠
+被选为一年特斯卡特利波卡的人类之躯，[r]必须是毫发无伤的才行。
+[k]
+
+＠
+然而少年的额头有伤。[r]从被创造出来的那刻起就有。
+[k]
+
+＠
+就像是无论如何投胎转世，无论多么完美的术式[r]都无法治愈的，刻在灵魂上的伤痕。
+[k]
+
+[messageOff]
+[wipeout circleIn 1.5 1.0]
+[bgmStop BGM_EVENT_142 1.5]
+[wait wipe]
+
+[scene 170500]
+
+[charaPut S 1]
+[wt 1.0]
+
+[wipein circleIn 1.5 1.0]
+[wait wipe]
+
+[subCameraOn 1]
+[charaLayer B sub #A]
+[subCameraFilter #A through]
+[subRenderFadein #A 0 0,0]
+[wt 0.2]
+
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.4 0,-50]
+[wt 0.8]
+
+[bgm BGM_EVENT_11 0.1]
+
+＠伊斯卡利
+我不需要知道自己是什么人。[r]也不打算追问。
+[k]
+
+＠伊斯卡利
+我是只会存在一年的奥塞洛特尔之王。[r]被创造为王，为成为神而被选中。
+[k]
+
+＠伊斯卡利
+伟大的特斯卡特利波卡啊，万分感谢。[r]感谢您赐予我这个使命，
+[k]
+
+＠伊斯卡利
+赐予我否定泛人类史的机会。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+＠
+那是烈焰般的视线，[r]匕首般的决心。
+[k]
+
+＠
+是体内的细胞、全身的血液仿佛都在咆哮的，[r]明确的愤怒。
+[k]
+
+＠
+少年在不知自己是根据谁被创造出来的情况下，[r]被赐予了伊斯卡利这个名字，成长起来。
+[k]
+
+＠
+需要的只是一名[r]能覆盖ORT的本能，纯一不杂的复仇者。
+[k]
+
+＠
+兄长的人选是对的。
+[k]
+
+＠
+他的话[line 3]莫特库索马二世之灵魂的话，[r]必定会否定泛人类史吧。
+[k]
+
+＠
+相信并接纳了那群外来者西班牙人，并遭到了背叛。
+[k]
+
+＠
+在必须团结一致与外来文化战斗时，[r]遭到中南美各部族的背叛。
+[k]
+
+＠
+最后被贵族们抛弃，[r]被自己王国的民众投石杀害。
+[k]
+
+＠
+他肯定不想看到什么泛人类史。[r]肯定不想看到成为自身坟场的都市。
+[k]
+
+＠
+而实际上，以莫特库索马二世的灵魂为核心的少年[r]也确实成长为满腔怒火的王。
+[k]
+
+＠
+『如果能像这样当满一年的王，[r]　你就会成为特斯卡特利波卡。』
+[k]
+
+＠
+『杀死迪诺斯，将心脏献给太阳吧。[r]　迪诺斯既聪明又难对付，可别搞砸了哦。』
+[k]
+
+＠
+『这是试炼，伊斯卡利。[r]　用来考验你的灵魂是否适合终结泛人类史。』
+[k]
+
+＠
+根本称不上什么试炼，他肯定会变成那样。
+[k]
+
+＠
+伊斯卡利额头上无法抹除的伤痕，[r]就表明了他的憎恨不会改变。
+[k]
+
+[bgmStop BGM_EVENT_11 2.0]
+
+＠
+[line 3]我曾一直，这样认为。
+[k]
+
+[messageOff]
+[charaEffectStop S bit_sepia01_fade_fs]
+[wt 2.2]
+
+[bgm BGM_EVENT_45 0.1]
+
+＠特拉洛克
+……愁眉苦脸的呢，伊斯卡利。
+[k]
+
+＠特拉洛克
+让两名作为活祭的魔术师和迦勒底逃跑了，[r]令你感到很不甘心吗？
+[k]
+
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 0,-50]
+＠伊斯卡利
+不，虽然让他们逃掉了，但也摸清了[r]他们的据点。这次过错迟早能挽回。
+[k]
+
+[charaFace B 15]
+
+＠伊斯卡利
+更重要的是……
+[k]
+
+＠伊斯卡利
+经由特斯卡特利波卡神的幻视，[r]我看到了墨西哥城的未来。
+[k]
+
+＠伊斯卡利
+每当回想起来，心口都会躁动不安。[r]对这种感觉，我多少有些意外。
+[k]
+
+＠A：特拉洛克
+……确实有点意外，对吧。[r]你又不喜欢奥塞洛特尔和墨西哥城。
+[k]
+
+＠A：特拉洛克
+无论他们死多少人，[r]你的内心都不会感到悲伤吧？
+[k]
+
+[charaTalk B]
+[charaCrossFade B 1098253920 0 0.3]
+
+＠伊斯卡利
+[line 3]说得没错。[r]我对这座都市并无感情。[wait charaCrossFade B]
+[k]
+
+[charaFace B 7]
+＠伊斯卡利
+我跟他们不一样，是个语言不通的异邦人。[r]无论待在哪里都会感觉不爽。
+[k]
+
+＠A：特拉洛克
+对吧？　那为什么？
+[k]
+
+[messageOff]
+[charaTalk B]
+[wt 0.4]
+[charaCrossFade B 1098253920 11 0.2]
+[wait charaCrossFade B]
+[wt 1.0]
+
+＠伊斯卡利
+和一直不情不愿地战斗着的特拉洛克神一样啊。
+[k]
+
+＠伊斯卡利
+我并不是讨厌奥塞洛特尔，[r]只是我不一样而已。
+[k]
+
+＠伊斯卡利
+他们干得很好。[r]不会弄虚作假，勤劳又正直。
+[k]
+
+[charaFace B 13]
+＠伊斯卡利
+……对这座都市也是，只是觉得坐立不安，并非讨厌。[r]虽然根基是特斯卡特利波卡神打造的，
+[k]
+
+＠伊斯卡利
+但深爱都市，让都市繁荣至此的是他们。[r]奥塞洛特尔们以墨西哥城为荣。
+[k]
+
+[charaFace B 12]
+＠伊斯卡利
+最重要的是，这是祭祀您的都市。[r]绝不可能不美丽。
+[k]
+
+[charaCrossFade B 1098253920 0 0.2]
+
+＠伊斯卡利
+我不会偏袒泛人类史的文明，[r]但也没有蠢到会否定好东西。[wait charaCrossFade B]
+[k]
+
+
+[charaCrossFade B 1098253920 22 0.2]
+
+＠伊斯卡利
+我迟早会被放逐出墨西哥城吧，[r]毕竟我不是奥塞洛特尔。[wait charaCrossFade B]
+[k]
+
+[charaFace B 29]
+
+＠伊斯卡利
+可是，今后我将建造一座理想的都市。[r]这次，一定要打造出不逊色于这座都市的美丽都市。
+[k]
+
+＠A：特拉洛克
+……伊斯卡利。[r]但是，你[line 3]
+[k]
+
+[charaTalk off]
+[charaCrossFade B 1098253920 11 0.2]
+
+＠伊斯卡利
+我知道，[r]一年特斯卡特利波卡的结局就是成为活祭吧。[wait charaCrossFade B]
+[k]
+
+＠伊斯卡利
+我会守护我们的文化，履行自己的职责。[r]既然成为了王，就要见证奥塞洛特尔的将来。
+[k]
+
+[charaFace B 12]
+＠伊斯卡利
+每当想到这里，额头伤口的疼痛便会消失。[r]肯定是因为若能实现就会很开心吧。
+[k]
+
+[charaFace B 9]
+＠伊斯卡利
+然而，这不过是我的梦想而已。[r]我只是希望这样做，却无法实现。
+[k]
+
+[charaFace B 4]
+
+＠伊斯卡利
+这具身体被创造出来的理由与目的，[r]是破坏泛人类史。
+[k]
+
+＠伊斯卡利
+我就是为此才一路努力至今。[r]除此以外的感伤都不足为道。
+[k]
+
+[charaCrossFade B 1098253920 16 0.2]
+[wait charaCrossFade B]
+
+＠伊斯卡利
+请您保佑我的决心，特拉洛克神。[r]保佑我无论付出多大的牺牲，都能[line 3]
+[k]
+
+[charaFace B 15]
+＠伊斯卡利
+将这灵魂的愤怒摆在首位。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_45 1.0 0]
+[wait fade]
+[charaTalk on]
+[charaFadeout B 0.1]
+
+
+[scene 174500]
+
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 0,-50]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+＠伊斯卡利
+……请您重新考虑，特斯卡特利波卡。[r]毁灭泛人类史是无妨。
+[k]
+
+[charaCrossFade B 1098253920 4 0.2]
+
+＠伊斯卡利
+但应该没必要毁灭这颗[#行星:星球]，[r]毁灭米克特兰才对……！
+[k]
+
+[charaCrossFade B 1098253920 17 0.2]
+＠伊斯卡利
+泛人类史一旦消失，今后便是奥塞洛特尔的时代了……！[r]这样不就能一举达成破坏与新生了吗！
+[k]
+
+
+[messageOff]
+[se bac341]
+[flashin once 0.1 0.2 FFFFFFAF FFFFFF00]
+[fowardEffect bit_talk_35]
+[wt 0.1]
+[charaFace B 10]
+[charaShake B 0.02 3 3 0.5]
+[wt 1.6]
+
+[charaMove B 0,-100 0.7]
+[wt 0.3]
+[charaFadeout B 0.4]
+[wt 0.4]
+[se ad144]
+[wt 1.2]
+
+[charaPut S 1]
+[charaEffect S bit_sepia01_fade_fs]
+[wt 2.4]
+[fowardEffectDestroy bit_talk_35]
+
+
+[wipeout circleIn 1.0 1.0]
+[wait wipe]
+
+[charaPut S 2000,2500]
+[charaEffectStop S bit_sepia01_fade_fs]
+[charaEffect S bit_sepia01_depth_fs]
+
+[scene 174701]
+
+[charaTalk A]
+[charaFace A 25]
+[charaFadein A 0.1 0,-50]
+[wt 1.5]
+
+[wipein circleIn 1.0 1.0]
+[wait wipe]
+[wt 0.4]
+
+＠特诺奇蒂特兰
+[line 3]真是的，怎么无论过去多久，都还是个孩子呢。[r]这次，不也，没能，摆在首位吗。
+[k]
+
+＠特诺奇蒂特兰
+明明那么地愤怒，总是在念叨着什么王的职责。[r]到头来，还是选择了，自己喜欢的那边。
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeMove white 0.6 1.0]
+[seStop ad788 1.0]
+[bgm BGM_EVENT_45 0.6 0.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[scene 175000]
+
+[charaPut S 1]
+[charaPut T 0,-100]
+[charaPut C 0,-50]
+[charaTalk C]
+[charaFace C 6]
+[charaFadeTime C 0.1 0.8]
+[wt 0.7]
+
+[fadeMove white 0.6 0.2]
+[wait fade]
+[wt 0.4]
+
+
+＠尼托克丽丝
+你那不情不愿战斗的模样，[r]很像当初失去兄弟前的我。
+[k]
+
+＠尼托克丽丝
+因此[line 3]虽然这只是出于我想拯救自我的，[r]自我满足的愿望，但还是希望你能记在心里。
+[k]
+
+＠尼托克丽丝
+该战斗的时刻、该战斗的对手，[r]当你真正遇到这些的时候，不要伪装自己。
+[k]
+
+＠尼托克丽丝
+说要为民众流血的，美丽都市的化身。
+[k]
+
+＠尼托克丽丝
+你的心脏里，还留存着[#眷恋:热量]吧？
+[k]
+
+
+[messageOff]
+[fadeMove white 0.6 1.0]
+[bgmStop BGM_EVENT_45 3.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaPut S 2000,2500]
+[charaPut T 2000,2500]
+[charaEffectStop S bit_sepia01_depth_fs]
+[charaEffectStop T bit_talk_06_blue]
+
+
+[scene 174701]
+
+[charaSet A 28005002 1 特诺奇蒂特兰]
+
+[wt 0.7]
+
+[fadein white 0.6]
+[wait fade]
+[wt 0.5]
+
+＠特诺奇蒂特兰
+[line 3]唉。[r][line 6]唉～。
+[k]
+
+[messageOff]
+[wt 0.1]
+[cueSe Servants_704400 m51622]
+[cueSe Servants_2800300 m51209]
+[wt 1.1]
+
+[charaTalk depthOff]
+[charaDepth U 1]
+[charaDepth A 2]
+[charaScale U 1.3]
+[charaScale A 1.3]
+[charaFadein U 0.6 0,-200]
+[wt 1.0]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.5 0,-100]
+[charaMove A 0,-50 0.6]
+[wt 0.3]
+[se ad984]
+[wt 1.2]
+
+[charaFace A 11]
+＠特诺奇蒂特兰
+哈啊啊啊啊啊啊！[r]人类真是麻烦死了！！
+[k]
+
+[messageOff]
+[se ad443]
+[fadeout black 1.5]
+[seStop ad443 1.5]
+[wait fade]
+
+[charaFadeout U 0.1]
+[charaFadeout A 0.1]
+[charaTalk depthOn]
+
+[scene 169503]
+
+[pictureFrameTop]
+[wt 1.5]
+
+[se ad5]
+[seVolume ad5 0 0]
+[se ad940]
+[seVolume ad940 0 0]
+[cueSe SE_21 21_ade622]
+[cueSeVolume 21_ade622 0 0]
+
+[seVolume ad5 1.5 0.1]
+[seVolume ad940 1.5 0.1]
+[cueSeVolume 21_ade622 1.5 0.2]
+[fadein black 1.5]
+[wait fade]
+[wt 0.2]
+
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth I 2]
+[charaDepth J 3]
+[charaDepth N 4]
+[charaDepth K 5]
+[charaDepth L 6]
+
+[charaScale M 1.2]
+[charaFadein M 1.0 100,-225]
+[charaMove M 130,-225 1.0]
+[wt 1.4]
+
+[se ad57]
+[charaFace I 0]
+[charaFadein I 0.5 -400,0]
+[charaMove I -350,0 0.5]
+[wt 0.6]
+[seStop ad57 0.4]
+[wt 0.8]
+
+[se ad58]
+[charaFace J 0]
+[charaFadein J 0.4 590,0]
+[charaMove J 570,0 0.4]
+[wt 0.4]
+[seStop ad58 0.4]
+[wt 1.3]
+
+
+[charaScale N 1.2]
+[charaFadein N 1.0 -100,-225]
+[charaMove N -130,-225 1.0]
+[wt 1.0]
+
+[charaFadeout J 0.1]
+[charaFadeout I 0.1]
+[charaFadeout M 0.1]
+[wt 0.4]
+
+[cueSe SE_22 22_ad1210]
+[charaFace L 0]
+[charaFadein L 0.4 330,0]
+[charaMove L 290,0 0.4]
+[wt 0.4]
+[cueSeStop 22_ad1210 0.4]
+[wt 0.8]
+
+
+[cueSe SE_22 22_ad1208]
+[charaFace K 0]
+[charaFadein K 0.4 -300,0]
+[charaMove K -250,0 0.4]
+[wt 0.4]
+[cueSeStop 22_ad1208 0.4]
+[wt 1.2]
+
+[charaFadeout K 1.0]
+[charaFadeout L 1.0]
+[charaFadeout N 1.0]
+[wt 1.4]
+
+[seStop ad5 1.0]
+[seStop ad940 1.0]
+[cueSeStop 21_ade622 1.0]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 1]
+[wt 0.8]
+
+[bgm BGM_EVENT_161 0.1]
+
+＠温和的迪诺斯
+哎呀。你也回来了啊？[r]因为没有必要，我还以为只有我会回来呢。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 0.4]
+＠感到不可思议的迪诺斯
+嗯，话是这么说没错。[r]也不知道为什么，稀里糊涂就回来了。
+[k]
+
+＠感到不可思议的迪诺斯
+奇怪，那边的货摊也有迪诺斯。[r]我说你，这里都已经没人了，你还要看店吗？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 0,-50]
+[wt 0.4]
+＠回来看店的迪诺斯
+嗯。我回到了以前生活过的平原，[r]结果始终坐立不安。
+[k]
+
+[charaFace F 1]
+＠回来看店的迪诺斯
+虽然住在哪里都无所谓，但既然住哪都行，[r]还是留在这里比较好。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠温和的迪诺斯
+我能理解。虽然可以随时通过啼鸣声[r]来确认其他迪诺斯是否存活，
+[k]
+
+＠温和的迪诺斯
+但总觉得还是用语言沟通比较有意思。[r]幸好还有人能陪我聊天。
+[k]
+
+＠温和的迪诺斯
+怎么样，来聊聊泛人类史吧。[r]我想稍微深挖一下中国异闻带的故事。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.4 1]
+[wt 0.4]
+＠似乎很高兴的迪诺斯
+真的吗？　太好了，我也来我也来！[r]举手赞成长篇大论！
+[k]
+
+＠似乎很高兴的迪诺斯
+还有许多脚步声聚集过来了，[r]奇琴伊察就该这样才对嘛！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠感到不可思议的迪诺斯
+哈哈。什么嘛，结果大家都回来了啊。[r]真是不可思议，不过，我好高兴呀。
+[k]
+
+＠感到不可思议的迪诺斯
+分明没有这个必要，却想去珍惜。[r]分明已经成为过去，却想去夺回。
+[k]
+
+＠感到不可思议的迪诺斯
+原来我们迪诺斯，[r]也具备所谓的『执着』啊。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth D 5]
+[charaDepth F 6]
+[charaDepth G 4]
+
+[charaFace D 1]
+[charaFace F 1]
+[charaFace G 1]
+[charaFadeinFSR D 0.1 350,0]
+[charaFadein F 0.1 0,-50]
+[charaFadeinFSL G 0.1 -150,0]
+[wt 0.3]
+
+[charaMoveReturn F 0,-40 0.3]
+[wt 0.4]
+[charaMoveReturn F 0,-40 0.3]
+[wt 0.4]
+
+[charaMoveReturnFSR D 350,-7 0.6]
+[wt 0.4]
+
+[charaMoveReturnFSL G -150,-7 0.6]
+[wt 1.6]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_161 1.2 0]
+
+[shake 0.01 1 1 0]
+[se ad14]
+[seVolume ad14 0 0.6]
+[se ade393]
+[seVolume ade393 0 0.5]
+[wt 1.4]
+
+[cueSe Servants_304200 bac1634]
+[cueSe Servants_304200 bac1618]
+[scene 169504 4.0]
+[wt 1.1]
+[cueSeStop bac1634 5.5]
+[cueSeStop bac1618 5.5]
+[wt 4.2]
+
+[shakeStop]
+[seVolume ad14 0.6 0.2]
+[seVolume ade393 0.6 0.2]
+
+[bgm BGM_EVENT_161 1.0 0.6]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.4 1]
+[wt 0.4]
+
+＠似乎很悲伤的迪诺斯
+聊天看来得中止了。[r]树海的树木全都死掉了。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠感到不可思议的迪诺斯
+嗯，涌出一大堆从未见过的生物，[r]整个米克特兰的动物都在死去。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠温和的迪诺斯
+嗯[line 3]灭绝之刻到来了呢。[r]下一轮生命会是什么样的呢。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0,-50]
+＠看店的迪诺斯
+肯定会是比我们更优秀的生命。
+[k]
+
+＠看店的迪诺斯
+比起这些，我更担心迦勒底的各位。[r]希望他们不会被卷入灭绝，而是能得救。
+[k]
+
+
+
+[messageOff]
+[wt 0.5]
+[fadeout black 2.0]
+[seStop ad14 2.0]
+[seStop ade393 2.0]
+[bgmStop BGM_EVENT_161 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

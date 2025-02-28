@@ -1,0 +1,1005 @@
+
+
+＄04-00-02-03-3-1
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098270300 1 阿愈丝]
+[charaSet B 1098270300 1 阿愈丝2]
+[charaScale B 1.2]
+[charaSet C 7046001 1 难敌]
+[charaSet D 7046001 1 难敌2]
+[charaSet E 7046001 1 难敌3]
+[charaScale E 1.03]
+[charaSet F 1098270000 1 希翁]
+[charaSet G 1098270100 1 迦摩]
+[charaSet H 1098269000 1 ＤＸ]
+[charaSet I 1098269010 1 ＤＸ2]
+[charaSet J 1098269010 1 ＤＸ3]
+[charaScale I 1.2]
+[charaScale J 1.2]
+[charaSet K 1098270520 1 拉妮－Ｄ1]
+[charaSet L 1098270520 1 拉妮－Ｄ2]
+[charaSet M 1098270540 1 警报机器人1]
+[charaSet N 1098270540 1 警报机器人2]
+
+[sceneSet O 10000 1]
+[charaScale O 1.01]
+[sceneSet P 189500 1]
+[charaScale P 1.2]
+[sceneSet Q 189500 1]
+[charaScale Q 1.2]
+[sceneSet R 189500 1]
+[charaScale R 1.1]
+[sceneSet S 189500 1]
+[charaScale S 1.1]
+
+[charaSet T 5009000 1 特效用1]
+
+[scene 189500]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk L,N]
+[charaFace K 1]
+[charaFace L 1]
+[charaFace M 1]
+[charaFace N 1]
+[charaFadein K 0.1 2]
+[charaFadein L 0.1 0]
+[charaFadein M 0.1 426,0]
+[charaFadein N 0.1 -86,0]
+
+＠L：拉妮－Ｄ=spot[L,N]
+感谢各位的协助。
+[k]
+
+[charaTalk K,M]
+
+＠K：拉妮－Ｄ=spot[K,M]
+基于基础思维例行程序，[r]将转让规定量的拉妮物质以示感谢。
+[k]
+
+＠K：拉妮－Ｄ=spot[K,M]
+类似于表彰见义勇为的奖状，[r]不必客气，请收下吧。
+[k]
+
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaSet K 1098270500 1 拉妮－Ｄ1]
+[charaSet L 1098270500 1 拉妮－Ｄ2]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠难敌
+哎哟，是这样吗？
+[k]
+
+＠难敌
+虽说本老爷原本并无这种意图，不过谢啦。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth K 1]
+[charaDepth L 1]
+[charaDepth O 2]
+[charaDepth C 3]
+[charaDepth T 4]
+
+[charaFace K 1]
+[charaFace L 1]
+[charaFadein K 0.1 2]
+[charaFadein L 0.1 0]
+[charaFadein M 0.1 426,0]
+[charaFadein N 0.1 -86,0]
+[wt 0.2]
+[cueSe SE_23 23_ad1304 0 0.8]
+[charaPut T 2]
+[charaEffect T bit_talk_raniment01]
+[wt 2.5]
+
+[charaMove T 456,0 0.8]
+[wt 0.5]
+
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[bgm BGM_EVENT_147 0.5 0.5]
+[cueSeVolume 23_ad1304 0.5 0.4]
+[wait wipe]
+
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+[charaMove T -200,0 0.1]
+[wt 0.5]
+
+[charaMove T 1 0.8]
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[bgm BGM_EVENT_147 0.5 1.0]
+[cueSeVolume 23_ad1304 0.5 0.8]
+[wait wipe]
+[wt 0.5]
+
+[cueSeStop 23_ad1304 0.2]
+[cueSe SE_23 23_ad1305 0 0.8]
+[charaEffectStop T bit_talk_raniment01]
+[wt 0.5]
+[se adm20]
+[charaEffectEdgeBlur C FFF9A5 FFF9A5 4 1.5]
+[wt 0.3]
+[charaEffectEdgeBlurStop C]
+[wt 3.5]
+[charaPut T 2000,2500]
+[charaEffectDestroy T bit_talk_raniment01]
+
+[charaFace C 1]
+[charaPut O 0,-200]
+[charaFadeTime O 0.2 0.5]
+
+＠难敌
+……咯咯咯，真是刚刚好。
+[k]
+
+[charaFace C 12]
+
+＠难敌
+以最低限度的劳动换取最大限度的收益。收支大幅提升。[r]噢噢，本老爷的聪明才智真可怕……
+[k]
+
+[messageOff]
+[charaFadeout C 0.2]
+[charaFadeout O 0.2]
+[wt 0.2]
+
+[charaTalk off]
+[charaFace K 1]
+[charaFace L 1]
+[charaFadein K 0.1 2]
+[charaFadein L 0.1 0]
+[charaFadein M 0.1 426,0]
+[charaFadein N 0.1 -86,0]
+[wt 0.2]
+[charaPut T 0]
+[cueSe SE_23 23_ad1304 0 0.8]
+[charaEffect T bit_talk_raniment01]
+[wt 2.8]
+
+[cueSeStop 23_ad1304 1.0]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+＠难敌
+啊啊，不，本老爷已经够了。[r]那些就给[#Assassin:暗匿者]吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut T 0]
+[charaTalk L,N]
+[charaFace K 1]
+[charaFace L 1]
+[charaFadein K 0.1 2]
+[charaFadein L 0.1 0]
+[charaFadein M 0.1 426,0]
+[charaFadein N 0.1 -86,0]
+
+＠L：拉妮－Ｄ=spot[L,N]
+明白了。
+[k]
+
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+
+[charaDepth A 1]
+[charaDepth O 2]
+[charaDepth C 3]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFace C 11]
+[charaFadein A 0.1 2]
+[charaFadein C 0.1 0]
+
+＠阿愈丝
+[#Berserker:狂战士]，你还挺善良的嘛！
+[k]
+
+[charaFace A 3]
+
+＠阿愈丝
+……我原本还担心你会不会独吞呢，[r]对不起哦？
+[k]
+
+[charaTalk C]
+[charaFace C 10]
+
+＠难敌
+蠢货，如果只有本老爷自己填饱了肚子[line 3]
+[k]
+
+＠难敌
+万一遭到别人袭击，[r]本老爷就得一马当先出去迎战了吧！
+[k]
+
+[messageOff]
+[charaFace A 2]
+[cameraMove 0.8 0,-20 1.1]
+[charaMove C -180,0 0.8]
+[charaFace C 7]
+[wt 0.8]
+
+＠难敌
+把耳朵凑过来。听好了哦？　今后我们要[r]尽可能地把那些家伙当肉盾使。
+[k]
+
+＠难敌
+我方要贯彻节能第一、安全第一。
+[k]
+
+[charaFace C 10]
+
+＠难敌
+本老爷……决不能输。
+[k]
+
+＠难敌
+没错，因为有个决不能输的对手……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFace A 8]
+[charaMove A 180,0 0.6]
+[wt 0.6]
+[se ad181]
+[wt 0.2]
+[charaTalk on]
+[charaTalk C]
+[charaShake C 0.03 2 2 0.5]
+[wt 0.2]
+[charaFace C 9]
+
+＠难敌
+呃，好痛！？
+[k]
+
+＠难敌
+你掐自己从者的屁股是想干嘛啦？[r]本老爷可是正牌王子哦！
+[k]
+
+[charaTalk A]
+
+＠阿愈丝
+都怪你满嘴卑鄙无耻啦，真是受不了！
+[k]
+
+[charaFace A 0]
+
+＠阿愈丝
+话说回来，型号Ｄ的孩子中有几个受了点伤呢。[r]该治疗啦，治疗。
+[k]
+
+[charaFace A 1]
+
+＠阿愈丝
+呵呵呵，手痒痒了。
+[k]
+
+[charaFace A 0]
+
+＠阿愈丝
+给我看好了，我会把她们完美地治疗到[r]不留一丝伤痕，数据损伤率降至０％……！
+[k]
+
+[messageOff]
+[charaTalk off]
+[se ad59]
+[seStop ad59 1.5]
+[charaMove A 230,0 0.5]
+[charaFadeout A 0.4]
+[cameraMove 1.5 60,-20 1.1]
+[bgm BGM_EVENT_147 2.0 0.5]
+[wt 2.0]
+[charaTalk C]
+[charaFace C 11]
+[charaPut O 0,-200]
+[charaFadeTime O 0.2 0.5]
+
+＠难敌
+（……满嘴卑鄙无耻吗……）
+[k]
+
+[messageOff]
+[wt 1.0]
+[charaFaceFade C 10 0.3]
+[wt 1.4]
+
+[wipeout rectangleStripRightToLeft 1.0 1.0]
+[wait wipe]
+
+[cameraHome 0.1]
+[charaFadeout O 0.1]
+[charaFadeout C 0.1]
+[wt 1.0]
+
+[wipein rectangleStripLeftToRight 1.0 1.0]
+[bgm BGM_EVENT_147 1.0 1.0]
+[wait wipe]
+
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+
+＠希翁
+身体没什么不舒服吧？
+[k]
+
+＠希翁
+大致情况我都能靠灵线神经来掌握，[r]但这并不代表一切都在我监控之下。
+[k]
+
+＠希翁
+如果有什么异常，记得立刻告诉我。
+[k]
+
+？1：目前还好，谢谢你。
+？！
+
+[bgmStop BGM_EVENT_147 1.5]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠迦摩
+……？　好像有个硬邦邦的家伙过来了。[r]姑且警戒一下。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+
+[charaSet K 1098270520 1 拉妮－Ｄ1]
+[charaSet L 1098270520 1 拉妮－Ｄ2]
+
+[cueSe SE_23 23_ad1303 1.0 1.0]
+[wt 1.5]
+
+[cueSeStop 23_ad1303 0.4]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth N 1]
+[charaDepth K 2]
+[charaDepth L 2]
+[charaDepth H 3]
+
+[charaFace H 0]
+[charaFace K 0]
+[charaFace L 0]
+[charaFace M 1]
+[charaFace N 1]
+[charaFadein H 0.4 1]
+[wt 0.1]
+[charaFadein M 0.1 450,0]
+[charaFadein K 0.4 320,0]
+[wt 0.1]
+[charaFadein N 0.1 -190,0]
+[charaFadein L 0.4 -320,0]
+[wt 1.5]
+
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout H 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[bgm BGM_AMAZONES 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠阿愈丝
+啊，没关系，不用警戒。[r]那个大家伙是[#警防部:Defend]的[#首席:Primacy]ＡＩ啦。
+[k]
+
+＠阿愈丝
+刚才应该说明过了，她有工作在身，[r]所以不参加圣杯战争。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[wt 0.3]
+[cueSe SE_23 23_ad1301]
+[charaCrossFade H 1098269010 0 0.5]
+[wait charaCrossFade H]
+[wt 0.7]
+
+＠H：警防型首席ＡＩ
+[#治疗型:型号Ｒ]的御主。[r]据我判断，你帮忙处理了恶性数据。
+[k]
+
+＠H：警防型首席ＡＩ
+我要对来迟一事道歉。[r]同时，也替部下们向你致谢。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠阿愈丝
+帮忙的不只有我们俩，[r]这是大家齐心协力的成果哦。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠H：警防型首席ＡＩ
+……[r]……
+[k]
+
+＠H：警防型首席ＡＩ
+这几位是？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠阿愈丝
+解释起来有点复杂呢。[r]我原以为[&他们:她们]……是迷路了，
+[k]
+
+[charaFace A 0]
+
+＠阿愈丝
+就去请示综合统管ＡＩ了，[r]结果她说这些人也是[#ＡＩ圣杯战争:System Grail War]的参加者。
+[k]
+
+＠阿愈丝
+所以请你一视同仁地对待我们吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠H：警防型首席ＡＩ
+……理解了。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth A 1]
+[charaDepth P 2]
+[charaDepth I 3]
+[charaDepth B 3]
+
+[charaFace I 0]
+[charaFadein P 0.8 0,-300]
+[charaFadein I 0.8 1]
+[wt 1.8]
+
+？1：你好，呃……
+？！
+
+[charaFace A 0]
+[charaFace H 0]
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL H 0.1 0]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠阿愈丝
+呵呵，因为是ＡＩ，所以没有个体名啦。[r]对你来说可能不好称呼吧。
+[k]
+
+[messageOff]
+[charaFadeout P 0.5]
+[charaFadeout B 0.5]
+[wt 0.7]
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk A]
+
+＠阿愈丝
+话说，暂用的也行，要不要给自己定个称呼？
+[k]
+
+＠阿愈丝
+我的是让[#Berserker:狂战士]帮忙起的，[r]名字这东西意外不错哦。
+[k]
+
+[messageOff]
+[charaTalk H]
+[charaFace H 3]
+[wt 1.5]
+[charaFace H 0]
+
+＠H：警防型首席ＡＩ
+……不明。判断为高难度。[r]请求援助。
+[k]
+
+[charaTalk A]
+
+＠阿愈丝
+唔～，那我就提供点小帮助吧。[r]还是起跟工作有关联的比较好吧。
+[k]
+
+＠阿愈丝
+你是[#警防部:Defend]的ＡＩ，型号Ｄ的首席，[r]所以从这种方向联想……
+[k]
+
+[charaFace A 3]
+
+＠阿愈丝
+Ｄ，Ｄａ……Ｄｅｆ……唔～……
+[k]
+
+[charaTalk H]
+
+＠H：警防型首席ＡＩ
+……那就叫“ＤＸ”吧。
+[k]
+
+[charaTalk A]
+[charaFace A 0]
+
+＠阿愈丝
+感觉还是比较像记号……不过也行吧。[r]反正听起来既简单又好懂。
+[k]
+
+[charaTalk H]
+
+＠ＤＸ
+本机，以及[#警防型:型号Ｄ]的ＡＩ们[r]是为了维护这个世界稳定而存在的。
+[k]
+
+＠ＤＸ
+希望各位也能遵守[#规范:Rule]，[r]战斗时不要给ＡＩ与世界造成无谓的损害。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠迦摩
+真是个一板一眼的ＡＩ呢。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠阿愈丝
+其实我们全都是这样的，只是这些孩子尤其，[r]该怎么说呢……
+[k]
+
+＠阿愈丝
+对了，以外部世界的风格来说，[r]类似于工作狂（？）吧。
+[k]
+
+＠阿愈丝
+为了维持治安，[r]她无时无刻不在认真工作。
+[k]
+
+[charaFace A 2]
+
+＠阿愈丝
+……这也意味着毫无幽默感，[r]所以千万不能对她开玩笑哦。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.3]
+
+[subCameraOn 2]
+[charaLayer R sub #A]
+[charaLayer G sub #A]
+[charaLayer S sub #B]
+[charaLayer F sub #B]
+
+[charaDepth R 1]
+[charaDepth G 2]
+[charaDepth S 1]
+[charaDepth F 2]
+
+[charaScale G 1.1]
+[charaScale F 1.1]
+[charaFace G 14]
+[charaFace F 7]
+[charaFadein R 0.1 -200,100]
+[charaFadein S 0.1 0,100]
+[charaFadein G 0.1 0,300]
+[charaFadein F 0.1 0,300]
+[subCameraFilter #A maskEdge cut359_mask05 4 243,58,128,255 0]
+[subCameraFilter #B maskEdge cut359_mask05 4 156,114,168,255 0]
+[wt 0.1]
+
+[subRenderFadeinFSL #B 0.4 -300,-250]
+[subRenderMoveFSL #B -300,-300 0.3]
+[wt 0.5]
+
+[charaTalk on]
+[charaTalk F]
+
+＠希翁
+明确禁止。听清楚了吗？
+[k]
+
+[messageOff]
+[subRenderMoveFSL #B -300,-350 0.3]
+[subRenderFadeout #B 0.3]
+[wt 0.3]
+
+[charaTalk G]
+[subRenderFadeinFSR #A 0.4 300,-250]
+[subRenderMoveFSR #A 300,-300 0.3]
+[wt 0.5]
+
+＠迦摩
+千万别胡闹哦。[r]到时候遭殃的可是我们几个。
+[k]
+
+[messageOff]
+[subRenderMoveFSR #A 300,-350 0.3]
+[subRenderFadeout #A 0.3]
+[wt 0.3]
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaScale G 1.0]
+[charaScale F 1.0]
+[charaLayer G normal]
+[charaLayer F normal]
+[subCameraOff]
+[charaTalk C]
+[wt 0.5]
+
+？1：不可以哦！
+？2：禁止！
+？！
+
+[charaFace C 5]
+
+＠难敌
+为什么一个个都针对本老爷啦！[r]本老爷又不是小孩子！
+[k]
+
+[charaFace C 0]
+
+＠难敌
+话说回来，唔……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth C 1]
+[charaDepth P 2]
+[charaDepth D 3]
+[charaDepth I 4]
+[charaDepth Q 5]
+[charaDepth B 6]
+[charaDepth E 7]
+[charaDepth J 8]
+
+[charaScale I 1.1]
+[charaFace I 0]
+[charaFadein P 0.8 120,-300]
+[charaFadein I 0.8 150,-10]
+[wt 1.3]
+[charaFadeout C 0.1]
+
+[se ad95]
+[seStop ad95 0.5]
+[charaFace D 0]
+[charaFadein D 0.4 -100,0]
+[charaMove D -120,0 0.3]
+[wt 0.8]
+[charaMoveScale D 1.03 0.7]
+[charaMove D -110,0 0.7]
+[wt 1.0]
+[charaMove D -120,0 0.8]
+[wt 1.3]
+[charaMove D -100,0 0.6]
+[wt 1.3]
+
+[charaScale J 1.1]
+[charaFace J 0]
+[charaFadein Q 0.5 -120,-300]
+[charaFadein J 0.5 -150,-10]
+[wt 1.0]
+[charaFadeout P 0.1]
+[charaFadeout D 0.1]
+[charaFadeout I 0.1]
+
+[se ad95]
+[seStop ad95 0.5]
+[charaFace E 0]
+[charaFadein E 0.4 100,0]
+[charaMove E 120,0 0.4]
+[wt 1.0]
+[charaMove E 100,0 0.5]
+[wt 1.0]
+[charaMoveScale E 1.05 0.8]
+[charaMove E 90,0 0.8]
+[wt 1.3]
+
+[charaTalk on]
+[charaTalk J]
+[charaFace J 2]
+
+＠J：ＤＸ
+有事吗？
+[k]
+
+[charaTalk E]
+[charaFace E 8]
+
+＠E：难敌
+唔～，有些不太一样呢。[r]希望你能脱下这身铠甲。
+[k]
+
+[messageOff]
+[charaScale B 1.05]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.4 400,0]
+[charaMove B 350,0 0.4]
+[wt 0.3]
+[se ad183]
+[wt 0.5]
+[se ad421]
+[seStop ad421 0.8]
+[charaMove B 380,0 0.5]
+[charaMove E 120,0 0.5]
+[charaMoveScale B 1.0 0.5]
+[charaMoveScale E 1.0 0.5]
+[wt 0.7]
+
+＠B：阿愈丝
+又直勾勾地盯着别人瞧！
+[k]
+
+[charaFace B 9]
+
+＠B：阿愈丝
+抱歉啦，ＤＸ，这人有个坏毛病，[r]就爱缠着初次见面的女性型号不放。
+[k]
+
+[charaTalk E]
+[charaFace E 6]
+
+＠E：难敌
+别把人家说得像喜欢闻味道的狗一样！
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+
+＠B：阿愈丝
+总之，善后处理应该可以麻烦你吧。[r]那我们先告辞了……
+[k]
+
+[bgmStop BGM_AMAZONES 2.0]
+[charaTalk J]
+[charaFace J 0]
+
+＠J：ＤＸ
+警告。也许是受[#ＡＩ圣杯战争:System Grail War]影响，[r]目前，恶性数据等物的发生、出现率正被人为地提升中。
+[k]
+
+＠J：ＤＸ
+敬请留意。另外[line 3]
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+＠J：ＤＸ
+还确认了不明详情的攻性数据。[r]遭遇时建议提高警惕。
+[k]
+
+[messageOff]
+[charaFadeout Q 0.5]
+[charaFadeout B 0.5]
+[charaFadeout E 0.5]
+[charaFadeout J 0.5]
+[wt 0.7]
+
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 18]
+[charaFadein G 0.1 1]
+＠迦摩
+不明详情的攻性数据？
+[k]
+
+[charaFace G 25]
+
+＠迦摩
+……不是[#Caster:魔术师]的扭扭怪吗？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠ＤＸ
+否定。推测你所说的相当于[#Caster:魔术师]召唤的使魔。
+[k]
+
+＠ＤＸ
+那些固然也是危害治安的存在，[r]是需要担忧的事象，但我说的是另一回事。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠阿愈丝
+那所谓不明详情的攻性数据是指什么呢？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠ＤＸ
+不明。报告内容只有[#人型形状之影]这点。[r]我们[#警防部:Defend]预计将依次向所有御主发送这份警告。
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1302]
+[charaCrossFade H 1098269000 0 0.5]
+[wait charaCrossFade H]
+[wt 0.5]
+
+＠ＤＸ
+[line 3]以上。我去继续执行任务了。
+[k]
+
+[bgmStop BGM_EVENT_5 2.0]
+
+[messageOff]
+[cueSe SE_23 23_ad1303]
+[charaFadeout H 0.4]
+[wt 0.5]
+[cueSeStop 23_ad1303 2.0]
+[wt 3.5]
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠希翁
+虽然不太明白，但她想表达的是[r]也许会出现敌人，还请小心吧。
+[k]
+
+[charaFace F 2]
+
+＠希翁
+这些内容[line 3]都在我计算之内。
+[k]
+
+＠希翁
+再说了，能对遇到的敌对存在种类[r]加以限定的情况反而比较罕见。
+[k]
+
+＠希翁
+保持能[#灵活:Flexible]应对的态势，[r]这无疑才是我们唯一且最优的解。
+[k]
+
+？1：或许你说得对。
+？2：我们得小心行事，以便发生任何事都能应对。
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠阿愈丝
+说得对。那接下来，[r]真的要返回[#修理部:Repair]大本营啦！
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_147 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

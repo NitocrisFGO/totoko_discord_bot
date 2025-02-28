@@ -1,0 +1,405 @@
+
+
+＄03-00-13-02-2-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098254800 1 尼莫水兵]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098252560 1 奥塞洛特尔]
+[charaSet D 1098259200 1 男人]
+[sceneSet E 171600 1]
+[charaScale E 1.2]
+[sceneSet F 171700 1]
+[charaScale F 1.5]
+[sceneSet G 171700 1]
+[charaScale G 1.5]
+[sceneSet H 169100 1]
+[charaScale H 1.05]
+[sceneSet I 169100 1]
+[charaScale I 1.05]
+[sceneSet J 171700 1]
+[charaScale J 1.5]
+[charaSet K 1098254800 1 水兵（演出用）]
+[charaSet L 98115000 1 特效用]
+[charaSet M 98115000 1 特效用]
+[charaSet N 98115000 1 特效用]
+
+[charaSet Q 1098252540 1 奥塞洛特尔2]
+[charaSet S 1098252540 1 奥塞洛特尔3]
+
+[sceneSet T 171600 1]
+[charaScale T 1.5]
+[sceneSet U 171600 1]
+[charaScale U 1.2]
+
+[charaPut M 2000,2500]
+[charaEffect M bit_sepia01_depth_fs]
+[charaPut D 2000,2500]
+[charaEffect D bit_sepia01_depth_fs]
+
+[scene 171700]
+[charaFadein G 0.1 0,-375]
+
+[bgm BGM_CHOUSIMAI_1 1.5]
+[charaMove G 0,-475 7.3]
+[fadein black 1.5]
+[wait fade]
+[wt 4.8]
+[charaFadeout G 1.0]
+[wt 2.5]
+
+＠尼莫水兵
+好厉害～～，绿意盎然到呛鼻子～～～！[r]这是南美的丛林呀～～！
+[k]
+
+＠尼莫水兵
+有天空，有风吹拂，还有太阳！[r]好热～！　换作人类肯定一身汗啦～～～—！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFace A 2]
+[charaFadein A 1.0 1]
+[scene 169100 1.0]
+[wt 1.4]
+
+[charaTalk on]
+[charaTalk depthOn]
+＠尼莫水兵
+[%1]，来这边来这边！[r]这里长着前所未见的花呢！
+[k]
+
+＠尼莫水兵
+这是什么呢，是龙舌兰（？）之类的吗？[r]啊哈哈，感觉好有趣～～～！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+………………
+[k]
+
+？1：怎么了？
+？2：有什么令你在意的吗，总统？
+
+？！
+
+[charaFace B 18]
+＠U－奥尔加玛丽
+没什么。只是感觉这景色我『曾经见过』。[r]我应该知道这片景色吧。
+[k]
+
+＠U－奥尔加玛丽
+我刚才在想，难道自己身上的故障已经严重到[r]连这种日常经历都丢失了。这很合理吧。
+[k]
+
+[charaFace B 23]
+＠U－奥尔加玛丽
+……不管那么多了。
+[k]
+
+＠U－奥尔加玛丽
+反正现在已经确认只要是『知道的事』，[r]一看到『就能想起来』。
+[k]
+
+＠U－奥尔加玛丽
+这样看来，我的功能很快就能恢复正常。[r]……应该，会恢复吧。肯定会恢复成原本的『我』。
+[k]
+
+[charaFace B 4]
+＠U－奥尔加玛丽
+重要的是，你啊，真是太不像样了。[r]就凭这点觉悟真的能行吗？
+[k]
+
+＠U－奥尔加玛丽
+有一群波长很危险的生物从那边来了。[r]是你的敌人吗？　感觉是种凶猛的动物哦。
+[k]
+
+[messageOff]
+[bgmStop BGM_CHOUSIMAI_1 1.5]
+[charaFadeout B 0.2]
+[wt 0.4]
+[se ade255]
+[wt 1.0]
+
+？1：！　水兵，到这边来！
+？2：（要召唤从者……！）
+
+？！
+
+[messageOff]
+[effect bit_talk_summon_failed]
+[wt 0.2]
+[se ad39]
+[wt 2.0]
+[se ad632]
+[seVolume ad632 0 0.3]
+[wt 0.25]
+[seStop ad39 0.3]
+[cueSe Battle bas13]
+[cueSeVolume bas13 0 0.3]
+[effectForceStop bit_talk_summon_failed]
+[wt 1.0]
+[seStop ad632 2.0]
+[wt 1.6]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+刚才那是什么？　可什么都没发生啊。
+[k]
+
+？1：（这么说来……）
+
+？！
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[scene 168801]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+[subCameraOn 1]
+[charaLayer D sub #A]
+[subCameraFilter #A through]
+[subRenderDepth #A 1]
+[subRenderFadein #A 0 0,0]
+[charaScale D 1.0]
+
+[subBlur #A lens 0.1 3 40 1.0 subBlur]
+
+[charaPut M 1]
+[wt 0.6]
+
+[fadein white 0.6]
+[wait fade]
+[wt 1.2]
+
+[fadeout white 0.6]
+[wait fade]
+
+[charaPut M 2000,2500]
+[charaEffectStop M bit_sepia01_depth_fs]
+
+[subBlurOff #A lens 0.1 normal]
+[wt 0.2]
+
+[charaFadeout D 0.1]
+[charaPut D 2000,2500]
+[charaEffectStop D bit_sepia01_depth_fs]
+[wt 0.2]
+
+[subCameraOff]
+
+[charaLayer D normal]
+
+[scene 169100]
+
+[charaTalk depthOff]
+[charaDepth H 2]
+[charaDepth C 5]
+[charaDepth Q 4]
+[charaDepth S 3]
+[charaFadein H 0.1 -30,-210]
+[wt 0.2]
+
+[fadein white 0.6]
+[wait fade]
+[wt 0.4]
+
+？1：没有[line 3]令咒了。
+？！
+
+[messageOff]
+[wt 0.1]
+
+[se ade255]
+
+
+[charaTalk off]
+
+[charaFace C 0]
+[charaFace Q 0]
+[charaFace S 0]
+[charaFadein C 0.4 1]
+[wt 0.2]
+[charaFadeinFSL Q 0.4 -300,0]
+[charaFadeinFSR S 0.4 300,0]
+[wt 0.85]
+[charaTalk on]
+
+[cueSe SE_22 22_ad1223]
+[seVolume 22_ad1223 0 0.7]
+＠？？？
+[i npc_language_17]
+[k]
+
+
+[messageOff]
+[cueSeStop 22_ad1223 0.5]
+[wt 0.1]
+
+[cameraMove 0.3 0,-10 1.03]
+[se ad346]
+[wt 0.35]
+[seStop ad346 0.2]
+[wt 0.6]
+
+
+[se ad610]
+[se ad563]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[fadeout black 0.1]
+[wait fade]
+
+[seStop ad610 0.3]
+
+[cameraHome 0.1]
+[charaFadeout C 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout S 0.1]
+[subCameraOn 1]
+
+[charaLayer K sub #A]
+
+[subCameraFilter #A through]
+
+[subRenderDepth #A 1]
+
+[charaScale I 1.4]
+[charaScale K 1.0]
+[charaFace K 11]
+[charaFadein K 0.1 1]
+[subRenderFadein #A 0.1 0,0]
+[charaFadein I 0.1 0,-200]
+[charaFadeout H 0]
+[charaFadeout C 0]
+[wt 0.1]
+
+[effect bit_talk_41_fs]
+[fadein black 0.5]
+[wait fade]
+
+[blur lens 0.4 2 10]
+
+[charaMove K 0,34 0.3]
+[cameraMove 0.3 0,-15 1.2]
+[charaMoveScale K 1.2 0.3]
+[wipeout circleIn 0.3 1.0]
+[wt 0.1]
+[charaFace K 6]
+[wait wipe]
+
+[cameraHome 0.1]
+
+[effectDestroy bit_talk_41_fs]
+[scene 10000]
+[charaFadeout I 0.1]
+[subRenderFadeout #A 0.1]
+[charaFadeout K 0.1]
+[blurOff lens 0.1]
+[wt 0.1]
+[wipein circleIn 0.1 1.0]
+[wait wipe]
+
+[effect bit_talk_14]
+[se ad32]
+[se ad170]
+[seVolume ad170 0 0.8]
+[cueSe Battle bac179]
+[flashin once 0.1 0.3 FFFFFFFA FFFFFF50]
+[wt 0.5]
+
+[fadeout black 0.1]
+[wait fade]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth B 2]
+[charaDepth A 3]
+
+[charaScale A 1.2]
+[charaScale I 1.5]
+[charaScale B 1.2]
+[charaFace B 6]
+[charaFace A 11]
+[charaFadein A 0 300,180]
+[charaFadein B 0 0,180]
+[charaFadein I 0 0,-230]
+
+[effect bit_talk_14]
+
+
+
+[subCameraOff]
+[charaLayer K normal]
+[se ad612]
+[seVolume ad612 0 0]
+[wt 1.2]
+[effectDestroy bit_talk_14]
+
+[seVolume ad612 0.2 0.5]
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+[charaMove A 300,0 2.0]
+[charaMove B 0,0 2.0]
+[charaMove I 0,-350 2.0]
+[bgm BGM_SEIHAI_4 0.1]
+[wt 3.0]
+
+[charaTalk on]
+＠尼莫水兵
+你你，你救了我吗！？[wt 0.7][charaFace A 2][r]谢谢～～，好帅～！　有点喜欢～～！
+[k]
+
+[charaFace B 15]
+＠U－奥尔加玛丽
+喜，[wt 0.3][messageShake 0.05 4 3 0.3]喜欢，喜欢！？　很帅！？
+[k]
+
+[charaFace B 0]
+＠U－奥尔加玛丽
+是，是吗。那我就送你点福利吧！[r]这点程度根本不是我的敌手！
+[k]
+
+[charaFace B 7]
+＠U－奥尔加玛丽
+无论是何等迥异的生命，[r]无论目的多么无法相容，
+[k]
+
+＠U－奥尔加玛丽
+先用言语交谈才是智慧生命的礼仪！
+[k]
+
+＠U－奥尔加玛丽
+看来你们需要教育呢！[r]无须客气哦，[#全力:Full Power]放马过来吧！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_SEIHAI_4 0.4]
+[wait fade]
+[soundStopAll]
+[end]

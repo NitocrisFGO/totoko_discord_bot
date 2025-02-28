@@ -1,0 +1,238 @@
+
+
+
+＄03-00-13-24-6-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098254800 1 尼莫水兵]
+[charaSet B 1098158330 1 尼莫]
+[charaSet C 1098123000 1 穆尼尔]
+[charaSet D 1098257200 1 埃列什基伽勒·Alter]
+[charaSet E 1098256100 1 杜木兹]
+
+[imageSet H back10000 1 1]
+[charaScale H 1.3]
+
+[sceneSet O 174301 1]
+[sceneSet P 174301 1]
+
+[charaSet S 98115000 1 特效用dummy]
+
+[scene 132900]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_63 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+二号特里同引擎内部温度到达危险区间！
+[k]
+
+＠尼莫水兵
+种子的冲撞叮叮当当地磨损着电磁屏障，[r]再这样下去说不定会过热～！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠尼莫
+降低二号的转速，迅速冷却！[r]调拨出三号的电力供应给屏障！
+[k]
+
+＠尼莫
+目前有埃列什基伽勒辅助召唤，[r]仅靠一号就能应对了！
+[k]
+
+＠尼莫
+穆尼尔，周围情况如何？[r]空想树的种子歼灭完毕了吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠穆尼尔
+还差一点！　群聚在Storm与奇琴伊察[r]周边的种子已消灭92％！
+[k]
+
+＠穆尼尔
+储备的灵子鱼雷见底了，[r]不过靠正在生成的弹舱应该能彻底扫净！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_63 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth H 4]
+[charaDepth B 6]
+
+[charaPut H 1]
+[charaFadeTime H 0.2 0.5]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠尼莫
+（不妙啊……[r]　空想树种子的泛滥出乎预料。）
+[k]
+
+＠尼莫
+（这样下去主炮就用不了了，[r]　也就无法火力支援第三冥界了。）
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout H 0.2]
+[wt 0.1]
+
+[bgm BGM_EVENT_63 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+希翁与教授发来通知～！[r]等种子的攻击平息后就可以开始填充主炮，
+[k]
+
+＠尼莫水兵
+不过只靠四号要花上4小时，[r]所以希望这边想方设法再拨出一台用在主炮上！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠尼莫
+我知道了。[r]……穆尼尔，联络Shadow Border。
+[k]
+
+＠尼莫
+接下来4小时，Storm将无法提供魔力。
+[k]
+
+＠尼莫
+将维持从者灵基所需魔力消耗的全部负担[r]委任给女神埃列什基伽勒。
+[k]
+
+[messageOff]
+[fadeout black 0.8]
+[bgm BGM_EVENT_63 0.8 0.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[scene 173902]
+[wt 0.6]
+
+[bgm BGM_EVENT_63 0.8 1.0]
+[fadein black 0.8]
+[wait fade]
+
+[subCameraOn 2]
+[charaLayer O sub #A]
+[charaLayer D sub #A]
+[charaLayer S sub #A]
+[charaLayer P sub #B]
+[charaLayer E sub #B]
+
+[subCameraFilter #A maskEdge cut359_mask05 3 147,13,51,255 0]
+[subCameraFilter #B maskEdge cut359_mask05 3 204,170,0,255 0]
+
+[charaScale O 1.11]
+[charaScale P 1.11]
+[charaScale D 1.05]
+[charaScale E 1.1]
+[subRenderScale #A 1.1]
+[subRenderScale #B 1.1]
+
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth P 1]
+[charaDepth D 2]
+[charaDepth E 2]
+[charaDepth S 3]
+
+[charaFadein O 0.1 -85,82]
+[charaFadein P 0.1 90,40]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 -62,257]
+[charaFace E 0]
+[charaFadein E 0.1 0,217]
+
+[charaPut S -65,275]
+[charaEffect S bit_talk_svt_ext]
+
+[subRenderFadeinFSSideR #A 0.4 250,-240]
+[subRenderMoveFSSideR #A 250,-340 0.4]
+[wt 0.4]
+
+＠埃列什基伽勒·Alter
+真会轻描淡写地发来糟糕透顶的通知呢，英灵尼莫！[r]我这边也到极限了啦！
+[k]
+
+[messageOff]
+[charaTalk E]
+[subRenderFadeinFSSideL #B 0.4 -250,-400]
+[subRenderMoveFSSideL #B -250,-300 0.4]
+[wt 0.4]
+＠杜木兹
+说得对。魔力放出用得太多，[r]灵基已经开始从[#末端:指尖]逐渐溶解了。
+[k]
+
+[charaFace E 1]
+＠杜木兹
+进一步的负担已经要违反国际神灵条约了。[r]还是回苏美尔冥界吧？
+[k]
+
+[charaFace D 20]
+＠埃列什基伽勒·Alter
+[line 3]不，还差得远呢！[r]又不是只有我在承受着召唤带来的负担！
+[k]
+
+＠埃列什基伽勒·Alter
+只要召唤者的战斗意志还未屈服，[r]我也决不会放弃战场！
+[k]
+
+[charaCrossFade D 1098257210 1 0.2]
+＠埃列什基伽勒·Alter
+快看，ORT的损伤确实在逐渐累积！
+[k]
+
+＠埃列什基伽勒·Alter
+把你藏起来的私房魔力再给我一点，杜木兹！[r]管他是发电厂还是别的什么，我都当给你看！
+[k]
+
+＠埃列什基伽勒·Alter
+我们可是连提亚马特神都镇压过的的勇者哦！
+[k]
+
+＠埃列什基伽勒·Alter
+要比谁更能忍的话，绝对，[r]绝～～～对是我们更胜一筹！
+[k]
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_63 2.0]
+[wait fade]
+[soundStopAll]
+[end]

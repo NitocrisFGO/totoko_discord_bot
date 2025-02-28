@@ -1,0 +1,559 @@
+
+
+＄03-00-13-25-7-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253200 1 U－奥尔加玛丽]
+[charaSet B 1098253200 1 U－奥尔加玛丽2]
+[charaSet C 1098257910 1 玛修]
+
+[sceneSet D 122609 1]
+[charaScale D 1.1]
+[sceneSet E 177900 1]
+[charaScale E 1.3]
+[sceneSet F 174401 1]
+[charaScale F 1.5]
+[sceneSet G 174401 1]
+[charaScale G 1.01]
+[sceneSet H 174301 1]
+[charaScale H 1.2]
+
+[sceneSet I 122609 1]
+[charaScale I 1.5]
+
+[sceneSet J 180500 1]
+[charaScale J 1.2]
+[sceneSet K 180501 1]
+[charaScale K 1.01]
+[sceneSet L 180502 1]
+[charaScale L 1.01]
+[sceneSet M 10001 1]
+[charaScale M 1.01]
+[sceneSet N 180503 1]
+[charaScale N 1.2]
+[sceneSet P 180504 1]
+[charaScale P 1.2]
+
+[scene 122609]
+
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth F 1]
+[charaDepth H 1]
+[charaDepth D 2]
+
+[charaFadein E 0.1 -70,-330]
+[charaFadein D 0.1 0,-210]
+[charaFadein B 0.1 2000,-2000]
+[charaEffectEdgeBlur B f0f8ff f0f8ff 5 3.0]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad886]
+[seVolume ad886 0 0.7]
+[se ade273]
+[seVolume ade273 0 0.5]
+[cueSe SE_22 22_ade701 0 0.7]
+[wt 1.7]
+[cueSeStop 22_ade701 1.8]
+[seStop ade273 1.0]
+[seStop ad886 1.2]
+[wt 1.7]
+
+[bgm BGM_BATTLE_123 0.1]
+
+？1：总算成功了……！
+？2：U－奥尔加玛丽！
+
+？！
+
+[subCameraOn 1]
+[charaLayer I sub #A]
+[charaLayer A sub #A]
+[charaLayer B sub #A]
+
+[charaDepth I 1]
+[charaDepth A 2]
+[charaDepth B 2]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein I 0.1 0,-160]
+[charaFadein A 0.1 0,300]
+
+[subCameraFilter #A maskEdge cut359_mask07 4 255,225,150,255]
+[subRenderFadein #A 0.4 0,-270]
+[subRenderMove #A 0,-320 0.3]
+[wt 0.6]
+
+＠U－奥尔加玛丽
+[line 3]达成条件了啊。[r]退下吧，之后就交给我好了。
+[k]
+
+？1：[&当然:嗯]。否则可能会被掀飞嘛，我回舰内了。
+
+？！
+
+[messageOff]
+[se ad60]
+[charaMove D 0,-200 1.0]
+[charaMoveScale D 1.01 1.0]
+[wt 0.8]
+[seStop ad60 0.2]
+[charaFace A 15]
+
+＠U－奥尔加玛丽
+啊，不对，不是让你回到舰内！[r]是要你待在甲板安全的地方！
+[k]
+
+＠U－奥尔加玛丽
+怎么能不欣赏我这统领地球之[#人:物]的英勇身姿呢！[r]给我好好地，亲眼，在这里欣赏！
+[k]
+
+？1：[line 3]也是，我知道。
+？2：谢谢，很高兴能再见到你。
+
+？！
+
+[charaFace A 1]
+
+＠U－奥尔加玛丽
+…………嗯，我想也是。[r]你们直到最后都会是这种色彩吧。
+[k]
+
+[messageOff]
+[charaFace A 13]
+[wt 1.0]
+
+[charaFace A 7]
+
+＠U－奥尔加玛丽
+机会难得，来用用地球人类的工具吧！[r]魔力供给开始，[#未来证明:Ray Proof]，瞬间填充！
+[k]
+
+[bgmStop BGM_BATTLE_123 2.0]
+
+[messageOff]
+[cueSe SE_22 22_adm89 0 0.3]
+[se ad626]
+[seVolume ad626 0 0]
+[se ad632]
+[seVolume ad632 0 0]
+[seVolume ad626 0.2 0.3]
+[seVolume ad632 0.5 0.3]
+[charaEffect A bit_talk_lightning_U_01]
+[wt 2.0]
+
+[se ad474]
+[seVolume ad474 0 0.5]
+[se ad743]
+[se ad791]
+[seVolume ad791 0 0.8]
+[fadeout white 0.5]
+[cueSeStop 22_adm89 1.0]
+[seStop ad626 1.0]
+[seStop ad632 1.0]
+[wait fade]
+
+[charaEffectDestroy A bit_talk_lightning_U_01]
+[subRenderFadeout #A 0.1]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[subCameraFilter #A maskEdge cut359_mask02 5 255,225,150,255]
+
+
+[charaScale B 1.35]
+[charaMove B 0,225 0.1]
+
+[scene 177900]
+[wt 4.0]
+
+[bgm BGM_EVENT_91 0.1]
+[cueSe SE_22 22_ad1179 1.5 0.7]
+[charaMove E 60,-280 13.0]
+[fadein white 2.0]
+[wait fade]
+
+[wt 2.5]
+
+[cueSeVolume 22_ad1179 2.0 0.5]
+
+[charaDepth P 5]
+[charaDepth E 4]
+
+[charaFadein P 1.5 -20,-280]
+[charaMove P 0,-300 7.0]
+[wt 4.0]
+
+[charaFadeout E 0.1]
+[wt 0.5]
+
+[charaFadeout P 1.5]
+[wt 2.5]
+
+[charaTalk B]
+[charaFace B 16]
+[subRenderFadein #A 0.4 100,-300]
+[subRenderMove #A 0,-300 0.3]
+[wt 0.6]
+
+＠B：U－奥尔加玛丽
+……
+[k]
+
+[charaFace B 17]
+
+＠B：U－奥尔加玛丽
+…………
+[k]
+
+[charaFace B 15]
+
+＠B：U－奥尔加玛丽
+喂！　你应该有什么要说的吧，肯定有！[r]这是最后的机会了！
+[k]
+
+？1：咚咚地干掉它啦！　咚咚地～！
+
+[charaFace B 25]
+
+＠B：U－奥尔加玛丽
+你当这是宴会才艺表演吗？[r]地球人类果然是邪恶的吗？
+[k]
+
+？2：不，我只是觉得不好打扰你。
+
+[charaFace B 11]
+
+＠B：U－奥尔加玛丽
+我需要声援！[r]你还真是不懂呢，[%1]！
+[k]
+
+
+？！
+
+[messageOff]
+[charaFace B 13]
+[wt 1.0]
+[charaFace B 23]
+
+＠B：U－奥尔加玛丽
+算了，就这样吧。[r]反正我只是来兑现约定的。
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.2]
+[wt 0.5]
+
+[scene 177901 1.5]
+[cueSeVolume 22_ad1179 1.5 0.3]
+[se ad821]
+[cueSe SE_21 21_ad1116 0 0.3]
+[se ad779]
+[seVolume ad779 0 0.8]
+[wt 2.0]
+[seStop ad821 1.0]
+[seVolume ad779 2.0 0.3]
+[wt 1.5]
+
+[charaFadein N 1.5 -15,-290]
+[charaMove N 0,-300 5.0]
+[wt 2.0]
+
+
+
+＠B：U－奥尔加玛丽
+话说，[r]你应该不知道我为什么要做到这份上吧。
+[k]
+
+＠B：U－奥尔加玛丽
+在第一冥界，你没有杀死Protea。[r]在第二冥界，也没有杀死红阎魔。
+[k]
+
+＠B：U－奥尔加玛丽
+没有出于对方是怪物这种理由就排斥她们。
+[k]
+
+
+＠B：U－奥尔加玛丽
+这就是原因。虽然是种非常麻烦的方针，[r]但你今后也要好好珍视。
+[k]
+
+[messageOff]
+[wt 0.5]
+[charaFadeout B 0.1]
+[charaFadeout I 0.1]
+[charaEffectEdgeBlurStop B]
+
+[se ad952]
+[cueSe SE_21 21_ad1110 0 0.7]
+[cueSeVolume 21_ad1116 1.5 0.2]
+[cueSeVolume 22_ad1179 1.5 0.2]
+[overlayFadein G 1.5 0,-200]
+[wt 2.5]
+[charaFadeout N 0.1]
+[charaLayer B normal]
+[subCameraOff]
+
+[charaDepth N 1]
+[charaDepth J 3]
+
+[seStop ad952 3.0]
+[cueSeStop 21_ad1110 3.0]
+
+[charaScale N 1.01]
+[charaFadein N 0.1 0,-200]
+
+[wt 1.5]
+
+[charaFadeout G 1.0]
+[wt 1.2]
+
+＠B：U－奥尔加玛丽
+……还有一件事。[r]我一直都不敢问，但也只有现在有机会了。
+[k]
+
+＠B：U－奥尔加玛丽
+我说，奥尔加玛丽是谁？[r]我原本是迦勒底的所长吗？
+[k]
+
+[messageOff]
+[wt 0.6]
+
+？1：[line 3]这……
+
+？！
+
+[cameraMove 2.5 0,-15 1.05]
+[wt 3.5]
+
+？1：[line 3]嗯。是个虽然笨拙，却很优秀的所长。
+
+？！
+[charaScale J 1.01]
+[charaFadein J 1.0 0,-200]
+[wt 1.5]
+
+
+[charaDepth N 1]
+[charaDepth J 3]
+[charaDepth K 4]
+[charaFadein K 0.5 0,-200]
+[wt 0.7]
+
+[charaFadeout J 0.1]
+[charaFadeout N 0.1]
+
+＠B：U－奥尔加玛丽
+…………是吗。[r]那还真是场美梦呢。
+[k]
+
+＠B：U－奥尔加玛丽
+说真的。[r]但愿，真的有好好做。
+[k]
+
+[messageOff]
+[cameraMove 4.5 0,0 1.0]
+[cueSe SE_21 21_ade580]
+[seVolume 21_ade580 1.0 0.4]
+[wt 0.5]
+
+[charaDepth K 3]
+[charaDepth L 4]
+[charaFadein L 1.5 0,-200]
+[wt 1.0]
+[seStop 21_ade580 2.0]
+[wt 2.0]
+
+[fadeout white 1.0]
+[cueSeStop 21_ad1116 1.0]
+[cueSeStop 22_ad1179 1.0]
+[seStop ad779 1.0]
+[wait fade]
+
+[charaFadeout L 0.1]
+[charaFadeout K 0.1]
+[scene 10000]
+[overlayFadein M 0.1 0,-200]
+[wt 0.1]
+
+[fadein white 0.1]
+[wait fade]
+
+[criMovie talk_mov164 bgmPlay false]
+[wt 0.5]
+[charaFadeout M 1.0]
+[wt 25.0]
+
+[bgmStop BGM_EVENT_91 3.0]
+[wt 28.5]
+
+[fadeout white 0.5]
+[wait fade]
+
+[subCameraOn 1]
+[charaLayer I sub #A]
+[charaLayer B sub #A]
+
+[charaDepth I 1]
+[charaDepth B 2]
+
+[charaEffectEdgeBlur B f0f8ff f0f8ff 5 3.0]
+
+[charaFace B 15]
+[charaFadein I 0.1 0,-160]
+[charaMove B 0,225 0.1]
+[subCameraFilter #A maskEdge cut359_mask02 4 255,225,150,255 1]
+[subRenderFadein #A 0.1 2500,2500]
+
+[scene 10000]
+[wt 0.5]
+
+[fadein white 1.5]
+[wait fade]
+
+[fadeout black 1.5]
+[wait fade]
+
+[scene 174400]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 22]
+[charaFadein C 0.1 1]
+
+＠玛修
+肉眼确认ORT消失！[r]成功了，太了不起了，奥尔加玛丽小……
+[k]
+
+[charaFace C 5]
+
+＠玛修
+[line 6]所长？
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.5]
+
+[bgm BGM_EVENT_95 0.1]
+
+？1：[line 6]
+
+？！
+
+＠玛修
+管制室，请回答！[r]请求搜索周围！
+[k]
+
+＠玛修
+所长，找不到奥尔加玛丽小姐的身影！[r]肯定是因为刚才的冲击掉到地面[line 2]
+[k]
+
+＠达·芬奇
+……玛修。[r]抱歉，她的反应已经消失了。
+[k]
+
+＠达·芬奇
+[#未来证明:Ray Proof]发射时，就确认其灵基消灭了。
+[k]
+
+＠达·芬奇
+……仔细想来，这也是理所当然的结果。
+[k]
+
+＠达·芬奇
+在没有心脏的状态下做那种事，[r]就算是『异星之神』也[line 3]
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_EVENT_95 0.5 0.5]
+[wait fade]
+
+[subRenderMove #A 0,-300 0.1]
+
+[charaLayer B sub #A]
+[charaScale B 1.35]
+[charaFadein B 0.1 0,225]
+
+[pictureFrame cut063_cinema]
+[scene 177900]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 0.5]
+
+＠B：U－奥尔加玛丽
+喂！　你应该有什么要说的吧，肯定有！[r]这是最后的机会了！
+[k]
+
+[messageOff]
+[fadeout white 0.5]
+[wait fade]
+
+[pictureFrame]
+[subRenderFadeout #A 0.1]
+[charaEffectEdgeBlurDestroy B]
+[charaFadeout I 0.1]
+[charaFadeout B 0.1]
+[subCameraOff]
+
+[scene 174400]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_EVENT_95 0.5 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[charaTalk C]
+[charaFace C 31]
+[charaFadein C 0.1 1]
+
+＠玛修
+骗人[line 3]骗人，的吧。[r]好不容易才遇见她，一起交谈，一起欢笑[line 3]
+[k]
+
+＠玛修
+前辈，前辈……！
+[k]
+
+[messageOff]
+[wt 0.5]
+
+？1：[line 3]是啊，但是[line 3]
+
+？！
+
+[wt 0.5]
+
+？1：……她遵照了约定，守护了地球。
+
+？！
+
+[charaFaceFade C 32 0.4]
+[wt 1.5]
+
+[charaFadein H 1.5 0,-200]
+[charaMove H 0,-300 20.0]
+[wt 5.5]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_95 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

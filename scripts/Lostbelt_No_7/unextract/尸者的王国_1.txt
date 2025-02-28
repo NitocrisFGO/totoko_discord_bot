@@ -1,0 +1,1140 @@
+
+
+＄03-00-13-14-1-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252940 1 特佩乌]
+[charaSet B 1098257500 1 拉斯普京]
+[charaSet C 1098253200 1 U－奥尔加玛丽]
+[charaSet D 1098257800 1 玛修]
+[charaSet E 1098257300 1 达·芬奇]
+[charaSet F 1098255100 1 戈尔德鲁夫]
+[charaSet G 1098239310 1 卡多克]
+
+[charaSet H 1098254110 1 高扬斯卡娅]
+[charaSet I 1098257400 1 希翁]
+[charaSet J 1098158330 1 尼莫]
+[charaSet K 1098123000 1 穆尼尔]
+[charaSet L 1098255200 1 哈贝特洛特]
+
+[imageSet O cut411_message 1]
+[imageSet P back10000 1 1]
+[charaScale P 1.3]
+[charaSet S 98115000 1 特效用dummy]
+
+[charaPut S 2000,2500]
+[charaEffect S bit_sepia01_fade_fs]
+
+
+[scene 170301]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.5]
+
+[scene 170300 1.2]
+[wt 0.5]
+[se ad663]
+[seVolume ad663 0 0]
+[seVolume ad663 0.8 0.5]
+[wt 2.5]
+
+[fadeout black 1.0]
+[seStop ad663 1.0]
+[wait fade]
+
+[scene 169700]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.5]
+
+[bgm BGM_EVENT_92 0.1]
+
+？1：早上好～！
+？2：我起床啦～！
+
+？！
+
+[messageOff]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.4]
+＠特佩乌
+早上好。[r]这次你起得最早呢。看来疲劳缓解得不错。
+[k]
+
+？1：因为U－奥尔加玛丽叫我早点睡。
+
+？！
+
+[charaFaceFade A 4 0.2]
+＠特佩乌
+…………
+[k]
+
+＠特佩乌
+关于这个，[%1]。[r]言峰神父托我向你传话。
+[k]
+
+＠特佩乌
+换作以前的我，恐怕无法想象你的心情，[r]只会将传话作为“单纯的结果”告诉你吧……
+[k]
+
+[bgmStop BGM_EVENT_92 1.5]
+
+[charaFace A 6]
+＠特佩乌
+……不，我的感伤也是多余的吧。[r]只将事实告诉你好了。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth B 4]
+[charaDepth A 3]
+
+[charaTalk B]
+[charaFace B 0]
+[charaPut B 200,0]
+[charaFadeTime B 0.4 0.7]
+[wt 0.8]
+
+[bgm BGM_EVENT_11 0.1]
+
+＠B：特佩乌
+迦勒底的诸位。[r]事出突然，但我们决定就此别过。
+[k]
+
+＠B：特佩乌
+大小姐的记忆仍未恢复，[r]也不明确自己是什么人，但她依然表示，
+[k]
+
+＠B：特佩乌
+“我已经受够了迟钝的迪诺斯、羸弱的地球人类、[r][f small]  [f -]以及酷热难耐的米克特兰了”。
+[k]
+
+＠B：特佩乌
+我们将趁今晚离开这个异闻带。
+[k]
+
+＠B：特佩乌
+无法见证你们与戴比特的对决实属遗憾，[r]但我终究是一介管家，只能遵从大小姐的决定。
+[k]
+
+＠B：特佩乌
+那么，祈祷你们武运昌隆。[r]烦恼羔羊们的咨询窗口·言峰神父敬上。
+[k]
+
+[messageOff]
+[charaFadeout B 0.4]
+[wt 0.8]
+
+[charaTalk depthOn]
+[charaTalk A]
+＠特佩乌
+他是这么说的。
+[k]
+
+
+？1：[line 3]
+？2：他们已经，走了……？
+
+？！
+
+[charaFaceFade A 0 0.2]
+＠特佩乌
+是的。还有一件事。[r]神父叮嘱说只能交给你。
+[k]
+
+＠特佩乌
+写在木板上的刻印……是所谓的日语吗？[r]好像是U－奥尔加玛丽写的。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.25]
+
+[bgm BGM_EVENT_11 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth O 4]
+[charaDepth P 3]
+
+[charaTalk O]
+[charaFadein O 0.4 0,-200]
+
+[charaPut P 1]
+[charaFadeTime P 0.4 0.5]
+[wt 0.05]
+[se adm40]
+
+[wt 4.5]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[seStop ad788 1.0]
+[wait fade]
+
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+
+[scene 169001]
+
+[charaPut S 1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.7]
+
+[fadein white 0.6]
+[wait fade]
+[wt 1.6]
+
+[fadeout white 0.6]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_sepia01_fade_fs]
+
+[scene 169700]
+
+[charaTalk O]
+[charaFadein O 0.1 0,-200]
+
+[charaPut P 1]
+[charaFadeTime P 0.4 0.5]
+[wt 0.7]
+
+[bgm BGM_EVENT_11 0.6 1.0]
+[fadein white 0.6]
+[wait fade]
+[wt 0.6]
+
+
+？1：[line 6]
+？2：………………
+
+？！
+
+[messageOff]
+[charaFadeout O 0.1]
+[charaFadeout P 0.2]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[wt 1.5]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_11 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[scene 132900]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.2]
+
+[bgm BGM_SHINYAMA_1 0.1 0.7]
+
+[charaTalk D]
+[charaFace D 29]
+[charaFadein D 0.1 1]
+＠玛修
+………………
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 23]
+[charaFadein E 0.1 1]
+＠达·芬奇
+……是吗。[r]U－奥尔加玛丽和拉斯普京已经走了啊。
+[k]
+
+＠达·芬奇
+这边也确认到U－奥尔加玛丽……[r]『异星之神』的反应已经消失。
+[k]
+
+＠达·芬奇
+虽然反应只追踪到一半，[r]但他们似乎是朝地表方向……第一层去了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+＠戈尔德鲁夫
+唔嗯。既然没有攻击我们，[r]应该认为她还没恢复记忆吧……
+[k]
+
+＠戈尔德鲁夫
+那家伙虽然敌视我，[r]但那种眼神更像是在瞪劲敌。
+[k]
+
+＠戈尔德鲁夫
+我反倒觉得她其实对我们怀有善意。[r]尤其是对[%1]和玛修。
+[k]
+
+＠戈尔德鲁夫
+然而她还是选择了不辞而别，[r]说明……果然……
+[k]
+
+[charaTalk depthOff]
+[charaDepth F 6]
+[charaDepth G 6]
+[charaDepth P 4]
+
+[charaPut P 1]
+[charaFadeTime P 0.2 0.5]
+
+[charaFace F 8]
+＠戈尔德鲁夫
+（是因为我们犹豫不决的态度吗……？[r]　我也经历过，或者说全是这样的经历。）
+[k]
+
+＠戈尔德鲁夫
+（在团队中只有自己格格不入已经是家常便饭了。）
+[k]
+
+[charaFace F 18]
+＠戈尔德鲁夫
+（那种感觉很难受，如坐针毡。最要命的是，[r]　我的鹰之尊严无法忍受那种事实……！）
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 1]
+＠卡多克
+（……估计是拉斯普京那家伙推了她一把。[r]　而且我也煽动过他去这么做……）
+[k]
+
+＠卡多克
+（看到那两人失落的样子，还真不好受……[r]　不，难道我自己也有所期待吗？）
+[k]
+
+＠卡多克
+（期待着U－奥尔加玛丽……那个跟奥尔加玛丽[r]　像是一个模子里刻出来的家伙加入迦勒底。）
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout P 0.2]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk H]
+[charaFace H 31]
+[charaFadein H 0.1 1]
+＠高扬斯卡娅
+我也深感遗憾。身为『异星之神』，[r]那位分明如此有趣＆破绽过多啊。
+[k]
+
+＠高扬斯卡娅
+要是能找到破绽加以解析，[r]『异星之神』究竟是什么，
+[k]
+
+＠高扬斯卡娅
+为何会是迦勒底前所长本人，[r]又是如何以Beast灵基获得肉体的，
+[k]
+
+＠高扬斯卡娅
+诸如此类谜团明明就都能揭晓了……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgmStop BGM_SHINYAMA_1 1.5]
+
+[charaTalk I]
+[charaFace I 9]
+[charaFadein I 0.1 1]
+＠希翁
+[line 3]
+[k]
+
+
+[charaFace I 7]
+＠希翁
+好啦好啦，各位，抬起头来。[r]没有受到任何损害却意志消沉什么的，不行啦不行啦！
+[k]
+
+[bgm BGM_EVENT_25 0.1]
+[charaFace I 11]
+＠希翁
+虽说已经错失了[#确认]的机会，[r]但喜讯是她仍处于记忆障碍的状态。
+[k]
+
+＠希翁
+这可是我们这次的目的……[r]阻止『异星之神』与ORT融合的机会。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 8]
+[charaFadein J 0.1 1]
+＠尼莫
+说得对。我知道这样显得很绝情，[r]但这个话题就到此为止吧。
+[k]
+
+＠尼莫
+与U－奥尔加玛丽的合作关系结束了。[r]接下来将回归原本的敌对关系。
+[k]
+
+[charaFace J 4]
+＠尼莫
+没问题吧，玛修、[%1]。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠玛修
+…………但是。
+[k]
+
+＠玛修
+销声匿迹可能只是一时的，[r]她说不定还会再回来[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 4]
+[charaFadein J 0.1 1]
+＠尼莫
+嗯，我不否定这种可能性。
+[k]
+
+
+＠尼莫
+今后要是再遇到她，[r]必须保持高度的警戒与之接触。不过[line 3]
+[k]
+
+[charaFace J 5]
+＠尼莫
+如果对方没有攻击的意图，而是寻求对话，[r]我也不会强迫你们先发制人。
+[k]
+
+＠尼莫
+届时可以优先你们的判断。[r][line 3]明白了吗？　来，复述。
+[k]
+
+？1：[line 3]谢谢你，船长！
+
+？！
+
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 25]
+[charaFadein D 0.1 1]
+[wt 1.2]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 7]
+[charaFadein J 0.1 1]
+＠尼莫
+我不是要你感谢，是要你复述。[r]……更何况，为什么要感谢我啊。
+[k]
+
+？1：因为，你这样做不是出于对我们的信任，
+？2：而是出于对U－奥尔加玛丽的信任啊。
+
+？！
+
+[messageOff]
+[charaFace J 1]
+[wt 1.0]
+
+[charaFace J 2]
+＠尼莫
+……或许吧。
+[k]
+
+＠尼莫
+水兵的专长虽然不如系列其他成员多，[r]但唯独看人的眼光比我优秀得多。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_25 1.5]
+[wait fade]
+
+[charaFadeout J 0.1]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_124 0.1]
+
+[charaTalk off]
+[charaDepth I 1]
+[charaDepth F 2]
+[charaDepth E 3]
+[charaDepth J 4]
+
+
+[charaFace I 9]
+[charaFace F 16]
+[charaFace E 17]
+[charaFace J 0]
+[charaFadeinFSSideL I 0.1 -350,0]
+[charaFadeinFSR F 0.1 100,0]
+[charaFadeinFSL J 0.1 -100,0]
+[charaFadeinFSSideR E 0.1 375,0]
+[wt 1.5]
+
+[charaFadeout I 0.1]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaDepth D 1]
+[charaDepth G 3]
+[charaDepth H 2]
+
+[charaFace D 6]
+[charaFace G 0]
+[charaFace H 11]
+[charaFadeinFSR D 0.1 310,0]
+[charaFadein G 0.1 1]
+[charaFadeinFSL H 0.1 -310,0]
+[wt 1.5]
+
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 17]
+[charaFadein E 0.1 1]
+＠达·芬奇
+好了。刚才花费了不少时间，[r]现在开始迦勒底工作人员作战会议吧！
+[k]
+
+[charaFace E 0]
+＠达·芬奇
+首先是重新确认目标。[r]我们的目标正如先前所述，
+[k]
+
+＠达·芬奇
+第一是『瘫痪异星之神的战斗力』，[r]即『阻止异星之神与ORT融合』。
+[k]
+
+＠达·芬奇
+第二是『切除南美异闻带』，[r]即『捉拿最后的[#隐匿者:Crypter]，戴比特』。
+[k]
+
+[charaFace E 34]
+＠达·芬奇
+本该如此……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 17]
+[charaFadein I 0.1 1]
+＠希翁
+目前其中两点由于预料之外的发展，[r]需要重新评估作战计划。
+[k]
+
+＠希翁
+『异星之神』出于记忆障碍，[r]压根没考虑与ORT融合。
+[k]
+
+＠希翁
+反倒是[#隐匿者:Crypter]戴比特，[r]及其从者特斯卡特利波卡，
+[k]
+
+＠希翁
+正图谋利用ORT。
+[k]
+
+[charaFace I 9]
+＠希翁
+各位在墨西哥城所见到的[r]『未来景象』是否确为事实？
+[k]
+
+＠希翁
+若是事实，我们又该做些什么？[r]首先必须重新拟定这方面的对策才行。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠戈尔德鲁夫
+唔嗯。关于[%1]报告的[r]『米克特兰与地球的崩毁』……
+[k]
+
+＠戈尔德鲁夫
+奥特瑙斯并没有这期间的影像记录。
+[k]
+
+＠戈尔德鲁夫
+并非没有进行拍摄，[r]而是唯独那部分缺失了。
+[k]
+
+＠戈尔德鲁夫
+因此，我们只能相信身在现场的[r]调查员们的证词了……
+[k]
+
+[charaFace F 15]
+＠戈尔德鲁夫
+地球真的裂开了吗？[r]不是幻觉或是视觉陷阱之类的吗？
+[k]
+
+？1：嗯。
+？2：不会错。
+
+？！
+
+[charaFace F 7]
+＠戈尔德鲁夫
+难以置信！　不，不是指你的证词，[r]而是指戴比特那家伙是不是疯了！
+[k]
+
+＠戈尔德鲁夫
+那家伙是『异星之神』的手下吧！？[r]而『异星之神』的目的是统治地球！
+[k]
+
+＠戈尔德鲁夫
+如果连地球都被破坏了，[r]还有何统治可言！
+[k]
+
+＠戈尔德鲁夫
+高扬斯卡娅！　戴比特·泽姆·沃伊德[r]究竟在打什么算盘！？
+[k]
+
+＠戈尔德鲁夫
+好歹曾站在[#隐匿者:Crypter]那边的你，[r]应该多少有所了解吧！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 31]
+[charaFadein H 0.1 1]
+＠高扬斯卡娅
+我可是一无所知。
+[k]
+
+＠高扬斯卡娅
+不只是我，对『异星之神』的使徒来说，[r]那位人物也是个莫名其妙的[#隐匿者:Crypter]。
+[k]
+
+[charaFace H 20]
+＠高扬斯卡娅
+在『异星之神』作为U－奥尔加玛丽在[#地球:这边]现身之前[r]其所关注的是基尔什塔利亚大人。
+[k]
+
+＠高扬斯卡娅
+对除此以外的[#隐匿者:Crypter]都是一副『无关紧要』的态度。[r]可是……
+[k]
+
+[charaFace H 1]
+＠高扬斯卡娅
+现在回想起来，『异星之神』应该是在[r]刻意无视戴比特大人……不，
+[k]
+
+＠高扬斯卡娅
+感觉像是[#没有将他纳入计划中]吧。
+[k]
+
+＠高扬斯卡娅
+既没有命令他，也没有强迫他做什么。[r]甚至没对他表示“无关紧要”。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+＠尼莫
+这不是对手下的态度。[r]反倒像是……
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 20]
+[charaFadein H 0.1 1]
+＠高扬斯卡娅
+是的。更像是面对[#对等的]，[#或是在自己之上对象]的态度。
+[k]
+
+＠高扬斯卡娅
+我与『异星之神』签订了互不侵犯条约，[r]所以才能一直随心所欲地行动……
+[k]
+
+＠高扬斯卡娅
+而『异星之神』并没有对戴比特大人的强制权。
+[k]
+
+[bgmStop BGM_EVENT_124 1.5]
+
+＠高扬斯卡娅
+搞不好，戴比特大人[line 3][r]打从一开始就不是[#隐匿者:Crypter]。
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth D 2]
+[charaDepth F 3]
+[charaDepth E 1]
+
+[charaFace D 5]
+[charaFace F 5]
+[charaFace E 25]
+[charaFadeinFSR D 0.1 300,0]
+[charaFadein F 0.1 1]
+[charaFadeinFSL E 0.1 -300,0]
+[wt 1.5]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaDepth I 1]
+[charaDepth G 3]
+[charaDepth J 2]
+
+[charaFace I 6]
+[charaFace G 3]
+[charaFace J 8]
+[charaFadeinFSL I 0.1 -300,0]
+[charaFadein G 0.1 1]
+[charaFadeinFSR J 0.1 300,0]
+[wt 1.5]
+
+[charaFadeout I 0.1]
+[charaFadeout G 0.1]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_36 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠玛修
+打从一开始就不是[#隐匿者:Crypter]……[r]也就是说，他并非基尔什塔利亚先生的同伴？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠卡多克
+……原来是这样。[r]我在奥林波斯看到的沃戴姆的记录……
+[k]
+
+＠卡多克
+那个原来是这么一回事啊。
+[k]
+
+[charaFace G 0]
+＠卡多克
+基列莱特，戴比特是Ａ组的成员。[r]这点是绝对不会变的。
+[k]
+
+＠卡多克
+只不过，他的立场确实与我们不一样。[r]那家伙并没有欠『异星之神』的债。
+[k]
+
+＠卡多克
+归根结底，[#隐匿者:Crypter]这个名称[r]都是自筐体中复活时才听说的。
+[k]
+
+＠卡多克
+我、奥菲莉娅、芥和贝里尔都是初次耳闻。[r]……不过戴比特好像早就知道了。
+[k]
+
+＠卡多克
+当时我还以为这类似于反叛人理的血指印，[r]看来并非如此。
+[k]
+
+＠卡多克
+对沃戴姆下令称『你们是隐匿者』的，[r]是『异星之神』。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 9]
+[charaFadein I 0.1 1]
+＠希翁
+[#隐匿者:Crypter]这个名称，[r]并非基尔什塔利亚·沃戴姆的主意……
+[k]
+
+＠希翁
+那成为[#隐匿者:Crypter]的条件是什么？[r]应该不是身为Ａ组成员吧？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠卡多克
+……这我还无法断言，不过经『异星之神』之手[r]复活时，我们得知了[#隐匿者:Crypter]这个名称。
+[k]
+
+＠卡多克
+而且，复活是需要付出代价的。
+[k]
+
+＠卡多克
+代价就是『解决人理烧却』。
+[k]
+
+＠卡多克
+只要能在筐体中展现出媲美你们迦勒底[line 3][r][%1]与玛修成功完成了的
+[k]
+
+＠卡多克
+解决『人理烧却事件』的力量，[r]『异星之神』就承诺让我们复活。
+[k]
+
+＠卡多克
+然而……那是不可能的。[r]无论是我、奥菲莉娅，还是其他成员，
+[k]
+
+＠卡多克
+在筐体中与死无异。[r]压根连第一特异点都活不下来。
+[k]
+
+[charaFace G 10]
+＠卡多克
+而这代价[line 3][r]是沃戴姆替我们承担的。
+[k]
+
+＠卡多克
+那家伙独自一人，连同我们的份一起[r]解决掉人理烧却之后，
+[k]
+
+＠卡多克
+对复活了的我们只字不提，[r]而是分享了作为[#隐匿者:Crypter]对等的条件与机会……！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠玛修
+这……嗯。[r]基尔什塔利亚先生确实会这样做吧。
+[k]
+
+[charaFace D 7]
+＠玛修
+……我也能理解卡多克先生的心情。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠卡多克
+唔……没事，我冷静下来了。
+[k]
+
+＠卡多克
+要是让你感同身受的话，[r]沃戴姆肯定会双眉紧蹙吧。
+[k]
+
+[charaFace G 1]
+＠卡多克
+不过，有关复活的记录中，[r]并没有提及戴比特。
+[k]
+
+＠卡多克
+……这只是我个人的猜测，[r]恐怕[#戴比特是靠自己的力量复活的]。
+[k]
+
+＠卡多克
+为了实现复活，似乎需要[r]解决『人理烧却』所使用的热量。
+[k]
+
+＠卡多克
+而那家伙靠自己就创造出了那股热量，并解决掉了。[r]『异星之神』想必也很困惑吧。
+[k]
+
+＠卡多克
+筐体内好像有『异星之神』重现的[r]最低限度的援助[line 3]
+[k]
+
+＠卡多克
+也就是迦勒底式的英灵召唤，[r]而戴比特连那个都没有使用。
+[k]
+
+[bgmStop BGM_MAP_36 1.5]
+
+＠卡多克
+就算只是模拟，那家伙[r][#也在没有从者的情况下解决了人理烧却]。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+
+[charaTalk off]
+[charaDepth D 2]
+[charaDepth F 3]
+[charaDepth E 1]
+
+[charaFace D 5]
+[charaFace F 5]
+[charaFace E 26]
+[charaFadeinFSR D 0.1 310,0]
+[charaFadein F 0.1 1]
+[charaFadeinFSL E 0.1 -300,0]
+[wt 1.5]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaDepth I 4]
+[charaDepth H 2]
+[charaDepth J 1]
+
+[charaFace I 6]
+[charaFace H 13]
+[charaFace J 8]
+[charaFadein I 0.1 1]
+[charaFadeinFSL H 0.1 -300,0]
+[charaFadeinFSR J 0.1 300,0]
+[wt 1.5]
+
+[charaFadeout I 0.1]
+[charaFadeout H 0.1]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+？1：不曾借助从者……英灵的力量……
+？2：从第一特异点，一路解决到终局特异点？
+
+？！
+
+[bgm BGM_MAP_41 0.1]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠戈尔德鲁夫
+那算什么，超级御主吗！？[r]是在挖苦人吗！？　还是在炫耀力量！？
+[k]
+
+＠戈尔德鲁夫
+一骑从者都不召唤就解决人理烧却，
+[k]
+
+＠戈尔德鲁夫
+他难道想以此证明自己比[%1]更优秀吗！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠卡多克
+并不是这样。[r]沃戴姆的记录中有这么一段。
+[k]
+
+＠卡多克
+『戴比特·泽姆·沃伊德存在欠缺。[r]　打从一开始，他的思想与存在方式就非人类』。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 9]
+[charaFadein I 0.1 1]
+＠希翁
+原来如此。[r]那确实只能靠自己解决了呢。
+[k]
+
+＠希翁
+换言之，他[line 3]
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 22]
+[charaFadein E 0.1 1]
+＠达·芬奇
+没错，他并非人类。[#因为他不属于人理一方]，[r][#所以无法召唤从者]。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth F 2]
+[charaDepth D 3]
+
+[charaFace D 5]
+[charaFace F 4]
+[charaFadeinFSR D 0.1 2]
+[charaFadeinFSL F 0.1 0]
+[wt 1.8]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[wt 0.2]
+
+
+[bgmStop BGM_MAP_41 1.0]
+[flashin loop 0.8 0.8 D72727FF 00000000]
+[se ad9]
+[wt 1.6]
+[seStop ad9 1.4]
+[wt 1.2]
+[flashOff]
+
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠戈尔德鲁夫
+唔噢噢，别在最高潮的时候吓人啊！[r]什么情况，[#侍酒师:Sommelier]老弟！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[bgm BGM_EVENT_80 0.1]
+
+[charaTalk K]
+[charaFace K 2]
+[charaFadein K 0.1 1]
+＠穆尼尔
+外面，看外面！[r]外面好像冒出了一大堆未确认生物！
+[k]
+
+＠穆尼尔
+迪诺斯们都惨叫着逃跑了！[r]还是中断作战会议比较好吧！？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+＠达·芬奇
+！[r][%1]、玛修！
+[k]
+
+？1：交给我们吧！
+？2：开始应对！
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠玛修
+是！[r]哈贝特洛特小姐，也要拜托您了！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 4]
+[charaPut L 0,0]
+[se ad595]
+[charaSpecialEffect L wipeTimeRe 0 1.0 0 0.2]
+[wt 1.2]
+[charaFadein L 0.0 1]
+＠哈贝特洛特
+没问题，包在咱身上！[r]反正不是食肉虫就是奥塞洛特尔吧，立刻收拾掉！
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_80 0.4]
+[wait fade]
+[soundStopAll]
+[end]

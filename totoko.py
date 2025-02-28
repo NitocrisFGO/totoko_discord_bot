@@ -4,18 +4,11 @@ import time
 from datetime import date
 import random
 import discord
+import torch
 from discord.ext import commands
 from openai import OpenAI
-
-
-def create_response(content):
-    response = client.chat.completions.create(
-        model=MODEL,
-        messages=[{"role": "user", "content": content}],
-        temperature=0.7,
-        top_p=0.9,  # 让模型在前 90% 的概率空间内采样
-    )
-    return response.choices[0].message.content
+from peft import PeftModel
+from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer
 
 
 # 将music_base_list转换为music_dictionary
@@ -63,7 +56,6 @@ random.seed(seed)
 hello_text_list = ['哟~你好，魔法少女托托子竭诚为您服务。还有，是中国人就说你好。', '欸嘿，今天是 ' + str(today) + ' 过的怎么样啊？'
                    , '天气真好， 今天来一首 ' + random.choice(base_list) + ' 怎么样？']
 
-play_test_list = ['哦，在这停顿！ ', '阿伟，又在听音乐了，休息一下好不好。 ', '让我看看你在听什么？ ', '这首歌我还挺喜欢的，品味不错。 ']
 
 rps_lose_text = ["略~欺负人，真不行吧？", "不准走！再来！再来！", "你作弊了对吧，你作弊了对吧？", "不可能！我不承认！", "🙃",
                  "哎，也就在石头剪刀布中能赢赢托托子了。", "这不去打个石头剪刀布的世界联赛我是不认可的，什么？阴阳？我才没有阴阳你。",
@@ -136,8 +128,8 @@ async def play_next(ctx, current_song_index):
         after=lambda e: asyncio.run_coroutine_threadsafe(play_next(ctx, current_song_index), bot.loop)
     )
 
-    play_text = random.choice(play_test_list)
-    # await ctx.send(play_text + music_name)
+    music_text = create_response("如何评价歌曲：" + music_name)
+    await ctx.send(music_text)
 
 
 # 启动时的事件
@@ -195,17 +187,8 @@ async def play(ctx, music_name):
         await ctx.send(f'额，暂时不会这首: {music_name} ， 要不你找尼托帮你找找看？')
         return
 
-    # file_name = 'musics/' + music_dic_name + '.mp3'
     voice_client = ctx.voice_client
 
-    # if not os.path.isfile(file_name):
-    #     print(file_name)
-    #     await ctx.send(f'额，暂时不会这首: {music_name} ， 要不你找尼托帮你找找看？')
-    #     return
-
-    # voice_client.play(discord.FFmpegPCMAudio(file_name, **FFMPEG_OPTIONS))
-
-    # play_text = random.choice(play_test_list)
     if voice_client.is_playing():
         play_list.append(music_name)
         await ctx.send(music_name + " 加入列表成功！")
@@ -249,7 +232,6 @@ async def random_play(ctx):
 # 全部播放 music database 中的音频
 @bot.command(name='all_play', help='全都给我来一遍！')
 async def all_play(ctx):
-
     global current_song_index
     global allow_play
     global play_model
@@ -321,7 +303,6 @@ async def music_play_list(ctx):
 # 停止播放音乐
 @bot.command(name='stop', help='太吵了！闭嘴！')
 async def stop(ctx):
-
     global allow_play
 
     if ctx.voice_client:
@@ -343,7 +324,6 @@ async def stop(ctx):
 
 @bot.command(name='continue', help='继续播放没放完的捏')
 async def continue_play(ctx):
-
     global allow_play
 
     if not await ensure_voice(ctx):
@@ -360,7 +340,6 @@ async def continue_play(ctx):
 
 @bot.command(name='skip', help='老板唱K你切歌')
 async def skip_play(ctx):
-
     global current_song_index
     global allow_play
 
@@ -457,6 +436,52 @@ async def on_message(message):
     # 确保 bot 可以正常处理其他命令
     await bot.process_commands(message)
 
-# 启动机器人
-bot.run('MTI5OTU1MzExOTA4ODE1MjYwOA.GgzRBr.J2uWpHXPDx0o3ezDbhGIZCV-kEeAlgPx8TiWek')
 
+
+def create_response(prompt):
+    system_content = "以莱昂纳多·达·芬奇的角色性格和说话风格回答。"
+
+    messages = [
+        {"role": "system", "content": system_content},
+        {"role": "user", "content": prompt}
+    ]
+    text = chat_tokenizer.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True
+    )
+    model_inputs = chat_tokenizer([text], return_tensors="pt").to(chat_model.device)
+
+    generated_ids = chat_model.generate(
+        **model_inputs,
+        max_new_tokens=512
+    )
+    generated_ids = [
+        output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+    ]
+
+    response = chat_tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+    return response
+
+
+if __name__ == '__main__':
+    chat_model_name = "Qwen/Qwen2.5-7B-Instruct-1M"
+    lora_adapter_path = "./finetuned_model_Lora"
+
+    # 加载 4-bit 量化的基础模型
+    chat_model = AutoModelForCausalLM.from_pretrained(
+        chat_model_name,
+        load_in_4bit=True,  # Use 4bit to reduce memory use. False for 16bit LoRA.
+    )
+
+    # 加载 tokenizer
+    chat_tokenizer = AutoTokenizer.from_pretrained(chat_model_name)
+
+    # 加载 LoRA 适配器
+    lora_model = PeftModel.from_pretrained(chat_model, lora_adapter_path)
+
+    # 合并 LoRA 并卸载多余参数
+    chat_model = lora_model.merge_and_unload()
+
+    # 启动机器人
+    bot.run('MTI5OTU1MzExOTA4ODE1MjYwOA.GgzRBr.J2uWpHXPDx0o3ezDbhGIZCV-kEeAlgPx8TiWek')

@@ -1,0 +1,1399 @@
+
+
+
+＄03-00-13-20-1-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098253800 1 瓦克昌]
+[charaSet C 1098255300 1 尼托克丽丝]
+[charaSet D 1098252940 1 特佩乌]
+[charaSet E 1098257300 1 达·芬奇]
+[charaSet F 1098257420 1 希翁]
+[charaSet G 1098257200 1 埃列什基伽勒·Alter]
+[charaSet H 1098239310 1 卡多克]
+[charaSet I 1098255100 1 戈尔德鲁夫]
+[charaSet J 1098254110 1 高扬斯卡娅]
+
+[imageSet P back10000 1 1]
+[charaScale P 1.3]
+[sceneSet Q 169100 1]
+[sceneSet R 169100 1]
+[sceneSet S 73400 1]
+[sceneSet T 142000 1]
+
+[charaSet U 98115000 1 特效用dummy]
+[charaSet V 98115000 1 特效用dummy]
+
+
+[cameraMove 0 0,0 1.01]
+
+[charaPut V 2000,2500]
+[charaEffect V bit_sepia01_fade_fs]
+
+
+[scene 169100]
+
+[cueSe SE_22 22_ad1219]
+[cueSeVolume 22_ad1219 0 0]
+
+[shake 0.01 1 2 0]
+
+[charaScale Q 1.2]
+[charaFadein Q 0.1 -120,-260]
+
+[bgm BGM_EVENT_63 1.5]
+
+[cueSeVolume 22_ad1219 1.5 0.8]
+[fadein black 1.5]
+[wait fade]
+[wt 1.5]
+
+[shakeStop]
+[cueSeVolume 22_ad1219 1.0 0.2]
+
+[subCameraOn 1]
+[charaLayer A sub #A]
+[charaLayer C sub #A]
+[charaLayer E sub #A]
+[charaLayer F sub #A]
+[charaLayer U sub #A]
+[charaLayer R sub #A]
+[subCameraFilter #A maskEdge cut359_mask05 3 255,255,255,255 0]
+[charaScale B 1.3]
+[charaScale D 1.3]
+
+[charaScale E 1.0]
+[charaScale A 1.0]
+[charaScale C 1.0]
+[charaScale R 1.2]
+
+[charaDepth Q 1]
+[charaDepth R 2]
+[charaDepth A 3]
+[charaDepth C 3]
+[charaDepth E 3]
+[charaDepth P 3]
+[charaDepth B 4]
+[charaDepth D 4]
+[charaDepth U 9]
+
+[charaFace A 7]
+[charaFadein A 0.1 -80,350]
+[charaFadein R 0.1 0,220]
+
+[charaTalk A]
+[subRenderFadeinFSR #A 0.4 300,-380]
+[wt 0.5]
+
+＠玛修
+已经过第七层，天文台梅兹蒂特兰。[r]即将进入第八层。
+[k]
+
+＠玛修
+搭乘Shadow Border抵达第六层，第三冥界花了6小时。[r]原本预计之后应改由徒步移动……
+[k]
+
+[messageOff]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadeinFSL B 0.4 0,50]
+[wt 0.4]
+＠瓦克昌
+恐龙王交给我的工作还有效力嘛！[r]在密林移动还是我比较快！
+[k]
+
+[charaFaceFade B 6 0.2]
+＠瓦克昌
+[%1]、玛修、尼托克丽丝！[r]即便载着你们三个也很轻呢！
+[k]
+
+[charaTalk C]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaFace C 1]
+[charaFadein C 0.1 0,350]
+＠尼托克丽丝
+乘坐起来非常舒适呢，斗士瓦克昌。[r]速度这么快，背上却完全不晃！
+[k]
+
+[charaFace C 0]
+＠尼托克丽丝
+仿佛腿部和躯干是单独存在的。[r]只论骑乘性能的话，甚至比斯芬克斯还优秀！
+[k]
+
+？1：真的好厉害！　是怎么做到的！？
+
+
+[charaFace B 7]
+＠瓦克昌
+我只用双腿来承受蹬地的冲击！[r]要是传递到肚子，内脏就会痛嘛！
+[k]
+
+？2：谢谢你，瓦克昌！
+
+[charaFace B 7]
+＠瓦克昌
+等顺利抵达目的地后再道谢吧！[r]再往前走下去，连我也会害怕哦！
+[k]
+
+？！
+
+[messageOff]
+[subRenderFadeout #A 0.4]
+[cueSeVolume 22_ad1219 1.0 0]
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0.1]
+[cueSeVolume 22_ad1210 1.0 0.5]
+[charaTalk D]
+[charaMoveFSL B 60,50 0.4]
+[charaMove Q -80,-260 0.5]
+[charaFadeout B 0.4]
+[wt 0.1]
+
+[charaFace D 0]
+[charaFadeinFSL D 0.4 -10,0]
+[charaMoveFSL D 50,0 0.4]
+[wt 0.7]
+
+＠特佩乌
+幸好瓦克昌留在了奇琴伊察。
+[k]
+
+＠特佩乌
+原本迦勒底的作战在移动方式上还有不确定因素，[r]但这样就没问题了。
+[k]
+
+＠特佩乌
+话说你那边感觉如何，达·芬奇。[r]虽然稳定性不比瓦克昌，
+[k]
+
+＠特佩乌
+但与之相对，我的优点在于[r]可以稍微漂浮，滑翔一会儿。
+[k]
+
+[messageOff]
+[charaTalk E]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaFace E 4]
+[charaFadein E 0.1 0,350]
+[subRenderFadeinFSR #A 0.2 300,-380]
+[wt 0.2]
+＠达·芬奇
+当然是棒极了～！[r]特佩乌双手的羽毛也有翅膀的功能吧！
+[k]
+
+[charaFaceFade D 4 0.2]
+＠特佩乌
+只是用来稳定姿势的，不过算是吧。
+[k]
+
+[subRenderFadeout #A 0.4]
+
+＠特佩乌
+只要运用教授教我的魔术，[r]说不定还能像杜木兹那样爬升。
+[k]
+
+[charaFaceFade D 0 0.2]
+＠特佩乌
+[%1]、玛修、尼托克丽丝、[r]达·芬奇、我和瓦克昌、基态的哈贝特洛特。
+[k]
+
+＠特佩乌
+重视速度的这七人正朝着最底层进发，[r]关于第八层……最后的冥界线，你们有什么问题吗？
+[k]
+
+？1：听说那是平常无法进入的地层……
+？2：你有什么情报吗，特佩乌？
+
+？！
+
+＠特佩乌
+如果不介意只是奇琴伊察的神官们[r]口耳相传的情报的话。
+[k]
+
+[charaFaceFade D 6 0.2]
+＠特佩乌
+不见天日的地底山脉，第四冥界[#黑之线:亚亚乌基]。
+[k]
+
+＠特佩乌
+据说乍看之下虽是险峻的山脉，但内部却是空洞，[r]山脉内还有山脉。
+[k]
+
+＠特佩乌
+也就是洞窟吧。[r]地底山脉是太阳照射不到的暗黑世界，
+[k]
+
+＠特佩乌
+也是恐怖的蝙蝠，卡玛佐茨的巢穴。[r]可以说他就是第四冥界的守卫吧。
+[k]
+
+
+[messageOff]
+[cueSeVolume 22_ad1210 1.0 0]
+[cueSeVolume 22_ad1219 1.0 0.5]
+[charaTalk B]
+[charaMoveFSL D -10,0 0.4]
+[charaMove Q -120,-260 0.5]
+[charaFadeout D 0.4]
+[wt 0.1]
+
+[charaFace B 4]
+[charaFadeinFSL B 0.4 60,50]
+[charaMoveFSL B 0,50 0.4]
+[wt 0.7]
+
+＠瓦克昌
+要跟那只吸血蝙蝠战斗吗！？[r]该死，要是库库尔坎大人在就好了！
+[k]
+
+[messageOff]
+[cueSeVolume 22_ad1210 1.0 0.4]
+[cueSeVolume 22_ad1219 1.0 0]
+[charaTalk D]
+[charaMoveFSL B 60,50 0.4]
+[charaMove Q -80,-260 0.5]
+[charaFadeout B 0.4]
+[wt 0.1]
+
+[charaFace D 0]
+[charaFadeinFSL D 0.4 -10,0]
+[charaMoveFSL D 50,0 0.4]
+[wt 0.7]
+＠特佩乌
+瓦克昌，库库尔坎是不会与米克特兰的[r]生物战斗的。虽然早就心知肚明了。
+[k]
+
+＠特佩乌
+反倒是现在的迦勒底称得上是库库尔坎的攻击对象了。
+[k]
+
+[charaFaceFade D 4 0.2]
+＠特佩乌
+要是遇到了库库尔坎，可千万别优哉游哉地打招呼。[r]会连同背上的三个一并被劈成两半的。
+[k]
+
+[messageOff]
+[cueSeVolume 22_ad1210 1.0 0]
+[cueSeVolume 22_ad1219 1.0 0.4]
+[charaTalk B]
+[charaMoveFSL D -10,0 0.4]
+[charaMove Q -120,-260 0.5]
+[charaFadeout D 0.4]
+[wt 0.1]
+
+[charaFace B 5]
+[charaFadeinFSL B 0.4 60,50]
+[charaMoveFSL B 0,50 0.4]
+[wt 0.7]
+＠瓦克昌
+唔诶，是这样吗！[r]不过嘛，库库尔坎大人确实有这样的一面呢！
+[k]
+
+[charaFace B 6]
+＠瓦克昌
+一旦被认定是扰乱米克特兰安宁之物，[r]就会被她迅速打趴！　比方说失智迪诺斯！
+[k]
+
+＠瓦克昌
+算了，等真的遇到了再说吧！
+[k]
+
+[charaFace B 7]
+＠瓦克昌
+我大概能想办法躲避两次，[r]再往后就只能靠你们想办法了！！
+[k]
+
+？1：瓦克昌不介意与库库尔坎交战吗？
+？2：她是迪诺斯的神明吧？
+？！
+
+[charaFaceFade B 0 0.2]
+＠瓦克昌
+又没有『不许违抗神明』的规则吧？[r]反正[#人类:人]和神明都是生物。
+[k]
+
+＠瓦克昌
+关键只在能否打好关系，[r]目的是否相同。
+[k]
+
+＠瓦克昌
+库库尔坎大人想守护米克特兰。[r]而你们想拯救自己的世界。
+[k]
+
+[charaFace B 1]
+＠瓦克昌
+我认为两边都是正确的。[r]既然如此，我就帮自己能帮得上忙的那边！
+[k]
+
+[charaFaceFade B 7 0.2]
+＠瓦克昌
+啊，但如果库库尔坎大人对我说『加入我这边』的话，[r]我就要考虑考虑了哦！
+[k]
+
+＠瓦克昌
+虽然这种事绝对不可能发生！[r]毕竟不去束缚，放任自由才是『[#太阳的教诲:库库尔坎]』嘛！
+[k]
+
+[charaFace E 0]
+[subRenderFadeinFSR #A 0.2 300,-380]
+＠达·芬奇
+……这样啊。看来库库尔坎不是管控孩子的父之教诲，[r]而是守望孩子的母之教诲呢。
+[k]
+
+[charaFace E 34]
+＠达·芬奇
+虽然我很清楚[r]异闻带之王最终还是会成为敌人……
+[k]
+
+＠达·芬奇
+但当了解了她大大方方的性格后，就感觉好难过啊。
+[k]
+
+[messageOff]
+
+[subRenderFadeout #A 0.4]
+[charaTalk off]
+[cueSeVolume 22_ad1210 1.0 0.4]
+[cueSeVolume 22_ad1219 1.0 0.4]
+[charaTalk D,B]
+[charaMoveFSL B 120,50 0.5]
+[charaMove Q -60,-260 0.5]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaScale D 0.8]
+
+[charaDepth D 2]
+[charaDepth B 4]
+
+[charaDepth Q 1]
+[charaDepth R 2]
+[charaDepth A 3]
+[charaDepth C 3]
+[charaDepth E 3]
+[charaDepth P 3]
+[charaDepth B 4]
+[charaDepth D 4]
+[charaDepth F 5]
+[charaDepth U 9]
+
+[charaFaceFade B 3 0.2]
+[charaFace D 4]
+[charaFadeinFSL D 0.4 -290,-200]
+[charaMoveFSL D -190,-200 0.4]
+[wt 0.6]
+
+＠特佩乌＆瓦克昌=spot[D,B]
+大大方方？[r]不是大打出手吗？
+[k]
+
+[messageOff]
+[charaTalk on]
+[charaTalk F]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut U 0,400]
+[charaEffect U bit_talk_10_LowLevel_depth]
+[wt 0.1]
+[se ad13]
+[wt 0.3]
+[charaFace F 9]
+[charaFadein F 0.1 0,350]
+[subRenderFadeinFSR #A 0.2 300,-380]
+＠希翁
+库库尔坎确实需要警惕，[r]但也要当心销声匿迹的U－奥尔加玛丽。
+[k]
+
+＠希翁
+因为她很可能正与拉斯普京一起[r]为得到ORT而展开行动。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaPut U 2000,2500]
+[charaEffectStop U bit_talk_10_LowLevel_depth]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 0,350]
+＠尼托克丽丝
+也就是说最终的障碍有库库尔坎，[r]以及『异星之神』吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 23]
+[charaFadein E 0.1 0,350]
+＠达·芬奇
+嗯。不过目前最值得注意的问题在于[r]卡多克他们的袭击队能否成功，还有第四冥界。
+[k]
+
+＠达·芬奇
+我们会专心突破第四冥界。[r]卡多克他们的支援就交给你了哦，希翁。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_63 1.5]
+[cueSeStop 22_ad1210 1.5]
+[cueSeStop 22_ad1219 1.5]
+[wait fade]
+
+[subRenderFadeout #A 0.1]
+[charaFadeout R 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.2]
+[subCameraOff]
+[charaLayer A normal]
+[charaLayer C normal]
+[charaLayer E normal]
+[charaLayer F normal]
+[charaLayer U normal]
+[charaLayer R normal]
+[charaScale B 1.0]
+[charaScale D 1.0]
+[charaScale A 1.0]
+[charaScale C 1.0]
+[charaScale E 1.0]
+[charaScale F 1.0]
+[charaScale U 1.0]
+[charaScale R 1.0]
+[wt 0.2]
+
+
+[scene 174000]
+[wt 1.0]
+[pictureFrame cut063_cinema]
+
+[cameraFilter gray]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 0,-50]
+＠埃列什基伽勒·Alter
+很抱歉，我无法提供援助。
+[k]
+
+＠埃列什基伽勒·Alter
+首先，你们还没有跨越第三冥界。[r]原本连这种自由都是不被允许的，
+[k]
+
+＠埃列什基伽勒·Alter
+但看在[%1]他们的份上，[r]我允许你们在第三冥界自由行动。
+[k]
+
+[charaFace G 0]
+＠埃列什基伽勒·Alter
+其次，[#隐匿者:Crypter]戴比特是已跨越[r]第三冥界的资格持有者。我不能对他出手。
+[k]
+
+[charaFace G 26]
+＠埃列什基伽勒·Alter
+最后，我必须寻找逃跑的杜木兹才行。[r]要是放任那家伙不管，不知他会做出什么来。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 0,-50]
+＠卡多克
+也就是说，让我们靠自己击败戴比特，[r]以及应该跟他在一起的特斯卡特利波卡吧。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0,-50]
+＠埃列什基伽勒·Alter
+就是这样。不过，[r]我也不是那么无情的女神。
+[k]
+
+＠埃列什基伽勒·Alter
+为了让你们能以万全的状态埋伏，等[#隐匿者:Crypter]一到来，[r]我会立刻将他的路线告诉你们。
+[k]
+
+[charaFace G 1]
+＠埃列什基伽勒·Alter
+对方虽是[#隐匿者:Crypter]，但终归是人类。[r]特斯卡特利波卡神的容器也不是灵基，而是人类之躯。
+[k]
+
+[charaFace G 22]
+＠埃列什基伽勒·Alter
+只要做好充分的准备，应该就有足够的胜算。[r]这是很重要的任务吧？　加油哦。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_81 1.0 0.5]
+[wait fade]
+
+[pictureFrame]
+[charaFadeout G 0.1]
+
+[scene 142000]
+
+[cameraFilter normal]
+[wt 1.0]
+
+[bgm BGM_EVENT_81 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠卡多克
+已经过去1小时了……[%1]他们[r]差不多该进入第七层了吧。
+[k]
+
+＠卡多克
+幸好能抢在戴比特他们前面。[r]关键时候还得靠大型车辆和A级驾驶员呢。
+[k]
+
+＠卡多克
+真亏你能在树海中以最高速度狂飙呢。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_81 1.0]
+
+[charaTalk I]
+[charaFace I 16]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+深有同感。[r][line 3]所以，这是为什么呢？
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace I 7]
+＠戈尔德鲁夫
+为什么我要加入袭击小队啊，泽姆露普斯[line 2]！[r]就没有穆尼尔这个选项吗！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 18]
+[charaFadein J 0.1 1]
+＠高扬斯卡娅
+穆尼尔大人的伤势还没彻底痊愈。[r]要是在驾驶途中额头渗血可是很致命的。
+[k]
+
+＠高扬斯卡娅
+在生死攸关的驾驶途中汗水流进眼睛里……
+[k]
+
+＠高扬斯卡娅
+这究竟有多危险，[r]身为赛车手的阁下应该再清楚不过了吧？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 11]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+呜……！[r]精准地刺中了我的自尊心与尊严！
+[k]
+
+＠戈尔德鲁夫
+那副驾位上应该有导航员吧！？[r]能帮我擦拭额头上汗珠的，值得信赖的导航员！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 5]
+[charaFadein J 0.1 1]
+＠高扬斯卡娅
+那当然是我啦♡
+[k]
+
+＠高扬斯卡娅
+我会用这兔耳绒球温柔地、[r]细心地擦去阁下的汗水……♡
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 4]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+[line 3]可以与我签一个赛季起步的[r]专属导航员合约吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth P 4]
+[charaDepth H 6]
+
+[charaPut P 1]
+[charaFadeTime P 0.2 0.5]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+＠卡多克
+（那可是让旁听的我都感到毛骨悚然的[#谄媚语气:甜蜜陷阱]啊……[r]　还没吸取教训吗，戈尔德鲁夫·穆吉克……）
+[k]
+
+[bgmStop BGM_EVENT_7 1.5]
+
+[charaFadeout P 0.2]
+[charaFace H 1]
+＠卡多克
+喂，你想自取灭亡我倒也不会阻止你，[r]但还是回地表再说吧。
+[k]
+
+＠卡多克
+高扬斯卡娅，埃列什基伽勒有联系吗？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_124 0.1]
+
+[charaTalk depthOn]
+[charaTalk J]
+[charaFace J 18]
+[charaFadein J 0.1 1]
+＠高扬斯卡娅
+现在正好收到了。[r]戴比特大人的预测路线是这样的。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[se ad15]
+[charaTalk I]
+[charaFace I 5]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+唔，那边的速度也相当快啊！？[r]从这里出发应该很难赶上！
+[k]
+
+[charaFace I 1]
+＠戈尔德鲁夫
+不过[line 3]哼。[r]出来混迟早要还的，戴比特·泽姆·沃伊德。
+[k]
+
+＠戈尔德鲁夫
+距接触地点还有20㎞。我倒是能轻松赶上。[r]就让我用最快圈速从侧面撞过去吧。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠卡多克
+不，将接触地点安排在这里吧。[r]在沙漠的中心伏击他们。
+[k]
+
+＠卡多克
+凭你的实力，应该只要10分钟就能赶到吧？[r]然后就轮到我和高扬斯卡娅出场了。
+[k]
+
+＠卡多克
+将所有我们能拿出的炸药和防兽陷阱都设置好。[r][#武器商人:高扬斯卡娅]就是为此才叫来的。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 28]
+[charaFadein J 0.1 1]
+＠高扬斯卡娅
+当然没问题，交给我吧。[r]大量[#定向地雷:阔刀地雷]和C2炸弹，连一只猫崽[line 3]
+[k]
+
+[charaFace J 24]
+＠高扬斯卡娅
+不，连一只虫豸都不会放过。[r]在[#黄金都市:奇琴伊察]结下的仇，就让你们1.5倍奉还吧。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 2]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+好嘞，系好安全带！[r]开始飚车啦！　用完美的阵势迎击吧！
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.25]
+
+[se ad748]
+[cameraMove 0.5 0,9 1.01]
+[wt 0.9]
+
+[se ad346]
+[shake 0.01 0 1 0.3]
+[wt 0.3]
+[seStop ad346 0.2]
+[wt 0.9]
+
+[se ad729]
+[seVolume ad729 0 0]
+[seVolume ad729 0.4 1.0]
+[wt 0.1]
+[shake 0.01 1 1 0]
+[wt 2.5]
+
+[seVolume ad729 0.6 0.2]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+＠高扬斯卡娅
+话说回来，听说卡多克先生之前一直在[r]Storm Border的数据库里调查资料。
+[k]
+
+＠高扬斯卡娅
+有什么成果吗？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠卡多克
+…………有。[r]找到了疑似戴比特过去的记录。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 5]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+真的吗！？[r]哎哎，你怎么不早说啊！
+[k]
+
+＠戈尔德鲁夫
+现在我可正在驾驶哦！？[r]跟我说这些我也集中不了注意力！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+＠卡多克
+……不是什么大不了的情报。[r]就算说出来也没什么考究价值。
+[k]
+
+＠卡多克
+即便在作战会议上公开，估计大家也只会给出[r]“所以呢？”的反应，所以才一直搁置着……
+[k]
+
+[shakeStop]
+[bgmStop BGM_EVENT_124 1.5]
+[seStop ad729 1.5]
+
+[charaFace H 1]
+＠卡多克
+这是个好机会，听我说。
+[k]
+
+＠卡多克
+戴比特·泽姆·沃伊德。
+[k]
+
+＠卡多克
+关于那家伙是如何成为『时钟塔异端』的，[r]就让我来讲述事情梗概吧。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+[cameraMove 0 0,0 1.01]
+
+
+
+[charaPut V 1]
+[wt 1.5]
+
+[charaDepth I 7]
+[charaDepth J 7]
+[charaDepth T 6]
+[charaDepth V 2]
+[charaDepth S 1]
+
+[charaScale S 1.2]
+[charaFadein S 0.1 50,-225]
+[charaMove S -50,-225 50.0]
+[fadein black 1.5]
+[wait fade]
+[wt 0.3]
+
+[bgm BGM_EVENT_79 0.1]
+
+＠卡多克
+魔术世界中的『协会』存在三股势力，[r]埃及的『阿特拉斯院』、北海的『彷徨海』、
+[k]
+
+＠卡多克
+以及其中的最大势力，伦敦的『时钟塔』。[r]一般所说的魔术协会，就是指这个『时钟塔』。
+[k]
+
+＠卡多克
+『时钟塔』有13个学科。
+[k]
+
+＠卡多克
+『全体基础科』『个体基础科』[r]『降灵科』『矿石科』，
+[k]
+
+＠卡多克
+『动物科』『传承科』『植物科』[r]『天体科』『创造科』『诅咒科』，
+[k]
+
+＠卡多克
+『考古学科』『法政科』，[r]以及200年前新设立的『现代魔术科』。
+[k]
+
+＠卡多克
+迦勒底是『天体科』的[#君主:Lord]，[r]马里斯比利·阿尼姆斯菲亚所创办的组织。
+[k]
+
+＠卡多克
+因此迦勒底的魔术师就自然而然都是天体科出身了。[r]虽然实质上只有八成是天体科，两成是招揽进来的。
+[k]
+
+＠卡多克
+A组队长基尔什塔利亚当然[r]就是天体科的年轻天才。
+[k]
+
+＠卡多克
+而被誉为与基尔什塔利亚比肩之天才的戴比特，[r]则是『传承科』出身。
+[k]
+
+[messageOff]
+[charaEffectStop V bit_sepia01_fade_fs]
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 1.2 1]
+[charaFadein T 1.2 0,-200]
+[wt 1.4]
+
+＠高扬斯卡娅
+『传承科』……是研究并重编神话的部门吗？[r]听起来似乎与从者也有密切的关系。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+[charaPut V 2000,2500]
+
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+[line 3]哼。[r]我对此嗤之以鼻，胡子也随之摇晃。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 21]
+[charaFadein J 0.1 1]
+＠高扬斯卡娅
+那边的驾驶员，有什么问题吗？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+我当初也是这么以为的。[r]哈哈，所以说外行人就是令人头疼。
+[k]
+
+[charaFace I 1]
+＠戈尔德鲁夫
+听好了哦？　从者是灵体的使魔。[r]因此属于『降灵科』的管辖范围。
+[k]
+
+＠戈尔德鲁夫
+另一方面，『传承科』则被[r]时钟塔的学院长布里西桑归类为
+[k]
+
+＠戈尔德鲁夫
+研究[#非人类]『天使与恶魔』的学科。[r]与神话或英雄毫不相关哦。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 30]
+[charaFadein J 0.1 1]
+＠高扬斯卡娅
+哎呀，感谢您的解答，真想仔细给您刮刮胡子。[r]……不对，稍等一下。
+[k]
+
+[charaFace J 1]
+＠高扬斯卡娅
+既然是研究『天使与恶魔』，[r]从者还是能算在其中的吧？
+[k]
+
+＠高扬斯卡娅
+两者都是属于神话的现象。[r]比方说，作为我参考来源的神灵是古事记的……
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠卡多克
+……不是这样的，高扬斯卡娅。
+[k]
+
+＠卡多克
+『个体基础科』『降灵科』『天体科』[r]『考古学科』同样会研究各国的神话。
+[k]
+
+＠卡多克
+作为『人类构筑至今的共通法则与学问』来研究。
+[k]
+
+＠卡多克
+因此，登场于各种神话的天使与恶魔[r]对魔术师来说是基础常识。
+[k]
+
+＠卡多克
+魔术协会是『将人类史本身视作一种传承』，[r]让其得以发展的组织。
+[k]
+
+＠卡多克
+『神话的传承』在协会中等同于『常识』。[r]不值得开辟一门学科来专门学习。
+[k]
+
+＠卡多克
+要说在这种组织中还有什么仍会被视作『传承』，[r]那就只可能是『超越常识的存在』了。
+[k]
+
+[charaFace H 5]
+＠卡多克
+恐怕[line 3][r]『传承科』所研究的，并不是[#地球的物质]。
+[k]
+
+[charaFace H 1]
+＠卡多克
+而是自太古以来便散布在地球上，任何神话体系[r]都不曾提及的，带有『未知法则』的[#超遗物:欧帕兹]。
+[k]
+
+＠卡多克
+在天使或恶魔都属于常识的魔术世界中，[r]依然被忌讳为『天使』『恶魔』的存在。
+[k]
+
+＠卡多克
+也就是『人类的威胁』。[r]发现、调查、保管这些的就是『传承科』。
+[k]
+
+＠卡多克
+其他学科都是为人类贡献的，[r]而传承科则是用来隔离非人类之物的。
+[k]
+
+＠卡多克
+这也是为什么传承科的[#君主:Lord]会是学院长。
+[k]
+
+＠卡多克
+那压根就不是诞生在公元以后的[r][#文明:正统]魔术师所能驾驭的。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+唔嗯，学院长直辖的少数精锐。[r]人们常说那是菁英集团，但实际情况恰好相反。
+[k]
+
+＠戈尔德鲁夫
+隶属于那里的家伙一辈子都不可能飞黄腾达。[r]都是耗费自己的一生解读『地外威胁』的奴隶。
+[k]
+
+＠戈尔德鲁夫
+虽然是门无法轻易退学的学科，但阿尼姆斯菲亚[r]应该是亲自挖戴比特过来的吧。
+[k]
+
+＠戈尔德鲁夫
+因为如果是君主亲自来谈判，[r]学院长也没法随便置之不理嘛。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠卡多克
+……然而并非如此。这与阿尼姆斯菲亚没有关系。
+[k]
+
+＠卡多克
+对外公开说是被放逐了，[r]实际上他是主动退学的。
+[k]
+
+＠卡多克
+他应该确实受到过马里斯比利前所长的邀请吧，[r]但那家伙是主动退出传承科，加入迦勒底的。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 20]
+[charaFadein J 0.1 1]
+＠高扬斯卡娅
+……也就是说，[r]他是主动向迦勒底推销了自己吧。
+[k]
+
+＠高扬斯卡娅
+退出传承科之前的经历追溯到了吗？[r]你们有数据库吧？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_79 1.5]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠卡多克
+……嗯，他就读传承科那八年间的资料[r]都完善地保留着。
+[k]
+
+[charaFace H 1]
+＠卡多克
+然而，那以前的记录却一概没有。
+[k]
+
+[bgm BGM_MAP_36 0.1]
+
+＠卡多克
+『传承科』和『天体科』都没有。
+[k]
+
+＠卡多克
+连加入时钟塔时，新生必定要就读的[r]『全体基础科』的库里面也没有。
+[k]
+
+＠卡多克
+只知道戴比特是10岁时[r]突然出现在时钟塔的『天才』。
+[k]
+
+＠卡多克
+……不过，如果『法政科』的库也能共享到[r]潜航艇上的话，或许就能弄明白了吧。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 14]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+怎么可能共享啊！[r]『法政科』也是时钟塔的内部监察机构。
+[k]
+
+＠戈尔德鲁夫
+一旦那里的机密情报流传出去，[r]就有可能导致时钟塔所有的丑闻外泄啊！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 4]
+[charaFadein J 0.1 1]
+＠高扬斯卡娅
+哦，原来阁下所在的『法政科』是这种地方☆
+[k]
+
+[charaFace J 18]
+＠高扬斯卡娅
+也就是说……以非官方承认的灰色手段[r]掌握着魔术师们的过去吧？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 14]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+[line 3][wt 0.9][charaFace I 1][r]好，卡多克，继续说吧。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠卡多克
+……嗯。于是我放弃了回溯戴比特的过去，[r]改为搜寻『传承科』整体的记录。
+[k]
+
+＠卡多克
+相当于阅览以每天为单位被严密封锁起来的记录。[r]原本不是我一个人能干得完的。
+[k]
+
+＠卡多克
+不过这次该调查的年份很明确。[r]借助希翁的帮助，总算是找到了。
+[k]
+
+[charaFace H 1]
+＠卡多克
+2004年7月。[r]有一份仅标记着『记录：5分钟』的文件。
+[k]
+
+＠卡多克
+我没能解读这份文件本身的内容。
+[k]
+
+＠卡多克
+不，应该说文件中『什么都没有』才对。
+[k]
+
+＠卡多克
+只是这一天，伦敦内及周边的学术都市[r]都发生了不明原因的事故。
+[k]
+
+＠卡多克
+这一天，在伦敦运转的所有魔术式都停止了。
+[k]
+
+＠卡多克
+所有人都察觉到了异变，但由于很快就恢复了原状，[r]当时的魔术师们认为
+[k]
+
+＠卡多克
+『自己的术式还有不完善的地方』[r]『……这种失误怎么能报告呢』，
+[k]
+
+＠卡多克
+因此最后都没有公开，[r]或是追究学院的责任。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+嚯，还发生过这种事故啊。[r]换作是我，肯定会注意到那是非常严重的事故吧，
+[k]
+
+＠戈尔德鲁夫
+但既然我不知道，[r]就代表是发生在深夜吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 0.1 1]
+＠高扬斯卡娅
+请闭嘴，阁下。
+[k]
+
+＠高扬斯卡娅
+……也就是在那全伦敦魔术式停止的当天，[r]传承科发生了『记录：5分钟』吧？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠卡多克
+没错。当时在某位就职于传承科的讲师的准备室中，[r]某件『天使的遗物』暴露了。
+[k]
+
+＠卡多克
+暴露时间是现实时间的0.2秒。[r]这就是导致时钟塔的魔术式停止的原因吧。
+[k]
+
+＠卡多克
+这间准备室持有者的名字没有留下任何记录。[r]从所有资料、所有人类的大脑中消失了。
+[k]
+
+＠卡多克
+因此根本无从调查。[r]恐怕还记得的只有学院长了吧。
+[k]
+
+[charaFace H 5]
+＠卡多克
+虽说仅一瞬间，但还是为时钟塔全体魔术师[r]造成了损失的犯人，名副其实地“人间蒸发”了。
+[k]
+
+＠卡多克
+……不过，在这起事件的记录中，[r]留有“准备室里有一名幸存者”的描述。
+[k]
+
+[charaFace H 0]
+＠卡多克
+根据情况来考虑，这名幸存者应该是讲师的儿子吧。[r]当时10岁，后来一直下落不明。
+[k]
+
+＠卡多克
+事件几个月后，在学院长的推荐下，[r]传承科突然出现了一名经历一片空白的天才。
+[k]
+
+[charaFace H 1]
+＠卡多克
+那就是戴比特·泽姆·沃伊德。[r]年龄不详，但肉体年龄被记录为10岁。
+[k]
+
+＠卡多克
+我认为这名因『天使的遗物』失去了父亲的少年，[r]或许就是戴比特。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 4]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+因『传承科』的事故失去了父亲与自身经历的少年吗。[r]可是『天使的遗物』……？
+[k]
+
+[charaFace I 15]
+＠戈尔德鲁夫
+是只要看一眼就会发狂的那类东西吧？
+[k]
+
+＠戈尔德鲁夫
+有说法称会令大脑蒸发，并变成接收器，[r]用来接收将『遗物』扔到地球上的那帮家伙的电波……
+[k]
+
+＠戈尔德鲁夫
+换言之……[r]戴比特·泽姆·沃伊德从那时起……
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 20]
+[charaFadein J 0.1 1]
+＠高扬斯卡娅
+……原来如此，是这样啊。
+[k]
+
+＠高扬斯卡娅
+『戴比特·泽姆·沃伊德存在欠缺。[r]　打从一开始，他的思想与存在方式就非人类』。
+[k]
+
+＠高扬斯卡娅
+这是基尔什塔利亚大人留下来的话吧？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 5]
+[charaFadein I 0.1 1]
+＠戈尔德鲁夫
+并非人类方的存在[line 3]是侵略地球的[r]『异星之神』的手下吗！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MAP_36 2.0]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠卡多克
+[line 6]
+[k]
+
+[charaFace H 1]
+＠卡多克
+抱歉，话题到此为止。[r]我们抵达袭击地点了。
+[k]
+
+＠卡多克
+Shadow关闭引擎，[r]切换为迷彩模式融入砂丘。
+[k]
+
+＠卡多克
+走吧，高扬斯卡娅。将半径500米内[r]布置成人间地狱般的地雷阵吧。
+[k]
+
+
+
+[messageOff]
+[wt 0.5]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

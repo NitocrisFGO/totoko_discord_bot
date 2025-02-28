@@ -1,0 +1,1058 @@
+
+
+＄04-00-02-07-6-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 7046001 1 难敌]
+[charaSet B 1098267100 1 美杜莎]
+[charaSet C 1098268910 1 樱]
+[charaSet D 1098270200 1 迦摩]
+[charaSet E 1098270330 1 阿愈丝]
+[charaSet F 1098270000 1 希翁]
+[charaSet G 1098269300 1 塞蕾雪拉]
+[charaSet H 3054001 1 怖军]
+[charaSet I 1098271020 1 强化蠢魔1]
+[charaSet J 1098271020 1 强化蠢魔2]
+[charaSet K 1098271020 1 强化蠢魔3]
+
+[sceneSet L 190400 1]
+[charaScale L 1.2]
+
+[sceneSet M 190400 1]
+[charaScale M 1.2]
+
+[sceneSet O 10000 1]
+[charaScale O 1.03]
+[sceneSet P 10000 1]
+[charaScale P 1.03]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+
+
+[scene 190400]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_94 0.1]
+
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠难敌
+再多给点嘛，别那么抠门！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠美杜莎
+喂，你这个人难道不懂得什么叫客气吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠难敌
+凭什么懂这个。本老爷既是王族，也是最强战士，[r]为什么非得跟别人客气不可。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠美杜莎
+这可是樱的一片好意……[r]或许还是应该在这里杀掉你才对。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+＠樱
+没，没关系啦，[#Saber:剑士]。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[se ade161]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+[charaMoveReturn A 0,-8 0.3]
+＠难敌
+啊唔[wt 0.2][charaMoveReturn A 0,-8 0.3]啊唔。[wt 0.6][charaMoveReturn A 0,-8 0.2]啊唔[wt 0.3][charaMoveReturn A 0,-8 0.2]啊唔[wt 0.3][charaMoveReturn A 0,-8 0.2]啊唔。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 21]
+[charaFadein D 0.1 1]
+＠迦摩
+吃饭能不能稳重一点？[r]残渣都沾到脸上了哦。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠难敌
+（伸出脸颊）[charaMoveScale A 1.05 0.25][charaMove A 0,7 0.25]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth D 5]
+
+
+[charaTalk D]
+[charaFace D 3]
+[overlayFadein D 0.1 1]
+＠迦摩
+（一言不发摆出扔出伐折罗的架势）[wt 0.1][charaMove D 0,-9 0.3][wt 0.1][se ad442]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaMove D 2000,2500 0]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠阿愈丝
+真拿你没辙，受不了～。[r]跟个小孩子似的。
+[k]
+
+？1：吃起来真的一脸幸福呢。
+？2：吃起来高兴得像个孩子呢。
+？！
+
+[charaSet D 1098270200 1 迦摩]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠希翁
+毕竟……睡脸和吃饭时的表情都与本性无关嘛。[wt 1.1][charaFace F 10][r]要是有人会被那种表情骗到，那才有问题。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaScale A 1.0]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠难敌
+嗝[charaMove A 0,-8 0.5]～。[wt 0.7]好，不要了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠阿愈丝
+是你自己说想要才拿的啊！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠难敌
+本老爷确实想要，但可没说必要。[r]你可以拿去吃哦，可以统统吃光哦。
+[k]
+
+[charaFace A 3]
+＠难敌
+不够就再来一份。[r]为了让你那小身板长高，要多吃点！
+[k]
+
+＠难敌
+顺带一提，最高也就长到[#Saber:剑士]那样哦？[r]要是长得比她更高大，就会像傻大个了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠美杜莎
+果然该杀。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 19]
+[charaFadein C 0.1 1]
+＠樱
+算，算啦算啦。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_94 1.5]
+[charaFace C 17]
+
+[overlayFadein O 0.1 0,-815]
+[overlayFadein P 0.1 0,815]
+[wt 1.3]
+
+[charaFadeout C 0.1]
+[wt 0.4]
+
+[charaMove O 0,-748 1.1]
+[charaMove P 0,748 1.1]
+[wt 1.6]
+
+
+＠
+这肯定很奇怪吧。[bgm BGM_EVENT_11 0.1]
+[k]
+
+＠
+自己不禁这样想。
+[k]
+
+＠
+[dbadd6][#自己是]，[#什么人]。[-]
+[k]
+
+＠
+[#生产部:Grow]的首席ＡＩ、ＡＩ圣杯战争的御主。[r]她给自己起的名字[line 3]樱。
+[k]
+
+＠
+自己身负使命，所以才会在这里。
+[k]
+
+＠
+为恢复功能，必须在ＡＩ圣杯战争中战斗，[r]为拉妮物质的循环提供刺激才行。
+[k]
+
+＠
+然而自己却……不可思议地，[r]似乎对除此以外的事物，产生了欲望。
+[k]
+
+[charaSet E 1098270310 1 阿愈丝]
+
+[messageOff]
+[charaTalk off]
+[charaDepth L 1]
+[charaDepth F 2]
+[charaDepth D 3]
+[charaDepth M 4]
+[charaDepth A 5]
+[charaDepth E 6]
+
+[charaScale L 1.4]
+[charaFadein L 0.7 -200,-275]
+[charaMove L -250,-275 0.7]
+[wt 0.8]
+
+[charaScale D 1.2]
+[charaScale F 1.2]
+[charaFace D 14]
+[charaFace F 0]
+[charaFadeinFSR D 0.4 300,-30]
+[charaFadeinFSR F 0.4 50,-50]
+[wt 1.6]
+
+[charaScale M 1.4]
+[charaFadein M 0.7 200,-225]
+[charaMove M 250,-225 0.7]
+[charaFadeout D 0.7]
+[wt 0.8]
+
+[charaScale E 1.2]
+[charaScale A 1.2]
+[charaFace E 0]
+[charaFace A 3]
+[charaFadeinFSL E 0.4 -315,-40]
+[charaFadeinFSL A 0.4 -50,-40]
+[wt 0.4]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFadeout L 0.1]
+[wt 1.0]
+
+[charaDepth L 7]
+[charaDepth B 8]
+[wt 0.2]
+
+[charaScale L 1.4]
+[charaFadein L 0.7 0,-275]
+[wt 0.8]
+
+[charaScale B 1.2]
+[charaFace B 3]
+[charaFadein B 0.4 0,-40]
+[wt 0.4]
+
+[charaFadeout E 0.7]
+[charaFadeout A 0.7]
+[charaFadeout M 0.7]
+[wt 1.4]
+
+[charaFadeout B 0.7]
+[charaFadeout L 0.7]
+[wt 0.8]
+
+＠
+这段平静的时光，[r]以及带来这段平静时光的……[#这个地方:家]。
+[k]
+
+＠
+不想失去这些。
+[k]
+
+＠
+这就是所谓的愿望吧。[r]想要打赢战斗来获得的愿望。
+[k]
+
+＠
+但是，倘若是不必打赢也能获得的东西呢？
+[k]
+
+＠
+就像现在这样，就像吹过山丘的风儿带来的惬意，[r]倘若是可以自然享受到的东西呢？
+[k]
+
+＠
+说不定，根本不需要战斗。
+[k]
+
+[charaSet E 1098270300 1 阿愈丝]
+
+[messageOff]
+[charaDepth L 1]
+[charaDepth C 2]
+[charaDepth M 3]
+[charaDepth E 4]
+
+[charaFace C 10]
+[charaFadeinFSL C 0.6 -300,-40]
+[charaFadein L 0.6 -250,-305]
+[charaMoveFSL C -250,-40 10.0]
+[charaMove L -200,-305 10.0]
+＠
+我是胆小鬼吗，还是瑕疵品呢。[r]这我并不清楚。
+[k]
+
+＠
+我这人，不知为何，[r]只想守护自己的容身之处而已。
+[k]
+
+[messageOff]
+[charaFace E 0]
+[charaFadeinFSR E 0.6 300,-40]
+[charaFadein M 0.6 250,-305]
+[charaMoveFSR E 250,-40 10.0]
+[charaMove M 200,-305 10.0]
+＠
+难道只有我是这样的吗？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout L 0.1]
+＠
+要是告诉同样身份的其他人，[r]会被一笑置之吗？
+[k]
+
+＠
+归根结底，我们所谓的愿望[line 3][r]究竟是为何而存在的呢？
+[k]
+
+[messageOff]
+[charaFadeout M 0.7]
+[charaFadeout E 0.7]
+[wt 0.9]
+
+[charaMove O 0,-815 1.1]
+[charaMove P 0,815 1.1]
+[wt 1.1]
+
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+
+[charaSet C 1098268910 1 樱]
+
+[wt 0.5]
+
+[charaScale B 1.0]
+[charaTalk on]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠美杜莎
+樱。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaScale C 1.0]
+[charaTalk C]
+[charaFace C 16]
+[charaFadein C 0.1 1]
+＠樱
+哎？
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[bgm BGM_EVENT_11 0.5 0.5]
+[wait wipe]
+
+[charaFadeout C 0.1]
+[wt 0.6]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadeinFSSideL G 0.4 -420,0]
+[wt 1.4]
+
+[charaMoveFSSideL G -470,0 0.4]
+[charaFadeout G 0.4]
+[wt 0.6]
+
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+
+[wt 0.6]
+
+[bgm BGM_EVENT_11 0.5 1.0]
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠樱
+啊，等一下！
+[k]
+
+[messageOff]
+[se ad443]
+[charaMove C -120,0 0.4]
+[charaFadeout C 0.4]
+[seStop ad443 1.2]
+[wt 1.8]
+
+？1：…………？
+？！
+
+[charaScale D 1.0]
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠迦摩
+算了，反正感觉跟我们没什么关系。[r]而且也没有[#Lancer:枪兵]的气息。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaScale A 1.0]
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠难敌
+……[r]……
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_11 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad443]
+[seVolume ad443 0 0]
+[seVolume ad443 1.0 1.0]
+[wt 1.0]
+
+[seStop ad443 0.4]
+[wt 0.6]
+
+[bgm BGM_EVENT_116 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠樱
+塞蕾雪拉小姐，怎么了？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠塞蕾雪拉
+……没什么。
+[k]
+
+＠塞蕾雪拉
+我只是，想打听一下情况怎么样了。
+[k]
+
+[charaFace G 4]
+＠塞蕾雪拉
+[#Lancer:枪兵]他，好像，[r]在我不知情的情况下干了些什么。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+＠樱
+难道说，干掉[#Caster:魔术师]御主的，[r]是[#Lancer:枪兵]……？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+＠塞蕾雪拉
+大概吧。
+[k]
+
+＠塞蕾雪拉
+然后，应该知道情况，又能说得上话的人……[r]好像，目前就只有，你一个。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠樱
+是这样啊。
+[k]
+
+[charaFace C 17]
+＠樱
+就是说，也是多亏了塞蕾雪拉小姐和[#Lancer:枪兵]呢。
+[k]
+
+＠樱
+嗯，多亏了你们，怪物消失了，[#生产部:Grow]也得救了。[r]大家已经在齐心协力开展复兴工作了。
+[k]
+
+＠樱
+啊，为了答谢，现在大家正好在一起进行野餐……[r]之类的活动哦。
+[k]
+
+[charaFace C 7]
+＠樱
+不介意的话，塞蕾雪拉小姐也一起[line 2]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠塞蕾雪拉
+我不去。
+[k]
+
+[charaFace G 3]
+＠塞蕾雪拉
+那种……亲密无间的野餐。[r]我怎么可能，参加嘛……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠樱
+不过，我很高兴哦。[r]我觉得那种景象，肯定就是我的愿望。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠塞蕾雪拉
+……我的愿望，不一样。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+＠樱
+塞蕾雪拉小姐的愿望是……？
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+[wt 1.0]
+
+＠塞蕾雪拉
+告诉你也无济于事。[r]虽然无济于事，但说出来也无妨啦。
+[k]
+
+[charaFace G 3]
+＠塞蕾雪拉
+毕竟我自己也莫名其妙，[r]不知该如何是好。
+[k]
+
+[charaFace G 0]
+＠塞蕾雪拉
+我的心中有种罪恶感。[r]我的愿望就是消除这种罪恶感。
+[k]
+
+＠塞蕾雪拉
+……只要我做了什么，罪恶感就会更强烈。
+[k]
+
+＠塞蕾雪拉
+所以我既不想获得幸福，[r]也不想感受美味。
+[k]
+
+[charaFace G 12]
+＠塞蕾雪拉
+我不想赢。[r]没错，我……
+[k]
+
+＠塞蕾雪拉
+说不定[line 3]是希望有人能杀死我，[r]能惩罚我吧。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 21]
+[charaFadein C 0.1 1]
+＠樱
+…[messageShake 0.05 2 2 0.3]…！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 1]
+＠塞蕾雪拉
+……啊啊～，说出来了。[r]竟然会有这种想法，我肯定是坏掉了。
+[k]
+
+＠塞蕾雪拉
+我啊，跟你不一样啦。
+[k]
+
+[charaFace G 3]
+＠塞蕾雪拉
+所以说，不行的。
+[k]
+
+[messageOff]
+[se ad132]
+[charaMove G -100,0 0.4]
+[charaFadeout G 0.4]
+[seStop ad132 1.2]
+[wt 1.6]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠樱
+等……
+[k]
+
+[messageOff]
+[charaMove C -35,0 0.2]
+[wt 0.15]
+[se ad173]
+[charaFace C 14]
+[charaShake C 0.01 2 2 0.4]
+[wt 0.2]
+[seStop ad173 0.2]
+[wt 0.5]
+
+[charaMove C -35,-40 0.35]
+[charaFadeout C 0.4]
+[wt 0.3]
+[se ad775]
+[wt 1.0]
+
+[charaTalk G]
+[charaFace G 14]
+[charaFadein G 0.1 -300,0]
+＠塞蕾雪拉
+！　你没事……
+[k]
+
+[charaFace G 3]
+＠塞蕾雪拉
+呜……
+[k]
+
+[messageOff]
+[se ad132]
+[charaMove G -400,0 0.4]
+[charaFadeout G 0.4]
+[seStop ad132 1.2]
+[wt 1.6]
+
+[se ad443]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+[wt 0.2]
+[seStop ad443 0.3]
+[wt 0.7]
+＠美杜莎
+……樱。[r]抱歉，没能赶上。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.15]
+
+[se ad173]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.3 0,-30]
+[charaMove C 1 0.4]
+[wt 0.4]
+[seStop ad173 0.2]
+[wt 0.4]
+
+＠樱
+没事。[r]你一直在附近守望着我吧，谢谢你。
+[k]
+
+[charaFace C 19]
+＠樱
+我急急忙忙刚想跑，结果摔了一跤。[r]太丢人了。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+＠美杜莎
+……没事吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠樱
+没事啦。[wt 0.5][charaFace C 25][r]你看，充满活力的姿势。[wt 0.8][charaCrossFade C 1098268940 25 0.2][charaMoveReturn C 0,-7 0.3]呣！[wait charaCrossFade C]
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[charaFace C 6]
+＠樱
+她好像不太喜欢野餐呢。[r]总不能强人所难。所以，没办法啦。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth C 1]
+[charaDepth L 2]
+
+[charaFadein L 0.7 -50,-275]
+[charaMove L 50,-275 30,0]
+＠
+若是能像这里吹拂的风儿一样，[r]一直保持自然的平静就好了。
+[k]
+
+＠
+然而，[r]其实我很清楚。
+[k]
+
+＠
+这种平静，绝非什么自然。[r]风终会停。
+[k]
+
+＠
+终将停下来啊[line 3]
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_116 1.0]
+[wait fade]
+
+[charaFadeout L 0.1]
+[charaFadeout C 0.1]
+
+[scene 190300]
+
+[pictureFrame cut063_cinema]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 0,-50]
+[wt 0.6]
+
+[bgm BGM_EVENT_77 0.1]
+
+＠怖军
+噢，回来了啊。[r]其实不用那么急着赶回来哦。
+[k]
+
+[charaFace H 9]
+＠怖军
+……怎么了？　脸色好难看啊。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 0,-50]
+＠塞蕾雪拉
+没什么，没这种事。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0,-50]
+＠怖军
+那就好。那么，情况如何？[r]有拿到情报吗？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0,-50]
+＠塞蕾雪拉
+嗯……因为你干的那件事，[r][#Caster:魔术师]的怪兽果然消失了。
+[k]
+
+＠塞蕾雪拉
+除此以外[line 3]
+[k]
+
+[bgmStop BGM_EVENT_77 1.5]
+[charaFace G 14]
+＠塞蕾雪拉
+……？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 0,-50]
+＠怖军
+唔？
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[se ad14]
+[seVolume ad14 0 1.0]
+[se ade393]
+[seVolume ade393 0 0.5]
+[shake 0.01 1 1 0]
+[wt 2.0]
+
+[seVolume ad14 0.5 0.5]
+[seVolume ade393 0.5 0.2]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 0,-50]
+＠塞蕾雪拉
+[#Lancer:枪兵]！　那是……！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 12]
+[charaFadein H 0.1 0,-50]
+＠怖军
+喂喂。这是怎么回事啊？[r]跟说的不一样啊[line 3]
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[seStop ad14 1.0]
+[seStop ade393 1.0]
+[wait fade]
+
+[charaFadeout H 0.1]
+[shakeStop]
+
+[charaSet C 1098268910 1 樱]
+
+[scene 10000]
+
+[pictureFrame]
+[wt 0.5]
+
+[fadein black 0.5]
+[wait fade]
+
+[cueSe Battle bac139]
+[effect bit_talk_h_slash01_fs]
+[wt 1.0]
+
+[se ad42]
+[fadeout black 0.5]
+[wait fade]
+
+[scene 190400]
+[wt 1.0]
+
+[fadein black 1.0]
+[seStop ad42 0.8]
+[wait fade]
+
+[bgm BGM_EVENT_122 0.1]
+
+[charaTalk depthOff]
+[charaDepth B 4]
+[charaDepth C 3]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFace C 20]
+[charaFadein B 0.1 175,0]
+[charaFadein C 0.1 -175,0]
+＠美杜莎
+别离开我，樱！
+[k]
+
+＠樱
+为什么……为什么！？
+[k]
+
+＠樱
+为什么，[#这些家伙还在][line 3]？
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+[wt 0.3]
+
+[charaTalk off]
+[charaDepth I 6]
+[charaDepth J 5]
+[charaDepth K 4]
+
+[se ad21]
+[cueSe SE_22 22_adm91]
+[charaFace I 0]
+[charaFace J 0]
+[charaFace K 0]
+
+[charaFadein I 0.5 0,-10]
+[charaMove I 1 0.5]
+[wt 0.35]
+[charaFadeinFSR J 0.5 300,-10]
+[charaMoveFSR J 300,0 0.5]
+[wt 0.35]
+[charaFadeinFSL K 0.5 -300,-10]
+[charaMoveFSL K -300,0 0.5]
+[wt 2.5]
+
+
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_122 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

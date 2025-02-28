@@ -1,0 +1,549 @@
+
+
+＄03-00-13-05-4-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252900 1 特佩乌]
+[charaSet B 1098253600 1 ？？？]
+[charaSet C 1098253600 1 少年特斯卡扩大]
+[charaScale C 1.2]
+[charaSet D 8001410 1 玛修]
+[charaSet E 8001400 1 玛修_护目镜]
+[charaSet F 1098252500 1 奥塞洛特尔1]
+[charaSet G 1098252510 1 奥塞洛特尔2]
+[charaSet H 1098252540 1 奥塞洛特尔3]
+
+[sceneSet I 169100 1]
+[charaScale I 1.3]
+[sceneSet J 169100 1]
+[charaScale J 1.3]
+[sceneSet K 169100 1]
+[charaScale K 1.2]
+
+[scene 169100]
+
+[bgm BGM_EVENT_80 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth F 1]
+[charaDepth G 2]
+[charaDepth H 3]
+
+[charaScale H 1.3]
+
+[se ad1053]
+[effect bit_talk_quick_slash]
+[wt 0.6]
+
+[se ad32]
+[se ad171]
+[effect bit_talk_14]
+[wt 0.6]
+[effect bit_talk_h_slash01_fs]
+[se ad171]
+[wt 0.6]
+
+[se ad686]
+[charaEffect H bit_talk_14]
+[wt 0.1]
+
+[charaFace F 0]
+[charaFadeinFSR F 0.1 300,0]
+
+[charaFace G 0]
+[charaFadeinFSL G 0.1 -300,0]
+
+[se ad671]
+[seVolume ad671 0 0.5]
+[charaFace H 0]
+[charaFadein H 0.4 0,55]
+[charaMove H 0,-10 0.4]
+[charaMoveScale H 1.0 0.4]
+
+[charaShake H 0.05 2 2 0.5]
+[wt 1.4]
+
+[se ad60]
+[charaTalk on]
+[charaTalk H]
+[charaMove H 0,0 0.5]
+[charaShake H 0.05 1 1 0.5]
+[wt 0.2]
+[seStop ad60 0.3]
+[wt 0.6]
+
+[cueSe SE_22 22_ad1224]
+[seVolume 22_ad1224 0 0.7]
+
+＠H：奥塞洛特尔
+[image npc_language_17][line 3]！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_80 2.0]
+[cueSeStop 22_ad1224 0.5]
+
+[charaTalk off]
+[se ad769]
+[seStop ad769 2.8]
+[charaFadeout H 0.4]
+[wt 0.5]
+
+[wt 0.4]
+
+[charaFadeout F 0.4]
+[charaFadeout G 0.4]
+[wt 2.5]
+
+[charaDepth D 1]
+[charaDepth E 2]
+
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.1]
+[se ade18]
+[seVolume ade18 0.0 0.5]
+[wt 0.5]
+[seStop ade18 0.8]
+[wt 1.2]
+
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wt 0.1]
+[charaFadeout E 0.4]
+[se ade57]
+[seVolume ade57 0.0 1.0]
+[seStop ade57 0.14]
+[wt 0.1]
+
+[se ad658]
+[wt 0.5]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk D]
+
+＠玛修
+奥塞洛特尔撤退了。[r]没有增援的迹象。该怎么办？
+[k]
+
+？1：就这样待命[line 3]慢着！
+
+？！
+
+[messageOff]
+[charaTalk B]
+[se ade64]
+[seVolume ade64 0 0.5]
+[wt 0.4]
+[se ade65]
+[seVolume ade65 0 0.5]
+[wt 0.7]
+[cueSe Battle bac208 0 0.5]
+[wt 0.3]
+[cueSe Battle bac135 0 0.5]
+[wt 0.3]
+[cueSe Battle bac210 0 0.5]
+[wt 0.7]
+[se ad464]
+[seVolume ad464 0 0.6]
+[wt 2.0]
+
+[charaTalk D]
+[charaFace D 7]
+
+＠玛修
+御主，刚才那声枪响是……！
+[k]
+
+？1：[line 3]我们走，玛修！
+
+？！
+
+[messageOff]
+[charaMoveReturn D 0,-5 0.5]
+[wt 1.0]
+
+[se ad667]
+[seVolume ad667 0 0.8]
+[charaMove D -50,0 0.5]
+[charaFadeout D 0.4]
+[wt 0.2]
+[se ad443]
+[wt 0.5]
+
+[wipeout leftToRight 1.0 1.0]
+[seStop ad667 1.0]
+[seStop ad443 1.0]
+[wait wipe]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth I 1]
+[charaDepth D 2]
+[charaDepth J 3]
+[charaDepth C 4]
+[charaDepth F 5]
+[charaDepth G 6]
+[charaDepth H 7]
+
+[charaFadein I 0.1 -195,-350]
+[charaScale D 1.2]
+[charaScale F 1.2]
+[charaScale G 1.2]
+[charaScale H 1.2]
+[wt 1.0]
+
+[se ad443]
+[seVolume ad443 0 0]
+[se ad667]
+[seVolume ad667 0 0]
+[seVolume ad443 1.0 1.0]
+[seVolume ad667 1.0 0.8]
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+
+[wt 0.3]
+
+
+[seStop ad443 0.5]
+[seStop ad667 0.5]
+[charaFace D 7]
+[charaFadeinFSSideR D 0.4 300,0]
+[charaMoveFSSideR D 250,0 0.5]
+[wt 1.0]
+
+[charaFace D 15]
+[wt 1.0]
+
+[charaFace C 2]
+[charaFace F 0]
+[charaFace G 0]
+[charaFace H 0]
+[charaFadein J 1.0 -195,-300]
+[charaMove J -95,-300 1.0]
+[charaFadein F 1.0 -450,40]
+[charaFadein G 1.0 250,40]
+[charaFadein H 1.0 -100,40]
+[charaMove F -350,40 1.0]
+[charaMove G 350,40 1.0]
+[charaMove H 0,40 1.0]
+[wt 1.0]
+
+[charaFadeout I 0.1]
+[charaFadeout D 0.1]
+[charaScale D 1.0]
+[wt 0.5]
+
+[se ad161]
+[fowardEffect bit_talk_35]
+[charaShake H 0.05 4 3 0.5]
+[charaShake F 0.05 4 3 0.5]
+[charaShake G 0.05 4 3 0.5]
+[wt 1.2]
+
+[charaFadein C 0.4 1]
+[charaMove F -350,-10 0.5]
+[charaFadeout F 0.4]
+[wt 0.2]
+[charaMove G 350,-10 0.5]
+[charaFadeout G 0.4]
+[wt 0.1]
+[se ad144]
+[seVolume ad144 0 0.7]
+[wt 0.3]
+[se ad144]
+[seVolume ad144 0 0.7]
+[wt 0.9]
+[charaMove H 0,-10 0.5]
+[charaFadeout H 0.4]
+[wt 0.5]
+[se ad144]
+[seVolume ad144 0 0.7]
+[wt 1.0]
+
+
+[charaTalk on]
+[charaTalk C]
+[bgm BGM_EVENT_129 0.1]
+
+＠C：？？？
+只要手指已扣上扳机，就得彻底杀掉。[r]你们这样也算是豹子战士吗？
+[k]
+
+＠C：？？？
+就这德行，想要毁灭迪诺斯的大业，[r]不过是在痴人说梦吧。
+[k]
+
+＠C：？？？
+真是的，根本没好好教育。[r][#隐匿者:Crypter]都在干什么吃的。
+[k]
+
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[charaFaceFade C 0 0.2]
+
+＠C：？？？
+[line 3]唔？
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout J 1.0]
+[charaFadeout C 1.0]
+[wt 2.2]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk B]
+
+？1：…………人类，小孩？
+？2：…………那把枪是……
+
+？！
+
+[charaFaceFade B 5 0.2]
+＠？？？
+喂。
+[k]
+
+[messageOff]
+[flashin once 0.1 0.1 FFFFFFFF FFFFFF00]
+[se ade64]
+[wt 0.2]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad1032]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 50,0]
+[charaMove D 0,0 0.1]
+[fowardEffect bit_talk_14]
+[wt 0.5]
+
+＠玛修
+御主，快躲到我身后！[r]对方手上有枪！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaSet D 1098257910 1 玛修]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠？？？
+为何没戴面具。[r]遮住脸是你们的规矩吧。
+[k]
+
+＠？？？
+别这种打扮在这附近晃悠。[r]万一遇到迪诺斯可是会被杀掉的。
+[k]
+[messageOff]
+[se ad527]
+[charaMove B -30,0 0.5]
+[charaFadeout B 0.4]
+[wt 0.3]
+
+[seStop ad527 1.2]
+[wt 1.2]
+
+[charaTalk D]
+[charaFace D 28]
+[charaFadein D 0.1 1]
+
+＠玛修
+请，请等一下！[r]您究竟是……
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[subCameraOn 1]
+[charaLayer K sub #A]
+[charaLayer B sub #A]
+
+[charaDepth K 1]
+[charaDepth B 2]
+
+[charaFadein K 0.1 -120,200]
+[wt 0.1]
+[blur lens 0.5 2 20]
+[subCameraFilter #A maskEdge cut359_mask13 3]
+[subRenderFadein #A 0.4 100,-300]
+[subRenderMove #A 0,-300 0.3]
+[wt 1.0]
+
+[se ad527]
+[charaScale B 1.5]
+[charaTalk B]
+[charaFace B 5]
+[charaFadeinFSL B 0.4 -260,330]
+[wt 0.2]
+[seStop ad527 0.2]
+[wt 0.4]
+
+＠？？？
+想问我是什么人，为什么杀了他们？[r]你认真的吗？　哪有白痴会回答这种问题。
+[k]
+
+＠？？？
+是敌人就不能放过，拿枪口对准自己的家伙就该杀。[r]这是基本常识吧。
+[k]
+
+＠？？？
+你们并未用枪对准我，所以我放你们一马。[r]但如果敢追上来，我就杀了你们。
+[k]
+
+＠？？？
+听好了，千万别浪费时间。[r]米克特兰的宽限已经所剩无几。
+[k]
+
+＠？？？
+迪诺斯和奥塞洛特尔都应该[r]专心思考自己该如何获胜吧。
+[k]
+
+[messageOff]
+[se ad527]
+[wt 0.4]
+
+[seStop ad527 1.2]
+[blurOff lens 0.5]
+[subRenderMove #A -100,-300 0.3]
+[subRenderFadeout #A 0.4]
+[wt 0.4]
+[charaFadeout B 0.1]
+[charaFadeout K 0.1]
+[wt 1.6]
+
+
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_129 1.0]
+[wait fade]
+
+[charaSet D 8001410 1 玛修]
+
+[subCameraOff]
+[charaLayer K normal #A]
+[charaLayer B normal #A]
+
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[wt 0.5]
+
+？1：……彻底看不见了。
+？2：……没戴面具的奥塞洛特尔……
+
+？！
+
+[messageOff]
+[se ade255]
+[wt 0.7]
+
+[cueSe SE_22 22_ad1210 0.5 1.0]
+[wt 1.2]
+[cueSeStop 22_ad1210 0.2]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 1]
+[wt 0.4]
+
+[bgm BGM_EVENT_77 0.1]
+
+＠特佩乌
+我找到了一整棵好树。[r]辛苦各位护卫……[wt 1.0][charaFace A 0]哎呀？
+[k]
+
+＠特佩乌
+发生什么事了吗？[r]两位都一脸严肃。
+[k]
+
+？1：不，没什么。
+
+？2：刚才密林里有一名人类少年。
+
+[charaFace A 3]
+
+＠特佩乌
+人类少年……？　奥塞洛特尔吗？[r]怎么会呢，这不可能吧。
+[k]
+
+＠特佩乌
+应该是认错了什么吧。[r]是不是咬到[#培约特:peyotl]了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+＠玛修
+请问，特佩乌先生，[r]培约特是什么？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+是一种大概有你们脑袋这么大，长着绒毛的植物。[r]咬一口就会看见幻觉，因此神官们也很爱用。
+[k]
+
+？！
+
+＠特佩乌
+嗯，总之我们先回去吧。[r]必须赶在仪式前制作好每个人的球才行。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+＠玛修
+……说得也是。
+[k]
+
+＠玛修
+虽然很在意刚才那名少年，[r]但现在应该最优先与Storm Border会合。
+[k]
+
+＠玛修
+在明天的仪式上夺冠，谒见恐龙王，[r]拿到穿越大平原的许可[line 3]
+[k]
+
+[charaFace D 7]
+
+＠玛修
+这是不容失败的任务。[r]让我们振作起精神来吧，御主。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_77 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

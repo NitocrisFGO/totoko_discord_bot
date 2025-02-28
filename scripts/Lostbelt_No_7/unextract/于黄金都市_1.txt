@@ -1,0 +1,497 @@
+
+
+＄03-00-13-04-1-1
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 1098254800 1 尼莫水兵]
+[charaDepth A 3]
+[charaSet B 1098255200 1 哈贝特洛特]
+[charaSet C 1098231510 1 玛修]
+[charaDepth C 2]
+[charaSet D 1098252900 1 特佩乌]
+[charaDepth D 2]
+[charaSet E 1098253200 1 U－奥尔加玛丽]
+
+[scene 170302]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.5]
+[scene 170301 1.0]
+[wt 1.5]
+[se ad117 1.0]
+[wt 2.5]
+
+[fadeout black 1.0]
+[wait fade]
+[scene 169103]
+[wt 1.5]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_92 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+对不起啦，大家～！[r]我什么忙都帮不上～～！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠哈贝特洛特
+怎么，你很在意刚才的事吗，水兵？
+[k]
+
+＠哈贝特洛特
+身处陌生的土地，视野很差，[r]还很炎热，再加上那东西是从空中接近。
+[k]
+
+＠哈贝特洛特
+没能注意到也无可厚非啦。[r]玛修的奥特瑙斯也没能感知到嘛。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 22]
+[charaFadein C 0.1 1]
+
+＠玛修
+是的……看来并没有将刚才的虫子[r]判定为威胁……非常抱歉……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+这不是玛修的错，机器的漏网之鱼[r]本来就该由侦察兵来辅助……
+[k]
+
+？1：你已经帮上很大的忙了。
+
+＠尼莫水兵
+…………是吗？
+[k]
+
+[charaFace A 2]
+
+＠尼莫水兵
+嗯，那我会加油的！[r]目标是南美的寻宝猎人！
+[k]
+
+？2：要不要一起进行格斗训练？
+
+[charaFace A 2]
+
+＠尼莫水兵
+！　嗯，要要要～！[r]我好歹也是水兵嘛，想练一下[#武术:Martial Arts]！[charaMoveReturn A 0,5 0.4][cueSe Servants_104800 m42605 0.25][seStop m42605 0.7]
+[k]
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+在此之前，还是先休息吧，水兵。[r]在夜晚的密林里前进是很危险的。
+[k]
+
+＠特佩乌
+以我们无法感知的速度接近的[#大蛇:Coatl]、[r]在靠近之前都分辨不出拟态的[#巨鳄:Cipactli]。
+[k]
+
+＠特佩乌
+刚才那种食肉虫也属于此类，[r]还潜藏着失智化的迪诺斯。
+[k]
+
+＠特佩乌
+在太阳到来前沉眠，[r]与太阳一同行动。这就是米克特兰的铁则。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+举手～！　由我来负责守夜吧～！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠玛修
+没事，不需要守夜哦，水兵先生。
+[k]
+
+＠玛修
+我已在刚才的战斗中锁定了虫子厌恶的频率。[r]驱虫结界万无一失。
+[k]
+
+＠玛修
+奥特瑙斯也能感知到敌对生物的接近，[r]因此大家今晚应该可以高枕无忧了。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[wt 1.0]
+[charaFace A 2]
+＠尼莫水兵
+是吗！　那我就进睡袋啦～～～！[r]我很喜欢这种裹成一团的感觉～！
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[wt 0.2]
+[se ad661 0.4]
+[wt 2.0]
+
+[charaSet D 1098252940 1 特佩乌]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+用虫子厌恶的声波驱虫……[r]多么优秀啊，针对习性的迎击。
+[k]
+
+＠特佩乌
+泛人类史的人类就是这样一点点地[r]填补世界空白的吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠U－奥尔加玛丽
+哼。结果连不用填补的格子也填上了，[r]人类真是教科书般自作自受的典范。
+[k]
+
+＠U－奥尔加玛丽
+核裂变堪称其中之最。
+[k]
+
+＠U－奥尔加玛丽
+以获取能量为由，[r]主动肆意排放有害物质。
+[k]
+
+＠U－奥尔加玛丽
+人类技术的发展进程图太奇怪了。
+[k]
+
+[charaFace E 4]
+
+＠U－奥尔加玛丽
+正常智慧生命应该会在确立有害物质的[r]处理方法以后，才进行核裂变实验吧。
+[k]
+
+＠U－奥尔加玛丽
+然而泛人类史的人类却始终在追求『最大效果』。
+[k]
+
+[charaFace E 23]
+
+＠U－奥尔加玛丽
+「聪明反被聪明误……」，[r]这句话是谁说的来着。
+[k]
+
+[charaFace E 18]
+
+＠U－奥尔加玛丽
+总而言之，[r]你可别过于高估泛人类史了，特佩乌。
+[k]
+
+＠U－奥尔加玛丽
+等绿色能源革命[line 3][r]能够实现稳定核聚变后，
+[k]
+
+＠U－奥尔加玛丽
+我才愿意认可他们为名誉宇宙人型生命。
+[k]
+
+？1：哈哈哈………
+
+？2：名誉宇宙人型生命是什么？
+
+[charaFace E 0]
+
+＠U－奥尔加玛丽
+就是配得上被我支配的人类哦！[r]也可以说是100年后的人类！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 1]
+
+＠玛修
+那个，我可以提一个问题吗？
+[k]
+
+＠玛修
+之前我就非常（非～～～常）在意……
+[k]
+
+＠玛修
+U小姐为何会是地球总统呢？
+[k]
+
+[charaFace C 3]
+
+＠玛修
+不，不是在问地球总统是什么，[r]而是您为何想成为总统……！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠U－奥尔加玛丽
+我说你啊，玛修。[r]这种答案显而易见的问题，我哪有空逐一……
+[k]
+
+？1：我也想知道。
+
+[charaFace E 18]
+
+＠U－奥尔加玛丽
+………………
+[k]
+
+？2：You为什么想当[#总统:President]？
+
+[charaFace E 25]
+
+＠U－奥尔加玛丽
+你是不是瞧不起我？
+[k]
+
+？！
+
+[bgmStop BGM_EVENT_92 1.0]
+[charaFace E 13]
+
+＠U－奥尔加玛丽
+…………真是的。[r]没办法，就让我身为总统回答你们的疑问吧。
+[k]
+
+[bgm BGM_EVENT_156 0.1]
+[charaFace E 1]
+
+＠U－奥尔加玛丽
+我听到了这颗行星的惨叫，[r]于是便从虚空之星前来。
+[k]
+
+＠U－奥尔加玛丽
+既然是被行星呼唤来的，[r]我也不打算将这颗行星据为己有。
+[k]
+
+＠U－奥尔加玛丽
+因此，我不打算，也没有计划[r]像那个卡玛佐茨那样称『王』。
+[k]
+
+＠U－奥尔加玛丽
+我该做的，是指导在这颗行星上开展的[r]智慧生命体培育工作。
+[k]
+
+＠U－奥尔加玛丽
+我想打造平等的统治、公正的历史，[r]所有人种、所有思想相互认可的世界。
+[k]
+
+＠U－奥尔加玛丽
+因此才是总统。是你们的监督者、你们的代表、[r]为你们的成果感到欣喜之人。
+[k]
+
+[charaFace E 17]
+
+＠U－奥尔加玛丽
+总觉得……[#我]就是想要成为这样的人物。
+[k]
+
+[charaFace E 16]
+
+＠U－奥尔加玛丽
+……那个。至于具体的计划、理由之类的，[r]我现在倒是想不起来了……
+[k]
+
+[charaFace E 15]
+
+＠U－奥尔加玛丽
+总而言之！[r]对[#我]来说，统治就是这么一回事。
+[k]
+
+[charaFace E 27]
+
+＠U－奥尔加玛丽
+为此[line 3][r]没错，为此必须[line 3]……才行。
+[k]
+
+＠U－奥尔加玛丽
+一度让一切[line 3][r]回归白纸，让更为愚蠢的人类们[line 3]
+[k]
+
+[charaFace E 28]
+
+＠U－奥尔加玛丽
+[line 3]！[charaShake E 0.04 2 2 0.3]
+[k]
+
+？1：奥尔加玛丽所长！？
+
+？！
+
+[charaFace E 12]
+
+＠U－奥尔加玛丽
+……所以说你所谓的所长是谁啊。
+[k]
+
+＠U－奥尔加玛丽
+我说你啊，宫殿那次也好，刚才也罢，[r]你打算叫几次这种奇怪的[line 3]
+[k]
+
+[charaFace E 20]
+
+＠U－奥尔加玛丽
+不对，我们第一次见面是在洞窟吧？[r]什么宫殿，我在说什么呢。
+[k]
+
+[charaFace E 14]
+
+＠U－奥尔加玛丽
+也罢。顾虑到记性不好的你，[r]我再说得简单一点吧。
+[k]
+
+＠U－奥尔加玛丽
+『为废除与纠正这颗行星的邪恶而显现的存在，[r]　愚蠢人类的领导者，伟大的国家元首。』
+[k]
+
+＠U－奥尔加玛丽
+那就是我，U－奥尔加玛丽。[r]理解了吗？
+[k]
+
+？1：理解是理解了……
+？2：不过与其照料『愚蠢』的人类……
+
+？！
+
+[charaFace E 24]
+
+＠U－奥尔加玛丽
+你想说，宇宙中应该存在『更好的智慧生命体』吧？
+[k]
+
+[charaFace E 22]
+
+＠U－奥尔加玛丽
+哼[line 3]你真蠢。
+[k]
+
+＠U－奥尔加玛丽
+我又没说愚蠢就代表不好。[r]再说了，愚蠢的也不只有人类。
+[k]
+
+[charaFace E 8]
+
+＠U－奥尔加玛丽
+智慧生命体基本上都很愚蠢吧？
+[k]
+
+＠U－奥尔加玛丽
+正因为我们会犯错，[r]宇宙才会被更新哦。
+[k]
+
+[messageOff]
+[wt 1.0]
+[bgmStop BGM_EVENT_156 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout E 0.1]
+[scene 170301]
+[wt 2.0]
+
+[cameraMove 0.1 0,30 1.1]
+[wt 0.1]
+
+[cameraMove 4.0 0,-30 1.1]
+[se adm13]
+[seVolume adm13 0 0]
+[seVolume adm13 1.5 0.7]
+[fadein black 1.5]
+[wait fade]
+
+[wt 2.0]
+[seStop adm13 1.0]
+[wt 1.0]
+
+[bgm BGM_EVENT_11 0.1]
+
+＠U－奥尔加玛丽
+（虽然刚才高谈阔论了一番，）
+[k]
+
+＠U－奥尔加玛丽
+（可是我的身体什么时候才能听使唤呢？）
+[k]
+
+＠U－奥尔加玛丽
+（人理输出器官，降低至4％。[r]　信息处理功能，主要部分完全[#损坏:Crash]。）
+[k]
+
+＠U－奥尔加玛丽
+（这样下去，别说总统了，连事务官都当不了。[r]　而且归根结底[line 2]）
+[k]
+
+＠U－奥尔加玛丽
+（[line 3]我究竟是什么啊？）
+[k]
+
+
+[messageOff]
+[wt 0.7]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_11 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

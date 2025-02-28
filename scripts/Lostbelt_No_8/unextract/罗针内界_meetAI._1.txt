@@ -1,0 +1,359 @@
+
+
+＄04-00-02-01-1-1
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098270100 1 迦摩]
+[charaSet B 1098270000 1 希翁]
+[charaSet C 1098270900 1 拉妮－Ｒ]
+
+[sceneSet D 10000 1]
+[charaScale D 1.05]
+[sceneSet E 189300 1]
+
+[scene 189300]
+
+[subCameraOn 1]
+[charaLayer E sub #A]
+[subCameraFilter #A through]
+[subRenderScale #A 1.02]
+
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaFadein E 0 0,-200]
+
+[fadein black 1.0]
+[wait fade]
+
+[subRenderFadein #A 0.4 0,0]
+
+[blur lens 0.1 2 2]
+[se ad231]
+[wt 0.5]
+
+[subRenderFadeout #A 0.5]
+[blurOff lens 1.0]
+[wt 0.5]
+
+[charaFadeout E 0.1]
+[wt 0.5]
+
+[subCameraOff]
+[charaLayer E normal]
+[wt 0.5]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠迦摩
+很好很好，小迦摩大胜利～（棒读）。
+[k]
+
+[charaFace A 19]
+
+＠迦摩
+……唉，这倒是无所谓啦。[r]唔唔～？
+[k]
+
+？1：怎么了？
+？！
+
+[charaFace A 7]
+
+＠迦摩
+怎么说呢……魔力的流动方式和身体的感觉[r]好像和平时不太一样，但又好像没这回事……
+[k]
+
+[charaFace A 3]
+
+＠迦摩
+无所谓啦，反正烦人的害虫已经碾碎了。[r]怎么样，要不要踩上几脚？
+[k]
+
+＠迦摩
+可以藉此标榜自己是惨无人道的御主哦？[r]好厉害～，好帅气～。
+[k]
+
+？1：我才不做呢！
+？！
+
+[charaFace A 14]
+
+＠迦摩
+嘁～。
+[k]
+
+[charaFace A 6]
+
+＠迦摩
+遭到冷眼对待、孤立无援，随后堕落……可以依靠的只剩我……[r]连这种黄金路线的可能性也……（嘀嘀咕咕）
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+[wt 0.5]
+
+？1：话说希翁，刚才战斗时你做了什么？
+？！
+
+＠希翁
+类似于简单的热身运动，请不必在意。[r]现在更重要的是[line 3]
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 0.4]
+
+＠C：？？？
+你们是……？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠希翁
+至少不是你的敌人。
+[k]
+
+＠希翁
+还请理解我们的智慧与善性足以让我们[r]愿意救助遭敌对存在袭击的你。
+[k]
+
+＠希翁
+你的伤势如何？　……看起来不算严重。[r]需要治疗吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠C：？？？
+不，不需要。[r]只要有足够的资源与时间，就能自行治疗。
+[k]
+
+＠C：？？？
+[#毕竟我们是以治疗为首要定义的ＡＩ]。
+[k]
+
+？1：ＡＩ……？
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_2 1.5]
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth B 2]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+[charaPut D 0,-200]
+[charaFadeTime D 0.2 0.5]
+
+＠希翁
+（果然没错……）
+[k]
+
+[charaFadeout D 0.2]
+[charaFadeout B 0.2]
+[wt 0.2]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠迦摩
+意思是人工智能吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[bgm BGM_SENGOKU_1 0.1]
+
+＠C：？？？
+没错。能自主思考、行动、对话的[#创造物:程序]，[r]那就是我们。
+[k]
+
+＠C：？？？
+设定名称Ｒ.Ａ.Ｎ.Ｉ系列，型号[#Ｒｅｐａｉｒ:Ｒ]。[r]不存在个体名。
+[k]
+
+＠C：？？？
+识别编号也可以告诉你们，[r]不过我推测没有这个必要。
+[k]
+
+？1：Ｒ.Ａ.Ｎ.Ｉ……拉妮……？
+？！
+
+[charaFace C 5]
+
+＠拉妮－Ｒ
+将首字母连起来发音作为名称。[r]这很合理。
+[k]
+
+＠拉妮－Ｒ
+因此我们有时也会在口头上[r]使用这种称呼方式。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠希翁
+ＡＩ被创造出来基本都是为了某种职责。
+[k]
+
+＠希翁
+你的职责看来是治疗，[r]预设的治疗对象是什么呢？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+
+＠拉妮－Ｒ
+当然是包括其他型号在内的在场所有ＡＩ。
+[k]
+
+＠拉妮－Ｒ
+我们的使命就是修复受损的ＡＩ，[r]让大家能在万全的状态下工作。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠希翁
+那你们作为ＡＩ整体的目的又是什么？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+
+＠拉妮－Ｒ
+这点也容我使用“当然”这个词。
+[k]
+
+＠拉妮－Ｒ
+[line 3]当然，是为了顺畅地运营这个世界。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 21]
+[charaFadein A 0.1 1]
+
+＠迦摩
+……世界？[r]感觉话题规模一下子变大了呢。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+
+＠希翁
+果然是这么一回事啊。[r]我从一开始就有种违和感。
+[k]
+
+＠希翁
+只是为得出明确结论还缺乏证据，[r]所以才按下不表，
+[k]
+
+＠希翁
+既然你说自己是运营世界的ＡＩ，[r]看来已经能一定程度得出正确答案的近似值了。
+[k]
+
+[charaFace B 6]
+
+＠希翁
+这里[line 3]是某种虚拟世界，[r]抑或是概念世界。
+[k]
+
+＠希翁
+对吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠拉妮－Ｒ
+是的。其实我们对这个世界知之不详，
+[k]
+
+＠拉妮－Ｒ
+但『外部』是如何称呼这里的，[r]倒是作为基本信息被[#安装:Install]了。
+[k]
+
+[bgmStop BGM_SENGOKU_1 1.5]
+
+[messageOff]
+[cameraMove 1.0 0,-10 1.05]
+[wt 1.5]
+[charaFace C 0]
+
+＠拉妮－Ｒ
+[#平面之月]。
+[k]
+
+＠拉妮－Ｒ
+这就是我们ＡＩ运营的系统，[r]也就是这个世界的名称[line 3]
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

@@ -1,0 +1,343 @@
+
+
+＄03-00-13-06-1-1
+
+
+
+
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253200 1 U－奥尔加玛丽]
+[charaSet B 98001000 1 玛修]
+[charaSet C 1098254800 1 尼莫水兵]
+[charaSet D 1098257500 1 拉斯普京]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098252940 1 特佩乌]
+
+[imageSet H cut401_soccor 1]
+[sceneSet I 169700 1]
+[sceneSet J 169700 1]
+
+[scene 35010]
+
+[pictureFrame cut063_cinema]
+
+[se ade106]
+[seVolume ade106 0 0]
+[seVolume ade106 1.0 0.8]
+[fadein black 1.0]
+[wait fade]
+[seStop ade106 1.5]
+
+[bgm BGM_EVENT_72 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 0,-50]
+
+＠U－奥尔加玛丽
+不值一提！[r]什么[#冠位:Grand]从者啊！
+[k]
+
+＠U－奥尔加玛丽
+没想到人类满怀自信举荐的所谓极限存在[r]只有这点程度，真是笑得我角痛！
+[k]
+
+[charaFace A 4]
+＠U－奥尔加玛丽
+[line 3]不过，左角确实有所损伤。[r]这点我承认，并非毫发无伤。
+[k]
+
+[charaFace A 0]
+＠U－奥尔加玛丽
+但结果一目了然，是我大获全胜！
+[k]
+
+＠U－奥尔加玛丽
+通过这场战斗，[r]我已经明确了地球人类没有接受我的统管的价值！
+[k]
+
+＠U－奥尔加玛丽
+对残存势力的放任不顾也就到此为止了！[r]我要前去接管那什么Storm Border！
+[k]
+
+＠U－奥尔加玛丽
+哈[messageShake 0.04 3 2 0.3]哈哈！　[wt 0.5][messageShake 0.04 3 3 0.3]哈哈哈！[wt 0.6][r]哈[messageShake 0.05 4 3 0.6]哈哈哈哈哈哈哈哈哈哈哈哈哈哈！
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[wipeout openEye 0 1.0]
+[bgmStop BGM_EVENT_72 0.1]
+[se ad7]
+[wait wipe]
+[charaFadeout A 0]
+[scene 170300]
+
+[wipein openEye 0.3 1.0]
+[wait wipe]
+[wt 0.7]
+
+＠U－奥尔加玛丽
+哈哈哈哈哈[line 3]啊！？
+[k]
+
+＠U－奥尔加玛丽
+哎，什么？　刚才那是什么？[r]身在某处的我？　……或者说，
+[k]
+
+＠U－奥尔加玛丽
+我知道了，这就是所谓的梦[line 4]！
+[k]
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 1.0]
+[wait fade]
+
+[pictureFrame]
+
+
+[scene 169700]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+[bgm BGM_EVENT_77 0.1]
+
+？1：早安～。
+
+？！
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+＠玛修
+早上好，前辈。[r]也许是因为铆足干劲要参加仪式吧，今天大家都起得很早。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠尼莫水兵
+说是只要太阳经过第五层就会开始！[r]第一轮4场比赛，接着是2场比赛，最后是决赛！
+[k]
+
+＠尼莫水兵
+所以共计7场比赛！　一天要参加3场比赛，[r]必须注意精力分配才行！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠拉斯普京
+当然，前提是能一路赢到最后。[r]顺带一提，淘汰赛赛程表是这样的。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.25]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth D 2]
+[charaDepth H 3]
+[charaDepth I 4]
+[charaDepth J 4]
+[charaDepth E 5]
+[charaDepth F 5]
+
+[se adm40]
+[charaFadein H 0.4 0,-200]
+[wt 1.1]
+
+[subCameraOn 2]
+[charaLayer E sub #A]
+[charaLayer F sub #B]
+[charaLayer I sub #A]
+[charaLayer J sub #B]
+
+[subCameraFilter #A maskEdge cut359_mask11 3 0,0,0,255 1]
+[subCameraFilter #B maskEdge cut359_mask12 3 0,0,0,255 1]
+
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+
+[charaScale E 1.1]
+[charaScale F 1.0]
+[charaScale I 1.1]
+[charaScale J 1.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 530,345]
+[charaFadein I 0.1 210,75]
+
+[charaFace F 6]
+[charaFadein F 0.1 -387,150]
+[charaFadein J 0.1 -200,-20]
+
+[subRenderFadeinFSSideR #A 0.3 -95,75]
+[subRenderMoveFSSideR #A -95,-140 0.4]
+
+[wt 0.6]
+
+[charaTalk on]
+＠哈贝特洛特
+水兵和特佩乌的南美鹦鹉螺号队在角落啊。[r]顺利的话，会在决赛对上咱们吧。
+[k]
+
+[charaTalk F]
+[subRenderFadeinFSSideL #B 0.3 95,75]
+[subRenderMoveFSSideL #B 95,-140 0.4]
+＠特佩乌
+这就不好说了。[r]毕竟我们的队伍，
+[k]
+
+＠特佩乌
+原本就是预防大家在无法组成队伍时，[r]为充当保险而仓促组成的。
+[k]
+
+[se ad55]
+[seVolume ad55 0 0]
+[seVolume ad55 0.8 0.1]
+
+＠特佩乌
+不知能否回应哈贝特洛特的期待。
+[k]
+
+[seVolume ad55 0.8 0.4]
+[charaTalk E]
+[charaFace E 9]
+＠哈贝特洛特
+少来这套～。特佩乌是著名教练吧～？[r]打造一支相当优秀的队伍还不是[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_77 1.0]
+[seVolume ad55 0.8 1.0]
+[subRenderFadeout #A 0.4]
+[subRenderFadeout #B 0.4]
+[charaFadeout H 0.4]
+[wt 0.4]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.2]
+
+[subCameraOff]
+
+[charaLayer E normal]
+[charaLayer F normal]
+[charaLayer I normal]
+[charaLayer J normal]
+[charaScale E 1.0]
+[charaScale F 1.0]
+[charaScale I 1.0]
+[charaScale J 1.0]
+[wt 0.2]
+
+[seStop ad55 0.1]
+[se ad533]
+[se ad728]
+[seVolume ad728 0 0.2]
+[shake 0.05 2 2 1.0]
+[wt 1.3]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.2 1]
+[wt 0.2]
+＠U－奥尔加玛丽
+我就说嘛！　看来我果然是人类的敌人啊，[r][%1]！
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+？1：[line 3]？
+？2：[line 3]什么？
+
+？！
+
+[charaFace A 14]
+＠U－奥尔加玛丽
+就是在说我无所不能那件事啦！
+[k]
+
+＠U－奥尔加玛丽
+是叫冠位从者吗？[r]那些家伙被我全灭了！　在梦里！
+[k]
+
+＠U－奥尔加玛丽
+真是场美梦！[r]而且身体状态也不同于现在，好到如梦似幻！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠玛修
+这，这样啊。[r]既然是梦，那确实呢，嗯。
+[k]
+
+？1：……是吗，那真是太好了。
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+＠U－奥尔加玛丽
+是啊，不枉我尝试了一下！[r]多亏如此，这个早晨过得很充实！
+[k]
+
+？2：哎～，是真的吗～？
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+[wt 1.0]
+[charaShake A 0.05 2 2 0.4]
+[charaFaceFade A 11 0.2]
+＠U－奥尔加玛丽
+你，你这家伙……！
+[k]
+
+[charaFace A 30]
+＠U－奥尔加玛丽
+是真的啦，我可是打倒了冠位从者！[r]我就是地球上最厉害的！
+[k]
+
+？！
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

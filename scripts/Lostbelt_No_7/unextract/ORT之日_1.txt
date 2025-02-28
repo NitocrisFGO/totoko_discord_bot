@@ -1,0 +1,969 @@
+
+
+＄03-00-13-11-1-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098258900 1 高扬斯卡娅]
+[charaSet C 1098252900 1 特佩乌]
+[charaSet D 1098257500 1 拉斯普京]
+[charaSet E 1098253200 1 U－奥尔加玛丽]
+[charaSet F 1098255200 1 哈贝特洛特]
+[charaSet G 1098239310 1 卡多克]
+[charaSet H 1098158330 1 尼莫]
+
+[charaSet I 1098252520 1 奥塞洛特尔1]
+[charaSet J 1098252530 1 奥塞洛特尔2]
+[charaSet K 1098252570 1 奥塞洛特尔3]
+[charaSet L 1098252520 1 奥塞洛特尔4]
+[charaSet M 1098252530 1 奥塞洛特尔5]
+[charaSet N 1098252570 1 奥塞洛特尔6]
+[charaSet O 1098252520 1 奥塞洛特尔7]
+[charaSet P 1098252530 1 奥塞洛特尔8]
+[charaScale I 0.8]
+[charaScale J 0.8]
+[charaScale K 0.9]
+[charaScale L 0.9]
+[charaScale M 0.9]
+
+[sceneSet Q 10000 1]
+[charaScale Q 1.01]
+[sceneSet R 170401 1]
+[charaScale R 1.2]
+[charaSet S 5009000 1 特效用1]
+
+[scene 170301]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[scene 170300 1.5]
+[wt 3.0]
+
+[bgm BGM_EVENT_48 0.1]
+[cueSe SE_21 21_ade643 1.5 0.4]
+[se ad5]
+[seVolume ad5 0 0]
+[seVolume ad5 1.5 0.5]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth I 1]
+[charaDepth J 2]
+[charaDepth K 3]
+[charaDepth L 4]
+[charaDepth M 5]
+[charaDepth N 7]
+[charaDepth O 6]
+[charaDepth P 8]
+[charaDepth R 9]
+[charaFadein R 1.5 -120,-200]
+[charaMoveScale R 1.3 8.0]
+[charaMove R -200,-190 8.0]
+[wt 1.5]
+
+[charaFace I 0]
+[charaFace J 0]
+[charaFace K 0]
+[charaFace L 0]
+[charaFace M 0]
+[charaFace N 0]
+[charaFace O 0]
+[charaFace P 0]
+[charaFadein I 0.1 -390,-110]
+[charaFadein J 0.1 260,-110]
+[charaFadein K 0.1 150,-110]
+[charaFadein L 0.1 -320,-160]
+[charaFadeinFSR M 0.1 450,-50]
+[charaFadein N 0.1 -65,0]
+[charaFadein O 0.1 380,0]
+[charaFadeinFSL P 0.1 -450,0]
+[scene 170401]
+[wt 3.0]
+
+[se ad647]
+[seVolume ad647 0 0]
+[seVolume ad647 1.5 0.8]
+[charaFadeout R 1.5]
+[wt 1.3]
+
+[charaMoveReturn J 260,-100 0.3]
+[wt 0.2]
+[charaMoveReturn I -390,-100 0.3]
+[wt 0.3]
+[charaMoveReturn I -390,-100 0.3]
+[wt 0.8]
+[se ad889]
+[seVolume ad889 0 0]
+[seVolume ad889 0.5 1.0]
+[charaShake K 0.05 3 3 0.5]
+[wt 0.5]
+[charaMoveReturn L -320,-150 0.3]
+[wt 0.3]
+[charaMoveReturn L -320,-150 0.3]
+[wt 0.5]
+[charaMoveReturn I -390,-100 0.3]
+[wt 0.2]
+[charaMoveReturn J 260,-100 0.3]
+[wt 1.0]
+
+[wipeout leftToRight 1.5 1.0]
+[bgm BGM_EVENT_48 1.5 0.5]
+[cueSeStop 21_ade643 1.5]
+[seStop ad5 1.5]
+[seStop ad889 1.5]
+[wait wipe]
+
+[scene 170600]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+[charaScale I 1.0]
+[charaScale J 1.0]
+[charaScale K 1.0]
+[charaScale L 1.0]
+[charaScale M 1.0]
+[wt 1.0]
+
+[wipein rightToLeft 1.5 1.0]
+[bgm BGM_EVENT_48 1.5 1.0]
+[wait wipe]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玛修
+大街上人群挤得水泄不通。[r]城里热闹的种类也不同于昨天。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 18]
+[charaFadein B 0.1 1]
+
+＠高扬斯卡娅
+是的。[r]那种亢奋劲已经算是一种恍惚状态了。
+[k]
+
+＠高扬斯卡娅
+对各位奥塞洛特尔而言，[r]『活祭仪式』是神圣而最大规模的娱乐吧。
+[k]
+
+＠高扬斯卡娅
+要是这里有迪诺斯，[r]估计会当即被抓去血祭了吧。
+[k]
+
+[charaFace B 24]
+＠高扬斯卡娅
+简直就是寻求『可以惩罚的活祭』的人类呢。[r]现在的他们肯定能毫不客气地抹杀。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+言峰神父。[r]我的变装术还有效果吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠拉斯普京
+请不必担心。[r]无论从哪个角度看都是奥塞洛特尔哦。
+[k]
+
+＠拉斯普京
+不必考虑与他们的体格差异，只要别犯下[r]把脑袋或角撞上建筑这类失误就安全无虞。
+[k]
+
+＠拉斯普京
+您应该明白吧，大小姐。[r]请不要像猫磨爪子一样嘎吱嘎吱地挠墙壁。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 25]
+[charaFadein E 0.1 1]
+
+＠U－奥尔加玛丽
+我完全没这样做哦？[r]只是稍微擦了一下而已啊？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+
+＠哈贝特洛特
+待会再闲聊！[r]只要穿过这里，就能抵达神殿了吧？
+[k]
+
+＠哈贝特洛特
+等『活祭仪式』开始就晚了。[r]得速战速决救出大家才行！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠高扬斯卡娅
+这点还请放心。仪式有特定的步骤。[r]现在是神官向太阳祈祷的时间。
+[k]
+
+＠高扬斯卡娅
+奥塞洛特尔们都集结在大街上，[r]配合着神官的祈祷一起祈祷中。
+[k]
+
+＠高扬斯卡娅
+当祈祷到最高潮时，活祭就会被送往两座神殿的连接处……[r]也就是那座祭坛。
+[k]
+
+＠高扬斯卡娅
+用时间来算，应该还要花上两个小时。[r]因为我以前在这里拜见过同样的仪式♡
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+同样的仪式吗。[r]那时的活祭是迪诺斯吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 18]
+[charaFadein B 0.1 1]
+
+＠高扬斯卡娅
+是啊，有什么问题吗？[r]是因此萌生了对奥塞洛特尔的复仇心吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+不，那倒是没有。[r]我只是觉得有点可怕。
+[k]
+
+？1：可怕……吗？
+
+？！
+
+＠特佩乌
+是的。我听说迪诺斯会被抓住并肢解，[r]内脏则被用作各种用途。
+[k]
+
+＠特佩乌
+所以我对迪诺斯的心脏被用在仪式上这件事[r]并没有什么厌恶感。[wt 1.0][charaFace C 3]可是……
+[k]
+
+＠特佩乌
+哪怕接受了墨西哥城这样的生活圈，[r]接受了迪诺斯所没有的文化，
+[k]
+
+＠特佩乌
+我还是难以理解为何连同为人型的[r]泛人类史人类都要拿来当活祭。
+[k]
+
+＠特佩乌
+这是杀人。[#为了自身的利益]，[r][#为了繁荣]，[#杀害同类物种]。
+[k]
+
+＠特佩乌
+这是错的，很明显是错的。
+[k]
+
+＠特佩乌
+以往我对奥塞洛特尔丝毫不感兴趣，[r]但此时此刻，我第一次感到了震惊与恐惧。
+[k]
+
+＠特佩乌
+……不过，连我自己也不是很清楚[r]『可怕』的究竟是什么。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠拉斯普京
+………………
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠高扬斯卡娅
+各位，请做好准备。[r]穿过前方的拐角处就到神殿侧面了。
+[k]
+
+＠高扬斯卡娅
+神殿周围没有奥塞洛特尔，[r]但里面应该还留有几个人当警卫。
+[k]
+
+＠高扬斯卡娅
+一旦被发现，战斗便不可避免，[r]而一旦开战，俘虏的安全便得不到保证。
+[k]
+
+＠高扬斯卡娅
+行动讲究迅速。[r]没问题吧？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth A 2]
+[charaFace E 1]
+[charaFace A 7]
+[charaFadeinFSL E 0.1 0]
+[charaFadeinFSR A 0.1 2]
+[wt 1.5]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠高扬斯卡娅
+那我们开始吧。[r]救援行动，开始！
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 1.0]
+[bgmStop BGM_EVENT_48 1.0]
+[wait wipe]
+
+[sceneSet N 173200 1]
+[charaScale N 1.2]
+
+[scene 173200]
+[charaFadeout B 0.1]
+
+[charaSet I 1098252540 1 奥塞洛特尔1]
+[charaSet J 1098252540 1 奥塞洛特尔2]
+
+[charaTalk off]
+[charaDepth N 1]
+[charaDepth I 2]
+[charaDepth J 3]
+[charaFadein N 0.1 0,-250]
+[wt 1.0]
+
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+
+[bgm BGM_EVENT_124 0.1]
+
+[charaFace I 0]
+[charaFace J 0]
+[charaFadeinFSL I 0.4 -250,0]
+[charaMoveFSL I -300,0 0.7]
+[wt 0.3]
+[charaFadeinFSR J 0.4 180,0]
+[charaMoveFSR J 206,0 0.5]
+[wt 0.7]
+[charaMoveFSL I -256,0 1.0]
+[wt 0.7]
+[charaMoveFSR J 256,0 0.7]
+[wt 1.0]
+
+[charaFadeout N 1.0]
+[charaFadeout I 1.0]
+[charaFadeout J 1.0]
+[wt 1.5]
+
+？1：虽然很轻松就进入了神殿内……
+？2：接下来只能分头寻找了吗……？
+
+？！
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠拉斯普京
+嗯，不如拉一两个人进暗处打听情况？
+[k]
+
+＠拉斯普京
+只要亮出我们的身份再提问，[r]对方应该就明白我们在找什么了吧。
+[k]
+
+[charaFace D 4]
+＠拉斯普京
+放心吧，哪怕无法用语言沟通，[r]只要肉体被逼入绝境，还是能轻易相互理解的。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠高扬斯卡娅
+哎呀，严刑拷问可不是圣职者该做的行为吧？
+[k]
+
+[charaFace B 0]
+
+＠高扬斯卡娅
+这方面也交给我吧。[r]让你们见识一下何谓专业的潜入工作。
+[k]
+
+[messageOff]
+[wipeout rollRight 1.0 1.0]
+[bgmStop BGM_EVENT_124 1.0]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[wt 1.5]
+[charaSet I 1098252560 1 奥塞洛特尔1]
+
+
+[wipein rollLeft 1.0 1.0]
+[wait wipe]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+[wt 0.1]
+[charaMoveReturn I -10,0 0.3]
+[wt 0.3]
+[charaMoveReturn I -10,0 0.3]
+[wt 0.3]
+
+[cueSe SE_22 22_ad1223 0 0.6]
+
+＠I：奥塞洛特尔
+[image npc_language_35_w1][image npc_language_35_w3][image npc_language_35_w1]。[image npc_language_35_w5][image npc_language_35_w9][image npc_language_35_w6]。
+[k]
+
+[cueSeStop 22_ad1223 0.5]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠高扬斯卡娅
+呀～，感谢您如此亲切☆[r]顺着这个楼梯去地下，在第三间牢房吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+[wt 0.1]
+[charaMoveReturn I 0,-10 0.5]
+[cueSe SE_22 22_ad1202 0 0.6]
+
+＠I：奥塞洛特尔
+[image npc_language_20]。[image npc_language_17]，[image npc_language_35_w8][image npc_language_35_w3][image npc_language_35_w6]！
+[k]
+
+[messageOff]
+[cueSeStop 22_ad1202 0.5]
+[se ad60]
+[seStop ad60 1.5]
+[charaFadeout I 0.4]
+[charaMove I 50,0 0.5]
+[wt 2.5]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠高扬斯卡娅
+就是这样啦，各位。[r]关押泛人类史俘虏的监狱就在这边。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth A 2]
+
+[charaFace E 10]
+[charaFace A 6]
+[charaFadeinFSL E 0.1 0]
+[charaFadeinFSR A 0.1 2]
+
+＠玛修＆奥尔加
+怎么做到的！？
+[k]
+
+？1：我们躲在暗处的这段时间……
+？2：究竟……发生了什么……？
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 18]
+[charaFadein B 0.1 1]
+
+＠高扬斯卡娅
+那当然是用我熟练的蛊惑伎俩迷得他神魂颠倒啦♡[r]就算是奥塞洛特尔，终究是名男性嘛♡
+[k]
+
+[charaFace B 29]
+
+＠高扬斯卡娅
+拳头殴打、发射火箭弹、剜挖内脏，
+[k]
+
+＠高扬斯卡娅
+只知道这类谈判手段的神父大人[r]应该做不到我这样吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[charaShake D 0.05 2 2 0.6]
+
+＠拉斯普京
+[line 6]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+[%1]，言峰神父正颤抖着[r]紧握自己的手，那究竟是……？
+[k]
+
+？1：嘘！
+？2：（她与『异星之神』使徒间的关系是这样的吗？）
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth B 2]
+[charaTalk B]
+[charaFace B 17]
+[charaFadein B 0.1 1]
+[charaPut Q 0,-200]
+[charaFadeTime Q 0.2 0.5]
+
+＠高扬斯卡娅
+（其实是用香蕉和玉米收买的，[r]　不过这就是企业机密了。）
+[k]
+
+[bgmStop BGM_EVENT_7 1.0]
+
+[charaFadeout Q 0.2]
+[charaFace B 12]
+
+＠高扬斯卡娅
+不对，现在可不是自鸣得意的时候。
+[k]
+
+[bgm BGM_EVENT_49 0.1]
+
+＠高扬斯卡娅
+两名活祭已在夜间被转移至祭坛。[r]被囚禁在地牢里的还剩两人。
+[k]
+
+＠高扬斯卡娅
+被选为活祭的是魔术师与人造人。[r]应该就是卡多克大人与达·芬奇大人吧。
+[k]
+
+＠高扬斯卡娅
+先去地牢救出希翁·艾尔特纳姆[r]与濒死状态的英灵尼莫，
+[k]
+
+＠高扬斯卡娅
+然后再火速赶往祭坛，夺回另外两人[line 3][r]这样安排没问题吧？
+[k]
+
+？1：当然没问题！
+？2：快走吧！
+
+？！
+
+[messageOff]
+[wipeout leftToRight 1.0 1.0]
+[bgmStop BGM_EVENT_49 1.0]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[charaSet C 1098252940 1 特佩乌]
+[wt 1.0]
+
+[se ad59]
+[seVolume ad59 0 0]
+[se ad769]
+[seVolume ad769 0 0]
+[seVolume ad59 2.0 0.8]
+[seVolume ad769 2.0 0.8]
+[wt 2.0]
+
+[seStop ad59 0.5]
+[seStop ad769 0.5]
+
+
+[scene 151001]
+[wt 1.0]
+
+[wipein rightToLeft 1.0 1.0]
+[cueSe SE_22 22_ad1166]
+[wait wipe]
+
+[se ad59]
+[seVolume ad59 0 0.8]
+[se ad769]
+[seVolume ad769 0 0.8]
+[wt 0.5]
+
+[seStop ad59 0.4]
+[seStop ad769 0.4]
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.4 1]
+[wt 0.4]
+
+＠玛修
+希翁小姐、尼莫先生，你们还好吗！？[r]我们来救你们了！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠卡多克
+[line 6]嗯，我没事。[r]我让尼莫躺在唯一的床铺上了。
+[k]
+
+[charaFace G 1]
+
+＠卡多克
+你们勉强赶上了呢。[r]倒不如说只能掐准这个时机了。
+[k]
+
+＠卡多克
+上面正在举行『活祭仪式』吧？[r]那种亢奋感都传到这里来了。
+[k]
+
+？1：卡多克，你没事就好……！
+
+[charaFace G 8]
+
+＠卡多克
+放心吧，还没陷入你那等绝境。[r]竟然从飞船上掉下去，你是什么好莱坞明星吗？
+[k]
+
+？2：咦？　不是说被带去当活祭的是魔术师吗……
+
+[charaFace G 6]
+
+＠卡多克
+……被选上的是『优秀』的魔术师哦。[r]那肯定是希翁比我优秀吧。
+[k]
+
+＠卡多克
+虽然在魔术回路的量上是我占优，[r]但她是出身自阿特拉斯高层的家族吧。
+[k]
+
+＠卡多克
+记得是叫六源来着。她肯定拥有[r]我们凡人难以想象的特殊器官。
+[k]
+
+？！
+
+[charaFace G 1]
+
+＠卡多克
+情况我这边也掌握了。[r]逃脱自不必说，但先得把那两人抢回来。
+[k]
+
+＠卡多克
+只是，尼莫看来是动不了了。[r]……自从潜航艇迫降后，他就一直纹丝不动。
+[k]
+
+＠卡多克
+说不定，已经[line 3]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+失礼了。这位就是英灵尼莫吧。[r]我喂他吃教授交给我的药。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[se ad39]
+[effect bit_talk_spell_r]
+[wt 2.2]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[cueSe SE_22 22_ad1180 1.5 0.8]
+
+[charaTalk depthOff]
+[charaDepth S 1]
+[charaPut S 1]
+[charaEffect S bit_talk_noble_light]
+[wt 2.5]
+
+＠特佩乌
+把这个这样弄，术式是这样来着吧。
+[k]
+
+＠特佩乌
+神话理念，解明。人理骨架，解析。[r]构成灵基，填补。信仰遍历，固定。
+[k]
+
+＠特佩乌
+[#强化:Boost]英灵尼莫最强烈的信念，[r]也是最优秀的技能。
+[k]
+
+＠特佩乌
+也就是，自致死的伤势复原。[r][#投影投药:Gradation Air]，[#不挠不屈:Nemo Origin]。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+[cueSeStop 22_ad1180 2.0]
+[se ad952]
+[se ad606]
+[charaEffectStop S bit_talk_noble_light]
+[wt 2.0]
+
+[seStop ad952 1.5]
+[seStop ad606 1.5]
+[effect bit_talk_cure]
+[wt 0.2]
+
+[cueSe Battle bas4 0 0.6]
+[wt 2.3]
+
+[charaTalk depthOn]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+呼。[r]但愿这种方法能顺利[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaSet C 1098252900 1 特佩乌]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠卡多克
+（喂，喂，[%1]。[r]　这家伙怎么回事！？　是伙伴吗！？）
+[k]
+
+＠卡多克
+（刚才那魔术的精度可不是开玩笑的啊！？[r]　简直相当于独力召唤从者了！）
+[k]
+
+？1：嗯，他是我们可靠的伙伴。
+？2：（这气氛下可说不出他其实只听说了使用方法…………）
+
+？！
+
+[bgmStop BGM_EVENT_70 1.3]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+＠尼莫
+…………刚才那是……[r]不，我竟然倒下了这么长时间……
+[k]
+
+[messageOff]
+[se ad984]
+[seVolume ad984 0 0.8]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.4 0,-40]
+[charaMove H 0,0 0.7]
+[charaShake H 0.02 3 3 0.5]
+[wt 1.0]
+
+[bgm BGM_MAP_64 0.1]
+[wt 1.2]
+
+＠尼莫
+谢谢你，我醒了。[r]你是？　这异闻带的居民吗？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+[line 6]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaSet C 1098252940 1 特佩乌]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠尼莫
+请问？　难道是语言不通吗……[r]但我觉得给我投药的应该是你啊……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+不。没有，没什么，尼莫船长。[r]我只是觉得您与某位已逝之人很像而已。
+[k]
+
+[charaFaceFade C 0 0.2]
+
+＠特佩乌
+初次见面，我是特佩乌。[r]是南美异闻带，地底世界米克特兰的人类。
+[k]
+
+＠特佩乌
+详细情况就问[%1]和玛修吧。[r]我先去通道把风。
+[k]
+
+
+[messageOff]
+[cueSe SE_22 22_ad1210]
+[cueSeStop 22_ad1210 2.0]
+[charaFadeout C 0.4]
+[wt 3.0]
+
+
+[charaTalk H]
+[charaFace H 8]
+[charaFadein H 0.1 1]
+
+＠尼莫
+[line 3]先不管他的问题了，[r]我能够掌握自己目前所处的境地。
+[k]
+
+＠尼莫
+拟定救援计划，并迅速开始行动吧。[r]我当然也会参加作战。
+[k]
+
+＠尼莫
+希翁、达·芬奇。两位都是迦勒底的同胞，[r]无论如何都要确保她们生还！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_MAP_64 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

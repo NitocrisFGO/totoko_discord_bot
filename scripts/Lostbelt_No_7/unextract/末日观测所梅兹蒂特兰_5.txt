@@ -1,0 +1,513 @@
+
+＄03-00-13-16-5-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098255300 1 尼托克丽丝]
+[charaSet C 1098252940 1 特佩乌]
+[charaSet D 1098257300 1 达·芬奇]
+[charaSet E 1098252410 1 库库尔坎]
+[charaSet F 1098256600 1 希基克]
+
+[sceneSet G 10000 1]
+[charaScale G 1.01]
+[charaDepth G 1]
+
+[sceneSet H 173700 1]
+[sceneSet I 173700 1]
+
+[scene 10000]
+
+[fadein black 0.1]
+[wait fade]
+
+[wipeout openEye 0.1 1.0]
+[wait wipe]
+
+[scene 173700]
+[wipein openEye 2.0 1.0]
+[wait wipe]
+[wt 0.5]
+
+[charaTalk off]
+[charaScale C 1.3]
+[charaDepth B 2]
+[charaDepth C 1]
+[charaDepth A 3]
+[charaFace B 9]
+[charaFadeinFSL B 0.1 -350,-70]
+[charaFace C 4]
+[charaFadein C 0.1 50,100]
+[charaFace A 6]
+[charaFadeinFSR A 0.1 350,-70]
+
+＠玛修＆尼托克丽丝＆特佩乌
+[line 6]
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaScale C 1.0]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk D]
+[charaFace D 23]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+……我确认一下。[r]刚才所有人看到的画面都是一样的吧。
+[k]
+
+＠达·芬奇
+戴比特独自一人完成了下冥界，[r]米克特兰的最底层有ORT的亡骸，
+[k]
+
+＠达·芬奇
+迪诺斯的心脏被用于重启ORT，[r]以及一年后的当下，
+[k]
+
+＠达·芬奇
+戴比特打算再度前往米克特兰最底层，[r]让ORT重启。
+[k]
+
+？1：……看得一清二楚。
+？2：……他打算破坏米克特兰，还有地球。
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+……充斥于第八层与最底层的有毒气体[r]每年只有一次消失短短数日的机会。
+[k]
+
+＠特佩乌
+戴比特就在那短暂的几天内完成了下冥界。[r]而如今，这一时期又将到来。
+[k]
+
+＠特佩乌
+如果不阻止他第二次下冥界，[r]米克特兰便会崩毁，
+[k]
+
+＠特佩乌
+泛人类史便会连同这颗行星一起消失，是这样吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠玛修
+不过，这究竟是为了什么！？[r]连地球都破坏的话，纯粹是自我毁灭！
+[k]
+
+？1：确实……
+？2：没能在这场仪式中连他的动机都洞悉……
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 23]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+嗯。[r]我也觉得这是个不可忽视的问题。
+[k]
+
+＠达·芬奇
+他的行动与目的都已了然。[r]也知道该阻止的关键点是什么了。这算是个进步。
+[k]
+
+＠达·芬奇
+但他『为何想要破坏地球？』[r]这个疑问是必须究明的。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠尼托克丽丝
+不过，目前应该把[r]阻止戴比特的行动放在首位。
+[k]
+
+＠尼托克丽丝
+库库尔坎、希基克。[r]第八层往下那些有毒气体会在何时出现空档？
+[k]
+
+＠尼托克丽丝
+……库库尔坎？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad807]
+[seVolume ad807 0 0.3]
+[charaTalk off]
+[charaScale E 1.1]
+[charaScale H 1.3]
+[charaDepth E 2]
+[charaDepth H 1]
+[charaFace E 12]
+[charaFadein E 0.4 -75,0]
+[charaFadein H 0.4 120,-320]
+[charaMove E -80,0 3.0]
+[charaMove H 130,-320 3.0]
+[wt 0.5]
+[seStop ad807 0.2]
+[wt 2.0]
+
+＠库库尔坎
+[line 6]
+[k]
+
+[messageOff]
+[charaFace E 17]
+[wt 1.2]
+
+[charaFace E 0]
+
+＠库库尔坎
+嗯，怎么了？[r]抱歉，我刚才正在思考。
+[k]
+
+[messageOff]
+[charaFadeout E 0.4]
+[charaFadeout H 0.4]
+[wt 0.5]
+
+[subCameraOn]
+[charaLayer F sub]
+[charaLayer I sub]
+[charaScale F 1.2]
+[charaScale I 1.5]
+[charaDepth F 2]
+[charaDepth I 1]
+[charaFace F 0]
+[charaFadein F 0.1 330,240]
+[charaFadein I 0.1 -20,-150]
+[subCameraFilter maskEdge cut359_mask07 4 175,180,219,255]
+[subRenderFadein 0.4 0,-320]
+[wt 0.4]
+
+＠希基克
+有毒气体何时出现空档吗，准确的时间无法计算。[r]只能说是『几天后』。
+[k]
+
+[subRenderFadeout 0.2]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠尼托克丽丝
+不，知道这些就够了。[r]戴比特剩下的令咒还有一划。
+[k]
+
+＠尼托克丽丝
+与卡玛佐茨交战时用了一划，[r]在墨西哥城使用特斯卡特利波卡的宝具时用了一划。
+[k]
+
+＠尼托克丽丝
+最后一划恐怕是打算用来复活ORT吧。[r]一旦让他抵达最底层，我们就输了。
+[k]
+
+＠尼托克丽丝
+不过，冥界还封闭着。
+[k]
+
+＠尼托克丽丝
+只要向迪诺斯们解释清楚，[r]他们应该愿意帮助我们才对。
+[k]
+
+＠尼托克丽丝
+若能与迪诺斯一同攻陷墨西哥城，[r]捉拿戴比特，就能阻止ORT复活。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+是的。只要能说服恐龙王，肯定没问题。[r]因为这已不只是泛人类史的问题了。
+[k]
+
+＠玛修
+而是赌上了地球存亡的守护人理之战！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_81 1.5]
+
+[charaTalk F]
+[charaFace F 3]
+[subRenderFadein 0.2 0,-320]
+[wt 0.2]
+
+＠希基克
+守护人理……[r]阻止戴比特……
+[k]
+
+[charaFace F 6]
+
+＠希基克
+各位都非常勇敢呢。[r]竟然有勇气挑战那个能与卡玛佐茨打成平手的人。
+[k]
+
+[bgm BGM_EVENT_156 0.1]
+
+[charaFace F 7]
+
+＠希基克
+不过，要是因此丢了性命，可就鸡飞蛋打一场空了。
+[k]
+
+＠希基克
+不要太勉强自己，[r]何不在奇琴伊察观望一阵子呢？
+[k]
+
+＠希基克
+戴比特或许会失败，[r]ORT或许并不会苏醒。
+[k]
+
+＠希基克
+哪怕世界消失了，也不是各位的责任，[r]何不再放轻松一点呢？
+[k]
+
+[subRenderFadeout 0.2]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠玛修
+不，不对，这可不行。[r]因为这是为守护世界而[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[subRenderFadein 0.2 0,-320]
+[wt 0.2]
+
+＠希基克
+[FFFFFF]？[-][r]世界会毁灭不是理所当然的吗？
+[k]
+
+[messageOff]
+[subRenderFadeout 0.2]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 1.2]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[subRenderFadein 0.2 0,-320]
+[wt 0.2]
+
+＠希基克
+我们不会抗争，[r]不会反抗，只会服从。
+[k]
+
+＠希基克
+得益于此，这6600万年以来，[r]我们一直过得很和平。
+[k]
+
+＠希基克
+假如世界要毁灭，那就是世界的寿命。[r]我认为这不是人类该介入的问题。
+[k]
+
+＠希基克
+我说，是这样吧，特佩乌哥哥？
+[k]
+
+＠希基克
+只因自己不想死就要守护世界，[r][#基于这种自私自利的理由而战斗]，[#是错误的吧]？
+[k]
+
+[subRenderFadeout 0.2]
+[wt 0.2]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+[line 6]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[subRenderFadein 0.2 0,-320]
+[wt 0.2]
+
+＠希基克
+就算世界崩毁导致生命灭绝，[r]那也是天理，并非悲剧。
+[k]
+
+＠希基克
+所有生命皆平等，没有特殊的个体。[r]死亡也会平等地造访万物，没有生命该受到优待。
+[k]
+
+＠希基克
+所以[line 3]无论发生什么，无论发生在谁身上，[r]都不需要过度悲伤。
+[k]
+
+＠希基克
+想要守护某人，想要守护某物，
+[k]
+
+＠希基克
+基于这种理由去战斗，[r]以生命而言是错误的。
+[k]
+
+[subRenderFadeout 0.2]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+[line 6]
+[k]
+
+？1：…………
+？2：（她说的是正确的……可是……）
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[subRenderFadein 0.2 0,-320]
+[wt 0.2]
+
+＠希基克
+奇，奇怪？　我的本意是让[r]玛修小姐你们放松心情啊……
+[k]
+
+[charaFace F 4]
+
+＠希基克
+……对不起。[r]是我表达得不够好。
+[k]
+
+[charaFace F 6]
+
+＠希基克
+啊。[r]不过，各位真的不用想得太沉重吧。
+[k]
+
+＠希基克
+毕竟就算戴比特不叫醒ORT，[r]米克特兰的终结也已经近在眼前了。
+[k]
+
+[bgm BGM_EVENT_156 1.0 0.6]
+＠A：全体
+哎？
+[k]
+
+？1：希基克，你刚才说什么？
+
+？！
+
+[charaFace F 2]
+
+＠希基克
+[FFFFFF]？[-]　特佩乌哥哥，你没告诉大家吗？
+[k]
+
+＠希基克
+米克特兰的太阳即将迎来临界点。
+[k]
+
+＠希基克
+再往返10次后，太阳就会爆炸，[r]我们便会灭绝。
+[k]
+
+[bgmStop BGM_EVENT_156 2.0]
+＠希基克
+米克特兰是已经注定会毁灭的世界。[r]迪诺斯们全都知道哦？
+[k]
+
+[messageOff]
+[subRenderFadeout 0.2]
+[wt 0.2]
+
+[charaTalk off]
+[charaScale C 1.3]
+[charaDepth B 4]
+[charaDepth C 1]
+[charaDepth D 2]
+[charaDepth A 3]
+[charaFace B 2]
+[charaFadeinFSL B 0.1 -350,-70]
+[charaFace C 4]
+[charaFadein C 0.1 290,100]
+[charaFace A 6]
+[charaFadein A 0.1 -150,-70]
+[charaFace D 25]
+[charaFadeinFSR D 0.1 350,-70]
+[wt 2.0]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+
+＠库库尔坎
+…………
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

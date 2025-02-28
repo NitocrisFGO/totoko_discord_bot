@@ -1,0 +1,771 @@
+
+
+
+＄03-00-13-18-7-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252540 1 奥塞洛特尔1]
+[charaSet B 1098252540 1 奥塞洛特尔2]
+[charaSet C 1098252540 1 奥塞洛特尔3]
+[charaSet D 1098252550 1 奥塞洛特尔4]
+[charaSet E 1098252550 1 奥塞洛特尔5]
+[charaSet F 1098253910 1 伊斯卡利]
+[charaSet G 1098253600 1 恐龙王]
+
+[sceneSet H 169602 1]
+[charaScale H 1.2]
+
+[charaSet I 1098253920 1 伊斯卡利_拿枪]
+
+[cameraMove 0.1 0,0 1.01]
+
+[pictureFrameTop cut063_cinema]
+
+[scene 169602]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_MAP_92 0.1]
+
+[charaScale A 0.85]
+[charaScale B 0.85]
+[charaScale C 0.85]
+[charaScale D 0.9]
+[charaScale E 0.9]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth A 1]
+[charaDepth B 2]
+[charaDepth C 3]
+[charaDepth D 4]
+[charaDepth E 5]
+[charaDepth F 6]
+
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFace F 0]
+
+[se ade210]
+[seStop ade210 0.5]
+[charaFadeinFSL A 0.4 -380,-80]
+[charaFadeinFSR B 0.4 380,-80]
+[charaFadein C 0.4 0,-80]
+[wt 0.7]
+[se ade210]
+[seStop ade210 0.5]
+[charaFadein D 0.4 -275,-70]
+[charaFadein E 0.4 185,-70]
+[wt 1.0]
+[se ad60]
+[seStop ad60 0.5]
+[charaFadein F 0.4 0,-50]
+[wt 1.5]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0,-50]
+
+＠恐龙王
+好快啊。[r]真亏你能攻打到这里。
+[k]
+
+[charaFaceFade G 6 0.2]
+
+＠恐龙王
+大平原的防卫线是怎么突破的。[r]对斗士们用了毒气吗？
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0,-50]
+[wt 0.5]
+
+[se ade253]
+[charaCrossFade F 1098253920 9 0.3]
+[wait charaCrossFade F]
+[wt 0.7]
+
+＠伊斯卡利
+……也是。对付能用生体波动弹开冲击的迪诺斯，[r]只要伤害呼吸器官就行了。
+[k]
+
+＠伊斯卡利
+毒气对猎杀迪诺斯非常有效。[r]事实上，迪诺斯就无法跨越第八层的有毒气体。
+[k]
+
+[charaFace F 4]
+＠伊斯卡利
+但是，我怎么会用那种武器。[r]既会玷污树海，也会玷污战士的尊严。
+[k]
+
+＠伊斯卡利
+那是象征你们泛人类史的丑陋手段。[r]奥塞洛特尔应该用铁与铅弹，直接赢得战争。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 0,-50]
+
+＠恐龙王
+是吗。但枪械也会弄脏森林啊。[r]你们还用了凝固汽油弹吧？　可要注意森林火灾哦。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 18]
+[charaFadein F 0.1 0,-50]
+＠伊斯卡利
+……玩笑开够了吧。[r]奇琴伊察的王在哪里。
+[k]
+
+＠伊斯卡利
+带我去恐龙王的所在之处。[r]只要乖乖照做，我就饶你一命。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 0,-50]
+[wt 1.0]
+
+[charaFaceFade G 9 0.2]
+
+＠恐龙王
+哈[line 3]哈哈哈哈哈！[r]是吗，也是呢，确实会这样认为吧！
+[k]
+
+＠恐龙王
+我怎么看都是泛人类史的人类嘛！[r]一眼看不出来也很正常！
+[k]
+
+＠恐龙王
+不过你还真不受信任呢，伊斯卡利！[r]还是说，他觉得不用说你也会明白吗？
+[k]
+
+＠恐龙王
+简直就是有眼无珠！[r]黑色特斯卡特利波卡太高估你了吧！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0,-50]
+＠伊斯卡利
+……有什么好笑的。[r]你说谁有眼无珠[line 2]
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 10]
+[charaFadein G 0.1 0,-50]
+
+＠恐龙王
+所以说！　是我啦，是我！[r]我就是恐龙王！
+[k]
+
+＠恐龙王
+顺便把名字也告诉你好了！[r]我是特斯卡特利波卡，蓝色特斯卡特利波卡。
+[k]
+
+[bgmStop BGM_MAP_92 1.5]
+
+＠恐龙王
+与使用[#神之肉:玉米]创造出你的，[r]你那边的特斯卡特利波卡是同一个神！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 21]
+[charaFadein F 0.1 0,-50]
+
+＠伊斯卡利
+[line 6]哈？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth A 3]
+[charaDepth B 2]
+[charaDepth C 1]
+[charaDepth D 4]
+[charaDepth E 5]
+
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSL A 0.1 -380,-80]
+[charaFadeinFSR B 0.1 380,-80]
+[charaFadein C 0.1 0,-80]
+[charaFadein D 0.1 -275,-70]
+[charaFadein E 0.1 185,-70]
+
+＠奥塞洛特尔们
+[cueSe SE_22 22_ad1201]
+[image npc_language_21]……？[wt 1.0][cueSe SE_22 22_ad1202][charaShake D 0.03 3 3 0.3][wt 0.1][charaShake E 0.03 3 3 0.3][r][image npc_language_35_w1][image npc_language_35_w2]，[image npc_language_17][line 3]！
+[k]
+
+[bgm BGM_EVENT_114 0.1]
+
+[cueSeStop 22_ad1202 0.5]
+[cueSe SE_22 22_ad1200]
+
+＠奥塞洛特尔们
+[image npc_language_20][messageShake 0.05 5 5 0.5]，特斯卡特利波卡！[r][image npc_language_20]，特斯卡特利波卡！
+[k]
+[messageOff]
+[cueSeStop 22_ad1200 0.5]
+[charaMove D -275,-170 0.5]
+[charaMove E 185,-170 0.5]
+[wt 0.5]
+[se ad775]
+[charaMove C 0,-180 0.4]
+[charaMoveFSL A -380,-180 0.5]
+[charaMoveFSR B 380,-180 0.5]
+[wt 0.5]
+[se ad775]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 14]
+[charaFadein F 0.1 0,-50]
+
+＠伊斯卡利
+你们为何要叩拜！？[r]拿起枪，这里可是敌营啊！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 0,-50]
+
+＠恐龙王
+真丢人。还是奥塞洛特尔理解得比较快呢。[r]就因为这样，你才不受信任啊，小子。
+[k]
+
+＠恐龙王
+这是把知性设置得太高的代价吧。[r]用来嗅气味的鼻子完全废掉了啊，豹战士。
+[k]
+
+＠恐龙王
+还是说，该用另一个名字称呼你呢？
+[k]
+
+＠恐龙王
+用只有你和特斯卡特利波卡才知道的，[r]你诞生时的名字？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 14]
+[charaFadein F 0.1 0,-50]
+
+＠伊斯卡利
+不可能……不可能……！[r]也就是说，你真的是特斯卡特利波卡吗……！？
+[k]
+
+＠伊斯卡利
+不，就算如此，也绝无可能！[r]特斯卡特利波卡神为何要站在迪诺斯那边！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 0,-50]
+
+＠恐龙王
+啊？[r]别把自己功课没做够的问题丢一边然后冲别人发火啊。
+[k]
+
+＠恐龙王
+受所有部族、所有战士崇敬的战神，[r]怎么可能只向其中一方伸出援手！
+[k]
+
+＠恐龙王
+无论奥塞洛特尔还是迪诺斯，[r]无论泛人类史还是异闻带，我们都会给予机会。
+[k]
+
+＠恐龙王
+在此前提下让你们平等地厮杀。[r]特斯卡特利波卡就是[#这样的神]。
+[k]
+
+[charaFaceFade G 2 0.2]
+
+＠恐龙王
+……真是的。[r]明明待在黑色的身边，却连这种事都不知道吗？
+[k]
+
+＠恐龙王
+那家伙在我们中也算，该怎么说呢，[r]应该叫最不正经的吗？
+[k]
+
+＠恐龙王
+『既然要打仗，[r]　无论亲子还是恋人都要平等地给予武器。』
+[k]
+
+＠恐龙王
+他可是会摆出耍帅表情说这种过分发言的家伙哦？[r]那家伙过于有人心到反而没人心啦。
+[k]
+
+[charaFaceFade G 0 0.2]
+
+＠恐龙王
+然后，你就是被那种神明选中的特殊品。[r]是叫『一年特斯卡特利波卡』吧？
+[k]
+
+＠恐龙王
+在泛人类史的阿兹特克，为了祭祀特斯卡特利波卡，[r]民众与国王会选出担任其化身的年轻人。
+[k]
+
+＠恐龙王
+就是向以智慧与武勇见长，容貌秀丽的年轻人下达神谕，[r]让他们成为特斯卡特利波卡容器的那个。
+[k]
+
+＠恐龙王
+年轻人被迫在一年时间内成长得[r]比任何人都要强大、都要美丽，
+[k]
+
+＠恐龙王
+同时，会被供奉超越国王与贵族们的[r]所有一切美食与快乐。
+[k]
+
+＠恐龙王
+这些事做满一年以后，[r]容器就会被承认为特斯卡特利波卡的人身之神。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0,-50]
+
+＠伊斯卡利
+[line 3]没错。最后的收尾步骤就是鲜花战争。[r]也就是杀死迪诺斯之王。
+[k]
+
+＠伊斯卡利
+只要完成这一步，[r]我就会变得与特斯卡特利波卡神一样。
+[k]
+
+＠伊斯卡利
+正因如此，伟大的特斯卡特利波卡才会陪同参战，[r]为我们提供支援。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 0,-50]
+
+＠恐龙王
+特拉洛克呢？[r]那女人说了什么？　她祝福你了吗？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0,-50]
+
+＠伊斯卡利
+[line 6]
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 0,-50]
+
+＠恐龙王
+我只给你下达这一次神谕。[r]我不会问你信仰之神是哪个这类问题。
+[k]
+
+＠恐龙王
+我也不会纠正你的想法。[r]只会告诉你理所当然之事。
+[k]
+
+＠恐龙王
+如果你的两位神所说的话并不一样，[r]那就『相信自己所信之神的话』吧。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 14]
+[charaFadein F 0.1 0,-50]
+
+＠伊斯卡利
+[line 3]闭嘴。[r]闭嘴，闭嘴，闭嘴！
+[k]
+
+＠伊斯卡利
+特斯卡特利波卡神命令我杀死恐龙王！[r]神是绝对的，我无法违抗，然而[line 3]
+[k]
+
+＠伊斯卡利
+与此同时，我也无法杀死神明！[r]这是不可能被饶恕的！
+[k]
+
+＠伊斯卡利
+然而，特斯卡特利波卡神为何对我[r]下达这种命令！？　太矛盾了！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0,-50]
+
+＠恐龙王
+那当然是在考验你啊。不是指特斯卡特利波卡的试炼，[r]而是看你能不能成为容器。
+[k]
+
+＠恐龙王
+现在重要的只有一点，[r]那就是[#为达目的]，[#你能否杀死世界]、[#杀死神明]。
+[k]
+
+＠恐龙王
+我不会抵抗，随你的便。[r]就算你杀了特斯卡特利波卡，我也会原谅你。
+[k]
+
+[charaFaceFade G 10 0.2]
+
+＠恐龙王
+来吧，抓紧点，别浪费时间！[r]如果再磨蹭下去，迦勒底可就要来了哦！
+[k]
+
+＠恐龙王
+让我见识一下一年特斯卡特利波卡的成果吧！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 0,-50]
+
+＠伊斯卡利
+呜，那我问你！[r]你站哪一边，特斯卡特利波卡！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 0,-50]
+
+＠恐龙王
+哪一边指什么？[r]问我站迪诺斯方，还是站奥塞洛特尔方吗？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 0,-50]
+＠伊斯卡利
+不对！[r]我是在问你，[#泛人类史与异闻带]，[#你是哪边的神]！
+[k]
+
+＠伊斯卡利
+泛人类史的神就是敌人，该杀。[r]异闻带的神就是伙伴，该放过。
+[k]
+
+＠伊斯卡利
+这才合乎道理，这样就遵照了特斯卡特利波卡神的命令，[r]哪怕是另一个特斯卡特利波卡神，我也能杀死！
+[k]
+
+[charaFace F 6]
+＠伊斯卡利
+肯定就可以杀死了！
+[k]
+
+[charaFace F 2]
+＠伊斯卡利
+好了，快回答我，蓝色特斯卡特利波卡！[r]虽然答案不言自明！
+[k]
+
+＠伊斯卡利
+你既然是迦勒底的伙伴，[r]那肯定是泛人类史的神！[bgmStop BGM_EVENT_114 1.5]
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.1 0,-50]
+
+＠恐龙王
+啊啊！？
+[k]
+
+[bgm BGM_EVENT_72 0.1]
+＠恐龙王
+开什么玩笑，我是[#异闻带的神]。[r]是[#站在异闻带这边]的特斯卡特利波卡！
+[k]
+
+＠恐龙王
+泛人类史那群白痴的时间关我屁事！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.15]
+
+[cameraMove 20.0 0,-10 1.05]
+
+[charaFace I 21]
+[charaFadein I 0.15 0,-50]
+＠恐龙王
+你可别避而不视啊，伊斯卡利，[r][#泛人类史方的神是你们那边那位]！
+[k]
+
+＠恐龙王
+不然他怎么可能把那什么枪械带进来！[r]不然他怎么可能打造那什么墨西哥城！
+[k]
+
+＠恐龙王
+听好了！　黑色特斯卡特利波卡啊，[r]由始至终都无意守护[#异闻带:米克特兰]啊！
+[k]
+
+
+
+
+[messageOff]
+[charaTalk off]
+[bgmStop BGM_EVENT_72 1.0]
+[cameraMove 0.4 0,-10 1.05]
+[charaCrossFade I 1098253930 2 0.4]
+[wt 0.1]
+[cueSe Battle bac56]
+[wait charaCrossFade I]
+[wt 0.6]
+
+[charaTalk on]
+＠I：伊斯卡利
+[line 3][messageShake 0.02 5 5 0.5]啊，啊啊，啊啊啊啊啊啊啊啊啊啊啊啊啊！
+[k]
+
+[messageOff]
+[charaFaceFade I 3 0.2]
+[se ade65]
+[wt 0.2]
+[charaFadeout I 0.2]
+[shake 0.03 3 3 1.4]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[effect bit_shot_01 0,-50]
+[wt 0.1]
+[wt 0.2]
+[effectDestroy bit_shot_01]
+
+[se ade65]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[effect bit_talk_35]
+[effect bit_shot_01 -50,50]
+[wt 0.3]
+[effectDestroy bit_shot_01]
+
+[se ade65]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[effect bit_talk_blood_splash]
+[effect bit_shot_01 50,-50]
+[wt 0.3]
+[effectDestroy bit_shot_01]
+
+[se ade65]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[effect bit_shot_01 10,-50]
+[wt 0.3]
+[effectDestroy bit_shot_01]
+
+[se ade65]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[effect bit_shot_01]
+[wt 0.3]
+[effectDestroy bit_shot_01]
+
+[effectDestroy bit_talk_35]
+[effectDestroy bit_talk_blood_splash]
+[scene 10000]
+[se bac341]
+[effect bit_talk_blood_stay 0,0 H]
+[wt 2.0]
+
+[fadeout black 1.5]
+[wait fade]
+
+[effectDestroy bit_talk_blood_stay]
+
+[charaScale A 0.85]
+[charaScale B 0.85]
+[charaScale C 0.85]
+[charaScale D 0.9]
+[charaScale E 0.9]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth A 2]
+[charaDepth B 3]
+[charaDepth C 4]
+[charaDepth D 5]
+[charaDepth E 6]
+[charaDepth I 7]
+[charaDepth F 8]
+
+[charaScale A 0.75]
+[charaScale B 0.75]
+[charaScale C 0.75]
+[charaScale D 0.8]
+[charaScale E 0.8]
+
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+
+[charaFadein H 0.1 0,-250]
+[charaFadeinFSL A 0.1 -380,-150]
+[charaFadeinFSR B 0.1 380,-150]
+[charaFadein C 0.1 0,-150]
+[charaFadein D 0.1 -275,-130]
+[charaFadein E 0.1 185,-130]
+
+[charaScale I 1.1]
+[charaTalk I]
+[charaFace I 5]
+[charaFadein I 0.4 0,-65]
+
+[cameraMove 0.1 0,0 1.1]
+[scene 169602]
+[wt 1.0]
+
+[se ad1016]
+[seVolume ad1016 0 0.4]
+[cameraHome 2.0]
+[fadein black 1.5]
+[wait fade]
+
+[wt 0.7]
+[bgm BGM_EVENT_48 0.1]
+
+[charaTalk on]
+
+＠I：伊斯卡利
+呼[line 3]呼[line 3]呼[line 3]
+[k]
+
+[messageOff]
+[cueSe Battle bac56]
+[cueSeVolume bac56 0 0.4]
+[charaFadeout I 0.4]
+[wt 1.0]
+
+＠伊斯卡利
+……这样就行了。[r]……这样，应该就行了。
+[k]
+
+[messageOff]
+[wt 0.5]
+
+[se ad95]
+[charaTalk F]
+[charaFace F 19]
+[charaFadein F 0.4 0,-50]
+[wt 0.4]
+[seStop ad95 0.1]
+[wt 0.4]
+＠伊斯卡利
+……恐龙王已经收拾掉了。
+[k]
+
+＠伊斯卡利
+待回收完太阳遍历后，[r]就鸣响[#胜利之声:汽笛]，命战士们撤退。
+[k]
+
+＠伊斯卡利
+你们几个，在这里听到的事不许对任何人[line 3][wt 0.7][r]不对。
+[k]
+
+[charaFaceFade F 20 0.3]
+＠伊斯卡利
+没必要封口呢。[r]毕竟你们压根听不懂人话啊。
+[k]
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_48 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

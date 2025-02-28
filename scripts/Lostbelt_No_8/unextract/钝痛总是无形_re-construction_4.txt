@@ -1,0 +1,390 @@
+
+
+＄04-00-02-07-4-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098269500 1 莱诺尔]
+[charaSet B 1036001 1 高长恭]
+[charaSet C 98015000 1 通用从者]
+
+[sceneSet L 190300 1]
+[charaScale L 1.2]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+
+
+[scene 190300]
+
+[bgm BGM_EVENT_80 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+[se ad7]
+[charaFace B 5]
+[charaMoveScale B 1.1 0.25]
+[charaMove B 0,15 0.25]
+[charaFadeout B 0.25]
+[wt 0.4]
+
+[cueSe Battle bac136]
+[effect bit_talk_x_slash02]
+[wt 0.5]
+
+[bgmStop BGM_EVENT_80 1.0]
+
+[fowardEffect bit_talk_14]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0 1]
+[charaShake C 0.02 3 4 0.5]
+[wt 1.1]
+
+
+[se ad42]
+[charaSpecialEffect C enemyErasure 0,0 1.0]
+[wait charaSpecialEffect C]
+[seStop ad42 0.8]
+[wt 1.4]
+
+[bgm BGM_SENGOKU_1 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠莱诺尔
+原来如此。[r]感觉逐渐能看清了。
+[k]
+
+＠莱诺尔
+这些家伙真的只是随机产生的吧，[r]当然，背后肯定存在某种要因。
+[k]
+
+[charaFace A 1]
+＠莱诺尔
+问题就在于究竟是什么了。
+[k]
+
+＠莱诺尔
+只要再与我原本就在调查的坐标系因素[r]结合在一起……
+[k]
+
+＠莱诺尔
+嗯。[r]契合度说不定还不赖呢。
+[k]
+
+[charaFace A 10]
+＠莱诺尔
+不过，若想确认这点，还需要更多情报。
+[k]
+
+[charaFace A 0]
+＠莱诺尔
+好，这里要办的事都办完了。[r]带我去下个地点吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaScale B 1.0]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠高长恭
+遵命。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_SENGOKU_1 1.0 0.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth A 2]
+[charaDepth B 2]
+
+[charaFadein L 0.1 0,-250]
+[wt 1.5]
+
+[se ad56]
+[seVolume ad56 0 0]
+[shake 0.08 1 1 0]
+
+[seVolume ad56 1.0 1.0]
+[bgm BGM_SENGOKU_1 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+[shakeStop]
+[seStop ad56 1.0]
+[wt 0.5]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠高长恭
+……[r]……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠莱诺尔
+咯咯咯，想来我不说你也不会问，[r]那就我主动说吧。你想问『你在做什么』吧？
+[k]
+
+＠莱诺尔
+如你所见，[r]我在制作地图。不过准确地说，是类似地图的东西。
+[k]
+
+[charaFace A 1]
+＠莱诺尔
+好，我准许。针对我刚才的说明，[r]提出你产生的疑问吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠高长恭
+是，地图啊。
+[k]
+
+＠高长恭
+这个世界的地理数据，不是早已安装在[r]您这位首席ＡＩ的体内了吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠莱诺尔
+好问题[line 3][wt 0.6][charaFace A 7]不，[r]你不愿意被这样称赞吧？
+[k]
+
+[charaFace A 0]
+＠莱诺尔
+那就当是普通问题好了。[r]毕竟，这确实是理所当然的疑问。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠高长恭
+……[r]……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠莱诺尔
+答案很简单。[r]没错，这张地图没有意义。
+[k]
+
+[charaFace A 0]
+＠莱诺尔
+不过，没有意义这点意义重大。
+[k]
+
+＠莱诺尔
+我注视的并非地理，而是功能。[r]这个世界为何是这种形式？
+[k]
+
+＠莱诺尔
+这个世界以这种形式存在，[r]有着什么样的意义呢[line 3]？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠高长恭
+愚钝的刀刃不得而知。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠莱诺尔
+这话你倒是说得[#挺开心]的嘛，真是的。
+[k]
+
+＠莱诺尔
+总之，将刚才那种『影子』也考虑进去，[r]我感觉快要掌握到什么了。
+[k]
+
+[charaFace A 9]
+＠莱诺尔
+不知当天会是[#晴天:举行]还是[#雨天:中止]，[r]但预计在未来发射的烟花已经准备完毕，
+[k]
+
+＠莱诺尔
+今后应该能更加自由地行动了吧。
+[k]
+
+[charaFace A 8]
+＠莱诺尔
+果然还是骑马比骑摩托更容易边观察边移动呢。
+[k]
+
+＠莱诺尔
+还好你是个带马的[#Rider:骑兵]。[r]今后也麻烦你载我代步啦。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠高长恭
+谨遵吩咐。
+[k]
+
+＠高长恭
+仅把我当作忠诚的交通工具对待，[r]也是我求之不得的。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠莱诺尔
+真是个奇怪的家伙。[r]不过你身为助手非常称职，很帮得上忙。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠高长恭
+毕竟我就是这样的存在。
+[k]
+
+[messageOff]
+[bgmStop BGM_SENGOKU_1 1.5]
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[se ad56]
+[shake 0.08 1 1 0]
+[wt 2.5]
+
+[seStop ad56 1.0]
+[wt 0.5]
+
+[shakeStop]
+
+[charaDepth R 8]
+[charaPut R 1]
+[charaFadeTime R 0.8 0.5]
+[wt 1.2]
+
+＠
+我就是这样的存在？[r]太可笑了。
+[k]
+
+＠
+他面不改色地心想。[r]对自己[line 3]发问。
+[k]
+
+[messageOff]
+[charaFadeTime R 1.0 1.0]
+[wt 1.5]
+
+[bgm BGM_EVENT_156 0.1]
+
+＠
+[E0DAC5][#自己是]，[#什么人]。[-]
+[k]
+
+＠
+这是自被召唤以来，就一直笼罩着自己内心的不安。
+[k]
+
+＠
+高长恭、武人、齐国的皇族、将军、[r]覆面的英雄[line 3]兰陵王。
+[k]
+
+＠
+全都是事实，全都正确。
+[k]
+
+＠
+但只有一个问题。现在的自己，[r]打从心底里避讳[#自己未来的形象]。
+[k]
+
+＠
+决不可变成那样，[r]只要不那样就行。
+[k]
+
+＠
+但是除此以外所有的自己，[r]只不过是通往那里的道路。
+[k]
+
+＠
+是相互连接的。[r]所以至少，要在此斩断才行。
+[k]
+
+＠
+为了让自己停留为最为遥远的，纯粹的高长恭，[r]必须在此斩断才行。
+[k]
+
+＠
+因此，自己并非武人，并非将军，[r]亦非覆面的英雄。
+[k]
+
+＠
+而是个发誓说，只要能够[#不再继续前进]，[r]哪怕沦为邪恶也在所不惜的[line 3]
+[k]
+
+＠
+胆小鬼。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_156 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

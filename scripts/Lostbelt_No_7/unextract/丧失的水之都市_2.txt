@@ -1,0 +1,1871 @@
+
+
+＄03-00-13-10-2-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252400 1 夸乌特利]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 98001000 1 玛修]
+[charaSet D 1098254110 1 高扬斯卡娅]
+[charaSet E 1098257500 1 拉斯普京]
+[charaSet F 1098257500 1 拉斯普京_扩大]
+[charaScale F 1.2]
+[charaSet G 1098253200 1 U－奥尔加玛丽]
+[charaSet H 1098255200 1 哈贝特洛特]
+[charaSet I 1098252570 1 奥塞洛特尔1]
+[charaSet J 1098252520 1 奥塞洛特尔2]
+[charaSet K 1098252530 1 奥塞洛特尔3]
+[charaSet L 1098252570 1 奥塞洛特尔4]
+[charaSet M 1098252520 1 奥塞洛特尔5]
+[charaSet N 1098252530 1 奥塞洛特尔6]
+[charaScale I 0.8]
+[charaScale J 0.8]
+[charaScale K 0.9]
+[charaScale L 0.9]
+[charaSet O 1098252800 1 夸乌特莫克]
+[charaSet P 1098253900 1 伊斯卡利]
+
+[sceneSet Q 170400 1]
+[charaScale Q 1.3]
+[sceneSet R 169102 1]
+[charaScale R 1.4]
+[sceneSet S 169102 1]
+[charaScale S 1.2]
+
+[imageSet T cut399_skull 1]
+
+[scene 170600]
+[effect bit_sepia01_depth_fs]
+[wt 0.1]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_147 0.1]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠高扬斯卡娅
+那么，我去调查偏离大街的小巷。[r]一旦发生什么我就会骑摩托撤退♡
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠拉斯普京
+我去神殿附近看看吧。[r]放心吧，只是从远处掌握其构造而已。
+[k]
+
+＠拉斯普京
+我希望你们去大街上看看。[r]千万别忘记举止要像奥塞洛特尔。
+[k]
+
+[messageOff]
+[wipeout circleIn 1.0 1]
+[bgm BGM_EVENT_147 1.0 0.5]
+[wait wipe]
+
+[effectStop bit_sepia01_depth_fs]
+[charaFadeout E 0.1]
+
+[scene 170400]
+[wt 1.0]
+
+[wipein circleIn 1.0 1]
+[bgm BGM_EVENT_147 1.0 1.0]
+[wait wipe]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠玛修
+于是乎，我们负责观察大街。
+[k]
+
+[charaFace C 12]
+
+＠玛修
+由于听不懂奥塞洛特尔们的语言，[r]也无法旁听他们的对话……
+[k]
+
+？1：哈贝特洛特正以灵体化待命着吧。
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadeTime H 0.1 0.7]
+
+＠哈贝特洛特
+嗯。毕竟这座城市没有小孩奥塞洛特尔嘛。[r]要是咱实体化+变装，反而会惹人注目。
+[k]
+
+[charaFace H 1]
+
+＠哈贝特洛特
+情况紧急时咱会立刻跳出来充当战斗力。[r]你们俩先放轻松到处看看吧。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_147 1.0 0.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+[wt 1.0]
+
+[cueSe SE_21 21_ade643 1.0 0.2]
+[se ad5]
+[seVolume ad5 0 0]
+[seVolume ad5 1.0 0.3]
+[fadein black 1.0]
+[bgm BGM_EVENT_147 1.0 1.0]
+[wait fade]
+
+？2：总之，先沿着大道从北到南逛一遍吧。
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_147 1.0 0.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+[wt 1.0]
+
+[cueSe SE_21 21_ade643 1.0 0.2]
+[se ad5]
+[seVolume ad5 0 0]
+[seVolume ad5 1.0 0.3]
+[fadein black 1.0]
+[bgm BGM_EVENT_147 1.0 1.0]
+[wait fade]
+
+？！
+
+[sceneSet H 10000 1]
+[charaScale H 1.01]
+[wt 0.5]
+
+？1：看得出来真的相当热闹。
+？2：没有监狱或是派出所之类的设施呢……
+
+？！
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠玛修
+是的，大街上只有货摊。[r]不过……
+[k]
+
+＠玛修
+您不觉得[#整座城市过于有活力了]吗？
+[k]
+
+＠玛修
+由于戴着面具，看不见表情，[r]但我总感觉每个人都莫名浮躁。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth I 2]
+[charaDepth J 3]
+[charaDepth K 4]
+[charaDepth L 5]
+[charaDepth M 7]
+[charaDepth N 6]
+[charaFadein Q 1.0 0,-300]
+
+[bgm BGM_EVENT_147 1.0 0.5]
+[seVolume ad5 1.0 0.5]
+[cueSeVolume 21_ade643 1.0 0.4]
+[wt 1.2]
+
+[charaFace I 0]
+[charaFace J 0]
+[charaFace K 0]
+[charaFace L 0]
+[charaFace M 0]
+[charaFace N 0]
+
+[charaFadein J 0.1 -250,-100]
+[wt 0.2]
+[charaFadein I 0.4 100,-100]
+[charaMove I 50,-100 0.4]
+[wt 0.5]
+[charaMoveReturn I 50,-110 0.3]
+[wt 0.3]
+[charaMoveReturn I 50,-110 0.3]
+[wt 0.5]
+[charaMoveReturn J -250,-110 0.3]
+[charaFadein K 0.4 250,-40]
+[charaMove K -500,-40 3.5]
+[wt 1.0]
+[charaMove I 450,-100 1.6]
+[wt 0.2]
+[charaMove J 150,-100 1.6]
+[wt 1.0]
+[charaFadeout I 0.4]
+[charaFadein L 0.4 -450,-40]
+[charaMove L 150,-40 2.5]
+[wt 0.2]
+[charaFadeout J 0.4]
+[wt 0.5]
+[charaFadeout K 0.4]
+[wt 0.5]
+[charaFadein M 0.4 50,0]
+[charaMove M -500,0 2.2]
+[wt 0.2]
+[charaFadein N 0.4 350,0]
+[charaMove N -200,0 2.2]
+[wt 0.5]
+[charaFadeout L 0.4]
+[wt 1.0]
+[charaFadeout M 0.4]
+[wt 0.3]
+[charaFadeout N 0.4]
+[wt 1.0]
+
+？1：听你这么一说……
+？2：也许……相比起『热闹』，更像是『狂热』呢。
+
+？！
+
+[bgm BGM_EVENT_147 1.0 1.0]
+[seVolume ad5 1.0 0.3]
+[cueSeVolume 21_ade643 1.0 0.2]
+[charaFadeout Q 1.0]
+[wt 1.2]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 7]
+＠玛修
+……我有种不祥的预感，[r]我很担心被绑架的各位。
+[k]
+
+＠玛修
+虽然危险，但若想获取情报，[r]还是只能与奥塞洛特尔对话[line 3]
+[k]
+
+[bgmStop BGM_EVENT_147 1.5]
+
+＠玛修
+哎呀？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+＠？？？
+哎哎[line 3]！？[r]怎么能这样，不能跟我交换吗！？
+[k]
+
+＠？？？
+上次你不是说价钱是10条响尾蛇吗！[r]什么？　已经不需要了？　仪式就在明天？
+[k]
+
+＠？？？
+这样啊……也就是说已经凑齐[r]所需的鲜血了吧……我明白了……
+[k]
+
+＠？？？
+唉～，都因为那个发饰太漂亮了，[r]我才会努力捉蛇带过来啊……
+[k]
+
+[seStop ad5 1.0]
+[cueSeStop 21_ade643 1.0]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠玛修
+那，那个，前辈。[r]如果刚才没有听错的话[line 3]
+[k]
+
+？1：嗯，是泛人类史的语言！
+？2：不好意思，那边那位～！
+
+？！
+
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth A 2]
+
+[charaScale Q 1.2]
+[charaScale A 1.2]
+
+[charaFadein Q 0.5 0,-300]
+[wt 0.7]
+
+[charaChange C 1098257800 16 normal 0.1]
+
+[bgm BGM_MAP_61 0.1]
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.4]
+
+＠A：？？？
+唔？　嗯，找我有事吗？[r]无论如何，都感谢你向我搭[line 3]
+[k]
+
+[charaFace A 7]
+
+＠A：？？？
+[line 6]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout Q 0.5]
+[charaFadeout A 0.5]
+[wt 0.7]
+[charaScale A 1.0]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk C]
+
+＠玛修
+我们没有听错！[r]不好意思，关于刚才，不，关于这种语言。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaSet C 98001000 1 玛修]
+
+[charaTalk O]
+[charaFace O 0]
+[charaFadein O 0.4 1]
+[wt 0.4]
+
+[cueSe SE_22 22_ad1200 0 0.6]
+
+＠O：奥塞洛特尔
+[image npc_language_18][line 3]？
+[k]
+
+[cueSeStop 22_ad1200 0.5]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠A：？？？
+啊，别在意，店员。[r]刚才那不是迪诺斯的语言。
+[k]
+
+＠A：？？？
+这是特斯卡特利波卡神的神官，[r]戴比特使用的最新语言。
+[k]
+
+＠A：？？？
+虽然学起来很难，但是比起奥塞洛特尔的暗号，[r]更方便细节上的沟通。
+[k]
+
+＠A：？？？
+很快就能在学校里学到了，[r]在那之前你还是再等等吧。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk O]
+[charaFace O 0]
+[charaFadein O 0.1 1]
+[wt 0.1]
+[cueSe SE_22 22_ad1201 0 0.6]
+[charaMoveReturn O 0,-10 0.5]
+
+＠O：奥塞洛特尔
+[image npc_language_19]，[image npc_language_17]。
+[k]
+
+[cueSeStop 22_ad1201 0.5]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠A：？？？
+那么，正式来过，两位旅行者！[r]我是夸乌特利！　你们是？
+[k]
+
+＠A：夸乌特利
+你们学会了泛人类史的语言吧？[r]就像那位伊斯卡利王一样。
+[k]
+
+？1：[line 3]伊斯卡利[line 3]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_MAP_61 0.5 0.5]
+[wait fade]
+
+[effect bit_sepia01_depth_fs]
+[charaFadeout A 0.1]
+[scene 170000]
+[charaTalk P]
+[charaFace P 1]
+[charaFadein P 0.1 1]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 2.5]
+
+[fadeout white 0.5]
+[wait fade]
+
+[charaFadeout P 0.1]
+[scene 170400]
+[effectDestroy bit_sepia01_depth_fs]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_MAP_61 0.5 1.0]
+[wait fade]
+
+[wt 0.2]
+
+？2：……所以你也是？
+
+[charaFace A 4]
+
+＠夸乌特利
+嗯嗯。难归难，[r]毕竟很时髦，我一下子就学会了！
+[k]
+
+＠夸乌特利
+很厉害吧？　愿意夸我吗？[r]呵呵，你们如果坦率地表示佩服，我会不好意思的！
+[k]
+
+？！
+
+[charaFace A 0]
+＠夸乌特利
+[line 3]所以呢。[r]为何特地用异国语言向我搭话？
+[k]
+
+＠夸乌特利
+是要补充警备力量，以备明天的仪式吗？
+[k]
+
+＠夸乌特利
+看来征服者迦勒底的战士要来了[r]这件事是真的呢。
+[k]
+
+[charaFace A 1]
+
+＠夸乌特利
+不过对不起，[r]我并不是战士职。
+[k]
+
+＠夸乌特利
+今天只是为了买翡翠发饰才会前来墨西哥城。
+[k]
+
+＠夸乌特利
+非常抱歉，[r]我无法参加活祭仪式。
+[k]
+
+[charaFace A 0]
+＠夸乌特利
+我不擅长战斗。[r]开垦、栽培这些才是我的专业。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 1]
+
+＠玛修
+（女性奥塞洛特尔生活在城外……[r]　跟高扬斯卡娅小姐说的一样呢。）
+[k]
+
+＠玛修
+（该怎么办，御主？[r]　看来这位并不熟悉墨西哥城……）
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 0.5]
+
+？1：……请问。
+？2：……我们在哪里见过吗？
+
+？！
+
+[charaFace A 7]
+[wt 1.0]
+[charaFace A 6]
+
+＠夸乌特利
+这个嘛。[r]毕竟树海很深，视野容易被遮蔽。
+[k]
+
+＠夸乌特利
+说不定我们曾在树海擦身而过呢，[r]只是你们没有注意到而已。
+[k]
+
+＠夸乌特利
+还是说[line 3]
+[k]
+
+[charaFace A 0]
+
+＠夸乌特利
+你们曾经跟酷似我的『某个人』一起旅行过？[r]如果是这样，那真是没有比这更美妙的偶然了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[cueSe SE_22 22_ad1202 0 0.6]
+
+[charaTalk O]
+[charaFace O 0]
+[charaFadein O 0.1 1]
+
+＠O：奥塞洛特尔
+[image npc_language_22]。
+[k]
+
+[cueSeStop 22_ad1202 0.5]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠夸乌特利
+[FFFFFF]？[-]　有蜂蜜的气味？　这个人身上？[r]愿意拿这个交换……？
+[k]
+
+[charaFace A 1]
+
+＠夸乌特利
+那个……姑且问一下。[r]你身上有带什么甜的东西吗？
+[k]
+
+？1：有啊。
+？2：是这个吗？
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad77]
+[wt 1.0]
+
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth T 2]
+[charaPut H 0,-200]
+[charaFadeTime H 0.4 0.5]
+[charaFadein T 0.4 0,-200]
+[wt 0.05]
+[se ade353]
+[wt 0.3]
+[seStop ade353 0.2]
+[wt 2.0]
+
+[charaFadeout H 0.2]
+[charaFadeout T 0.2]
+[wt 0.2]
+
+[cueSe SE_22 22_ad1203 0 0.6]
+
+[charaTalk depthOn]
+[charaTalk O]
+[charaFace O 0]
+[charaFadein O 0.1 1]
+[charaShake O 0.05 4 4 0.5]
+
+＠O：奥塞洛特尔
+[image npc_language_20]，[image npc_language_35_w3][image npc_language_35_w5][image npc_language_35_w7]！[wt 0.4][charaMoveReturn O 0,10 0.2][r][image npc_language_35_w2][image npc_language_35_w4]，[image npc_language_17]！[wt 0.2][charaMoveReturn O 0,10 0.2][wt 0.4]
+[k]
+
+[cueSeStop 22_ad1203 0.5]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 21]
+[charaFadein C 0.1 1]
+
+＠玛修
+不通过语言也能明白！[r]摊贩此刻非常兴奋！
+[k]
+
+＠玛修
+还打着手势表示『请跟我交换』！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk O]
+[charaFace O 0]
+[charaFadein O 0.1 1]
+[wt 0.5]
+
+？1：那，给你。
+
+？！
+
+[charaMoveScale O 1.1 0.5]
+[wt 0.7]
+[charaMoveReturn O 0,-10 0.5]
+[cueSe SE_22 22_ad1223 0 0.6]
+
+＠O：奥塞洛特尔
+[image npc_language_35_w6][image npc_language_35_w8]！[r][image npc_language_35_w1]，[image npc_language_35_w7][image npc_language_35_w6][image npc_language_35_w5]！
+[k]
+
+[messageOff]
+[cueSeStop 22_ad1223 0.5]
+
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+[wt 0.5]
+
+？1：然后，这个给你。
+
+？！
+
+[cameraMove 0.8 0,-10 1.05]
+[wt 1.3]
+[charaFace A 7]
+
+＠夸乌特利
+哎，给我？　可以问一下原因吗？
+[k]
+
+？1：反正是别人给我的。
+？2：我已经见不到酷似你的那个人了，你就代她收下吧。
+
+？！
+
+[charaFace A 0]
+
+＠夸乌特利
+[line 3]这样啊。[r]你们是这样想的啊。
+[k]
+
+[charaFace A 2]
+
+＠夸乌特利
+那我就不客气收下了～～！[r]我还是第一次收到人类送的礼物呢～～！
+[k]
+
+[charaFace A 6]
+
+＠夸乌特利
+我就告诉你们一些有用的信息当作谢礼吧。
+[k]
+
+＠夸乌特利
+伊斯卡利王与特斯卡特利波卡带回来的[r]征服者迦勒底将在明天[#被使用]。
+[k]
+
+＠夸乌特利
+他们拥有特别的血，[r]因此被选为献给太阳的活祭。
+[k]
+
+
+＠夸乌特利
+所以想救他们的话，得抓紧做准备才行。
+[k]
+
+＠夸乌特利
+若采取常规手段，[r]就得跟10万奥塞洛特尔交战。
+[k]
+
+[bgmStop BGM_MAP_61 2.0]
+＠夸乌特利
+但运用智慧是你们的特征吧，[r]泛人类史的[%1][&先生:小姐]？
+[k]
+
+？1：！　你为什么会知道我的名字！
+？2：等一下……！
+
+？！
+
+[messageOff]
+[se ad59]
+[charaFadeout A 0.4]
+[wt 0.5]
+[seStop ad59 1.5]
+[wt 2.5]
+
+[fadeout black 1.0]
+[wait fade]
+
+[cameraHome 0.1]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠玛修
+……非常抱歉……[r]已经找不到自称夸乌特利的女性了……
+[k]
+
+＠玛修
+她跑得并不快，[r]却踩着风一般的步伐穿梭在人群中……
+[k]
+
+？1：大概谁都抓不住她吧。
+？2：我们先回一趟营地吧。
+
+？！
+
+[charaFace C 7]
+
+＠玛修
+是。如果她所言非虚，[r]事态刻不容缓。
+[k]
+
+＠玛修
+抓紧与大家会合，拟定对策吧！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth R 1]
+[charaDepth B 2]
+[charaDepth D 3]
+[charaDepth S 4]
+[charaDepth G 5]
+[charaDepth E 6]
+
+[scene 169102]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[wt 1.0]
+
+
+[bgm BGM_EVENT_5 0.1]
+[charaScale B 1.2]
+[charaScale G 1.1]
+[charaScale E 1.1]
+
+[charaFace B 0]
+[charaFace D 0]
+[charaFadein R 1.0 0,-400]
+[charaFadeinFSR B 1.0 360,100]
+[charaFadeinFSL D 1.0 -226,-100]
+[charaMove R 120,-400 15.0]
+[charaMoveFSR B 480,100 15.0]
+[charaMoveFSL D -106,-100 15.0]
+[wt 3.5]
+
+[charaFace G 21]
+[charaFace E 0]
+[charaFadein S 1.0 0,-300]
+[charaFadeinFSR G 1.0 250,0]
+[charaFadeinFSL E 1.0 -260,0]
+[charaMove S -120,-300 15.0]
+[charaMoveFSR G 130,0 15.0]
+[charaMoveFSL E -380,0 15.0]
+[wt 1.0]
+
+[charaFadeout R 0.1]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 2.5]
+
+[charaFadeout S 1.0]
+[charaFadeout G 1.0]
+[charaFadeout E 1.0]
+[wt 1.0]
+
+[charaMove B 1 0.1]
+[charaMove D 1 0.1]
+[charaMove G 1 0.1]
+[charaMove E 1 0.1]
+[charaScale B 1.0]
+[charaScale G 1.0]
+[charaScale E 1.0]
+[charaSet B 1098252940 1 特佩乌]
+[wt 0.5]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 21]
+[charaFadein G 0.1 1]
+
+＠U－奥尔加玛丽
+迦勒底要被当做活祭了吗！？[r]竟然要活生生地挖出心脏……！
+[k]
+
+＠U－奥尔加玛丽
+究竟是犯了多重的罪才会沦落到这样啊！？[r]哪怕是侮辱总统罪，也罪不至此啊！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+
+＠拉斯普京
+不对，大小姐。[r]活祭并不是罪人能充当的。
+[k]
+
+＠拉斯普京
+在阿兹特克，献上心脏的行为是神圣的。[r]有罪之人没这个资格。
+[k]
+
+＠拉斯普京
+活祭只会从其他部族战败的战士，[r]以及[#专门为此]抚养长大的人中挑选。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 15]
+[charaFadein G 0.1 1]
+
+＠U－奥尔加玛丽
+我知道，这就是所谓的人祭吧！[r]这跟杀害俘虏没什么区别嘛！
+[k]
+
+＠U－奥尔加玛丽
+牺牲外人来祈愿国家的繁荣，[r]身为执政者未免太不知羞耻了！
+[k]
+
+？1：（U－奥尔加玛丽真心在生气……）
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠玛修
+是的。考虑到被捕各位境遇的她真的很生气。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 1]
+
+？2：谢谢你愿意为大家那么愤怒。
+
+[charaFace G 12]
+
+？！
+
+＠U－奥尔加玛丽
+……哼。[r]这是失望的愤怒啦。
+[k]
+
+＠U－奥尔加玛丽
+是对给予打造出这般都市的奥塞洛特尔[r]☆4评价的我自己感到愤怒。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+…………对不起。[r]我可以提一个问题吗？
+[k]
+
+＠特佩乌
+他们为何需要活祭？[r]泛人类史也存在过这样的事实吗？
+[k]
+
+＠特佩乌
+尽管我很清楚现在该优先讨论如何营救[r]沦为俘虏的四名迦勒底人员……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠拉斯普京
+不。这个疑问可谓了解奥塞洛特尔的突破口，[r]甚至算得上是营救人质的重要关键。
+[k]
+
+＠拉斯普京
+这并不是毫无意义的问题哦，特佩乌氏。[r]而且，我也有个问题要问你。
+[k]
+
+[charaFace E 5]
+＠拉斯普京
+正好，容我稍微讲解一下[r]阿兹特克文明中活祭的意义吧。
+[k]
+
+＠拉斯普京
+[%1]，你也没意见吧？
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+？1：嗯。
+？2：我认为有了解的必要。
+
+？！
+
+[charaFace E 0]
+
+＠拉斯普京
+那我长话短说。
+[k]
+
+[bgm BGM_EVENT_79 0.1]
+
+＠拉斯普京
+中南美的文明并非只有玛雅和阿兹特克，[r]还有更为古老的奥尔梅克、萨波特克这些文明。
+[k]
+
+＠拉斯普京
+[#中部:美索]美洲最后的神话[r]虽是阿兹特克神话，
+[k]
+
+＠拉斯普京
+但阿兹特克神话也深受玛雅神话的影响，[r]而玛雅神话中也有奥尔梅克的影子。
+[k]
+
+＠拉斯普京
+在我看来，所谓中南美神话并非[r]每个部族、每个文明各自独立的，
+[k]
+
+＠拉斯普京
+而是居住在这片土地上的所有人[r]一脉相承的『创世记忆』。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠高扬斯卡娅
+……记忆，类似于密林灌输给人们的印象吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠拉斯普京
+没错。在如此广袤的这片土地上，[r]人们像日常生活的一环般重复着部族间争斗。
+[k]
+
+＠拉斯普京
+他们并没有贪婪到要给创世神话涂抹上[#人类:自身]的意图……[r]不，是不会赋予其肆意的解释。
+[k]
+
+＠拉斯普京
+他们仅会遵照内心所感构筑神话。[r]同时也凝视着密林内激荡的黑暗，并与其同步。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠玛修
+中南美的神话相比起其他神话，[r]时间轴确实七零八落的。
+[k]
+
+＠玛修
+意义虽然相同，名称却不一样，[r]而且对时间的认知也比较特殊。
+[k]
+
+＠玛修
+虽然留有文献，[r]但是要想毫无矛盾地加以整理却非常困难。
+[k]
+
+＠玛修
+您的意思是……这些记述并非源自人类智慧活动，
+[k]
+
+＠玛修
+而是源自土地、现象，[r]或是更为宏大的视角？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠拉斯普京
+没错。中美的人民没有饲养大型家畜，[r]没有使用货车，没有骑乘动物。
+[k]
+
+＠拉斯普京
+只能认为他们分明[#具备创造这些的知识]，[r]却将『不经苦难提升生活水平』的文明……
+[k]
+
+＠拉斯普京
+那种人类会立于密林顶点的发展视作他们自身的禁忌。
+[k]
+
+＠拉斯普京
+另一方面，[r]他们对天文学怀有异常程度的兴趣。
+[k]
+
+＠拉斯普京
+其精确度在古代文明中亦属最高水准。[r]他们对宇宙怀有异常强烈的兴趣与敬意[line 3]
+[k]
+
+[charaFace E 3]
+
+＠拉斯普京
+同时也心怀恐惧。[r]这是为何？　不言自明。
+[k]
+
+＠拉斯普京
+因为他们的祖先正是受来自苍穹之物威胁的[r][#受害者一方]。
+[k]
+
+[charaFace E 7]
+＠拉斯普京
+他们从这片中南美的土地上，[r]读出了世界被来自宇宙的异物毁灭的[#事实:记忆]。
+[k]
+
+＠拉斯普京
+在阿兹特克神话中，[r]世界曾多次迎来毁灭。
+[k]
+
+＠拉斯普京
+[%1]，[r]你知道具体次数是多少吗？
+[k]
+
+？1：这个的话，我记得是[line 3]
+？2：（玛修给我讲解过的是……）
+
+？！
+
+[charaSet B 1098252900 1 特佩乌]
+
+[charaFace E 0]
+
+＠拉斯普京
+没错，五次。准确的说是四次，[r]第五次是阿兹特克神话的『现在』。
+[k]
+
+＠拉斯普京
+世界本身毁灭的神话为数不少，[r]但毁灭、重生，再毁灭、重生的循环，
+[k]
+
+＠拉斯普京
+只能在阿兹特克神话中觅见。
+[k]
+
+＠拉斯普京
+阿兹特克……中南美有着明确的『灭绝』与『重生』的记忆，[r]且人们将此视作前车之鉴。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+原来如此。既然已经发生过好几次，[r]那确实会去学习并拟定对策吧。
+[k]
+
+＠特佩乌
+而学习的就是天文学，[r]对策就是『活祭』吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠拉斯普京
+嗯。在阿兹特克文明中，[r]人们相信世界每52年就会毁灭一次。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+年？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠拉斯普京
+那是名为[#太阳历:Xiuhpohualli]与[#祭祀历:Tonalpohualli]的[r]两种历法重叠之日，
+[k]
+
+＠拉斯普京
+这个时候，太阳会丧失力量，世界会没入黑暗中。
+[k]
+
+＠拉斯普京
+这就是阿兹特克世界的毁灭。
+[k]
+
+＠拉斯普京
+然后在那个夜晚，阿兹特克的人民……[r]会在首都特诺奇蒂特兰举行盛大的仪式。
+[k]
+
+＠拉斯普京
+人们躲在家里，在『明天已不会到来』的恐惧中，[r]祈祷着太阳的复活，
+[k]
+
+＠拉斯普京
+阿兹特克的神官们则领受人们的愿望与狂热，[r]从活祭身上活生生地挖出心脏，献上祭坛。
+[k]
+
+＠拉斯普京
+就这样，让太阳得到能让世界存续[r]『下一个52年』的活力，世界重获新生。
+[k]
+
+[charaFace E 7]
+
+＠拉斯普京
+活祭仪式既不是『献给神的供品』，[r]也不是支配民众的手段。
+[k]
+
+＠拉斯普京
+只是想让世界重获新生的祈愿。
+[k]
+
+[charaFace E 0]
+
+＠拉斯普京
+在阿兹特克神话中，[r]并非『世界获得拯救没有灭亡』。
+[k]
+
+＠拉斯普京
+而是[#毁灭注定会到来]。
+[k]
+
+＠拉斯普京
+灭亡不可避免，[r]这应该是中南美人民的共同认知吧。
+[k]
+
+＠拉斯普京
+也就是说，在这片土地上，生存残酷到[r]足以让他们接受这太阳与灭亡的世界观。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+难以置信。在场泛人类史的各位[r]分明都那么温和而理智。
+[k]
+
+＠特佩乌
+就没有人呼吁这种狂信……不，
+[k]
+
+＠特佩乌
+就没有人呼吁太阳的运行无关人类这一事实吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠拉斯普京
+在阿兹特克世界，这就是事实。
+[k]
+
+＠拉斯普京
+能够唱反调的，也只有生活在当时世界的人们。[r]我们只是为了不遗忘地进行记录而已。
+[k]
+
+[charaFace E 10]
+
+＠拉斯普京
+……话虽如此，[r]我认为它在魔术上是事实。
+[k]
+
+＠拉斯普京
+因为否定活祭仪式导致了阿兹特克帝国的毁灭。[r]他们的神话与世界，灭亡了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.1 1]
+
+＠高扬斯卡娅
+哈？　还有过这种事实吗？[r]难道是什么惊人的新颖解读？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠拉斯普京
+这是神话上的解读哦，高扬斯卡娅。
+[k]
+
+＠拉斯普京
+特斯卡特利波卡神与魁札尔·科亚特尔神。[r]我之前也说过，这二神是敌对关系……
+[k]
+
+＠拉斯普京
+但还没告诉各位他们『因何敌对』。[r]说到这份上，应该都明白了吧？
+[k]
+
+＠拉斯普京
+他们是两相对立的事象。[r]那就是[line 3]请回答，[%1]。
+[k]
+[bgm BGM_EVENT_79 1.5 0.6]
+
+？1：……职业摔角与手枪？
+
+[charaSet B 1098252940 1 特佩乌]
+
+[charaFace E 8]
+
+＠拉斯普京
+……你认识的魁札尔·科亚特尔神，该怎么说呢。[r]难道是淑女叉式升降机系的吗？
+[k]
+
+[charaFace E 0]
+＠拉斯普京
+不过，不为人种，而为『现在生活在那片土地上的人』，[r]为那片土地的文明能繁荣而欣喜，
+[k]
+
+[bgmStop BGM_EVENT_79 2.0]
+＠拉斯普京
+倒确实很有善神魁札尔·科亚特尔的风格……[r]正确答案是『活祭仪式』。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth S 2]
+[charaDepth F 3]
+
+[charaFace F 0]
+[charaFadein S 1.0 120,-300]
+[charaFadein F 1.0 120,0]
+[charaMoveFSL S -120,-300 120.0]
+[charaMoveFSL F -120,0 120.0]
+[wt 1.2]
+[charaFadeout E 0.1]
+[charaFace F 5]
+
+？2：…………活祭仪式？
+
+[charaSet B 1098252940 1 特佩乌]
+
+[bgmStop BGM_EVENT_79 1.0]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth S 2]
+[charaDepth F 3]
+
+[charaFace F 4]
+[charaFadein S 1.0 120,-300]
+[charaFadein F 1.0 120,0]
+[charaMoveFSL S -120,-300 120.0]
+[charaMoveFSL F -120,0 120.0]
+[wt 1.2]
+[charaFadeout E 0.1]
+[charaFace F 5]
+
+？！
+
+[bgm BGM_MAP_36 0.1]
+＠拉斯普京
+阿兹特克诸神中唯一反对『活祭制度』的，[r]就是魁札尔·科亚特尔神。
+[k]
+
+＠拉斯普京
+另一方面，特斯卡特利波卡神则是推进派。[r]这一对立鲜明地表现了二神的性质。
+[k]
+
+＠拉斯普京
+严厉守护着土地的教诲[r]与中南美人民的特斯卡特利波卡。
+[k]
+
+＠拉斯普京
+认为人们的生活应当变得更美好，[r]逐渐破坏固有观念的自由之风，魁札尔·科亚特尔。
+[k]
+
+＠拉斯普京
+于16世纪登陆南美，目睹了阿兹特克帝国的繁荣[line 3]
+[k]
+
+＠拉斯普京
+地表最顶尖的水上都市，[r]如美丽宝石的特诺奇蒂特兰的西班牙人惊愕不已。
+[k]
+
+＠拉斯普京
+『如此美妙的水上都市在世上遍寻不着。[r]　然而[line 3]』
+[k]
+
+＠拉斯普京
+『为何活祭这般可怕的原始教诲，[r]　会成为这里的国教呢』。
+[k]
+
+＠拉斯普京
+于是在西班牙人眼中，[r]认同活祭的特斯卡特利波卡被认知为恶神，
+[k]
+
+＠拉斯普京
+而否定活祭的魁札尔·科亚特尔则被认知为善神。
+[k]
+
+＠拉斯普京
+话说回来，时任特诺奇蒂特兰国王的[r]莫特库索马二世，
+[k]
+
+＠拉斯普京
+无条件地邀请西班牙人的队长，日后的征服者[r]埃尔南·科尔特斯进入都城一事，
+[k]
+
+＠拉斯普京
+你们都知道吧。
+[k]
+
+＠拉斯普京
+他为何要邀请埃尔南·科尔特斯呢？
+[k]
+
+＠拉斯普京
+『埃尔南·科尔特斯是曾经遭到流放，[r]　再度回到此处的魁札尔·科亚特尔神。』
+[k]
+
+＠拉斯普京
+据说是因为这种传闻的流传，[r]但这说法多少有些值得怀疑。
+[k]
+
+＠拉斯普京
+特诺奇蒂特兰所祭祀的神明，[r]是雨神特拉洛克与部族神维齐洛波奇特利。
+[k]
+
+＠拉斯普京
+国王会那么欢迎抗拒『活祭仪式』的[r]魁札尔·科亚特尔神吗？
+[k]
+
+[messageOff]
+[charaFadeout S 0.5]
+[charaFadeout F 0.5]
+[wt 0.7]
+[charaSet F 1098257500 1 拉斯普京_扩大]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠玛修
+听您这么一说……好像确实如此。
+[k]
+
+＠玛修
+都说是莫特库索马二世遭到[r]埃尔南·科尔特斯的欺骗……
+[k]
+
+[charaFace C 7]
+
+＠玛修
+这只是我的突发奇想，假如他其实[r]想反过来利用埃尔南·科尔特斯的话……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠拉斯普京
+没错。根据记录，与勇猛果敢的历代国王相比，[r]莫特库索马二世显得比较羸弱，
+[k]
+
+＠拉斯普京
+不过他的长处在于自身的智慧、富有人情味的宽容，[r]以及最关键的对阿兹特克帝国未来的想象力。
+[k]
+
+＠拉斯普京
+他或许认为长此以往，阿兹特克帝国将会被其他部族[r]毁灭，所以才打算引入外部力量[line 3]
+[k]
+
+＠拉斯普京
+才打算引入西班牙人的文化吧。
+[k]
+
+＠拉斯普京
+为此需要破坏活祭文化的地基。[r]『魁札尔·科亚特尔神再世』……
+[k]
+
+＠拉斯普京
+被这么称呼的埃尔南·科尔特斯，[r]在他看来正是突然从天而降的武器。
+[k]
+
+＠拉斯普京
+于是乎，国王明知是毒，还是邀请征服者入内。[r]然而，却因意料之外的因素在尔虞我诈中败下阵来。
+[k]
+
+＠拉斯普京
+埃尔南·科尔特斯是对中南美文化一无所知，[r]完全摸不清方向的访客。
+[k]
+
+＠拉斯普京
+莫特库索马王应该认为自己能[r]轻松拿捏这么个人吧。
+[k]
+
+＠拉斯普京
+无奈埃尔南·科尔特斯在那之前[r]邂逅了幸运女神。
+[k]
+
+＠拉斯普京
+一个名叫玛琳切的中南美人。
+[k]
+
+＠拉斯普京
+这位才女曾是某座都市的贵族千金，[r]后来被卖给敌对部族，沦落为奴隶之身。
+[k]
+
+＠拉斯普京
+对曾作为贵族接受过教育的玛琳切而言，[r]理解西班牙人的语言易如反掌。
+[k]
+
+＠拉斯普京
+她向埃尔南·科尔特斯传授了语言和文化，[r]尤为详细地调查并汇报了阿兹特克帝国的软肋。
+[k]
+
+＠拉斯普京
+最终，莫特库索马王在与埃尔南·科尔特斯的[r]尔虞我诈中败下阵来，
+[k]
+
+＠拉斯普京
+阿兹特克帝国也败给了西班牙帝国。
+[k]
+
+＠拉斯普京
+都说那是西班牙人的600骑兵对阵[r]阿兹特克帝国20万士兵的奇迹般的胜利，
+[k]
+
+＠拉斯普京
+但其实毁灭了阿兹特克帝国的，是玛琳切，[r]以及过去因阿兹特克帝国而饱尝辛酸的[line 2]
+[k]
+
+＠拉斯普京
+周边部族的联军。
+[k]
+
+＠拉斯普京
+[line 3]不过继阿兹特克帝国之后，[r]那些部族后来也被西班牙人毁灭了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+……原来如此。
+[k]
+
+＠特佩乌
+设法取消『活祭仪式』的国王，[r]反而招致了阿兹特克帝国的灭亡……
+[k]
+
+＠特佩乌
+以结果而言，他们的文化在那时迎来了终焉。[r]反过来说，『活祭仪式』就是有意义的。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠拉斯普京
+虽然前提必须抛开道德与人权的视角就是了。
+[k]
+
+＠拉斯普京
+光亮照向了自神话时代延续下来的『重生仪式』[line 3][r]名为神秘的未明黑暗。
+[k]
+
+＠拉斯普京
+就在那个时候，他们的太阳毁灭了。
+[k]
+
+[bgmStop BGM_MAP_36 1.2]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth R 2]
+[charaDepth B 3]
+[charaDepth F 4]
+[charaDepth D 5]
+
+[charaScale B 1.2]
+[charaScale F 1.0]
+
+[charaFace B 0]
+[charaFace F 7]
+[charaFadein R 1.0 0,-400]
+[charaFadeinFSR B 1.0 206,60]
+[charaMove R 50,-400 1.0]
+[charaMoveFSR B 256,60 1.0]
+[wt 1.2]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 5]
+[charaFadeinFSL F 0.4 -256,-100]
+
+＠F：拉斯普京
+对此我有个疑问，特佩乌氏。[r]在这米克特兰，太阳可曾消失过？
+[k]
+
+？1：！
+？2：（哦哦，所以才要说刚才那些。）
+
+？！
+
+[charaTalk B]
+[charaFaceFade B 4 0.2]
+
+＠特佩乌
+[line 3][r][line 6]
+[k]
+
+[bgm BGM_EVENT_70 0.1]
+
+＠特佩乌
+是的，消失过。
+[k]
+
+＠特佩乌
+虽然我未曾体验过，据说在很久很久以前，[r]迈雅曾一度被遮蔽，太阳曾一度不见踪影。
+[k]
+
+＠特佩乌
+在迪诺斯之间，那被称作『恐怖之夜』。[r]据说在非常漫长的时间内，太阳消失，夜晚持续着。
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+
+＠F：拉斯普京
+嗯……那么奥塞洛特尔的仪式也具有正当性。[r]毕竟在米克特兰有着太阳消失的前例。
+[k]
+
+＠F：拉斯普京
+他们是认真想要复苏泛人类史的阿兹特克文明。[r]要阻止『活祭仪式』这件事恐怕很困难吧。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0,-30]
+
+＠高扬斯卡娅
+贸然阻止便会与10万奥塞洛特尔开战。[r]这次[#征服者:我方]确实没有胜算吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace B 0]
+[charaFace F 3]
+[charaFadeinFSR B 0.1 256,60]
+[charaFadeinFSL F 0.1 -256,-100]
+
+＠F：拉斯普京
+看来只能趁仪式的空档营救人质，[r]然后直接逃脱了吧。
+[k]
+
+＠F：拉斯普京
+……话说，特佩乌氏。你知道有谁[r]比较了解那所谓的『恐怖之夜』吗？
+[k]
+
+[charaTalk B]
+
+＠特佩乌
+这件事只在神官间口耳相传。[r]我只知道有过这么一件事。
+[k]
+
+＠特佩乌
+有机会知道的只有[#太阳的教诲:库库尔坎]，[r]以及天文台的……
+[k]
+
+[charaFaceFade B 4 0.2]
+
+＠特佩乌
+不，没什么。
+[k]
+
+＠特佩乌
+说不定奇琴伊察的玉座，[r]太阳遍历还留有详细的记载。
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+
+＠F：拉斯普京
+我知道了。[r]那以后有机会就调查一下吧。
+[k]
+
+[bgmStop BGM_EVENT_70 1.2]
+
+[messageOff]
+[charaTalk off]
+[charaFace E 0]
+[charaFadeout R 1.0]
+[charaFadeout B 1.0]
+[charaFadeout F 1.0]
+[wt 1.2]
+
+[charaScale B 1.0]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk E]
+[charaFace E 5]
+
+＠拉斯普京
+让大家久等了，迦勒底的诸位。[r]我们进入正题吧。
+[k]
+
+[bgm BGM_EVENT_124 0.1]
+
+＠拉斯普京
+到明天，他们将会用迦勒底的人[r]来举行『活祭仪式』。
+[k]
+
+＠拉斯普京
+我们能做的只有抢在『仪式』前救出俘虏……
+[k]
+
+[charaFace E 3]
+
+＠拉斯普京
+不得不告知各位一个相当遗憾的事实。
+[k]
+
+＠拉斯普京
+俘虏被关押的地点在特拉洛克神的神殿地底。
+[k]
+
+＠拉斯普京
+神殿的周围部署着数量令人难以置信的奥塞洛特尔。
+[k]
+
+＠拉斯普京
+别说营救了，就连接近他们都很困难吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 30]
+[charaFadein D 0.1 1]
+
+＠高扬斯卡娅
+你那边已经找到了啊。[r]难怪会慢悠悠地谈论活祭的话题。
+[k]
+
+＠高扬斯卡娅
+看你那表情，是已经得出结论了吧？[r]不过，估计跟我的想法一样吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠拉斯普京
+嗯。现在不可能潜入神殿。[r]但到明天就另当别论了。
+[k]
+
+＠拉斯普京
+相传在泛人类史阿兹特克的『活祭仪式』……[r][#世界新生祭典:Toxiuhmolpilia]上，
+[k]
+
+＠拉斯普京
+全体民众都会为祈祷仪式成功而停止战斗，[r]匍匐在地上。
+[k]
+
+＠拉斯普京
+奥塞洛特尔们应该也会模仿这种习俗。[r]至少待在外面的战士全都会参加仪式吧。
+[k]
+
+＠拉斯普京
+估计神殿内多少也会有一些士兵。[r]这部分就由[%1]来解决。
+[k]
+
+＠拉斯普京
+也就是说，
+[k]
+
+？1：要在明天仪式即将开始时潜入并救出大家！
+
+？！
+
+[charaFace E 5]
+
+＠拉斯普京
+没错。而今晚这位能干的兔女郎[r]应该会帮忙调查好潜入路线吧。
+[k]
+
+＠拉斯普京
+我们就养精蓄锐，天一亮就前往神殿。[r]这样安排如何？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 31]
+[charaFadein D 0.1 1]
+
+＠高扬斯卡娅
+哪有什么如不如何。[r]除此以外没有别的办法了吧。
+[k]
+
+[charaFace D 0]
+
+＠高扬斯卡娅
+好吧。[r]确保潜入路径的任务就交给我吧。
+[k]
+
+＠高扬斯卡娅
+各位就继续畅谈好了。赌上NFF服务之名，[r]我定将开辟出一条安全的路线。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_124 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

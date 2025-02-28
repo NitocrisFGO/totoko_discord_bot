@@ -1,0 +1,650 @@
+
+＄03-00-13-16-3-1
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098256600 1 希基克]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098231510 1 玛修]
+[charaSet D 1098257300 1 达·芬奇]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098252410 1 库库尔坎]
+[charaSet G 1098255300 1 尼托克丽丝]
+[charaSet H 4018001 1 魁札尔·科亚特尔]
+
+[sceneSet I 171701 1]
+[charaScale I 1.01]
+[charaDepth I 10]
+
+[sceneSet J 173700 1]
+[charaScale J 1.2]
+
+[sceneSet K 173700 1]
+[charaScale K 1.2]
+[sceneSet L 173700 1]
+
+
+[scene 173700]
+[pictureFrame cut063_cinema]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_147 0.1]
+
+[subCameraOn]
+[charaLayer A sub]
+[charaLayer L sub]
+[charaScale A 1.2]
+[charaScale L 1.5]
+[charaDepth A 2]
+[charaDepth L 1]
+[charaFace A 0]
+[charaFadein A 0.1 330,240]
+[charaFadein L 0.1 -20,-150]
+[subCameraFilter maskEdge cut359_mask07 4 175,180,219,255]
+[subRenderFadein 0.2 0,-320]
+[wt 0.2]
+
+＠希基克
+要让各位见识戴比特的行动需要准备。[r]可以麻烦大家在外面等候吗？
+[k]
+
+[subRenderFadeout 0.2]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠特佩乌
+哎哟。既然如此，干脆拜托你们去[r]摆平穹顶周边那些失智迪诺斯吧。
+[k]
+
+＠特佩乌
+仪式上使用的[#龙舌兰:Maguey][#酿造酒:Pulque]的气味[r]会将他们吸引过来。
+[k]
+
+[messageOff]
+[bgm BGM_EVENT_147 1.5 0.3]
+[fadeout black 1.5]
+[wait fade]
+[pictureFrame]
+[charaFadeout B 0.1]
+[scene 173600]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_147 1.0 1.0]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠玛修
+已顺利将穹顶周边的失智迪诺斯群[r]驱赶至高台下的树海了。
+[k]
+
+＠玛修
+说是一准备好，[r]特佩乌先生就会来通知我们。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 34]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+这样啊。那我先去树荫下休息一会儿吧。[r]我想整理一下刚才的新情报。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠哈贝特洛特
+咱也回归基态好了。最近一直待在外头，[r]多少得节约点魔力才行。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠库库尔坎
+大家都按各自的方法歇息了吧。[r]难得来一趟湖边，要不要游会儿泳？
+[k]
+
+？1：（呜……虽然很有吸引力，但目前正在作战……忍耐忍耐……）
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠玛修
+嗯……很遗憾，我没带泳装灵衣来……[r]这是我一生中最大的失策……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 14]
+[charaFadein F 0.1 1]
+
+＠库库尔坎
+这样啊，那下次有机会再玩水吧。
+[k]
+
+＠库库尔坎
+毕竟我独自嬉闹会显得有些丢人，[r]或者说有损神之威严……
+[k]
+
+？2：库库尔坎在水里也不要紧吗？
+
+[charaFace F 13]
+
+＠库库尔坎
+[FFFFFF]？[-]　当然不要紧啦？[r]我可是水陆空宇宙全环境适用型的。
+[k]
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠玛修
+那尼托克丽丝小姐呢？[r]说到沐浴，就会想到尼罗河[line 3][wt 1.0]咦？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠库库尔坎
+尼托克丽丝小姐去穹顶内部了。[r]说是有事想问希基克。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠玛修
+这样啊。希基克小姐博学多识，[r]肯定能给出令人满意的答案吧。
+[k]
+
+[charaFace C 3]
+
+＠玛修
+……啊，提起希基克小姐。[r]特佩乌先生与希基克小姐，那个……
+[k]
+
+＠玛修
+以我们的习惯来说，应该算夫妻，[r]或是恋人之类的关系吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+
+＠库库尔坎
+哈哈。玛修小姐还真是充满好奇心呢。[r]这点果然令人在意吧？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+[bgmStop BGM_EVENT_147 1.5]
+＠玛修
+不，我没有什么深意，只是有些期待[r]如果真是这样就好了！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 20]
+[charaFadein F 0.1 1]
+
+＠库库尔坎
+是啊，如果真是这样就好了，[bgm BGM_SHINYAMA_1 0.1][r]但他们俩一直保持着朋友关系哦。
+[k]
+
+[charaFace F 12]
+
+＠库库尔坎
+希基克只是拥有迪诺斯外貌的非迪诺斯生命。
+[k]
+
+＠库库尔坎
+不会与[#人类:人]一同生活、结为连理，[r]或是获得解放。
+[k]
+
+＠库库尔坎
+她的使命就是自[#诞生:起始]至[#消失:终结][r]都要一直眺望……不，监视米克特兰。
+[k]
+
+＠库库尔坎
+无论发生什么，[r]她都无法离开梅兹蒂特兰。
+[k]
+
+＠库库尔坎
+以前的特佩乌对这一事实心怀不满，[r]试图寻找能让希基克获得自由的办法，
+[k]
+
+＠库库尔坎
+但结果未能如愿。
+[k]
+
+＠库库尔坎
+他为何要隐居在第一层呢？
+[k]
+
+[charaFace F 0]
+
+＠库库尔坎
+以前的我没能想通理由，[r]但在变成了人型的当下，我总算明白了。
+[k]
+
+＠库库尔坎
+特佩乌无法允许拯救不了希基克的自己[r]成为『幸福的迪诺斯』。
+[k]
+
+＠库库尔坎
+为了惩罚无能为力的自己，他不与任何人接触，[r]一直在世界的尽头研究着『死亡的概念』。
+[k]
+
+？1：死亡的概念……？　为什么？
+
+？！
+
+[charaFace F 11]
+
+＠库库尔坎
+这我就不能说了。[r]因为我的少女[#情结:心]正好评Grow Up中哦♡
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠玛修
+Grow Up……那个，库库尔坎小姐。[r]有件事，我们几个一直在私底下讨论……
+[k]
+
+＠玛修
+库库尔坎小姐生来就是现在这个模样吗？
+[k]
+
+＠玛修
+米克特兰的人类是迪诺斯。[r]您身为他们的神，应该是恐龙型才合理吧？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+
+[bgmStop BGM_SHINYAMA_1 2.0]
+＠库库尔坎
+你[messageShake 0.05 4 4 0.6]的意思是我缺乏常识吗～！？
+[k]
+
+[charaFace F 2]
+
+＠库库尔坎
+开玩笑的，别当真！
+[k]
+
+
+＠库库尔坎
+虽然我还不太懂什么常识或感情，[r]但我知道那是非常重要的东西！
+[k]
+
+[charaFace F 0]
+[bgm BGM_MAP_41 0.1]
+
+＠库库尔坎
+我确实是诞生于米克特兰的神明。
+[k]
+
+＠库库尔坎
+不过，像这样作为单独个体成形，[r]还是最近的事。
+[k]
+
+＠库库尔坎
+在那之前，我不过是只有迪诺斯们才能感受到的风……[r]『[#太阳的教诲:库库尔坎]』。
+[k]
+
+[charaFace F 9]
+
+＠库库尔坎
+一年前[line 3]泛人类史的知识被带入米克特兰时，[r]『我们』得知了神的概念，
+[k]
+
+＠库库尔坎
+以及库库尔坎这个词是用来指代神的。[r]就在那个瞬间，我变成了这个形态。
+[k]
+
+＠库库尔坎
+为以往不可见的东西赋予形体。[r]将仅仅是感觉的东西，作为事实来讲述。
+[k]
+
+＠库库尔坎
+对『我们』来说，[r]这是强烈到足以打破世界之壁的冲击。
+[k]
+
+＠库库尔坎
+『所谓的神，只会诞生于拥有智慧的人型人类。[r]　我们也该模仿其外形。』
+[k]
+
+[charaFace F 1]
+
+＠库库尔坎
+于是乎，等回过神来时，[r]我已经被扔在奇琴伊察了！
+[k]
+
+[charaFace F 3]
+
+＠库库尔坎
+一丝不挂地哦！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 21]
+[charaFadein C 0.1 1]
+
+＠玛修
+一，一丝不挂吗！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠库库尔坎
+是的……由于当时还没有什么情绪之类的，[r]所以就直接与神官们谈起来了。
+[k]
+
+＠库库尔坎
+不过我很快就意识到『奇怪，总觉得静不下来。』[r]『我是不是做了什么不得了的事？』
+[k]
+
+＠库库尔坎
+于是便学习了泛人类史的整套常识，[r]以迅雷不及掩耳之势抢走了眼前那个迪诺斯的衣服！
+[k]
+
+[charaFace F 11]
+
+＠库库尔坎
+顺带一提，当时的迪诺斯就是特佩乌。
+[k]
+
+＠库库尔坎
+虽然已经隐居到第一层了，但当我还是风的时候，[r]他就是经常倾听『我们』声音的迪诺斯。
+[k]
+
+？1：这样啊，如果是当时的库库尔坎……
+
+[messageOff]
+[charaTalk off]
+[charaDepth H 1]
+[charaDepth F 2]
+[charaPut H -300,0]
+[charaFace H 0]
+[charaFadeTime H 0.5 0.5]
+[wt 1.2]
+[charaFadeout H 0.5]
+[wt 0.8]
+
+？2：然后就投奔墨西哥最前沿的时尚了……
+
+？！
+
+[charaFace F 15]
+
+＠库库尔坎
+当时的事我已全力当作从未发生过了，[r]所以拜托各位不要找特佩乌打听。
+[k]
+
+[charaFace F 0]
+
+＠库库尔坎
+综上所述啦，我就成了人类的样貌[line 3][r]成了模仿泛人类史库库尔坎神的形象。
+[k]
+
+＠库库尔坎
+希基克是永远维持在一岁[r]不会成长的Archetype，
+[k]
+
+＠库库尔坎
+而我则是一年前才诞生的神明。
+[k]
+
+[charaFace F 20]
+
+＠库库尔坎
+后来我发现了那个在奇琴伊察附近[r]骑着迪诺斯玩国王过家家的臭小鬼[line 3]
+[k]
+
+＠库库尔坎
+不，应该是少年特斯卡特利波卡，[r]并让他当上了奇琴伊察之王，
+[k]
+
+[charaFace F 2]
+
+＠库库尔坎
+而我则为了体验最新的文化，[r]去墨西哥城四处游玩啦～！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠玛修
+原来如此，是出于对大都会的憧憬吧。我能理解。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 13]
+[charaFadein F 0.1 1]
+[wt 1.4]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠玛修
+要是身在相同的立场上，我也无法否定自己[r]不会溜出迦勒底基地跑去[#最近城市:乌斯怀亚]呢。
+[k]
+
+[charaFace C 3]
+
+＠玛修
+啊，不对，不是这个问题。
+[k]
+
+[charaFace C 0]
+
+＠玛修
+根据以上情况进行推测………[r]库库尔坎小姐的本质并非『迪诺斯之神』，
+[k]
+
+＠玛修
+而是米克特兰的造物主『迈雅』创造出来的[r]他们的代表[line 3]
+[k]
+
+＠玛修
+Archetype：Mictlan，是这样吧？
+[k]
+
+？1：对哦……既然陨石也是星星，
+？2：那也可能拥有头脑体……！
+
+？！
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+[wt 1.2]
+[charaFace F 11]
+
+＠库库尔坎
+是的，[r]所以我和希基克很合得来。
+[k]
+
+＠库库尔坎
+她可以说是Archetype：Meta-Earth。[r]毕竟我们都[#没能成为那样]。
+[k]
+
+[messageOff]
+[bgmStop BGM_MAP_41 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout F 0.1]
+[scene 173700]
+
+[charaFadein J 0.1 50,-250]
+[fowardEffect bit_talk_incense_01]
+[wt 1.5]
+[charaTalk depthOff]
+[charaDepth A 1]
+[charaDepth J 2]
+[charaDepth G 3]
+[charaTalk off]
+[charaFace A 2]
+
+[charaMove J -50,-250 6.0]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_76 0.1]
+[wt 3.5]
+[charaFadeout J 1.0]
+[wt 1.2]
+[subRenderFadein 0.4 0,-320]
+[wt 0.4]
+
+＠希基克
+『冥界的守卫』[line 3]卡玛佐茨是如何[r]让从者变成守卫的？
+[k]
+
+[messageOff]
+[subRenderFadeout 0.5]
+
+[charaScale G 1.1]
+[charaFadein J 0.5 -100,-200]
+[charaMove J -120,-200 0.5]
+[charaFace G 11]
+[charaFadein G 0.5 250,0]
+[charaMove G 230,0 0.5]
+
+＠尼托克丽丝
+没错。[r]光使用令咒是不可能导致什么异灵化的。
+[k]
+
+＠尼托克丽丝
+背后应该还隐藏着某种秘密、某种仪式。[r]……某种足以改变存在、束缚生命的东西。
+[k]
+
+[charaFace G 9]
+[charaDepth K 5]
+[charaDepth A 6]
+
+＠尼托克丽丝
+希基克，你说过自己观测着[r]发生在米克特兰的所有事。
+[k]
+
+＠尼托克丽丝
+既然如此，你应该能回答我的问题。[r]她们被做了什么。
+[k]
+
+＠尼托克丽丝
+[#该怎么做]，[#才能成为冥界的守卫呢]？
+[k]
+
+[messageOff]
+[charaFadein K 0.5 100,-200]
+[charaMove K 120,-200 0.5]
+[charaFace A 0]
+[wt 0.5]
+
+[subRenderFadein 0.4 0,-320]
+[wt 0.4]
+
+＠希基克
+[line 3]你认为自己有这份觉悟，[r]有必要这么做吧，尼托克丽丝。
+[k]
+
+＠希基克
+那么，我就如实描述我所见到的经过吧。[r]描述被部署在冥界线的泛人类史英灵们……
+[k]
+
+＠希基克
+原本就拥有『自己的冥界』的那几位，[r]是如何变成米克特兰[#异灵:神明]的。
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_76 2.0]
+[wait fade]
+[wt 1.0]
+[soundStopAll]
+[end]
+

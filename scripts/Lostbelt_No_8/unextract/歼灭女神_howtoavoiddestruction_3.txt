@@ -1,0 +1,841 @@
+
+
+
+＄04-00-02-14-3-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 7046001 1 难敌]
+[charaSet B 7046001 1 难敌2]
+[charaSet C 1098270000 1 希翁]
+[charaSet D 6037001 1 迦摩]
+[charaSet E 1098267000 1 杜尔伽]
+[charaSet F 1098269100 1 拉妮－ⅩⅡ]
+[charaSet G 3054001 1 怖军]
+[charaSet H 1098269300 1 塞蕾雪拉]
+[charaSet I 1098269200 1 奥西里斯之尘]
+
+[sceneSet J 10000 1]
+[charaScale J 1.05]
+[sceneSet K 189601 1]
+[charaScale K 1.2]
+[sceneSet L 189601 1]
+[charaScale L 1.3]
+[sceneSet M 189601 1]
+[charaScale M 1.3]
+[sceneSet N 189601 1]
+[charaScale N 1.1]
+
+[charaSet S 5009000 1 特效用1]
+[charaSet T 5009000 1 特效用2]
+
+[scene 189601]
+
+[subCameraOn 3]
+[charaLayer L sub #A]
+[charaLayer B sub #A]
+[charaLayer M sub #B]
+[charaLayer G sub #B]
+[charaLayer N sub #C]
+[charaLayer D sub #C]
+
+[subCameraFilter #A maskEdge cut359_mask05 4 0,0,0,255 0]
+[subCameraFilter #B maskEdge cut359_mask05 4 0,0,0,255 0]
+[subCameraFilter #C maskEdge cut359_mask05 4 0,0,0,255 0]
+
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth B 2]
+[charaDepth M 1]
+[charaDepth G 2]
+[charaDepth N 1]
+[charaDepth D 2]
+
+[charaScale B 1.2]
+[charaScale G 1.32]
+[charaFace B 15]
+[charaFace G 15]
+[charaFace D 2]
+[charaFadein L 0.1 320,150]
+[charaFadein M 0.1 -320,150]
+[charaFadein N 0.1 0,140]
+[charaFadein B 0.1 0,320]
+[charaFadein G 0.1 50,345]
+[charaFadein D 0.1 0,300]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_BATTLE_184 0.1]
+
+[blur lens 0.5 2 20]
+[charaTalk B]
+[subRenderFadeinFSL #A 0.3 -300,-280]
+[subRenderMoveFSL #A -300,-330 0.3]
+[wt 0.5]
+
+＠B：难敌
+可恶。[r]讨厌，讨厌，啊，讨厌得要死！
+[k]
+
+＠B：难敌
+本老爷为什么非得跟这种家伙[line 3]
+[k]
+
+[messageOff]
+[charaTalk G]
+[subRenderFadeinFSR #B 0.3 300,-280]
+[subRenderMoveFSR #B 300,-330 0.3]
+[wt 0.5]
+
+＠怖军
+并肩战斗不可，是吗？
+[k]
+
+[charaFace G 6]
+
+＠怖军
+别担心，我也在强忍着同样的心情！
+[k]
+
+[messageOff]
+[charaTalk D]
+[subRenderFadein #C 0.3 0,-380]
+[subRenderMove #C 0,-330 0.3]
+[wt 0.5]
+
+＠迦摩
+我不会要求你们友好相处，[r]但至少步调配合一下啊！
+[k]
+
+[messageOff]
+[blurOff lens 0.5]
+[subRenderFadeout #A 0.5]
+[subRenderFadeout #B 0.5]
+[subRenderFadeout #C 0.5]
+[wt 0.5]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaLayer L normal]
+[charaLayer M normal]
+[charaLayer N normal]
+[charaLayer B normal]
+[charaLayer G normal]
+[charaLayer D normal]
+[charaScale B 1.0]
+[charaScale G 1.0]
+[wt 0.1]
+
+[bgm BGM_BATTLE_184 0.5 0.5]
+
+[charaDepth J 1]
+[charaDepth A 2]
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+[charaPut J 0,-200]
+[charaFadeTime J 0.2 0.5]
+
+＠难敌
+（啊啊可恶。虽然说过好多遍了，但还是可恶。[r]　至于哪一点最可恶[line 3]）
+[k]
+
+＠难敌
+（那就是怖军，这家伙，[r]　果然还是怖军这一点，最可恶啊！）
+[k]
+
+[charaFace A 6]
+
+＠难敌
+（对手可是女神啊……！）
+[k]
+
+[charaFadeout J 0.2]
+[charaFadeout A 0.2]
+[wt 0.2]
+
+[bgm BGM_BATTLE_184 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 1]
+
+＠怖军
+哈哈哈，女神杜尔伽啊！
+[k]
+
+＠怖军
+我总记得自己曾受过你的加护，[r]没想到竟有机会直接跟你干架！
+[k]
+
+＠怖军
+这种机会千载难逢，我可要全力以赴了哦！
+[k]
+
+[charaFace G 2]
+
+＠怖军
+欧啦啊啊啊！
+[k]
+
+[messageOff]
+[se ad85]
+[effect bit_talk_gram_slash_02_fs]
+[wt 0.3]
+[charaFadeout G 0.1]
+[wt 0.3]
+
+[se ad1014]
+[wt 0.1]
+[fowardEffect bit_talk_14]
+[wt 0.2]
+[charaScale E 1.3]
+[charaTalk E]
+[charaFace E 31]
+[charaShake E 0.03 2 2 0.5]
+[charaFadein E 0.4 0,30]
+[charaShake E 0.05 2 2 0.4]
+[se ad543]
+[seVolume ad543 0 0.5]
+[se ad671]
+[seStop ad671 0.7]
+[seStop ad543 0.7]
+[charaMoveScale E 1.0 0.5]
+[charaMove E 0,0 0.5]
+[wt 1.0]
+
+＠杜尔伽
+……呜。
+[k]
+
+？1：看来，是将对手顶回去了……！
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[subCameraOn 3]
+[charaLayer L sub #A]
+[charaLayer H sub #A]
+[charaLayer M sub #B]
+[charaLayer N sub #C]
+
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+[subRenderDepth #C 3]
+[charaDepth L 1]
+[charaDepth H 2]
+
+[charaScale L 1.2]
+[charaScale M 1.44]
+[charaScale N 1.44]
+
+[charaFace H 0]
+[charaFadein L 0.1 -60,110]
+[charaFadein M 0.1 0,-430]
+[charaFadein N 0.1 280,-200]
+[charaFadeinFSR H 0.1 90,300]
+[subCameraFilter #A maskEdge cut359_mask16 4 0,0,0,255 0]
+[subCameraFilter #B through]
+[subCameraFilter #C through]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠希翁
+是的。不愧是印度的大英雄。[r]但是不能掉以轻心，继续保持警戒！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth K 1]
+[charaDepth I 2]
+
+[charaFace I 8]
+[charaFadein K 0.8 120,-300]
+[charaFadeinFSL I 0.8 0]
+[subRenderFadein #A 0.8 200,-300]
+[wt 1.0]
+[charaFadeout C 0.1]
+
+[charaTalk on]
+[charaTalk I]
+
+＠奥西里斯之尘
+[#Lancer:枪兵]的御主啊，[r]为何突然参战？
+[k]
+
+＠奥西里斯之尘
+你对圣杯战争态度消极，[r]应该没有理由跟我敌对才是。
+[k]
+
+[charaTalk H]
+[charaFace H 1]
+
+＠塞蕾雪拉
+因为你瞧不起樱，[r]瞧不起那姑娘的愿望。
+[k]
+
+[charaTalk I]
+[charaFace I 0]
+
+＠奥西里斯之尘
+否定。[r]我理解[#Saber:剑士]御主的愿望。
+[k]
+
+＠奥西里斯之尘
+圆滑地运营[#生产部:Grow]。[r]哪怕受圣杯战争的影响一时功能不全，
+[k]
+
+＠奥西里斯之尘
+这一愿望还是藉由恒定调整功能得到了保障。
+[k]
+
+[charaTalk H]
+
+＠塞蕾雪拉
+……我指的不是这个。
+[k]
+
+[charaTalk I]
+
+＠奥西里斯之尘
+那么，只要你继续参与圣杯战争，成为胜利者，[r]继承综合统管ＡＩ就行了。
+[k]
+
+＠奥西里斯之尘
+你这个综合统管ＡＩ就可以随心所欲地[r]完美运营[#生产部:Grow]。
+[k]
+
+[charaTalk H]
+[charaFace H 2]
+
+＠塞蕾雪拉
+我指的也不是这个！
+[k]
+
+＠塞蕾雪拉
+如果没有她在场，[r]那个愿望就毫无意义了！
+[k]
+
+[charaFace H 1]
+
+＠塞蕾雪拉
+所以……你肯定，是错的。[r]那是个没有了她就毫无意义的愿望。
+[k]
+
+＠塞蕾雪拉
+才不像你说的那样，是他人的愿望，[r]是无关紧要的复制品。
+[k]
+
+[messageOff]
+[subRenderFadein #B 1.0 0,0]
+[charaMove M 0,-300 60.0]
+[wt 1.5]
+[subRenderFadeout #A 0.1]
+[charaFadeout I 0.1]
+[charaFadeout L 0.1]
+[charaLayer L normal]
+[charaLayer H normal]
+
+[cameraMove 0.1 0,-60 1.2]
+[charaMove K -240,-200 0.1]
+[charaMove H 1 0.1]
+
+＠
+没错[line 3]她的愿望，是包括她自身在内的，[r]温暖的存在。
+[k]
+
+＠
+对于她所期望的容身之处来说，[r]她果然是不可或缺的存在。
+[k]
+
+＠
+啊啊，果然。[r]自己早就知道了，没错。
+[k]
+
+＠
+为时已晚。
+[k]
+
+＠
+明明想救她，[r]明明如果能救她就好了，
+[k]
+
+＠
+身在此处的为何不是她，[r]而是没什么重要愿望的自己呢？
+[k]
+
+＠
+不断做出错误的选择。[r]……犯下，罪行。
+[k]
+
+[messageOff]
+[charaTalk H]
+[charaFace H 3]
+[subRenderFadeout #B 0.8]
+[wt 0.8]
+[charaFadeout M 0.1]
+[wt 0.1]
+[charaLayer M normal]
+[wt 0.1]
+
+＠塞蕾雪拉
+……[r]……
+[k]
+
+[messageOff]
+[charaDepth K 1]
+[charaDepth J 2]
+[charaDepth H 3]
+[subRenderFadein #C 1.0 0,0]
+[charaMove N 0,-200 60.0]
+[wt 1.5]
+
+＠
+我就是罪恶感的凝聚体。没错。[r]我对此有所自觉。
+[k]
+
+＠
+我肯定犯了罪。
+[k]
+
+＠
+犯下了仅此就足以让所谓的『自我』[r]被填满的罪孽，与后悔。
+[k]
+
+＠
+但是，正因如此，自己现在，
+[k]
+
+＠
+才唯独不想在其中，[r]增加这最新的[#后悔:罪孽]。
+[k]
+
+＠
+正是被罪恶感所包覆的自己才能下定决心的，[r]藏于污泥底部的自尊。
+[k]
+
+＠
+[line 3]为什么？
+[k]
+
+＠
+因为，如果再积累下去，[r]可能就赶不上了。
+[k]
+
+＠
+可能就赶不上那位于罪恶感尽头的答案了。
+[k]
+
+[bgm BGM_BATTLE_184 0.5 0.7]
+
+[messageOff]
+[subRenderFadeout #C 0.8]
+[wt 0.8]
+[charaFadeout N 0.1]
+[wt 0.1]
+[charaLayer N normal]
+[wt 0.4]
+[subCameraOff]
+
+[charaFace H 0]
+[charaPut J 0,-200]
+[charaFadeTime J 0.2 0.5]
+
+＠塞蕾雪拉
+（啊啊，原来是这样。说不定，这才是，[r]　我真正的[line 3]）
+[k]
+
+[bgmStop BGM_BATTLE_184 1.5]
+
+[messageOff]
+[charaFadeout J 0.2]
+[wt 1.0]
+[charaFace H 1]
+
+＠塞蕾雪拉
+[#Lancer:枪兵]。[r]我点的菜……能赶紧端上桌吗？
+[k]
+
+[bgm BGM_BATTLE_48 0.1]
+
+[messageOff]
+[charaTalk off]
+[charaMove K 0,-300 1.0]
+[charaMove H 240,-100 1.0]
+[cameraHome 1.0]
+[wt 0.6]
+[charaFadeout H 0.4]
+
+[charaScale G 1.2]
+[charaDepth G 4]
+[charaFace G 1]
+[charaFadein G 0.4 -96,70]
+[charaMove G 0,30 0.4]
+[wt 0.6]
+
+[charaTalk on]
+[charaTalk G]
+[charaFace G 1]
+
+＠怖军
+噢，抱歉。[r]毕竟这道菜比较费工夫嘛。
+[k]
+
+[charaFace G 2]
+
+＠怖军
+接下来，我要……加大火力啦！
+[k]
+
+[messageOff]
+[se ad574]
+[se ad744]
+[fadeout white 0.5]
+[wait fade]
+
+[charaPut G 1]
+[charaScale G 1.0]
+[charaChange G 3054002 2 normal 0.1]
+[charaFadeout K 0.1]
+[cameraMove 0.1 0,-20 1.1]
+[wt 2.0]
+
+[cameraHome 2.0]
+[fadein white 1.0]
+[seStop ad744 2.0]
+[wait fade]
+
+[charaPut T 1]
+[se ad626]
+[seVolume ad626 0 0.5]
+[charaEffect T bit_talk_lightning_01t_fs]
+[wt 1.0]
+[seStop ad626 0.8]
+[charaEffectStop T bit_talk_lightning_01t_fs]
+[wt 1.5]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgm BGM_BATTLE_48 0.5 0.5]
+
+[charaDepth J 1]
+[charaDepth A 2]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+[charaPut J 0,-200]
+[charaFadeTime J 0.2 0.5]
+
+＠难敌
+（可恶啊……）
+[k]
+
+＠难敌
+（你每次，都是这样。本老爷想要到心痒[r]　难耐的东西，你轻而易举就能[line 3]！）
+[k]
+
+[bgm BGM_BATTLE_48 0.5 1.0]
+
+[charaFadeout J 0.2]
+[charaFace A 5]
+
+
+＠难敌
+别，开……玩笑了！
+[k]
+
+＠难敌
+明明是本老爷，比较强！　管你是什么女神！[r]本老爷绝对，不能输给你！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.1 1]
+
+＠迦摩
+哎呀，干劲十足。真不错。
+[k]
+
+[charaFace D 6]
+
+＠迦摩
+御主，我也想加把劲，[r]麻烦你保证给我奖励哦♪
+[k]
+
+＠迦摩
+你想呀，应该已经知道是什么了吧？
+[k]
+
+？1：温柔地摸摸头之类的……？
+
+[charaFace D 7]
+
+＠迦摩
+没错！　就是这个！[r]御主果然知道呢！
+[k]
+
+？2：大肆称赞迦摩亲的话吗……
+
+[charaFace D 11]
+
+＠迦摩
+哎～？　虽然这也不错啦，但我想要感觉[r]更温暖一点的……或者说更实际一点的哦……？
+[k]
+
+？！
+
+[charaFace D 12]
+[charaMoveReturn D 0,-5 0.3]
+
+＠迦摩
+咳咳。总而言之。
+[k]
+
+[charaFace D 13]
+
+＠迦摩
+我的基本方针就是在御主陷入危机时大显身手[r]来获得想要的东西而已。
+[k]
+
+＠迦摩
+也就是Give＆Take。类似于，我事后会[r]找你拿奖励的，所以请千万不要忘记哦。
+[k]
+
+[charaFace D 4]
+
+＠迦摩
+唔，想要的东西？　我吗？[r]你指什么……？
+[k]
+
+[charaFace D 13]
+
+＠迦摩
+……算了。[r]总之为了奖励，我会加油的。
+[k]
+
+＠迦摩
+综上所述，我会在虎背熊腰二人组奋战的背后[r]干劲十足地提供支援～。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgm BGM_BATTLE_48 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth J 1]
+[charaDepth C 2]
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+[charaPut J 0,-200]
+[charaFadeTime J 0.2 0.5]
+
+＠希翁
+（果然如此。作为异常进入这里的我们，[r]　也无法逃过那个效果……）
+[k]
+
+＠希翁
+（说不定就是因为无法逃过，[r]　才会进入这里的吧。）
+[k]
+
+＠希翁
+（换言之，无论这个迦摩，还是我，[r]　都不是平常的我们[line 3]）
+[k]
+
+[bgm BGM_BATTLE_48 0.5 1.0]
+
+[charaFadeout J 0.2]
+[charaFace C 8]
+
+＠希翁
+……[r]……
+[k]
+
+[bgmStop BGM_BATTLE_48 2.0]
+
+[charaFace C 10]
+
+＠希翁
+不，虽然有很多话想说，[r]但现在的当务之急是打倒杜尔伽。
+[k]
+
+[charaSet E 1098267030 1 杜尔伽]
+
+[subCameraOn 1]
+[charaLayer L sub #A]
+[charaLayer E sub #A]
+
+[charaDepth L 1]
+[charaDepth E 2]
+
+[charaScale E 1.2]
+[charaFace E 1]
+[charaFadein L 0.1 -30,-300]
+[charaFadein E 0.1 90,0]
+[charaEffect E bit_talk_charge_red]
+[charaEffect E bit_talk_lightning_01r_fs]
+[subCameraFilter #A through]
+
+[charaFace C 2]
+
+＠希翁
+我要进一步提升思考速度了。要跟紧哦，[r][%1][&先生:小姐]！
+[k]
+
+[bgm BGM_BATTLE_168 0.1]
+
+[messageOff]
+[charaTalk off]
+[se ade446]
+[seVolume ade446 0 0]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.0 0.4]
+[seVolume ade446 1.0 0.3]
+[charaMove L -120,-300 20.0]
+[charaMove E 1 20.0]
+[subRenderFadein #A 1.0 0,0]
+[wt 1.5]
+[charaFadeout C 0.1]
+
+
+[charaDepth K 1]
+[charaDepth I 2]
+[charaScale K 1.44]
+[charaScale I 1.2]
+[charaFace I 3]
+[charaFadein K 0.1 200,-200]
+[charaFadein I 0.1 -90,0]
+
+[charaTalk on]
+[charaTalk E]
+
+＠杜尔伽
+依照神务，我杀戮了魔神摩希舍，[r]杀戮了逊婆、尼逊婆。
+[k]
+
+＠杜尔伽
+换言之，杀戮既是我的功能，亦是诸神之命。
+[k]
+
+[charaFace E 0]
+
+＠杜尔伽
+我身在此处，[r]也就意味着诸神之命亦在此处。
+[k]
+
+[charaFace E 2]
+
+＠杜尔伽
+胆敢站在我面前阻挡我的敌人啊，[r]被杀戮吧，汝等乃是神敌。
+[k]
+
+[messageOff]
+[charaTalk off]
+[seVolume ad556 1.0 0.2]
+[seVolume ade446 1.0 0.2]
+[charaMove K 290,-200 20.0]
+[charaMove I 1 20.0]
+[subRenderFadeout #A 1.0]
+[wt 1.0]
+[charaFadeout L 0.1]
+[charaFadeout E 0.1]
+[charaEffectDestroy E bit_talk_charge_red]
+[charaEffectDestroy E bit_talk_lightning_01r_fs]
+[wt 0.1]
+[charaLayer L normal]
+[charaLayer E normal]
+[wt 0.1]
+[subCameraOff]
+
+[charaTalk on]
+[charaTalk I]
+
+[charaFace I 2]
+
+＠奥西里斯之尘
+答案正确。与关系到世界命运的计划对抗的存在，[r]等同于神敌。
+[k]
+
+[charaFace I 0]
+
+＠奥西里斯之尘
+我否定毁灭。[r]我将竭尽全力，追求星球指引的良善未来。
+[k]
+
+＠奥西里斯之尘
+世界必须得到维持。[r]这就是我的存在意义。
+[k]
+
+[charaFace I 10]
+
+＠奥西里斯之尘
+全思考，[#超极限驱动:Overclock]。[r]行使临时权限[line 3]清除七成禁止事项。
+[k]
+
+＠奥西里斯之尘
+执行既定处分。
+[k]
+
+＠奥西里斯之尘
+万物融解，灵魂纯度降至感质地平线。[r][#Devīmāhātmya:女神颂][line 3]
+[k]
+
+[charaFace I 12]
+
+＠奥西里斯之尘
+[#Jagad-Mātŕ:宇宙之母]。主炮，发射！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[seStop ade446 0.5]
+[seStop ad556 0.5]
+[wait fade]
+
+[charaFadeout K 0.1]
+[charaFadeout I 0.1]
+[scene 10000]
+[wt 0.5]
+
+[fadein black 0.5]
+[wait fade]
+
+
+
+[criMovie talk_mov176 bgmPlay false]
+[wt 22.2]
+[bgmStopEnd BGM_BATTLE_168 0.8]
+[wt 0.8]
+[skip false]
+[wt 0.5]
+
+
+
+
+
+
+[fadeout black 0.5]
+[wait fade]
+[soundStopAllEnd]
+[end]
+

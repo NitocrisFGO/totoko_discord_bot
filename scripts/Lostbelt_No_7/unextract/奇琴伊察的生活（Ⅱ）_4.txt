@@ -1,0 +1,1045 @@
+
+＄03-00-13-12-4-1
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 98006000 1 誓要复仇的声音]
+[charaSet B 98006000 1 誓要复仇的声音_剪影]
+[charaFilter B silhouette 00000080]
+[charaSet C 1037001 1 红阎魔]
+[charaSet D 1098252410 1 库库尔坎]
+[charaSet E 1098252410 1 演出用_库库尔坎]
+[charaScale E 1.2]
+[charaSet F 1098253600 1 恐龙王]
+[charaSet G 1098257500 1 拉斯普京]
+[charaSet H 1098182100 1 尼莫教授]
+[charaSet I 1098239310 1 卡多克]
+[charaSet J 1098257300 1 达·芬奇]
+[charaSet K 98115000 1 特效用]
+[charaScale K 1.3]
+[sceneSet L 170102 1]
+[charaScale L 1.3]
+
+[imageSet M cut421_mtn01 1]
+[charaScale M 1.5]
+[imageSet N cut421_mtn02 1]
+[charaScale N 1.5]
+[imageSet O cut421_mtn03 1]
+[charaScale O 1.5]
+
+[cameraMove 0.1 0,0 1.01]
+
+[charaTalk depthOff]
+[charaDepth K 3]
+[charaDepth B 2]
+[charaDepth A 1]
+
+[scene 170100]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠誓要复仇的声音
+■■■，■■■[line 4]！[cueSe SE_21 21_ad1073]
+[k]
+
+[messageOff]
+[charaFace B 0]
+[charaFadein B 0.6 1]
+[wt 0.6]
+
+[charaPut K 0,100]
+[charaEffect K bit_talk_explosion_black]
+[se ade310]
+[se ade195]
+[wt 1.0]
+[charaFadeout A 0.1]
+[wt 1.0]
+[se ad42]
+[charaFadeout B 0.4]
+[charaEffectStop K bit_talk_explosion_black]
+[wt 1.5]
+
+？1：自，自爆了[line 3]！？
+？2：（是，是不是做得太过火了……？）
+
+？！
+
+[charaPut K 2000,2000]
+[charaEffectDestroy N bit_talk_explosion_black]
+
+[charaTalk depthOn]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠红阎魔
+不，刚才那是充满气概誓要再战的声音啾。
+[k]
+
+＠红阎魔
+“下次见面前我会锻炼好身体的。”[r]“打得漂亮，那点石料就给你们吧！”
+[k]
+
+[charaFace C 6]
+
+＠红阎魔
+太好了啾！[r]童话故事就该这样才对啾！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth E 6]
+[charaDepth M 5]
+[charaDepth N 4]
+[charaDepth O 3]
+[charaDepth L 2]
+[charaDepth D 1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+
+＠库库尔坎
+是的……身为矿石却很有骨气，[r]那几位很值得敲打一番呢……
+[k]
+
+＠库库尔坎
+甚至让人觉得打倒它们未免可惜。
+[k]
+
+[charaFace D 2]
+
+＠库库尔坎
+那我就搬走一座山啦～！[r]大概这些就够20吨了吧～！
+[k]
+
+[messageOff]
+[charaTalk E]
+[charaMove D -80,0 1.0]
+[charaFadein M 0.7 100,-410]
+[charaFadein N 0.7 42,-400]
+[charaFadein O 0.7 130,-395]
+[charaFadein L 0.7 100,-250]
+[wt 1.0]
+
+[scene 170102]
+[charaFadeout D 0.1]
+
+[charaFace E 2]
+[charaFadein E 0.7 -50,0]
+[charaMove E -100,0 0.7]
+[wt 1.0]
+
+[charaMove E -100,-20 0.6]
+[wt 0.8]
+
+[shake 0.05 2 2 1.0]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.8]
+[se ad619]
+[seVolume ad619 0 0]
+[seVolume ad619 1.0 0.4]
+
+[charaMove E -100,0 1.0]
+[charaMove M 100,-390 1.0]
+[charaMove N 42,-380 1.0]
+[charaMove O 130,-375 1.0]
+[wt 1.5]
+
+[shake 0.05 3 2 3.0]
+[se ad892]
+[se ad57]
+
+[charaMove E -300,0 2.0]
+[charaMove M -100,-390 2.0]
+[charaMove N -158,-380 2.0]
+[charaMove O -70,-375 2.0]
+[wt 1.0]
+
+[seStop ade393 2.0]
+[seStop ad619 2.0]
+[seStop ad892 2.0]
+[seStop ad57 2.0]
+[charaFadeout E 0.7]
+[charaFadeout M 0.7]
+[charaFadeout N 0.7]
+[charaFadeout O 0.7]
+[wt 1.4]
+
+[charaFadeout L 0.7]
+[wt 1.0]
+
+
+[charaTalk depthOn]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+
+＠红阎魔
+……这世上还真有人会搬走整座山啾。[r]不，不是人而是神啾。
+[k]
+
+[bgmStop BGM_EVENT_77 1.5]
+＠红阎魔
+矿石的回收与搬运交给她啾行了。[r][line 3]话说回来。
+[k]
+
+
+[charaFace C 0]
+
+＠红阎魔
+您一个人来的啾？
+[k]
+
+[bgm BGM_EVENT_11 0.1]
+＠红阎魔
+玛修负责留守啾，[r]那个女人上哪儿去了啾？
+[k]
+
+？1：那女人是指……高扬斯卡娅？
+
+[charaFace C 9]
+
+＠红阎魔
+不是指变态守财奴啾。[r]要是带她来，红就会鸣动大山猎兔啾。
+[k]
+
+[charaFace C 0]
+
+＠红阎魔
+是指有角与王冠的女人……[r]U－奥尔加玛丽啾。
+[k]
+
+？2：那女人是指……U－奥尔加玛丽？
+
+？！
+
+[charaFace C 0]
+
+＠红阎魔
+那女人为了不让您遇到危险，[r]一直神经紧绷得跟玛修差不多。
+[k]
+
+＠红阎魔
+因此，只要有玛修和那女人在，[r]就算在米克特兰，您也能毫发无伤地走下去……
+[k]
+
+＠红阎魔
+正是因为这样认为，红才目送您离去的啾。
+[k]
+
+[charaFace C 9]
+
+＠红阎魔
+……不过嘛，您这次倒是带了个[r]更为荒唐离谱的生物过来，
+[k]
+
+＠红阎魔
+看来路上也没什么可担心的啾。[wt 0.8][charaFace C 0][r]难不成，你们吵架了啾？
+[k]
+
+？1：倒也不是这样……
+？2：只是时间正好对不上。
+
+？！
+
+＠红阎魔
+是这样啾。[r]只要不是感情破裂啾好。
+[k]
+
+[charaFace C 13]
+
+＠红阎魔
+话虽如此，人心本就是善变的。
+[k]
+
+[charaFace C 0]
+
+＠红阎魔
+哪怕只是小小的分歧，[r]也可能造成无法弥补的鸿沟啾。
+[k]
+
+＠红阎魔
+该问清楚时就问清楚，该道歉时就好好道歉。[r]一旦渐行渐远，原本能说的话语也就无法再说了啾。
+[k]
+
+＠红阎魔
+人生讲究一期一会。无论什么时候，[r]只要有机会对话，就千万不能畏缩不前啾。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_11 1.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+
+[cameraHome 0.1]
+
+[charaSet A 1098258200 1 古角龙]
+[charaSet B 1098258510 1 钉状龙_换色]
+[charaSet C 1098258400 1 角鼻龙]
+[charaSet D 1098258120 1 查卡]
+[charaSet E 1098226500 1 高扬斯卡娅]
+[sceneSet L 169902 1]
+[charaScale L 1.2]
+
+[sceneSet P 169902 1]
+[charaScale P 1.4]
+[sceneSet Q 169902 1]
+[charaScale Q 1.4]
+
+[charaSet S 1098258300 1 鱼猎龙]
+
+[scene 170300]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 1.5]
+
+[scene 170302 1.5]
+[wt 3.0]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaTalk off]
+[charaTalk depthOff]
+
+[charaScale A 0.7]
+[charaScale B 1.2]
+[charaScale C 1.25]
+[charaScale D 0.8]
+[charaScale S 1.15]
+
+[charaDepth S 8]
+[charaDepth D 7]
+[charaDepth A 6]
+[charaDepth B 5]
+[charaDepth P 4]
+[charaDepth C 3]
+[charaDepth Q 2]
+[charaDepth F 1]
+
+
+[scene 169902]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.8]
+
+[bgm BGM_EVENT_161 0.1]
+
+
+[charaFadein P 0.7 -100,-200]
+[charaMove P -130,-200 0.7]
+[wt 1.0]
+[charaFadein Q 0.1 100,-200]
+
+[cueSe SE_22 22_ad1208]
+[seVolume 22_ad1208 0 0]
+[seVolume 22_ad1208 0.5 0.8]
+[charaFace S 0]
+[charaFadeinFSL S 0.7 150,50]
+[charaMoveFSL S 100,50 1.0]
+[wt 0.7]
+[seStop 22_ad1208 0.5]
+[wt 0.4]
+[charaMoveFSL S 100,43 0.7]
+[wt 1.5]
+
+[charaFadeout S 0.7]
+[charaFadeout P 0.7]
+[charaMove Q 150,-200 0.7]
+[wt 1.0]
+
+[cueSe SE_22 22_ad1208]
+[seVolume 22_ad1208 0 0]
+[seVolume 22_ad1208 0.5 0.8]
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadein B 0.7 -230,20]
+[charaMove B -180,20 0.7]
+[wt 0.2]
+[charaFadein C 0.7 150,100]
+[charaMove C 200,100 0.7]
+[wt 0.3]
+[seStop 22_ad1208 0.5]
+[wt 0.6]
+[cueSe SE_22 22_ad1207]
+[seVolume 22_ad1207 0 0.4]
+[charaMove B -180,13 0.7]
+[charaMove C 200,93 0.7]
+[wt 0.8]
+
+[cueSe SE_22 22_ad1217]
+[seVolume 22_ad1217 0 0]
+[seVolume 22_ad1217 0.5 0.8]
+[charaFace A 0]
+[charaFadein A 0.7 -550,-200]
+[charaMove A -500,-200 0.7]
+[wt 0.5]
+[seStop 22_ad1217 0.5]
+[wt 1.0]
+[charaMove A -500,-207 0.7]
+[wt 1.0]
+
+[charaFadeout A 0.7]
+[charaFadeout B 0.7]
+[charaFadeout C 0.7]
+[charaFadeout Q 0.7]
+[wt 1.4]
+
+[charaTalk on]
+
+[charaTalk E]
+[charaFace E 22]
+[charaFadein E 0.1 1]
+
+＠高扬斯卡娅
+哎呀，看来这边也盛况空前呢。
+[k]
+
+＠高扬斯卡娅
+各位迪诺斯对异文化没有任何[r]敌意、反感或偏见。
+[k]
+
+＠高扬斯卡娅
+连修理潜航艇的志愿者也不用招募[r]就有人主动报名参加。
+[k]
+
+[charaFace E 25]
+
+＠高扬斯卡娅
+真希望人类也能好好向他们学习……[r]不，也不能一概而论呢。
+[k]
+
+[charaFace E 20]
+
+＠高扬斯卡娅
+毕竟如果大家都无视得失地行动，就没法谈生意了……[r]过于明事理也多少有点问题呢。
+[k]
+
+＠高扬斯卡娅
+拥有能感受到悲伤的智慧，[r]却不将悲剧视作悲剧。
+[k]
+
+＠高扬斯卡娅
+拥有能感受到不甘的内心，[r]却不将不合理视作不合理。
+[k]
+
+[charaFace E 25]
+＠高扬斯卡娅
+也许当事人会觉得这样恰到好处，[r]但是对身旁的生物而言，只会感到难以释怀。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 23]
+[charaFadein J 0.1 1]
+
+＠达·芬奇
+…………
+[k]
+
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[se ad987]
+[wt 1.0]
+[seStop ad987 0.4]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.4 1]
+[wt 0.4]
+
+＠恐龙王
+[line 3]嘁。[r]这不是比昨天还多吗！
+[k]
+
+＠恐龙王
+我的确说过允许谈论泛人类史，[r]怎么这么快就成为话题了啊，真是的。
+[k]
+
+？1：哎，恐龙王……！？
+？2：您是来视察的吗！？
+
+？！
+
+[charaFaceFade F 7 0.2]
+
+＠恐龙王
+怎么可能！　我是来踢球的，[r]结果你们一直赖在这里不走！
+[k]
+
+[charaFaceFade F 5 0.2]
+
+＠恐龙王
+竟然毁了我唯一的娱乐。[r]喂，给我闪一边去，查卡。我要坐最后面。
+[k]
+
+＠恐龙王
+既然是来听故事的，就去前面啦，去前面。[r]就知道客气也没什么好事哦。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth A 8]
+[charaDepth B 7]
+[charaDepth C 5]
+[charaDepth D 6]
+
+[charaFadein B 0.7 0,0]
+[charaFadein C 0.7 350,80]
+[charaFadein A 0.7 -200,-220]
+
+[charaMove B 50,0 0.7]
+[charaMove C 400,80 0.7]
+[charaMove A -150,-220 0.7]
+[charaFadein Q 0.7 100,-200]
+[charaMove Q 150,-200 0.7]
+[wt 1.0]
+[charaFadeout F 0.1]
+[wt 0.1]
+[cameraMove 2.0 100,0 1.2]
+[wt 2.2]
+
+[charaTalk off]
+[charaScale D 0.95]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 -630,-90]
+[wt 0.4]
+[charaMoveReturn D -630,-80 0.3]
+[wt 0.5]
+[charaMoveReturn D -630,-80 0.3]
+[wt 0.8]
+[cueSe SE_22 22_ad1210]
+[charaMove D -230,-110 2.0]
+[wt 0.5]
+[cueSeStop 22_ad1210 1.5]
+[charaFadeout D 0.7]
+[wt 0.8]
+[charaFadeout A 1.0]
+[charaFadeout B 1.0]
+[charaFadeout C 1.0]
+[charaFadeout Q 2.0]
+[cameraMove 2.0 0,0 1.0]
+[wt 2.0]
+
+[charaScale D 1.0]
+
+[cueSe SE_22 22_ad1210]
+[seVolume 22_ad1210 0 0]
+[seVolume 22_ad1210 1.0 1.0]
+[wt 0.5]
+
+[charaTalk on]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[seStop 22_ad1210 0.5]
+[wt 0.8]
+[charaMove D 0,-10 0.6]
+[wt 1.2]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠高扬斯卡娅
+哎呀，竟然还帮了一把想坐[r]前排座位的害羞迪诺斯。
+[k]
+
+＠高扬斯卡娅
+虽然语气粗鲁，却是位体贴的王呢。[r]可以容我自报一下姓名吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠恐龙王
+不需要，你就是那个传授了黑色[r]特斯卡特利波卡不必要智慧的家伙吧。
+[k]
+
+[charaFaceFade F 6 0.2]
+
+＠恐龙王
+你想在奇琴伊察做生意的话，随你高兴。[r]前提是迪诺斯想要你的商品。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 16]
+[charaFadein E 0.1 1]
+
+＠高扬斯卡娅
+真是戳人痛点。现阶段的销售量确实为零，[r]不过这是两码事。
+[k]
+
+＠高扬斯卡娅
+生意可不是一朝一夕就能做起来的。[r]我会继续踏踏实实地经营的。
+[k]
+
+[charaFace E 28]
+
+＠高扬斯卡娅
+毕竟我的目的不只是金钱，[r]还要回收更大的东西。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+
+＠恐龙王
+哦，那才是你真正的目标啊。[r]真是个有趣的女人。已经能预料到会损失惨重了哦。
+[k]
+
+[charaFaceFade F 5 0.2]
+
+＠恐龙王
+喂，别一直呆站在那里。[r]迪诺斯们都在翘首以盼吧。
+[k]
+
+＠恐龙王
+快到前面来讲故事。[r]讲述米克特兰没能诞生的“可能性”[line 3]
+[k]
+
+＠恐龙王
+讲述你们一路走来见证的，[r]诸多世界的故事。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[se ad413]
+[seVolume ad413 0 0.2]
+[seVolume ad413 2.0 0.8]
+[wt 2.0]
+
+？1：啊，嗯。
+？2：那么，先来说说[line 3]
+
+？！
+
+[seStop ad413 0.4]
+[wt 0.8]
+
+[bgmStop BGM_EVENT_161 2.0]
+[scene 170302 1.5]
+[se ad90]
+[seVolume ad90 0 0.5]
+[se ade52]
+[seVolume ade52 0 0.5]
+[se ad192]
+[seVolume ad192 0 0.5]
+[wt 3.0]
+[seStop ad90 1.0]
+[seStop ade52 1.0]
+[seStop ad192 1.0]
+
+
+[scene 170301 1.5]
+[wt 2.5]
+
+[fadeout black 2.0]
+
+[wait fade]
+
+[charaSet F 1098257500 1 演出用_拉斯普京1]
+[charaSet J 1098257500 1 演出用_拉斯普京2]
+[sceneSet L 55700 1 1]
+[sceneSet O 55700 1 1]
+
+[charaSet R 1098239310 1 卡多克]
+[sceneSet T 55700 1 1]
+
+[charaScale F 1.2]
+[charaScale J 1.35]
+[charaScale I 1.1]
+[charaScale L 1.2]
+[charaScale O 1.2]
+
+[subCameraOn 2]
+[charaLayer J sub #A]
+[subCameraFilter #A through]
+[subRenderFadein #A 0 0,0]
+[charaFadeout J 0.1]
+
+[charaLayer R sub #B]
+[charaLayer T sub #B]
+[subCameraFilter #B through]
+[subRenderFadein #B 0 0,0]
+
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+
+[scene 173502]
+
+[pictureFrame cut063_cinema]
+[wt 2.0]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[wt 2.0]
+
+[scene 55700 1.5]
+
+[charaTalk depthOff]
+[charaDepth F 6]
+[charaDepth I 5]
+[charaDepth L 4]
+[charaDepth H 3]
+[charaDepth G 2]
+[charaDepth O 1]
+[wt 1.5]
+
+[se adm36]
+[wt 1.0]
+
+
+
+[seStop adm36 1.0]
+[charaFace F 0]
+[charaFadein F 1.0 0,-10]
+[charaFadein L 1.0 -100,-130]
+
+[charaMove F 0,-50 3.5]
+[charaMove L -100,-160 3.5]
+
+[wt 2.0]
+[bgm BGM_SHINYAMA_1 1.0 0.7]
+[wt 2.5]
+
+[charaFadein O 0.1 100,-200]
+[wt 0.5]
+
+[charaFadeout F 0.7]
+[charaFadeout L 0.7]
+[wt 1.5]
+
+[se ade74]
+[wt 1.5]
+
+[charaTalk on]
+[charaTalk H]
+[charaFace H 0]
+[charaFadeinFSL H 0.6 -200,-50]
+[seStop ade74 0.6]
+[wt 0.6]
+
+
+＠尼莫教授
+嗯，晚上好～。[r]您迷路了吗，言峰氏？　不介意的话，我可以给您带路哦～？
+[k]
+
+[messageOff]
+[charaMoveFSL H -250,-50 1.0]
+[charaMove O 50,-200 1.0]
+[wt 1.0]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadeinFSR G 0.4 250,-50]
+[wt 0.4]
+
+＠拉斯普京
+不，不用了，我正打算去休息。[r]我只是在巡逻查看舰内是否有奥塞洛特尔入侵而已。
+[k]
+
+[charaFace H 1]
+
+＠尼莫教授
+那真是太感谢啦～。咱们家船长还没[r]恢复正常状态，真是帮大忙了～。
+[k]
+
+＠尼莫教授
+那些奥塞洛特尔几乎没有魔力反应，[r]很难通过传感器辨别出来呢～。
+[k]
+
+[charaFace G 8]
+
+＠拉斯普京
+哎呀，原来是这样吗？[r]我还听说尼莫船长已经恢复了。
+[k]
+
+[charaFace H 5]
+
+＠尼莫教授
+这个嘛，船长还是在强撑而已啦～。。[r]只是希翁氏假装没察觉到～。
+[k]
+
+[charaFace G 0]
+
+＠拉斯普京
+原来如此，那我也留意不要点破好了。
+[k]
+
+＠拉斯普京
+……话说回来，驱动Storm Border的电力[r]是仅靠内部的燃烧机构生成的吗？
+[k]
+
+[charaFace H 3]
+
+＠尼莫教授
+[FFFFFF]？[-]　这话的意思是～？
+[k]
+
+[charaFace G 8]
+
+＠拉斯普京
+没有，我只是在想万一引擎停摆，[r]维持舰艇所需的电力该怎么解决。
+[k]
+
+＠拉斯普京
+听说迫降时引擎停摆了，大家一直[r]待在没有电力的黑暗中固守不出。
+[k]
+
+＠拉斯普京
+当时应该非常辛苦、艰难吧。[r]因此，为预防这种情况，
+[k]
+
+＠拉斯普京
+我觉得如果能配置外部能量供给线，[r]修复起来应该也能更快了吧。
+[k]
+
+[charaFace H 1]
+
+＠尼莫教授
+原来如此～，不愧是神父先生～。
+[k]
+
+＠尼莫教授
+我们确实有从外部连接至引擎的管线，[r]这方面还请放心～。
+[k]
+
+＠尼莫教授
+只要召唤约100骑能提供电力的从者，[r]就可以在没有引擎的情况下运转了。
+[k]
+
+＠尼莫教授
+不过现在彷徨海基地都消失了，[r]也就没机会再用上[line 3][wt 1.0][charaFace H 5]啊。
+[k]
+
+＠尼莫教授
+原来还有那招啊。[r]感谢您的参考意见～。
+[k]
+
+[charaFace G 4]
+
+＠拉斯普京
+那就好。也就是说，你们确实准备了[r]应对引擎全数报废这种危急事态的对策吧。
+[k]
+
+[charaFace H 5]
+
+＠尼莫教授
+是的～。[r]但如果真的遇上那种情况，我就要哭出来了～。
+[k]
+
+[messageOff]
+
+[bgmStop BGM_SHINYAMA_1 2.0]
+[se ade74]
+[seStop ade74 1.5]
+[charaTalk H,G]
+[charaFadeout H 0.4]
+[wt 1.4]
+
+[charaMoveFSR G 200,-50 1.4]
+[charaMove O 0,-200 1.4]
+[wt 1.2]
+
+[charaTalk J,G]
+[charaFace J 4]
+[charaFadein J 1.0 -80,-50]
+[charaFadein L 1.0 0,-200]
+
+[charaMove J -130,-50 1.0]
+[charaMove L -50,-200 1.0]
+[wt 2.0]
+
+
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 0.7 200,-50]
+[subBlur #A lens 1.0 2 10 1.0 subBlur]
+[wt 1.5]
+
+
+＠卡多克
+……喂。
+[k]
+
+[bgm BGM_EVENT_76 0.1]
+＠卡多克
+从昨天起就常在潜航艇见到你呢，拉斯普京。[r]你不用跟着『异星之神』吗？
+[k]
+
+[messageOff]
+[subBlurOff #A lens 0.6 normal]
+[charaFaceFade J 5 0.4]
+[wt 1.0]
+
+＠J：拉斯普京
+你应该考虑清楚了再开口说话哦，[r]卡多克·泽姆露普斯。
+[k]
+
+＠J：拉斯普京
+『神』之名是不能轻易挂在嘴边的，[r]不然会导致奇迹般维持着的平衡崩溃的。
+[k]
+
+＠J：拉斯普京
+不，说奇迹般未免过于失礼了。[r]当前的情况是通过努力实现的。
+[k]
+
+＠J：拉斯普京
+这都有赖于[%1][r]和玛修健全的精神状态。
+[k]
+
+＠J：拉斯普京
+相反，你看起来不如[&他们:她们]那么懂得变通呢。[r]给人的第一印象始终没有改变。
+[k]
+
+[charaFace I 0]
+
+＠卡多克
+是啊，毕竟不同于那些家伙，我可是魔术师。[r]信念是不会改变的。我在这方面非常古板哦。
+[k]
+
+[charaFace I 1]
+
+＠卡多克
+不过，如今这也不全是缺点。
+[k]
+
+＠卡多克
+『无论发生什么，都不会完全信任你们』。[r]这正是迦勒底目前所需要的。
+[k]
+
+[charaFace J 10]
+
+＠J：拉斯普京
+太对了。
+[k]
+
+＠J：拉斯普京
+我们不过是暂时协助[%1]而已，[r][#并不是协助迦勒底]。
+[k]
+
+＠J：拉斯普京
+毕竟只要大小姐接受了自己的立场，[r]就会立刻离开这里。
+[k]
+
+[charaFace I 0]
+
+＠卡多克
+……也就是全都取决于U－奥尔加玛丽吧。[r]你不打算主动推动事态吗？
+[k]
+
+[charaFace J 2]
+
+＠J：拉斯普京
+那当然，我并不盼望战事发生。[r]只会见证今后将降生之物的诞生而已。
+[k]
+
+[charaFace J 3]
+
+＠J：拉斯普京
+……只不过，也许是受到英灵拉斯普京的影响吧。[r]我多少还残留着一些人类该拥有的感情。
+[k]
+
+＠J：拉斯普京
+如果有哪个放任不顾就会陷入不幸的灵魂，[r]我就必须伸出援手。
+[k]
+
+＠J：拉斯普京
+你的警戒是不必要的操心，[r]现在的状况对『她』没有任何好处。
+[k]
+
+＠J：拉斯普京
+只会导致日后越来越痛苦。[r]换言之，是时候作出决断了。
+[k]
+
+＠J：拉斯普京
+当然，你不会妨碍我吧？[r]因为你也认为应当如此。
+[k]
+
+[messageOff]
+[charaScale T 1.0]
+[charaTalk R,J]
+[charaFace R 12]
+[charaFadein R 1.0 0,-50]
+[charaFadein T 1.0 0,-200]
+[wt 0.6]
+
+[cameraMove 30.0 0,10 1.2]
+[charaMoveScale R 1.2 30.0]
+[charaMoveScale T 1.2 30.0]
+[charaMove R 0,-35 30.0]
+[charaMove T 0,-250 30.0]
+
+＠R：卡多克
+…………算是吧。[r]哪怕会遭到玛修、[%1][line 3]
+[k]
+
+＠R：卡多克
+以及奥尔加玛丽的怨恨，[r]都应该让[&他们:她们]在相互理解前分道扬镳。
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_76 2.0]
+[wait fade]
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[charaLayer J normal]
+[charaLayer R normal]
+[charaLayer T normal]
+[subCameraOff]
+[wt 0.5]
+[soundStopAll]
+[end]
+

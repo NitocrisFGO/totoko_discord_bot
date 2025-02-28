@@ -1,0 +1,296 @@
+
+
+＄03-00-13-10-4-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253200 1 U－奥尔加玛丽]
+[charaSet B 1098253200 1 U－奥尔加玛丽_扩大]
+[charaScale B 1.3]
+[charaSet C 1098252940 1 特佩乌]
+[charaSet D 98001000 1 玛修]
+[charaScale D 1.2]
+
+[sceneSet E 169103 1]
+[charaScale E 1.3]
+[sceneSet F 169103 1]
+[charaScale F 1.2]
+[imageSet G back10001 1]
+
+[scene 169103]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_146 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠U－奥尔加玛丽
+呵呵呵。感觉如何，[r]我特制的模拟空间！
+[k]
+
+？1：垃圾游戏！！！！
+
+？！
+
+[charaFace A 30]
+＠U－奥尔加玛丽
+怎，怎么可能，[r]我可是花了整整一天调整平衡啊！
+[k]
+
+＠U－奥尔加玛丽
+你给我说清楚讲明白，[r]具体哪方面不行！
+[k]
+
+？1：从头到尾都只是在跟总统打情骂俏嘛。
+
+[charaFace A 21]
+[charaShake A 0.05 3 3 0.5]
+
+＠U－奥尔加玛丽
+！！！ｏｋｆｓｊｋｖｈｂｎｕｓｅｉｏｖａｓ！？[r]没没没没有这种事吧！？
+[k]
+
+＠U－奥尔加玛丽
+我可是设计成战斗类型了！[r]还认真地准备了假想敌！
+[k]
+
+？2：比我以往看过的任何一部烂片都还要烂……
+
+[charaFace A 10]
+
+＠U－奥尔加玛丽
+何，何等悲伤的色彩……！？
+[k]
+
+[charaFace A 11]
+
+＠U－奥尔加玛丽
+呜……给我走着瞧，[r]我定会设计出更有意思的战斗！
+[k]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_146 1.5]
+[wt 1.0]
+
+？1：言归正传，刚才那难道是……
+
+？！
+
+[charaFace A 24]
+[wt 1.2]
+
+[bgm BGM_EVENT_116 0.1]
+
+[charaFace A 13]
+
+＠U－奥尔加玛丽
+……哼。[r]看来你总算理解我的意图了。
+[k]
+
+＠U－奥尔加玛丽
+安排在最后的敌人，重现了在Storm Border上[r]听说的神灵特拉洛克的形象哦。
+[k]
+
+＠U－奥尔加玛丽
+明天很有可能会与她交战吧。[r]所以我才让你事先练习一下。
+[k]
+
+＠U－奥尔加玛丽
+永不间断的泛滥。[r]令身体动弹不得的河流。
+[k]
+
+＠U－奥尔加玛丽
+只要有我在场，应该就不会摔跟头，[r]但不知战斗会几时打响。
+[k]
+
+[charaFace A 8]
+
+＠U－奥尔加玛丽
+不过，只要体验过一次，应该就能拟定对策吧？[r]你第二次对付同一敌人时总是战无不胜的嘛。
+[k]
+
+＠U－奥尔加玛丽
+像是始终漂浮着的从者啦，[r]或是不惧激流的从者啦……
+[k]
+
+＠U－奥尔加玛丽
+无论选择哪种，我相信你都能赢。[r]我很看好你哦，[%1]。
+[k]
+
+？1：……谢谢你，总统。
+
+[charaFace A 26]
+
+＠U－奥尔加玛丽
+……还好吧。[r]我也只能派上这点用场了。
+[k]
+
+？2：……非常感谢，所长。
+
+[charaFace A 26]
+
+＠U－奥尔加玛丽
+……又来了。[r]不是所长，是总统。
+[k]
+
+＠U－奥尔加玛丽
+再怎么说，相比起国家元首，这也降级太多了吧。[r]……但不知为何，我倒也不会感到不爽。
+[k]
+
+？！
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth B 2]
+
+[charaFace B 8]
+[charaFadein E 1.5 0,-350]
+[charaFadein B 1.5 0,-50]
+[charaMove E 0,-400 20.0]
+[charaMove B 0,-58 20.0]
+[charaMoveScale B 1.4 20.0]
+[charaMoveScale E 1.4 20.0]
+[wt 1.5]
+
+[charaFadeout A 0.1]
+[wt 2.8]
+
+[bgmStop BGM_EVENT_116 1.0]
+[charaFadeout E 0.5]
+[charaFadeout B 0.5]
+[wt 0.7]
+
+[se ad7]
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 0,-50]
+[charaMove C 0,0 0.3]
+[wt 0.3]
+
+＠特佩乌
+我起了。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk A]
+[charaFace A 21]
+[charaFadein A 0.1 1]
+
+＠U－奥尔加玛丽
+特佩乌！？[r]你醒着吗！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+是的，不过没什么好惊讶哦。[r]玛修也在那边竖着耳朵听。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[blur lens 0.5 2 10]
+
+[subCameraOn 2]
+[charaLayer D sub #A]
+[charaLayer F sub #A]
+[charaLayer G sub #MASK]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth F 1]
+[charaDepth D 2]
+[charaDepth G 3]
+
+[charaFace D 21]
+[charaFadeinFSSideR F 0.1 300,-224]
+[charaFadeinFSSideR D 0.1 350,-150]
+[charaFadeinFSSideR G 0.1 1000,-400]
+[charaRoll G 45]
+[wt 0.1]
+
+[se ade255]
+[seVolume ade255 0 0.5]
+[subCameraFilter #A maskEdge #MASK 3]
+[subRenderFadein #A 0.1 0,0]
+[charaMoveFSSideR G 545,-400 0.5]
+[wt 2.5]
+
+[blurOff lens 0.5]
+[subRenderFadeout #A 0.4]
+[wt 0.4]
+
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer F normal]
+[charaLayer D normal]
+[charaLayer G normal]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 19]
+[charaFadein A 0.1 1]
+
+＠U－奥尔加玛丽
+呜，既然一个个都说睡不着，[r]那好！
+[k]
+
+[charaFace A 7]
+
+＠U－奥尔加玛丽
+看我把你们全部打包送去模拟空间！[r]可别指望今晚你们还能睡觉！
+[k]
+
+？1：本末倒置[line 2]！
+？2：我已经受够超难游戏啦[line 3]！
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+[wt 0.5]
+
+[fowardEffect bit_talk_irisout 15,160]
+[wt 0.1]
+[cueSe SE_21 21_ade637]
+[wt 2.0]
+
+[cueSe SE_21 21_ade638]
+[fowardEffectStop bit_talk_irisout]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[scene 10000]
+[wt 0.1]
+
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

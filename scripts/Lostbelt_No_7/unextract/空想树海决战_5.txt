@@ -1,0 +1,770 @@
+
+
+
+＄03-00-13-24-5-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098255100 1 戈尔德鲁夫]
+[charaSet B 1098257300 1 达·芬奇]
+[charaSet C 1098257200 1 埃列什基伽勒·Alter]
+[charaSet D 1098239310 1 卡多克]
+[charaSet E 1098256100 1 杜木兹]
+[charaSet F 1098122300 1 杜木兹（羊）]
+[charaSet G 1098257910 1 玛修]
+
+[imageSet L cut416_leg 1 1]
+
+[sceneSet O 142000 1]
+
+[sceneSet P 173902 1]
+[charaSet Q 1098256100 1 杜木兹（演出用）]
+[charaSet R 1098122300 1 杜木兹（羊）（演出用）]
+[sceneSet S 173902 1]
+[charaSet T 1098256100 1 杜木兹（演出用）]
+[charaSet U 1098122300 1 杜木兹（羊）（演出用）]
+
+[charaSet V 98115000 1 特效用dummy1]
+[charaSet W 98115000 1 特效用dummy2]
+[charaSet X 98115000 1 特效用dummy3]
+
+
+[charaPut C 2000,2500]
+[charaEffectEdgeBlur C 663399]
+[charaPut E 2000,2500]
+[charaEffectEdgeBlur E FBD01D]
+[charaPut F 2000,2500]
+[charaEffectEdgeBlur F FBD01D]
+[charaPut Q 2000,2500]
+[charaEffectEdgeBlur Q FBD01D]
+[charaPut R 2000,2500]
+[charaEffectEdgeBlur R FBD01D]
+[charaPut T 2000,2500]
+[charaEffectEdgeBlur T FBD01D]
+[charaPut U 2000,2500]
+[charaEffectEdgeBlur U FBD01D]
+
+[cameraMove 0 0,0 1.01]
+
+[scene 173902]
+
+
+[se ad729]
+[seVolume ad729 0 0]
+[wt 0.5]
+[seVolume ad729 1.5 0.6]
+[fadein black 1.5]
+[wait fade]
+[wt 0.8]
+
+[se ad731]
+[shake 0.05 2 3 1.5]
+[wt 0.2]
+[seStop ad729 0.3]
+[wt 1.8]
+
+[subCameraOn 3]
+[charaLayer O sub #A]
+[charaLayer A sub #A]
+[charaLayer B sub #A]
+[charaLayer D sub #A]
+[charaLayer G sub #A]
+[charaLayer P sub #B]
+[charaLayer Q sub #B]
+[charaLayer R sub #B]
+[charaLayer W sub #B]
+[charaLayer S sub #C]
+[charaLayer T sub #C]
+[charaLayer U sub #C]
+[charaLayer X sub #C]
+
+
+[subCameraFilter #A maskEdge cut359_mask05 3 255,255,255,255 0]
+[subCameraFilter #B through]
+[subCameraFilter #C through]
+
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+[subRenderDepth #C 3]
+
+
+[charaScale O 1.2]
+[charaScale A 1.1]
+[charaScale B 1.1]
+[charaScale D 1.1]
+
+[charaFadein O 0.1 0,100]
+[charaFace A 12]
+[charaFadein A 0.1 -15,265]
+
+[charaTalk A]
+[subRenderFadein #B 0 0,0]
+[subRenderFadein #C 0 0,0]
+[subRenderFadeinFSSideR #A 0.4 250,-200]
+[subRenderMoveFSSideR #A 250,-300 0.4]
+[wt 0.4]
+
+[bgm BGM_EVENT_63 0.1]
+
+＠戈尔德鲁夫
+我们没有紧追ORT背后，而是沿直线一路狂飙！[r]应该能勉强赶在它前头抵达！
+[k]
+
+＠戈尔德鲁夫
+将这里设为最终防卫线！[r]对吧，技术顾问！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 0,300]
+＠达·芬奇
+嗯，这里就能更自由地召唤从者了。[r][%1]，呼唤她吧！
+[k]
+
+[messageOff]
+
+？1：过来吧，埃列什基伽勒[line 2]！
+
+[charaTalk off]
+[charaDepth V 10]
+[charaDepth C 5]
+[charaPut V -250,0]
+[charaEffect V bit_talk_mgn_light_p]
+[wt 0.1]
+[cueSe Servants_304800 bac1202]
+[wt 0.1]
+[cueSe Servants_304800 bac1410]
+[cueSeVolume bac1410 0 0.5]
+[wt 0.4]
+[cueSe Servants_304800 bac1413]
+[cueSeVolume bac1413 0 0.4]
+[wt 0.2]
+[charaFace C 24]
+[charaFadein C 0.1 -250,0]
+[cueSeStop bac1410 2.5]
+[cueSeStop bac1413 3.0]
+[wt 0.1]
+[cueSe Servants_304800 m43621]
+[cueSeVolume m43621 0 0]
+[wt 0.3]
+[cueSeVolume m43621 0.1 1.0]
+[wt 0.4]
+[charaEffectEdgeBlurStop C 663399]
+[wt 1.6]
+
+[charaTalk on]
+＠埃列什基伽勒·Alter
+全心全意的呼唤，还不错。[r]与从者并肩奋战的御主就该这样才对嘛。
+[k]
+
+？2：救救我，无敌的女神大人[line 3]！
+
+[charaTalk off]
+[charaDepth V 10]
+[charaDepth C 5]
+[charaPut V -250,0]
+[charaEffect V bit_talk_mgn_light_p]
+[wt 0.1]
+[cueSe Servants_304800 bac1202]
+[wt 0.1]
+[cueSe Servants_304800 bac1410]
+[cueSeVolume bac1410 0 0.5]
+[wt 0.4]
+[cueSe Servants_304800 bac1413]
+[cueSeVolume bac1413 0 0.4]
+[wt 0.2]
+[charaFace C 18]
+[charaFadein C 0.1 -250,0]
+[cueSeStop bac1410 2.5]
+[cueSeStop bac1413 3.0]
+[wt 0.1]
+[cueSe Servants_304800 m43621]
+[cueSeVolume m43621 0 0]
+[wt 0.3]
+[cueSeVolume m43621 0.1 1.0]
+[wt 0.4]
+[charaEffectEdgeBlurStop C 663399]
+[wt 1.6]
+
+[charaTalk on]
+＠埃列什基伽勒·Alter
+真是的，无敌就言过其实了。[r]但既然是你发自真心的话语，我也不好多说什么。
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut V 2000,2500]
+[charaEffectDestroy W bit_talk_mgn_light_p]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 -5,300]
+＠卡多克
+虽然不在这里，但ORT即将进入冥界！[r]你清楚状况吗！？
+[k]
+
+[charaFace C 4]
+＠埃列什基伽勒·Alter
+那当然，我早就准备就绪等着了。[r]不追踪ORT，而是抢先抵达这里的判断很正确。
+[k]
+
+[charaFace C 1]
+＠埃列什基伽勒·Alter
+迄今为止你们好像已经给它造成了一些伤害，[r]最后一击就交给我吧。[wt 1.0][bgmStop BGM_EVENT_63 1.5][line 3]杜木兹！
+[k]
+
+[messageOff]
+[wipeout rectangleStripUpToDown 0.4 1.0]
+[wait wipe]
+
+[subRenderFadeout #A 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[scene 174301]
+
+[effect bit_talk_43h_fs]
+[wt 0.5]
+
+[wipein rectangleStripDownToUp 0.4 1.0]
+[wait wipe]
+[se ad75]
+[wt 0.2]
+
+[charaShake F 0.01 1 1 0]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 0,50]
+[charaMove F 0,0 0.4]
+[wt 1.8]
+
+[charaMove F 0,-50 0.4]
+[wipeout rectangleStripDownToUp 0.4 1.0]
+[wait wipe]
+
+[charaFadeout F 0.1]
+[charaPut F 2000,2500]
+[effectDestroy bit_talk_43h_fs]
+
+[scene 173902]
+[wt 0.5]
+
+[wipein rectangleStripUpToDown 0.4 1.0]
+[wait wipe]
+
+
+[charaTalk off]
+[charaDepth F 1]
+[charaDepth E 2]
+[charaDepth V 9]
+
+[charaFace F 0]
+[charaFadein F 0.15 0,100]
+[charaMove F 1 0.3]
+[wt 0.2]
+
+[se ad236]
+[fowardEffect bit_talk_magical_pon]
+[wt 0.2]
+
+[charaFadeout F 0]
+[charaPut F 2000,2500]
+[charaFace E 0]
+[charaFadein E 0 1]
+[charaEffectEdgeBlurStop F]
+[wt 0.85]
+
+[charaDepth P 1]
+[charaDepth R 1]
+[charaDepth Q 2]
+[charaDepth W 9]
+[charaScale P 1.15]
+[charaScale Q 1.15]
+[charaScale R 1.15]
+[charaScale W 1.15]
+
+[charaFadein P 0 0,-220]
+[charaEffectEdgeBlurStop E]
+
+[se ad236]
+[charaPut W 0,10]
+[charaEffect W bit_talk_magical_pon]
+[wt 0.2]
+
+[charaFadeout R 0]
+[charaPut R 2000,2500]
+[charaFace Q 0]
+[charaFadein Q 0 0,10]
+[charaEffectEdgeBlurStop R]
+[wt 0.85]
+
+
+[charaDepth S 1]
+[charaDepth U 1]
+[charaDepth T 2]
+[charaDepth X 9]
+[charaScale S 1.3]
+[charaScale T 1.3]
+[charaScale U 1.3]
+[charaScale X 1.3]
+
+[charaFadein S 0 0,-225]
+
+[se ad236]
+[charaPut X 0,30]
+[charaEffect X bit_talk_magical_pon]
+[wt 0.2]
+
+[charaFadeout U 0]
+[charaPut U 2000,2500]
+[charaFace T 0]
+[charaFadein T 0 0,10]
+[charaEffectEdgeBlurStop U]
+[wt 0.3]
+[charaEffectEdgeBlurStop T]
+[wt 0.2]
+
+[charaFadeout P 0.1]
+[charaFadeout Q 0.1]
+[charaPut Q 2000,2500]
+[charaEffectEdgeBlurStop Q]
+[wt 1.8]
+
+[charaFadeout S 1.2]
+[charaFadeout T 1.2]
+[wt 1.6]
+
+[bgm BGM_EVENT_62 0.1]
+
+[charaTalk on]
+＠杜木兹
+由于摄制组不在，[r]我只能试着自力更生来了个三段式分镜的登场。
+[k]
+
+＠杜木兹
+让满溢的银河之海化作夜间泳池的黄金流星。[r]没错。既是你的，也是我的杜木兹。
+[k]
+
+＠杜木兹
+我已经准备好了，埃列什基伽勒。[r]看来从你那里侵吞的魔[line 3][wt 1.0][charaFace E 3]抱歉，订正一下。
+[k]
+
+[charaFace E 0]
+＠杜木兹
+看来替你暂时保管的第三冥界的魔力[r]终于到物归原主之刻了。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth A 4]
+[charaDepth D 5]
+[charaScale A 1.0]
+[charaScale D 1.0]
+
+
+[charaTalk A,D]
+[charaFace A 5]
+[charaFace D 3]
+[charaFadein A 0.1 70,260]
+[charaFadein D 0.1 -75,260]
+
+[subRenderFadeinFSSideR #A 0.2 250,-300]
+[wt 1.4]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaScale A 1.1]
+[charaScale D 1.1]
+[charaScale G 1.1]
+
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 -85,275]
+＠玛修
+两位还没见过杜木兹先生吧。
+[k]
+
+＠玛修
+这位是苏美尔的牧羊神，[r]杜木兹先生。
+[k]
+
+[charaFace G 8]
+＠玛修
+所以……杜木兹先生果然惹出了什么问题吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 27]
+[charaFadein C 0.1 -250,0]
+＠埃列什基伽勒·Alter
+嗯。[r]我将冥界变成花田后，又让花朵全部枯萎了。
+[k]
+
+＠埃列什基伽勒·Alter
+当时这家伙装作让花朵枯萎，[r]实则转变成魔力储藏起来了。说是以备决战。
+[k]
+
+[charaFace C 26]
+＠埃列什基伽勒·Alter
+我刚才没收了那些魔力。[r]这家伙在这种方面真是让人恼火。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 -250,0]
+[charaFace G 5]
+＠杜木兹
+原计划在发生意外时就靠这笔私房钱远走高飞呢，[r]既然被发现了，也就没办法了。
+[k]
+
+[charaFace E 0]
+＠杜木兹
+只能将全部赌注都押在吓人的埃列什基伽勒[r]和你们身上了。
+[k]
+
+？1：还是那个[#有备无患:备拐防摔]的杜木兹呢！
+
+[charaFace E 1]
+＠杜木兹
+我会飞，所以不需要拐杖，[r]该摔倒时还是会摔倒的。
+[k]
+
+[charaFace E 2]
+＠杜木兹
+你也是，[r]资产管理时，目光要向今后多看几步。
+[k]
+
+？2：（他是看准了事情会发展成这样的吧……）
+
+[messageOff]
+[charaFace E 2]
+[wt 1.0]
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 -250,0]
+＠埃列什基伽勒·Alter
+[line 3]总之，综上所述，我现在的魔力储备很庞大哦。[r]还建造了对ORT防御壁。
+[k]
+
+[bgmStop BGM_EVENT_62 1.5]
+
+＠埃列什基伽勒·Alter
+看吧！　新召唤出来的古伽兰那之腿×1000[r]这威风凛凛的气势！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[subRenderFadeout #C 0.1]
+[charaFadeout G 0.1]
+[charaFadeout C 0.1]
+
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+[wt 0.1]
+
+
+[se ad589]
+[se ade157]
+[se ad66]
+[se ade311]
+[se ad882]
+[cueSe Servants_305300 m43618]
+[cueSe Servants_305300 m86305]
+[charaTalk L]
+[charaFadein L 1.0 0,-300]
+[wt 0.4]
+[cueSe Servants_305300 m86305]
+[wt 0.4]
+[cueSe Servants_305300 m86305]
+[wt 0.4]
+[cueSe Servants_305300 m86305]
+[wt 0.4]
+[cueSe Servants_305300 m86305]
+[wt 0.4]
+[cueSe Servants_305300 m86305]
+[seStop ad589 1.0]
+[wt 1.2]
+
+
+[subCameraFilter #B maskEdge cut359_mask05 3 255,255,255,255 0]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 -75,275]
+
+[subRenderFadeinFSSideR #A 0.2 250,-300]
+[wt 0.3]
+
+[bgm BGM_BATTLE_116 0.1]
+
+＠玛修
+这是[line 3]这次很完美！[r]紧密排列在一起，连只蚂蚁都钻不进去！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 0,275]
+＠卡多克
+只召唤大量神兽的腿组成城墙[line 3][r]虽然算天才和那啥一线之隔的创意，但感觉这样确实能行！
+[k]
+
+＠卡多克
+酷似日本满员电车的景象呢！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 -15,275]
+＠戈尔德鲁夫
+所以，这就是传闻中的爆棚吗……！[r]噢噢，埃列什基伽勒、埃列什基伽勒……！
+[k]
+
+＠戈尔德鲁夫
+通过第七特异点的报告，我对你的印象只有关键时候[r]掉链子的女神，实际保守点说也算天才吧？
+[k]
+
+
+？1：慢着，这样一来……
+？2：（感觉要完。）
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 22]
+[charaFadein B 0.1 0,275]
+＠达·芬奇
+[%1]，你休息够了吧？[r]准备好召唤术吧，接下来就靠你了。
+[k]
+
+[messageOff]
+
+[charaLayer C sub #B]
+
+[charaScale P 1.2]
+[charaScale C 1.1]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 -60,265]
+[charaFadein P 0.1 0,100]
+
+[subRenderFadeinFSSideL #B 0.3 -250,-200]
+[subRenderMoveFSSideL #B -250,-300 0.3]
+[wt 0.4]
+
+＠埃列什基伽勒·Alter
+那边的，这算什么反应[line 3]！
+[k]
+
+[bgm BGM_BATTLE_116 1.0 0.5]
+[messageOff]
+[subRenderFadeout #A 0.2]
+[subRenderFadeout #B 0.2]
+[wt 0.2]
+[charaFadeout C 0.1]
+
+[se ad556]
+[seVolume ad556 0 0]
+[se ad555]
+[seVolume ad555 0 0]
+[se ad664]
+[seVolume ad664 0 0]
+[seVolume ad556 1.5 0.7]
+[seVolume ad555 1.5 0.7]
+[seVolume ad664 1.5 0.7]
+[wt 1.4]
+
+[cueSe Servants_304200 bac1098]
+[wt 0.9]
+
+[cueSeStop bac1098 0.3]
+[se ad815]
+[cueSe Servants_403500 bac1238]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[charaShake L 0.01 1 2 0.4]
+[wt 1.2]
+
+[cueSe Servants_403500 bac1238]
+[se ad815]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[charaShake L 0.02 3 2 0.4]
+[wt 1.1]
+
+[cueSe Servants_304200 bac1101]
+[cueSe Servants_304200 bac1618]
+[cueSe Servants_403500 bac1238]
+[se ad815]
+[charaShake L 0.03 3 4 0.5]
+[fadeout white 0.3]
+[wait fade]
+[charaFadeout L 1.0]
+[wt 1.0]
+[cueSeStop bac1618 1.0]
+[se ad296]
+[charaShakeStop L]
+[wt 1.0]
+
+[bgmStop BGM_BATTLE_116 1.5]
+
+[se ad914]
+[shake 0.01 1 2 2.5]
+[fadein white 1.5]
+[wait fade]
+[wt 1.0]
+[seStop ad296 1.0]
+[wt 0.5]
+
+[seVolume ad556 1.0 0.2]
+[seVolume ad555 1.0 0.2]
+[seVolume ad664 1.0 0.2]
+[wt 0.5]
+
+[charaLayer C normal]
+[charaScale C 1.0]
+
+[bgm BGM_EVENT_122 0.1]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+＠埃列什基伽勒·Alter
+竟然被轻而易举地突破了[line 3]！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠杜木兹
+Oh。竟然被堵车堵到无法动弹，真是太丢人了。[r]埃列什基伽勒，还是死心认命回乌鲁克去吧。
+[k]
+
+[charaFace E 0]
+＠杜木兹
+推荐召唤就由我来代劳吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 28]
+[charaFadein C 0.1 1]
+＠埃列什基伽勒·Alter
+这才刚开始，你给我闭嘴！[r]就算被突破了，古伽兰那的腿也还用得上！
+[k]
+
+＠埃列什基伽勒·Alter
+刚才那个纯属意外，接下来才是正式的哦！
+[k]
+
+？1：原来是这样！　不愧是埃列什基伽勒！
+
+[seStop ad556 1.5]
+[seStop ad555 1.5]
+[seStop ad664 1.5]
+[bgmStop BGM_EVENT_122 1.5]
+[charaFace C 19]
+＠埃列什基伽勒·Alter
+你，你这样全力信任我，我会不好意思的。[r]不过很高兴得到你的夸奖。
+[k]
+
+？2：那么，接下来就该并肩作战了吧。
+
+[messageOff]
+[seStop ad556 1.5]
+[seStop ad555 1.5]
+[seStop ad664 1.5]
+[bgmStop BGM_EVENT_122 1.5]
+[charaFace C 16]
+[wt 1.0]
+
+[charaFace C 17]
+＠埃列什基伽勒·Alter
+也是。[r]我相信你哦，迦勒底的御主。
+[k]
+
+？！
+
+
+[charaFace C 20]
+＠埃列什基伽勒·Alter
+…[charaMoveReturn C 0,-7 0.3]…咳咳！[wt 0.7][r]那么冥界女神，埃列什基伽勒下令！
+[k]
+
+[bgm BGM_EVENT_113 0.1]
+[cameraMove 30.0 0,-10 1.1]
+
+＠埃列什基伽勒·Alter
+接下来召唤将再无限制！[r]需要的魔力由我和Storm Border提供！
+[k]
+
+[cueSe SE_21 21_ad1108]
+[charaCrossFade C 1098257210 1 0.2]
+[effect bit_talk_noble_light]
+
+＠埃列什基伽勒·Alter
+将剩余996条古伽兰那腿部署至整个冥界，[r]扩大领域后再压缩，
+[k]
+
+＠埃列什基伽勒·Alter
+以此来增加第六层的空间密度！[r]岂能轻易让它跨过去！
+[k]
+
+＠埃列什基伽勒·Alter
+在此期间，我会用赤雷拖住ORT，[r]同时赋予从者们冥界的加护！
+[k]
+
+＠埃列什基伽勒·Alter
+要在这里一决胜负啦，[%1]！[r]让你认识清楚谁才是胜利女神吧！
+[k]
+
+
+
+
+
+[messageOff]
+[seStop 21_ad1108 0.5]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_113 0.4]
+[wait fade]
+[soundStopAll]
+[end]

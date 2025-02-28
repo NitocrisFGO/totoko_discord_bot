@@ -1,0 +1,806 @@
+
+
+
+＄04-00-02-15-5-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270210 1 迦摩]
+[charaSet B 1098269520 1 莱诺尔]
+[charaSet C 1098270000 1 希翁]
+[charaSet D 1098267010 1 迦梨]
+[charaSet E 1098271300 1 刻耳柏洛斯]
+[charaSet F 1098271300 1 刻耳柏洛斯（演出用）]
+
+
+[sceneSet H 189602 1]
+[charaScale H 1.2]
+[charaSet I 1098269520 1 莱诺尔（演出用）]
+[sceneSet J 189602 1]
+[charaScale J 1.2]
+[sceneSet K 189602 1]
+[charaScale K 1.2]
+
+
+[imageSet O cut466_rro_mask 1]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+
+
+[subCameraOn 1]
+[charaLayer T sub #A]
+[charaLayer I sub #A]
+[charaLayer H sub #A]
+[subCameraFilter #A through]
+
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth I 2]
+[charaDepth T 3]
+
+[charaScale T 1.2]
+[charaScale I 1.2]
+[charaScale H 1.4]
+
+[charaPut T -50,0]
+[charaEffect T bit_talk_10_LowLevel_depth]
+
+[charaFace I 0]
+[charaFadein I 0.1 -50,0]
+[charaFadein H 0.1 -50,-270]
+
+
+
+[charaPut O 2000,2500]
+[charaEffectEdgeBlur O FFFFFF FFFFFF 5 1.5]
+
+[scene 189602]
+
+[fadein black 1.5]
+[wait fade]
+
+[se ad39]
+[effect bit_talk_noble_light]
+[effect bit_talk_under_light]
+[bgm BGM_EVENT_38 0.1]
+[wt 3.0]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.4 1]
+[wt 0.4]
+
+
+＠迦摩
+这……形式是『虚数』。[r]那我应该也打得开吧。
+[k]
+
+[charaFace A 4]
+＠迦摩
+反正就算是陷阱，[r]事态也不会变得更糟了吧。
+[k]
+
+[charaFace A 0]
+＠迦摩
+总之先拆开[#外壳:包装]。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.3]
+
+[se adm20]
+[fadeout white 0.8]
+[wait fade]
+
+[effectDestroy bit_talk_noble_light]
+[effectDestroy bit_talk_under_light]
+
+[charaScale O 0.8]
+[charaTalk O]
+[charaFace O 0]
+[charaFadein O 0.1 0,-125]
+[wt 1.6]
+
+[fadein white 1.0]
+[wait fade]
+[wt 1.4]
+
+
+？1：这是……
+？2：[#Rider:骑兵]的，面具……！？
+？！
+
+[charaFadeout O 0.1]
+[wt 0.05]
+[charaPut O 2000,2500]
+[wt 0.05]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠迦摩
+是被压缩成这个形状的某种东西啦。[wt 0.9][charaFace A 5][r]哎呀，有附带的数据。
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_38 1.5]
+[charaFadeout A 0.1]
+[wt 0.3]
+
+[se ade357]
+[wt 1.0]
+[seStop ade357 0.1]
+[wt 0.4]
+
+[se ad1]
+[charaPut S 1]
+[charaEffect S bit_talk_10_LowLevel]
+[wt 1.8]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+[wt 1.5]
+[bgm BGM_KYOSU_1 0.1]
+
+
+＠莱诺尔
+啊～。
+[k]
+
+[charaFace B 9]
+
+＠莱诺尔
+实际做下来，感觉还挺羞耻的。[r]不过算了，反正本体的我已经不在了。
+[k]
+
+[charaFace B 1]
+
+＠莱诺尔
+这是[line 3]所谓的死亡讯息。
+[k]
+
+＠莱诺尔
+我在临死之际，将被不明身份的家伙轰飞的最后瞬间[r]记录在了这份数据里。
+[k]
+
+？1：…………！
+？！
+
+[charaFace B 9]
+＠莱诺尔
+至于这么做的……理由嘛。测量未来[r]并为此做好准备本就是我的兴趣。
+[k]
+
+＠莱诺尔
+所以我做了各种调查……也大致弄明白了。
+[k]
+
+[charaFace B 3]
+＠莱诺尔
+未来，这个世界会彻底变成一个『系统』，[r]目前正在发生变化。
+[k]
+
+＠莱诺尔
+详情我就不知道了，[r]毕竟我又不是在预知未来。
+[k]
+
+[charaFace B 1]
+＠莱诺尔
+这也只是我根据与各片土地绑定的口袋[r]会在旋转后被甩到『外缘』推测出来的。
+[k]
+
+[charaFace B 5]
+＠莱诺尔
+顺带一提，虽然综合统管ＡＩ没有详细解释，[r]但并不是只转了一圈哦。
+[k]
+
+＠莱诺尔
+恐怕转了数万圈吧。只是速度太快，[r]让人以为只转了一圈而已。
+[k]
+
+[charaFace B 0]
+＠莱诺尔
+总之，思考如此旋转理由的我，[r]得出了结论。
+[k]
+
+[messageOff]
+[charaTalk off]
+[subRenderFadein #A 1.0 0,0]
+[charaMove T 50,0 50.0]
+[charaMove I 50,0 50.0]
+[charaMove H 50,-270 75.0]
+[wt 1.2]
+
+＠莱诺尔
+那个系统所使用的，[r]是概念性的『旋转』与『离心力』。
+[k]
+
+[charaFace I 8]
+＠莱诺尔
+至于这意味着什么，[r]估计未来的你们远比我知道的多吧。
+[k]
+
+＠莱诺尔
+然后[line 3]『即将丧命瞬间的我』，[r]是这样想的。
+[k]
+
+[charaFace I 1]
+＠莱诺尔
+我这力量与其白白浪费，[r]更应该留给未来吧。
+[k]
+
+[charaFace I 0]
+＠莱诺尔
+我不知道它会被用在什么地方、被怎么使用。[r]但总归聊胜于无吧。
+[k]
+
+＠莱诺尔
+这样说不定能改变些什么。
+[k]
+
+[charaFace I 10]
+＠莱诺尔
+综上所述，我使用了虚数口袋，
+[k]
+
+＠莱诺尔
+把绑定在[#Rider:骑兵]宝具上的剩余拉妮物质[r]全都放进了这里。
+[k]
+
+[charaFace I 9]
+＠莱诺尔
+在我死后，世界也许还会旋转，[r]所以可选的坐标只有[#这里]。
+[k]
+
+＠莱诺尔
+最不受旋转与离心力影响的[r]世界中心[line 3]这座教会的位置。
+[k]
+
+[charaFace I 0]
+＠莱诺尔
+我只想看到通往未来之物，[r]但看来我是无缘得见了。所以就托付给你们吧。
+[k]
+
+[charaFace B 1]
+[charaFace I 1]
+＠莱诺尔
+算是私房钱啦，随你们怎么花。就这样啦。
+[k]
+
+[messageOff]
+[subRenderFadeout #A 1.0]
+[wt 1.0]
+
+[charaPut T 2000,2500]
+[charaEffectDestroy T bit_talk_10_LowLevel_depth]
+[charaFadeout I 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer T normal]
+[charaLayer I normal]
+[charaLayer H normal]
+[charaScale T 1.0]
+[charaScale I 1.0]
+[charaScale H 1.0]
+[wt 0.6]
+
+[charaTalk on]
+[charaFace B 7]
+＠莱诺尔
+……慢着，除我以外还有人能打开虚数口袋吗？
+[k]
+
+[charaFace B 9]
+＠莱诺尔
+算了，应该总会有办法的。
+[k]
+
+[messageOff]
+[bgmStop BGM_KYOSU_1 1.5]
+[wt 0.5]
+[se ad1]
+[wt 0.05]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_10_LowLevel]
+[wt 1.7]
+
+[bgm BGM_MAP_89 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠迦摩
+啊啊，这是……那名御主利用[#Rider:骑兵]的宝具[r]朝巨大蠢魔轰出大魔术时，
+[k]
+
+＠迦摩
+让ＡＩ们激发的那些拉妮物质的，[r]残余物之类的东西吧。
+[k]
+
+？1：以残余物而言，似乎太多了吧……！
+？！
+
+[charaFace A 2]
+＠迦摩
+毕竟这是临终赠礼嘛，[r]除此以外还塞了赠品进去吧。
+[k]
+
+＠迦摩
+总而言之[line 3]呵呵呵。[r]真幸运呢，感觉用上这些就能行了。
+[k]
+
+＠迦摩
+应该，就能阻止迦梨了，[r]彻底阻止。
+[k]
+
+
+？1：真的吗！？
+？！
+
+[charaFace A 0]
+＠迦摩
+不过，还剩两个问题。
+[k]
+
+[charaFace A 4]
+＠迦摩
+其中一个只是些琐事，[r]是之后的事了，现在不用考虑。
+[k]
+
+＠迦摩
+不过另一个还挺重要的。
+[k]
+
+[charaFace A 0]
+＠迦摩
+[line 3]我需要时间。
+[k]
+
+＠迦摩
+这份资源就好比压缩文件，[r]在完全展开并收下之前，
+[k]
+
+＠迦摩
+需要一些解压时间。
+[k]
+
+？1：知道了。
+？2：我会想办法的。
+？！
+
+[charaFace A 3]
+＠迦摩
+你是小傻瓜吗？[r]别答应得那么轻松。
+[k]
+
+＠迦摩
+对手是破坏与杀戮的女神。[r]连怖军和难敌都被打趴了。
+[k]
+
+＠迦摩
+她现在还沉醉于舞蹈中，但当我开始操作时，[r]她肯定还是会把注意力放到这边来。
+[k]
+
+[charaFace A 7]
+＠迦摩
+身为区区御主的你，[r]怎么可能把开始操作的我，
+[k]
+
+＠迦摩
+藏在身后争取时间啊。
+[k]
+
+＠迦摩
+谢绝逞英雄和自寻死路。[r]适可而止啦。
+[k]
+
+？1：不过，只要能争取到时间，你就能逆转了吧？
+？2：我相信你说的话。
+？！
+
+[messageOff]
+[charaFace A 5]
+[wt 1.0]
+
+[charaFace A 0]
+＠迦摩
+就，就算你一脸帅气地说这种话也不行哦。
+[k]
+
+＠迦摩
+这是现实问题。[r]麻烦你为人处世聪明一些。
+[k]
+
+[charaFace A 4]
+＠迦摩
+我想想，要说真有什么机会，
+[k]
+
+＠迦摩
+就只有等被打趴下的怖军和难敌恢复，[r]拿他们当肉盾[line 3]
+[k]
+
+？1：可没那么多时间了……
+？！
+
+[messageOff]
+[wt 0.4]
+
+？1：放心吧，其实希翁给了我撒手锏。
+？！
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[bgm BGM_MAP_89 0.8 0.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[scene 189500]
+
+[pictureFrame cut063_cinema]
+
+[charaDepth T 9]
+[charaPut T 1]
+[charaEffect T bit_sepia01_depth_fs]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 0,-50]
+[wt 0.7]
+
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+＠希翁
+说起来，[%1][&先生:小姐]。
+[k]
+
+＠希翁
+趁现在，先告诉你关于指引我们[r]前往目的地的这个罗盘……
+[k]
+
+[charaFace C 8]
+＠希翁
+从美杜莎那里得到的，[r]这颗概念性的『眼睛』吧。
+[k]
+
+＠希翁
+准确地说，是关于她提到的附带品。
+[k]
+
+？1：到头来，附带品是指什么呢？
+？！
+
+[charaFace C 10]
+＠希翁
+极具挑战性的东西。[r]先说结论的话……
+[k]
+
+＠希翁
+这颗眼睛里蕴藏着她宝具的力量。
+[k]
+
+[charaFace C 8]
+＠希翁
+也就是身为怪物之父的[#黄金剑:克律萨俄耳]持有的[r][#魔物召唤功能]。虽说限制了条件。
+[k]
+
+？1：…………！
+？！
+
+＠希翁
+对熟悉召唤这种行为的你来说，[r]契合度还挺不错吧。
+[k]
+
+＠希翁
+机会难得，我打算沿途先对它进行调整。
+[k]
+
+[charaFace C 10]
+＠希翁
+调整成能作为你的魔术礼装运作……
+[k]
+
+＠希翁
+只要投入拉妮物质，[r]靠你自己也能数次使用的召唤功能。
+[k]
+
+[charaFace C 2]
+＠希翁
+然而，切忌滥用哦。
+[k]
+
+＠希翁
+哪怕经过礼装化，人类与英灵宝具的连接[r]也不可能没有副作用。
+[k]
+
+＠希翁
+这是危险的一次性召唤礼装，[r]就像是一颗用得不好也会危害自己的炸弹。
+[k]
+
+[charaFace C 8]
+＠希翁
+请当作走投无路之际的最终王牌[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_MAP_89 2.0]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaPut T 2000,2500]
+[charaEffectStop T bit_sepia01_depth_fs]
+
+
+[scene 189602]
+
+[pictureFrame]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[wt 0.7]
+
+[fadein white 0.6]
+[wait fade]
+[wt 0.4]
+
+？1：不过，现在正好……
+？！
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+
+[charaPut E 2000,2500]
+[charaEffectEdgeBlur E FFFDBF FFFDBF 4 1.5]
+
+[charaScale J 1.01]
+[charaFadein J 0.1 0,-200]
+[wt 0.6]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+[wt 0.5]
+
+[subCameraOn 1]
+[charaLayer D sub #A]
+[charaLayer K sub #A]
+[subCameraFilter #A maskEdge cut359_mask10 4 0,0,0,255]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth J 1]
+[charaDepth D 2]
+[charaDepth E 3]
+
+[charaDepth K 1]
+[charaDepth D 2]
+
+[charaScale D 1.2]
+[charaScale K 1.2]
+[charaFace D 26]
+[charaFadeinFSL D 0.1 0,250]
+[charaFadein K 0.1 450,15]
+
+[se ad984]
+[subRenderFadeinFSL #A 0.4 -400,-250]
+[subRenderMoveFSL #A -300,-250 0.4]
+[wt 0.8]
+
+[wt 1.0]
+
+[bgm BGM_MAP_58 0.1]
+
+？1：[line 3]『[#怪物的黄金剑:Chrysaor]』！
+？！
+
+[messageOff]
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+
+[charaFadeout D 0.1]
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer D normal]
+[charaLayer K normal]
+[charaScale D 1.0]
+[charaScale K 1.0]
+
+[fowardEffect bit_talk_gold_slash_02 0,0 H]
+[wt 0.1]
+[cueSe Battle bac337]
+[wt 0.5]
+[cueSeStop bac337 0.2]
+[wt 0.4]
+
+[cueSe SE_23 23_ad1295]
+[wt 0.2]
+[fowardEffect bit_talk_gold_smoke]
+[wt 5.0]
+[cueSeStop 23_ad1295 1.5]
+[wt 0.5]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.3]
+
+[cueSe SE_23 23_ad1312]
+[wt 0.2]
+[fowardEffectStop bit_talk_gold_smoke]
+[wt 2.2]
+[charaEffectEdgeBlurStop E]
+[wt 1.5]
+
+[subCameraOn 1]
+[charaLayer H sub #A]
+[charaLayer F sub #A]
+[subCameraFilter #A through]
+[subRenderScale #A 1.02]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth F 2]
+
+[charaFadein H 0.1 0,-200]
+[charaFadein F 0.1 0,-1]
+[wt 1.0]
+
+[subRenderFadein #A 0.4 0,0]
+
+[blur lens 0.1 4 4]
+[se ad231]
+[wt 0.5]
+
+[subRenderFadeout #A 0.5]
+[blurOff lens 1.0]
+[wt 0.5]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[wt 1.2]
+
+[charaMoveScale E 1.3 1.6]
+[charaMoveScale J 1.25 1.6]
+[charaMove E 200,85 1.6]
+[charaMove J 150,-235 1.6]
+[charaFadeout E 0.8]
+[wt 0.8]
+
+[charaScale D 0.9]
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.8 -75,-30]
+[charaMove D 1 0.8]
+[charaMoveScale D 1.0 0.8]
+[wt 1.8]
+
+
+＠迦梨
+……？　[wt 0.6][charaFace D 7][messageShake 0.04 4 3 0.4]哈，哈哈！　有气味！[wt 0.6][r]那是[#女神:吾]要杀戮的魔之气味！
+[k]
+
+
+[messageOff]
+[se ad678]
+[se ad1006]
+[blur motion 0.25 4 200 0.65 0.65 0.07 200]
+[charaMoveScale D 1.1 0.25]
+[charaMove D 30,15 0.25]
+[charaFadeout D 0.25]
+[wt 0.25]
+[blurOff motion 0.1]
+[wt 0.65]
+
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[cueSeStop bac1038 0.6]
+[cueSeStop bac1037 0.6]
+[wait wipe]
+
+[charaFadeout J 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+[wt 0.5]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+[bgm BGM_MAP_58 0.5 0.7]
+
+[charaTalk depthOff]
+[charaDepth R 4]
+[charaDepth A 5]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+[charaTalk on]
+＠迦摩
+（对了，美杜莎的怪物也是『魔』[line 3]）
+[k]
+
+＠迦摩
+（是被规定在迦梨存在意义中的，[r]　『必须消灭之物』！）
+[k]
+
+＠迦摩
+（既然如此，迦梨估计也不会无视。[r]　说不定能拿来当肉盾或争取时间……！）
+[k]
+
+[charaFadeout R 0.2]
+[bgm BGM_MAP_58 0.5 1.0]
+
+[charaFace A 6]
+＠迦摩
+呜，啊啊真是的！　真拿你没辙，我要开始操作了，[r]绝对不要勉强自己啊，御主！
+[k]
+
+
+[messageOff]
+[wt 0.65]
+[fadeout black 1.2]
+[bgmStop BGM_MAP_58 1.2]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[scene 10000]
+[wt 0.15]
+
+[fadein black 0.4]
+[wait fade]
+
+[masterBranch _Male _Female]
+[label _Male]
+
+[criMovie talk_mov178 bgmPlay false]
+[wt 46.0]
+
+[branch _branchEnd]
+[label _Female]
+
+[criMovie talk_mov179 bgmPlay false]
+[wt 46.0]
+
+[branch _branchEnd]
+[label _branchEnd]
+
+[skip false]
+[wt 1.0]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAllEnd]
+[end]

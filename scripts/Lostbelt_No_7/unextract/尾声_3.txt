@@ -1,0 +1,886 @@
+
+＄03-00-13-19-3-0
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 1098252530 1 奥塞洛特尔市民1]
+[charaSet B 1098252530 1 奥塞洛特尔市民2]
+[charaSet C 1098252530 1 奥塞洛特尔市民3]
+[charaSet D 1098252540 1 奥塞洛特尔兵士1]
+[charaSet E 1098252500 1 奥塞洛特尔兵士2]
+[charaSet F 98015000 1 奥塞洛特尔女性1]
+[charaSet G 98006300 1 奥塞洛特尔女性2]
+[charaSet H 1098252800 1 夸乌特莫克]
+[charaSet I 1098253910 1 伊斯卡利]
+[charaSet J 6047000 1 特斯卡特利波卡]
+
+[sceneSet K 170401 1]
+[charaScale K 1.2]
+[charaDepth K 1]
+[sceneSet L 170401 1]
+[sceneSet M 170401 1]
+[sceneSet N 170401 1]
+[sceneSet O 10000 1]
+[charaScale O 1.01]
+[charaDepth O 1]
+
+[sceneSet P 10000 1]
+[charaScale P 1.01]
+
+[subCameraOn 4]
+[subRenderDepth #A 1]
+[subCameraFilter #A through]
+[subRenderFadein #A 0.1 0,0]
+
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaScale M 1.0]
+[charaDepth M 0]
+[charaFadein M 0.1 0,-200]
+
+[pictureFrameTop cut063_cinema]
+[charaFadein K 0.1 100,-225]
+[scene 170401]
+[wt 0.1]
+
+[se ad889 0 0]
+[seVolume ad889 2.0 1.0]
+[cueSe SE_23 23_ad1271]
+[seVolume 23_ad1271 0 0.1]
+[seVolume 23_ad1271 2.0 0.4]
+[cueSe SE_23 23_ad1272]
+[seVolume 23_ad1272 0 0.1]
+[seVolume 23_ad1272 2.0 0.4]
+[cueSe SE_23 23_ad1273]
+[seVolume 23_ad1273 0 0.1]
+[seVolume 23_ad1273 2.0 0.4]
+[cueSe SE_23 23_ad1274]
+[seVolume 23_ad1274 0 0.1]
+[seVolume 23_ad1274 2.0 0.4]
+
+[charaMove K -10,-225 5.0]
+[fadein black 2.0]
+[wait fade]
+[wt 0.5]
+[seStop ad889 1.5]
+[wt 1.5]
+[charaFadeout K 1.2]
+[wt 1.6]
+[bgm BGM_MAP_88 0.1]
+
+[cueSe SE_23 23_ad1228]
+[seVolume 23_ad1228 0 0.6]
+＠奥塞洛特尔们
+[i npc_language_19][line 3]！[r][i npc_language_20][line 3]！
+[k]
+
+＠奥塞洛特尔们
+[i npc_language_35_w4][i npc_language_35_w5]太阳[i npc_language_35_w1]我等[i npc_language_35_w2]！[r]歌颂吧，[i npc_language_35_w3][i npc_language_35_w6]给与[i npc_language_35_w7][i npc_language_35_w8]！
+[k]
+
+＠奥塞洛特尔们
+米[messageShake 0.04 4 3 0.3]克特兰！[wt 0.6][messageShake 0.04 4 3 0.3][r]米克特兰！
+[k]
+
+[messageOff]
+[seStop ad889 2.0]
+[charaTalk off]
+[charaDepth D 3]
+[charaDepth E 4]
+[charaDepth I 5]
+[charaFace I 0]
+[se ade428]
+[charaFadein I 0.4 0,-50]
+[wt 0.4]
+[seStop ade428 0.4]
+[wt 0.5]
+[se ade210]
+[seVolume ade210 0 0.5]
+[charaFace D 0]
+[charaFadein D 0.4 -320,-50]
+[charaFace E 0]
+[charaFadein E 0.4 320,-50]
+[wt 0.4]
+
+[seStop ade210]
+[wt 1.0]
+
+[charaDepth K 6]
+[charaDepth F 7]
+[charaDepth L 8]
+[charaDepth G 9]
+
+[charaScale K 1.2]
+[charaFadein K 0.8 90,-225]
+[charaMove K 130,-225 0.8]
+[wt 1.1]
+
+[se ad452]
+[seVolume ad452 0 0.3]
+[charaScale F 1.0]
+[charaFace F 0]
+[charaFadeinFSL F 0.4 -350,-70]
+[wt 0.4]
+[seStop ad452 0.1]
+[wt 0.9]
+
+[charaScale L 1.2]
+[charaFadein L 0.8 -90,-225]
+[charaMove L -130,-225 0.8]
+[wt 1.0]
+[charaFadeout K 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad452]
+[seVolume ad452 0 0.3]
+[charaScale G 1.0]
+[charaFace G 0]
+[charaFadeinFSR G 0.4 350,-70]
+[wt 0.4]
+[seStop ad452 0.1]
+[wt 1.0]
+
+[charaFadeout G 0.8]
+[charaFadeout L 0.8]
+[wt 1.0]
+
+
+
+[charaTalk on]
+[cueSe SE_22 22_ad1200]
+＠D：奥塞洛特尔护卫
+[i npc_language_18][line 3]？[wt 1.0][r]…………，………………
+[k]
+
+＠伊斯卡利
+无妨，去吧。[r]我一个人向特斯卡特利波卡神报告就够了。
+[k]
+
+
+[messageOff]
+[charaTalk off]
+[wt 0.1]
+[charaMoveReturn D -320,-54 0.3]
+[wt 0.2]
+[charaMoveReturn E 320,-54 0.3]
+[wt 0.2]
+[charaMoveReturn D -320,-54 0.3]
+[wt 0.2]
+[charaMoveReturn E 320,-54 0.3]
+[wt 0.7]
+[se ade426]
+[se ade427 0.6]
+[charaFadeout D 0.4]
+[charaMove D -400,-50 0.4]
+[wt 0.2]
+[charaFadeout E 0.4]
+[charaMove E 400,-50 0.4]
+[seStop ade426 1.0]
+[seStop ade427 1.0]
+[wt 1.1]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaLayer F sub #B]
+[charaLayer D sub #B]
+[charaLayer K sub #B]
+[charaLayer G sub #C]
+[charaLayer E sub #C]
+[charaLayer L sub #C]
+[subCameraFilter #B maskEdge cut359_mask10 3 255,255,255,255 0]
+[subCameraFilter #C mask cut359_mask09]
+[subRenderDepth #B 3]
+[subRenderDepth #C 2]
+[charaDepth F 4]
+[charaDepth D 3]
+[charaDepth K 2]
+[charaDepth G 4]
+[charaDepth E 3]
+[charaDepth L 2]
+[charaScale D 1.1]
+[charaScale E 1.1]
+[charaScale F 1.1]
+[charaScale G 1.1]
+[charaScale K 1.2]
+[charaScale L 1.2]
+[charaFace F 0]
+[charaFadeinFSL F 0.1 -150,0]
+[charaFadein K 0.1 225,-150]
+[charaFace G 0]
+[charaFadeinFSR G 0.1 200,0]
+[charaFadein L 0.1 100,-250]
+[wt 0.1]
+[subRenderFadein #B 0.4 -200,-100]
+[subRenderMove #B -250,-100 0.4]
+[wt 0.55]
+[subRenderFadein #C 0.4 100,-100]
+[subRenderMove #C 150,-100 0.4]
+[wt 0.7]
+[charaFace D 0]
+[charaFadeinFSL D 0.4 140,20]
+[charaMoveFSL D 90,20 0.4]
+[wt 0.4]
+[se ad480 0.7]
+[seStop ad480 0.7]
+[charaShake F 0.03 2 1 0.15]
+[charaShake D 0.03 2 1 0.15]
+[wt 0.3]
+[charaFace E 0]
+[charaFadeinFSR E 0.4 -80,20]
+[charaMoveFSR E -30,20 0.4]
+[wt 0.4]
+[se ad480 0.7]
+[seStop ad480 0.7]
+[charaShake G 0.03 2 1 0.15]
+[charaShake E 0.03 2 1 0.15]
+[wt 1.3]
+
+[subRenderFadeout #B 0.5]
+[subRenderFadeout #C 0.5]
+[wt 0.55]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[wt 0.15]
+[charaLayer F normal]
+[charaLayer D normal]
+[charaLayer K normal]
+[charaLayer G normal]
+[charaLayer E normal]
+[charaLayer L normal]
+
+[charaTalk on]
+
+[charaTalk depthOff]
+[charaDepth O 2]
+[charaDepth I 5]
+
+[charaPut O 1]
+[charaFadeTime O 0.2 0.5]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 0,-50]
+
+＠伊斯卡利
+（……生活在城市外……树海里的妇孺[r]　也忍不住进城了啊。）
+[k]
+
+＠伊斯卡利
+（是前来庆祝墨西哥城的胜利[line 3]才怪。[r]　我知道。）
+[k]
+
+＠伊斯卡利
+（她们一直在祈祷并等待着[r]　出战的丈夫、孩子们活着回来。）
+[k]
+
+＠伊斯卡利
+（……爱着家人，守护家人。[r]　完全就是人类。不，要更加纯粹吗？）
+[k]
+
+[charaFadeout O 0.2]
+＠伊斯卡利
+……平安生还的不过寥寥几人。[r]在失去配偶的那些人看来，我应该是个无能的王吧。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMoveScale M 1.15 1.2]
+[charaMove M 60,-235 1.2]
+[charaMoveScale I 1.2 1.2]
+[charaMove I 150,-25 1.2]
+[charaFadeout I 1.0]
+[wt 1.4]
+
+[charaLayer K sub #B]
+[charaLayer I sub #B]
+[charaDepth K 1]
+[charaDepth I 2]
+[subCameraFilter #B maskEdge cut359_mask07 3 0,0,0,0 0]
+[charaScale K 1.2]
+[charaScale I 1.2]
+[charaFace I 0]
+[charaFadein I 0.1 -5,40]
+[charaFadein K 0.1 -280,-225]
+
+[charaScale H 0.8]
+[charaDepth H 2]
+[charaFace H 0]
+[charaFadeinFSSideL H 0.4 -460,-120]
+[charaMoveFSSideL H -420,-120 0.4]
+[se ad984 0.7]
+[wt 1.4]
+
+
+[subRenderFadeinFSR #B 0.4 250,-100]
+[subRenderMoveFSR #B 200,-100 0.4]
+[wt 1.9]
+
+
+[charaTalk on]
+＠伊斯卡利
+（那个奥塞洛特尔……是亲卫队候补的。[r]　扎实训练了半年呢。）
+[k]
+
+＠伊斯卡利
+（……哼，是在埋怨我以他年轻为由，[r]　没带他上战场吗？）
+[k]
+
+[messageOff]
+[se adm36]
+[charaFadeout I 0.4]
+[seStop adm36 1.2]
+[wt 2.0]
+
+[bgmStop BGM_MAP_88 1.5]
+[fadeout black 1.5]
+[wait fade]
+[blurOff motion 0.1]
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[charaTalk off]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout K 0.1]
+[charaFadeout M 0.1]
+[charaLayer I normal]
+[charaLayer K normal]
+[sceneSet K 169502 1]
+
+[subCameraOff]
+[pictureFrame]
+[charaScale I 1.0]
+[scene 10000]
+
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_MAP_35 0.1]
+
+[charaFace D 0]
+[charaFadein D 0.4 -50,0]
+[charaFace F 0]
+[charaFadein F 0.4 250,0]
+[charaMove D 0,0 10.0]
+[charaMove F 300,0 10.0]
+[wt 0.4]
+
+＠
+家人的爱、家人的纽带。
+[k]
+
+＠
+自诞生以来就不断茁壮成长，[r]不用言语表达、无需言语表达的爱。
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[charaFadeout F 0.4]
+[charaFace I 0]
+[charaFadein I 0.4 -50,0]
+[charaMove I -100,0 10.0]
+[wt 0.4]
+
+＠
+自己没有这样的[#过程:东西]。[r]睁开眼睛时，自己就已经是这副形态了。
+[k]
+
+＠
+在米克特兰被创造出来的，泛人类史人类的身体。[r]为成为奥塞洛特尔之王而被培育出来的，人类的精神。
+[k]
+
+＠
+这就是我。[r]既没有家人，也没有同胞。
+[k]
+
+[messageOff]
+[fadeout 9F0000 1.0]
+[wait fade]
+[charaFadeout I 0.1]
+[charaMove I 0,0 0.1]
+
+[scene 170400]
+[charaFace J 0]
+[charaFadein J 0.1 0,0]
+
+＠
+拥有的只有赤裸裸的冲动。
+[k]
+
+＠
+『对那些不服从自己之人的失望』，[r]『对自己被赋予之物的绝望』，
+[k]
+
+＠
+以及，[r]『对自己身边所有一切的反作用』。
+[k]
+
+＠
+神曾说过，千万别忘记这股冲动。[r]唯有没有丝毫淤积的灵魂，才能令人变成神。
+[k]
+
+[messageOff]
+[cameraFilter gray]
+[fadein 9F0000 1.0]
+[wait fade]
+
+＠
+伟大的特斯卡特利波卡。[r]虽为泛人类史之神，却发现了奥塞洛特尔，
+[k]
+
+＠
+一夜间筑起了墨西哥城，[r]从米克特兰的泥土中创造出我来当王。
+[k]
+
+[messageOff]
+[charaFadeout J 0.4]
+[wt 0.4]
+
+＠
+我作为一年特斯卡特利波卡行动，[r]通过让形象配得上这个名号，让王成为人身之神。
+[k]
+
+＠
+何其美妙的一年，[r]毫无迷茫的一年。
+[k]
+
+＠
+歼灭人类才是正义，[r]这是为了否定泛人类史的战斗。
+[k]
+
+[messageOff]
+[charaDepth K 8]
+[charaDepth P 9]
+[charaDepth L 10]
+
+[charaScale K 1.0]
+[charaScale L 1.0]
+[charaScale P 1.0]
+[charaFadein K 0.4 -150,-200]
+[charaFadein P 0.4 660,-200]
+[wt 0.4]
+[scene 10000]
+
+＠
+而如今，奇琴伊察化作废墟，[wt 1.0][charaFadein L 0.4 660,-200][r]太阳被邀请到了墨西哥城。
+[k]
+
+＠
+米克特兰的霸权已属于他们。[r][align right]／对我来说根本无所谓。[align]
+[k]
+
+＠
+今后他们被称作人类的世界将会到来。[r][align right]／因为我并非奥塞洛特尔。[align]
+[k]
+
+[messageOff]
+[charaFadeout K 0.4]
+[charaFadeout L 0.4]
+[charaFadeout P 0.4]
+[subCameraOn]
+[charaLayer I sub]
+[subCameraFilter through]
+[subRenderFadein 0 0,0]
+[charaFadein I 0.4 0,0]
+[wt 0.4]
+[cameraFilter normal]
+
+＠
+我作为一年特斯卡特利波卡的试炼已经达成。
+[k]
+
+＠
+这下总算能够脱下面具，[r]丢掉[#成长:伊斯卡利]这一乳名了。
+[k]
+
+＠
+这是我不断梦想的瞬间。[r]这是获赐足以报复一切之力量的时刻。
+[k]
+
+[messageOff]
+[bgmStop BGM_MAP_35 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+＠
+然而[line 3]为何[line 3][r]我的内心却浑浊不堪。
+[k]
+
+＠
+犹如冒着烟雾映照不出镜像的，黑曜石之镜。
+[k]
+
+[messageOff]
+[wt 1.5]
+[charaLayer I normal]
+[subRenderFadeout 0.1]
+[charaTalk on]
+[subCameraOff]
+[pictureFrameTop cut063_cinema]
+[charaSet I 1098253900 1 伊斯卡利]
+[scene 170500]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_90 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 0,-50]
+
+＠特斯卡特利波卡
+就这样，太阳从玛雅迁居至阿兹特克。[r]虽然只有最低限度，但总算模仿出了泛人类史。
+[k]
+
+[se adm36 0]
+[seVolume adm36 0.4 0.7]
+
+＠特斯卡特利波卡
+哎哟，胜利之王凯旋。[r]欢迎回来，伊斯卡利。杀死那边的我了吗？[wt 0.4][seStop adm36 1.0]
+[k]
+
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.4 0,-50]
+[wt 0.4]
+
+＠伊斯卡利
+是的，全身上下被子弹射得千疮百孔。[r]四肢飞散，脖颈断裂，
+[k]
+
+＠伊斯卡利
+肉体粉碎，化作了米克特兰的尘土。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 8]
+[charaFadein J 0.1 0,-50]
+
+＠特斯卡特利波卡
+是吗，干得漂亮。[r]能杀死特斯卡特利波卡的只有特斯卡特利波卡。
+[k]
+
+＠特斯卡特利波卡
+虽然你和那边的我都是不死之身，[r]但同为特斯卡特利波卡的武器却能轻易奏效。
+[k]
+
+＠特斯卡特利波卡
+条件是对等的。[r]以战死告终的话，那边的我应该也不会有什么怨言了。
+[k]
+
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 10]
+[charaFadein I 0.1 0,-50]
+[wt 1.2]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 2]
+[charaFadein J 0.1 0,-50]
+
+＠特斯卡特利波卡
+唔？　怎么了？[r]有什么接受不了的事吗？
+[k]
+
+[charaFaceFade J 1 0.2]
+
+＠特斯卡特利波卡
+哦哦，恐龙王也是特斯卡特利波卡这件事吧！[r]这么说来，我的确没告诉你呢！
+[k]
+
+[charaFaceFade J 0 0.2]
+
+＠特斯卡特利波卡
+没事，我一直很信任你哦。[r]相信你是这里最[#能干]的男人。
+[k]
+
+[charaFaceFade J 3 0.2]
+
+＠特斯卡特利波卡
+神追求公平。[r]比起『胜利』，你更渴望『灭亡』。
+[k]
+
+＠特斯卡特利波卡
+既然认为泛人类史是不需要的，[r]就必须认为异闻带同样是不需要的才行。
+[k]
+
+＠特斯卡特利波卡
+明白了吗？　灭绝时双方都不能留下。[r]这可是让一切焕然一新的大事业。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 0,-50]
+
+＠伊斯卡利
+是。能获赐神谕，不胜荣幸，[r]伟大的特斯卡特利波卡。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 0.1 0,-50]
+
+＠特斯卡特利波卡
+好，那就出发吧。
+[k]
+
+＠特斯卡特利波卡
+下冥界的季节到了。[r]做好准备吧，伊斯卡利。来实现你的愿望吧。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 0,-50]
+
+＠伊斯卡利
+下冥界[line 3]是要前往米克特兰最底层吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 0,-50]
+
+＠特斯卡特利波卡
+没错。第九层奇科纳瓦洛扬。[r]不是这种赶制的城市，而是真正的祭坛都市·月之湖。
+[k]
+
+＠特斯卡特利波卡
+[#起始之地:阿兹特兰]，[r]也是你出生的地方。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 0,-50]
+
+＠伊斯卡利
+我出生……[r]我诞生的土地不是墨西哥城吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 0,-50]
+
+＠特斯卡特利波卡
+嗯。[r]不在那座都市就无法召唤你。
+[k]
+
+＠特斯卡特利波卡
+对了。有几个奥塞洛特尔是你[r]亲手栽培起来的吧。要带过去吗？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 0,-50]
+
+＠伊斯卡利
+[line 3]不。[r]好不容易才赢得胜利。
+[k]
+
+＠伊斯卡利
+就算是奥塞洛特尔，[r]应该也需要沉醉于美酒的时间。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 0,-50]
+
+＠特斯卡特利波卡
+没有错。哪怕很快就会消失无踪，[r]也应该好好品尝喜悦的滋味。
+[k]
+
+[charaFaceFade J 1 0.2]
+
+＠特斯卡特利波卡
+这是最后的收尾工作。戴比特在[#树海:外面]等着。[r]我们去瞻仰一下ORT的棺柩吧。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_90 1.5]
+[fadeout black 1.5]
+[wait fade]
+[pictureFrame]
+[charaFadeout J 0.1]
+[charaSet A 1098257500 1 拉斯普京]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[scene 169101]
+[wt 1.5]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_76 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉斯普京
+没想到这和平的米克特兰也会爆发战争。
+[k]
+
+＠拉斯普京
+看来只要冠以人类之名，无论到哪里，[r]都无法逃脱累积起来的业障。
+[k]
+
+[charaFace A 7]
+
+＠拉斯普京
+积累财富、积累罪孽、积累宽恕。[r]想必我等的『异星之神』也会哀叹不已吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+……哼。[r]我早就从影像记录中了解过人类有多喜欢战争了。
+[k]
+
+＠U－奥尔加玛丽
+虽然奇琴伊察化作了无人城市，[r]但它原本就不是迪诺斯构筑起来的文明。
+[k]
+
+＠U－奥尔加玛丽
+那些家伙什么都没有积累。[r]过去如此，今后亦然。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+
+＠拉斯普京
+所言甚是。[r]独具慧眼，令人折服。
+[k]
+
+[charaFace A 3]
+
+＠拉斯普京
+可是泛人类史的人类不同。
+[k]
+
+＠拉斯普京
+[#隐匿者:Crypter]与迦勒底。[r]他们都会朝着最底层进发吧。
+[k]
+
+＠拉斯普京
+一方是为了让ORT复苏，[r]一方是为了连带ORT一同消灭异闻带。
+[k]
+
+[charaFace A 0]
+
+＠拉斯普京
+那么[line 3]您意下如何呢？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+还用说吗。我之所以选这个异闻带当临时的下榻之处，[r]就是为了获得更强的[#灵基:身体]。
+[k]
+
+＠U－奥尔加玛丽
+ORT是属于我的。[r]岂能让给蝼蚁般无力[line 3]
+[k]
+
+＠U－奥尔加玛丽
+[line 3]无能的人类。
+[k]
+
+[charaFace B 18]
+
+＠U－奥尔加玛丽
+地球人类是邪恶的，这一结论已经得出。[r]在抹杀他们的问题上，我不会有任何的犹豫。
+[k]
+
+＠U－奥尔加玛丽
+我要前往最底层。[r]你就留在这里监视迦勒底吧。
+[k]
+
+＠U－奥尔加玛丽
+只要我与ORT融合，[r]那些家伙就会搭乘那艘舰艇逃跑了吧。
+[k]
+
+＠U－奥尔加玛丽
+到时候[line 3]你明白吧？[r]每次都追赶未免太麻烦了。而且已经追过两次了。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠拉斯普京
+当然。我已经动过手脚了。
+[k]
+
+＠拉斯普京
+Storm Border试图逃离米克特兰之时，[r]便是他们的死期吧。
+[k]
+
+[messageOff]
+[wt 0.7]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_76 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

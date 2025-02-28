@@ -1,0 +1,244 @@
+
+
+
+＄04-00-02-08-2-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098268910 1 樱]
+[charaSet B 1098270300 1 阿愈丝]
+[charaSet C 7046001 1 难敌]
+[charaSet D 1098269900 1 玛奇里]
+[charaScale D 1.2]
+[charaSet E 6037001 1 迦摩]
+[charaSet F 1098271100 1 虫英灵]
+[charaSet G 1098271020 1 强化蠢魔1]
+[charaSet H 1098271020 1 强化蠢魔2]
+
+[sceneSet I 190400 1]
+[charaScale I 1.2]
+
+[scene 190400]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth F 4]
+[charaDepth G 3]
+[charaDepth H 2]
+[charaDepth I 1]
+[charaFadein I 0.1 0,-300]
+[wt 0.1]
+
+[bgm BGM_BATTLE_107 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+
+[effect bit_talk_kengekiall02_fs]
+[wt 0.1]
+[cueSe Battle bac136]
+[wt 0.1]
+[cueSe Battle bac137]
+[wt 0.3]
+[cueSe Battle bac135]
+[wt 0.5]
+[cueSe Battle bac169]
+[effect bit_talk_strike_02]
+[wt 0.2]
+
+[cueSe Battle bac151]
+[charaEffect F bit_talk_blow02]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaFace F 0]
+[charaFace G 0]
+[charaFace G 0]
+[charaFadein F 0 1]
+[charaFadeinFSR G 0 300,0]
+[charaFadeinFSL H 0 -300,0]
+
+[charaEffect G bit_talk_blow]
+[charaEffect H bit_talk_blow]
+[charaShake F 0.03 4 4 0.8]
+[wt 0.1]
+[charaShake G 0.03 4 4 0.8]
+[charaShake H 0.03 4 4 0.8]
+[wt 0.8]
+
+[bgmStop BGM_BATTLE_107 1.8]
+
+[se ad42]
+[charaSpecialEffect F enemyErasure 1 1.5]
+[wt 0.2]
+[charaSpecialEffect G enemyErasure 1 1.5]
+[wt 0.1]
+[charaSpecialEffect H enemyErasure 1 1.5]
+[wait charaSpecialEffect H]
+[seStop ad42 0.5]
+[wt 0.5]
+
+[charaFadeout I 1.5]
+[wt 2.0]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠阿愈丝
+呼。[r]算是告一段落了吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠樱
+其他地方怎么样了……大家怎么样了！？
+[k]
+
+[charaFace A 15]
+
+＠樱
+对不起，我[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠迦摩
+我理解你的心情。[r]不过还是先别轻举妄动比较好。
+[k]
+
+＠迦摩
+御主也是哦。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠难敌
+唔唔唔……在那里吗！[r]别躲了，快出来！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_70 1.5]
+[wt 0.5]
+
+[se ad60]
+[seStop ad60 0.5]
+[wt 1.0]
+
+＠？？？
+呼喀喀……其实倒也没打算躲起来。
+[k]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠阿愈丝
+是，是谁！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+＠？？？
+问老夫是什么人？　感觉刚才也被人问过。[r]啊啊，那就回答你吧。
+[k]
+
+＠？？？
+[#构筑部:Build]首席ＡＩ。[r]ＡＩ圣杯战争的，御主。
+[k]
+
+＠？？？
+名为[line 3]
+[k]
+
+＠？？？
+玛奇里·佐尔根。[bgm BGM_MAP_67 0.1]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth I 1]
+[charaDepth D 2]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 1.0 0,45]
+[charaFadein I 1.0 0,-270]
+[charaMove I 0,-300 2.0]
+[charaMove D 1 2.0]
+[wt 2.5]
+
+＠玛奇里
+[line 3]乃是魔术师。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_MAP_67 1.0 0.5]
+[wait fade]
+
+[charaFadeout I 0.1]
+[charaFadeout D 0.1]
+
+[scene 10000]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_MAP_67 1.0 1.0]
+[wait fade]
+
+＠
+[bb8f69]哪怕干涉得有些强硬。
+[k]
+
+＠
+[bb8f69]圣杯战争还是重启了。[r][bb8f69]必须重启不可。
+[k]
+
+＠
+[bb8f69]位于其尽头，唯一追求的解。[r][bb8f69]演算圣杯战争的理由。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+＠
+[bb8f69]为了执行ＡＥＣ法。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStopEnd BGM_MAP_67 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

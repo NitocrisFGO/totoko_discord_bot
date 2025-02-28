@@ -1,0 +1,1156 @@
+
+
+
+＄03-00-13-20-2-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098124340 1 戴比特]
+[charaSet B 6047000 1 特斯卡特利波卡]
+[charaSet C 1098253920 1 伊斯卡利]
+[charaSet D 6042002 1 高扬斯卡娅]
+[charaSet E 1098255100 1 戈尔德鲁夫]
+[charaSet F 1098239310 1 卡多克]
+[imageSet G back10000 1 1]
+[charaScale G 1.3]
+[imageSet H back10000 1 1]
+[charaScale H 1.3]
+[imageSet I back10000 1 1]
+[charaScale I 1.3]
+[imageSet J back10000 1 1]
+[charaScale J 1.3]
+
+[imageSet K cut428_kys 1 1]
+[charaScale K 1.2]
+[imageSet L cut428_kys 1 1]
+[charaScale L 1.2]
+[imageSet M cut428_kys 1 1]
+[charaScale M 1.2]
+[imageSet N cut428_kys 1 1]
+[charaFilter N silhouette 00000080]
+[charaScale N 1.2]
+[imageSet O cut428_kys 1 1]
+[charaFilter O silhouette 00000080]
+[charaScale O 1.2]
+[imageSet P cut428_kys 1 1]
+[charaFilter P silhouette 00000080]
+[charaScale P 1.2]
+[sceneSet Q 173901 1]
+[sceneSet R 173901 1]
+[sceneSet S 173901 1]
+[sceneSet T 173901 1]
+
+[imageSet U cut442_jeep 1]
+[charaScale U 1.6]
+
+[sceneSet V 176000 1]
+
+[cameraMove 0 0,0 1.01]
+
+
+[scene 173901]
+
+[effect bit_talk_haboob_01_fs]
+
+[subCameraOn 4]
+[charaLayer A sub #A]
+[charaLayer G sub #A]
+[charaLayer K sub #A]
+[charaLayer N sub #A]
+[charaLayer Q sub #A]
+[charaLayer B sub #B]
+[charaLayer H sub #B]
+[charaLayer L sub #B]
+[charaLayer O sub #B]
+[charaLayer R sub #B]
+[charaLayer C sub #C]
+[charaLayer I sub #C]
+[charaLayer J sub #C]
+[charaLayer M sub #C]
+[charaLayer P sub #C]
+[charaLayer S sub #C]
+[charaLayer U sub #D]
+
+[subCameraFilter #D through]
+
+[shake 0.01 1 2 0]
+[charaFadein U 0.1 130,-435]
+[subRenderFadein #D 0.1 0,0]
+[blur lens 0.1 2 20]
+[wt 0.1]
+
+[se ad135]
+[seVolume ad135 0 0]
+
+[se ad140]
+[seVolume ad140 0 0]
+[se ade87]
+[seVolume ade87 0 0]
+
+[seVolume ad135 1.5 0.8]
+[seVolume ad140 1.5 0.7]
+[seVolume ade87 1.5 0.7]
+[charaMove U -130,-435 4.5]
+[fadein black 1.5]
+[wait fade]
+[wt 2.0]
+
+[blurOff lens 1.0]
+[subRenderFadeout #D 1.0]
+[wt 1.0]
+[charaFadeout U 0.1]
+
+[seVolume ad135 1.0 0.1]
+[seVolume ad140 1.0 0.3]
+[seVolume ade87 1.5 0.2]
+[shakeStop]
+
+
+
+[subCameraFilter #A maskEdge cut359_mask05 3 0,0,0,0 0]
+[subCameraFilter #B maskEdge cut359_mask05 3 0,0,0,0 0]
+[subCameraFilter #C maskEdge cut359_mask05 3 0,0,0,0 0]
+[charaScale A 1.1]
+[charaScale B 1.2]
+[charaScale C 1.1]
+[charaScale Q 1.2]
+[charaScale R 1.2]
+[charaScale S 1.2]
+
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth R 1]
+[charaDepth S 1]
+[charaDepth G 2]
+[charaDepth H 2]
+[charaDepth I 2]
+[charaDepth A 3]
+[charaDepth B 3]
+[charaDepth C 3]
+[charaDepth J 4]
+
+[charaFadein Q 0.1 -350,200]
+[charaFadein R 0.1 350,200]
+[charaFadein S 0.1 0,200]
+[charaFace A 0]
+[charaFadein A 0.1 -10,325]
+[charaFace B 7]
+[charaFadein B 0.1 5,325]
+[charaFace C 0]
+[charaFadein C 0.1 0,325]
+
+[charaPut G 0,300]
+[charaPut H 0,300]
+[charaPut I 0,300]
+[charaFadeTime G 0.1 0.5]
+[charaFadeTime H 0.1 0.5]
+[charaFadeTime I 0.1 0.5]
+
+[charaTalk A]
+[subRenderFadeinFSR #A 0.4 300,-330]
+[subRenderMoveFSR #A 300,-380 0.4]
+[bgm BGM_BATTLE_21 0.1]
+[wt 0.5]
+
+[charaLayer U normal]
+[charaSet U 98115000 1 特效用dummy]
+
+[seVolume ad135 1.5 0.1]
+[seVolume ad140 1.5 0.2]
+[seVolume ade87 1.5 0.2]
+
+
+＠戴比特
+是沙尘暴。以前并没有，[r]这也是你干的好事吗，特斯卡特利波卡？
+[k]
+
+[messageOff]
+[charaTalk B]
+[subRenderFadeinFSL #B 0.4 -300,-330]
+[subRenderMoveFSL #B -300,-380 0.4]
+[wt 0.5]
+＠特斯卡特利波卡
+你什么意思！　碰上糟糕的情况[r]就全都赖我头上了吗！？
+[k]
+
+＠特斯卡特利波卡
+这是卡玛佐茨干的好事！[r]那混蛋不经大脑就对从者用了令咒！
+[k]
+
+＠特斯卡特利波卡
+我是看他想要才卖给他的，[r]没想到他竟会说出“我也要成为御主！”
+[k]
+
+＠特斯卡特利波卡
+这种白痴的话来，[r]这谁能预料得到啊，混账玩意！
+[k]
+
+[charaFace A 8]
+＠戴比特
+还不是因为你不分对象一律都想给与试炼。[r]你也该自我克制一点了。
+[k]
+
+[charaFace A 0]
+＠戴比特
+[line 3]所以呢？[r]在你看来，卡玛佐茨如何？
+[k]
+
+[charaFaceFade B 1 0.2]
+＠特斯卡特利波卡
+太棒了。在阿兹特克当然数我，[r]但在[#异闻带:这里]是那家伙更强，甚至可以说是最强的。
+[k]
+
+＠特斯卡特利波卡
+他还在能拿令咒玩就该庆幸了。[r]一旦玩具玩完了，也该暴露本性了吧。
+[k]
+
+[charaFace A 9]
+＠戴比特
+是吗。也就是我们能超越迦勒底了吧。[r]接下来只祈祷不会碰上库库尔坎了。
+[k]
+
+[charaFaceFade B 0 0.2]
+＠特斯卡特利波卡
+没事，到时候只要牺牲我们中的一个就行了。[r]啊，不对，既然对手是库库尔坎，应该是我吧？
+[k]
+
+＠特斯卡特利波卡
+虽然是那什么迈雅模仿出来的异闻带之神，[r]但既然是模仿，肯定与我的契合度不错。
+[k]
+
+＠特斯卡特利波卡
+就让我为只会用蛮力的[#新生:菜鸟][r]表演一下熟练的躲闪技吧。
+[k]
+
+[messageOff]
+[charaTalk C]
+[charaFace C 19]
+[subRenderFadein #C 0.4 0,-430]
+[subRenderMove #C 0,-380 0.4]
+[wt 0.5]
+
+＠伊斯卡利
+…………
+[k]
+
+＠特斯卡特利波卡
+怎么了，伊斯卡利？　没什么精神呢。[r]第一次坐四驱车晕车了吗？
+[k]
+
+
+[charaFaceFade C 0 0.2]
+＠伊斯卡利
+……不，没有问题。[r]只是看着陌生的风景，有点头晕。
+[k]
+
+＠伊斯卡利
+别管我了……离开墨西哥城时[r]没看到特拉洛克神的身影。
+[k]
+
+＠伊斯卡利
+伟大的特斯卡特利波卡，[r]特拉洛克神在哪里？
+[k]
+
+[charaFace B 0]
+＠特斯卡特利波卡
+既然没有回到我身边，应该是战败了吧。[r]虽然有违预期，但我不怪她。
+[k]
+
+＠特斯卡特利波卡
+原本就是为打造你们的城市而召唤出来的灵魂。[r]那家伙已经充分完成自己的使命了。
+[k]
+
+[charaFace C 1]
+＠伊斯卡利
+[line 3]打造出墨西哥城的[r]难道不是特斯卡特利波卡神吗？
+[k]
+
+[charaFaceFade B 8 0.2]
+＠特斯卡特利波卡
+虽然我其实也可以准备，[r]但那种地形还是那家伙比较合适。
+[k]
+
+＠特斯卡特利波卡
+那可是货真价实泛人类史制造的城市。[r]墨西哥城就是现代的称呼嘛。
+[k]
+
+＠特斯卡特利波卡
+美丽的[#月之湖:梅斯特利亚潘]。[r]水之都，阿兹特克王国的首都。祭祀两尊神明的城市。
+[k]
+
+＠特斯卡特利波卡
+可不是迪诺斯们在[#史前文明:卡恩]的废墟上[r]重建而成的奇琴伊察能比的。
+[k]
+
+[charaFilter J silhouette FF000080]
+＠伊斯卡利
+阿兹特克王国的首都[line 3][r]美丽的[#月之湖:梅斯特利亚潘][line 3]……[wt 0.7][se ad231][seVolume ad231 0 0.7][charaFace C 7][overlayFadein J 0.1 0,325][charaFadeout J 0.4][charaShake C 0.02 2 2 0.3]
+[k]
+
+[charaFaceFade B 3 0.2]
+＠特斯卡特利波卡
+怎么了，还在头晕吗？[r]很快就要到最底层了，坚持住。
+[k]
+
+＠特斯卡特利波卡
+好不容易才走到了这步哦，伊斯卡利。[r]别浪费你的战斗，和你存在过的时间。
+[k]
+
+[charaFace C 0]
+＠伊斯卡利
+是……我明白。[r]我的生命皆是为植根于灵魂的愤怒而存在的。
+[k]
+
+[messageOff]
+[bgmStop BGM_BATTLE_21 1.0]
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[subRenderFadeout #C 0.1]
+[wt 0.1]
+
+
+[seVolume ad135 0.8 0.2]
+[seVolume ad140 0.8 0.7]
+[seVolume ade87 0.8 0.7]
+[wt 0.8]
+
+[seStop ad135 0.3]
+[seStop ad140 0.3]
+[seStop ade87 0.3]
+[cueSe Servants_2500900 m45519]
+[cueSe Servants_604200 m45307]
+
+[cueSe SE_22 22_ade740]
+[cueSeVolume 22_ade740 0 0]
+[wt 1.1]
+
+[shake 0.02 2 3 2.0]
+[cueSeVolume 22_ade740 0.1 1.0]
+[se ad882]
+[se ad864]
+[seVolume ad864 0 0.5]
+
+[fowardEffect bit_talk_explosion_triple02]
+[fowardEffect bit_talk_impactlanding 250,-300]
+[shake 0.05 2 3 2.5]
+[wt 2.8]
+
+[charaTalk C]
+[charaFace C 17]
+[subRenderFadein #C 0.2 0,-380]
+[bgm BGM_BATTLE_206 0.1]
+
+＠伊斯卡利
+！[messageShake 0.08 4 3 0.3]？　[wt 0.6]怎么回事，[#隐匿者:Crypter]！
+[k]
+
+[messageOff]
+[charaFace A 0]
+[subRenderFadeinFSR #A 0.2 300,-380]
+＠戴比特
+是敌人的攻击，扶稳了。
+[k]
+
+[messageOff]
+[se ade329]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[bgm BGM_BATTLE_206 0.5 0.5]
+[wait wipe]
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #C 0.1]
+
+[effectDestroy bit_talk_haboob_01_fs]
+[fowardEffectDestroy bit_talk_impactlanding 0,-100]
+
+[scene 10000]
+[wt 0.2]
+
+
+[se ad609]
+[wipein rectangleStripRightToLeft 0.1 1.0]
+[wait wipe]
+
+[fadeout black 0.1]
+[wait fade]
+
+
+[scene 176000]
+[wt 0.5]
+
+[se ad135]
+[seVolume ad135 0 0]
+
+[se ad140]
+[seVolume ad140 0 0]
+[se ade87]
+[seVolume ade87 0 0]
+
+[seVolume ad135 0.5 0.2]
+[seVolume ad140 0.5 0.3]
+[seVolume ade87 0.5 0.3]
+[bgm BGM_BATTLE_206 1.0 1.0]
+[shake 0.01 1 1 0]
+
+[charaScale V 1.5]
+[charaTalk V]
+[charaFace V 0]
+[charaFadein V 0.1 -300,-470]
+[charaMove V 200,-130 6.0]
+[fadein black 1.0]
+[wt 0.3]
+[se ad882]
+[shake 0.01 2 1 0]
+[wait fade]
+[wt 0.3]
+[se ad864]
+[seVolume ad864 0 0.7]
+[shake 0.01 2 2 0]
+
+[cueSe SE_22 22_ade740]
+[cueSeVolume 22_ade740 0 0]
+[flashin once 0.1 0.2 FFFFFFFF FFFFFF00]
+[shake 0.02 2 3 0]
+[wt 0.8]
+
+[cueSeVolume 22_ade740 0.1 1.0]
+[shake 0.02 3 2 0]
+
+[flashin once 0.1 0.2 FFFFFFFF FFFFFF00]
+[wt 0.6]
+
+[se ad854]
+[shake 0.02 3 4 0]
+[flashin once 0.1 0.2 FFFFFFFF FFFFFF00]
+[wt 0.8]
+[se ad609]
+[shake 0.03 2 3 2.4]
+[wt 0.4]
+[charaFadeout V 1.2]
+[wt 1.2]
+[seStop ad609 2.0]
+[wt 0.4]
+[seVolume ad135 0.6 0.1]
+[seVolume ad140 0.6 0.3]
+[seVolume ade87 0.6 0.2]
+[wt 0.4]
+[charaFace B 1]
+＠特斯卡特利波卡
+咻，真有你的，戴比特！[r]你这驾驶技术是在哪儿学的？　好莱坞吗！？
+[k]
+
+[charaFace A 0]
+＠戴比特
+很可惜，是[#函授教育:Paper Driver]。[r]我确实喜欢电影，但已经好几年没看了。
+[k]
+
+＠戴比特
+穿过地雷阵了。[r]幸好悬挂是保住了，不过[line 3]
+[k]
+
+[charaFace B 5]
+＠特斯卡特利波卡
+不过？
+[k]
+
+[seStop ad135 1.5]
+[seStop ad140 1.5]
+[seStop ade87 1.5]
+
+[charaFace A 5]
+＠戴比特
+[line 3]前方有神灵级从者。
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 1.0]
+[bgmStop BGM_BATTLE_206 2.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout R 0.1]
+[charaFadeout S 0.1]
+[wt 0.2]
+
+[scene 173901]
+
+[charaDepth U 1]
+[charaDepth T 8]
+[charaDepth D 9]
+[charaPut U 1]
+[charaEffect U bit_talk_haboob_01_fs]
+
+[se ad135]
+[seVolume ad135 0 0]
+[wt 1.0]
+
+[seVolume ad135 1.0 0.4]
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+[wt 0.5]
+
+[subCameraFilter #A maskEdge cut359_mask13 3 255,201,210,0 0]
+[subCameraFilter #B maskEdge cut359_mask02 3 255,201,210,0 0]
+[subCameraFilter #C maskEdge cut359_mask13 3 255,201,210,0 0]
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+[subRenderDepth #C 3]
+
+[bgm BGM_BATTLE_136 0.1]
+[charaScale K 1.2]
+[charaScale L 1.2]
+[charaScale M 1.5]
+[charaScale N 1.2]
+[charaScale O 1.2]
+[charaScale P 1.5]
+
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth R 1]
+[charaDepth S 1]
+[charaDepth K 2]
+[charaDepth L 2]
+[charaDepth M 2]
+[charaDepth N 3]
+[charaDepth O 3]
+[charaDepth P 3]
+
+[charaFadein Q 0.1 -10,360]
+[charaFadein R 0.1 10,150]
+[charaFadein S 0.1 -10,-120]
+[charaFadein K 0.1 -10,850]
+[charaFadein L 0.1 10,325]
+[charaFadein M 0.1 -10,60]
+[charaFadein N 0.1 -10,850]
+[charaFadein O 0.1 10,325]
+[charaFadein P 0.1 -10,60]
+
+[se ad987]
+[subRenderFadein #A 0.4 -500,-500]
+[subRenderMove #A 0,-500 0.4]
+[wt 0.4]
+[seStop ad987 0.1]
+[charaMove Q 10,360 15.0]
+[charaMove K 10,850 10.0]
+[charaMove N 10,850 10.0]
+[wt 0.45]
+[charaFadeout N 1.0]
+[wt 1.0]
+
+[se ad987]
+[seVolume ad987 0 0]
+[wt 0.4]
+[seVolume ad987 0.1 1.0]
+[subRenderFadein #B 0.4 500,-375]
+[subRenderMove #B 0,-375 0.4]
+[wt 0.3]
+[subRenderFadeout #A 0.6]
+[wt 0.1]
+[seStop ad987 0.1]
+[charaMove R -10,150 15.0]
+[charaMove L -10,325 10.0]
+[charaMove O -10,325 10.0]
+[wt 0.5]
+[charaFadeout O 1.0]
+[wt 1.4]
+
+[se ad984]
+[subRenderFadein #C 0.4 -500,-200]
+[subRenderMove #C 0,-200 0.4]
+[wt 0.3]
+[subRenderFadeout #B 0.6]
+[wt 0.1]
+[charaMove S 10,-120 15.0]
+[charaMove M 10,60 10.0]
+[charaMove P 10,60 10.0]
+[wt 0.5]
+
+[charaFadeout P 1.0]
+[wt 1.6]
+
+[seVolume ad135 0.6 0.8]
+[subRenderFadeout #C 0.6]
+[wt 0.6]
+
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[subRenderFadeout #C 0.1]
+[wt 0.1]
+[subRenderMove #A 0,0 0.1]
+[subRenderMove #B 0,0 0.1]
+[subRenderMove #C 0,0 0.1]
+
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout R 0.1]
+[charaFadeout S 0.1]
+[wt 0.2]
+
+[charaLayer I normal]
+[charaLayer J normal]
+[charaLayer C normal]
+[charaLayer K normal]
+[charaLayer L normal]
+[charaLayer M normal]
+[charaLayer N normal]
+[charaLayer O normal]
+[charaLayer P normal]
+[wt 0.1]
+
+[subCameraFilter #A maskEdge cut359_mask05 3 0,0,0,0 0]
+[subCameraFilter #B maskEdge cut359_mask05 3 0,0,0,0 0]
+[subCameraFilter #C maskEdge cut359_mask10 3 255,201,210,0 0]
+
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth R 1]
+[charaDepth G 2]
+[charaDepth H 2]
+[charaDepth A 3]
+[charaDepth B 3]
+
+[charaFadein Q 0.1 -350,200]
+[charaFadein R 0.1 350,200]
+[charaFace A 0]
+[charaFadein A 0.1 -10,320]
+[charaFace B 7]
+[charaFadein B 0.1 5,325]
+
+[charaPut G 0,300]
+[charaPut H 0,300]
+[charaFadeTime G 0.1 0.5]
+[charaFadeTime H 0.1 0.5]
+[wt 0.5]
+
+[se ad984]
+[charaScale D 1.3]
+[charaScale T 1.2]
+[charaTalk D]
+[charaFace D 22]
+[charaFadein D 0.8 0,200]
+[charaFadein T 0.8 0,-200]
+[wt 1.6]
+
+[charaMove D 0,25 2.2]
+[charaMove T 0,-250 2.2]
+[wt 2.5]
+
+[seStop ad135 1.5]
+
+[charaFaceFade D 28 0.3]
+＠高扬斯卡娅
+[line 3]欢迎光临我流的高天原。[r]诚挚欢迎你的到来，战神。
+[k]
+
+＠高扬斯卡娅
+地雷阵只是开胃菜中的开胃菜，[r]不过用了我小指尖程度的火药量哦。
+[k]
+
+＠高扬斯卡娅
+只要收下卡多克先生与戈尔德鲁夫先生[r]两人份的魔力路径，结果便如各位所见。
+[k]
+
+[charaFace D 17]
+＠高扬斯卡娅
+变生而成的乃是兵器大神。[r]实不相瞒，这里就是各位的坟场。
+[k]
+
+[messageOff]
+[charaFadeout D 1.0]
+[charaFadeout T 1.0]
+[wt 1.0]
+
+[charaLayer D sub #C]
+[charaScale D 1.4]
+[charaDepth D 2]
+[charaDepth S 1]
+[charaFadein S 0.1 300,50]
+[charaFadeinFSL D 0.1 0,250]
+
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[subRenderFadeinFSR #A 0.2 300,-380]
+＠戴比特
+也可以说是所谓的兵器女神吧。[r]你认识？
+[k]
+
+[messageOff]
+[charaTalk B]
+[charaFace B 4]
+[subRenderFadeinFSL #B 0.2 -300,-380]
+＠特斯卡特利波卡
+不认识。但是糟透了，[r]由我上毫无胜算。
+[k]
+
+[charaFace A 9]
+＠戴比特
+[line 3]这样啊。
+[k]
+
+＠戴比特
+那你带伊斯卡利走吧，特斯卡特利波卡。[r]只要你能抵达就行了。
+[k]
+
+[messageOff]
+[bgm BGM_BATTLE_136 1.5 0.6]
+[charaTalk B]
+[charaFaceFade B 6 0.2]
+[wt 1.2]
+
+＠特斯卡特利波卡
+[line 3]明白了。[r]再见啦，御主。
+[k]
+
+[messageOff]
+[se ad7]
+[se ad1006]
+[subRenderFadeout #B 0.4]
+[wt 1.1]
+
+[charaTalk D]
+[charaFace D 11]
+[subRenderFadeinFSL #C 0.2 -500,-250]
+[subRenderMoveFSL #C -250,-250 0.2]
+[wt 0.6]
+
+[se ade191]
+[se ad346]
+[wt 2.0]
+
+
+[charaTalk A]
+[charaFace A 7]
+[wt 1.2]
+
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[bgm BGM_BATTLE_136 1.5 1.0]
+[wait wipe]
+
+[charaPut U 2000,2500]
+[charaEffectStop U bit_talk_haboob_01_fs]
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #C 0.1]
+[wt 0.2]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout R 0.1]
+[charaFadeout D 0.1]
+[charaFadeout S 0.1]
+[wt 0.2]
+
+[subCameraOff]
+[charaLayer A normal]
+[charaLayer B normal]
+[charaLayer G normal]
+[charaLayer H normal]
+[charaLayer Q normal]
+[charaLayer R normal]
+[charaLayer D normal]
+[charaLayer S normal]
+[charaScale A 1.0]
+[charaScale B 1.0]
+[charaScale Q 1.0]
+[charaScale R 1.0]
+[charaScale D 1.0]
+[charaScale S 1.0]
+[wt 0.1]
+
+[scene 10000]
+
+
+[cueSe Servants_604200 bac1183]
+[seVolume bac1183 0 0.8]
+[wt 0.05]
+[cueSe Servants_604200 bac1268]
+[seVolume bac1268 0 0.8]
+[wt 0.05]
+[cueSe Servants_604200 bac1379]
+[seVolume bac1379 0 0.8]
+[cueSe Servants_604200 m45320]
+[seVolume m45320 0 0.8]
+[wt 0.1]
+[wipein rectangleStripRightToLeft 0.1 1.0]
+[wait wipe]
+[wt 1.4]
+
+[cueSeVolume bac1183 1.0 0.4]
+[cueSeVolume bac1268 1.0 0.4]
+[cueSeVolume bac1379 1.0 0.4]
+[cueSeVolume m45320 1.0 0.4]
+
+[cueSe Servants_604200 m45325]
+[seVolume m45325 0 0.8]
+[se ad140]
+[seVolume ad140 0 0]
+[se ade87]
+[seVolume ade87 0 0]
+[cueSe Servants_604200 m45330]
+[cueSeVolume m45330 0 0]
+[seVolume ad140 1.0 0.8]
+[seVolume ade87 1.0 0.8]
+[cueSeVolume m45330 1.0 1.0]
+[wt 1.8]
+
+[cueSeStop m45325 0.3]
+[seStop ad140 0.3]
+[seStop ade87 0.3]
+[cueSeStop m45330 0.3]
+[cueSe Servants_2500900 m45519]
+[seVolume m45519 0 0.8]
+[cueSe Servants_604200 m45307]
+[seVolume m45307 0 0.8]
+
+[cueSeStop bac1183 1.0]
+[cueSeStop bac1268 1.0]
+[cueSeStop bac1379 1.0]
+[cueSeStop m45320 1.0]
+[wt 1.0]
+
+[se ad127]
+[se ad296]
+[se ad854]
+[se ad609]
+[se ad882]
+[se ad864]
+[seVolume ad864 0 0.5]
+[fadeout white 0.4]
+[wait fade]
+
+
+[scene 173901]
+[wt 2.8]
+[seStop ad296 1.5]
+
+
+[shake 0.05 2 3 1.0]
+[fadein white 0.8]
+[wait fade]
+
+[se ad158]
+[se adm39]
+＠戴比特
+唔[messageShake 0.05 4 3 0.4]……！[wt 0.4][seStop ad158 0.1]
+[k]
+
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 1]
+＠高扬斯卡娅
+……让从者先逃，[r]自己则开着车发动自杀式袭击……
+[k]
+
+＠高扬斯卡娅
+要做的事是不是反了？[r]留在这里战斗的应该是从者。
+[k]
+
+＠高扬斯卡娅
+身为御主的你命令从者战斗，[r]自己逃跑才是[#正常人的思维]哦。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.15]
+
+[se ad984]
+[se ad60]
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.4 0,-40]
+[charaMove A 0,0 0.8]
+[wt 0.4]
+[seStop ad60 0.1]
+[wt 0.8]
+＠戴比特
+……『异星之神』的使徒……[r]热衷于扮演这一角色的你竟然会对我宣扬人道。
+[k]
+
+＠戴比特
+不，你现在去迦勒底方了吧。[r]虽说是临时契约，但卡多克看来是下了狠心呢。
+[k]
+
+＠戴比特
+竟然为Beast候补的灵基提供魔力，而且是两人份的路径。[r]虽然我早就知道了[line 3]
+[k]
+
+[bgmStop BGM_BATTLE_136 2.0]
+
+＠戴比特
+[#人类:你们]总是不够从容呢。[r][#无论有多危险]，[#都要执行现在力所能及的事]。
+[k]
+
+[charaFace A 10]
+＠戴比特
+而且还是在明知会招致什么样结果的前提下。
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1244]
+[cueSe Servants_2500400 bac1480]
+[cueSe Servants_2500400 bac1482]
+[charaPut U 1]
+[charaEffect U bit_talk_dbt_shadow01]
+[wt 4.5]
+
+[cueSeStop 21_ad1082 0.3]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaPut U 2000,2500]
+[charaEffectStop U bit_talk_dbt_shadow01]
+
+[seStop 23_ad1244 1.5]
+
+[charaTalk D]
+[charaFace D 31]
+[charaFadein D 0.1 1]
+[wt 1.5]
+
+
+
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[scene 142000]
+[wt 1.0]
+
+[se ad729]
+[seVolume ad729 0 0]
+
+[seVolume ad729 1.5 0.4]
+[fadein black 1.5]
+[wt 1.2]
+[se ad882]
+[seVolume ad882 0 0.3]
+[wt 0.3]
+[wait fade]
+
+[se ad864]
+[seVolume ad864 0 0.2]
+[cueSe SE_22 22_ade740]
+[cueSeVolume 22_ade740 0 0]
+[wt 0.8]
+[cueSeVolume 22_ade740 0.1 0.2]
+[wt 0.6]
+[se ad854]
+[seVolume ad854 0 0.3]
+[wt 1.2]
+
+[bgm BGM_EVENT_63 0.1]
+
+[seVolume ad729 0.6 0.2]
+
+[charaTalk E]
+[charaFace E 11]
+[charaFadein E 0.1 1]
+＠戈尔德鲁夫
+经过400米，突破400米！[r]唔，那家伙越野比我还厉害吗！？
+[k]
+
+＠戈尔德鲁夫
+怎么办，再这样下去会被突破的！[r]我要启动引擎了！　追击！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠卡多克
+不，静观其变。[r]我也没指望光靠地雷阵就能阻止他们。
+[k]
+
+＠卡多克
+关键是高扬斯卡娅。
+[k]
+
+＠卡多克
+Shadow Border的魔力储备，[r]再加上我和你两个人的魔力全都被她拿走了。
+[k]
+
+＠卡多克
+现在的那家伙是最高级的神灵。[r]贸然冲出去只会被卷进去。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 12]
+[charaFadein E 0.1 1]
+＠戈尔德鲁夫
+原来如此，那就待命吧！[r]毕竟那女人是那种即便伙伴在场也会一脸淡定地，
+[k]
+
+＠戈尔德鲁夫
+不，是也会笑容满脸地扣下扳机的人啊！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠卡多克
+[line 3]有两个人从车上跳下来了。[r]是特斯卡特利波卡和伊斯卡利吗？
+[k]
+
+＠卡多克
+戴比特[line 3]还留在车上吗？[wt 0.7][charaFace F 3][r]难道他打算开车撞高扬斯卡娅！？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad854]
+[seVolume ad854 0 0.5]
+[se ad609]
+[seVolume ad609 0 0.5]
+[se ad882]
+[seVolume ad882 0 0.5]
+[se ad864]
+[seVolume ad864 0 0.2]
+[wt 3.5]
+
+[charaTalk E]
+[charaFace E 17]
+[charaFadein E 0.1 1]
+＠戈尔德鲁夫
+噢噢……！　高扬斯卡娅那家伙，[r]面不改色地在眼前炸碎了那辆车！
+[k]
+
+＠戈尔德鲁夫
+虽说戴比特那家伙在千钧一发之际跳下了车，[r]呼哈哈，这下赢了！
+[k]
+
+[charaFace E 2]
+＠戈尔德鲁夫
+没有从者的魔术师独自一人怎么可能[r]对付得了那个魔性美女！
+[k]
+
+＠戈尔德鲁夫
+我要启动Shadow Border啦，泽姆露普斯！[r]首先捉拿戴比特，然后是特斯卡特利波卡！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠卡多克
+……啊，嗯。[r]高扬斯卡娅的后方设置有防兽的术式。
+[k]
+
+＠卡多克
+所以也可以立刻追踪到特斯卡特利波卡。[r]可以归可以……
+[k]
+
+[bgm BGM_EVENT_63 0.5 0.5]
+[charaTalk depthOff]
+[charaDepth G 4]
+[charaDepth F 6]
+
+[charaPut G 1]
+[charaFadeTime G 0.2 0.5]
+
+[charaFace F 0]
+＠卡多克
+（这能算……进展顺利吗？[r]　我原本都已经做好会面对惊涛骇浪的觉悟了[line 3]）
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.2]
+[wt 0.1]
+
+[bgm BGM_EVENT_63 0.5 1.0]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠戈尔德鲁夫
+唔？　这数值是什么？[r]人理奠基的测量值出现了奇怪的变动……
+[k]
+
+[bgmStop BGM_EVENT_63 1.5]
+[seStop ad729 1.5]
+
+[charaFace E 4]
+＠戈尔德鲁夫
+[line 3]
+[k]
+
+[charaFace E 12]
+＠戈尔德鲁夫
+快坐好，卡多克！[r]强化身体，全力保护自[line 3]
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+[wt 0.15]
+
+[se ad789]
+[se ad828]
+[seVolume ad828 0 0.7]
+[cueSe SE_22 22_ade778]
+[se ad880]
+[seVolume ad880 0 0.4]
+[se ad876]
+[shake 0.02 8 8 0]
+[wt 1.0]
+[cueSeStop 22_ade778 0.3]
+[wt 1.2]
+
+[seStop ad789 0.3]
+[seStop ad880 0.3]
+[seStop ad876 0.3]
+[se ad920]
+[effect bit_talk_switch_off]
+[wt 0.6]
+
+[shakeStop]
+[scene 10000]
+
+[seStop ad920 0.1]
+[se ad31]
+[wt 3.0]
+
+[fadeout black 2.5]
+[seStop ad31 2.5]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

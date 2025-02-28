@@ -1,0 +1,722 @@
+
+
+＄03-00-13-03-3-1
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 8001500 1 玛修]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098252900 1 特佩乌]
+[charaSet D 1098254800 1 尼莫水兵]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098257510 1 拉斯普京_举手]
+[charaSet G 1098257510 1 拉斯普京_举手_剪影]
+[charaFilter G silhouette 00000080]
+
+[sceneSet H 169100 1]
+[charaScale H 1.1]
+
+[charaSet I 1098254800 1 水兵_演出用]
+
+[charaSet J 98115000 1 特效用]
+[charaPut J 1200,1200]
+[charaScale J 1.4]
+
+[sceneSet K 10000 1]
+[charaScale K 1.2]
+
+[imageSet L cut427_grass01 1]
+[imageSet M cut427_grass02 1]
+[imageSet N cut426_kmk 1]
+
+[imageSet O cut427_grass01 1]
+[imageSet P cut427_grass02 1]
+
+[scene 169200]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_80 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠哈贝特洛特
+不会吧，吃了两发[#黑色炮身:Black Barrel][r]竟然还不停下来！　比总统还要强啊！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 19]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+虽然很不甘心，但我承认！[r]啊啊，真是的，我为什么会这么弱啊！
+[k]
+
+[charaFace B 9]
+
+＠U－奥尔加玛丽
+总之先撤退吧，撤退！[r]只要躲进密林，她就看不见我们了！
+[k]
+
+[charaFace B 7]
+
+＠U－奥尔加玛丽
+虽然倒霉的话也有可能被踩扁，[r]但总好过在这里被捏扁吧！
+[k]
+
+？1：确实！
+？2：大家，冲进密林！
+
+？！
+
+[messageOff]
+[se ad443]
+[seStop ad443 2.0]
+[se ad769]
+[seStop ad769 2.0]
+
+[wipeout leftToRight 0.7 1.0]
+[bgm BGM_EVENT_80 0.7 0.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+
+[scene 169100]
+
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth D 5]
+[charaDepth C 6]
+[charaDepth B 7]
+
+[charaFadein H 0.1 0,-200]
+[wt 1.0]
+
+[wipein rightToLeft 0.7 1.0]
+[bgm BGM_EVENT_80 0.7 1.0]
+[wait wipe]
+[wt 0.3]
+
+
+
+[se ad628]
+[charaPut J 1]
+[charaEffect J bit_talk_impactlanding 200,0]
+[charaShake H 0.05 3 3 1.0]
+[se ad882]
+[se ad242]
+[seStop ad242 1.0]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.5]
+[wt 1.2]
+
+[se ade80]
+[charaPut J 1]
+[charaEffect J bit_talk_impactlanding -200,0]
+[charaShake H 0.05 3 3 3.5]
+[se ad875]
+[se ad242]
+[seStop ad242 1.0]
+[seStop ade393 4.0]
+[wt 2.8]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+啊哇哇哇哇……！[r]咚咚地！　咚咚地！
+[k]
+
+＠尼莫水兵
+Protea在不管三七二十一地敲打地面～～！[r]完蛋啦，死定啦～！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+安静点，水兵。[r]卡玛佐茨称她为索奇托纳尔。
+[k]
+
+＠特佩乌
+如果她是『冥界的守卫』，就离不开河流，[r]也无法追赶我们进入密林。
+[k]
+
+＠特佩乌
+我们只要再来一点好运就行。[r]这样就能撤退到安全范围了。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth K 4]
+[charaDepth B 2]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+那就好办啦！[r]实不相瞒，我的运气可是银河级的！
+[k]
+
+＠U－奥尔加玛丽
+中奖概率99％，不中概率1％的签，[r]我绝对会抽中那1％！　呼哈哈哈哈！
+[k]
+
+？1：[line 3]哎？
+？2：那个，这应该算倒霉……
+
+？！
+
+[messageOff]
+[se ad246]
+[charaPut K 0,-200]
+[charaFadeTime K 0.6 0.4]
+[wt 1.0]
+[seStop ad246 2.0]
+[charaFace B 20]
+
+＠U－奥尔加玛丽
+唔～？　是不是有点暗？
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_80 0.6]
+[wt 0.6]
+[wipeout upToDown 0.2 1.0]
+[wt 0.1]
+
+[cueSe SE_21 21_ad1140]
+[charaMove B 0,-50 0.1]
+[shake 0.05 3 3 1.0]
+[wait wipe]
+
+[wt 0.1]
+[se ad628]
+[se ad882]
+[se ad242]
+[seStop ad242 1.0]
+
+[charaTalk depthOn]
+[charaFadeout K 0.1]
+[charaFadeout B 0.1]
+[wt 1.0]
+
+[fadeout black 0.1]
+[wait fade]
+
+[wipein upToDown 0.1 1.0]
+[wait wipe]
+
+[shake 0.05 3 3 1.4]
+[fadein black 1.0]
+[wait fade]
+[wt 0.6]
+
+？1：奥尔加玛丽所长[line 4]！（泪）
+？2：都怪你说那种什么奇怪的话啦[line 3]！（泪）
+
+？！
+
+[se ad443]
+[seStop ad443 2.0]
+[se ad769]
+[seStop ad769 2.0]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+[charaTalk depthOn]
+
+[wt 2.5]
+
+[fadein black 2.0]
+[wait fade]
+
+[se ad186]
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+[effect bit_talk_41_fs]
+
+＠U－奥尔加玛丽
+召开作战会议！[bgm BGM_EVENT_146 0.1]
+[k]
+
+？1：被踩扁→完全恢复未免太……
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[effectDestroy bit_talk_41_fs]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+嗯，确实有点吓人。[r]U是不是无论如何都打不倒的啊？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+？2：不愧是总统，一点事都没有！
+
+[effectDestroy bit_talk_41_fs]
+
+[charaFace B 25]
+
+＠U－奥尔加玛丽
+我说你，是等周围都安全了才回来的吧。[r]观察被埋在地下的我很有意思吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？！
+
+[bgmStop BGM_EVENT_146 1.5]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+好啦好啦，虽然差点身陷全军覆没的危机，[r]但大家都平安无事，这应该是最好的结果。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaPut E 0,0]
+[charaFadeTime E 0.1 0.7]
+
+＠哈贝特洛特
+虽说出现了更严重的问题。[r]真的拿Protea没办法了吗……
+[k]
+
+[charaFace E 11]
+
+＠哈贝特洛特
+她听不到咱们的声音。[r]河流的样子也变得那么可怕……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+那是从Protea身上流出来的血哦。[r]是从后背被切开的伤口中滴落的。
+[k]
+
+＠U－奥尔加玛丽
+之前我看准机会试着从空中干涉她的后背，[r]但既伤不到她，也堵不住伤口。
+[k]
+
+＠U－奥尔加玛丽
+更没有发出痛苦的呻吟，难道是没有痛觉？[r]神话中的生物还真是捉摸不透。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+[charaFace A 14]
+
+＠玛修
+这会不会是……无论流多少血，[r]都没办法发出声音的状态呢……
+[k]
+
+？1：Protea………………
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 3]
+[charaPut E 0,0]
+[charaFadeTime E 0.1 0.7]
+
+＠哈贝特洛特
+都是那只吵吵嚷嚷的蝙蝠混蛋！[r]只要抓住那家伙，Protea就能恢复原状了！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+
+？2：捉住卡玛佐茨，让她恢复原状吧。
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+能办到的话我早就动手了。
+[k]
+
+＠U－奥尔加玛丽
+那恶心家伙已经不在半径50公里内了。[r]溜得太快了。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+……这下伤脑筋了。
+[k]
+
+＠特佩乌
+多亏了Protea，我们才能渡过半条河，[r]结果现在Protea倒是成了障碍。
+[k]
+
+＠特佩乌
+这样下去是无法跨越『第一冥界』的。[r]除非解决掉Protea。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+你的意思是杀掉Protea吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+这也是一种选择。[r]不过刚才已经证明了这很困难。
+[k]
+
+＠特佩乌
+现在的我们无法让Protea丧失战斗力。[r]只能在不被她发现的情况下偷偷前进，或是……
+[k]
+
+＠特佩乌
+不好意思，能容许我遮住目光吗？
+[k]
+
+[messageOff]
+[charaCrossFade C 1098252940 4 0.6]
+[se ade158]
+[wait charaCrossFade C]
+[wt 1.0]
+
+＠特佩乌
+或是就这样继续等下去。[r]U说Protea在流血吧。
+[k]
+
+＠特佩乌
+那她迟早会没命。[r]等她消灭后再前进就行了。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth B 1]
+[charaDepth A 2]
+[charaDepth E 3]
+
+[charaTalk off]
+[charaFace E 6]
+[charaFace A 4]
+[charaFace B 1]
+[charaPutFSL E -380,0]
+[charaFadeTime E 0.1 0.7]
+[charaFadeinFSR B 0.1 -70,0]
+[charaFadeinFSR A 0.1 300,0]
+[wt 1.5]
+
+？1：………………
+？2：…………（不，这……）
+
+？！
+
+[charaScale I 1.0]
+[charaScale H 1.3]
+[charaScale C 1.3]
+
+[charaDepth H 5]
+[charaDepth C 6]
+[charaDepth I 7]
+
+[charaTalk off]
+[charaFace I 6]
+[charaFadein I 0.5 -256,-70]
+[charaFadein C 0.5 256,120]
+
+[charaFadein H 0.5 -100,-200]
+[wt 0.7]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+＠尼莫水兵
+不要～～～！　特佩乌大笨蛋～～！[r]为什么要说这种过分的话啦～～～！
+[k]
+
+＠尼莫水兵
+Protea太可怜了啦～～！[r]我们救救她吧～～！
+[k]
+
+[messageOff]
+
+
+[se ad76]
+[charaMoveReturn I -230,-70 0.3]
+[wt 0.15]
+[charaShake C 0.05 3 3 0.2]
+[wt 0.25]
+
+[se ad76]
+[charaMoveReturn I -230,-70 0.3]
+[wt 0.15]
+[charaShake C 0.05 3 3 0.2]
+[wt 0.25]
+
+[se ad76]
+[charaMoveReturn I -230,-70 0.3]
+[wt 0.15]
+[charaShake C 0.05 3 3 0.2]
+[wt 0.5]
+
+[charaTalk on]
+
+＠特佩乌
+水兵的攻击。[r]水兵的攻击。
+[k]
+
+？1：水兵说得没错[line 3]
+？2：大家，听我说[line 3]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_70 1.0]
+[charaFadeout H 1.0]
+[charaFadeout C 1.0]
+[charaFadeout I 1.0]
+[wt 1.2]
+[charaScale C 1.0]
+
+[se ad27]
+[seVolume ad27 0 0.4]
+[wt 0.3]
+[se ad527]
+[seVolume ad527 0 0.4]
+[seStop ad527 0.8]
+[wt 1.0]
+
+[charaTalk depthOn]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+！　请等一下，有脚步声！[r]有什么人正在靠近这边！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[subCameraOn 1]
+[charaLayer L sub #A]
+[charaLayer M sub #A]
+[charaLayer O sub #A]
+[charaLayer P sub #A]
+[subCameraFilter #A through]
+[subRenderFadein #A 0 0,0]
+
+[charaRoll O 270]
+[charaRoll P 270]
+
+[charaScale F 1.2]
+[charaScale G 1.2]
+[charaScale H 1.2]
+[charaScale L 2.8]
+[charaScale M 2.8]
+[charaScale O 3.2]
+[charaScale P 3.2]
+
+
+[charaDepth O 8]
+[charaDepth P 7]
+[charaDepth L 9]
+[charaDepth M 10]
+[charaDepth G 6]
+[charaDepth F 5]
+[charaDepth H 4]
+
+[charaTalk off]
+[charaFadein H 1.0 0,-160]
+[charaFadein L 1.0 500,-500]
+[charaFadein M 1.0 -400,-500]
+[charaFadein O 1.0 -900,-500]
+[charaFadein P 1.0 -850,700]
+
+[se ad527]
+[seVolume ad527 0 0.1]
+[seVolume ad527 1.0 0.5]
+[wt 1.0]
+[seStop ad527 0.5]
+[wt 0.5]
+[blur lens 1.0 2 2]
+
+？1：是谁……！
+
+？！
+
+[messageOff]
+[se ad527]
+[seVolume ad527 0 0.5]
+[charaMoveScale H 1.3 1.5]
+[charaMove H 0,-180 1.5]
+
+[charaMoveScale L 2.9 1.5]
+[charaMove L 500,-520 1.5]
+
+[charaMoveScale M 2.9 1.5]
+[charaMove M -400,-520 1.5]
+
+[charaMoveScale O 3.3 1.5]
+[charaMove O -950,-520 1.5]
+
+[charaMoveScale P 3.3 1.5]
+[charaMove P -900,720 1.5]
+
+[blurOff lens 1.0]
+
+[wt 0.2]
+[seStop ad527 0.2]
+[wt 0.8]
+
+
+[se ad527]
+[charaScale G 1.15]
+[charaFace G 2]
+[charaFadein G 0.5 0,90]
+
+[charaMoveScale G 1.2 0.5]
+[charaMove G 0,100 0.5]
+[wt 0.2]
+[seStop ad527 0.2]
+[wt 1.2]
+
+[se ad27]
+[charaMove G 0,-20 1.5]
+[charaMove H 0,-300 1.5]
+
+[charaMoveScale L 3.0 1.5]
+[charaMove L 500,-680 1.5]
+
+[charaMoveScale M 3.0 1.5]
+[charaMove M -400,-680 1.5]
+
+[charaMoveScale O 3.4 1.5]
+[charaMove O -1000,-450 1.5]
+
+[charaMoveScale P 3.4 1.5]
+[charaMove P -950,750 1.5]
+[wt 0.6]
+
+[charaFadeout L 1.0]
+[charaFadeout M 1.0]
+[charaFadeout O 0.8]
+[charaFadeout P 0.8]
+[wt 2.0]
+
+[charaFace F 2]
+[charaFadein F 0.1 0,-20]
+[wt 0.1]
+
+[charaFadeout G 0.7]
+[wt 1.5]
+
+[bgm BGM_EVENT_76 0.1]
+
+＠拉斯普京
+[f large]诸位大家好。[-]
+[k]
+
+
+＠拉斯普京
+是遇到什么麻烦了吗？不介意我这位过路神父的话，[r]尽管找我商量吧。
+[k]
+
+[messageOff]
+
+[charaDepth E 2]
+[charaDepth D 3]
+[charaDepth A 1]
+
+[charaTalk off]
+[charaFace D 11]
+[charaFadeinFSL D 0.1 -350,0]
+[charaFace A 6]
+[charaFadeinFSR A 0.1 350,0]
+[charaFace E 14]
+[charaPut E 0,0]
+[charaFadeTime E 0.1 0.7]
+[wt 0.1]
+[charaFadeout F 1.0]
+[charaFadeout H 1.0]
+[wt 3.0]
+
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_76 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

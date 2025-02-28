@@ -1,0 +1,539 @@
+
+
+＄04-00-02-16-1-1
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 3054002 1 怖军]
+[charaSet B 1098269320 1 塞蕾雪拉（演出用）]
+[charaSet C 7046001 1 Berserker]
+
+[charaSet D 3054002 1 怖军（演出用）]
+[charaSet E 7046001 1 Berserker（演出用）]
+
+
+[sceneSet O 189603 1]
+[charaScale O 1.2]
+[sceneSet P 189603 1]
+[charaScale P 1.2]
+[sceneSet Q 189603 1]
+[charaScale Q 1.2]
+
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+
+[scene 189603]
+
+[charaPut S 2000,2500]
+[charaEffect S bit_sepia01_depth_fs]
+
+[pictureFrame cut063_cinema]
+
+[bgm BGM_BATTLE_190 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+
+[subCameraOn 1]
+[charaLayer A sub #A]
+[charaLayer O sub #A]
+[subCameraFilter #A maskEdge cut359_mask13 4 135,83,209,255]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth A 2]
+
+[charaScale A 1.3]
+[charaScale O 1.4]
+[charaFace A 6]
+[charaFadein A 0.1 -50,200]
+[charaFadein O 0.1 200,-80]
+
+[cueSe Servants_302000 m07405]
+[subRenderFadein #A 0.3 -300,-325]
+[subRenderMove #A 0,-325 0.3]
+[wt 0.3]
+
+[charaMove A 0,200 30.0]
+[charaMove O 250,-80 30.0]
+[wt 0.8]
+
+[bgm BGM_BATTLE_190 0.5 0.4]
+
+
+＠
+一直能感受到。
+[k]
+
+＠
+自己，是碎片。
+[k]
+
+＠
+并非[#自己:怖军]这一存在的全部，[r]并非曾经存在过的某个男人本身。
+[k]
+
+＠
+不过[line 3][r]并未感到，有所不足。
+[k]
+
+＠
+恰恰相反。
+[k]
+
+＠
+自己，非常满足。
+[k]
+
+[messageOff]
+[bgm BGM_BATTLE_190 0.5 1.0]
+
+[se ad678]
+[wt 0.1]
+[subRenderFadeout #A 0.3]
+[subRenderMove #A 300,-325 0.3]
+[wt 0.6]
+
+[se ad85]
+[effect bit_talk_gram_slash_04]
+[wt 0.8]
+
+[fadeout black 0.4]
+[wait fade]
+
+[effectDestroy bit_talk_gram_slash_04]
+[scene 10000]
+[wt 0.2]
+
+[fadein black 0.2]
+[wait fade]
+[wt 0.4]
+
+[charaFadeout A 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer A normal]
+[charaLayer O normal]
+[charaScale A 1.0]
+[charaScale O 1.0]
+
+[bgm BGM_BATTLE_190 0.5 0.4]
+
+＠
+正因为身材高大，正因为手臂粗长，[r]自己的人生才得以拥抱众多事物。
+[k]
+
+＠
+兄弟、正义、胜利、友谊、家人、荣誉、[r]肌肉、美食、地位、笑容、信赖、敬畏。
+[k]
+
+＠
+不过，与之相比，现在的自己很[#单纯:简单]。
+[k]
+
+＠
+没有多余之物。
+[k]
+
+＠
+因此心满意足。
+[k]
+
+＠
+这样的自己能看见的是什么，[r]该伸手追求的是什么。
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[wait fade]
+
+[pictureFrame]
+
+[charaDepth P 2]
+[charaDepth B 3]
+[charaDepth S 9]
+
+[charaPut S 1]
+[charaScale P 1.4]
+[charaScale B 1.4]
+[charaFace B 3]
+[charaFadein P 0.1 0,-300]
+[charaFadein B 0.1 1]
+[wt 0.5]
+
+[fadein white 0.6]
+[wait fade]
+[wt 1.2]
+
+[charaFace B 1]
+[wt 1.2]
+
+[charaFace B 2]
+[wt 1.6]
+
+[fadeout white 0.6]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaFadeout P 0.1]
+[charaPut S 2000,2500]
+
+[scene 189603]
+
+[pictureFrame cut063_cinema]
+
+[wt 0.5]
+
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+
+＠
+这里有相信自己之人的目光，[r]有将救赎托付给英雄后背的目光。
+[k]
+
+＠
+既是如此，就必须献上回应。
+[k]
+
+＠
+现在自己的双手所能抓住的，肯定只有这些。
+[k]
+
+＠
+而且，这样就够了。
+[k]
+
+[messageOff]
+[fadeout black 0.8]
+[wait fade]
+
+[scene 10000]
+[wt 0.1]
+
+[fadein black 0.1]
+[wait fade]
+
+＠
+也就是，胜利。
+[k]
+
+＠
+以现在的自己所能抓住的这一道菜，[r]侍奉仰仗自己之人。
+[k]
+
+＠
+该做的仅此而已。[r]如同自身的存在方式，很[#单纯:简单]。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+＠
+……虽说是同一个词。
+[k]
+
+＠
+但其实不同于背负着各种事物，[r]曾在那场战争中赢得的胜利。
+[k]
+
+＠
+它本身毫无意义，[r]也不知取胜之后自己能获得什么。
+[k]
+
+＠
+只不过因为想这样做，于是这样做了[line 3]
+[k]
+
+＠
+啊啊，所以，目前的情况、[r]孕育出这场胜利的，
+[k]
+
+＠
+并非战争。
+[k]
+
+＠
+只是与从孩提时代起就彼此不和的劲敌之间的，[r]单纯的[line 3]
+[k]
+
+[messageOff]
+[fadeout black 0.1]
+[wait fade]
+
+[pictureFrame]
+
+[scene 189603]
+[wt 0.1]
+
+[bgm BGM_BATTLE_190 0.8 1.0]
+[fadein black 0.8]
+[wait fade]
+[wt 0.2]
+
+[cueSe Servants_603700 bac970]
+[wt 0.05]
+[fowardEffect bit_talk_gram_slash_03_fs 0,0 H]
+[wt 0.8]
+
+[se ad171]
+[cueSe Servants_4504900 bac1276]
+[cueSe Battle bac337]
+[charaScale T 1.05]
+[charaRoll T -10]
+[charaPut T 0,75]
+[charaEffect T bit_talk_strike_02]
+[wt 0.4]
+[cueSeStop bac337 0.1]
+[wt 0.1]
+
+
+[fowardEffectDestroy bit_talk_gram_slash_03_fs]
+[charaPut T 2000,2500]
+[charaEffectDestroy T bit_talk_strike_02]
+
+[fowardEffect bit_talk_blow02]
+[wt 0.1]
+[se ad774]
+[fowardEffect bit_talk_14]
+[wt 0.2]
+[subCameraOn 3]
+[charaLayer C sub #A]
+[charaLayer O sub #A]
+[charaLayer A sub #B]
+[charaLayer P sub #B]
+[charaLayer Q sub #C]
+[subCameraFilter #A maskEdge cut359_mask09 4 0,0,0,255]
+[subCameraFilter #B maskEdge cut359_mask10 4 0,0,0,255]
+[subCameraFilter #C through]
+
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+[subRenderDepth #C 3]
+
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth P 1]
+[charaDepth C 2]
+[charaDepth A 2]
+
+[charaScale C 1.4]
+[charaScale O 1.4]
+[charaFace C 5]
+[charaFadein C 0.1 50,225]
+[charaFadein O 0.1 -250,-100]
+
+[charaScale A 1.5]
+[charaScale P 1.4]
+[charaFace A 13]
+[charaFadein A 0.1 -50,225]
+[charaFadein P 0.1 250,-100]
+
+[charaFadein Q 0.1 -25,-300]
+
+[subRenderFadein #A 0.1 212,-250]
+[subRenderFadein #B 0.1 -212,-250]
+
+[charaShake C 0.03 3 2 1.3]
+[charaShake A 0.03 2 3 1.3]
+
+[wt 1.2]
+[seStop ad774 0.2]
+
+[fowardEffectDestroy bit_talk_blow02]
+[fowardEffectDestroy bit_talk_14]
+
+＠
+干架。
+[k]
+
+[messageOff]
+[se ad181]
+[charaFace A 15]
+[charaFace C 6]
+[charaMove C 30,225 1.5]
+[charaMove A -30,225 1.5]
+[charaShake C 0.03 3 2 1.5]
+[charaShake A 0.03 2 3 1.5]
+[wt 1.0]
+[seStop ad181 0.4]
+[wt 0.5]
+
+[charaMove C 150,225 0.5]
+[charaMove A -150,225 0.5]
+[se ad1014]
+[se ad170]
+[fadeout white 0.1]
+[wait fade]
+
+[subRenderFadeout #A 0]
+[subRenderFadeout #B 0]
+
+[fadein white 0.1]
+[wait fade]
+[wt 0.5]
+
+
+[se ad671]
+[charaFace E 6]
+[charaFadein E 0.2 -50,0]
+[charaMove E 100,0 0.2]
+[charaShake E 0.03 2 2 0.8]
+[wt 0.2]
+[seStop ad671 0.8]
+[charaMove E 150,0 0.4]
+[wt 1.0]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[cueSe SE_22 22_ade804]
+[charaFace D 15]
+[charaFadein D 0.2 50,0]
+[charaMove D -100,0 0.2]
+[charaShake D 0.03 2 2 0.8]
+[wt 0.2]
+[charaMove D -150,0 0.4]
+[wt 1.1]
+
+
+[subCameraFilter #A maskEdge cut359_mask02 3 0,0,0,255]
+[subCameraFilter #B maskEdge cut359_mask13 3 0,0,0,255]
+
+[charaFace C 6]
+[charaFace A 15]
+
+[se ad984]
+[cueSe Servants_302000 m07405]
+[subRenderFadein #A 0.3 300,-195]
+[subRenderFadein #B 0.3 -300,-410]
+[subRenderMove #A 0,-195 0.3]
+[subRenderMove #B 0,-410 0.3]
+[charaFadeout D 0.2]
+[wt 0.6]
+
+＠
+他不是需要手下留情的对手。[r]毫不犹豫，全力攥紧拳头。
+[k]
+
+＠
+不过，唯有一点。
+[k]
+
+＠
+并非在心满意足的自己心中，[r]而是在其他已剥落的部分中，
+[k]
+
+＠
+总感觉，[r]存在些微的违和感[line 3]
+[k]
+
+[messageOff]
+[se ad437]
+[fadeout white 0.1]
+[bgm BGM_BATTLE_190 0.5 0.4]
+[wait fade]
+
+[subRenderFadeout #A 0]
+[subRenderFadeout #B 0]
+[scene 10000]
+
+[fadein white 0.1]
+[wait fade]
+[wt 0.2]
+
+＠
+　曾■那场战■中获得的胜■　　？[r]　　　自己无论■■　■■将其　纳入■■
+[k]
+
+[messageOff]
+[fadeout white 0.1]
+[bgm BGM_BATTLE_190 0.5 1.0]
+[wait fade]
+
+[subRenderFadein #A 0 0,-195]
+[subRenderFadein #B 0 0,-410]
+[scene 189603]
+
+[fadein white 0.1]
+[wait fade]
+[wt 0.35]
+
+
+[se ad678]
+[wt 0.1]
+[se ad7]
+[se ad1006]
+
+[charaFace C 5]
+[charaFace A 12]
+
+[subRenderFadeout #A 0.3]
+[subRenderFadeout #B 0.3]
+[subRenderMove #A -300,-195 0.3]
+[subRenderMove #B 300,-410 0.3]
+[wt 0.4]
+
+[scene 10000]
+[fowardEffect bit_talk_blow]
+[fowardEffect bit_talk_blow02]
+[wt 0.1]
+[se ad32]
+[se ad170]
+[se ad1014]
+[fowardEffect bit_talk_14]
+[wt 1.2]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+[charaFadeout Q 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer A normal]
+[charaLayer C normal]
+[charaLayer O normal]
+[charaLayer P normal]
+[charaLayer Q normal]
+[charaScale C 1.0]
+[charaScale A 1.0]
+[charaScale O 1.0]
+[charaScale P 1.0]
+[charaScale Q 1.0]
+
+＠
+连这点违和感，
+[k]
+
+＠
+都消散于战斗所奏响的，[r]那令人怀念的声音中了。
+[k]
+
+
+
+
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_BATTLE_190 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

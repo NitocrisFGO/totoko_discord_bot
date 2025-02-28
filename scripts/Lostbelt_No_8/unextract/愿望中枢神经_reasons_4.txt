@@ -1,0 +1,975 @@
+
+
+＄04-00-02-04-4-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270900 1 拉妮－Ｒ]
+[charaSet B 1098270900 1 拉妮－Ｒ]
+[charaSet C 1098271000 1 蠢魔1]
+[charaSet D 1098271000 1 蠢魔2]
+[charaSet E 1098271000 1 蠢魔3]
+[charaSet F 1098271000 1 蠢魔4]
+[charaSet G 1098271000 1 蠢魔5]
+[charaSet H 1098269600 1 Caster]
+[charaSet I 1098270000 1 希翁]
+[charaSet J 1098270100 1 迦摩]
+[charaSet K 98004000 1 雷夫]
+[charaSet L 1098269500 1 莱诺尔]
+
+[sceneSet O 189401 1]
+[charaScale O 1.4]
+[sceneSet P 189401 1]
+[charaScale P 1.4]
+
+[imageSet Q back10000 1 1]
+[charaFilter Q silhouette FFFFFF80]
+[charaScale Q 1.3]
+
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+[charaSet U 98115000 1 特效用dummy]
+[charaSet V 98115000 1 特效用dummy]
+[charaSet W 98115000 1 特效用dummy]
+[charaSet X 98115000 1 特效用dummy]
+
+[scene 189300]
+
+[pictureFrameTop cut063_cinema]
+
+[cameraFilter gray]
+
+[bgm BGM_EVENT_69 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk off]
+[charaDepth Q 9]
+[charaDepth S 8]
+[charaDepth A 4]
+[charaDepth B 3]
+
+[charaFace A 5]
+[charaFace B 5]
+[charaFadeinFSR A 0.1 256,-50]
+[charaFadeinFSL B 0.1 -256,-50]
+[wt 0.5]
+
+[charaMoveReturnFSR A 256,-57 0.6]
+[wt 0.95]
+
+[charaFace B 12]
+[charaMoveReturnFSL B -256,-57 0.5]
+[wt 0.5]
+[charaMoveReturnFSL B -256,-57 0.5]
+[wt 1.1]
+
+[subCameraOn 3]
+[charaLayer S sub #B]
+[subCameraFilter #B through]
+[subRenderFadein #B 0.1 0,0]
+[subRenderDepth #C 1]
+[subRenderDepth #A 2]
+[subRenderDepth #B 3]
+
+[se ad31]
+[charaPut S 1]
+[charaEffect S bit_talk_noise_gr]
+[charaEffect S bit_talk_noise_gr]
+[wt 0.3]
+
+[seStop ad31 0]
+[charaPut S 2000,2500]
+[wt 0.3]
+
+[se ad31]
+[charaPut S 1]
+[wt 0.3]
+
+[seStop ad31 0]
+[charaPut S 2000,2500]
+[wt 0.3]
+
+[se ad31]
+[seVolume ad31 1.0 0.4]
+
+[charaFadein Q 0.1 1]
+[wt 0.1]
+[charaPut S 1]
+[charaFadeout Q 0.1]
+
+[scene 189401]
+
+
+[charaDepth Q 9]
+[charaDepth S 8]
+[charaDepth T 4]
+
+[charaDepth C 7]
+[charaDepth D 6]
+[charaDepth E 5]
+[charaDepth F 4]
+[charaDepth G 3]
+
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFace F 0]
+[charaFace G 0]
+[charaFadein C 0 0,-50]
+[charaFadeinFSR D 0 250,-50]
+[charaFadeinFSL E 0 -250,-50]
+[charaFadeinFSSideR F 0 450,-50]
+[charaFadeinFSSideL G 0 -450,-50]
+[charaFadeout A 0]
+[charaFadeout B 0]
+[wt 1.0]
+
+[charaFilter Q silhouette FF000080]
+
+[se ad1006]
+[charaMoveScale C 1.1 0.3]
+[charaMoveScale D 1.1 0.3]
+[charaMoveScale E 1.1 0.3]
+[charaMoveScale F 1.1 0.3]
+[charaMoveScale G 1.1 0.3]
+[charaMove C 0,-35 0.3]
+[charaMoveFSR D 260,-35 0.3]
+[charaMoveFSL E -260,-35 0.3]
+[charaMoveFSSideR F 470,-35 0.3]
+[charaMoveFSSideL G -470,-35 0.3]
+[charaFadeout C 0.3]
+[charaFadeout D 0.3]
+[charaFadeout E 0.3]
+[charaFadeout F 0.3]
+[charaFadeout G 0.3]
+[wt 0.45]
+
+[cueSe Battle bac267]
+[wt 0.4]
+
+[cueSe Servants_704200 m40101]
+[wt 0.4]
+[cueSe Servants_704200 m49207]
+[wt 0.4]
+[cueSe Servants_2500900 m45619]
+
+[charaFadein Q 0.1 1]
+[wt 0.05]
+[charaPut T 1]
+[charaEffect T bit_talk_blood_stay 0,0 H]
+[wt 0.05]
+[charaFadeout Q 0.1]
+[wt 0.8]
+[charaEffectStop T bit_talk_blood_stay]
+[wt 0.5]
+[charaFilter Q silhouette FFFFFF80]
+[wt 0.5]
+
+[charaFadein Q 0.1 1]
+[wt 0.1]
+[charaFadeout Q 0.1]
+
+[scene 189401]
+
+[charaDepth S 9]
+[charaDepth X 8]
+[charaDepth W 7]
+[charaDepth V 6]
+[charaDepth U 5]
+[charaDepth H 3]
+
+[charaFace H 12]
+[charaFadein H 0 0,-50]
+[wt 0.6]
+
+[se ad73]
+[charaSpecialEffect H erasureReverse 0,0 0.4]
+[wt 0.05]
+[charaPut T 1]
+[charaEffect T bit_talk_quickmove]
+[wt 0.1]
+[charaMove H 0,-25 0.3]
+[wt 0.4]
+
+[se ad85]
+[wt 0.1]
+[charaPut T 1]
+[charaEffect T bit_talk_x_slash_bk_01]
+[wt 0.5]
+
+[seStop ad85 0.3]
+[se ad161]
+[cueSe SE_21 21_ad1118]
+[charaPut U 1]
+[charaEffect U bit_talk_35]
+[wt 0.8]
+
+
+[se ad171]
+[charaPut V 1]
+[charaEffect V bit_talk_x_slash_bk_02]
+[wt 0.4]
+
+[seStop ad171 0.3]
+[cueSe SE_21 21_ad1091]
+[charaPut W 1]
+[charaEffect W bit_talk_blood_stay]
+[wt 0.6]
+
+[se ad240]
+[se ad863]
+[charaPut X 1]
+[charaEffect X bit_talk_blood_splash_fs]
+[wt 1.0]
+[charaEffectStop W bit_talk_blood_stay]
+[wt 0.6]
+
+
+[charaLayer H sub #A]
+[charaLayer O sub #A]
+[subCameraFilter #A mask&gray cut359_mask06 3 0,0,0,255]
+[subCameraFilter #C maskEdge cut359_mask06 3 0,0,0,255]
+
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth H 2]
+
+[charaScale H 1.2]
+[charaFace H 12]
+[charaFadein H 0.1 0,200]
+[charaFadein O 0.1 0,-200]
+
+[subRenderFadein #A 0.5 -200,-330]
+[subRenderFadein #C 0.5 -200,-330]
+[subRenderMove #A 0,-330 0.5]
+[subRenderMove #C 0,-330 0.5]
+[wt 0.5]
+
+[cueSe SE_23 23_ad1240]
+[wt 3.7]
+
+[wipeout openEye 0 1.0]
+[bgmStop BGM_EVENT_69 0.3]
+[cueSeStop 23_ad1240 0.3]
+[seStop ad31 0.3]
+[wait wipe]
+
+[subRenderFadeout #A 0]
+[subRenderFadeout #B 0]
+[subRenderFadeout #C 0]
+[subRenderMove #A 2000,2500 0]
+[charaFadeout H 0]
+[charaFadeout O 0]
+
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_noise_gr]
+
+[scene 189403]
+
+[pictureFrameTop]
+[cameraFilter normal]
+
+[cameraMove 0 0,40 1.01]
+[wt 0.05]
+
+[se ad7]
+[cameraMove 0.35 0,0 1.01]
+[wipein openEye 0.4 1.0]
+[wait wipe]
+[wt 1.0]
+
+[charaPut S 2000,2500]
+[charaEffect S bit_sepia01_fade_fs]
+
+[charaFadeout H 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+[subCameraOff]
+[charaLayer S normal]
+[charaLayer H normal]
+[charaLayer O normal]
+[charaScale S 1.0]
+[charaScale H 1.0]
+
+
+？1：呜…………！
+？！
+
+[messageOff]
+[wt 1.0]
+
+[se ad661]
+[wt 1.7]
+
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk I]
+[charaFace I 6]
+[charaFadein I 0.1 1]
+＠希翁
+睡不着吗，[r][%1][&先生:小姐]。
+[k]
+
+？1：抱歉，吵醒你了……？
+？！
+
+[charaFace I 9]
+＠希翁
+没有。你或许已经忘了，[r]现在的你我正被灵线神经联系在一起。
+[k]
+
+＠希翁
+当你像这样平躺时，[r]身体状况相当于一直在被监测。
+[k]
+
+[charaFace I 1]
+＠希翁
+你一醒，我立刻就知道了。[r]……也知道了对应脉搏的参数正激烈变动。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 0.1 1]
+＠迦摩
+我还没钻进你的被窝呢，[r]你的心脏怎么就扑通扑通跳那么快了？
+[k]
+
+[charaFace J 19]
+＠迦摩
+……虽然，我大致也能猜到啦。
+[k]
+
+[charaFace J 25]
+＠迦摩
+不过，你还是自己说出来吧。[r]这点事我还是愿意听的。
+[k]
+
+[charaFace J 0]
+＠迦摩
+你一直不愿去直视，[r]不愿说出口，
+[k]
+
+＠迦摩
+然而[line 3]却再也忍耐不下去的那件事。
+[k]
+
+[charaFace J 1]
+＠迦摩
+你内心，存在这样的[#欲望:事物]吧……？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_11 1.0]
+[wait fade]
+
+[charaFadeout J 0.1]
+
+[sceneSet O 189400 1]
+[charaScale O 1.4]
+
+[charaDepth S 9]
+[charaDepth H 5]
+[charaDepth P 4]
+[charaDepth A 3]
+[charaDepth O 2]
+
+[charaPut S 1]
+
+[scene 189300]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.4]
+
+[bgm BGM_EVENT_142 0.1]
+
+[charaScale A 1.1]
+＠
+其实……自从来到这个世界以后，
+[k]
+
+＠
+有件我一直觉得不用考虑，[r]且排除在意识之外的事。
+[k]
+
+[charaFace A 5]
+[charaFadein A 0.8 -25,10]
+[charaFadein O 0.8 -150,-300]
+[charaMove A 25,10 20.0]
+[charaMove O -100,-300 20.0]
+＠
+不过，我还是想重新、明确地宣告，
+[k]
+
+＠
+并不是这样，[r]并不是自己以为的那样。
+[k]
+
+＠
+[line 3]对谁宣告？
+[k]
+
+＠
+当然，是对自己。
+[k]
+
+
+[charaScale H 1.2]
+[charaFace H 12]
+[charaFadein H 0.8 25,0]
+[charaFadein P 0.8 150,-300]
+[charaMove H -25,0 20.0]
+[charaMove P 100,-300 20.0]
+＠
+说我不想避而不视，[r]不想装作视而不见。
+[k]
+
+＠
+仿佛被这股甚至不允许自己逃避到[r]或许能忘记一切的睡眠中的
+[k]
+
+＠
+侵袭心胸的焦躁感驱赶着[line 3]
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_142 1.0 0.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+[charaFadeout P 0.1]
+[charaFadeout A 0.1]
+[charaFadeout O 0.1]
+[charaPut S 2000,2500]
+
+[scene 189403]
+[wt 1.0]
+
+[bgm BGM_EVENT_142 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+[wt 0.5]
+
+？1：就算是ＡＩ……
+？2：也不该像那样，被用完即弃……！
+？！
+
+[messageOff]
+[charaTalk off]
+[charaDepth J 6]
+[charaDepth I 5]
+
+[charaFace J 8]
+[charaFace I 10]
+[charaFadeinFSR J 0.1 2]
+[charaFadeinFSL I 0.1 0]
+[wt 1.5]
+
+[charaFadeout J 0.1]
+[charaFadeout I 0.1]
+[wt 0.15]
+
+
+
+[charaTalk on]
+[charaTalk I]
+[charaFace I 8]
+[charaFadein I 0.1 1]
+＠希翁
+我已预测到你会这样说。[r]都在，计算之中。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+＠迦摩
+它们的根基是没有生命的造物，[r]是靠程序驱动的仿造品。
+[k]
+
+＠迦摩
+即便如此，你还是会说，[r]那种景象[#不可原谅]吧。
+[k]
+
+？1：[line 3]是啊。
+？！
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 6]
+[charaFadein I 0.1 1]
+＠希翁
+我来自遵从合理性的炼金术师血统。[r]因此，我还是要这样说。
+[k]
+
+＠希翁
+倘若严密考虑这世界的规则，以及战争条件的话，[r][#Caster:魔术师]的行动毫无疑问是『合理的』。
+[k]
+
+[charaFace I 10]
+＠希翁
+这场圣杯战争的本质，是相互争夺由ＡＩ们持有，[r]相当于魔力的资源。
+[k]
+
+＠希翁
+既然各阵营已经设定了作为大本营的阵地，[r]最有效率的方法就是『从其他领地掠夺』。
+[k]
+
+＠希翁
+这种抢夺是不可逆的。
+[k]
+
+[charaFace I 8]
+＠希翁
+换言之，杀害其他阵地的ＡＩ并夺取拉妮物质，[r]是兼具攻击与补给的一箭双雕之策[line 3]
+[k]
+
+＠希翁
+这是无可辩驳的事实。
+[k]
+
+＠希翁
+从合理性的角度来看，在不得不取胜的我们面前，[r]也存在这种选项的可能性。
+[k]
+
+[charaFace I 10]
+＠希翁
+然而[line 3]
+[k]
+
+？1：我们绝对不会这样做。
+？2：也不会让难敌他们，这样做，
+？！
+
+[charaFace I 9]
+＠希翁
+……我就知道你会这样说呢。
+[k]
+
+
+＠希翁
+这也在计算之中。[r]毕竟是战胜了盖提亚的迦勒底嘛。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 5]
+[charaFadein J 0.1 1]
+＠迦摩
+唔～。总觉得这种视线……[r]这种『我懂』的感觉令人火大呢……
+[k]
+
+[charaFace J 6]
+＠迦摩
+哼。[r]纵容[&他:她]、全盘肯定[&他:她]分明是我的职责。
+[k]
+
+＠迦摩
+要是这一职责被外行人给抢走了，[r]最后就只剩下挖苦讽刺了吧。
+[k]
+
+[charaFace J 15]
+＠迦摩
+毕竟，这也算爱吧？
+[k]
+
+[charaFace J 0]
+＠迦摩
+[line 3]最终确认一遍。[r]它们也许并非生命。
+[k]
+
+＠迦摩
+也许是只需花费时间就能补充[r]相同存在的区区备用品。
+[k]
+
+＠迦摩
+即便如此？
+[k]
+
+？1：即便如此，我还是不希望……
+？！
+
+[messageOff]
+[wt 0.2]
+
+？1：在察觉到求救的视线后，却不出手相救。
+？！
+
+[charaFace J 6]
+＠迦摩
+……知道啦知道啦。
+[k]
+
+＠迦摩
+反正都已经这样了吧？[r]又没有发生什么改变。
+[k]
+
+＠迦摩
+我也不会有什么意见哦～。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 6]
+[charaFadein I 0.1 1]
+＠希翁
+从明确制定今后的方针，并言之于表[r]这点来看，肯定还是有意义的。
+[k]
+
+[charaFace I 10]
+＠希翁
+为了回到外部世界，[r]我们要赢下这场ＡＩ圣杯战争。
+[k]
+
+＠希翁
+在剩下最后两骑之前，与[#Berserker:狂战士]阵营合作，[r]共享用来补给的阵地。
+[k]
+
+[charaFace I 6]
+＠希翁
+不采用消灭ＡＩ夺取资源那种短视的补给方式，
+[k]
+
+＠希翁
+同时，也不放任做出这种行为的敌人[line 3][r]哪怕是同盟关系的[#Berserker:狂战士]。
+[k]
+
+＠希翁
+是这样吧？
+[k]
+
+？1：……嗯。
+
+[charaFace I 9]
+＠希翁
+我早就知道。
+[k]
+
+＠希翁
+你无比重视这种战斗方式。
+[k]
+
+＠希翁
+不只注重合理性或实际利益，[r]也会为了心中某种无形之事而行动。
+[k]
+
+[charaFace I 10]
+＠希翁
+而这，也是我难以做到的。
+[k]
+
+？2：虽说这样做，也许并不合理
+
+[charaFace I 9]
+＠希翁
+没关系，不是所有事都要用道理来决定的，[r]所有人的最优解也不会始终都是一致的。
+[k]
+
+＠希翁
+嗯，这就是……[r]所谓的[line 3]吧。
+[k]
+
+[charaFace I 5]
+＠希翁
+我早就知道。
+[k]
+
+＠希翁
+你无比重视这种战斗方式。
+[k]
+
+＠希翁
+不只注重合理性或实际利益，[r]也会为了心中某种无形之事而行动。
+[k]
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_142 1.0]
+[wt 1.0]
+
+[charaFace I 2]
+＠希翁
+好了，关于方针的话题到此结束。
+[k]
+
+？1：抱歉啦，希翁。
+？！
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaFace I 9]
+＠希翁
+没事。无论背负着什么样的枷锁或是重担，[r]我都会陪着你。
+[k]
+
+＠希翁
+据我的计算，我们１００％能平安脱身。[r]你完全不需要道歉。
+[k]
+
+＠希翁
+好了，如果没有其他话要说了，[r]那就继续睡觉吧。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 14]
+[charaFadein J 0.1 1]
+＠迦摩
+啊，那我顺便问一下。
+[k]
+
+＠迦摩
+你会认识那个[#Rider:骑兵]这种事其实偶有发生，[r]先姑且不论……
+[k]
+
+＠迦摩
+但你对[#Rider:骑兵]御主的态度是不是也有些奇怪？
+[k]
+
+
+[messageOff]
+[charaTalk off]
+[charaDepth Q 9]
+[charaDepth T 8]
+[charaDepth K 5]
+
+[bgm BGM_EVENT_2 0.5 0.5]
+
+[se ad437]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+
+
+[cameraFilter gray]
+
+[scene 189401]
+
+[charaFace L 0]
+[charaFadein L 0 1]
+[charaFadeout J 0]
+[wt 1.3]
+
+[se ad31]
+[seVolume ad31 0 0.6]
+[charaFadein Q 0.1 1]
+[wt 0.1]
+[charaPut T 1]
+[charaEffect T bit_talk_noise_gr]
+
+[scene 36001]
+
+[charaFace K 2]
+[charaFadein K 0 1]
+[charaFadeout L 0]
+[charaFadeout Q 0.1]
+[wt 1.6]
+
+[bgm BGM_EVENT_2 0.5 1.0]
+
+[fadeout white 0.1]
+[seStop ad31 0.3]
+[wait fade]
+[charaPut T 2000,2500]
+[charaEffectStop T bit_talk_noise_gr]
+
+[scene 189403]
+
+
+[cameraFilter normal]
+
+[charaTalk on]
+[charaTalk J]
+[charaFace J 14]
+[charaFadein J 0 1]
+[charaFadeout K 0]
+
+[fadein white 0.1]
+[wait fade]
+[wt 1.1]
+
+
+？1：……虽然记不太清了，
+？2：但我总觉得他曾是个决不能掉以轻心的人物……
+？！
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠希翁
+对于他报上的名字，你也感觉自己好像知道，[r]又好像有哪里不一样，是吗？
+[k]
+
+＠希翁
+这恐怕不是你的错觉吧。
+[k]
+
+[charaFace I 10]
+＠希翁
+身在此处的我们，[r]在各种方面都不是平常的我们。
+[k]
+
+＠希翁
+记忆领域肯定也存在一些异常。
+[k]
+
+[charaFace I 2]
+＠希翁
+严格说来，这应该源于硬件错误，[r]因此无法通过灵线神经来干涉。
+[k]
+
+＠希翁
+得不出答案固然令人心急，[r]但现在再怎么绞尽脑汁也无济于事。
+[k]
+
+[charaFace I 6]
+＠希翁
+正如他自己说过的那样，也许是乱数器……[r]将首席ＡＩ御主化的转换工程中，
+[k]
+
+＠希翁
+混入了类似原型的某种东西，[r]或者随机选中了那个原型吧。
+[k]
+
+＠希翁
+我们对那个原型有印象，[r]却想不起来……就是这么一回事吧。
+[k]
+
+＠希翁
+顺带问一句，你对他的性格有何看法？
+[k]
+
+？1：这个嘛……
+？2：算是……判若两人吧……？
+？！
+
+[charaFace I 10]
+＠希翁
+唔，如果只是使用了外表数据，[r]重要度应该也不会很高……
+[k]
+
+＠希翁
+不过情报还是太少了，实在难以判断。
+[k]
+
+[charaFace I 0]
+＠希翁
+你对[#Caster:魔术师]的御主，[r]以及阿愈丝小姐没有印象吧？
+[k]
+
+＠希翁
+既是如此，目前也只能静观其变了吧。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 21]
+[charaFadein J 0.1 1]
+＠迦摩
+这个世界的怪事还是那么多呢。
+[k]
+
+[charaFace J 14]
+＠迦摩
+有时是ＡＩ的脸被替换成似曾相识的人，[r]有时是莫名其妙变小了。保持警戒保持警戒。
+[k]
+
+[charaFace J 13]
+＠迦摩
+不过一码归一码，既然话都说完了，[r]那就睡吧。
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace J 3]
+＠迦摩
+接下来是要采用什么手段避免做噩梦吗？
+[k]
+
+＠迦摩
+我倒不是没有什么好办法哦。
+[k]
+
+[se ad661]
+[charaMoveScale J 1.1 1.5]
+[charaMove J 0,15 1.5]
+[charaFace J 22]
+＠迦摩
+没错，比方说，抱着完美合身的抱枕就能[r]安心之类的……？　只是打个比方而已[line 3]
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+[seStop ad661 0.3]
+
+
+[charaTalk I]
+[charaFace I 5]
+[charaFadein I 0.1 1]
+＠希翁
+那就晚安了。
+[k]
+
+[charaFace I 10]
+＠希翁
+强制睡眠导入效果，发动。[r]倒计时３、２、１[line 3]
+[k]
+
+
+[messageOff]
+[cueSe SE_23 23_ad1307]
+[wt 1.0]
+
+[se ad920]
+[fowardEffect bit_talk_switch_off]
+[wt 0.5]
+
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadeout I 0.1]
+
+[scene 10000]
+[wt 0.2]
+
+[fadein black 0.4]
+[wait fade]
+
+＠迦摩
+啊，慢着，喂～！
+[k]
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

@@ -1,0 +1,1496 @@
+
+
+
+＄04-00-02-06-3-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270500 1 拉妮－Ｄ1]
+[charaSet B 1098270510 1 拉妮－Ｄ2]
+[charaSet C 1098270450 1 拉妮－Ｇ]
+[charaSet D 1098269700 1 Caster]
+[charaSet E 1098269800 1 ？？？]
+[charaSet F 1098270000 1 希翁]
+[charaSet G 1098268910 1 樱]
+[charaSet H 1098270300 1 阿愈丝]
+[charaSet I 7046001 1 难敌]
+[charaSet J 1098270200 1 迦摩]
+[charaSet K 1098267100 1 美杜莎]
+[charaSet L 1098271000 1 蠢魔1]
+
+[imageSet M back10000 1 1]
+[charaScale M 1.01]
+[imageSet N back10000 1 1]
+[charaScale N 1.01]
+
+[sceneSet O 191500 1]
+
+[sceneSet P 10000 1]
+
+[sceneSet Q 189500 1]
+[charaScale Q 1.2]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+[charaSet U 98115000 1 特效用dummy]
+[charaSet V 98115000 1 特效用dummy]
+[charaSet W 98115000 1 特效用dummy]
+
+[charaSet X 1098270540 1 警报机器人]
+[charaSet Y 1098270540 1 警报机器人2]
+
+
+[scene 191500]
+
+[cameraMove 0 0,0 1.01]
+
+[bgm BGM_EVENT_127 1.0]
+
+
+[charaTalk off]
+
+
+
+[charaScale O 1.3]
+[charaFace O 0]
+[charaFadein O 0.1 10,-300]
+[charaMove O 0,-300 1.6]
+
+[fadein black 1.0]
+[wait fade]
+[wt 1.0]
+
+＠
+这，是进攻。
+[k]
+
+＠
+只求实现自己所被允许的简单明了的欲望。
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1293]
+[cueSe SE_23 23_ad1246]
+[cueSeVolume 23_ad1246 0 0.4]
+[se ad876]
+[seVolume ad876 0 0.4]
+[shake 0.01 1 2 2.4]
+[charaMove O -25,-300 2.4]
+[wt 2.0]
+
+[messageOff]
+[wipeout rectangleStripDownToUp 0.4 1.0]
+[bgm BGM_EVENT_127 0.6 0.5]
+[cueSeStop 23_ad1246 0.8]
+[cueSeStop 23_ad1293 0.8]
+[wait wipe]
+
+[charaFadeout O 0.1]
+
+[scene 189500]
+
+
+[charaDepth O 1]
+[charaDepth C 1]
+[charaDepth W 2]
+[charaDepth A 2]
+[charaDepth X 2]
+[charaDepth V 6]
+[charaDepth S 7]
+[charaDepth T 8]
+[charaDepth U 9]
+
+
+[charaScale X 1.0]
+[charaFace A 7]
+[charaFace X 1]
+[charaFace C 4]
+[charaFadeinFSL A 0.1 0]
+[charaFadeinFSL X 0.1 -86,0]
+[charaFadeinFSR C 0.1 2]
+
+[shake 0.02 2 2 0]
+[se ade393]
+[seVolume ade393 0 0]
+[se ad14]
+[seVolume ad14 0 0]
+[wt 0.6]
+
+[seVolume ade393 0.8 1.0]
+[seVolume ad14 0.8 1.0]
+[bgm BGM_EVENT_127 0.6 1.0]
+[wipein rectangleStripUpToDown 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+[se ad228]
+[se ad299]
+[se ad297]
+[effect bit_talk_goltail01 0,-50]
+[wt 0.2]
+
+[se ad296]
+[se ad609]
+[cueSe SE_23 23_ad1233]
+[cueSeVolume 23_ad1233 0 0.8]
+[charaPut S 350,-200]
+[charaEffect S bit_talk_impactlanding]
+[charaShake C 0.02 2 3 0]
+[wt 0.6]
+
+[se ad161]
+[se ad464]
+[cueSe SE_23 23_ad1299 0 0.7]
+[charaPutFSR V 256,0]
+[charaEffect V bit_talk_atomization_ele01]
+[wt 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[se ad882]
+[se ad876]
+[charaPut T 0,-200]
+[charaEffect T bit_talk_impactlanding]
+[fowardEffectStop bit_talk_blood_stay]
+[wt 0.8]
+
+[se ad864]
+[seVolume ad864 0 0.4]
+[se ad854]
+[seVolume ad854 0 0.9]
+[charaPut U -350,-200]
+[charaEffect U bit_talk_impactlanding]
+[charaShake A 0.02 2 3 0]
+[charaShake X 0.02 2 3 0]
+[wt 0.3]
+
+[seStop ad299 0.6]
+[seStop ad297 0.6]
+[seStop ad296 0.6]
+[seStop ad228 0.6]
+[seStop ade393 0.6]
+[seStop ad14 0.6]
+[cueSe SE_21 21_ad1125]
+[shake 0.02 3 3 0.8]
+[se ad863]
+[se ad464]
+[cueSe SE_23 23_ad1299 0 0.7]
+[charaPutFSL W -256,0]
+[charaEffect W bit_talk_atomization_ele01]
+[charaFadeout A 0.1]
+[charaFadeout X 0.1]
+[wt 1.0]
+[wt 1.4]
+
+
+[wipeout rectangleStripUpToDown 0.6 1.0]
+[bgm BGM_EVENT_127 0.8 0.5]
+[wait wipe]
+
+[charaShakeStop A]
+[charaShakeStop X]
+[charaShakeStop C]
+[charaPut S 2000,2500]
+[charaPut T 2000,2500]
+[charaPut U 2000,2500]
+[charaPut V 2000,2500]
+[charaPut W 2000,2500]
+[effectDestroy bit_talk_goltail01]
+
+[scene 191500]
+
+[se ad430]
+[seVolume ad430 0 0]
+[se ade393]
+[seVolume ade393 0 0]
+[se ad14]
+[seVolume ad14 0 0]
+[wt 0.8]
+
+[seVolume ad430 0.8 0.2]
+[seVolume ade393 0.8 0.2]
+[seVolume ad14 0.8 0.2]
+[bgm BGM_EVENT_127 0.8 1.0]
+[wipein rectangleStripDownToUp 0.6 1.0]
+[wait wipe]
+[wt 0.6]
+
+＠
+吞食。
+[k]
+
+＠
+随心所欲地蹂躏、撕裂[line 3]终结那些[r]弱小之人、应绝对服从自己之人。
+[k]
+
+[messageOff]
+
+[subCameraOn 1]
+[charaLayer D sub #A]
+[charaLayer P sub #A]
+[subCameraFilter #A maskEdge cut359_mask05 4 176,32,156,255]
+
+[charaDepth P 1]
+[charaDepth D 2]
+
+[charaScale P 1.2]
+[charaScale D 1.2]
+[charaFace D 10]
+[charaFadein D 0.1 0,125]
+[charaFadein P 0.1 0,-125]
+
+[subRenderFadein #A 0.5 0,-140]
+[subRenderMove #A 0,-190 0.5]
+[wt 0.5]
+
+＠
+啊啊[line 3]啊啊！
+[k]
+
+＠
+对恐惧的认知、对逃亡的渴望，不允许。[r]领悟命运的眼瞳、甜美的悲鸣。
+[k]
+
+＠
+事实上是否塞入过口中呢？[r]还是没塞入过口中呢？
+[k]
+
+＠
+都一样。
+[k]
+
+＠
+跟那猩红的房间，那[#装饰着]愚蠢新娘们的房间有着[r]相同的颜色、相同的气味、相同的悲鸣……也就是，相同的味道。
+[k]
+
+＠
+如今，已经不用再等待[#牺牲者:新娘]了。[r]只需主动前去迎接即可。
+[k]
+
+[messageOff]
+[subRenderMove #A 0,-240 0.5]
+[subRenderFadeout #A 0.5]
+[wt 0.5]
+[charaFadeout D 0.1]
+[charaFadeout P 0.1]
+[wt 0.1]
+[subCameraOff]
+[charaLayer D normal]
+[charaLayer P normal]
+
+
+[seStop ad430 0.6]
+[seStop ade393 0.6]
+[seStop ad14 0.6]
+[shake 0.01 1 2 1.8]
+[cueSe SE_23 23_ad1293]
+[cueSeVolume 23_ad1293 0 0]
+[cueSe SE_23 23_ad1246]
+[cueSeVolume 23_ad1246 0 0]
+[se ad876]
+[seVolume ad876 0 0]
+
+[cueSeVolume 23_ad1293 1.5 1.0]
+[cueSeVolume 23_ad1246 1.5 0.4]
+[seVolume ad876 1.5 0.4]
+
+[charaScale O 1.3]
+[charaFace O 0]
+[charaFadein O 1.0 0,-220]
+[charaMove O -50,-270 4.5]
+[charaShake O 0.01 2 2 4.5]
+[wt 1.6]
+
+
+＠
+这具身体，非常清楚。[cueSeStop 23_ad1293 2.0]
+[k]
+
+＠
+这身皮肤，嗅得到气味。
+[k]
+
+＠
+是吗，是的。[r]从房间中溢出的禁忌，此刻，就是自己。
+[k]
+
+＠
+自己，就是那禁忌的房间。
+[k]
+
+＠
+不可以看，绝对不可以看哦。[r]（虽然我会留下钥匙。）
+[k]
+
+＠
+不能进去，绝对不能进去哦。[r]（虽然我会留下钥匙。）
+[k]
+
+＠
+若敢违背嘱咐，我可不知道自己会做出什么来哦，[r]我心爱的妻子啊[line 3]
+[k]
+
+[messageOff]
+[wipeout rectangleStripDownToUp 0.4 1.0]
+[bgm BGM_EVENT_127 0.6 0.5]
+[wait wipe]
+
+[charaFadeout O 0.1]
+
+[charaSet C 1098270430 1 拉妮－Ｇ]
+
+[scene 189500]
+
+[charaDepth A 2]
+[charaDepth X 2]
+[charaDepth B 3]
+[charaDepth Y 3]
+[charaDepth C 4]
+[charaDepth R 5]
+[charaDepth S 8]
+[charaDepth T 9]
+
+[charaScale X 1.0]
+[charaScale Y 1.0]
+[charaFace A 3]
+[charaFace X 1]
+[charaFace B 7]
+[charaFace Y 2]
+[charaFace C 4]
+[charaFadeinFSR A 0.1 300,0]
+[charaFadeinFSR X 0.1 470,0]
+[charaFadeinFSL B 0.1 -300,0]
+[charaFadeinFSL Y 0.1 -130,0]
+[charaFadein C 0.1 1]
+[wt 0.6]
+
+[bgm BGM_EVENT_127 0.6 1.0]
+[wipein rectangleStripUpToDown 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+＠
+然而，你们现在都在看着。[r]正用胆怯的眼神，看着身为房间的我。
+[k]
+
+＠
+这等同于你们已走进了房间。
+[k]
+
+[messageOff]
+[se ade393]
+[seVolume ade393 0 0]
+[se ad14]
+[seVolume ad14 0 0]
+[se ad228]
+[seVolume ad228 0 0]
+[se ad299]
+[seVolume ad299 0 0]
+[se ad297]
+[seVolume ad297 0 0]
+
+
+[seVolume ad228 1.2 0.2]
+[seVolume ad299 1.2 0.4]
+[seVolume ad297 1.2 0.5]
+
+[seVolume ade393 1.2 0.6]
+[seVolume ad14 1.2 0.9]
+[wt 0.5]
+[charaPut R 1]
+[charaFadeTime R 1.2 0.6]
+[wt 0.7]
+[charaFace A 5]
+[charaFace C 8]
+[wt 0.5]
+
+[charaPut S 1]
+[charaEffect S bit_talk_gram_slash_violet_01]
+[charaFadeTime R 0.5 1.0]
+[wt 0.4]
+
+[seStop ade393 1.3]
+[seStop ad14 0.3]
+[seStop ad85 0.3]
+[seStop ad228 0.3]
+[seStop ad299 0.3]
+[seStop ad297 0.3]
+
+
+[se ad296]
+[seVolume ad296 0 0.6]
+[se ad609]
+[seVolume ad609 0 0.5]
+[cueSe SE_23 23_ad1233]
+[cueSeVolume 23_ad1233 0 0.5]
+[se ad863]
+[se ad464]
+[cueSe SE_23 23_ad1299 0 0.8]
+[fowardEffect bit_talk_35]
+[fowardEffect bit_talk_blood_splash02]
+[wt 1.0]
+[fowardEffectStop bit_talk_blood_splash02]
+[cueSeStop 23_ad1233 2.0]
+[wt 1.4]
+
+[wipeout rectangleStripUpToDown 0.6 1.0]
+[wait wipe]
+
+[fowardEffectDestroy bit_talk_35]
+[fowardEffectDestroy bit_talk_blood_splash02]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaFadeout X 0.1]
+[charaFadeout B 0.1]
+[charaFadeout Y 0.1]
+[charaFadeout R 0.1]
+
+[charaScale O 1.2]
+[charaFace O 0]
+[charaFadein O 1.0 -20,-220]
+
+[se ad430]
+[seVolume ad430 0 0]
+[se ade393]
+[seVolume ade393 0 0]
+[se ad14]
+[seVolume ad14 0 0]
+[seStop ad296 0.5]
+[wt 1.6]
+
+[seVolume ad430 1.0 0.2]
+[seVolume ade393 1.0 0.2]
+[seVolume ad14 1.0 0.2]
+[wipein rectangleStripDownToUp 0.8 1.0]
+[wait wipe]
+[wt 0.4]
+
+
+＠
+下一群妻子，在哪里？[r]保管着魔法钥匙的妻子们，在哪里[line 3]
+[k]
+
+[messageOff]
+[charaMove O -60,-220 4.5]
+[charaShake O 0.01 2 2 4.5]
+[cueSe SE_23 23_ad1293]
+[cueSeVolume 23_ad1293 0 0]
+[cueSe SE_23 23_ad1246]
+[cueSeVolume 23_ad1246 0 0]
+[se ad876]
+[seVolume ad876 0 0]
+
+[cueSeVolume 23_ad1293 1.5 1.0]
+[cueSeVolume 23_ad1246 1.5 0.4]
+[seVolume ad876 1.5 0.4]
+[wt 2.8]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_127 1.5]
+[seStop ad430 1.5]
+[seStop ade393 1.5]
+[seStop ad14 1.5]
+[cueSeStop 23_ad1246 1.5]
+[cueSeStop 23_ad1293 1.5]
+[seStop ad876 1.5]
+[wait fade]
+
+[charaMove O 2000,2500 0.1]
+[charaShakeStop O]
+
+[scene 10000]
+[wt 2.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_142 0.1]
+
+＠
+[2AB2BF][line 3][#自己是]，[#什么人]。[-]
+[k]
+
+＠
+我知道，当然知道。
+[k]
+
+＠
+自己是为理解一切而存在之人，[r]是为抵达那一理想而存在之人。
+[k]
+
+＠
+世界之理，一切的起始与终结，[r]万物的绝对法则。
+[k]
+
+＠
+根源。
+[k]
+
+＠
+因此，不可能无法理解，[r]自己是谁。
+[k]
+
+＠
+[#构筑部:Build]首席ＡＩ，[#Caster:魔术师]的御主。[r][line 3]玛奇里·佐尔根，优秀的魔术师。
+[k]
+
+＠
+玛奇里家最优秀的继承人，也是最后的纯血。[r]绝不可能失败的完成者。
+[k]
+
+＠
+虽然不清楚这是什么意思，但能理解。[r]理解自己就是这样的存在。
+[k]
+
+＠
+所以[line 3]
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_142 1.0 0.5]
+[wait fade]
+
+[scene 189500]
+
+[cameraHome 0.1]
+
+[overlayFadein M 0.1 0,-736]
+[overlayFadein N 0.1 0,736]
+[wt 0.5]
+
+[bgm BGM_EVENT_142 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0,-50]
+＠玛奇里
+哈哈……哈哈哈哈哈！[r]没错，很好，很好！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+＠
+通过解析[#Caster:魔术师]的宝具构筑起来的撒手锏，[r]发挥着近乎无敌性能的亢奋感。
+[k]
+
+＠
+证明了自己果然是个优秀存在的安心感，[r]以大笑的形式震颤着肺部。
+[k]
+
+＠
+另一方面，胸口倒也存在着[r]以另一种形式嘎吱作响的部分。
+[k]
+
+＠
+[line 3]这是，正义吗？
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[bgm BGM_EVENT_142 0.6 0.5]
+[wait wipe]
+
+[charaTalk off]
+[charaDepth L 2]
+[charaDepth B 3]
+[charaDepth Y 3]
+[charaDepth S 4]
+
+[charaFace L 0]
+[charaFadein L 0.1 0,-50]
+[wt 0.5]
+
+[bgm BGM_EVENT_142 0.6 1.0]
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+[wipeFilter cinema 0.5 0]
+[wt 0.2]
+
+
+[se ad1006]
+[charaMoveScale L 1.1 0.3]
+[charaMove L 0,-35 0.3]
+[charaFadeout L 0.3]
+[wt 0.4]
+
+[se ad191]
+[wt 0.5]
+
+[se ad161]
+[flashin once 0.1 0.1 FF3333FF FF3333FA]
+[wt 0.1]
+[fowardEffect bit_talk_35]
+[charaFace B 7]
+[charaFace Y 2]
+[charaFadein B 0 0,-50]
+[charaFadein Y 0 170,-50]
+[charaShake B 0.02 3 4 0.6]
+[charaShake Y 0.02 3 4 0.6]
+[wt 1.2]
+
+
+[charaMove B 0,-80 0.4]
+[charaMove Y 170,-80 0.4]
+[charaFadeout B 0.4]
+[charaFadeout Y 0.4]
+[wt 0.4]
+
+[se ad775]
+[wt 0.5]
+
+[wipeOff]
+[cueSe SE_23 23_ad1299 0 0.8]
+[wt 3.0]
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[bgm BGM_EVENT_142 0.6 0.5]
+[wait wipe]
+
+[wt 0.5]
+
+[bgm BGM_EVENT_142 0.6 1.0]
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+＠
+不对。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+＠
+非也，错得更离谱了。[r]这个问题本身就是错的。
+[k]
+
+＠
+正义即为胜利，[r]即为抵达理想。
+[k]
+
+＠
+正因为他[line 3]就是生为[#这种魔术师]的，[r]才会这样行动。
+[k]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 0,-50]
+＠玛奇里
+没错，我必须抵达理想才行。
+[k]
+
+＠玛奇里
+为此……就会有，就会有不得不舍弃的事物、[r]不得不扼杀的感情……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+＠
+倘若身在此处的[#他自身的构造设计][r]存在什么致命性的谬误。
+[k]
+
+＠
+那唯有轻视耐久性这点。
+[k]
+
+＠
+对本该优秀的自己一直以来却不得不[r]因人数差距而撤退或重整旗鼓的不满。
+[k]
+
+＠
+为抹去这不断累积的不满而使出的，
+[k]
+
+＠
+不惜牺牲[#控制性能:Handling]，[r]也要大力彰显自身优秀性的撒手锏。
+[k]
+
+＠
+然而，[#进展过于顺利了]。[r]已被制定好规格的模具之非弹性，
+[k]
+
+＠
+承受不住这预料之外的振幅，[r]感到自己理应如此的内在[line 3]溢出来了。
+[k]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 0,-50]
+＠玛奇里
+哈哈……哈哈哈……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+＠
+因此，原本也许还能有所留存的[r]『人性』倾轧声，不知何时消失无踪。
+[k]
+
+＠
+此处徒留在合理的名义下一味追求理想的，[r]纯粹魔术师的身影。
+[k]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 0,-50]
+＠玛奇里
+啊啊，没错。
+[k]
+
+＠玛奇里
+规则？　中立规定？　烦人。
+[k]
+
+[charaFaceFade E 9 0.2]
+＠玛奇里
+快看这力量，快看这吞噬一切的力量。
+[k]
+
+＠玛奇里
+反正我是所有存在中最为优秀的，[r]注定要成为这世界的下一任主人。
+[k]
+
+＠玛奇里
+而这又是唯一能最为迅速抵达理想的道路。
+[k]
+
+[charaFaceFade E 4 0.3]
+＠玛奇里
+就算接下来我要吞噬掉所有旧世代机，[r]又有什么问题呢[line 3]？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+＠
+……轻视耐久性的产品的末路早已注定。
+[k]
+
+[bgmStop BGM_EVENT_142 1.5]
+
+＠
+注定毁坏。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[wt 1.5]
+[charaSet M 1098271000 1 蠢魔2]
+[charaSet N 1098271000 1 蠢魔3]
+
+
+[cueSe SE_23 23_ad1293]
+[cueSeVolume 23_ad1293 0 0]
+[cueSe SE_23 23_ad1246]
+[cueSeVolume 23_ad1246 0 0]
+[se ad876]
+[seVolume ad876 0 0]
+[se ade393]
+[seVolume ade393 0 0]
+[se ad14]
+[seVolume ad14 0 0]
+
+[charaScale O 1.05]
+[charaTalk O]
+[charaFace O 0]
+[charaFadein O 0.1 0,-220]
+[charaMove O -50,-250 5.0]
+[charaShake O 0.01 2 2 0]
+[charaMoveScale O 1.12 5.0]
+
+[cueSeVolume 23_ad1293 1.5 1.0]
+[cueSeVolume 23_ad1246 1.5 0.4]
+[seVolume ad876 1.5 0.4]
+[seVolume ade393 1.5 0.2]
+[seVolume ad14 1.5 0.3]
+[fadein black 1.5]
+[wait fade]
+[wt 2.5]
+
+
+[fadeout black 1.0]
+[cueSeStop 23_ad1246 1.0]
+[cueSeStop 23_ad1293 1.0]
+[seStop ad876 1.0]
+[seStop ade393 1.0]
+[seStop ad14 1.0]
+[wait fade]
+
+[charaFadeout O 0.1]
+[charaShakeStop O]
+
+[scene 189500]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+[bgm BGM_BATTLE_116 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠希翁
+对作战进行最终确认吧。
+[k]
+
+＠希翁
+虽说这[#形式:东西]很简单，[r]但正因如此，才应该重新审视一番吧。
+[k]
+
+？1：我完全同意。
+？2：拜托你了。
+？！
+
+[charaFace F 8]
+＠希翁
+敌人，[#Caster:魔术师]的超巨大蠢魔正按照预计的前进路线南下。[r]进攻的步调为计算的９７％。
+[k]
+
+＠希翁
+这是采取了最合适行动也没能逃脱的[r]不幸受害ＡＩ们，
+[k]
+
+＠希翁
+以及殉职的[#警防部:Defend]ＡＩ的努力[r]带来的成果。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth G 3]
+[charaDepth H 4]
+
+[charaFace G 21]
+[charaFace H 4]
+[charaFadeinFSL G 0.1 0]
+[charaFadeinFSR H 0.1 2]
+[wt 1.0]
+
+
+[charaTalk on]
+[charaFace H 0]
+＠阿愈丝
+不，现在可不是一脸阴沉的时候。[r]为了不让受害者继续增加，我们必须加油。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+＠希翁
+说得没错。
+[k]
+
+[charaFace F 8]
+＠希翁
+好了，我们的最终目标是消灭[r]与[#Caster:魔术师]同化的超巨大蠢魔。
+[k]
+
+[charaFace F 10]
+＠希翁
+虽说也要解决掉周边的其他中、小型蠢魔，
+[k]
+
+＠希翁
+不过预计只要打倒身为术者的[#Caster:魔术师]，它们就会随之消灭。[r]没必要全部击溃。
+[k]
+
+[charaFace F 6]
+＠希翁
+重要的是要在超巨大蠢魔的面前收拾杂鱼，[r]阻止它的前进。
+[k]
+
+＠希翁
+既然它能感知持有拉妮物质的ＡＩ，
+[k]
+
+＠希翁
+那么认为它也同样能感知到保有[r]高密度拉妮物质的从者才合情合理吧。
+[k]
+
+[charaFace F 2]
+＠希翁
+换言之，要边消灭周围的蠢魔，[r]边吸引超巨大蠢魔的注意，
+[k]
+
+＠希翁
+以及可能的话，还要同时攻击本体[r]削弱它的力量[line 3]这就是我们的任务。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 8]
+[charaFadein I 0.1 1]
+＠难敌
+哎～，讨厌啦～。[r]清理杂鱼可不是王子该做的事啦～。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+＠阿愈丝
+不准抱怨～！
+[k]
+
+[bgm BGM_BATTLE_116 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth R 4]
+[charaDepth H 5]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+[charaFace H 0]
+＠阿愈丝
+（……不过，他的状态总算是恢复了一点吧？[r]　虽说以任性作为判断基准也很奇怪就是了！）
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout R 0.2]
+[wt 0.1]
+
+[bgm BGM_BATTLE_116 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk J]
+[charaFace J 8]
+[charaFadein J 0.1 1]
+＠迦摩
+到头来，我们的职责……是诱饵吧。
+[k]
+
+[charaFace J 0]
+＠迦摩
+我是爱神。
+[k]
+
+＠迦摩
+不适合靠威力轰飞那种大家伙，[r]或是靠离谱的破坏力物理性地削了它，
+[k]
+
+＠迦摩
+这种肌肉脑的行为，所以的确没辙。[r]不过真的可以交给你们吗？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠美杜莎
+既然只剩我，那也没办法了。[r]要是有其他适合的人选，我愿意交换。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠樱
+应该没有了。
+[k]
+
+＠樱
+就算扯断一两条腿，[r]那只巨大的怪物多半也不会停下来。
+[k]
+
+[charaFace G 9]
+＠樱
+恐怕只能将心脏部位……[r]只能杀死作为核心的[#Caster:魔术师]了，而问题在于，
+[k]
+
+[charaFace G 10]
+＠樱
+不知道[#Caster:魔术师]在那巨大身躯的哪个位置。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠希翁
+说得对。我正在寻找具体位置，[r]但还没得出明确的答案。
+[k]
+
+[bgm BGM_BATTLE_116 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth R 2]
+[charaDepth F 3]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+[charaFace F 6]
+＠希翁
+（樱……[#生产部:Grow]首席ＡＩ。跟阿愈丝小姐一样，[r]　都是不怎么好战的类型，）
+[k]
+
+＠希翁
+（但看起来好歹还具备足以作为御主的能力呢……）
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout R 0.2]
+[wt 0.1]
+
+[bgm BGM_BATTLE_116 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 25]
+[charaFadein G 0.1 1]
+＠樱
+[#Saber:剑士]的话，只要能使出全力……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠难敌
+嚯，就能知道[#Caster:魔术师]那家伙的位置吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠美杜莎
+不，是指我能将那家伙全部砍成细丝并逐一变成石头。[r]这样一来，说不定就能抽中目标了。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 8]
+[charaFadein I 0.1 1]
+＠难敌
+哦，这样啊。[r]比预想的更暴力呢。
+[k]
+
+[charaFace I 3]
+＠难敌
+好，明白了，这种一点都不美的[#努力:强硬手段][r]不适合本老爷。这事就交给你了。
+[k]
+
+？1：位置这个词倒是提醒我了。
+？2：直接攻击御主的这招如何……？
+？！
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+
+＠希翁
+这当然也是解决方案之一。就是彻底切断[r]对[#Caster:魔术师]的[#魔力:拉妮物质]供给源的思路吧。
+[k]
+
+[charaFace F 7]
+＠希翁
+然而瓶颈在于那玩意是会自律活动的怪物。
+[k]
+
+＠希翁
+虽然应该存在最低限度的距离感，[r]但不见得御主就在其身边。
+[k]
+
+[charaFace F 10]
+＠希翁
+毕竟对方应该也清楚抹除御主是一种手段，[r]所以会全力躲起来吧。
+[k]
+
+＠希翁
+我不得不判断在这有限的时间内[r]找出御主这种办法并不现实。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 3]
+[charaFadein K 0.1 1]
+＠美杜莎
+我一看到那个御主就莫名火大，[r]要是能直接消灭他获得胜利就好了。
+[k]
+
+＠美杜莎
+但既然行不通，[r]也只能想办法解决那个大块头了。
+[k]
+
+[charaFace K 0]
+＠美杜莎
+……话说，你们俩能站在一块吗？
+[k]
+
+[messageOff]
+[charaFadeout K 0.1]
+[wt 0.15]
+
+[charaTalk off]
+[charaDepth Q 1]
+[charaDepth J 2]
+[charaDepth G 3]
+
+[charaScale Q 1.4]
+[charaFadein Q 0.7 0,-300]
+[wt 0.8]
+
+[se ad95]
+[charaFace G 15]
+[charaFadein G 0.4 -250,0]
+[charaMove G -200,0 0.4]
+[seStop ad95 0.4]
+[wt 0.8]
+
+[se ade422]
+[charaFace J 18]
+[charaFadein J 0.4 250,0]
+[charaMove J 200,0 0.4]
+[wt 0.4]
+[seStop ade422 0.4]
+[wt 0.8]
+
+＠二人
+[FFFFFF]？[-]
+[k]
+
+[messageOff]
+[charaFadeout G 0.5]
+[charaFadeout J 0.5]
+[charaFadeout Q 0.5]
+[wt 0.6]
+
+[bgm BGM_BATTLE_116 0.5 0.5]
+
+[charaTalk on]
+[charaTalk depthOff]
+[charaDepth R 2]
+[charaDepth K 3]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+[charaTalk K]
+[charaFace K 12]
+[charaFadein K 0.1 1]
+＠美杜莎
+（感觉很像……又感觉不像……[r]　又仿佛截然相反。算了，管他呢。）
+[k]
+
+[bgm BGM_BATTLE_116 0.5 1.0]
+[charaFadeout R 0.2]
+
+[charaFace K 0]
+＠美杜莎
+[line 3]没什么。[r]总之情况就是这样。
+[k]
+
+＠美杜莎
+我会在便于发动首波攻击的地点等待。
+[k]
+
+＠美杜莎
+一旦有可乘之机，就会根据自己的节奏开始，[r]你们看着配合吧。
+[k]
+
+[messageOff]
+[se ade422]
+[charaMove K -50,0 0.4]
+[charaFadeout K 0.4]
+[seStop ade422 1.2]
+[wt 1.6]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠樱
+[#Saber:剑士]你真是的……
+[k]
+
+[charaFace G 0]
+＠樱
+不好意思，各位。[r]那我也动身了。
+[k]
+
+[charaSet H 1098270330 1 阿愈丝]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠阿愈丝
+啊，稍等一下。[r]之前我为你治疗的部位情况如何？
+[k]
+
+＠阿愈丝
+我还是第一次给御主治疗，[r]有点放心不下。
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[wt 1.0]
+
+
+[charaFace G 8]
+＠樱
+托你的福，完全没有问题哦。
+[k]
+
+＠樱
+你看，我是如此的精力充沛哦。[wt 0.7][charaCrossFade G 1098268940 25 0.2][wt 0.2][charaMoveReturn G 0,-6 0.3][r]呣！[wait charaCrossFade G]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠阿愈丝
+是吗？　那就好……[r]万一有什么问题千万别客气，尽管跟我说哦。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 25]
+[charaFadein G 0.1 1]
+＠樱
+好的。[r]那就拜托你多关照了！
+[k]
+
+[messageOff]
+[wt 0.05]
+[charaMoveReturn G 0,-7 0.8]
+[wt 1.2]
+
+[se ad59]
+[charaMove G -100,0 0.4]
+[charaFadeout G 0.4]
+[seStop ad59 1.2]
+[wt 1.8]
+
+[fadeout black 1.0]
+[bgmStop BGM_BATTLE_116 1.0]
+[wait fade]
+
+
+[pictureFrame cut063_cinema]
+[wt 1.5]
+
+[cueSe SE_23 23_ad1293]
+[cueSeVolume 23_ad1293 0 0]
+[cueSe SE_23 23_ad1246]
+[cueSeVolume 23_ad1246 0 0]
+[se ad876]
+[seVolume ad876 0 0]
+[se ade393]
+[seVolume ade393 0 0]
+[se ad14]
+[seVolume ad14 0 0]
+
+[charaScale O 1.1]
+[charaTalk O]
+[charaFadein O 0.1 0,-240]
+[charaMove O -50,-260 7.0]
+[charaShake O 0.01 2 2 0]
+[charaMoveScale O 1.2 7.0]
+
+[cueSeVolume 23_ad1293 1.0 1.0]
+[cueSeVolume 23_ad1246 1.0 0.4]
+[seVolume ad876 1.0 0.4]
+[seVolume ade393 1.0 0.2]
+[seVolume ad14 1.0 0.3]
+[fadein black 1.0]
+[wait fade]
+[wt 2.0]
+
+[se ad296]
+[wt 2.0]
+
+[fadeout black 0.6]
+[cueSeStop 23_ad1293 0.7]
+[cueSeStop 23_ad1246 0.7]
+[seStop ad876 0.7]
+[seStop ade393 0.7]
+[seStop ad14 0.7]
+[seStop ad296 0.7]
+[wait fade]
+
+[charaFadeout O 0.1]
+[charaShakeStop O]
+
+[pictureFrame]
+[wt 0.7]
+
+[fadein black 0.6]
+[wait fade]
+[wt 0.2]
+
+[bgm BGM_BATTLE_117 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+＠希翁
+来了呢。
+[k]
+
+＠希翁
+我一直在以高速思考来预测行动，[r]但还是有可能发生预料之外的事态。
+[k]
+
+[charaFace F 2]
+＠希翁
+届时还请随机应变。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 14]
+[charaFadein J 0.1 1]
+＠迦摩
+好啦好啦。我更希望你能优先计算[r]这种预料之外的事态呢。
+[k]
+
+？1：那大家加油吧！
+？！
+
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+
+[charaTalk off]
+[charaDepth L 5]
+[charaDepth M 4]
+[charaDepth N 3]
+
+[se ade72]
+[seVolume ade72 0 0.5]
+[se ade73]
+[seVolume ade73 0 0.5]
+[wt 0.15]
+[se ad21]
+[charaFace L 0]
+[charaFace M 0]
+[charaFace N 0]
+[charaFadein L 0.4 0,-10]
+[charaMove L 1 0.4]
+[wt 0.1]
+[charaFadeinFSR M 0.4 300,-10]
+[charaMoveFSR M 300,0 0.4]
+[wt 0.1]
+[charaFadeinFSL N 0.4 -300,-10]
+[charaMoveFSL N -300,0 0.4]
+[wt 0.9]
+[seStop ade72 0.4]
+[seStop ade73 0.4]
+[wt 1.0]
+
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 2]
+[charaFadein I 0.1 1]
+＠难敌
+不对，绝对是哪里搞错了。[r]这种开路的工作应该是杂兵的活儿。
+[k]
+
+＠难敌
+本老爷的任务应该是帅气地取下敌将首级才对。[r]为什么非得做这种事……
+[k]
+
+＠难敌
+而且做这种事应该也无法得到[r]本老爷想要的东西吧～。
+[k]
+
+[charaSet H 1098270300 1 阿愈丝]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+＠阿愈丝
+不准发牢骚～！
+[k]
+
+[charaFace H 8]
+＠阿愈丝
+虽说就算受伤，我也会赌上[#修理部:Repair]的尊严[r]立刻治好大家，
+[k]
+
+＠阿愈丝
+但还是希望大家小心谨慎！[r]尽量别受伤哦！
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStopEnd BGM_BATTLE_117 0.4]
+[wait fade]
+[soundStopAllEnd]
+[end]

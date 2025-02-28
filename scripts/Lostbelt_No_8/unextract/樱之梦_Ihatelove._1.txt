@@ -1,0 +1,1355 @@
+
+
+＄04-00-02-12-1-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098268900 1 樱1]
+[charaSet B 1098268900 1 樱2]
+[charaSet C 1098268900 1 樱3]
+[charaSet D 1098267120 1 美杜莎]
+[charaSet E 1098267120 1 美杜莎2]
+[charaSet F 7046001 1 难敌]
+[charaSet G 7046001 1 难敌2]
+[charaSet H 1098270000 1 希翁]
+[charaSet I 6037001 1 迦摩]
+[charaSet J 1098270300 1 阿愈丝]
+[charaSet K 1098271300 1 黄金刻耳柏洛斯]
+
+[sceneSet L 190300 1]
+[charaScale L 1.2]
+[sceneSet M 190200 1]
+[charaScale M 1.2]
+[sceneSet N 190400 1]
+[charaScale N 1.1]
+[sceneSet O 190200 1]
+[charaScale O 1.2]
+
+[charaSet P 5009000 1 特效用1]
+[charaSet Q 5009000 1 特效用2]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.1]
+[imageSet S back10000 1 1]
+[charaScale S 1.1]
+
+[scene 10000]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_142 0.1]
+
+＠
+[D95D97][#自己是]，[#什么人]。
+[k]
+
+＠
+愚蠢的问题。[r]自己原本就是模糊的存在。
+[k]
+
+＠
+基本上只由身份构成。
+[k]
+
+＠
+时间轴、记忆、因果、回忆，[r]全都模糊不清[line 3]
+[k]
+
+＠
+既存在重合的部分，[r]也存在矛盾的部分。
+[k]
+
+＠
+然而，唯有身份，不会改变。
+[k]
+
+＠
+怪物。
+[k]
+
+＠
+这就是我。哪怕存在为数众多的我，[r]唯有这点恐怕是不会改变的吧。
+[k]
+
+＠
+既会存在沦落为吞噬一切之魔物的自己，[r]也会存在与[#天马:珀伽索斯]连接在一起的自己吧。
+[k]
+
+＠
+说不定还会存在近似于两位女神姐姐，[r]偏向于『身为小妹的女神』这一立场的自己吧。
+[k]
+
+＠
+然而即便如此，我也无法逃脱怪物这一罪业。
+[k]
+
+＠
+换言之，差别只在于是什么样的怪物。
+[k]
+
+＠
+正如存在与[#天马:珀伽索斯]相连接的我，[r]现在这个我则与[#黄金剑的怪物:克律萨俄耳]相连接。
+[k]
+
+＠
+这没问题。
+[k]
+
+＠
+由于克律萨俄耳是众多怪物的祖先，[r]魔之血脉祖先的形式也鲜明地表现在了我身上。
+[k]
+
+＠
+这也没问题。
+[k]
+
+＠
+问题在于，除此以外那无关紧要的内在。
+[k]
+
+＠
+自己拥有感情。
+[k]
+
+＠
+拥有对波塞冬、对雅典娜、[r]对诸神的强烈[#感情:激情]。
+[k]
+
+＠
+也可以说是，还记得。[r][#记得自己为何会变成怪物]。
+[k]
+
+＠
+着眼于这一原点的，正是自己。[r]啊啊，没错[line 3]
+[k]
+
+＠
+我对诸神的，以及除此以外的，[r][#名为爱的事物充满厌恶]。
+[k]
+
+＠
+若没有这种东西，[r]我也许就不会变成怪物了。
+[k]
+
+＠
+也许就能永远永远，与最喜欢的两位姐姐[r]一起平静地生活下去吧。
+[k]
+
+＠
+所以[line 3]我曾经很讨厌。
+[k]
+
+[messageOff]
+[fadeout black 0.1]
+[wait fade]
+
+
+[wipeFilter cinema 0.5 0]
+
+[scene 190300]
+
+[charaTalk off]
+[charaTalk depthOff]
+[subCameraOn 1]
+[charaLayer E sub #A]
+[subCameraFilter #A through]
+
+[charaDepth L 1]
+[charaDepth A 2]
+[charaDepth M 3]
+[charaDepth B 4]
+[charaDepth N 5]
+[charaDepth C 6]
+[charaDepth O 7]
+
+[charaScale A 1.2]
+[charaScale B 1.2]
+[charaScale C 1.1]
+[charaScale E 1.2]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+
+[charaFace A 7]
+[charaFadeinFSL A 0.1 -125,-50]
+[charaFadein L 0.1 70,-300]
+[cameraFilter gray]
+
+[wt 1.0]
+
+[charaMove L 120,-300 20.0]
+[charaMoveFSL A -50,-50 20.0]
+[fadein black 1.0]
+[wait fade]
+
+[wt 3.0]
+
+
+[charaFace B 8]
+[charaFadein M 1.5 -70,-300]
+[charaFadeinFSR B 1.5 125,-50]
+[charaMove M -120,-300 20.0]
+[charaMoveFSR B 50,-50 20.0]
+[wt 2.0]
+
+＠
+非常讨厌被召唤至这个世界后，[r]遇见的那位御主。
+[k]
+
+＠
+我极力避免与她接触。
+[k]
+
+＠
+对话也维持在最低限度。
+[k]
+
+＠
+反复重申，自己身在此处，[r]纯粹是因为[#契约:工作]。
+[k]
+
+[messageOff]
+[charaFace C 17]
+[charaFadein N 1.5 0,-250]
+[charaFadein C 1.5 0,-50]
+[charaMove N 0,-300 20.0]
+[charaMoveScale C 1.2 20.0]
+[charaMoveScale N 1.2 20.0]
+[wt 2.0]
+
+＠
+结果，还是做不到。
+[k]
+
+＠
+对方主动接近自己。[r]用酷似某人的眼神，看着自己。
+[k]
+
+＠
+啊啊[line 3]所以，明明讨厌她，
+[k]
+
+＠
+但也很清楚，[r]一旦松懈，
+[k]
+
+＠
+自己绝对会爱上这女孩。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.0]
+[bgm BGM_EVENT_142 0.5 0.5]
+[wait fade]
+
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.2]
+
+[sceneSet N 190200 1]
+[charaScale N 1.01]
+[wt 0.2]
+
+[cameraFilter normal]
+
+[scene 190200]
+
+[charaDepth N 5]
+[charaDepth D 8]
+
+[charaFadein O 0.1 0,-300]
+[charaFadein N 0.1 0,-200]
+[subRenderFadein #A 0.1 0,0]
+[blur lens 0.5 2 20]
+
+[wt 0.6]
+
+[charaMove O 0,-250 25.0]
+[charaMoveScale E 1.1 25.0]
+[charaMoveScale O 1.1 25.0]
+[fadein black 1.0]
+[bgm BGM_EVENT_142 0.5 1.0]
+[wait fade]
+
+
+＠
+逃避[#那个]，诅咒着那个的不祥，[r]一心祈祷着不想再接触到那个的自己，为何会？
+[k]
+
+＠
+与[#那个]同在的，是难受、是痛苦、是恐惧。[r]这违背了自己的存在方式。
+[k]
+
+＠
+然而，即便如此[line 3]
+[k]
+
+[messageOff]
+[blurOff lens 1.0]
+[charaFadeout O 1.0]
+[subRenderFadeout #A 1.0]
+[wt 1.0]
+[overlayFadein R 0.1 50,-782]
+[overlayFadein S 0.1 50,783]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaLayer E normal]
+[subCameraOff]
+[wt 0.1]
+
+[se ad85]
+[effect bit_talk_gold_slash_02]
+[wt 1.0]
+[cueSe SE_23 23_ad1295]
+[fowardEffect bit_talk_gold_smoke]
+[wt 4.8]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 0,-50]
+[cueSeStop 23_ad1295 1.0]
+[cueSe SE_23 23_ad1312]
+[fowardEffectStop bit_talk_gold_smoke]
+[wt 1.4]
+[se ad772]
+[charaShake K 0.02 3 3 2.8]
+[charaShake N 0.02 2 2 2.8]
+[wt 3.3]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0,-50]
+
+＠
+既然已经有所自觉，也只能这样做了。
+[k]
+
+＠
+毕竟归根结底，
+[k]
+
+＠
+自己只是一只比起正确性，[r]更优先于自身欲望的丑陋怪物。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_142 1.5]
+[wait fade]
+
+[charaFadeout N 0.1]
+[charaPut D 1]
+[charaFadeout R 0.1]
+[charaFadeout S 0.1]
+
+[wipeOff]
+[wt 0.5]
+
+[sceneSet N 190400 1]
+[charaScale N 1.1]
+[wt 0.5]
+
+[cueSe SE_23 23_ad1292 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[cueSeStop 23_ad1292 0.5]
+[wt 1.0]
+
+[bgm BGM_EVENT_48 0.1]
+？1：美杜莎……！
+？2：[#Saber:剑士]……！
+？！
+
+
+＠美杜莎
+……来了啊。[r]我就知道来的会是你们。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 4]
+[charaFadein J 0.1 1]
+
+＠阿愈丝
+你在，做什么？
+[k]
+
+＠阿愈丝
+一定是搞错了什么吧？　因为你们，[r]曾和我们一起对抗[#Caster:魔术师]。
+[k]
+
+＠阿愈丝
+你也知道决不可对ＡＩ们[r]做出那种过分的事[line 3]
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠美杜莎
+不要误会。
+[k]
+
+＠美杜莎
+那次只是因为御主命令我那样做，[r]因为樱希望我那样做。
+[k]
+
+＠美杜莎
+没有任何更深层次的意义。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠迦摩
+那这次是怎么回事？[r]这是她的意愿吗？　可是没看到她呢。
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[se ad661]
+[seVolume ad661 0 0.6]
+[seStop ad661 0.7]
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 1]
+[charaMove D -50,0 0.5]
+[wt 0.5]
+
+＠美杜莎
+樱她，正在里面睡觉。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaSet A 1098268920 1 樱4]
+[sceneSet M 190200 1]
+[sceneSet O 190200 1]
+
+[cameraMove 1.0 30,20 1.1]
+
+[subCameraOn 1]
+[charaLayer M sub #A]
+[charaLayer A sub #A]
+[charaDepth M 1]
+[charaDepth A 2]
+
+[charaScale M 1.3]
+[charaScale A 1.2]
+[charaFace A 22]
+[charaFadein M 0.1 190,370]
+[charaFadein A 0.1 -120,220]
+[subCameraFilter #A maskEdge cut359_mask13 4 219,173,214,255 0]
+[wt 1.0]
+
+[blur lens 0.4 2 20]
+[subRenderFadein #A 0.4 -100,-300]
+[subRenderMove #A 0,-300 0.3]
+[wt 1.8]
+
+[subRenderFadeout #A 0.4]
+[cameraHome 1.0]
+[blurOff lens 1.0]
+[wt 1.0]
+[charaFadeout M 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaLayer M normal]
+[charaLayer A normal]
+[subCameraOff]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 8]
+[charaFadein J 0.1 1]
+
+＠阿愈丝
+等一下。虽然看不太清楚，[r]但她的呼吸是不是有点异常？
+[k]
+
+＠阿愈丝
+让我诊断一下！
+[k]
+
+[messageOff]
+[se ad95]
+[charaMove J 0,5 0.5]
+[charaMoveScale J 1.03 0.3]
+[wt 0.3]
+[seStop ad95 0.1]
+[charaFadeout J 0.1]
+[wt 0.1]
+[charaScale J 1.0]
+
+[se ad661]
+[seVolume ad661 0 0.6]
+[seStop ad661 0.5]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 -50,0]
+[charaMove D 1 0.3]
+
+＠美杜莎
+不允许你靠近她。[r]我很清楚她的情况。
+[k]
+
+＠美杜莎
+[line 3][#拉妮物质不足]。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠希翁
+……！？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠美杜莎
+她现在，只保有能维持ＡＩ结构体的[r]最低限度量的拉妮物质。
+[k]
+
+＠美杜莎
+现在，她甚至连起身活动的燃料都没有。
+[k]
+
+[charaFace D 11]
+
+＠美杜莎
+不，再这样下去[line 3][r]她不久就会消失了吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 4]
+[charaFadein J 0.1 1]
+
+＠阿愈丝
+那，那就得赶快给她一些才行！
+[k]
+
+＠阿愈丝
+我身上还有一点[#食物:素材]，[r]需要拉妮物质的话，我也可以借给她……
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠美杜莎
+你这[#ＡＩ:人]真奇怪。她分明是敌方御主。[r]是因为修理ＡＩ的基础程序吗？
+[k]
+
+＠美杜莎
+但这是两码事[line 3][r]要是能够补给，问题就简单多了，可惜没办法。
+[k]
+
+[charaFace D 1]
+
+＠美杜莎
+现在的她，会自动将获得的拉妮物质[r]输送给自己的从者。
+[k]
+
+＠美杜莎
+也就是，输送给我。
+[k]
+
+？1：…………！
+？！
+
+[charaFace D 11]
+
+＠美杜莎
+为了承认自己的过错，我必须这样说。
+[k]
+
+＠美杜莎
+我没有察觉到。[r]没察觉到[#自某个阶段起]，[#她就一直是这种状态]。
+[k]
+
+[charaFace D 12]
+
+＠美杜莎
+无论是通过素材摄取的，[r]还是从其他ＡＩ那里收到的，无一例外[line 3]
+[k]
+
+＠美杜莎
+每当樱摄取拉妮物质时，
+[k]
+
+＠美杜莎
+便会首先将最大限度的拉妮物质[r]输送给身为她从者的我。
+[k]
+
+＠美杜莎
+然后只用仅剩的些许拉妮物质[r]来维持身为ＡＩ的自己。
+[k]
+
+＠美杜莎
+由于始终都只留存勉强够用的量。[r]所以或许有时候也会出现瞬间不足。
+[k]
+
+？1：是因为她邀请我们参加野餐的时候，
+？2：我们吃掉了她的那份吗……？
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠希翁
+不。当时我确实看到她在吃[#食物:素材]。
+[k]
+
+＠希翁
+应该不是补给不够这种问题吧。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 3]
+[charaFadein J 0.1 1]
+
+＠阿愈丝
+慢着，你说自某个阶段起。[r]难不成是指[line 3]
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠美杜莎
+就是[#Caster:魔术师]的使魔挑起最初的战斗行为，[r]使她受伤的那时。
+[k]
+
+＠美杜莎
+……没错。就是从你，[r]为樱治疗之后开始。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 4]
+[charaFadein J 0.1 1]
+
+＠阿愈丝
+……！　果然，[r]是出现什么后遗症了吧！？
+[k]
+
+＠阿愈丝
+那时，她受的伤还挺重的。
+[k]
+
+[charaFace J 3]
+
+＠阿愈丝
+身为ＡＩ的部分虽然完美治疗好了，
+[k]
+
+＠阿愈丝
+但新追加的『御主』部分，[r]存在太多内容不明的黑匣子了。
+[k]
+
+＠阿愈丝
+于是只能采取保守观察的形式，[r]看那部分会造成什么影响……
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 1]
+
+＠美杜莎
+是吗。[r]很遗憾，现在就是出现了后遗症。
+[k]
+
+＠美杜莎
+我去盘问负责给她做体检的[r][#治疗型:型号Ｒ]，逼她坦白了。
+[k]
+
+＠美杜莎
+她用来向从者输送拉妮物质的，[r]相当于内部系统中『路径』的部分，
+[k]
+
+＠美杜莎
+似乎损坏了。
+[k]
+
+[charaFace D 12]
+
+＠美杜莎
+……对方解释说，[r]好比连接我与樱的管道开了个洞。
+[k]
+
+＠美杜莎
+哪怕输送拉妮物质，大部分也会从那个洞漏出去浪费。
+[k]
+
+＠美杜莎
+因此，若想以正常水准为从者供给拉妮物质，
+[k]
+
+＠美杜莎
+只能在输送时准备好可预见的损耗量才行。
+[k]
+
+＠美杜莎
+而她，则拿原本该由自己使用的那份，[r]来填补了这个空缺。
+[k]
+
+[charaFace D 2]
+
+＠美杜莎
+愚蠢的是，我是前不久才刚察觉到的。
+[k]
+
+＠美杜莎
+就在她为了让我能够全力战斗，[r]进一步为我注入了大量拉妮物质之后，
+[k]
+
+＠美杜莎
+我看到她脚步踉跄，连路都走不了，[r]才醒悟到她正处于异常状态。
+[k]
+
+＠美杜莎
+我让她优先维持自己，[r]她却反而[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠迦摩
+我有印象哦。就在第二只超巨大蠢魔现身时，[r]她对你[#使用了令咒]，对吧？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠美杜莎
+嗯。樱为何要一直那样做，[r]为何会使用令咒，两者的答案是一样的。
+[k]
+
+＠美杜莎
+她只是想守护自己的容身之处。[r]为此才依靠我，才托付给了我，仅此而已[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 4]
+[charaFadein J 0.1 1]
+
+＠阿愈丝
+她为什么不跟我说……！？[r]应该有很多机会才对吧。
+[k]
+
+＠阿愈丝
+我应该对她说过，可能会发生预料之外的异常，[r]如果发生了什么问题，一定要告诉我……！
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠美杜莎
+这我也问过了，但归根结底还是樱的选择。[r]其中估计有好几个原因吧。
+[k]
+
+＠美杜莎
+恐怕连首席ＡＩ也无法根治，[r]型号Ｒ所给出的这一诊断便是原因之一。
+[k]
+
+＠美杜莎
+樱本人好像也有这样的预感。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 3]
+[charaFadein J 0.1 1]
+
+＠阿愈丝
+怎么会这样。哪怕真是这样，[r]只要让我诊断，说不定就……
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠美杜莎
+还有一层原因或许是不想再欠[r]本是敌人的你更多的人情了吧。
+[k]
+
+＠美杜莎
+说着……樱笑了。
+[k]
+
+＠美杜莎
+她说，无论自己会变成什么样的瑕疵品，
+[k]
+
+＠美杜莎
+也不愿意为了独善其身，放弃守护这个地方的使命，[r]或是把这个使命交给别人。
+[k]
+
+＠美杜莎
+她想在力所能及的范围内自己亲手操办。[r]哪怕[line 3]那是毫无意义的自我主义。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 4]
+[charaFadein J 0.1 1]
+
+＠阿愈丝
+……[r]……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth E 2]
+[charaScale M 1.2]
+[charaScale E 1.2]
+
+[charaFace E 0]
+[charaFadein M 1.0 120,-300]
+[charaFadeinFSR E 1.0 120,0]
+[charaMove M 70,-300 30.0]
+[charaMoveFSR E 45,0 30.0]
+[wt 1.2]
+
+[charaTalk on]
+[charaTalk E]
+
+＠E：美杜莎
+她对令咒许愿，让我『[#守护这个地方]』。
+[k]
+
+[charaFace E 1]
+
+＠E：美杜莎
+而这划令咒的效果至今仍持续着。[r]至少我是如此认为的。
+[k]
+
+＠E：美杜莎
+我会守护[#生产部:这　里]。[r]而守护这个地方，就等同于守护樱。
+[k]
+
+[charaFace E 12]
+
+＠E：美杜莎
+所以无论采取什么手段，我都要守护樱。
+[k]
+
+＠E：美杜莎
+哪怕会牺牲掉除[#生产部:Grow]以外的ＡＩ们。
+[k]
+
+[charaFace E 2]
+
+＠E：美杜莎
+只要使役从这把剑中诞生的魔兽们，
+[k]
+
+＠E：美杜莎
+回收超越消耗量的庞大拉妮物质，[r]一口气返还给樱……她肯定就能醒过来。
+[k]
+
+[charaFace E 16]
+
+＠E：美杜莎
+只有这个方法了！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout M 0.5]
+[charaFadeout E 0.5]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk J]
+
+＠阿愈丝
+我能理解你的心情。[r]可是，可是啊[line 3]
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_48 1.0]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠难敌
+不，本老爷觉得这样挺好。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 8]
+[charaFadein J 0.1 1]
+
+＠阿愈丝
+哈？
+[k]
+
+
+[messageOff]
+[charaTalk off]
+[charaDepth O 1]
+[charaDepth G 2]
+[charaScale O 1.2]
+[charaScale G 1.2]
+
+[charaFace G 7]
+[charaFadein O 1.0 -120,-300]
+[charaFadeinFSL G 1.0 -120,0]
+[charaMove O -70,-300 30.0]
+[charaMoveFSL G -45,0 30.0]
+[wt 1.2]
+[charaFadeout J 0.1]
+[bgm BGM_BATTLE_68 0.1]
+
+[charaTalk on]
+[charaTalk G]
+
+＠G：难敌
+本老爷时常在想。[r]自己能明白的，终究只有自己的欲望。
+[k]
+
+[charaFace G 8]
+
+＠G：难敌
+所以为他人考虑有什么意义，[r]让步又有什么意义？
+[k]
+
+
+＠G：难敌
+如果随便找个理由，摆出坚毅的表情放弃……[r]就不觉得对不起自己的欲望吗？
+[k]
+
+[charaFace G 0]
+
+＠G：难敌
+所以，你的所作所为倒也没什么。
+[k]
+
+＠G：难敌
+做自己想做的事情，夺取自己想要的东西。[r]这太正常不过了。
+[k]
+
+[charaFace G 6]
+
+＠G：难敌
+可是[line 3]
+[k]
+
+[charaFace G 2]
+
+＠G：难敌
+自身欲望与他人的欲望相冲突也是常有的事。
+[k]
+
+[charaFace G 12]
+
+＠G：难敌
+这种时候究竟会哪边的欲望会得到满足，受到各种因素[r]的影响。身份、力量、财力等，不一而足。
+[k]
+
+＠G：难敌
+顺带一提，本老爷是具备所有这些因素的菁英，[r]所以才能得到想要的所有东西。
+[k]
+
+[charaFace G 7]
+
+＠G：难敌
+现在也一样。本老爷怀着赢下这场圣杯战争，[r]获得一切的欲望。
+[k]
+
+[charaFace F 7]
+[charaFadein F 0.1 1]
+
+＠G：难敌
+换言之，其他ＡＩ们都是本老爷未来的资产。[r]要是被你擅自挪用，那就伤脑筋了！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout O 0.5]
+[charaFadeout G 0.5]
+[wt 0.7]
+[se ad442]
+[charaFace F 10]
+[charaMoveReturn F 0,-7 0.6]
+[wt 1.1]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 0.1 1]
+
+＠迦摩
+自私自利过头反倒显得痛快。[r]欲望是通往堕落的滑梯。我要给予你好评哦，呵呵。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠希翁
+个性使然，比起情绪，我自然更重视合理性。[r]反正接下来的计划也是打倒[#Saber:剑士]或[#Lancer:枪兵]。
+[k]
+
+＠希翁
+在此放她一马毫无意义。[r]没有御主的支援反而是个好机会。
+[k]
+
+[charaFace H 10]
+
+＠希翁
+应该就地解决掉她。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 7]
+[charaFadein I 0.1 1]
+
+＠迦摩
+呜哇～，好冷酷～。
+[k]
+
+＠迦摩
+御主，无论你怎么选择我都可以哦？[r]就按御主心意来吧。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+？1：……既然你打算无差别伤害ＡＩ们，
+？2：我也只能，阻止你了……！
+？！
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠美杜莎
+[#Assassin:暗匿者]，其实我不想杀死容貌与她相似的你，[r]但这终究只是心情而已。
+[k]
+
+＠美杜莎
+如果敢碍事，休怪我手下无情。
+[k]
+
+＠美杜莎
+我要拯救樱。[r]定要拯救[line 3]这次，定要由我来拯救。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 4]
+[charaFadein I 0.1 1]
+
+＠迦摩
+这话说得就像她以前曾被其他人拯救过呢？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠美杜莎
+我可不知道有没有。[r]只是有这种感觉罢了。
+[k]
+
+[charaFace D 12]
+
+＠美杜莎
+……不，其实我很清楚。[r]之所以不想由挂念她的其他什么人，
+[k]
+
+＠美杜莎
+而是由我亲手拯救，[r]必须由我亲手拯救，
+[k]
+
+＠美杜莎
+并非出于狭隘、愚蠢、自以为是的短视。
+[k]
+
+＠美杜莎
+只是觉得，若非如此，就无法[r]真正意义上获得渴望之物的[line 3]
+[k]
+
+＠美杜莎
+我那，[r]纯粹的自我主义。
+[k]
+
+[charaFace D 2]
+
+＠美杜莎
+然而我，现在的我，渴望如此。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+
+＠难敌
+哈，说得好！
+[k]
+
+[charaFace F 0]
+
+＠难敌
+不过，本老爷虽然不知道你让那狗崽子还是别的什么[r]收集了多少拉妮物质啦，
+[k]
+
+＠难敌
+只是你怎么看都不像是资源有富余啊。
+[k]
+
+＠难敌
+而且，战斗时消耗得越多，[r]御主的苏醒就离你越遥远吧？　还是放弃吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠美杜莎
+可以用来代替的东西我会全部用上。[r]不管是多么令人恼火的力量。
+[k]
+
+＠美杜莎
+此前我只在使用宝具时调动出来，[r]而现在则会更为刻意地保持披于身上。
+[k]
+
+[charaFace D 14]
+
+＠美杜莎
+此刻，我要吞噬纠缠于我因果之上的你。[r]让我使用你吧，雅典娜！
+[k]
+
+[bgmStop BGM_BATTLE_68 2.0]
+
+[messageOff]
+[se ad852]
+[cueSe SE_22 22_ad1181 1.0 0.4]
+[charaEffectEdgeBlur D FFF9A5 FFF9A5 4 1.5]
+[wt 2.5]
+
+[se ad744]
+[fadeout white 1.0]
+[seStop ad852 1.0]
+[cueSeStop 22_ad1181 1.0]
+[wait fade]
+
+[se ad574]
+[charaEffectEdgeBlurDestroy D]
+
+[charaChange D 1098267140 3 normal 0.1]
+
+[charaTalk depthOff]
+[charaDepth P 1]
+[charaDepth D 2]
+[charaDepth Q 3]
+
+[charaPut P 0,-200]
+[charaPut Q 1]
+[charaEffect P bit_talk_charge_aura_set]
+[charaEffect Q bit_talk_lightning_01g_fs]
+[wt 2.0]
+
+[se ade446]
+[seVolume ade446 0 0]
+[se ad556]
+[seVolume ad556 0 0]
+
+[bgm BGM_BATTLE_78 0.1]
+
+[seStop ad744 2.0]
+[seVolume ade446 2.0 0.4]
+[seVolume ad556 2.0 0.4]
+[fadein white 2.0]
+[wait fade]
+
+[seVolume ade446 0.3 0.2]
+[seVolume ad556 0.3 0.2]
+
+＠美杜莎
+吞噬了神之因子的[#怪物:存在]所挥舞的[r]孕育怪物的黄金之剑的光辉。
+[k]
+
+＠美杜莎
+把它烙印在自己眼中，然后去死吧。
+[k]
+
+[charaFace D 16]
+
+＠美杜莎
+[line 3]与天马一起自吾之血中诞生的存在啊。[r][line 3]持剑的怪物之父啊。
+[k]
+
+＠美杜莎
+此乃诅咒神明承自吾等之光。[r]以吾之魔眼为汝送上祝福。
+[k]
+
+[messageOff]
+[wt 0.3]
+[seVolume ade446 0.5 0.4]
+[seVolume ad556 0.5 0.4]
+[cameraMove 0.5 0,-20 1.1]
+[wt 0.5]
+[charaFaceFade D 23 0.2]
+[wt 0.2]
+
+＠美杜莎
+『[#怪物的黄金剑:Chrysaor]』！
+[k]
+
+[messageOff]
+[seStop ade446 0.8]
+[seStop ad556 0.8]
+[charaFadeout D 0.1]
+[charaPut P 2000,2000]
+[charaPut Q 2000,2000]
+[charaEffectStop P bit_talk_charge_aura_set]
+[charaEffectStop Q bit_talk_lightning_01g_fs]
+[wt 0.3]
+[se ad85]
+[effect bit_talk_gold_slash_02]
+[wt 1.0]
+[cueSe SE_23 23_ad1295]
+[fowardEffect bit_talk_gold_smoke]
+
+[wt 1.3]
+[se ad949]
+[wt 0.7]
+[fadeout white 0.7]
+[se ad743]
+[wait fade]
+
+[fowardEffectDestroy bit_talk_gold_smoke]
+[scene 10000]
+[wt 1.0]
+
+[fadein white 0.7]
+[seStop ad949 1.2]
+[seStop ad743 1.2]
+[cueSeStop 23_ad1295 1.2]
+[bgmStopEnd BGM_BATTLE_78 1.2]
+[wait fade]
+
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[soundStopAllEnd]
+[end]

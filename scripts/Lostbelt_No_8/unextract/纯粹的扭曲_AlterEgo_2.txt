@@ -1,0 +1,1082 @@
+
+
+
+＄04-00-02-16-2-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 3054002 1 怖军]
+[charaSet B 7046001 1 难敌]
+[charaSet C 1098270000 1 希翁]
+[charaSet D 1098270300 1 阿愈丝]
+[charaSet E 1098269100 1 拉妮－ⅩⅡ]
+[charaSet F 1098269200 1 奥西里斯之尘]
+
+[charaSet G 3054002 1 怖军（演出用）]
+[charaSet H 3054002 1 怖军（演出用）]
+[charaSet I 7046001 1 难敌（演出用）]
+
+[imageSet J black_fade_re 1 1]
+[imageSet K black_fade_re 1 1]
+[charaScale J 2.0]
+[charaScale K 2.0]
+
+[sceneSet L 189603 1]
+[charaScale L 1.2]
+[sceneSet M 189603 1]
+[charaScale M 1.2]
+[sceneSet N 189603 1]
+[charaScale N 1.2]
+[sceneSet O 189603 1]
+[charaScale O 1.2]
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+[charaSet U 98115000 1 特效用dummy]
+
+[imageSet Q back10000 1 1]
+[charaScale Q 1.3]
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[imageSet V back10000 1 1]
+[charaScale V 1.1]
+[imageSet W back10000 1 1]
+[charaScale W 1.1]
+
+[cameraMove 0 0,0 1.01]
+
+[scene 189603]
+
+
+[overlayFadein V 0.1 0,-781]
+[overlayFadein W 0.1 0,782]
+
+[charaScale L 1.4]
+[charaFadein L 0.1 0,-250]
+
+[bgm BGM_BATTLE_105 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk off]
+[charaDepth L 1]
+[charaDepth A 2]
+
+[charaDepth S 10]
+[charaDepth T 4]
+[charaDepth U 5]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.2 0,-50]
+[wt 0.6]
+
+[se ad678]
+[blur motion 0.25 4 200 0.5 0.5 0.05 400]
+[charaMoveScale A 1.3 0.25]
+[charaMove A 0,-20 0.25]
+[charaFadeout A 0.25]
+[wt 0.25]
+[blurOff motion 0.1]
+[wt 0.45]
+
+[cueSe Servants_404700 m08609]
+[charaPut S 1]
+[charaEffect S bit_talk_x_slash_bl_01]
+[wt 0.25]
+
+[overlayFadein J 2.0 0,-1080]
+[overlayFadein K 2.0 0,280]
+
+[charaEffect S bit_talk_14]
+[shake 0.02 2 3 0.3]
+[charaMoveScale L 1.3 0.15]
+[charaMove L 0,-225 0.15]
+[wt 0.4]
+
+
+[cueSe Servants_404700 m08610]
+[charaPut T 1]
+[charaEffect T bit_talk_x_slash_bl_02]
+[wt 0.1]
+
+[charaEffect T bit_talk_blow]
+[wt 0.15]
+[shake 0.03 3 4 0.3]
+[charaMoveScale L 1.2 0.15]
+[charaMove L 0,-210 0.15]
+[wt 0.2]
+
+
+[charaPut U 1]
+[charaEffect U bit_talk_gram_slash_04_fs]
+[wt 0.2]
+[cueSe Servants_404700 m08704]
+[charaEffect U bit_talk_blow02]
+[wt 0.3]
+
+[shake 0.03 4 4 0.9]
+[charaMoveScale L 1.1 0.15]
+[charaMove L 0,-200 0.15]
+[wt 0.5]
+[blur lens 0.8 2 2]
+[wt 1.1]
+[charaPut S 2000,2500]
+[charaPut T 2000,2500]
+
+[se ad223]
+[charaPut S 1]
+[charaEffect S bit_talk_quickmove]
+
+[charaScale A 1.0]
+[charaFace A 5]
+[charaPut A 0,-50]
+[charaSpecialEffect A appearanceReverse 0,0 0.3]
+[wait charaSpecialEffect A]
+[wt 1.2]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_BATTLE_105 1.0 0.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout L 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout V 0.1]
+[charaFadeout W 0.1]
+[blurOff lens 0.1]
+
+
+[scene 10000]
+[wt 0.1]
+
+[fadein black 0.2]
+[wait fade]
+
+＠
+只是觉得，很卑鄙。
+[k]
+
+＠
+难道不是吗？
+[k]
+
+＠
+[#既强又正确的家伙总是会赢]，[r][#难道不卑鄙吗]？
+[k]
+
+＠
+没错，这家伙总是站在既强又正确的那方。[r]毫无疑问是位英雄。
+[k]
+
+＠
+这我还是明白的。[r]兄弟们也全都明白吧。
+[k]
+
+＠
+英雄气质。这很帅气一事不言自明。
+[k]
+
+＠
+那么，会憧憬有什么错，[r]渴望得到又有什么错？
+[k]
+
+[charaScale A 1.3]
+[charaTalk A]
+[charaFace A 0]
+＠
+问[charaFadein A 2.0 0,-50][charaMove A 0,0 30.0]题在于，拥有这种气质的，[r]是一个立场与自己绝对无法相容的男人。
+[k]
+
+＠
+无法相容的家伙拥有的，[r]连我们也渴望得到的东西。
+[k]
+
+＠
+既然无论如何都想得到，[r]也只能拼命努力了吧。
+[k]
+
+＠
+正因为不惜任何手段也想要得到，[r]才只能不惜任何手段去努力了吧。
+[k]
+
+＠
+所以趁他睡着时，把他扔进了河里。[r]还打算一把火把他们的居所烧了。
+[k]
+
+＠
+背上肮脏、丑陋、邪恶的骂名又如何。[r]反正也没别的手段了，随便怎么骂。
+[k]
+
+＠
+不然该怎么办才好？　别开玩笑了。[r]分明是他们更强大。
+[k]
+
+＠
+分明是他们更强大、更正确、更帅气……
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[charaSet A 3054002 1 怖军]
+
+[scene 189603]
+[wt 1.0]
+
+[bgm BGM_BATTLE_105 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+[wt 0.4]
+
+[se ad1006]
+[charaMoveScale A 1.2 0.25]
+[charaMove A 0,30 0.25]
+[charaFadeout A 0.25]
+[wt 0.6]
+
+[se ad85]
+[effect bit_talk_gram_slash_03_fs]
+[wt 0.65]
+
+[se ad1014]
+[se ad170]
+[fowardEffect bit_talk_14]
+
+[se ad671]
+[charaScale B 1.1]
+[charaTalk B]
+[charaFace B 17]
+[charaFadein B 0.1 0,15]
+[charaMove B 1 0.3]
+[charaShake B 0.02 2 3 0.6]
+[charaMoveScale B 1.0 0.3]
+[seStop ad671 0.8]
+[wt 1.4]
+
+
+＠难敌
+呼，呼……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaScale A 1.0]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠怖军
+哈哈哈，感觉好怀念啊！[r]竟然能纠缠这么久，真有你的！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠难敌
+……少，啰嗦。[r]本老爷不许你，说话高高在上。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠怖军
+不，我是在真心称赞你啦。[r]而且目前你也还没使出卑鄙的手段。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_BATTLE_105 1.5]
+
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 1]
+＠难敌
+[line 3]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth B 1]
+[charaDepth Q 2]
+[charaDepth I 3]
+
+[charaFilter Q silhouette D2293280]
+
+[se ad231]
+[charaScale I 1.3]
+[charaFace I 16]
+[charaFadein I 0 0,32]
+[charaPut Q 1]
+[charaFadeTime Q 0 0.7]
+[charaFadeout I 1.2]
+[charaFadeout Q 1.2]
+[wt 1.6]
+
+[charaFilter Q normal]
+
+[charaTalk on]
+[charaFace B 6]
+＠难敌
+你，好意思，说这话吗，怖军。
+[k]
+
+[bgm BGM_BATTLE_178 0.1]
+[charaFace B 5]
+＠难敌
+[line 3]倒是你！[r][#这次]，[#竟然没攻击肚脐以下的部位呢]！？
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[bgm BGM_BATTLE_178 0.6 0.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[wt 0.5]
+
+[bgm BGM_BATTLE_178 0.6 1.0]
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+[wt 0.4]
+
+？1：肚脐以下的部位……？
+？2：…………
+？！
+
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+＠希翁
+在『摩诃婆罗多』描述的大战中，[r]难敌在与怖军决斗时落败而亡。
+[k]
+
+＠希翁
+然而，那并非单纯的败北[line 3]
+[k]
+
+[charaFace C 6]
+＠希翁
+而是因为怖军为了报复过去受到的屈辱，
+[k]
+
+＠希翁
+故意违反了『不可攻击肚脐以下部位』[r]这条决斗的规矩。
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[bgm BGM_BATTLE_178 0.6 0.5]
+[wait wipe]
+
+[charaFadeout C 0.1]
+[wt 0.5]
+
+[bgm BGM_BATTLE_178 0.6 1.0]
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠怖军
+攻击，肚脐以下的部位……
+[k]
+
+[charaFace A 3]
+＠怖军
+……[r]……
+[k]
+
+[charaFace A 9]
+＠怖军
+[#你指哪件事]？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠难敌
+！[messageShake 0.05 4 3 0.3]
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[charaFace B 10]
+＠难敌
+喂……你这家伙。[r]关于那场战争，你还记得多少？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠怖军
+抱歉，并非一五一十全都记得。
+[k]
+
+[charaFace A 0]
+＠怖军
+不过我知道我们跟迦尔纳和马嘶，[r]以及你们持国百子干过一架。
+[k]
+
+＠怖军
+估计是因为现在的我[line 3]是以厨师身份[r]出仕毗罗吒王宫那种心境时的我吧。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 1]
+[wt 1.3]
+
+
+[charaFace B 14]
+＠难敌
+哈哈……哈哈哈。
+[k]
+
+＠难敌
+这样啊，不记得了啊。
+[k]
+
+＠难敌
+哈[messageShake 0.02 2 2 0.3]哈哈，[wt 0.6][messageShake 0.05 4 3 0.4]哈哈哈哈！[r]这算什么，这算什么！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+＠
+[line 3]太狡猾了。
+[k]
+
+＠
+[#Alterego:他人格]的你，[r]不仅依然拥有自己渴望得到的东西，
+[k]
+
+＠
+最后还要将自己所仰仗的正当理由，[r]都贬得毫无价值吗？
+[k]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+＠难敌
+呵……哈哈哈……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+＠怖军
+……喂？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠难敌
+不，没什么，没什么啦。[r]其实事到如今，这都无关紧要了。
+[k]
+
+[charaFace B 5]
+＠难敌
+只是本老爷[line 3]更加，[r]不能输给[#现在的你]了。
+[k]
+
+＠难敌
+就是这么一回事！
+[k]
+
+[messageOff]
+[se ad678]
+[blur motion 0.25 4 200 0.5 0.6 0.05 400]
+[charaMoveScale B 1.1 0.25]
+[charaMove B 0,15 0.25]
+[charaFadeout B 0.25]
+[wt 0.25]
+[blurOff motion 0.1]
+[wt 0.7]
+
+[fadeout black 1.0]
+[bgmStop BGM_BATTLE_178 1.0]
+[wait fade]
+
+[se ad1048]
+[seVolume ad1048 0 0]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+[wt 1.5]
+
+[seVolume ad1048 1.0 0.3]
+[fadein black 1.0]
+[wait fade]
+[wt 1.2]
+
+[seStop ad1048 1.0]
+[wt 1.0]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaFace C 6]
+＠希翁
+……处理阶段３，完毕。[r]现在总算能腾出一点空余来了。
+[k]
+
+＠希翁
+灵线神经维持连接，[r]这边的处理就交给其中两个思考。
+[k]
+
+＠希翁
+去查看阿愈丝小姐的情况吧。
+[k]
+
+[charaFace C 9]
+＠希翁
+我们依然是同盟关系。[r]只有对方的御主平安无事未免不太公平嘛。
+[k]
+
+？1：说得对。
+？2：希望她没什么大碍。
+？！
+
+[messageOff]
+[wipeout rightToLeft 0.8 1.0]
+[bgm BGM_EVENT_70 0.8 0.5]
+[wait wipe]
+
+[charaFadeout C 0.1]
+
+[charaTalk off]
+[charaDepth D 2]
+[charaDepth C 3]
+
+[charaFace D 5]
+[charaFadein D 0.1 165,-30]
+[wt 0.8]
+
+[bgm BGM_EVENT_70 0.8 0.5]
+[wipein leftToRight 0.8 1.0]
+[wait wipe]
+
+[se ad60]
+[charaFace C 6]
+[charaFadein C 0.4 -215,0]
+[charaMove C -165,0 0.4]
+[wt 0.4]
+[seStop ad60 0.4]
+[wt 0.6]
+
+[se ad661]
+[charaFace C 10]
+[charaMove C -165,-30 0.6]
+[wt 0.2]
+[seStop ad661 0.6]
+[wt 1.4]
+
+[charaTalk on]
+[charaFace C 8]
+＠希翁
+看来她相当蛮干呢。[r]险些损坏，即将剥离。
+[k]
+
+＠希翁
+真亏她还没停止运转维持到现在呢。
+[k]
+
+＠阿愈丝
+嗯……唔……？
+[k]
+
+[messageOff]
+[charaFaceFade D 3 0.6]
+[wt 1.6]
+
+[charaFace C 2]
+＠希翁
+醒了吗？　别乱动。[r]由于强行连接，你内外都已残破不堪了。
+[k]
+
+[charaFace D 4]
+＠阿愈丝
+他，呢……？
+[k]
+
+[charaFace C 6]
+＠希翁
+你问[#Berserker:狂战士]吗？[r]他还在战斗。
+[k]
+
+＠希翁
+战况嘛……
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[bgm BGM_EVENT_70 0.6 0.5]
+[wait wipe]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[sceneSet J 10000 1]
+[charaScale J 2.0]
+[sceneSet K 10000 1]
+[charaScale K 2.0]
+
+[scene 10000]
+[wt 0.2]
+
+[wipein rectangleStripRightToLeft 0.2 1.0]
+[wait wipe]
+
+[se ad1048]
+[effect bit_talk_kengekiall03_fs]
+[wt 0.5]
+[se ad1032]
+[wt 0.5]
+[effect bit_talk_kengekiall03_fs 0,0 H]
+[wt 0.5]
+[se ad1014]
+[wt 0.5]
+
+[seStop ad1048 0.6]
+[cueSe Servants_305300 m42705]
+[wt 0.2]
+[fowardEffect bit_talk_gram_slash_04_fs 0,-50]
+[wt 0.2]
+
+[subCameraOn 4]
+[charaLayer Q sub #A]
+[charaLayer A sub #A]
+[charaLayer L sub #A]
+[charaLayer G sub #C]
+[charaLayer N sub #C]
+[charaLayer I sub #D]
+[charaLayer O sub #D]
+[charaLayer J sub #B]
+[charaLayer K sub #B]
+
+[subCameraFilter #B through]
+[subCameraFilter #A maskEdge cut359_mask15 4 0,0,0,255]
+[subCameraFilter #C maskEdge cut359_mask05 5 0,0,0,255]
+[subCameraFilter #D maskEdge cut359_mask05 5 0,0,0,255]
+
+[subRenderDepth #B 5]
+[subRenderDepth #A 2]
+[subRenderDepth #C 3]
+[subRenderDepth #D 4]
+
+[charaFadein J 0.1 0,-1243]
+[charaFadein K 0.1 0,1241]
+[wt 0.5]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth M 1]
+[charaDepth N 1]
+[charaDepth O 1]
+[charaDepth A 2]
+[charaDepth B 2]
+[charaDepth G 2]
+[charaDepth I 2]
+[charaDepth Q 7]
+[charaDepth R 7]
+[charaDepth J 9]
+[charaDepth K 9]
+
+[subRenderFadein #B 0 0,0]
+[overlayFadein V 0 0,-781]
+[overlayFadein W 0 0,782]
+
+[charaScale A 1.2]
+[charaScale L 1.2]
+[charaFace A 13]
+[charaFadeinFSL A 0.1 75,200]
+[charaFadein L 0.1 250,-75]
+
+[cueSeStop m42705 0.3]
+[cueSe Servants_305300 m52404]
+[cueSe Servants_305300 m52420]
+[subRenderFadein #A 0.1 -212,-250]
+[charaScale B 1.1]
+[charaScale M 1.2]
+[charaFace B 18]
+[charaFadeinFSR B 0.1 135,-70]
+[charaFadein M 0.1 -130,-220]
+
+
+[charaShake A 0.02 2 2 0.8]
+[charaShake B 0.02 3 4 0.8]
+[charaMoveFSL A -75,200 0.4]
+[charaMoveFSR B 285,-70 0.4]
+[charaEffectEdgeBlur G 481A82 481A82 4 1.5]
+[wt 0.6]
+[cueSeStop m52404 0.4]
+[cueSeStop m52420 0.4]
+[wt 0.9]
+[fowardEffectDestroy bit_talk_gram_slash_04_fs]
+
+
+[charaScale G 1.5]
+[charaScale N 1.4]
+
+[charaFace G 13]
+[charaFadein G 0.1 60,140]
+[charaFadein N 0.1 300,-240]
+
+[charaScale I 1.4]
+[charaScale O 1.4]
+[charaFace I 18]
+[charaFadein I 0.1 -10,120]
+[charaFadein O 0.1 -300,-240]
+
+[cueSe Servants_305300 bac1463]
+[se ad984]
+[subRenderFadeinFSL #C 0.4 -350,-115]
+[subRenderFadeinFSR #D 0.4 350,-115]
+[subRenderMoveFSL #C -350,-215 0.4]
+[subRenderMoveFSR #D 350,-215 0.4]
+
+[charaPut Q 1]
+[charaPut R 1]
+[charaFadeTime Q 0.4 0.8]
+[charaFadeTime R 0.4 0.8]
+[wt 1.8]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[subRenderFadeout #C 0.1]
+[subRenderFadeout #D 0.1]
+
+[charaFadeout Q 0.1]
+[charaFadeout R 0.1]
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[charaFadeout B 0.1]
+[charaFadeout I 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaFadeout O 0.1]
+[charaEffectEdgeBlurStop G]
+[charaPut G 2000,2500]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer Q normal]
+[charaLayer R normal]
+[charaLayer A normal]
+[charaLayer G normal]
+[charaLayer B normal]
+[charaLayer I normal]
+[charaLayer L normal]
+[charaLayer M normal]
+[charaLayer N normal]
+[charaLayer O normal]
+[charaScale A 1.0]
+[charaScale G 1.0]
+[charaScale B 1.0]
+[charaScale I 1.0]
+[charaScale L 1.0]
+[charaScale M 1.0]
+[charaScale N 1.0]
+[charaScale O 1.0]
+
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout V 0.1]
+[charaFadeout W 0.1]
+
+
+[scene 189603]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 1]
+[charaFace D 3]
+[charaFadein C 0.1 -165,-30]
+[charaFadein D 0.1 165,-30]
+[wt 0.5]
+
+[bgm BGM_EVENT_70 0.6 1.0]
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+[wt 0.1]
+
+＠希翁
+很遗憾，看起来并不乐观。
+[k]
+
+＠阿愈丝
+我……想起来了，我知道了。
+[k]
+
+＠阿愈丝
+我，想要得到家人，[r]想要见到家人，一直在寻找家人。
+[k]
+
+[charaFace D 9]
+＠阿愈丝
+[#正因为我知道]，[#失去家人是非常悲伤的]，[r][#所以才不希望悲剧在这里重演]……！
+[k]
+
+[charaFace C 0]
+＠希翁
+阿愈丝小姐……？
+[k]
+
+[charaFace C 4]
+＠希翁
+难道是因为ＡＩ部分的功能降低，[r]令[#Alterego:他人格]的人格部分有了自觉……？
+[k]
+
+[charaFace D 3]
+＠阿愈丝
+没错……是的。
+[k]
+
+＠阿愈丝
+我知道了，我，我一直在寻找的家人，[r][#就是那个人]。
+[k]
+
+[bgmStop BGM_EVENT_70 1.5]
+
+＠拉妮－ⅩⅡ
+你说得没错。
+[k]
+
+？1：拉妮！？
+？！
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[wt 0.4]
+
+[se ad60]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+[wt 0.4]
+[seStop ad60 0.4]
+[wt 1.0]
+
+[bgm BGM_EVENT_141 0.1]
+
+＠拉妮－ⅩⅡ
+不必担心，我的功能部分仍在那里接受改建工程。
+[k]
+
+[messageOff]
+
+[subCameraOn 1]
+[charaLayer F sub #A]
+[charaLayer L sub #A]
+[subCameraFilter #A maskEdge cut359_mask10 4 0,0,0,255]
+
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth F 2]
+
+[charaScale F 1.2]
+[charaScale L 1.2]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 -10,200]
+[charaFadein L 0.1 250,0]
+
+[subRenderFadeinFSL #A 0.6 -450,-250]
+[subRenderMoveFSL #A -350,-250 0.6]
+[wt 1.8]
+
+[subRenderFadeout #A 0.6]
+[subRenderMoveFSL #A -450,-250 0.6]
+[wt 0.6]
+
+[charaFadeout F 0.1]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer F normal]
+[charaLayer L normal]
+[charaScale F 1.0]
+[charaScale L 1.0]
+[wt 0.3]
+
+[charaFace E 0]
+＠拉妮－ⅩⅡ
+这纯粹是切分出了对话界面，[r]类似于立体影像的东西。
+[k]
+
+＠拉妮－ⅩⅡ
+只是徒有其表，内在空空如也，[r]并没有任何执行权限。
+[k]
+
+[charaFace E 1]
+＠拉妮－ⅩⅡ
+……我要对你允许输出影像表示感谢。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+＠希翁
+毕竟要压下请求也得耗费劳力嘛。
+[k]
+
+＠希翁
+就好比把妨碍操作的聊天窗口[r]拉到屏幕外面，是合理的判断。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠拉妮－ⅩⅡ
+多谢。
+[k]
+
+[charaFace E 0]
+＠拉妮－ⅩⅡ
+然后言归正传，你在[#Alterego:他人格]御主中，[r]也是为实验性而特别准备的。
+[k]
+
+＠拉妮－ⅩⅡ
+Alterego Isolated[line 3]『孤立』型御主。[r]意思是……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠阿愈丝
+是从[#Alterego:他人格]从者中进一步[r]剥离出来的……『碎片』吧？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠拉妮－ⅩⅡ
+肯定。因为[#Berserker:狂战士]拥有略微特殊的灵基。
+[k]
+
+[charaFace E 0]
+＠拉妮－ⅩⅡ
+他的灵基中，[r]本质上包含了他的兄弟们。
+[k]
+
+＠拉妮－ⅩⅡ
+也许是因为他们分离自同一块肉团[r]这种来历吧。
+[k]
+
+？1：什么意思？
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_141 1.5]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth E 1]
+[charaDepth L 2]
+[charaDepth D 3]
+
+[charaScale L 1.4]
+[charaFadein L 1.0 -200,-350]
+[charaMove L -250,-350 1.0]
+[wt 1.0]
+
+[charaFadeout E 0.1]
+[wt 0.5]
+
+[charaScale D 1.4]
+[charaFace D 3]
+[charaFadein D 0.7 0,20]
+[wt 1.3]
+
+＠阿愈丝
+我……除阿愈丝以外，[r]作为[#Alterego:他人格]被赋予的人格原型的名字是……
+[k]
+
+[charaFace D 4]
+
+＠阿愈丝
+[#杜沙罗]。
+[k]
+
+[charaFace D 5]
+＠阿愈丝
+将一块肉团分成百份从而诞生的持国百子……[r]其中最后诞生的第一百零一位，[#唯一的妹妹]。
+[k]
+
+[charaFace D 5]
+＠阿愈丝
+这就是我的人格哦[line 3]
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

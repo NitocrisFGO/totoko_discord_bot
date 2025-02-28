@@ -1,0 +1,1145 @@
+
+
+＄03-00-13-06-5-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253800 1 斗士瓦克昌]
+[charaSet B 1098257900 1 玛修]
+[charaSet C 1098253200 1 U－奥尔加玛丽]
+[charaSet D 1098253300 1 神官乌库伯]
+[charaSet E 1098257500 1 拉斯普京]
+[charaSet F 1098252600 1 恐龙王（剪影）]
+[charaSet G 1098253600 1 恐龙王]
+[imageSet H back10000 1 1]
+[charaScale H 1.3]
+[charaSet K 1098252900 1 特佩乌]
+[charaSet L 1098254800 1 尼莫水兵]
+[imageSet M back10001 1 1]
+[charaScale M 1.3]
+[charaSet N 1098253310 1 神官乌库伯（B）]
+[sceneSet O 169901 1]
+[sceneSet P 169901 1]
+[imageSet Q cut399_skull 1]
+[charaSet R 1098252940 1 特佩乌_B]
+
+[scene 10000]
+
+[bgm BGM_EVENT_80 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad1051]
+[effect bit_talk_claw_red02 0,0 H]
+[wt 0.3]
+
+[se ad85]
+[cueSe Servants_9942360 bac1702]
+[cueSeVolume bac1702 0 0.5]
+[fowardEffect bit_talk_h_slash01_fs]
+[wt 0.45]
+
+[cueSe Servants_9942360 bac1702]
+[se ad633]
+[cueSe Servants_800101 bac690]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+
+[scene 169901]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth B 3]
+[charaDepth A 2]
+[charaDepth C 2]
+[charaDepth N 2]
+[charaDepth D 2]
+[charaDepth E 2]
+[charaScale A 1.2]
+[charaScale B 0.95]
+
+[se ad671]
+[charaFace A 2]
+[charaFadein A 0 1]
+
+[seStop ad671 0.6]
+[charaMove A 0,30 0.3]
+[charaMoveScale A 1.15 0.3]
+[charaShake A 0.02 4 3 0.6]
+[wt 0.3]
+[cueSeStop bac1702 0.5]
+[seStop ad633 0.5]
+[wt 0.4]
+
+[charaTalk on]
+
+[se ade266]
+＠斗士瓦克昌
+[i npc_language_34][line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 0.2]
+[wt 0.2]
+
+[charaPut B 1]
+[charaTalk B]
+[charaFace B 28]
+
+[se ad223]
+[charaEffect B bit_talk_quickmove]
+[charaSpecialEffect B appearance 1 0.3]
+[wt 0.3]
+
+＠玛修
+唔，斗士职迪诺斯，未发现变化！[r]都已经如此战斗了，对其造成的损伤依然轻微！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaScale B 1.0]
+
+[charaTalk C]
+[charaFace C 19]
+[charaFadein C 0.1 1]
+＠U－奥尔加玛丽
+是迪诺斯中的英雄吧！[r]生体波动比其他迪诺斯强！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk N]
+[charaFace N 0]
+[charaFadein N 0.1 1]
+＠N：神官乌库伯
+没错，斗士瓦克昌正是[r]米克特兰最强的迪诺斯！
+[k]
+
+＠N：神官乌库伯
+你们的枪械对瓦克昌丝毫不起作用！[r]来，动手吧，张大嘴巴！　允许你食肉！
+[k]
+
+＠N：神官乌库伯
+咬碎那群奥塞洛特尔的身躯，[r]将他们的首级献给恐龙王！
+[k]
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_80 1.5]
+
+[se ade215]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 0,70]
+＠斗士瓦克昌
+[i npc_language_34][line 3][r][i npc_language_33][line 3][wt 1.2][charaFaceFade A 0 0.2]…………你是不是傻？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk N]
+[charaFace N 1]
+[charaFadein N 0.1 1]
+[wt 1.0]
+
+[charaSet B 1098257910 1 玛修]
+
+＠N：神官乌库伯
+斗士瓦克昌？
+[k]
+
+？1：（斗志消退了……？）
+？2：（突然丧失了干劲？）
+
+？！
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 0,70]
+＠斗士瓦克昌
+拒绝食肉不是天经地义的吗？[r]既残忍又难吃还没法消化，对谁都没好处。
+[k]
+
+＠斗士瓦克昌
+更何况我本来就不想当斗士职了。[r]什么世界啊、太阳的教诲啊，太复杂了。
+[k]
+
+[charaFace A 1]
+＠斗士瓦克昌
+比起这些，我更希望哪天在米克特兰邂逅[r]最漂亮的美女，拉近关系，喜结连理，
+[k]
+
+＠斗士瓦克昌
+还希望她能比我更长寿。[r]所谓的强大，就该为这些事而存在吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk N]
+[charaFace N 1]
+[charaFadein N 0.1 1]
+＠N：神官乌库伯
+别在那胡说八道了，这可是在恐龙王御前！[r]不[line 3]不对！
+[k]
+
+[charaFace N 0]
+＠N：神官乌库伯
+哪怕拥有天生巨力，就算王能原谅[r]这等胡言，我也不会原谅！
+[k]
+
+＠N：神官乌库伯
+如果不想被剥夺斗士职，就乖乖听我的！[r]哪怕只有一只，奥塞洛特尔都必须尽速歼灭！
+[k]
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,70]
+＠A：瓦克昌
+我不是说了我不当斗士了嘛。[r]就在刚才，我总算邂逅了命运。
+[k]
+
+[messageOff]
+[se ad642]
+[charaMove A -50,70 0.6]
+[charaFadeout A 0.6]
+
+[wt 1.0]
+
+[charaSet C 1098253210 1 U－奥尔加玛丽]
+
+[charaTalk off]
+[charaDepth O 1]
+[charaDepth C 2]
+[charaDepth A 3]
+
+[charaScale C 1.15]
+[charaScale A 1.5]
+[charaScale O 1.3]
+
+[charaFadein O 0.4 100,-270]
+
+[charaMove O 150,-270 1.4]
+[wt 0.9]
+
+[charaFace C 20]
+[charaFadeinFSL C 0.5 -370,80]
+[charaMoveFSL C -350,80 0.5]
+[wt 0.5]
+[seStop ad642 1.0]
+[wt 0.5]
+
+[se ade215]
+[seVolume ade215 0 0.5]
+[charaFace A 0]
+[charaFadein A 1.0 520,150]
+[charaMove A 520,100 1.0]
+[wt 1.8]
+
+[charaFace C 2]
+
+[charaTalk on]
+＠U－奥尔加玛丽
+[FFFFFF]？[-]　你干什么。[r]手里拿的是……花？　是毒草吗？
+[k]
+
+[charaFace A 6]
+＠A：瓦克昌
+初次见面，莫名噼里啪啦的小姐啊！[r]自从挨了您的电击，我就下定决心了！
+[k]
+
+[bgmStop BGM_EVENT_81 1.5]
+
+＠A：瓦克昌
+你那对角真是霹雳无敌帅啊！[r]等这场战斗结束后，您愿意跟我结婚吗[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[charaFadeout C 0.4]
+[charaFadeout O 0.4]
+[wt 0.6]
+
+[charaTalk off]
+[charaDepth B 2]
+[charaDepth E 3]
+
+[charaFace B 5]
+[charaFace E 9]
+[charaFadeinFSR B 0.1 2]
+[charaFadeinFSL E 0.1 0]
+[wt 1.4]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 20]
+[charaFace A 0]
+[charaFadein O 0.4 100,-270]
+[charaFadeinFSL C 0.4 -350,80]
+[charaFadein A 0.4 520,100]
+[wt 0.5]
+
+＠U－奥尔加玛丽
+[FFFFFF]？[-]
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk A]
+＠A：瓦克昌
+不是什么『？』啦。[r]结婚。懂吗？　我，和你，结为夫妻。
+[k]
+
+[charaFace C 24]
+＠U－奥尔加玛丽
+啊，原来如此。[r]太空垃圾？
+[k]
+
+[charaFace A 4]
+＠A：瓦克昌
+不对啦，我是瓦克昌！[r]帅气归帅气，脑子却不好使吗！？
+[k]
+
+[charaFace C 25]
+＠U－奥尔加玛丽
+啊！！！？
+[k]
+
+[messageOff]
+[charaFadeout C 0.4]
+[charaFadeout A 0.4]
+[charaFadeout O 0.4]
+[wt 0.5]
+
+[charaSet C 1098253200 1 U－奥尔加玛丽]
+
+[charaScale C 1.0]
+[charaScale A 1.0]
+
+[charaTalk N]
+[charaFace N 1]
+[charaFadein N 0.1 1]
+＠N：神官乌库伯
+开什么玩笑，迪诺斯竟向奥塞洛特尔求婚！[r]可恶，你被枪械毒疯了吗，瓦克昌！
+[k]
+
+[charaFace N 0]
+＠N：神官乌库伯
+招集其他斗士，全都叫上！[r]将这群暴徒全都视作敌害施以处罚！
+[k]
+
+＠F：恐龙王
+[line 3]哈。
+[k]
+
+＠F：恐龙王
+哈[messageShake 0.05 4 3 0.5]哈！　哈哈哈哈哈哈哈哈哈哈哈！[r]这算什么，太有意思了！
+[k]
+
+＠F：恐龙王
+没想到迪诺斯也会坠入爱河！[r]这也算是所谓的文化侵略吗？
+[k]
+
+＠F：恐龙王
+竟然会迷上来自外部的访客，[r]正可谓是魁札尔·科亚特尔再世！
+[k]
+
+＠F：恐龙王
+这叫人怎么待得下去，看来也该从神轿里出来了吧！[r]我还没衰老到会错过这历史性的一刻！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[subCameraOn 1]
+
+[charaLayer F sub #A]
+[charaLayer G sub #A]
+[charaLayer P sub #A]
+[charaLayer M sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask07 3 255,255,255,255 0]
+
+[charaScale F 1.0]
+[charaScale G 1.2]
+[charaScale P 1.4]
+
+[charaTalk off]
+[charaDepth P 2]
+[charaDepth F 3]
+[charaDepth G 4]
+[charaDepth M 5]
+
+[charaFace F 0]
+[charaFadein F 0.1 -50,175]
+[charaFadein P 0.1 0,-220]
+[charaPut M 1]
+[charaFadeTime M 0.1 0.3]
+
+[subRenderFadein #A 0.6 0,-200]
+[wt 1.3]
+
+[se ad661]
+[wt 0.3]
+[charaFadeout F 0.8]
+[charaFadeout M 0.8]
+[wt 0.3]
+
+[charaFace G 0]
+[charaFadein G 0.8 0,225]
+[wt 1.6]
+
+[bgm BGM_EVENT_79 0.1]
+
+[charaTalk on]
+[charaFaceFade G 7 0.2]
+＠恐龙王
+肃静！　不需要招集斗士！[r]这些人并非奥塞洛特尔！
+[k]
+
+＠恐龙王
+而是乘着『空中飞岩』前来的，[r]名为人类的生物！
+[k]
+
+[cueSe SE_21 21_ade643]
+[cueSeVolume 21_ade643 0 0]
+[se ad877]
+[seVolume ad877 0 0]
+＠恐龙王
+只是多少有点小[#聪明:狡猾]的生物，[r]危害不了迪诺斯！
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+[cueSeVolume 21_ade643 0.5 0.2]
+[seVolume ad877 0.5 0.2]
+[wt 1.5]
+
+＠观众席上的迪诺斯们
+是吗？　是吗？　是吗？
+[k]
+
+＠观众席上的迪诺斯们
+或许吧？　或许吧？　或许吧？
+[k]
+
+＠观众席上的迪诺斯们
+也是。也是。也是。[r]既然我等的王都这样说了，那肯定没错。
+[k]
+
+[messageOff]
+[cueSeStop 21_ade643 1.0]
+[seStop ad877 1.0]
+[wt 1.4]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 28]
+[charaFadein B 0.1 1]
+＠玛修
+一，一下就恢复平静了。[r]观众席上的各位好像都冷静下来了。
+[k]
+
+＠玛修
+多亏如此，我们应该[r]不会被当作奥塞洛特尔攻击了……
+[k]
+
+＠玛修
+但恐龙王竟是人类，小孩[line 3]？[r]不对，而且那位就是在密林里遇到过的[line 3]
+[k]
+
+？1：（这是怎么回事……？）
+？2：（迪诺斯之王，是人类……？）
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[subRenderFadein #A 0.2 0,-200]
+＠恐龙王
+唔？[r]哦，是昨天在密林里碰见的那两个家伙吧。
+[k]
+
+＠恐龙王
+我就觉得以奥塞洛特尔而言怪怪的，[r]原来是这样，你们就是迦勒底啊。
+[k]
+
+＠恐龙王
+既然如此，你们想穿越大平原的原因只有一个。[r]想前往『空中飞岩』的坠落地点吧？
+[k]
+
+[charaFaceFade G 2 0.2]
+＠恐龙王
+……也罢，这点小事我就允许吧。
+[k]
+
+＠恐龙王
+去救同伴是很正当的原因。[r]我性情还没有卑劣到要因此怪罪你们。
+[k]
+
+＠恐龙王
+而且你们也让我见识到了有趣的东西。[r]变装这件事就这么一笔勾销吧。
+[k]
+
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+[charaTalk N]
+[charaFace N 1]
+[charaFadein N 0.1 1]
+＠N：神官乌库伯
+恐，恐龙王！[r]这是否太过轻虑浅谋了！？
+[k]
+
+[charaFace N 0]
+＠N：神官乌库伯
+更何况玷污了天空坠落下来的『空中飞岩』[r]乃是不祥、不逊的象征！
+[k]
+
+＠N：神官乌库伯
+他们的同伴肯定是恶徒！
+[k]
+
+＠N：神官乌库伯
+就此放过他们绝非守护[r]米克特兰的王该有的行径！
+[k]
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[subRenderFadein #A 0.2 0,-200]
+＠恐龙王
+[line 3]也是。[r]我也理解你的主张，乌库伯。
+[k]
+
+＠恐龙王
+归根结底，放过泛人类史的家伙[r]就意味着米克特兰的终结。
+[k]
+
+[charaFaceFade G 3 0.2]
+＠恐龙王
+老实说，只要在此杀掉你们，万事都能落得轻松。[r]虽说能落得轻松……
+[k]
+
+[charaFaceFade G 5 0.2]
+＠恐龙王
+喂，你。[r][%1]。
+[k]
+
+＠恐龙王
+你身上带着那个吧。[r]把放在口袋里的东西拿出来。
+[k]
+
+？1：口袋……？
+？2：这么说来……好像是有什么……
+
+？！
+
+[messageOff]
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+
+[charaDepth H 4]
+[charaDepth Q 5]
+
+[charaPut H 1]
+[charaFadeTime H 0.4 0.5]
+[charaTalk Q]
+[charaFace Q 0]
+[charaFadein Q 0.4 0,-200]
+[wt 0.05]
+[se ade353]
+[wt 0.3]
+[seStop ade353 0.2]
+[wt 1.4]
+
+[charaFadeout Q 0.4]
+[charaFadeout H 0.4]
+[wt 0.6]
+
+
+[charaTalk G]
+[charaFace G 2]
+[subRenderFadein #A 0.2 0,-200]
+＠恐龙王
+我就知道，果然是在试炼的过程中。[r]利用时间的方式就像那家伙的风格，真是的，麻烦死了。
+[k]
+
+[charaFaceFade G 0 0.2]
+＠恐龙王
+认清自己的身份，乌库伯。就算撇开蹴球，那家伙也是我客人。[r]这并非你所能置喙之事。
+[k]
+
+[charaFaceFade G 6 0.2]
+＠恐龙王
+还是说你打算反抗我？[r]可以哦，反正我也是最近才当上迪诺斯之王的。
+[k]
+
+＠恐龙王
+如果想让奇琴伊察重回神官手上，[r]随时都可以来取我首级。
+[k]
+
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠神官乌库伯
+岂……岂敢……[r]毕竟恐龙王正是被『[#太阳的教诲:库库尔坎]』选中之人……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[subRenderFadein #A 0.2 0,-200]
+＠恐龙王
+是吧？那就给我退下。[r]记得处理好祭祀的善后工作。
+[k]
+
+[charaFaceFade G 0 0.2]
+＠恐龙王
+换个地方吧，[%1]。[r]在这里会被迪诺斯们听到。
+[k]
+
+＠恐龙王
+并非作为迪诺斯之王，我会[#以异闻带之王的身份][r]听一下你们要讲些什么。
+[k]
+
+[messageOff]
+[se ad60]
+[seStop ad60 1.0]
+[charaFadeout G 0.4]
+[wt 1.75]
+
+[se ad60]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 0,225]
+[wt 0.3]
+[seStop ad60 0.1]
+[wt 0.35]
+＠恐龙王
+……对了，我还没自报姓名。[r]只有我知道你们的名字并不公平。
+[k]
+
+[bgmStop BGM_EVENT_79 1.5]
+
+[charaFaceFade G 6 0.2]
+＠恐龙王
+洗耳恭听吧。[r]我名为特斯卡特利波卡，战神特斯卡特利波卡。
+[k]
+
+＠恐龙王
+[#是泛人类史中统治中南美的神明]。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+[charaFadeout G 0.1]
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+[charaFadeout M 0.1]
+
+[subCameraOff]
+
+[charaLayer G normal]
+[charaLayer P normal]
+[charaLayer M normal]
+[charaScale G 1.0]
+[charaScale P 1.0]
+
+[charaSet B 98001000 1 玛修]
+
+
+[scene 169600]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_124 0.1]
+
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+＠玛修
+[line 3]综上所述，决定与恐龙王……[r]特斯卡特利波卡神（自称）进行密谈了。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+[wt 0.3]
+
+[charaMoveReturn C 0,-7 0.45]
+[wt 0.5]
+[charaMoveReturn C 0,-7 0.45]
+[wt 0.95]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 3]
+[charaFadein K 0.1 1]
+＠特佩乌
+你说什么……[r]在我们回来之前竟然发生了这种事……
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 11]
+[charaFadein L 0.1 1]
+＠尼莫水兵
+特斯卡特利波卡不是邪恶的神明吗！？[r]为什么在异闻带当上了迪诺斯之王啊！？
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠拉斯普京
+唔，具体原委还得接下来打听才行，[r]不过我还是先解开一个误会吧。
+[k]
+
+＠拉斯普京
+我以前也说过，[r][#特斯卡特利波卡神并非恶神]。
+[k]
+
+[charaFace E 7]
+＠拉斯普京
+冷酷的战神，潜藏于密林的豹之化身。[r]摘取人类心脏用作活祭的可怖神明。
+[k]
+
+＠拉斯普京
+只是对中南美[#以外]的人们看来，[r]这些行为是『恶』而已。
+[k]
+
+[charaFace E 1]
+＠拉斯普京
+而对于当时的中南美人民来说，[r]这些行为是必要的。
+[k]
+
+＠拉斯普京
+特斯卡特利波卡神被误解为『恶神』的最主要原因，[r]就在于他与魁札尔·科亚特尔神的对立。
+[k]
+
+＠拉斯普京
+既是神，偶尔也会以人类国王的身份统治国家，
+[k]
+
+＠拉斯普京
+让中南美繁荣昌盛的魁札尔·科亚特尔神[r]对人类而言是毋庸置疑的善神。
+[k]
+
+＠拉斯普京
+由于与这位魁札尔·科亚特尔神处于竞争关系，[r]特斯卡特利波卡神才容易被误解为『恶神』……
+[k]
+
+＠拉斯普京
+但其实这两尊神都是『善神』。[r]只不过[line 3]
+[k]
+
+[charaFace E 10]
+＠拉斯普京
+至于神灵的水准是否旗鼓相当，[r]就不是我能说得上来的了。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_124 1.0]
+[charaFadeout E 0.1]
+[wt 0.3]
+
+[se ad60]
+[wt 0.1]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.4 1]
+[wt 0.3]
+[seStop ad60 0.1]
+[wt 0.8]
+
+[bgm BGM_MAP_10 0.1]
+
+＠恐龙王
+让你们久等了。[r]让乌库伯他们那群神官闭嘴费了我不少工夫。
+[k]
+
+[charaFaceFade G 0 0.3]
+＠恐龙王
+好了，既然碍事者都不在了，[r]我就长话短说吧。
+[k]
+
+＠恐龙王
+你们的目的是？[r]来这异闻带做什么？
+[k]
+
+？1：这……
+？2：……………
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+＠玛修
+这……[r]（当着所长的面，应该说到什么程度呢……）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠U－奥尔加玛丽
+[%1][&他们:她们]的目的[r]是切除空想树与找出ORT。
+[k]
+
+＠U－奥尔加玛丽
+这两项行动都是为了守护泛人类史哦。[r]而我则是决定协助[&他们:她们]的外星人。
+[k]
+
+＠U－奥尔加玛丽
+对吧，[%1]？[r]没什么好隐瞒的。
+[k]
+
+？1：果断地说出来了……
+？2：………………
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠恐龙王
+本以为混了个麻烦家伙，原来你是外星人啊。[r]中南美与天外来客还真是有缘。
+[k]
+
+＠恐龙王
+话说你为何要帮[#泛人类史方:迦勒底]。[r]难道是被人抓住把柄了吗？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠U－奥尔加玛丽
+哈！？[r]无礼之徒，我可不存在弱点！
+[k]
+
+[charaFace C 18]
+＠U－奥尔加玛丽
+我是为统治地球而来的，[r]如果地球白纸化，可就[#没意义]了。
+[k]
+
+[charaFace C 1]
+＠U－奥尔加玛丽
+所以我才决定协助[&他们:她们]，仅此而已。
+[k]
+
+＠U－奥尔加玛丽
+什么抓住把柄……[r]这[&男人:女人]怎么可能做得出挟持人质般的事嘛。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠恐龙王
+原来如此。也就是说并非中意迦勒底本身，[r]而是中意迦勒底的目的吧。
+[k]
+
+＠恐龙王
+那就好，只要不是出于什么感情啊、[r]友情啊那种麻烦得要死的原因就好。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 18]
+[charaFadein C 0.1 1]
+[wt 1.2]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠恐龙王
+咏星者特佩乌，这是你第一次见到我吧。[r]隐居在第一层的男人为何又回来了？
+[k]
+
+＠恐龙王
+而且还是跟泛人类史的家伙一起。[r]你听说这些家伙的情况了吗？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠特佩乌
+是的。泛人类史与异闻带，迦勒底与空想树。[r]我仍在力所能及地继续着研究。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠恐龙王
+…………
+[k]
+
+[charaFaceFade G 1 0.3]
+＠恐龙王
+明明知道这些还选择了同行啊。[r]那我也没什么好对你说的了。
+[k]
+
+＠恐龙王
+擅自理解、擅自失望、擅自横死街头。[r]倘若即便如此，你依然身为迪诺斯[line 3]
+[k]
+
+[charaFaceFade G 2 0.3]
+＠恐龙王
+届时，太阳便会获救吧，[r]伴随着无聊的梦。
+[k]
+
+？1：你真的是『异闻带之王』吗？
+
+？！
+
+[charaFaceFade G 3 0.2]
+＠恐龙王
+唔～……[r]唔唔～………………
+[k]
+
+＠恐龙王
+准确地说并不是，我只是『异闻带之王』的代理。
+[k]
+
+＠恐龙王
+『如果不想被杀，[r]　就代替我统治奇琴伊察吧。』
+[k]
+
+＠恐龙王
+一年前，我被这么威胁。[r]反正也没别的事可做，我就答应了。
+[k]
+
+[charaFaceFade G 2 0.2]
+＠恐龙王
+因此，我满脑子只想着守护奇琴伊察。
+[k]
+
+＠恐龙王
+还有，我已确认你们不是专程前来奇琴伊察的了。
+[k]
+
+[charaFaceFade G 5 0.2]
+＠恐龙王
+所以谈话到此结束。[r]你们可以走了，千万别浪费时间哦。
+[k]
+
+？1：哎？
+？2：这就结束了？
+
+？！
+
+＠恐龙王
+结束了啊。[r]难道还有别的事要确认？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠玛修
+[line 3]请，请问！[r]恐龙王是特斯卡特利波卡神吧？
+[k]
+
+＠玛修
+那能否请您协助泛人类史呢？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠恐龙王
+不干。我又不在乎什么泛人类史。[r]谁会傻到去帮助猴子啊。倒不如说[line 3]
+[k]
+
+[charaFaceFade G 9 0.2]
+＠恐龙王
+恐龙不是帅得多吗？[r]好歹是地球最强生物嘛！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠玛修
+您刚才说什么？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠恐龙王
+……少啰嗦。[r]不要对细枝末节的逐一给出反应啦。你是搞笑艺人吗？
+[k]
+
+[charaFaceFade G 1 0.2]
+＠恐龙王
+我都说了，随你们的便。
+[k]
+
+＠恐龙王
+反正无论如何，你们都无法抹除这异闻带。[r]所以也没有与你们为敌的价值。
+[k]
+
+＠恐龙王
+有事要办的话，就赶紧办好赶紧滚出去。[r]就算久留，这里也“什么都”没有。
+[k]
+
+？1：……确实，现在必须抓紧时间回Storm Border才行。
+？2：走吧，玛修、大家。
+
+？！
+
+[charaFaceFade G 0 0.2]
+＠恐龙王
+我会先知会大平原的斗士们。
+[k]
+
+＠恐龙王
+靠你们的双腿应该会花上不少时间，[r]我就派个能充当代步工具的[#带路人:搬运工]跟你们去好了。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk R]
+[charaFace R 6]
+[charaFadein R 0.1 1]
+＠R：特佩乌
+哎呀，您不是不打算协助我们吗？
+[k]
+
+[charaFadeout R 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠恐龙王
+别多想，这是赏赐蹴球优胜者最低限度的报酬。[r]只不过[line 3]
+[k]
+
+[charaFaceFade G 2 0.2]
+＠恐龙王
+你们说那叫Storm Border吧。[r]别太期待能与同伴会合。为时已晚了。
+[k]
+
+＠恐龙王
+你们乘战舰闯入了其他国家。[r]无论出于什么样的理由，这都是战争。
+[k]
+
+[bgmStop BGM_MAP_10 2.0]
+＠恐龙王
+而在战争中，奥塞洛特尔不抓俘虏。[r][#他们杀光闯入领地的所有敌人]。
+[k]
+
+[charaFaceFade G 8 0.2]
+＠恐龙王
+舰艇迫降至今，[r]已经第五天了。
+[k]
+
+＠恐龙王
+我要是奥塞洛特尔，[r]早在第一天就处理干净了吧。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

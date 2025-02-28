@@ -1,0 +1,829 @@
+
+
+
+＄04-00-02-09-2-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098269500 1 莱诺尔]
+[charaSet B 1098269510 1 莱诺尔2]
+[charaSet C 1098269510 1 莱诺尔3]
+[charaSet D 1036001 1 高长恭]
+[charaSet E 1036001 1 高长恭2]
+[charaSet F 1098269900 1 玛奇里]
+
+[sceneSet G 10000 1]
+[charaScale G 1.05]
+[sceneSet H 10000 1]
+[charaScale H 1.05]
+[sceneSet I 190300 1]
+[charaScale I 1.3]
+[sceneSet J 190300 1]
+[charaScale J 1.3]
+[sceneSet K 190300 1]
+[charaScale K 1.3]
+
+[charaSet L 5009000 1 特效用1]
+[charaSet M 5009000 1 特效用2]
+
+[scene 10000]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_38 0.1]
+
+＠
+[677b32][#自己是]，[#什么人]。
+[k]
+
+＠
+名字能说得上来。[r]莱诺尔·古辛。
+[k]
+
+＠
+头衔的话，还有很多。
+[k]
+
+＠
+[#ＡＩ圣杯战争:System Grail War]的参加者、[r][#Rider:骑兵]的御主、[#转运部:Transfer]首席ＡＩ……
+[k]
+
+＠
+啊啊，不对，不对。[r]重要的不是这些。
+[k]
+
+＠
+此身除了作为ＡＩ被编程的使命与行动理念以外，[r]还存在某种巨大的方向性。
+[k]
+
+＠
+甚至可以说，[r]自己的大部分都受其支配。
+[k]
+
+＠
+从深处刺激着自身之物。[r]用虚假的心跳游遍全身，指示我该如何存在的热量。
+[k]
+
+＠
+要是与ＡＩ的使命相冲突，[r]原本也许会感到迷惘、感到踌躇才对，
+[k]
+
+＠
+但不知为何，现在[#前进]的冲动却更胜一筹。
+[k]
+
+＠
+说得简单易懂一点，就是愿望。[r]或是欲望。
+[k]
+
+＠
+恐怕自己这一个体早已习惯[#被切割开存在]了吧。[r]虽然不知道自己是否乐意。
+[k]
+
+＠
+所以才会莫名地以俯瞰的视角审视自己这一个体。
+[k]
+
+＠
+从一开始就被规定好拥有主体方向性的功能体。
+[k]
+
+＠
+正因对自己就是这样的存在有所自觉，[r]才能有意识地，
+[k]
+
+＠
+把自身的欲望套用在该方向上……[r]就是这么一回事。
+[k]
+
+＠
+这种欲望，这种愿望是什么？
+[k]
+
+＠
+肯定是描述自己这一个体的词语。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+＠
+『未来』。
+[k]
+
+＠
+那么，这就是答案。
+[k]
+
+＠
+自己，或许是从某人身上被分离出来的、[r]拥有未来这一方向性而存在的『[line 3]』……
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_38 1.5]
+[wait fade]
+
+[scene 190100]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_MAP_102 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠莱诺尔
+喂喂喂，不会吧。[r]这是怎么回事……？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠高长恭
+……[r]……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠莱诺尔
+哈哈，不错嘛，[#Rider:骑兵]，竟然没有对此提问！[r]毕竟我也还没打算解释哦！
+[k]
+
+[charaFace A 1]
+
+＠莱诺尔
+还是等找到确凿的证据再说吧，[r]届时我会解释到你耳朵长茧子……
+[k]
+
+[charaFace A 9]
+
+＠莱诺尔
+不对，我这样说你反而会恰到好处地提问吧？[r]啊[wt 0.7][charaFace A 5]啊，管他呢！
+[k]
+
+＠莱诺尔
+移动吧，移动！　去下一个地点！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.5 1.0]
+[bgm BGM_MAP_102 0.5 0.5]
+[wait wipe]
+
+[charaFadeout A 0.1]
+
+[scene 189500]
+[wt 0.5]
+
+[wipein rightToLeft 0.5 1.0]
+[bgm BGM_MAP_102 0.5 1.0]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+[wt 1.5]
+[charaFace A 8]
+[wt 1.5]
+
+[messageOff]
+[wipeout leftToRight 0.5 1.0]
+[bgm BGM_MAP_102 0.5 0.5]
+[wait wipe]
+
+[charaFadeout A 0.1]
+
+[scene 190300]
+[wt 0.5]
+
+[wipein rightToLeft 0.5 1.0]
+[bgm BGM_MAP_102 0.5 1.0]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠莱诺尔
+呵呵……哈哈哈哈！　我就知道！[r][#都偏离了]！
+[k]
+
+[charaFace A 9]
+
+＠莱诺尔
+这意味着什么呢？
+[k]
+
+＠莱诺尔
+何况这个世界呈圆形[r]也是有其意义[line 3]
+[k]
+
+＠莱诺尔
+那种物理运动是为了这么做……？
+[k]
+
+[charaFace A 0]
+
+＠莱诺尔
+不，关键在于『未来』。[r]通过反复这样做，让未来发生某种事态吗？
+[k]
+
+[charaFace A 1]
+
+＠莱诺尔
+没错，这一定是必要的。[r]需要这力量……[#离心力]……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠高长恭
+御主，我可以提问了吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+[cameraMove 40.0 0,-40 1.2]
+
+＠莱诺尔
+咯咯，嗯，你可以提问了，时机正好！[r]我知道了，我或许已经知道了！
+[k]
+
+＠莱诺尔
+[#这场圣杯战争究竟会引发什么事态]！
+[k]
+
+＠莱诺尔
+不，说不定，这场圣杯战争[r]本身就是为了这个目的[line 3]
+[k]
+
+[bgmStop BGM_MAP_102 0.1]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaFadein H 0 1]
+[wt 0.1]
+[cameraHome 0.1]
+[charaFadeout A 0.1]
+[wt 1.0]
+[cueSe SE_22 22_ad1169 1.0 0.2]
+[wt 0.4]
+
+＠
+[a1b6df]判断为杂质。[r][a1b6df]执行排除。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[cueSeStop 22_ad1169 0.5]
+[wait fade]
+
+[cueSe Servants_304700 m44116 0 0.7]
+[charaFadeout H 0.1]
+
+[scene 10000]
+[charaFadein I 0.1 -190,-250]
+
+[subCameraOn 3]
+[charaLayer A sub #A]
+[charaLayer J sub #B]
+[charaLayer B sub #B]
+[charaLayer K sub #C]
+[charaLayer E sub #C]
+
+[subCameraFilter #A through]
+[subCameraFilter #B maskEdge cut359_mask02 4 255,255,255,255 0]
+[subCameraFilter #C maskEdge cut359_mask13 4 255,255,255,255 0]
+
+[charaDepth J 1]
+[charaDepth K 1]
+[charaDepth B 2]
+[charaDepth E 2]
+
+[charaScale A 1.3]
+[charaTalk A]
+[charaFace A 12]
+[charaFace B 7]
+[charaFace E 2]
+[charaFadein A 0.1 150,0]
+[charaFadein J 0.1 -190,300]
+[charaFadein K 0.1 190,0]
+[charaFadein B 0.1 256,165]
+[charaFadein E 0.1 -256,180]
+[subRenderFadein #A 0.1 0,0]
+[wt 0.1]
+[subBlur #A lens 0.1 2 20 1.0 subBlur]
+[wt 1.5]
+
+[fadein black 0.5]
+[wait fade]
+
+[se ade458]
+[effect bit_talk_rarrow01or 90,0]
+[wt 1.3]
+[cueSe Servants_404700 m48630 0 0.7]
+[flashin once 0.1 0.2 FF000080 FF000080]
+[wt 0.1]
+[effectDestroy bit_talk_rarrow01or]
+[subBlurOff #A lens 0 normal]
+[charaFadeout I 0]
+[charaFadeout A 0]
+[wt 0.3]
+
+[cueSe Servants_2500900 m45505]
+[cueSe SE_21 21_ad1118]
+[effect bit_talk_blood_stay 0,0 H]
+[wt 1.5]
+
+
+[charaTalk B]
+[subRenderFadein #B 0.4 100,-350]
+[subRenderMove #B 0,-350 0.3]
+[wt 0.4]
+
+＠B：莱诺尔
+………………啊？
+[k]
+
+[bgm BGM_MAP_67 0.1]
+[messageOff]
+[subRenderMove #B 0,-410 0.3]
+[charaTalk E]
+[subRenderFadein #C 0.4 -100,-195]
+[subRenderMove #C 0,-195 0.3]
+[wt 0.4]
+
+＠E：高长恭
+呜，御主！！
+[k]
+
+[charaSet A 1098269510 1 莱诺尔]
+
+[messageOff]
+[effectDestroy bit_talk_blood_stay]
+[subRenderFadeout #B 0.4]
+[subRenderFadeout #C 0.4]
+[scene 190300 0.4]
+[wt 0.5]
+[se adm37]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[wt 1.5]
+[subRenderFadeout #A 0.1]
+[charaLayer A normal]
+[charaLayer J normal]
+[charaLayer K normal]
+[charaLayer B normal]
+[charaLayer E normal]
+[subCameraOff]
+
+[bgm BGM_MAP_67 0.5 0.5]
+
+[charaDepth G 1]
+[charaDepth D 2]
+[charaPut G 0,-200]
+[charaFadeTime G 0.2 0.5]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠高长恭
+（[line 3]大意了！　完全没感受到气息。[r]　竟然能隔着如此超远距离发动狙击……！）
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth A 3]
+[charaDepth I 4]
+[charaDepth C 5]
+
+[bgm BGM_MAP_67 0.5 1.0]
+
+[charaScale C 1.2]
+[charaFace C 2]
+[charaFadein I 1.0 0,-150]
+[charaFadein C 1.0 0,90]
+[charaMove I 0,-210 2.5]
+[charaMove C 1 2.5]
+[wt 2.7]
+
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+[charaFace A 2]
+[charaFadein A 0.1 200,-80]
+[charaShake C 0.03 2 2 0.5]
+[se ad161]
+[fowardEffect bit_talk_35]
+[wt 0.4]
+
+＠莱诺尔
+噢……嘎，噗……
+[k]
+
+[messageOff]
+[charaFadeout I 0.5]
+[charaFadeout C 0.5]
+[wt 0.7]
+
+[charaFace D 2]
+[charaFadein D 0.4 0]
+[charaMove D -200,-50 0.4]
+[wt 0.4]
+[charaTalk on]
+[charaTalk D]
+
+＠高长恭
+御主！
+[k]
+
+[charaTalk A]
+
+＠莱诺尔
+[#Ri:骑]，[#der:兵]。敌人，在[line 3]
+[k]
+
+[charaTalk D]
+
+＠高长恭
+没有……进一步追击的迹象和气息了。[r]目的恐怕，就是暗杀御主……
+[k]
+
+[charaTalk A]
+
+＠莱诺尔
+意思是鸟尽弓藏，兔死狗烹吗？
+[k]
+
+[charaTalk D]
+[charaFace D 4]
+
+＠高长恭
+……[r]……
+[k]
+
+[charaTalk A]
+
+＠莱诺尔
+该死，被摆了一道啊。[r]看来，我是察觉到了不利于对方的事啊。
+[k]
+
+＠莱诺尔
+本以为，好不容易观测到了，[r]下一个『未来』……
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+
+＠高长恭
+御主。非常，抱歉。[r]我[line 3]
+[k]
+
+[bgmStop BGM_MAP_67 3.0]
+
+[charaTalk A]
+[charaFace A 10]
+
+＠莱诺尔
+没关系，没关系。该道歉的是我，[r]抱歉没能让你正经战斗过。
+[k]
+
+[charaFace A 3]
+
+＠莱诺尔
+身为武人，你肯定会感到，[r]欲望得不到发泄吧。
+[k]
+
+＠莱诺尔
+如果能给你，更多为未来[r]奋战的机会，就好了……
+[k]
+
+[bgm BGM_EVENT_142 0.1]
+
+[charaTalk D]
+
+＠高长恭
+……不。[r]您对这样的我给与了理解。
+[k]
+
+＠高长恭
+理解了恐怕以扭曲的状态身在此处的我。
+[k]
+
+＠高长恭
+您……把我当作单纯的我来对待，[r]既没把我视为英雄，也没有对我冷眼相待。
+[k]
+
+＠高长恭
+没有将我敬畏成超越我自身的存在。
+[k]
+
+[charaFace D 4]
+
+＠高长恭
+对现在的我而言，这已经[line 3][r]很值得感激了。
+[k]
+
+[charaTalk A]
+[charaFace A 8]
+
+＠莱诺尔
+[line 3]哈。[r]你在害怕那种事吗？
+[k]
+
+＠莱诺尔
+会惧怕你这种谦谦君子的家伙，[r]根本不配为人君啦……
+[k]
+
+[charaTalk D]
+
+＠高长恭
+……[r]……
+[k]
+
+[charaTalk A]
+[charaFace A 9]
+
+＠莱诺尔
+不，其实我也，一样吧。[r]我，只想注视，通往将来之物。
+[k]
+
+＠莱诺尔
+在我看来……无论为此牺牲多少过去或现在，[r]都不成问题。
+[k]
+
+＠莱诺尔
+看来我也是个狗屎御主吧。[r]所以最后……让我垂死挣扎一下吧。
+[k]
+
+[messageOff]
+[cameraMove 1.0 -50,0 1.1]
+[wt 1.0]
+[charaFace A 0]
+
+＠莱诺尔
+[#Rider:骑兵]，把那个[line 3]
+[k]
+
+[bgm BGM_EVENT_142 1.0 0.6]
+[messageOff]
+[charaTalk D]
+[charaFace D 5]
+[cameraMove 1.0 50,0 1.1]
+[wt 2.0]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.5]
+[se ade407]
+[cueSe Servants_305100 bac1642]
+[cueSeVolume bac1642 0 0.7]
+[wt 0.8]
+[se ad852]
+[seVolume ad852 0 0]
+[seVolume ad852 1.0 1.0]
+[effect bit_talk_noble_light]
+[wt 3.0]
+
+[seStop ad852 2.5]
+[effectStop bit_talk_noble_light]
+[wt 3.2]
+
+[bgm BGM_EVENT_142 1.5 1.0]
+
+[cueSe Servants_9942370 bac1570]
+[wt 0.3]
+[cueSeStop bac1570 0.4]
+[wt 0.2]
+[cameraMove 1.0 0,0 1.1]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace A 0]
+[charaFadein D 0.1 -200,-50]
+[charaFadein A 0.1 200,-80]
+
+＠高长恭
+这样就行了吗？
+[k]
+
+[charaTalk A]
+[charaFace A 8]
+
+＠莱诺尔
+嗯，也许只是白费力气，但管他呢。[r]只要这样做有可能改变什么[line 3]我就会做。
+[k]
+
+＠莱诺尔
+这就是，我。
+[k]
+
+[charaFace A 9]
+
+＠莱诺尔
+啊啊……好。差不多到此为止了。
+[k]
+
+＠莱诺尔
+虽然我是没有了，但你说不定还有未来。
+[k]
+
+[charaFace A 10]
+
+＠莱诺尔
+假如我的御主权遭到搁置，[r]说不定会诞生新的御主来替代……
+[k]
+
+＠莱诺尔
+又或者有其他手头阔绰、足以供养两骑从者的御主……[r]你也可以，择主而事吧……
+[k]
+
+[messageOff]
+[charaFadeTime A 1.0 0.8]
+[charaPut L 200,0]
+[charaEffect L bit_talk_06_blue]
+[wt 2.5]
+
+[charaTalk D]
+[charaFace D 4]
+
+＠高长恭
+再见了，御主。
+[k]
+
+＠高长恭
+虽说是您的遗言，但我无意事二君。
+[k]
+
+＠高长恭
+我将细细回味您仅把我[r]当作工具对待的这份幸运，
+[k]
+
+＠高长恭
+在此静候时光流逝直至退去。
+[k]
+
+[bgmStop BGM_EVENT_142 1.2]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaPut L 2000,2000]
+[charaEffectStop L bit_talk_06_blue]
+[cameraHome 1.0]
+[wt 1.2]
+
+＠？？？
+嚯？　想被当作工具对待吗？[r]那真是太幸运了。
+[k]
+
+[bgm BGM_EVENT_126 0.1]
+
+[messageOff]
+[cueSe SE_23 23_ad1289 0 0.5]
+[cueSe SE_23 23_ad1286 0.5 1.0]
+[charaDepth F 1]
+[charaDepth M 2]
+[charaPut M 1]
+[charaEffect M bit_talk_bug_screen_zkn]
+[wt 5.6]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[wt 0.1]
+[cueSeStop 23_ad1289 0.5]
+[seStop 23_ad1286 0.5]
+[cueSe SE_22 22_ad1221]
+[charaEffectStop M bit_talk_bug_screen_zkn]
+[wt 1.0]
+[cueSeStop 22_ad1221 2.0]
+[wt 2.3]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠高长恭
+什么！　你这家伙，是[#Caster:魔术师]的……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠玛奇里
+最后的老夫，最后的一只虫就躲在暗影里，[r]终究还是未被察觉到呢！
+[k]
+
+＠玛奇里
+这条命本已孱弱似一脚就能踩扁的小小飞虫，[r]哈哈哈，真走运！
+[k]
+
+＠玛奇里
+竟然留着令咒没用就死去了！
+[k]
+
+＠玛奇里
+光是御主权还不够，[r]这份礼可真大啊！
+[k]
+
+[charaFace F 1]
+
+＠玛奇里
+然后，以令咒下令！
+[k]
+
+＠玛奇里
+[#Rider:骑兵]啊，接受老夫的虫，作为我[r]玛奇里·佐尔根的新从者，服从于老夫吧！
+[k]
+
+[messageOff]
+[cueSe Battle bas16]
+[effect bit_talk_CommandMantra_mkz]
+[wt 1.6]
+[charaCrossFade F 1098269910 1 0.4]
+[wait charaCrossFade F]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[wt 0.2]
+[cueSe SE_23 23_ad1289 0 0.5]
+[cueSe SE_23 23_ad1286 0.3 1.0]
+[charaPut M 1]
+[charaEffect M bit_talk_bug_screen_rro]
+[wt 0.5]
+[charaShake D 0.02 1 1 5.5]
+[wt 5.5]
+
+＠高长恭
+呜……嘎啊啊啊啊啊！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaPut M 2000,2000]
+[charaEffectStop M bit_talk_bug_screen_rro]
+[cueSeVolume 23_ad1289 0.5 0.3]
+[cueSeVolume 23_ad1286 0.5 0.5]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠玛奇里
+虽不知是哪个从者暗杀的……
+[k]
+
+＠玛奇里
+就因为没有立刻派出猎犬回收，[r]猎物才会像这样遭人抢夺。愚蠢，愚蠢。
+[k]
+
+＠玛奇里
+呼喀……喀喀喀喀喀……！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[cueSeStop 23_ad1289 2.0]
+[cueSeStop 23_ad1286 2.0]
+[bgmStopEnd BGM_EVENT_126 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

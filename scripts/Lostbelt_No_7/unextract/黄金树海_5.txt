@@ -1,0 +1,1435 @@
+
+
+＄03-00-13-02-5-0
+
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 1098254800 1 尼莫水兵]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098252930 1 特佩乌]
+[charaSet D 98001000 1 玛修]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098252700 1 失智迪诺斯]
+[charaSet G 3028000 1 豹人]
+[charaSet H 1098252560 1 奥塞洛特尔1]
+[charaSet I 1098252540 1 奥塞洛特尔2]
+[charaSet J 1098252540 1 奥塞洛特尔3]
+
+[sceneSet K 168900 1]
+[charaScale K 1.2]
+
+[scene 104300]
+
+[fadein black 1.0]
+[wait fade]
+
+
+
+[cueSe SE_21 21_ad1066 1.0 1.0]
+[wt 1.5]
+
+[cueSeStop 21_ad1066 0.5]
+[wt 0.5]
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+呼哇～，累死啦～！[r]这里大概就是目的地的洞窟了吧～！？
+[k]
+
+[charaFace A 3]
+
+＠尼莫水兵
+我其实很习惯步行，[r]但那些手持枪械的人是干嘛啦！
+[k]
+
+＠尼莫水兵
+次数多到我都记不起路上被他们袭击多少次了。[r]他们该不会是异闻带之王的手下吧？
+[k]
+
+＠尼莫水兵
+那样我倒还能接受，[r]毕竟他们认为迦勒底很碍事！
+[k]
+
+？1：这点目前还不清楚。
+？2：要真是这样，就代表迦勒底的存在已经被他们知道了吧。
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+[wt 1.0]
+[charaFace B 14]
+
+＠U－奥尔加玛丽
+话说，我可以问一下吗？[r]你们从刚才起措辞就很奇怪吧？
+[k]
+
+＠U－奥尔加玛丽
+你是[%1]吧，[r]而你则是水兵吧。
+[k]
+
+＠U－奥尔加玛丽
+那迦勒底又是谁？[r]还有其他原生生物吗？
+[k]
+
+？1：抱歉，这件事等我们安顿下来再说吧。
+？2：比起这个……
+
+？！
+
+[messageOff]
+[cueSe SE_21 21_ad1066]
+[cueSeStop 21_ad1066 1.5]
+[wipeout leftToRight 1.0 1.0]
+[bgm BGM_EVENT_147 1.0 0.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[scene 168900]
+[charaFadein K 0.1 -120,-300]
+[wt 1.0]
+
+[charaMove K 0,-300 5.0]
+[wipein rightToLeft 1.0 1.0]
+[bgm BGM_EVENT_147 1.0 1.0]
+[wait wipe]
+
+[wt 2.0]
+
+[charaFadeout K 1.0]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+唔哇！　这里超凉爽！[r]有照明！　还有桌子！
+[k]
+
+[charaFace A 2]
+
+＠尼莫水兵
+这是人类的居住空间吧！[r]而且既文明又和平！
+[k]
+
+＠尼莫水兵
+毕竟压根没有枪嘛！[r]住在这里的肯定是个既温和又善良的人～！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+＠？？？
+哎呀，有新客人了呢。[r]难道是罗玛尼氏提及的来自迦勒底的人吗？
+[k]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+[FFFFFF]？[-]　刚才墙壁上传来了声音？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+＠？？？
+哈哈哈，吓到你们了吧。[r]我现在就解除保护色。
+[k]
+
+＠？？？
+我在思考时喜欢独自待着，然后就会[r]不自觉地与风景同化。真是非常抱歉。
+[k]
+
+[bgmStop BGM_EVENT_147 1.5]
+[se ad596]
+[seStop ad596 1.5]
+[messageOff]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 1.0 1]
+
+[wt 2.5]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+[wt 1.5]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.5]
+
+？1：[line 3]哎！！！
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgm BGM_HALLOWEEN_2021_1 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+是[messageShake 0.05 5 5 0.5]恐龙[line 7]！[r]救[line 3]命[line 3]啊[line 4]！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠怎么看都是恐龙
+哎呀。看来你们还没遇见过[#恐龙人:迪诺斯]呢。
+[k]
+
+＠怎么看都是恐龙
+请冷静一点，来自泛人类史的客人。[r]而这位……是从者吧？
+[k]
+
+＠怎么看都是恐龙
+我是特佩乌，[r]是在这座洞窟过着隐居生活的迪诺斯。
+[k]
+
+＠怎么看都是恐龙
+虽然外貌形象不同，但同为进行环境学习型[r]与记忆累积型知性活动的灵长[line 3]
+[k]
+
+
+＠怎么看都是恐龙
+[#是这个世界中的]『[#人类]』。
+[k]
+
+＠怎么看都是恐龙
+原则上，[r]我们不会吃拥有智慧的生物。
+[k]
+
+＠怎么看都是恐龙
+还有，我们是植食性的。[r]只要有水和阳光，甚至连进食都不需要。
+[k]
+
+＠怎么看都是恐龙
+总之，我不会为了摄取营养这种原因，[r]就把你们往嘴里塞。还请各位放心。
+[k]
+
+＠怎么看都是恐龙
+对了，我给各位准备些饮料吧。[r]毕竟现在的米克特兰正值酷暑，应该需要补充水分吧？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[charaShake A 0.05 2 2 0.0]
+
+＠尼莫水兵
+不，不不，不不不[line 3][r]不不劳您费心了，我们马上就离开……！
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth K 1]
+[charaDepth E 2]
+[charaDepth D 3]
+
+[bgmStop BGM_HALLOWEEN_2021_1 1.5]
+
+[se ad60]
+[seVolume ad60 0 0]
+[seVolume ad60 1.0 1.0]
+[charaScale K 1.1]
+[charaFadein K 1.0 0,-250]
+[charaMove K -60,-250 1.0]
+[wt 1.2]
+[charaFadeout A 0.1]
+[charaShakeStop A]
+
+
+[seStop ad60 0.6]
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.4 -110,0]
+[charaMove E -160,0 0.4]
+[wt 0.4]
+
+＠哈贝特洛特
+喂～！　特佩乌大叔，[r]地下水已经打好啦～！
+[k]
+
+＠哈贝特洛特
+接着要干什么～？[r]是将山上那些奇怪的铜像擦干净吗～？
+[k]
+
+[messageOff]
+[se ad95]
+[seVolume ad95 0 0]
+[seVolume ad95 0.5 1.0]
+[wt 0.8]
+
+[seStop ad95 0.4]
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.4 210,0]
+[charaMove D 160,0 0.4]
+[wt 0.4]
+
+＠玛修
+不是啦，哈贝特洛特小姐，[r]那应该是观测天体的设施。
+[k]
+
+＠玛修
+通过刻有角度的测量仪，[r]将星星的位置准确地[line 3]
+[k]
+
+[bgm BGM_EVENT_116 0.1]
+
+[messageOff]
+[charaFadeout E 0.4]
+[charaMoveScale D 1.1 1.5]
+[charaMoveScale E 1.1 1.5]
+[charaMoveScale K 1.2 1.5]
+[charaMove K -110,-300 1.5]
+[charaMove E -250,-5 1.5]
+[charaMove D 130,-5 1.5]
+[charaFace D 6]
+[wt 2.0]
+
+[charaFaceFade D 19 0.2]
+
+＠玛修
+前[line 3]
+[k]
+
+[charaFace D 16]
+
+＠玛修
+不，我等您很久了，[r]御主[%1]！
+[k]
+
+＠玛修
+虽然通过潜航艇最后的通讯，[r]已得知您平安无事，
+[k]
+
+＠玛修
+但能这么快就会合真是太好了！[wt 1.0][charaFace D 19][r]真是[line 3]真是太好了。
+[k]
+
+？1：抱歉害你担心了。
+？2：我才是，很高兴这么快就能见到玛修。
+
+？！
+
+[bgmStop BGM_EVENT_116 1.5]
+
+[messageOff]
+[charaFadeout K 1.0]
+[charaFadeout D 1.0]
+[wt 1.2]
+[charaScale E 1.0]
+[charaScale D 1.0]
+
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 20]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+那个人类就是所谓的迦勒底吗？[r]总感觉跟印象不太一致呢……
+[k]
+
+[charaFace B 3]
+
+＠U－奥尔加玛丽
+也罢。你好啊，迦勒底。[r]我是U－奥尔加玛丽。
+[k]
+
+＠U－奥尔加玛丽
+是以朋友的身份将[%1][r]带到这里来的亲切外星人哦。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠玛修
+[line 3]哎？[r]咦，奥尔加玛丽所长？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+不是哎－奥尔加玛丽，[r]是U－奥尔加玛丽！
+[k]
+
+[charaFace B 7]
+
+＠U－奥尔加玛丽
+要饱含敬意地称呼全名。
+[k]
+
+＠U－奥尔加玛丽
+可千万别学那俩家伙敷衍了事地省略成[r]U啊、U小姐什么的！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+[charaShake D 0.03 2 2 0.0]
+
+＠玛修
+UU[line 3]UUUUU！？
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_7 1.5]
+[wait fade]
+
+[charaShakeStop D]
+
+[wt 1.0]
+[charaFace D 8]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_77 0.1]
+
+＠玛修
+我冷静下来了……
+[k]
+
+＠玛修
+让大家见笑了，[r]实在是非常抱歉……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠哈贝特洛特
+不是玛修的错啦！[r]这种情况换作是谁都会陷入混乱的！
+[k]
+
+＠哈贝特洛特
+毕竟那家伙可是『异星之
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth A 2]
+[charaDepth D 3]
+
+[charaFace A 11]
+[charaFace D 14]
+
+[charaFadein A 0.3 -250,0]
+[charaFadein D 0.3 250,0]
+[charaMove A -200,0 0.3]
+[charaMove D 200,0 0.3]
+[wt 0.3]
+[se adm69]
+[charaFace E 6]
+[charaShake E 0.03 3 3 0.5]
+[wt 1.0]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaSet D 1098257800 1 玛修]
+[charaDepth D 3]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+异星之什么？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace E 6]
+[charaFace A 11]
+[charaFace D 16]
+[charaFadein E 0.1 1]
+[charaFadein A 0.1 -200,0]
+[charaFadein D 0.1 200,0]
+
+＠玛修
+没，没有，您的情况我都明白了。
+[k]
+
+＠玛修
+记忆障碍……只能回想起名字与目的，[r]是这样吧！
+[k]
+
+＠玛修
+身处这种状态竟然还帮助了前辈与水兵先生，[r]实在是万分感谢！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+没错，要感谢我哦。[r]要是没有我，那俩家伙现在[line 3]
+[k]
+
+[charaFace B 23]
+
+＠U－奥尔加玛丽
+……也不好说呢。[r]总感觉也许还能顽强地苟延残喘……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFace A 11]
+[charaFace D 16]
+[charaFadein E 0.1 1]
+[charaFadein A 0.1 -200,0]
+[charaFadein D 0.1 200,0]
+[charaShake E 0.05 3 3 0]
+
+＠哈贝特洛特
+（唔[line 3]，唔[line 4]！　为什么要捂住咱的嘴啦！[r]　那家伙就是『异星之神』吧！？）
+[k]
+
+[charaShakeStop E]
+[charaTalk D]
+[charaFace D 20]
+
+＠玛修
+（禁止！　暂时禁止说那个词，[r]　哈贝特洛特小姐！）
+[k]
+
+[subCameraOn 1]
+[charaLayer C sub #A]
+[subCameraFilter #A through]
+
+[charaFace C 0]
+[charaFadein C 0.1 250,0]
+
+？1：（不愧是玛修，理解速度飞快！）
+
+[charaTalk A]
+[charaFace A 11]
+
+＠尼莫水兵
+比，比起这些，我更想问问特佩乌～！[r]能告诉我们这个世界的情况吗～？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+？2：还还还是问问特佩乌先生吧！
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+？！
+
+[charaSet D 98001000 1 玛修]
+
+[charaScale B 0.82]
+
+[charaTalk depthOn]
+[charaTalk C]
+[subRenderFadein #A 0.4 0,0]
+[charaMove C 200,0 0.4]
+[wt 0.4]
+
+＠特佩乌
+要我说吗？
+[k]
+
+[messageOff]
+[charaTalk off]
+[subBlur #A lens 0.6 1 5 1.0 subBlur]
+[subCameraMove #A 1.0 55,-20 1.1]
+[cameraMove 1.0 50,-20 1.1]
+[wt 0.8]
+
+[charaFace B 9]
+[charaFadein B 0.3 -256,-80]
+[charaShake B 0.05 2 2 0.4]
+[wt 1.2]
+
+[charaMove B -340,-80 0.6]
+[charaFadeout B 0.4]
+[wt 1.0]
+
+[subBlurOff #A lens 0.6 normal]
+[subCameraHome #A 1.0]
+[cameraHome 1.0]
+[wt 1.2]
+
+[charaTalk on]
+[charaTalk C]
+
+＠特佩乌
+正如各位所见，我已远离城市隐居了起来，[r]因此对时事不是很熟悉……
+[k]
+
+＠特佩乌
+如果各位不嫌弃的话，我很乐意说明，[r]泛人类史的[%1]。
+[k]
+
+＠特佩乌
+我从某个人那里获得了『泛人类史』的知识。[r]听说那是经历了最强大、最正确历史的人类。
+[k]
+
+＠特佩乌
+而且也知道了我们的世界[r]乃是被称作『异闻带』的世界。
+[k]
+
+＠特佩乌
+是本该遭到剪定的，[r]不可能存在的世界。
+[k]
+
+？1：这……
+？2：那迦勒底的事你也知道吗？
+
+？！
+
+[charaFace C 2]
+
+＠特佩乌
+嗯。毕竟那个人就是这么自称的。[r]那是一段非常有意义的对话。
+[k]
+
+＠特佩乌
+泛人类史与异闻带。[r]该留存的历史与该消失的历史。
+[k]
+
+＠特佩乌
+我以自身的角度理解了两者的关系。[r]请容我在此前提下，向各位事先声明。
+[k]
+
+＠特佩乌
+我并不认为你们迦勒底是『外敌』。[r]终究只是将你们当作『客人』来看待。
+[k]
+
+＠特佩乌
+既非威胁我们世界、我们生活的侵略者，[r]也非征服者，
+[k]
+
+＠特佩乌
+我认为，你们是前来完成『自己该履行的任务』，[r]来自不同世界的朋友。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[subRenderFadeout #A 0.1]
+[charaLayer C normal]
+[subCameraOff]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+是，是这样吗？[r]但我们[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+是为消灭这个世界而来的，对吧？[r]请放心，我们迪诺斯对此并无兴趣。
+[k]
+
+＠特佩乌
+在你们的世界也许并非如此，[r]但[#世界]本就是会毁灭的。
+[k]
+
+＠特佩乌
+无论毁灭的主因是什么，我们都毫无兴趣。[r]因此也不会敌视你们。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+这，这样吗……？[r]但世界消失的话，特佩乌也会[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+也会消失吧。[r]可是[#那样并不会导致任何后果]。
+[k]
+
+＠特佩乌
+如果我的消失将导致世界跟着消失，[r]那我自然会抗拒，
+[k]
+
+＠特佩乌
+但幸好并不存在这一层关系。[r]反倒是你们比较令人担心。
+[k]
+
+＠特佩乌
+你们一旦死亡，[r]你们的世界也将跟着消失吧？
+[k]
+
+[charaFace C 2]
+
+＠特佩乌
+跟我们的前提并不一样。[r]我会作为人类声援你们。
+[k]
+
+＠特佩乌
+还请你们今后也要坚强一些。[r]作出无愧于任何人的、自己所相信的选择。
+[k]
+
+？1：[line 6]
+？2：（多么稳重[line 3]）
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaScale B 0.87]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 -256,-55]
+
+＠U－奥尔加玛丽
+人类……人类啊。
+[k]
+
+＠U－奥尔加玛丽
+我内心大致描绘的人类形象，[r]跟你相差甚远呢。
+[k]
+
+＠U－奥尔加玛丽
+你们是叫迪诺斯吧？[r]跟[%1]他们比起来，
+[k]
+
+＠U－奥尔加玛丽
+作为生物看似高级了好几个阶段，[r]但那『声音』却令我无比烦躁啊。
+[k]
+
+＠U－奥尔加玛丽
+频率明明完全不一样，[r]却为什么可以对话呢？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+这是迈雅……这世界本身作出的认知修正。
+[k]
+
+＠特佩乌
+以前曾有过新的文化造访我们的世界。[r]是叫[#隐匿者:Crypter]的人。
+[k]
+
+＠特佩乌
+迈雅分析了他使用的语言与认知基准，[r]调节到彼此能以同样的语义进行对话。
+[k]
+
+[charaFace C 2]
+
+＠特佩乌
+对了，请想象成这整个世界[r]都设有『自动翻译机』好了。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+对哦，确实呢。[r]特佩乌的声带跟我们的声带构造不同嘛。
+[k]
+
+＠尼莫水兵
+那么，那个迈雅是什么？[r]感觉是个很厉害的人呢……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+不，迈雅并不是人。[r]虽然确实是生命……这么说吧……
+[k]
+
+＠特佩乌
+算是你们世界中的『善意』，[r]是为了更好经营世界的『情绪』，
+[k]
+
+＠特佩乌
+是打造了这地底世界[line 3]米克特兰根基的[r]万物的源头与指针。[bgmStop BGM_EVENT_77 1.5]
+[k]
+
+？1：米克特兰？
+？2：地底世界？
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[bgm BGM_EVENT_79 0.1]
+
+＠玛修
+是的，虽然令人难以置信，但这异闻带是于[r]地底展开的辽阔的空洞世界。
+[k]
+
+[branchQuestClear lblClear 2000216]
+
+[branch lblNotClear]
+
+[label lblClear]
+
+＠玛修
+而且并不是雅戈泰那种大地维持水平的构造。
+[k]
+
+[branch lblConf]
+
+[label lblNotClear]
+
+＠玛修
+而且并不是通常重力……[r]不是大地维持水平的构造。
+[k]
+
+[branch lblConf]
+
+[label lblConf]
+
+＠玛修
+这世界是圆柱形的纵坑构造，[r]重力是对四周[line 3]对侧面起作用的。
+[k]
+
+＠玛修
+虽说并不会旋转，[r]但构造近似宇宙殖民地。
+[k]
+
+＠玛修
+不知重力是如何产生的，[r]也不知是如何获得阳光、水分，以及大气供给的。
+[k]
+
+＠玛修
+最令人费解的是[line 3]在肉眼所见范围内，[r]这个世界占据了相当于百万平方公里的空间。
+[k]
+
+＠玛修
+往下方的距离至少也在1000公里以上。[r]这从地质学来说是不可能的。
+[k]
+
+？1：为什么？
+？2：怪了……我记得地球表层的地壳是……
+
+？！
+
+[charaFace D 7]
+
+＠玛修
+是的。截至2018年，[r]人类所能挖掘的最高纪录是12公里。
+[k]
+
+＠玛修
+而且我们人类所生存的大陆地壳最深也就40公里，
+[k]
+
+＠玛修
+再往下就是地幔。[r]换言之，这世界的外侧是[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+岩石与微生物的世界！[r]说不定还喷发着[#熔岩流:岩浆]呢～～！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+嚯。泛人类史的环境与异闻带的环境[r]果然不一样呢。
+[k]
+
+＠特佩乌
+这世界名叫米克特兰，[r]是被分隔成九层的迪诺斯的世界。
+[k]
+
+
+
+＠特佩乌
+只不过，被命名为米克特兰也就是最近的事。
+[k]
+
+＠特佩乌
+这是[#奥塞洛特尔:Ocelotl]们的领袖，[r]伊斯卡利推广的词语。
+[k]
+
+＠特佩乌
+很遗憾，[r]并非源自迪诺斯的称呼。
+[k]
+
+？1：奥塞洛特尔是？
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？2：（好像在哪里听过这词……）
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_EVENT_79 0.5 0.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+
+[cameraFilter gray]
+[scene 107300]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 0.3]
+
+＠豹人
+你好！　请多指教啦！
+[k]
+
+[messageOff]
+[fadeout white 0.5]
+[wait fade]
+
+[charaFadeout G 0.1]
+[cameraFilter normal]
+[scene 168900]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_EVENT_79 0.5 1.0]
+[wait fade]
+
+？！
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠玛修
+是中南美纳瓦特尔语中指代『豹子』的词。
+[k]
+
+＠玛修
+流传于阿兹特克帝国，[r]阿兹特克神话中的『豹头战士』……
+[k]
+
+＠玛修
+也被视为战神特斯卡特利波卡的分身，[r]居住在丛林的可怕精灵……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 -256,-55]
+
+＠U－奥尔加玛丽
+那不就是指那些家伙吗？
+[k]
+
+＠U－奥尔加玛丽
+手持枪械袭击我们的家伙。[r]他们头上戴着豹子面具吧。
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_EVENT_79 0.5 0.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth H 3]
+[charaDepth I 2]
+[charaDepth J 1]
+
+[charaFace H 0]
+[charaFace I 0]
+[charaFace J 0]
+[charaFadein H 0.1 1]
+[charaFadeinFSL I 0.1 -300,0]
+[charaFadeinFSR J 0.1 300,0]
+[scene 169100]
+[effect bit_sepia01_depth_fs]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 2.5]
+
+[fadeout white 0.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[scene 168900]
+[effectDestroy bit_sepia01_depth_fs]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_EVENT_79 0.5 1.0]
+[wait fade]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+原来你们已经碰上了啊。[r]没想到他们已经到这附近了……
+[k]
+
+＠特佩乌
+他们是与[#隐匿者:Crypter]一同现身的种族，
+[k]
+
+＠特佩乌
+并打着战争的名号开始猎杀我们[#人类:迪诺斯]，[r]听说现在正在第五层建造着巨大都市。
+[k]
+
+＠特佩乌
+奥塞洛特尔的领袖伊斯卡利[r]应该是想灭绝[#人类:迪诺斯]吧。
+[k]
+
+＠特佩乌
+他们奥塞洛特尔导致众多迪诺斯丧失了性命。
+[k]
+
+＠特佩乌
+不是被捕捉后遭残害致死，[r]就是中毒丧失理智变得凶暴。
+[k]
+
+＠特佩乌
+无论如何，像我这样生活在野外的迪诺斯[r]已经所剩无几了。
+[k]
+
+[charaFace C 1]
+
+＠特佩乌
+对了，这么说来，[r]奥塞洛特尔跟你们倒是挺像呢。
+[k]
+
+＠特佩乌
+那是叫枪吗？　那个太令人震惊了。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+[wt 1.0]
+
+？1：（与[#隐匿者:Crypter]一同现身……）
+？2：（难道跟我们同样是人类……？）
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+原来那些家伙那么残暴啊……[r]但他们为什么要做这种事呢？
+[k]
+
+＠尼莫水兵
+在米克特兰也会发生争夺领地这种事吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+与其说是争夺领地，倒不如说是收集资源吧。[r]为了收益。
+[k]
+
+＠特佩乌
+他们会撕下我们的肉，加工我们的骨头，[r]拿我们的心脏当宝物流通。
+[k]
+
+＠特佩乌
+迈雅并不认可这种行为，[r]但他们会巧妙地、聪明地瞒过[#律法:迈雅]的耳目。
+[k]
+
+＠特佩乌
+有组织的暴力机构兼流通组织，[r]这就是奥塞洛特尔哦。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+那不就是黑手党嘛！？[r]这边的丛林也好可怕～！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠玛修
+确实……就像走私团伙呢。[r]如果这是真的话[line 3]
+[k]
+
+？1：潜航艇的大家有危险！
+？2：必须赶快与大家会合！
+
+？！
+
+＠玛修
+是的，我们还是尽快与Storm Border会合吧。
+[k]
+
+[charaFace D 8]
+
+＠玛修
+不过……最后一次与潜航艇的通讯是在4小时前。
+[k]
+
+＠玛修
+据希翁小姐所说，舰艇的大部分功能[r]都处于故障状态，恢复通讯还需要几天时间……
+[k]
+
+？1：原来是这样……
+？2：总之他们都平安无事就好。
+
+？！
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth D 2]
+
+[charaMove D 15,0 0.5]
+[charaFadeout D 0.4]
+[cameraMove 0.6 30,0 1.05]
+[wt 0.2]
+
+[charaFace E 5]
+[charaFadein E 0.4 -30,0]
+[wt 0.4]
+[charaShake E 0.05 3 3 0.5]
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk E]
+
+＠哈贝特洛特
+噗哈[line 3]！[r]咱可以讲话了吧！？　可以讲话了对吧！？
+[k]
+
+[charaFace E 3]
+
+＠哈贝特洛特
+既然已经和[%1]以及水兵[r]会合了，就抓紧时间吧！
+[k]
+
+＠哈贝特洛特
+Storm Border是朝着南方坠落的。[r]大概在约300公里外的地方！
+[k]
+
+＠哈贝特洛特
+不知道要花几天时间才能穿过这片树海，[r]咱们不能再浪费时间了。
+[k]
+
+[charaFace E 4]
+
+＠哈贝特洛特
+只有玛修与咱要进丛林太危险了，[r]但有[%1]在就没问题了。
+[k]
+
+＠哈贝特洛特
+就算遭到那些叫什么奥塞洛特尔（？）的袭击，[r]也能召唤从者迎击。
+[k]
+
+＠哈贝特洛特
+事态紧急时还能靠御主提供的魔力[r]发射[#黑色炮身:Black Barrel]吧。
+[k]
+
+？1：关于这件事……
+？2：其实……
+
+？！
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_79 1.5]
+[wait fade]
+
+[cameraHome 0.1]
+[charaFadeout E 0.1]
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+[wt 1.5]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 15]
+[charaFadein E 0.1 1]
+
+＠哈贝特洛特
+你说……无法召唤从者了？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+原来是这样啊……难怪会……
+[k]
+
+＠尼莫水兵
+……我完全没有察觉到……[r]对不起，我是个没用的从者……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 20]
+[charaFadein B 0.1 -256,-55]
+
+＠U－奥尔加玛丽
+[FFFFFF]？？？[-]
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.5]
+
+？1：但这和现在是两码事。
+？2：现在还是出发前往Storm Border吧。
+
+？！
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠特佩乌
+你所说的Storm Border，[r]就是指来自『天壁』的『空中飞岩』吗？
+[k]
+
+＠特佩乌
+那东西坠落到奇琴伊察的另一头去了。
+[k]
+
+＠特佩乌
+从这里过去需要跨越『[#红色冥界:特拉特拉乌基]』。[r]我不推荐初来乍到的你们这样做。
+[k]
+
+[bgmStop BGM_EVENT_70 1.5]
+[messageOff]
+[charaMove C -25,0 0.3]
+[wt 0.5]
+[cueSe SE_21 21_ade689]
+[charaMoveReturn C -25,-10 0.3]
+[charaCrossFade C 1098252910 0 0.5]
+[wt 1.0]
+[charaFadeout C 0.3]
+[wt 0.5]
+
+[charaFadein C 0.3 150,0]
+[charaMove C 180,0 0.3]
+[wt 0.3]
+[se adm41]
+[charaMoveReturn C 180,-10 0.3]
+[charaCrossFade C 1098252900 0 0.5]
+[wt 1.5]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 0,0]
+
+＠玛修
+请问，特佩乌先生您在做什么？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_94 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 -50,0]
+
+＠特佩乌
+我正在打扮。[r]毕竟我已经很久没有外出了。
+[k]
+
+[charaFace C 1]
+
+＠特佩乌
+哪怕阻止你们，你们也一定会去吧？[r]那你们就需要向导了。
+[k]
+
+＠特佩乌
+请容我再次自我介绍。[r]我是特佩乌，[#咏星者:观星者]特佩乌。
+[k]
+
+＠特佩乌
+我想珍惜这份彼此结识的缘分。[r]在这黄金树海米克特兰，就由我为各位带路吧。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_94 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,182 @@
+
+
+＄04-00-02-06-4-1
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098269000 1 ＤＸ]
+[charaSet B 1098269100 1 拉妮－ⅩⅡ]
+
+[sceneSet H 191500 1]
+[charaScale H 1.2]
+
+[sceneSet I 189600 1]
+[charaScale I 1.2]
+[charaSet J 1098269000 1 ＤＸ（演出用）]
+
+
+[charaSet S 98115000 1 特效用dummy]
+
+
+[scene 189600]
+
+[pictureFrame cut063_cinema]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_MAP_59 0.1 0.8]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 0,-50]
+[wt 0.4]
+
+
+＠ＤＸ
+……[r]……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth A 1]
+[charaDepth H 2]
+
+[charaFadein H 1.0 25,-275]
+[charaMove H -25,-275 30.0]
+＠
+[#警防部:Defend]首席ＡＩ边重新确认着自己的使命，[r]边凝望着远处的光景。
+[k]
+
+
+＠
+自己在这里是为完成应尽的使命。
+[k]
+
+＠
+那只敌对个体抵达这里的可能性，[r]并不为零。
+[k]
+
+＠
+流弹飞来的可能性也不为零。
+[k]
+
+[charaFadeout A 0.1]
+＠
+[line 3]若真是那样，该怎么办？
+[k]
+
+＠
+愚蠢的问题。哪怕自己粉身碎骨，[r]也必须守护这里。毕竟自己就是这样的存在。
+[k]
+
+[messageOff]
+[charaFadeout H 0.6]
+[wt 0.7]
+
+
+[se ad91]
+[wt 2.4]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 0,-50]
+[wt 0.4]
+
+＠拉妮－ⅩⅡ
+情况如何？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+＠ＤＸ
+正式交战刚刚开始。[r]敌对个体的进攻暂时停止。
+[k]
+
+＠ＤＸ
+……就算你不特地外出，就算你不询问本机，[r]也能掌握现状吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0,-50]
+＠拉妮－ⅩⅡ
+这是所谓心情的问题。
+[k]
+
+[charaFace B 0]
+＠拉妮－ⅩⅡ
+无论如何，这都会使圣杯战争发生重大转变吧。[r]又或者，说不定这才是好不容易迈出的最初一步。
+[k]
+
+[charaFace B 4]
+＠拉妮－ⅩⅡ
+虽说是虚伪的天空，
+[k]
+
+＠拉妮－ⅩⅡ
+但要看星辰剧变的模样，[r]还是得来外面抬头看才合适。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+＠ＤＸ
+……无法理解。
+[k]
+
+
+[messageOff]
+[charaTalk off]
+[charaDepth A 1]
+[charaDepth I 2]
+[charaDepth J 3]
+[charaDepth B 4]
+
+
+[charaScale J 1.2]
+[charaScale B 1.2]
+
+[charaFace J 0]
+[charaFace B 0]
+[charaFadein J 0.8 300,-50]
+[charaFadein B 0.8 -230,-50]
+[charaFadein I 0.8 30,-225]
+[charaMove J 230,-50 25.0]
+[charaMove B -300,-50 25.0]
+[charaMove I -30,-225 25.0]
+[wt 0.8]
+[charaFadeout A 0.1]
+[wt 0.2]
+
+＠
+至此，她们便不再言语，[r]一心注视着巨大怪物蠢动的身影。
+[k]
+
+＠
+然后[line 3]
+[k]
+
+
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_MAP_59 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

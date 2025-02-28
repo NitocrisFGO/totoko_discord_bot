@@ -1,0 +1,422 @@
+
+＄03-00-10-07-2-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098158310 1 尼莫]
+[charaSet C 1098182210 1 尼莫引擎]
+[charaSet D 1098215110 1 珀西瓦尔]
+[charaSet E 3048001 1 妖精骑士兰斯洛特]
+[charaSet F 1098124510 1 通信用]
+
+[charaSet G 1098215110 1 剪影兰斯洛特]
+[charaFilter G silhouette FFFFFF80]
+
+[imageSet S back10000 1]
+[charaScale S 1.01]
+[imageSet T back10000 1]
+[charaScale T 1.01]
+
+
+[charaPut F 1200,1200]
+[charaEffect F bit_talk_10_LowLevel]
+
+[scene 122600]
+
+[cueSe SE_21 21_ad1097]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.8]
+
+[se ad671]
+[seVolume ad671 0 0.5]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.2 -150,0]
+[charaMove A -50,0 0.3]
+[wt 0.3]
+[charaMove A 0,0 0.3]
+[wt 0.6]
+[charaFace A 2]
+
+[bgm BGM_EVENT_24 0.1]
+
+＠玛修
+敌对龙型生物逃离甲板了！[r]没能彻底打倒它……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut F 1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠尼莫
+不行，决不可放跑它……！[r]现在被它逃掉就没有第二次机会了！
+[k]
+
+＠尼莫
+无论如何都必须给它最后一击……！[r]引擎，提升速度！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠尼莫引擎
+那倒是没问题，但潜航艇会撑不住的！[r]以刚才右舷的暴露部分为源头都出现扭曲啦！
+[k]
+
+＠尼莫引擎
+如果连舰艇的[#龙骨:脊柱]都弯曲可就完蛋啦，[r]船长混蛋！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠尼莫
+该死，怎么会这样！[r]距离拉开了[line 3]都因为我不中用……！
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.6 1]
+[wait wipe]
+[wt 0.4]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut F 1200,1200]
+
+[charaTalk depthOff]
+[charaDepth F 8]
+[charaDepth S 7]
+[charaDepth T 6]
+[charaDepth G 5]
+[charaDepth D 4]
+
+[charaFadein S 0.1 0,725]
+[charaFadein T 0.1 0,-725]
+
+
+[wt 0.4]
+[wipein rectangleStripLeftToRight 0.6 1]
+[wait wipe]
+
+[bgmStop BGM_EVENT_24 2.0]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.4 0,30]
+
+[wt 2.4]
+
+？1：[line 3]不。
+？2：……会决出胜负的。
+
+？！
+
+[wt 0.4]
+[wipeout rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[pictureFrame]
+
+[charaFadeout S 0.1]
+[charaFadeout T 0.1]
+
+[cameraMove 0.1 0,0 1.0]
+[wt 0.4]
+[wipein rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+
+[charaPut F 1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠尼莫
+[FFFFFF]？[-]　但是，已经没有手段[line 2]
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut F 1200,1200]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+[charaFace A 7]
+
+＠玛修
+[line 3]不，请不必担心，船长。[r]请维持现在的速度。
+[k]
+
+＠玛修
+她会在此被打倒。因为舰首，[r]有不列颠最强的骑士。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[charaFadeout A 0.1]
+[scene 128407]
+[wt 0.4]
+[se ad951]
+[seVolume ad951 0 0]
+[seVolume ad951 1.0 0.5]
+[cueSe SE_21 21_ad1097]
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[seStop ad951 0.6]
+[fadeout black 2.0]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 0,30]
+
+[charaFadein S 0.1 0,725]
+[charaFadein T 0.1 0,-725]
+
+[scene 122600]
+[wt 0.4]
+
+[fadein black 2.0]
+[wait fade]
+[wt 0.4]
+
+[bgm BGM_EVENT_91 0.1]
+
+＠珀西瓦尔
+……只要摩根陛下被打倒，[r]你就能获得自由。
+[k]
+
+＠珀西瓦尔
+妖精骑士的身份束缚着你。
+[k]
+
+＠珀西瓦尔
+我一直自以为如此。[r]也因为这个理由，才组织了圆桌军。
+[k]
+
+＠珀西瓦尔
+没错。我[line 2]
+[k]
+
+[messageOff]
+[se ad592]
+[seVolume ad592 0 0.5]
+[bgm BGM_EVENT_91 1.0 0.5]
+[fadeout white 1.0]
+[wait fade]
+
+
+[charaFadeout D 0.1]
+[effect bit_sepia01_depth_fs]
+
+[scene 117400]
+[wt 0.7]
+[fadein white 1.5]
+[wait fade]
+＠妖精骑士兰斯洛特
+哪有人边哭边挥剑啊。[r]好了，休息一会儿吧，珀西瓦尔。
+[k]
+
+＠妖精骑士兰斯洛特
+你做得非常棒。[r]远比那些什么都不做的妖精优秀得多。
+[k]
+
+＠妖精骑士兰斯洛特
+我也很自豪。[r]不愧是在选拔中留到了最后的孩子[line 3]
+[k]
+
+＠妖精骑士兰斯洛特
+不会吧，哭得更凶了！？[r]啊……是吗，刚才那句话不该说吧……
+[k]
+
+＠妖精骑士兰斯洛特
+……对不起，我是个粗线条的姐姐。[r]人的感情对我来说太难懂了……
+[k]
+
+＠妖精骑士兰斯洛特
+也是呢。[r]毕竟你是唯一被选中的人嘛。
+[k]
+
+＠妖精骑士兰斯洛特
+原本大家那么要好。[r]但再怎么难受，也只能选择变强了吧。
+[k]
+
+＠妖精骑士兰斯洛特
+嗯。[r]那么，我也有一件事可以教给你。
+[k]
+
+＠妖精骑士兰斯洛特
+就算你对同伴们感到内疚，[r]永远都无法喜欢上自己也没关系。
+[k]
+
+＠妖精骑士兰斯洛特
+你肯定迟早会遇到比自己更重要的事物。[r]因为我就是这样的！
+[k]
+
+＠妖精骑士兰斯洛特
+不要忘记，珀西瓦尔。
+[k]
+
+＠妖精骑士兰斯洛特
+无论这不列颠是个何等残酷的世界，[r]只要能遇到一个自己深爱的对象，就[line 3]
+[k]
+
+[messageOff]
+[fadeout white 2.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[effectDestroy bit_sepia01_depth_fs]
+
+[scene 122600]
+
+[charaFadein S 0.1 0,725]
+[charaFadein T 0.1 0,-725]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 0,30]
+[wt 0.7]
+
+[fadein white 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_91 1.0 1.0]
+
+＠珀西瓦尔
+……嗯。
+[k]
+
+＠珀西瓦尔
+为此，我欺骗了许多人。[r]就让我在此接受那份惩罚吧。
+[k]
+
+[charaFaceFade D 14 0.2]
+
+＠珀西瓦尔
+[line 3]圣枪，开庭。
+[k]
+
+＠珀西瓦尔
+选定之枪啊。[r]请正确地裁决吾之所为吧。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_91 1.0]
+[wait fade]
+[pictureFrame]
+[cameraMove 0.1 0,0 1.0]
+
+[charaFadeout D 0.1]
+[charaFadeout S 0.1]
+[charaFadeout T 0.1]
+
+[scene 10000]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+
+[criMovie talk_mov105 bgmPlay true]
+[wt 0.5]
+
+[fadeout black 1.0]
+[wait fade]
+[pictureFrame]
+[bgm BGM_EVENT_95 0.1]
+[scene 122600]
+[wt 1.0]
+[fadein black 2.0]
+[wait fade]
+
+[charaTalk off]
+
+[charaFace D 11]
+[charaFadein D 0.1 1]
+[wt 1.0]
+[se ad753]
+[charaPut G 1]
+[charaFadeTime G 1.0 0.4]
+[wt 1.5]
+[charaEffect G bit_talk_atomization_gra02]
+[charaFadeout G 1.5]
+[charaFadeout D 1.5]
+[wt 5.0]
+[scene 128401 1.5]
+[wt 2.0]
+
+
+＠
+选定之枪贯穿了龙骸的心脏。
+[k]
+
+＠
+龙骸失去了力量而开始下坠。[r]骑士的身体无法承受经年累月的劣化而破碎四散。
+[k]
+
+＠
+他的死状，映入了坠落的龙之眼帘。
+[k]
+
+
+＠龙骸
+[line 3]a[line 3][r][line 3]aa，a[line 3]啊[line 3]
+[k]
+
+＠龙骸
+[line 3]珀西瓦尔[line 3][r][line 3]珀西瓦尔[line 3]
+[k]
+
+＠龙骸
+[line 3]珀西[line 3]瓦尔[line 3]
+[k]
+
+＠龙骸
+[line 3]我，的[line 3]
+[k]
+
+＠龙骸
+[line 3]弟，弟[line 3]
+[k]
+
+[messageOff]
+[scene 128401 1.5]
+[wt 2.5]
+
+＠
+痛楚掠过空洞的[#心脏:胸口]。[r]逐渐湮没于火焰的破风声，恰似泪珠滴落之声。
+[k]
+
+[messageOff]
+[wt 1.0]
+[bgmStop BGM_EVENT_95 2.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

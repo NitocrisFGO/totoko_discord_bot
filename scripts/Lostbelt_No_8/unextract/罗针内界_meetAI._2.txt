@@ -1,0 +1,347 @@
+
+
+＄04-00-02-01-2-1
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098270100 1 迦摩]
+[charaSet B 1098270000 1 希翁]
+[charaSet C 1098270900 1 拉妮－Ｒ]
+[charaSet D 7046001 1 难敌]
+[charaSet E 1098269600 1 Caster]
+[charaScale E 1.2]
+[charaSet F 1098269600 1 Caster_cutin]
+[charaScale F 1.2]
+[charaSet G 1098270300 1 阿愈丝]
+
+[sceneSet H 189300 1]
+[sceneSet I 189300 1]
+[charaScale I 1.3]
+[sceneSet J 189300 1]
+[charaScale J 1.3]
+
+[sceneSet K 189300 1]
+[charaScale K 1.3]
+[sceneSet L 189300 1]
+[charaScale L 1.3]
+
+[charaSet T 98115000 1 特效用]
+
+[scene 189300]
+
+[subCameraOn 1]
+[charaLayer H sub #A]
+
+[subCameraFilter #A through]
+[subRenderScale #A 1.02]
+
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaFadein H 0 0,-200]
+
+[fadein black 1.0]
+[wait fade]
+
+[subRenderFadein #A 0.4 0,0]
+
+[blur lens 0.1 2 2]
+[se ad231]
+[wt 0.5]
+
+[subRenderFadeout #A 0.5]
+[blurOff lens 1.0]
+[wt 1.0]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer H normal]
+[wt 0.5]
+
+？1：（又有点晕了。）
+？2：（总算是提供了援护……）
+？！
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠迦摩
+……能得到援护减轻负担是令人高兴啦。
+[k]
+
+＠迦摩
+不过你没事吧？　感觉你的脸色[line 3]
+[k]
+
+[messageOff]
+[charaTalk T]
+[se ad810]
+[seVolume ad810 0 0.5]
+[wt 1.5]
+[charaTalk A]
+
+[charaFace A 4]
+
+＠迦摩
+哎呀，吵死了。[r]这声响是什么啦。
+[k]
+
+[bgm BGM_EVENT_5 0.5 0.5]
+
+[messageOff]
+[se ad470]
+[seVolume ad470 0 0.3]
+[charaTalk T]
+[wt 2.0]
+[se ad32]
+[seVolume ad32 0 0.3]
+[wt 0.5]
+[se ad170]
+[seVolume ad170 0 0.3]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 1.0 1.0]
+
+[charaTalk A]
+[charaFace A 18]
+
+＠迦摩
+是从那个拐角后传来的吗？[r]听起来像是正在进行一场相当激烈的争斗呢。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+
+＠拉妮－Ｒ
+报告。依然存在多个同型机反应。[r]伤员众多，似乎无法行动。
+[k]
+
+＠拉妮－Ｒ
+另外，相当于我们治疗型ＡＩ的首席、[r]队长的人物也在那里。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠希翁
+『相当于』？　这说法真奇怪。[r]难道不是正式队长吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠拉妮－Ｒ
+因为在当前情况下，她既是队长，[r]还具备经过扩展的另一种定义。
+[k]
+
+＠拉妮－Ｒ
+我推荐各位用该追加职责来称呼她。
+[k]
+
+＠拉妮－Ｒ
+没错[line 3]那就是[#御主]。
+[k]
+
+？1：…………！？
+？！
+
+[messageOff]
+[se ad59]
+[se ade427]
+
+[wipeout leftToRight 1.0 1.0]
+[bgmStop BGM_EVENT_5 1.0]
+[seStop ad59 1.5]
+[seStop ade427 1.5]
+[wait wipe]
+
+[charaFadeout C 0.1]
+[wt 1.5]
+
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+
+[bgm BGM_BATTLE_107 0.1]
+
+[cueSe Battle bac169]
+[wt 0.1]
+[se ad32]
+[effect bit_talk_kengekiall03_fs 150,0]
+[wt 0.2]
+[se ad1014]
+[wt 0.5]
+[cueSe Battle bac337]
+[wt 0.1]
+[se bac308]
+[effect bit_talk_kengekiall02_fs -150,0 H]
+[wt 0.3]
+[cueSeStop bac337 0.1]
+[se ad1014]
+[wt 0.7]
+[se ad171]
+[wt 0.1]
+[cueSe Battle bac169]
+[se ad237]
+[effect bit_talk_strike_02]
+[effect bit_talk_ichimon01wh 0,-150 H]
+[wt 0.15]
+
+[se ad170]
+[wt 0.1]
+[fowardEffect bit_talk_14]
+[fadeout white 0.1]
+[seStop ad237 0.2]
+[wait fade]
+
+[effectDestroy bit_talk_ichimon01wh]
+[charaTalk depthOff]
+[charaDepth I 1]
+[charaDepth G 2]
+[charaDepth D 3]
+[charaDepth J 4]
+[charaDepth E 5]
+
+[charaScale G 1.1]
+[charaScale D 1.2]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein I 0.1 100,-350]
+[charaFadein D 0.1 -20,-15]
+[wt 0.1]
+
+[se ad671]
+[charaShake D 0.02 3 2 0.6]
+[charaMove I 50,-350 0.2]
+[charaMove D 80,-15 0.2]
+[fadein white 0.1]
+[wait fade]
+
+[seStop ad671 1.0]
+[charaMove I 0,-350 0.3]
+[charaMove D 180,-15 0.3]
+[wt 0.8]
+
+
+
+＠D：？？？
+啊～，不行了，饿着肚子使不出力气，[r]也提不起干劲。
+[k]
+
+＠D：？？？
+老实说真想得到美女的声援啊。
+[k]
+
+[messageOff]
+[charaMove I -180,-350 1.0]
+[charaMove D 0,-15 1.0]
+[wt 1.0]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.4 330,-50]
+[wt 0.4]
+
+＠G：？？？
+喂，你给我加把劲啦～！[r]不是有我在给你声援吗！？
+[k]
+
+[clear]
+[charaTalk D]
+[charaFace D 8]
+
+＠D：？？？
+之前就说过了，[r]你严重缺乏妩媚之类的要素啦。
+[k]
+
+＠D：？？？
+就不能符合[#本老爷]的口味一点吗？[wt 0.5][charaFadeout G 0.1][charaMove D 300,-15 0.3][cueSe Battle bac169][fowardEffect bit_talk_x_slash02 -150,0][charaFace D 9][r][line 3]嘿哟！
+[k]
+
+[messageOff]
+[charaFadein J 1.0 140,-350]
+[charaMove J 190,-350 1.0]
+[wt 1.2]
+[charaFadeout D 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 -30,0]
+[charaMove E 1 0.4]
+[wt 0.1]
+[se ad60]
+[seStop ad60 0.4]
+[wt 0.3]
+
+＠E：？？？
+态度虽然轻浮，[r]但看来你对自己的本领倒是挺有自信的。
+[k]
+
+＠E：？？？
+然而我已厌倦了无谓的舞蹈，[r]也该让我的剑刃浸染上猩红了吧。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[blur lens 0.5 2 20]
+[subCameraOn 2]
+[charaLayer K sub #A]
+[charaLayer D sub #A]
+[charaLayer L sub #B]
+[charaLayer F sub #B]
+
+[charaTalk off]
+[charaDepth K 1]
+[charaDepth L 1]
+[charaDepth D 2]
+[charaDepth F 2]
+
+[charaFace D 6]
+[charaFace F 2]
+[charaFadein K 0.1 -190,0]
+[charaFadein L 0.1 190,0]
+[charaFadein D 0.1 256,180]
+[charaFadein F 0.1 -256,180]
+[wt 0.1]
+
+[subCameraFilter #A maskEdge cut359_mask02 4 231,41,45,255 0]
+[subCameraFilter #B maskEdge cut359_mask13 4 227,226,226,255 0]
+[subRenderFadein #A 0.4 -100,-472]
+[subRenderFadein #B 0.4 100,-244]
+[subRenderMove #A 0,-472 0.3]
+[subRenderMove #B 0,-244 0.3]
+[wt 1.5]
+
+？1：从者……！
+？2：吉尔……！？
+？！
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStopEnd BGM_BATTLE_107 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

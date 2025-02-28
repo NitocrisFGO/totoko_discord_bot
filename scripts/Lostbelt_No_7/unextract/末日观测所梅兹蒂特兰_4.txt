@@ -1,0 +1,648 @@
+
+＄03-00-13-16-4-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098256600 1 希基克]
+[charaSet B 1098257300 1 达·芬奇]
+[charaDepth B 2]
+[charaSet C 1098124310 1 戴比特]
+[charaSet D 1098253000 1 卡玛佐茨]
+[charaSet E 1098253600 1 蓝色特斯卡特利波卡]
+[charaSet F 1098259200 1 特斯卡特利波卡]
+
+[sceneSet G 10000 1]
+[charaScale G 1.01]
+[charaDepth G 1]
+
+[charaSet H 98115000 1 特效用]
+
+[sceneSet I 170500 1]
+[sceneSet J 173700 1]
+
+[scene 173700]
+
+[fowardEffect bit_talk_incense_02]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_156 0.1]
+
+[wt 1.0]
+
+？1：（好浓的烟雾，但眼睛却不觉得刺痛……）
+？2：（怎么说呢……好像有点头晕……）
+
+？！
+
+[subCameraOn]
+[charaLayer A sub]
+[charaLayer J sub]
+[charaScale A 1.2]
+[charaScale J 1.5]
+[charaDepth A 2]
+[charaDepth J 1]
+[charaFace A 0]
+[charaFadein A 0 330,240]
+[charaFadein J 0 -20,-150]
+[subCameraFilter maskEdge cut359_mask07 4 175,180,219,255]
+[subRenderFadein 0.4 0,-320]
+[wt 0.4]
+
+＠希基克
+让各位久等了。[r]准备已经就绪，现在开始波波尔的仪式。
+[k]
+
+＠希基克
+我能一览米克特兰的第二层到第八层，[r]但戴比特是个例外。
+[k]
+
+＠希基克
+这只是作为天文台观测者方的观点，[r]他所在的空间总是昏暗无光。
+[k]
+
+＠希基克
+存在于该处却不存在，[r]存在于该处却不可见。
+[k]
+
+＠希基克
+就像原子密度极为稀薄，无物质的空洞一样。
+[k]
+
+[subRenderFadeout 0.2]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 22]
+[charaFadein B 0.1 1]
+[charaFadeTime G 0.2 0.5]
+[wt 0.1]
+
+＠达·芬奇
+（无物质的空洞……[r]　是指宇宙大尺度结构中的[#超空洞:Void]吗？）
+[k]
+
+＠达·芬奇
+（出现在眼前时是寻常事物，[r]　从远方观测时却“只能看到黑暗”……）
+[k]
+
+＠达·芬奇
+（戴比特竟然身披这样的过滤器吗？）
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[subRenderFadein 0.2 0,-320]
+[wt 0.2]
+
+＠希基克
+我虽为观测者，[r]却看不见他的行动。
+[k]
+
+＠希基克
+知晓戴比特·泽姆·沃伊德行动的，[r]只有他本人，与这米克特兰的时间。
+[k]
+
+＠希基克
+因此，我会让各位观看这段『时间』。
+[k]
+
+＠希基克
+这种香是让米克特兰的意识[r]与各位的意识连通的波波尔仪式。
+[k]
+
+＠希基克
+我把时间设置调整成一年前的梅兹蒂特兰。[r]请闭上眼睛，委身于恍惚感吧。
+[k]
+
+＠希基克
+跟我说完话之后，[r]戴比特去了哪里，又做了些什么[line 3]
+[k]
+
+＠希基克
+尽可能试着体验他这一年来的行动吧。
+[k]
+
+[messageOff]
+[se ade456]
+[seVolume ade456 0 0.4]
+[blur lens 1.5 2 10]
+[wt 1.5]
+
+[bgmStop BGM_EVENT_156 1.5]
+[wipeout fire 1.5 1]
+[wait wipe]
+
+[blurOff lens 0.1]
+[charaLayer A normal]
+[charaLayer J normal]
+[charaScale A 1.2]
+[charaScale J 1.5]
+[charaFadeout A 0.1]
+[charaFadeout J 0.1]
+[subRenderFadeout 0.1]
+[wt 0.2]
+
+[subCameraOff]
+[pictureFrame cut063_cinema]
+[fowardEffectDestroy bit_talk_incense_02]
+[cameraFilter gray]
+[wt 2.0]
+
+[wipein fire 1.5 1]
+[wait wipe]
+[wt 1.0]
+
+[bgm BGM_EVENT_79 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.4 0,-50]
+[wt 0.4]
+
+＠戴比特
+太阳虽然消失了，却在10万年后[r]重回米克特兰的天空……
+[k]
+
+[charaFaceFade C 5 0.2]
+
+＠戴比特
+……[#真行啊]。[r]没想到迈雅竟会做出这般暴行。
+[k]
+
+＠戴比特
+如此执着于地底世界未免太划不来了。[r]这已经不讲道理了吧。
+[k]
+
+
+＠戴比特
+这算是向泛人类史中被自己灭绝的生物[r]送上的赎罪吗。
+[k]
+
+[charaFaceFade C 7 0.2]
+
+＠戴比特
+我要向你道谢，希基克。[r]有什么需要的东西吗？　有的话我为你安排。
+[k]
+
+[messageOff]
+[wt 1.0]
+[charaFaceFade C 8 0.2]
+
+＠戴比特
+没有吗？　那么后会无期了。
+[k]
+
+＠戴比特
+闸门我已经修好了。雇些小型[#恐龙人:人类]吧。[r]这样下去这里会彻底荒废的。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_79 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout C 0.1]
+[scene 174100]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth H 2]
+
+[charaPut H 2000,2000]
+[charaEffect H bit_talk_missed_dream]
+[charaEffect H bit_talk_noise_gr]
+
+[cueSe SE_22 22_ad1212]
+[charaTalk D]
+[charaFace D 0]
+[charaPut D 0,-50]
+[charaSpecialEffect D appearance 1 0.4]
+[wt 1.0]
+[bgm BGM_EVENT_127 0.1]
+
+＠卡玛佐茨
+一个人吗！[r]你只有一个人吗，叫[#隐匿者:Crypter]的！
+[k]
+
+＠卡玛佐茨
+连个向导都没有，以为自己一个人就能横跨[r]这第四冥界！　横跨宇宙树米克特兰吗！？
+[k]
+
+[charaFace D 14]
+
+＠卡玛佐茨
+[line 3]唔呵。[r]哈哈，哈哈哈，哈哈哈哈哈哈哈！
+[k]
+
+＠卡玛佐茨
+没错，就是这样，这种存在方式才是人类！[r]一个人很好，一个人最棒了！
+[k]
+
+＠卡玛佐茨
+因为这样就不需要保护他人了！[r]只要自己够强，就犯不着去关心他人了！
+[k]
+
+[charaFace D 21]
+
+＠卡玛佐茨
+然而诅咒我吧，憎恨米克特兰吧！[r]只要卡玛佐茨还在，就无人能抵达第九层！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_127 4.0]
+[wt 0.2]
+[se ad31]
+[charaPut H 1]
+[wt 0.3]
+[charaPut H 2000,2000]
+[seStop ad31 0.1]
+[wt 0.5]
+[se ad31]
+[charaPut H 1]
+[wt 1.0]
+[fadeout black 0.4]
+[seStop ad31 0.4]
+[wait fade]
+[charaFadeout D 0.1]
+
+[cameraFilter normal]
+[pictureFrame]
+[charaPut H 2000,2000]
+[scene 10000]
+[charaSet C 1098124330 1 戴比特]
+[wt 0.5]
+
+[fadein black 0.1]
+[wait fade]
+
+[cueSe Battle bas16]
+[effect bit_talk_CommandMantra_db01]
+[wt 2.2]
+[fadeout black 0.1]
+[wait fade]
+
+[charaTalk depthOn]
+
+[cameraFilter gray]
+[pictureFrame cut063_cinema]
+[scene 174100]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk C]
+[charaFace C 5]
+[se ad984]
+[charaFadein C 0.4 0,-60]
+[charaMove C 0,-50 0.3]
+[charaShake C 0.03 3 1 0.3]
+[wt 1.2]
+
+[bgm BGM_EVENT_81 0.1]
+
+＠戴比特
+[line 3]，[line 6]呼。[r][line 6]，呼[line 10]
+[k]
+
+＠戴比特
+还要继续吗，卡玛佐茨？[r]我还能再做两次相同的事哦。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 0,-50]
+[wt 1.2]
+[charaFace D 10]
+
+＠卡玛佐茨
+……不。比试就到此为止吧。[r]你的血，非常，非常非常非常，难喝。
+[k]
+
+[charaFace D 3]
+
+＠卡玛佐茨
+能打败勇者的只有勇者。[r]我承认，你有资格踏入卡拉克穆尔。
+[k]
+
+[charaFace D 4]
+
+＠卡玛佐茨
+但是我要收取代价。[r][#隐匿者:Crypter]，戴比特·泽姆·沃伊德。
+[k]
+
+＠卡玛佐茨
+讲述你们的神话吧。[r]我想知道你们的神话。
+[k]
+
+＠卡玛佐茨
+我是米克特兰神话中的生物。[r]是600万年前，打倒了ORT，已被所有人遗忘的神话。
+[k]
+
+[charaFace D 13]
+
+＠卡玛佐茨
+泛人类史的神话，[r]异闻带的神话。
+[k]
+
+[charaFace D 7]
+
+＠卡玛佐茨
+我不是要比较哪边更优秀[r]只是想知道。
+[k]
+
+＠卡玛佐茨
+想知道我是否也曾存在于你们的世界。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_81 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout D 0.1]
+[scene 174500]
+[wt 1.5]
+[fadein black 1.0]
+[wait fade]
+
+[se ad311]
+[wt 1.2]
+[seStop ad311 0.4]
+
+[bgm BGM_MAP_52 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 0,-50]
+[wt 0.4]
+
+＠戴比特
+……是这里吧。[r]总算抵达了。
+[k]
+
+＠戴比特
+ORT果然已经死绝了。[r]不过，这纯粹是耗尽了燃料。
+[k]
+
+＠戴比特
+只要用大量优质魔术回路堵住这伤口，[r]马上就能再度开始活动。
+[k]
+
+＠戴比特
+……话虽如此。
+[k]
+
+＠戴比特
+『一年的结尾，从最底层放射出来的宇宙射线[r]　将中断，下冥界的季节将到来。』
+[k]
+
+[charaFace C 9]
+
+＠戴比特
+下次进入这里要等到一年后了。[r]在那之前，必须抓紧准备才行。
+[k]
+
+[charaFaceFade C 4 0.2]
+
+＠戴比特
+…………
+[k]
+
+[charaFaceFade C 5 0.2]
+
+＠戴比特
+召唤吧。
+[k]
+
+＠戴比特
+虽说是异闻带，但这里是米克特兰。[r]触媒应该很充足吧。
+[k]
+
+＠戴比特
+就算我不被算作人类，[r]也能以土地的力量召唤从者。
+[k]
+
+＠戴比特
+会回应我这种男人的呼声的存在，[r]立于善恶之上的存在，在此前提下，还认同战争的存在。
+[k]
+
+＠戴比特
+[line 3]也就是，全能神特斯卡特利波卡。[r]将你的力量借给我吧。
+[k]
+
+[messageOff]
+[wt 0.7]
+[bgmStop BGM_MAP_52 2.0]
+[se ad632]
+[effect bit_talk_summon_fs]
+
+[fadeout black 2.0]
+[wait fade]
+[charaFadeout C 0.1]
+[seStop ad632 2.5]
+[se su3]
+[effectDestroy bit_talk_summon_fs]
+[scene 169100]
+[wt 5.0]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.4 0,-50]
+[wt 0.4]
+[bgm BGM_EVENT_90 0.1]
+
+＠蓝色特斯卡特利波卡
+呜哇。难以置信。不惜特地打造凭依对象的[#人类:身体][r]也要回应召唤吗？
+[k]
+
+＠蓝色特斯卡特利波卡
+那男人就这么有趣吗？[r]虽说是我，但你这家伙对试炼的判定也太宽容了吧。
+[k]
+
+[charaFaceFade E 0 0.2]
+
+＠蓝色特斯卡特利波卡
+也罢，既然你打算帮助那边，[r]那我就会帮助这边。
+[k]
+
+＠蓝色特斯卡特利波卡
+哪边能活下来全凭运气。[r]再会了，黑色特斯卡特利波卡。
+[k]
+
+＠蓝色特斯卡特利波卡
+你就用泛人类史的知识在米克特兰无双吧。
+[k]
+
+[messageOff]
+[bgm BGM_EVENT_90 1.0 0.4]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout E 0.1]
+[scene 170500]
+[charaScale I 1.2]
+[charaFadein I 0.1 -100,-200]
+[charaTalk depthOff]
+[charaDepth I 1]
+[charaDepth F 2]
+[charaDepth C 3]
+[wt 1.0]
+[bgm BGM_EVENT_90 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 0,-50]
+[wt 0.4]
+
+＠特斯卡特利波卡
+哟，兄弟。[r]我准备的墨西哥如何？
+[k]
+
+＠特斯卡特利波卡
+虽然还有一个真正的名字。[r]但现在是公元2018年。要叫名字还是用最新的好。
+[k]
+
+[messageOff]
+[charaMove I 100,-200 1.5]
+[charaMove F 200,-50 1.5]
+[wt 1.6]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 -300,-50]
+[wt 0.4]
+
+＠戴比特
+然而却是座古色古香的阿兹特克都市。[r]不建造近代风的建筑吗？
+[k]
+
+[charaFace F 0]
+
+＠特斯卡特利波卡
+嗯，她跟我闹别扭说“这个绝对免谈”。[r]身为大哥，怎么能不听妹妹的话呢。
+[k]
+
+＠特斯卡特利波卡
+奥塞洛特尔也组织好了。[r]关键的猎杀迪诺斯则需要枪械。
+[k]
+
+[charaFaceFade F 8 0.2]
+
+＠特斯卡特利波卡
+现在用的还是从高扬斯卡娅那儿借来的，但我很快就能[r]用自己的办法打造出生产线，给全员配发最新装备。
+[k]
+
+[charaFace C 1]
+
+＠戴比特
+不愧是全能神。[r]毕竟『能实现所有现在可能做到的事』。
+[k]
+
+＠戴比特
+欠缺的只有劲敌了吧。[r]非常抱歉，没能连锁召唤魁札尔·科亚特尔。
+[k]
+
+[charaFaceFade F 2 0.2]
+
+＠特斯卡特利波卡
+玩笑也别这样开。[r]要是鸟公在场，可又要爆发战争了。
+[k]
+
+[charaFaceFade F 0 0.2]
+
+＠特斯卡特利波卡
+不过与之相对，倒是出现了个有趣的家伙。[r]米克特兰产的库库尔坎。暂时就找那家伙玩吧。
+[k]
+
+[charaFaceFade F 3 0.2]
+
+＠特斯卡特利波卡
+戴比特，[r]通往ORT的[#地下水道:路线]已经铺好了。
+[k]
+
+＠特斯卡特利波卡
+为ORT准备的[#供应:活祭]就用迪诺斯的心脏。[r]有一年时间就好，足够闭合伤口了。
+[k]
+
+＠特斯卡特利波卡
+我这边[#最后的候补也定好了]。[r]预计会耗费一年时间变成我。
+[k]
+
+[charaFace C 0]
+
+＠戴比特
+一年特斯卡特利波卡啊。[r]明白了。让他好好锻炼，好好学习吧。
+[k]
+
+[charaFace C 8]
+
+＠戴比特
+唯有具备明确的意志、坚定的思想，[r]才能成为对ORT的『[#命令:Order]』。
+[k]
+
+＠戴比特
+破坏这颗行星，抹除人类的痕迹。[r]接下来的一年就为此所用吧。
+[k]
+
+[charaFaceFade F 6 0.2]
+
+＠特斯卡特利波卡
+……但你不用管其他[#隐匿者:Crypter]吗？
+[k]
+
+＠特斯卡特利波卡
+虽说你的计划与那什么『异星之神』的意图[r]并不一致。
+[k]
+
+[charaFace C 10]
+
+＠戴比特
+无妨。假如沃戴姆赢得胜利，[r]届时不过是我们连同异闻带一起消失而已。
+[k]
+
+＠戴比特
+不会有任何问题。[r]我只需履行我的职责。
+[k]
+
+＠戴比特
+有异议就说吧，特斯卡特利波卡。[r]现在还来得及改变方针。
+[k]
+
+[charaFaceFade F 1 0.2]
+
+＠特斯卡特利波卡
+怎么可能。你的点子太棒了。[r]我一直都想见识一次所谓[#行星:星球]的终结。
+[k]
+
+[cameraMove 10.0 -50,-30 1.1]
+
+＠特斯卡特利波卡
+[line 3]那就开始吧，闪族的男儿。[r]开启我们的战争、我们的灭亡、我们的飨宴。
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_90 2.0]
+[wait fade]
+[cameraFilter normal]
+[wt 0.5]
+[soundStopAll]
+[end]
+

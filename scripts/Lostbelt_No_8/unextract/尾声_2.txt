@@ -1,0 +1,707 @@
+
+
+＄04-00-02-17-2-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098270200 1 迦摩]
+[charaSet B 1098158200 1 希翁]
+[charaSet C 1098158210 1 希翁2]
+[charaSet D 1098158210 1 希翁3]
+
+[sceneSet E 157900 1]
+[charaScale E 1.1]
+[sceneSet F 132800 1]
+[charaScale F 1.2]
+[sceneSet G 157900 1]
+[charaScale G 1.3]
+[sceneSet H 157900 1]
+[charaScale H 1.3]
+
+[imageSet N back10000 1 1]
+[charaScale N 1.1]
+[imageSet O back10000 1 1]
+[charaScale O 1.1]
+
+[se ad8]
+
+[scene 157900]
+
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth F 1]
+[charaDepth A 2]
+[charaFadein E 0.1 0,-250]
+[wt 0.1]
+[fadein black 1.0]
+[wait fade]
+[wt 0.5]
+
+[se ade428]
+[wt 1.5]
+[seStop ade428 0.2]
+[wt 0.7]
+
+[cueSe SE_21 21_ade553]
+[charaMove E 0,-220 0.3]
+[wt 2.0]
+
+？1：……怎么回事。
+？2：好像忘记了什么……
+？！
+
+[wt 0.5]
+
+？1：感觉有些寂寞，又有些不安……
+？！
+
+[wt 0.5]
+
+[bgm BGM_EVENT_145 0.1]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 0,20]
+[wt 0.4]
+
+＠迦摩
+哎？　你指什么？
+[k]
+
+[messageOff]
+[se ad7]
+[charaMove E 0,-250 0.3]
+[charaMove A 0,-10 0.3]
+[wt 0.8]
+
+[se ade422]
+[charaFace A 2]
+[charaMove A 1 0.8]
+[charaMoveScale A 1.05 0.8]
+[wt 0.3]
+[seStop ade422 0.5]
+[wt 0.7]
+
+＠迦摩
+说嘛说嘛，究竟忘了什么，又因什么而感到寂寞？
+[k]
+
+？1：……奇怪？
+？2：那种感觉，好像消失了……
+？！
+
+[charaFace A 3]
+
+＠迦摩
+哼～，这样啊。[r]真是莫名其妙呢。
+[k]
+
+[charaFace A 0]
+
+＠迦摩
+据说你之前好像得了什么昏睡病之类的？
+[k]
+
+＠迦摩
+听说你好不容易醒了，才打算来看看[r]有没有发生什么愉快的变化……
+[k]
+
+[charaFace A 14]
+
+＠迦摩
+结果似乎毫无变化呢。[r]真无聊。
+[k]
+
+＠迦摩
+你就不能自暴自弃地大口灌酒，[r]或是闹别扭说再也不想工作了，
+[k]
+
+＠迦摩
+给我创造这种一目了然的堕落机会嘛。
+[k]
+
+[messageOff]
+[cameraMove 1.0 0,-10 1.05]
+[wt 1.5]
+
+[charaFace A 18]
+
+＠迦摩
+……哎，怎么了？
+[k]
+
+？1：提起工作，
+？2：你可不能自说自话就过劳哦。
+？！
+
+[charaFace A 5]
+
+＠迦摩
+为啥什么都不干的我会挨骂啊。
+[k]
+
+＠迦摩
+我平时就一直是个罢工中的爱神啊。[r]莫名其妙。
+[k]
+
+[charaFace A 6]
+
+＠迦摩
+就算你不提醒，我也不会工作。
+[k]
+
+[charaFace A 5]
+
+＠迦摩
+我之所以会在这里，算是顺势而为吧？[r]所以你可别误会了。
+[k]
+
+？1：……不过，幸好你在这里。
+？！
+
+[charaFace A 4]
+
+＠迦摩
+你睡迷糊了吗？[r]竟然会感谢堕落魔王的存在。
+[k]
+
+[charaFace A 1]
+
+＠迦摩
+唔呵呵，说不定真的发生了什么颓废而[r]破灭性的变化呢。渴望堕落的那种变化。
+[k]
+
+[charaFace A 2]
+
+＠迦摩
+……总之，你现在何不尽情体验[r]梦醒时分的怠惰回笼觉呢？
+[k]
+
+？1：呵欠……那就听你的吧。
+？2：晚安……
+？！
+
+[messageOff]
+[wt 0.5]
+
+[wipeout openEye 2.0 1.0]
+[bgmStop BGM_EVENT_145 2.0]
+[wt 0.5]
+[blur lens 0.5 2 20]
+[wait wipe]
+
+[cameraHome 0.1]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[blurOff lens 0.1]
+[scene 10000]
+[wt 0.1]
+
+[wipein openEye 0.1 1.0]
+[wait wipe]
+
+[fadeout black 0.1]
+[wait fade]
+
+[charaScale F 1.2]
+[charaFadein F 0.1 120,-300]
+[wt 2.0]
+
+[se ad8]
+
+[scene 132800]
+
+[pictureFrame cut063_cinema]
+[wt 1.5]
+
+[se ade422]
+[seVolume ade422 0 0]
+[seVolume ade422 1.0 1.0]
+[charaMove F 60,-300 2.2]
+[fadein black 1.0]
+[wait fade]
+[wt 1.2]
+
+[seStop ade422 0.4]
+[charaScale F 1.2]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 0,-40]
+[wt 1.5]
+
+[bgm BGM_EVENT_116 0.1]
+
+[charaFace A 6]
+[charaMove A 0,-50 0.5]
+
+＠迦摩
+……唉。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+＠
+[line 3]那些身为Alterego的自我，[r]说不定，确实『想要现身』吧。
+[k]
+
+＠
+被强行压在底部的东西，依然『明确存在』于[r]那个人心中的东西，想要表露在外的方向性。
+[k]
+
+＠
+这种表露说不定就是所谓的[#Alterego:他人格]吧。
+[k]
+
+＠
+换言之，在孕育出渴爱之Alterego之人的心中，[r]无论多么微小，无论被如何抑制，也确实[line 3]
+[k]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 0,-50]
+
+[messageOff]
+[wt 1.2]
+
+＠迦摩
+……小傻瓜。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_116 1.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+
+[scene 157900]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.3]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.4 0,-50]
+[wt 0.4]
+
+＠希翁
+哎呀～，麻烦了麻烦了。
+[k]
+
+＠希翁
+根据同化解析得知的拉妮－ⅩⅡ诞生原委来看，[r]这次的事件显然就是他所说的人理扭曲，
+[k]
+
+＠希翁
+也就是[#应尽职责的呼唤:Ordeal Call]之一，
+[k]
+
+＠希翁
+没想到[#平面之月内部:那种地方]竟然[r]不知不觉间堆积起了扭曲。
+[k]
+
+[charaFace B 4]
+
+＠希翁
+虽说不至于到七大兵器的级别，[r]但如果能采取更高一级的管理态势，
+[k]
+
+＠希翁
+也许就能在扭曲规模更小的阶段发现吧。[r]身为管理者，实在有些羞愧。
+[k]
+
+[charaFace B 11]
+
+＠希翁
+面对突发性事件，最终还是想办法解决了，[r]这是唯一值得好评之处。
+[k]
+
+＠希翁
+除此以外全都是该反省的问题呢。
+[k]
+
+＠希翁
+也许是因为早已习惯了分割思考吧，[r]竟然连记忆都完整地带了回来。
+[k]
+
+[charaFace B 5]
+
+＠希翁
+这么说来，[r]还记得这件事的只有我一个吗？
+[k]
+
+[charaFace B 0]
+
+＠希翁
+迦摩……也是早已习惯『多个自己』的类型。
+[k]
+
+[charaFace B 10]
+
+＠希翁
+说不定她也还记得吧，[r]就当作[#武士的仁慈:Samurai Elegy]好啦，[#中止:Cut][#中止:Cut]。
+[k]
+
+[charaFace B 0]
+
+＠希翁
+艾尔隆氏和[%1][&先生:小姐]就算有印象，[r]应该也只停留在深层意识层面吧。
+[k]
+
+[bgmStop BGM_EVENT_77 1.4]
+
+[messageOff]
+[charaCrossFade B 1098158210 14 0.4]
+[wait charaCrossFade B]
+
+＠希翁
+不过机会难得，还是来验证一下吧。[r]当作思想实验。
+[k]
+
+[bgm BGM_REQUIEM 0.1]
+
+＠希翁
+我们之所以被卷入了那个[#平面之月:Paper Moon]世界，[r]起因是制造[#Alterego:他人格]的首次旋转。
+[k]
+
+[masterBranch _Male _Female]
+[label _Male]
+
+＠希翁
+换言之，正常来想，[r][#他]也应该是[#Alterego:他人格]才对。
+[k]
+
+[branch _branchEnd]
+[label _Female]
+
+＠希翁
+换言之，正常来想，[r][#她]也应该是[#Alterego:他人格]才对。
+[k]
+
+[branch _branchEnd]
+[label _branchEnd]
+
+[charaFace B 13]
+
+＠希翁
+[%1][&先生:小姐]是什么样的[#Alterego:他人格]呢？
+[k]
+
+[charaFace B 11]
+
+＠希翁
+进入那个世界后就存在的身体不适，[r]应该算某种线索吧。
+[k]
+
+＠希翁
+不靠[#灵线神经:Etherite]辅助[r]就无法正常战斗的状态。
+[k]
+
+＠希翁
+不明缘由的不适、心灵与身体的偏差。[r]如果说那其中存在某种意义……原来如此。
+[k]
+
+[messageOff]
+[wipeout square 1.0 1.0]
+[wait wipe]
+
+[charaFadeout B 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[subCameraOn 2]
+[charaLayer G sub #A]
+[charaLayer C sub #A]
+[charaLayer H sub #B]
+[charaLayer D sub #B]
+
+[charaDepth G 1]
+[charaDepth H 1]
+[charaDepth C 2]
+[charaDepth D 2]
+
+[charaScale C 1.2]
+[charaScale D 1.2]
+
+[charaFace C 0]
+[charaFace D 0]
+[charaFadein G 0.1 -190,-10]
+[charaFadein H 0.1 190,-10]
+[charaFadeinFSL C 0.1 -300,250]
+[charaFadeinFSR D 0.1 300,250]
+[subCameraFilter #A maskEdge cut359_mask06 4 0,0,0,255 1]
+[subCameraFilter #B maskEdge cut359_mask06 4 0,0,0,255 1]
+[scene 10000]
+[wt 0.1]
+
+[wipein square 0.5 1.0]
+[wait wipe]
+
+[charaMoveFSL C -10,250 90.0]
+[charaMove G 100,-10 90.0]
+[subRenderFadein #A 1.0 0,-250]
+[wt 1.2]
+
+＠希翁
+假说１，是『疲于战斗』『不想战斗』的[r][&他:她]的可能性。
+[k]
+
+[charaFace C 10]
+
+＠希翁
+嗯，这个可以有。[r]倒不如说，[#应该有吧]。
+[k]
+
+[charaFace C 1]
+
+＠希翁
+这是身为人类，理应具备的人格。
+[k]
+
+＠希翁
+若非如此，待所有战斗都结束后，[r][&他:她]肯定无法回归日常生活。
+[k]
+
+[charaFace C 0]
+
+＠希翁
+反过来假设一下吧。
+[k]
+
+＠希翁
+如果是『战斗正合我意』[r]『对关乎世界的战斗没有任何迷惘或不安』
+[k]
+
+＠希翁
+『自己心中丝毫不存在避讳战斗的人格』……[r]那这种人，是战斗狂。
+[k]
+
+[charaFace C 13]
+
+＠希翁
+有某个部分已经坏掉了。
+[k]
+
+＠希翁
+哪怕战斗结束，肯定也无法回归日常生活吧，[r]只能活在某种沾满血腥味的事物中。
+[k]
+
+[charaFace C 0]
+
+＠希翁
+不过，[&他:她]已经展现出了自己没有变成那样的可能性。[r]这很重要。
+[k]
+
+＠希翁
+[&他:她][line 3]这样就好。
+[k]
+
+[charaFace C 16]
+
+＠希翁
+虽说纵观整体，使用美杜莎的虚拟宝具礼装，[r]还站上了前线这种事，
+[k]
+
+＠希翁
+确实看不出丝毫躲避战斗的迹象，[r]但两者并不矛盾。
+[k]
+
+＠希翁
+正因为避讳爱，才会去爱。[r]正因为不愿战斗，才会去战斗。
+[k]
+
+＠希翁
+这种情况应该也是存在的。
+[k]
+
+[charaFace C 15]
+
+＠希翁
+……『尽管疲于战斗，但只要有理由，[r]还是会去战斗』这部分的存在……
+[k]
+
+＠希翁
+在计算上反倒会产生不安要素……
+[k]
+
+＠希翁
+但这方面也只能继续为[&他:她]做心理辅导了吧。
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.5]
+[wt 0.7]
+[charaMoveFSR D 10,250 90.0]
+[charaMove H -100,-10 90.0]
+[subRenderFadein #B 1.0 0,-415]
+[wt 1.2]
+
+＠希翁
+至于其他可能性……虽说也许只是结果论，[r][&他:她]并没有在圣杯战争中赢到最后。
+[k]
+
+＠希翁
+以这点为线索思考的话，
+[k]
+
+＠希翁
+可以说[&他:她]并非作为这现实世界的唯一御主，[r]并非作为肩负起世界命运的唯一主人公。
+[k]
+
+＠希翁
+而只是一个『普通的御主』。
+[k]
+
+[charaFace D 11]
+
+＠希翁
+是追求着『偶尔这样也不错』[r]这种轻松立场的[#Alterego:他人格]？
+[k]
+
+＠希翁
+唔～，感觉有点牵强呢。
+[k]
+
+[charaFace D 6]
+
+＠希翁
+不过归根结底，被卷进去的原因也只是推测罢了。
+[k]
+
+[charaFace D 12]
+
+＠希翁
+只因为持有令咒，就被拽入了御主的框架中，
+[k]
+
+＠希翁
+其实只有[&他:她]一个人没有[#Alterego:他人格]化的[r]可能性也很大。
+[k]
+
+＠希翁
+而身体不适纯粹是转换时的重组错误。
+[k]
+
+[charaFace D 10]
+
+＠希翁
+以我个人的判断，可能性各占一半吧？
+[k]
+
+[bgmStop BGM_REQUIEM 1.5]
+
+[messageOff]
+[subRenderFadeout #B 0.5]
+[wt 0.5]
+[wipeout square 0.5 1.0]
+[wait wipe]
+
+[scene 157900]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 0,-50]
+
+[overlayFadein N 0.1 0,-781]
+[overlayFadein O 0.1 0,782]
+[wt 1.0]
+
+[wipein square 1.0 1.0]
+[wait wipe]
+
+[wt 0.5]
+
+[charaCrossFade B 1098158200 18 0.4]
+[wait charaCrossFade B]
+
+[bgm BGM_EVENT_11 0.1]
+
+＠希翁
+……不，关于[&他:她]的考究就到此为止吧。
+[k]
+
+＠希翁
+现在比起别人的事，更应该反省自己。
+[k]
+
+[charaFace B 4]
+
+＠希翁
+过去的模样也就罢了，
+[k]
+
+＠希翁
+竟然还用上了由于过于不人道[r]而早就弃用了的『线』……
+[k]
+
+＠希翁
+简直就是黑历史。
+[k]
+
+[charaFace B 12]
+
+＠希翁
+啊啊，不过，原来[line 3]真的存在啊。[r]在我的心中，还存在着。
+[k]
+
+[charaFace B 16]
+
+＠希翁
+明明就早已得出[#不该成为]他们同伴的结论，
+[k]
+
+＠希翁
+却还使用[#这不代表不想成为][r]这种孩子气的反证。
+[k]
+
+[charaFace B 5]
+
+＠希翁
+哎哟。[r]这段记忆先[#中止:Cut][#中止:Cut]。
+[k]
+
+[cameraMove 30.0 0,-30 1.15]
+[charaMove N 0,-724 30.0]
+[charaMove O 0,783 30.0]
+
+＠
+即便如此，还是特地重播了其中一部分。
+[k]
+
+＠
+虽然身在此处的自己从未忘记过自身的立场，
+[k]
+
+＠
+然而正因为如今正在[r][#表现得仿佛忘了这些的世界]中旅行，
+[k]
+
+＠
+才会想要重新确认那真实不虚的初心啊。
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_11 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

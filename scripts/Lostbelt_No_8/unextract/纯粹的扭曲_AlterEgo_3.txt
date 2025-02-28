@@ -1,0 +1,431 @@
+
+
+
+＄04-00-02-16-3-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 7046001 1 难敌]
+[charaSet B 3054002 1 怖军]
+[charaSet C 1098270300 1 阿愈丝]
+[charaSet D 1098269320 1 塞蕾雪拉]
+
+[sceneSet E 189603 1]
+[charaScale E 1.2]
+[sceneSet F 189603 1]
+[charaScale F 1.2]
+
+[imageSet G back10000 1 1]
+[charaScale G 1.3]
+
+[charaSet H 98115000 1 特效用dummy]
+[charaSet I 98115000 1 特效用dummy]
+[charaSet J 98115000 1 特效用dummy]
+[charaSet K 98115000 1 特效用dummy]
+[charaSet L 98115000 1 特效用dummy]
+[charaSet M 98115000 1 特效用dummy]
+[charaSet N 98115000 1 特效用dummy]
+[charaSet O 98115000 1 特效用dummy]
+[charaSet P 98115000 1 特效用dummy]
+[charaSet Q 98115000 1 特效用dummy]
+[charaSet R 98115000 1 特效用dummy]
+[charaSet S 98115000 1 特效用dummy]
+
+
+[cameraMove 0 0,0 1.01]
+
+[scene 189603]
+
+[bgm BGM_EVENT_91 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠难敌
+弟弟们啊！　分离自同一肉团的分身啊！[r]助我这长兄一臂之力吧！
+[k]
+
+[messageOff]
+[se ad39]
+[effect bit_talk_36]
+[wt 2.4]
+
+[effectStop bit_talk_36]
+＠难敌
+[f large]『[#由一而生的持国百子:Jai Kaurava]』！！
+[k]
+
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth H 2]
+[charaDepth A 1]
+
+[se ad1006]
+[charaPut H 1]
+[charaEffect H bit_talk_quickmove]
+[charaSpecialEffect A erasureReverse 0,0 0.5]
+[wt 0.05]
+[charaMove A 0,15 0.4]
+[wt 1.0]
+
+[shake 0.01 1 2 0]
+
+[se ad214]
+[se ad241]
+[wt 1.0]
+
+[se ad291]
+[seVolume ad291 0 0]
+[se ad299]
+[seVolume ad299 0 0]
+[se ad297]
+[seVolume ad297 0 0]
+
+[seVolume ad291 0.4 1.0]
+[seVolume ad299 0.4 0.5]
+[seVolume ad297 0.4 0.2]
+
+[charaDepth H 1]
+[charaDepth I 2]
+
+[charaPut H 1]
+[charaPut I 1]
+[charaEffect H bit_talk_goltail01]
+[charaEffect I bit_talk_goltail01 0,0 H]
+[wt 0.7]
+
+[seVolume ad214 0.5 0.4]
+[seVolume ad241 0.5 0.4]
+
+[charaDepth J 3]
+[charaDepth K 4]
+[charaDepth L 5]
+[charaDepth M 6]
+
+[cueSe Servants_703200 bac878]
+[cueSeVolume bac878 0 0.5]
+[se ad248]
+[charaPut J 450,-50]
+[charaEffect J bit_talk_14]
+[wt 0.22]
+[charaPut K -450,75]
+[charaEffect K bit_talk_blow]
+[wt 0.22]
+[charaPut L 350,50]
+[charaEffect L bit_talk_blow]
+[wt 0.22]
+[charaPut M -350,-25]
+[charaEffect M bit_talk_14]
+[wt 0.22]
+
+[charaDepth N 7]
+[charaDepth O 8]
+[charaDepth P 9]
+[charaDepth Q 10]
+
+[charaPut N 250,40]
+[charaEffect N bit_talk_14]
+[wt 0.22]
+[charaPut O -250,-50]
+[charaEffect O bit_talk_blow]
+[wt 0.22]
+[charaPut P 150,-100]
+[charaEffect P bit_talk_blow]
+[wt 0.22]
+[charaPut Q -150,50]
+[charaEffect Q bit_talk_14]
+
+[charaEffectDestroy H bit_talk_14]
+[charaEffectDestroy I bit_talk_blow]
+[charaEffectDestroy J bit_talk_blow]
+[charaEffectDestroy K bit_talk_14]
+
+[charaDepth J 3]
+[charaDepth K 4]
+[charaDepth L 5]
+[charaDepth M 6]
+[charaDepth N 7]
+[charaDepth O 8]
+
+[seStop ad248 0.5]
+[cueSe Servants_703200 bac880]
+[cueSeVolume bac880 0 0.5]
+
+[se ad854]
+[charaPut H -450,50]
+[charaEffect H bit_talk_explosion]
+[charaPut K -450,-250]
+[charaEffect K bit_talk_impactlanding]
+[wt 0.4]
+[se ad824]
+[seVolume ad824 0 0.6]
+[wt 0.3]
+
+[se ad609]
+[charaPut I 450,-50]
+[charaEffect I bit_talk_explosion]
+[charaPut L 450,-250]
+[charaEffect L bit_talk_impactlanding]
+[wt 0.4]
+[se ad882]
+[wt 0.3]
+
+[se ad828]
+[charaPut J 1]
+[charaEffect J bit_talk_explosion]
+[charaPut M 0,-200]
+[charaEffect M bit_talk_impactlanding]
+[wt 0.4]
+[wt 0.3]
+[charaPut H -450,50]
+[charaEffect H bit_talk_explosion]
+[charaPut K -450,-250]
+[charaEffect K bit_talk_impactlanding]
+[wt 0.8]
+
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[cueSeStop bac878 0.7]
+[cueSeStop bac880 0.7]
+[seStop ad609 0.7]
+[seStop ad864 0.7]
+[seStop ad824 0.7]
+[seStop ad882 0.7]
+[seStop ad828 0.7]
+
+[seStop ad214 0.7]
+[seStop ad241 0.7]
+[seStop ad291 0.7]
+[seStop ad299 0.7]
+[seStop ad297 0.7]
+[wait wipe]
+
+[charaEffectDestroy H bit_talk_explosion]
+[charaEffectDestroy I bit_talk_explosion]
+[charaEffectDestroy J bit_talk_explosion]
+[charaEffectDestroy K bit_talk_impactlanding]
+[charaEffectDestroy L bit_talk_impactlanding]
+[charaEffectDestroy M bit_talk_impactlanding]
+
+[charaDepth H 4]
+[charaDepth I 2]
+[charaDepth B 3]
+[charaDepth J 5]
+
+[charaPut H 1]
+[charaPut I 1]
+[charaPut J 1]
+[charaEffect H bit_talk_avalon_light01]
+[charaEffect I bit_talk_avalon_light02]
+[charaEffect J bit_talk_under_light]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+[se ad214]
+[seVolume ad214 0 0]
+[se ad241]
+[seVolume ad241 0 0]
+[se ad291]
+[seVolume ad291 0 0]
+[se ad299]
+[seVolume ad299 0 0]
+[se ad297]
+[seVolume ad297 0 0]
+[wt 0.6]
+
+[seVolume ad214 0.5 0.5]
+[seVolume ad241 0.5 0.5]
+[seVolume ad291 0.5 0.5]
+[seVolume ad299 0.5 0.5]
+[seVolume ad297 0.5 0.2]
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+＠怖军
+呜，噢……噢噢噢噢噢噢噢！
+[k]
+
+[charaFace B 12]
+＠怖军
+哈，哈哈哈哈！[r]我早就猜到你会与弟弟们同在！
+[k]
+
+＠怖军
+我早已做好[line 3][r]要同时揍飞你们一百个人的心理准备了！
+[k]
+
+[messageOff]
+[se ad39]
+[effect bit_talk_36]
+[wt 2.4]
+
+[effectStop bit_talk_36]
+＠怖军
+[f large]『[#风神之子，在此:Maruti Vayuputra]』！！
+[k]
+
+
+[messageOff]
+[se ad791]
+[wt 0.8]
+[se ad147]
+[charaEffectStop J bit_talk_under_light]
+[wt 1.5]
+[fadeout white 0.5]
+[wait fade]
+[charaEffectStop H bit_talk_avalon_light01]
+[charaEffectStop I bit_talk_avalon_light02]
+[wt 0.2]
+[cueSe SE_22 22_ade740]
+[cueSeVolume 22_ade740 0 0]
+[wt 0.7]
+
+[cueSeVolume 22_ade740 0.1 1.0]
+[se ad864]
+[se ad609]
+[se ad780]
+[bgmStop BGM_EVENT_91 1.5]
+[seStop ad214 1.5]
+[seStop ad241 1.5]
+[seStop ad291 1.5]
+[seStop ad299 1.5]
+[seStop ad297 1.5]
+
+[charaFadeout B 0.1]
+
+[shakeStop]
+
+[wt 6.5]
+
+[fadein white 1.5]
+[wait fade]
+[wt 1.0]
+
+
+[subCameraOn 2]
+[charaLayer A sub #A]
+[charaLayer E sub #A]
+[charaLayer B sub #B]
+[charaLayer F sub #B]
+[subCameraFilter #A maskEdge cut359_mask09 4 0,0,0,255]
+[subCameraFilter #B maskEdge cut359_mask10 4 0,0,0,255]
+
+[charaDepth E 1]
+[charaDepth F 1]
+[charaDepth A 2]
+[charaDepth B 2]
+
+[charaScale A 1.2]
+[charaScale E 1.2]
+[charaFace A 10]
+[charaFadeinFSR A 0.1 0,200]
+[charaFadein E 0.1 -250,-50]
+
+[charaScale B 1.3]
+[charaScale F 1.2]
+[charaFace B 0]
+[charaFadeinFSL B 0.1 0,210]
+[charaFadein F 0.1 250,-50]
+
+[subRenderFadein #A 1.0 213,-250]
+[subRenderFadein #B 1.0 -213,-250]
+[wt 1.8]
+
+[bgm BGM_EVENT_95 0.1]
+
+[charaTalk on]
+＠怖军
+啊啊，是吗。
+[k]
+
+＠怖军
+……是我失策了呢。
+[k]
+
+[charaFace B 3]
+＠怖军
+设想到了百人份的力量，却没把第一百零一人……[r]没把妹妹那份算进去。
+[k]
+
+＠怖军
+这毫厘之差，对现在的我来说[line 3]
+[k]
+
+[messageOff]
+[charaMoveFSL B 0,180 0.4]
+[charaFadeout B 0.4]
+[wt 0.4]
+[se ad144]
+[wt 1.4]
+
+[charaFace A 3]
+＠难敌
+哈，哈哈哈，活该。
+[k]
+
+＠难敌
+是[#我]，赢了。[r]成功了，第一次，战胜了怖军……
+[k]
+
+[messageOff]
+[charaMoveFSR A 0,170 0.4]
+[charaFadeout A 0.4]
+[wt 0.4]
+[se ad144]
+[wt 1.6]
+
+[subRenderFadeout #A 1.0]
+[subRenderFadeout #B 1.0]
+[wt 1.6]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠阿愈丝
+笨，笨蛋～！？[r]你这样子一点都不像是打赢了啊！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠塞蕾雪拉
+……平手……两败俱伤……？
+[k]
+
+[charaFace D 4]
+＠塞蕾雪拉
+哪种说法都无所谓啦。
+[k]
+
+[messageOff]
+[wt 0.8]
+
+[charaFaceFade D 16 0.3]
+[wt 1.0]
+
+＠塞蕾雪拉
+反正，这也是没办法的事嘛。
+[k]
+
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_95 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

@@ -1,0 +1,534 @@
+
+＄03-00-13-23-2-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098252940 1 特佩乌_B]
+[charaSet D 1098252440 1 库库尔坎]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098257300 1 达·芬奇]
+[charaSet G 1098123000 1 穆尼尔]
+[charaSet H 1098254800 1 尼莫水兵]
+[charaSet I 1098158330 1 尼莫]
+[charaSet J 1098257400 1 希翁]
+
+[sceneSet N 175002 1]
+[sceneSet O 176800 1]
+
+[imageSet R back10000 1 1]
+[charaSet S 98115000 1 特效用]
+[charaSet T 98115000 1 特效用]
+
+[charaScale A 1.3]
+[charaScale N 1.3]
+[charaScale O 1.3]
+
+[scene 175002]
+
+[cameraMove 0.1 0,0 1.01]
+
+[charaTalk depthOff]
+[charaDepth A 2]
+[charaDepth N 1]
+
+[fadein black 1.0]
+[wait fade]
+[wt 2.0]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 1.0 200,0]
+[charaMove A 150,0 1.0]
+[charaFadein N 1.0 -80,-250]
+[charaMove N -130,-250 1.0]
+[wt 1.2]
+
+＠玛修
+无法确认ORT的运转部位。[r]也无法确认内部传出的以太反应与宇宙射线……
+[k]
+
+[bgm BGM_MAP_64 0.1]
+
+[charaFace A 23]
+
+＠玛修
+ORT停止活动！[r]成功了！　成功瘫痪它的战斗力了！
+[k]
+
+？1：成功了……成功了[line 3]！
+？2：都是多亏了库库尔坎呢！
+
+？！
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.8 1.0]
+[bgm BGM_MAP_64 0.8 0.4]
+[wait wipe]
+
+[charaTalk depthOn]
+[charaFadeout A 0.1]
+[charaFadeout N 0.1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+[wt 0.4]
+
+[wipein rectangleStripRightToLeft 0.8 1.0]
+[bgm BGM_MAP_64 0.8 1.0]
+[wait wipe]
+[wt 1.0]
+
+＠库库尔坎
+[line 4]原来，是这样？[r]我，不是什么，米克特兰的代表[line 3]
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+库库尔坎？[r]怎么了。你指尖在发抖，是有什么异常吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+
+＠库库尔坎
+[line 3]特佩乌。[r]我，我[line 3]该怎么办。
+[k]
+
+＠库库尔坎
+我本以为自己虽不是迪诺斯，但也是诞生于米克特兰的，[r]是这颗[#行星:星球]的同伴[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠C：特佩乌
+……哦哦。[r]你发现真相了啊，库库尔坎。
+[k]
+
+＠C：特佩乌
+其实我也没有确凿的证据，但是在此前下冥界的过程中，[r]我已推测到[#是这么一回事]了。
+[k]
+
+＠C：特佩乌
+你，恐怕是[line 2]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth S 2]
+[charaDepth D 1]
+
+[charaTalk D]
+[charaFace D 18]
+[charaFadein D 0.1 1]
+
+＠库库尔坎
+呜……！
+[k]
+
+[messageOff]
+[cueSe SE_21 21_ade546]
+[charaSpecialEffect D erasureReverse 1 0.4]
+[charaRoll S 90 0,350]
+[charaEffect S bit_talk_gale 0,0 H]
+[wt 1.5]
+
+[charaTalk depthOn]
+[charaTalk E]
+[charaFace E 16]
+[charaFadein E 0.1 1]
+
+＠哈贝特洛特
+库库尔坎飞走了！？[r]是打算先回上面保障咱们的安全吗！？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠C：特佩乌
+………………
+[k]
+
+[bgmStop BGM_MAP_64 1.5]
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth F 3]
+[charaDepth A 2]
+[charaDepth T 1]
+
+[se ad882]
+[shake 0.01 0 3 1.0]
+[wt 1.0]
+
+[charaPut T 0,-100]
+[charaEffect T bit_talk_earth_light]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.4]
+[wt 2.0]
+
+[charaScale A 1.0]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠玛修
+震动好剧烈！[r]地下完全崩塌了吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 14]
+[charaFadein F 0.1 1]
+
+＠达·芬奇
+玛修，用示巴观察ORT的状态！[r]有重启的预兆吗！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+没，没有，并没有重启的预兆。[r]已开始自外侧向内部逐渐冷却了。
+[k]
+
+＠玛修
+图像上看起来像是四散的光芒[r]正朝着圆心聚集[line 3]
+[k]
+
+[messageOff]
+[charaFace A 20]
+[wt 1.2]
+
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[seStop ade393 1.0]
+[wait wipe]
+
+[charaTalk depthOn]
+
+[charaFadeout A 0.1]
+[charaPut T 2000,2000]
+[charaEffectDestroy S bit_talk_mgn_light02]
+[charaEffectDestroy T bit_talk_earth_light]
+
+[charaScale S 0.6]
+[charaScale T 1.0]
+
+[scene 10000]
+
+[wipein rectangleStripRightToLeft 0.1 1.0]
+[wait wipe]
+
+[fadeout black 0.1]
+[wait fade]
+
+[scene 176800]
+
+[cueSe SE_22 22_ad1213]
+[seVolume 22_ad1213 0 0]
+[seVolume 22_ad1213 1.0 1.0]
+[fadein black 3.0]
+[wait fade]
+
+[bgm BGM_BATTLE_210 0.1]
+[wt 2.0]
+
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[bgm BGM_BATTLE_210 0.5 0.4]
+[wait wipe]
+[seStop 22_ad1213 3.0]
+
+[charaPut S 2000,2000]
+[charaPut T 2000,2000]
+[charaEffectDestroy S bit_talk_liquor_communication04]
+[charaEffectDestroy T bit_talk_36]
+[wt 0.1]
+
+[scene 175002]
+
+[charaTalk depthOff]
+[charaDepth F 3]
+[charaDepth A 2]
+[charaDepth T 1]
+
+[charaPut T 1]
+[charaEffect T bit_talk_earth_light]
+[wt 0.5]
+
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[bgm BGM_BATTLE_210 0.5 1.0]
+[wait wipe]
+
+[charaTalk F]
+[charaFace F 26]
+[charaFadein F 0.1 1]
+
+＠达·芬奇
+！[r]大家，快向墙壁那边跑！
+[k]
+
+＠达·芬奇
+ORT既没有在重启后与我们交战，[r]也没有因受伤而停止活动！
+[k]
+
+＠达·芬奇
+[#而是此时此刻]，[#正要开始重启]！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.7 1]
+[bgm BGM_BATTLE_210 0.7 0.5]
+[wait wipe]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098252940 1 特佩乌_B]
+[charaSet D 1098252440 1 库库尔坎]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098257300 1 达·芬奇]
+[charaSet G 1098123000 1 穆尼尔]
+[charaSet H 1098254800 1 尼莫水兵]
+[charaSet I 1098158330 1 尼莫]
+[charaSet J 1098257400 1 希翁]
+[sceneSet N 175002 1]
+[sceneSet O 176800 1]
+[imageSet R back10000 1 1]
+[imageSet S back10000 1 1]
+[charaScale S 1.01]
+[imageSet T back10000 1 1]
+[charaScale T 1.01]
+
+[cameraMove 0.1 0,0 1.01]
+
+[shakeStop]
+[scene 10000]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 1.0 1]
+[bgm BGM_BATTLE_210 1.0 1.0]
+[wait wipe]
+
+[criMovie talk_mov161 bgmPlay true]
+
+[fadeout black 1.0]
+[bgm BGM_BATTLE_210 1.0 0.5]
+[wait fade]
+
+[pictureFrameTop cut063_cinema]
+
+[scene 132900]
+[wt 1.0]
+[fadein black 1.0]
+[bgm BGM_BATTLE_210 1.0 1.0]
+[flashin loop 0.6 0.8 FF000080 FF000000]
+[se ad9]
+[seVolume ad9 0 0]
+[seVolume ad9 1.0 0.6]
+[wait fade]
+[wt 3.0]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 0,-50]
+[seVolume ad9 1.0 0.2]
+
+＠穆尼尔
+电脑室发出最大警报！[r]从米克特兰最底层感知到重力变动！
+[k]
+
+＠穆尼尔
+该死，测量仪器都爆表了！[r]推测灵基规模，自卫星级扩大至行[line 3]恒星级！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 0,-50]
+
+＠尼莫水兵
+确认正由最底层向地表改写[#物理法则:Texture]！
+[k]
+
+＠尼莫水兵
+时空连续统的誊抄速度，秒速负3.6！[r]呜哇啊啊啊，糟了糟了糟了糟了～～！
+[k]
+
+＠尼莫水兵
+船长，空想树！[r]特里斯墨吉斯忒斯Ⅱ认定为空想树啦～～！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 4]
+[charaFadein I 0.1 0,-50]
+
+＠尼莫
+光看数值就知道了啦。[r]空想树在哪里？　规模如何？　从这边能用肉眼看到吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 0,-50]
+
+＠尼莫水兵
+这，这[line 3][r][#数之不尽]！
+[k]
+
+＠尼莫水兵
+呜哇～～，显示器上也能看到啦～！[r]那是什么，那是什么啊～～！！！！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[seStop ad9 1.0]
+[bgm BGM_BATTLE_210 1.0 0.5]
+[wait fade]
+
+[flashOff]
+[pictureFrame]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098252940 1 特佩乌_B]
+[charaSet D 1098252440 1 库库尔坎]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098257300 1 达·芬奇]
+[charaSet G 1098123000 1 穆尼尔]
+[charaSet H 1098254800 1 尼莫水兵]
+[charaSet I 1098158330 1 尼莫]
+[charaSet J 1098257400 1 希翁]
+[sceneSet N 175002 1]
+[sceneSet O 176800 1]
+[imageSet R back10000 1 1]
+[imageSet S back10000 1 1]
+[charaScale S 1.01]
+[imageSet T back10000 1 1]
+[charaScale T 1.01]
+
+[cameraMove 0.1 0,0 1.01]
+[shakeStop]
+[scene 10000]
+[wt 0.1]
+
+[fadein black 0.1]
+[bgm BGM_BATTLE_210 1.0 1.0]
+[wait fade]
+
+[criMovie talk_mov162 bgmPlay true]
+
+[fadeout black 1.0]
+[bgm BGM_BATTLE_210 1.0 0.5]
+[wait fade]
+
+
+
+[scene 132900]
+
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 0.1 0,-50]
+[pictureFrameTop cut063_cinema]
+[wt 0.5]
+[fadein black 1.0]
+[bgm BGM_BATTLE_210 1.0 1.0]
+[flashin loop 0.6 0.8 FF000080 FF000000]
+[se ad9]
+[seVolume ad9 0 0.2]
+[wait fade]
+
+＠尼莫
+……全米克特兰的树都在变成空想树……[r]这就是ORT重启的后果吗……？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 9]
+[charaFadein J 0.1 0,-50]
+
+＠希翁
+没错。被异闻带这段“可能性”的历史诱来的那个ORT，[r]与泛人类史的ORT是不同个体。
+[k]
+
+＠希翁
+输出与破坏本能不如泛人类史的ORT，[r]是可以称作ORT亚种的个体。
+[k]
+
+＠希翁
+然而，捕食了空想树的ORT亚种经过进化后，[r]让自己的固有结界变化成了这副模样。
+[k]
+
+＠希翁
+能将地球上的植物改造成『空想树』，[r]将环境改造得适合自身的侵略生物。
+[k]
+
+＠希翁
+这里已不再是黄金树海了。[r]而是最大最恶劣的异闻带，创造于地底的银河地狱[line 3]
+[k]
+
+＠希翁
+空想树海，ORT·希巴尔巴。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[seStop ad9 2.0]
+[bgmStop BGM_BATTLE_210 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

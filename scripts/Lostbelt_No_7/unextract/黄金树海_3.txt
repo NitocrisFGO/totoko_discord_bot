@@ -1,0 +1,238 @@
+
+
+＄03-00-13-02-3-1
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 1098254800 1 尼莫水兵]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098252700 1 怎么看都是恐龙]
+[charaSet D 1098181610 1 迦勒底之人]
+
+[charaSet H 98115000 1 特效用]
+[sceneSet I 169100 1]
+
+[charaTalk depthOff]
+[charaDepth I 3]
+[charaDepth D 4]
+
+[charaScale I 1.4]
+[charaScale D 1.3]
+
+[scene 169100]
+
+[bgm BGM_EVENT_80 0.1]
+
+[fadein black 1.0]
+[wait fade]
+[se ade215]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[shake 0.05 2 2 1.5]
+＠怎么看都是恐龙
+[i npc_language_33][line 3]！
+[k]
+
+[seStop ade215 0.5]
+[charaFadeout C 0.1]
+[wt 0.1]
+[shakeStop]
+
+
+[charaTalk B]
+[charaFace B 21]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+呀[messageShake 0.05 4 3 0.3]啊啊啊啊啊啊啊啊！[r]我怕这个，感觉对付不来！　撤退，撤退～！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+骗人的吧，原来总统害怕爬行类啊～～！（泪）[r]我不当支持者了～～！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 19]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+谁都会有害怕的东西的吧！？[r][%1]！
+[k]
+
+＠U－奥尔加玛丽
+快过来想想办法！[r]你手上应该有什么王牌吧！？
+[k]
+
+？1：我也很想这么做啊……！
+？2：（令咒用不了，也无法召唤……）
+
+？！
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[cueSe SE_22 22_ad1206]
+[shake 0.05 2 2 1.5]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 1.4]
+
+[se ad7]
+[seVolume ad7 0 0.6]
+[se ad1006]
+[seVolume ad1006 0 0.6]
+[charaMoveScale C 1.15 0.3]
+[charaMove C 0,20 0.3]
+[blur motion 0.3 4 100 0.5 0.6 0.03 100]
+[charaFadeout C 0.3]
+
+[cameraMove 0.3 0,-15 1.1]
+[wipeout circleIn 0.3 1.0]
+[seStop ad7 0.3]
+[seStop ad1006 0.3]
+[cueSeStop 22_ad1206 1.0]
+[bgmStop BGM_EVENT_80 1.0]
+[wait wipe]
+
+[cameraHome 0.1]
+[charaScale C 1.0]
+[blurOff motion 0.1]
+[scene 10000]
+[wt 0.2]
+
+[wipein circleIn 0.2 1.0]
+[wait wipe]
+[wt 0.2]
+
+[se bac6]
+[se bac5]
+[se bac4]
+[effect bit_talk_aerial_wave]
+[se ad974]
+[seVolume ad974 0 0.7]
+[wt 1.1]
+
+[seStop ad974 0.8]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[effectDestroy bit_talk_aerial_wave]
+
+[scene 169100]
+
+[cameraHome 0.3]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0 1]
+[charaShake C 0.03 3 4 0.5]
+[wt 0.8]
+
+[cueSe SE_22 22_ad1205]
+＠怎么看都是恐龙
+[i npc_language_34][messageShake 0.05 4 3 0.3][line 3]！
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1219]
+
+[charaFadeout C 0.7]
+[cueSeStop 22_ad1219 1.6]
+[wt 2.2]
+
+
+[cueSe SE_21 21_ade580]
+
+[charaTalk off]
+
+[charaFace D 0]
+[charaFadein D 0.7 0,70]
+[charaFadein I 0.7 0,-250]
+[charaMove D 0,-30 2.8]
+[charaMove I 0,-300 2.8]
+
+[wt 0.4]
+[seStop 21_ade580 1.0]
+[wt 0.2]
+[wt 2.2]
+
+[bgm BGM_EVENT_79 0.1]
+
+＠迦勒底之人
+虽说是初次遭遇，但没想到连几只[r]失智的迪诺斯都无法击退。
+[k]
+
+＠迦勒底之人
+好歹也是『人类最后的御主』，竟如此丑态毕露。
+[k]
+
+＠迦勒底之人
+还是说[line 3]
+[k]
+
+[charaTalk D]
+[charaCrossFade D 1098181620 1 0.4]
+＠迦勒底之人
+切除了六个异闻带让你得意起来了吗？[r]虽说这种愚蠢很符合总是重蹈覆辙的人类。[wait charaCrossFade D]
+[k]
+
+[messageOff]
+[charaFadeout D 1.0]
+[charaFadeout I 1.0]
+[wt 1.2]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+[line 3]你是[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+唔，谁？[r]是你认识的人吗，[%1]？
+[k]
+
+[charaScale I 1.0]
+[charaScale D 1.0]
+
+？1：嗯，罗玛尼·阿其曼[line 3]
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[wt 0.9]
+
+？1：……是如此自称的某个人。
+？！
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_79 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

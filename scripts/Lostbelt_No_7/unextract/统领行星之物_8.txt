@@ -1,0 +1,1041 @@
+
+
+＄03-00-13-25-8-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252470 1 库库尔坎]
+[charaSet B 6042002 1 高扬斯卡娅]
+[charaSet C 1098253500 1 恐爪龙十一兄弟·老大]
+[charaSet E 1098253510 1 恐爪龙十一兄弟·老二]
+[charaSet D 1098253520 1 恐爪龙十一兄弟·老三]
+[charaSet F 1098253530 1 恐爪龙十一兄弟·老七]
+[charaSet G 1098257910 1 玛修]
+
+[sceneSet H 10000 1]
+[charaScale H 1.03]
+[sceneSet I 10000 1]
+[charaScale I 1.03]
+
+[sceneSet P 10000 1]
+[charaScale P 1.01]
+[sceneSet Q 174301 1]
+[charaScale Q 1.2]
+[sceneSet R 178300 1]
+[charaScale R 1.3]
+[sceneSet S 178401 1]
+[charaScale S 1.85]
+[sceneSet T 178401 1]
+[charaScale T 1.6]
+[sceneSet U 178400 1]
+[charaScale U 1.16]
+
+[charaSet X 5009000 1 特效用1]
+[charaSet Z 5009000 1 特效用2]
+
+[scene 10001]
+[effect bit_talk_36_sl01]
+
+[fadein black 3.0]
+[cueSe SE_22 22_ad1187]
+[seVolume 22_ad1187 0 0.2]
+[wait fade]
+
+[seStop 22_ad1187 1.0]
+[wt 1.0]
+
+？1：光芒[line 3]
+？2：逐渐收束[line 3]
+
+？！
+
+[bgm BGM_MAP_65 3.0]
+
+[scene 174400 3.0]
+[se ad952]
+[wt 2.0]
+[seStop ad952 2.0]
+[effectStop bit_talk_36_sl01]
+[wt 3.0]
+
+[subCameraOn 2]
+
+[charaLayer A sub #A]
+[charaLayer Q sub #A]
+[charaLayer H sub #B]
+[charaLayer I sub #B]
+
+[subCameraFilter #A maskEdge cut359_mask07 3 255,255,255,255]
+[subCameraFilter #B through]
+
+[charaScale A 1.2]
+
+[charaDepth A 6]
+[charaDepth Q 5]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 0,240]
+[charaFadein Q 0.1 200,0]
+[wt 0.1]
+
+[subRenderFadein #A 0.2 0,-230]
+[subRenderMove #A 0,-270 0.2]
+[wt 0.2]
+
+＠库库尔坎
+[line 3]
+[k]
+
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+
+＠[FF0000]特里斯墨吉斯忒斯Ⅱ[-]
+[FF0000]『报告，观测到虚拟英灵体的灵基崩溃』[-]
+[k]
+
+＠[FF0000]特里斯墨吉斯忒斯Ⅱ[-]
+[FF0000]『[#警告]。[#观测到侵略异星生命体的降临]』[-]
+[k]
+
+＠[FF0000]特里斯墨吉斯忒斯Ⅱ[-]
+[FF0000]『时空连续统将被插入异闻记录』[-]
+[k]
+
+＠[FF0000]特里斯墨吉斯忒斯Ⅱ[-]
+[FF0000]『确认到基于[#悖论效果:Paradox Effector]的[#膨胀现象:Inflation]』[-]
+[k]
+
+＠[FF0000]特里斯墨吉斯忒斯Ⅱ[-]
+[FF0000]『侵略个体　[#行星统管细胞:Star Cell]。[-][r][FF0000]　发生区间　重新定义至　观测宇宙时间　146亿年』[-]
+[k]
+
+＠[FF0000]特里斯墨吉斯忒斯Ⅱ[-]
+[FF0000]『ORT　即将出现』[-]
+[k]
+
+[messageOff]
+[scene 10001 0.7]
+[se ade390]
+[se ad574]
+[se ad828]
+[seVolume ad828 0 0.3]
+[wt 3.5]
+
+[cueSe SE_22 22_ad1188]
+[se ad825]
+[seVolume ad825 0 0]
+[seVolume ad825 1.0 0.5]
+[wt 0.5]
+[charaFadein R 2.0 0,-150]
+[charaMove R 0,-250 8.0]
+[wt 3.0]
+[scene 178300]
+[wt 1.5]
+[charaFadeout R 1.4]
+[wt 1.4]
+
+[seVolume ad825 2.0 0.3]
+[seVolume 22_ad1188 2.0 0.3]
+[wt 2.0]
+
+？1：[line 3]为什么？
+？2：难道那是无论怎么做都打不倒的[&对手:存在]吗……？
+
+？！
+
+[subRenderFadein #A 0.2 0,-270]
+[wt 0.2]
+
+＠库库尔坎
+不。虽说是诞生于异闻带的亚种，[r]但迦勒底确实已经击退了那个侵略体。
+[k]
+
+＠库库尔坎
+ORT之所以没有消灭，[r]是因为『[#肉体:太阳]』还残存着。
+[k]
+
+[bgmStop BGM_MAP_65 1.5]
+
+＠库库尔坎
+[line 3]请交给我吧。[r]接下来才是我真正的使命。
+[k]
+
+[messageOff]
+[seStop ad825 2.0]
+[seStop 22_ad1188 2.0]
+
+[bgm BGM_BATTLE_206 0.1]
+
+[fadeout white 1.5]
+[wait fade]
+
+[subRenderFadeout #A 0.1]
+
+[charaFadein S 0.1 100,-85]
+[wt 0.5]
+[charaMove S -100,-85 40.0]
+
+[fadein white 1.5]
+[se ad921]
+[seVolume ad921 0 0.8]
+[cueSe SE_21 21_ade580]
+[seVolume 21_ade580 2.0 0.1]
+[wt 1.0]
+[scene 178401]
+[wait fade]
+
+[seStop 21_ade580 1.5]
+
+[charaFadeout A 0.1]
+[charaFadeout Q 0.1]
+[wt 0.5]
+[charaLayer A normal]
+[charaLayer Q normal]
+
+
+＠库库尔坎
+……自虚空降临的侵略者。[r]我们是共存关系呢，ORT。
+[k]
+
+＠库库尔坎
+你通过吞噬空想树，延长了活动时间，[r]而我们则通过利用你的心脏，让世界存续下去。
+[k]
+
+＠库库尔坎
+在此消灭你，[r]就意味着消灭这异闻带。
+[k]
+
+＠库库尔坎
+……但是。
+[k]
+
+＠库库尔坎
+决不能将太阳祭坛上的幻视，特斯卡特利波卡[r]见到的未来强推给泛人类史。
+[k]
+
+
+＠库库尔坎
+[line 3]感谢你们迄今为止的协助。
+[k]
+
+
+＠库库尔坎
+让我用语言明确表达迈雅的全体意见吧。[r]米克特兰，将在此终结。
+[k]
+
+＠库库尔坎
+培育了6600万年的生命、6600万年的时间、[r]6600万年的答案[line 3]
+[k]
+
+＠库库尔坎
+“虽是良善的，但是，还存在其他道路。”
+[k]
+
+＠库库尔坎
+我们承认这点。[r]承认我们令居住于这颗行星上的物种停止了发展。
+[k]
+
+[messageOff]
+[charaDepth T 5]
+[charaDepth S 4]
+
+[charaFadein T 1.0 0,-190]
+[charaMove T 0,-240 10.0]
+[wt 1.0]
+[charaFadeout S 0.1]
+
+
+＠库库尔坎
+灭绝会平等地造访万物。
+[k]
+
+＠库库尔坎
+无论身处什么样的环境、什么样的生态，[r]只要你还是生命，就不例外。
+[k]
+
+
+＠库库尔坎
+[line 3]然后，亲身体会这个事实吧！
+[k]
+
+＠库库尔坎
+这颗太阳既是你的心脏，[r]也是创造、孕育出我的胚胎！
+[k]
+
+＠库库尔坎
+吾名为库库尔坎，诞生自太阳之物！[r]也就是，你的同体！
+[k]
+
+[messageOff]
+[charaFadeout T 1.5]
+[wt 2.0]
+
+[flashin once 0.5 1.0 FFFFFFFF FFFFFF00]
+[scene 178400 1.5]
+[se ad960]
+[se ad439]
+[seVolume ad439 0 0.1]
+[seVolume ad439 1.5 0.7]
+[se ad429]
+[seVolume ad429 0 0.1]
+[seVolume ad429 1.5 0.5]
+[wt 1.0]
+[seStop ad439 1.5]
+[wt 2.0]
+
+
+＠库库尔坎
+如今正是将我身归还太阳，讨伐汝身之刻！[r]星际航行[#心脏:引擎]，启动！
+[k]
+
+
+＠库库尔坎
+风自苍穹降临，[r]星自宇宙坠落。
+[k]
+
+[seStop ad429 1.5]
+
+
+＠库库尔坎
+[line 3][#能打倒ＯＲＴ的]，[#只有ＯＲＴ]！
+[k]
+
+[messageOff]
+[overlayFadein U 0.5 8,-166]
+[wt 0.7]
+
+＠库库尔坎
+消灭之时已至，究极之一！[r]这颗行星并无我等可吞噬之物！
+[k]
+
+
+
+
+[messageOff]
+[seStop ad429 0.1]
+[seStop 21_ade580 0.1]
+[scene 10000]
+
+[criMovie talk_mov166 bgmPlay false]
+[wt 0.5]
+[charaFadeout U 0.5]
+[wt 24.0]
+
+[bgmStop BGM_BATTLE_206 2.5]
+[wt 5.0]
+[scene 10001 0.5]
+[wt 0.5]
+
+[fadeout white 0.1]
+[wait fade]
+
+[sceneSet S 169403 1]
+[charaScale S 1.4]
+[charaFadein S 0.1 100,-350]
+
+[scene 169403]
+[wt 1.9]
+
+[charaMove S -100,-350 90.0]
+
+[subRenderFadein #B 0 0,0]
+[charaFadein H 0.1 0,-745]
+[charaFadein I 0.1 0,745]
+[wt 0.1]
+
+[fadein white 2.4]
+[wait fade]
+
+
+＠
+太阳结束了自身的使命，燃烧殆尽。
+[k]
+
+＠
+空想树海维持着假说的状态消失，[r]留在平原上的迪诺斯也即将迎来临终。
+[k]
+
+[messageOff]
+[wt 0.7]
+
+[bgm BGM_EVENT_161 1.0]
+＠咏星的迪诺斯
+啊啊[line 3][#宇宙:星星]吗……
+[k]
+
+[messageOff]
+[wt 0.7]
+
+＠
+最后10秒。[r]贤者在不见天日的地底，仰望着天空。
+[k]
+
+＠
+一切均为空想的世界，[r]本该遭到剪定的剩余时间。
+[k]
+
+＠
+迟早会从所有人的记忆中消逝，遭到遗忘的事物。
+[k]
+
+＠
+迪诺斯们的6600万年，过于漫长的岁月，[r]甚至没有残留的空虚历史。
+[k]
+
+＠咏星的迪诺斯
+……即便如此，[r]这也是我们的人生，是美丽的事物。
+[k]
+
+＠
+哪怕没有皆大欢喜的结局，[r]就算只是一段虚构的故事。
+[k]
+
+＠
+即便是幻想，即便是虚构。
+[k]
+
+＠
+一度被创造出来的东西，是不会消失的。[r]一度诞生的梦，就会被刻在那边界上。
+[k]
+
+＠
+在这个宇宙中，永远地，留存下去。
+[k]
+
+＠咏星的迪诺斯
+……哪怕，不存在，吟咏之人。[r]……哪怕，不会孕育出，任何价值。
+[k]
+
+＠咏星的迪诺斯
+[line 3]哪怕[line 3][r]这股热量，行将冷却[line 3]
+[k]
+
+[messageOff]
+[wt 0.7]
+
+＠
+贤者微笑着表示，[r]看来可能发生的事也不是毫无意义的。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[bgm BGM_EVENT_161 1.5 0.5]
+[wait fade]
+
+[charaFadeout S 0.1]
+
+[sceneSet S 174301 1]
+
+[scene 169507]
+[wt 1.5]
+
+[fadein black 1.5]
+[bgm BGM_EVENT_161 1.5 1.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 0,-50]
+[charaEffect B bit_talk_06]
+
+＠高扬斯卡娅
+呜哇，连[#太阳:自己]都动员来取得的完全胜利吗！？
+[k]
+
+[charaFace B 25]
+
+＠高扬斯卡娅
+唉，没想到竟会由异闻带之王终结异闻带。[r]给出如此干脆的答案，我的立场该往哪放啊。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut B 2000,2000]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+
+＠恐爪龙十一兄弟
+为什么你的立场会没处放呢，大姐头？[r]因为你没派上多大的用处吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 0,-50]
+
+＠高扬斯卡娅
+你这木头脑袋，眼睛是长来当装饰的吗！　我可是出色地派上了用处！[r]何况NFF本就不是主角。
+[k]
+
+[charaFace B 16]
+
+＠高扬斯卡娅
+暗中支援各位的人生，让各位获得成功！[r]才是我的本愿。
+[k]
+
+[charaFace B 17]
+
+＠高扬斯卡娅
+因此，这次也不例外。[r]只要顾客能存活下来，哪愁没钱赚嘛。
+[k]
+
+＠高扬斯卡娅
+还得让迦勒底的各位给我带来[r]更多更多的乐子才行呢。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut B 2000,2000]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+
+＠恐爪龙十一兄弟
+原来如此，死亡商人的想法真肮脏。[r]原来立场没处放指的是这么一回事啊。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0,-50]
+
+＠恐爪龙十一兄弟
+毕竟在自己的使命完成之后还死撑着要出来嘛。[r]不过大姐头，你闪闪发光的，好像快消散了哦？
+[k]
+
+＠恐爪龙十一兄弟
+果然是要死在这里了吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 0,-50]
+
+＠高扬斯卡娅
+不必担心，这只是单纯的退去♡[r]毕竟我没有不惜搭上性命也要帮助他们的义务。
+[k]
+
+[charaFace B 7]
+
+＠高扬斯卡娅
+倒是各位接下来打算怎么办？[r]米克特兰很快就会消失了。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut B 2000,2000]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0,-50]
+
+＠恐爪龙十一兄弟
+这个嘛。[r]难得刚好就在奇琴伊察……
+[k]
+
+[charaFace F 1]
+
+＠恐爪龙十一兄弟
+当然应该蹴球吧！
+[k]
+
+＠恐爪龙十一兄弟
+剩下的[#兄弟:我们]只有四个人了，[r]就举行2对2的仪式，不，比赛吧！
+[k]
+
+＠恐爪龙十一兄弟
+我们要一直，做自己想做的事，直到世界终结为止！[r]我们就是为此而活的嘛！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 30]
+[charaFadein B 0.1 0,-50]
+
+＠高扬斯卡娅
+……说得对，合情合理。[r]就像野马会在野外奔驰到最后一刻一样。
+[k]
+
+＠高扬斯卡娅
+所谓的生命，就是不被任何人强迫地[r]追求自身的喜悦。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut B 2000,2000]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0,-50]
+
+＠恐爪龙十一兄弟
+噢！　那再见啦，[#兔子:Tochtli]大姐头！[r]时间宝贵，我们先走啦！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaDepth E 2]
+[charaDepth F 1]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadeinFSL E 0.1 -220,-50]
+[charaFace F 1]
+[charaFadeinFSR F 0.1 220,-50]
+[wt 1.2]
+
+[cueSe SE_22 22_ad1217]
+[seStop 22_ad1217 1.5]
+[charaFadeout E 0.4]
+[charaFadeout F 0.4]
+[wt 1.0]
+
+[charaDepth C 1]
+[charaDepth D 2]
+
+[charaFace C 0]
+[charaFadeinFSL C 0.1 -180,-50]
+[charaFace D 0]
+[charaFadeinFSR D 0.1 260,-50]
+[wt 1.2]
+
+[cueSe SE_22 22_ad1217]
+[seStop 22_ad1217 1.5]
+[charaFadeout C 0.4]
+[charaFadeout D 0.4]
+[wt 2.0]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠高扬斯卡娅
+[line 3]那我也就此告辞了。[r]工作告一段落。
+[k]
+
+[messageOff]
+[charaScale S 1.55]
+[overlayFadein S 1.5 365,-110]
+[wt 2.0]
+
+[se ad52]
+[wt 3.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_161 1.5]
+[wait fade]
+
+[subRenderFadeout #B 0.1]
+[charaMove H 2000,2500]
+[charaMove I 2000,2500]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+
+[charaFadeout S 0.1]
+[charaFadeout B 0.1]
+[charaEffectDestroy B bit_talk_06]
+
+[charaSet A 1098252450 1 库库尔坎]
+
+[scene 174400]
+[wt 2.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_106 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠库库尔坎
+哎呀～。[r]到头来还是让太阳爆炸了☆
+[k]
+
+＠库库尔坎
+虽然势头太猛，把整个米克特兰的空想树[r]都轰飞了，但那也是不可抗力嘛！
+[k]
+
+[charaFace A 6]
+
+＠库库尔坎
+这下[#异闻带:米克特兰]只能消失了，[r]但我并不是为了泛人类史才这样做的。
+[k]
+
+＠库库尔坎
+我是随心所欲的外星人。[r]你可千万别误会成我跟人类相互理解了哦？
+[k]
+
+？1：『人类的同伴』可不是误会，
+
+？！
+
+[messageOff]
+[wt 0.2]
+
+？1：而是不容置疑的，事实吧？
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+
+＠玛修
+是的！[r]库库尔坎小姐从未与我们为敌过！
+[k]
+
+＠玛修
+令人震惊的伙伴率100％，[r]是始终值得信赖的异闻带之王！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 16]
+[charaFadein A 0.1 1]
+
+＠库库尔坎
+哎。这就说得有点……[r]好歹有一次作为不明敌我的谜之存在……
+[k]
+
+[charaFace A 14]
+
+＠库库尔坎
+……也是。[r]我们一次都没有战斗过呢……[f small]这其实也颇为遗憾呢～……[f -]
+[k]
+
+[charaFace A 11]
+
+＠库库尔坎
+不过嘛，这也是没办法的事！[r]毕竟，
+[k]
+
+[charaFace A 9]
+
+＠库库尔坎
+『库库尔坎是异闻带之王，[r]　守护米克特兰是她的使命。』（严肃）
+[k]
+
+＠库库尔坎
+『不过，她也不是会因此就盲目[r]　憎恨外敌的人。』（超严肃）
+[k]
+
+[charaFace A 2]
+
+＠库库尔坎
+我从卡多克先生那里听说了！[r]既然承蒙你如此抬举，我也没办法出手了！
+[k]
+
+？1：我说这话时表情没那么严肃[&啊:啦～]！
+？2：（卡多克是大嘴巴吗？）
+
+？！
+
+[charaFace A 11]
+
+＠库库尔坎
+其实别说出手了，我甚至想牢牢地捕获你们[r]留在我身边呢，但我好歹是异闻带之神嘛。
+[k]
+
+[charaFace A 20]
+
+＠库库尔坎
+既不能挽留大家，[r]也不能追随大家一起走。
+[k]
+
+＠库库尔坎
+我是库库尔坎，曾是这世界的太阳。[r]是创造并毁灭了世界的神。
+[k]
+
+＠库库尔坎
+既然已经完成自己的使命，我打算守望着[r]逐渐没入黑暗的树海直到最后一刻。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 30]
+[charaFadein G 0.1 1]
+
+＠玛修
+…………
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠库库尔坎
+不过，我终归是出道成神明了嘛～！
+[k]
+
+＠库库尔坎
+等各位回到地表后，[r]或许也会作为从者被召唤出来哦～！
+[k]
+
+[charaFaceFade A 20 0.2]
+
+＠库库尔坎
+因为这就是泛人类史的系统吧？[r]无论是什么，知识产权都是共享的。
+[k]
+
+
+＠库库尔坎
+毕竟你们是耗费诸多资源、诸多无谓，[r]最后抵达终点的[#人类:人]嘛。
+[k]
+
+？1：……或许是吧。
+？2：……我会努力让它成真的。
+
+？！
+
+[messageOff]
+[charaFaceFade A 11 0.3]
+[wt 1.6]
+[charaFace A 0]
+
+＠库库尔坎
+那我也就此告辞了。[r][line 3]啊，对了，差点忘了。
+[k]
+
+[charaFace A 9]
+
+＠库库尔坎
+虽然大家都已经断联了，[r]但最后还是要告诉你们迈雅的全体意见。
+[k]
+
+＠库库尔坎
+『我们会替你们加油的。』
+[k]
+
+＠库库尔坎
+不是因为你们看护了米克特兰的临终。
+[k]
+
+＠库库尔坎
+而是因为替正在奔跑的赛跑选手加油，[r]是生命理所应当的行为。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+[wt 1.0]
+[charaFaceFade G 9 0.3]
+[wt 1.5]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 20]
+[charaFadein A 0.1 1]
+
+＠库库尔坎
+[line 3]好了，这次真的要告别了。
+[k]
+
+＠库库尔坎
+请你们尽可能地成长，尽可能地，走得更远。
+[k]
+
+＠库库尔坎
+然后也希望你们的旅途[r]能获得尽可能多幸福的眷顾。
+[k]
+
+＠库库尔坎
+这就是我们的梦想，[r]无论是遥远的[#太古:过去]，还是遥远的[#未来:当下]。
+[k]
+
+＠库库尔坎
+生命的纪行总是会无比远大地，[r]持续闪耀着黄金的光辉。
+[k]
+
+[messageOff]
+[cueSe SE_21 21_ade546]
+[seVolume 21_ade546 0 0.7]
+[charaRoll X 90 0,350]
+[charaEffect X bit_talk_gale 0,0 H]
+[se ad795]
+[seVolume ad795 0 0.2]
+[se ad800]
+[charaFadeout A 0.3]
+[wt 0.5]
+[seStop ad800 0.2]
+[wt 1.5]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+
+＠玛修
+……库库尔坎小姐走了呢。
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 1.0 1.0]
+[bgm BGM_EVENT_106 1.0 0.5]
+[wait wipe]
+
+[charaFadeout G 0.1]
+
+[sceneSet S 169101 1]
+[charaScale S 1.01]
+[charaFadein S 1.0 0,-200]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 1.0 1.0]
+[wait wipe]
+
+[effect bit_talk_insect_blackout]
+
+[fadeout black 6.0]
+[wait fade]
+
+[effectDestroy bit_talk_insect_blackout]
+[charaFadeout S 0.1]
+[scene 10000]
+[wt 0.5]
+
+[fadein black 0.1]
+[wait fade]
+
+[scene 169507 1.5]
+[wt 2.0]
+
+[effect bit_talk_insect_blackout]
+
+[fadeout black 6.0]
+[wait fade]
+
+[effectDestroy bit_talk_insect_blackout]
+[scene 174400]
+
+[charaSet F 1098257910 1 玛修_演出用]
+[sceneSet Q 174400 1]
+
+[subCameraOn 1]
+
+[charaLayer F sub #A]
+[charaLayer Q sub #A]
+
+[subCameraFilter #A through]
+[subRenderScale #A 1.02]
+
+[charaDepth F 6]
+[charaDepth Q 5]
+
+[charaFace F 5]
+[charaFadein F 0.1 0,0]
+[charaFadein Q 0.1 0,-200]
+[wt 1.0]
+
+[wipeout rectangleStripRightToLeft 0.1 1.0]
+[wait wipe]
+
+[fadein black 0.1]
+[wait fade]
+
+[wipein rectangleStripLeftToRight 1.0 1.0]
+[bgm BGM_EVENT_106 1.0 1.0]
+[wait wipe]
+[wt 1.0]
+
+？1：……树海逐渐暗下来了……
+？2：…………
+
+？！
+
+[charaFadeout P 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠玛修
+随着太阳的消失，[r]四周的重力方向也开始发生变动。
+[k]
+
+＠玛修
+Storm Border正朝着第一层……[r]朝着地表爬升。
+[k]
+
+＠玛修
+虽然依依不舍，但只能就此与树海[line 3][wt 1.0][charaFace G 5]前辈？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_106 0.5]
+
+[charaTalk off]
+
+[subRenderFadein #A 0.4 0,0]
+
+[cameraFilter gray]
+[se ad231]
+[wt 0.5]
+
+[subRenderFadeout #A 0.5]
+[cameraFilter normal]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+[charaFadeout Q 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer F normal]
+[charaLayer Q normal]
+[wt 0.5]
+
+[charaFace G 28]
+
+＠玛修
+前辈！？
+[k]
+
+
+[messageOff]
+[fadeout black 2.2]
+[wt 2.0]
+[se ad144]
+[seVolume ad144 0 0.7]
+[wait fade]
+[wt 2.5]
+[soundStopAll]
+[end]

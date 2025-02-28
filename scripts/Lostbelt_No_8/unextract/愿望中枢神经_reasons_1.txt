@@ -1,0 +1,847 @@
+
+
+
+＄04-00-02-04-1-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098270300 1 阿愈丝]
+[charaSet B 1098270000 1 希翁]
+[charaSet C 7046001 1 难敌]
+[charaSet D 6037000 1 迦摩]
+[charaSet E 1098270900 1 拉妮－Ｒ]
+[charaSet F 1098271000 1 蠢魔1]
+[charaSet G 1098271000 1 蠢魔2]
+[charaSet H 1098271000 1 蠢魔3]
+[charaSet I 1098269800 1 ？？？]
+[charaSet J 1098269600 1 Caster]
+
+
+[sceneSet O 189301 1]
+[charaScale O 1.4]
+[charaSet P 1098270310 1 阿愈丝（演出用）]
+[charaScale P 1.2]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+
+
+[scene 189301]
+
+[charaFadein O 0.1 -255,-420]
+
+[charaMove O -155,-420 4.5]
+[fadein black 1.5]
+[wait fade]
+[bgm BGM_MAP_41 1.0]
+[wt 2.0]
+
+[charaFadeout O 1.0]
+[wt 1.4]
+
+
+？1：虽然时间感有点奇怪。
+？2：不过这里也有夜晚呢。
+？！
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+只是为了方便起见啦。天空也一样，[r]只是将像是那么回事的东西投影在天花板上而已。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+＠希翁
+恐怕从外部看来，[r]内部的活动也不存在任何变化吧。
+[k]
+
+＠希翁
+我觉得单纯只是采取这种方法，[r]来对概念层面上的一次循环进行划分罢了。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+应该就是这样吧。[wt 0.6][r]……唔？
+[k]
+
+[bgmStop BGM_MAP_41 1.5]
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[wt 0.6]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+[bgm BGM_EVENT_2 0.1]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠难敌
+喂喂，本老爷有个问题……
+[k]
+
+＠难敌
+你的弓和箭可以借给别人吗？[r]别人使用也有效果吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+＠迦摩
+你是白痴吗？[r]我说过我不打算干活吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+＠难敌
+不，本老爷当然知道！[r]所以才问能不能借给本老爷！
+[k]
+
+[charaFace C 7]
+＠难敌
+好嘛～，有什么关系嘛～？[r]这都是为了尚未谋面的美女。
+[k]
+
+＠难敌
+都是为了喜欢本老爷到无法自拔[r]但却提不起勇气的美女……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠迦摩
+不要发出那种恶心的谄媚声。
+[k]
+
+＠迦摩
+而且上哪儿去找那种女人啊？[r]你身边就只有你的御主吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠难敌
+本老爷对那种乳臭未干的小丫头不感兴趣！[r]兴趣缺缺到连本老爷自己都很惊讶！
+[k]
+
+[charaFace C 0]
+＠难敌
+所以啦，为了本老爷光辉的未来！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 1]
+＠迦摩
+受不了，你吵死了。
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[bgm BGM_EVENT_2 0.6 0.5]
+[wait wipe]
+
+[charaFadeout D 0.1]
+[wt 0.6]
+
+[bgm BGM_EVENT_2 0.6 1.0]
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠阿愈丝
+我好像听到有人在说我的坏话。
+[k]
+
+[charaFace A 0]
+＠阿愈丝
+……呵呵。那两人究竟算感情好，还是不好呢。[r]看他们那种样子，总觉得[line 3]
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+
+[charaFace A 5]
+＠阿愈丝
+……[r]……
+[k]
+
+[charaFace A 0]
+＠阿愈丝
+话说，我想问问来自外部的你们，[r]那种关系，就是那个吧？
+[k]
+
+＠阿愈丝
+彼此知根知底，互动时毫不客气的……[r]那种关系……
+[k]
+
+＠阿愈丝
+就像是『兄妹』吧？
+[k]
+
+？1：也许吧。
+？2：令人莞尔呢。
+？！
+
+[bgm BGM_EVENT_25 0.1]
+
+[charaFace A 1]
+＠阿愈丝
+唔，嗯嗯，对吧！？[r]我就知道！
+[k]
+
+[charaFace A 0]
+＠阿愈丝
+我啊……总觉得『家人』这种关系很美好呢。
+[k]
+
+＠阿愈丝
+虽然我已经想不起这是我身为首席ＡＩ时[r]就拥有的自然个性，
+[k]
+
+
+＠阿愈丝
+还是因乱数器成为这种具有人格的御主后[r]才萌生的感情了。
+[k]
+
+[charaFace A 6]
+＠阿愈丝
+但我觉得这种关系非常温暖、幸福、[r]令人安心。
+[k]
+
+[charaCrossFade A 1098270310 0 0.3]
+＠阿愈丝
+所以[line 3]我可以说出来吗。[wait charaCrossFade A]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth A 1]
+[charaDepth O 2]
+[charaDepth P 3]
+
+[charaFace P 0]
+[charaFadein P 0.8 225,20]
+[charaFadein O 0.8 -50,-225]
+[charaMove P 175,20 0.8]
+[charaMove O -100,-225 0.8]
+[wt 1.0]
+
+[charaTalk on]
+＠P：阿愈丝
+当我赢得圣杯战争时想许的愿望，[r]是想要家人。
+[k]
+
+[charaFace P 1]
+＠P：阿愈丝
+说得更具体一些，就是想见到家人，[r]想跟家人一起生活之类的。
+[k]
+
+＠P：阿愈丝
+心里莫名有这样的愿景呢。
+[k]
+
+[charaFace P 0]
+＠P：阿愈丝
+所以，如果能成为综合统管ＡＩ，[r]定制世界的话，
+[k]
+
+＠P：阿愈丝
+我打算构筑一种跟现在不太一样的[r]ＡＩ们的形式。
+[k]
+
+[charaFace P 6]
+＠P：阿愈丝
+虽说正如你们所见，现阶段也有模有样的，[r]但我希望能构筑一种更为细腻，更为体系化的……
+[k]
+
+[charaFace A 1]
+[charaFace P 1]
+＠P：阿愈丝
+类似家人间的关系呢。
+[k]
+
+？1：这是个……很美好的愿望呢。
+？2：（五味杂陈）
+？！
+
+[messageOff]
+[charaTalk off]
+[charaFadeout P 0.8]
+[charaFadeout O 0.8]
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaCrossFade A 1098270300 3 0.3]
+＠阿愈丝
+啊！　没有，不是啦，对不起哦！？[wait charaCrossFade A]
+[k]
+
+＠阿愈丝
+我的意思不是让你们把胜利让给我，[r]我完全没有这种想法，只不过……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠难敌
+哎呀～，没事没事，尽管说。[r]给对手施加压力也是很重要的。
+[k]
+
+[charaFace C 3]
+＠难敌
+如果想要什么，根本不必客气。[r]就该表明自己想要这个，主张自己的正当性！
+[k]
+
+＠难敌
+哪怕没有正当性也要主张！[r]毕竟就是想要嘛，那有什么办法！
+[k]
+
+＠难敌
+本老爷一直都是这样过日子的。[r]就像现在想租借爱神之箭一样！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+＠迦摩
+我都说了不会借你啦。
+[k]
+
+＠迦摩
+话说就是因为你这种人生态度，[r]以前才会遭遇五花八门的麻烦吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+＠难敌
+没错，本老爷就是想要。就是因为有不惜[r]引发战争也想得到的东西，才会去战斗！
+[k]
+
+＠难敌
+本老爷对此丝毫不后悔，[r]只认为自己做得很对。
+[k]
+
+＠难敌
+哪怕本老爷转世投胎个上百万次，[r]也会做同样的事吧。
+[k]
+
+[charaFace C 11]
+＠难敌
+所以这次也一样。[r]本老爷要为了本老爷想要的东西而战。
+[k]
+
+＠难敌
+我们虽是同盟关系，但本老爷丝毫不打算[r]在最后输给你们。先做好思想准备吧。
+[k]
+
+？1：……你这次的愿望是什么？
+？！
+
+[charaFace C 7]
+＠难敌
+哦？　哦哦？[r]竟然会问，竟然问这个问题？
+[k]
+
+[bgmStop BGM_EVENT_25 1.5]
+
+＠难敌
+好啊，那就回答你吧。[r]关于这个啊[line 3]
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[bgm BGM_EVENT_94 0.1]
+
+[charaFace C 3]
+＠难敌
+[f x-large]所[wt 0.1]·[wt 0.1]有[wt 0.1]·[wt 0.1]一[wt 0.1]·[wt 0.1]切！
+[k]
+
+[charaFace C 7]
+＠难敌
+财富、荣誉、名声、快乐……还有很多其他的。[r]总之本老爷想得到自己渴求的一切。
+[k]
+
+＠难敌
+你可别问“那你最想要什么”这种愚蠢的问题哦。[r]那种东西[line 3]
+[k]
+
+[messageOff]
+[charaFace C 11]
+[wt 1.2]
+
+？1：…………？
+？！
+
+[charaFace C 10]
+＠难敌
+没什么。[r]那种东西毫无任何意义。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠阿愈丝
+可当遇到初次见面的女性型号时，你有总是[r]直勾勾盯着别人瞧的老毛病吧。真下流。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠难敌
+唔。这个嘛，本老爷倒是不否认。
+[k]
+
+[charaFace C 12]
+＠难敌
+本老爷的内心在低声呢喃，快去找女人。[r]想来……估计是在挑选候补新娘吧。
+[k]
+
+[charaFace C 3]
+＠难敌
+这就难怪了，帅气的王子总是需要[r]般配的妻子嘛。哇哈哈！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+这也算是一种家人关系吧，[r]只要不是强行逼迫就行了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠难敌
+总之只要获得一切，[r]其中肯定会有本老爷想要的东西。
+[k]
+
+[charaFace C 3]
+＠难敌
+哇哈哈，明白了吗，[r]理解本老爷这穷妙极巧的愿望了吗？
+[k]
+
+[charaFace C 7]
+＠难敌
+所以高贵的本老爷才会特地[r]为了让御主获胜而不辞辛苦。
+[k]
+
+＠难敌
+只要有统管ＡＩ的权限，这小小世界的构造[r]还不是任本老爷拿捏把玩？
+[k]
+
+[charaFace C 1]
+＠难敌
+先造一座金闪闪的巨大宫殿～，[r]然后在里面广纳财宝和美食～，哼呵呵……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠阿愈丝
+受不了，[#Berserker:狂战士]你还真是任性呢。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+＠难敌
+错，是你太小家子气了。
+[k]
+
+＠难敌
+本老爷觉得，都能够实现所有愿望了，[r]竟然还扯什么家人这种渺小的事。
+[k]
+
+[charaFace C 8]
+＠难敌
+家人真有那么好吗？[r]你肯定不知道家里一百个兄弟会有多吵吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠阿愈丝
+我当然不可能知道啦，别举你那种特殊案例好吗。[r]不过非特殊的案例我也只在知识层面上了解过。
+[k]
+
+[charaFace A 1]
+＠阿愈丝
+但是，你们都了解所谓的家人吧。[r]这让我有点羡慕呢。
+[k]
+
+[charaCrossFade A 1098270310 0 0.3]
+＠阿愈丝
+对了，拜托让我学习一下吧。[wait charaCrossFade A]
+[k]
+
+＠阿愈丝
+假设你们是一家人，那就是[&父亲:母亲]与[r]两个女儿……对吧？
+[k]
+
+？1：没错，她们是我引以为傲的女儿们。
+？2：麻烦假设成[&哥哥:姐姐]和两个妹妹吧。
+？！
+
+[messageOff]
+[bgm BGM_EVENT_94 1.5 0.7]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth B 3]
+[charaDepth D 4]
+
+[charaFace D 5]
+[charaFace B 0]
+[charaFadeinFSR D 0.1 2]
+[charaFadeinFSL B 0.1 0]
+[wt 1.2]
+
+[charaSet A 1098270300 1 阿愈丝]
+
+
+[charaTalk on]
+＠迦摩
+哈？　能别把我当小孩子吗？[r]我之所以这副模样，只是偶然罢了。
+[k]
+
+＠迦摩
+拜托别把我跟这个可疑的炼金术师混为一谈。
+[k]
+
+[charaFace B 8]
+＠希翁
+可疑是什么意思？[r]我当前的样貌与思想没有任何需要羞愧的。
+[k]
+
+[charaFace B 10]
+＠希翁
+从能力上来说，不该是什么女儿或妹妹，[r]而是相互信赖、相互支撑的对等关系[line 3]
+[k]
+
+＠希翁
+我也考虑过同一组织内的同事这种形式，[r]不过这只是我个人的期望。
+[k]
+
+[charaFace B 2]
+＠希翁
+我不会争辩。更何况这样安排是否[r]能让我满意，也还得打个问号，
+[k]
+
+＠希翁
+另外，立场这东西并不是靠自己主张[r]或是寻求定义的……
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠难敌
+哈哈哈，好好相处啦。在本老爷看来，[r]你们全都是乳臭未干的小丫头。没差没差。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠阿愈丝
+唔，你这话是不是把我也算进去了？[r]我可是体面的首席ＡＩ哦！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠难敌
+谁知道呢～。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_94 1.5]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠阿愈丝
+真是的……[wt 0.6][charaFace A 3]唔？
+[k]
+
+＠阿愈丝
+大本营那边是不是有点吵闹？[r]是发生什么事了吗？
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+[charaFace A 4]
+＠阿愈丝
+同型号间通讯[line 3]咦，接不通。[r]真奇怪。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠希翁
+我还没确认过，[r]原来ＡＩ之间有通讯功能吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+基本上，同型号间都能通过网络对话。
+[k]
+
+＠阿愈丝
+不同型号间就不太方便了，得先交换个体[r]识别号码后，才能进行一对一通讯。
+[k]
+
+＠阿愈丝
+其实除此以外还有其他能实现远程通讯的手段，[r]但那些都是紧急时用的，平常基本只能这样。
+[k]
+
+[charaFace A 3]
+＠阿愈丝
+总之治疗型之间的普通网络现在好像是宕机了。
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+＠阿愈丝
+所以我无法与身在大本营的那些孩子取得联络……
+[k]
+
+[charaFace A 8]
+＠阿愈丝
+我有种不祥的预感。[r]快走吧！
+[k]
+
+[messageOff]
+[se ade427]
+[wt 0.1]
+[se ad59]
+[charaMove A -100,0 0.4]
+[charaFadeout A 0.4]
+[seStop ade427 1.2]
+[seStop ad59 1.2]
+[wt 0.6]
+
+[wipeout leftToRight 0.6 1.0]
+[seStop ad3 0.8]
+[seStop ad940 0.8]
+[wait wipe]
+
+[scene 10000]
+[wt 0.2]
+
+[wipein rightToLeft 0.1 1.0]
+[wait wipe]
+
+[fadeout black 0.1]
+[wait fade]
+
+[scene 189401]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+[se ad85]
+[effect bit_talk_x_slash_bk_03]
+[wt 0.6]
+
+[seStop ad85 0.3]
+[cueSe Battle bac403]
+[cueSe Battle bac195]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[effectDestroy bit_talk_x_slash_bk_03]
+[fowardEffect bit_talk_14]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0 1]
+[charaShake E 0.02 3 4 0.6]
+[wt 1.1]
+
+[charaFace E 7]
+[wt 0.1]
+[cueSe SE_23 23_ad1299]
+[charaPut E 1]
+[charaEffect E bit_talk_atomization_ele01]
+
+[bgm BGM_EVENT_72 0.1]
+
+[charaSpecialEffect E enemyErasure 0,0 2.0]
+[wait charaSpecialEffect E]
+[wt 2.0]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠阿愈丝
+大家！！
+[k]
+
+？1：这是……！
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth F 4]
+[charaDepth G 5]
+[charaDepth H 6]
+[charaDepth I 7]
+[charaDepth J 8]
+
+[se ad21]
+[charaFace F 0]
+[charaFace G 0]
+[charaFace H 0]
+[charaFadein H 0.5 0,-9]
+[charaMove H 1 0.4]
+[wt 0.3]
+[charaFadeinFSSideR F 0.5 450,-9]
+[charaMoveFSSideR F 450,0 0.4]
+[wt 0.3]
+[charaFadeinFSSideL G 0.5 -450,-9]
+[charaMoveFSSideL G -450,0 0.4]
+[wt 1.6]
+
+[charaTalk on]
+＠？？？
+回来得还真晚呢。
+[k]
+
+＠？？？
+出门散步的时候，[r]一定要记得锁好门才行哦？
+[k]
+
+[messageOff]
+[charaTalk off]
+[wt 0.1]
+
+[se ad95]
+[wt 0.4]
+[charaFace I 1]
+[charaFadeinFSR I 0.4 2]
+[wt 0.4]
+[seStop ad95 0.4]
+[wt 0.9]
+
+[se ade428]
+[charaFace J 10]
+[charaFadeinFSL J 0.4 0]
+[wt 0.4]
+[seStop ade428 0.4]
+[wt 0.8]
+
+[charaTalk on]
+＠Caster
+嗯，不在家是很危险的，真的很危险。[r]毕竟不知道会发生什么嘛……
+[k]
+
+[messageOff]
+[charaTalk off]
+[wt 1.4]
+
+
+
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_72 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

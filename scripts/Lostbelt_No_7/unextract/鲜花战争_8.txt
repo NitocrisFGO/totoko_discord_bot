@@ -1,0 +1,485 @@
+
+
+
+＄03-00-13-18-8-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253300 1 神官乌库伯]
+[charaSet B 1098259100 1 迪诺斯1]
+[charaFilter B silhouette 00000080]
+[charaSet C 1098254300 1 迪诺斯2]
+[charaFilter C silhouette 00000080]
+[charaSet D 1098258200 1 迪诺斯3]
+[charaFilter D silhouette 00000080]
+[charaSet E 1098256800 1 迪诺斯4]
+[charaFilter E silhouette 00000080]
+[charaSet F 1098252440 1 库库尔坎]
+[charaScale F 1.2]
+
+[sceneSet H 169507 1]
+[charaScale H 1.2]
+[sceneSet I 175800 1]
+[charaScale I 1.01]
+[sceneSet J 169903 1]
+[charaScale J 1.2]
+[sceneSet K 169903 1]
+[charaScale K 1.2]
+[sceneSet L 170301 1]
+[charaScale L 1.2]
+[sceneSet M 169800 1]
+[charaScale M 1.4]
+[sceneSet N 170301 1]
+[charaScale N 1.01]
+[sceneSet O 175800 1]
+[charaScale O 1.45]
+
+[scene 170301]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_142 0.1]
+
+＠
+[align center]第七异闻带　调查记录　第○○日[align]
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth I 2]
+[charaDepth O 3]
+[charaFadein H 1.5 -60,-300]
+[charaMove H 60,-300 40.0]
+[wt 1.7]
+
+＠
+奥塞洛特尔发动的奇琴伊察袭击战[r]在一天之内结束了。
+[k]
+
+＠
+汽笛鸣响的同时，[r]奥塞洛特尔们撤回了墨西哥城。
+[k]
+
+＠
+我们在祭坛上看到的，[r]只有沾满鲜血的玉座，与被夺走了的太阳遍历的遗痕。
+[k]
+
+＠
+由于太阳遍历被夺走，[r]太阳的停止位置由奇琴伊察变为墨西哥城，
+[k]
+
+＠
+在经过了20个小时的当下，[r]太阳光仍未照耀到奇琴伊察，夜晚持续着。
+[k]
+
+＠
+战斗以奥塞洛特尔们的胜利告终，[r]但是从折损情况来看，是奥塞洛特尔惨败。
+[k]
+
+＠
+杀害一名迪诺斯所需的奥塞洛特尔士兵超过30名。
+[k]
+
+＠
+20支小队……1支小队100人，约2000人组成的[r]奥塞洛特尔精锐……
+[k]
+
+＠
+撤退时仅剩16人。
+[k]
+
+[messageOff]
+[charaFadein I 1.5 0,-200]
+[wt 2.8]
+[charaFadeout H 0.1]
+
+＠
+另外，在埋葬奥塞洛特尔的尸体时，[r]他们的种族也随之揭晓。
+[k]
+
+[messageOff]
+[charaFadein O 1.5 300,-125]
+[charaMove O 200,-125 40.0]
+[wt 1.7]
+[charaFadeout I 0.1]
+[wt 1.0]
+
+＠
+类人猿，拥有与人类相似特征的中型灵长类。
+[k]
+
+＠
+诞生于米克特兰，没有迈雅的加护，[r]最新，也是最弱的物种。
+[k]
+
+＠
+根据诞生的经过与能力，他们在迪诺斯眼里[r]只是『等同于虫子的动物』。
+[k]
+
+[scene 169601]
+
+＠
+估计是特斯卡特利波卡给予了他们智慧、武器，[r]和豹头面具，并将他们作为新人类来教育。
+[k]
+
+[messageOff]
+[charaFadeout O 1.5]
+[wt 1.7]
+
+＠
+幸存下来的迪诺斯有62名。[r]其中包括神官长乌库伯。
+[k]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠神官乌库伯
+没错，是我为奥塞洛特尔们带的路！[r]就在你们对恐龙王他们唯唯诺诺的期间！
+[k]
+
+＠神官乌库伯
+『[#太阳的教诲:库库尔坎]』有守护我们吗？[r]没有！
+[k]
+
+＠神官乌库伯
+恐龙王能用他那瘦弱的身体守护你们吗？[r]不能！
+[k]
+
+＠神官乌库伯
+那两个人没资格领导米克特兰！[r]当然，你们也一样！
+[k]
+
+[charaFaceFade A 5 0.2]
+
+＠神官乌库伯
+看啊，这遍地的猴子亡骸！
+[k]
+
+＠神官乌库伯
+你们知道那些家伙为何做到这种地步吗！
+[k]
+
+＠神官乌库伯
+奥塞洛特尔的目的是延续世界的寿命。[r]为了赋予太阳活力，那些家伙才会挑战迪诺斯！
+[k]
+
+＠神官乌库伯
+以往被我们当作『下等生物』对待，[r]从未视作竞争对手的家伙们，
+[k]
+
+＠神官乌库伯
+为拯救米克特兰免遭第五次毁灭，[r]为阻止泛人类史带来的剪定，挺身而战！
+[k]
+
+[messageOff]
+[charaCrossFade A 1098253310 4 0.4]
+[wait charaCrossFade A]
+
+＠神官乌库伯
+我的所作所为没有错！
+[k]
+
+＠神官乌库伯
+没有战斗意愿的王，和窝囊的迪诺斯[r]都是不需要的存在！
+[k]
+
+[messageOff]
+[se ad91]
+[wipeout cutVer 2.0 1.0]
+[bgm BGM_EVENT_142 2.0 0.5]
+[wait wipe]
+
+[se ad546]
+[charaFadeout A 0.1]
+[scene 10000]
+[wt 1.0]
+
+[wipein cutVer 1.0 1.0]
+[wait wipe]
+
+＠
+神官长乌库伯被问罪，[r]关押进牢狱。
+[k]
+
+＠
+哪怕面对背叛国王、出卖国家的神官长，[r]迪诺斯们也没有对他产生憎恨之情。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth J 1]
+[charaDepth B 2]
+[charaDepth C 3]
+[charaDepth K 4]
+[charaDepth D 5]
+[charaDepth E 6]
+
+[bgm BGM_EVENT_142 1.0 0.8]
+
+[charaFadein J 1.0 -120,-160]
+[wt 1.2]
+
+[charaFace B 0]
+[charaFace C 0]
+[charaFadeinFSR B 0.3 420,0]
+[charaFadeinFSL C 0.3 -300,0]
+[wt 0.3]
+
+＠迪诺斯们
+『没想到神官长乌库伯的不满如此强烈。』
+[k]
+
+＠迪诺斯们
+『不过，他分明将奥塞洛特尔想得如此危险，[r]　却还是选择帮助他们。是发生了什么事吗？』
+[k]
+
+＠迪诺斯们
+『在这米克特兰，在空中飞行本身就是[r]　对太阳的不敬。精神失常也在所难免吧。』
+[k]
+
+＠迪诺斯们
+『很遗憾，我们并不理解翼龙种。』
+[k]
+
+[messageOff]
+[charaFadein K 1.0 70,-160]
+[charaMove K 120,-160 1.0]
+[wt 1.2]
+[charaFadeout J 0.2]
+[charaFadeout B 0.2]
+[charaFadeout C 0.2]
+
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSL D 0.3 -450,0]
+[charaFadeinFSR E 0.3 350,0]
+[wt 0.3]
+
+＠迪诺斯们
+『不过奥塞洛特尔竟然是栖息于密林的动物。』
+[k]
+
+＠迪诺斯们
+『原来不是泛人类史的生物啊。[r]　原来是米克特兰的生物啊。』
+[k]
+
+＠迪诺斯们
+『我知道以前的他们。[r]　是只能靠集体行动才能生存的，不具备智慧的动物。』
+[k]
+
+＠迪诺斯们
+『然而就算有特斯卡特利波卡的介入，[r]　也真亏他们能在短期间内成长了那么多呢。』
+[k]
+
+＠迪诺斯们
+『迪诺斯不具备的生存本能，[r]　迪诺斯不会萌生的目的。』
+[k]
+
+＠迪诺斯们
+『迪诺斯的生存战略是正确的。[r]　可是[line 3]』
+[k]
+
+＠迪诺斯们
+『这样的我们，好像无法理解他们的想法。』
+[k]
+
+[messageOff]
+[subCameraOn 1]
+[charaLayer F sub #A]
+[charaLayer N sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask06 3 0,174,149,255 0]
+[charaDepth N 1]
+[charaDepth F 2]
+
+[charaTalk F]
+[charaFace F 12]
+[charaFadein F 0.1 0,205]
+[charaFadein N 0.1 0,200]
+[subRenderFadein #A 0.4 -50,-355]
+[subRenderMove #A 0,-355 0.4]
+[wt 2.0]
+[subRenderFadeout #A 0.5]
+[wt 0.5]
+[charaScale F 1.0]
+[charaFadeout N 0.1]
+[charaFadeout F 0.1]
+[wt 1.0]
+[charaLayer F normal]
+[subCameraOff]
+
+[bgm BGM_EVENT_142 2.0 0.5]
+[charaDepth L 7]
+[charaFadein L 1.5 0,-300]
+[charaMoveScale L 1.01 60.0]
+[charaMove L 0,-200 60.0]
+[wt 1.7]
+[charaFadeout K 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+＠
+……没错。6600万年来，[r]『拥有智慧却没有任何发展』的种族。
+[k]
+
+＠
+太阳之所以在众多神话中都受到信仰，[r]是因为那是『超乎自身想象之物』。
+[k]
+
+＠
+拥有智慧的生物，[r]会从世间万物中觅见意义。
+[k]
+
+＠
+智慧即为『想要接近伟大存在的力量』。
+[k]
+
+＠
+没有智慧的生物不具备这种力量，[r]因此只能进行适应环境的进化。
+[k]
+
+＠
+但拥有智慧的生物必定会逐渐实现[r]不同于适应进化的进化。
+[k]
+
+＠
+……而[#他们:迪诺斯]从一开始，就被排除在这个法则之外。
+[k]
+
+＠
+拥有高度智慧的同时，却由于共情能力之高，[r]而从未觅见『特别』。
+[k]
+
+＠
+不需要钻研、憧憬、故事，[r]甚至不需要创造生存所需的文化。
+[k]
+
+＠
+在迈雅创造出来的理想生命环境中，[r]一直过着幸福时光的智慧生物。
+[k]
+
+＠
+他们的灭绝已近在眼前。
+[k]
+
+＠
+我终于明白迈雅为何没在地表打造乐园了。
+[k]
+
+＠
+迈雅打算随着太阳的消灭一起消灭。
+[k]
+
+＠
+这是在不为人知的情况下，[r]在地底世界终结这个异闻的[#意愿:Will]。
+[k]
+
+＠
+无论作为文明拥有多高的完成度，
+[k]
+
+＠
+这个异闻带也不可能成为人类的威胁[line 3][r]不可能成为人类的竞争对手。
+[k]
+
+＠
+遭到剪定的“如果”。[r]生命的可能性之一。
+[k]
+
+＠
+我相信记住他们的结局，[r]就是我们唯一能做到的饯别。
+[k]
+
+＠
+　[r][r][align right]格兰·卡瓦洛　记述[align]
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_142 1.5]
+[wait fade]
+
+[charaFadeout L 0.1]
+[charaDepth F 1]
+[charaDepth M 2]
+
+[charaTalk F]
+[charaFace F 12]
+[charaFadein F 0.1 1]
+[charaFadein M 0.1 -260,-400]
+
+[scene 169800]
+[wt 1.0]
+
+[charaMove M -120,-300 15.0]
+[cueSe SE_23 23_ad1236 1.5 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[wt 2.5]
+
+[charaFadeout M 1.5]
+[cueSeVolume 23_ad1236 1.5 0.5]
+[bgm BGM_MAP_52 0.1]
+[wt 2.0]
+
+
+＠库库尔坎
+　　　　[line 6]
+[k]
+
+＠[08fa55]库库尔坎[-]
+[08fa55]　　　　迪诺斯的思考形态出现了变化的预兆[-][r][08fa55]　　　　认定为衰退　但与灭绝无关[-]
+[k]
+
+＠[08fa55]库库尔坎[-]
+[08fa55]　　　　第九层的空想树　重新开始活动[-][r][08fa55]　　　　树皮再生导致的宇宙射线泄露　减轻[-]
+[k]
+
+＠[08fa55]库库尔坎[-]
+[08fa55]　　　　以保护空想树为首要任务[-][r][08fa55]　　　　禁止任何人进入第九层[-]
+[k]
+
+[messageOff]
+[cueSeStop 23_ad1236 0.5]
+[wt 1.5]
+[charaFace F 1]
+
+＠库库尔坎
+是吗……在梅兹蒂特兰收到的[#全体意见:声音]，[r]原来不是我听错了呢……
+[k]
+
+＠库库尔坎
+也就是说，所有泛人类史的来客，[r]不分对象格杀勿论吧……
+[k]
+
+＠库库尔坎
+……唉。毕竟迈雅很少出现改变方针的情况，[r]我还希望是搞错了什么呢……
+[k]
+
+[charaFace F 11]
+
+＠库库尔坎
+算了，也没办法呢！[r]干脆利落地杀掉他们吧！
+[k]
+
+＠库库尔坎
+反正就像捏死虫子一样！[r]毕竟我本就是个没血没泪的神明嘛！
+[k]
+
+
+[messageOff]
+[wt 0.5]
+[fadeout black 2.0]
+[bgmStop BGM_MAP_52 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

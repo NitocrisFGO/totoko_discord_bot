@@ -1,0 +1,445 @@
+
+
+＄03-00-13-05-3-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253530 1 恐爪龙十一兄弟1]
+[charaSet B 1098253500 1 恐爪龙十一兄弟2]
+[charaSet C 1098253510 1 恐爪龙十一兄弟3]
+[charaSet D 1098253530 1 恐爪龙十一兄弟4]
+[charaSet E 1098253510 1 恐爪龙十一兄弟5]
+[charaSet F 1098253500 1 恐爪龙十一兄弟·老六]
+[charaSet G 1098253520 1 恐爪龙十一兄弟·老七]
+
+[charaSet H 98001000 1 玛修]
+[charaScale H 1.2]
+[charaSet I 3009001 1 列奥尼达]
+[charaSet J 1098252900 1 特佩乌]
+
+[sceneSet K 169900 1]
+[charaScale K 1.3]
+[sceneSet L 169900 1]
+[charaScale L 1.3]
+[sceneSet M 169900 1]
+[charaScale M 1.3]
+[sceneSet N 170300 1]
+[charaScale N 1.01]
+[imageSet O back10000 1 1]
+[charaScale O 1.01]
+
+[charaTalk depthOff]
+[charaDepth K 1]
+[charaDepth D 2]
+[charaDepth G 2]
+[charaDepth E 3]
+[charaDepth F 3]
+[charaDepth L 4]
+[charaDepth A 5]
+[charaDepth B 6]
+[charaDepth C 7]
+[charaDepth N 8]
+[charaDepth I 9]
+
+[charaFadein K 0.1 -195,-250]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_160 0.1]
+
+[cueSe SE_22 22_ad1217]
+[wt 0.7]
+[charaTalk off]
+[charaFace D 0]
+[charaFace E 0]
+
+[charaFadein D 0.4 -70,-50]
+[charaMove D 0,-50 0.4]
+[wt 0.2]
+[cueSeStop 22_ad1217 0.4]
+[charaFadeinFSL E 0.4 -326,-50]
+[charaMoveFSL E -256,-50 0.4]
+[wt 0.8]
+
+[subCameraOn 1]
+[charaLayer M sub #A]
+[charaLayer H sub #A]
+
+[charaDepth M 1]
+[charaDepth H 2]
+
+[charaTalk on]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein M 0.1 195,50]
+[charaFadein H 0.1 -10,300]
+
+[subCameraFilter #A maskEdge cut359_mask05 3]
+
+[se ade200]
+[subRenderFadeinFSR #A 0.4 300,-100]
+[subRenderMoveFSR #A 300,-300 0.4]
+[wt 0.7]
+
+＠玛修
+好，刚才那套动作做10组！[r]别让球掉到地上，一路控球到中场！
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.4]
+[wt 0.4]
+[charaTalk off]
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+
+[charaFadein L 0.8 145,-250]
+[charaFadeinFSR A 0.8 206,-50]
+[charaFadeinFSL B 0.8 -250,-50]
+[charaFadein C 0.8 -50,-50]
+
+[charaMove L 195,-250 0.8]
+[charaMoveFSR A 256,-50 0.8]
+[charaMoveFSL B -200,-50 0.8]
+[charaMove C 0,-50 0.8]
+[charaMove M -195,50 0.1]
+[charaMove H 0,300 0.1]
+
+[wt 1.3]
+
+[charaMove K 0,-250 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[subCameraFilter #A maskEdge cut359_mask05 3]
+
+[se ade110]
+[subRenderFadeinFSL #A 0.4 -300,-100]
+[subRenderMoveFSL #A -300,-300 0.4]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk H]
+
+＠玛修
+那边的，不准偷懒！　偷懒的人将[r]强制罚做眼镜蛇式拉伸体操！
+[k]
+
+＠玛修
+赌上曾锻炼过我的列奥尼达王之名！[r]我定会将各位打造成一流的斯巴达人！
+[k]
+
+[charaTalk C]
+[charaShake C 0.05 3 3 0.5]
+
+＠C：恐爪龙十一兄弟
+呱[line 3]！[r]玛修大姐头，超级可怕[line 3]！
+[k]
+
+[messageOff]
+[charaTalk off]
+[subRenderFadeout #A 0.4]
+[wt 0.5]
+[charaFadeout M 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[subCameraOff]
+[charaLayer M normal #A]
+[charaLayer H normal #A]
+
+？1：谢谢你，列奥尼达王……！
+
+[charaFadein N 1.0 0,-200]
+[wt 1.2]
+[charaFadeout L 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaPut I 1]
+[charaFace I 0]
+[charaFadeTime I 0.4 0.7]
+[wt 0.8]
+
+[se ade395]
+[effect bit_talk_starshine 18,185]
+[wt 2.0]
+
+[bgmStop BGM_EVENT_160 1.2]
+
+[charaFadeout N 1.0]
+[charaFadeout I 1.0]
+[wt 2.0]
+
+？2：玛修的开关被打开了。
+
+[bgmStop BGM_EVENT_160 1.2]
+
+[charaFadeout L 1.0]
+[charaFadeout A 1.0]
+[charaFadeout B 1.0]
+[charaFadeout C 1.0]
+[wt 2.0]
+
+？！
+[bgm BGM_EVENT_161 0.1]
+
+[charaTalk on]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0,-50]
+
+＠恐爪龙十一兄弟·老七
+连特佩乌大师都没有这么严厉……[r]你的[&太太:同事]真了不起。
+[k]
+
+＠恐爪龙十一兄弟·老七
+话说，你们这情况还真麻烦呢。[r]是想去大平原对面吧？
+[k]
+
+＠恐爪龙十一兄弟·老七
+那当然只能获得优胜才行啦。[r]只要神官乌库伯还在，就见不到恐龙王。
+[k]
+
+？1：大家都是这样吗？
+
+？！
+
+＠恐爪龙十一兄弟·老七
+嗯，乌库伯一直以来就喜欢对其他迪诺斯乱发脾气，[r]自从恐龙王来了以后，就更变本加厉了。
+[k]
+
+＠恐爪龙十一兄弟·老七
+如今他统领着斗士职的迪诺斯，[r]自命奇琴伊察的支配者。
+[k]
+
+＠恐爪龙十一兄弟·老七
+我们只要还能蹴球就没什么意见，[r]但也有迪诺斯离开了奇琴伊察。
+[k]
+
+＠恐爪龙十一兄弟·老七
+嗯，这方面算是人各有志吧。[r]特佩乌大师也挺自说自话的吧？
+[k]
+
+＠恐爪龙十一兄弟·老七
+大师还在奇琴伊察的时候，[r]曾担任我们的教练。
+[k]
+
+＠恐爪龙十一兄弟·老七
+那个是叫队形（？）吧？[r]靠那招，我们才能连战连胜。
+[k]
+
+？1：现在不用了吗？
+
+？！
+
+＠恐爪龙十一兄弟·老七
+用了也赢不了。队形都是一次性的，[r]第二次就会遭到针对。
+[k]
+
+＠恐爪龙十一兄弟·老七
+特佩乌大师每次都帮我们设计[r]针对对手的队形。
+[k]
+
+＠恐爪龙十一兄弟·老七
+失去这招的我们变回了一支弱旅。[r]连续夺冠不过是遥远往昔的荣光。
+[k]
+
+＠恐爪龙十一兄弟·老七
+毕竟我们是小型迪诺斯。[r]被大型迪诺斯一撞就会输。
+[k]
+
+＠恐爪龙十一兄弟·老七
+所以才会刻意与对手碰撞，让对手被判罚，[r]靠这种狡猾的小花招勉强取胜。
+[k]
+
+＠恐爪龙十一兄弟·老七
+这招也在[#隐匿者:Crypter]到来后玩完了。[r]毕竟[#隐匿者:Crypter]普及了语言，
+[k]
+
+＠恐爪龙十一兄弟·老七
+规则经过了细致的修改，[r]犯规也变得最多可以三次了。
+[k]
+
+＠恐爪龙十一兄弟·老七
+因此每个[#DF:后卫]都必须冲撞四次才行，[r]这样下去迟早真的会发生事故。
+[k]
+
+＠恐爪龙十一兄弟·老七
+十一兄弟如今已是七兄弟。[r]说他们可可中毒病倒根本就是瞒天大谎啦。
+[k]
+
+？1：（理由比我想象中还要沉重……）
+
+＠恐爪龙十一兄弟·老七
+怎么了，一脸仿佛吃到苦草的表情。[r]想问我们为什么不作罢？
+[k]
+
+？2：…………为什么不惜到这个地步还要继续踢蹴球？
+
+？！
+
+＠恐爪龙十一兄弟·老七
+那当然是因为喜欢啦。[r]蹴球感觉很棒吧。
+[k]
+
+＠恐爪龙十一兄弟·老七
+虽说不是生存所必须的行为。
+[k]
+
+＠恐爪龙十一兄弟·老七
+可是踢球，奔跑，兄弟们欢声笑语的，[r]给人一种难以言表的充实感哦。
+[k]
+
+？1：把特佩乌叫回来不就好了嘛。
+？2：你们没挽留特佩乌吗？
+
+？！
+
+[bgmStop BGM_EVENT_161 1.5]
+
+＠恐爪龙十一兄弟·老七
+…………我们当然希望他能留在奇琴伊察啦。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth O 4]
+[charaDepth J 5]
+
+[charaFace J 0]
+[charaFadein J 1.5 0,0]
+[charaFadein O 1.5 0,-200]
+[charaMoveScale J 1.1 40.0]
+[charaMove J 100,0 40.0]
+[wt 1.0]
+
+[bgm BGM_EVENT_11 0.1]
+[wt 0.5]
+
+＠恐爪龙十一兄弟·老七
+人不可貌相，特佩乌大师其实还挺固执的。[r]是个无法忍受存在“不理解的事情”的迪诺斯。
+[k]
+
+＠恐爪龙十一兄弟·老七
+虽说是个怪人，[r]但如果还有其他同类倒还好……
+[k]
+
+＠恐爪龙十一兄弟·老七
+在奇琴伊察……不，在迪诺斯中，[r]不存在跟特佩乌一样的“怪人”。
+[k]
+
+＠恐爪龙十一兄弟·老七
+这不同于遭到排挤。
+[k]
+
+＠恐爪龙十一兄弟·老七
+而是发现了周围人分明完全不在意，[r]只有自己显得“格格不入”……
+[k]
+
+＠恐爪龙十一兄弟·老七
+大概就是这样吧。
+[k]
+
+＠恐爪龙十一兄弟·老七
+我在几兄弟中也算是性格乖僻的，[r]多少能跟上一点他的想法。
+[k]
+
+＠恐爪龙十一兄弟·老七
+所以才制止了打算叫住特佩乌大师的兄弟们。
+[k]
+
+＠恐爪龙十一兄弟·老七
+我说特佩乌还是独自一人比较好，[r]如果不孤身一人，就会很痛苦。然而[line 3]
+[k]
+
+[bgmStop BGM_EVENT_11 1.2]
+
+[messageOff]
+[charaFadeout O 1.0]
+[charaFadeout J 1.0]
+[wt 1.2]
+
+[charaTalk on]
+[charaTalk G]
+
+＠恐爪龙十一兄弟·老七
+看来是我搞错了。[r]他确实有『伙伴』呢！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMove K -195,-250 1.0]
+[charaMove G -195,-50 1.0]
+[cueSe SE_22 22_ad1210 1.0 1.0]
+[wt 1.2]
+
+[cueSeStop 22_ad1210 0.5]
+[charaFace F 0]
+[charaFadein F 0.5 316,-50]
+[charaMove F 256,-50 0.5]
+[wt 0.7]
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk on]
+[charaTalk F]
+
+＠恐爪龙十一兄弟·老六
+嚯嚯嚯嚯。[r]跑步，跑步。
+[k]
+
+[charaFace F 1]
+＠恐爪龙十一兄弟·老六
+怎么了，兄弟，[r]在跟[%1]辈前说悄悄话吗？
+[k]
+
+＠恐爪龙十一兄弟·老六
+想要加深感情倒是无妨啦。[r]只是各位辈前想参加蹴球的话，应该需要那个吧？
+[k]
+
+＠恐爪龙十一兄弟·老六
+但看起来似乎没有吧。
+[k]
+
+？1：那个？
+？2：那个是？
+
+？！
+
+[charaTalk G]
+
+＠G：恐爪龙十一兄弟·老七
+啊，对哦，理所当然到我都把这事给忘了。[r][%1]没有My Ball吧！
+[k]
+
+＠G：恐爪龙十一兄弟·老七
+要想参加蹴球的话，[r]每个人都要带上一个献给太阳的球。
+[k]
+
+＠G：恐爪龙十一兄弟·老七
+我倒是很想把我的备用球给你，但那必须是新品才行，[r]不然会被『[#太阳的教诲:库库尔坎]』嫌弃的。
+[k]
+
+＠G：恐爪龙十一兄弟·老七
+抓紧时间筹备材料去吧！[r]这一带的『黏树』长在西边森林里。
+[k]
+
+＠G：恐爪龙十一兄弟·老七
+拜托了，[%1]。
+[k]
+
+＠G：恐爪龙十一兄弟·老七
+我感觉只要有你加入，就能久违地[r]享受一场快乐的[#仪式:比赛]啦。
+[k]
+
+[messageOff]
+[wt 0.5]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_147 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

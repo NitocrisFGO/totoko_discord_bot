@@ -1,0 +1,1116 @@
+
+
+＄03-00-13-06-4-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 98001000 1 玛修]
+[charaSet B 1098253300 1 神官乌库伯]
+[charaSet C 1098253200 1 U－奥尔加玛丽]
+[charaSet D 1098252900 1 特佩乌]
+[charaSet E 1098254800 1 尼莫水兵]
+[charaSet F 1098252600 1 恐龙王]
+[charaSet G 1098253520 1 恐爪龙十一兄弟]
+[charaSet H 1098253530 1 恐爪龙十一兄弟]
+[charaSet I 1098253800 1 斗士瓦克昌]
+[charaSet J 1098257500 1 拉斯普京]
+[imageSet K back10001 1 1]
+[charaScale K 1.3]
+[charaSet L 1098252940 1 特佩乌（B）]
+[charaSet M 1098253310 1 神官乌库伯]
+[sceneSet N 169100 1]
+[sceneSet O 169901 1]
+[sceneSet P 169901 1]
+[charaSet S 98115000 1 特效用dummy1]
+[charaSet T 98115000 1 特效用dummy2]
+
+[scene 169901]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠玛修
+欢迎回来，前辈。[r]辛苦您筹措药品了。
+[k]
+
+[charaFace A 6]
+＠玛修
+[FFFFFF]？[-]　好多货物啊……御主？[r]发生什么奇怪的事了吗……？
+[k]
+
+？1：[line 3]不，没什么。
+？2：（戴比特的事还是另找机会再说吧……）
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_77 1.0]
+[charaFadeout A 0.1]
+[wt 0.2]
+
+[se adm54]
+[wt 1.6]
+
+[subCameraOn 1]
+
+[charaLayer B sub #A]
+[charaLayer O sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask07 3 255,255,255,255 0]
+
+[charaScale B 1.3]
+[charaScale O 1.4]
+
+[charaTalk depthOff]
+[charaDepth O 2]
+[charaDepth B 3]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 100,150]
+[charaFadein O 0.1 0,-280]
+
+[subRenderFadein #A 0.7 0,-140]
+[wt 1.2]
+
+[bgm BGM_EVENT_160 0.1]
+
+＠神官乌库伯
+听好了，汇聚一堂的迪诺斯们啊！[r]现在终于选出了两队朝圣者！
+[k]
+
+＠神官乌库伯
+太阳即将来到我等头顶，[r]坐镇于奇琴伊察之座上！
+[k]
+
+＠神官乌库伯
+当真正精彩的蹴球获得认可时，[r]『[#太阳的教诲:库库尔坎]』便会展露身形！
+[k]
+
+＠神官乌库伯
+[line 3]看吧！[r]此番仪式，追求顶点的是[line 3]
+[k]
+
+＠神官乌库伯
+追求顶点的是[line 3][wt 1.0][bgmStop BGM_EVENT_160 3.0][charaFace B 3]什么？[r]这是怎么回事，我可没听说过啊！？
+[k]
+
+
+[messageOff]
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+[charaFadeout B 0.1]
+[charaFadeout O 0.1]
+
+[cueSe SE_21 21_ade643]
+[cueSeVolume 21_ade643 0 0]
+[se ad877]
+[seVolume ad877 0 0]
+
+[cueSeVolume 21_ade643 1.0 0.3]
+[seVolume ad877 1.0 0.3]
+[wt 2.0]
+
+[subCameraOff]
+
+[charaLayer B normal]
+[charaLayer O normal]
+[charaScale B 1.0]
+[charaScale O 1.0]
+
+
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠U－奥尔加玛丽
+……那个啰嗦的家伙突然不作声了。[r]发生什么事了吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠玛修
+上面好像发生了什么争执。[r][#仪式:比赛]会怎么样呢？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[cueSeStop 21_ade643 1.5]
+[seStop ad877 1.5]
+
+[cueSe SE_22 22_ad1210]
+[wt 0.4]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 50,0]
+[charaMove D 1 0.4]
+[wt 0.4]
+[cueSeStop 22_ad1210 0.2]
+[wt 0.4]
+＠特佩乌
+哦，仪式算死亡翻滚队优胜哦。[r]因为我们弃权了。
+[k]
+
+＠特佩乌
+乌库伯是听到这份报告后慌了手脚吧。[r]毕竟他很不会应付这类意料之外的事。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 11]
+[charaFadein E 0.1 1]
+＠尼莫水兵
+哎？
+[k]
+
+？1：弃权，为什么！？
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_76 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠特佩乌
+没有什么为什么，因为没有意义。
+[k]
+
+[charaFace D 1]
+＠特佩乌
+[%1]你们一路晋级，[r]而我们也一路晋级。
+[k]
+
+＠特佩乌
+无论哪方获胜，都能谒见恐龙王。[r]继续[#仪式:比赛]也没有意义了。
+[k]
+
+[charaFace D 2]
+＠特佩乌
+是这样吧，水兵。[r]万事顺遂，真是太好了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠U－奥尔加玛丽
+笨[line 3]
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 1]
+[wt 1.0]
+
+[charaFace E 1]
+＠尼莫水兵
+嗯，我们就算努力也没有意义。[r]一切顺利，真是太好了呢。
+[k]
+
+[charaFace E 2]
+＠尼莫水兵
+那我去向各位队员道谢啦！[r]之后的事就拜托你们啦～～☆
+[k]
+
+[messageOff]
+[se ad443]
+[seStop ad443 1.0]
+[charaFadeout E 0.4]
+[charaMove E -100,0 0.4]
+[wt 1.6]
+
+[charaTalk L]
+[charaFace L 6]
+[charaFadein L 0.1 1]
+＠L：特佩乌
+[FFFFFF]？[-]　水兵为何要离开祭祀场？[r]队员们还在祭祀场内啊……
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+＠U－奥尔加玛丽
+你这蜥蜴脑袋！　冷血动物！[r]他明摆着是想一个人独处吧！？
+[k]
+
+＠U－奥尔加玛丽
+为什么不让他战斗啊！？[r]水兵可是那样满心期待着啊！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 4]
+[charaFadein L 0.1 1]
+＠L：特佩乌
+那，那是追求达成集体目的的充实感，[r]个体的感情并不怎么重要……
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠U－奥尔加玛丽
+你想让暗物质流进大脑，[r]从爬行类逆进化为羊膜类吗？
+[k]
+
+[charaFace C 7]
+＠U－奥尔加玛丽
+少在这找藉口了，快去向水兵道歉！[r]抓紧时间！　要比我的等离子体更快！
+[k]
+
+＠U－奥尔加玛丽
+路上好好思考水兵为什么会逃离！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 4]
+[charaFadein L 0.1 1]
+＠L：特佩乌
+噢，噢噢！[r]要思考吧，我明白了！
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1210]
+[seStop 22_ad1210 1.0]
+[charaFadeout L 0.4]
+[charaMove L -100,0 0.4]
+[wt 1.6]
+
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠U－奥尔加玛丽
+……真是的。[r]所以我才受不了以合理性为主轴的智慧生命。
+[k]
+
+＠U－奥尔加玛丽
+本以为比[%1]好上一点，[r]结果迪诺斯和人类是各有短长呢。
+[k]
+
+[charaFace C 1]
+＠U－奥尔加玛丽
+……你那表情是什么意思啦。
+[k]
+
+？1：你为水兵生气了呢。
+
+？！
+
+[charaFace C 12]
+＠U－奥尔加玛丽
+怎么可能嘛。[r]只是特佩乌的回答触怒了我的角而已。
+[k]
+
+＠U－奥尔加玛丽
+难道你这就忘了我昨天说的话了？[r]千万别以为我和你们有着同样的想法。
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_76 1.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+
+[cameraMove 0 0,0 1.01]
+
+[scene 169500]
+
+[pictureFrame cut063_cinema]
+
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0]
+[shake 0.01 0 1 0]
+[wt 1.5]
+
+[cueSeVolume 22_ad1210 1.0 0.4]
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+[cueSeVolume 22_ad1210 1.0 0.2]
+
+＠特佩乌
+（……水兵离开集体的原因……[r]　……想参加仪式的原因……）
+[k]
+
+＠特佩乌
+（纯粹只是想踢蹴球？　怎么可能。[r]　水兵拥有高度的智慧。）
+[k]
+
+＠特佩乌
+（虽说感情起伏比较激烈，他的判断总是正确的。[r]　总是能率先为集体优先的事贡献自己的力量。）
+[k]
+
+＠特佩乌
+（而这样的他为何在达成共同目标后[r]　会待不下去选择离开集体呢？）
+[k]
+
+＠特佩乌
+（想不明白。[r]　在原因不明的状态下继续追踪水兵[line 3]）
+[k]
+
+[messageOff]
+[cueSeVolume 22_ad1210 1.0 0.4]
+[wipeout leftToRight 1.0 1.0]
+[wait wipe]
+[cueSeStop 22_ad1210 1.0]
+
+[shakeStop]
+
+[scene 169100]
+
+[charaTalk depthOff]
+[charaDepth N 1]
+[charaDepth E 2]
+
+[charaFadein N 0.1 0,-200]
+[wt 1.0]
+
+[charaMoveScale N 1.05 1.5]
+[charaMove N 0,-210 1.5]
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+[wt 0.4]
+
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.4 0,-50]
+[wt 0.2]
+[se ad527]
+[wt 0.3]
+[seStop ad527 0.2]
+
+＠尼莫水兵
+！[messageShake 0.05 4 3 0.3]
+[k]
+
+＠特佩乌
+[line 6]
+[k]
+
+[bgm BGM_EVENT_75 0.1]
+
+＠特佩乌
+（[line 3]就算原因不明，[r]　我也能明白自己的选择并不正确。）
+[k]
+
+[charaFace E 6]
+＠尼莫水兵
+我只想一个人独处，为什么要跟过来啦～～！[r]我不想让别人看到我哭鼻子的模样嘛～～！
+[k]
+
+＠尼莫水兵
+笨蛋笨蛋笨蛋笨蛋笨蛋[line 3]！[r]特佩乌你这笨蛋～～！
+[k]
+
+[messageOff]
+[charaMoveScale E 1.1 0.3]
+[charaMove E 0,-40 0.3]
+[wt 0.3]
+[charaMoveReturn E 0,-45 0.3]
+[se ad76]
+[shake 0.01 2 2 0.3]
+[wt 0.35]
+[charaMoveReturn E 0,-45 0.3]
+[se ad76]
+[shake 0.01 1 2 0.3]
+[wt 0.35]
+[charaMoveReturn E 0,-45 0.3]
+[se ad76]
+[shake 0.01 2 3 0.3]
+[wt 0.75]
+
+＠特佩乌
+水兵的攻击，[r]水兵的攻击。
+[k]
+
+＠特佩乌
+（他双手交替地锤着我的胸部。[r]　由于并没有使劲，所以我完全没受损伤。）
+[k]
+
+＠特佩乌
+（然而我依然受到了冲击。[r]　这殴打，仿佛直接震响了心脏。）
+[k]
+
+＠特佩乌
+……非常抱歉。[r]在退出仪式前，应该先找你商量才对。
+[k]
+
+＠特佩乌
+我知道自己的选择有错。[r]可是，我还是不明白原因。
+[k]
+
+[messageOff]
+[se ad775]
+[seVolume ad775 0 0.3]
+[cameraMove 1.0 0,15 1.05]
+[charaTalk E]
+[charaFaceFade E 10 0.2]
+[wt 1.2]
+
+＠特佩乌
+请告诉我，水兵。
+[k]
+
+＠特佩乌
+身为迦勒底的从者，[r]你一直很努力想帮上忙。
+[k]
+
+＠特佩乌
+可是，在[%1]与玛修，[r]还有我们都晋级到决赛的那一刻起，
+[k]
+
+＠特佩乌
+『代替[&他们:她们]夺冠』的意义就丧失了，[r]你就无法再『帮上[&他们:她们]的忙』了。
+[k]
+
+＠特佩乌
+是自己的努力徒劳无功让你感到伤心吗？[r]难道说我们从一开始就不该组队吗？
+[k]
+
+[charaFace E 6]
+＠尼莫水兵
+完[messageShake 0.05 4 3 0.5]全不对～～～！
+[k]
+
+＠尼莫水兵
+能帮上忙当然很好啦，[r]但是一码归一码！
+[k]
+
+＠尼莫水兵
+我想跟特佩乌一起战斗啦～～！[r]明明那么认真地练习到现在啊～～！
+[k]
+
+＠尼莫水兵
+别说什么『既然结果都一样就不干了』[r]这种令人悲伤的话啦～～！
+[k]
+
+＠特佩乌
+悲伤？　为何会悲伤？[r]不犯错不是件好事吗？
+[k]
+
+＠尼莫水兵
+话是这么说但还是不对～～！[r]因为一点儿都不开心啦[line 3]～～！
+[k]
+
+＠尼莫水兵
+我希望像练习时那样，在[#仪式:正式上场]时[r]也能看到特佩乌的笑脸啊～～！
+[k]
+
+＠尼莫水兵
+只看结果什么的太狡猾啦～！[r]过程当然也要开心一点啊！
+[k]
+
+＠尼莫水兵
+我觉得我们正是为此才努力的啊～～！
+[k]
+
+＠特佩乌
+[line 6]
+[k]
+
+＠特佩乌
+（他并没有哀叹自己的无力，[r]　而是在哀叹我过于客观的处事方式。）
+[k]
+
+＠特佩乌
+（这就是泛人类史的人类。）
+[k]
+
+＠特佩乌
+（我对如此将自我认知摆在主体的生命[r]　构筑起文明一事产生了危机感。）
+[k]
+
+＠特佩乌
+（虽然目前还知之甚少，[r]　但有一件事我敢断言。）
+[k]
+
+＠特佩乌
+（[line 3]泛人类史这个文明，[r]　会犯下不讲道理或逻辑的错误。）[bgmStop BGM_EVENT_75 2.0]
+[k]
+
+[messageOff]
+[charaTalk E]
+[wt 1.0]
+
+[fadeout black 2.0]
+[wait fade]
+
+[cameraMove 0.1 0,0 1.0]
+
+[charaFadeout N 0.1]
+[charaFadeout E 0.1]
+
+[scene 169901]
+
+[pictureFrame]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+[se adm54]
+[wt 1.6]
+
+
+[subCameraOn 1]
+
+[charaLayer B sub #A]
+[charaLayer O sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask07 3 255,255,255,255 0]
+
+[charaScale B 1.3]
+[charaScale O 1.4]
+
+[charaDepth O 2]
+[charaDepth B 3]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 100,150]
+[charaFadein O 0.1 0,-280]
+
+[subRenderFadein #A 0.7 0,-140]
+[wt 1.2]
+
+[bgm BGM_EVENT_160 0.1]
+
+＠神官乌库伯
+聚集于祭祀场的迪诺斯们啊！[r]都听仔细了！
+[k]
+
+＠神官乌库伯
+决战仪式由于出现退赛而不战而胜。[r]欠缺闪耀蹴球的供奉是前所未闻的。
+[k]
+
+＠神官乌库伯
+吾认为此乃事关奇琴伊察，不，[r]乃事关米克特兰存亡的判断。
+[k]
+
+[charaFace B 4]
+
+＠神官乌库伯
+不过！　在体感太阳前进了一层左右的期间，[r]经过深思熟虑与苦恼，
+[k]
+
+＠神官乌库伯
+并与王商议后，[r]决定就算没有决赛也能进行供奉！
+[k]
+
+＠神官乌库伯
+接下来将由冠军队伍进行供奉！[r]死亡翻滚队上前！
+[k]
+
+＠神官乌库伯
+恐龙王将表达诸多感想！[r]万勿有失礼数！
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.4]
+[wt 0.4]
+[charaFadeout B 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[subCameraOff]
+
+[charaLayer B normal]
+[charaLayer O normal]
+[charaScale B 1.0]
+[charaScale O 1.0]
+[wt 0.5]
+
+？1：可以看作是……表彰仪式吗？
+？2：（水兵和特佩乌还没回来……）
+
+？！
+
+＠神官乌库伯
+死亡翻滚队！[r]上前，死亡翻滚队！
+[k]
+
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠G：恐爪龙十一兄弟
+咻～！　乌库伯那家伙气得火冒三丈呢！[r]不，现在不是看乐子的时候。
+[k]
+
+＠G：恐爪龙十一兄弟
+你们可以作为队长登上祭坛了哦，[r][%1]、玛修。
+[k]
+
+＠G：恐爪龙十一兄弟
+你们有事要拜托恐龙王吧？[r]我们有这次的2场[#仪式:比赛]就心满意足啦。
+[k]
+
+？1：谢谢你，兄弟。
+
+？！
+
+[messageOff]
+[cueSe SE_21 21_ad1066]
+[wipeout leftToRight 1.0 1.0]
+[bgm BGM_EVENT_160 1.0 0.5]
+[cueSeStop 21_ad1066 1.5]
+[wait wipe]
+
+[charaFadeout G 0.1]
+
+[charaTalk depthOff]
+[charaDepth O 2]
+[charaDepth A 3]
+[charaDepth B 4]
+[charaDepth O 2]
+
+[charaScale O 1.2]
+[charaFadein O 0.1 0,-320]
+[wt 1.5]
+
+[bgm BGM_EVENT_160 1.0 1.0]
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠神官乌库伯
+那么登上祭坛，报上名来吧。[r]赐予你们向王报上名字的荣誉。
+[k]
+
+？1：我们是[%1]和玛修。
+
+？！
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+[wt 0.4]
+
+[charaMove A 0,-7 0.35]
+[wt 0.4]
+[charaMove A 0,0 0.35]
+[wt 0.8]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠神官乌库伯
+唔，这发音听着比较耳生。[r]是从第五层来避难的迪诺斯吗？
+[k]
+
+＠神官乌库伯
+一定历经千辛万苦吧。[r]来，让我仔细瞧瞧你们的脸[line 3]
+[k]
+
+[bgmStop BGM_EVENT_160 1.5]
+
+[charaFace B 4]
+＠神官乌库伯
+慢着，你们就是死亡翻滚队的队长？[r]我记得这两张脸是[line 3]
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[subCameraOn 1]
+
+[charaLayer F sub #A]
+[charaLayer P sub #A]
+[charaLayer K sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask07 3 255,255,255,255 0]
+
+[charaScale F 1.0]
+[charaScale P 1.4]
+
+[charaDepth P 2]
+[charaDepth F 3]
+[charaDepth K 4]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 -50,175]
+[charaFadein P 0.1 0,-220]
+[charaPut K 1]
+[charaFadeTime K 0.1 0.3]
+
+[subRenderFadein #A 0.7 0,-200]
+[wt 1.1]
+
+[bgm BGM_EVENT_40 0.1]
+
+＠恐龙王
+开场白就到此为止吧，乌库伯。[r]我说过多少遍了，别浪费时间。
+[k]
+
+＠恐龙王
+用不着请示『[#太阳的教诲:库库尔坎]』。
+[k]
+
+＠恐龙王
+赐予夺冠队伍想要之物。[r]这是我制定的规矩。
+[k]
+
+＠恐龙王
+虽然很遗憾没能举行决赛，[r]但你们的蹴球本就很新奇。
+[k]
+
+＠恐龙王
+虽说以最后的蹴球而言不合格，[r]没能善始善终。
+[k]
+
+＠恐龙王
+也罢，说出你们的愿望吧。[r]向仪式发起挑战的你们是特别的迪诺斯。
+[k]
+
+＠恐龙王
+既然是赌上性命的战斗，[r]哪怕只是仪式，我也不会嘲笑。
+[k]
+
+＠恐龙王
+勇敢就该被赐予奖赏，[r]无论是什么样的勇敢。
+[k]
+
+？1：那么，希望能允许我们穿越大平原。
+
+？！
+
+＠恐龙王
+哈？　你们真是群好事之徒。[r]难道是有东西落在[#第五层:那边]了吗？
+[k]
+
+＠恐龙王
+靠近墨西哥城者难保性命无虞。[r]我应该颁布过这样的命令才对……唔？[bgmStop BGM_EVENT_40 1.5]
+[k]
+
+＠恐龙王
+该死，都怪这块布碍事害我认错了。[r]你们并不是迪诺斯吧？
+[k]
+
+＠恐龙王
+那变装是泛人类史的魔术吗？[r]净耍小花招。脱掉脱掉，然后去死吧。
+[k]
+
+[messageOff]
+[se ad346]
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+[seStop ad346 0.4]
+[charaFadeout F 0.1]
+[charaFadeout P 0.1]
+[charaFadeout K 0.1]
+
+[se ad15]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠玛修
+[line 3]御主！
+[k]
+
+[messageOff]
+
+[cueSe SE_21 21_adm82]
+[seVolume 21_adm82 0 0.5]
+[se ad879]
+[seVolume ad879 0 0.8]
+[fadeout white 0.5]
+[wait fade]
+
+[charaChange A 8001410 7 fade 0.1]
+[wt 0.5]
+
+[fadein white 0.5]
+[wait fade]
+[se ade64]
+[wt 0.35]
+[se ade65]
+
+[subCameraOff]
+
+[charaLayer F normal]
+[charaLayer P normal]
+[charaLayer K normal]
+[charaScale F 1.0]
+[charaScale P 1.0]
+
+[se ad170]
+[cueSe Servants_604200 m45312]
+[charaPut S 100,100]
+[charaEffect S bit_talk_14]
+[charaShake A 0.02 3 4 0.4]
+[wt 0.2]
+
+[charaPut T -50,-50]
+[charaEffect T bit_talk_14]
+[charaShake A 0.02 3 4 0.4]
+[wt 1.2]
+
+[charaPut S 2000,2500]
+[charaPut T 2000,2500]
+
+[cueSe Servants_9942950 m84502]
+[cueSeVolume m84502 0 0.5]
+[cueSe Servants_9942950 m85006]
+[cueSeVolume m85006 0 0.2]
+[wt 0.1]
+[effect bit_talk_barrier_white_once]
+[wt 1.0]
+[cueSeStop m84502 1.2]
+[cueSeStop m85006 1.2]
+[wt 1.4]
+
+[bgm BGM_EVENT_72 1.5]
+[wipeout rectangleStripDownToUp 0.5 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaFadeout O 0.1]
+
+[cueSe SE_21 21_ade643]
+[cueSeVolume 21_ade643 0 0]
+[se ad877]
+[seVolume ad877 0 0]
+[wt 0.5]
+
+
+[cueSeVolume 21_ade643 0.5 0.2]
+[seVolume ad877 0.5 0.2]
+[wipein rectangleStripUpToDown 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk off]
+[charaDepth C 2]
+[charaDepth J 3]
+
+[charaFace C 12]
+[charaFace J 0]
+[charaFadeinFSR C 0.1 2]
+[charaFadeinFSL J 0.1 0]
+[wt 1.5]
+
+[charaFadeout C 0.1]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：恐爪龙十一兄弟
+哦？　哦？　哦？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+＠观众席上的迪诺斯们
+哎呀？　哎呀？　哎呀？
+[k]
+
+[messageOff]
+[wipeout rectangleStripUpToDown 0.5 1.0]
+[cueSeStop 21_ade643 1.0]
+[seStop ad877 0.8]
+[bgm BGM_EVENT_72 0.6 0.5]
+[wait wipe]
+
+
+[charaScale O 1.2]
+[charaFadein O 0.1 0,-320]
+
+[subCameraOn 1]
+
+[charaLayer F sub #A]
+[charaLayer P sub #A]
+[charaLayer K sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask07 3 255,255,255,255 0]
+
+[charaScale F 1.0]
+[charaScale P 1.2]
+
+[charaTalk depthOff]
+[charaDepth P 2]
+[charaDepth F 3]
+[charaDepth K 4]
+[charaDepth M 3]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 -50,175]
+[charaFadein P 0.1 0,-110]
+[charaPut K 1]
+[charaFadeTime K 0.1 0.3]
+
+[subRenderFadeinFSL #A 0.1 -256,-200]
+
+[charaTalk M]
+[charaFace M 1]
+[charaFadeinFSR M 0.1 2]
+[wt 0.4]
+
+[bgm BGM_EVENT_72 0.5 1.0]
+[wipein rectangleStripDownToUp 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+＠M：神官乌库伯
+奥塞洛特尔[line 3]！[r]这是怎么回事，这不是墨西哥城的猴子们吗！
+[k]
+
+[charaFace M 0]
+＠M：神官乌库伯
+斗士，斗士瓦克昌！[r]紧急事态，许可祭祀场上的暴力行为！
+[k]
+
+＠M：神官乌库伯
+杀掉这群奥塞洛特尔！[r]别让他们接近恐龙王！
+[k]
+
+＠M：神官乌库伯
+这样没问题吧，恐龙王！
+[k]
+
+＠恐龙王
+随你的便。[r]正好血快要不够了。
+[k]
+
+[bgmStop BGM_EVENT_72 1.0]
+
+＠恐龙王
+那些家伙欧美式的[#仪式:比赛]虽然也不赖。[r]不过[#南美:我们]的战斗还是应该这样吧？
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.4]
+[charaFadeout M 0.4]
+[wt 0.1]
+[charaFadeout F 0.4]
+[charaFadeout O 0.4]
+[wt 0.4]
+
+[charaScale I 1.2]
+[charaScale P 1.4]
+
+[charaDepth P 6]
+[charaDepth I 7]
+[wt 0.1]
+
+[se ad642]
+[shake 0.05 0 2 2.0]
+[charaFadein P 1.0 0,-250]
+[charaMove P 0,-300 1.5]
+[wt 1.5]
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 1.0 0,40]
+[wt 0.2]
+[cueSeStop ad642 1.0]
+[cueSe SE_22 22_ad1207]
+[wt 2.0]
+
+[se ad425]
+[shake 0.02 2 3 3.6]
+[cueSe SE_22 22_ad1218]
+[flashin once 0.2 0.2 FFFFFFFA FFFFFF00]
+[charaFaceFade I 8 0.2]
+＠斗士瓦克昌
+[i npc_language_33][line 3]！[wt 1.0][seStop 22_ad1218 1.5]
+[k]
+
+
+[messageOff]
+[charaFadeout I 0.4]
+[charaFadeout P 0.4]
+[cueSeStop 22_ad1218 0.5]
+[wt 0.5]
+
+[subCameraOff]
+
+[charaLayer F normal]
+[charaLayer P normal]
+[charaScale F 1.0]
+[charaScale P 1.0]
+
+[wt 0.1]
+[shakeStop]
+
+[bgm BGM_EVENT_80 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠玛修
+御主！　大型迪诺斯正在接近！[r]该怎么办！？
+[k]
+
+？1：边应战边让对手丧失战斗力！
+？2：打晕他，或是让他丧失战意！
+
+？！
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_80 0.4]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,301 @@
+
+
+＄03-00-13-02-4-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098254800 1 尼莫水兵]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098252700 1 失智迪诺斯]
+[charaSet D 1098259000 1 罗玛尼·阿其曼]
+
+[charaSet H 98115000 1 特效用]
+
+[scene 169100]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_79 0.1]
+
+
+[wt 1.0]
+
+
+？1：你是………………
+
+？！
+
+＠D：迦勒底之人
+自称罗玛尼·阿其曼的某个人吗。[r]说得没错，你道出了真相。
+[k]
+
+＠罗玛尼·阿其曼
+今后我会堂堂正正地使用这个名字。
+[k]
+
+＠罗玛尼·阿其曼
+人类常说，『重要的是内在』。[r][#徒有其表]的名字不过是个标识罢了。
+[k]
+
+＠罗玛尼·阿其曼
+你已理解这副皮囊的内在是另一个人了。[r]既是如此，无论是谁，冒用了谁的名字，都不成问题。
+[k]
+
+？1：有问题。
+？2：我希望那个名字出自配得上它的人之口。
+
+？！
+
+[charaFace D 5]
+
+＠罗玛尼·阿其曼
+是吗。看来彼此见解存在分歧呢。[r]你还是那么冥顽不化。
+[k]
+
+[charaFace D 4]
+
+＠罗玛尼·阿其曼
+我知道你见证了不列颠的始末，[r]抵达了极大特异点的深处。
+[k]
+
+＠罗玛尼·阿其曼
+但是在该过程中，[r]你应该没有受到致命伤才对。
+[k]
+
+＠罗玛尼·阿其曼
+为何不召唤从者。[r]难不成受到了精神上的外伤？
+[k]
+
+＠罗玛尼·阿其曼
+你的礼装并无故障。[r]不然你根本无法在这地底世界生存。
+[k]
+
+？1：……这是因为……
+？2：（我可以相信他吗……？）
+
+？！
+
+
+[charaFace D 2]
+
+＠罗玛尼·阿其曼
+下意识地藏起了右手啊。[r]……令咒连同刻印一并消失了……
+[k]
+
+[charaFace D 3]
+
+＠罗玛尼·阿其曼
+……令人无语。[r]竟然拿『作为御主的功能』去抵押。
+[k]
+
+[messageOff]
+[se ad527]
+[charaCrossFade D 1098181620 1 0.5]
+[wt 0.2]
+[seStop ad527 0.2]
+＠罗玛尼·阿其曼
+[%1]。[r]你已不再是御主了。[wait charaCrossFade D]
+[k]
+
+＠罗玛尼·阿其曼
+在这种状态下，你再也无法召唤从者了。[r]要想活下去的话，就必须改变战略。
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[se ad527]
+[wt 0.3]
+[seStop ad527 0.1]
+[wt 0.1]
+[se ad527]
+[seVolume ad527 0 0]
+[wt 0.4]
+[seVolume ad527 0.1 1.0]
+[wt 0.2]
+[seStop ad527 0.2]
+[wt 0.8]
+
+[charaSet D 1098259000 1 罗玛尼·阿其曼]
+
+？1：等一下！
+
+？！
+
+[messageOff]
+[se ad527]
+[wt 0.2]
+[seStop ad527 0.2]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[wt 0.6]
+
+＠罗玛尼·阿其曼
+怎么？　你应该没事要找我才对。[r]而我也没事要找现在的你们。
+[k]
+
+？1：……你不去见见玛修吗？
+
+？！
+[charaFace D 4]
+
+＠罗玛尼·阿其曼
+……真是的。[r]虽丧失了攻击力，却挺会戳人痛处。
+[k]
+
+＠罗玛尼·阿其曼
+从这里往南，前往犹如巨角的岩山吧。[r]玛修·基列莱特就在那里的洞窟内。
+[k]
+
+＠罗玛尼·阿其曼
+与那边的从者一样，是为了救你[r]从Storm Border上掉下来的结果。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠罗玛尼·阿其曼
+哪怕身为使徒的福尔摩斯已经不在了，[r]你们该做的事也不曾改变。
+[k]
+
+＠罗玛尼·阿其曼
+……我想想。[r]虽然说这番话令人心情复杂……
+[k]
+
+＠罗玛尼·阿其曼
+假如人类能将七个异闻带全都切除，[r]届时，我就承认你们是敌人好了。
+[k]
+
+[messageOff]
+[se ad527]
+[charaCrossFade D 1098181610 0 0.5]
+[wt 0.2]
+[seStop ad527 0.2]
+[wait charaCrossFade D]
+＠罗玛尼·阿其曼
+……虽说按我的预计，并不会变成那样就是了。
+[k]
+
+＠罗玛尼·阿其曼
+毕竟对手是那个戴比特·泽姆·沃伊德。[r]想必你们是不可能击败ORT的吧。
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[se ad527]
+[wt 0.3]
+[seStop ad527 0.1]
+[wt 0.1]
+[se ad527]
+[seVolume ad527 0 0]
+[wt 0.4]
+[seVolume ad527 0.1 1.0]
+[wt 0.2]
+[seStop ad527 0.2]
+[wt 1.4]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_79 1.5]
+[wait fade]
+
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+这样啊～。刚才那就是和Dr.罗曼……[r]长得很像的人啊。
+[k]
+
+＠尼莫水兵
+……对不起哦，我们只通过记录了解过医生。
+[k]
+
+＠尼莫水兵
+不是很清楚该用什么样的表情来应对。[r]U呢？　感觉都僵住了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+我没什么感想哦。那是生物？　没有波长，[r]而且还完全无视了我。
+[k]
+
+？1：（……她果然也不认识医生呢……）
+
+？2：但是那个人好像认识奥尔加玛丽哦。
+
+[charaFace B 24]
+＠U－奥尔加玛丽
+哈？　怎么可能啊。[r]那家伙不是完全没提我的名字嘛。
+[k]
+
+？！
+
+[charaFace B 1]
+＠U－奥尔加玛丽
+比起这些，我们是要前往那边吧？[r]他刚才叫你前往远处那座岩山来着。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+！　对哦，就是这个！[r]他说玛修在那里！
+[k]
+
+[charaFace A 2]
+＠尼莫水兵
+出发吧，[%1]！[r]我们赶紧会合，重新组成迦勒底小队吧！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 20]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+[FFFFFF]？[-]　迦勒底……小队？
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_70 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,312 @@
+
+＄03-00-13-22-2-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098255200 1 哈贝特洛特]
+[charaSet B 1098257300 1 达·芬奇]
+[charaSet C 1098257900 1 玛修]
+[charaSet D 6047001 1 特斯卡特利波卡]
+[charaSet E 1098253200 1 U－奥尔加玛丽]
+[charaSet F 1098252940 1 特佩乌]
+
+[charaSet G 1098252520 1 奥塞洛特尔1]
+[charaSet H 1098252540 1 奥塞洛特尔2]
+[charaSet I 1098252540 1 奥塞洛特尔3]
+[charaSet J 1098252530 1 奥塞洛特尔4]
+[charaSet K 1098252560 1 奥塞洛特尔5]
+
+[charaSet L 1098260810 1 影奥塞洛特尔1]
+[charaSet M 1098260830 1 影奥塞洛特尔2]
+[charaSet N 1098260830 1 影奥塞洛特尔3]
+[charaSet O 1098260820 1 影奥塞洛特尔4]
+[charaSet P 1098260840 1 影奥塞洛特尔5]
+
+[charaSet Q 98115000 1 特效用]
+[charaSet R 98115000 1 特效用]
+
+[sceneSet S 174900 1]
+
+[charaPut Q -300,0]
+[charaPut R 300,0]
+[charaEffect Q bit_talk_black_aura_tsk]
+[charaEffect R bit_talk_black_aura_tsk]
+
+[charaTalk depthOff]
+[charaDepth Q 5]
+[charaDepth R 5]
+[charaDepth A 6]
+[charaDepth C 7]
+[charaDepth B 8]
+
+[scene 174501]
+[se ade409]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_126 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠哈贝特洛特
+打不中，累积不了伤害，没完没了！[r]倒也不是强得离谱，就是找不到胜利方法！
+[k]
+
+[charaFace A 3]
+
+＠哈贝特洛特
+这也不行那也不行，连希翁也会受不了吧！[r]再这样下去就糟了，[%1]！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 27]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+这烟雾不只是障眼法！[r]还是改动概率的权能！
+[k]
+
+＠达·芬奇
+只是打不中倒还算好的！[r]最糟甚至有可能『就算打倒』也被更改成『没有打倒』的结果！
+[k]
+
+＠达·芬奇
+只要不驱散这烟雾，战斗就会无穷无尽！[r]是名副其实的无限斗争！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 1]
+
+＠玛修
+但是该怎么办……！？[r]用[#黑色炮身:Black Barrel]会破坏洞窟的！
+[k]
+
+？1：（只能先暂时撤离了吗……！？）
+？2：（如果能有兼具炮身的强大与狭小攻击范围的攻击……！）
+
+？！
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[cueSe SE_21 21_ad1082]
+[charaTalk off]
+
+[charaDepth P 1]
+[charaDepth O 2]
+[charaDepth I 3]
+[charaDepth N 4]
+[charaDepth H 5]
+[charaDepth M 6]
+[charaDepth G 7]
+[charaDepth L 8]
+[charaDepth Q 9]
+[charaDepth R 9]
+
+[charaPut L 1]
+[charaPut M -250,0]
+[charaPut N 250,0]
+[charaPut O -500,0]
+[charaPut P 500,0]
+
+
+[charaFadein G 0.4 1]
+[charaFadeTime L 0.1 0.8]
+[wt 0.2]
+[charaFadein H 0.4 -250,0]
+[charaFadeTime M 0.1 0.8]
+[charaFadein I 0.4 250,0]
+[charaFadeTime N 0.1 0.8]
+[wt 0.4]
+[charaFadein J 0.4 -500,0]
+[charaFadeTime O 0.1 0.8]
+[wt 0.2]
+[charaFadein K 0.4 500,0]
+[charaFadeTime P 0.1 0.8]
+
+[seStop 21_ad1082 2.5]
+[wt 1.7]
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+[wt 0.1]
+
+[charaDepth Q 5]
+[charaDepth R 5]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠玛修
+……！[r]敌方增援不见颓势！　这样下去真的就……！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_126 1.0]
+[charaFadeout C 0.1]
+[wt 0.4]
+
+[se ad964]
+[se ad626]
+[cueSe SE_22 22_adm89]
+[effect bit_talk_lightning_U_01]
+[charaEffectStop Q bit_talk_black_aura_tsk]
+[charaEffectStop R bit_talk_black_aura_tsk]
+[wt 1.5]
+[effectStop bit_talk_lightning_U_01]
+
+[seStop ad964 0.3]
+[seStop ad626 0.3]
+[cueSeStop 22_adm89 0.3]
+
+[cueSe Servants_401500 bac1074]
+[wt 0.1]
+[se ad632]
+[cueSe NoblePhantasm_700600 NP_700600_7]
+[fowardEffect bit_talk_lightning_U_02]
+[cueSe Servants_304900 m03104]
+[wt 0.05]
+[se ad842]
+[seVolume ad842 0 0.5]
+[wt 1.3]
+[shake 0.03 3 3 0.5]
+[wt 0.5]
+[fadeout white 0.1]
+[wait fade]
+[fowardEffectDestroy bit_talk_lightning_U_02]
+
+[scene 174500]
+[seVolume ad632 4.0 0.0]
+[wt 1.2]
+
+[fadein white 1.5]
+[wait fade]
+[wt 0.5]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠特斯卡特利波卡
+！　这雷，又是你这家伙吗！[r]这是什么意思，『异星之神』！
+[k]
+
+[messageOff]
+[wipeout rectangleStripUpToDown 0.5 1.0]
+[wait wipe]
+
+[charaFadeout D 0.1]
+
+[imageSet L cut447_hbt 1]
+[imageSet M cut447_dvn 1]
+[imageSet N cut447_tpu 1]
+[imageSet O cut447_msh 1]
+[charaScale L 1.01]
+[charaScale M 1.01]
+[charaScale N 1.01]
+[charaScale O 1.01]
+
+[charaDepth S 1]
+[charaDepth E 2]
+[charaDepth Q 3]
+[charaDepth L 3]
+[charaDepth M 4]
+[charaDepth N 6]
+[charaDepth O 7]
+
+[charaScale S 1.3]
+[charaFadein S 0.1 0,-370]
+[wt 0.2]
+
+[wipein rectangleStripDownToUp 0.5 1.0]
+[wait wipe]
+
+[se ade7]
+[seVolume ade7 0 0.6]
+[wt 1.0]
+[seStop ade7 2.5]
+
+[charaPut Q 0,0]
+[charaEffect Q bit_talk_mgn_light_U]
+[se ad696]
+[seVolume ad696 0 0.6]
+[se ade393]
+[seVolume ade393 0 0.3]
+[wt 0.5]
+[se ad914]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+[seStop ad696 1.5]
+[seStop ade393 1.5]
+[wt 2.4]
+[bgm BGM_MAP_64 0.1]
+
+＠飒爽登场
+呼哈哈哈，汗水害我指尖一滑！[r]毕竟热成这样，这也是无可奈何的嘛！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeinFSSideL L 0.2 -100,-200]
+[charaMoveFSSideL L 0,-200 0.2]
+[wt 0.2]
+
+＠哈贝特洛特
+那是，鸟吗[line 3]！？
+[k]
+
+[charaFadeinFSSideL M 0.2 0,-300]
+[charaMoveFSSideL M 0,-200 0.2]
+
+＠达·芬奇
+是飞机！
+[k]
+
+[charaFadeinFSSideR N 0.2 0,-100]
+[charaMoveFSSideR N 0,-200 0.2]
+
+＠特佩乌
+是总统呢。
+[k]
+
+？1：不！
+
+？！
+
+[charaFadeinFSSideR O 0.2 100,-200]
+[charaMoveFSSideR O 0,-200 0.2]
+
+＠玛修
+是奥尔加玛丽所长！
+[k]
+
+[messageOff]
+[bgmStop BGM_MAP_64 2.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

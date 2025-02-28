@@ -1,0 +1,2545 @@
+
+
+
+＄03-00-11-01-1-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 98001000 1 玛修_制服]
+[charaSet B 1098123200 1 戈尔德鲁夫]
+[charaSet C 1098182300 1 尼莫烘焙坊]
+[charaSet D 1098182100 1 尼莫教授]
+[charaSet E 1098182110 1 尼莫教授_通讯]
+[charaSet F 1098182000 1 尼莫护士]
+[charaSet G 1098181900 1 尼莫水兵]
+[charaSet H 1098124500 1 达·芬奇]
+[charaSet I 98002000 1 芙芙]
+[charaSet J 1098158200 1 希翁]
+[charaSet K 9005001 1 福尔摩斯]
+[charaSet L 1098123000 1 穆尼尔]
+[charaSet M 1098225800 1 魔术师]
+[charaSet N 4037000 1 尼莫]
+[charaSet O 98115000 1 特效用]
+
+[sceneSet Q 142200 1]
+[sceneSet R 142200 1]
+
+[imageSet T back10000 1]
+[charaScale T 1.01]
+[imageSet U back10000 1]
+[charaScale U 1.01]
+
+[sceneSet V 142201 1]
+[charaScale V 1.01]
+[sceneSet W 95201 1]
+[charaScale W 1.01]
+[sceneSet X 142200 1]
+[charaScale X 1.01]
+
+
+[wt 0.5]
+
+[se ad416]
+[seVolume ad416 0 0]
+[seVolume ad416 0.2 0.7]
+
+
+[scene 104600]
+
+[wt 3.5]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.5]
+
+
+[se ad4]
+[seVolume ad4 0 0]
+[seVolume ad4 1.0 0.4]
+
+＠
+　　　－人理保障时钟　2018年　12月31日－[r]　　　－迦勒底内　世界时钟　20XX年　12月31日－
+[k]
+
+＠
+　　　－PM9:30　船坞内－[r]　　　－迦勒底基地内　正在限制移动－
+[k]
+
+[messageOff]
+
+[seStop ad4 0.8]
+[wt 1.0]
+
+[bgm BGM_MAP_57 0.1 0.9]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠玛修
+…………前辈。[r]究竟是怎么回事啊……
+[k]
+
+？1：嗯……
+？2：没想到会被限制行动呢……
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+真是的，这到底是干什么啊。[r]我们可是成功讨伐了Beast的勇者哦？
+[k]
+
+＠戈尔德鲁夫
+原本在食堂或管制室应该会[r]准备一场庆功会等待我们才对……
+[k]
+
+[charaFace B 5]
+
+＠戈尔德鲁夫
+为何非得被拦在船坞不许离开？[r]『说明会』又是怎么回事！？
+[k]
+
+＠戈尔德鲁夫
+希翁·艾尔特纳姆上哪儿去了？[r]她为何不露脸！？
+[k]
+
+[messageOff]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.4 1]
+[wt 0.4]
+
+＠尼莫烘焙坊
+对不起，司令官。[r]这是希翁小姐下达的指示。
+[k]
+
+＠尼莫烘焙坊
+虽然我也非常想用大餐慰劳各位……
+[k]
+
+＠尼莫烘焙坊
+可是今天不能使用基地内的设施。[r]各位，还请回自己的房间吧。
+[k]
+
+＠尼莫烘焙坊
+水兵们很快就会过去，[r]届时肯定会给大家一个解释。
+[k]
+
+[messageOff]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.4 1]
+[wt 0.4]
+
+＠尼莫教授
+嗯，算年末的例行公事～～。[r]说白了，应该是基地的大扫除吧～。
+[k]
+
+＠尼莫教授
+希翁氏是对这方面一丝不苟的那类人，
+[k]
+
+＠尼莫教授
+估计是想以清爽的心情迎接新年吧～。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 23]
+[charaFadein H 0.1 1]
+＠达·芬奇
+咦。[r]教授，福尔摩斯人呢？
+[k]
+
+＠达·芬奇
+他虽然因高扬斯卡娅的固有结界强制退场，[r]但应该有在这里恢复为激发状态吧？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠尼莫教授
+嗯，没有问题～。
+[k]
+
+＠尼莫教授
+BeastⅣ的反应消失后，[r]灵基肖像也随之恢复正常啦～。
+[k]
+
+＠尼莫教授
+他现在应该正在管制室与希翁氏谈话，[r]以便确认各位的战斗记录吧～。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 12]
+[charaFadein H 0.1 1]
+
+＠达·芬奇
+原来如此，很像他的作风。[r]那我们也遵从指示好了。
+[k]
+
+[charaFace H 0]
+
+＠达·芬奇
+只要迦勒底成员回房间，[r]我前往管制室就行了吧？
+[k]
+
+[messageOff]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 1]
+[wt 0.4]
+
+＠尼莫护士
+不，可以烦请达·芬奇小姐[r]回潜航艇的电脑室吗？
+[k]
+
+＠尼莫护士
+希翁小姐好像说是[r]有什么十万火急的事务要处理。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠达·芬奇
+哎呀，十万火急这词听起来有些令人不安呢。[r]好吧，反正这次我还挺轻松的。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠尼莫护士
+那么各位，请回房间吧。
+[k]
+
+＠尼莫护士
+这一路上战斗辛苦了。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠玛修
+大扫除……意思是……[r]各位水兵正在打扫公共空间吗。
+[k]
+
+＠玛修
+回房间之后，[r]我也想立刻前去帮忙。
+[k]
+
+[charaFace A 13]
+
+＠玛修
+前辈请好好地休息吧。[r]毕竟刚经历了漫长的战斗。
+[k]
+
+？1：说得也是……我去小睡一会吧……
+
+＠玛修
+感觉这样比较妥当。[r]明天在管制室见吧！
+[k]
+
+？2：不，我喘口气后就去帮忙。
+
+[messageOff]
+
+[charaFace A 3]
+[wt 1.0]
+
+[charaFace A 13]
+＠玛修
+那就1小时后在食堂见。[r]还请您千万不要太勉强自己哦。
+[k]
+
+？！
+
+[messageOff]
+
+[wipeout leftToRight 1.0 1.0]
+[bgm BGM_MAP_57 1.5 0.4]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[wt 1.5]
+
+[se ad8]
+
+[scene 105800]
+[wt 1.0]
+
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+[wt 0.4]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠芙芙
+……………………
+[k]
+
+？1：（芙芙一直盯着天花板……）
+
+？！
+
+[messageOff]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[se ad59]
+[wt 0.5]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.4 150,0]
+[charaMove G 0,0 0.3]
+[wt 0.4]
+[seStop ad59]
+
+[bgm BGM_MAP_57 1.0 0.8]
+
+＠尼莫水兵
+打扰了～！[r]我来帮忙打包行李啦～！
+[k]
+
+[se ad338]
+
+＠尼莫水兵
+给，这是装行李的箱子！[r]私人物品放在这里面哦！
+[k]
+
+？1：什么？
+？2：打包行李？
+
+？！
+
+[charaFace G 0]
+＠尼莫水兵
+奇怪？　你没听说吗？[r]大家都要搬到新的房间去了哦？
+[k]
+
+＠尼莫水兵
+所以要收拾私人物品，[r]收拾好的人就到船坞集合～！
+[k]
+
+[charaFace G 1]
+＠尼莫水兵
+时限是30分钟！[r]啊，房间可以不用打扫哦～。
+[k]
+
+[charaFace G 3]
+＠尼莫水兵
+希翁说，『反正再也用不上了』！[r]来吧，赶快赶快！
+[k]
+
+[charaFace G 6]
+＠尼莫水兵
+船长也摆出可怕的表情，[wt 0.9][charaFace G 3][r]说要『严格遵守时间』哦！
+[k]
+
+[messageOff]
+
+
+[fadeout black 1.0]
+[bgmStop BGM_MAP_57 2.0]
+[wait fade]
+
+[charaFadeout G 0.1]
+[wt 1.0]
+
+[scene 104100]
+[wipeFilter cinema 0.5 0]
+
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk J]
+[charaFace J 12]
+[charaFadein J 0.4 0,-50]
+[wt 0.4]
+
+＠希翁
+大家一个不少地回到了这座迦勒底基地。
+[k]
+
+＠希翁
+看来各位是顺利完成了Beast讨伐。[r]恭喜你们。
+[k]
+
+[charaFace J 10]
+＠希翁
+哎呀，太好了太好了！[r]这下解决！　一个不稳定因素了呢！
+[k]
+
+[charaFace J 9]
+
+＠希翁
+接下来只要运用在不列颠弄到的圣剑[#基型:Essence]，[r]制造出决战术式[line 3]
+[k]
+
+＠希翁
+制造出专精对付『异星之神』的攻击手段，[r]就终于可以去挑战敌人的大本营啦！
+[k]
+
+[messageOff]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.4 0,-50]
+[wt 0.4]
+
+＠福尔摩斯
+唔，Miss希翁，[r]你这大本营的说法。
+[k]
+
+＠福尔摩斯
+莫非根据你的预测……[r]『异星之神』也展开了高扬斯卡娅那样的，
+[k]
+
+＠福尔摩斯
+类似固有结界的领域。[r]这就是剩下的那个『不稳定因素』？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 8]
+[charaFadein J 0.1 0,-50]
+＠希翁
+哎呀，我哪有说过[r]不稳定因素[#只剩一个]这种话？
+[k]
+
+[charaFace J 14]
+＠希翁
+我好歹一直在保密哦，[r]连船长也瞒着没说。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 8]
+[charaFadein K 0.1 0,-50]
+
+＠福尔摩斯
+没什么。[r]就算不是我，估计也能从你的口吻中察觉。
+[k]
+
+[charaFace K 0]
+
+＠福尔摩斯
+你没有对我们迦勒底的作战内容提意见，[r]却对攻略顺序有强烈的主见。
+[k]
+
+＠福尔摩斯
+这是在引导我们按顺序消灭[r]只有你预料到的不稳定因素。
+[k]
+
+＠福尔摩斯
+而这次，最大“碍事者”BeastⅣ退场了。
+[k]
+
+[charaFace K 5]
+＠福尔摩斯
+我本以为BeastⅣ就是最后的不稳定因素……
+[k]
+
+＠福尔摩斯
+但既然你说『还有』，[r]就代表是我误判了Last One。
+[k]
+
+＠福尔摩斯
+但我实在不认为会有多个高于BeastⅣ的因素。
+[k]
+
+＠福尔摩斯
+如此一来，会认为因素只剩一个，[r]才是比较自然的想法吧？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 0,-50]
+＠希翁
+嗯，大致如你所说。[r]不愧是夏洛克·福尔摩斯。
+[k]
+
+＠希翁
+最好能在与『异星之神』对决前排除掉的因素，[r]只剩一个了。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 0,-50]
+＠福尔摩斯
+那是什么呢？[r]查明『异星之神』的真面目与特性？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 13]
+[charaFadein J 0.1 0,-50]
+＠希翁
+不。这件事只能在[r]与『异星之神』的对决过程中进行。
+[k]
+
+＠希翁
+其实『最后的不稳定因素』比这更加单纯。
+[k]
+
+[charaFace J 10]
+＠希翁
+不过，你会不明白也在所难免！
+[k]
+
+＠希翁
+毕竟这是连福尔摩斯氏也会看漏的问题！
+[k]
+
+＠希翁
+哎呀，该说只能一笑置之吗，[r]这种事是看不出来的，看不出来的！
+[k]
+
+＠希翁
+既然连示巴之眼都没有观测到，[r]对我们来说终究是个无可奈何的问题呢！
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 0,-50]
+＠福尔摩斯
+…………？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 5]
+[charaFadein J 0.1 0,-50]
+＠希翁
+……不对，现在可不是自暴自弃放声大笑的时候。
+[k]
+
+[bgm BGM_EVENT_79 0.1]
+
+＠希翁
+福尔摩斯氏，[r]灵基肖像的输送就拜托你了。
+[k]
+
+＠希翁
+由我来的话，可能会有意外。[r]而你就能确实无疑地运送到潜航艇上。
+[k]
+
+＠希翁
+现在，本迦勒底基地正处于非常危险的状态。
+[k]
+
+＠希翁
+根据我的高速思考与分割思考，[r]10分钟后的安全无法得到保证。
+[k]
+
+＠希翁
+请您迅速前往潜航艇，[r]将肖像交到达·芬奇手上。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 0,-50]
+
+＠福尔摩斯
+安全无法得到保证……意思是凭你个人的演算能力，[r]无法得出确切的未来预测吗？
+[k]
+
+＠福尔摩斯
+那只要使用更为巨大的演算器，[r]也就是特里斯墨吉斯忒斯Ⅱ不就行了吗？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 4]
+[charaFadein J 0.1 0,-50]
+＠希翁
+那已经没法用了。[r]因为我身后的[#机器:那个]，现在只是纸老虎。
+[k]
+
+＠希翁
+内在已经转移到了别的地方，目前正在重启中。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 0,-50]
+＠福尔摩斯
+[line 3]！[r]所以，要我输送灵基肖像的意思是……！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 12]
+[charaFadein J 0.1 0,-50]
+＠希翁
+就是这个意思。[r]幸好你反应很快。
+[k]
+
+[charaFace J 18]
+＠希翁
+……悄悄告诉你。[r]特里斯墨吉斯忒斯Ⅱ预测到了，
+[k]
+
+＠希翁
+在这次的任务中，[r]迦勒底将会遭遇惨痛的损失。
+[k]
+
+＠希翁
+……它甚至确定“结果将是败北”。[r]你对此有什么线索吗，福尔摩斯氏？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 4]
+[charaFadein K 0.1 0,-50]
+＠福尔摩斯
+……当然。[r]刚才看完记录后，我也直哆嗦。
+[k]
+
+＠福尔摩斯
+BeastⅣ在羽化时背负着不利因素，[r]就是她在不列颠受的诅咒。
+[k]
+
+＠福尔摩斯
+那些诅咒将高扬斯卡娅逼到了[r]不得不『急速成长』的状况……
+[k]
+
+＠福尔摩斯
+可即便如此，他们的败北依旧不可避免。[r]我的意思并不是他们无法打倒Beast，
+[k]
+
+＠福尔摩斯
+而是指自打踏入那片领域，在中心地战斗的那刻起，[r]他们就注定走上全军覆没的命运。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 5]
+[charaFadein J 0.1 0,-50]
+＠希翁
+是的。BeastⅣ做好了连同领域一并消灭的准备。[r]“打倒野兽的瞬间，猎人也将消灭[line 3]”
+[k]
+
+＠希翁
+那就是这样的陷阱。
+[k]
+
+＠希翁
+如果生存才能算胜利，[r]那迦勒底本该一败涂地吧。只不过……
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 0,-50]
+＠福尔摩斯
+嗯。英灵·太公望氏，[r]与戈尔德鲁夫新所长的个人情感，
+[k]
+
+＠福尔摩斯
+以及御主[%1]决定性的一句话。
+[k]
+
+＠福尔摩斯
+这些奇迹使高扬斯卡娅停止了自爆。
+[k]
+
+＠福尔摩斯
+[line 3]将『厮杀』转化为『对话』。[r]最终既没有了赢家，也没有了输家。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 9]
+[charaFadein J 0.1 0,-50]
+＠希翁
+嗯。真是个美妙的结局。[r]不愧为我所相信的迦勒底呢！
+[k]
+
+[charaFace J 4]
+＠希翁
+然而……
+[k]
+
+[charaFace J 5]
+
+＠希翁
+根据特里斯墨吉斯忒斯Ⅱ的预测，[r]迦勒底将于今日毁灭。
+[k]
+
+[bgmStop BGM_EVENT_79 1.0]
+
+＠希翁
+这是真正无可避免的破灭。[r]因为『败北』将在这之后到来。
+[k]
+
+[messageOff]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[se ad9]
+[seVolume ad9 0 0.4]
+
+[flashin loop 0.7 0.7 FF000080 FF000000]
+[wt 1.0]
+
+＠
+『警告，警告。』
+[k]
+
+＠
+『于彷徨海上空3000米处，[r]　确认重力变动。』
+[k]
+
+＠
+『符合的现象样本：奥林波斯[r]　符合的执行者候补：U-奥尔加玛丽』
+[k]
+
+＠
+『是异星之神　执行体[r]　引发的拟似黑洞。』
+[k]
+
+[messageOff]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 0,-50]
+＠福尔摩斯
+！
+[k]
+
+[messageOff]
+
+[seStop ad9 1.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+[wipeOff]
+[flashOff]
+[charaFadeout K 0.1]
+[wt 0.5]
+
+[charaScale Q 1.5]
+[charaFadein Q 0.1 0,-250]
+[scene 95207]
+
+[wt 0.5]
+
+[fadein black 1.0]
+[se ad241]
+[seVolume ad241 0 0]
+[seVolume ad241 1.0 1.0]
+[charaMove Q 0,-450 5.0]
+[wait fade]
+
+[wt 4.5]
+
+[charaDepth Q 1]
+[charaDepth R 2]
+
+[charaScale R 2.0]
+[charaFadein R 1.0 0,-700]
+[wt 1.0]
+[charaFadeout Q 0.1]
+[wt 2.0]
+[charaMove R 0,-900 1.0]
+[charaMoveScale R 2.5 1.0]
+[charaFadeout R 1.0]
+[seStop ad241 1.0]
+[wt 1.0]
+
+
+
+[bgm BGM_EVENT_115 0.1]
+[wt 1.2]
+
+＠U-奥尔加玛丽
+与虚海一同移动的岛屿，[r]被切离时空的剪影画。
+[k]
+
+＠U-奥尔加玛丽
+[line 3]哼，[r]以地球人的构思而言，还算不错。
+[k]
+
+＠U-奥尔加玛丽
+既然不在这个时代，难怪能观测[r][#基本粒子:微观]世界的全天视觉也无法捕捉。
+[k]
+
+＠U-奥尔加玛丽
+毕竟由始至终都不在我手掌心上。[r]无论从海里如何打捞，也是徒劳无益。
+[k]
+
+[scene 95202 0.5]
+＠U-奥尔加玛丽
+按地球人的风格，这应该叫盗用信号……不，[r]应该是非法占据阁楼吧？
+[k]
+
+＠U-奥尔加玛丽
+但是[line 3]
+[k]
+
+[scene 95209 0.5]
+＠U-奥尔加玛丽
+这不像样的安全屋也到此为止啦！[r]看到了吧，只要我动真格，3秒就能找出来！
+[k]
+
+[scene 95204 0.5]
+
+＠U-奥尔加玛丽
+虽说并没有受什么伤，[r]但我要让你们尝尝胆敢反抗神的报应。
+[k]
+
+＠U-奥尔加玛丽
+一群懂得用火的飞虫，[r]丑陋胡峰巢穴啊。
+[k]
+
+[scene 95201 0.5]
+
+＠U-奥尔加玛丽
+在此化作碎屑葬身海底吧！[r]此乃国家元首的决定！
+[k]
+
+[messageOff]
+
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_115 1.0]
+[wait fade]
+
+[scene 104600]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_BATTLE_137 0.1]
+
+[se ad9]
+[seVolume ad9 0 0.4]
+
+[flashin loop 0.7 0.7 FF000080 FF000000]
+[wt 1.0]
+
+＠
+『确认　异星之神　出现在彷徨海上空。[r]　重力圈正在成形。』
+[k]
+
+＠
+『预测距彷徨海消灭　还剩15分钟。[r]　自此刻起　废弃本基地。』
+[k]
+
+＠
+『请迦勒底工作人员　火速登上[r]　正于船坞待机的Shadow Border。』
+[k]
+
+＠
+『重复一遍。[r]　确认[line 3]』
+[k]
+
+[messageOff]
+
+[seStop ad9 0.5]
+[flashout 0.5]
+
+[wt 0.7]
+[flashOff]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠芙芙
+芙，芙呜！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 2]
+[charaFadein L 0.1 1]
+
+＠穆尼尔
+不会吧！？[r]不是说彷徨海不会被捕捉吗！？
+[k]
+
+＠穆尼尔
+重力圈是指那个吧，[r]在奥林波斯出现过的那个拟似黑洞吧！？
+[k]
+
+＠穆尼尔
+如果那种玩意砸下来，连彷徨海也会瞬间被秒吧！？[r]基地该怎么办啊！？
+[k]
+
+？1：……！
+？2：大家都集合了！？
+
+？！
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠玛修
+迦勒底工作人员全员到齐！[r]正在登上Shadow Border！
+[k]
+
+＠玛修
+只是福尔摩斯先生与希翁小姐[r]还没有出现[line 3]啊！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad59]
+[seVolume ad59 0 0]
+[seVolume ad59 1.0 1.0]
+[wt 1.0]
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.4 1]
+[wt 0.4]
+[seStop ad59]
+
+＠福尔摩斯
+抱歉让你们久等了。[r]情况紧急，之后再解释。
+[k]
+
+＠福尔摩斯
+灵基肖像由我带着。[r]抓紧时间逃离这里吧。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+我也非常想这样做，[r]可是希翁·艾尔特纳姆人呢！？
+[k]
+
+＠戈尔德鲁夫
+嘴上说什么“可以预测未来”，[r]却未能预测到这种发展的事，我之后再抨击，
+[k]
+
+＠戈尔德鲁夫
+但她现在也是迦勒底的工作人员之一！[r]怎么可以丢下她不管呢！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 9]
+[charaFadein K 0.1 1]
+
+＠福尔摩斯
+呼。刚才的台词真希望她能亲耳听到呢，[r]戈尔德鲁夫新所长。
+[k]
+
+[charaFace K 5]
+
+＠福尔摩斯
+不过现在我们必须优先逃脱。[r]Miss希翁也是这样提议的。
+[k]
+
+＠福尔摩斯
+她好像会稍后与我们会合。
+[k]
+
+＠福尔摩斯
+『作为借住彷徨海之人，[r]　我的责任是完全关闭五扇门扉。』
+[k]
+
+＠福尔摩斯
+据她所说，完成这件事需要耗费20分钟。[r][line 3]能理解这句话的意思吗？
+[k]
+
+[messageOff]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+[wt 1.0]
+
+[charaFace A 7]
+＠玛修
+Mr.福尔摩斯，[r]这[line 2]
+[k]
+
+？1：必须带她回来才行……！
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 1]
+＠福尔摩斯
+不需要，[%1]。[r]她是这么告诉我的。
+[k]
+
+[messageOff]
+
+[wipeout circleIn 1.0 1]
+[bgm BGM_BATTLE_137 1.0 0.5]
+[wait wipe]
+
+[charaFadeout K 0.1]
+[effect bit_sepia01_depth_fs]
+
+[scene 104100]
+[wt 1.5]
+
+[wipein circleIn 1.0 1]
+[wait wipe]
+[wt 0.4]
+
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+＠希翁
+希望迦勒底优先逃脱，[r]我定会追上你们的。
+[k]
+
+＠希翁
+不过，想[#立刻]追上会有点困难。[r]但我肯定能准时准点赶上最后的战斗。
+[k]
+
+＠希翁
+毕竟我正是为此才离开了阿特拉斯院。
+[k]
+
+[charaCrossFade J 1098158210 12 0.2]
+
+＠希翁
+非要说的话，就是截至目前都在我的计算之内。[wait charaCrossFade J]
+[k]
+
+[charaFace J 10]
+
+＠希翁
+我好歹也是个游戏玩家嘛。[r]没看到结局就死这种事，真心不可能啦，不可能wwww
+[k]
+
+[messageOff]
+
+[wipeout circleIn 1.0 1]
+[wait wipe]
+
+[effectStop bit_sepia01_depth_fs]
+[charaFadeout J 0.1]
+
+[scene 104600]
+
+[charaSet J 1098158200 1 希翁]
+
+[wt 1.5]
+
+[bgm BGM_BATTLE_137 1.0 1.0]
+[wipein circleIn 1.0 1]
+[wait wipe]
+[wt 0.4]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠福尔摩斯
+这是预测了未来的阿特拉斯炼金术师的话。[r]我会将此作为事实接受。
+[k]
+
+＠福尔摩斯
+证据则是我们现在已经做足了准备，[r]正要登上潜航艇。
+[k]
+
+＠福尔摩斯
+而Storm Border方面，[r]达·芬奇与船长也已做好了启航的准备工作。
+[k]
+
+[charaFace K 7]
+＠福尔摩斯
+打从一开始，她就知道事情会演变成这样。
+[k]
+
+＠福尔摩斯
+既然如此，[r]她应该也准备好了自己的逃生手段。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+唔……嗯。[r]确实……说得对呢……
+[k]
+
+＠戈尔德鲁夫
+我还奇怪突然打包行李是什么情况呢……
+[k]
+
+[charaFace B 18]
+＠戈尔德鲁夫
+意思是异闻带只剩一个，[r]敌人也要动真格了……
+[k]
+
+＠戈尔德鲁夫
+所以我们早晚会这样吗……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠福尔摩斯
+嗯，迟早会无法再待在彷徨海。[r]Storm Border就是为此才存在居住区的。
+[k]
+
+＠福尔摩斯
+她从一开始，就打算拿Storm Border当[#基地:Base]。
+[k]
+
+＠福尔摩斯
+迦勒底并不是在彷徨海庇护之下的组织。[r]迦勒底不隶属于任何势力，
+[k]
+
+＠福尔摩斯
+它应该是一个致力于人理保障，[r]属于活在当下之人的组织。
+[k]
+
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+……不隶属于任何势力………[r]……是属于活在当下之人的，组织……
+[k]
+
+[charaFace B 15]
+＠戈尔德鲁夫
+……嗯，说得没错。[r]说得没错啊，经营顾问。
+[k]
+
+[charaFace B 16]
+＠戈尔德鲁夫
+穆尼尔！　[%1]！[r]基列莱特！
+[k]
+
+＠戈尔德鲁夫
+迅速登上Shadow Border！[r]其他工作人员早就在里面了！
+[k]
+
+？1：[line 3]是！
+
+？！
+
+[messageOff]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+
+[charaFace A 7]
+[charaFadeinFSR A 0.1 2]
+
+[charaFace L 0]
+[charaFadeinFSL L 0.1 0]
+[wt 0.5]
+
+[charaMoveReturnFSR A 256,-10 0.3]
+[charaMoveReturnFSL L -256,-10 0.3]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_BATTLE_137 1.5]
+[wait fade]
+
+[charaFadeout L 0.1]
+[charaFadeout A 0.1]
+[wt 0.5]
+
+[pictureFrame cut063_cinema]
+
+[scene 141900]
+[wt 1.5]
+
+[sceneSet Q 141900 1]
+[sceneSet R 141900 1]
+
+[fadein black 1.5]
+[shake 0.05 2 2 3.0]
+[se ade393]
+[wait fade]
+
+[se ad228]
+[seVolume ad228 0 0.5]
+[effect bit_talk_rubble]
+
+[wt 3.0]
+[seStop ad228 1.0]
+[seStop ade393 4.0]
+[effectStop bit_talk_rubble]
+[wt 1.0]
+
+[charaTalk depthOn]
+[charaTalk on]
+
+[charaTalk J]
+[charaFace J 18]
+[charaFadein J 0.1 0,-50]
+
+＠希翁
+『[#维持:塞伦]』之门，线路切断。[r]『[#发展:埃伦]』之门，线路切断。
+[k]
+
+＠希翁
+『[#保存:盖农]』之门，线路切断。[r]『[#隶属:弗西鲁卡]』之门，线路切断。
+[k]
+
+＠希翁
+『[#再生:加纳]』之门，线路[line 3]
+[k]
+
+[charaFace J 14]
+＠希翁
+哎呀？
+[k]
+
+＠希翁
+怎么了，教授？[r]难道是忘了什么东西？
+[k]
+
+＠希翁
+[line 3]或者说，
+[k]
+
+[messageOff]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaScale Q 1.3]
+[charaFadein Q 1.0 -100,-280]
+[charaMove Q -150,-280 3.0]
+[se ad311]
+[wt 3.0]
+
+[charaTalk M]
+[charaFace M 0]
+[charaScale M 1.1]
+[charaFadein M 1.2 150,70]
+[seStop ad311 0.5]
+[wt 1.0]
+
+[charaMove M 150,-80 2.5]
+[charaMove Q -150,-430 2.5]
+[wt 1.5]
+
+
+
+
+[wt 3.0]
+[bgm BGM_EVENT_38 0.1]
+
+[charaFadeout Q 1.0]
+[charaFadeout M 1.0]
+[wt 1.2]
+
+[charaScale M 1.0]
+
+[charaTalk J]
+[charaFace J 16]
+[charaFadein J 0.1 0,-50]
+＠希翁
+这吹的是哪阵风啊？
+[k]
+
+＠希翁
+仍在籍『真正彷徨海』的魔术师，[r]竟会在[#现代:当今]魔术师面前露脸。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 1]
+[charaFadein M 0.1 0,-50]
+＠魔术师
+很不可思议吗？[r]这将会是对你最后的问候。
+[k]
+
+＠魔术师
+在我的记忆中，无论在哪个时代，[r]直接对面都是不变的礼节啊。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 11]
+[charaFadein J 0.1 0,-50]
+＠希翁
+啊～……也是。[r]确实如此。
+[k]
+
+＠希翁
+遗憾的是，我们的学院[r]从很早以前就相当于脱机了……
+[k]
+
+＠希翁
+都是隔着屏幕、镜子、丝线、网络，[r]在现实中见面的文化早已荒废。
+[k]
+
+[charaFace J 12]
+＠希翁
+只是我在阿特拉斯院也属于异端。[r]艾尔特纳姆流传的技术……
+[k]
+
+＠希翁
+是直接劫持他人大脑，擅自使用大脑的[r]灵子线……名叫[#灵线神经:Etherite]。
+[k]
+
+＠希翁
+但或许由于父亲是个溺爱孩子的家长，[r]有事没事都会找机会疼爱我的缘故吧，
+[k]
+
+＠希翁
+我从『与他人肌肤接触』一事中觅得了意义。
+[k]
+
+＠希翁
+最终成长为了不用[#灵线神经:Etherite]这种[r]超级方便的技术，积极向上的人。
+[k]
+
+[charaFace J 9]
+＠希翁
+因此，您的关怀令我非常高兴。
+[k]
+
+＠希翁
+感谢您能给我这么一个当面对话的机会。
+[k]
+
+＠希翁
+您那边，是那个时代吧？[r]得花上一笔夸张得离谱的[#通讯费:魔力]吧？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 2]
+[charaFadein M 0.1 0,-50]
+＠魔术师
+确实花了不少哦。[r]魔力消耗多到足以杀死一块大陆。
+[k]
+
+＠魔术师
+不过，那些魔力原本就无处可用。
+[k]
+
+＠魔术师
+而且从师父那获得了许可，[r]说是可以为了未来浪费那么一回。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 12]
+[charaFadein J 0.1 0,-50]
+＠希翁
+师父……是指打造了『真正彷徨海』的[r]魔术师之一吗？
+[k]
+
+＠希翁
+我听说[#再生:加纳]已经一个人都不剩了，[r]原来包括您在内，还剩两个吗。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 0]
+[charaFadein M 0.1 0,-50]
+＠魔术师
+在异闻中确实如此。
+[k]
+
+＠魔术师
+而在你们的时代中，[r][#再生:加纳]之门本是必须断绝不可的。
+[k]
+
+[charaFace M 1]
+
+＠魔术师
+但无论如何，2018年的彷徨海现在就要消灭了。
+[k]
+
+＠魔术师
+无论我是否存在，[r]都与迦勒底毫无关系。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 13]
+[charaFadein J 0.1 0,-50]
+＠希翁
+哎呀，你不打算叱责我借用了这个地方，[r]最终却害得岛屿消灭吗？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 2]
+[charaFadein M 0.1 0,-50]
+
+＠魔术师
+当然。『彷徨海』并无消灭可言。[r]遥远的过去[line 3]
+[k]
+
+[charaFace M 1]
+
+＠魔术师
+为了从人类和诸神的目光中隔离自身，[r]他们在绝海孤岛打造了工房，
+[k]
+
+＠魔术师
+[#并连同那一带]，[#一起从那个宇宙]『[#消失]』[#了]。
+[k]
+
+＠魔术师
+时空的迷途之子，或者说永恒的行踪不明者。[r]谁都观测不到，谁都干涉不了。
+[k]
+
+[charaFace M 0]
+
+＠魔术师
+除了唯一的例外[line 3]这『五扇门扉』。
+[k]
+
+＠魔术师
+出现在各时代的彷徨海，不过是『曾经存在过的彷徨海』[r]落在该时代的影子罢了。
+[k]
+
+＠魔术师
+哪怕『2018年的彷徨海』崩溃，[r]也仅限于2018年。
+[k]
+
+＠魔术师
+对过去、未来，以及消失的本体，[r]都不会造成任何影响。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 10]
+[charaFadein J 0.1 0,-50]
+＠希翁
+原来如此，我本以为『五扇门扉』的另一头，[r]分别存在各自的工房[line 3]
+[k]
+
+＠希翁
+原来那是时空之门啊。
+[k]
+
+＠希翁
+是无论对方身处什么时代，都能与[r]消失前的『彷徨海』取得联络的门扉。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 1]
+[charaFadein M 0.1 0,-50]
+＠魔术师
+没错。[r]我曾经也跟你一样，是活在公元的魔术师。
+[k]
+
+＠魔术师
+后来被师父邀请至[#再生:加纳]之门，[r]成为了那边的居民。
+[k]
+
+＠魔术师
+你方才说自己是阿特拉斯院的异端。[r]换言之，你在这个世界并无容身之处。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 0,-50]
+＠希翁
+………………
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 0]
+[charaFadein M 0.1 0,-50]
+＠魔术师
+能接受『彷徨海』教诲的魔术师是有限的。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 0.1 0,-50]
+＠希翁
+我知道，听说每年仅招募一次有志之士，[r]且只会从中挑选一个。
+[k]
+
+[bgm BGM_EVENT_38 2.0 0.7]
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaTalk off]
+
+[charaDepth Q 1]
+[charaDepth M 2]
+[charaDepth R 3]
+[charaDepth J 4]
+
+[charaScale Q 1.5]
+[charaScale R 1.5]
+[charaScale M 1.2]
+[charaScale J 1.2]
+[wt 0.1]
+
+[charaFadein Q 0.8 -310,-320]
+[charaMove Q -320,-320 1.5]
+
+[charaFace M 0]
+[charaFadein M 0.8 70,-50]
+[charaMove M 80,-50 1.3]
+[wt 1.5]
+
+＠魔术师
+嗯。但成为我等同胞所需的资格，[r]其实并没有太多要求。
+[k]
+
+＠魔术师
+[#只需在门扉打开时在场即可]。[r]只要是神秘、命运一致之人，谁都可以。
+[k]
+
+[charaFace M 1]
+
+＠魔术师
+而现在，彷徨海之门便开着。[r][line 3]希翁·艾尔特纳姆。
+[k]
+
+[messageOff]
+[charaFadein R 0.6 310,-320]
+[charaMove R 320,-320 1.5]
+
+[charaFace J 5]
+[charaFadein J 0.8 -70,-50]
+[charaMove J -80,-50 1.3]
+[wt 0.9]
+
+[charaFadeout Q 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+
+[wt 1.4]
+
+[charaFace J 0]
+＠希翁
+不，感谢您的这番美意，[r]只是我在这边还有事情要处理。
+[k]
+
+[charaFace J 6]
+＠希翁
+别担心，关门一事我保证做得滴水不漏。[r]请您放心回去吧，法布罗·罗温。
+[k]
+
+＠希翁
+对你们彷徨海来说，『异星之神』也许[r]只是“遥远未来无关紧要的问题”吧……
+[k]
+
+[charaFace J 12]
+
+＠希翁
+但是对我，以及对他们迦勒底来说，[r]却是无论如何都得解决的问题。
+[k]
+
+＠希翁
+因此，现在不是去你们那边的时候。[r]倘若门扉打开的命运『仅限此刻』……
+[k]
+
+[charaFace J 9]
+
+＠希翁
+那就算名副其实的没缘分了吧。[r]我还是指望下次抽中不一样的大奖好了。
+[k]
+
+＠希翁
+非常感谢各位迄今为止的协助。
+[k]
+
+[messageOff]
+[charaFadeout R 1.0]
+[charaFadeout J 1.0]
+[wt 1.0]
+[charaScale M 1.0]
+[charaScale J 1.0]
+[wt 0.2]
+
+
+[charaTalk on]
+
+[charaScale M 1.0]
+[charaTalk M]
+[charaFace M 0]
+[charaFadein M 0.1 0,-50]
+＠魔术师
+这样啊。[r]那善后工作就委任给你了。
+[k]
+
+[charaFace M 1]
+
+＠魔术师
+……最后补充一点。
+[k]
+
+＠魔术师
+[#彷徨海:我等]并非借屋檐给迦勒底庇护。
+[k]
+
+＠魔术师
+只是给了你一个机会，希翁。[r]给了你那只能用奇妙来形容的计划一个机会。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaScale J 1.0]
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 0,-50]
+＠希翁
+[line 6]
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 2]
+[charaFadein M 0.1 0,-50]
+＠魔术师
+祝你旅途顺利，希翁·艾尔特纳姆。[r]尽情……不，按预测地前进吧。
+[k]
+
+＠魔术师
+诞生于黑色大地之女，[r]犹如孑然一身翱翔于冥界的鸟儿。
+[k]
+
+[bgmStop BGM_EVENT_38 2.0]
+
+[messageOff]
+
+[se ad311]
+[charaFadeout M 0.4]
+[wt 1.5]
+[seStop ad311 0.5]
+[se ad92]
+[wt 2.5]
+
+[charaTalk J]
+[charaFace J 11]
+[charaFadein J 0.1 0,-50]
+＠希翁
+[FFFFFF]？[-]　这比喻还真是奇怪……[r]我跟冥界或鸟儿都没什么缘分吧……
+[k]
+
+[bgm BGM_EVENT_62 0.1]
+
+[charaFace J 0]
+＠希翁
+不过，这问题应该迟早会明白的吧。[r]我也要开始着手处理工作啦！
+[k]
+
+[charaFace J 10]
+＠希翁
+单方面遭破坏也太没意思啦，没意思！[r]反正都要毁坏，还不如自爆啦，自爆！
+[k]
+
+[charaFace J 12]
+＠希翁
+那么[line 3]
+[k]
+
+＠希翁
+来看看『异星之神』的执行体[r]究竟有多么强韧的耐力吧！
+[k]
+
+[messageOff]
+
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_62 1.0]
+[wait fade]
+
+[charaFadeout J 0.1]
+[wt 0.5]
+
+[pictureFrame]
+
+[scene 142200]
+[cameraMove 0.1 0,-30 1.2]
+[wt 1.5]
+
+[se ad882]
+[se ad327]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.8]
+
+[fadein black 1.0]
+[seStop ad327 1.0]
+
+[se ade280]
+[wait fade]
+[wt 1.0]
+
+[se ad914]
+[se ad913]
+[se ad970]
+[se ad402]
+[cameraHome 3.0]
+[shake 0.05 3 3 6.5]
+[scene 142201 1.5]
+[wt 1.0]
+[se ad734]
+[seVolume ad402 0 0]
+[seVolume ad402 1.0 0.7]
+[se ad193]
+[se ad892]
+[se ad728]
+[seVolume ad728 0 0.5]
+[wt 1.5]
+[seStop ade280 1.5]
+[seStop ad913 1.5]
+[wt 2.4]
+[fadeout black 2.0]
+[wait fade]
+
+[wt 0.5]
+
+[scene 132904]
+
+[wt 1.5]
+[seVolume ad734 0 0.4]
+[fadein black 1.5]
+[wait fade]
+
+[seVolume ad734 5.0 0]
+[seVolume ade393 5.0 0]
+
+[bgm BGM_BATTLE_48 0.1]
+
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.1 1]
+＠尼莫水兵
+啊哇哇，彷徨海的地表部分[r]开始被重力圈吸进去了～～！
+[k]
+
+＠尼莫水兵
+船长，到极限啦～～！[r]再继续待机下去速度会比不过的～！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk N]
+[charaFace N 2]
+[charaFadein N 0.1 1]
+＠尼莫
+我知道！
+[k]
+
+[charaFace N 5]
+＠尼莫
+已确认托玛琳、川田、奥克塔维娅、陈、[r]卡扬、艾尔隆、马库斯、穆尼尔、
+[k]
+
+＠尼莫
+[%1]、玛修、[r]芙芙、戈尔德鲁夫、福尔摩斯登机！
+[k]
+
+[charaFace N 2]
+＠尼莫
+Storm Border，紧急启航！[r]全速脱离这片海域！
+[k]
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+这，这倒是无妨，可奥尔加玛丽那家伙该怎么办！？[r]她不会追上来吗！？
+[k]
+
+＠戈尔德鲁夫
+我们难道不应该先发制人吗！？[r]你瞧，那小丫头现在似乎正疏忽大意！
+[k]
+
+[messageOff]
+[bgm BGM_BATTLE_48 0.5 0.5]
+
+[charaFadeout B 1.0]
+
+
+[seVolume ad734 1.0 0.6]
+[seVolume ade393 1.0 0.6]
+[se ad294]
+
+[charaDepth V 5]
+[charaDepth W 6]
+
+[charaFadein V 1.0 0,-200]
+[wt 2.2]
+[charaFadein W 1.0 0,-200]
+[wt 2.4]
+
+[seStop ad294 1.0]
+[seVolume ad734 2.0 0]
+[seVolume ade393 2.0 0]
+
+[bgm BGM_BATTLE_48 0.5 1.0]
+
+[charaFadeout V 1.0]
+[charaFadeout W 1.0]
+[wt 1.0]
+
+[charaTalk N]
+[charaFace N 2]
+[charaFadein N 0.1 1]
+＠尼莫
+不，现阶段本舰的兵装[r]无法对『异星之神』造成损伤！
+[k]
+
+＠尼莫
+如果她追上来，就到时候再说！[r]无论天涯海角都要逃下去！
+[k]
+
+＠尼莫
+全员就座！
+[k]
+
+＠尼莫
+教授！[r]将舰内惯性保护输出提升至最大！
+[k]
+
+＠尼莫
+次元钻孔时间流从舰首移动至舰尾，[r]将间隙反作用力当作加速利用！
+[k]
+
+＠尼莫
+有史以来最危急的紧急启航！[r]舰体控制就交给你了！
+[k]
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[se ad13]
+[charaPut O 0,0]
+[charaEffect O bit_talk_10_LowLevel]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠E：尼莫教授
+嗯，好～。[r]我已计算完毕，随时都能开始～。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut O 1200,1200]
+
+[charaTalk N]
+[charaFace N 2]
+[charaFadein N 0.1 1]
+＠尼莫
+特里同引擎，四台并列运转！[r]Storm Border，要出发啦！
+[k]
+
+[messageOff]
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[bgmStop BGM_BATTLE_48 1.0]
+
+[se ad631]
+[wt 0.5]
+[seVolume ad734 1.0 0.4]
+[seVolume ade393 1.0 0.4]
+[shake 0.03 3 3 1.8]
+[wt 1.5]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+
+[wt 1.2]
+[seStop ad734 2.5]
+[seStop ade393 2.5]
+
+[se ade7]
+[cueSe SE_21 21_ad1097]
+[se ade378]
+[wipeout rightUpToLeftDown 0.5 1.0]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[wt 0.5]
+
+[sceneSet Q 142400 1]
+[sceneSet R 142401 1]
+
+[charaTalk depthOff]
+[charaDepth Q 5]
+[charaDepth R 6]
+[charaDepth V 7]
+[charaDepth X 8]
+
+
+[scene 142400]
+
+[cameraMove 0.1 0,0 1.01]
+
+[charaScale Q 1.5]
+[charaScale X 1.95]
+
+[charaScale V 1.45]
+[charaFadein V 0.1 0,-400]
+
+[wt 1.5]
+[se ad882]
+[se ad327]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.8]
+
+[charaMove V 0,-650 6.0]
+[charaMoveScale V 1.95 6.0]
+
+[wipein leftDownToRightUp 0.5 1.0]
+[wait wipe]
+[seStop ad327 1.0]
+[se ade280]
+[wt 6.5]
+
+[charaFadein X 0.6 0,-650]
+
+[charaMove X 0,-1200 0.7]
+[charaMoveScale X 3.0 0.7]
+
+[charaMove V 0,-1200 0.7]
+[charaMoveScale V 3.0 0.7]
+[wt 0.2]
+
+[se ad914]
+[se ad913]
+[se ad970]
+[se ad402]
+[shake 0.05 3 3 6.5]
+[fadeout black 0.4]
+[wait fade]
+
+[charaFadeout V 0.1]
+[charaFadeout X 0.1]
+[wt 2.5]
+
+[fadein black 0.6]
+
+[shake 0.05 3 3 6.5]
+
+[se ad734]
+[seVolume ad402 0 0]
+[seVolume ad402 1.0 0.7]
+
+[se ad780]
+[se ad193]
+[se ad892]
+[se ad728]
+[seVolume ad728 0 0.5]
+
+[wait fade]
+
+[wt 1.5]
+[seStop ade280 1.5]
+[seStop ad913 1.5]
+[seStop ad734 2.0]
+[wt 2.8]
+
+[flashin once 0.1 0.3 FFFFFFAF FFFFFF00]
+[scene 142401 0.2]
+
+[cueSe NoblePhantasm_9943010 NP_9943010_6]
+[cueSe NoblePhantasm_404200 NP_404200_9]
+[se ad609]
+[se ad828]
+[se ad782]
+
+[charaFadeout Q 1.0]
+[wt 1.5]
+[seStop ade393 1.5]
+
+[fadeout white 1.5]
+[wait fade]
+
+[wt 5.5]
+
+
+[se ad555]
+[seVolume ad555 0 0]
+[seVolume ad555 3.0 0.8]
+
+[scene 142300]
+
+[wt 3.5]
+
+[fadein white 1.5]
+[wait fade]
+
+[wt 3.5]
+
+[seStop ad555 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[scene 132904]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+？1：……结果怎么样……？
+？2：……成功脱身了吗……？
+
+？！
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk N]
+[charaFace N 0]
+[charaFadein N 0.1 1]
+＠尼莫
+嗯，[r]『异星之神』也没有追上来。
+[k]
+
+＠尼莫
+本舰目前离开了北海，[r]正朝着欧亚大陆的中心飞行中。
+[k]
+
+＠尼莫
+接下来会继续向东航行，前往太平洋。
+[k]
+
+＠尼莫
+达·芬奇、福尔摩斯，[r]有其他问题吗？
+[k]
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 1]
+
+＠福尔摩斯
+『异星之神』怎么样了？[r]逃脱时，好像有一阵强烈的闪光……
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠达·芬奇
+那是彷徨海的……[r]不，是希翁的反击吧。
+[k]
+
+＠达·芬奇
+正如『异星之神』压缩超高密度的质量[r]从而产生重力圈一样，
+[k]
+
+＠达·芬奇
+她将彷徨海压缩至极小规模然后解放，[r]用那股能量轰击『异星之神』。
+[k]
+
+[charaFace H 14]
+＠达·芬奇
+只是不知道『异星之神』之所以没有追上来，
+[k]
+
+＠达·芬奇
+是因为这波伤害所致，[r]还是因为尚未察觉我们已经脱身了。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+原来是这样，不会平白被干掉，[r]真不愧是阿特拉斯的炼金术师呢。
+[k]
+
+[charaFace B 9]
+＠戈尔德鲁夫
+但接下来该怎么办？[r]希翁·艾尔特纳姆真的会回来吧？
+[k]
+
+＠戈尔德鲁夫
+那家伙不在，也就没办法维修Storm Border，[r]或是借助[#灵子演算器:特里斯墨吉斯忒斯Ⅱ]制定作战计划了吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_70 1.0]
+
+[charaTalk J]
+[charaFace J 7]
+[charaFadein J 0.1 1]
+＠希翁
+这点不必担心。[r]特里斯墨吉斯忒斯Ⅱ已经移植到Storm上了。
+[k]
+
+[charaFace J 10]
+＠希翁
+毕竟年末大工程就是为此而动工的嘛！
+[k]
+
+＠希翁
+哎呀，飞行战舰内搭载着巨大电子计算机，[r]这景象除了浪漫还能是什么呢！
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+哎。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠玛修
+哎。
+[k]
+
+[messageOff]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+？1：希翁[line 3]！？
+
+？！
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk J]
+[charaFace J 3]
+[charaFadein J 0.1 1]
+＠希翁
+感谢各位提供[r]“你不是跟彷徨海一起爆炸了吗！？”的反应。
+[k]
+
+[charaFace J 6]
+＠希翁
+很抱歉，别看我这样，我好歹也是吸……[r]不，我好歹有比较特殊的体质嘛。
+[k]
+
+＠希翁
+关上彷徨海的门扉与开启岛屿的自爆功能！[r]干完这些后，我靠自己的力量与Storm Border会合了。
+[k]
+
+＠希翁
+也可以说是对存在概率的操控吧。[r]请各位想象成类似雏罂小姐的雾化能力吧。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 8]
+[charaFadein K 0.1 1]
+
+＠福尔摩斯
+原来如此。活在数字中的炼金术师不会认可自爆……[r]不，是不会认可自我牺牲。
+[k]
+
+＠福尔摩斯
+该优先的并非延续后世之物，[r]而是仍在持续的计算。
+[k]
+
+[charaFace K 9]
+
+＠福尔摩斯
+所有行动皆为了自身的利益……[r]是这样吧？
+[k]
+
+[messageOff]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+
+[wt 0.7]
+
+[charaFace J 9]
+＠希翁
+是的。[r]正所谓帮人即是帮自己嘛！
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+哎哎，这种事早点说啦！[r]还如此高效地赚取好感度！
+[k]
+
+＠戈尔德鲁夫
+不要让别人在那操无谓的心！[r]害我，不，我是钢铁司令官，所以没有受到打击，
+[k]
+
+＠戈尔德鲁夫
+可你好歹考虑一下其他工作人员的心情啊，真是的！[r]大家也不希望看到更多人牺牲了！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 14]
+[charaFadein J 0.1 1]
+＠希翁
+哎呀，是这样吗，各位？
+[k]
+
+？1：是的，好好反省吧。
+？2：真是的。
+
+？！
+
+[messageOff]
+
+[charaFace J 5]
+[wt 1.0]
+
+？1：不过你能平安无事，真是太好了。
+
+？！
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+……是的。[r]我想大家应该都怀着相同的心情。
+[k]
+
+＠玛修
+非常高兴看到您平安归来。[r]彷徨海的撤离工作，辛苦您了，希翁小姐。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 16]
+[charaFadein J 0.1 1]
+＠希翁
+[line 6]不会吧。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk N]
+[charaFace N 6]
+[charaFadein N 0.1 1]
+＠尼莫
+……不过，我早就知道会是这样了。[r]毕竟希翁比寻常从者更结实嘛。
+[k]
+
+[bgmStop BGM_EVENT_77 1.0]
+
+[charaFace N 5]
+＠尼莫
+比起这个，[r]既然冷静下来了，我们确认一下方针吧。
+[k]
+
+[bgm BGM_MAP_58 0.1]
+
+＠尼莫
+今后，迦勒底的作战行动[r]都将靠Storm Border执行。
+[k]
+
+＠尼莫
+为了不被『异星之神』侦察到踪迹，[r]Storm会在地球上不规则飞行。
+[k]
+
+＠尼莫
+仅限于补给或维修时才会降落地面。
+[k]
+
+＠尼莫
+哪怕Storm Border是一艘优秀的舰艇，[r]在没有港口的状态下迟早会迎来极限。
+[k]
+
+＠尼莫
+大规模作战最多再来一次。[r]这点希望各位铭记于心。
+[k]
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠福尔摩斯
+明白了。[r]无论如何，剩下的异闻带只有一个了。
+[k]
+
+＠福尔摩斯
+待到对『异星之神』的决胜术式完成，[r]迦勒底便会闯入第七异闻带。
+[k]
+
+＠福尔摩斯
+[line 3]开始与自称『异星之神』的[r]U-奥尔加玛丽战斗。
+[k]
+
+＠福尔摩斯
+这样就行了吧，戈尔德鲁夫司令官、[r][&Mr.:Miss][%1]。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+唔，嗯。[r]意思是终于要进入最终局面了吧。
+[k]
+
+[charaFace B 6]
+＠戈尔德鲁夫
+好啊，那就动手干起来吧！[r]但是要尽可能做好充分的准备哦！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 26]
+[charaFadein H 0.1 1]
+＠达·芬奇
+当然。
+[k]
+
+[charaFace H 25]
+＠达·芬奇
+圣剑的加工固然重要，但更重要的，[r]是必须解析清楚『异星之神』才行。
+[k]
+
+＠达·芬奇
+『异星之神』真的是奥尔加玛丽所长吗？[r]那样子又是怎么回事呢？
+[k]
+
+[charaFace H 0]
+＠达·芬奇
+依现状只有『打倒』这条道路可走，[r]但随着对敌人理解的加深，也可能有不同的道路。
+[k]
+
+＠达·芬奇
+就像高扬斯卡娅那样。[wt 0.6][charaFace H 26][r]对吧，[%1]？
+[k]
+
+？1：嗯！
+
+？！
+
+[messageOff]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 26]
+[charaFadein A 0.1 1]
+
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠达·芬奇
+既然这么决定了，得赶紧习惯新环境才行。
+[k]
+
+＠达·芬奇
+大家分工合作，将Storm Border[r]打造成超越以往的基地吧。
+[k]
+
+[charaFace H 19]
+＠达·芬奇
+希翁好像还建造了一座新的设施？[r]接下来估计会变得愈发忙碌了吧～？
+[k]
+
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 2.0]
+[bgmStop BGM_MAP_58 2.0]
+[wait fade]
+[soundStopAll]
+[end]
+

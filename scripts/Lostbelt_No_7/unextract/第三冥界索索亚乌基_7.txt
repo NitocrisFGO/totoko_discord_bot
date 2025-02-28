@@ -1,0 +1,909 @@
+
+＄03-00-13-15-7-0
+
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098252410 1 库库尔坎]
+[charaSet D 1098257300 1 达·芬奇]
+[charaSet E 1098255300 1 尼托克丽丝]
+[charaSet F 1098255200 1 哈贝特洛特]
+[charaSet G 1098122300 1 杜木兹]
+[charaSet H 1098257200 1 宁基伽勒]
+[charaScale A 1.2]
+[charaScale B 1.2]
+[charaScale D 1.2]
+[charaScale E 1.2]
+[charaScale F 1.2]
+
+[sceneSet I 174000 1]
+[sceneSet J 174000 1]
+[charaScale I 1.2]
+[charaScale J 1.2]
+
+[imageSet K cut412_cage 1]
+[imageSet L cut412_cage 1]
+[charaScale K 1.05]
+[charaScale L 1.05]
+
+[sceneSet M 174000 1]
+[charaScale M 1.3]
+
+[scene 174000]
+
+[pictureFrame cut063_cinema]
+
+[fadein black 1.0]
+[wait fade]
+[se ad415]
+[wt 1.0]
+
+[bgm BGM_EVENT_70 0.1]
+
+
+[subCameraOn 2]
+
+[charaLayer E sub #A]
+[charaLayer B sub #A]
+[charaLayer D sub #A]
+[charaLayer F sub #A]
+[charaLayer A sub #A]
+[charaLayer I sub #A]
+[charaLayer K sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask07 3 129,90,43,255]
+
+[charaTalk depthOff]
+[charaDepth L 9]
+[charaDepth K 8]
+[charaDepth E 7]
+[charaDepth B 6]
+[charaDepth D 5]
+[charaDepth F 4]
+[charaDepth A 3]
+[charaDepth I 2]
+[charaDepth J 1]
+
+[charaDepth H 2]
+[charaDepth M 1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 0,240]
+[charaFadein I 0.1 200,0]
+[charaFadein K 0.1 -10,100]
+[wt 0.1]
+
+[subRenderFadein #A 0.4 0,-270]
+[wt 0.4]
+
+＠尼托克丽丝
+呜……真是遭罪……[r]这里是……绿洲吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 240,240]
+
+＠特佩乌
+是的，看来是保住了一命。[r]被掀飞时我还担心不知会怎样呢。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 0,240]
+
+＠玛修
+……我们是被古伽兰那的腿掀飞后，[r]陷入昏迷时被抓住的吧……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 34]
+[charaFadein D 0.1 10,240]
+
+＠达·芬奇
+嗯，这牢笼是埃列什基伽勒的枪牢吧。
+[k]
+
+＠达·芬奇
+状态万全时倒还能想办法破坏，[r]可惜凭现在的我们是难以逃脱的。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 10]
+[charaPut F 0,290]
+[charaFadeTime F 0.1 0.7]
+
+＠哈贝特洛特
+毕竟被华丽地干掉了嘛……[r]浑身上下都在痛，甚至无法正常行动……
+[k]
+
+[charaFace F 11]
+
+＠哈贝特洛特
+从今往后咱们会何去何从呢………[r]果然会被当作奴隶使唤吗……
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+[cueSe SE_21 21_ade665]
+[seVolume 21_ade665 0 0]
+[seVolume 21_ade665 1.0 1.0]
+[wt 0.6]
+
+[charaScale H 1.2]
+
+[charaFadein M 1.0 150,-200]
+[charaMove M 200,-200 1.0]
+[wt 0.3]
+[charaTalk H]
+[charaFace H 26]
+[charaFadein H 0.7 -150,-50]
+[charaMove H -130,-50 0.7]
+[seStop 21_ade665 0.5]
+[wt 1.5]
+
+＠宁基伽勒
+那当然啦。[r]你以为冥界是为何而存在的啊。
+[k]
+
+＠宁基伽勒
+你们从……你们这些家伙从今往后都会成为冥界的居民，[r]永远为我效力。
+[k]
+
+＠宁基伽勒
+早餐、劳动（挖掘矿山）、午餐、劳动（挖掘矿山）、[r]晚餐、劳动（抽取魔力）、就寝。
+[k]
+
+＠宁基伽勒
+我要让你们按照这个循环将魔力积蓄到极限。[r]顺带一提，没有假日，做好思想准备吧。
+[k]
+
+[messageOff]
+[charaFace F 13]
+
+[charaFadeout H 0.6]
+[charaFadeout M 0.6]
+[wt 0.8]
+
+[charaTalk F]
+[subRenderFadein #A 0.2 0,-270]
+
+＠哈贝特洛特
+呜哇，还不如死了算了。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.1 10,240]
+
+＠达·芬奇
+真的是抓我们来当劳动力的啊。
+[k]
+
+＠达·芬奇
+你就那么想装点自己吗？[r]连那个伊什塔尔也不会做到这份上……（好像也会。）
+[k]
+
+[charaFace D 17]
+
+＠达·芬奇
+那我换个切入点。
+[k]
+
+＠达·芬奇
+你说你对自己发过誓，[r]要当一名『支配冥界的理想女神』。
+[k]
+
+＠达·芬奇
+那么，为了支配冥界，[r]真有必要积攒那么多魔力吗？
+[k]
+
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0,-50]
+
+＠宁基伽勒
+………………
+[k]
+
+[charaFace H 1]
+
+＠宁基伽勒
+……倒也没有。只是想让奴隶工作到极限而已。[r]就和埃及的金字塔一样哦。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaFadeout D 0.1]
+[charaFace E 5]
+[charaFadein E 0.1 0,240]
+[wt 0.1]
+
+[charaTalk E]
+[subRenderFadein #A 0.2 0,-270]
+
+＠尼托克丽丝
+才不是那样！
+[k]
+
+＠尼托克丽丝
+金字塔的建造是基于正当的法律，[r]是一份良心工作！
+[k]
+
+＠尼托克丽丝
+奴隶们能获得充足的休息与薪水，[r]以及配给啤酒之类的雇员福利也很完美！
+[k]
+
+＠尼托克丽丝
+若没有正当的劳动基准，[r]哪可能达成那般伟业！
+[k]
+
+＠尼托克丽丝
+虽然我不清楚你有什么隐情，[r]但你的方针错了，宁基伽勒！
+[k]
+
+＠尼托克丽丝
+难道这就是苏美尔诸神的做法吗！？
+[k]
+
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 0,-50]
+
+＠宁基伽勒
+苏，苏美尔也是严守劳动法的啊！[r]我的冥界也是，在劳动的只有我一个[line 3][bgmStop BGM_EVENT_70 1.5]
+[k]
+
+[charaFaceFade H 8 0.2]
+
+＠宁基伽勒
+……不，苏美尔的事先不提了。[r]这里可是米克特兰的第三冥界。
+[k]
+
+[charaFace H 0]
+
+[bgm BGM_MAP_10 0.1]
+＠宁基伽勒
+搞不清楚的人是你啊，尼托克丽丝。[r]你打算守护自己的外壳到什么时候。
+[k]
+
+＠宁基伽勒
+经过刚才一战，我已经确信了。[r]你还没意识到自己被召唤出来的意义。
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+
+[charaFace E 3]
+[wt 0.1]
+
+[charaTalk E]
+[subRenderFadein #A 0.2 0,-270]
+[wt 0.2]
+
+＠尼托克丽丝
+什[line 3]你是，什么意思[line 2]
+[k]
+
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 0,-50]
+
+＠宁基伽勒
+同样身为冥府女王的你，[r]在冥界线上应该能发挥与我同等级的权能才对。
+[k]
+
+＠宁基伽勒
+然而不单没有这方面的征兆，[r]你连试图挑战的气概也没有。
+[k]
+
+＠宁基伽勒
+若是在自己的国家、自己的土地上被召唤出来，[r]那你想要贯彻生前的样貌、生前的自尊倒也无可厚非。
+[k]
+
+＠宁基伽勒
+然而这里是异邦之地，是赌上人理的战场。[r]该守护的是未来，而不是[#生前的自己]。
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+
+[charaLayer J sub #B]
+[charaLayer D sub #B]
+[charaLayer L sub #B]
+
+[subCameraFilter #B maskEdge cut359_mask07 3 129,90,43,255]
+
+[charaFadeout E 0.1]
+
+[charaTalk off]
+
+[charaFace D 22]
+[charaFadein D 0.1 10,240]
+[charaFace A 0]
+[charaFadein A 0.1 0,240]
+
+[charaFadein J 0.1 200,0]
+[charaFadein L 0.1 -10,100]
+[wt 0.1]
+
+[subRenderFadeinFSR #A 0.2 250,-270]
+[subRenderFadeinFSL #B 0.2 -250,-270]
+[wt 1.6]
+
+[subRenderFadeout #A 0.2]
+[subRenderFadeout #B 0.2]
+[wt 0.2]
+
+[charaFadeout A 0.1]
+
+[charaTalk on]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 0,240]
+[wt 0.1]
+
+[subRenderFadein #A 0.2 0,-270]
+
+＠尼托克丽丝
+你是说……我把自己放在第一位了吗？[r]就因为我没有像你那样[#异灵:Alter]化？
+[k]
+
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0,-50]
+
+＠宁基伽勒
+[#异灵:Alter]化充其量只是结果。[r]重要的是“能做到什么”吧。
+[k]
+
+＠宁基伽勒
+我生前的梦想，[r]是让冥界变成一望无际的花田。
+[k]
+
+＠宁基伽勒
+这梦想当然实现了。[r]毕竟充斥着米克特兰的魔力是属于神代的。
+[k]
+
+＠宁基伽勒
+然而，那样是不行的。[r]这不是圣杯战争，自己的梦想不过是次要的。
+[k]
+
+＠宁基伽勒
+于是我以花田为代价，[r]还付出了返回迦勒底的权利，
+[k]
+
+＠宁基伽勒
+在这个冥界成为了『最强的女神』。
+[k]
+
+＠宁基伽勒
+这就是我的使命[line 3][r]受人们信仰的，身为女神的尊严。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaFace E 3]
+[wt 0.1]
+
+[charaTalk E]
+[subRenderFadein #A 0.2 0,-270]
+
+＠尼托克丽丝
+[line 6]
+[k]
+
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+[charaTalk H]
+[charaFace H 27]
+[charaFadein H 0.1 0,-50]
+
+＠宁基伽勒
+不过，先不提这件事了。[r]玛修，[%1]上哪去了。
+[k]
+
+＠宁基伽勒
+应该躲在盾牌后了吧？[r]我不会生气的，叫[&他:她]快出来。
+[k]
+
+[charaFadeout H 0.1]
+
+[charaFadeout E 0.1]
+[charaFace A 1]
+[charaFadein A 0.1 0,240]
+[wt 0.1]
+
+[bgmStop BGM_MAP_10 2.0]
+
+[charaTalk A]
+[subRenderFadein #A 0.2 0,-270]
+
+＠玛修
+[FFFFFF]？[-]　不，御主根本不在这里哦？[wt 1.2][charaFace A 26][r]在刚才的战场上，御主似乎顺利撤退了！
+[k]
+
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+[charaTalk H]
+[charaFace H 11]
+[charaFadein H 0.1 0,-50]
+
+＠宁基伽勒
+哈啊！？[r]那那，那家伙是怎么逃离神殿的！？
+[k]
+
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 1.5]
+[wait fade]
+
+[subCameraOff]
+[charaLayer E normal]
+[charaLayer B normal]
+[charaLayer D normal]
+[charaLayer F normal]
+[charaLayer A normal]
+[charaLayer I normal]
+[charaLayer J normal]
+[charaLayer K normal]
+[charaLayer L normal]
+
+[pictureFrame]
+
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+
+[charaTalk depthOn]
+
+[scene 134001]
+[wt 2.0]
+
+[fadein black 1.5]
+[wt 0.5]
+[se ade24]
+[seVolume ade24 0 0.1]
+[seVolume ade24 1.5 0.5]
+[wait fade]
+[wt 1.0]
+
+[seStop ade24 1.5]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠库库尔坎
+总算是成功脱身了。[r]幸好附近有座洞穴。
+[k]
+
+[bgm BGM_EVENT_11 0.1]
+
+[charaFace C 13]
+
+＠库库尔坎
+一进来就发现了篝火的痕迹，于是把火点上了，[r]是不是有人住在这里呢？
+[k]
+
+？1：这里应该是杜木兹的窝点吧。
+？2：虽说他本人并不在。
+
+？！
+
+[messageOff]
+[wt 0.1]
+
+？1：话说回来，谢谢你救了我。
+
+？！
+
+[charaFace C 2]
+
+＠库库尔坎
+没有，得救的是我。[r]你给出的建议精准而冷静！
+[k]
+
+＠库库尔坎
+『第三条腿与第四条腿行进的节拍对不上，[r]　只有那里存在空隙！』
+[k]
+
+＠库库尔坎
+多亏[%1][&先生:小姐]对我喊了这么一句，[r]我才能抱起你冲了过去！
+[k]
+
+[charaFace C 4]
+
+＠库库尔坎
+不过巨大到建筑物级别的牛蹄从身旁擦身[r]踩下来的感觉，还真是刺激度满载呢♡
+[k]
+
+？1：确实。抱歉让你一直忍着。
+
+[charaFace C 7]
+
+＠库库尔坎
+[FFFFFF]？[-]　而不是为了让我乱来而抱歉？[wt 1.0][charaFace C 14][r]………呃……没有……这种事哦？
+[k]
+
+？2：不知玛修他们是否顺利逃出来了……
+
+[charaFace C 1]
+
+＠库库尔坎
+我也没能确认大家是否平安无事……
+[k]
+
+[charaFace C 9]
+
+＠库库尔坎
+不过宁基伽勒虽有敌意，[r]却没有杀气。
+[k]
+
+＠库库尔坎
+万一真被捉住，[r]也只会沦为俘虏充当劳动力吧。
+[k]
+
+？！
+
+[messageOff]
+
+[charaFadeout C 0.2]
+
+[charaSet A 1098252410 1 库库尔坎_演出用]
+[charaSet B 1098122300 1 杜木兹_演出用]
+[sceneSet I 134001 1]
+[sceneSet J 10001 1]
+[charaFilter J silhouette FF000080]
+[charaScale A 1.2]
+[charaScale B 1.2]
+[charaScale I 1.2]
+[charaScale J 1.2]
+[wt 1.0]
+
+[se ade24]
+[seVolume ade24 0 0.1]
+[seVolume ade24 1.5 0.2]
+[wt 1.5]
+
+[charaTalk depthOff]
+[charaDepth J 9]
+[charaDepth B 8]
+[charaDepth A 7]
+[charaDepth I 6]
+[charaDepth C 5]
+[charaDepth G 4]
+
+[charaTalk off]
+[charaFace A 1]
+[charaFadein A 1.0 0,0]
+[charaFadein I 1.0 100,-350]
+[charaMove A -20,0 1.0]
+[charaMove I 80,-350 1.0]
+[wt 1.0]
+
+[seStop ade24 3.0]
+
+[charaFadeout C 0.1]
+
+＠库库尔坎
+……话说回来。[r]我完全没派上用场呢……
+[k]
+
+＠库库尔坎
+我还以为自己能有更多大显身手的机会……[r]结果遭到了各种制约……
+[k]
+
+[charaFace A 10]
+
+＠库库尔坎
+什么『[#自由之风:库库尔坎]』啊……[r]真对不起魁札尔·科亚特尔……
+[k]
+
+＠库库尔坎
+………………[r]………………………………
+[k]
+
+？1：…………（库库尔坎看起来很寂寞……）
+？2：…………（好，往前迈出一步吧！）
+
+？！
+
+[messageOff]
+[wt 0.5]
+
+？1：确实比刚开始给人的印象柔弱呢。
+
+？！
+
+[charaFace A 1]
+[wt 1.4]
+
+？1：因为你在各种方面都在忍耐。
+？2：具体说来，就是在隐藏[#宝具:真本事]。
+
+？！
+
+[charaFace A 17]
+
+＠库库尔坎
+呜哎！？[r]你你你你在说什么啊！？　我始终都在全力以赴啊！
+[k]
+
+＠库库尔坎
+乱来啊、自制啊、忍耐这类事[r]我从来都没做过！　我只会做自己喜欢的事～！
+[k]
+
+？1：分明是你兴致勃勃主动跟来的，
+
+？！
+
+[messageOff]
+[wt 0.1]
+
+？1：却为自己筑起了不能和大家打好关系的壁垒吧？
+
+？！
+
+[charaFace A 22]
+
+[bgmStop BGM_EVENT_11 2.0]
+＠库库尔坎
+………………那个。[r]…………这些你都看得出来吗？
+[k]
+
+？1：库库尔坎小姐很好懂哦。
+？2：这次纯属凑巧而已。
+
+？！
+
+[charaFaceFade A 18 0.3]
+
+＠库库尔坎
+[line 6][bgm BGM_EVENT_116 0.1]
+[k]
+
+
+？1：因此，我希望你能打破那面壁垒。
+？2：我保证，就算你拿出真本事，我也不会生气。
+
+？！
+
+[charaFace A 15]
+
+＠库库尔坎
+可，可是……你会不会太信赖我了？
+[k]
+
+＠库库尔坎
+我是异闻带的神明……[r]而你则是泛人类史的人类。
+[k]
+
+＠库库尔坎
+表面上假装关系要好，实则打算杀你……[r]这种可能性其实更大吧？
+[k]
+
+？1：应该不可能啦。
+？2：哎。拜托，请别逗我笑啦。
+
+？！
+
+[charaFace A 1]
+
+＠库库尔坎
+……你竟用如此真心的笑容回应我，可是……[r]你为什么能看出来？　看出来我不是坏神。
+[k]
+
+？1：毕竟，如果与魁札尔·科亚特尔是同一个神的话，肯定[line 2]
+
+？！
+
+[charaFace A 19]
+
+＠库库尔坎
+[line 6]，这。
+[k]
+
+[charaFace A 16]
+
+＠库库尔坎
+这[line 3]，这[line 3]
+[k]
+
+[charaFace A 4]
+
+＠库库尔坎
+这个理由，倒也可以有呢！[r]呵呵，唔呵呵，呀哈哈哈哈哈哈哈哈哈哈哈哈！
+[k]
+
+[charaFace A 2]
+
+＠库库尔坎
+我明白了！　我不会再有所隐瞒了！[r]我会展露真实身份，帮助大家！
+[k]
+
+[charaFace A 15]
+
+＠库库尔坎
+不过，反正已经可以自由行事了……[r]我或许，也希望你能做那件事……
+[k]
+
+＠库库尔坎
+是叫补充魔力吗？[r]从者那个连通魔力路径的便利功能。
+[k]
+
+＠库库尔坎
+我想靠它来轰地展示一下拿手招式……[r]你可以，帮忙做吗？
+[k]
+
+？1：虽然我现在不是御主，但没问题。
+？2：因为，这是信赖的证明嘛。
+
+？！
+
+[messageOff]
+[charaPut J 0,-200]
+[charaFadeTime J 0.5 0.7]
+
+[se bas16]
+[wt 0.2]
+[charaFadeout J 1.0]
+[wt 2.0]
+
+[charaFace A 4]
+
+＠库库尔坎
+唔唔唔唔～～～～～！
+[k]
+
+[charaFace A 2]
+
+＠库库尔坎
+好嘞，打起精神来了[line 2]！　交给我吧，御主！[r]管他古伽兰那有多少条腿，看我统统一击歼灭！
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[bgmStop BGM_EVENT_116 1.5]
+
+[charaMove A -120,0 1.0]
+[charaMove I -20,-350 1.0]
+[wt 0.6]
+
+[charaTalk on]
+[charaTalk depthOff]
+[charaDepth G 1]
+[charaDepth I 2]
+[charaDepth B 4]
+[charaDepth A 3]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadeinFSSideR B 0.4 520,0]
+[charaMoveFSSideR B 470,0 0.4]
+[wt 0.4]
+
+＠B：杜木兹
+两位谈完了吗？[r]见证异文化交流总是能令人内心无比充实。
+[k]
+
+＠B：杜木兹
+你好，我是从道早安到说晚安[r]都是您[#安眠设备:羔羊]的杜木兹。
+[k]
+
+[messageOff]
+[charaTalk A]
+[charaFace A 18]
+[charaShake A 0.1 3 3 0.6]
+[wt 1.0]
+[charaFace G 0]
+[charaFadein G 0.4 1]
+[wt 0.5]
+[charaTalk off]
+[charaFadeout A 1.0]
+[charaFadeout B 1.0]
+[charaFadeout I 1.0]
+[wt 1.0]
+
+
+[wt 0.4]
+
+[bgm BGM_EVENT_62 0.1]
+＠杜木兹
+真正意义上的女神对决，[r]此时此刻匹配完毕。
+[k]
+
+＠杜木兹
+不愧是[%1]。[r]你刚才灌的那段迷魂汤，我可以当作自己的语录扩散给全世界吗？
+[k]
+
+？1：我要拔光你的羊毛，把你打入地狱。
+？2：小心我把你引渡给伊什塔尔哦？
+
+？！
+
+＠杜木兹
+太遗憾了，那些当然只是玩笑。[r]这份录影数据就封印到下次的礼物盒里好了。
+[k]
+
+＠杜木兹
+言归正传，我很担心被抓住的各位。[r]赶紧去救他们吧。
+[k]
+
+＠杜木兹
+如果库库尔坎能打败埃列什基伽勒，[r]问题就能迎刃而解了。
+[k]
+
+＠杜木兹
+『理想的支配者』是不败的。[r]一旦输过一次，就称不上『理想』了。
+[k]
+
+＠杜木兹
+给自己施加的『誓言』……令咒就会被打破，丧失效果。[r]这样一来……你应该明白了吧？
+[k]
+
+？1：埃列什基伽勒就会恢复原状！
+？2：就不再需要保持『理想』了吧！
+
+？！
+
+＠杜木兹
+说得没错。那么请骑到我背上来吧，[r][&贤明:闪耀]的[%1]。
+[k]
+
+＠杜木兹
+在不破坏第三冥界的前提下击败冥界的守卫。[r]这就是我们所需要的，通往胜利的钥匙。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_62 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,972 @@
+
+
+＄04-00-02-03-1-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098269100 1 拉妮－ⅩⅡ]
+[charaSet B 1098269100 1 拉妮－ⅩⅡ2]
+[charaSet C 1098269100 1 拉妮－ⅩⅡ3]
+[charaScale B 1.1]
+[charaScale C 1.1]
+[charaSet D 7046001 1 难敌]
+[charaSet E 7046001 1 难敌2]
+[charaSet F 7046001 1 难敌3]
+[charaScale F 1.03]
+[charaSet G 1098270300 1 阿愈丝]
+[charaSet H 1098270000 1 希翁]
+[charaSet I 1098270100 1 迦摩]
+
+[sceneSet J 189700 1]
+[charaScale J 1.2]
+[sceneSet K 189700 1]
+[charaScale K 1.2]
+[sceneSet L 191102 1]
+[charaScale L 1.1]
+
+[scene 189700]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_1 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+重新来过[line 3][r]你们好，来自外部的各位。
+[k]
+
+＠拉妮－ⅩⅡ
+还有[#治疗型:型号Ｒ][#首席:Primacy]ＡＩ，现个体名阿愈丝，[r]以及从者[#Berserker:狂战士]。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+
+＠难敌
+唔～……你就是综合统管ＡＩ吗？[r]唔……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth J 1]
+[charaDepth E 2]
+[charaDepth B 3]
+[charaDepth K 4]
+[charaDepth F 5]
+[charaDepth C 6]
+
+[charaFace B 0]
+[charaFadein J 0.8 -120,-300]
+[charaFadein B 0.8 -150,-10]
+[wt 1.3]
+[charaFadeout D 0.1]
+
+[se ad95]
+[seStop ad95 0.5]
+[charaFace E 10]
+[charaFadein E 0.4 100,0]
+[charaMove E 120,0 0.4]
+[wt 1.0]
+[charaMove E 100,0 0.5]
+[wt 1.0]
+[charaMoveScale E 1.03 0.8]
+[charaMove E 90,0 0.8]
+[wt 1.3]
+
+[charaFace C 0]
+[charaFadein K 0.5 120,-300]
+[charaFadein C 0.5 150,-10]
+[wt 1.0]
+[charaFadeout J 0.1]
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+
+[charaFace G 8]
+[charaFadein G 0.1 1]
+
+[se ad95]
+[seStop ad95 0.5]
+[charaFace F 10]
+[charaFadein F 0.4 -100,0]
+[charaMove F -120,0 0.3]
+[wt 0.8]
+[charaMove F -110,0 0.7]
+[charaMoveScale F 1.05 0.7]
+[wt 1.3]
+[charaMove F -100,0 0.5]
+[wt 1.0]
+[charaMove F -120,0 0.6]
+[wt 1.3]
+
+[charaFadeout K 0.5]
+[charaFadeout F 0.5]
+[charaFadeout C 0.5]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk G]
+
+＠阿愈丝
+喂，别直勾勾地盯着人家瞧！[r]太没礼貌了吧。
+[k]
+
+[charaFace G 1]
+
+＠阿愈丝
+……咳咳。你好，综合统管。
+[k]
+
+[charaFace G 0]
+
+＠阿愈丝
+呃，我们受到了这些人的帮助，[r]但[&他们:她们]连自己的立场也不清楚，
+[k]
+
+＠阿愈丝
+我估计会有各种问题想问你，[r]所以就带[&他们:她们]过来了……没问题吧？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+我认为你的判断十分恰当。[r]我就是为应对这种预料之外的问题[line 3]。
+[k]
+
+[bgmStop BGM_EVENT_1 1.0]
+
+[messageOff]
+[cueSe SE_23 23_ad1308]
+[fowardEffect bit_talk_ether_light01]
+[wt 0.7]
+[charaFace A 10]
+[charaShake A 0.02 2 2 0.2]
+[wt 0.4]
+[se ad7]
+[charaMove A 100,0 0.3]
+[wt 0.5]
+[cameraMove 0.5 -50,-10 1.1]
+
+＠拉妮－ⅩⅡ
+！？
+[k]
+
+[bgm BGM_EVENT_71 0.1]
+
+＠拉妮－ⅩⅡ
+[line 3]警告。[r]对我内部的强制访问，
+[k]
+
+＠拉妮－ⅩⅡ
+存在导致在我管理下的所有功能[r]发生故障的危险性。
+[k]
+
+＠拉妮－ⅩⅡ
+不推荐，[r]不准许。
+[k]
+
+[charaFace A 11]
+
+＠拉妮－ⅩⅡ
+如果不用系统术语，[r]而是改用便于理解的说法[line 3]
+[k]
+
+[charaFace A 10]
+
+[bgmStop BGM_EVENT_71 2.0]
+＠拉妮－ⅩⅡ
+那就是『这是在做什么，真没礼貌』。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[cameraHome 0.8]
+[wt 1.0]
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+[bgm BGM_EVENT_5 0.1]
+
+＠希翁
+抱歉，因为我觉得无论如何，[r]都必须先确认一下你这个存在。
+[k]
+
+[charaFace H 8]
+
+＠希翁
+既然你已经报上了姓名，那我也报上自己的姓名吧。
+[k]
+
+＠希翁
+我是希翁·艾尔特纳姆·索卡里斯。[r]是这个名为[#平面之月:Paper Moon]装置的管理者。
+[k]
+
+＠希翁
+能麻烦你用这个名字搜索一下管理权限吗？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+搜索[line 3]相关结果0件。
+[k]
+
+[charaFace A 0]
+
+＠拉妮－ⅩⅡ
+即便你就是平面之月的管理者，[r]我也不具备相关的判断要素。
+[k]
+
+＠拉妮－ⅩⅡ
+我只能说，是这样啊。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 4]
+[charaFace H 6]
+[charaFadeinFSL H 0.1 0]
+[charaFadeinFSR I 0.1 2]
+
+＠迦摩
+喂，你既然是设计者兼管理者，[r]不就相当于这个世界的神吗？
+[k]
+
+＠迦摩
+然而却连对这位人偶小姐下达命令的权利[r]都没有吗？　这是怎么回事？
+[k]
+
+[charaTalk H]
+[charaFace H 7]
+
+＠希翁
+……我所管理的只是平面之月这一『装置』，
+[k]
+
+＠希翁
+这个世界和ＡＩ是自然产生的『内在』。
+[k]
+
+＠希翁
+这样想来，我不具备直接管理权限也不奇怪。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+神。原来如此，这种想法耐人寻味。
+[k]
+
+[charaFace A 0]
+
+＠拉妮－ⅩⅡ
+根据对外部世界基本信息的推测，[r]请容我提个问题。
+[k]
+
+＠拉妮－ⅩⅡ
+当突然现身的存在毫无道理地主张[r]『自己是这个世界的神』时，
+[k]
+
+＠拉妮－ⅩⅡ
+人类通常会作何反应呢？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠难敌
+这个嘛，估计……[r]也只能说一句，是这样啊。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+原来如此。
+[k]
+
+＠拉妮－ⅩⅡ
+我推测目前的情况与之并无差别。[r]看来我的反应果然是正确的。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 10]
+[charaFadein H 0.1 1]
+
+＠希翁
+……嗯，好吧。
+[k]
+
+[charaFace H 2]
+
+＠希翁
+我也无意在自己都不记得制造过的ＡＩ面前[r]特地主张自己是神。
+[k]
+
+＠希翁
+而且，刚才用灵线神经碰到你的那一瞬间，[r]我也明白了一件事。
+[k]
+
+？1：你明白了什么？
+？！
+
+[charaFace H 6]
+
+＠希翁
+关于我读取对象的质与量。
+[k]
+
+＠希翁
+如果是『以造物主的身份调查ＡＩ』，[r]就应该像程序员阅读自己写的代码一样，
+[k]
+
+＠希翁
+不仅能读取到所有信息，[r]还能随心所欲地篡改或修正……
+[k]
+
+＠希翁
+然而事实并非如此，我获得的反馈只有[r]与『人类调查人类』同等程度的信息量。
+[k]
+
+＠希翁
+这也关系到我之前所说的认知论。
+[k]
+
+＠希翁
+也就是说，现在的我无法将眼前的她[r]视作『自己能随意操控的创造物』来应对。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+据我推测。
+[k]
+
+＠拉妮－ⅩⅡ
+既然身在此处的你们拥有实在的身体，[r]恐怕在要素上是与我们同等的存在吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 10]
+[charaFadein H 0.1 1]
+
+＠希翁
+即便如此，眼前的拉妮－ⅩⅡ是ＡＩ[r]这点还是确凿无疑的。
+[k]
+
+＠希翁
+因为她跟我用灵线神经接触阿愈丝小姐时[r]获得的反馈一样。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+
+＠阿愈丝
+哎，什么时候的事？[r]别一声不吭就碰我啊，真不好意思……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+相反我也得出了一个结论。
+[k]
+
+＠拉妮－ⅩⅡ
+我以综合统管ＡＩ的权限搜索过了，[r]至少能肯定你们并非ＡＩ，
+[k]
+
+＠拉妮－ⅩⅡ
+也不是平面之月内部的产物。[r]换言之，只能认为你们是来自外部的访客。
+[k]
+
+＠拉妮－ⅩⅡ
+来自外部，与我们这些ＡＩ拥有相同的构造强度，[r]却并非ＡＩ的存在[line 3]这就是你们。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠阿愈丝
+唔唔？　也就是说……[r][&他们:她们]只是恰巧出现在这里的无关人士？
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_5 1.5]
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+[wt 0.2]
+[charaMove A 5,0 0.2]
+[wt 0.2]
+[charaMove A -5,0 0.4]
+[wt 0.4]
+[charaMove A 1 0.2]
+[wt 0.3]
+[charaFace A 8]
+
+＠拉妮－ⅩⅡ
+很遗憾，倒也无法如此断言。[r]从[&他们:她们]身为从者与御主的事实来看，
+[k]
+
+[bgm BGM_MAP_57 0.1]
+＠拉妮－ⅩⅡ
+恐怕这几位已作为参加者[r]被纳入[#ＡＩ圣杯战争:System Grail War]的架构了。
+[k]
+
+＠拉妮－ⅩⅡ
+御主原本应该从这个世界的ＡＩ中挑选出来，
+[k]
+
+＠拉妮－ⅩⅡ
+再加上[#乱数器:Randomizer]的加工后生成……
+[k]
+
+？1：[#乱数器:Randomizer]？
+？！
+
+[charaFace A 0]
+
+＠拉妮－ⅩⅡ
+当上御主的首席ＡＩ们……哪怕型号各异，[r]从根基都是Ｒ.Ａ.Ｎ.Ｉ系列的意义来说，都是相同的存在。
+[k]
+
+＠拉妮－ⅩⅡ
+如果全都在相同条件下成为御主，
+[k]
+
+＠拉妮－ⅩⅡ
+甚至有可能全员都采取相同的战术，[r]选择相同的行动。
+[k]
+
+＠拉妮－ⅩⅡ
+这并不适合以主动且不规则的资源运用[r]为目标的[#ＡＩ圣杯战争:System Grail War]。
+[k]
+
+＠拉妮－ⅩⅡ
+因此才会有意在御主化时，[r]用乱数器来生成『随机个性』。
+[k]
+
+＠拉妮－ⅩⅡ
+在首席ＡＩ这一基础上加入随机要素，[r]使样貌与性格发生变化的ＡＩ……这就是御主ＡＩ。
+[k]
+
+＠拉妮－ⅩⅡ
+基于这一前提，话题转回你们身上。
+[k]
+
+＠拉妮－ⅩⅡ
+由于你们与那些御主ＡＩ拥有相似的构造强度，
+[k]
+
+＠拉妮－ⅩⅡ
+估计是出于某种原因，才会被卷入了系统中。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠希翁
+当然，这并不是我们心甘情愿的。
+[k]
+
+＠希翁
+你能解除我们与系统的连接，[r]让我们返回外部吗？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+这点也非常遗憾，我做不到。
+[k]
+
+＠拉妮－ⅩⅡ
+圣杯战争等同于这个世界本身运行的系统。
+[k]
+
+＠拉妮－ⅩⅡ
+虽说基于综合统管ＡＩ这一身份，[r]我被赋予了监督官的使命，
+[k]
+
+＠拉妮－ⅩⅡ
+但我无法介入系统本身。
+[k]
+
+＠拉妮－ⅩⅡ
+就算能够运行基于规则的追加、修正程序，
+[k]
+
+＠拉妮－ⅩⅡ
+也无法修改规则本身。
+[k]
+
+？1：那我们该如何返回外部啊……？
+？！
+
+[charaFace A 0]
+
+＠拉妮－ⅩⅡ
+……既然你们是在[#ＡＩ圣杯战争:System Grail War]的开始阶段，
+[k]
+
+＠拉妮－ⅩⅡ
+而且是以被关联其中的形式出现在这里的。
+[k]
+
+＠拉妮－ⅩⅡ
+可想而知事情的经过应该是……
+[k]
+
+＠拉妮－ⅩⅡ
+某种原因导致系统的运行波及到外部，[r]连拖带拉地把你们拽了进来吧。
+[k]
+
+＠拉妮－ⅩⅡ
+既是如此，[#ＡＩ圣杯战争:System Grail War]的结束或停止，[r]便很有可能就是你们返回外部的契机。
+[k]
+
+？1：原来如此……
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 7]
+[charaFadein I 0.1 1]
+
+＠迦摩
+看来，也只有这点线索了吧。
+[k]
+
+[charaFace I 0]
+
+＠迦摩
+好吧。
+[k]
+
+＠迦摩
+那么，你能详细解释一下[r]所谓的[#ＡＩ圣杯战争:System Grail War]吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+？2：麻烦您详细解释一下[#ＡＩ圣杯战争:System Grail War]吧。
+？！
+
+＠拉妮－ⅩⅡ
+好的。其实[#ＡＩ圣杯战争:System Grail War]的定义，
+[k]
+
+＠拉妮－ⅩⅡ
+就是当这个平面之月世界发生异常时，[r]用以修正并使其稳定化的东西。
+[k]
+
+＠拉妮－ⅩⅡ
+换言之，就是为了世界的[#最优化:Defrag][r]而举行的大规模恢复[#仪式:System]。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠希翁
+在我们变成这样之前，平面之月[r]确实发生了不明原因的异常。
+[k]
+
+＠希翁
+你说这是为了改善这一情况？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+没错。
+[k]
+
+＠拉妮－ⅩⅡ
+我们也不清楚异常的原因。[r]所有ＡＩ都在正常运作。
+[k]
+
+＠拉妮－ⅩⅡ
+也可以说，正因为不知道原因，[r]世界才会选择最大规模的稳定化手段……
+[k]
+
+＠拉妮－ⅩⅡ
+反过来说，只要这场圣杯战争还没结束，[r]平面之月就难以恢复正常吧。
+[k]
+
+＠拉妮－ⅩⅡ
+如果放任不管，有可能提升负荷级别，[r]导致再也无法正常启动的状况。
+[k]
+
+＠拉妮－ⅩⅡ
+由于我未曾体验过，所以并不清楚这种状况[r]在这个世界相当于什么样的事态。
+[k]
+
+＠拉妮－ⅩⅡ
+也不可能进行模拟。
+[k]
+
+＠拉妮－ⅩⅡ
+恐怕这个世界实际在物理层面[r]四分五裂的可能性也不为零。
+[k]
+
+？1：平面之月非常重要，
+？2：万一坏掉可就麻烦了……！
+？！
+
+[bgmStop BGM_MAP_57 2.0]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 21]
+[charaFadein I 0.1 1]
+
+＠迦摩
+真是的。
+[k]
+
+＠迦摩
+看来还得担心一下身在其中的[r]我们届时能否平安无事呢。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaScale B 1.2]
+[charaFace B 0]
+[charaFadein J 1.0 0,-275]
+[charaFadein B 1.0 0,50]
+[charaMove J 0,-325 30.0]
+[charaMove B 0,-25 30.0]
+[wt 1.2]
+
+[bgm BGM_EVENT_79 0.1]
+
+[charaFadeout I 0.1]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+由我讲解一下[#ＡＩ圣杯战争:System Grail War]的具体规则吧。
+[k]
+
+＠拉妮－ⅩⅡ
+如其字面意思，御主由五名ＡＩ担任。
+[k]
+
+＠拉妮－ⅩⅡ
+各位想必已经知道了吧，基于这世界的分区[r]来划分的ＡＩ型号，
+[k]
+
+＠拉妮－ⅩⅡ
+也就是[#维持部:Keep]、[#转运部:Transfer]、[#构筑部:Build]、[r][#生产部:Grow]，以及[#修理部:Repair]各自的首席ＡＩ。
+[k]
+
+＠拉妮－ⅩⅡ
+为产生多样性，我分别对这些ＡＩ队长[r]施行了随机人格改编，
+[k]
+
+＠拉妮－ⅩⅡ
+赋予作为绝对命令权的一划令咒，[r]让她们成为拥有一定个性的『御主』。
+[k]
+
+＠拉妮－ⅩⅡ
+而其中之一就在你们面前[line 3]
+[k]
+
+[messageOff]
+[charaFadeout J 0.5]
+[charaFadeout B 0.5]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk G]
+
+＠阿愈丝
+是我吧。我提过很多次啦，[r]我就是代表[#修理部:Repair]的御主！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠希翁
+五个ＡＩ？　在我们所知的圣杯战争中，[r]御主的人数基本上是七人，而这里是五人吗？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+没错。可供使用的区域，[r]也就是分区共有五个，所以就是五人。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth L 1]
+
+[charaFadein L 1.0 0,-250]
+[charaMoveScale L 1.2 35.0]
+[charaMove L 0,-300 35.0]
+[wt 1.2]
+[charaFadeout A 0.1]
+
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠拉妮－ⅩⅡ
+中央区域[#警防部:Defend]的ＡＩ们[r]必须处理自然产生的故障，
+[k]
+
+＠拉妮－ⅩⅡ
+所以不会参与圣杯战争。而且中央的[#警防部:Defend]区域[r]还被整体划分为一定程度的中立区域。
+[k]
+
+＠拉妮－ⅩⅡ
+身为监督官管理地的这座教会禁止一切战斗。
+[k]
+
+＠拉妮－ⅩⅡ
+在除此以外的区域内，对以[#警防部ＡＩ:型号Ｄ]为首的[r]普通ＡＩ的非和平干涉也遭到全面禁止。
+[k]
+
+[messageOff]
+[charaFadeout L 1.0]
+[wt 1.2]
+[charaTalk on]
+[charaTalk depthOn]
+
+＠希翁
+……[r]……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+具备一定程度多样性的御主各自召唤从者，[r]通过战斗决出胜者。
+[k]
+
+＠拉妮－ⅩⅡ
+然后当最后一骑从者与御主ＡＩ确定下来之时，
+[k]
+
+＠拉妮－ⅩⅡ
+系统就会利用在此前战斗中积蓄的能量，[r]让平面之月恢复正常状态[line 3]
+[k]
+
+＠拉妮－ⅩⅡ
+流程就是这样。
+[k]
+
+＠拉妮－ⅩⅡ
+因此就算存在[#第六组参加者]，[r]多半也不会给系统带来什么问题。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠希翁
+原来如此，也就是说我们……[&他:她]和迦摩[r]就是没有对应ＡＩ与区域的第六组吧。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠阿愈丝
+果然是这么一回事吗？[r]唔唔～这下麻烦了……对吧？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠难敌
+没错，你现在明白了吧？[r]本老爷刚才的行为是正[line 3]
+[k]
+
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 16]
+[charaFadein I 0.1 1]
+[wt 1.5]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[wt 0.2]
+[charaMoveReturn D 0,-3 0.4]
+
+＠难敌
+咳咳，当然啦，刚才的行为[r]是为了试探实力的锻炼性奇袭。
+[k]
+
+[charaFace D 0]
+
+＠难敌
+圣杯战争的赢家只有一组。
+[k]
+
+＠难敌
+无论如何，想要减少竞争者的人数[r]自然是合情合理的行为。
+[k]
+
+[charaFace D 7]
+
+＠难敌
+毕竟御主与从者都有追求胜利的理由。
+[k]
+
+？1：理由……？
+？！
+
+[charaFace D 8]
+
+＠难敌
+喂喂，这还用得着反问吗？
+[k]
+
+[charaFace D 0]
+
+＠难敌
+[#无论胜利者有什么愿望都能被实现]。
+[k]
+
+＠难敌
+所以御主与从者才会并肩作战，[r]追求胜利[line 3]
+[k]
+
+＠难敌
+这就是所谓的圣杯战争吧？
+[k]
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_79 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

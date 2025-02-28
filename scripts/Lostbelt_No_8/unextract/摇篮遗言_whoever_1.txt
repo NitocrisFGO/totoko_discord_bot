@@ -1,0 +1,466 @@
+
+
+＄04-00-02-11-1-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270800 1 拉妮－Ｂ]
+[charaSet B 1098270330 1 阿愈丝]
+[charaSet C 6037001 1 迦摩]
+[charaSet D 1098270000 1 希翁]
+[charaSet E 7046001 1 难敌]
+[charaSet F 1098270820 1 拉妮－Ｂ2]
+
+[charaSet S 98115000 1 特效用dummy]
+
+[imageSet T back10000 1 1]
+[charaScale T 1.3]
+
+[scene 190600]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_AMAZONES 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠拉妮－Ｂ
+……感谢。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth S 9]
+[charaDepth A 5]
+[charaDepth B 5]
+
+[cueSe SE_23 23_ad1304 0 0.8]
+[charaPut S 1]
+[charaEffect S bit_talk_raniment01]
+[wt 2.5]
+
+[charaMove S 150,0 0.9]
+[wt 0.3]
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[cueSeVolume 23_ad1304 0.5 0.4]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[wt 0.3]
+
+[charaPut S -100,0]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[wt 0.4]
+
+[charaMove S 1 0.6]
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[cueSeVolume 23_ad1304 0.5 0.8]
+[wait wipe]
+[wt 0.2]
+[charaEffectEdgeBlur B FFF9A5 FFF9A5 4 1.5]
+[wt 0.3]
+
+[cueSeStop 23_ad1304 0.2]
+[cueSe SE_23 23_ad1305 0 0.8]
+[charaEffectStop S bit_talk_raniment01]
+[wt 0.5]
+[se adm20]
+[wt 2.0]
+[charaEffectEdgeBlurStop B]
+
+[charaTalk on]
+[charaFace B 1]
+＠阿愈丝
+谢谢！！　[wt 1.0][charaFace B 0]啊，这些就够啦，[r]不然就给太多了！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.05]
+[charaPut B 2000,2500]
+[wt 0.05]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠拉妮－Ｂ
+……以前。[r]规定要交出，直至消失极限的量。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠迦摩
+[#构筑部:Build]……原本是那个[#Caster:魔术师]的[r]小鬼头御主的地方吧。
+[k]
+
+＠迦摩
+肯定是遭到压榨了吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠阿愈丝
+既然我当上了首席ＡＩ，[r]就不会允许这种事再发生！
+[k]
+
+[charaFace B 0]
+＠阿愈丝
+我想跟大家建立家人般的关系[line 3]
+[k]
+
+[charaFace B 1]
+＠阿愈丝
+不，[#构筑部:Build]的孩子们已经是我的家人了！[r]在我心中！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠拉妮－Ｂ
+……重复一遍。[r]……感谢。
+[k]
+
+[charaFace A 0]
+＠拉妮－Ｂ
+……话说回来。[r]这位是[#Assassin:暗匿者]的御主吗？
+[k]
+
+？1：没错。
+？2：请多指教啦！
+？！
+
+[charaFace A 4]
+＠拉妮－Ｂ
+……我听说了。[r]在[#构筑部:Build]首席ＡＩ的权限转让上，
+[k]
+
+＠拉妮－Ｂ
+……您也出了很大的力。
+[k]
+
+[charaFace A 8]
+＠拉妮－Ｂ
+……同样，感谢。
+[k]
+
+？1：[line 3]我只是做了自己想做的事而已啦。
+？！
+
+[charaFace A 0]
+＠拉妮－Ｂ
+……想到了。[r]……除拉妮物质以外还有可以给的，谢礼。
+[k]
+
+＠拉妮－Ｂ
+……还有，素材。[r]……要制作点，什么吗？
+[k]
+
+[charaFace A 1]
+＠拉妮－Ｂ
+……我想，制作点什么。[r]……可以的话，请指定形状、用途等参数。
+[k]
+
+＠拉妮－Ｂ
+……可以制作，全员的份。
+[k]
+
+[charaSet B 1098270370 1 阿愈丝]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠阿愈丝
+哎？　你的心意虽然令人高兴，不过治疗工具还够用，[wt 1.0][charaFace B 5][r]我想想……唔～，一时想不出来呢～。
+[k]
+
+[charaFace B 0]
+＠阿愈丝
+就选你喜欢的东西吧？
+[k]
+
+？1：我也同意～！
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠拉妮－Ｂ
+……这样啊。[r]……那么，开始工作。
+[k]
+
+[messageOff]
+[wipeout rollRight 1.0 1.0]
+[bgm BGM_AMAZONES 1.0 0.5]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[scene 10000]
+
+
+[cueSe SE_23 23_ad1283]
+[wt 0.2]
+
+[wipein rollLeft 0.1 1.0]
+[wait wipe]
+
+[wt 3.5]
+
+[wipeout rollRight 0.1 1.0]
+[wait wipe]
+
+[scene 190600]
+[wt 0.2]
+
+[bgm BGM_AMAZONES 1.0 1.0]
+[wipein rollLeft 1.0 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠拉妮－Ｂ
+……完成。[r]……请收下吧。
+[k]
+
+[charaSet B 1098270300 1 阿愈丝]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠阿愈丝
+这是……小棋子吗？[r]唔，这医疗包。难道说，这是我？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠拉妮－Ｂ
+……肯定。[r]……这是原创的国际象棋棋子。
+[k]
+
+＠拉妮－Ｂ
+……可以用来代替[#王:King]或[#后:Queen]。[r]……也可以当原创棋子用。
+[k]
+
+＠拉妮－Ｂ
+……顺带一提，根据我个人的设定。[r]……它可以走[#后:Queen]和[#马:Knight]的走法。
+[k]
+
+[charaFace A 1]
+＠拉妮－Ｂ
+……因为最强是件好事。
+[k]
+
+？1：还有经过艺术化的我……！
+？2：谢谢你！
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠迦摩
+哎呀，还有我的吗？[r]感谢偶像崇拜～。
+[k]
+
+＠迦摩
+我是远程攻击系吗？[r]还是会将攻击对象拉拢为伙伴的魅惑系？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠希翁
+ＡＩ与象棋的亲和性不用我赘述了。
+[k]
+
+＠希翁
+看来是用来提升演算性能的吧。[r]耐人寻味。
+[k]
+
+[charaFace D 3]
+＠希翁
+……老实说，其实我觉得头身比再高点会更像我，
+[k]
+
+[charaFace D 5]
+＠希翁
+不过做工还是挺棒的。[r]非常感谢。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠难敌
+等一下。
+[k]
+
+＠难敌
+是不是只有本老爷的棱角四四方方的？[r]模型的面数是不是也比你们少了超级多？
+[k]
+
+[charaFace E 4]
+＠难敌
+感觉造形也很敷衍！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠拉妮－Ｂ
+……并不是故意的。[r]……只是素材分配失误。
+[k]
+
+＠拉妮－Ｂ
+……到最后不够用了。[r]……觉得造形敷衍纯属你的错觉。
+[k]
+
+[charaFace A 3]
+＠拉妮－Ｂ
+……和只有你的态度有点可怕这点。[r]……大概，毫无关系。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 15]
+[charaFadein E 0.1 1]
+＠难敌
+真的吗～？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠拉妮－Ｂ
+……顺带一提。[r]……能力，设置成了一步都不能动的稀有能力。
+[k]
+
+＠拉妮－Ｂ
+……很厉害。[r]……前所未闻。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠难敌
+果[messageShake 0.05 4 3 0.4]然充满了恶意吧！
+[k]
+
+[charaFace E 12]
+＠难敌
+由于所有一切都错了，[r]就由本老爷来决定它正确的能力吧。
+[k]
+
+[charaFace E 7]
+＠难敌
+邦邦～！　最强单位，难敌！[r]一上战场，对手便会臣服在其威光之下，全军覆没！　如何！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠F：拉妮－Ｂ
+……呵。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+＠难敌
+被嗤之以鼻了？
+[k]
+
+＠难敌
+这家伙真的算是你的部下吗？[r]是不是确认一下权限比较好？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[wt 1.5]
+
+[charaFace B 0]
+＠阿愈丝
+总而言之……真是太好了呢。
+[k]
+
+？1：是啊！
+？！
+
+[charaFace B 1]
+＠阿愈丝
+好～，那我们继续补给吧！
+[k]
+
+＠阿愈丝
+接下来是[#转运部:Transfer]方面吧？
+[k]
+
+
+
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_AMAZONES 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

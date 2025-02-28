@@ -1,0 +1,812 @@
+
+
+
+＄04-00-02-08-5-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098268920 1 樱]
+[charaSet B 7046001 1 难敌]
+[charaSet C 1098267120 1 美杜莎]
+[charaSet D 1098270000 1 希翁]
+[charaSet E 1098270200 1 迦摩]
+[charaSet G 1098270300 1 阿愈丝]
+[charaSet H 1098269110 1 拉妮－ⅩⅡ]
+[charaSet I 1098269500 1 莱诺尔]
+[charaSet J 1098269910 1 玛奇里]
+
+[sceneSet K 10000 1]
+[charaScale K 1.05]
+[sceneSet L 191601 1]
+[charaScale L 1.3]
+[sceneSet M 190400 1]
+[charaScale M 1.3]
+
+[charaSet T 98115000 1 特效用2]
+
+
+[charaTalk depthOff]
+[charaDepth L 1]
+
+[cameraMove 0.1 0,0 1.01]
+
+[fadein black 1.0]
+[wait fade]
+
+＠
+一切都在逐渐消失。
+[k]
+
+＠
+包括[#心爱:愚蠢]的妻子们，[r]还有盘踞在我身体里的虫子们。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[bgm BGM_SHINYAMA_1 0.1]
+
+＠
+[line 3]这样就好。
+[k]
+
+＠
+现在的我，会这样想。
+[k]
+
+＠
+只因身为最后一块碎片的现在，[r]才明白以往的自己其实也是丑陋的碎片。
+[k]
+
+＠
+正因扭曲至极才能被摘取，只能以扭曲至极的形式存在的，[r]扭曲至极的，自己身体里的自己。
+[k]
+
+＠
+既是连神之慈悲都不会惠及的矮小、扭曲到离谱的形态，[r]那会四分五裂才是天理。
+[k]
+
+
+
+
+
+＠
+安心。[r]冷笑。
+[k]
+
+[messageOff]
+[wt 1.5]
+
+＠
+啊啊，看来自己真的是[#掉队]了。[r]一切皆为俯瞰，一切都事不关己。
+[k]
+
+＠
+已然不是独立的童话故事，[r]亦非滴落这些的原型之人。
+[k]
+
+＠
+只是连这些都不明白的，意识碎片。
+[k]
+
+＠
+要说还有什么是明确的话[line 3]
+[k]
+
+＠
+那就是，应该由我来关上这道门。
+[k]
+
+＠
+来吧，怀着这份甚至不确定是否属于自己的[r]最后的尊严，伸出手吧。
+[k]
+
+＠
+没什么好舍不得的。
+[k]
+
+[bgmStop BGM_SHINYAMA_1 2.0]
+
+＠
+[line 3]毕竟圣女，不在此处。
+[k]
+
+[messageOff]
+[wt 1.5]
+
+＠
+……就这样。
+[k]
+
+[messageOff]
+[se ad92]
+[wt 0.9]
+[seStop ad92 0.3]
+[wt 0.1]
+[cueSe SE_22 22_ad1166]
+[wt 1.3]
+[se ad755]
+[se ade279]
+[wt 1.5]
+
+＠
+禁忌的房间，再也不会被打开了。
+[k]
+
+[messageOff]
+[wt 2.0]
+
+[fadeout black 0.1]
+[wait fade]
+
+
+[scene 191601]
+
+[charaFadein L 0.1 120,-250]
+[wt 1.0]
+
+[se ade393]
+[seVolume ade393 0 0]
+[se ad828]
+[seVolume ad828 0 0]
+[se ad291]
+[seVolume ad291 0 0]
+[seVolume ade393 1.0 0.7]
+[seVolume ad828 1.0 1.0]
+[seVolume ad291 1.0 0.3]
+[charaMove L 0,-350 5.0]
+[shake 0.03 1 1 4.0]
+[fadein black 1.0]
+[bgm BGM_BATTLE_174 0.1]
+[wait fade]
+
+[wt 2.0]
+
+[charaFadeout L 1.0]
+
+[subCameraOn 1]
+[charaLayer K sub #A]
+[charaLayer J sub #A]
+[charaDepth K 1]
+[charaDepth J 2]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein K 0.1 -200,0]
+[charaFadein J 0.1 -460,270]
+[subCameraFilter #A maskEdge cut359_mask12 4 255,255,255,255 0]
+[wt 0.5]
+
+[subRenderFadeinFSSideL #A 0.3 95,200]
+[subRenderMoveFSSideL #A 95,-200 0.3]
+[wt 0.5]
+
+＠玛奇里
+可恶……就凭，这种……
+[k]
+
+[messageOff]
+[se ad791]
+[seVolume ad791 0 0.7]
+[se ad826]
+[seVolume ad826 0 0]
+[seVolume ad826 1.5 0.7]
+[cueSe SE_22 22_ad1221]
+[shake 0.05 2 2 2.0]
+
+[bgmStop BGM_BATTLE_174 3.5]
+[fadeout white 1.5]
+[seStop ad291 1.5]
+[seStop ade393 1.5]
+[wait fade]
+
+[seStop ad826 2.5]
+[subRenderFadeout #A 0.1]
+[charaFadeout K 0.1]
+[charaFadeout J 0.1]
+[charaLayer K normal]
+[charaLayer J normal]
+[subCameraOff]
+
+[scene 190400]
+[wt 2.5]
+
+[shake 0.03 1 1 2.6]
+[fadein white 2.5]
+[wait fade]
+
+[wt 1.0]
+
+[charaTalk depthOn]
+
+？1：成功，了……？
+
+[bgm BGM_MAP_64 0.1]
+[charaTalk I]
+[charaFace I 10]
+[charaFadein I 0.1 1]
+
+＠莱诺尔
+哎哟，可别误会哦。[r]我并不是要救你们。
+[k]
+
+？2：是莱诺尔……救了我们……？
+
+[bgm BGM_MAP_64 0.1]
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 0.1 1]
+
+＠莱诺尔
+呵，我并不是在救你们。
+[k]
+
+？！
+
+[charaFace I 1]
+
+＠莱诺尔
+只是顺势而为啦，顺势而为。毕竟如果[r]放任那家伙不管，感觉也会妨碍到我们。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠希翁
+真是门惊人的『炮』。
+[k]
+
+＠希翁
+以藉由[#Rider:骑兵]的宝具调动出来的[r]ＡＩ们的活性化拉妮物质作引，
+[k]
+
+＠希翁
+然后将性质完全相同、早已储存在虚数空间的[r]能量当作子弹简单地发射出去……
+[k]
+
+＠希翁
+要想抵抗那种等级的攻击，唯有高等级的概念防御，[r]或是防御型的宝具才可能做到吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠莱诺尔
+嚯？[r]看来还是存在有眼光的家伙嘛。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠希翁
+然而，刚才的大规模术式[r]是与这个『地点』绑定的。
+[k]
+
+＠希翁
+换言之，是除了『这里』就无法使用的东西。[r]恐怕连改变位置或角度都做不到。
+[k]
+
+＠希翁
+真的就是一门固定，[r]且一次性的大炮。
+[k]
+
+＠希翁
+是将需要事先准备的，[r]一发定胜负的术式精确定点组装起来的[line 3]
+[k]
+
+[bgmStop BGM_MAP_64 1.5]
+
+[messageOff]
+[wt 1.0]
+[charaFace D 8]
+
+＠希翁
+……近似于未来视的[#术式:指令]？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠莱诺尔
+不太一样。我只是测量了未来，[r]并将所需的东西送了过来而已。
+[k]
+
+[charaFace I 9]
+
+＠莱诺尔
+[#看来我就是这样的存在]。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠希翁
+……[r]……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠莱诺尔
+你不是ＡＩ吗？[r]不，这也不意味着肯定不一样吧。
+[k]
+
+＠莱诺尔
+既然已经习惯了[#切分自己:分割思考]，[r]那多少应该能感受到才对。
+[k]
+
+＠莱诺尔
+哪怕外貌一样，[r]内在也未必完全相同。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+
+＠迦摩
+你们在聊什么啊？
+[k]
+
+[charaFace E 0]
+
+＠迦摩
+总之，这次是真的……[r]结束了吧？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠难敌
+深有同感。[r]真的受够了，再也不想重来一遍了！
+[k]
+
+[charaFace B 10]
+
+＠难敌
+本老爷也想像[#Saber:剑士]的御主那样[r]直接倒在地上休息，
+[k]
+
+＠难敌
+只是不先确认成果的话，[r]实在放不下心来。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth C 2]
+[charaDepth A 3]
+
+[charaFace C 16]
+[charaFadein M 1.0 -190,-250]
+[charaFadein C 1.0 1]
+[charaMove M -140,-250 1.0]
+[charaMove C 50,0 1.0]
+[wt 1.5]
+
+[cueSe SE_21 21_ade605]
+[fadeout white 0.5]
+[wait fade]
+
+[charaChange C 1098267100 16 normal 0.1]
+[wt 0.5]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 0.5]
+
+[charaMove M 60,-250 1.0]
+[charaMove C 250,0 1.0]
+[wt 1.2]
+[charaFace A 22]
+[charaFadein A 0.4 -200,-50]
+[wt 0.6]
+[se ad443]
+[charaMove C 130,-30 0.4]
+[wt 0.2]
+[seStop ad443 0.4]
+[wt 0.5]
+
+[bgmStop BGM_EVENT_70 1.5]
+
+[charaTalk on]
+[charaTalk C]
+
+＠美杜莎
+樱！　你没事……[wt 0.5][r][line 3]呜！？
+[k]
+
+[messageOff]
+[se ad14]
+[seVolume ad14 0 0]
+[seVolume ad14 0.3 0.6]
+[shake 0.02 3 2 0]
+[wt 1.0]
+[charaFadeout M 0.5]
+[charaFadeout C 0.5]
+[charaFadeout A 0.5]
+[shake 0.02 1 1 0]
+[wt 0.7]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+
+＠阿愈丝
+什，什么！？
+[k]
+
+[charaFace G 4]
+
+＠阿愈丝
+啊[line 3]这是综合统管的？
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[seVolume ad14 1.0 0.3]
+
+[charaPut T 1]
+[charaEffect T bit_talk_10_LowLevel_green]
+[wt 0.1]
+[se ad1]
+[wt 0.3]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[wt 0.5]
+[bgm BGM_EVENT_79 0.1]
+
+＠拉妮－ⅩⅡ
+大家好。[r]这里是[#ＡＩ圣杯战争:System Grail War]监督官的业务联络。
+[k]
+
+[charaFace H 1]
+
+＠拉妮－ⅩⅡ
+这条信息会同时发送给圣杯战争的全体参加者。[r]是单向通讯，各位无法回信，还请见谅。
+[k]
+
+[charaFace H 0]
+
+＠拉妮－ⅩⅡ
+进入正题。就在刚才，已确认从者[#Caster:魔术师]的[r]灵核完全消失。
+[k]
+
+？1：…………！
+？！
+
+＠拉妮－ⅩⅡ
+执行者是[#Rider:骑兵]阵营。[r]因此身为[#转运部:Transfer]首席ＡＩ的[#Rider:骑兵]御主，
+[k]
+
+＠拉妮－ⅩⅡ
+将得到[#Caster:魔术师]御主原本持有的[r][#构筑部:Build]首席ＡＩ的权限转让。
+[k]
+
+＠拉妮－ⅩⅡ
+与此同时，也将进行分区的合并。[r][#转运部:Transfer]与[#构筑部:Build]将成为毗邻的转运·构筑部。
+[k]
+
+＠拉妮－ⅩⅡ
+目前，正为此进行世界转换做准备工作。
+[k]
+
+＠拉妮－ⅩⅡ
+这种震动也是受其影响，[r]并非地震，还请放心。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠莱诺尔
+唔……感觉还挺有意思的。[r]说真的。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 18]
+[charaFadein E 0.1 1]
+
+＠迦摩
+世界的……转换？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠阿愈丝
+我记得，好像的确听说过类似的说明。[r]是什么来着。
+[k]
+
+＠阿愈丝
+我看看，搜索规则……[r]从者死亡的情况……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaPut T 1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠拉妮－ⅩⅡ
+亲切的监督官姑且会向平时不用功，这会儿[r]大概正摸不着头脑的你们进行大致说明。
+[k]
+
+＠拉妮－ⅩⅡ
+说得简单易懂一点[line 3][r]各位知道陀螺仪这种东西吗？
+[k]
+
+＠拉妮－ⅩⅡ
+是通过旋转运动来定位方向的仪器，[r]详情请参考数据库。
+[k]
+
+＠拉妮－ⅩⅡ
+直截了当地说，就是这种类似交感魔术的构造。
+[k]
+
+＠拉妮－ⅩⅡ
+随着[#ＡＩ圣杯战争:System Grail War]的进行，[r]通过让这个内部世界旋转，
+[k]
+
+＠拉妮－ⅩⅡ
+重新定义[#平面之月:Paper Moon]这个虚数罗盘的基本轴。[r]这就是这场圣杯战争的机制。
+[k]
+
+＠拉妮－ⅩⅡ
+当然，这只属于这个世界内的概念层面，[r]不属于宏观世界中的物理层面，
+[k]
+
+＠拉妮－ⅩⅡ
+但无论如何，这个世界都会旋转。
+[k]
+
+＠拉妮－ⅩⅡ
+抱歉给大家添麻烦了，[r]但还请各位耐心等候，
+[k]
+
+＠拉妮－ⅩⅡ
+并同时做好承受不可避免的[r]旋转力矩的准备。
+[k]
+
+[charaFace H 1]
+
+＠拉妮－ⅩⅡ
+设备方面的安保措施已经完成了，但就算[r]发生事故也不会有任何补偿，还请见谅。
+[k]
+
+[charaFace H 0]
+
+＠拉妮－ⅩⅡ
+那么各位，请在位置重置后，[r]再度向[#ＡＩ圣杯战争:System Grail War]迈进吧。
+[k]
+
+[bgmStop BGM_EVENT_79 1.5]
+
+[messageOff]
+[se ad1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+[charaEffectStop T bit_talk_10_LowLevel_green]
+[wt 2.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠希翁
+世界的转换……分区的合并。[r]……旋转力矩……
+[k]
+
+[charaFace D 4]
+
+＠希翁
+难道说，糟了[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[seVolume ad14 1.5 0.7]
+[shake 0.02 3 2 0]
+[wt 1.5]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠难敌
+喂喂喂。[r]好像摇晃得越来越激烈了！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 12]
+[charaFadein E 0.1 1]
+
+＠迦摩
+御主！[r]请抓住我！
+[k]
+
+[messageOff]
+[se ad73]
+[charaMove E 0,20 0.3]
+[charaMoveScale E 1.2 0.3]
+[wt 0.3]
+[se ad183]
+[cameraMove 0.2 0,-20 1.1]
+[wt 0.5]
+
+[seStop ad14 0.5]
+[se ad875]
+[shake 0.05 0 20 0.8]
+[wt 0.8]
+[seStop ad875 0.5]
+
+
+[se ade365]
+[seVolume ade365 0 0]
+[wt 0.7]
+[cueSe SE_21 21_ade546]
+[seVolume ade365 0.1 1.0]
+[se ade338]
+[seVolume ade338 0 0.5]
+[effect bit_talk_42_depth]
+[wt 0.25]
+
+[blur motion 0.2 2 200 1.0 0 0.02 200]
+[wipeout rightToLeft 0.2 1.0]
+[charaMove E 350,20 0.4]
+[cameraMove 0.4 -350,-20 1.1]
+[wait wipe]
+
+[blurOff]
+[effectDestroy bit_talk_42_depth]
+[charaFadeout E 0.1]
+[shakeStop]
+[scene 10000]
+[wt 0.2]
+
+[wipein leftToRight 0.1 1.0]
+[wait wipe]
+
+[wt 5.0]
+
+[bgm BGM_MAP_57 0.1]
+
+＠
+[bb8f69][line 3]。[line 6]。
+[k]
+
+＠
+[#第一阶段:Phase One]，确认抵达。[r]ＡＥＣ法正顺利推进中。
+[k]
+
+＠
+确认暂定沉降系数……未达到目标。[r]尚在预想范围内，没有问题。
+[k]
+
+＠
+由三号提起[line 3]被二号否定。
+[k]
+
+＠
+虽存在数个异常，但大体上未曾脱轨。[r]建议继续推进计划。
+[k]
+
+＠
+一号提起另一命题。
+[k]
+
+＠
+在这些异常中，[#收受:Import]型，[r]即为[#　Ａ　:Alterego][#　Ｉ　:Import]型的御主[line 3]
+[k]
+
+＠
+现阶段最有可能给计划带来障碍。
+[k]
+
+＠
+全号，同意。
+[k]
+
+＠
+提高优先顺序，观测吧。
+[k]
+
+＠
+假如其化作杂质，[r]便赋予[line 3]排除的权限。
+[k]
+
+＠
+然而……即便在那种情况下，[r]也要尽可能尝试、持续适应性修正。
+[k]
+
+＠
+同意。同意。同意。
+[k]
+
+＠
+这份计划、这场实验、这次生产，[r]皆是为了拯救世界免遭毁灭。
+[k]
+
+＠
+决不可容许半途停止。[r]为了世界，决不能允许。
+[k]
+
+＠
+正因如此。
+[k]
+
+＠
+冥界之鸟将期盼[r]月亮不会升至南天吧。
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStopEnd BGM_MAP_57 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

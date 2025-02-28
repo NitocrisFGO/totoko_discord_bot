@@ -1,0 +1,695 @@
+
+
+＄04-00-02-04-2-1
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270000 1 希翁]
+[charaSet B 1098269600 1 Caster]
+[charaSet C 1098271000 1 蠢魔1]
+[charaSet D 1098271000 1 蠢魔2]
+[charaSet E 1098271000 1 蠢魔3]
+[charaSet F 1098271000 1 蠢魔4]
+[charaSet G 1098271000 1 蠢魔5]
+[charaSet H 1098270310 1 阿愈丝]
+[charaSet I 1098269800 1 Caster的御主]
+[charaSet J 1098270100 1 迦摩]
+[charaSet K 7046001 1 难敌]
+[charaSet L 1098269500 1 莱诺尔]
+[charaSet M 1036001 1 高长恭]
+
+[sceneSet O 189401 1]
+[charaScale O 1.4]
+
+[sceneSet P 10000 1]
+[charaScale P 1.03]
+[sceneSet Q 10000 1]
+[charaScale Q 1.03]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+
+[charaSet T 1098269500 1 莱诺尔]
+[charaSet U 1098269500 1 莱诺尔]
+[sceneSet V 189401 1]
+[charaScale V 1.4]
+[sceneSet W 189401 1]
+[charaScale W 1.4]
+[sceneSet X 189401 1]
+[charaScale X 1.4]
+
+
+
+
+[scene 10000]
+
+[bgm BGM_EVENT_72 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad85]
+[wt 0.1]
+[charaRoll S 30]
+[charaPut S -150,0]
+[charaEffect S bit_talk_strike_02 0,0 H]
+[wt 0.6]
+
+
+[cueSe Servants_603700 bac970]
+[fowardEffect bit_talk_gram_slash_03_fs]
+[wt 0.6]
+
+[seStop ad85 0.3]
+[cueSeStop bac970 0.3]
+[cueSe Battle bac98]
+[cueSe Battle bac151]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaPut S 2000,2500]
+[fowardEffectDestroy bit_talk_gram_slash_03_fs]
+
+[scene 189401]
+
+[charaTalk off]
+[charaDepth C 7]
+[charaDepth D 6]
+[charaDepth E 5]
+[charaDepth F 4]
+[charaDepth G 3]
+
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadein C 0 1]
+[charaFadeinFSR D 0 300,0]
+[charaFadeinFSL E 0 -300,0]
+[charaShake C 0.02 3 3 0.7]
+[charaShake D 0.02 4 2 0.7]
+[charaShake E 0.02 3 4 0.7]
+[wt 1.1]
+
+
+[charaMove C 0,-50 0.4]
+[charaFadeout C 0.4]
+[wt 0.1]
+
+[charaMoveFSR D 300,-50 0.4]
+[charaFadeout D 0.4]
+[wt 0.1]
+[charaMoveFSL E -300,-50 0.4]
+[charaFadeout E 0.4]
+[wt 0.2]
+[se ad144]
+[wt 0.2]
+[se ad144]
+[wt 1.2]
+
+[se ade72]
+[seVolume ade72 0 0.5]
+[se ade73]
+[seVolume ade73 0 0.5]
+[wt 0.15]
+[se ad21]
+[charaFace C 0]
+[charaFadein C 0.4 0,-10]
+[charaMove C 1 0.4]
+[wt 0.1]
+[charaFace D 0]
+[charaFadeinFSR D 0.4 250,-10]
+[charaMoveFSR D 250,0 0.4]
+[wt 0.1]
+[charaFace E 0]
+[charaFadeinFSL E 0.4 -250,-10]
+[charaMoveFSL E -250,0 0.4]
+[wt 0.05]
+[charaFace F 0]
+[charaFadeinFSSideR F 0.4 450,-10]
+[charaMoveFSSideR F 450,0 0.4]
+[wt 0.05]
+[charaFace G 0]
+[charaFadeinFSSideL G 0.4 -450,-10]
+[charaMoveFSSideL G -450,0 0.4]
+[wt 0.8]
+[seStop ade72 0.4]
+[seStop ade73 0.4]
+[wt 1.0]
+
+
+？1：呜……！
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠希翁
+哪怕能靠行动预测来应对，[r]这纯粹的数量与魔力量差距……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠Caster
+啊啊……真棒。强大之人加害于弱小之人，[r]正确之人惩罚错误之人。
+[k]
+
+＠Caster
+这是理所当然的法则。[r]这是何等，何等，何等何等何等[line 3]……
+[k]
+
+[charaFace B 12]
+＠Caster
+何[messageShake 0.05 4 3 0.4]等！　[wt 0.6][messageShake 0.05 4 3 0.6]心情舒畅啊！
+[k]
+
+＠Caster
+当然，当然，当然当然当然[line 3]！[r]如何，道歉，道歉，道歉！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth S 9]
+[charaDepth B 5]
+[se ad73]
+[charaSpecialEffect B erasureReverse 0,0 0.4]
+[wt 0.05]
+[charaRoll S 0]
+[charaPut S 1]
+[charaEffect S bit_talk_quickmove]
+[wt 0.1]
+[charaMove B 0,25 0.3]
+[wt 0.4]
+
+
+
+[se ad85]
+[wt 0.1]
+[effect bit_talk_x_slash_bk_01]
+[wt 0.5]
+
+[seStop ad85 0.3]
+[se ad161]
+[cueSe SE_21 21_ad1118]
+[effect bit_talk_35]
+[wt 0.8]
+
+
+[se ad171]
+[effect bit_talk_x_slash_bk_02]
+[wt 0.4]
+
+[seStop ad171 0.3]
+[cueSe SE_21 21_ad1091]
+[effect bit_talk_blood_stay]
+[wt 0.6]
+
+[se ad240]
+[se ad863]
+[fowardEffect bit_talk_blood_splash_fs]
+[wt 1.0]
+[effectStop bit_talk_blood_stay]
+[wt 0.8]
+
+
+[subCameraOn 1]
+[charaLayer B sub #A]
+[charaLayer O sub #A]
+[subCameraFilter #A maskEdge cut359_mask06 3 0,0,0,255]
+
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth B 2]
+
+[charaScale B 1.2]
+[charaFace B 12]
+[charaFadein B 0.1 0,200]
+[charaFadein O 0.1 0,-200]
+
+[subRenderFadein #A 0.5 -200,-250]
+[subRenderMove #A 0,-250 0.5]
+[wt 0.7]
+
+[charaTalk on]
+＠Caster
+呵呵，血腥味。啊啊，有血腥味。[r]想闻这味道的，不就是你们吗？
+[k]
+
+[charaFace B 13]
+＠Caster
+没错，这是当然的惩罚，这是与我的约定。[r]所以让你在房间里见到地狱。
+[k]
+
+＠Caster
+被黑暗中蠢动的[#魔物:东西]，被我的蠢魔，[r]大口吞食[line 3]
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.5]
+[subRenderMove #A 200,-250 0.5]
+[wt 0.5]
+[charaFadeout B 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+[subCameraOff]
+[charaLayer B normal]
+[charaLayer O normal]
+[charaScale B 1.0]
+[charaScale O 1.0]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth C 7]
+[charaDepth D 6]
+[charaDepth E 5]
+[charaDepth F 4]
+[charaDepth G 3]
+
+[se ade72]
+[seVolume ade72 0 0.5]
+[se ade73]
+[seVolume ade73 0 0.5]
+[wt 0.15]
+[se ad21]
+[charaFace C 0]
+[charaFadein C 0.4 0,-10]
+[charaMove C 1 0.4]
+[wt 0.1]
+[charaFace D 0]
+[charaFadeinFSR D 0.4 250,-10]
+[charaMoveFSR D 250,0 0.4]
+[wt 0.1]
+[charaFace E 0]
+[charaFadeinFSL E 0.4 -250,-10]
+[charaMoveFSL E -250,0 0.4]
+[wt 0.05]
+[charaFace F 0]
+[charaFadeinFSSideR F 0.4 450,-10]
+[charaMoveFSSideR F 450,0 0.4]
+[wt 0.05]
+[charaFace G 0]
+[charaFadeinFSSideL G 0.4 -450,-10]
+[charaMoveFSSideL G -450,0 0.4]
+[wt 0.8]
+[seStop ade72 0.4]
+[seStop ade73 0.4]
+[wt 0.75]
+
+[se ad1006]
+[charaMoveScale C 1.1 0.3]
+[charaMoveScale D 1.1 0.3]
+[charaMoveScale E 1.1 0.3]
+[charaMoveScale F 1.1 0.3]
+[charaMoveScale G 1.1 0.3]
+[charaMove C 0,15 0.3]
+[charaMoveFSR D 260,15 0.3]
+[charaMoveFSL E -260,15 0.3]
+[charaMoveFSSideR F 470,15 0.3]
+[charaMoveFSSideL G -470,15 0.3]
+[charaFadeout C 0.3]
+[charaFadeout D 0.3]
+[charaFadeout E 0.3]
+[charaFadeout F 0.3]
+[charaFadeout G 0.3]
+[wt 0.45]
+
+[cueSe Battle bac267]
+[wt 0.4]
+
+[cueSe Servants_704200 m40101]
+[wt 0.4]
+[cueSe Servants_704200 m49207]
+[wt 0.4]
+[cueSe Servants_2500900 m45619]
+[flashin once 0.1 0.1 FF0000FA FF000050]
+[wt 0.05]
+[effect bit_talk_blood_stay 0,0 H]
+[wt 1.2]
+[effectStop bit_talk_blood_stay]
+[wt 1.5]
+
+
+[charaTalk on]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠阿愈丝
+啊……啊啊……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 4]
+[charaFadein I 0.1 1]
+＠Caster的御主
+和预想的过于一致，令人毫无干劲，一群蠢货。[r]计算就得算无遗策才行吧。
+[k]
+
+[charaFace I 9]
+＠Caster的御主
+在经历了一番战斗后，你们没进行[r]任何补给就跑去找综合统管了吧？
+[k]
+
+＠Caster的御主
+所以肯定是我这进行了充分补给的[r][#Caster:魔术师]的拉妮物质总量更多啊。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 4]
+[charaFadein J 0.1 1]
+＠迦摩
+呜……
+[k]
+
+[bgm BGM_EVENT_72 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth R 4]
+[charaDepth J 5]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+＠迦摩
+（虽然不甘心，但他说得没错。储备的燃料量[r]　差距过于巨大……再这样下去[line 3]）
+[k]
+
+[charaFadeout J 0.1]
+[charaFadeout R 0.2]
+[wt 0.1]
+
+[bgm BGM_EVENT_72 0.5 1.0]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 1]
+＠难敌
+你是说本老爷是笨蛋吗！？[r]你这……你这笨蛋小鬼头！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠Caster的御主
+既不动脑筋，又不做准备就出门闲逛，[r]会变成这样也很正常。
+[k]
+
+＠Caster的御主
+只要联个手就感到踏实了吗？[r]以为光靠这样就能战胜优秀的我吗？
+[k]
+
+[charaFace I 3]
+＠Caster的御主
+愚蠢透顶。这意味着一个区域有两骑从者，[r]换言之，补给量也会减半。
+[k]
+
+[charaFace I 4]
+＠Caster的御主
+弱小从者哪怕两骑凑在一起也无足轻重。[r]多动动脑筋啦，蠢货！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_72 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth H 6]
+[charaDepth R 5]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠阿愈丝
+（用令咒的话……[r]　说不定能暂时增幅拉妮物质。）
+[k]
+
+[charaFace H 3]
+＠阿愈丝
+（……但是，万一这样还是赢不了呢？）
+[k]
+
+＠阿愈丝
+（就算赢了，在往后战斗中也没得用了……[r]　这样，好吗……？）
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout R 0.2]
+[wt 0.1]
+
+[bgm BGM_EVENT_72 0.5 1.0]
+
+[charaDepth I 5]
+[charaDepth B 6]
+
+[charaTalk I]
+[charaFace I 4]
+[charaFace B 10]
+[charaFadein I 0.1 -175,0]
+[charaFadein B 0.1 175,0]
+＠Caster的御主
+结束了。你们输给了我这名[r]优秀菁英的性能，仅此而已。
+[k]
+
+[messageOff]
+[charaTalk off]
+[cameraMove 6.9 0,-20 1.05]
+[wt 0.8]
+
+[subCameraOn 2]
+[charaLayer H sub #A]
+[charaLayer J sub #A]
+[charaLayer O sub #A]
+[subCameraFilter #A maskEdge cut359_mask05 3 0,0,0,255]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth J 2]
+[charaDepth H 2]
+
+[charaScale H 1.2]
+[charaScale O 1.3]
+[charaFace H 4]
+[charaFadein H 0.1 -25,150]
+[charaFadein O 0.1 -450,-125]
+
+[subRenderFadeinFSR #A 0.4 365,-140]
+[subRenderMoveFSR #A 365,-190 0.4]
+[wt 1.7]
+
+[subRenderFadeout #A 0.4]
+[subRenderMoveFSR #A 365,-240 0.4]
+[wt 0.4]
+
+[subCameraFilter #A maskEdge cut359_mask05 3 0,0,0,255]
+
+[charaFadeout H 0.1]
+[charaPut O 450,-125]
+[charaScale J 1.2]
+[charaFace J 24]
+[charaFadein J 0.1 0,150]
+[wt 0.6]
+
+[subRenderFadeinFSL #A 0.4 -365,-240]
+[subRenderMoveFSL #A -365,-190 0.4]
+[wt 1.7]
+
+[subRenderFadeout #A 0.4]
+[subRenderMoveFSL #A -365,-140 0.4]
+[wt 0.6]
+
+[charaFadeout J 0.1]
+[charaFadeout H 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+[subCameraOff]
+[charaLayer J normal]
+[charaLayer H normal]
+[charaLayer O normal]
+[charaScale J 1.0]
+[charaScale H 1.0]
+[charaScale O 1.0]
+[wt 1.0]
+
+[bgmStop BGM_EVENT_72 1.5]
+
+[charaTalk on]
+＠L：？？？
+哎～。那我问你，[#如果凑够三骑又将如何]？
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+
+[cameraMove 0 0,0 1.01]
+[charaFadeout I 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk off]
+[charaDepth O 3]
+[charaDepth M 2]
+[charaDepth L 4]
+
+[wt 0.4]
+
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+[se ade422]
+[wt 0.7]
+
+[charaFace M 0]
+[charaFadein M 0.4 1]
+[wt 0.4]
+[seStop ade422 0.4]
+[wt 1.0]
+
+[charaScale O 1.4]
+[charaFadein O 0.8 0,-220]
+[charaMove O -50,-220 0.8]
+[wt 1.2]
+
+[subCameraOn 2]
+[charaLayer L sub #A]
+[charaLayer T sub #B]
+[charaLayer V sub #A]
+[charaLayer W sub #B]
+[subCameraFilter #A maskEdge cut359_mask06 4 103,123,50,255]
+[subCameraFilter #B maskEdge cut359_mask06 4 103,123,50,255]
+
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+
+[charaTalk off]
+[charaDepth V 1]
+[charaDepth W 1]
+[charaDepth L 2]
+[charaDepth T 2]
+[charaDepth O 3]
+[charaDepth U 4]
+
+[charaScale L 1.2]
+[charaScale T 1.2]
+[charaScale V 1.3]
+[charaScale W 1.3]
+
+[charaFace L 0]
+[charaFadein L 0.1 -175,700]
+[charaFadein V 0.1 140,150]
+
+[charaFace T 0]
+[charaFadein T 0.1 175,375]
+[charaFadein W 0.1 -140,0]
+
+[se ad95]
+[subRenderFadein #A 0.4 -350,-500]
+[subRenderMove #A 0,-500 0.4]
+[bgm BGM_MAP_56 0.1]
+[wt 0.4]
+[seStop ad95 0.4]
+[charaMove L -125,700 10.0]
+[charaMove V 190,150 10.0]
+[wt 1.05]
+
+
+[se ad95]
+[seVolume ad95 0 0]
+[wt 0.55]
+[seVolume ad95 0.1 1.0]
+[subRenderFadein #B 0.4 350,-240]
+[subRenderMove #B 0,-240 0.4]
+[wt 0.4]
+[charaMove T 125,375 10.0]
+[charaMove W -190,0 10.0]
+[seStop ad95 0.4]
+[wt 1.6]
+
+[subRenderFadeout #A 0.4]
+[subRenderFadeout #B 0.4]
+[subRenderMove #A 350,-500 0.4]
+[subRenderMove #B -350,-240 0.4]
+[wt 0.4]
+
+[charaFadeout L 0.1]
+[charaFadeout T 0.1]
+[charaFadeout V 0.1]
+[charaFadeout W 0.1]
+[charaMove L 1 0.1]
+[wt 0.1]
+[subCameraOff]
+[charaLayer L normal]
+[charaLayer T normal]
+[charaLayer V normal]
+[charaLayer W normal]
+[charaScale L 1.0]
+[charaScale T 1.0]
+[charaScale V 1.0]
+[charaScale W 1.0]
+[wt 0.05]
+
+[charaDepth O 3]
+[charaDepth U 4]
+[charaDepth L 2]
+[charaDepth M 1]
+
+[se ad95]
+[wt 1.4]
+
+[charaScale U 1.3]
+[charaFace U 1]
+[charaFadein U 0.4 50,180]
+[wt 0.1]
+[seStop ad95 0.4]
+[wt 1.1]
+
+[charaMove U 50,-30 2.8]
+[charaMove O -50,-360 2.8]
+[wt 2.8]
+
+[charaPut M -175,0]
+[charaFace L 1]
+[charaFadein L 0.1 175,0]
+[wt 1.2]
+
+[charaFadeout O 0.8]
+[charaFadeout U 0.8]
+[wt 2.7]
+
+
+
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_MAP_56 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

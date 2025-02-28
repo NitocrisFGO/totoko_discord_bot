@@ -1,0 +1,541 @@
+
+
+＄03-00-13-05-5-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257500 1 拉斯普京]
+[charaSet B 1098254800 1 尼莫水兵]
+[charaSet C 1098255200 1 哈贝特洛特]
+[charaSet D 1098252940 1 特佩乌]
+[charaSet E 98001000 1 玛修]
+[charaSet F 1098253200 1 U－奥尔加玛丽]
+[charaSet G 1098253200 1 U－奥尔加玛丽_扩大]
+[charaScale G 1.3]
+[charaSet H 1098239320 1 卡多克]
+[charaSet I 1098257400 1 希翁]
+[charaSet J 1098255100 1 戈尔德鲁夫]
+[charaSet K 1098257300 1 达·芬奇]
+[charaSet L 1098123000 1 穆尼尔]
+
+[sceneSet M 169800 1]
+[charaScale M 1.3]
+[sceneSet N 170301 1]
+[charaScale N 1.3]
+
+[scene 170300]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[scene 170301 1.5]
+[wt 3.0]
+
+[scene 169701 1.5]
+[wt 2.0]
+
+[bgm BGM_EVENT_161 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠拉斯普京
+那么各位，请不要忘记晚餐前的祈祷。[r]主啊，感谢您赐予大地的恩惠。
+[k]
+
+[charaFace A 5]
+＠拉斯普京
+今晚的玉米也很好吃。[r]我不会抱怨只有这一种食物哦。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠尼莫水兵
+我开动啦～！[r]又甜又辣的好有意思～！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.5]
+
+？1：……真是漫长的一天……
+
+
+？2：U－奥尔加玛丽那边情况如何？
+
+[charaTalk F]
+[charaFace F 23]
+[charaFadein F 0.1 1]
+[wt 2.0]
+
+[charaFace F 0]
+[wt 1.0]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 17]
+[charaFadein C 0.1 1]
+
+＠哈贝特洛特
+那是什么反应？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+参加仪式的是[%1]、玛修、[r]哈贝特洛特、水兵、我、U－奥尔加玛丽吧？
+[k]
+
+＠特佩乌
+我会通宵制作好每个人的球。[r]各位就不用在意了，好好休息去吧。
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1210]
+[cueSeStop 22_ad1210 1.5]
+[charaFadeout D 0.4]
+[wt 2.0]
+
+[charaTalk E]
+[charaFace E 22]
+[charaFadein E 0.1 1]
+
+＠玛修
+不愧是可靠的特佩乌先生。[r]那我们就恭敬不如从命，备战明日吧。
+[k]
+
+[charaFace E 1]
+
+＠玛修
+今天天气那么炎热，真是辛苦各位了。
+[k]
+
+＠玛修
+我和水兵先生会负责收拾的，[r]请各位回房间休息吧。
+[k]
+
+[charaFace E 2]
+
+＠玛修
+毕竟[#仪式:比赛]从明天一大早就要开始了！
+[k]
+
+＠玛修
+竟然要在一天之内比完所有八支队伍的淘汰赛，[r]赛程表排得太密集了！
+[k]
+
+＠玛修
+大家都以完美的态势备战蹴球吧！[wt 0.8][charaMove E 0,-10 0.6][r]斯巴达，[wt 1.0][charaMove E 0,0 0.2]噢～！
+[k]
+
+？1：噢～！
+？2：（这种时候应该喊加油才对吧？）
+
+？！
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_161 1.5]
+[wait fade]
+
+[scene 169800]
+[charaFadeout E 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth G 2]
+[charaDepth N 3]
+
+[charaFace F 6]
+[charaFace G 6]
+[charaFadein F 0.1 1]
+[charaFadein G 0.1 0,-150]
+[charaFadein M 0.1 0,-200]
+[charaFadein N 0.1 0,-200]
+[wt 1.5]
+
+[charaMove N 0,-100 8,0]
+[fadein black 1.5]
+[wait fade]
+
+[wt 1.0]
+
+[charaMove M 0,-100 8,0]
+[charaMove G 0,50 8,0]
+[wt 0.5]
+
+[bgm BGM_EVENT_116 0.1]
+[charaFadeout N 2.0]
+[wt 3.5]
+
+[charaFadeout M 1.5]
+[charaFadeout G 1.5]
+[wt 2.0]
+[se ad60]
+[wt 1.0]
+[seStop ad60 0.2]
+[wt 0.2]
+
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 24]
+
+＠U－奥尔加玛丽
+[FFFFFF]？　你不是在房间里睡觉吗？[-]
+[k]
+
+？1：有点睡不着，出来吹吹风。
+
+
+？2：倒是U为什么在屋顶上？
+
+[charaFace F 1]
+
+＠U－奥尔加玛丽
+虽说是蜥蜴，但迪诺斯也是人类吧。[r]我只是在眺望他们过着怎样的生活啦。
+[k]
+
+？！
+
+[charaFace F 13]
+
+＠U－奥尔加玛丽
+不过，这发展还真是出乎预料。[r]目的地分明近在眼前，却被阻挡了前进。
+[k]
+
+[charaFace F 1]
+
+＠U－奥尔加玛丽
+你们的基地是叫Storm Border吧。
+[k]
+
+＠U－奥尔加玛丽
+也许是因为掉进了树海，用我的眼睛也看不太清。[r]只能看见树木缝隙间似乎有个钢铁盒子？
+[k]
+
+？1：竟然能从这里看见吗！？
+
+？！
+
+[charaFace F 23]
+
+＠U－奥尔加玛丽
+只能看见有个迫降物而已。[r]很抱歉，我也没法辨别得更清楚了。
+[k]
+
+＠U－奥尔加玛丽
+[line 3]你的人类同伴有几个人？[r]告诉我人数就行了。
+[k]
+
+[messageOff]
+[charaFadeout F 0.2]
+[wt 0.2]
+
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadeTime J 0.4 0.6]
+[wt 1.2]
+
+[charaFadeout J 0.2]
+[wt 0.2]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadeTime K 0.4 0.6]
+[wt 1.2]
+
+[charaFadeout K 0.2]
+[wt 0.2]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadeTime I 0.4 0.6]
+[wt 1.2]
+
+[charaFadeout I 0.2]
+[wt 0.2]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadeTime H 0.4 0.6]
+[wt 1.2]
+
+[charaFadeout H 0.2]
+[wt 0.2]
+
+[charaTalk L]
+[charaFace L 0]
+[charaFadeTime L 0.4 0.6]
+[wt 1.2]
+
+[charaFadeout L 0.2]
+[wt 0.7]
+
+[charaTalk F]
+[charaFace F 23]
+[charaFadein F 0.1 1]
+[wt 0.5]
+
+？1：管制室有5人，其他岗位有7人。
+
+？！
+
+[charaFace F 22]
+[wt 1.0]
+[charaFace F 13]
+
+＠U－奥尔加玛丽
+也就是12人吧。那你放心吧。[r]全员平安哦。
+[k]
+
+
+[charaFace F 1]
+
+＠U－奥尔加玛丽
+……哼。明显松了口气。[r]真是个表情和颜色都一目了然的家伙。
+[k]
+
+[charaFace F 23]
+
+＠U－奥尔加玛丽
+这样一来就没烦恼了吧。[r]赶紧回房间，丢人地晕过去吧。
+[k]
+
+？1：那不是晕过去，是睡着啦。
+
+[flag select1 1]
+
+[charaFace F 3]
+
+＠U－奥尔加玛丽
+失去意识、无法思考、没有动静。[r]也就是晕过去了吧。不对吗？
+[k]
+
+？2：……难道说，那个，奥尔加玛丽……
+
+[flag select1 2]
+
+[charaFace F 6]
+
+＠U－奥尔加玛丽
+干嘛，要是敢说什么废话，[r]哪怕你身为秘书，我也照训斥无误哦。
+[k]
+
+？！
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_EVENT_116 0.5 0.5]
+[wait fade]
+
+[effect bit_sepia01_depth_fs]
+[scene 169001]
+[charaFace F 20]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 2.5]
+
+[fadeout white 0.5]
+[wait fade]
+
+[scene 169800]
+[effectDestroy bit_sepia01_depth_fs]
+[branch uom_face_3 select1 1]
+
+[branch uom_face_6 select1 2]
+
+[label uom_face_3]
+[charaFace F 3]
+[branch lblConf]
+
+[label uom_face_6]
+[charaFace F 6]
+[branch lblConf]
+
+[label lblConf]
+
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_EVENT_116 0.5 1.0]
+[wait fade]
+
+[wt 0.5]
+
+？1：[line 3]你晚上不睡觉吗？
+
+？！
+
+[charaFace F 16]
+
+＠U－奥尔加玛丽
+…………是啊。有问题吗？
+[k]
+
+[charaFace F 17]
+
+＠U－奥尔加玛丽
+你们所谓的『睡觉』，[r]是我所不具备的功能哦。
+[k]
+
+＠U－奥尔加玛丽
+作为紧急时的安全措施，我确实能停止运转，[r]但我并没有那个，所谓的『梦』。
+[k]
+
+[charaFace F 13]
+
+＠U－奥尔加玛丽
+……哼。毕竟我与你们之间规格的差异[r]就是如此之大，所以倒也无所谓啦。
+[k]
+
+[bgmStop BGM_EVENT_116 1.5]
+？1：（所以之前的夜晚之所以都独自一人……）
+？2：（我竟然没有察觉到……）
+？！
+
+
+[charaFace F 19]
+＠U－奥尔加玛丽
+……！[r]那是什么颜色，好恶心……！[bgm BGM_EVENT_76 0.1]
+[k]
+
+[charaFace F 7]
+＠U－奥尔加玛丽
+别来这种颜色，令人不快。[r][#别拿我跟你相提并论]。
+[k]
+
+[charaFace F 12]
+
+＠U－奥尔加玛丽
+我和你们不一样。[r]正因为不一样，才会这样做。
+[k]
+
+＠U－奥尔加玛丽
+既然都是智慧生命，就能彼此沟通，[r]也可以拥有共同的目的，还能成为朋友。
+[k]
+
+＠U－奥尔加玛丽
+但是[line 3]唯独不可能将我，[r]当做和你们相同的生物来对待。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth G 12]
+
+[charaFace G 4]
+[charaFadein M 0.8 0,-350]
+[charaFadein G 0.8 1]
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk G]
+
+＠G：U－奥尔加玛丽
+我是来自宇宙的非人类，U-奥尔加玛丽。[r]给我记清楚这点。
+[k]
+
+[messageOff]
+[scene 170301]
+[charaFadeout F 0.1]
+[charaFaceFade G 16 0.5]
+[wt 1.0]
+
+＠G：U－奥尔加玛丽
+……没错。因为我没有任何[r]与你们相同的要素。
+[k]
+
+[messageOff]
+[wt 0.5]
+[charaFadeout M 1.5]
+[charaFadeout G 1.5]
+[wt 3.5]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_76 2.0]
+[wait fade]
+
+[scene 169800]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 16]
+[charaFadein F 0.1 1]
+[wt 2.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+？1：好，想办法试试看睡觉吧！
+？2：不试试看又怎么知道行不行呢？
+
+？！
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace F 19]
+
+＠U－奥尔加玛丽
+你有没有在认真听我说话啊！？[r]这也太乐观了吧！？
+[k]
+
+[charaFace F 16]
+
+＠U－奥尔加玛丽
+……不过也是，没尝试过就说做不到，[r]这样确实不太好呢。
+[k]
+
+＠U－奥尔加玛丽
+……总感觉自己以前曾怀着这样的心态失败过。[r]………………
+[k]
+
+[charaFace F 12]
+
+＠U－奥尔加玛丽
+好吧，我就试试看。[r]你是让我睡觉……也就是昏迷过去吧？
+[k]
+
+＠U－奥尔加玛丽
+一过性的意识消失易如反掌。[r]我就来证明自己没有做不到的事好了。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

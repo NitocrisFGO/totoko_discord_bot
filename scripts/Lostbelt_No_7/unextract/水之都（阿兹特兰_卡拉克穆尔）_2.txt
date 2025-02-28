@@ -1,0 +1,855 @@
+
+
+
+＄03-00-13-21-2-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098154000 1 空想树的种子]
+[charaSet B 1098154000 1 空想树的种子]
+[charaSet C 1098154000 1 空想树的种子]
+[charaSet D 1098154000 1 空想树的种子]
+[charaSet E 1098154000 1 空想树的种子]
+[charaSet F 1098257910 1 玛修]
+[charaSet G 1098255200 1 哈贝特洛特]
+[charaSet H 1098252900 1 特佩乌]
+[charaSet I 1098255300 1 尼托克丽丝]
+[charaSet J 1098257300 1 达·芬奇]
+[charaSet K 1098253800 1 瓦克昌]
+[charaSet L 1098253000 1 卡玛佐茨]
+[charaSet M 1098252940 1 特佩乌_B]
+
+[charaSet N 1098154000 1 空想树的种子]
+[charaSet O 1098154000 1 空想树的种子]
+[charaSet P 1098154000 1 空想树的种子]
+[charaSet Q 1098154000 1 空想树的种子]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+[charaSet S 98115000 1 特效用dummy]
+
+[charaPut S 2000,2500]
+[charaEffect S bit_sepia01_depth_fs]
+
+
+[cameraMove 0 0,0 1.01]
+
+[scene 174700]
+
+[bgm BGM_EVENT_80 0.1]
+
+[charaTalk off]
+[charaDepth A 9]
+[charaDepth B 8]
+[charaDepth C 7]
+[charaDepth D 6]
+[charaDepth E 5]
+[charaDepth N 4]
+[charaDepth O 3]
+[charaDepth P 2]
+[charaDepth Q 1]
+
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFace N 0]
+[charaFace O 0]
+[charaFace P 0]
+[charaFace Q 0]
+[charaFadein A 0.1 0,-25]
+[charaFadeinFSR B 0.1 200,-25]
+[charaFadeinFSL C 0.1 -200,-25]
+[charaFadeinFSSideR D 0.1 400,-25]
+[charaFadeinFSSideL E 0.1 -400,-25]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad1043]
+[charaFadeinFSR N 0.4 100,25]
+[charaMoveReturnFSR N 100,17 0.6]
+[wt 0.25]
+[charaFadeinFSL O 0.4 -100,25]
+[charaMoveReturnFSL O -100,17 0.6]
+[wt 0.25]
+[charaFadeinFSSideR P 0.4 300,25]
+[charaMoveReturnFSSideR P 300,17 0.6]
+[wt 0.25]
+[charaFadeinFSSideL Q 0.4 -300,25]
+[charaMoveReturnFSSideL Q -300,17 0.6]
+[wt 1.2]
+
+[se ad667]
+[seVolume ad667 0 0.7]
+[se ad769]
+[seVolume ad769 0 0.7]
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0.7]
+[cueSe SE_22 22_ad1219]
+[cueSeVolume 22_ad1219 0 0.5]
+
+[wipeout leftToRight 0.7 1.0]
+[bgmStop BGM_EVENT_80 2.0]
+[seStop ad667 1.5]
+[seStop ad769 1.5]
+[seStop ad1043 1.5]
+[cueSeStop 22_ad1210 1.5]
+[cueSeStop 22_ad1219 1.5]
+[cueSeStop 22_ade707 1.5]
+[wait wipe]
+
+[shakeStop]
+[effectDestroy bit_talk_41_fs]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout N 0.1]
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+[charaFadeout Q 0.1]
+[wt 0.5]
+[scene 10000]
+[wt 0.2]
+
+[wipein rightToLeft 0.2 1.0]
+[wait wipe]
+
+[fadeout black 0.2]
+[wait fade]
+
+[scene 174800]
+
+[imageSet N cut423_wall 1 1]
+[imageSet O cut423_wall 1 1]
+[imageSet P cut423_wall 1 1]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+
+？1：总算是逃脱了！
+？2：它们没有进到神殿里面吗……？
+
+？！
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠玛修
+看来是这样。难道……[r]是将这座神殿认知为神圣之物了吗？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠哈贝特洛特
+谁知道呢。[r]那种奇怪的生物有没有智慧呢？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+＠特佩乌
+说不定不是出于智慧，而是生态。[r]就像动物的地盘那样，察觉到危险就不会靠近。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 9]
+[charaFadein I 0.1 1]
+＠尼托克丽丝
+意思是我们才出蛇群，又入蝎巢了吧。
+[k]
+
+[charaFace I 17]
+＠尼托克丽丝
+……先不提这个，这里是不是有点热？
+[k]
+
+＠尼托克丽丝
+米克特兰的气温确实很高，[r]但与其说这里炎热，更像是发烫。
+[k]
+
+？1：嗯，下面传来的热量很高。
+？2：仿佛一呼吸就会灼伤喉咙。
+
+？！
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 23]
+[charaFadein J 0.1 1]
+＠达·芬奇
+……看来是没有礼装的体温调整功能，[r]人型人类就无法生存的环境呢。
+[k]
+
+＠达·芬奇
+但这座神殿是奇琴伊察样式的……[r]也就是卡恩王国的。
+[k]
+
+＠达·芬奇
+也就是说，以前应该是人类能居住的环境才对。[r]有没有相关的资料流传下来，特佩乌？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 6]
+[charaFadein M 0.1 1]
+＠M：特佩乌
+只有些许口耳相传的信息，[r]据说这里名叫卡拉克穆尔。
+[k]
+
+＠M：特佩乌
+根据以往的情报考究来看，[r]这里就是米克特兰中人型人类的发祥地，
+[k]
+
+＠M：特佩乌
+从这座都城移居到上层，[r]繁荣起来的人型人类国度就是卡恩王国吧。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 3]
+[charaFadein K 0.1 1]
+＠瓦克昌
+唔～？　是因为热得住不下去了，[r]才移居到了上层吗？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 0]
+[charaFadein M 0.1 1]
+＠M：特佩乌
+似乎并非如此。[r]卡恩是得益于这股热量才会成立的。
+[k]
+
+＠M：特佩乌
+墙壁上的花纹描述了故事。[r]是叫壁画吗？
+[k]
+
+＠M：特佩乌
+根据开头部分的壁画来看，[r]应该是『卡恩利用地热得以繁荣』吧。
+[k]
+
+[charaFaceFade M 4 0.2]
+＠M：特佩乌
+原来如此原来如此……非常耐人寻味。[r]可以的话，我都想逗留在这里了……
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 9]
+[charaFadein I 0.1 1]
+＠尼托克丽丝
+克制一下，特佩乌。现在分秒必争。[r]而且保不准外面那些东西不会进来。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 0]
+[charaFadein M 0.1 1]
+＠M：特佩乌
+我知道。[r]不过这幅壁画能派上很大的用处。
+[k]
+
+＠M：特佩乌
+看来只要按照正确的顺序阅读，[r]就能抵达神殿的最深处。
+[k]
+
+＠M：特佩乌
+『奇科纳瓦洛扬』，[r]在卡恩的语言里，好像是叫这个名称。
+[k]
+
+？1：能解读出这么多讯息吗！？
+？2：怎么看都只是些普通的涂鸦吧！？
+
+？！
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+＠达·芬奇
+毕竟特佩乌……不，迪诺斯的头脑可是超算级的。[r]解读这点东西应该信手拈来吧。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠玛修
+奇科纳瓦洛扬……
+[k]
+
+＠玛修
+阿兹特克神话中地下冥界米克特兰的最底层，[r]被浓雾所笼罩的安宁与回归的世界。
+[k]
+
+＠玛修
+从第一层起历经试练之旅的死者，[r]将在这层被净化灵魂，从痛苦中获得解放。
+[k]
+
+＠玛修
+这层也因此被称作『真正的米克特兰』。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 11]
+[charaFadein I 0.1 1]
+＠尼托克丽丝
+也就是下冥界的终点吧。
+[k]
+
+＠尼托克丽丝
+在梅兹蒂特兰见到的『ORT尸骸』所在地点[r]并不是建筑物。
+[k]
+
+＠尼托克丽丝
+肯定还有更下层。[r]那里应该才是『奇科纳瓦洛扬』吧。
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth F 4]
+[charaDepth H 2]
+[charaDepth K 1]
+[charaDepth J 3]
+[charaDepth G 6]
+
+[charaScale F 0.9]
+[charaScale H 1.2]
+[charaScale K 1.2]
+[charaScale J 0.9]
+[charaScale G 0.9]
+
+[charaFace F 6]
+[charaFace H 3]
+[charaFace K 2]
+[charaFace J 23]
+[charaFace G 4]
+[charaFadeinFSSideR F 0.1 350,-50]
+[charaFadeinFSL H 0.1 200,70]
+[charaFadeinFSSideL K 0.1 -180,70]
+[charaFadein J 0.1 0,-50]
+[charaFadeinFSSideL G 0.1 -300,-50]
+[wt 1.6]
+
+？1：拜托你带路啦，特佩乌！
+
+？！
+
+[charaTalk on]
+＠特佩乌
+那当然。[r]我是作为带路人同行的迪诺斯。
+[k]
+
+＠特佩乌
+看来这就是我最后的工作了。[r]我会负起责任，带领各位前往目的地。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_70 1.5]
+[wait fade]
+
+[charaFadeout F 0.1]
+[charaFadeout H 0.1]
+[charaFadeout K 0.1]
+[charaFadeout J 0.1]
+[charaFadeout G 0.1]
+[charaScale F 1.0]
+[charaScale H 1.0]
+[charaScale K 1.0]
+[charaScale J 1.0]
+[charaScale G 1.0]
+
+[charaTalk off]
+[charaDepth R 4]
+[charaDepth N 6]
+
+[charaPut R 1]
+[charaFadeTime R 0.1 0.5]
+
+[charaFadein N 0.1 50,-200]
+[wt 1.5]
+
+[charaMove N -50,-200 30.0]
+[fadein black 1.5]
+[wait fade]
+[wt 0.2]
+
+[bgm BGM_EVENT_79 0.1]
+
+
+＠特佩乌
+起初，世界上有一棵树。
+[k]
+
+＠特佩乌
+树连接着大地与[#宇宙:天空]。
+[k]
+
+＠特佩乌
+相连的[#宇宙:天空]招来了星。
+[k]
+
+＠特佩乌
+星体破碎，世界燃烧，自星体零落的客人[r]化身[#绿色:迈雅]修复了大地。
+[k]
+
+＠特佩乌
+没有天敌或外敌，祥和的龙之时代来临了。
+[k]
+
+＠特佩乌
+龙之时代持续了1亿年，[r]第二颗受邀之星[line 3]终结之星降临了。
+[k]
+
+＠特佩乌
+迈雅在大地底下创造世界，[r]迈雅成为了极小的太阳。
+[k]
+
+＠特佩乌
+这就是米克特兰的开端。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_79 1.0 0.5]
+[wait fade]
+
+[charaFadeout N 0.1]
+[charaFadeout R 0.1]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_79 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk on]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠特佩乌
+正如希基克所言呢。
+[k]
+
+＠特佩乌
+迈雅是3亿年前来自其他天体的[r]纤维状生命体。
+[k]
+
+＠特佩乌
+『他们』与地表的植物融合，通过网络固定大陆，[r]打造出了泛大陆。
+[k]
+
+＠特佩乌
+恐龙在泛大陆上繁荣了将近1亿年。[r]然而，在6600万年前。
+[k]
+
+＠特佩乌
+也就是泛人类史中的第五次大灭绝时。[r]又发生了一次陨石撞击。
+[k]
+
+[charaFace H 3]
+＠特佩乌
+这就是『终结之星』，ORT吧。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 23]
+[charaFadein J 0.1 1]
+＠达·芬奇
+嗯。ORT的撞击本应会导致恐龙灭绝才对，
+[k]
+
+＠达·芬奇
+结果迈雅为保护恐龙而创造了[#地底世界:米克特兰]，[r]自己则化身为米克特兰所需的太阳。
+[k]
+
+＠达·芬奇
+然后又一点一滴地改造恐龙们的遗传因子，[r]让它们进化成新人类。这就是迪诺斯的起源。
+[k]
+
+＠达·芬奇
+后来又经过了6000万年，来到600万年前。[r]第四次灭绝到来了。
+[k]
+
+＠达·芬奇
+那就是[line 2]
+[k]
+
+[messageOff]
+[charaFadeout J 0.1]
+
+[imageSet N cut423_wall 1 1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth R 2]
+[charaDepth N 3]
+[charaDepth O 4]
+[charaDepth P 5]
+
+[charaPut R 1]
+[charaFadeTime R 0.5 0.5]
+[charaFadein N 0.5 350,-200]
+[wt 1.4]
+
+[charaFadein O 0.5 0,-200]
+[wt 0.5]
+[charaFadeout N 0.1]
+[wt 0.9]
+
+[charaFadein P 0.5 -350,-200]
+[charaFadeout O 0.5]
+[wt 1.4]
+
+[charaFadeout P 0.5]
+[charaFadeout R 0.5]
+[wt 0.65]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠玛修
+一度停止的ORT重新开始了活动，对吧。
+[k]
+
+＠玛修
+ORT导致太阳消失，[r]米克特兰被逼入崩毁边缘，
+[k]
+
+＠玛修
+最后由迪诺斯与卡恩，活在米克特兰的所有人[r]齐心协力将ORT扔进了地底。
+[k]
+
+？1：希基克是这样说的……
+？2：…………？　不对，这样一来似乎有些…………
+
+？！
+
+＠玛修
+前辈？　您在看的这个壁画上，[r]是发现什么奇怪的[line 3][wt 0.7][charaFace F 5]啊。[bgmStop BGM_EVENT_79 1.5]
+[k]
+
+＠玛修
+顺序……反了。[r]壁画上的ORT是在太阳变暗之后才出现的……
+[k]
+
+＠玛修
+也就是说，那个……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_97 0.1 0.9]
+
+[charaTalk M]
+[charaFace M 4]
+[charaFadein M 0.1 1]
+＠M：特佩乌
+是的，希基克作出了错误的解释。
+[k]
+
+＠M：特佩乌
+不是ORT消灭了太阳。[r]太阳在那之前就已经消失了。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 3]
+[charaFadein K 0.1 1]
+＠瓦克昌
+为什么会已经消失了啊。[r]是神官搞砸了吗？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 6]
+[charaFadein M 0.1 1]
+＠M：特佩乌
+因为寿命。无论迈雅是多么优异的生命体，[r]也无法打造出永动的太阳。
+[k]
+
+＠M：特佩乌
+历经6000万年的运转以后，太阳停摆了。[r]米克特兰被黑暗所笼罩。
+[k]
+
+＠M：特佩乌
+若没有太阳光，我们迪诺斯就无法活动。[r]所以我们进入了长达10万年之久的休眠期。
+[k]
+
+[charaFaceFade M 0 0.2]
+＠M：特佩乌
+在此期间……在没有迪诺斯这一灵长的米克特兰[r]繁荣起来的，就是人型人类[line 3]卡恩王国。
+[k]
+
+＠M：特佩乌
+他们没有受到迈雅的加护。[r]打从一开始就被太阳抛弃了。
+[k]
+
+＠M：特佩乌
+所以才会形成利用地热的文明。[r]卡玛佐茨自始至终都是黑暗之王。
+[k]
+
+[messageOff]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+[wt 1.2]
+
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[seStop ad788 1.0]
+[bgm BGM_EVENT_97 0.6 0.4]
+[wait fade]
+
+[charaFadeout I 0.1]
+
+
+[scene 174200]
+
+[charaPut S 1]
+
+[charaTalk L]
+[charaFace L 1]
+[charaFadein L 0.1 1]
+[wt 0.7]
+
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+＠卡玛佐茨
+就算太阳消失，卡玛佐茨也不会改变。[r]会死绝的只有米克特兰。
+[k]
+
+＠卡玛佐茨
+迪诺斯们应该会接受灭绝吧。[r]就像他们曾经也这么接受过。
+[k]
+
+[charaFace L 4]
+
+＠卡玛佐茨
+然而我不一样，我不会灭绝。[r]哪怕没有太阳，仅靠大地的热量也能活下去。
+[k]
+
+[messageOff]
+[fadeout white 0.6]
+[wait fade]
+
+[charaPut S 2000,2500]
+[charaFadeout L 0.1]
+
+[scene 174800]
+
+[charaTalk I]
+[charaFace I 2]
+[charaFadein I 0.1 1]
+[wt 0.7]
+
+[bgm BGM_EVENT_97 0.6 0.7]
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+＠尼托克丽丝
+等一下。所以迪诺斯，所以迈雅，[r]难道并没有参与讨伐ORT吗！？
+[k]
+
+＠尼托克丽丝
+在太阳消失了的世界里，为守护米克特兰而战的[r]只有卡恩民众……不，只有那个男人吗！？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 4]
+[charaFadein M 0.1 1]
+＠M：特佩乌
+……既然太阳都消失了，应该就是这样吧。
+[k]
+
+＠M：特佩乌
+在人型人类全力集结之下，ORT停止了活动，[r]太阳也重返米克特兰。
+[k]
+
+＠M：特佩乌
+然后当迪诺斯们苏醒时，[r]卡恩王国已经灭亡了。
+[k]
+
+＠M：特佩乌
+不，迪诺斯们压根没有见过卡恩王国。[r]迪诺斯们只是理所当然地使用着，
+[k]
+
+＠M：特佩乌
+太阳消失的10万年间形成的人型人类文明的遗物而已。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 3]
+[charaFadein K 0.1 1]
+＠瓦克昌
+……是这样啊。迪诺斯之所以会害怕卡玛佐茨，[r]原来是这么一回事啊……
+[k]
+
+[charaFace K 0]
+＠瓦克昌
+毕竟，根本无法辩解嘛……
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 4]
+[charaFadein M 0.1 1]
+＠M：特佩乌
+卡恩王国可以说是米克特兰唯一的神话。[r]卡玛佐茨是名副其实的神话世界居民。
+[k]
+
+＠M：特佩乌
+壁画到此为止。[r]这里面就是奇科纳瓦洛扬吧。
+[k]
+
+＠M：特佩乌
+壁画的最后是这样的。
+[k]
+
+＠M：特佩乌
+『当王挖出终结之星时，[r]　星体已化身宇宙树苗。』
+[k]
+
+＠M：特佩乌
+『星之遗骸不可触碰。[r]　遗骸已成为米克特兰的基石。』
+[k]
+
+＠M：特佩乌
+『如今终结之星，已为空想之苗。』
+[k]
+
+？1：那也就是说……
+
+？！
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠玛修
+终结之星已化身为宇宙树……[r]是指ORT与空想树融合了……？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 34]
+[charaFadein J 0.1 1]
+＠达·芬奇
+……这个嘛，应该就是这么一回事吧。
+[k]
+
+[charaFace J 13]
+＠达·芬奇
+是被卡恩逼入绝境的ORT[r]将空想树当作能量源吸收了，
+[k]
+
+＠达·芬奇
+或是卡恩为了将ORT逼入绝境，[r]而利用了空想树吧。
+[k]
+
+＠达·芬奇
+无论如何，ORT都与空想树融合了。[r]这么假设的话，就解释得了外面空想树的情况了。
+[k]
+
+＠达·芬奇
+『空想树本身已经枯萎，[r]　但空想树却以其他形态活着。』
+[k]
+
+[bgmStop BGM_EVENT_97 1.5]
+
+[charaFace J 23]
+＠达·芬奇
+到了这步，我们的最终目的也更新了。[r]不，是回归了最初的目的。
+[k]
+
+＠达·芬奇
+消灭ORT。[r]这就是我们需要在第七异闻带中完成的事。
+[k]
+
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

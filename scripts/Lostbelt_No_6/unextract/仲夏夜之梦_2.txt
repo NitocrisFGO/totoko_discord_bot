@@ -1,0 +1,917 @@
+
+＄03-00-10-08-2-0
+
+
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098209670 1 奥伯龙·伏提庚]
+[charaSet B 5045002 1 阿尔托莉雅]
+
+
+[imageSet E back10000 1]
+[charaScale E 1.05]
+[charaFilter E silhouette C2001980]
+
+[imageSet I cut272_obr1 1 1]
+[charaScale I 2.00]
+[imageSet J cut272_obr2 1 1]
+[charaScale J 2.00]
+[imageSet K cut272_obr3 1 1]
+[charaScale K 2.00]
+
+[imageSet C cut273_vtg1 1 1]
+[charaScale C 2.00]
+[imageSet D cut273_vtg2 1 1]
+[charaScale D 2.00]
+
+
+[sceneSet G 118600 1 1]
+[charaScale G 1.6]
+
+[sceneSet H 10001 1 1]
+[charaScale H 1.01]
+
+
+[charaSet T 98115000 1 特效用]
+
+[scene 10000]
+
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_20 0.1]
+
+＠
+刚诞生时，[r]我甚至无法呼吸。
+[k]
+
+＠
+连根指尖都无法好好地活着。
+[k]
+
+＠
+当时我是全身腐烂的虫蛹中的流体。
+[k]
+
+＠
+在那种状况下，
+[k]
+
+[messageOff]
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadein I 0.1 250,-700]
+[wt 1.0]
+
+[fadein white 2.0]
+[charaMove I 60,-700 5.0]
+[wait fade]
+
+[wt 2.0]
+
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+[charaFadein J 0.1 60,-700]
+[wt 1.0]
+
+[fadein white 2.0]
+[charaMove J 250,-700 5.0]
+[wait fade]
+
+[wt 2.0]
+
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+[charaFadein K 0.1 250,-700]
+[wt 1.0]
+
+[fadein white 2.0]
+[charaMove K 60,-700 6.0]
+[wait fade]
+
+[wt 3.0]
+
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadeout K 0.1]
+[wt 1.0]
+[scene 125400]
+
+[fadein white 1.5]
+[wait fade]
+
+[wt 3.0]
+
+
+＠
+你们能理解我在晨曦照耀下苏醒时的心情吗？
+[k]
+
+[messageOff]
+[bgm BGM_EVENT_20 0.5 0.5]
+[wt 0.2]
+[charaPut E 1]
+[charaFadeTime E 0.2 0.8]
+[wt 0.2]
+
+[charaFadeout E 0.2]
+[wt 0.3]
+
+[overlayFadein E 0.2 1]
+[wt 0.2]
+
+[scene 118600]
+[bgm BGM_EVENT_20 0.5 1.0]
+[charaFadeout E 0.2]
+[wt 1.0]
+
+
+＠
+妖精国的偏僻之地，秋之森。
+[k]
+
+＠
+没有容身之处的妖精、受欺凌逃亡至此的妖精，[r]以及一直遭受迫害的妖精聚集在一起，
+[k]
+
+＠
+束手无策地等待着死亡步近的秋之森。
+[k]
+
+＠
+除此以外已无处可去的存在。
+[k]
+
+＠
+只能在遭厌恶、[r]遭遗忘的情况下凋亡的存在。
+[k]
+
+＠
+在他们的中间，出现了一只蛹。
+[k]
+
+＠
+蛹像极了妖精，实际却不是妖精，[r]而是不列颠岛孕育而成的末日装置。
+[k]
+
+＠
+“早就已经死去的历史竟然持续[r][f small]  [f -]超过了一万年，真恶心！”
+[k]
+
+＠
+“想将这座岛上的所有居民，[r][f small]  [f -]这座岛上的一切痕迹全都抹掉！”
+[k]
+
+＠
+它不过是从岛屿怀有的『对生物的厌恶感』[r]这呕吐物中诞生的一只虫子罢了。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 10000]
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+
+＠奥伯龙·伏提庚
+[line 3]啊[line 3]啊啊[line 3][r][line 3]啊啊啊，啊[line 3]
+[k]
+
+＠
+但由于是从呕吐物中滋生的[#蛆虫:虫子]，[r]因此其诞生也是悲惨的。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 125400]
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+＠
+他们觉得那只蛹很可怜，又非常漂亮，[r]就把它当成了自己的王。
+[k]
+
+＠
+秋之森的妖精们聚集在蛹的周围，[r]守望到蛹可以独力站起来为止。
+[k]
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 118600]
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+
+＠奥伯龙·伏提庚
+啊啊[line 3]哈啊啊啊。[r]啊～，好恶心。
+[k]
+
+＠
+站起来后的那个，已经不再是蛹了。
+[k]
+
+＠
+而是秋之森的妖精们梦寐以求的[r]童话故事中的理想王者。
+[k]
+
+＠
+他以著名天才却又有点坏心眼的作家笔下的[r]妖精王之样貌诞生于世。
+[k]
+
+＠奥伯龙·伏提庚
+先是摩耳斯之王，这次是这个？
+[k]
+
+＠奥伯龙·伏提庚
+哎，这就是境界记录带……[r]所谓的从者吗。
+[k]
+
+＠奥伯龙·伏提庚
+既然是诞生自众人愿望之物，[r]那不管是真相还是捏造，都能获得形体吗。
+[k]
+
+[charaFadein G 1.0 -200,-350]
+[charaMove G 200,-350 23.0]
+
+＠
+名为奥伯龙的妖精在泛人类史，[r]以及在这妖精国不列颠都存在过。
+[k]
+
+＠
+不过王身披的『奥伯龙』，[r]是用谎言构成的大骗子，
+[k]
+
+＠
+是在“全部都是仅限一夜的狂欢”这段前言下[r]讲述的“没有丝毫真实的故事”。
+[k]
+
+＠奥伯龙·伏提庚
+真了不起。无论是说的话，还是做的事，[r]最后全都扭曲了哦。
+[k]
+
+＠
+爱，即为不爱。[r]不爱，也不代表喜欢。
+[k]
+
+＠
+这就是奥伯龙的特性。
+[k]
+
+＠
+作为英灵就是这样子的，[r]因此本人也对此无计可施。
+[k]
+
+[charaFadeout G 1.0]
+
+＠奥伯龙·伏提庚
+唔～。算了，反正也没什么关系。[r]反正原本就打算欺骗大家。
+[k]
+
+＠奥伯龙·伏提庚
+……话说回来，这也都是因为[r]漂流物会漂流到不列颠来啊。
+[k]
+
+＠奥伯龙·伏提庚
+摩根那家伙，明明很讨厌泛人类史，[r]但未免太爱泛人类史了吧？
+[k]
+
+＠
+妖精王就是这样诞生的。
+[k]
+
+＠
+正巧此时，也是世间开始流行[r]『预言之子』歌谣的命运之年。
+[k]
+
+＠
+王对泛人类史本来就有一定程度的了解，[r]而这次则仔细地进行了调查。
+
+[k]
+
+＠
+调查摩根敌视的亚瑟王。
+[k]
+
+＠
+为了利用出现在不列颠某处的『乐园妖精』。
+[k]
+
+[messageOff]
+[fadeout black 3.0]
+[bgmStop BGM_EVENT_20 3.0]
+[wait fade]
+
+[scene 10000]
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad437]
+[wt 0.5]
+
+[se ad438]
+[effect bit_talk_noise_gr]
+[wt 1.0]
+[effectStop bit_talk_noise_gr]
+[wt 1.5]
+
+＠
+刚诞生时，[r][907ca1]我[-]甚至无法呼吸。
+[k]
+
+＠
+连根指尖都无法好好地活着。
+[k]
+
+＠
+当时[907ca1]我[-]是全身腐烂的虫蛹中的流体。
+[k]
+
+＠
+在那种状况下，
+[k]
+
+[messageOff]
+[wt 1.0]
+[scene 125401 3.0]
+[wt 5.0]
+[bgm BGM_EVENT_129 0.1]
+
+＠
+垃圾般的虫群蠢动之海，[r]便是[907ca1]我[-]看到的世界。
+[k]
+
+[messageOff]
+[wt 1.0]
+[charaFadein C 2.0 60,-700]
+[wt 3.0]
+
+＠
+在不列颠岛的临终哀嚎中，奥伯龙诞生了。
+[k]
+
+＠
+奥伯龙并不爱岛上的任何生物。
+[k]
+
+＠
+何况作为岛屿意志的毁灭妖精国[r]这件重责大任，
+[k]
+
+＠
+他也是咒骂道，[r]“那种事[907ca1]我[-]非做不可吗？”。
+[k]
+
+＠奥伯龙·伏提庚
+……话是这么说，[r]但既然已经诞生了，也只能去做了。
+[k]
+
+＠奥伯龙·伏提庚
+……啊啊，身体还动不了……
+[k]
+
+＠奥伯龙·伏提庚
+光是呼吸都感觉要死了。
+[k]
+
+＠奥伯龙·伏提庚
+光是动一动指头都感觉快要飞散了。
+[k]
+
+＠奥伯龙·伏提庚
+最要命的是[line 3]
+[k]
+
+[messageOff]
+[charaDepth C 1]
+[charaDepth D 2]
+[charaFadein D 2.0 250,-700]
+[charaMove D 60,-700 20.0]
+[wt 1.0]
+
+＠奥伯龙·伏提庚
+光是活着，就令人作呕。
+[k]
+
+＠
+身为蛹的奥伯龙并没有闭上眼睛的功能。
+[k]
+
+＠
+所以他无法将视线从他们身上移开。
+[k]
+
+＠
+蠕动着，[r]蠕动着。
+[k]
+
+＠
+密密麻麻地蠕动。[r]半年间，奥伯龙一直在注视着他们。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+＠
+奥伯龙诞生自黏黏糊糊的污浊之中。
+[k]
+
+＠
+蛹的内部也是黏黏糊糊融化的流体。
+[k]
+
+＠
+眼前所见之物，也是黏黏糊糊的光景。
+[k]
+
+＠奥伯龙·伏提庚
+[line 6]。
+[k]
+
+＠
+漂泊不定的弱者对未来没有任何展望，[r]只会拽着希望不放的光景很恶心。
+[k]
+
+＠
+被不断遭他人欺骗的瘦削弱者依赖很恶心。
+[k]
+
+＠
+被只会密密麻麻聚在一起蠕动的东西[r]认作国王很恶心。
+[k]
+
+＠
+最重要的是，被那群东西爬满全身，[r]位于最底层的自己很恶心。
+[k]
+
+＠
+犹如身上爬满蚂蚁的蝴蝶尸骸。[r]这就是发生在垃圾场底部的，世界底层的事。
+[k]
+
+＠奥伯龙·伏提庚
+[line 6]。
+[k]
+
+＠
+内心涌起的厌恶与憎恨，[r]并非针对任何人的。
+[k]
+
+＠
+既不针对聚集起来的虫子们，[r]也不针对被虫子爬满全身的自己。
+[k]
+
+＠
+奥伯龙只是觉得由这一切组成的[r]『世间的构造』本身“是不需要的”。
+[k]
+
+[messageOff]
+[fadeout black 3.0]
+[bgmStop BGM_EVENT_129 3.0]
+[wait fade]
+
+
+[scene 10000]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+＠
+总之，他的这段来历暂且搁置。
+[k]
+
+＠
+振作一点哦，[%1]。[r]还差一点，就差一点了。
+[k]
+
+＠
+你会在最后的最后，[r]让我见识一场惊天大逆转吧？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 123100]
+[wt 1.0]
+
+[fadein black 2.0]
+[wait fade]
+
+[wt 1.5]
+
+[fadeout black 1.0]
+[wait fade]
+
+[wipeout openEye 0.1 0.5]
+[wait wipe]
+
+[scene 122602]
+[wt 1.0]
+
+[fadein black 0.1]
+[wait fade]
+
+[charaPut T -422,198]
+[charaEffect T bit_talk_light_loop]
+
+[wipein openEye 1.2 1.0]
+[wait wipe]
+[wipeout openEye 1.2 1.0]
+[wait wipe]
+[wipein openEye 1.5 1.0]
+[wait wipe]
+
+[wt 2.0]
+
+？1：……那颗，星星是……
+
+？！
+
+[charaEffectStop T bit_talk_light_loop]
+[wt 0.5]
+
+[bgm BGM_EVENT_71 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+[wt 0.4]
+
+＠奥伯龙·伏提庚
+咦？　还活着吗？[r]好奇怪啊。这里可是奈落哦。
+[k]
+
+[charaFace A 0]
+
+＠奥伯龙·伏提庚
+难道你已经克服『失意』了吗？
+[k]
+
+[charaFace A 4]
+
+＠奥伯龙·伏提庚
+那[907ca1]我[-]就明白你为何能睁开眼睛了。[r]不过，[907ca1]我[-]觉得这样反而死得比较痛苦哦。
+[k]
+
+？1：这里是哪里？
+
+[charaFace A 1]
+
+＠奥伯龙·伏提庚
+是你们那艘舰艇的甲板哦。[r]被奈落之虫整个吞下去了嘛。
+[k]
+
+？2：玛修呢！？
+
+[charaFace A 8]
+
+＠奥伯龙·伏提庚
+玛修不正在你身旁睡觉吗。[r]只不过她没有醒来，所以也就不在。
+[k]
+
+[charaFace A 1]
+
+？！
+
+＠奥伯龙·伏提庚
+好不容易睁开了眼睛。[r]不如来聊会儿天吧？
+[k]
+
+＠奥伯龙·伏提庚
+我刚才在你们的舰艇中散了一会儿步，[r]还在里面找到了吃的。
+[k]
+
+＠奥伯龙·伏提庚
+给，所谓的便携食品。[r]你很累了吧？　快吃吧。
+[k]
+
+[messageOff]
+[cueSe Battle bac23]
+[seVolume bac23 0 0.5]
+[charaMoveReturn A 0,3 0.5]
+[wt 0.4]
+[se ad215]
+[seVolume ad215 0 0.4]
+[seStop ad215 1.2]
+[wt 1.5]
+
+[charaFace A 0]
+
+＠奥伯龙·伏提庚
+你这表情……是奇怪为何对你这么亲切吧。[r]这并不是什么亲切哦。
+[k]
+
+＠奥伯龙·伏提庚
+进入舰艇是为了找出[r]你们的同伴杀个精光，
+[k]
+
+＠奥伯龙·伏提庚
+玛修也是第一个杀的。[r]而你离死也不远了。
+[k]
+
+＠奥伯龙·伏提庚
+现在，你们掉进了无尽的空洞中。[r]『奈落之虫』的身躯是无限的。
+[k]
+
+＠奥伯龙·伏提庚
+被吞没的东西将一直往下坠落。[r]没有终点，永远。
+[k]
+
+＠奥伯龙·伏提庚
+因为是无限嘛。一旦被吞下，[r]就没有什么『入口』与『出口』，就此完蛋。
+[k]
+
+＠奥伯龙·伏提庚
+无论多么强大的生命、何等优秀的生命，[r]都不可能离开这个『空洞』。
+[k]
+
+[charaFace A 3]
+
+＠奥伯龙·伏提庚
+除非杀死[907ca1]我[-]。
+[k]
+
+＠奥伯龙·伏提庚
+只是没有人会在此醒来。[r]大家都在做『往下坠落的梦』。
+[k]
+
+＠奥伯龙·伏提庚
+虽说醒来之后就会像你一样能够看见，[r]不过基本上都在一直往下掉。
+[k]
+
+[charaFace A 4]
+
+＠奥伯龙·伏提庚
+[907ca1]我[-]觉得那样反而比较幸福。[r]万一有了意识，便会置身地狱哦。
+[k]
+
+＠奥伯龙·伏提庚
+在这片黑暗中，哪怕死去也会继续坠落。[r]冷静想来一定很可怕吧？
+[k]
+
+？1：[line 3]也就是说，不会有救兵赶来？
+
+[charaFace A 3]
+
+＠奥伯龙·伏提庚
+当然啦。[r]你要试试看吗？
+[k]
+
+？2：奥伯龙也同样身在地狱吧……
+
+[charaFace A 7]
+
+＠奥伯龙·伏提庚
+是啊。但既然『奈落之虫』已经成立，[r]之后世界就会自己走向毁灭了。
+[k]
+
+＠奥伯龙·伏提庚
+无论在这里还是在外面都没什么差别。[r]而且，[907ca1]我[-]自始至终都在地狱哦。
+[k]
+
+？！
+
+[charaFace A 1]
+
+＠奥伯龙·伏提庚
+总之，你什么都做不到。[r]这里连简易召唤都做不到。
+[k]
+
+＠奥伯龙·伏提庚
+毕竟是『人类史绝对不会看的空间』。[r]英灵什么的记录一丁点都没有。
+[k]
+
+＠奥伯龙·伏提庚
+不存在的东西是无法召唤的。
+[k]
+
+[charaFace A 3]
+
+＠奥伯龙·伏提庚
+要么无法忍受在此一直下坠而发疯，
+[k]
+
+＠奥伯龙·伏提庚
+要么跟其他人一样，[r]闭上眼睛继续做坠落之梦。
+[k]
+
+＠奥伯龙·伏提庚
+挑一个自己喜欢的吧。[r]想入睡时可以随时呼唤。
+[k]
+
+[charaFace A 12]
+
+＠奥伯龙·伏提庚
+只不过，如果你想要拯救世界，[r]就没有时间可以思考了。
+[k]
+
+＠奥伯龙·伏提庚
+异闻世界不列颠已经不存在了。[r]此后就是[#正常的时间流]。
+[k]
+
+＠奥伯龙·伏提庚
+迦勒底不是观测到[r]24小时后星球便会消失吗？
+[k]
+
+＠奥伯龙·伏提庚
+没错。[r]正可谓连1分钟的宽限都没有了。
+[k]
+
+＠奥伯龙·伏提庚
+想拯救世界的话，就与[907ca1]我[-]战斗，被[907ca1]我[-]杀死。[r]不过那也是一种丢人现眼的死法吧？
+[k]
+
+？1：[line 3]嗯。
+？2：你说得太对了！
+
+？！
+
+[messageOff]
+[se ad7]
+[cameraMove 0.3 0,-20 1.1]
+[wt 0.3]
+[se ad171]
+[shake 0.02 5 5 0.2]
+[charaFace A 6]
+[wt 0.5]
+
+＠奥伯龙·伏提庚
+呜哇，居然真的想要攻击呀。[r]你也太经不起别人煽动了吧？
+[k]
+
+[charaFace A 8]
+
+＠奥伯龙·伏提庚
+不过，想死也行，成全你好了。[r]毕竟没有胜算的战斗也很有趣嘛！
+[k]
+
+？1：[line 3]有胜算。
+
+？！
+
+[bgmStop BGM_EVENT_71 1.5]
+
+[charaFace A 0]
+
+＠奥伯龙·伏提庚
+哈？　在哪儿？
+[k]
+
+？1：[line 3]就要来了。
+
+？！
+
+[charaFace A 8]
+
+＠奥伯龙·伏提庚
+[907ca1]我[-]说了，根本不会有什么救[line 2]
+[k]
+
+？1：毕竟，我们只是旁观者吧？
+
+？！
+
+[messageOff]
+[charaFace A 7]
+[wt 1.5]
+[charaFadeout A 0.2]
+[wt 0.3]
+
+[se ad474]
+[seVolume ad474 0 0.3]
+[se ad472]
+[seVolume ad472 0 0.4]
+[cueSe SE_21 21_ad1108]
+[seVolume 21_ad1108 0 0.4]
+[effect bit_talk_light_loop02]
+
+
+
+[se ad873]
+[seVolume ad873 0 0.5]
+[seStop ad472 1.5]
+[seStop ad474 1.5]
+[seStop 21_ad1108 2.5]
+[wt 3.0]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+[wt 1.5]
+
+？1：来吧，卡斯特！！！！
+
+？！
+
+[charaFace A 2]
+
+＠奥伯龙·伏提庚
+[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ade8]
+[se ad967]
+[se ad966]
+[charaPut H 1]
+[charaFadeTime H 0.2 0.6]
+[wt 0.3]
+[charaFadeout H 1.0]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠奥伯龙·伏提庚
+你是[line 3]你是！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[cameraHome 0.1]
+[charaFadeout A 0.1]
+[scene 10000]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[criMovie talk_mov110 bgmPlay false]
+[wt 8.5]
+[bgm BGM_EVENT_91 0.1]
+[wt 20.5]
+
+[fadeout white 1.0]
+[wait fade]
+
+[scene 122604]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+[wt 1.5]
+
+[fadein white 2.0]
+[wait fade]
+
+
+[wt 1.0]
+
+＠阿尔托莉雅
+基于与『异邦的魔术师』的契约，[r]应召唤前来。
+[k]
+
+＠阿尔托莉雅
+此番并非为了纠正不列颠，[r]而是为拯救世界之战。
+[k]
+
+＠阿尔托莉雅
+纵使位于时间尽头，[r]此剑亦将交予[&他:她]手。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_91 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

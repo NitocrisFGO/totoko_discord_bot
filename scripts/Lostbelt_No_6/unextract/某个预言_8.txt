@@ -1,0 +1,633 @@
+
+＄03-00-10-07-8-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 5045001 1 阿尔托莉雅]
+[charaSet B 1098158300 1 尼莫]
+[charaSet C 1098181900 1 尼莫水兵]
+[charaSet D 5021001 1 贤者格里姆]
+
+[imageSet Q back10000 1]
+[charaScale Q 1.01]
+[imageSet R back10000 1]
+[charaScale R 1.01]
+
+[charaSet S 98115000 1 特效用]
+
+[sceneSet E 10001 1]
+[charaScale E 2.0]
+
+[cameraMove 0 0,0 1.01]
+
+[scene 122601]
+
+[effect bit_talk_41_r]
+
+[shake 0.02 1 2 0]
+
+[se ade343]
+[seVolume ade343 0 0]
+[wt 0.1]
+[cueSe SE_21 21_ad1097]
+[seVolume ade343 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+[wt 1.8]
+
+
+[fadeout black 1.0]
+[seVolume ade343 1.0 0.1]
+[wait fade]
+
+[effectStop bit_talk_41_r]
+[effectDestroy bit_talk_41_r]
+[shakeStop]
+
+[scene 132901]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.5]
+
+[seStop ade343 3.0]
+
+？1：…………
+？2：（……就快抵达大洞穴了……）
+
+？！
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠阿尔托莉雅
+很紧张吗？
+[k]
+
+？1：……嗯，很紧张。
+？2：……感觉有些不好意思。
+
+？！
+
+[charaFace A 1]
+＠阿尔托莉雅
+我也是！[r]毕竟是要与神明战斗嘛！
+[k]
+
+＠阿尔托莉雅
+是神明哦，神明！[r]在蛮不讲理的对手中，属于无可比拟的最顶级！
+[k]
+
+[charaFace A 30]
+＠阿尔托莉雅
+嘴上这样说，其实我只是个刚在『选定之地』[r]知晓了泛人类史历史的半桶水啦～。
+[k]
+
+[charaFace A 6]
+＠阿尔托莉雅
+[%1]应该很熟悉了吧？[r]这种场面你以往见识过很多次了吧？
+[k]
+
+？1：虽然确实见识过很多次……
+？2：可是每次都会这样紧张哦。
+
+？！
+
+[charaFace A 39]
+＠阿尔托莉雅
+[line 6]这样啊。
+[k]
+
+[charaFace A 6]
+＠阿尔托莉雅
+听你这样说我就放心了。[r]意思是就算紧张也很正常吧。
+[k]
+
+[charaFace A 8]
+＠阿尔托莉雅
+不过我这人就是会紧张到不小心弄掉杖子什么的，[r]到时候就麻烦你帮忙打掩护啦。
+[k]
+
+？1：[&哈哈:呵呵]，确实像是阿尔托莉雅会干出来的事呢。
+
+？！
+
+[charaFace A 1]
+＠阿尔托莉雅
+嗯！　说一个人包揽全部什么的，未免太过了吧！[r]不过就算失败，身边的人肯定也会来帮忙！
+[k]
+
+？1：…………
+
+？！
+
+[messageOff]
+[wt 1.2]
+
+？1：那个，你找到理由了吗？
+
+？！
+
+[charaFace A 6]
+＠阿尔托莉雅
+没有，唯独这个怎么都找不到。[r]虽然很不甘心，但没有任何可以接受的理由。
+[k]
+
+＠阿尔托莉雅
+不过没关系。[r]虽说我不知道理由[line 3]
+[k]
+
+＠阿尔托莉雅
+但毕竟好像还是有人知道[r]“为什么要这么努力”的嘛。
+[k]
+
+[bgm BGM_MAP_73 1.0]
+
+[charaFace A 2]
+＠阿尔托莉雅
+哎哟，对了。[r]差点忘记正题了。
+[k]
+
+[charaFace A 6]
+＠阿尔托莉雅
+[%1]。[r]我要趁现在向你道谢。
+[k]
+
+＠阿尔托莉雅
+因为打倒科尔努诺斯后就该道别了嘛，[r]我要回阿瓦隆了。
+[k]
+
+＠阿尔托莉雅
+这个我，是村正先生替我肩负了[r]最后工程后残存的『剩余』。
+[k]
+
+＠阿尔托莉雅
+一旦魔力用尽，使命就算完成，[r]我也将陷入漫长的沉眠了。
+[k]
+
+＠阿尔托莉雅
+正如你们那边的亚瑟王[r]在沉眠中出发前往阿瓦隆一样，
+[k]
+
+＠阿尔托莉雅
+在祓除『灾厄』后，[r]我也将回归乐园。
+[k]
+
+？1：…………是这样啊。
+？2：我还以为你会就这样[line 3]
+
+？！
+
+[charaFace A 39]
+＠阿尔托莉雅
+嗯，回归之地早就注定了嘛。[r]从我在『选定之地』献上此身的那刻起[line 3]
+[k]
+
+＠阿尔托莉雅
+不对，是从我漂流到地表的那刻起，就注定了。
+[k]
+
+[charaFace A 7]
+＠阿尔托莉雅
+不过就这样一走了之未免太忘恩负义了。
+[k]
+
+[charaFace A 6]
+＠阿尔托莉雅
+承蒙了你们这么多关照。[r]我也要报答这份恩情。
+[k]
+
+＠阿尔托莉雅
+拯救不列颠……这件事对『[#乐园妖精:我们]』而言，[r]是指纠正虚伪的不列颠……让它恢复原状。
+[k]
+
+＠阿尔托莉雅
+但你们不一样。[r]即便是冒牌货，你们也想拯救这不列颠。
+[k]
+
+＠阿尔托莉雅
+所以[line 3]哪怕只有一次，[r]我也想拥有与你们相同的目的。
+[k]
+
+＠阿尔托莉雅
+只要你不放弃，依然心怀希望，[r]『乐园妖精』就会倾听你的声音吧。
+[k]
+
+＠阿尔托莉雅
+……到那时，就不再是为了拯救不列颠了，[r]而是为了拯救世界。
+[k]
+
+？1：……嗯……有朝一日，肯定会的.
+
+？！
+
+[messageOff]
+[charaFace A 1]
+[wt 1.0]
+
+[charaFace A 5]
+＠阿尔托莉雅
+话说回来，我有个问题想问这样的你，[r][%1]。
+[k]
+
+＠阿尔托莉雅
+你觉得迄今为止的旅途中最开心的是什么？[r]请排除曼彻斯特后作答。
+[k]
+
+？1：问得真突然呢……
+？2：呃，这样的话……
+
+？！
+
+？1：索尔兹伯里的『预言之子』暴露事件？
+
+[messageOff]
+[charaFace A 28]
+[wt 1.2]
+
+？2：德拉凯之河的跳河事件？
+
+[messageOff]
+[charaFace A 35]
+[wt 1.2]
+
+？3：爱丁堡的『不该被制作出来的』？
+
+[messageOff]
+[charaFace A 29]
+[wt 1.2]
+
+？！
+
+
+？1：那阿尔托莉雅你呢？
+
+？！
+
+[charaFace A 39]
+＠阿尔托莉雅
+我吗？[r]我嘛，该怎么说呢……
+[k]
+
+[charaFace A 6]
+＠阿尔托莉雅
+最白热化的是制作巧克力，[r]最震惊的是在诺里奇……
+[k]
+
+[charaFace A 1]
+＠阿尔托莉雅
+而最高兴的，[r]则是相遇后第14天的威尔士森林！
+[k]
+
+＠阿尔托莉雅
+与[%1]的第三次握手！
+[k]
+
+＠阿尔托莉雅
+“在此前提下，我也希望能帮助『预言之子』”，[r]唔哇～，好帅气[line 3]！　咻咻～！
+[k]
+
+？1：[line 3]（脸红）
+？2：真亏你还记得呢！？
+
+？！
+
+[charaFace A 6]
+＠阿尔托莉雅
+嗯，所以嘛，请收下这个吧。[r]毕竟这是最后一次了。
+[k]
+
+[messageOff]
+[wt 0.2]
+
+[charaMoveScale A 1.05 0.5]
+[charaMove A 0,10 0.5]
+[wt 1.2]
+
+[cameraMove 0.5 0,-10 1.05]
+[wt 1.2]
+
+[charaMoveReturn A 0,5 0.4]
+[wt 0.1]
+[se ad775]
+[seVolume ad775 0 0.3]
+[wt 1.4]
+
+？1：……是第四次握手了呢。
+？2：……一直以来谢谢你了，阿尔托莉雅。
+
+？！
+
+
+＠尼莫
+与科尔努诺斯的距离，5000！[r]即将降低高度，接近对方！
+[k]
+
+＠尼莫
+距交战还剩2分钟！[r]交战前请坐到座位上，系好安全带！
+[k]
+
+[messageOff]
+
+[charaTalk A]
+[wt 0.5]
+
+？1：那待会儿见吧！
+
+？！
+
+[messageOff]
+[se ad59]
+[seStop ad59 1.4]
+[fadeout black 1.0]
+[wait fade]
+
+[cameraMove 0.1 0,0 1.01]
+[wt 1.5]
+[overlayFadein Q 0.1 0,-745]
+[overlayFadein R 0.1 0,745]
+[charaScale A 1.0]
+
+[charaTalk A]
+[charaFace A 39]
+[charaFadein A 0.1 0,-50]
+[wt 0.1]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.8]
+
+＠阿尔托莉雅
+……但是，真正开心的，[r]其实是第11天的格洛斯特。
+[k]
+
+＠阿尔托莉雅
+对你来说，那或许只是件[r]没什么大不了的寻常小事。
+[k]
+
+＠阿尔托莉雅
+但那是我有生以来第一次与喜欢的人[r]一起走在大街上。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout white 3.5]
+[bgmStop BGM_MAP_73 3.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout R 0.1]
+
+[scene 10000]
+[wt 2.0]
+
+[fadein white 2.0]
+[wait fade]
+
+[fadeout black 0.5]
+[wait fade]
+
+[scene 132901]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_120 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠尼莫
+科尔努诺斯进入推定视角！[r][line 3]观测手，快报告！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠尼莫水兵
+目标有动作了！[r]『大洞穴』底部出现多个魔力反应[line 3]
+[k]
+
+＠尼莫水兵
+『诅咒之手』要来啦～～～！！[r]对咒层、对厄运障壁，展开[line 4]！
+[k]
+
+[charaFace C 7]
+＠尼莫水兵
+啊哇哇，但这样真能抵御下来吗[line 3]！？[r]简直就像尼亚加拉瀑布啊[line 2]！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.6 1.0]
+[bgm BGM_EVENT_120 0.6 0.4]
+[wait wipe]
+
+[charaFadeout C 0.1]
+
+[scene 128501]
+
+[se ade343]
+[seVolume ade343 0 0]
+[se ade393]
+[seVolume ade393 0 0]
+[wt 0.6]
+
+[cueSe SE_21 21_ad1097]
+[seVolume ade343 0.6 1.0]
+[seVolume ade393 0.6 0.6]
+[bgm BGM_EVENT_120 0.6 1.0]
+
+[se ade72]
+[seVolume ade72 0 0.4]
+[se ade378]
+[wipein rectangleStripRightToLeft 0.6 1.0]
+[wait wipe]
+[se ade8]
+[se ad85]
+[wt 1.8]
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[seVolume ade343 0.8 0.4]
+[wait wipe]
+
+[scene 122601]
+[wt 0.5]
+
+[charaTalk depthOff]
+[charaDepth S 6]
+[charaDepth D 5]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+[charaPut S 0,-100]
+[charaEffect S bit_talk_barrier04]
+
+＠贤者格里姆
+交给我吧，一口气将它们顶回去！
+[k]
+
+[se ad39]
+
+＠贤者格里姆
+吾愿以死述生！
+[k]
+
+＠贤者格里姆
+密米尔之泉啊，槲寄生之灵脉啊！[r]化作截断过去，伸向未来的枝叶吧！
+[k]
+
+＠贤者格里姆
+此后九日，禁止一切愚行！[r]跨越黄昏吧[line 3]『[#大神祭坛:Gambanteinn Valhöll]』！
+[k]
+
+[messageOff]
+
+[se ad952]
+[cueSe Servants_502100 m45003]
+[fadeout white 0.6]
+[seVolume ade343 0.6 0]
+[seVolume ade393 0.6 0]
+[wt 0.4]
+[seStop 21_ad1110 3.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_barrier04]
+
+[scene 10001]
+[overlayFadein E 0.1 0,-200]
+[wt 0.6]
+
+[fadein white 0.5]
+[wait fade]
+
+[criMovie talk_mov106 bgmPlay false]
+[wt 0.2]
+[charaFadeout E 1.0]
+[wt 28.0]
+
+
+[fadeout white 0.5]
+[wait fade]
+
+
+
+
+[scene 132901]
+[wt 0.6]
+
+[fadein white 0.6]
+[wait fade]
+
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠尼莫水兵
+好厉害～！[r]那些手连根化作光芒消失啦！
+[k]
+
+＠尼莫水兵
+看样子还会有第二波，但是这样就没有什么危险[line 2]
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.6 1.0]
+[wait wipe]
+
+[charaFadeout C 0.1]
+
+[scene 122601]
+[wt 0.6]
+
+[seVolume ade343 0.6 0.4]
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+[wt 0.1]
+
+[cueSe SE_21 21_ad1131]
+[effect bit_talk_35]
+[wt 1.0]
+
+[charaSet D 1098219000 1 库·丘林]
+[wt 0.7]
+
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 1]
+[wt 0.4]
+
+
+＠贤者格里姆
+咳……！[r]该死，将诅咒反弹给反弹回来了……！
+[k]
+
+＠贤者格里姆
+喂，如你们所见，没有下次了！[r]一口气决出胜负吧，迦勒底、[%1]！
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 0.6 0.6]
+[scene 123400 1.2]
+[charaFadeout D 1.2]
+[wt 1.6]
+[cueSe SE_21 21_ad1146]
+[shake 0.05 2 2 3.5]
+[wt 4.0]
+
+＠福尔摩斯
+当然！
+[k]
+
+＠福尔摩斯
+装甲虽可以防御，[r]但防不住大气中的魔力污染。
+[k]
+
+＠福尔摩斯
+御主[%1]在管制室[r]通过远程召唤投入战力，
+[k]
+
+＠福尔摩斯
+同时继续为玛修·基列莱特提供魔力！
+[k]
+
+＠福尔摩斯
+接下来将展开从者战！
+[k]
+
+＠福尔摩斯
+目标，『大洞穴』的科尔努诺斯！[r]必须在此彻底根除不列颠的『灾厄』！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[seStop ade393 0.4]
+[seStop ade343 0.4]
+[bgmStop BGM_EVENT_120 0.4]
+[wait fade]
+[soundStopAll]
+[end]

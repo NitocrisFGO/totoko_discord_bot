@@ -1,0 +1,327 @@
+
+＄03-00-13-19-4-0
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 1098252900 1 特佩乌]
+[charaSet B 1098252450 1 库库尔坎]
+[charaSet C 1098252450 1 特效用]
+
+[sceneSet D 169503 1]
+[charaScale D 1.01]
+
+[scene 169701]
+[fadein black 2.0]
+[wait fade]
+
+？1：[line 3]，就是这么一回事。
+？2：这趟旅途很危险，你愿意为我们带路吗？
+
+？！
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+我当然会同行。[r]你愿意告诉我，我也就放心了。
+[k]
+
+＠特佩乌
+非常感谢，[%1]。
+[k]
+
+？1：该道谢的人是我才对。
+
+[messageOff]
+[charaFace A 2]
+[wt 1.2]
+
+？2：为什么要道谢……？
+
+？！
+
+[charaFace A 0]
+
+＠特佩乌
+迪诺斯们都离开奇琴伊察了吧？
+[k]
+
+＠特佩乌
+无论是太阳爆炸导致米克特兰毁灭，[r]还是ORT毁灭世界，
+[k]
+
+＠特佩乌
+迪诺斯都能毫无反感地接受。[r]这可以叫高洁，也可以叫理性……
+[k]
+
+＠特佩乌
+对于一路都在与[#这类事物]战斗的各位看来，[r]应该会觉得很薄情吧。
+[k]
+
+[charaFace A 0]
+
+＠特佩乌
+因此，我本来已做好了[r]你不会来这里的觉悟。
+[k]
+
+＠特佩乌
+毕竟迪诺斯终归是米克特兰的人类，[r]是与各位有根本性差异的生物。
+[k]
+
+？1：没有这种事。
+？2：就算不一样，也能沟通。
+
+？！
+
+[messageOff]
+[charaFace A 2]
+[wt 1.2]
+[charaFace A 0]
+
+＠特佩乌
+我需要做些准备，请先回潜航艇吧。[r]我们在城门碰头吧。
+[k]
+
+＠特佩乌
+我也只到过七层，[r]非常期待这次会是什么样的冒险。
+[k]
+
+[messageOff]
+[charaCrossFade A 1098252940 4 0.4]
+[wait charaCrossFade A]
+
+＠特佩乌
+对了，还有一件事。[r]我有个小小的愿望想拜托你……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_147 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout A 0.1]
+[scene 169503]
+[charaFadein D 0.1 0,-200]
+
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth B 4]
+[charaDepth C 6]
+[wt 3.0]
+[fadein black 1.5]
+[wait fade]
+
+[charaMove D 0,-210 2.5]
+[charaMoveScale D 1.05 2.5]
+[se ad95 0.6]
+[wt 1.5]
+[seStop ad95 2.5]
+[wt 1.5]
+
+[wt 1.0]
+
+？1：……真的完全没人了呢……
+
+？！
+
+[wt 0.7]
+[charaMove D 0,-220 2.5]
+[charaMoveScale D 1.1 2.5]
+[se ad95 0.6]
+[wt 1.5]
+[seStop ad95 2.0]
+[wt 1.5]
+
+＠B：？？？
+是啊～。[r]太阳或许再也不会回这里了吧。
+[k]
+
+＠B：？？？
+反正就算回来也只会爆炸嘛？[r]或许也可以算是甩掉了瘟神吧。
+[k]
+
+[messageOff]
+[charaRoll C -90 -200,150]
+[charaEffect C bit_talk_gale 0,0 H]
+[cueSe SE_21 21_ade546 0.7]
+[seStop 21_ade546 0.7]
+[cueSe Servants_100100 bac1464 0.4]
+[wt 0.3]
+[charaTalk B]
+[charaFace B 12]
+[charaSpecialEffect B appearance 1 0.2]
+[se ad223]
+[wt 0.4]
+
+＠库库尔坎
+不过夜晚独自走在外面未免太松懈了吧？[bgm BGM_EVENT_38 0.1 0.9]
+[k]
+
+＠库库尔坎
+你是迦勒底的御主，[r]对[#米克特兰:我]来说，只是个稀奇的障碍。
+[k]
+
+＠库库尔坎
+反正也已经腻了，就这样痛痛快快地被我杀掉[r]结束一切……不也挺有趣吗？
+[k]
+
+？1：对于故事来说，会是个令人失望的结局。
+？2：你不擅长演反派呢。
+
+？！
+
+[charaFace B 1]
+
+＠库库尔坎
+呜……被这样平淡地回答，我好受打击……
+[k]
+
+＠库库尔坎
+我可是想了很～～久的台词，还经过彩排，[r]才降落到地面找你的……
+[k]
+
+？1：你为什么没有守护奇琴伊察？
+？2：特斯卡特利波卡说的是真的吗？
+
+？！
+
+[charaFace B 7]
+
+＠库库尔坎
+[FFFFFF]？[-]　对哦，那家伙说了些什么吧。[r]比如『库库尔坎不会守护迪诺斯』之类的？
+[k]
+
+[charaFace B 11]
+
+＠库库尔坎
+说得没错。[r]毕竟太阳就是培育世界，然后焚烧世界之物。
+[k]
+
+＠库库尔坎
+我与各位一起行动的时候，[r]可曾守护过迪诺斯？
+[k]
+
+＠库库尔坎
+没错，并没有！
+[k]
+
+＠库库尔坎
+卡玛佐茨出现那次也好，这次的战争也罢，[r]我都在空中愉快地观赏着！
+[k]
+
+？1：………………
+
+？2：你真的愉快吗？
+
+[charaFace B 9]
+
+＠库库尔坎
+是真的啦。你还真是不敬呢。[r]下次要再敢这样说，我会宰了你哦。
+[k]
+
+？！
+
+[charaFace B 6]
+
+＠库库尔坎
+应该说，反正太阳都要爆炸了。[r]无论怎么个死法都无所谓吧。
+[k]
+
+[charaFace B 0]
+
+＠库库尔坎
+就跟泛人类史一样，[r]米克特兰也只是迎来了灭绝的循环而已。
+[k]
+
+＠库库尔坎
+不用为此愤怒、悲伤、[r]拒绝，或是逃避。
+[k]
+
+[charaFace B 20]
+
+＠库库尔坎
+毕竟，就算迪诺斯和奥塞洛特尔都灭绝了，[r]接着还会诞生[#人型人类:你们]吧？
+[k]
+
+＠库库尔坎
+无论迎来什么样的崩毁，生命都不会灭绝。[r]这已经由你们泛人类史的地球史证明过了。
+[k]
+
+＠库库尔坎
+所以[line 3]
+[k]
+
+[charaFace B 11]
+
+＠库库尔坎
+你们也该回去了吧？[r]而且舰艇也快要修好了。
+[k]
+
+＠库库尔坎
+你们没理由陪米克特兰一起崩毁吧？
+[k]
+
+？1：我还不能回去。
+？2：我要前往最底层。
+
+？！
+
+[charaFace B 20]
+
+＠库库尔坎
+是吗。那就没办法了呢。
+[k]
+
+[messageOff]
+[wt 1.3]
+[charaFaceFade B 12 0.2]
+[wt 0.8]
+
+＠库库尔坎
+我是米克特兰的裁定者。
+[k]
+
+＠库库尔坎
+有义务见证迪诺斯和奥塞洛特尔中[r]哪方会灭绝，会如何灭绝。
+[k]
+
+＠库库尔坎
+为此，我必须让异闻带存续下去。
+[k]
+
+＠库库尔坎
+无论是妄图复苏ORT的[#隐匿者:Crypter]，[r]还是想要切除空想树的迦勒底，都是我的敌人。
+[k]
+
+[charaFace B 9]
+
+＠库库尔坎
+[line 3]我们在卡拉克穆尔见吧。[r]那个地方，就是我与你们的诀别之地。
+[k]
+
+[bgmStop BGM_EVENT_38 3.0]
+[messageOff]
+[cueSe SE_21 21_ade546]
+[charaSpecialEffect B erasureReverse 1 0.4]
+[charaRoll C 90 0,350]
+[charaEffect C bit_talk_gale 0,0 H]
+[wt 0.7]
+[wipeout downToUp 0.4 1]
+[wait wipe]
+[charaFadeout D 0.1]
+[scene 170301]
+[wt 0.1]
+[wipein upToDown 0.4 1]
+[wait wipe]
+[wt 1.8]
+[se ad421 0.2]
+[seStop ad421 0.7]
+[wt 2.5]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

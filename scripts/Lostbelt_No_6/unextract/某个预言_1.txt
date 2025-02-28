@@ -1,0 +1,1162 @@
+
+＄03-00-10-07-1-0
+
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098123200 1 戈尔德鲁夫]
+[charaSet B 1098124510 1 达·芬奇]
+[charaSet C 1098231510 1 玛修]
+[charaSet D 9005001 1 福尔摩斯]
+[charaSet E 1098182110 1 尼莫教授]
+[charaSet F 4037000 1 尼莫]
+[charaSet G 1098123000 1 穆尼尔]
+[charaSet H 1098181900 1 尼莫水兵（观测手·左）]
+[charaSet I 1098181900 1 尼莫水兵（观测手·右）]
+[charaSet J 5045001 1 阿尔托莉雅]
+[charaSet K 5021000 1 贤者格里姆]
+[charaSet L 1098215110 1 珀西瓦尔]
+[charaSet M 1098124510 1 通讯用]
+[imageSet N back10000 1]
+[charaScale N 1.1]
+[charaDepth N 2]
+[charaDepth D 3]
+
+[sceneSet O 128407 1]
+[charaScale O 1.5]
+
+[pictureFrame cut063_cinema]
+[scene 132900]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_72 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 0,-50]
+
+＠戈尔德鲁夫
+大气中的魔力密度呈爆发性增长，[r]出现第二个高浓度魔力反应！
+[k]
+
+＠戈尔德鲁夫
+而且原本位于『大洞穴』的[r]科尔努诺斯还消失了！？
+[k]
+
+[charaFace A 6]
+
+＠戈尔德鲁夫
+不，如果真消失了，那当然算得救了！[r]可以说明一下发生什么吗，技术顾问！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaEffect M bit_talk_10_LowLevel]
+[wt 0.3]
+[se ad13]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 0,-50]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]大气中魔力密度的增长，[-][r][51ffff]是因为妖精们的遗体在燃烧！[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]这不是会立刻导致什么的问题，[-][r][51ffff]可以先无视！[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]第二个高魔力反应还没监测到，[-][r][51ffff]这个也可以先搁置！[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]然后『大洞穴』是[line 3]『大洞穴』是[line 3][-]
+[k]
+
+[charaFace B 15]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]抱歉，完全无法理解！[-][r][51ffff]只有关于那边的测量数据全部消失了！[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]简直像是只有『大洞穴』附近的[-][r][51ffff]时间被倒带了一样！[-]
+[k]
+
+[charaFace B 2]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]慢着，舰桥内确认时空震动！[-][r][51ffff]有什么要出现了，大家快趴下！[-]
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut M 1200,1200]
+[wt 0.4]
+
+[bgmStop BGM_EVENT_72 2.0]
+
+[wt 0.5]
+[cueSe Servants_500800 bac1290]
+[se ad598]
+[se ad928]
+[seVolume ad928 0 0.2]
+[fadeout white 2.0]
+[wait fade]
+[se ad747]
+[seStop ad928 1.0]
+
+[pictureFrame]
+[scene 132900]
+[wt 0.2]
+
+[fadein white 2.0]
+[wt 1.0]
+[se ad223]
+[wait fade]
+
+[wt 0.4]
+
+？1：我们回来了！
+？2：现在情况如何！？
+
+？！
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+[%1]！[r]基列莱特、阿尔托莉雅·卡斯特！
+[k]
+
+＠戈尔德鲁夫
+慢着，是直接回到这里吗！？
+[k]
+
+[charaFace A 6]
+
+＠戈尔德鲁夫
+不，重要的是报告，快报告！[r]长话短说，5分钟内解决！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_1 0.1]
+[wt 0.7]
+
+？1：……以上就是在阿瓦隆的整个经过。
+
+？！
+
+[charaPut M 1]
+[charaTalk B]
+[charaFace B 24]
+[charaFadein B 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]……村正也消失了啊。[-]
+[k]
+
+[charaFace B 0]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]玛修，将[#圆桌之盾:Round Shield]带来解析室。[-][r][51ffff]趁现在将『圣剑的[#基型:Essence]』保管起来。[-]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut M 1200,1200]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠玛修
+是，我立刻过去！
+[k]
+
+[messageOff]
+[charaFadeout C 0.7]
+[wt 0.5]
+[se ad8]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠福尔摩斯
+好了，我们这边先整理状况吧。[r]干得漂亮，[%1]。
+[k]
+
+＠福尔摩斯
+不列颠异闻带诞生的真相、[r]科尔努诺斯的来龙去脉、『大洞穴』的本质、
+[k]
+
+＠福尔摩斯
+魔术师梅林在『大洞穴』附近展开的重置。
+[k]
+
+＠福尔摩斯
+……以及锻造于『星之内海』的圣剑，[r]和其管理者阿尔托莉雅·卡斯特。
+[k]
+
+[charaFace D 9]
+＠福尔摩斯
+凑齐了这么多情报，也可以拟定作战计划了。
+[k]
+
+＠福尔摩斯
+船长，麻烦帮忙接通教授。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[se ad13]
+[charaPut M 1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠尼莫教授
+好，接通啦～。[r]你们的对话我听得一清二楚，尽管说吧～。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut M 1200,1200]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠福尔摩斯
+虽说『大洞穴』的观测数据随着梦境消失了，[r]但是航海记录还留着吧？
+[k]
+
+＠福尔摩斯
+希望你能从中推算出距科尔努诺斯出现[r]以及诅咒喷涌而出还有多长时间。
+[k]
+
+＠福尔摩斯
+另外科尔努诺斯战预计会是将从者[r]部署在潜航艇甲板上的接近战。
+[k]
+
+＠福尔摩斯
+物理防御自不必说，[r]还要加强应对因诅咒引发的魔力污染。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut M 1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠尼莫教授
+不用Storm Border发动炮击吗？
+[k]
+
+＠尼莫教授
+对象既然是巨大构造体，[r]我认为潜航艇的炮击会比较有效～。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut M 1200,1200]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠福尔摩斯
+炮击当然也会尝试，[r]但普通的物理干涉恐怕没有意义。
+[k]
+
+＠福尔摩斯
+他应该有作为神的灵核，[r]但位于那层厚厚的咒肉中心。
+[k]
+
+＠福尔摩斯
+既然他将诅咒本身当作肉体驱使，[r]那正确的做法就是『祓除』，而非『打倒』。
+[k]
+
+＠福尔摩斯
+阿尔托莉雅·卡斯特，[r]或是贤者格里姆。
+[k]
+
+＠福尔摩斯
+恐怕只有受到他们两人祝福的灵性攻击，[r]才有可能加以干涉吧。
+[k]
+
+[charaFadeTime N 0.2 0.5]
+[wt 0.2]
+[charaFace D 5]
+
+＠福尔摩斯
+（……只不过……[r]　我们还缺少[#那之后]的决胜手段。）
+[k]
+
+＠福尔摩斯
+（……虽然对不起船长，但只能赌最终手段，[r]　也就是Storm Border的全速突击了吗……）
+[k]
+
+[charaFadeout N 0.2]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut M 1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠尼莫教授
+原来如此，明白了～。[r]毕竟本舰确实没有解咒装备～。
+[k]
+
+[se ad15]
+[bgmStop BGM_EVENT_1 2.0]
+
+＠尼莫教授
+啊，时间算出来了。[r]距科尔努诺斯出现还有30分钟。
+[k]
+
+＠尼莫教授
+上一次是出现1小时后，[r]就有诅咒从『大洞穴』溢出。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut M 1200,1200]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠福尔摩斯
+都听到了吧，诸位！[r]接下来这一个半小时就是关键！
+[k]
+
+[bgm BGM_EVENT_82 0.1]
+
+＠福尔摩斯
+最大的敌人是现身于『大洞穴』的科尔努诺斯，[r]但在那之前，还有非阻止不可的『灾厄』！
+[k]
+
+＠福尔摩斯
+决不能让『灾厄』离开不列颠岛。
+[k]
+
+＠福尔摩斯
+因为离开这里，也就意味着[r]其存在被泛人类史容许了。
+[k]
+
+＠福尔摩斯
+迅速击败自曼彻斯特经由牛津[r]前往诺里奇的『灾厄』……
+[k]
+
+＠福尔摩斯
+也就是巴格斯特后，[r]再防备从『大洞穴』出现的科尔努诺斯！
+[k]
+
+＠福尔摩斯
+我们与不列颠都没有宽限了，[r]从此时此刻起，作战开始！
+[k]
+
+＠福尔摩斯
+御主[%1]、[r]阿尔托莉雅·卡斯特，以及格里姆三人，
+[k]
+
+＠福尔摩斯
+在此研讨击败科尔努诺斯的步骤，[r]船长与水兵们负责计算出作战路线！
+[k]
+
+＠福尔摩斯
+达·芬奇与教授两人则将[r]Storm Border的对咒障壁[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_82 0.7]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[se ad876]
+[se ad882]
+[se ad609]
+[se ad608]
+[seVolume ad608 0 0.4]
+[shake 0.03 3 3 1.5]
+[wt 1.8]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠尼莫
+呜！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠福尔摩斯
+怎么回事！？
+[k]
+
+？1：遭到来自外部的攻击……！
+？2：刚才那一瞬间，显示器上[line 3]
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_46 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠穆尼尔
+右舷后方遭到冲击！[r]一击就把物理防御撕裂了！
+[k]
+
+＠穆尼尔
+装甲溶解，内部通道都暴露出来了！
+[k]
+
+[charaFace G 6]
+
+＠穆尼尔
+该死，[se ade413][charaShake G 0.04 3 3 0.4][r]有一个水兵掉下去了，该死……！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠尼莫
+[line 3]快调整情绪，穆尼尔，先确认状况！
+[k]
+
+＠尼莫
+达·芬奇，刚才的热射线是什么！？
+[k]
+
+＠尼莫
+竟然割破了Storm Border的装甲，[r]那只有神造兵装才能做到啊！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut M 1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]现在捕捉到了，投到显示器上！[-]
+[k]
+
+[messageOff]
+[se ad15]
+[bgm BGM_EVENT_46 1.0 0.5]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaPut M 1200,1200]
+
+[scene 10000]
+[wt 0.2]
+
+[fadein black 0.1]
+[wait fade]
+
+[cueSe SE_21 21_ad1097]
+[fadeout white 2.0]
+[wait fade]
+
+[charaFadein O 0.1 -300,-300]
+
+[scene 128407]
+[se ad906]
+[wt 1.0]
+
+[charaMove O 0,-300 6.0]
+[fadein white 4.0]
+[wait fade]
+
+[charaFadeout O 1.0]
+[wt 2.5]
+
+[bgm BGM_EVENT_46 1.0 1.0]
+
+＠福尔摩斯
+这是[line 3]
+[k]
+
+？1：战斗机……？
+？2：不，是龙……！
+
+？！
+
+＠尼莫水兵（观测手·左）
+空速1200km/h，而且还在加速！[r]好厉害，正利用大气中的魔力跳跃！
+[k]
+
+＠尼莫水兵（观测手·左）
+1马赫、2马赫，看来还能继续提速！[r]超音速战斗机～～（泪）！
+[k]
+
+＠尼莫水兵（观测手·右）
+慢着，为什么在那种速度下[r]还能保持那样的机动性！？
+[k]
+
+＠尼莫水兵（观测手·右）
+糟了糟了，敌对生物正向着本舰回旋！[r]对准舰首又要撞过来啦～！
+[k]
+
+＠尼莫水兵（观测手·右）
+距离接触还剩10、9、8……！
+[k]
+
+＠尼莫
+提升高度，最大加速！[r]万一直接命中，会连船带舰桥一起撕裂的！
+[k]
+
+＠尼莫
+在对方修正轨道前尽可能躲过攻击[r]逃往上空！
+[k]
+
+[se ad550]
+[seVolume ad550 0 0]
+[seVolume ad550 0.7 1.0]
+
+＠穆尼尔
+唔噢噢噢噢噢噢！
+[k]
+
+[messageOff]
+[se ad797]
+[cueSe SE_21 21_ad1097]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout B 0.1]
+[charaPut M 1200,1200]
+[scene 122600]
+[wt 0.7]
+[se ade8]
+[se ade283]
+
+[effect bit_talk_41_r]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad1015]
+[seVolume ad1015 0 0.7]
+[shake 0.03 3 7 0.3]
+
+[wipeout rectangleStripUpToDown 0.3 1]
+[wait wipe]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 0.5 0.7]
+[scene 132900]
+[wt 0.2]
+[effectStop bit_talk_41_r]
+[effectDestroy bit_talk_41_r]
+
+[se ad876]
+[se ad882]
+[se ad898]
+[wipein rectangleStripDownToUp 0.3 1]
+[wait wipe]
+
+
+[seStop ade393 1.0]
+[shake 0.03 0 7 1.0]
+[wt 1.2]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+
+＠穆尼尔
+呜啊啊，总算是勉强躲开了！[r]刚才那下擦到了舰首的鼻尖！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠H：尼莫水兵
+与敌对生物的距离是10，14㎞！[r]啊～，又回旋了～！
+[k]
+
+＠H：尼莫水兵
+该怎么办，船长，[r]那家伙打定主意要击坠我们！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠尼莫
+我知道，总之先提升高度！[r]甩开是不可能的！
+[k]
+
+＠尼莫
+只能祈祷我们的极限高度比对方高了！[r]达·芬奇！
+[k]
+
+＠尼莫
+那家伙究竟是怎么回事！[r]有什么新的数据吗！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut M 1]
+[charaTalk B]
+[charaFace B 22]
+[charaFadein B 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]有！　刚才的攻击不是爪子，[-][r][51ffff]而是敌对生命体从口中喷出的魔力！[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]看来焚烧不列颠岛大地的[-][r][51ffff]不只有巴格斯特！[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]光凭这热量便足以撕裂大地的[#吐息:Breath]、[-][r][51ffff]不受气压与气温影响的加速、[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]能实现暴揍惯性飞行的荒唐双翼！[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]不会错。[-][r][51ffff]那是纯血之龙阿尔比恩[line 3]第三种『灾厄』！[-]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_46 2.0]
+[fadeout black 2.0]
+[wait fade]
+[charaPut M 1200,1200]
+[charaFadeout B 0.1]
+[scene 132900]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_24 0.1]
+
+
+？1：第三个『灾厄』[line 3]！
+？2：（阿尔比恩，难道是……）
+
+？！
+
+[charaPut M 1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]阿尔比恩，追着潜航艇来了！[-][r][51ffff]万一舰尾被吐息击中就完啦！[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]它锐利得能像纸屑般撕碎物理防御，[-][r][51ffff]一击便能切断轮机室！[-]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut M 1200,1200]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠尼莫
+全员就座，系好安全带！[r]达·芬奇，算出下次吐息的时间点！
+[k]
+
+＠尼莫
+在预计中弹的2秒前最大展开重力帆，[r]让舰艇[#纵向下坠]！
+[k]
+
+＠尼莫
+会像在空中豪迈地摔了一跤，[r]会晃得很厉害！　站着会没命的！
+[k]
+
+＠尼莫
+然后等确认到回避了吐息，[r]就立刻让舰艇恢复水平，维持高度！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut M 1]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]要来了，已进入射程！[-][r][51ffff]6、5、4、3！[-]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut M 1200,1200]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠尼莫
+抬高舰首，展开船帆！[r]猛转起来吧[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad550]
+[seVolume ad550 0 0]
+[seVolume ad550 0.7 1.0]
+[wt 1.0]
+[se ad797]
+[cueSe SE_21 21_ad1097]
+[se ade393]
+[seStop ade393 1.5]
+[shake 0.03 3 3 0.3]
+[wt 0.2]
+[cameraMove 0.4 0,-150 1.0]
+[wipeout upToDown 0.3 1]
+[wait wipe]
+[wt 0.2]
+[cameraMove 0.1 0,150 1.0]
+[wt 0.2]
+[cameraMove 0.4 0,0 1.0]
+[seStop ad550 1.5]
+[wipein downToUp 0.3 1]
+[wt 0.1]
+[se ad876]
+[se ad882]
+[se ad898]
+[se ad797]
+[shake 0.03 3 3 1.5]
+[wait wipe]
+
+[wt 1.0]
+
+？1：呜哇啊啊啊啊啊[line 4]！？
+？2：潜航艇在纵向旋转啊啊啊啊！？
+
+？！
+
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠穆尼尔
+船长，到云海上面了！[r]可恶，积攒的那么多的魔力资源骤减！
+[k]
+
+＠穆尼尔
+该怎么办，感觉下次肯定躲不掉啦！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_24 2.0 0.5]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠尼莫
+呜……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 5]
+[charaFadein J 0.1 1]
+
+＠阿尔托莉雅
+我可以说几句吗。[r]现在的我有办法抵御那种热射线。
+[k]
+
+＠阿尔托莉雅
+不过我无法保护整艘舰艇，[r]而且也只能短暂撑几分钟。
+[k]
+
+＠阿尔托莉雅
+仅限一部分……对了，我可以只在[r]轮机室那里展开对肃正防御。
+[k]
+
+＠阿尔托莉雅
+这样做你们有办法突破这个绝境吗？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠福尔摩斯
+那太可靠了。[r]不过我想先问一个问题，阿尔托莉雅·卡斯特。
+[k]
+
+＠福尔摩斯
+它为何会袭击我们呢？[r]『灾厄』要毁灭的是不列颠的妖精。
+[k]
+
+＠福尔摩斯
+我们应该并不是敌对对象吧？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 3]
+[charaFadein J 0.1 1]
+
+＠阿尔托莉雅
+哎？　不，这我也不太懂……[r]毕竟我也，那个，还是个半吊子……
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠贤者格里姆
+那是因为我们获得了[r]“可以拯救不列颠”的手段啦。
+[k]
+
+＠贤者格里姆
+不久前的迦勒底对『灾厄』来说[r]就跟路边的石子没什么两样。
+[k]
+
+＠贤者格里姆
+但现在阿尔托莉雅回来了，[r]还找到了打倒科尔努诺斯的手段。
+[k]
+
+＠贤者格里姆
+这被那些家伙察觉到了啦。[r]察觉到『乐园妖精』，是『不列颠岛的敌人』哦。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠福尔摩斯
+原来如此。你是说……不久之前还只是过路人，[r]但获得凶器后就成了嫌疑人。
+[k]
+
+＠福尔摩斯
+既然是这样，那就另当别论了。[r]它盯上的并不是我们。
+[k]
+
+＠福尔摩斯
+而是阿尔托莉雅·卡斯特。[r]换言之，要说具体该怎么办的话……
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 7]
+[charaFadein J 0.1 1]
+[wt 0.7]
+
+？1：……是这样……福尔摩斯……
+？2：……我实在难以苟同，福尔摩斯……
+
+？！
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+
+＠福尔摩斯
+没错。只要让阿尔托莉雅站在甲板上，[r]就能[#限定敌人的目标]。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 28]
+[charaFadein J 0.1 1]
+
+＠阿尔托莉雅
+哈！？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠福尔摩斯
+阿尔托莉雅在舰首甲板上挥手，[r]阿尔比恩就会被吸引过去。
+[k]
+
+＠福尔摩斯
+等阿尔比恩为了干掉阿尔托莉雅而接近时，[r]我们就展开白刃战。
+[k]
+
+[charaFace D 7]
+
+＠福尔摩斯
+我将其命名为泰坦尼克号作战。[r]各位意下如何？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth K 3]
+[charaDepth F 1]
+[charaDepth A 5]
+[charaDepth G 2]
+[charaDepth B 4]
+[charaFace K 1]
+[charaFace F 7]
+[charaFace A 17]
+[charaFace G 1]
+[charaFace B 8]
+[charaFadein A 0.1 1]
+[charaFadeinFSL F 0.1 -200,0]
+[charaFadeinFSR G 0.1 200,0]
+[charaFadeinFSL K 0.1 -400,0]
+[charaPut M 400,0]
+[charaFadeinFSR B 0.1 400,0]
+[wt 1.5]
+
+[charaFadeout K 0.1]
+[charaFadeout F 0.1]
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut M 1200,1200]
+
+[charaTalk J]
+[charaFace J 28]
+[charaFadein J 0.1 1]
+
+＠阿尔托莉雅
+还真是语不惊人死不休，[r]这人究竟是个怎样的英雄啊！？
+[k]
+
+？1：是个超强的侦探哦。
+
+[charaFace J 29]
+
+＠阿尔托莉雅
+我压根没听过这种词！[r]泛人类史，必须毁灭！
+[k]
+
+？2：但也只有这种对策了……
+
+？！
+
+[charaFace J 5]
+
+＠阿尔托莉雅
+不对，哪怕退一百步，由我当诱饵好了，[r]可这样就无法张开守护船只的障壁了。
+[k]
+
+＠阿尔托莉雅
+不是当诱饵吸引阿尔比恩，[r]就是守护船只免遭吐息破坏。
+[k]
+
+＠阿尔托莉雅
+二者只能择其一，[r]不可能两边都做到。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 18]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+唔……！　我还以为能行呢，[r]没想到会如此斩钉截铁地回答“做不到”……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut M 1]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]毕竟做不到的事情[-][r][51ffff]阿尔托莉雅就会直说做不到嘛。[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]这种时候并不是心情的问题，[-][r][51ffff]而是要准确衡量自身的能力。[-]
+[k]
+
+[bgmStop BGM_EVENT_24 2.0]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]既然阿尔托莉雅都说做不到了，[-][r][51ffff]也只能放弃该方案，[-]
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut M 1200,1200]
+
+[se ad166]
+[seStop ad166 0.4]
+[charaTalk L]
+[charaFace L 9]
+[charaFadein L 0.4 1]
+[wt 0.4]
+
+＠珀西瓦尔
+不，做得到。[r]只要有人当诱饵就行了吧？
+[k]
+
+[bgm BGM_EVENT_78 0.1]
+
+＠珀西瓦尔
+那就由我负责吸引那条龙。[r]与此同时，请阿尔托莉雅守护好这艘船。
+[k]
+
+？1：珀西瓦尔！？
+？2：你不是正在医务室接受治疗吗……！？
+
+？！
+
+[messageOff]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.4 1]
+[wt 0.4]
+
+＠玛修
+对不起，珀西瓦尔先生说[r]无论如何都要前来舰桥……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠福尔摩斯
+很感谢你能自告奋勇，[r]但你去是没有意义的啊，珀西瓦尔。
+[k]
+
+＠福尔摩斯
+『灾厄』盯上的是『乐园妖精』。[r]谁都无法成为阿尔托莉雅的替代[line 3]
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 18]
+[charaFadein J 0.1 1]
+[wt 1.0]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 11]
+[charaFadein L 0.1 1]
+
+＠珀西瓦尔
+是的。[r]作为替代品的话，我能胜任。
+[k]
+
+＠珀西瓦尔
+我的枪是『选定之枪』，[r]是『乐园妖精』使用过的武器。
+[k]
+
+[charaFace L 7]
+
+＠珀西瓦尔
+换言之，我是人造的『预言之子』。[r]估计没人会比我更适合这个角色了。
+[k]
+
+[messageOff]
+[wt 1.0]
+[bgmStop BGM_EVENT_78 2.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,606 @@
+
+
+＄03-00-13-12-5-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252410 1 库库尔坎]
+[charaSet B 1098252410 1 演出用_库库尔坎]
+[charaSet C 1098257300 1 达·芬奇]
+[charaSet D 1098254800 1 水兵A]
+[charaSet E 1098254800 1 水兵B]
+
+[charaSet F 1098258110 1 恐爪龙A]
+[charaSet G 1098258110 1 恐爪龙A]
+[charaSet H 1098258410 1 恐爪龙B]
+[charaSet I 1098258410 1 恐爪龙B]
+[charaScale F 1.1]
+[charaScale H 1.0]
+[charaScale I 1.0]
+
+[charaSet J 1098253150 1 Kingprotea Alter]
+[charaSet K 1098253170 1 演出用_Protea]
+
+[sceneSet M 169200 1]
+[sceneSet N 169200 1]
+[sceneSet O 170300 1]
+
+[charaSet T 98115000 1 特效用]
+
+[scene 170300]
+
+[charaTalk depthOff]
+[charaDepth A 5]
+[charaDepth D 4]
+[charaDepth C 3]
+[charaDepth M 2]
+[charaDepth K 1]
+
+[subCameraOn]
+
+[subCameraFilter maskEdge cut359_mask07 3 0,0,0,0]
+
+[charaLayer K sub]
+[charaLayer N sub]
+
+[subRenderScale 1.0]
+
+[charaFace K 7]
+[charaFadein K 0.1 0,280]
+[charaFadein N 0.1 250,0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_94 0.1]
+
+[charaTalk J]
+[charaFace J 18]
+[charaFadein J 0.1 1]
+
+＠Kingprotea Alter
+那个从者是什么啦！[r]那不是神灵级的嘛，你瞒着我是吧，卑鄙小人！
+[k]
+
+[charaFace J 19]
+＠Kingprotea Alter
+[FFFFFF]？[-]　不是从者？[r]是库库尔坎[line 3]米克特兰的神明吗！？
+[k]
+
+[charaFace J 7]
+
+＠Kingprotea Alter
+好狡猾……！[r]那不就是异闻带之王吗！
+[k]
+
+＠Kingprotea Alter
+为什么那种家伙会成为你的同伴啊！
+[k]
+
+？1：顺其自然＆凭感觉？
+
+[messageOff]
+[charaTalk A,J]
+[charaFace A 15]
+[charaFadein A 0.4 1]
+[charaFadein M 0.4 0,-200]
+[wt 0.4]
+
+＠库库尔坎
+凭感觉……也就是心跳的律动……
+[k]
+
+[charaFace A 2]
+
+＠库库尔坎
+原来是这样～！　[%1][&先生:小姐]和我[r]是不需要用言语交谈的关系啊！
+[k]
+
+？2：听你这么一说，确实很不可思议呢。
+
+[messageOff]
+[charaTalk A,J]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+[charaFadein M 0.4 0,-200]
+[wt 0.4]
+
+＠库库尔坎
+没什么不可思议的～。[r]我什么都知道～。
+[k]
+
+＠库库尔坎
+因为自打[%1][&先生:小姐]到来的那刻起，[r]我就一直在守望着[&他:她]♡
+[k]
+
+？！
+
+[charaFace A 0]
+
+＠库库尔坎
+不过刚才的战斗真精彩，Kingprotea。[r]难怪索奇托纳尔也很乐意将力量交给你。
+[k]
+
+＠库库尔坎
+如果可以的话，能和我握个手吗？
+[k]
+
+[charaFace J 0]
+
+＠库库尔坎
+能与泛人类史的英灵直接接触，[r]我感到无比光荣。
+[k]
+
+[messageOff]
+[charaTalk A,J]
+[charaFadeout A 0.4]
+[charaFadeout M 0.4]
+[wt 0.4]
+
+＠Kingprotea Alter
+……唉。虽说是在异闻带，既然冠以库库尔坎之名，[r]应该就是真正的神明了吧。
+[k]
+
+[messageOff]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.4]
+[se ad619]
+[seVolume ad619 0 0]
+[seVolume ad619 1.0 0.3]
+[charaMove J 0,-20 1.0]
+[wt 0.8]
+
+[wipeout rectangleStripDownToUp 0.8 1.0]
+[bgm BGM_EVENT_94 0.8 0.4]
+[wait wipe]
+
+[charaFadeout J 0.1]
+
+[charaFace K 9]
+
+[scene 169200]
+
+[charaDepth B 3]
+[charaDepth K 2]
+[charaDepth N 1]
+
+[charaTalk A,K]
+[charaFace A 0]
+[charaFadeinFSR A 0.4 2]
+[wt 0.5]
+
+[wipein rectangleStripUpToDown 0.8 1.0]
+[bgm BGM_EVENT_94 0.8 1.0]
+[wait wipe]
+[wt 0.5]
+[seStop ade393 1.0]
+[seStop ad619 1.0]
+
+[subRenderFadein 1.0 -250,-270]
+[subRenderMove -250,-320 1.0]
+[wt 1.2]
+
+＠K：Kingprotea Alter
+再也不想跟你战斗了，但握手吧。[r]这样你总满意了吧。
+[k]
+
+[messageOff]
+[charaTalk A,K]
+[cueSe SE_21 21_ad1070]
+[wt 1.0]
+
+[charaFace A 11]
+[charaMoveReturnFSR A 256,5 0.3]
+[wt 1.0]
+
+[wipeout rectangleStripUpToDown 0.8 1.0]
+[bgm BGM_EVENT_94 0.8 0.4]
+[wait wipe]
+
+[subRenderFadeout 0.1]
+
+[charaFadeout A 0.1]
+[charaFadeout K 0.1]
+[charaFadeout N 0.1]
+[charaLayer K normal]
+[charaLayer N normal]
+
+[subCameraOff]
+
+[scene 170300]
+
+[charaDepth A 5]
+[charaDepth D 4]
+[charaDepth C 3]
+[charaDepth M 2]
+[charaDepth K 1]
+
+[wt 0.5]
+
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.4]
+[se ad619]
+[seVolume ad619 0 0]
+[seVolume ad619 1.0 0.3]
+[wipein rectangleStripDownToUp 0.8 1.0]
+[bgm BGM_EVENT_94 0.8 1.0]
+[charaTalk J]
+[charaFace J 2]
+[charaFadein J 0.7 0,-20]
+[charaMove J 0,0 1.0]
+[wait wipe]
+[seStop ade393 1.0]
+[seStop ad619 1.0]
+[wt 0.4]
+
+＠Kingprotea Alter
+那我只要打开那边的集装箱，[r]将里面的器材摆放好就行了吧。
+[k]
+
+＠Kingprotea Alter
+虽然算屈辱，但我会照做，毕竟已经说好了。[r]请给我具体指示吧。
+[k]
+
+[messageOff]
+[charaTalk C,J]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[charaFadein M 0.4 0,-200]
+[wt 0.4]
+
+＠达·芬奇
+谢谢你，Protea。[r]真是帮大忙了。
+[k]
+
+[charaFace J 10]
+
+＠达·芬奇
+首先得找一块平坦的岩地。[r]地基的建造也想拜托你来，可以吗？
+[k]
+
+[messageOff]
+[charaTalk C,J]
+[charaFadeout C 0.4]
+[charaFadeout M 0.4]
+[wt 0.4]
+
+＠Kingprotea Alter
+……呜哇，好麻烦……[r]而且集装箱也种类繁多，比我想象的还要复杂……
+[k]
+
+＠Kingprotea Alter
+干脆解除Alter化推给[#通常版:那边]做吧……[r]不行吗，别说建造了，她可能还会弄坏……
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_94 1.5]
+[wait fade]
+
+[charaFadeout J 0.1]
+
+[scene 169200]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth H 9]
+[charaDepth I 8]
+[charaDepth N 7]
+[charaDepth E 6]
+[charaDepth D 5]
+[charaDepth F 4]
+[charaDepth G 3]
+[charaDepth M 2]
+[charaDepth A 1]
+
+[charaScale M 1.1]
+[charaScale N 1.1]
+[charaScale O 1.1]
+
+[charaScale H 1.1]
+[charaScale I 1.1]
+
+[charaFadein M 0.1 -50,-240]
+
+[charaFace D 2]
+[charaFadeinFSR D 0.1 150,0]
+[charaFace E 2]
+[charaFadeinFSR E 0.1 400,0]
+[charaFace F 0]
+[charaFadeinFSL F 0.1 -490,0]
+[cameraMove 0.1 0,0 1.01]
+[wt 2.0]
+
+[fadein black 1.0]
+[bgm BGM_AMAZONES 0.1]
+[se ade186]
+[se ad600]
+[seStop ad600 0.5]
+[cueSe SE_22 22_ad1156]
+[charaMoveFSL F -390,0 1.0]
+[wait fade]
+
+[cueSe Servants_900700 bac937]
+[charaMoveReturnFSL F -390,-10 0.8]
+[wt 1.0]
+[cueSe Servants_900700 bac937]
+[se ad600]
+[cueSe SE_22 22_ad1156]
+[charaMoveReturnFSR D 150,5 0.3]
+[wait charaMove D]
+[charaMoveReturnFSR E 400,5 0.3]
+[wait charaMove E]
+[charaMoveReturnFSR D 150,5 0.3]
+[wait charaMove D]
+[wt 0.5]
+
+[cueSe SE_22 22_ad1217]
+[charaFadein N 0.4 50,-180]
+[wt 0.4]
+[charaFace I 0]
+[charaFadein I 0.7 -300,0]
+[charaShake I 0.06 0 1 4.0]
+[charaMove I 700,0 3.0]
+[wt 0.4]
+[charaFadeout M 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaFace H 0]
+[charaFadein H 0.7 -600,0]
+[charaShake H 0.06 0 1 4.0]
+[charaMove H 400,0 3.0]
+[wt 2.0]
+
+[cueSeStop 22_ad1217 1.5]
+[cueSeStop 22_ad1156 1.5]
+[seStop ade186 1.5]
+[seStop ad600 1.5]
+
+[charaFadeout N 1.0]
+[charaFadeout H 1.0]
+[charaFadeout I 1.0]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠库库尔坎
+唔？[r]刚才迪诺斯们是不是在这儿？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠达·芬奇
+嗯，是跟着水兵来的。[r]说是“听起来很有趣，所以要来帮忙”。
+[k]
+
+＠达·芬奇
+我拜托力气大的迪诺斯帮忙装设，[r]脚程快的迪诺斯帮忙搬运电缆。
+[k]
+
+[charaFace C 36]
+
+＠达·芬奇
+各位迪诺斯都很聪明呢，库库尔坎。[r]不仅是电力，
+[k]
+
+＠达·芬奇
+他们很快就理解了利用水的势能[r]转化为动能的原理。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 20]
+[charaFadein A 0.1 1]
+
+＠库库尔坎
+对吧？　虽然与泛人类史的[#人类:你]们不一样，[r]但他们也是很优秀的。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_AMAZONES 1.5]
+
+[shake 0.04 2 2 1.0]
+[se ade311]
+[seStop ade311 1.2]
+[wt 1.2]
+[shake 0.04 2 2 1.0]
+[se ade311]
+[seStop ade311 1.2]
+[wt 1.2]
+
+[charaTalk depthOff]
+[charaDepth J 2]
+[charaDepth O 1]
+
+[charaFace J 7]
+[charaFadein J 1.0 0,20]
+[charaFadein O 1.0 0,-180]
+[charaMove J 0,0 1.0]
+[charaMove O 0,-200 1.0]
+[wt 1.2]
+
+＠Kingprotea Alter
+……累死了。体力倒是还很充裕，[r]但是拜精细的组装工作所赐，精神疲惫不堪。
+[k]
+
+？1：辛苦你了。
+？2：谢谢你，Protea。
+
+？！
+
+[bgm BGM_EVENT_11 0.1]
+
+[charaFaceFade J 2 0.2]
+
+＠Kingprotea Alter
+谢礼就用令咒[line 3]虽然我很想这么说，[r]不过你还没全部夺回来吧。
+[k]
+
+＠Kingprotea Alter
+既然已经通关了第二冥界，接下来就是第三冥界了吧。
+[k]
+
+＠Kingprotea Alter
+就算没理由去米克特兰的下层，[r]为了令咒，早晚也要去一趟吧。
+[k]
+
+[charaFaceFade J 4 0.2]
+
+＠Kingprotea Alter
+还是说直接找到那个蝙蝠男抢回来呢？[r]这种做法更合我喜好。
+[k]
+
+＠Kingprotea Alter
+那家伙要是胆敢再来，我会一把抓住他，[r]扯掉颈椎做成蝙蝠汁。
+[k]
+
+？1：可怕的是你好像真干得出来。
+
+？2：卡玛佐茨很强吗？
+
+[charaFaceFade J 0 0.2]
+
+＠Kingprotea Alter
+……我不知道。[r]但我体内的索奇托纳尔这样说，
+[k]
+
+[charaFaceFade J 5 0.2]
+
+＠Kingprotea Alter
+“别与蝙蝠之神战斗。”[r]“卡玛佐茨比地表上任何神都更可怕。”
+[k]
+
+[charaFaceFade J 6 0.2]
+
+＠Kingprotea Alter
+谁知道呢。[r]在我看来，他倒还算不上那种程度的威胁。
+[k]
+
+？！
+
+[charaFaceFade J 1 0.2]
+
+
+＠Kingprotea Alter
+…………还有，[r]我问你一个问题。
+[k]
+
+[charaFaceFade J 2 0.2]
+
+＠Kingprotea Alter
+那个吵吵闹闹，看起来很重的女人，[r]奥尔加玛丽不在吗？
+[k]
+
+？1：我们正分头行动。
+？2：……只是，时间正好对不上。
+
+？！
+
+[charaFaceFade J 13 0.2]
+
+＠Kingprotea Alter
+是吗，不在啊。[r]我还挺喜欢她瞧不起人类的态度呢。
+[k]
+
+[charaFaceFade J 9 0.2]
+
+＠Kingprotea Alter
+不过，反正她怎么看都不是地球的生物。
+[k]
+
+＠Kingprotea Alter
+虽然这话也轮不到我来说，[r]但那家伙是迦勒底的敌人吧。抛弃她才是正确的做法。
+[k]
+
+＠Kingprotea Alter
+要是她对你纠缠不休，就来我这里吧？[r]我倒也不是不能帮你把话说清楚。
+[k]
+
+
+？1：那是为了我吗？
+？2：其实是为了总统？
+
+？！
+
+[messageOff]
+
+？1：不管如何，你的本质还是Protea呢。
+
+？！
+
+
+[charaFaceFade J 20 0.2]
+
+＠Kingprotea Alter
+[line 3]！
+[k]
+
+[charaFaceFade J 6 0.2]
+
+＠Kingprotea Alter
+自作聪明。摆出一副仿佛很懂的表情[r]说这种仿佛很懂的话，真令人不爽。
+[k]
+
+[charaFaceFade J 2 0.2]
+
+＠Kingprotea Alter
+……唉。[r]以免你误会，我事先声明一句。
+[k]
+
+＠Kingprotea Alter
+我真的不具备对人类手下留情或是[r]保护他们性命这一类功能。
+[k]
+
+＠Kingprotea Alter
+如果搞不清自身立场的蝼蚁胆敢向我[r]顶嘴一次，就等着被噗嗤一声捏碎吧。
+[k]
+
+[charaFaceFade J 11 0.2]
+
+＠Kingprotea Alter
+因此，请千万别怀着与平时的Protea[r]相同的距离感向我搭话。
+[k]
+
+＠Kingprotea Alter
+每次这么做都得洗干净手指，[r]我也嫌麻烦。
+[k]
+
+[charaFaceFade J 4 0.2]
+
+＠Kingprotea Alter
+啊，你终于害怕了。[r]没错没错，就是这表情，是我的最爱。
+[k]
+
+＠Kingprotea Alter
+再会啦，被夺走了令咒的超迷你御主。[r]下次再见时，可得恢复到独当一面的状态哦？
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_11 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

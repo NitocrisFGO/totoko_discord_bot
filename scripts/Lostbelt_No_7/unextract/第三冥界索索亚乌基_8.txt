@@ -1,0 +1,769 @@
+
+＄03-00-13-15-8-1
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098252940 1 特佩乌]
+[charaSet C 1098252450 1 库库尔坎]
+[charaSet D 1098257600 1 达·芬奇]
+[charaSet E 1098255300 1 尼托克丽丝]
+[charaSet F 1098255200 1 哈贝特洛特]
+[charaSet H 1098257200 1 埃列什基伽勒·Alter]
+[charaSet I 1098256400 1 古伽兰那的脚1]
+[charaSet J 1098256400 1 古伽兰那的脚2]
+[charaSet K 1098256400 1 古伽兰那的脚3]
+
+[sceneSet L 10000 1]
+[charaScale L 1.05]
+
+[charaSet N 1098252440 1 库库尔坎]
+[charaSet O 1098257200 1 埃列什基伽勒·Alter]
+[sceneSet P 174000 1]
+[sceneSet Q 174000 1]
+
+[scene 174300]
+
+[bgm BGM_BATTLE_123 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk off]
+
+[charaScale I 1.8]
+[charaScale J 1.8]
+[charaScale K 1.8]
+
+[charaFace I 0]
+[charaFace J 0]
+[charaFace K 0]
+
+[charaPut I -250,100]
+[charaEffect I bit_talk_gram_slash_green_02]
+[se ad276]
+[seStop ad276 0.85]
+[se ad959]
+[seStop ad959 1.0]
+[wt 1.0]
+[charaFadein I 0.1 -250,100]
+[charaShake I 0.05 3 3 0.7]
+[flashin once 0.1 0.2 FFFFFFAF FFFFFF00]
+[charaEffect I bit_talk_impactlanding]
+[se ad609]
+[se ad322]
+[wt 0.3]
+[charaFadeout I 0.2]
+[wt 0.7]
+[seStop ad609 1.0]
+[seStop ad322 1.0]
+
+[charaPut J 250,100]
+[charaEffect J bit_talk_gram_slash_green_02]
+[se ad276]
+[seStop ad276 0.85]
+[se ad959]
+[seStop ad959 1.0]
+[wt 1.0]
+[charaFadein J 0.1 250,100]
+[charaShake J 0.05 3 3 0.7]
+[flashin once 0.1 0.2 FFFFFFAF FFFFFF00]
+[charaEffect J bit_talk_impactlanding]
+[cueSe Servants_2500500 bac1740]
+[se ad322]
+[wt 0.3]
+[charaFadeout J 0.2]
+[wt 0.7]
+[seStop bac1740 1.0]
+[seStop ad322 1.0]
+
+[charaPut K 1]
+[charaEffect K bit_talk_gram_slash_green_02]
+[se ad276]
+[seStop ad276 0.85]
+[se ad959]
+[seStop ad959 1.0]
+[wt 1.0]
+[charaFadein K 0.1 1]
+[charaShake K 0.05 3 3 0.7]
+[flashin once 0.1 0.2 FFFFFFAF FFFFFF00]
+[charaEffect K bit_talk_impactlanding]
+[cueSe Servants_703700 bac1713]
+[se ad322]
+[wt 0.3]
+[charaFadeout K 0.2]
+[wt 0.7]
+[seStop bac1713 1.0]
+[seStop ad322 1.0]
+[charaEffectDestroy K bit_talk_impactlanding]
+
+[charaScale I 2.1]
+[charaScale J 1.8]
+[charaScale K 1.8]
+
+[charaDepth K 1]
+[charaDepth J 2]
+[charaDepth I 3]
+
+[charaFadein I 0.1 0,500]
+[charaFadein J 0.1 -350,300]
+[charaFadein K 0.1 350,300]
+[wt 0.2]
+[fowardEffect bit_talk_gram_slash_green 0,0 H]
+[se ad276]
+[seStop ad276 0.85]
+[se ad782]
+[seStop ad782 1.0]
+[wt 1.0]
+[charaShake I 0.05 3 3 0.7]
+[charaEffect I bit_talk_impactlanding]
+[se ad609]
+[se ad322]
+[wt 0.2]
+[charaFadeout I 0.2]
+[charaShake J 0.05 3 3 0.7]
+[charaEffect J bit_talk_impactlanding]
+[cueSe Servants_2500500 bac1740]
+[wt 0.2]
+[charaFadeout J 0.2]
+[charaShake K 0.05 3 3 0.7]
+[charaEffect K bit_talk_impactlanding]
+[cueSe Servants_703700 bac1713]
+[wt 0.2]
+[charaFadeout K 0.2]
+[seStop ad609 1.0]
+[seStop bac1740 1.0]
+[seStop bac1713 1.0]
+[wt 2.0]
+
+[scene 174000 1.0]
+[wt 1.5]
+
+[charaScale B 1.2]
+[charaScale F 0.9]
+[charaScale D 0.9]
+[charaScale A 0.9]
+[charaScale E 0.9]
+
+[charaDepth F 6]
+[charaDepth D 5]
+[charaDepth A 4]
+[charaDepth E 3]
+[charaDepth B 2]
+
+[charaTalk off]
+
+[charaFace F 16]
+[charaPutFSL F -400,-40]
+[charaFadeTime F 0.1 0.7]
+[charaFace A 6]
+[charaFadeinFSL A 0.1 -200,-110]
+[charaFace B 7]
+[charaFadein B 0.1 140,80]
+[charaFace E 13]
+[charaFadeinFSR E 0.1 70,-110]
+[charaFace D 40]
+[charaFadeinFSR D 0.1 380,-110]
+[wt 2.0]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaScale F 1.0]
+[charaScale D 1.0]
+[charaScale A 1.0]
+[charaScale E 1.0]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+[effect bit_talk_lightning_01r]
+[se ad61]
+[seVolume ad61 0 0.1]
+[seVolume ad61 1.0 0.6]
+
+＠宁基伽勒
+那[messageShake 0.05 4 4 0.7]是什么啊[line 6]！
+[k]
+
+[messageOff]
+[seStop ad61 0.5]
+[charaFadeout H 0.1]
+[wt 0.1]
+[effectDestroy bit_talk_lightning_01r]
+
+
+
+[bgm BGM_BATTLE_123 1.5 0.6]
+[charaPut L 0,-200]
+[charaFadeTime L 0.5 0.5]
+
+[cueSe SE_22 22_ad1180]
+[seVolume 22_ad1180 0 0]
+[seVolume 22_ad1180 1.0 0.5]
+
+[masterBranch _Male _Female]
+
+[label _Male]
+
+[effect bit_talk_CommandMantra_27]
+
+[branch _branchEnd]
+
+[label _Female]
+
+[effect bit_talk_CommandMantra_28]
+
+[label _branchEnd]
+
+[wt 1.0]
+[seStop 22_ad1180 2.0]
+[wt 3.5]
+[charaFadeout L 0.4]
+[wt 0.6]
+
+？1：（第三划令咒恢复了[line 3]！）
+
+？！
+
+[bgm BGM_BATTLE_123 1.5 1.0]
+[charaTalk A]
+[charaFace A 21]
+[charaFadein A 0.1 1]
+
+＠玛修
+啊！？[r]现在可不是发愣的时候！
+[k]
+
+＠玛修
+古伽兰那被库库尔坎小姐的宝具全灭了！[r]但刚才的攻击是[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+没错，就是击沉了Storm Border的巨人手刀！[r]那果然是来自米克特兰的攻击[line 3]
+[k]
+
+＠达·芬奇
+是异闻带之王，库库尔坎干的好事！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 14]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+
+＠哈贝特洛特
+原来是这样啊！[r]不过达·芬奇怎么一脸高兴呢！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 23]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+哎嘿。[r]因为正如我的预料，所以忍不住高兴起来了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+什么。所以破坏Storm Border，[r]让尼莫船长身受重伤，
+[k]
+
+＠特佩乌
+让各位陷入前所未有绝境的犯人，[r]就是库库尔坎？
+[k]
+
+＠特佩乌
+实在是太抱歉了。[r]我们的神又做事不经大脑地给大家添麻烦了……
+[k]
+
+＠特佩乌
+我谨代表全体迪诺斯向各位道歉。[r]而且我认为全体迪诺斯应该进行审议。
+[k]
+
+＠特佩乌
+让库库尔坎大人在第九层一带[r]反省一个世纪左右比较好。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[se ad73]
+[fowardEffect bit_talk_quickmove 0,0 V]
+[charaSpecialEffect C appearanceReverse 1 0.25]
+[wt 0.4]
+[wait charaSpecialEffect C]
+
+＠库库尔坎
+停一下，特佩乌！[r]那是经过考虑才干的！
+[k]
+
+[charaFaceFade C 5 0.2]
+
+＠库库尔坎
+我是米克特兰的守护者！
+[k]
+
+＠库库尔坎
+只是打算趁前来切除异闻带的迦勒底一行人[r]还在地表时就抹杀掉而已！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk F]
+[charaFace F 15]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+
+＠哈贝特洛特
+百分百的敌人呢……[r]真亏咱们能活下来……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[bgmStop BGM_BATTLE_123 1.5]
+
+[charaSet C 1098252440 1 库库尔坎]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠库库尔坎
+没，没有啦，当时我还以为你们是与[r]戴比特·泽姆·沃伊德一样无法沟通的人物……
+[k]
+
+[bgm BGM_EVENT_116 0.1]
+
+[charaCrossFade C 1098252450 11 0.2]
+
+＠库库尔坎
+当然今非昔比。[r]我已经知道迦勒底的各位是无害的了。
+[k]
+
+[charaFace C 1]
+
+＠库库尔坎
+……但这依然改变不了我攻击了潜航艇的事实。[r]这不是道歉就能了事的。
+[k]
+
+＠库库尔坎
+是以敌人的身份交战，还是要求赔偿损失。[r]如何看待我就交由各位决定了……
+[k]
+
+？1：赔偿损失……（库库尔坎小姐赔得起吗？）
+？2：以敌人的身份交战……（真不想发生这种事……）
+
+？！
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+[charaSet D 1098257300 1 达·芬奇]
+[wt 1.4]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 23]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+说实话，经过墨西哥城那件事，[r]我就推测到库库尔坎或许就是那个巨人了。
+[k]
+
+＠达·芬奇
+所以事到如今，我也不会考虑『是敌是友』[r]『是赔偿还是诚意』之类的二选一了。
+[k]
+
+＠达·芬奇
+而且实际上，这次她也[r]救了[%1]和我们吧。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+[wt 1.6]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 23]
+[charaFadein D 0.1 1]
+[wt 0.4]
+
+？1：达·芬奇亲……！
+
+？！
+
+[charaFace D 0]
+
+＠达·芬奇
+实际如何只能听戈尔德鲁夫司令官的定夺了。[r]更何况[line 3]
+[k]
+
+[bgm BGM_EVENT_116 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth D 5]
+[charaDepth L 1]
+
+[charaPut L 1]
+[charaFadeTime L 0.2 0.5]
+
+[charaFace D 34]
+
+＠达·芬奇
+（还要考虑现实问题，[r]　现在的我们根本打不赢她。）
+[k]
+
+＠达·芬奇
+（既然她愿意站在我们这边，[r]　那其他问题也只能睁只眼闭只眼了吧。）
+[k]
+
+[bgm BGM_EVENT_116 0.5 1.0]
+[charaFadeout L 0.2]
+
+[charaFace D 0]
+
+＠达·芬奇
+不，没什么。总而言之，[r]威胁之一能加入我们是值得高兴的事。
+[k]
+
+[bgmStop BGM_EVENT_116 1.5]
+
+＠达·芬奇
+现在更重要的是[line 3]
+[k]
+
+？1：对哦。
+？2：抱歉让你久等了。现在方便说话吗？
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_41 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk H]
+[charaFace H 14]
+[charaFadein H 0.1 1]
+
+＠埃列什基伽勒·Alter
+…………干嘛啊。[r]能别用那种充满同情的眼神看我吗？
+[k]
+
+[charaFaceFade H 8 0.2]
+
+＠埃列什基伽勒·Alter
+况且，你们已经可以继续前进了。[r]你们有事要去第七层吧？　而不是找我。
+[k]
+
+＠埃列什基伽勒·Alter
+从输给库库尔坎的那一刻起，[r]以『最强女神』为前提的冥界规则就消失了。
+[k]
+
+＠埃列什基伽勒·Alter
+这里已经是徒有冥界线之名的寻常沙漠了。[r]我原本也该作为凄惨的失败者退场……
+[k]
+
+？1：为什么？　来潜航艇啊。
+
+[charaFace H 14]
+
+＠埃列什基伽勒·Alter
+…………这不可能。
+[k]
+
+＠埃列什基伽勒·Alter
+既然已经成了守卫，要离开冥界就只有[r]退场这一个办法了，你没听其他守卫说过吗？
+[k]
+
+？2：你的名字变了呢。
+
+[charaFaceFade H 28 0.2]
+
+＠埃列什基伽勒·Alter
+是啊，因为拜你们所赐，我已经不再是『[#无敌女神:宁基伽勒]』了！
+[k]
+
+？！
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+[FFFFFF]？[-]　这么说来，[#异灵:Alter]化没有解除呢。[r]前辈的令咒……分明都恢复了啊？
+[k]
+
+[charaFace A 12]
+
+＠玛修
+这是怎么回事呢……[r]难道是时间过得太久，
+[k]
+
+＠玛修
+埃列什基伽勒小姐身心都变成Alter……了吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 22]
+[charaFadein H 0.1 1]
+
+＠埃列什基伽勒·Alter
+怎么可能嘛。[r]不过感谢你为我担心，玛修。
+[k]
+
+[charaFace H 24]
+
+＠埃列什基伽勒·Alter
+我的确是被卡玛佐茨的令咒[#异灵:Alter]化的，[r]但并不是被强迫的。
+[k]
+
+＠埃列什基伽勒·Alter
+我是基于自身的意志，接受了那只蝙蝠的提议。
+[k]
+
+＠埃列什基伽勒·Alter
+为了让自己成为更强大的灵基，[r]帮得上迦勒底的忙。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+不愧是埃列什基伽勒小姐。[r]那么，此前的战斗一定也是别有用意的吧！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 25]
+[charaFadein H 0.1 1]
+
+＠埃列什基伽勒·Alter
+………………
+[k]
+
+？1：应该有用意吧？
+？2：你其实是伊什塔尔吧？
+
+？！
+
+[charaFaceFade H 28 0.2]
+
+＠埃列什基伽勒·Alter
+当然有！[r]只是现在还不能说出来而已！
+[k]
+
+＠埃列什基伽勒·Alter
+真是的，给我记住，『时机』成熟时，[r]我一定会让你们（感动到）哭出来！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+[FFFFFF]？？？[-]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠埃列什基伽勒·Alter
+总之！　我可不是怀着[r]半吊子的觉悟[#异灵:Alter]化的。
+[k]
+
+＠埃列什基伽勒·Alter
+毕竟还不知道今后会发生什么吧？
+[k]
+
+＠埃列什基伽勒·Alter
+因此，为防万一，[r]我会作为『冥界的守卫』留在这里。
+[k]
+
+＠埃列什基伽勒·Alter
+第一、第二守卫也对你们说过同样的话吧？[r]说无法跟你们一起走。
+[k]
+
+？1：……嗯，确实。
+？2：无论如何，都回不了潜航艇了吗……
+
+？！
+
+[charaFace H 22]
+
+＠埃列什基伽勒·Alter
+……嗯。[r]但你不必担心。
+[k]
+
+＠埃列什基伽勒·Alter
+哪怕沾染上邪恶，变成不良，[r]冥界神埃列什基伽勒依旧是迦勒底的从者。
+[k]
+
+＠埃列什基伽勒·Alter
+无论出现什么样的威胁，[r]我都会作为你们的助力直至最后一刻。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+
+＠哈贝特洛特
+虽然刚被库库尔坎揍趴了～。
+[k]
+
+＠哈贝特洛特
+不要紧吧？　会不会垂头丧气？[r]真的不跟咱们一起走吗～？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+
+＠埃列什基伽勒·Alter
+已经计划好今后要卷土重来啦！[r]少废话，赶紧走啦～！
+[k]
+
+＠埃列什基伽勒·Alter
+还有库库尔坎！[r]刚才只是被你打了个措手不及而已！
+[k]
+
+[charaFaceFade H 20 0.2]
+
+＠埃列什基伽勒·Alter
+那是因为被你诱导去空中战斗了，[r]我原本可是立足大地战斗的大地女神！
+[k]
+
+＠埃列什基伽勒·Alter
+下次我可不会输！[r]你别以为自己就这么赢了噢！
+[k]
+
+[messageOff]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaScale P 1.5]
+[charaScale N 1.2]
+[charaScale Q 1.5]
+[charaScale O 1.2]
+[charaDepth H 1]
+[charaDepth P 2]
+[charaDepth N 3]
+[charaDepth Q 4]
+[charaDepth O 5]
+[charaFadein P 0.5 -150,-250]
+[charaFace N 7]
+[charaFadein N 0.5 140,0]
+[charaMove P -170,-250 1.0]
+[charaMove N 120,0 1.0]
+[wt 1.7]
+[charaFace N 2]
+
+＠库库尔坎
+那当然，现阶段是一胜一负嘛！[r]下次我会彻底把你打趴，让你尝尝倒数三下哦！
+[k]
+
+[messageOff]
+[charaFadein Q 0.5 70,-250]
+[charaFace O 25]
+[charaFadein O 0.5 -130,0]
+[charaMove Q 100,-250 0.8]
+[charaMove O -100,0 0.8]
+[wt 1.2]
+
+＠埃列什基伽勒·Alter
+倒数三下？　突然说什么奇怪的[line 3][wt 1.2][charaFace O 5][r]啊，对哦，这也是可能的呢。
+[k]
+
+[charaFace O 7]
+
+＠埃列什基伽勒·Alter
+好啊，你就好好期待吧。
+[k]
+
+＠埃列什基伽勒·Alter
+若下次有机会交手，我会让你尝尝超越[#天鸣神殿:古伽兰那][r]与[#发热神殿:美斯拉姆忒亚]的撒手锏宝具！
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[bgmStop BGM_MAP_41 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

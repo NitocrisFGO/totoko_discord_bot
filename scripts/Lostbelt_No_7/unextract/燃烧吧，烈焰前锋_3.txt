@@ -1,0 +1,537 @@
+
+
+＄03-00-13-06-3-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253200 1 U－奥尔加玛丽]
+[charaSet B 1098257500 1 拉斯普京]
+[charaSet C 1098253520 1 恐爪龙十一兄弟·老七]
+[charaSet D 98001000 1 玛修]
+[charaSet E 1098256800 1 迪诺斯1]
+[charaSet F 1098254300 1 迪诺斯2]
+[charaSet G 1098254300 1 迪诺斯3]
+[charaSet H 1098258800 1 看店的迪诺斯]
+[charaSet I 1098124330 1 戴比特]
+[charaFilter I silhouette 00000080]
+[charaSet J 1098124330 1 戴比特（演出用）]
+[sceneSet K 169500 1]
+
+[imageSet O back10000 1 1]
+[charaScale O 1.05]
+[imageSet P back10000 1 1]
+[charaScale P 1.05]
+
+[scene 169901]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_146 0.1]
+
+[charaTalk A]
+[charaFace A 30]
+[charaFadein A 0.1 1]
+[charaShake A 0.05 2 2 0.4]
+＠U－奥尔加玛丽
+输了……！[r]一败涂地……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠拉斯普京
+很遗憾。[r]看来地球的运动对大小姐来说还是太难了。
+[k]
+
+＠拉斯普京
+其实我也提议过不如老老实实[r]加入[%1]他们的队伍……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 25]
+[charaFadein A 0.1 1]
+＠U－奥尔加玛丽
+组建[#Ｕ:My]队不就是[r]你给的建议吗？
+[k]
+
+？1：好啦好啦。
+？2：那就请加入我们的队伍吧。
+
+？！
+
+[charaFace A 20]
+＠U－奥尔加玛丽
+………………
+[k]
+
+[charaFace A 23]
+＠U－奥尔加玛丽
+……也是。[r]那我就转会到你们队好了。
+[k]
+
+＠U－奥尔加玛丽
+毕竟我仍旧可以闯入决赛，[r]而且在刚才的比赛中你们那边也许会出现伤员。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠恐爪龙十一兄弟·老七
+那真是太好了。[r]毕竟[#兄弟:我]们没什么体力嘛。
+[k]
+
+＠恐爪龙十一兄弟·老七
+已经有好几人受伤了，[r]我还担心能否正常参加决赛呢。
+[k]
+
+？1：需要什么东西吗？
+
+？！
+
+＠恐爪龙十一兄弟·老七
+你真机灵呢。[r]那帮忙去大街上拿些外敷草和冰袋回来吧。
+[k]
+
+＠恐爪龙十一兄弟·老七
+必须尽可能保持良好的状态以备决战嘛。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠玛修
+跑腿吗？[r]那我也一起……
+[k]
+
+？1：没事，我去去就来！
+？2：毕竟奇琴伊察很和平嘛！
+
+？！
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[se ad132]
+[seStop ad132 1.2]
+[wt 1.6]
+
+[overlayFadein O 0.1 0,-850]
+[overlayFadein P 0.1 0,850]
+[charaMove O 0,-760 0.9]
+[charaMove P 0,760 0.9]
+[wt 1.2]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 0,-50]
+＠玛修
+走掉了……[r]我该追上去吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 0,-50]
+＠U－奥尔加玛丽
+没必要吧。这座城市里是不会发生暴力行为的。[r]毕竟迪诺斯们不会主动攻击他人。
+[k]
+
+[charaFace A 8]
+＠U－奥尔加玛丽
+只要那家伙不主动惹些奇怪的事。[r]不过，这是不可能发生的吧，玛修？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 0,-50]
+[wt 1.0]
+
+[charaFace D 26]
+[wt 1.5]
+
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_146 1.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+
+[scene 169500]
+[se ad5]
+[seVolume ad5 0 0]
+[se ad877]
+[seVolume ad877 0 0]
+[wt 1.5]
+
+[seVolume ad5 1.0 0.2]
+[seVolume ad877 1.0 0.2]
+
+[charaScale K 1.4]
+[charaFadein K 0.1 -80,-320]
+[wt 0.1]
+
+[charaMove K 80,-320 7.0]
+
+[bgm BGM_EVENT_161 1.0]
+[fadein black 1.0]
+[wait fade]
+[wt 0.3]
+
+[charaTalk off]
+[charaDepth K 1]
+[charaDepth E 2]
+[charaDepth F 4]
+[charaDepth G 3]
+
+[cueSe SE_21 21_ad1079 0]
+[seVolume 21_ad1079 1.0 0.2]
+[wt 0.5]
+
+[charaScale E 1.4]
+[charaScale F 1.3]
+
+[se ad642]
+[shake 0.05 0 1 4.5]
+[charaFadein E 0.4 180,100]
+[charaMove E 100,100 3.0]
+[wt 2.0]
+[charaFadeout E 0.4]
+[wt 0.5]
+[charaFadein F 0.4 -180,150]
+[charaMove F 0,150 3.0]
+[wt 2.0]
+[charaFadeout F 1.0]
+[charaFadeout K 1.0]
+[seStop ad642 0.5]
+
+[charaFadeout K 1.0]
+[wt 1.4]
+[seStop ad5 1.5]
+[seStop ad877 1.5]
+[seStop 21_ad1079 1.5]
+
+
+？1：我看看，外敷草和冰袋在……
+
+？！
+
+[messageOff]
+
+[subCameraOn 1]
+
+[charaLayer I sub #A]
+[charaLayer H sub #A]
+[charaLayer K sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask10 3 255,255,255,255 0]
+
+[charaScale I 0.9]
+[charaScale H 1.4]
+[charaScale K 1.1]
+
+[charaTalk depthOff]
+[charaDepth K 2]
+[charaDepth H 3]
+[charaDepth I 4]
+
+[charaFace H 0]
+[charaFace I 0]
+[charaFadein H 0.1 0,150]
+[charaFadein I 0.1 360,0]
+[charaFadein K 0.1 1]
+[wt 0.1]
+
+[subRenderFadeinFSSideL #A 0.7 -400,-200]
+[subRenderMoveFSSideL #A -200,-200 0.7]
+[wt 1.1]
+
+[charaTalk on]
+[charaTalk I]
+＠E：？？？
+把那边的红瓜给我。[r]这个很适合补充水分，味道倒是其次。
+[k]
+
+＠E：？？？
+驱赶蝙蝠的薄荷香呢？　有吗？[r]嗯，这个质量不错，来两份吧。
+[k]
+
+＠看店的迪诺斯
+小哥，你倒是净拿些稀奇玩意儿呢。[r]我还是头一回拿出[#氧化膜:Almite]这种东西来。
+[k]
+
+＠看店的迪诺斯
+这好像是上上个看店的迪诺斯进的货。[r]你究竟打算拿去做什么啊？
+[k]
+
+＠E：？？？
+用来代替航天服。[r]虽说多少需要改良一下。
+[k]
+
+？1：……好流利的英语啊……
+？2：[line 3]咦？　英语？
+
+？！
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.7 1.0]
+[bgmStop BGM_EVENT_161 1.5]
+[wait wipe]
+
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+[charaFadeout I 0.1]
+[charaFadeout H 0.1]
+[charaFadeout K 0.1]
+
+[subCameraOff]
+
+[charaLayer H normal]
+[charaLayer I normal]
+[charaLayer K normal]
+[charaScale H 1.0]
+[charaScale I 1.0]
+
+[charaFilter I normal]
+[wt 0.1]
+
+
+[charaTalk off]
+[charaDepth I 2]
+[charaDepth K 3]
+[charaDepth J 4]
+
+[charaScale K 1.4]
+[charaFadein K 0.1 -100,-300]
+[wt 0.7]
+
+[wipein rectangleStripRightToLeft 0.7 1.0]
+[wait wipe]
+[wt 0.4]
+
+[charaScale J 1.2]
+[charaFace J 8]
+[charaFadein J 0.7 100,150]
+[wt 1.2]
+
+[charaMove K -100,-360 1.6]
+[charaMove J 100,20 1.6]
+[wt 1.6]
+
+[charaFace I 8]
+[charaFadein I 0.1 1]
+[wt 0.55]
+
+[bgm BGM_MAP_52 0.1]
+
+？1：[line 3]哈？
+？！
+
+[messageOff]
+[charaFadeout K 0.7]
+[charaFadeout J 0.7]
+[wt 1.0]
+
+
+[charaFaceFade I 0 0.3]
+[wt 0.8]
+
+
+
+[charaTalk on]
+[charaTalk depthOn]
+＠戴比特
+[line 6]
+[k]
+
+＠戴比特
+哦，是变装吧。[r]做得还不错，只是有效时间好像还有缺陷。
+[k]
+
+＠戴比特
+米克特兰的一天很长哦。[r]还是赶在入夜前回据点比较好。
+[k]
+
+？1：戴比特·泽姆·沃伊德[line 3]！
+？2：你为什么会在这里！？
+
+？！
+
+[charaFace I 9]
+＠戴比特
+只是在做旅行的准备而已，不必在意。[r]奇琴伊察的东西质量很不错。
+[k]
+
+＠戴比特
+虽说墨西哥城的大街也很繁荣，[r]但毕竟建成以来还不到一年。
+[k]
+
+＠戴比特
+值得信赖的货品自然要在老字号找。[r][line 3]啊，对了。
+[k]
+
+[charaFace I 7]
+＠戴比特
+你，给我治疗创口的止血草，[r]以及和这个红瓜一样的再来两个。
+[k]
+
+＠戴比特
+蜂蜜兰、结实的藤蔓绳、驱赶蝙蝠的薄荷香，[r]以及所有库存的[#氧化膜:Almite]。
+[k]
+
+
+[charaFace I 0]
+＠戴比特
+……好。有这么多应该够了。[r]拿着。
+[k]
+
+[messageOff]
+[charaMoveScale I 1.1 0.4]
+[charaMove I 0,10 0.4]
+[wt 0.5]
+[cueSe Servants_201300 m40410]
+[wt 0.05]
+
+[cueSe Battle bac8]
+[cueSeVolume bac8 0 0.2]
+[cueSe Battle bac244]
+[se ad77]
+[seVolume ad77 0 0.6]
+[seStop ad77 0.6]
+[cueSeStop m40410 0.6]
+[cueSeStop bac244 0.6]
+[shake 0.01 1 2 0.4]
+[wt 1.0]
+
+？1：呜哇哇哇哇……！
+？2：（塞过来一大堆物品……！？）
+
+？！
+
+[charaFace I 8]
+＠戴比特
+再见了。
+[k]
+
+[messageOff]
+[se ad95]
+[wt 0.1]
+[seStop ad95 1.0]
+[charaFadeout I 0.4]
+[wt 1.6]
+
+？1：等一下……！
+？2：这是什么意思啊！？
+
+？！
+
+[messageOff]
+[wt 0.2]
+
+[se ad95]
+[wt 0.1]
+[charaScale I 1.0]
+[charaTalk I]
+[charaFace I 7]
+[charaFadein I 0.4 1]
+[wt 0.3]
+[seStop ad95 0.1]
+[wt 0.4]
+
+＠戴比特
+我与你之间应该早就没什么好说的了。[r]但也没有理由在此厮杀。
+[k]
+
+＠戴比特
+另外，我没时间回答你的问题。[r]我这人的脾气是分秒必争，废话……
+[k]
+
+[charaFace I 4]
+＠戴比特
+……倒也不是毫无意义。[r]只是可以的话，麻烦你跟别人说去。
+[k]
+
+？1：……（不能在奇琴伊察战斗……）
+？2：……那我只问一件事，关于[#隐匿者:Crypter]的。
+
+？！
+
+[charaFace I 0]
+＠戴比特
+[#隐匿者:Crypter]的职责吗？[r]『异星之神』那边的？　还是迦勒底那边的？
+[k]
+
+？1：不是这些问题。
+？2：而是想问你对同伴们的感情。
+
+？！
+
+[charaFace I 7]
+＠戴比特
+[line 6][r]虽说今天的时间很少，但看来不得不回答你了。
+[k]
+
+[charaFace I 10]
+＠戴比特
+卡多克的成果现阶段是顺理承章的。[r]奥菲莉娅是白白送命了。
+[k]
+
+＠戴比特
+芥的死应该算是情理之中吧。[r]佩佩隆奇诺品着往事横死街头。
+[k]
+
+＠戴比特
+贝里尔是唯一的赢家。[r]而基尔什塔利亚计划本身就是失败的。
+[k]
+
+＠戴比特
+嗯，我知道。[r]从[#最初:一开始]就正有此意[line 3]
+[k]
+
+＠戴比特
+就由我一个人让迦勒底回归虚无吧。
+[k]
+
+[charaFace I 0]
+＠戴比特
+都是些个人感想，有参考价值吗？[r]要是有机会再见面，到时还是换个问题问吧。
+[k]
+
+[messageOff]
+[se ad95]
+[wt 0.1]
+[seStop ad95 1.0]
+[charaFadeout I 0.4]
+[wt 2.2]
+
+
+[fadeout black 2.0]
+[bgmStop BGM_MAP_52 2.0]
+[cueSeStop 21_ad1079 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

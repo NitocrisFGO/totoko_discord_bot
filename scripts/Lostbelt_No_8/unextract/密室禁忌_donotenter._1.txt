@@ -1,0 +1,2625 @@
+
+
+
+＄04-00-02-05-1-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270400 1 拉妮－Ｇ1]
+[charaSet B 1098270400 1 拉妮－Ｇ2]
+[charaSet C 1098270400 1 拉妮－Ｇ3]
+[charaSet D 1098270420 1 拉妮－Ｇ4]
+[charaSet E 1098270420 1 拉妮－Ｇ5]
+[charaSet F 1098270470 1 拉妮－Ｇ6]
+[charaSet G 1098268900 1 Saber的御主]
+[charaSet H 1098268900 1 樱]
+[charaScale H 1.05]
+[charaSet I 1098267100 1 Saber]
+[charaSet J 1098267100 1 Saber2]
+[charaScale J 1.2]
+[charaSet K 3054001 1 Lancer]
+[charaSet L 3054001 1 Lancer2]
+[charaSet M 1098269300 1 Lancer的御主]
+
+[sceneSet N 10000 1]
+[charaScale N 1.05]
+[sceneSet O 190300 1]
+[sceneSet P 190200 1]
+[sceneSet Q 190200 1]
+[sceneSet R 190300 1]
+[charaScale R 1.2]
+[sceneSet S 190200 1]
+[charaScale S 1.3]
+
+[charaSet T 5009000 1 特效用1]
+
+[scene 190300]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_92 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth A 1]
+[charaDepth B 2]
+[charaDepth C 3]
+[charaDepth R 4]
+[charaDepth G 5]
+
+[charaFace A 0]
+[charaFace B 7]
+[charaFace C 2]
+[charaFadeinFSR A 0.4 370,0]
+[wt 0.2]
+[cueSe SE_21 21_ade630 0 0.5]
+[charaFadeinFSL B 0.4 -280,0]
+[charaMoveFSL B -310,0 0.5]
+[charaMoveReturnFSR A 370,-5 0.4]
+[wt 0.4]
+[charaMoveReturnFSR A 370,-5 0.4]
+[wt 0.2]
+[charaMoveReturnFSL B -315,0 0.5]
+[wt 0.5]
+[se ade11]
+[charaFadein C 0.4 -30,0]
+[charaMove C 1 0.5]
+[charaMoveReturnFSL B -315,0 0.3]
+[wt 0.3]
+[charaMoveReturnFSL B -315,0 0.3]
+[wt 0.2]
+[charaMoveFSR A 330,0 0.5]
+[wt 0.2]
+[se ad54]
+[seVolume ad54 0 0.5]
+[charaMoveReturn C 0,-15 0.5]
+[wt 0.3]
+[se ade11]
+[charaMoveFSL B -360,0 0.6]
+[charaMoveReturnFSR A 330,-5 0.4]
+[wt 0.4]
+[charaMove C 50,0 0.8]
+[wt 0.3]
+[charaMoveReturnFSR A 330,-5 0.4]
+[wt 0.3]
+[charaMoveReturnFSL B -360,-5 0.3]
+[wt 0.5]
+[se ade11]
+[charaMoveFSR A 370,0 0.8]
+[charaMoveReturnFSL B -360,-5 0.3]
+[wt 0.3]
+[se ad54]
+[seVolume ad54 0 0.5]
+[charaMoveReturn C 50,-15 0.5]
+[wt 0.7]
+[charaFadein R 1.0 25,-300]
+[charaMove R 0,-300 1.0]
+[wt 1.2]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[cueSe SE_23 23_ad1311]
+[wt 0.7]
+
+[charaScale G 1.2]
+[charaFace G 7]
+[charaFadein G 0.4 0,-30]
+[charaMove G 0,10 0.3]
+[wt 0.3]
+[charaMove G 1 0.2]
+[wt 0.7]
+
+＠？？？
+呵呵，成功了！[r]又得到出色的素材啦！
+[k]
+
+[messageOff]
+[charaFadeout R 0.5]
+[charaFadeout G 0.5]
+[wt 0.7]
+[charaScale G 1.0]
+
+[charaTalk depthOn]
+[charaTalk on]
+[charaTalk A]
+[charaFace A 7]
+[charaFace B 1]
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 0]
+
+＠A：生产部ＡＩ
+……哇～。拍手拍手。
+[k]
+
+＠A：生产部ＡＩ
+……出现了，首席ＡＩ的，得意神情。
+[k]
+
+＠A：生产部ＡＩ
+……虽然，很不错。
+[k]
+
+＠A：生产部ＡＩ
+……首席ＡＩ，真是，喜欢，工作。
+[k]
+
+＠A：生产部ＡＩ
+……想向人展示，优秀的成果。[r]能够，理解……
+[k]
+
+[clear]
+[charaTalk B]
+
+＠B：生产部ＡＩ
+我也会，为了这孩子的收获，而坚持，守望……
+[k]
+
+＠B：生产部ＡＩ
+（盯～）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠？？？
+我还想拿给[#Saber:剑士]看看……[r]你们知道她在哪吗？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠生产部ＡＩ
+……应该在，周边警备。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 16]
+[charaFadein G 0.1 1]
+
+＠？？？
+这样啊。她还是那么认真呢。
+[k]
+
+＠？？？
+虽然我知道这是为了守护[#生产部:这里]，[r]但真希望她能跟大家多接触一下。
+[k]
+
+[charaFace G 4]
+
+＠？？？
+当然，和我也是。[r]毕竟难得能成为从者与御主嘛。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠生产部ＡＩ
+……啊。[#Saber:剑士]，回来了。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth G 1]
+[charaDepth I 2]
+[charaDepth R 3]
+[charaDepth H 4]
+[charaDepth J 5]
+[charaDepth T 9]
+
+[se ad60]
+[seVolume ad60 0 0]
+[seVolume ad60 1.2 1.0]
+[charaFadein R 1.0 -70,-300]
+[charaMove R -120,-300 1.0]
+[wt 1.2]
+[charaFadeout A 0.1]
+
+[charaFace G 0]
+[charaFace I 0]
+[charaFadeinFSL G 0.1 0]
+[charaFadeinFSR I 0.1 2]
+
+[messageOff]
+[seStop ad60 0.6]
+[charaFace J 0]
+[charaFadein J 0.4 286,0]
+[charaMove J 2 0.4]
+[wt 0.4]
+
+＠Saber
+……[r]……
+[k]
+
+[messageOff]
+[charaFadeout R 0.5]
+[charaFadeout J 0.5]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk G]
+
+＠Saber的御主
+啊，欢迎回来，[#Saber:剑士]。[r]有什么异常吗？
+[k]
+
+[charaTalk I]
+[charaFace I 13]
+
+＠Saber
+没什么。
+[k]
+
+[charaFace I 0]
+
+＠Saber
+……[#樱]。[r]我先提一件事。
+[k]
+
+[charaTalk G]
+[charaFace G 0]
+
+＠Saber的御主
+樱……啊，是我的名字吧。
+[k]
+
+[charaFace G 16]
+
+＠G：樱
+对不起，难得特地根据我这[r]樱花色造型帮我起了名字。
+[k]
+
+[charaFace G 0]
+
+＠G：樱
+但我毕竟是ＡＩ，还不习惯名字这种东西………[r]呃，什么事？
+[k]
+
+[charaTalk I]
+[charaFace I 13]
+
+＠Saber
+也不是什么大不了的事。
+[k]
+
+＠Saber
+只是，就算你突然拿出藏在背后的素材给我看，
+[k]
+
+＠Saber
+我也不会为它的尺寸而感到惊讶，[r]我只想事先向你声明这点。
+[k]
+
+[charaFace I 0]
+
+＠Saber
+你都做了几次了？[r]我无法给出你所期望的反应。
+[k]
+
+＠Saber
+还是别浪费时间了。
+[k]
+
+[charaTalk G]
+[charaFace G 9]
+
+＠G：樱
+说得……也是，对不起。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFace G 6]
+[wt 1.5]
+
+[charaTalk on]
+[charaTalk I]
+
+＠Saber
+我只是来做定期报告而已。[r]做完我又会立刻[line 3]
+[k]
+
+[charaTalk G]
+[charaFace G 0]
+[charaMoveFSL G -236,0 0.4]
+
+＠G：樱
+慢着。这是[#维持部:Keep]那边提供的[r]新的已加工素材……很稀奇吧？
+[k]
+
+＠G：樱
+这应该是近似于所谓『料理』的形式。[r]是叫面包还是馕来着。
+[k]
+
+＠G：樱
+而且里面还添加少量拉妮物质，[r]对[#Saber:剑士]来说也不是毫无意义的。
+[k]
+
+[charaFace G 7]
+＠G：樱
+至少先补给一下再走吧？[r]我已经吃过了。
+[k]
+
+[charaTalk I]
+[charaFace I 13]
+[charaMoveFSR I 236,0 0.4]
+
+＠Saber
+……我知道了。
+[k]
+
+[charaTalk G]
+[charaFace G 8]
+
+＠G：樱
+呵呵，我们所制造的素材竟会变成[r]这种样子，非常有意思吧。
+[k]
+
+[charaFace G 0]
+
+＠G：樱
+虽然我还希望她们能教我怎么做，[r]但这毕竟是[#维持部:Keep]的工作，应该不行吧……
+[k]
+
+[charaTalk I]
+[charaFace I 0]
+
+＠Saber
+……吃完了。[r]那我走了。
+[k]
+
+[charaTalk G]
+[charaFace G 16]
+
+＠G：樱
+啊，这就要走了？
+[k]
+
+[charaFace G 5]
+
+＠G：樱
+……嗯，那么，路上小心。
+[k]
+
+[messageOff]
+[charaTalk off]
+[se ad60]
+[charaFadeout I 0.7]
+[charaMoveFSR I 50,0 1.5]
+[wt 0.5]
+
+[charaFace H 5]
+[charaFadein R 1.0 90,-300]
+[charaFadein H 1.0 55,-10]
+[charaMove R 120,-300 1.0]
+[charaMove H 100,-10 1.0]
+[wt 1.2]
+[charaFadeout G 0.1]
+
+[seStop ad60 0.4]
+[charaFace J 0]
+[charaFadein J 0.4 -90,0]
+[charaMove J -120,0 0.5]
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk J]
+
+＠J：剑士
+樱，我知道你很重视这个[#生产部:Grow]。
+[k]
+
+＠J：剑士
+也知道你不希望自己的容身之处与工作被夺走。
+[k]
+
+[charaFace J 3]
+
+＠J：剑士
+所以我会为此而行动。
+[k]
+
+＠J：剑士
+我会竭尽全力，为实现你这个愿望而工作。[r]作为你的从者。
+[k]
+
+＠J：剑士
+[#而不是]，[#作为朋友般的存在]。
+[k]
+
+＠J：剑士
+哪怕年龄相仿，那也只是外表看似如此而已。[r]彼此应该不需要过度亲近。
+[k]
+
+[charaTalk H]
+[charaFace H 9]
+
+＠H：樱
+……[r]……
+[k]
+
+[charaFace H 5]
+
+＠H：樱
+唔，嗯。或许，是这样吧。[r]但不知为何，我总觉得……
+[k]
+
+[charaTalk J]
+[charaFace J 13]
+
+＠J：剑士
+我该走了。[r]你继续忙你的工作吧，樱。
+[k]
+
+[messageOff]
+[se ad73]
+[charaPut T -120,50]
+[charaScale T 1.2]
+[charaEffect T bit_talk_quickmove]
+[charaSpecialEffect J erasureReverse 1 0.3]
+[wt 1.0]
+
+[charaTalk H]
+[charaFace H 9]
+[cameraMove 1.5 -60,-20 1.1]
+[wt 2.5]
+
+[charaFace H 8]
+
+＠H：樱
+好了。继续工作吧，工作。
+[k]
+
+＠H：樱
+看来这个批次能收获到大家伙，[r]我必须鼓足干劲才行。
+[k]
+
+[messageOff]
+[charaCrossFade H 1098268930 25 0.4]
+[wait charaCrossFade H]
+[charaMoveReturn H 100,-15 0.3]
+
+＠樱
+[line 3]呣！
+[k]
+
+[messageOff]
+[charaSet G 1098268900 1 樱]
+
+[subCameraOn 1]
+[charaLayer O sub #A]
+[charaLayer A sub #A]
+[charaLayer G sub #A]
+[subCameraFilter #A through]
+
+[charaDepth O 1]
+[charaDepth A 2]
+[charaDepth G 2]
+
+[charaScale O 1.01]
+[charaFadein O 0.1 0,-200]
+[wt 0.1]
+[subRenderFadein #A 0.5 0,0]
+[wt 0.7]
+[charaFadeout R 0.1]
+[charaFadeout H 0.1]
+[cameraHome 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠A：生产部ＡＩ
+……噢噢～，那是首席鼓足干劲的表现，[r]粗暴首席姿势……
+[k]
+
+＠A：生产部ＡＩ
+……相传只有当她斗志昂扬时，[r]才会出现的，那传说中的，呣。
+[k]
+
+[charaFace A 7]
+
+＠A：生产部ＡＩ
+……好久没有，亲眼，看到了。[r]看来今天，会发生，好事……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 13]
+[charaFadein G 0.1 1]
+
+＠樱
+别，别说那种奇怪的话啦？[r]我只是很正常鼓起点干劲而已啊？
+[k]
+
+＠樱
+……可若问是否已经成为习惯了，[r]或许的确没错啦。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_92 1.0 0.5]
+[wait fade]
+
+[charaFadeout O 0.1]
+[charaFadeout A 0.1]
+[charaFadeout G 0.1]
+[charaLayer O normal]
+[charaLayer A normal]
+[charaLayer G normal]
+[subCameraOff]
+
+[pictureFrameTop cut063_cinema]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaPut I 0,-60]
+[charaTalk I]
+[charaFace I 12]
+[se ad223]
+[fowardEffect bit_talk_quickmove]
+[charaSpecialEffect I appearance 1 0.25]
+[wt 0.5]
+[charaMove I 0,-50 0.5]
+[wt 1.0]
+
+[charaDepth N 1]
+[charaDepth I 2]
+[charaPut N 0,-200]
+[charaFadeTime N 0.2 0.5]
+
+＠Saber
+（……这样应该，就可以了。）
+[k]
+
+[charaFace I 11]
+
+＠Saber
+（虽说不明缘由，但我总觉得……）
+[k]
+
+＠Saber
+（[#自己不该跟她有所接触]。[r]　唯独这点是可以肯定的。）
+[k]
+
+[charaFace I 0]
+
+＠Saber
+（所以，这样就可以了[line 3]）
+[k]
+
+[bgmStop BGM_EVENT_92 1.0]
+
+[charaFadeout N 0.2]
+[charaFace I 16]
+
+＠Saber
+……！？
+[k]
+
+[messageOff]
+[charaTalk depthOn]
+[se ad73]
+[charaEffect I bit_talk_quickmove]
+[charaSpecialEffect I erasureReverse 1 0.3]
+[wt 0.5]
+
+[wipeout leftToRight 0.5 1.0]
+[wait wipe]
+
+[pictureFrame]
+[wt 0.2]
+
+[wipein rightToLeft 0.5 1.0]
+[wait wipe]
+
+[charaPut I 1]
+[charaTalk I]
+[charaFace I 1]
+[se ad223]
+[fowardEffect bit_talk_quickmove]
+[charaSpecialEffect I appearance 1 0.25]
+[wt 1.0]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_71 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠Lancer
+哎哟？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 22]
+[charaFadein M 0.1 1]
+
+＠Lancer的御主
+怎么办啦。[r]我就说了肯定会来的……
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 2]
+[charaFadein I 0.1 1]
+
+＠Saber
+从者，和御主……！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠Lancer
+嗯。我是[#Lancer:枪兵]，打扰啦。
+[k]
+
+＠Lancer
+你……手上拿着剑，是[#Saber:剑士]吗？[r]不过这剑真小呢。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 0.1 1]
+
+＠Saber
+至于这把小小的剑能否杀死你，[r][line 3]你想试试吗？
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.2]
+
+[charaTalk off]
+[charaTalk depthOff]
+[subCameraOn 1]
+[charaLayer O sub #A]
+[charaLayer L sub #A]
+
+[charaDepth R 1]
+[charaDepth J 2]
+[charaDepth O 3]
+[charaDepth L 4]
+
+[charaScale R 1.2]
+[charaScale J 1.2]
+[charaScale O 1.2]
+[charaScale L 1.2]
+[charaFace L 0]
+[charaFadein O 0.1 330,-20]
+[charaFadein L 0.1 -120,255]
+[wt 0.1]
+
+[subCameraFilter #A maskEdge cut359_mask10 4 0,0,0,255 0]
+[subRenderFadein #A 0.4 -200,-300]
+[charaFace J 1]
+[charaFadein R 0.4 -100,-220]
+[charaFadein J 0.4 286,75]
+[charaMove R -100,-270 0.4]
+[charaMove J 286,0 0.4]
+[charaMove O 330,30 0.4]
+[charaMove L -120,330 0.4]
+[wt 2.5]
+
+[charaMove R -100,-320 0.5]
+[charaMove J 286,-50 0.5]
+[charaMove O 330,80 0.5]
+[charaMove L -120,380 0.5]
+[charaFadeout R 0.4]
+[charaFadeout J 0.4]
+[subRenderFadeout #A 0.4]
+[wt 1.0]
+[subCameraOff]
+
+[bgm BGM_EVENT_71 0.5 0.5]
+
+[charaTalk on]
+[charaDepth N 1]
+[charaDepth M 2]
+[charaTalk M]
+[charaFace M 22]
+[charaFadein M 0.1 1]
+[charaPut N 0,-200]
+[charaFadeTime N 0.2 0.5]
+
+＠Lancer的御主
+（不可能啦。快住手，[#Lancer:枪兵]。[r]　会输的。毕竟我，就是这副德行啊。）
+[k]
+
+[charaFace M 3]
+
+＠Lancer的御主
+（因为我……是肯定会输的、一事无成的，罪人啊。[r]　是注定，会遭受惩罚的[line 3]）
+[k]
+
+[charaFadeout N 0.2]
+[charaFadeout M 0.2]
+[wt 0.2]
+
+[bgm BGM_EVENT_71 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 1]
+
+＠Lancer
+……开玩笑啦。
+[k]
+
+＠Lancer
+放心吧。虽然我姑且拿来了武器，[r]但却无意跟你干架啦。
+[k]
+
+＠Lancer
+而且你那边御主好像也不在嘛。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 16]
+[charaFadein I 0.1 1]
+
+＠Saber
+[line 3]哈？
+[k]
+
+[charaFace I 1]
+
+＠Saber
+说什么胡话呢。你是参加圣杯战争的从者吧。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠Lancer
+这话是没错啦，虽然没错，[r]但现在还有更重要的事。
+[k]
+
+＠Lancer
+战斗前先得吃饭，最重要的就是吃饭。[r]不填饱肚子谈何战斗。
+[k]
+
+＠Lancer
+不能让御主吃上美味的饭菜[r]打起精神来还谈何战斗。
+[k]
+
+[charaFace K 2]
+
+＠Lancer
+所以！[r]我是来[#生产部:这里]采购食材的！
+[k]
+
+[charaFace K 0]
+
+＠Lancer
+不是为了战斗。[r]所以收起你的剑吧，[#Saber:剑士]。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+
+＠Saber
+你白痴吗？[r]这种话谁会信啊？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠Lancer
+得不到你的信赖就无从谈起了。[r]……好，那这么办吧。
+[k]
+
+[bgmStop BGM_EVENT_71 1.5]
+
+[messageOff]
+[charaMove K 0,-50 0.4]
+[charaFadeout K 0.4]
+[wt 0.5]
+[cueSe SE_21 21_ad1074 0 0.6]
+[wt 1.0]
+
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 0.1 1]
+
+＠Saber
+一屁股坐在地上……想干什么？
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[blur lens 0.5 2 20]
+[charaTalk depthOff]
+[subCameraOn 1]
+[charaTalk L]
+[charaFace K 0]
+[charaFadein O 0.1 0,300]
+[charaFadein L 0.1 0,245]
+[wt 0.1]
+[subCameraFilter #A maskEdge cut359_mask08 4 135,83,209,255 0]
+[subRenderFadein #A 0.4 -50,-300]
+[subRenderMove #A 0,-300 0.3]
+[wt 0.7]
+
+[bgm BGM_SENGOKU_1 0.1]
+
+＠L：枪兵
+[#Saber:剑士]，把你的御主叫过来吧。
+[k]
+
+＠L：枪兵
+我不会撒谎。只要真心诚意地解释，[r]一定能向你的御主传达我的真心吧。
+[k]
+
+[messageOff]
+[blurOff lens 0.5]
+[subRenderFadeout #A 0.4]
+[wt 0.5]
+[charaFadeout O 0.1]
+[charaFadeout L 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+
+＠Saber
+果然是白痴[line 3][wt 0.6][charaFace I 2][r]……！
+[k]
+
+[charaLayer O normal]
+[charaLayer L normal]
+
+[bgm BGM_SENGOKU_1 0.5 0.5]
+
+[charaDepth N 1]
+[charaDepth I 2]
+[charaPut N 0,-200]
+[charaFadeTime N 0.2 0.5]
+
+＠Saber
+（……对了，有可能是声东击西！[r]　趁把我拖在这里的机会……樱！）
+[k]
+
+[messageOff]
+[charaFadeout N 0.2]
+[charaFace I 1]
+
+[bgm BGM_SENGOKU_1 0.5 1.0]
+[wt 1.0]
+
+[se ad73]
+[charaEffect I bit_talk_quickmove]
+[charaSpecialEffect I erasureReverse 1 0.3]
+[wt 1.0]
+
+[se ad984]
+[charaTalk depthOn]
+[charaTalk K]
+[charaFace K 9]
+[charaFadein K 0.4 0,-30]
+[charaMove K 1 0.4]
+[wt 0.4]
+
+＠Lancer
+哎呀？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 5]
+[charaFadein M 0.1 1]
+
+＠Lancer的御主
+我就说不可能啦。快回去吧……
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_SENGOKU_1 1.0 0.5]
+[wait fade]
+
+[charaFadeout M 0.1]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_SENGOKU_1 1.0 1.0]
+[wait fade]
+
+[messageOff]
+[charaTalk I]
+[charaFace I 3]
+[se ad223]
+[fowardEffect bit_talk_quickmove]
+[charaSpecialEffect I appearance 1 0.25]
+[wt 0.4]
+
+＠Saber
+樱！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 16]
+[charaFadein G 0.1 1]
+
+＠樱
+怎，怎么了？[r]这样大惊失色……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠Saber
+[line 3]你没事啊。
+[k]
+
+＠Saber
+是我杞人忧天……不，[r]说不定只是还没来而已。
+[k]
+
+＠Saber
+敌人来了。[r]保险起见，先离开这里[line 3]
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth N 1]
+[charaDepth I 2]
+[charaDepth R 3]
+[charaDepth L 4]
+[charaDepth M 5]
+
+[se ade372]
+[seVolume ade372 0 0.7]
+[charaFadein R 0.4 0,-270]
+[charaMove R 30,-270 0.5]
+[wt 1.5]
+
+[seStop ade372 0.5]
+[charaPut L 0,5]
+[charaScale L 1.1]
+[charaTalk L]
+[charaFace L 0]
+[se ad322]
+[seVolume ad322 0 0.7]
+[fowardEffect bit_talk_quickmove]
+[charaSpecialEffect L appearance 1 0.25]
+[fowardEffect bit_talk_impactlanding]
+[shake 0.05 0 3 1.0]
+[wt 1.0]
+[charaMove L 0,25 0.5]
+[wt 1.5]
+
+＠L：枪兵
+嘿，咻。[r]我放你下来啦？
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMove R 120,-270 1.0]
+[charaMove L 90,25 1.0]
+[wt 1.0]
+
+[se ad661]
+[seVolume ad661 0 0.6]
+[seStop ad661 0.5]
+[charaMoveReturn L 90,-15 0.8]
+[charaFace M 6]
+[charaFadein M 0.4 -180,30]
+[charaMove M -180,0 0.4]
+[wt 0.4]
+[se ad775]
+[seVolume ad775 0 0.5]
+[wt 0.4]
+
+＠Lancer的御主
+为什么还要前进啊，笨蛋……！
+[k]
+
+[messageOff]
+[charaFadeout R 0.5]
+[charaFadeout L 0.5]
+[charaFadeout M 0.5]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk I]
+[charaFace I 17]
+
+＠Saber
+枪兵！
+[k]
+
+[bgm BGM_SENGOKU_1 0.5 0.5]
+
+[charaPut N 0,-200]
+[charaFadeTime N 0.2 0.5]
+
+＠Saber
+（哪怕是跟着我，也未免太快了。[r]　我是全速赶回来的，速度竟能与我匹敌……！？）
+[k]
+
+[charaFadeout N 0.2]
+[charaFadeout I 0.2]
+[wt 0.2]
+
+[bgm BGM_SENGOKU_1 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠Lancer
+唔，你那是什么眼神？
+[k]
+
+＠Lancer
+哦哦，这个嘛，因为我有点风之加护啦。[r]别看我块头大，人可不迟钝哦。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 0.1 1]
+
+＠Saber
+……[r]……
+[k]
+
+＠Saber
+为了知道御主的位置，利用了我吗。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 9]
+[charaFadein K 0.1 1]
+
+＠Lancer
+不，是因为你自己一声不吭转头就走吧。
+[k]
+
+[charaFace K 8]
+
+＠Lancer
+我是叫你把御主带来，[r]但可没说过我会在原地干等，
+[k]
+
+＠Lancer
+既然你转头就跑，[r]我还以为你是要给我们带路，就追了上来。
+[k]
+
+[charaFace K 5]
+
+＠Lancer
+不过，这点小事先不深究了[line 3][r]哟，你就是[#Saber:剑士]的御主吗？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 16]
+[charaFadein G 0.1 1]
+
+＠樱
+……没错。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+
+＠Saber
+不用和他说话。[r]快退后，樱。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠Lancer
+要我重复多少遍都行，我们不是来战斗的。
+[k]
+
+＠Lancer
+我是厨师。[r]然后，在这个世界做菜又需要素材。
+[k]
+
+＠Lancer
+所以我才会前来采购。[r]作为生产源头的这里肯定会有上等的素材吧？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠樱
+做，菜……？[r]所以最近流通的那个，是你做的？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 1]
+
+＠Lancer
+哦，你吃过了吗？　很好吃吧？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠A：生产部ＡＩ
+非常好吃。[r]一回想起来……就仿佛在做梦……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 1]
+[charaFadein K 0.1 1]
+
+＠Lancer
+哈哈哈，是吗是吗！　能得知我做的菜[r]对ＡＩ也管用，真令人高兴呢！
+[k]
+
+[charaFace K 3]
+
+＠Lancer
+不过，我们家这位阴沉的御主[r]好像对成品还不够满意呢。
+[k]
+
+[messageOff]
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 8]
+[charaFadein M 0.1 1]
+[wt 1.5]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠Lancer
+顶级的料理始于顶级的食材。[r]所以，我才会来这里。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[bgmStop BGM_SENGOKU_1 1.5]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠樱
+原来如此……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+
+＠Saber
+你相信他吗？[r]相信这家伙说的话吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_92 0.1]
+[charaTalk G]
+[charaFace G 16]
+[charaFadein G 0.1 1]
+
+＠樱
+唔～，因为，倘若他真的想骗我们，[r]应该没必要特地说这番话吧。
+[k]
+
+＠樱
+如果他打算战斗，肯定会想办法[r]抢在我们会合之前动手吧。
+[k]
+
+[charaFace G 0]
+
+＠樱
+而且[line 3]
+[k]
+
+[charaFace G 7]
+
+＠樱
+而且，你不觉得有股很香的味道吗？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 9]
+[charaFadein I 0.1 1]
+
+＠Saber
+这……确实，能闻到。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠樱
+所以，我觉得[#Lancer:枪兵]是厨师这点没有骗人。
+[k]
+
+＠樱
+身为[#生产部:Grow]的首席ＡＩ，[r]将素材提供给能有效加以活用的
+[k]
+
+＠樱
+[#维持部:Keep]的孩子是分内之事哦。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 5]
+[charaFadein M 0.1 1]
+
+＠Lancer的御主
+……虽然不是我要求提供的……
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠樱
+而且，我刚才也说了吧？[r]希望对方能教我怎么做菜。
+[k]
+
+＠樱
+我有各种问题想打听。[r]所以，这次就试着相信吧，[#Saber:剑士]？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠Saber
+……[r]……
+[k]
+
+[charaFace I 13]
+
+＠Saber
+本以为你这人很软弱，[r]没想到既笨又顽固呢。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠樱
+说人家笨未免太过分了吧～。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+
+＠Saber
+不准你擅自行动。[r]只要胆敢轻举妄动，我就杀了你。
+[k]
+
+＠Saber
+[line 3]而且不限对象。[r]哪怕御主轻举妄动，也照杀无误。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 1]
+
+＠Lancer
+噢，没问题！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 6]
+[charaFadein M 0.1 1]
+
+＠Lancer的御主
+有问题吧！？
+[k]
+
+[charaFace M 3]
+
+＠Lancer的御主
+不……反正就算被杀也肯定是我先遭殃吧。[r]我有这种预感。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠Lancer
+不是，我说的没问题指的是[r]应该能弄到素材的这种发展。
+[k]
+
+＠Lancer
+无论发生什么，你都不会死啦。[r]有我保护你，你绝对死不了。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 14]
+[charaFadein M 0.1 1]
+
+＠Lancer的御主
+……[r]……
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 1]
+[charaFadein K 0.1 1]
+
+＠Lancer
+好，看来风头正劲！
+[k]
+
+[charaFace K 0]
+
+＠Lancer
+那事不宜迟，给我看看这里最好的[#食材:素材]吧。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 13]
+[charaFadein G 0.1 1]
+
+＠樱
+仔细想来，也许还是第一次有人[r]如此积极地追求素材的品质呢。
+[k]
+
+＠樱
+我也斗志昂扬起来了，身为首席ＡＩ，[r]必须好好向客人展示货物才行。
+[k]
+
+[messageOff]
+[charaCrossFade G 1098268930 25 0.4]
+[wait charaCrossFade G]
+[charaMoveReturn G 0,-5 0.3]
+
+＠樱
+呣！
+[k]
+
+[charaFace G 0]
+
+＠樱
+虽然我还不理解你心目中『最好的』是什么，
+[k]
+
+＠樱
+总之先带你们去仓库吧。
+[k]
+
+＠樱
+那里应该能找到即将出货、[r]好评如潮的素材。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 1]
+[charaFadein K 0.1 1]
+
+＠Lancer
+噢，是吗。那拜托啦！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_92 1.0]
+[wait fade]
+
+[charaSet G 1098268900 1 樱]
+
+[charaFadeout K 0.1]
+
+[scene 190200]
+
+[charaTalk depthOff]
+[charaDepth P 1]
+[charaDepth Q 2]
+[charaScale P 1.3]
+[charaScale Q 1.3]
+[charaFadein P 0.1 -100,-350]
+[charaFadein Q 0.1 190,-200]
+[wt 1.0]
+
+[charaMove Q 190,-300 10.0]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_167 0.1]
+
+
+[wt 3.0]
+
+[charaMove P -190,-350 8.0]
+[charaFadeout Q 1.5]
+[wt 4.5]
+
+[charaFadeout P 1.0]
+[wt 1.5]
+[sceneSet P 190200 1]
+[sceneSet Q 190200 1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠Lancer
+噢噢，确实有很多呢。[r]让我品鉴一下吧。
+[k]
+
+＠Lancer
+还有我从未见过的东西呢，
+[k]
+
+＠Lancer
+不过预测烹饪出来的成品如何，[r]才是考验厨师本领的时候。
+[k]
+
+＠Lancer
+让我瞧瞧……
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+[bgm BGM_EVENT_167 0.7 0.5]
+[wait wipe]
+
+[charaFadeout K 0.1]
+
+[subCameraOn 1]
+[charaLayer L sub #A]
+[subCameraFilter #A through]
+[charaScale L 1.5]
+[charaTalk L]
+[charaFace L 0]
+[subRenderFadein #A 0.0 0,0]
+[charaFadein L 0.1 -115,150]
+
+[charaDepth S 1]
+[charaDepth I 2]
+[charaDepth G 3]
+[charaDepth N 4]
+[charaDepth M 5]
+
+[charaFadein S 0.1 190,-200]
+
+[cameraMove 0.1 0,0 1.01]
+[wt 0.5]
+
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[bgm BGM_EVENT_167 0.7 1.0]
+[wait wipe]
+
+[charaMove L -400,150 1.5]
+[charaMove S 0,-200 1.5]
+[wt 1.5]
+
+[subBlur #A lens 0.1 2 20 1.0 subBlur]
+[charaTalk G]
+[charaFace G 15]
+[charaFace I 0]
+[charaFadein I 0.1 450,0]
+[charaFadein G 0.1 180,0]
+
+＠樱
+那边的真的都是我们引以为傲的素材，[r]如何。不知能否让他满意……
+[k]
+
+[charaTalk I]
+[charaFace I 3]
+
+＠Saber
+怎么看他都只是在随便挑挑拣拣而已。
+[k]
+
+＠Saber
+他的目的说不定就是通过那样粗暴地翻找[r]来降低素材的价值。你打算容忍到什么地步？
+[k]
+
+[charaFace I 1]
+
+＠Saber
+啊，还闻气味了。[r]如果再任由他乱来，接下来就该是又舔又咬了吧。
+[k]
+
+＠Saber
+还是在赶那之前杀了他吧？
+[k]
+
+[charaTalk G]
+[charaFace G 19]
+
+＠樱
+算，算啦算啦。
+[k]
+
+＠樱
+如果真的舔了或咬了，[r]那肯定得让他买下来才行……
+[k]
+
+＠樱
+不过说到底，那也只是这批次中的一件。[r]如果品鉴时需要，这也在所难免吧。
+[k]
+
+[messageOff]
+[charaMove S 76,-200 1.0]
+[charaMove I 526,0 1.0]
+[charaMove G 2 1.0]
+[charaMove L -324,150 1.0]
+[charaFadeout L 0.4]
+[charaFadeout I 0.4]
+[charaFadeout M 0.4]
+[wt 1.0]
+[charaLayer L normal]
+
+[bgm BGM_EVENT_167 0.5 0.5]
+
+[charaTalk M]
+[charaFace M 3]
+[charaFadein M 0.1 0]
+[charaPut N 0,-200]
+[charaFadeTime N 0.2 0.5]
+
+＠Lancer的御主
+（唉，就不能快点结束吗……）
+[k]
+
+[charaFadeout N 0.2]
+[wt 0.2]
+[subBlurOff #A lens 0 normal]
+[subRenderFadeout #A 0.1]
+[subCameraOff]
+
+[bgm BGM_EVENT_167 0.5 1.0]
+
+[charaTalk G]
+[charaFace G 0]
+
+＠樱
+……[r]……
+[k]
+
+＠樱
+请问～，[#Lancer:枪兵]的御主，小姐……[r]你是[#维持部:Keep]的首席ＡＩ，对吧？
+[k]
+
+[charaTalk M]
+[charaFace M 0]
+
+＠Lancer的御主
+大概是吧。
+[k]
+
+[charaTalk G]
+[charaFace G 16]
+
+＠樱
+大概？
+[k]
+
+[charaTalk M]
+
+＠Lancer的御主
+我们的人格是所谓的乱数器[r]覆盖在ＡＩ身上打造出来的。
+[k]
+
+＠Lancer的御主
+肯定是当时出了什么故障。[r]我啊，没什么身为ＡＩ的使命感。
+[k]
+
+＠Lancer的御主
+既没有曾经是这样的记忆，[r]也没有今后必须这么做的真实感。
+[k]
+
+[bgm BGM_EVENT_167 0.5 0.5]
+
+[charaFadeTime N 0.2 0.5]
+[charaFace M 3]
+
+＠Lancer的御主
+（不仅如此……我也绝对当不了什么，[r]　正常的，圣杯战争御主……）
+[k]
+
+[charaFadeout N 0.2]
+[charaFace M 4]
+
+[bgm BGM_EVENT_167 0.5 1.0]
+
+＠Lancer的御主
+……呼。这是怎么回事呢。
+[k]
+
+[charaFace M 0]
+
+＠Lancer的御主
+见到正常的你以后，[r]我重新认识到了。
+[k]
+
+＠Lancer的御主
+我无法再糊弄下去了。[r]虽然我原本也没打算糊弄。
+[k]
+
+＠Lancer的御主
+无论是身为ＡＩ，还是身为御主，[r]我多半是哪里出故障了……
+[k]
+
+[charaTalk G]
+
+＠樱
+是……这样吗？[r]但我看不出来啊。
+[k]
+
+[charaTalk M]
+
+＠Lancer的御主
+就是这样。
+[k]
+
+[charaTalk G]
+
+＠樱
+……可是，那个……
+[k]
+
+[charaFace G 0]
+
+＠樱
+啊，话说有件事得先问你呢，[r]我差点忘了。
+[k]
+
+＠樱
+你叫什么名字呢？
+[k]
+
+＠樱
+我叫樱。[r]是[#Saber:剑士]帮我起的。
+[k]
+
+[charaTalk M]
+
+＠Lancer的御主
+我没有，什么名[line 3]
+[k]
+
+[messageOff]
+[charaMove S 156,-200 0.8]
+[charaMove G 336,0 0.8]
+[charaMove M -176,0 0.8]
+
+[subCameraOn 2]
+[charaLayer P sub #A]
+[charaLayer K sub #A]
+[charaLayer Q sub #B]
+[charaLayer I sub #B]
+[charaScale K 1.2]
+[charaScale P 1.0]
+[charaScale Q 1.2]
+
+[charaDepth P 1]
+[charaDepth K 2]
+[charaDepth Q 1]
+[charaDepth I 2]
+
+[charaFace K 5]
+[charaFadein P 0.1 -200,50]
+[charaFadein K 0.1 -450,210]
+[charaFace I 13]
+[charaFadein I 0.1 520,200]
+[charaFadein Q 0.1 200,50]
+[wt 1.0]
+
+[charaTalk K]
+[subCameraFilter #A maskEdge cut359_mask12 4 135,83,209,255 0]
+[subCameraFilter #B maskEdge cut359_mask11 4 217,93,151,255 0]
+[subRenderFadeinFSSideL #A 0.3 95,200]
+[subRenderMoveFSSideL #A 95,-200 0.3]
+[wt 0.5]
+
+＠Lancer
+有哦～。
+[k]
+
+[charaTalk M]
+[charaFace M 6]
+
+＠Lancer的御主
+[#Lancer:枪兵]！
+[k]
+
+[charaTalk K]
+[charaFace K 0]
+
+＠Lancer
+你不是说过总觉得自己好像叫某个名字吗？[r]有名字就不用隐瞒啦，名字是很重要的。
+[k]
+
+[charaFace K 4]
+
+＠Lancer
+唔，这个形状不错！[r]味道嘛……嚯嚯……
+[k]
+
+
+[bgmStop BGM_EVENT_167 1.5]
+
+[messageOff]
+[charaTalk off]
+[subRenderFadeout #A 0.3]
+[wt 0.3]
+[charaFadeout P 0.1]
+[charaFadeout K 0.1]
+[wt 0.2]
+[charaMove S 76,-200 0.8]
+[charaMove G 2 0.8]
+[charaMove M 0 0.8]
+[wt 1.0]
+
+[charaFace M 7]
+[wt 1.0]
+
+[bgm BGM_MIZUGI_2020_1 0.1]
+[charaTalk on]
+[charaTalk M]
+[charaFace M 11]
+
+＠Lancer的御主
+……塞蕾雪拉。
+[k]
+
+[charaTalk G]
+
+＠樱
+是塞蕾雪拉小姐吗？[r]好美的名字呢。
+[k]
+
+[charaTalk M]
+[charaFace M 8]
+
+＠M：塞蕾雪拉
+不关我的事。
+[k]
+
+[charaTalk G]
+[charaFace G 8]
+
+＠樱
+呵呵呵。话说，塞蕾雪拉小姐[r]也吃过那道菜了吧？
+[k]
+
+[charaFace G 0]
+
+＠樱
+非常好吃呢。[r]是[#Lancer:枪兵]做的吧？
+[k]
+
+＠樱
+好吃到我都想知道是怎么做的，[r]想让他教教我该怎么做呢。
+[k]
+
+[charaTalk M]
+[charaFace M 5]
+
+＠M：塞蕾雪拉
+那就让他教你吧。[r]那家伙……是个奇怪的从者。
+[k]
+
+＠M：塞蕾雪拉
+既不战斗，也不为战斗做准备，[r]只知道做菜逼我吃。
+[k]
+
+[charaTalk G]
+[charaFace G 8]
+
+＠樱
+哎呀。呵呵呵，你是在掩饰难为情吧。
+[k]
+
+＠樱
+随时都能吃到那种美味的饭菜，[r]听起来就像是在秀恩爱。
+[k]
+
+[charaFace G 0]
+
+＠樱
+不过，[#Saber:剑士]也是个好从者哦。
+[k]
+
+＠樱
+平时态度虽然冷冰冰的，[r]但其实非常温柔。
+[k]
+
+＠樱
+当我处理有些危险的工作时，[r]她都会默默地在我身后看着我[line 3]
+[k]
+
+[messageOff]
+[charaMove S 0,-200 0.8]
+[charaMove G 176,0 0.8]
+[charaMove M -336,0 0.8]
+[wt 1.0]
+[charaTalk I]
+[subRenderFadeinFSSideR #B 0.3 -95,200]
+[subRenderMoveFSSideR #B -95,-200 0.3]
+[wt 0.5]
+
+＠Saber
+樱。
+[k]
+
+[messageOff]
+[charaTalk off]
+[subRenderFadeout #B 0.3]
+[wt 0.3]
+[charaFadeout Q 0.1]
+[charaFadeout I 0.1]
+[wt 0.2]
+[charaLayer P normal]
+[charaLayer Q normal]
+[charaLayer K normal]
+[charaLayer I normal]
+[charaScale K 1.0]
+[subCameraOff]
+[charaMove S 76,-200 0.8]
+[charaMove G 2 0.8]
+[charaMove M 0 0.8]
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk G]
+[charaFace G 17]
+
+＠樱
+……呵呵，看来是要我别多嘴呢。
+[k]
+
+＠樱
+抱歉啦，[r]我平常也不是那种喜欢主动聊天的人。
+[k]
+
+＠樱
+[#生产部的ＡＩ们:型号Ｇ]大多都是些沉默寡言的孩子，[r]所以不知怎的，就沉浸在聊天中了。
+[k]
+
+[charaTalk M]
+[charaFace M 0]
+
+＠M：塞蕾雪拉
+……你这人真怪。
+[k]
+
+＠M：塞蕾雪拉
+还和我聊天……我可是敌方御主哦。[r]这样就像，朋友，一样。
+[k]
+
+[charaTalk G]
+[charaFace G 5]
+
+＠樱
+毕竟是给原本只具备功能性的ＡＩ[r]赋予了多余的拟似人格，
+[k]
+
+＠樱
+因此大家难免也会有些不合理或是奇怪的部分哦。
+[k]
+
+[charaFace G 0]
+
+＠樱
+所以就算是敌方御主，[r]我也想要跟你聊一聊。
+[k]
+
+＠樱
+我知道你是竞争对手，这点不会改变……[r]没错，就是一码归一码啦。
+[k]
+
+[charaFace G 17]
+
+＠樱
+其实[line 3][r]竞争对手也可以当朋友吧？
+[k]
+
+＠樱
+不行吗？
+[k]
+
+[charaTalk M]
+[charaFace M 3]
+
+＠M：塞蕾雪拉
+我，我……
+[k]
+
+＠M：塞蕾雪拉
+我在想，自己有那种资格吗？
+[k]
+
+＠M：塞蕾雪拉
+首席ＡＩ、御主，[r]某人的，朋友。
+[k]
+
+＠M：塞蕾雪拉
+我迄今为止的所作所为，[r]能让我有资格获得这些『身份』吗[line 3]
+[k]
+
+[charaTalk G]
+[charaFace G 16]
+
+＠樱
+迄今为止？　这话说得倒是奇怪。
+[k]
+
+[charaFace G 0]
+
+＠樱
+我们的起点，就是靠乱数器[r]诞生为御主的『当下』吧？
+[k]
+
+＠樱
+哪怕在以前的ＡＩ时代经历过些许失败，[r]那又有什么关系呢。
+[k]
+
+[charaTalk M]
+[charaFace M 14]
+
+＠M：塞蕾雪拉
+是……这样吗？
+[k]
+
+[charaTalk G]
+
+＠樱
+肯定是这样啦。[r]所以我觉得你不必放在心上哦。
+[k]
+
+[messageOff]
+[charaTalk M]
+[wt 1.5]
+
+[charaFace M 9]
+
+＠M：塞蕾雪拉
+……你这人真怪。
+[k]
+
+
+[messageOff]
+[charaTalk off]
+[charaFace G 17]
+[wt 1.5]
+
+[charaFadeout G 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MIZUGI_2020_1 1.5]
+
+[se ade422]
+[seVolume ade422 0 0]
+[seVolume ade422 1.2 1.0]
+[wt 1.5]
+[seStop ade422 0.6]
+[charaTalk on]
+[charaDepth K 2]
+[charaTalk K]
+[charaFace K 1]
+[charaFadein K 0.4 1]
+[wt 0.4]
+
+＠Lancer
+好～，就是这个！　无论尺寸还是光泽，[r]这些都是最棒的素材。
+[k]
+
+＠Lancer
+噢，这一批我全都包圆了！
+[k]
+
+[messageOff]
+[wt 1.2]
+
+[charaFace K 3]
+
+＠Lancer
+……啊～。[r]抱歉，是不是打扰到你们了？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk M]
+[charaFace M 4]
+[charaFadein M 0.1 1]
+
+＠塞蕾雪拉
+没，没有，完全没有。并不会。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠樱
+说得对，我们只是聊了会儿而已。[r]这段时间过得很有意义呢。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠Lancer
+那真是太好了。[r]然后，货款用拉妮物质支付就行了吧？
+[k]
+
+[messageOff]
+[charaDepth T 9]
+[cueSe SE_23 23_ad1304 0 0.8]
+[charaScale T 1.0]
+[charaPut T 1]
+[charaEffect T bit_talk_raniment01]
+[wt 2.5]
+
+＠Lancer
+拿去吧。
+[k]
+
+[messageOff]
+[charaMove T 200,0 0.8]
+[wt 0.5]
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[bgm BGM_EVENT_2 0.5 0.5]
+[cueSeVolume 23_ad1304 0.5 0.4]
+[wait wipe]
+
+[charaFadeout K 0.1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[charaMove T -200,0 0.1]
+[wt 0.1]
+
+[charaMove T 1 0.8]
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[bgm BGM_EVENT_2 0.5 1.0]
+[wait wipe]
+[wt 0.8]
+
+
+＠樱
+哎呀，这么多。[r]这汇率对我们有利了吧……？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 1]
+
+＠Lancer
+没事，毕竟是我们冒昧打扰。[r]里面也包括了强人所难的补偿。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaPut T 1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠樱
+你太客气了，非常感谢。
+[k]
+
+＠樱
+我不需要这么多，[r][#Saber:剑士]，交给你吧。
+[k]
+
+[messageOff]
+[charaMove S -50,-200 0.8]
+[charaMove G -126,0 0.8]
+[charaFadeout G 0.4]
+[wt 0.4]
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.4 63,0]
+[charaMove I 1 0.4]
+[wt 0.6]
+[cueSeStop 23_ad1304 0.2]
+[cueSe SE_23 23_ad1305 0 0.8]
+[charaEffectStop T bit_talk_raniment01]
+[wt 0.5]
+[se adm20]
+[charaEffectEdgeBlur I FFF9A5 FFF9A5 4 1.5]
+[wt 0.3]
+[charaEffectEdgeBlurStop I]
+[wt 3.5]
+[charaPut T 2000,2500]
+[charaEffectDestroy T bit_talk_raniment01]
+
+＠Saber
+……这就像是给敌人送粮草，[r]你脑袋没问题吗？　[#Lancer:枪兵]。
+[k]
+
+[charaFace I 3]
+
+＠Saber
+还是说，你觉得就算让我这几下，[r]也依然能赢我？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 3]
+[charaFadein K 0.1 1]
+
+＠Lancer
+你这人性子是多急躁啊。[r]我都说了暂时不会干架啦。
+[k]
+
+[charaFace K 0]
+
+＠Lancer
+现在的重点是做菜啦，做菜。[r]我得先想办法解决御主的愁眉苦脸才行。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+
+＠Saber
+暂时是到几时？
+[k]
+
+＠Saber
+我们身为这场圣杯战争参加者的事实不会改变。[r]战斗应该是无法避免的。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 3]
+[charaFadein K 0.1 1]
+
+＠Lancer
+谁知道，管他呢。
+[k]
+
+＠Lancer
+不只是你我之间，[r]我希望大家都可以再悠闲自在些。
+[k]
+
+[charaFace K 0]
+
+＠Lancer
+总之所有人都先尽情大吃一顿，[r]等到大家全都吃得饱饱的，
+[k]
+
+＠Lancer
+然后也没有其他事可做的时候[line 3]
+[k]
+
+＠Lancer
+再找个地方聚在一起办场消食大赛[r]不也挺好的吗？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+
+＠Saber
+……[r]……
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠Lancer
+就是这样啦，那我们先告辞了。[r]我得用这些食材去做一道至高无上的菜。
+[k]
+
+[charaFace K 11]
+
+＠Lancer
+呵呵呵，等着吧，御主，[r]这次我定会端出能让你拍手叫绝的菜色……！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 5]
+[charaFadein M 0.1 1]
+
+＠塞蕾雪拉
+我又没在等。
+[k]
+
+[charaFace M 4]
+＠塞蕾雪拉
+那么，那个……再见了。
+[k]
+
+[messageOff]
+[se ad95]
+[seStop ad95 2.0]
+[charaFadeout M 0.4]
+[charaMove M -50,0 1.0]
+[wt 1.5]
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+[wt 0.5]
+
+[bgmStop BGM_EVENT_2 2.5]
+
+[se ade422]
+[seStop ade422 2.0]
+[charaFadeout K 0.4]
+[charaMove K -50,0 1.0]
+[wt 3.5]
+
+[charaFadeout S 1.5]
+
+[charaSet A 5009000 1 特效2]
+[charaSet B 5009000 1 特效3]
+[charaSet C 5009000 1 特效4]
+[wt 2.5]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 18]
+[charaFadein G 0.1 1]
+
+＠樱
+我还想问问那道菜该怎么做呢，[r]但实在不敢找[#Lancer:枪兵]打听啊……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 13]
+[charaFadein I 0.1 1]
+
+＠Saber
+那当然啦。[r]就算你想上前问，我也会全力阻止。
+[k]
+
+[charaFace I 11]
+
+＠Saber
+真希望你能就此死了这条心。
+[k]
+
+＠Saber
+从保护圣杯战争御主的角度来看，[r]刚才那种情况过于危险了。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 16]
+[charaFadein G 0.1 1]
+
+＠樱
+是……这样吗？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠Saber
+你该不会真以为自己跟对方[r]建立起了信赖关系，成为了朋友吧。
+[k]
+
+＠Saber
+要是真这么以为，那你可太天真了。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠樱
+因为我最重视、最喜欢这[#生产部:地方]了。
+[k]
+
+＠樱
+或许也因此……会自然而然地对看好[#生产部:Grow]、[r]夸赞素材质量的人比较天真吧。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 13]
+[charaFadein I 0.1 1]
+
+＠Saber
+我劝你还是改变一下想法为好。
+[k]
+
+[charaFace I 0]
+
+＠Saber
+虽然目前我们只跟他们打了照面，[r]但圣杯战争的参加者未必全都是那样。
+[k]
+
+＠Saber
+这次能息事宁人纯属偶然。[r]万一再发生同样的事，下次会如何可就[line 3]
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_77 1.0]
+
+[se ad609]
+[shake 0.05 5 4 1.0]
+[wt 0.9]
+[seStop ad609 2.5]
+[shake 0.05 3 2 1.5]
+[wt 2.0]
+
+[bgm BGM_EVENT_122 0.1]
+
+[charaTalk G]
+[charaFace G 15]
+[charaFadein G 0.1 1]
+
+＠樱
+什，什么？
+[k]
+
+＠樱
+[line 3]大家！[r]发生什么事了，快告诉我！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth E 2]
+[charaDepth F 3]
+[charaDepth A 4]
+[charaDepth B 5]
+[charaDepth C 6]
+
+[charaPutFSR A 320,0]
+[charaPutFSL B -320,0]
+[charaPut C 1]
+[charaEffect A bit_talk_10_LowLevel]
+[charaEffect B bit_talk_10_LowLevel]
+[charaEffect C bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[wt 0.3]
+[charaTalk D]
+[charaFace D 1]
+[charaFace E 2]
+[charaFace F 0]
+[charaFadeinFSR D 0.1 320,0]
+[charaFadeinFSL E 0.1 -320,0]
+[charaFadein F 0.1 1]
+
+＠D：拉妮－Ｇ
+不好了……
+[k]
+
+[clear]
+[charaTalk E]
+
+＠E：拉妮－Ｇ
+……遭到袭击。
+[k]
+
+[clear]
+[charaTalk F]
+
+＠F：拉妮－Ｇ
+遭到从者的，袭击了……！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaPut A 2000,2000]
+[charaPut B 2000,2000]
+[charaPut C 2000,2000]
+
+[charaTalk off]
+[charaFace G 20]
+[charaFace I 14]
+[charaFadeinFSL G 0.1 0]
+[charaFadeinFSR I 0.1 2]
+[wt 2.0]
+
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_122 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

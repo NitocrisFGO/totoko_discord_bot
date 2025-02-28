@@ -1,0 +1,326 @@
+
+
+＄03-00-13-08-1-1
+
+[enableFullScreen]
+
+
+[charaSet A 1098252540 1 奥塞洛特尔]
+[charaSet B 1098252540 1 奥塞洛特尔]
+[charaSet C 1098252540 1 奥塞洛特尔2]
+[charaSet D 1098252540 1 奥塞洛特尔2]
+[charaSet E 1098252500 1 奥塞洛特尔3]
+[charaSet F 1098252540 1 奥塞洛特尔3]
+[charaSet G 1098253900 1 伊斯卡利]
+[charaSet H 1098254820 1 尼莫水兵]
+[charaSet I 1098252900 1 特佩乌]
+[charaSet J 1098257900 1 玛修]
+
+
+[scene 170000]
+
+[bgm BGM_EVENT_69 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk J]
+[charaFace J 6]
+[charaFadein J 0.1 1]
+[wt 0.3]
+
+[se ad7]
+[seVolume ad7 0 0.6]
+[se ad1006]
+[seVolume ad1006 0 0.6]
+[charaFace J 2]
+[charaMoveScale J 1.15 0.3]
+[charaMove J 0,36 0.3]
+[blur motion 0.3 4 100 0.5 0.6 0.03 100]
+[charaFadeout J 0.3]
+[se ad85]
+[wt 0.35]
+[blurOff motion 0.1]
+[wt 0.25]
+
+[cueSe Servants_800101 bac690]
+[fowardEffect bit_talk_14]
+[wt 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[charaShake A 0.02 3 3 0.6]
+[wt 1.0]
+
+[charaMove A 0,-50 0.4]
+[charaFadeout A 0.4]
+[wt 0.4]
+[se ad144]
+[wt 1.2]
+[fowardEffectDestroy bit_talk_14]
+
+[charaTalk off]
+[charaDepth A 6]
+[charaDepth B 5]
+[charaDepth C 4]
+[charaDepth D 3]
+
+[cueSe SE_22 22_ade707]
+[wt 0.4]
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+[charaFace D 0]
+[charaFadeinFSR A 0.4 105,0]
+[charaFadeinFSL B 0.4 -105,0]
+[charaFadeinFSSideR C 0.4 350,0]
+[charaFadeinFSSideL D 0.4 -350,0]
+[wt 0.4]
+[cueSeStop 22_ade707 0.2]
+[wt 0.4]
+
+[se ad346]
+[wt 0.1]
+[charaMoveReturnFSR A 105,-3 0.2]
+[wt 0.3]
+[charaMoveReturnFSSideL D -350,-3 0.2]
+[wt 0.1]
+[charaMoveReturnFSSideR C 350,-3 0.2]
+[wt 0.1]
+[charaMoveReturnFSL B -105,-3 0.2]
+[wt 0.8]
+
+[cueSe SE_22 22_ad1223]
+＠奥塞洛特尔们
+[i npc_language_17]，[i npc_language_18][line 3]！[wt 0.3]
+[k]
+
+[cueSeStop 22_ad1223 0.5]
+[bgmStop BGM_EVENT_69 1.5]
+
+[charaTalk on]
+＠G：？？？
+慢着，还不能开枪。
+[k]
+
+＠G：？？？
+一群战斗狂。[r]难道不明白凭你们是杀不死[&他们:她们]的吗？
+[k]
+
+＠G：？？？
+刚才那是从者，[r]而那些家伙则是那什么迦勒底的残党。
+[k]
+
+＠G：？？？
+职务是叫御主吧？[r]指挥水平挺不错，可惜目光太短浅了。
+[k]
+
+＠G：？？？
+还是说看到同伴的尸体气血上涌了？[r]背后空门大开了哦，蠢货。
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.2]
+
+[charaSet B 1098252500 1 奥塞洛特尔]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth H 9]
+[charaDepth G 8]
+[charaDepth A 7]
+[charaDepth B 6]
+[charaDepth C 5]
+[charaDepth D 4]
+[charaDepth E 2]
+[charaDepth F 3]
+
+[charaFace A 0]
+[charaFace D 0]
+[charaFace B 0]
+[charaFace E 0]
+[charaFace C 0]
+[charaFace F 0]
+[charaFadein A 0.1 100,0]
+[charaFadein D 0.1 -100,0]
+[charaFadeinFSR B 0.1 250,-50]
+[charaFadeinFSL E 0.1 -300,-50]
+[charaFadeinFSSideR C 0.1 400,0]
+[charaFadeinFSSideL F 0.1 -450,0]
+
+[charaFace G 0]
+[charaFace H 6]
+[charaFadein G 0.1 1]
+[charaFadein H 0.1 -185,0]
+[wt 0.4]
+[cameraMove 0.1 70,-15 1.2]
+[wt 0.1]
+[se ad183]
+[charaShake H 0.05 2 2 0.8]
+[charaMove H -175,0 0.8]
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+[wt 1.0]
+[cameraMove 2.0 0,0 1.01]
+[wt 2.5]
+
+
+[bgm BGM_EVENT_71 0.1]
+
+？1：水兵……！
+？2：（糟了，刚才那是诱饵……！）
+
+？！
+
+[charaFadeout A 0.2]
+[charaFadeout B 0.2]
+[charaFadeout C 0.2]
+[charaFadeout D 0.2]
+[charaFadeout E 0.2]
+[charaFadeout F 0.2]
+[charaFadeout G 0.2]
+[charaFadeout H 0.2]
+[wt 0.2]
+
+[charaTalk on]
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+＠特佩乌
+水兵？　你怎么会在那边？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace G 0]
+[charaFace H 6]
+[charaFace A 0]
+[charaFace D 0]
+[charaFace B 0]
+[charaFace E 0]
+[charaFace C 0]
+[charaFace F 0]
+[charaFadein G 0.2 1]
+[charaFadein H 0.2 -175,0]
+[charaFadein A 0.2 100,0]
+[charaFadein D 0.2 -100,0]
+[charaFadeinFSR B 0.2 250,-50]
+[charaFadeinFSL E 0.2 -300,-50]
+[charaFadeinFSSideR C 0.2 400,0]
+[charaFadeinFSSideL F 0.2 -450,0]
+[wt 0.2]
+
+＠尼莫水兵
+抱歉～我被捉住啦～～！[r]双手被绑在身后了～～！
+[k]
+
+＠G：？？？
+闭嘴，敢再开口我就杀了你。[r]就跟这艘舰艇上那帮家伙一样。
+[k]
+
+[charaFace G 8]
+
+＠G：？？？
+你不过是用来折磨那个[&男人:女人]的工具。[r]随时都可以弄坏。
+[k]
+
+[charaFadeout A 0.2]
+[charaFadeout B 0.2]
+[charaFadeout C 0.2]
+[charaFadeout D 0.2]
+[charaFadeout E 0.2]
+[charaFadeout F 0.2]
+[charaFadeout G 0.2]
+[charaFadeout H 0.2]
+[wt 0.2]
+
+[charaScale J 1.0]
+[charaTalk J]
+[charaFace J 15]
+[charaFadein J 0.1 1]
+
+[se ad984]
+[seVolume ad984 0 0.4]
+＠玛修
+[line 3][charaMove J 0,-6 0.6]
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFace H 6]
+[charaFace A 0]
+[charaFace D 0]
+[charaFace B 0]
+[charaFace E 0]
+[charaFace C 0]
+[charaFace F 0]
+[charaFadein G 0.2 1]
+[charaFadein H 0.2 -175,0]
+[charaFadein A 0.2 100,0]
+[charaFadein D 0.2 -100,0]
+[charaFadeinFSR B 0.2 250,-50]
+[charaFadeinFSL E 0.2 -300,-50]
+[charaFadeinFSSideR C 0.2 400,0]
+[charaFadeinFSSideL F 0.2 -450,0]
+[wt 0.2]
+
+＠G：？？？
+不许动，女人。只要敢动，我就先杀了这家伙。[r]在动手前我有话要说，给我听着。
+[k]
+
+＠G：？？？
+我是伊斯卡利，[r]奥塞洛特尔的领袖，墨西哥城之王。
+[k]
+
+[charaFace G 8]
+
+＠伊斯卡利
+你叫什么名字，御主。[r]报上名来。在杀你之前就先问问好了。
+[k]
+
+[charaFace G 2]
+
+＠伊斯卡利
+就作为悲哀的泛人类史留下的最后记录，[r]刻在米克特兰的历史上吧。
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_71 2.0]
+[wait fade]
+
+[input selectBranch]
+[seStop ade53 0.4]
+[seStop ad7 0.4]
+[seStop ad1006 0.4]
+[seStop ad85 0.4]
+[seStop ad144 0.4]
+[seStop ad984 0.4]
+[seStop ade53 0.4]
+[seStop 22_ade707 0.4]
+[seStop 22_ad1223 0.4]
+
+[bgmStop BGM_EVENT_69 0.4]
+[bgmStop BGM_MAP_52 0.4]
+[bgmStop BGM_EVENT_71 0.4]
+
+[label selectBranch]
+
+[wt 0.5]
+[end]

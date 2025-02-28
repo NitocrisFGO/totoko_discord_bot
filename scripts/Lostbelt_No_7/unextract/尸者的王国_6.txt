@@ -1,0 +1,511 @@
+
+
+＄03-00-13-14-6-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252900 1 特佩乌]
+[charaSet B 1098253800 1 瓦克昌]
+[charaSet C 1098258700 1 神官迪诺斯]
+[charaSet D 1098253300 1 神官乌库伯]
+[charaSet E 1098252940 1 特佩乌（B）]
+[charaSet F 1098253310 1 神官乌库伯（B）]
+[imageSet G back10000 1 1]
+[charaScale G 1.3]
+[sceneSet H 169903 1]
+[sceneSet I 169903 1]
+
+
+
+[scene 169501]
+
+[pictureFrame cut063_cinema]
+
+[fadein black 1.5]
+[wait fade]
+
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0.1]
+[cueSeVolume 22_ad1210 1.0 1.0]
+[wt 1.3]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 0,-50]
+[wt 0.1]
+[cueSeStop 22_ad1210 0.2]
+[wt 0.7]
+
+[bgm BGM_EVENT_116 0.1]
+
+＠特佩乌
+瓦克昌，我找你好久了。[r]你也该恢复健全的状态了吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 0,-50]
+＠瓦克昌
+不行了，无法变得健全！[r]在太阳消失之前，我什么都不想做了～！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0,-50]
+＠E：特佩乌
+脑波姑且不论，身体看来还完好呢。[r]那我传达一下。
+[k]
+
+＠E：特佩乌
+等夜晚一结束，[r]迦勒底的各位便会前往第七层。
+[k]
+
+＠E：特佩乌
+如果你愿意作为行李运货人同行，[r]应该能减轻[%1]他们的负担。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 0,-50]
+＠瓦克昌
+第七层吗，好厉害啊！[r]『恐怖之地』已经近在眼前了吧！
+[k]
+
+＠瓦克昌
+我也只在小时候被老爹带去过一次而已！[r]我只记得自己看见了星星！
+[k]
+
+[charaFace B 7]
+＠瓦克昌
+听起来很有意思呢！[r]难道那些家伙只要心怀目标，哪里都敢去吗！
+[k]
+
+[charaFaceFade B 3 0.2]
+＠瓦克昌
+……啊～……[r]但是……奥尔加是不是也跟他们在一起呢……
+[k]
+
+＠瓦克昌
+我实在想不到该对她说什么才好……
+[k]
+
+＠瓦克昌
+只是隐约明白，当时如果没选择离开，[r]而是去鼓励她就好了……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 0,-50]
+＠特佩乌
+……瓦克昌，U－奥尔加玛丽[r]已经不在奇琴伊察了。
+[k]
+
+[bgmStop BGM_EVENT_116 2.0]
+＠特佩乌
+她与迦勒底分别了。[r]估计再也不会回来了吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0,-50]
+＠瓦克昌
+啊[messageShake 0.05 4 3 0.3]！？　为什么会变成这样！？[r]他们不是同伴吗！？　特佩乌知道些什么吧！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_10 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+＠E：特佩乌
+这是个好机会，由我来说明好了。
+[k]
+
+[charaFaceFade E 6 0.2]
+＠E：特佩乌
+这都是根据以往的对话与信息推测出来的，[r]U－奥尔加玛丽是迦勒底的敌人。
+[k]
+
+＠E：特佩乌
+不，对我们[#人类:迪诺斯]来说，也堪称最大的威胁。[r]你已经理解泛人类史与异闻带的情况了吧？
+[k]
+
+＠E：特佩乌
+我们世界的外部[line 3]地球文明[r]已经因白纸化这一现象而终结了。
+[k]
+
+＠E：特佩乌
+不只是文明，连生存在地表的所有生命也都消失了。
+[k]
+
+＠E：特佩乌
+而做出这种事的，就是『异星之神』。[r]清洗了70多亿地球人类的外星人。
+[k]
+
+＠E：特佩乌
+那就是她，U－奥尔加玛丽。
+[k]
+
+＠E：特佩乌
+……不，应该说“恐怕是”吧。[r]还无法断定，因为还有些奇怪的问题。
+[k]
+
+＠E：特佩乌
+话虽如此。
+[k]
+
+
+＠E：特佩乌
+在某种偶然，或是奇迹的共同作用下，[r]使得我们一同畅谈，共历冒险，
+[k]
+
+[charaFaceFade E 4 0.2]
+＠E：特佩乌
+这是终将结束的“[#徒劳:梦]”。[r]与她同行的旅途，就是一个错误。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0,-50]
+＠瓦克昌
+[line 2]……是吧？
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 1.0]
+[bgmStop BGM_MAP_10 2.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[scene 169601]
+[wt 1.5]
+
+[subCameraOn 1]
+[charaLayer H sub #A]
+[subCameraFilter #A maskEdge cut359_mask06 3 0,0,0,0 0]
+[charaScale H 1.1]
+
+[charaTalk depthOff]
+[charaDepth G 8]
+[charaDepth C 4]
+[charaDepth I 1]
+
+[charaTalk H]
+[charaFadein H 0.1 0,0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.4]
+
+[subRenderFadein #A 0.5 0,-300]
+[wt 0.2]
+
+
+[se ad6]
+[seVolume ad6 0 0]
+[se ade76]
+[seVolume ade76 0 0]
+[se ad889]
+[seVolume ad889 0 0]
+[se ad5]
+[seVolume ad5 0 0]
+[se ad877]
+[seVolume ad877 0 0]
+[cueSe SE_22 22_ad1207]
+[cueSeVolume 22_ad1207 0 0.4]
+[seVolume ad6 0.5 0.5]
+[seVolume ade76 0.5 0.3]
+[seVolume ad889 0.5 0.5]
+[seVolume ad5 0.5 0.1]
+[seVolume ad877 0.5 0.1]
+[cueSe SE_22 22_ad1209]
+[cueSeVolume 22_ad1209 0 0.4]
+[wt 2.2]
+
+[seStop ad5 1.5]
+[seStop ad6 1.5]
+[seStop ade75 1.5]
+[seStop ad889 1.5]
+[seStop ad877 1.5]
+[wt 1.5]
+
+[subRenderFadeout #A 0.7]
+[wt 0.9]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 0,-50]
+[wt 0.4]
+＠神官职迪诺斯
+乌库伯大人，请您冷静一点。[r]虽说王不在，但这里可是在太阳遍历御前。
+[k]
+
+＠神官职迪诺斯
+还是不要大声振翅……
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[cueSe Servants_404400 m45205]
+[wt 0.05]
+[cueSe Servants_900700 bac928]
+[wt 1.05]
+[cueSe Servants_404400 m45205]
+[wt 0.6]
+
+[charaDepth F 5]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 0,-50]
+[cueSeStop bac928 0.2]
+[wt 0.8]
+
+[bgm BGM_EVENT_90 0.1]
+
+＠F：神官乌库伯
+闭嘴，这要我如何不焦急！
+[k]
+
+＠F：神官乌库伯
+那帮家伙究竟要闹到什么时候。还有恐龙王！[r]把神圣的祭祀场当什么了……！
+[k]
+
+[charaCrossFade F 1098253300 0 0.4]
+＠F：神官乌库伯
+那里是向太阳的[#循环:系统]献上感谢的场所。[r]绝非用来赞赏外来者之地！[wait charaCrossFade F]
+[k]
+
+＠F：神官乌库伯
+吃了那么多苦头还不理解吗？[r]认可异文化可曾带来过什么好事吗？
+[k]
+
+[charaFace F 4]
+＠F：神官乌库伯
+[#隐匿者:Crypter]带来的知识全都是毒！
+[k]
+
+＠F：神官乌库伯
+基于语言的对话造就了差异，[r]使奥塞洛特尔们急速壮大起来！
+[k]
+
+＠F：神官乌库伯
+正因为不知道墨西哥城有多繁荣，[r]你们才能这样优哉游哉！
+[k]
+
+[charaFace F 5]
+＠F：神官乌库伯
+要是除我以外还有其他长翅膀的迪诺斯，[r]就能亲眼目睹那座城市的恐怖之处了！
+[k]
+
+[messageOff]
+[cueSe Servants_404400 m45205]
+[wt 0.05]
+[cueSe Servants_900700 bac928]
+[charaShake F 0.03 1 5 0.4]
+[wt 1.05]
+[cueSe Servants_404400 m45205]
+[wt 0.05]
+[charaShake F 0.03 1 5 0.4]
+[wt 0.55]
+[cueSeStop bac928 0.2]
+[wt 0.7]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0,-50]
+＠神官职迪诺斯
+请您冷静一点，冷静一点啊……！[r]闹得太大声会惊动其他神官过来的！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaSet F 1098253310 1 神官乌库伯（B）]
+
+[charaDepth D 5]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 0,-50]
+＠神官乌库伯
+[line 3]哼，怎么可能有人过来。[r]连神官们也在祭祀场为击退卡玛佐茨一事欢闹。
+[k]
+
+[charaFace D 3]
+＠神官乌库伯
+没有危机感，完全没有危机感。[r]是因为你们没有天敌吗？
+[k]
+
+＠神官乌库伯
+是因为你们并未像我这样，[r]品尝过没有其他[#同种:同伴]的恐怖之处吗？
+[k]
+
+[charaFace D 4]
+＠神官乌库伯
+奥塞洛特尔必须毁灭。[r]不可无视墨西哥城的繁荣！
+[k]
+
+＠神官乌库伯
+我等迪诺斯必须具备[r]配得上米克特兰霸主地位的思维！
+[k]
+
+[charaFace D 5]
+＠神官乌库伯
+然而！[r][#太阳的教诲:库库尔坎]却放任奥塞洛特尔不顾！
+[k]
+
+＠神官乌库伯
+不过是带了个什么人类的孩子过来，[r]结果竟然任命他为统治迪诺斯之王。
+[k]
+
+＠神官乌库伯
+不过是前去视察墨西哥城而已，[r]结果竟然戴着与奥塞洛特尔们相同的饰品回来。
+[k]
+
+[charaFace D 0]
+＠神官乌库伯
+[line 3]这一切，都是发生在最近的事。[r]泛人类史的知识侵蚀了米克特兰，侵蚀了太阳。
+[k]
+
+＠神官乌库伯
+……不，归根结底。
+[k]
+
+＠神官乌库伯
+自从披上了那什么『神』的概念，[r]那女人就站到外部世界……站到泛人类史那边去了[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0,-50]
+＠神官职迪诺斯
+乌库伯大人，这番话太不敬了……！[r]请不要言之于表……！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaDepth F 5]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 0,-50]
+＠F：神官乌库伯
+闭嘴，要怪就怪害我产生这种想法的王和神！[r]你当我是谁啊！
+[k]
+
+＠F：神官乌库伯
+我可是稀缺的翼龙，[r]唯一一个被天空选中的迪诺斯！
+[k]
+
+＠F：神官乌库伯
+立于迪诺斯顶点的，应该是我！
+[k]
+
+[charaFace F 0]
+＠F：神官乌库伯
+有鉴于此，我一直以来对米克特兰[r]是多么的……多么的鞠躬尽瘁啊……！
+[k]
+
+[charaFace F 3]
+＠F：神官乌库伯
+失望吧，失望吧！[r]碍眼的恐龙王，没出息的[#太阳的教诲:库库尔坎]！
+[k]
+
+＠F：神官乌库伯
+只因[#隐匿者:Crypter]的到来就发生改变的文明，[r]无异于从一开始就不曾存在吧！
+[k]
+
+[messageOff]
+[cueSe Servants_404400 m45205]
+[wt 0.05]
+[cueSe Servants_900700 bac928]
+[charaShake F 0.03 1 5 0.4]
+[wt 1.05]
+[cueSe Servants_404400 m45205]
+[wt 0.05]
+[charaShake F 0.03 1 5 0.4]
+[wt 0.55]
+[cueSeStop bac928 0.2]
+[wt 0.7]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0,-50]
+＠神官职迪诺斯
+咿[messageShake 0.05 4 3 0.3]咿咿……！[r]您，您说得对，乌库伯大人……！
+[k]
+
+＠神官职迪诺斯
+您才是深爱着米克特兰之人！[r]才是配当迪诺斯领导者之人！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 0,-50]
+＠神官乌库伯
+…………[r]…………也罢，继续之前的话题吧。
+[k]
+
+＠神官乌库伯
+答应与伊斯卡利的第二次密谈。[r]太阳夺取作战[line 3]哼，好大的口气。
+[k]
+
+＠神官乌库伯
+不过，姑且值得一听。[r]没有比那更适合的借口了。
+[k]
+
+[charaFaceFade D 6 0.2]
+＠神官乌库伯
+好吧，奇琴伊察让给他又何妨。[r]只要逐渐毁灭的太阳，能因此得救就行。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[bgmStop BGM_EVENT_90 2.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

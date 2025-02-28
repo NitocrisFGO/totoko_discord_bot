@@ -1,0 +1,287 @@
+
+
+＄04-00-02-07-3-1
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098269000 1 ＤＸ]
+[charaSet B 1098270200 1 迦摩]
+[charaSet C 1098270000 1 希翁]
+[charaSet D 1098270300 1 阿愈丝]
+[charaSet E 7046001 1 难敌]
+[charaSet F 98006200 1 恶性数据1]
+[charaSet G 98006200 1 恶性数据2]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet R 98115000 1 特效用dummy]
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+
+
+[scene 10000]
+
+[bgm BGM_EVENT_80 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[cueSe Battle bac148]
+[charaPut R 300,-50]
+[charaEffect R bit_talk_blow]
+[wt 0.35]
+
+[cueSe Battle bac149]
+[charaPut S -300,50]
+[charaEffect S bit_talk_blow]
+[wt 0.35]
+
+[cueSe Battle bac18]
+[cueSe Battle bac150]
+[charaPut T 1]
+[charaEffect T bit_talk_14]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+
+[scene 189500]
+
+[charaTalk off]
+[charaDepth F 3]
+[charaDepth G 4]
+[charaDepth T 9]
+[charaFadeinFSR F 0 2]
+[charaFadeinFSL G 0 0]
+[charaShake F 0.02 3 4 0.5]
+[charaShake G 0.03 2 3 0.5]
+[wt 1.0]
+
+[bgmStop BGM_EVENT_80 1.0]
+
+[charaSpecialEffect F enemyErasure 0,0 1.5]
+[charaSpecialEffect G enemyErasure 0,0 1.5]
+[wt 0.2]
+[se ad52]
+[wait charaSpecialEffect F]
+[wt 0.7]
+[charaPut R 2000,2500]
+[charaPut S 2000,2500]
+[charaPut T 2000,2500]
+[wt 0.5]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ＤＸ
+状况，结束。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 21]
+[charaFadein B 0.1 1]
+＠迦摩
+唔～，好弱。[r]根本用不着我们帮忙吧？
+[k]
+
+？1：算啦，就当是为了保障安全好了。
+？！
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 0.3]
+
+[se ad15]
+[charaFace A 1]
+[wt 1.4]
+
+[charaFace A 0]
+＠ＤＸ
+抱歉。又收到其他地方产生威胁的报告。[r]是接近[#生产部:Grow]区域的地点。
+[k]
+
+＠ＤＸ
+本机打算继续前去处理……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠希翁
+我们也奉陪吧。[r]就当是顺水人情好了。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠ＤＸ
+重复一遍，感谢。[r]那我来带路[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth D 6]
+[charaDepth E 5]
+
+[se ade422]
+[wt 0.1]
+[se ade421]
+[wt 0.4]
+
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSR D 0.4 2]
+[charaFadeinFSL E 0.4 0]
+[wt 0.3]
+[seStop ade421 0.4]
+[wt 0.1]
+[seStop ade422 0.4]
+[wt 0.6]
+
+[charaTalk on]
+＠阿愈丝
+慢着慢着～。[r]你们要去哪里？
+[k]
+
+？1：咦，工作都忙完了吗？
+？！
+
+＠阿愈丝
+嗯，空下来一点了。
+[k]
+
+[charaFace D 4]
+＠阿愈丝
+其实仔细想来，才意识到[r]受损的ＡＩ并不是都在这里。
+[k]
+
+[charaFace D 3]
+＠阿愈丝
+也有些孩子逃到[#生产部:Grow]那边去了，[r]我也打算去那边确认一下情况。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠希翁
+这倒是正巧，我们正准备前去[r]驱除[#生产部:Grow]那边的害虫。
+[k]
+
+[charaSet D 1098270330 1 阿愈丝]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth D 6]
+[charaTalk D]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSR D 0.1 2]
+[charaFadeinFSL E 0.1 0]
+＠阿愈丝
+那不是太好了吗。[r]我们也一起去吧！
+[k]
+
+[charaFace D 1]
+＠阿愈丝
+还是认真踏实地工作最棒啦。[r]不可以搞那种奇怪的契约哦！
+[k]
+
+[charaFace E 2]
+＠难敌
+知道了知道了～。[r]本老爷都懒得反驳了。
+[k]
+
+？1：（看来是被逮住狠狠地教训了一顿……）
+？！
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_77 2.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[scene 10000]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_76 0.1]
+
+
+＠
+[a1b6df]进展没有问题，令人满意。[-]
+[k]
+
+＠
+[a1b6df]目前还需要一段时间。[-]
+[k]
+
+＠
+[a1b6df]直到那个适应为止，[-][r][a1b6df]直到能作为新的人格开始行动为止。[-]
+[k]
+
+＠
+[a1b6df]那样一来，要不了多久。[-]
+[k]
+
+＠
+[a1b6df]圣杯战争便会重启，[-][r][a1b6df]必须重启不可。[-]
+[k]
+
+＠
+[a1b6df]位于其尽头，唯一追求的光。[-][r][a1b6df]利用圣杯战争的理由。[-]
+[k]
+
+[messageOff]
+[wt 1.0]
+
+＠
+[a1b6df][line 3]为了，吾爱。[-]
+[k]
+
+
+
+
+
+[messageOff]
+[wt 0.5]
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_76 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

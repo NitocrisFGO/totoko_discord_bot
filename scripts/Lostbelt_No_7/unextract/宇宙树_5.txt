@@ -1,0 +1,950 @@
+
+＄03-00-13-22-5-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257900 1 玛修]
+[charaSet B 1098255200 1 哈贝特洛特]
+[charaSet C 1098257300 1 达·芬奇]
+[charaSet D 1098252900 1 特佩乌]
+[charaSet E 1098253210 1 U－奥尔加玛丽]
+[charaSet F 1098253800 1 瓦克昌]
+[charaSet G 1098257500 1 拉斯普京]
+[charaSet H 1098257500 1 特效用]
+[imageSet I back10000 1 1]
+[charaScale I 1.05]
+[imageSet J back10000 1 1]
+[charaScale J 1.05]
+[sceneSet K 174504 1]
+[sceneSet L 174900 1]
+
+[imageSet M cut448_cocoon 1]
+[imageSet N cut448_cocoon 1]
+[imageSet O cut448_cocoon 1]
+[charaScale O 1.4]
+[imageSet P cut448_cocoon 1]
+
+[imageSet S back10000 1 1]
+[charaScale S 1.05]
+
+[cameraMove 0.1 0,0 1.01]
+[wt 0.1]
+
+[scene 174500]
+[se ade393 1.0 1.0]
+[fadein black 1.0]
+[bgm BGM_BATTLE_210 0.1]
+[wait fade]
+
+[shake 0.04 1 1 1.5]
+[wt 2.0]
+[seVolume ade393 1.0 0.5]
+
+[charaTalk off]
+[charaDepth C 3]
+[charaDepth B 2]
+[charaDepth A 1]
+[charaFace C 23]
+[charaFadein C 0.1 -380,0]
+[charaFace B 6]
+[charaFadein B 0.1 0,0]
+[charaFace A 14]
+[charaFadein A 0.1 320,0]
+[wt 1.5]
+
+？1：……没能阻止他……不过，更重要的是……
+
+？！
+
+？1：迦勒底亚斯……就是异星……？
+？2：究竟是怎么回事[line 3]
+
+？！
+
+[seVolume ade393 1.0 1.0]
+[shake 0.04 3 2 1.5]
+[se ad228 0]
+[seVolume ad228 1.0 0.7]
+[wt 1.0]
+[seStop ad228 2.0]
+[wt 1.0]
+[charaTalk on]
+[charaFace C 14]
+[seStop ade393 5.0]
+
+＠达·芬奇
+大家，稍后再研究吧。[r]暂时忘掉戴比特提供的情报。
+[k]
+
+＠达·芬奇
+现在应该先逃离这里。[r]瓦克昌还在上面的地层等我们。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+你好像并不惊讶呢，达·芬奇。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+
+＠达·芬奇
+我当然也受到了震撼啦。[r]不过倒是可以理解，现在这样就够了。
+[k]
+
+[charaFace C 14]
+
+＠达·芬奇
+好了，快站起来吧，玛修、[r][%1]！
+[k]
+
+＠达·芬奇
+ORT要来了！[r]无论迦勒底亚斯是什么，马里斯比利又是什么人，
+[k]
+
+＠达·芬奇
+接下来都是货真价实的守护地球之战！[r]我们怎么能继续愣在这里！
+[k]
+
+＠达·芬奇
+戴比特是这样说的！
+[k]
+
+＠达·芬奇
+『迦勒底固然是起因，但并不是元凶。[r]　如果不甘心的话，就阻止我的计划，前往南极吧。』
+[k]
+
+＠达·芬奇
+还说那里就是我们旅途的终点！[r]基尔什塔利亚应该也是这么想的！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+[wt 1.2]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+
+＠达·芬奇
+他们虽然使用了『自己相信的手段』，[r]却从未否定过我们！
+[k]
+
+＠达·芬奇
+这不是善恶的问题！　也不是什么被赋予的义务！
+[k]
+
+＠达·芬奇
+而是竭尽全力地完成自己认同的[#职责:任务]，[r]与现在的自己所力所能及的事！
+[k]
+
+＠达·芬奇
+这就是所谓的活着、所谓的战斗！[r]在这里垂头丧气就是你们想做的事吗！？
+[k]
+
+？1：[line 3]怎么可能呢！
+？2：总之先出去吧！
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玛修
+[line 3]是！[r]这里是危险地带，先回到安全的第九层吧！
+[k]
+
+＠玛修
+前辈带上奥尔加玛丽所长，[r]我带上倒在那边的特诺奇蒂特兰小姐[line 2]
+[k]
+
+[messageOff]
+[se ade393]
+[seVolume ade393 1.0 1.0]
+[shake 0.05 0 3 1.6]
+[wt 1.0]
+[wipeout rectangleStripRightToLeft 0.6 1.0]
+[wait wipe]
+
+[seStop ade393 2.0]
+[seStop ad228 2.0]
+
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[shakeStop]
+[pictureFrame]
+[scene 10000]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 0.1 1.0]
+[wait wipe]
+
+[criMovie talk_mov159 bgmPlay true]
+
+[overlayFadein S 1.0 0,-200]
+[wt 1.0]
+[scene 174504]
+[wt 0.5]
+
+[charaFadeout S 2.0]
+[se ad619 0]
+[seVolume ad619 1.0 0.3]
+[se ade393 0]
+[seVolume ade393 1.0 1.0]
+[shake 0.04 2 4 1.5]
+[wt 1.5]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[cueSe SE_23 23_ad1246]
+[shake 0.03 6 4 3.0]
+
+
+
+
+[shake 0.03 6 4 2.5]
+[wt 3.5]
+
+[charaTalk depthOff]
+[charaDepth E 4]
+[charaDepth K 3]
+
+[charaDepth M 5]
+[charaDepth N 6]
+[charaDepth O 8]
+[charaDepth P 9]
+
+[charaScale N 1.15]
+[charaScale E 1.2]
+
+[charaTalk E]
+[charaFace E 31]
+[charaFadein E 0.4 0,100]
+[charaFadein K 0.4 0,-200]
+[wt 1.0]
+[seStop ad619 1.5]
+[seStop ade393 1.5]
+
+？1：U－奥尔加玛丽！
+？2：糟糕，快逃！
+
+？！
+
+[charaShake E 0.05 2 2 1.2]
+[charaMove E 0,110 1.2]
+[wt 1.5]
+[se ade401]
+[charaMove E 0,100 0.2]
+[cameraMove 0.3 0,5 1.02]
+[wt 0.6]
+[charaFaceFade E 19 0.3]
+
+＠U－奥尔加玛丽
+呜……！[r]可恶，心脏的复原来不及了[line 3]！
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1247]
+[effect bit_talk_ort_attack_twin]
+[wt 0.4]
+
+[charaFadeout E 0.4]
+[wt 0.6]
+
+[wt 0.7]
+[fadeout white 0.2]
+[wait fade]
+[charaFadeout K 0.1]
+[wt 0.2]
+
+[cameraMove 0.1 0,0 1.01]
+[scene 10000]
+
+[wt 0.3]
+[charaPut H 1200,1200]
+[se ad923]
+[fadein white 0.1]
+
+[effect bit_talk_blood_stay]
+[cueSe SE_21 21_ad1091]
+[cueSe SE_21 21_ad1092]
+[wt 0.4]
+[se ad923]
+[cueSe SE_21 21_ad1125]
+[wt 0.4]
+[cueSe SE_21 21_ad1118]
+
+＠U－奥尔加玛丽
+嘎[messageShake 0.05 5 5 0.7]■■啊啊啊■■嘎■■■[line 3]！
+[k]
+
+
+[messageOff]
+[effectStop bit_talk_blood_stay]
+[se ad964]
+[se ad626]
+[cueSe SE_22 22_adm89]
+[effect bit_talk_lightning_U_01]
+[wt 0.8]
+[effectStop bit_talk_lightning_U_01]
+
+[seStop ad964 0.3]
+[seStop ad626 0.3]
+[cueSeStop 22_adm89 0.3]
+
+[cueSe Servants_401500 bac1074]
+[wt 0.1]
+[se ad632]
+[cueSe NoblePhantasm_700600 NP_700600_7]
+[fowardEffect bit_talk_lightning_U_02]
+[cueSe Servants_304900 m03104]
+[wt 0.05]
+[se ad842]
+[seVolume ad842 0 0.5]
+[wt 1.3]
+[shake 0.03 3 3 0.5]
+[wt 0.5]
+
+[fadeout white 1.0]
+[wait fade]
+[fowardEffectStop bit_talk_lightning_U_02]
+[fowardEffectDestroy bit_talk_lightning_U_02]
+[scene 174504]
+
+[charaFadein M 0.1 0,-170]
+[wt 0.1]
+
+[seStop ad632 2.0]
+[fadein white 1.0]
+[wait fade]
+[wt 1.0]
+
+[se ad231]
+[charaPut N 0,-200]
+[charaFadeTime N 0.2 0.5]
+[wt 0.2]
+[charaFadeout N 0.2]
+[wt 0.5]
+[flashin once 0.1 0.2 9F0000FF FFFFFF00]
+[cueSe SE_21 21_ad1091]
+[cueSe SE_21 21_ad1092]
+[shake 0.03 3 3 1.5]
+[wt 0.4]
+[se ad923]
+[cueSe SE_21 21_ad1125]
+[wt 1.5]
+
+？1：放开U[line 3]！
+
+？！
+
+
+[messageOff]
+[charaPut O 0,100]
+[charaEffect O bit_talk_simple_summon]
+[se su3]
+[seStop su3 2.5]
+[wt 1.5]
+[effectStop bit_talk_simple_summon]
+[wt 0.5]
+[effect bit_talk_14]
+[se ad32 0.3]
+[se ad795 0.6]
+[se ad1015 0.6]
+[flashin once 0.1 0.2 FFFFFFAF FFFFFF00]
+[wt 0.1]
+[shake 0.03 3 3 0.4]
+[wt 1.5]
+
+[se ad231]
+[charaPut N 0,-200]
+[charaFadeTime N 0.2 0.5]
+[wt 0.2]
+[charaFadeout N 0.2]
+[wt 0.5]
+[flashin once 0.1 0.2 9F0000FF FFFFFF00]
+[shake 0.03 3 3 1.5]
+[cueSe SE_21 21_ad1125]
+[wt 0.4]
+[cueSe SE_21 21_ad1118]
+[wt 1.5]
+
+[charaFadeout M 0.2]
+[wt 0.2]
+
+[charaTalk C]
+[charaFace C 25]
+[charaFadein C 0.1 1]
+
+＠达·芬奇
+这样啊，由于吸收了她的心脏，[r]ORT把她认知为同样的部件了！
+[k]
+
+＠达·芬奇
+再这样下去，她会被分解吸收掉的……！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+示巴发出了撤离劝告，感知到异常的放射线量！[r]那些树枝正在释放大量宇宙射线！
+[k]
+
+＠玛修
+是一旦靠近就足以致死量级的宇宙射线！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+连从者也不行，生物无法靠近，[r]那不就根本无可奈[line 3]瓦克昌！？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+
+[bgmStop BGM_BATTLE_210 1.5]
+[cueSe SE_22 22_ad1219]
+[wt 0.3]
+
+[subCameraOn 1]
+
+[charaLayer F sub #A]
+[charaLayer K sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask08 3 255,255,255,255]
+
+[subRenderScale #A 1.2]
+[subCameraRoll #A 30 0,0]
+
+[charaRoll F -30 0,0]
+[charaRoll K -30 0,0]
+
+[charaDepth F 7]
+[charaDepth K 6]
+
+[charaScale F 1.0]
+[charaScale K 1.2]
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.1 260,140]
+[charaFadein K 0.1 50,0]
+[wt 0.1]
+
+[subRenderFadein #A 0.3 150,-420]
+[subRenderMove #A 0,-420 0.3]
+[fowardEffect bit_talk_41_fs]
+[wt 0.8]
+
+＠瓦克昌
+唔噢噢噢噢噢噢噢噢噢噢！[r]树枝就交给我吧，看我整个撕咬下来[line 3]！
+[k]
+
+[messageOff]
+[seStop 22_ad1219 1.0]
+
+[fowardEffectDestroy bit_talk_41_fs]
+
+[subRenderMove #A -100,-420 0.2]
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+[charaFadeout F 0.1]
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer F normal]
+[charaLayer K normal]
+
+[charaFadein M 0.2]
+[wt 0.2]
+[cueSe SE_23 23_ad1248]
+[effect bit_talk_14]
+[wt 0.7]
+
+[cueSe SE_21 21_ad1147]
+[seStop 21_ad1147 1.0]
+[cueSe SE_21 21_ade680]
+[wt 0.05]
+[effect bit_talk_14 -250,100]
+[wt 0.40]
+[effect bit_talk_14 150,-150]
+[wt 0.26]
+[effect bit_talk_14 -150,150]
+
+[cueSe SE_21 21_ad1125]
+[fowardEffect bit_talk_35]
+[wt 0.6]
+[effect bit_talk_14 250,100]
+[wt 0.4]
+[effect bit_talk_14 -250,-100]
+
+[cueSe SE_21 21_ad1118]
+[seStop 21_ade680 1.5]
+[wt 0.4]
+[effect bit_talk_14]
+[wt 1.1]
+
+[se ad641]
+[fadeout white 0.3]
+[wait fade]
+
+[charaFadeout M 0.1]
+
+[charaSet E 1098253200 1 U－奥尔加玛丽]
+[charaSet F 1098253810 1 瓦克昌]
+[imageSet I black_fade_re 1 1]
+[imageSet J black_fade_re 1 1]
+[sceneSet K 174502 1]
+[charaScale I 2.0]
+[charaScale J 2.0]
+
+[charaScale F 1.3]
+[charaScale K 1.3]
+
+[charaTalk depthOff]
+[charaDepth S 7]
+[charaDepth F 6]
+[charaDepth E 5]
+[charaDepth K 1]
+
+[overlayFadein I 0 0,-1000]
+[overlayFadein J 0 0,200]
+
+[charaRoll K 0 0,0]
+[charaFadein K 0 0,0]
+[wt 1.0]
+
+[fadein white 2.0]
+[wait fade]
+[wt 0.5]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 0,380]
+[se ad142]
+[seStop ad142 0.5]
+[wt 1.4]
+
+[fadeout black 0.5]
+[wait fade]
+
+[charaPut F 0,250]
+[charaPut K 0,-160]
+[wt 0.1]
+
+[fadein black 0.5]
+[wait fade]
+
+[se ad142]
+[wt 1.5]
+
+[fadeout black 0.5]
+[wait fade]
+
+[charaScale F 1.1]
+[charaPut F -40,150]
+[charaPut K 0,-150]
+[wt 0.1]
+
+[charaMove I 0,-1100 1.5]
+[charaMove J 0,300 1.5]
+
+[fadein black 0.5]
+[wait fade]
+
+[wt 1.0]
+
+[charaMove K 0,-200 2.0]
+[charaMove F -40,50 2.0]
+[wt 3.5]
+
+[charaShake F 0.05 2 2 0.4]
+
+＠瓦克昌
+呼[line 3]咿[line 3]呼[line 3]…………啊。
+[k]
+
+＠瓦克昌
+太累人了……[r]真是，太累人了呢……
+[k]
+
+[messageOff]
+[charaFaceFade F 1 0.5]
+[charaMove F -65,45 1.2]
+[charaShake F 0.1 3 2 1.0]
+[cueSe SE_22 22_ad1219]
+[seVolume 22_ad1219 0 0.4]
+[seStop 22_ad1219 0.4]
+[wt 1.7]
+[charaMove F -45,40 1.2]
+[charaShake F 0.1 3 2 1.0]
+[cueSe SE_22 22_ad1219]
+[seVolume 22_ad1219 0 0.4]
+[seStop 22_ad1219 0.4]
+[wt 1.7]
+
+[bgm BGM_EVENT_95 0.1]
+
+＠瓦克昌
+唔噢，失血过多了吗……？[r]头好晕，眼前，突然变暗了……？
+[k]
+
+＠瓦克昌
+不管了，你还好吗，奥尔加？
+[k]
+
+＠瓦克昌
+我听到了不妙的声音，抱着赴死的决心[r]来到下面，却看到了这一幕哦？
+[k]
+
+＠瓦克昌
+竟敢对别人命中注定的老婆出手，活该。[r]不过，有点高不可攀罢了！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaScale E 1.0]
+
+[charaTalk E]
+[charaFace E 35]
+[charaFadein E 0.4 0,-50]
+[wt 0.4]
+
+＠U－奥尔加玛丽
+　　，　　　？　　　　　　，　　　　　。[r]　　　，　　　？　　　　，　　　　　？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 -50,40]
+
+＠瓦克昌
+喂～。怎么了，快回答我啊。[r]是睡着了吗？　睡着了啊，那就算了！
+[k]
+
+＠瓦克昌
+我好像也有点困了。[r]周围也莫名安静。
+[k]
+
+[messageOff]
+[charaFadeTime S 1.5 0.4]
+[charaMove I 0,-1070 1.5]
+[charaMove J 0,270 1.5]
+[charaFadeout F 1.0]
+[wt 1.5]
+[charaTalk off]
+[charaFace E 35]
+[charaFadein E 0.4 0,-50]
+[wt 0.8]
+
+＠瓦克昌
+啊～……好奇怪，话都说不顺畅了。[r]我喉咙里是塞了什么不好的东西吗？
+[k]
+
+＠瓦克昌
+不不不，别担心啦。[r]我这就吐出来，马上就能恢复正常啦。
+[k]
+
+＠瓦克昌
+……啊，不过在那之前。[r]先把想说的话都说了吧。
+[k]
+
+[messageOff]
+[charaMove I 0,-980 12,0]
+[charaMove J 0,180 12,0]
+[wt 1.5]
+
+
+
+
+＠瓦克昌
+我是心想或许有机会见到你，[r]才会跟着[%1]他们一起来的。
+[k]
+
+＠瓦克昌
+我就是一直很在意嘛。[r]反正我完全不会说什么好听的话啦。
+[k]
+
+＠瓦克昌
+早知道就不当斗士职，[r]而是像特佩乌那样当个神官了。
+[k]
+
+＠瓦克昌
+不过，我当时说的可都是真心话哦。
+[k]
+
+[charaFadeTime S 1.5 1.0]
+
+＠瓦克昌
+我好像什么都看不见了。[r]只有奥尔加的色彩，像闪烁的星星一样，散发着光芒。
+[k]
+
+＠瓦克昌
+[line 3]很高兴能遇见你。[r]我的人生，真是超级充实啊。
+[k]
+
+[messageOff]
+[wt 0.7]
+[bgmStop BGM_EVENT_95 1.5]
+[fadeout black 1.5]
+[wait fade]
+[wt 0.5]
+[se ad716]
+[charaFadeout E 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout S 0.1]
+
+[scene 174500]
+[wt 2.0]
+
+[se ad915]
+[seVolume ad915 0 0.5]
+[charaPut P -300,0]
+[charaEffect P bit_talk_rubble_smoke]
+[se ad913]
+[se ad914]
+[seStop ad228 2.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[effect bit_talk_rubble]
+[se ade393]
+[wt 0.2]
+[se ad228 0]
+[seVolume ad228 1.0 0.7]
+[wt 1.3]
+[charaScale O 1.0]
+[charaPut O 250,0]
+[charaEffect O bit_talk_rubble_smoke]
+[se ad913]
+[se ad914]
+[seStop ad228 5.0]
+[wt 5.5]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 33]
+[charaFadein E 0.1 0,-30]
+[bgm BGM_MAP_67 0.1]
+
+＠U－奥尔加玛丽
+……不会的。地球人类，分明是，邪恶的生物。[r]分明，解剖了我，好几年，好几十年。
+[k]
+
+＠U－奥尔加玛丽
+我无数次地，呐喊着，我是人类，是你们的同伴。[r]却没有，任何人，愿意听我说话。
+[k]
+
+＠U－奥尔加玛丽
+然而，为什么。[r]我不可能，被这样，温柔对待，才对。
+[k]
+
+？1：…………瓦克昌…………
+？2：……快逃离这里吧，奥尔加。
+
+？！
+
+[charaFace E 9]
+
+＠U－奥尔加玛丽
+……！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.4]
+
+[charaPut G 1]
+[charaTalk G]
+[charaFace G 0]
+[charaEffect G bit_talk_quickmove]
+[charaSpecialEffect G appearanceReverse 1 0.2]
+[se ad223]
+[wt 0.7]
+
+＠拉斯普京
+对话到此结束。[r]您应该已经学够了吧，『异星之神』。
+[k]
+
+＠拉斯普京
+ORT获得了您的心脏，主导权在对方手上。[r]一旦双方融合，您将会沦为下位组织。
+[k]
+
+＠拉斯普京
+“如果”的话题已经结束了。[r]打从一开始，您与他们就是势同水火的敌人。
+[k]
+
+＠拉斯普京
+请尽快撤离这个异闻带。[r][line 3]该回您位于南极的[#故乡:星球]了。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 31]
+[charaFadein E 0.1 0,-30]
+
+＠U－奥尔加玛丽
+[line 6]
+[k]
+
+？1：U－奥尔加玛丽……
+？2：这是……
+
+？！
+
+[messageOff]
+[se ad60]
+[cameraMove 1.0 0,10 1.05]
+[wt 0.6]
+[seStop ad60 0.2]
+[wt 0.4]
+
+[charaFaceFade E 29 0.2]
+[wt 1.0]
+[charaFaceFade E 6 0.2]
+
+
+＠U－奥尔加玛丽
+[line 3]别这样。[r]别以你那瘦弱的人类之躯接近[#现在]的我。
+[k]
+
+[charaFace E 18]
+
+＠U－奥尔加玛丽
+你说得没错，拉斯普京。[r]别说心脏了，身体的三成都被ORT那家伙夺走了。
+[k]
+
+＠U－奥尔加玛丽
+我需要复原的时间。[r]也不打算在这里见证地球人类的死期。
+[k]
+
+＠U－奥尔加玛丽
+我要去[#地表:上面]，陪我来。
+[k]
+
+[messageOff]
+[cameraMove 1.5 0,0 1.0]
+[charaMove E 0,15 1.5]
+[bgmStop BGM_MAP_67 2.0]
+[wt 2.0]
+[cueSe SE_21 21_ade580]
+[seStop 21_ade580 1.5]
+[charaFadeout E 0.4]
+[charaMove E 0,50 0.4]
+[wt 0.7]
+
+[charaTalk off]
+
+[subCameraOn 1]
+[charaTalk depthOff]
+[charaLayer L sub #A]
+[charaLayer E sub #A]
+[charaLayer G sub #A]
+
+[charaDepth L 1]
+[charaDepth E 2]
+[charaDepth G 3]
+
+[charaScale E 1.1]
+[charaScale G 1.1]
+[charaScale L 1.3]
+
+[charaFadein L 0.1 -500,160]
+[subCameraFilter #A maskEdge cut359_mask07 4 0,0,0,255 0]
+[wt 0.1]
+
+[subRenderFadein #A 0.7 0,-300]
+[subRenderMove #A 0,-350 0.7]
+[wt 1.5]
+
+[charaFace E 4]
+[charaFadein E 0.4 -100,350]
+[charaFace G 1]
+[charaFadein G 0.4 120,230]
+[wt 3.0]
+
+[charaTalk on]
+
+＠U－奥尔加玛丽
+[line 6]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout E 0.2]
+[charaFadeout G 0.2]
+[charaMove E -100,350 0.2]
+[charaMove G 120,230 0.2]
+[cueSe SE_21 21_ade546]
+[seStop 21_ade546 1.0]
+[wt 2.0]
+[subRenderFadeout #A 0.4]
+[wt 0.4]
+[charaFadeout L 0.1]
+[wt 0.1]
+[charaScale E 1.0]
+[charaLayer E normal]
+[charaScale G 1.0]
+[charaLayer G normal]
+[charaScale L 1.0]
+[charaLayer L normal]
+[subCameraOff]
+[seStop ade393 2.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

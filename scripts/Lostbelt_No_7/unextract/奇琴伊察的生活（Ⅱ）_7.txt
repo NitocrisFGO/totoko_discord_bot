@@ -1,0 +1,491 @@
+
+＄03-00-13-12-7-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 98001000 1 玛修]
+[charaSet B 1098252920 1 特佩乌]
+[charaSet D 1098253200 1 U－奥尔加玛丽]
+[charaSet E 1098257300 1 达·芬奇]
+
+[charaSet F 1098253200 1 U－奥尔加玛丽_演出用]
+
+[sceneSet M 10000 1]
+[sceneSet N 169501 1]
+
+[charaSet S 98115000 1 特效用]
+[charaEffect S bit_sepia01_depth_fs]
+[charaPut S 2000,2000]
+
+[scene 170302]
+
+[fadein black 1.0]
+[wait fade]
+[wt 2.0]
+
+[scene 170301 1.5]
+[wt 3.0]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 169701]
+[wt 2.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_161 0.1]
+
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠玛修
+我们回来了，特佩乌先生。[r]奥尔加玛丽小姐回来了吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+U－奥尔加玛丽吗？[r]她好像还没回来。
+[k]
+
+＠特佩乌
+刚才我在大街上看到她了，[r]看起来正朝祭坛走去。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+那我们正好和她错过了吧。[r]我去接她。
+[k]
+
+？1：不，我去吧。
+
+[charaFace A 1]
+
+＠玛修
+是吗？[r]那就恭敬不如从命了。
+[k]
+
+？2：希望玛修能去[#捣碎:Mash]玉米。
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth A 2]
+[charaDepth M 1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+我也想拜托你做这个。被玛修的盾压碎的玉米[r]柔顺得看不出丝毫原来的样子。
+[k]
+
+＠特佩乌
+无论放哪里都可以算是一流的玉米泥。[r]希望下次还能用那面盾牌碾碎可可豆。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠玛修
+好，好的，承蒙夸奖不胜荣幸。[r]……[wt 0.4][charaPut M 1][charaFadeTime M 0.2 0.5]（不过感觉会被圆桌的各位叱责呢……）
+[k]
+
+？！
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_161 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout M 0.1]
+
+[scene 169501]
+
+[charaDepth F 2]
+[charaDepth N 1]
+
+[charaScale F 1.1]
+[charaScale N 1.1]
+[wt 1.0]
+
+[se ad60]
+[fadein black 1.0]
+[wait fade]
+[wt 1.0]
+[seStop ad60 0.5]
+[wt 1.0]
+
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 1.0 180,0]
+[charaFadein N 1.0 -50,-220]
+
+[charaMove F 150,0 0.8]
+[charaMove N -80,-220 0.8]
+[wt 1.4]
+
+[charaFace F 10]
+[wt 1.0]
+
+[se bac375]
+[charaMove F 100,0 0.6]
+[charaFadeout F 0.6]
+[wt 1.0]
+
+[charaFadeout N 0.6]
+[charaScale F 1.0]
+[wt 1.0]
+
+？1：U－奥尔加玛丽！
+？2：所长！
+
+？！
+
+[cueSe SE_21 21_ade580]
+[seVolume 21_ade580 0 0.6]
+[seVolume 21_ade580 1.0 1.0]
+[wt 1.0]
+[seStop 21_ade580 0.5]
+
+[charaTalk off]
+[charaFace F 20]
+[charaFadein F 0.7 1]
+[wt 1.0]
+
+[bgm BGM_EVENT_11 0.1]
+
+＠U－奥尔加玛丽
+……干嘛。[r]我可不是因为觉得尴尬才逃跑的。
+[k]
+
+＠U－奥尔加玛丽
+只是想要盘旋一会儿而已。[r]在天上飞久了的话，偶尔也会产生这种念头吧。
+[k]
+
+？1：唔～，我毕竟飞不起来嘛。
+
+[charaFace F 23]
+
+＠U－奥尔加玛丽
+哼，也是呢。[r]无论迪诺斯还是人型人类，这点都一样。
+[k]
+
+？2：英麦曼回旋？
+
+[charaFace F 1]
+
+＠U－奥尔加玛丽
+那是跃升吧。王牌飞行员英麦曼的拿手好戏。[r]我看影像记录学习过，所以知道。
+[k]
+
+？！
+
+[messageOff]
+
+[charaDepth D 3]
+[charaDepth N 2]
+[charaDepth F 1]
+
+[charaScale D 1.2]
+[charaScale N 1.2]
+
+[charaFace D 17]
+[charaFadein D 1.5 0,10]
+[charaFadein N 1.5 0,-210]
+[wt 2.0]
+
+[charaFadeout F 0.1]
+
+＠U－奥尔加玛丽
+………………
+[k]
+
+[charaFaceFade D 16 0.2]
+
+＠U－奥尔加玛丽
+………………
+[k]
+
+[charaFaceFade D 17 0.2]
+
+＠U－奥尔加玛丽
+………………
+[k]
+
+[charaFaceFade D 20 0.2]
+
+＠U－奥尔加玛丽
+所以呢，干嘛？[r]叫住我也就是找我有事吧？
+[k]
+
+？1：因为最近一直没能说上话。
+
+[charaFaceFade D 1 0.2]
+
+＠U－奥尔加玛丽
+[f small]……那当然啦。[r][f small]因为我一直躲着你们。
+[k]
+
+？2：我们一起回特佩乌家吧。
+
+[charaFaceFade D 17 0.2]
+
+＠U－奥尔加玛丽
+一起？[r]和[%1]一起？
+[k]
+
+？！
+
+[charaFaceFade D 13 0.2]
+
+＠U－奥尔加玛丽
+……是吗，你是以秘书官的身份来迎接我的吧。[r]精神可嘉，不错。
+[k]
+
+[charaFace D 23]
+
+＠U－奥尔加玛丽
+既然如此，那我就暂停视察返回好了。[r]反正我也彻底掌握奇琴伊察的构造了。
+[k]
+
+[charaFace D 1]
+
+＠U－奥尔加玛丽
+无论奥塞洛特尔何时攻打过来都能应对。[r]不过我没有理由守护这座城市就是了。
+[k]
+
+？1：要守护的是身为总统的信念，对吧？
+
+？！
+
+[messageOff]
+[charaFace D 24]
+[wt 1.2]
+
+[charaFaceFade D 8 0.3]
+[wt 0.6]
+
+＠U－奥尔加玛丽
+你们那边状况如何？[r]Storm Border的修理进展到什么程度了？
+[k]
+
+＠U－奥尔加玛丽
+我看到每天都有迪诺斯聚集到潜航艇那边，[r]学习泛人类史的技术。
+[k]
+
+＠U－奥尔加玛丽
+你们很擅长缔结友好关系呢。[r]虽说我那时也是这样。
+[k]
+
+？1：其实从明天起作战就要重启了。
+？2：一大早就要到管制室集合。
+
+？！
+
+[charaFace D 22]
+
+＠U－奥尔加玛丽
+哦哦，我去过一次的那座舰桥！[r]电源已经接通了啊！
+[k]
+
+＠U－奥尔加玛丽
+虽然不想看到那个叫什么戈尔德鲁夫的男人的脸，[r]但还是想见识一下舰艇动起来的样子呢！
+[k]
+
+＠U－奥尔加玛丽
+明天早上？[r]作战重启后，接下来要做什么呢！
+[k]
+
+？1：[line 3]
+
+？！
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 1.0]
+[bgm BGM_EVENT_11 1.5 0.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaFadeout N 0.1]
+
+[charaScale D 1.0]
+
+[charaDepth S 2]
+[charaDepth E 1]
+
+[scene 169902]
+
+[charaTalk E]
+[charaFace E 23]
+[charaFadein E 0.1 1]
+
+[charaPut S 1]
+[wt 0.1]
+
+[fadein white 1.0]
+[wait fade]
+[wt 0.4]
+
+＠达·芬奇
+只是半数以上都反对让她登上Storm Border。[r]我也是其中之一。
+[k]
+
+[messageOff]
+[fadeout white 1.0]
+[wait fade]
+
+[cameraMove 0.1 0,0 1.04]
+
+[charaFadeout E 0.1]
+[charaPut S 2000,2000]
+
+[bgmStop BGM_EVENT_11 2.0]
+[scene 169501]
+
+[charaTalk D]
+[charaFace D 22]
+[charaFadein D 0.1 1]
+[wt 0.1]
+
+[cameraMove 2.5 0,0 1.0]
+[fadein white 1.0]
+[wait fade]
+[wt 1.8]
+
+[charaFaceFade D 33 0.2]
+[wt 0.8]
+
+＠U－奥尔加玛丽
+……[%1]？
+[k]
+
+[charaFace D 1]
+
+＠U－奥尔加玛丽
+……我问你。[r]我也可以同行吗？
+[k]
+
+？1：[line 3]当然可以。
+
+[messageOff]
+[charaShake D 0.05 0 1 0.3]
+[charaFace D 29]
+[wt 1.8]
+
+？2：………………
+
+[charaFace D 23]
+
+＠U－奥尔加玛丽
+……嗯，我想也是。[r]就是这么一回事嘛，我明白。
+[k]
+
+？！
+
+[bgm BGM_EVENT_95 0.1]
+
+[charaFaceFade D 4 0.2]
+
+＠U－奥尔加玛丽
+[line 3]不用了，我改主意了。[r]我根本不在乎你们的舰艇如何。
+[k]
+
+[charaFace D 13]
+
+＠U－奥尔加玛丽
+何况不同于你，我自己一个人就能飞。[r]约定也只到你和迦勒底会合为止。
+[k]
+
+[charaFace D 23]
+
+＠U－奥尔加玛丽
+我要再查看一下城市，你先回去吧。[r]给我留点玉米面包，我喜欢那个。
+[k]
+
+？1：……嗯……抱歉。
+
+？！
+
+[charaFace D 16]
+
+＠U－奥尔加玛丽
+………………
+[k]
+
+[charaFace D 17]
+＠U－奥尔加玛丽
+……虽然不知道[%1]为什么要道歉。
+[k]
+
+＠U－奥尔加玛丽
+但如果存在心理负债感，[r]就提问题好了，以此来纾解吧。
+[k]
+
+[charaFace D 33]
+＠U－奥尔加玛丽
+我说，[r]你有什么想问我的问题吗？
+[k]
+
+？1：想问的问题？
+？2：[line 3]目前还没有什么哦。
+
+？！
+
+[charaFace D 23]
+
+＠U－奥尔加玛丽
+是吗，那就算了。[r]实际上，就算你问我，我也答不上来。
+[k]
+
+[charaFace D 17]
+
+＠U－奥尔加玛丽
+还有，如果遇到了瓦克昌[line 3][wt 1.0][r]……不，没什么。
+[k]
+
+[charaFace D 13]
+
+＠U－奥尔加玛丽
+晚安。明天还得早起吧？[r]迅速停止机能，去享受那什么梦境吧。
+[k]
+
+
+[messageOff]
+[se bac375]
+[seVolume bac375 0 0.5]
+[charaFadeout D 0.7]
+[wt 3.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_95 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

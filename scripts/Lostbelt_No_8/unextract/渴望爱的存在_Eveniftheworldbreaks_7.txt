@@ -1,0 +1,396 @@
+
+
+
+＄04-00-02-15-7-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[masterBranch _Male _Female]
+[label _Male]
+[charaSet A 1098259460 1 主人公_第二部立绘_新表情（男）]
+[branch _branchEnd]
+[label _Female]
+[charaSet A 1098259470 1 主人公_第二部立绘_新表情（女）]
+[branch _branchEnd]
+[label _branchEnd]
+
+[sceneSet H 191900 1]
+[sceneSet I 191901 1]
+[sceneSet J 191902 1]
+
+[sceneSet K 189602 1]
+[charaScale K 1.2]
+
+[imageSet L black_fade_re 1 1]
+[charaScale L 2.0]
+[imageSet M black_fade_re 1 1]
+[charaScale M 2.0]
+
+[sceneSet N 191903 1]
+[imageSet O cut466_kma_evtcut 1 1]
+[imageSet P cut466_kma_evtcut 1 1]
+
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+
+[scene 10000]
+
+[fadein black 0.5]
+[wait fade]
+
+[charaTalk off]
+[charaDepth N 2]
+[charaDepth O 3]
+[charaDepth P 4]
+[charaDepth H 5]
+[charaDepth I 6]
+[charaDepth J 7]
+
+[cueSe SE_21 21_ad1114]
+[cueSeVolume 21_ad1114 0 0]
+[se ad439]
+[seVolume ad439 0 0]
+[se ad429]
+[seVolume ad429 0 0]
+[se ad11]
+[seVolume ad11 0 0]
+
+
+[cueSeVolume 21_ad1114 1.8 0.4]
+[seVolume ad439 1.8 0.1]
+[seVolume ad429 1.8 0.2]
+[seVolume ad11 1.8 0.2]
+
+[charaScale I 1.01]
+[charaScale J 1.01]
+[charaScale N 1.3]
+
+[charaFadein N 1.5 20,-150]
+[charaMove N -130,-150 5.3]
+[wt 3.8]
+
+[charaScale O 2.7]
+[charaFadein O 1.5 -700,-525]
+[charaMove O -700,-675 5.3]
+[wt 3.8]
+[charaFadeout N 0.1]
+
+[charaScale P 2.25]
+[charaFadein P 1.5 450,-650]
+[charaMove P 450,-500 5.3]
+[wt 3.8]
+[charaFadeout O 0.1]
+
+[charaScale H 1.05]
+[charaFadein H 2.0 0,-225]
+[charaMove H 0,-200 2.8]
+[charaMoveScale H 1.01 2.8]
+[wt 4.0]
+[charaFadeout P 0.1]
+
+[bgm BGM_EVENT_41 0.1]
+[cueSeStop 21_ad1114 2.0]
+[seStop ad439 2.0]
+[seStop ad429 2.0]
+[seStop ad11 2.0]
+
+＠
+[line 3]好烫，好烫。
+[k]
+
+＠
+包裹全身的，火焰。
+[k]
+
+＠
+感受到的，是足以席卷宇宙的辽阔，[r]足以灼烧一切的强大[line 3]以及，愤怒。
+[k]
+
+＠
+不知是那火焰本身被附着之物，[r]还是化作灰烬的她所沾染之物。
+[k]
+
+＠
+还是，从自愤怒而生的女神，[r]也就是从自己体内融化流溢之物呢。
+[k]
+
+＠
+对自己而言，愤怒即为母胎。
+[k]
+
+＠
+不会感到不快，反而[line 3][r]感觉它温和地包裹着自己。
+[k]
+
+＠
+然而，这并不代表自己丧失了抵抗的力量。
+[k]
+
+＠
+理由是，从拥抱自己的火焰中，[r]感受到的另一种气味。
+[k]
+
+＠
+那是一种，怀念感。
+[k]
+
+＠迦梨
+啊，果然，[r]是湿婆的，气味……
+[k]
+
+＠迦摩
+光凭延烧的火焰，果然无法[r]真正意义上点燃你这位女神。
+[k]
+
+＠迦摩
+所以[line 3][r]我会直接抱着你，直至最后一刻。
+[k]
+
+＠迦摩
+坠入，堕落之中吧。
+[k]
+
+＠
+没错，堕落。
+[k]
+
+＠
+自己很清楚，这不过是他的残滓，[r]不过是冒牌货。
+[k]
+
+＠
+[#然而那也是真的]，因此感到安心。
+[k]
+
+＠
+为见到他而跳的破坏世界之舞……[r]不知何时，已经停止。
+[k]
+
+＠
+他的存在，激烈而宏大。
+[k]
+
+＠
+一旦被思念他的感情所笼罩，
+[k]
+
+＠
+就会因为那种强大，而无法脱身。
+[k]
+
+＠迦梨
+……[#女神:吾]，并非输给了汝。
+[k]
+
+＠迦梨
+而是输给了，[#女神:吾]之爱。
+[k]
+
+＠迦摩
+呵呵，没错。
+[k]
+
+＠迦摩
+我是爱神。是予万物以爱的存在。[r]有必要的话，连神我也会爱。
+[k]
+
+＠迦摩
+从你作为拥有爱这一弱点的[#Alterego:他人格][r]出现在我面前的那一刻起，你就输了。
+[k]
+
+＠迦摩
+所以才即将被我这一堕落燃烧殆尽。
+[k]
+
+＠迦梨
+……[r]……
+[k]
+
+＠迦梨
+那么，汝。
+[k]
+
+＠迦摩
+什么？
+[k]
+
+[bgmStop BGM_EVENT_41 2.0]
+
+＠迦梨
+正即将一同燃尽的汝，[r]不也一样吗？
+[k]
+
+＠迦摩
+[line 3]
+[k]
+
+＠迦摩
+虽说只是文字游戏，但也许你说得对。
+[k]
+
+＠迦摩
+现在这个我，也是作为拥有爱[r]这一弱点的[#Alterego:他人格]诞生的……
+[k]
+
+[bgm BGM_BATTLE_127 3.0]
+[messageOff]
+[wt 1.2]
+
+＠
+只有在头脑发热的现在，我才愿意承认。
+[k]
+
+＠
+[#我是]，[#渴望被爱之人]。
+[k]
+
+＠
+是存在于平常的[#爱神:迦摩]心中，绝对不会表露出来的，[r]渴望被爱的人格。
+[k]
+
+＠
+渴爱之Alterego。
+[k]
+
+＠
+由于是平时被埋没在对全人类之爱中的人格，[r]作为单独个体被弹了出来，
+[k]
+
+＠
+因此才免于消失，得以存在。
+[k]
+
+＠
+能够爱全[#人类:宇宙]的存在，[r]找到了残留其中的唯一[#空隙:自己]，
+[k]
+
+＠
+因而感到寂寞，想要填补[line 3][r]想被他人所爱。
+[k]
+
+＠
+啊啊，那就是。
+[k]
+
+＠迦摩
+呵呵呵。那就是[line 3][r]无可比拟的，最大的堕落吧。
+[k]
+
+[messageOff]
+[charaTalk off]
+
+
+[subCameraOn 1]
+[charaLayer A sub #A]
+[charaLayer K sub #A]
+[charaLayer L sub #A]
+[charaLayer M sub #A]
+[subCameraFilter #A maskEdge cut359_mask20 4 0,0,0,255]
+
+[charaTalk depthOff]
+[charaDepth K 1]
+[charaDepth A 2]
+[charaDepth L 9]
+[charaDepth M 9]
+
+[charaScale L 2.0]
+[charaScale M 2.0]
+[charaScale A 1.3]
+[charaScale K 1.2]
+[charaFace A 3]
+[charaFadein A 0.1 0,240]
+[charaFadein K 0.1 -250,-125]
+[charaFadein L 0.1 0,-860]
+[charaFadein M 0.1 0,410]
+
+
+[subRenderFadeinFSR #A 0.6 310,-140]
+[subRenderMoveFSR #A 310,-190 0.6]
+[wt 2.4]
+
+
+[subRenderFadeout #A 0.6]
+[subRenderMoveFSR #A 310,-240 0.6]
+[wt 0.6]
+
+[charaFadeout A 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer A normal]
+[charaLayer K normal]
+[charaLayer L normal]
+[charaLayer M normal]
+[charaScale A 1.0]
+[charaScale K 1.0]
+[charaScale L 1.0]
+[charaScale M 1.0]
+[wt 0.4]
+
+＠
+[&他:她]的视线，呼喊着什么的声音。
+[k]
+
+＠
+无法逃脱的热量，[r]曾经渴望之物的，碎片。
+[k]
+
+[messageOff]
+[wt 0.15]
+
+[charaScale I 1.01]
+[charaFadein I 1.2 0,-200]
+[wt 1.2]
+[charaFadeout H 0.1]
+[wt 1.0]
+
+＠
+甜甜地、淡淡地，犹如浅眠一般，[r]沉溺于仅被描绘在这纸月之上的这些中，
+[k]
+
+＠
+爱神，静静地燃尽了。
+[k]
+
+[messageOff]
+[wt 0.3]
+
+[charaScale J 1.01]
+[charaFadein J 1.2 0,-200]
+[wt 1.2]
+
+[charaFadeout I 0.1]
+[wt 1.4]
+
+[cueSe SE_23 23_ad1275]
+[cueSeVolume 23_ad1275 0 0.4]
+[fowardEffect bit_talk_burn_screen_blue]
+[wt 4.0]
+[bgmStop BGM_BATTLE_127 2.0]
+[wt 4.0]
+
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadeout J 0.1]
+[scene 10000]
+[wt 0.2]
+
+[fadein black 0.2]
+[wait fade]
+
+
+
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

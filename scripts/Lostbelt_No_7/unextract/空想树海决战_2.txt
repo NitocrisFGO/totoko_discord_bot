@@ -1,0 +1,491 @@
+
+
+
+＄03-00-13-24-2-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098255100 1 戈尔德鲁夫]
+[charaSet B 1098257910 1 玛修]
+[charaSet C 1098239310 1 卡多克]
+[charaSet D 1098257300 1 达·芬奇]
+[charaSet E 1098252940 1 特佩乌]
+[charaSet F 1098123010 1 穆尼尔]
+[charaSet G 1098158340 1 尼莫]
+[charaSet H 1098252900 1 特佩乌(1a)]
+
+[charaSet I 1098257900 1 玛修_风镜]
+[charaSet S 98115000 1 特效用dummy]
+
+[cameraMove 0 0,0 1.01]
+
+[scene 142000]
+
+[shake 0.01 2 2 2.5]
+
+[se ad729]
+[seVolume ad729 0 0]
+
+
+[seVolume ad729 1.5 1.0]
+[fadein black 1.5]
+[wait fade]
+[wt 0.5]
+
+[seVolume ad729 1.0 0.5]
+[wt 0.5]
+
+[bgm BGM_BATTLE_68 0.1]
+
+？1：对其造成伤害了，虽然造成了伤害……！
+？2：（但是真的能够阻止它吗……！？）
+？！
+
+[messageOff]
+[seStop ad729 0.5]
+[se ad322]
+[se ad1015]
+[shake 0.02 2 5 1.8]
+[wt 2.2]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠戈尔德鲁夫
+唔，又来了吗！　战斗中断，[r]回座位上休息一会儿，[%1]！
+[k]
+
+＠戈尔德鲁夫
+基列莱特，到Shadow Border上面去！[r]种子飞上去了，把它们打下去！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth B 2]
+[charaDepth I 1]
+
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠玛修
+明白了！
+[k]
+
+[messageOff]
+
+[charaFadein I 0.1 1]
+[wt 0.1]
+[se ad658]
+[charaFadeout B 0.3]
+[wt 0.6]
+[se ad547]
+[wt 0.8]
+
+
+
+
+
+
+[se ad771]
+[charaFadeout I 0.4]
+[seStop ad771 1.0]
+[wt 1.4]
+
+[charaTalk on]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠卡多克
+空想树的种子已经飞到这里了……？[r]即将抵达第四冥界，我们已经远离第九层[line 3]
+[k]
+
+[charaFace C 3]
+＠卡多克
+对哦，空想树已经遍布整个米克特兰了！[r]也就是说[line 2]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 23]
+[charaFadein D 0.1 1]
+＠达·芬奇
+没错。空想树的种子已经[r]散布到米克特兰全境了。
+[k]
+
+＠达·芬奇
+无论ORT身在何处，[r]米克特兰都不再有安全的地方可言。
+[k]
+
+＠达·芬奇
+不只是奥塞洛特尔与迪诺斯。
+[k]
+
+＠达·芬奇
+栖息于地底世界的所有动植物[r]都会因为空想树的种子而丧命吧。
+[k]
+
+？1：怎么会[line 3]
+？2：（它打算收割所有一切……！）
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠特佩乌
+…………
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaEffect S bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[wt 0.3]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠穆尼尔
+Storm Border呼叫Shadow Border！[r]紧急联络，冷静点听我说！
+[k]
+
+＠穆尼尔
+第八层至第一层出现大量空想树的种子！[r]预计接下来路上也会遭到种子攻击！
+[k]
+
+＠穆尼尔
+要随时确保防御战力，[r]以防Shadow Border遭到破坏！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠戈尔德鲁夫
+哎哎，这我早就知道了！[r]我们可是在现场啊！
+[k]
+
+＠戈尔德鲁夫
+除此以外还有其他报告吗！？[r]来点好消息啊，好消息！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 -19,-21]
+＠尼莫
+这里是尼莫。Storm Border虽然也受到了[r]种子的攻击，但幸好目前已经启航。
+[k]
+
+＠尼莫
+现阶段飞到空中的种子还不多，[r]我们还能自行应付。
+[k]
+
+＠尼莫
+另外，ORT的预测前进路线已经算出来了。[r]我把数据传送给你们。
+[k]
+
+[messageOff]
+[se ad15]
+[wt 0.55]
+
+[se ad1]
+[fadeout black 0.5]
+[bgm BGM_BATTLE_68 0.5 0.5]
+[wait fade]
+
+[charaFadeout G 0.1]
+[charaPut S 2000,2500]
+
+
+[scene 171702]
+[wt 0.4]
+
+[fadein black 0.5]
+[wait fade]
+[wt 1.0]
+
+？1：正朝着墨西哥城前进！
+？2：虽然早就知道了，但为什么！？
+？！
+
+[messageOff]
+
+[scene 142000 0.8]
+
+[bgm BGM_BATTLE_68 0.8 1.0]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.8 1]
+[wt 1.0]
+＠卡多克
+嗯。[r]要去地表的话，途径墨西哥城就是在绕路。
+[k]
+
+＠卡多克
+特斯卡特利波卡向我们展现未来时还没想到[r]这个问题，为什么要去墨西哥城？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk G]
+[charaFace G 10]
+[charaFadein G 0.1 -19,-21]
+＠尼莫
+不仅如此。[r]其实我不想告诉你们这个事实，但不得不说。
+[k]
+
+[charaFace G 0]
+＠尼莫
+根据对迄今为止战斗情报的分析，[r]我们发现了那个ORT尚处于不完全的状态。
+[k]
+
+＠尼莫
+各个部件……手脚完全独立。
+[k]
+
+＠尼莫
+驱使手脚的动力都是该部位自行产生的。
+[k]
+
+[bgmStop BGM_BATTLE_68 2.0]
+
+＠尼莫
+拿动物举例的话，就是为全身输送血液的心脏[line 3][r]根基的动力源现阶段并不存在。
+[k]
+
+[charaFace G 4]
+＠尼莫
+[#正处于没有引擎的状态]。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_10_LowLevel]
+
+[bgm BGM_EVENT_122 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠戈尔德鲁夫
+哈！？[r]没有内燃机，处于节能状态还能有那种性能吗！？
+[k]
+
+＠戈尔德鲁夫
+你是说它仅靠车轮转动……[r]不，是仅靠手脚运动驱动着本体吗！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠卡多克
+……虽然这也意味着即便失去了心脏或大脑，它也能[r]用其他部位代替……但依然算是不幸中的万幸。
+[k]
+
+＠卡多克
+要是ORT拥有主动力源，[r]米克特兰搞不好就会瞬间消失。
+[k]
+
+＠卡多克
+是卡玛佐茨在600万年前破坏了心脏吧。[r]虽为敌人，但也得感谢那家伙才行。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：特佩乌
+原来如此。是这么一回事啊。[r]我知道ORT的前进路线为什么很奇怪了。
+[k]
+
+？1：特佩乌？
+
+？2：难道是……太阳？
+
+[charaFace H 2]
+＠H：特佩乌
+是的。[%1]也察觉到那个矛盾了呢。
+[k]
+
+[charaFace H 0]
+？！
+
+＠H：特佩乌
+ORT不是朝着墨西哥城前进，[r]而是朝着太阳。
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 26]
+[charaFadein D 0.1 1]
+[wt 1.2]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠卡多克
+我记得奇琴伊察袭击事件后，太阳就转移到[r]墨西哥了吧……但为什么要朝太阳去？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠特佩乌
+这是因为，[#太阳就是ＯＲＴ的心脏]吧。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth D 2]
+[charaDepth C 4]
+
+[charaFace C 3]
+[charaFace D 34]
+[charaFadeinFSL C 0.1 0]
+[charaFadeinFSR D 0.1 2]
+[wt 1.4]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠特佩乌
+600万年前的太阳消失后，[r]新的太阳是如何被创造出来的。
+[k]
+
+＠特佩乌
+迈雅为创造第一个太阳已经精疲力竭了。[r]并彻底归化于这颗行星，不再是外星生命了。
+[k]
+
+＠特佩乌
+既然如此，只能另行准备动力源了。
+[k]
+
+＠特佩乌
+在10万年的黑暗中繁荣起来的卡恩民众[r]付出了一切作为代价打倒了ORT。
+[k]
+
+＠特佩乌
+随后迈雅摘除了ORT的心脏，[r]加工为太阳。
+[k]
+
+＠特佩乌
+与刚才的U－奥尔加玛丽和戴比特[r]是同样的关系。
+[k]
+
+＠特佩乌
+ORT的身体虽然缺少心脏，[r]但那颗心脏仍在别的地方运作。
+[k]
+
+＠特佩乌
+因此在ORT内部并没有发出[r]『修复破损的心脏』这一命令。
+[k]
+
+＠特佩乌
+毕竟心脏没有破损，只是作为[r]米克特兰的第二太阳运作着。
+[k]
+
+[charaFaceFade E 6 0.2]
+＠特佩乌
+一直以来哺育我们迪诺斯的能量，[r]正是ORT的心脏。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠戈尔德鲁夫
+这场器官移植手术太不得了了！？[r]那么ORT之所以要前往墨西哥城，
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠特佩乌
+是为了夺回心脏，恢复完全的状态吧。[r]可以算是生命的本能。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠戈尔德鲁夫
+哎哎！　明明已经干出如此离谱的事，[r]事到如今还装什么生命啊！
+[k]
+
+[charaFace A 12]
+＠戈尔德鲁夫
+变更作战目标！[r]击败ORT的限期并非地表，而是到第六层为止！
+[k]
+
+＠戈尔德鲁夫
+爬到地表自不必说，[r]就算让它抵达墨西哥城也会完蛋！
+[k]
+
+＠戈尔德鲁夫
+无论如何都要在那家伙夺回心脏前击败它！
+[k]
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_122 2.0]
+[wait fade]
+[soundStopAll]
+[end]

@@ -1,0 +1,1002 @@
+
+＄03-00-13-15-5-1
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 8001410 1 玛修]
+[charaSet B 1098252940 1 特佩乌]
+[charaSet C 1098252410 1 库库尔坎]
+[charaSet D 1098257300 1 达·芬奇]
+[charaSet E 1098255300 1 尼托克丽丝]
+[charaSet F 1098255200 1 哈贝特洛特]
+[charaSet G 1098256100 1 谜之青年]
+[charaSet H 1098257200 1 ？？？]
+[charaSet I 1098256400 1 古伽兰那的腿]
+
+[sceneSet J 173900 1]
+[sceneSet K 10000 1]
+[charaScale K 1.05]
+
+[charaSet T 98115000 1 特效用]
+
+[scene 173900]
+
+[charaPut T 2000,2000]
+
+[cameraMove 0.1 0,0 1.01]
+[wt 0.1]
+
+[bgm BGM_BATTLE_62 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaFadein I 0.1 1]
+[wt 0.4]
+
+[charaMove I 0,-40 1.0]
+[charaShake I 0.05 3 3 0.7]
+[wt 0.2]
+[shake 0.02 5 5 1.0]
+[charaEffect T bit_talk_impactlanding]
+[se ade311]
+[se ad882]
+[se ade79]
+[se ad882]
+[seStop ad882 1.8]
+[wt 0.4]
+[charaFadeout I 0.4]
+[bgmStop BGM_BATTLE_62 1.5]
+[seStop ade79 1.5]
+[charaPut T 0,0]
+[wt 1.5]
+[se ad52]
+[seVolume ad52 0 0.6]
+[wt 2.0]
+
+[charaTalk depthOff]
+[charaDepth C 2]
+[charaDepth E 1]
+
+[charaTalk off]
+[charaFace E 13]
+[charaFadeinFSL E 0.1 -270,0]
+[charaFace C 7]
+[charaFadeinFSR C 0.1 270,0]
+
+＠尼托克丽丝＆库库尔坎
+哎？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaDepth F 2]
+[charaDepth A 1]
+
+[charaFace F 16]
+[charaPutFSL F -270,0]
+[charaFadeTime F 0.1 0.7]
+[charaFace A 6]
+[charaFadeinFSR A 0.1 270,0]
+
+＠玛修＆哈贝特洛特
+奇，奇怪？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaScale B 1.2]
+[charaScale D 0.9]
+
+[charaDepth B 2]
+[charaDepth D 1]
+
+[charaFace D 22]
+[charaFadeinFSL D 0.1 -270,-110]
+[charaFace B 6]
+[charaFadeinFSR B 0.1 270,50]
+
+＠特佩乌＆达·芬奇
+什么。
+[k]
+
+[charaSet A 1098231510 1 玛修]
+[bgm BGM_EVENT_146 0.1]
+
+？1：竟然……就那样打倒了……？
+？2：风也……停下来了？
+
+？！
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaScale B 1.0]
+[charaScale D 1.0]
+
+[charaTalk depthOn]
+[charaTalk on]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠库库尔坎
+看来是这样。[r]虽然才只击败了腿……
+[k]
+
+＠库库尔坎
+难道腿就是本体？[r]或者是沙尘暴让我们看到的幻觉之类的？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+但以幻觉而言，攻击的手感太扎实了。[r]那毫无疑问是拥有实体的生物……
+[k]
+
+＠尼托克丽丝
+玛修、[%1]。[r]你们对刚才那条『腿』有印象吗？
+[k]
+
+？1：不，那种『腿』我还是第一次见到。
+？2：（夏日……泳装……不，应该是错觉吧……）
+
+？！
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_146 1.5]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+真是次不可思议的体验。[r]来路不明的巨大生物，以及突然停歇的强风。
+[k]
+
+＠特佩乌
+谜团虽尚未解开，不过那两种威胁能消失也是好事一件。[r]这样就能无所顾忌地横跨冥界了。
+[k]
+
+[bgm BGM_EVENT_147 0.1]
+
+＠特佩乌
+虽说吃了红瓜，[r]但[%1]应该还需要补充水份吧。
+[k]
+
+＠特佩乌
+我的思考速度也变慢了些，[r]抓紧前往绿洲吧。
+[k]
+
+？1：确实。
+？2：不过水壶里还有富余。
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠库库尔坎
+[FFFFFF]？[-]　稍等一下。[r]那里是不是有人倒在地上？
+[k]
+
+＠库库尔坎
+那是什么呢，是我从未见过的生物。[r]软绵绵的、滑溜溜的，还闪闪发光。
+[k]
+
+[charaFace C 11]
+
+＠库库尔坎
+啊，完全没有战斗力呢。[r]这倒是能百分百肯定。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 24]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+唔？　难道除我们以外还有[r]其他迪诺斯进入了这冥界线？
+[k]
+
+＠达·芬奇
+走近一点看看[line 3]
+[k]
+
+[messageOff]
+[se ad173]
+[seStop ad173 1.0]
+[charaFadeout D 0.5]
+[bgm BGM_EVENT_147 1.0 0.5]
+[wt 0.2]
+
+[subCameraOn 1]
+
+[charaLayer G sub #A]
+[charaLayer J sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask10 3 255,255,255,255]
+
+[charaScale J 1.6]
+[charaScale G 1.2]
+[charaFilter G silhouette 00000080]
+
+[charaDepth G 7]
+[charaDepth J 6]
+
+[charaFace G 0]
+[charaFadein G 0.1 -80,250]
+[charaFadein J 0.1 200,240]
+[wt 0.1]
+
+[charaTalk G]
+
+[subRenderFadein #A 0.7 -200,-350]
+[wt 2.2]
+
+[bgm BGM_EVENT_147 1.0 1.0]
+
+[subRenderFadeout #A 0.7]
+[wt 0.7]
+
+[charaTalk D]
+[charaFace D 25]
+[charaFadein D 0.2 1]
+
+＠达·芬奇
+是人类！？　不是迪诺斯！
+[k]
+
+＠达·芬奇
+没有戴面具，所以也不是奥塞洛特尔！[r]总感觉打扮有些怪怪的！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[subRenderFadein #A 0.3 -200,-350]
+[wt 0.3]
+
+＠？？？
+……这种……语言……是泛人类史的……人吧？[r]在冥界遇见葡萄……指的就是这种情况吧……
+[k]
+
+＠？？？
+水……能否……给我点水呢……[r]我有对各位……很有价值的情报……
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.3]
+[wt 0.3]
+
+[charaTalk A]
+[charaFace A 35]
+[charaFadein A 0.1 1]
+
+＠玛修
+衰弱得随时都可能死去……！[r]御主，可以分一点水壶里的水给他吗！
+[k]
+
+？1：当然可以！
+？2：要轻点，慢慢让他含进嘴里！
+
+？！
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_147 1.5]
+[wait fade]
+
+[charaFadeout G 0.1]
+[charaFadeout J 0.1]
+[charaScale G 1.0]
+[charaFilter G normal]
+
+[subCameraOff]
+[charaLayer G normal]
+[charaLayer J normal]
+
+[charaFadeout A 0.1]
+[wt 2.0]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[bgm BGM_MAP_61 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.4 1]
+[wt 0.5]
+
+＠谜之青年
+活过来了。非常感谢。
+[k]
+
+[charaFace G 4]
+
+＠谜之青年
+这份恩情永生难忘。等今后机会来临时，[r]我定会以同等分量的水报答各位。
+[k]
+
+[charaFace G 0]
+
+＠谜之青年
+不过，各位都一脸“不是说这种话的时候”的表情呢。[r]真巧，我也是这么想的。
+[k]
+
+[charaFace G 2]
+
+＠谜之青年
+但感到高兴应该无妨吧。此刻与各位的相识，[r]让我看到了世界和平的预兆。
+[k]
+
+＠谜之青年
+于是我内心暗暗决心不可错失这个机会。[r]我不会拿去干坏事的，能否请教各位的名字呢？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaScale B 1.2]
+[charaScale F 0.9]
+[charaScale D 0.9]
+[charaScale A 0.9]
+[charaScale E 0.9]
+[charaScale C 0.9]
+
+[charaTalk depthOff]
+[charaDepth F 7]
+[charaDepth D 6]
+[charaDepth A 5]
+[charaDepth E 4]
+[charaDepth C 3]
+[charaDepth B 2]
+
+[charaTalk off]
+
+[charaFace F 6]
+[charaPutFSL F -410,-40]
+[charaFadeTime F 0.1 0.7]
+[charaFace A 12]
+[charaFadeinFSL A 0.1 -235,-110]
+[charaFace B 4]
+[charaFadein B 0.1 0,80]
+[charaFace E 8]
+[charaFadein E 0.1 0,-110]
+[charaFace C 13]
+[charaFadeinFSR C 0.1 230,-110]
+[charaFace D 36]
+[charaFadeinFSR D 0.1 390,-110]
+
+＠全体
+哎……啊，好。[r]那就先从队长开始……
+[k]
+
+？1：（从我开始！？）
+？2：呃，那个……
+
+？！
+
+[messageOff]
+[charaFadeout B 0.2]
+[charaFadeout D 0.2]
+[charaFadeout C 0.2]
+[charaFadeout A 0.2]
+[charaFadeout F 0.2]
+[charaFadeout E 0.2]
+[wt 1.0]
+[charaScale B 1.0]
+[charaScale E 1.0]
+[charaScale F 1.0]
+[charaScale D 1.0]
+[charaScale A 1.0]
+[charaScale C 1.0]
+
+[charaTalk depthOn]
+[charaTalk on]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠谜之青年
+原来是眼瞧着[&就要跑起来:就要跳起来]的[%1]啊。
+[k]
+
+＠谜之青年
+这名字好像在哪里听过。[r]形容词是我送上的赠礼。
+[k]
+
+[charaFace G 3]
+
+＠谜之青年
+野猪崽玛修、反光的特佩乌、[r]人小鬼大的达·芬奇、卷来卷去的哈贝特洛特。
+[k]
+
+＠谜之青年
+薄命的尼托克丽丝、莫名其妙的库库尔坎。
+[k]
+
+[charaFace G 2]
+
+＠谜之青年
+七人中有五人是战斗专员啊。[r]这意味着拯救世界的时刻终于到来了吧？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠玛修
+野猪崽……[r]是指那种非常可爱的野猪崽吗？
+[k]
+
+＠玛修
+真是不胜荣幸，不过为何会是野猪崽？[r]我身上也没披什么野猪皮啊……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠谜之青年
+都是[#第一印象:first impression]。[r]没什么特别的深层含义。
+[k]
+
+＠谜之青年
+话说，各位接下来要去哪里？[r]是[#第五层:上面]？　还是[#第七层:下面]？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+回答之前啊，能先告诉我们你的名字，[r]还有你为何会倒在这里吗？
+[k]
+
+[charaTalk depthOff]
+[charaDepth D 5]
+[charaDepth K 1]
+
+＠达·芬奇
+等你说完再谈我们的来历吧。[wt 1.0][charaPut K 1][charaFadeTime K 0.2 0.5][r]（因为你实在太可疑了！）
+[k]
+
+[charaFadeout K 0.2]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠谜之青年
+我的名字还不能说，否则会给各位添麻烦的。[r]不过，我就回答我为何会倒在这里好了。
+[k]
+
+[charaFace G 3]
+
+＠谜之青年
+我是被任命为培育这个冥界的管理员。[r]某天，当我早上被充沛的光芒照醒时，
+[k]
+
+＠谜之青年
+任性的女神命令我『将沙漠变成一望无际的花田，[r]以及满是羊群的[#乐园:Edin]吧』。
+[k]
+
+[charaFace G 1]
+
+＠谜之青年
+是不是觉得这很强人所难，而且我很可怜？[r]是吧。
+[k]
+
+＠谜之青年
+然而我很优秀，所以答应了她的要求。[r]将沙漠培养成了一望无际的花田，
+[k]
+
+＠谜之青年
+由于米克特兰没有羊，作为代替，我给予了砂虫[r]丰富的营养，让它们茁壮成长，成功实现了大型化。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+那些大得离谱的砂虫原来是你干的好事吗！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠谜之青年
+被农业的进步吓到了吗？　我也一样。[r]你惊讶＆我惊讶就扯平了，且让往事随风而去吧。
+[k]
+
+＠谜之青年
+冥界的慢生活就这样顺利地进展着。[r]然而[line 3]
+[k]
+
+[bgmStop BGM_MAP_61 1.5]
+
+＠谜之青年
+这时候响起了啪嗒啪嗒的扑翅声，[r]可疑的蝙蝠男现身了。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth E 2]
+[charaDepth A 1]
+
+[charaTalk E,A]
+[charaFace E 9]
+[charaFadeinFSL E 0.1 -270,0]
+[charaFace A 7]
+[charaFadeinFSR A 0.1 270,0]
+
+＠玛修＆尼托克丽丝
+！　是自称卡玛佐茨的英灵吗？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠谜之青年
+很抱歉，名字我就不记得了。[r]毕竟我分给男性名字的记忆容量少之又少。
+[k]
+
+[charaFace G 0]
+
+＠谜之青年
+那只蝙蝠发出了嘎哈哈唔呼呼的友善笑声，
+[k]
+
+＠谜之青年
+然后趁势找任性的女神搭话，[r]把她变成了『吓人的女神』。
+[k]
+
+＠谜之青年
+要说哪里吓人，就是女神连蝙蝠也照攻击无误，[r]而蝙蝠也被她的激烈吓到皱起眉头，飞走的程度。
+[k]
+
+[charaFace G 3]
+
+＠谜之青年
+对吧，吓死人了。Terrible，Terrible。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+竟能让米克特兰恐怖的象征[r]卡玛佐茨都感到头疼……咽口水。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠谜之青年
+不仅如此。
+[k]
+
+＠谜之青年
+吓人的女神还从好不容易开满鲜花的大地吸走了魔力，[r]害大地变回了原本的沙漠。
+[k]
+
+＠谜之青年
+然后打造了『天鸣神殿』，[r]用风暴支配了这个冥界。
+[k]
+
+？1：……天鸣神殿……
+？2：所以上空的无重力空间就是那家伙创造的吗？
+
+？！
+
+[charaFace G 0]
+
+＠谜之青年
+Yes。有赖于各位击败了『天鸣神殿』，[r][#这一带]的风暴才得以消失了。
+[k]
+
+＠谜之青年
+多亏如此，各位才得到了遇见我的机会。[r]说明到此为止。
+[k]
+
+＠谜之青年
+不过这整件事对各位来说一定太复杂了吧。[r]需要我总结吗？　只是要额外收费哦。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玛修
+不，已经足够了。
+[k]
+
+＠玛修
+『吓人的女神』是这个冥界的守卫，[r]女神创造的『神殿』孕育出了沙尘暴。
+[k]
+
+＠玛修
+而您……是女神的侍从吗？
+[k]
+
+＠玛修
+既然能让沙漠变成花田，[r]应该是具备非比寻常魔力与知识的人物吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠谜之青年
+侍从……听起来还不错。侍从有糖吃。[wt 1.2][charaFace G 1][r]但实际上，我得到的只有鞭子。
+[k]
+
+？1：冥界没有劳动法吗？
+
+[charaFace G 0]
+
+＠谜之青年
+Oh。这想法，这反击，[r]被选中的勇者果然与众不同。
+[k]
+
+？2：你难道是杜……
+
+[charaFace G 0]
+
+＠谜之青年
+不能再说下去了。[r]我们继续刚才的话题吧。
+[k]
+
+？！
+
+＠谜之青年
+那么，让我们继续[#冥界提问:做冥界问卷]吧。[r]请说出各位的所属组织以及目的。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 34]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+你这人感觉不太值得信任……[r]但不说似乎也进展不下去了吧。
+[k]
+
+[charaFace D 0]
+
+＠达·芬奇
+我们是迦勒底的人。[r]你是泛人类史的英灵吧？　那应该清楚我们的状况。
+[k]
+
+＠达·芬奇
+我们正与御主[%1]一同前往第七层。
+[k]
+
+＠达·芬奇
+刚才虽被沙尘暴折磨了一番，但那玩意也消失了，[r]这会儿正打算出发前往绿洲哦。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠谜之青年
+[f large]果然如此。
+[k]
+
+＠谜之青年
+你们误会了。[r]前往绿洲就能找到出口，这是个错误的情报。
+[k]
+
+＠谜之青年
+[#踏进这冥界的人没有一个出得去]。[r]而前往绿洲的人也[#不会更自由]。
+[k]
+
+[charaFace G 2]
+
+＠谜之青年
+各位能在前往绿洲之前遇见我，[r]保守点说也算是命运吧。
+[k]
+
+＠谜之青年
+各位是重要的战斗专员，我不能让你们白白送死。[r]请跟我来。
+[k]
+
+？1：？　这是什么意思？
+？2：没有一个出得去？
+
+？！
+
+[charaFace G 0]
+
+＠谜之青年
+No。现在最重要的不是这个问题。[r]而是我的安全，以及能保障我安全的各位的安全。
+[k]
+
+＠谜之青年
+从绿洲看这里可谓一览无遗，[r]兼之神殿遭到了破坏，各位的入侵者身份已然坐实。
+[k]
+
+＠谜之青年
+我们先转移到偏远区域吧，[r]那里有我偷偷建造的洞窟。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_81 1.5]
+[charaCrossFade G 1098256110 0 0.6]
+[wt 0.25]
+[se ad984]
+[seVolume ad984 0 0.6]
+[wait charaCrossFade G]
+[wt 0.7]
+[cameraMove 1.5 -30,30 1.5]
+[wt 1.8]
+
+＠谜之青年
+来吧，这边走。我保证那里是个舒适的空间。
+[k]
+
+？1：！？
+
+？！
+
+[messageOff]
+[cameraMove 1.5 0,0 1.0]
+[wt 1.8]
+
+[charaCrossFade G 1098256100 0 0.4]
+[wt 0.5]
+
+＠谜之青年
+怎么了？[bgm BGM_EVENT_7 0.1]
+[k]
+
+[wait charaCrossFade G]
+
+？1：慢着，刚才你的背上有个似曾相识的东西。
+
+？！
+
+[charaFace G 4]
+
+＠谜之青年
+人在一生中会见到许多背影。
+[k]
+
+＠谜之青年
+进京的青梅竹马、因感情破裂而离家的恋人，[r]目送两者渐行渐远的背影，真是段佳话呢。
+[k]
+
+＠谜之青年
+而人类背影的形状基本一致，[r]你自然会觉得似曾相识吧。
+[k]
+
+？1：我不是这个意思，杜木兹。
+
+？！
+
+[charaFace G 0]
+
+＠G：杜木兹
+为何要这样做？　委托征信所调查他人品行可令人难以苟同。[r]人孰无过，拍两下总会掉落瑕疵灰尘，毕竟是羊毛。
+[k]
+
+[bgmStop BGM_EVENT_7 1.5]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+＠？？？
+掉落的不是什么灰尘，而是不良债权吧。[r]你终于露出马脚……不，是露出尾巴了啊，杜木兹。
+[k]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠玛修
+！　上空出现魔力反应！[r]超A级的灵基[line 3]是神灵从者！
+[k]
+
+[messageOff]
+[wipeout rectangleStripUpToDown 0.5 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+
+[scene 10000]
+
+[sceneSet J 170300 1]
+
+[charaSet U 1098257200 1 埃列什基伽勒AlterA]
+[charaSet O 1098257200 1 埃列什基伽勒AlterB]
+
+[sceneSet P 35403 1]
+[sceneSet Q 35403 1]
+
+[subCameraOn 2]
+
+[charaLayer U sub #A]
+[charaLayer P sub #A]
+
+[charaLayer O sub #B]
+[charaLayer Q sub #B]
+
+[subCameraFilter #A maskEdge cut359_mask03 3 179,16,49,255]
+[subCameraFilter #B maskEdge cut359_mask02 3 179,16,49,255]
+
+[charaDepth P 1]
+[charaDepth Q 1]
+[charaDepth U 2]
+[charaDepth O 2]
+
+[charaScale U 1.5]
+[charaScale O 1.5]
+[charaScale P 1.5]
+[charaScale Q 1.5]
+
+[charaTalk off]
+[charaFace U 0]
+[charaFadein U 0.1 -50,560]
+[charaMove U -150,560 10.0]
+[charaFace O 0]
+[charaFadein O 0.1 50,420]
+[charaMove O 150,420 10.0]
+
+[charaFadein P 0.1 0,200]
+[charaFadein Q 0.1 0,300]
+
+[wipein rectangleStripDownToUp 0.1 1.0]
+[wait wipe]
+
+[bgm BGM_BATTLE_114 0.1]
+[wt 1.0]
+[subRenderFadein #A 0.4 100,-200]
+[subRenderMove #A 0,-200 0.4]
+[wt 1.5]
+[subRenderFadeout #A 0.4]
+[subRenderMove #A -100,-200 0.4]
+[wt 1.0]
+
+[subRenderFadein #B 0.4 -100,-250]
+[subRenderMove #B 0,-250 0.4]
+[wt 1.5]
+[subRenderFadeout #B 0.4]
+[subRenderMove #B 100,-250 0.4]
+[wt 0.5]
+
+[wipeout rectangleStripUpToDown 0.1 1]
+[wait wipe]
+
+[scene 170300]
+
+[charaScale J 1.2]
+[charaScale H 1.2]
+
+[charaTalk depthOff]
+[charaDepth H 2]
+[charaDepth J 2]
+
+[charaTalk H]
+[charaFace H 0]
+[charaPut H 0,70]
+[charaMove H 0,0 4.5]
+[charaFadein J 0 0,-230]
+[charaMove J 0,-300 4.5]
+[wt 0.5]
+
+[wipein rectangleStripDownToUp 0.7 1]
+[wait wipe]
+
+
+[charaFadeTime H 1.0 1.0]
+[wt 4.0]
+
+＠？？？
+破坏了我的神殿，该遭天谴的就是这些家伙？
+[k]
+
+＠？？？
+你们要感到荣幸，[r]冥界女神可是亲自来踩扁你们了哦。
+[k]
+
+[charaFace H 4]
+
+＠？？？
+当然，会连同那边的羊神在内。[r]这赤裸裸的反叛还真不像你的作风，真是辛苦了。
+[k]
+
+＠？？？
+以为我会温柔到放过你吗？[r]很不凑巧，现在的我并非埃列什基伽勒。
+[k]
+
+＠？？？
+我正是残酷、残忍、淫荡的[r]冥界真正的女神，宁基伽勒。
+[k]
+
+＠H：宁基伽勒
+踏入我庭院之人皆为我的私有物。[r]我会一个不漏地将你们征收为劳动力！
+[k]
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[bgmStop BGM_BATTLE_114 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,676 @@
+
+
+
+＄03-00-13-24-7-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098239310 1 卡多克]
+[charaSet C 1098257300 1 达·芬奇]
+[charaSet D 1098255100 1 戈尔德鲁夫]
+[charaSet E 1098257200 1 埃列什基伽勒·Alter]
+[charaSet F 1098256100 1 杜木兹]
+
+[sceneSet H 177100 1]
+[sceneSet I 177100 1]
+[sceneSet J 142000 1]
+[sceneSet K 173902 1]
+[sceneSet L 177200 1]
+[sceneSet M 177200 1]
+
+[sceneSet N 177101 1]
+[charaScale N 1.2]
+
+[charaSet S 98115000 1 特效用dummy]
+
+[scene 177100]
+
+[charaTalk off]
+[charaDepth H 2]
+[charaDepth I 3]
+
+
+[charaScale H 1.4]
+[charaFadein H 0.1 100,-225]
+[wt 1.0]
+
+[charaMove H -100,-225 5.0]
+
+[cueSe SE_23 23_ad1255]
+[se ad913]
+[seVolume ad913 0 0]
+[se ad297]
+[seVolume ad297 0 0]
+[se ad299]
+[seVolume ad299 0 0]
+
+[se ad14]
+[seVolume ad14 0 0]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ad14 2.0 0.4]
+[seVolume ade393 2.0 0.4]
+
+[seVolume ad913 2.0 1.0]
+[seVolume ad297 2.0 1.0]
+[seVolume ad299 2.0 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[wt 2.0]
+
+[charaScale I 1.4]
+[charaFadein I 1.2 0,-250]
+[charaMove I 0,-350 5.5]
+[wt 1.5]
+[charaFadeout H 0.1]
+[wt 2.0]
+
+[charaFadeout I 1.2]
+[wt 3.6]
+
+[fadeout black 1.0]
+[seStop ad14 1.5]
+[seStop ade393 1.5]
+[seStop ad913 1.5]
+[seStop ad297 1.5]
+[seStop ad299 1.5]
+[seStop 23_ad1255 1.5]
+[wait fade]
+
+[scene 142000]
+[wt 1.0]
+
+[bgm BGM_MAP_64 1.5]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠玛修
+[line 3]ORT，开始崩溃[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠卡多克
+嗯……无论对这家伙做什么都毫无反应，[r]能不能奏效我还半信半疑呢……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠达·芬奇
+嗯，这下毫无疑问[line 3]
+[k]
+
+
+？1：总算能在这里打倒它了[line 3]！！！！
+？2：再继续就真的不行了……！
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠戈尔德鲁夫
+很好[line 4]，诸位干得漂亮！[r]这要是赛车比赛，这会儿已经上领奖台开香槟了！
+[k]
+
+＠戈尔德鲁夫
+最大的危机已然过去！[r]这下终于能回Storm Border了！
+[k]
+
+[charaFace D 0]
+＠戈尔德鲁夫
+啊，不行。还没到兴奋的时候。[r]要向最大的功臣道谢才行。
+[k]
+
+[charaFace D 1]
+＠戈尔德鲁夫
+[%1]，去外面[r]把神灵埃列什基伽勒叫进来吧。
+[k]
+
+＠戈尔德鲁夫
+她原本就是在Storm Border被召唤出来的从者。[r]我们一起返回，共贺胜利吧。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_MAP_64 1.0 0.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[scene 173902]
+
+[pictureFrame cut063_cinema]
+[wt 0.6]
+
+[bgm BGM_MAP_64 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[charaEffect E bit_talk_svt_ext 0,100]
+[charaTalk E]
+[charaFace E 22]
+[charaFadein E 0.1 0,-50]
+＠埃列什基伽勒·Alter
+[line 3]太好了。[r]其实我还挺担心的，我们是成功了吧。
+[k]
+
+＠埃列什基伽勒·Alter
+毕竟在尼托克丽丝面前摆出了前辈架子嘛。[r]要是没能在这里成功阻止，我可没脸见她了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut E 2000,2500]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0,-50]
+＠杜木兹
+埃列什基伽勒，现在还是先休息吧。[r]但如果在你闭上眼睛前还有话要传达的话，还请说吧。
+[k]
+
+＠杜木兹
+我会一字一句，包括表情差异和氛围感[r]都一个不漏地描述给他们听。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut E 1]
+[charaTalk E]
+[charaFace E 22]
+[charaFadein E 0.1 0,-50]
+＠埃列什基伽勒·Alter
+没关系，这点余力我还是有的啦。[r]不辞而别消失这种事，一次就够了。
+[k]
+
+[charaFace E 4]
+＠埃列什基伽勒·Alter
+接下来就看库库尔坎怎么应对了……[r]不过这问题比起ORT来说算是小菜一碟。
+[k]
+
+＠埃列什基伽勒·Alter
+现在的迦勒底肯定能与她好好对话，[r]并找出双方的折衷[line 3]
+[k]
+
+[messageOff]
+[charaFace E 27]
+[bgmStop BGM_MAP_64 1.5]
+[wt 1.5]
+
+[charaFace E 0]
+＠埃列什基伽勒·Alter
+[line 3]杜木兹。[r]你已经注意到了吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut E 2000,2500]
+[charaEffectStop E bit_talk_svt_ext]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 0,-50]
+＠杜木兹
+所以我才会说帮你传话。[r]你已经做得很好了，埃列什基伽勒。
+[k]
+
+＠杜木兹
+作为苏美尔诸神的代表，[r]可谓俯仰无愧。
+[k]
+
+＠杜木兹
+这场奋战简直可以说是与冥界同步……不，[r]就算说是化身为冥界也丝毫不为过。
+[k]
+
+＠杜木兹
+假使对手是收割文明的游星尖兵，[r]也会被你击退吧。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaScale H 1.2]
+[charaDepth H 1]
+[charaDepth N 2]
+[charaFadein H 1.0 0,-390]
+[wt 1.5]
+[charaFadeout F 0.1]
+
+[cueSe SE_22 22_ad1151 1.5 0.4]
+[cueSe SE_22 22_ade783 1.5 0.4]
+[charaFadein N 1.5 0,-390]
+[wt 1.5]
+[charaFadeout H 0.1]
+[wt 2.0]
+
+＠杜木兹
+只不过，这次对手实在难缠。[r]那是货真价实的吞噬行星之物。
+[k]
+
+＠杜木兹
+是但凡诞生于这颗[#行星:星球]的生命，[r]都无法打倒的对手。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[cueSeStop 22_ad1151 1.5]
+[cueSeStop 22_ade783 1.5]
+[wait fade]
+
+[charaFadeout N 0.1]
+
+[pictureFrame]
+
+[scene 142000]
+
+[charaDepth J 1]
+[charaDepth A 2]
+[charaDepth D 3]
+[charaDepth B 4]
+
+[charaFadein J 0.1 0,-200]
+[wt 0.8]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠戈尔德鲁夫
+[%1]，去外面[r]把神灵埃列什基伽勒叫进来吧。
+[k]
+
+＠戈尔德鲁夫
+她原本就是在Storm Border被召唤出来的从者。[r]我们一起返回，共贺胜利吧。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.15]
+
+[flashin loop 0.8 0.8 D72727FF 00000000]
+[se ad9]
+[wt 1.6]
+[seStop ad9 1.4]
+[wt 1.4]
+[flashOff]
+[wt 0.1]
+
+[bgm BGM_EVENT_122 0.1]
+
+[charaTalk off]
+
+[charaFace A 20]
+[charaFace B 3]
+[charaFace D 5]
+[charaFadeinFSR A 0.1 300,0]
+[charaFadein B 0.1 1]
+[charaFadeinFSL D 0.1 -300,0]
+[wt 1.6]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 0.4]
+
+？1：警报……？
+？2：[line 3]埃列什基伽勒！
+
+？！
+
+[messageOff]
+[se ad59]
+[charaMoveScale J 1.2 1.0]
+[charaMove J 120,-225 1.0]
+[wt 0.9]
+[seStop ad59 0.3]
+[se ad608]
+[se ad789]
+[se ad876]
+[se ad1015]
+[shake 0.02 2 4 2.5]
+[wt 0.5]
+[seStop ad876 1.0]
+
+[se ad31]
+[seVolume ad31 0 0.3]
+[se ad874]
+[cueSe SE_23 23_ad1252]
+
+[effect bit_talk_space_storm]
+[wt 2.8]
+
+[charaFadeout J 1.2]
+[wt 1.6]
+
+
+[charaTalk depthOn]
+＠戈尔德鲁夫
+发生什么事了！？[r]呜啊，脑袋吱嘎作响，什么都看不见！
+[k]
+
+＠戈尔德鲁夫
+[%1]、基列莱特！[r]达·芬奇、卡多克！
+[k]
+
+＠戈尔德鲁夫
+没事的话就回答我！[r]要是眼睛还看得见就去确认发生了什么[line 3]
+[k]
+
+[messageOff]
+[effectStop bit_talk_space_storm]
+[wt 0.1]
+
+[cueSe SE_23 23_ad1253]
+[seStop 23_ad1252 1.0]
+[seStop ad31 1.0]
+[seStop ad874 1.0]
+[wt 2.0]
+[cueSeStop 21_ad1110 1.5]
+[wt 1.8]
+
+[subCameraOn 1]
+
+[charaLayer K sub #A]
+[charaLayer F sub #A]
+[charaLayer S sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask07 3 204,170,0,255 0]
+[charaScale K 1.2]
+[charaScale F 1.1]
+[charaTalk depthOff]
+[charaDepth K 1]
+[charaDepth F 2]
+[charaDepth S 3]
+
+[charaFadein K 0.1 0,100]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0,265]
+
+[subRenderFadein #A 0.4 0,-200]
+[subRenderMove #A 0,-300 0.4]
+[wt 0.5]
+＠杜木兹
+请放心吧，Mister。车内的人全都平安无事。[r]请立刻驾驶Shadow Border远离。
+[k]
+
+＠杜木兹
+在这个间距内是不可能生存的。[r]我也坚持不了多久，抓紧时间。
+[k]
+
+？1：[line 6]
+？2：杜木兹，埃列什基伽勒呢！？
+
+？！
+
+[bgmStop BGM_EVENT_122 1.5]
+[charaFace F 1]
+＠杜木兹
+百闻不如一见。[r]请看显示器吧。
+[k]
+
+[messageOff]
+[se ad15]
+[wt 0.55]
+
+[se ad1]
+[fadeout black 0.5]
+[wait fade]
+
+[subRenderFadeout #A 0.1]
+
+[scene 177200]
+
+[charaTalk off]
+[charaDepth L 2]
+[charaDepth M 3]
+
+[charaScale L 1.4]
+[charaFadein L 0.1 100,-225]
+[wt 1.0]
+
+[cueSe SE_23 23_ad1254]
+[seVolume 23_ad1254 0 0]
+[se ad556]
+[seVolume ad556 0 0]
+[se ad555]
+[seVolume ad555 0 0]
+[se ad664]
+[seVolume ad664 0 0]
+[cueSe SE_22 22_adm89]
+[cueSeVolume 22_adm89 0 0]
+[se ad446]
+[seVolume ad446 0 0]
+[wt 1.0]
+
+[charaMove L -100,-225 5.0]
+
+[seVolume 23_ad1254 1.5 0.8]
+[seVolume ad556 1.5 0.8]
+[seVolume ad555 1.5 0.8]
+[seVolume ad664 1.5 0.8]
+
+[seVolume ad446 1.5 0.4]
+[cueSeVolume 22_adm89 1.5 0.6]
+[bgm BGM_BATTLE_210 1.5]
+[fadein black 1.5]
+[wait fade]
+[wt 2.0]
+
+[charaScale M 1.4]
+[charaFadein M 1.2 0,-250]
+[charaMoveScale M 1.1 5.5]
+[wt 1.5]
+[charaFadeout L 0.1]
+[wt 2.0]
+
+[charaFadeout M 1.2]
+[wt 2.6]
+
+
+[charaTalk on]
+＠达·芬奇
+……怎么会这样。[r]内部温度正在无止境地上升。
+[k]
+
+＠达·芬奇
+通过核聚变生成能量，[r]以及随之产生的多种宇宙射线、超重力[line 3]
+[k]
+
+＠达·芬奇
+目前只有1万度，但可预测的极限能达到100万[line 3][r]不，一旦开始暴胀肯定不只这个数。
+[k]
+
+＠达·芬奇
+简直就是宇宙空间的雷云群[line 3][r][#银河超级单体:Galactica Supercell]。
+[k]
+
+[messageOff]
+[fadeout black 0.8]
+[bgm BGM_BATTLE_210 0.8 0.5]
+[seStop 23_ad1254 1.5]
+[seStop ad556 1.5]
+[seStop ad555 1.5]
+[seStop ad664 1.5]
+[seStop ad446 1.5]
+[cueSeStop 22_adm89 1.5]
+[wait fade]
+
+[scene 142000]
+[wt 0.6]
+
+[bgm BGM_BATTLE_210 0.8 1.0]
+[fadein black 0.8]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠卡多克
+那是什么，抱歉，我思维已经跟不上了！
+[k]
+
+＠卡多克
+那是背上的零件吗！？[r]ORT那家伙身体崩溃了还能动吗！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[subRenderFadein #A 0.2 0,-300]
+＠杜木兹
+很遗憾，但并非如此。[r]我们乐观的观测令目光背离了真相。
+[k]
+
+＠杜木兹
+此前我们交战的部位，用人类打比方就是皮肤角质……[r]是活动过程中残留于身体外侧的代谢废物。
+[k]
+
+＠杜木兹
+ORT是从虚空掉落的流星，[r]也就是不明飞行物。
+[k]
+
+＠杜木兹
+那个圆盘状物体才是ORT的本体。
+[k]
+
+？1：比起这种事，埃列什基伽勒呢！？
+
+？！
+
+[charaFace F 3]
+＠杜木兹
+被宇宙风暴直接击中，已经蒸发了。[r]因此，我要将这朵花交给你，[%1]。
+[k]
+
+＠杜木兹
+虽然只有一朵，还望你收下。
+[k]
+
+[charaFace F 0]
+＠杜木兹
+这是为了让第三冥界成为决战之地[r]而牺牲了自身愿望的女神留下的余韵之花。
+[k]
+
+＠杜木兹
+只要这朵花尚存，[r]冥界的加护就会继续守护着你吧。
+[k]
+
+[messageOff]
+[bgmStop BGM_BATTLE_210 1.5]
+[charaPut S 0,150]
+[charaEffect S bit_talk_06]
+[wt 2.4]
+
+＠杜木兹
+她还托我转告。这才是我这趟任务的关键部分。
+[k]
+
+[bgm BGM_EVENT_73 0.1]
+
+＠杜木兹
+『很抱歉没能战斗到最后一刻。[r]　不过，我很帅气吧？』
+[k]
+
+
+＠杜木兹
+面对那种风暴，也未露丝毫怯意。
+[k]
+
+＠杜木兹
+以那为了给英灵召唤提供魔力而从指尖[r]开始溃散的[#灵基:身体]，满怀骄傲地，
+[k]
+
+
+＠杜木兹
+露出了不逊色于这朵红花的璀璨笑容。[r]遗憾的是录音时间只有1秒。
+[k]
+
+？1：[line 3]嗯，很帅哦。
+？2：……谢谢你，埃列什基伽勒。
+
+[messageOff]
+[charaFace F 2]
+[wt 1.0]
+
+？！
+
+[charaFace F 0]
+＠杜木兹
+[line 3]好了。我这羊毛般的[#神威:灵气]屏障[r]也快要溶解了。
+[k]
+
+＠杜木兹
+接下来各位的地狱，抱歉，战斗才要正式打响。[r]加油，加很多油。
+[k]
+
+＠杜木兹
+地表上的话，风暴造成的影响似乎会薄弱些，[r]追击时至少要保持两公里的距离。
+[k]
+
+[charaFace F 1]
+＠杜木兹
+你这名召唤者要承受的负担将会是此前的5倍。[r]Oh，值得一试。我跟你果然很合得来吧？
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[charaFace F 3]
+＠杜木兹
+[line 3]哎哟，话匣子一打开就没完没了了呢。[r]非常抱歉，我也要在此退场了。
+[k]
+
+[charaFace F 2]
+＠杜木兹
+然而我并不担心。[r]你可是抵达了那个深渊，展现了彩虹光辉之人。
+[k]
+
+＠杜木兹
+是让冥界女神梦寐以求到愿意挺身而出的勇者。
+[k]
+
+＠杜木兹
+请务必不吸取教训地再次，不，[r]是一而再再而三地来冥界玩哦。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[se ad52]
+[charaSpecialEffect F flashErasure 1 2.0]
+[wait charaSpecialEffect F]
+[charaEffectStop S bit_talk_06]
+[wt 2.0]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_73 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,717 @@
+
+
+
+＄04-00-02-08-3-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098268910 1 樱]
+[charaSet B 7046001 1 难敌]
+[charaSet C 1098267100 1 美杜莎]
+[charaSet D 1098270000 1 希翁]
+[charaSet E 6037001 1 迦摩]
+[charaSet F 1098269900 1 玛奇里]
+[charaSet G 1098269700 1 蓝胡子]
+[charaSet H 1098269700 1 蓝胡子2]
+[charaScale H 1.2]
+[charaSet I 1098271200 1 刻印虫1]
+[charaSet J 1098271200 1 刻印虫2]
+[charaSet K 1098271020 1 强化蠢魔1]
+[charaSet L 1098271020 1 强化蠢魔2]
+[charaSet M 1098271100 1 虫英灵1]
+[charaSet N 1098271100 1 虫英灵2]
+
+[sceneSet O 10000 1]
+[charaScale O 1.05]
+[sceneSet P 190400 1]
+[charaScale P 1.2]
+[sceneSet Q 191600 1]
+[charaScale Q 1.01]
+[sceneSet R 190400 1]
+[sceneSet S 190400 1]
+
+[charaSet T 98115000 1 特效用1]
+
+[scene 190400]
+
+[cameraMove 0.1 0,0 1.01]
+[wt 0.1]
+
+[fadein black 1.5]
+[bgm BGM_MAP_67 0.1]
+[wait fade]
+
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+
+＠迦摩
+名字明明一样，[r]人却变得皱巴巴了呢。
+[k]
+
+＠迦摩
+这是怎么回事？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠玛奇里
+呼喀喀。看来……[r]是权限未遭正确掠夺的御主会被重新利用吧。
+[k]
+
+＠玛奇里
+也许是重新利用时也部分运用了乱数器吧，[r]似乎重生成了并非以往那个老夫的老夫。
+[k]
+
+＠玛奇里
+进一步说，你们也没确认[#Caster:魔术师]的灵核[r]是否粉碎了吧？
+[k]
+
+[charaFace F 2]
+
+＠玛奇里
+天真，太天真了。哪怕半死不活，[r]只要好歹能存活下去，
+[k]
+
+＠玛奇里
+就能像这样继续使用。[r]而且他们本就不需要什么[#精神:心]吧？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad60]
+[seStop ad60 0.5]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.4 20,0]
+[charaMove G 1 0.5]
+[charaShake G 0.03 3 3 0.5]
+[wt 1.5]
+
+？1：连[#Caster:魔术师]也……！
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+
+＠希翁
+搜索[line 3]回忆[line 3]找到符合条件的结果。
+[k]
+
+[charaFace D 6]
+
+＠希翁
+监督官拉妮－ⅩⅡ曾发言称[r]『[#Caster:魔术师]御主的机能停摆』，
+[k]
+
+＠希翁
+还有『确认了超巨大蠢魔的消灭』。
+[k]
+
+＠希翁
+然而，她并没有明说[#Caster本人怎么样了]。[r]只是我们擅自这样判断而已。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠难敌
+你说什么！？[r]那女人原来是个大骗子啊！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_67 0.5 0.7]
+
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth D 2]
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+[charaPut O 0,-200]
+[charaFadeTime O 0.2 0.5]
+
+＠希翁
+（[#正确却不充分的情报][line 3]）
+[k]
+
+＠希翁
+（她是有意这样传达的吗？[r]　还是说身为系统不得不以这种方式传达呢？）
+[k]
+
+＠希翁
+（根据具体真相如何，情况将会发生变化……）
+[k]
+
+[bgm BGM_MAP_67 0.5 1.0]
+
+[charaFadeout O 0.2]
+[charaFadeout D 0.2]
+[wt 0.2]
+
+[charaTalk depthOn]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠迦摩
+哎呀？　不过那位[#Caster:魔术师]先生[r]情况好像不太对劲吧？
+[k]
+
+＠迦摩
+既然说是半死不活，或许其实也算合情合理吧。
+[k]
+
+＠迦摩
+但你难道真的认为以这种摇摇晃晃的状态[r]就能打赢复仇赛吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠玛奇里
+哼哼，重启过后的老夫，[r]似乎觉醒了新的能力。
+[k]
+
+[bgmStop BGM_MAP_67 1.2]
+
+＠玛奇里
+别以为还跟之前那个老夫同水准哦。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[cueSe SE_23 23_ad1289]
+[charaFace I 0]
+[charaFace J 0]
+[charaFadeinFSL I 0.4 0]
+[wt 0.2]
+[charaFadeinFSR J 0.4 2]
+[wt 1.0]
+[bgm BGM_EVENT_126 0.1]
+[cueSeStop 23_ad1289 1.0]
+[wt 1.0]
+
+？1：虫……！
+？！
+
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+
+＠希翁
+请小心。
+[k]
+
+＠希翁
+利用了拉妮物质的[#虚拟术式:指令]，[r]等同于外部世界的魔术。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠玛奇里
+呼呼，呼喀喀。[r][#抱歉抱歉:很好很好]，这次老夫的脑海中无比清朗。
+[k]
+
+＠玛奇里
+这下可没办法手下留情了。
+[k]
+
+＠玛奇里
+上一个老夫明明还有很多应该去做的事啊。
+[k]
+
+＠玛奇里
+比方说，可以像这样试着把虫[r]融合到[#Caster:魔术师]的使魔身上。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.2]
+
+[blur lens 0.5 2 20]
+[subCameraOn 2]
+[charaLayer R sub #A]
+[charaLayer K sub #A]
+[charaLayer L sub #A]
+[charaLayer S sub #B]
+[charaLayer M sub #B]
+[charaLayer N sub #B]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth R 1]
+[charaDepth K 2]
+[charaDepth L 3]
+[charaDepth S 1]
+[charaDepth M 2]
+[charaDepth N 3]
+
+[charaScale R 1.01]
+[charaScale S 1.01]
+[charaFadein R 0.1 0,200]
+[charaFadein S 0.1 0,200]
+[subCameraFilter #A maskEdge cut359_mask08 4 0,0,0,255 0]
+[subCameraFilter #B maskEdge cut359_mask08 4 0,0,0,255 0]
+[wt 0.1]
+
+[subRenderFadein #A 0.4 -100,-330]
+[subRenderMove #A 0,-330 0.3]
+[wt 0.3]
+
+[cueSe Servants_2500700 m41410 0 0.6]
+[charaFace K 0]
+[charaFace L 0]
+[charaFadein K 0.4 226,320]
+[charaMove K 256,320 0.4]
+[wt 0.2]
+[cueSeStop m41410 1.0]
+[charaFadein L 0.4 -286,320]
+[charaMove L -256,320 0.4]
+[wt 2.0]
+
+[blurOff lens 0.5]
+[subRenderFadeout #A 0.4]
+[wt 0.6]
+
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠玛奇里
+抑或，让它们寄生到那些像[#故障:bug]般在这个世界[r]横行阔步的强大结构体的碎片身上并加以操控……
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.2]
+
+[blur lens 0.5 2 20]
+[subRenderFadein #B 0.4 100,-330]
+[subRenderMove #B 0,-330 0.3]
+[wt 0.3]
+[cueSe SE_22 22_ad1169 0.3 0.7]
+[charaFace M 0]
+[charaFace N 0]
+[charaFadein M 0.4 -226,250]
+[charaMove M -256,250 0.4]
+[wt 0.2]
+[charaFadein N 0.4 286,250]
+[charaMove N 256,250 0.4]
+[wt 0.4]
+[cueSeStop 22_ad1169 1.0]
+[wt 1.6]
+
+[blurOff lens 0.5]
+[subRenderFadeout #B 0.4]
+[wt 0.4]
+[charaFadeout R 0.1]
+[charaFadeout S 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[wt 0.2]
+[charaLayer R normal]
+[charaLayer K normal]
+[charaLayer L normal]
+[charaLayer S normal]
+[charaLayer M normal]
+[charaLayer N normal]
+[subCameraOff]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠希翁
+原来如此。之所以比此前的那些更为强化了，[r]就是因为你那恶心的[#术式:指令]吧。
+[k]
+
+＠希翁
+功能性、美感、舞台效果，每一项都不及格。[r]以我父亲的口吻来说，就是All-Cut级的0分。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠玛奇里
+哈哈哈哈！　美感根本无关紧要。
+[k]
+
+＠玛奇里
+上一个老夫还有所保留。
+[k]
+
+＠玛奇里
+拘泥于高远的理想，[r]无法割舍正义这种玩意的碎片，
+[k]
+
+＠玛奇里
+妄图满足想优雅取胜的这种年轻虚荣心。[r]这就是他的败因。
+[k]
+
+[charaFace F 0]
+
+＠玛奇里
+老夫不一样。
+[k]
+
+＠玛奇里
+不为遥远的理想，[r]只为现实中所该掌握的胜利，
+[k]
+
+＠玛奇里
+老夫很清楚，为了目的，[r]有时就该不顾丑陋献上所有一切才行。
+[k]
+
+＠玛奇里
+尤其是在这种[r]用得上的玩具都已濒临毁坏的时候[line 3]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth P 2]
+[charaDepth H 3]
+
+[charaFace H 2]
+[charaFadein H 1.5 1]
+[charaFadein P 1.5 0,-300]
+[charaMove P 0,-350 1.5]
+[charaMoveScale H 1.3 1.5]
+[charaMoveScale P 1.3 1.5]
+[wt 2.0]
+
+[cueSe SE_23 23_ad1287 0 0.5]
+[charaFaceFade H 1 0.2]
+[charaShake H 0.03 2 2 0.5]
+[charaFadeout F 0.1]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+[wt 1.5]
+[cueSeStop 23_ad1287 0.5]
+
+＠蓝胡子
+咕……嘎，啊……！
+[k]
+
+[messageOff]
+[charaFadeout P 0.5]
+[charaFadeout H 0.5]
+[wt 0.7]
+
+[charaSet H 1098269920 1 玛奇里_剪影用]
+[charaSet I 1098269700 1 蓝胡子_剪影用]
+[charaFilter I silhouette 00000080]
+[charaSet J 1098269710 1 蓝胡子_变形1]
+[charaSet K 1098269720 1 蓝胡子_变形2]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠希翁
+难道说，你在自己从者的体内也放了虫！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠玛奇里
+既然没有充足的内在，这也没办法吧？
+[k]
+
+[charaFace F 2]
+
+＠玛奇里
+而且……没错，老夫不会有所保留。[r]现在便是决胜之刻。
+[k]
+
+＠玛奇里
+[#以令咒下令]！
+[k]
+
+[messageOff]
+[cueSe Battle bas16]
+[effect bit_talk_CommandMantra_mkz]
+[wt 1.6]
+[charaCrossFade F 1098269910 2 0.4]
+[wait charaCrossFade F]
+
+[charaFace F 1]
+
+＠玛奇里
+以该力量为燃料充盈汝身，[r]再度开启秘密的门扉。
+[k]
+
+＠玛奇里
+随后同类相食，不断膨胀吧，[r]老夫的虫子们啊，无尽的禁忌们啊！
+[k]
+
+[bgmStop BGM_EVENT_126 1.5]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth I 1]
+[charaDepth J 2]
+[charaDepth K 3]
+
+[charaFace H 0]
+[charaFadein H 0.4 1]
+[wt 0.5]
+[charaFadeout F 0.1]
+[wt 1.0]
+
+[cueSe Battle ba6]
+[charaPut T 1]
+[charaEffect T bit_talk_atomization_gra]
+[charaSpecialEffect H enemyErasure 0,0 1.5]
+[wt 3.0]
+
+[bgm BGM_BATTLE_33 0.1]
+
+[charaFace G 1]
+[charaFadein G 0.1 1]
+[wt 1.0]
+
+[cueSe SE_23 23_ad1288]
+[charaFace I 1]
+[charaFadein I 0.4 1]
+[wt 0.5]
+[charaFadeout G 0.1]
+[wt 1.0]
+
+[se ad466]
+[seVolume ad466 0 0.7]
+[flashin once 0.1 0.2 FF000080 FF000000]
+[wt 0.1]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+[wt 0.1]
+[charaFadeout I 0.1]
+[wt 1.3]
+
+[se ad191]
+[se ad342]
+[seVolume ad342 0 0.7]
+[flashin once 0.1 0.2 FF000080 FF000000]
+[wt 0.1]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+[wt 0.1]
+[charaFadeout J 0.1]
+[wt 1.3]
+
+[charaFadeout K 0.3]
+[wt 0.5]
+
+[shake 0.05 2 2 0]
+[cueSe SE_23 23_ad1294 2.0 1.0]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 2.0 0.7]
+[fadeMove black 2.0 0.3]
+[wt 3.0]
+[charaTalk on]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠难敌
+喂喂……又来啊。
+[k]
+
+[messageOff]
+[fadeMove black 1.0 1.0]
+[seStop ade393 1.0]
+[cueSeStop 23_ad1288 1.0]
+[cueSeStop 23_ad1294 1.0]
+[wt 1.0]
+
+[scene 10000]
+[shakeStop]
+[charaFadeout B 0.1]
+[charaPut T -1100,0]
+[charaDepth T 1]
+[charaEffect T bit_talk_raniment03]
+[wt 1.0]
+
+[fadeMove black 1.0 0]
+[wt 0.1]
+
+[criMovie talk_mov172 bgmPlay false]
+[wt 38.0]
+
+[overlayFadein Q 1.0 0,-200]
+[wt 2.0]
+[scene 190400]
+
+[subCameraOn 1]
+[charaLayer O sub #A]
+[charaLayer F sub #A]
+
+[charaDepth O 1]
+[charaDepth F 2]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein O 0.1 -200,0]
+[charaFadein F 0.1 -460,270]
+[subCameraFilter #A maskEdge cut359_mask12 4 255,255,255,255 0]
+[wt 0.1]
+[subRenderFadeinFSSideL #A 0.3 95,200]
+[subRenderMoveFSSideL #A 95,-200 0.3]
+[wt 0.5]
+
+＠玛奇里
+呼呼呼，呼喀喀喀喀喀……
+[k]
+
+＠玛奇里
+用虫将[#Caster:魔术师]和他的宝具，以及老夫本身[r]连接在一起的这玩意，远比以往更为行动自如。
+[k]
+
+＠玛奇里
+而且老夫就在这里，[r]也不存在御主被会狙击的弱点……！
+[k]
+
+[cueSe SE_23 23_ad1304 0 0]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠玛奇里
+这就是无敌的从者。[r]来吧，化作献给吾之真理的食粮吧！
+[k]
+
+[messageOff]
+[charaTalk off]
+[subRenderFadeout #A 0.5]
+[charaFadeout Q 0.5]
+[wt 0.7]
+
+[cueSeVolume 23_ad1304 0.7 0.8]
+[charaTalk on]
+[charaTalk C]
+[charaMove T 0,0 0.9]
+[wt 0.7]
+[cueSeStop 23_ad1304 1.2]
+[cueSe SE_23 23_ad1306 0 0.8]
+[charaEffectStop T bit_talk_raniment03]
+[wt 0.2]
+[charaFace C 16]
+[wt 2.5]
+
+[se ad574]
+[fadeout white 0.7]
+[wait fade]
+
+[charaFadeout O 0.1]
+[charaFadeout F 0.1]
+[charaLayer O normal]
+[charaLayer F normal]
+[subCameraOff]
+
+[charaPut T 2000,2000]
+[charaChange C 1098267120 16 normal 0.1]
+[wt 1.0]
+
+[seStop ad744 2.0]
+[fadein white 2.0]
+[wait fade]
+
+＠美杜莎
+樱！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth P 1]
+[charaDepth A 2]
+
+[charaScale P 1.2]
+[charaScale A 1.2]
+
+[charaFace A 14]
+[charaFadein P 0.8 70,-300]
+[charaFadein A 0.8 -50,-50]
+[charaMove P 120,-300 0.8]
+[charaMove A 0,-50 0.8]
+[wt 1.0]
+
+＠樱
+我把拉妮物质，给你，[#Saber:剑士]。[r]所以，对不起，拜托了[line 3]
+[k]
+
+
+＠樱
+守护我的，容身之处吧[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout P 0.5]
+[charaFadeout A 0.5]
+[wt 0.5]
+
+[cameraMove 0.7 0,-20 1.1]
+[wt 0.7]
+[charaFace C 1]
+[wt 1.5]
+
+
+[fadeout black 0.5]
+[bgmStopEnd BGM_BATTLE_33 0.4]
+[wait fade]
+[soundStopAllEnd]
+[end]

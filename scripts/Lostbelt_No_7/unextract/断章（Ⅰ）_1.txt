@@ -1,0 +1,825 @@
+
+
+＄03-00-13-07-1-1
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253900 1 伊斯卡利]
+[charaSet B 1098255300 1 尼托克丽丝]
+[charaSet C 1098239330 1 卡多克]
+[charaSet D 1098259200 1 武器商人]
+[charaSet E 1098259300 1 特拉洛克]
+[charaSet F 1098257300 1 达·芬奇]
+[charaSet G 1098257400 1 希翁]
+[charaSet H 1098255100 1 戈尔德鲁夫]
+[charaSet I 1098252540 1 奥塞洛特尔1]
+[charaSet J 1098252500 1 奥塞洛特尔2]
+[charaSet K 1098252540 1 奥塞洛特尔3]
+[charaSet L 1098252500 1 奥塞洛特尔4]
+[charaSet M 1098252540 1 奥塞洛特尔5]
+[charaSet N 1098252500 1 奥塞洛特尔6]
+
+[imageSet O back10000 1 1]
+[charaScale O 1.3]
+
+[charaSet P 1098259300 1 特拉洛克（演出用）]
+[sceneSet Q 170000 1]
+[sceneSet T 172100 1]
+[charaSet U 98115000 1 特效用dummy1]
+
+[sceneSet R 170000 1]
+[charaSet S 1098253900 1 伊斯卡利_演出用]
+
+[sceneSet V 172100 1]
+
+[effect bit_talk_evil_spirits01]
+[scene 10000]
+
+[bgm BGM_BATTLE_178 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[cueSe NoblePhantasm_501200 NP_501200_4]
+[wt 0.1]
+[effect bit_talk_29_black]
+[wt 1.15]
+
+[cueSeStop NP_501200_4 0.3]
+[cueSe Servants_901100 m41719]
+[cueSe Servants_104600 m41725]
+[flashin once 0.1 0.1 4B385BFF 4B385BFA]
+[wt 0.1]
+[effectDestroy bit_talk_evil_spirits01]
+[effectDestroy bit_talk_29_black]
+[cueSeStop m41719 1.0]
+[cueSeStop m41725 1.2]
+[scene 170000]
+
+[charaTalk off]
+[charaDepth I 7]
+[charaDepth J 6]
+[charaDepth K 5]
+[charaDepth L 4]
+[charaDepth M 3]
+[charaDepth N 2]
+
+[charaFace I 0]
+[charaFace L 0]
+[charaFace J 0]
+[charaFace M 0]
+[charaFace K 0]
+[charaFace N 0]
+[charaFadein I 0 100,0]
+[charaFadein L 0 -100,0]
+[charaFadeinFSR J 0 250,0]
+[charaFadeinFSL M 0 -250,0]
+[charaFadeinFSSideR K 0 450,0]
+[charaFadeinFSSideL N 0 -450,0]
+[charaShake I 0.02 3 4 0.6]
+[charaShake J 0.03 2 4 0.5]
+[charaShake K 0.03 3 2 0.6]
+[charaShake L 0.02 4 2 0.6]
+[charaShake M 0.02 3 3 0.5]
+[charaShake N 0.03 4 2 0.5]
+[wt 1.1]
+
+[charaMove I 100,-50 0.4]
+[charaMoveFSSideL N -450,-50 0.4]
+[charaFadeout I 0.4]
+[charaFadeout N 0.4]
+[wt 0.05]
+[charaMove L -100,-50 0.4]
+[charaFadeout L 0.4]
+[wt 0.1]
+[charaMoveFSSideR K 450,-50 0.4]
+[charaMoveFSL M -250,-50 0.4]
+[charaFadeout K 0.4]
+[charaFadeout M 0.4]
+[wt 0.05]
+[charaMoveFSR J 250,-50 0.4]
+[charaFadeout J 0.4]
+[wt 0.2]
+[se ad144]
+[wt 0.2]
+[se ad144]
+[wt 1.3]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠伊斯卡利
+嘁，这就是从者吗……！[r]区区攀附于泛人类史的亡者……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠尼托克丽丝
+现代武器根本不是我的敌手！[r]做好对付死灵的准备再重新来过吧！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠卡多克
+好，总算是撑过来了……！
+[k]
+
+＠卡多克
+原本还担心能否靠没有因缘与相关知识的从者应对呢，[r]好厉害啊，女王尼托克丽丝！
+[k]
+
+＠卡多克
+不愧是古埃及的法老！[r]魔术本领与近代从者天差地别！
+[k]
+
+[messageOff]
+[se ad541]
+[seVolume ad541 0 0.07]
+[wt 0.7]
+[seStop ad541 1.0]
+[wt 0.7]
+
+[charaTalk depthOff]
+[charaDepth C 5]
+[charaDepth O 4]
+
+[bgm BGM_BATTLE_178 0.5 0.5]
+
+[charaCrossFade C 1098239320 2 0.3]
+[wt 0.1]
+[charaPut O 1]
+[charaFadeTime O 0.2 0.5]
+[wait charaCrossFade C]
+＠卡多克
+（唔？　怎么有股寒意？）
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout O 0.2]
+[wt 0.1]
+
+[bgm BGM_BATTLE_178 0.5 1.0]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠尼托克丽丝
+实力差距显而易见，投降吧，蠢货们！[r]速速跪下，乞求宽恕！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠伊斯卡利
+[line 3]宽恕。[r]竟然要我乞求宽恕[line 3]！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠武器商人
+有外界魔术的死灵使来到了米克特兰。[r]那可不好对付哦，伊斯卡利，你有何打算？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠伊斯卡利
+没问题。刚才是初次从者战，所以才[r]观察了一下情况。我这就解决掉她。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠武器商人
+[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+＠尼托克丽丝
+愚蠢。具体说来，愚蠢得像是对游泳[r]略有心得就敢挑战泛滥的尼罗河程度。
+[k]
+
+＠尼托克丽丝
+冥界的呼唤声好像确实传不到你耳中。[r]然而你的武器也不会对我奏效。
+[k]
+
+＠尼托克丽丝
+既然无法搬运你的灵魂，只需用魔术痛殴即可。[r]就让我将你那身体狠狠地拧成一团，封进罐子里吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠伊斯卡利
+闭嘴，去死吧。[r]区区人类英灵，少在那对我大放厥词……！
+[k]
+
+[charaFace A 6]
+
+＠伊斯卡利
+给我记住了，我名为伊斯卡利。[r]是终将成为特斯卡特利波卡神的，奥塞洛特尔之王！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠尼托克丽丝
+这番话我原封不动地送还给你。[r]你说自己是奥塞洛特尔之王吧。
+[k]
+
+＠尼托克丽丝
+我即是埃及女王兼天空神的化身。[r]绝非[#区区]人类之王所能打倒的。
+[k]
+
+[bgmStop BGM_BATTLE_178 1.5]
+
+＠E：？？？
+那算什么，真搞笑。[r]竟然拿什么人和神这样的立场来比较强弱。
+[k]
+
+＠E：？？？
+那么[line 3]不过是[#区区]神明化身的你，[r]是否能敌得过我这神明本尊呢？
+[k]
+
+＠E：？？？
+[line 3]就让我来试试看，好了。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.4]
+
+
+[cueSe Servants_9942960 m85105]
+[cueSeVolume m85105 0 0.8]
+[wt 0.15]
+
+[effect bit_talk_gram_slash_04]
+[wt 0.8]
+
+[cueSeStop m85105 0.1]
+[cueSe Battle bac47]
+[se ad32]
+[seVolume ad32 0 0.7]
+[fowardEffect bit_talk_14]
+[effectDestroy bit_talk_gram_slash_04]
+[wt 0.1]
+
+[cueSe SE_22 22_ade804]
+[charaScale B 1.1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0,10]
+[charaMove B 1 0.3]
+[charaShake B 0.02 3 4 0.6]
+[charaMoveScale B 1.0 0.3]
+[wt 1.5]
+[charaFace B 9]
+
+[cueSeStop bac47 0.6]
+
+＠尼托克丽丝
+这股神气……什么人！？
+[k]
+
+[messageOff]
+[fowardEffectDestroy bit_talk_14]
+
+
+[charaTalk off]
+[charaDepth B 2]
+[charaDepth E 2]
+[charaDepth Q 3]
+[charaDepth P 4]
+[charaScale P 1.3]
+[charaScale Q 1.4]
+
+[charaFadein Q 0.8 220,-275]
+[charaMove Q 250,-275 1.0]
+[wt 1.4]
+
+[se ad527]
+[wt 0.6]
+[charaFace P 0]
+[charaFadein P 0.4 0,225]
+[wt 0.2]
+[seStop ad527 0.2]
+[wt 0.9]
+
+[charaMove P 00,50 1.7]
+[charaMove Q 250,-350 1.7]
+
+[bgm BGM_BATTLE_179 1.0]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaFadeout B 0.1]
+[wt 2.6]
+
+
+＠？？？
+特拉洛克。[r]雨神特拉洛克。
+[k]
+
+＠特拉洛克
+虽说时间短暂，但也给我记住。[r]哪怕只有1秒，我也喜欢受人敬畏。
+[k]
+
+[messageOff]
+[charaFadeout P 1.0]
+[charaFadeout Q 1.0]
+[wt 1.9]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠伊斯卡利
+噢噢，特拉洛克神……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth C 6]
+[charaDepth O 5]
+
+[charaPut O 1]
+[charaFadeTime O 0.2 0.5]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠卡多克
+（特拉洛克……阿兹特克创世神话中的一尊，[r]　雨神特拉洛克……！？）
+[k]
+
+＠卡多克
+（但这股气息可是从者啊！？[r]　货真价实的高位神灵直接成了从者！？）
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout O 0.2]
+[wt 0.3]
+
+
+[se ade307]
+[seVolume ade307 0 0]
+[seVolume ade307 2.0 1.0]
+[charaPut U 1]
+[charaEffect U bit_talk_rain01]
+[wt 1.2]
+
+[scene 170001 1.7]
+[wt 3.0]
+
+[seVolume ade307 0.6 0.5]
+
+[charaTalk E]
+[charaFace E 18]
+[charaFadein E 0.1 1]
+＠特拉洛克
+那就，死吧。[r]反正你肯定是个没什么大不了的女王吧。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_BATTLE_179 1.5]
+[seStop ade307 1.5]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[wt 1.5]
+
+[se ade307]
+[seVolume ade307 0 0]
+[wt 0.5]
+
+[seVolume ade307 1.5 1.0]
+[fadein black 1.5]
+[wait fade]
+[wt 1.2]
+
+
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth V 9]
+[charaDepth T 8]
+[charaDepth D 5]
+[charaDepth U 1]
+
+[charaScale T 1.7]
+[wt 0.1]
+
+
+[charaFadein T 0.8 -300,-480]
+[charaMove T -300,-510 2.1]
+[seVolume ade307 1.5 0.4]
+[wt 1.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadein T 0.1 300,-300]
+[charaMove T 300,-280 2.4]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.2]
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout T 0.1]
+[wt 0.1]
+[charaScale T 1.0]
+[charaFadein T 0.1 0,-200]
+[wt 0.7]
+
+[fadein black 2.0]
+[wait fade]
+
+[bgm BGM_MAP_91 1.0]
+[wt 2.0]
+
+[seVolume ade307 1.5 0.2]
+
+
+
+＠尼托克丽丝
+啊[line 3]…………[r]呜，[line 6]
+[k]
+
+＠特拉洛克
+太不像话了。[r]制作木乃伊的国家果然就是不行呢。
+[k]
+
+
+
+＠尼托克丽丝
+……不给我……致命一击……[r]……是在……侮辱……我，吗……
+[k]
+
+＠特拉洛克
+你这伤势应该不可能恢复了吧。[r]你就在痛苦中死去吧。
+[k]
+
+＠武器商人
+怎么，不摘走心脏吗？太浪费了。[r]那就由我[line 3]
+[k]
+
+＠特拉洛克
+兄长，[r]过度触碰其他神话的鲜血未免不妥吧。
+[k]
+
+＠武器商人
+[line 3]啊？
+[k]
+
+[messageOff]
+[charaTalk off]
+
+[charaFace D 5]
+[charaFadein D 1.0 1]
+[charaFadeout T 1.0]
+[wt 1.4]
+
+[charaTalk on]
+＠武器商人
+你这是在对我提意见吗？
+[k]
+
+＠武器商人
+不过是都市神的你？[r]不过是被我召唤出来的从者？　对我提意见？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠特拉洛克
+……这不是什么意见。[r]毕竟不同于我，兄长的身体是人类。
+[k]
+
+＠特拉洛克
+您的确是伟大的特斯卡特利波卡，[r]但太乱来的话[line 3]
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+[wt 1.0]
+
+[charaFaceFade D 1 0.2]
+＠D：特斯卡特利波卡
+对哦。之前品尝过印度死人的滋味后，[r]就吃坏了身体。
+[k]
+
+＠D：特斯卡特利波卡
+杂食确实不好，忠告得对。[r]特拉洛克，你是个很优秀的妹妹哦。
+[k]
+
+[messageOff]
+[bgmStop BGM_MAP_91 1.0]
+[charaFadeout D 0.1]
+[se ade65]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.4]
+
+
+[fowardEffect bit_talk_14 0,150]
+[cueSe SE_21 21_ad1133]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+[charaShake E 0.03 4 4 0.4]
+[wt 0.2]
+[seStop 21_ad1133 0.4]
+[wt 1.0]
+
+[charaMove E 0,-50 0.4]
+[charaFadeout E 0.4]
+[wt 0.3]
+
+[se ad144]
+[seVolume ad144 0 0.6]
+[se ade66]
+[seVolume ade66 0 0.5]
+[se ade185]
+[seVolume ade185 0 0.5]
+[wt 0.2]
+[seStop ade66 0.8]
+[seStop ade185 0.8]
+[wt 1.3]
+[fowardEffectDestroy bit_talk_35]
+
+
+[seStop ade307 1.5]
+[scene 170000 1.5]
+[wt 0.3]
+[charaEffectStop U bit_talk_rain01]
+[wt 1.9]
+[charaPut U 2000,2500]
+
+[bgm BGM_MAP_62 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠伊斯卡利
+特斯卡特利波卡神！？[r]为何要对特拉洛克神开枪……！？
+[k]
+
+＠伊斯卡利
+特拉洛克神不是您重要的妹妹吗！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠D：特斯卡特利波卡
+哪怕是妹妹也不例外。
+[k]
+
+＠D：特斯卡特利波卡
+家人也该有长幼尊卑之分，阻拦王之行为者，[r]纵是金玉良言，也必须献上性命才行。
+[k]
+
+＠D：特斯卡特利波卡
+绝对性就是这样来维持的。[r]王必须是超越善恶的人物才行。
+[k]
+
+[charaFaceFade D 6 0.2]
+＠D：特斯卡特利波卡
+铭记于心吧，伊斯卡利。[r]如果你打算维持[#王:人]的身份成神的话。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠伊斯卡利
+遵[line 3]遵命！[r]我定会回应您的期待，伟大的特斯卡特利波卡！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠D：特斯卡特利波卡
+收工。[r]不用管特拉洛克了，她不是被这种程度伤得了的货色。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠伊斯卡利
+……谨遵命令。[r]舰艇中的那群人类该如何处置？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠D：特斯卡特利波卡
+如果要将这艘舰艇据为己有，[r]工程师是少不了的。
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[bgm BGM_MAP_62 0.5 0.5]
+[wait wipe]
+
+[charaFadeout D 0.1]
+
+[charaTalk off]
+[charaDepth G 2]
+[charaDepth F 3]
+[charaDepth C 4]
+
+[charaFace F 23]
+[charaFace C 0]
+[charaFace G 9]
+[charaFadein F 0.1 1]
+[charaFadeinFSR C 0.1 300,0]
+[charaFadeinFSL G 0.1 -300,0]
+[wt 0.3]
+
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+[wt 1.5]
+
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+
+[subCameraOn 1]
+[charaLayer S sub #A]
+[charaLayer R sub #A]
+[subCameraFilter #A maskEdge cut359_mask06 3 0,0,0,255 1]
+
+[charaScale R 1.2]
+[charaScale S 1.8]
+[charaDepth S 2]
+[charaDepth R 1]
+
+[charaFadein R 0.1 0,200]
+[charaFace S 0]
+[charaFadein S 0.1 -250,410]
+
+[charaFace D 0]
+[charaFadein D 0.1 1]
+[wt 0.3]
+
+[bgm BGM_MAP_62 0.5 1.0]
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk on]
+＠D：特斯卡特利波卡
+那边的三人，以及身为这艘舰艇基底的从者……[r]哦，就是倒下的那家伙吗？
+[k]
+
+＠D：特斯卡特利波卡
+带走这四人，其他的都杀了。[r]毕竟没有利用价值，也没有理由放他们一条生路。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[charaTalk off]
+[charaDepth H 8]
+[charaDepth I 7]
+[charaDepth J 6]
+[charaDepth K 5]
+[charaDepth L 4]
+[charaDepth M 3]
+[charaDepth N 2]
+
+[charaFace H 4]
+[charaFadein H 0.1 1]
+[wt 0.6]
+
+[cueSe SE_22 22_ade707]
+[wt 0.4]
+[charaFace I 0]
+[charaFace L 0]
+[charaFace J 0]
+[charaFace M 0]
+[charaFace K 0]
+[charaFace N 0]
+[charaFadein I 0.4 100,0]
+[charaFadein L 0.4 -100,0]
+[charaFadeinFSR J 0.4 250,0]
+[charaFadeinFSL M 0.4 -250,0]
+[charaFadeinFSSideR K 0.4 450,0]
+[charaFadeinFSSideL N 0.4 -450,0]
+[wt 0.4]
+[cueSeStop 22_ade707 0.2]
+[wt 0.5]
+[subRenderFadein #A 0.5 50,-400]
+[subRenderMove #A 0,-400 0.5]
+[wt 1.0]
+[charaFaceFade S 2 0.3]
+[wt 1.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_MAP_62 1.5]
+[wt 0.5]
+[cueSe Servants_203900 bac1379]
+[cueSeVolume bac1379 0 0]
+[wait fade]
+[subRenderFadeout #A 0.1]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+
+[scene 10000]
+[wt 0.2]
+
+[fadein black 0.3]
+[wait fade]
+
+[cueSeVolume bac1379 0.05 1.0]
+[wt 2.2]
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,219 @@
+
+
+＄03-00-13-09-3-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252940 1 特佩乌]
+[charaSet B 1098257910 1 玛修]
+[charaSet C 1098253200 1 U－奥尔加玛丽]
+[charaSet D 1098257500 1 拉斯普京]
+[imageSet E back10000 1 1]
+[charaFilter E silhouette 11586680]
+[charaScale E 1.3]
+
+
+[scene 35010]
+
+[charaPut E 1]
+[charaFadeTime E 0.1 0.5]
+
+[fadein black 1.5]
+[wait fade]
+[wt 1.5]
+
+[cueSe SE_22 22_ad1151]
+[cueSeVolume 22_ad1151 0 0]
+[se ad207]
+[seVolume ad207 0 0]
+[se ad556]
+[seVolume ad556 0 0]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[scene 170100]
+[effect bit_talk_strongwind02_cl]
+[wt 1.0]
+
+
+[cueSeVolume 22_ad1151 1.0 0.5]
+[seVolume ad207 1.0 1.0]
+[seVolume ad556 1.0 0.5]
+[fadein black 1.0]
+[wait fade]
+[wt 0.5]
+
+＠
+[align center]自开始翻越山脉起[align][r][align center]经过　一日[align]
+[k]
+
+＠
+　　　　　　　　  登山次数[wt 0.8]·[wt 0.4]·[wt 0.4]·[wt 0.4]·[wt 0.4]·[wt 0.8]第6次
+[k]
+
+[messageOff]
+[effectForceStop bit_talk_strongwind02_cl]
+[cueSe SE_22 22_ad1210]
+[se ad60]
+[se ad666]
+[seVolume ad666 0 0.4]
+[wt 1.8]
+
+[cueSeStop 22_ad1210 0.3]
+[seStop ad60 0.3]
+[seStop ad666 0.3]
+[wt 0.6]
+
+[cueSeStop 22_ad1151 2.0]
+[seStop ad207 2.0]
+[seStop ad556 2.0]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠特佩乌
+很顺利。[r]一点问题都没有呢。
+[k]
+
+[bgm BGM_EVENT_81 0.1]
+
+？1：当然有！
+？2：这是在无限循环[line 3]！
+
+？！
+
+[charaFaceFade A 4 0.2]
+＠特佩乌
+果然是这样啊。[r]难怪这令人不快的汗水总是流个不停。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 29]
+[charaFadein B 0.1 1]
+＠玛修
+身为带路人看上去还保持着冷静，[r]其实内心已经很慌了吧。
+[k]
+
+＠玛修
+我能理解您的心情，但这种时候就该[r]立刻拟定对策，特佩乌先生！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+＠U－奥尔加玛丽
+迪诺斯体内生物钟与人类体内生物钟的差异[r]就体现出来了呢。不过倒也无所谓啦。
+[k]
+
+[charaFace C 18]
+＠U－奥尔加玛丽
+实际上，我们一直在爬同一座山哦。
+[k]
+
+[charaFace C 23]
+＠U－奥尔加玛丽
+我扩大一下感知范围……我就说嘛。[r]这冥界的空间闭合了，没有出口哦。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠玛修
+没有出口？
+[k]
+
+＠玛修
+可是，冥界是『死者要克服的试练』。[r]没有出口未免违反规则了吧……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠拉斯普京
+糟了，原来是这么回事啊。
+[k]
+
+＠拉斯普京
+红阎魔是新的『冥界守卫』。[r]而冥界的规则也随之改变了。
+[k]
+
+[charaFace D 3]
+＠拉斯普京
+第二冥界早已不再是『刃与风之谷』，[r]而是变成了日本民间传承中地狱的构造。
+[k]
+
+＠拉斯普京
+如此一来[line 3]
+[k]
+
+？1：并非『穿过』，而是『囚禁』……
+？2：『至刑满释放前都无法离开的试炼』……！
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠U－奥尔加玛丽
+脑筋转得还挺快的嘛，[%1]。[r]你说的应该就是正确答案。
+[k]
+
+＠U－奥尔加玛丽
+这么说来，那名从者离开时好像说了些什么吧。[r]刑罚一垓年之类的。
+[k]
+
+＠U－奥尔加玛丽
+管家，[r]将垓换算成数字是几位？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠拉斯普京
+嗯。是个、十、百、千、万、亿、兆、京、垓的[r]垓哦，大小姐。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 23]
+[charaFadein C 0.1 1]
+[wt 1.1]
+
+[charaFace C 21]
+＠U－奥尔加玛丽
+那[messageShake 0.05 4 3 0.65]样的话，连我的寿命也会到头啊！？
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_81 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

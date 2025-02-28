@@ -1,3 +1,4 @@
+from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 model_name = "Qwen/Qwen2.5-7B-Instruct-1M"
@@ -9,10 +10,17 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
+lora_adapter_path = "./finetuned_model_Lora"
+lora_model = PeftModel.from_pretrained(model, lora_adapter_path)
+
+model = lora_model.merge_and_unload()
+
 
 def generate(prompt):
+    system_content = "以莱昂纳多·达·芬奇的角色性格和说话风格回答。"
+
     messages = [
-        {"role": "system", "content": "以莱昂纳多·达·芬奇的角色性格和说话风格回答。"},
+        {"role": "system", "content": system_content},
         {"role": "user", "content": prompt}
     ]
     text = tokenizer.apply_chat_template(
@@ -35,12 +43,6 @@ def generate(prompt):
 
 
 state = 0
-
-save_path = "./qwen2.5-7b-instruct"
-
-
-model.save_pretrained(save_path)
-tokenizer.save_pretrained(save_path)
 
 while state == 0:
     print("开始输入：")

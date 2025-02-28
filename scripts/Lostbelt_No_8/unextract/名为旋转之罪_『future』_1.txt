@@ -1,0 +1,916 @@
+
+
+
+＄04-00-02-09-1-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098270000 1 希翁]
+[charaSet B 1098270000 1 希翁2]
+[charaSet C 1098270200 1 迦摩]
+
+[sceneSet D 10000 1]
+[charaScale D 1.05]
+[sceneSet E 10001 1]
+[charaScale E 1.05]
+[sceneSet F 10001 1]
+[charaScale F 1.05]
+[sceneSet G 190700 1]
+[sceneSet H 190700 1]
+[sceneSet I 190701 1]
+[sceneSet J 190700 1]
+[charaScale J 1.27]
+[sceneSet K 191300 1]
+[charaScale K 1.01]
+[sceneSet L 191202 1]
+[charaScale L 1.01]
+[sceneSet M 191202 1]
+[charaScale M 1.3]
+
+[charaSet N 98115000 1 特效用]
+
+[scene 10000]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_156 0.1]
+
+＠？？？
+你知道吗？[r][#你是]，[#什么人]。
+[k]
+
+＠
+感觉不久之前，[r]刚有人这样问过我。
+[k]
+
+[messageOff]
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.4 1]
+[wt 0.4]
+
+＠迦摩
+不，我不知道啊？[r]应该说知道也没意义吧。
+[k]
+
+[charaFace C 0]
+
+＠迦摩
+我就是我。拥有回应万欲之躯的存在。[r]既是爱神也是堕落的魔王。
+[k]
+
+＠迦摩
+我就是我这一个体，[r]但从这一刻起，说不定已经有两个了，
+[k]
+
+＠迦摩
+若论及为每个人存在的我，那更是有着无数个我。
+[k]
+
+[charaFace C 1]
+
+＠迦摩
+什么人，这种问题，[r]毫无意义。
+[k]
+
+[charaTalk N]
+
+＠T：？？？
+不，不是指这个啦。[r]只是觉得机会难得，事先给你点忠告……
+[k]
+
+[charaTalk C]
+[charaFace C 4]
+
+＠迦摩
+你可以闭嘴吗？　区区记忆。
+[k]
+
+＠迦摩
+嗯，我认为这是回想起了[r]自己不知丢到哪里去的记忆。
+[k]
+
+[charaFace C 0]
+
+＠迦摩
+是因为某种[#冲击:Shock]不小心掉出来了吧？
+[k]
+
+＠迦摩
+总之，既然之前一直都忘了，[r]就代表其实没多重要吧。
+[k]
+
+[charaFace C 5]
+
+＠迦摩
+更重要的是，现在。
+[k]
+
+[charaFace C 6]
+
+＠迦摩
+我不能放过这个机会，[r]不要妨碍我。
+[k]
+
+[charaTalk N]
+
+＠T：？？？
+请，请等一下。[r]这可是很重要的事啊～！？
+[k]
+
+＠T：？？？
+关乎你为什么会在此处[line 3]
+[k]
+
+[charaTalk C]
+[charaFace C 14]
+
+＠迦摩
+好啦好啦，走好不送。等我什么时候有空了，[r]倒是不妨可以再把你回想起来哦。
+[k]
+
+[bgm BGM_EVENT_156 1.5 0.7]
+
+[messageOff]
+[charaFadeout C 0.4]
+[wt 1.5]
+
+＠
+没错……要说什么重要，[r]现在，这个瞬间才更重要。
+[k]
+
+＠
+啊啊，这温暖，这触感。
+[k]
+
+＠
+我的[line 3]想要的东西[line 3]
+[k]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_156 1.5]
+[wt 1.5]
+[wipeout openEye 0.5 1.0]
+[wait wipe]
+
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth F 2]
+[charaFadein E 0.1 -700,-200]
+[charaFadein F 0.1 700,-200]
+[wt 1.5]
+
+[wipein openEye 0.6 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+[wipeout openEye 0.8 1.0]
+[wait wipe]
+
+[subCameraOn 1]
+[charaLayer C sub #A]
+[subCameraFilter #A through]
+[charaScale C 1.5]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 0,20]
+[wt 0.2]
+
+[wipein openEye 1.5 1.0]
+[wait wipe]
+
+[wt 1.5]
+
+？1：（白茫茫一片……）
+？2：（周围全都软绵绵的，好柔软……）
+？！
+
+
+[bgm BGM_EVENT_145 0.1]
+
+[subRenderFadein #A 0.4 0,0]
+[wt 0.4]
+
+＠迦摩
+唔呵呵。是不是觉得像天堂一样呢？
+[k]
+
+？1：难道说，我死了……？
+
+[charaFace C 13]
+
+＠迦摩
+很遗憾，既然已经死了，[r]能依靠的也只有我这位神明了吧。
+[k]
+
+＠迦摩
+而现在这里只有你我两个就是最好的证明。
+[k]
+
+[charaFace C 2]
+
+＠迦摩
+既然能依靠的只有我，[r]你大可拽紧一些哦。
+[k]
+
+＠迦摩
+倒不如说，紧紧拽住我吧。[r]把所有重要的感情都只投向我。
+[k]
+
+？2：我没死吧……？
+
+[charaFace C 13]
+
+＠迦摩
+这个嘛，谁知道呢？
+[k]
+
+[charaFace C 2]
+
+＠迦摩
+若真是如此，既然醒来时只有我们两个，[r]就证明了是我保护了你。
+[k]
+
+＠迦摩
+既然如此，保护了你的我[r]要求些奖励也不过分吧？
+[k]
+
+[charaFace C 10]
+
+＠迦摩
+比方说……更加，倾注点心意。[r]给我个拥抱，或是摸摸脑袋之类的……
+[k]
+
+？！
+
+[charaFace C 11]
+
+＠迦摩
+啊啊，那么……就由我来[r]收下你的[line 3]吧……
+[k]
+
+＠迦摩
+可以吗……应该可以吧……？
+[k]
+
+[messageOff]
+[charaCrossFade C 1098270200 3 0.4]
+[wait charaCrossFade C]
+[charaFace A 7]
+[charaScale A 1.2]
+[charaFadein A 0.1 -150,0]
+[wt 0.1]
+[se ad661]
+[seVolume ad661 0 0.6]
+[seStop ad661 0.8]
+[charaMove C 0,40 1.0]
+[charaMoveScale C 1.6 1.0]
+[wt 1.5]
+
+[bgmStop BGM_EVENT_145 1.0]
+[charaTalk N]
+
+＠T：？？？
+这种，发展……暂停！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMove C 100,40 1.0]
+[wt 1.0]
+[se ad67]
+[se ade367]
+[subBlur #A lens 0.1 2 20 1.0 subBlur]
+[charaMove E -1450,-200 2.0]
+[charaMove F 1450,-200 2.0]
+[wt 2.5]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 10]
+[charaMoveReturn A -150,-5 0.3]
+
+＠希翁
+……咳咳。[r]来吧，赶紧出来。
+[k]
+
+＠希翁
+一直待在这种封闭空间肯定憋得慌吧？[r]幸好能够及时救援。
+[k]
+
+[charaTalk C]
+[blur lens 0.1 2 20]
+[subBlurOff #A lens 0.1 normal]
+[wt 0.2]
+[charaCrossFade C 1098270200 16 0.2]
+[wait charaCrossFade C]
+
+＠迦摩
+……嘁。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[se ad999]
+[seVolume ad999 0 0.4]
+[bgmStop BGM_EVENT_7 1.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+
+[blurOff lens 0.1]
+[charaScale A 1.0]
+[charaScale C 1.0]
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[subRenderFadeout #A 0.1]
+[charaLayer C normal]
+[subCameraOff]
+[wt 1.0]
+
+[seStop ad999 0.5]
+[wt 1.5]
+
+[fadein black 0.7]
+[wait fade]
+
+？1：刚才我们所在的地方是……
+？！
+
+[bgm BGM_MAP_41 0.1]
+
+[charaDepth J 1]
+[charaFadein J 1.5 180,-250]
+[wt 2.0]
+[charaMove J 180,-150 1.5]
+[wt 2.0]
+[charaMove J 180,-300 2.0]
+[wt 2.5]
+[charaMove J 180,-250 1.0]
+
+[subCameraOn 2]
+[charaLayer G sub #A]
+[charaLayer C sub #A]
+[charaLayer H sub #B]
+[charaLayer A sub #B]
+
+[charaDepth G 1]
+[charaDepth C 2]
+[charaDepth H 1]
+[charaDepth A 2]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein G 0.1 0,200]
+[charaFadein C 0.1 510,230]
+[charaFace A 10]
+[charaFadein H 0.1 -200,0]
+[charaFadein A 0.1 -500,250]
+[subCameraFilter #A maskEdge cut359_mask11 4 243,58,128,255 0]
+[subCameraFilter #B maskEdge cut359_mask12 4 156,114,168,255 0]
+[wt 1.5]
+
+[subRenderFadeinFSSideR #A 0.3 -95,200]
+[subRenderMoveFSSideR #A -95,-200 0.3]
+[wt 0.5]
+
+＠迦摩
+醒过来时就已经在里面了，[r]我也不是很清楚具体什么情况……
+[k]
+
+＠迦摩
+唔，里面塞满了蓬松软绵绵的，[r]像棉花一样的东西呢。
+[k]
+
+＠迦摩
+所以我们刚才是在这种桶状床，[r]或者说是软垫室里吗？
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[subRenderFadeinFSSideL #B 0.3 95,200]
+[subRenderMoveFSSideL #B 95,-200 0.3]
+[wt 0.5]
+
+＠希翁
+没错，往后退几步就能看出来了，[r]我刚才也在隔壁的空间里。
+[k]
+
+[messageOff]
+[scene 190701]
+[subRenderFadeout #B 0.1]
+[wt 0.5]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+
+[se ade428]
+[charaMove J 0,-200 3.5]
+[charaMoveScale J 1.01 3.5]
+[wt 1.0]
+[seStop ade428 1.0]
+[charaFadeout J 1.0]
+[wt 2.0]
+[charaLayer G normal]
+[charaLayer H normal]
+[charaLayer C normal]
+[charaLayer A normal]
+[subCameraOff]
+
+？1：竟然这么多……这里究竟是？
+？！
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠希翁
+恐怕是相当于这个[#平面之月:Paper Moon]世界[r]『外缘』的地方吧。
+[k]
+
+＠希翁
+不知是圣杯战争期间的特殊设置，[r]还是说平常就一直是这样，
+[k]
+
+＠希翁
+看来整片外墙都是由这种[r]具备吸收冲击性能的零件所构成的。
+[k]
+
+[bgm BGM_MAP_41 0.5 0.5]
+
+[charaDepth D 1]
+[charaDepth A 2]
+[charaPut D 0,-200]
+[charaFadeTime D 0.2 0.5]
+
+＠希翁
+（这种形状有什么特殊含义吗？[r]　简直像是柱子……或是棺柩……？）
+[k]
+
+[messageOff]
+[charaFadeout D 0.2]
+[charaFace A 10]
+
+[bgm BGM_MAP_41 0.5 1.0]
+
+[wt 1.0]
+[charaTalk depthOn]
+[charaFace A 6]
+
+＠希翁
+根据拉妮－ⅩⅡ的通讯内容来判断，[r]在圣杯战争的机制中，
+[k]
+
+＠希翁
+为了改变分区构造，[r]会让世界在某个阶段旋转。
+[k]
+
+＠希翁
+估计我们……就是受到了牵连，[r]被甩到了外缘部。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 21]
+[charaFadein C 0.1 1]
+
+＠迦摩
+不，这太莫名其妙了吧。[r]阶段？　是因为[#Caster:魔术师]死了吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠希翁
+说得对。这场[#ＡＩ圣杯战争:System Grail War]也包含了[r]首席ＡＩ抢占阵地的要素。
+[k]
+
+＠希翁
+只要能打倒从者一路获胜，[r]就能得到多个分区的管理权限……
+[k]
+
+[charaFace A 10]
+
+＠希翁
+也就是能获得多个支配区域。
+[k]
+
+[charaFace A 2]
+
+＠希翁
+为此就需要移动支配区域，[r]让它们在物理层面的位置上『合并』吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠迦摩
+呼嗯～。[r]竟然改变世界本身的布局，好大的规模啊。
+[k]
+
+＠迦摩
+虽说在诸神的范畴内，移个山啊、挪个海的，[r]其实也算信手拈来啦。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠希翁
+运行阿愈丝小姐复制给我们的[r]简易位置信息程序看看吧。
+[k]
+
+[messageOff]
+[se ad15]
+[wt 0.6]
+
+[se ad1]
+[charaTalk depthOff]
+[charaDepth K 3]
+[charaFadein K 1.0 0,-200]
+[wt 1.5]
+[cameraMove 1.0 50,30 1.1]
+[wt 2.0]
+[cameraMove 1.0 -50,-30 1.1]
+[wt 2.0]
+[cameraHome 1.0]
+[wt 1.5]
+
+＠希翁
+原来如此。除中心以外的布局确实发生了变化。
+[k]
+
+＠希翁
+看来经过了整个世界的旋转，[r]分区的位置关系出现了偏离呢。
+[k]
+
+？1：如果只是旋转的话，
+？2：是无法替换物理位置的吧……？
+？！
+
+[messageOff]
+[charaFadeout K 0.5]
+[wt 0.7]
+[charaTalk depthOn]
+
+[charaFace A 2]
+
+＠希翁
+这个问题非常合理，但这个世界是虚拟世界。
+[k]
+
+＠希翁
+比方说，有可能只在旋转的时候，[r]分区的厚度会在概念上接近于零，
+[k]
+
+＠希翁
+归根结底，也只能认为『规则如此』吧。
+[k]
+
+＠希翁
+与拉妮物质，以及运营世界的[r]各部门ＡＩ的行动一样。
+[k]
+
+[charaFace A 6]
+
+＠希翁
+[#平面之月:Paper Moon]确实是罗盘，[r]也具备旋转的结构。
+[k]
+
+＠希翁
+至于是否有必要像陀螺仪那样调整旋转力矩……
+[k]
+
+＠希翁
+在宏观层面上的确会令人不解，[r]但在这个世界或许就说得通了。
+[k]
+
+？1：原来是这样……？
+？！
+
+[charaFace A 10]
+
+＠希翁
+好了，[#支配区域:分区]的合并有两层意义。
+[k]
+
+[charaFace A 6]
+
+＠希翁
+第一层，纯粹是赢家[#Rider:骑兵]阵营[r]能稳定获得拉妮物质的区域翻倍了。
+[k]
+
+＠希翁
+毕竟ＡＩ们的统率权都被移交了，这也是必然的结果。
+[k]
+
+＠希翁
+而另一层，[r]则是『不存在飞地的情况了』。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 18]
+[charaFadein C 0.1 1]
+
+＠迦摩
+这是什么意思？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MAP_41 1.5]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+
+＠希翁
+我用相反的情况来解释吧。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth L 3]
+[charaDepth M 4]
+[charaFadein L 1.0 0,-200]
+[wt 1.0]
+
+[bgm BGM_REQUIEM 0.1]
+[wt 1.0]
+
+[charaFadein M 1.0 100,-145]
+[wt 0.5]
+
+[subCameraOn 1]
+[charaLayer I sub #A]
+[charaLayer B sub #A]
+[charaDepth I 1]
+[charaDepth B 2]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein I 0.1 -200,0]
+[charaFadein B 0.1 -500,250]
+[subCameraFilter #A maskEdge cut359_mask12 4 156,114,168,255 0]
+[wt 0.5]
+
+[subRenderFadeinFSSideL #A 0.3 95,200]
+[subRenderMoveFSSideL #A 95,-200 0.3]
+[wt 0.5]
+[charaFadeout L 0.1]
+
+＠B：希翁
+如果未经合并，[#构筑部:Build]就那样留在原地，[r]对[#Rider:骑兵]而言，那里就成了一块飞地。
+[k]
+
+[messageOff]
+[charaMove M -100,-145 1.0]
+[wt 1.2]
+
+＠B：希翁
+要是转移阵地将那边设为大本营，[r]那[#转运部:Transfer]反而就成为飞地了。
+[k]
+
+＠B：希翁
+换言之，会陷入只能选一边镇守的情况，[r]另一边阵地会处于敞开大门任贼光顾的状况了。
+[k]
+
+＠B：希翁
+好不容易获得了胜利，[r]总不能让人家承担这种不利条件。
+[k]
+
+＠B：希翁
+为防止这种情况出现，[r]才会有合并分区本身这种规则吧。
+[k]
+
+＠B：希翁
+面积翻倍虽然会导致防卫所耗费的工夫增加，[r]但这点弊端，还是应该和益处一并接受的。
+[k]
+
+[messageOff]
+[charaMove M 0,-145 0.8]
+[wt 1.0]
+[charaFace B 6]
+
+＠B：希翁
+进一步说，[r]这也是为防止当最后只剩两骑时，
+[k]
+
+＠B：希翁
+彼此在互不接壤的世界两端磨时间的情况出现吧。
+[k]
+
+＠B：希翁
+也可以说，[r]是为了维持敌对双方始终相邻的状况。
+[k]
+
+＠B：希翁
+要说这是促进战斗、推进圣杯战争所需的发展，[r]恐怕也没说错。
+[k]
+
+[bgmStop BGM_REQUIEM 1.5]
+
+[messageOff]
+[charaTalk off]
+[charaFace A 6]
+[charaFadeout M 1.0]
+[subRenderFadeout #A 1.0]
+[wt 1.0]
+[charaFadeout I 0.1]
+[charaFadeout B 0.1]
+[wt 0.5]
+[charaLayer I normal]
+[charaLayer B normal]
+[subCameraOff]
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk A]
+
+？1：说起来，ＡＩ她们不要紧吧？
+？！
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaFace A 9]
+
+＠希翁
+根据看到的情况，没有参加圣杯战争的普通ＡＩ[r]似乎并未受到刚才那个旋转力矩的影响。
+[k]
+
+[charaFace A 6]
+
+＠希翁
+反过来说，阿愈丝小姐和难敌[r]应该也跟我们一样被甩飞了吧。
+[k]
+
+＠希翁
+当时在场的[#Rider:骑兵]和[#Saber:剑士]他们也一样。
+[k]
+
+＠希翁
+目前尚未看到任何阵营的身影，[r]说不定方向上受到了某种随机因素的作用吧。
+[k]
+
+[charaFace A 1]
+
+＠希翁
+但我觉得应该不至于强行拆散御主和从者吧……
+[k]
+
+？1：先与阿愈丝他们会合吧。
+？！
+
+[charaFace A 10]
+＠希翁
+说得对，这样比较好。
+[k]
+
+＠希翁
+在征得她同意的前提下，我给她装设了[#示踪剂:Tracer]……[r]类似信号发送器的[#术式:指令]。
+[k]
+
+＠希翁
+找到她应该很简单。
+[k]
+
+[charaFace A 6]
+
+＠希翁
+只是，我们会沿着外缘部行动，[r]途中有可能遇到其他人。
+[k]
+
+＠希翁
+需要多加注意。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠迦摩
+那个说不出是有干劲还是没干劲的[#Rider:骑兵]阵营……
+[k]
+
+＠迦摩
+老实说，我压根没想到他们会有[r]那种火力离谱的攻击手段。
+[k]
+
+[charaFace C 0]
+
+＠迦摩
+接下来可不能大意了哦，御主。[r]那玩意接下来说不定就朝着我们这儿来了。
+[k]
+
+[charaFace C 3]
+
+＠迦摩
+……不过，唯独对于御主，无论发生什么，[r]能干的我都打算出手相救哦？
+[k]
+
+？1：谢谢你。
+？2：刚才你也有努力救我，谢啦。
+？！
+
+[charaFace C 3]
+
+＠迦摩
+这种坦率的感谢真不错～。[r]这种赞美之辞我会随时洗耳恭听哦？
+[k]
+
+[charaFace C 1]
+
+＠迦摩
+现在也可以，来吧？[r]或许也可以……顺便来点肢体接触……？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+
+＠希翁
+那是仅限一次，经过精心准备的大术式。[r]应该不是能轻易释放的东西……
+[k]
+
+[charaFace A 6]
+
+＠希翁
+但我同意不可大意的意见。[r][#Rider:骑兵]的御主……现在看来深不可测。
+[k]
+
+[cameraMove 30.0 0,-20 1.1]
+[charaTalk depthOff]
+[charaPut D 0,-200]
+[charaFadeTime D 0.2 0.5]
+[charaFace A 7]
+
+[bgm BGM_EVENT_70 0.5 0.5]
+
+＠希翁
+（再加上，我觉得他眼中有某种只有他自己[r]　才能看到的东西。那究竟是……？）
+[k]
+
+＠希翁
+（并非以赢下圣杯战争为最优先事项，[r]　而是想要找出某种其他答案的感觉。）
+[k]
+
+[charaFace A 10]
+
+＠希翁
+（但是无论如何，都应该对他保持警惕。）
+[k]
+
+[charaFace A 8]
+
+＠希翁
+（毕竟他所追求的那个答案，）
+[k]
+
+＠希翁
+（究竟对我们有益还是有害，[r]　尚不得而知[line 3]）
+[k]
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_70 2.0]
+[wait fade]
+[cameraHome 0.1]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

@@ -1,0 +1,1113 @@
+
+
+＄03-00-13-02-6-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098254800 1 尼莫水兵]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098252900 1 特佩乌]
+[charaSet D 1098252940 1 特佩乌2]
+[charaSet E 1098252900 1 特佩乌3]
+[charaSet F 1098231510 1 玛修]
+[charaSet G 1098255200 1 哈贝特洛特]
+[charaSet H 1098182300 1 尼莫烘焙坊]
+[charaScale H 1.15]
+
+[sceneSet I 169000 1]
+[charaScale I 1.2]
+[sceneSet J 169001 1]
+[charaScale J 1.3]
+[sceneSet K 169001 1]
+[charaScale K 1.3]
+[sceneSet L 169001 1]
+[charaScale L 1.3]
+
+[imageSet M back10001 1 1]
+[charaScale M 1.01]
+[imageSet N back171800 1]
+[charaScale N 1.5]
+
+[scene 169000]
+
+[charaTalk depthOff]
+[charaDepth I 1]
+[charaDepth M 2]
+[charaFadein I 0.1 -120,-315]
+[charaFadein M 0.1 0,-200]
+[wt 0.1]
+
+[se ad527]
+[seVolume ad527 0 0]
+[cueSe SE_21 21_ad1066]
+[seVolume ad527 1.5 1.0]
+[wt 1.0]
+[seStop 21_ad1066 0.3]
+[seStop ad527 0.3]
+[fadein black 0.8]
+[wait fade]
+
+[se ade255]
+[seVolume ade255 0 0.4]
+[se ad462]
+[seVolume ad462 0 0]
+[wt 0.5]
+[seVolume ad462 1.0 0.5]
+[charaMove I 60,-315 6.0]
+[charaFadeout M 0.7]
+[wt 1.0]
+[bgm BGM_MAP_61 1.5]
+[wt 3.0]
+[seStop ad462 2.0]
+
+[charaFadeout I 1.0]
+[wt 1.5]
+
+？1：经过了数次战斗，穿过丛林后。
+？2：出现在眼前的是一片玉米田。
+
+？！
+
+[charaScale I 1.5]
+
+[charaDepth C 2]
+[charaDepth A 3]
+[charaScale C 1.2]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFace C 0]
+[charaFadeinFSR C 1.0 256,100]
+[charaFadeinFSL A 1.0 -256,-100]
+[charaFadein I 1.0 0,-460]
+
+＠尼莫水兵
+好厉害，好大～！[r]一根就有2米左右！
+[k]
+
+＠尼莫水兵
+特佩乌，这些能吃吗！？[r]应该不是拿来当燃料用的吧～？
+[k]
+
+[charaTalk C]
+[charaFace C 2]
+＠特佩乌
+嗯，对迪诺斯而言这是唯一[r]『因为喜欢』才吃的，最棒的美味哦。
+[k]
+
+[charaFace C 0]
+
+＠特佩乌
+话说水兵，当燃料用是指什么？[r]在泛人类史会拿玉米做什么呢？
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMoveReturnFSL A -256,-85 0.3]
+[wt 0.3]
+[charaMoveReturnFSL A -256,-85 0.3]
+[wt 0.8]
+[charaFace C 2]
+[charaMoveReturnFSR C 256,90 0.5]
+[wt 1.0]
+
+[charaFadeout C 0.7]
+[charaFadeout A 0.7]
+[charaFadeout I 0.7]
+[wt 1.2]
+[charaScale C 1.0]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+我知道！　是乙醇吧！[r]以有机物为原料的生物燃料！
+[k]
+
+[charaFace B 20]
+
+＠U－奥尔加玛丽
+不过，谷物不是原生生物的营养来源吗？
+[k]
+
+＠U－奥尔加玛丽
+在地球上，比起自然界的循环，[r]更倾向将这当做燃料消耗吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 13]
+[charaFadein F 0.1 1]
+
+＠玛修
+不，并不是这样，[r]是根据用途来分类栽培的。
+[k]
+
+＠玛修
+分成经过品种改良后提升了口味和营养的食用玉米，[r]与适合生产乙醇的玉米。
+[k]
+
+＠玛修
+虽说近来也有人重视起了生物燃料用[r]玉米田所排放的温室气体的问题，
+[k]
+
+＠玛修
+但两者都称得上是人类积累的技术成果吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 24]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+哼～，不破坏环境就维持不下去的文明发展啊……
+[k]
+
+[charaFace B 13]
+
+＠U－奥尔加玛丽
+虽说智慧生命的进化本就像是在把行星坐吃山空前，[r]看能飞多远的比赛。
+[k]
+
+[charaFace B 14]
+
+＠U－奥尔加玛丽
+但看来地球人类是输多赢少呢！[r]你们果然需要一位强大的领袖吧！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_61 1.5 0.5]
+
+[charaTalk G]
+[charaFace G 6]
+[charaPut G 1]
+[charaFadeTime G 0.1 0.7]
+
+＠哈贝特洛特
+喂～，总统有精神虽然是好事啦～，[r]但[%1]，你注意到了吗？
+[k]
+
+＠哈贝特洛特
+从洞窟出发已经快要6小时了。[r]咱们是在太阳还当头照的时候出发的吧？
+[k]
+
+[bgmStop BGM_MAP_61 1.5]
+＠哈贝特洛特
+你不觉得很奇怪吗？[r]为什么还没到日落啦。
+[k]
+
+？1：这么说来……
+？2：搞不好已经将近半天的时间，一直是大白天？
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠玛修
+不，或许是截然相反吧。[r]应该认为这里没有夜晚才对。
+[k]
+
+＠玛修
+米克特兰是地底世界，[r]是朝内弯折的密闭结构。
+[k]
+
+＠玛修
+太阳不会没入地平线。[r]……不，我们世界的太阳其实
+[k]
+
+[charaFace F 3]
+
+＠玛修
+也并不会没入地平线，[r]这只是一种修辞手法而已。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+唔～……
+[k]
+
+＠U－奥尔加玛丽
+但是那个太阳在动哦？[r]缓缓朝南……不，是朝着地底的方向移动。
+[k]
+
+＠U－奥尔加玛丽
+按那个速度，再过5小时左右，[r]这一带光照就会变弱，并进入夜晚。
+[k]
+
+＠U－奥尔加玛丽
+这应该是既没有自转，也没有公转的[r][#地底世界:米克特兰]自有的『天体运动』吧。
+[k]
+
+＠U－奥尔加玛丽
+……也不知道是从哪里操控的。[r]做到了凭21世纪人类的技术不可能做到的事呢。
+[k]
+
+？1：……虽说是老调重弹，但真是充满谜团呢。
+？2：听听特佩乌先生是怎么说吧？
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+刚才你们叫我吗？
+[k]
+
+＠特佩乌
+非常抱歉，说是要当向导，结果都不进行解说。[r]听水兵说话太开心了，一不小心就忘了。
+[k]
+
+＠特佩乌
+那么，你们对什么有疑问？
+[k]
+
+＠特佩乌
+米克特兰的构造、太阳的机制、迪诺斯的生态、[r]都市的生活、[#隐匿者:Crypter]、玉米田。
+[k]
+
+＠特佩乌
+我猜你们想知道的事情，[r]大概就这些吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+
+＠玛修
+是，是这些没错，[r]但希望您能一点点逐一解释……
+[k]
+
+＠玛修
+前辈，先从什么开始问起呢？
+[k]
+
+？1：米克特兰的构造。
+
+[label To_select01]
+
+[bgmStop BGM_EVENT_77 1.5]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+没问题，米克特兰的构造吧。
+[k]
+
+＠特佩乌
+对于要前往Storm Border的你们来说，[r]这是最需要的知识。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth N 3]
+[charaFadein N 1.0 0,-450]
+[wt 1.2]
+[charaFadeout C 0.1]
+
+[bgm BGM_MAP_41 0.1]
+
+＠特佩乌
+米克特兰虽是平坦的丛林，[r]但其实它被分成了九段地层。
+[k]
+
+＠特佩乌
+首先是这里，第一层。[r]通往地表的顶棚形成了绝壁的特拉洛坎。
+[k]
+
+[messageOff]
+[charaMove N 0,-330 1.0]
+[wt 1.2]
+
+＠特佩乌
+第二层，第一道冥界线。[r]无尽之河，巨大鬣蜥所居住的[#红之线:特拉特拉乌基]。
+[k]
+
+[messageOff]
+[charaMove N 0,-200 1.0]
+[wt 1.2]
+
+＠特佩乌
+第三层，硕果累累的大平原。[r]黄金都市奇琴伊察。
+[k]
+
+[messageOff]
+[charaMove N 0,-70 1.0]
+[wt 1.2]
+
+＠特佩乌
+第四层，第二道冥界线。[r]刃与风之谷，弃骨之地[#白之线:伊斯塔乌基]。
+[k]
+
+[messageOff]
+[charaMove N 0,40 1.0]
+[wt 1.2]
+
+＠特佩乌
+第五层，大地的血管。[r]血与鸟之湖，图拉。
+[k]
+
+[messageOff]
+[charaMove N 0,140 1.0]
+[wt 1.2]
+
+＠特佩乌
+第六层，第三道冥界线。[r]银河砂丘，真空雷园[#蓝之线:索索亚乌基]。
+[k]
+
+[messageOff]
+[charaMove N 0,250 1.0]
+[wt 1.2]
+
+＠特佩乌
+第七层，歌咏的伊尔维卡特尔。[r]天文台梅兹蒂特兰。
+[k]
+
+[messageOff]
+[charaMove N 0,345 0.8]
+[wt 1.0]
+
+＠特佩乌
+第八层，第四道冥界线。[r]不见天日的地底山脉[#黑之线:亚亚乌基]。
+[k]
+
+[messageOff]
+[charaMove N 0,390 0.6]
+[wt 0.8]
+
+＠特佩乌
+然后是第九层，巨树吉贝的树根处。[r]恐怖之地希巴尔巴。
+[k]
+
+＠特佩乌
+这些地层自然是彼此接壤的，[r]能够自由横跨。
+[k]
+
+＠特佩乌
+但冥界线都是危险的地层，[r]是死者昂首阔步的试练之层。
+[k]
+
+[charaMoveScale N 1.7 20.0]
+[charaMove N 0,450 20.0]
+＠特佩乌
+另外，就算是我们迪诺斯，[r]也认为前往第七层以下的地层是很危险的。
+[k]
+
+＠特佩乌
+这纯粹是因为第八、第九层充斥着[r]会导致生物死亡的雾。
+[k]
+
+＠特佩乌
+这片雾只有在太阳进入第360次休息，[r]直至重启前那5个日期左右的期间才会消散。
+[k]
+
+＠特佩乌
+在雾散期间前往第九层被称作『下冥界』，[r]但从未有任何迪诺斯成功过。
+[k]
+
+[messageOff]
+[charaFadeout N 1.0]
+[wt 1.2]
+
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠玛修
+下冥界……希巴尔巴……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+各位没有前往第九层的理由，[r]现在说这些顶多只是预备知识。
+[k]
+
+＠特佩乌
+Storm Border坠落的地点是在第三层终点，[r]第四层入口附近吧。
+[k]
+
+＠特佩乌
+花上4个日期就能抵达那个地方，[r]但在抵达前，需要跨越一道巨大的难关。
+[k]
+
+＠特佩乌
+那就是第二层，红色冥界线特拉特拉乌基。[r]被[#隐匿者:Crypter]带来的战神……
+[k]
+
+＠特佩乌
+特斯卡特利波卡化作魔境的可怕世界。
+[k]
+
+[branch lblConf]
+
+？2：玉米田。
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+我们迪诺斯只要有水和阳光就能活下去，
+[k]
+
+＠特佩乌
+但光是这样未免有些寒酸，[r]于是特意准备了一种嗜好品。
+[k]
+
+＠特佩乌
+那便是玉米，伟大太阳的恩惠。[r]是迈雅为我们而创造的万能食物。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 26]
+[charaFadein F 0.1 1]
+
+＠玛修
+在泛人类史的南美，[r]玉米也被视作拥有特别意义的谷物。
+[k]
+
+＠玛修
+实际上，玉米在中南美是不可或缺的营养来源。
+[k]
+
+＠玛修
+作为维系生命的食物，甚至会被描述为[r]神之赠礼，或是神明本身。
+[k]
+
+＠玛修
+那我们进入正题吧，前辈。[r]该询问的，是有关米克特兰的构造。
+[k]
+
+[branch To_select01]
+
+？！
+
+[label lblConf]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+
+＠玛修
+[#隐匿者:Crypter]带来的战神[line 3][r]也就是[line 2]
+[k]
+
+？1：戴比特召唤的从者，
+
+？！
+
+＠玛修
+泛人类史中阿兹特克至高神之一……[r]战争与活祭之神，特斯卡特利波卡，对吧。
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 1.5]
+[bgmStop BGM_MAP_41 1.5]
+[wait fade]
+
+[charaFadeout F 0.1]
+[scene 170301]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[wt 1.5]
+
+[se ade24]
+[seVolume ade24 0 0]
+[seVolume ade24 1.5 1.0]
+[scene 169001 1.5]
+[wt 3.5]
+
+[seStop ade24 1.5]
+
+[bgm BGM_EVENT_25 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth J 1]
+[charaDepth C 2]
+[charaDepth K 3]
+[charaDepth D 4]
+[charaDepth L 5]
+[charaDepth E 6]
+
+[charaScale C 1.2]
+[charaScale D 1.2]
+[charaScale E 1.2]
+
+[charaFace C 0]
+[charaFadein J 1.5 195,-280]
+[charaFadeinFSR C 1.5 250,70]
+[charaMove J 195,-350 25.0]
+[charaMoveFSR C 250,0 25.0]
+[wt 1.5]
+
+＠特佩乌
+嗯嗯，泛人类史中的人类是你们智人，
+[k]
+
+＠特佩乌
+有六块大陆、无数国家，人种虽有不同，[r]但都认可共同体，并形成了各自的文化。
+[k]
+
+＠特佩乌
+按照你们的环境来说，[r]我们迪诺斯属于爬行类吧。
+[k]
+
+＠特佩乌
+生存圈在行星地表，还没朝宇宙扩展。[r]海洋？　我还是第一次听说海洋这词呢，求详细。
+[k]
+
+[messageOff]
+[charaFace D 6]
+[charaFadein K 1.5 70,-350]
+[charaFadein D 1.5 70,0]
+[charaMove K -70,-350 50.0]
+[charaMove D -70,0 50.0]
+[wt 1.5]
+[charaFadeout J 0.1]
+[charaFadeout C 0.1]
+[charaScale C 1.0]
+
+＠特佩乌
+原来如此，除大陆以外还有这种东西啊。[r]在那种环境下，生命应该非常丰富吧。
+[k]
+
+＠特佩乌
+你问我迪诺斯中有没有水栖爬行类？[r]适应水中生活的迪诺斯很稀有。
+[k]
+
+＠特佩乌
+毕竟要在水中生活的话，骨骼就会变大，[r]会难以在陆地上行动。
+[k]
+
+＠特佩乌
+民主主义、共产主义。[r]有关政治与社会的结构我已经掌握，就不必说了。
+[k]
+
+＠特佩乌
+根据你们的特性来看，对万物的研究[r]就像是在堆石子般发展吧。
+[k]
+
+＠特佩乌
+对自己居住的行星的探索自不用说，[r]哪怕没有飞行能力，也在推进对其他天体的观测。
+[k]
+
+[messageOff]
+[charaFace E 1]
+[charaFadein L 1.0 -195,-350]
+[charaFadeinFSL E 1.0 0,0]
+[charaMove L -195,-280 25.0]
+[charaMoveFSL E 0,70 25.0]
+[wt 1.5]
+[charaFadeout K 0.1]
+[charaFadeout D 0.1]
+
+＠特佩乌
+遗传因子、细胞、元素、原子。
+[k]
+
+＠特佩乌
+为了解广袤的宇宙，[r]须知晓极小的法则[line 3]太美妙了。
+[k]
+
+＠特佩乌
+听君一席话，胜啃十穗玉米。
+[k]
+
+＠特佩乌
+你们的经历、泛人类史的[#人类:人]，[r]就像是每次滚动图案都会变化的立方体一样。
+[k]
+
+[messageOff]
+[charaFadeout L 1.0]
+[charaFadeout E 1.0]
+[wt 1.5]
+
+？1：[line 3]（反倒是对我发起了问题攻势。）
+？2：[line 3]（好惊人的理解力……！）
+
+？！
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+
+＠玛修
+被吓到了吗？
+[k]
+
+＠玛修
+我在洞窟遇见特佩乌先生那时，[r]也怀有相同的感想。
+[k]
+
+＠玛修
+只要向特佩乌先生描述一件事，[r]之后他就能举一反十。
+[k]
+
+＠玛修
+哪怕那是特佩乌先生完全不知道的事象或法则。
+[k]
+
+[charaFace F 2]
+
+＠玛修
+这岂是大天才一词足以形容的，[r]哪怕形容为超级大脑也毫不为过吧！
+[k]
+
+？1：确实。
+？2：（是不是跟其他迪诺斯不一样呢……）
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+我们对迪诺斯的情况还一无所知呢。
+[k]
+
+＠尼莫水兵
+……特佩乌，你该不会孤独一人吧？[r]因为脑子太好了，所以才一个人在洞窟生活？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+非平均水准的人类会被群体孤立……[r]按照你们的话来说，就是『异端』吧。
+[k]
+
+＠特佩乌
+确实，我跟其他迪诺斯的想法合不来，[r]才会来到地处边境的第一层。
+[k]
+
+＠特佩乌
+迪诺斯原本并没有什么求知欲。[r]因为肉体无须智慧来弥补。
+[k]
+
+＠特佩乌
+智人寿命较短、容易受伤，[r]生存能力不如其他动物。
+[k]
+
+＠特佩乌
+因此肉体与智慧都经历了进化。[r]但是我们迪诺斯[#并没有这样]。
+[k]
+
+＠特佩乌
+米克特兰并没有什么东西能威胁到我们。[r]因此也不需要进化。
+[k]
+
+？1：原来如此。
+？2：若恐龙拥有智慧，那就是最强的了呢。
+
+？！
+
+[charaFace C 1]
+
+＠特佩乌
+但这也不过是井底之蛙罢了。
+[k]
+
+＠特佩乌
+你们的消化功能很棒。[r]能吃如此多种多样的食物，我们就做不到。
+[k]
+
+＠特佩乌
+分解植物自带的毒素摄取营养……
+[k]
+
+＠特佩乌
+你们理所当然般地进行着的这种行为，[r]可是相当惊人的[#革命:Revolution]。
+[k]
+
+＠特佩乌
+我真是羡慕得要命。[r]竟能将那么多生命、植物当作『食材』！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+是，是吗？　听你这么一说，[r]饮食文化也许真是人类特有的呢～！
+[k]
+
+＠尼莫水兵
+如果对烘焙坊这么说，她肯定会很高兴哦～！
+[k]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth A 2]
+
+[charaFace H 5]
+[charaPut H 165,45]
+[charaFadeTime H 0.2 0.5]
+
+＠尼莫水兵
+毕竟她偶尔会闹别扭说，[r]『感觉只有我的职务没什么存在感！』
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠玛修
+特佩乌先生，如果方便的话，[r]可以告诉我们有关迪诺斯的事吗？
+[k]
+
+＠玛修
+因为我们还没跟特佩乌先生[r]以外的迪诺斯正经对话过……[bgmStop BGM_EVENT_25 1.5]
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+那就来聊聊迪诺斯的生态与由来吧。
+[k]
+
+[bgm BGM_EVENT_156 0.1]
+
+＠特佩乌
+我们迪诺斯是这异闻带中的[#人类:人]……[r]被委任经营世界的灵长。
+[k]
+
+＠特佩乌
+很久很久以前，米克特兰被创造出来的时候，[r]我们的祖先从地表移居到了这里。
+[k]
+
+＠特佩乌
+我所说的祖先，[r]是类似于泛人类史中『恐龙』的生物。
+[k]
+
+＠特佩乌
+根据玛修的说法，[r]恐龙被分为好几种类别，
+[k]
+
+＠特佩乌
+水栖爬行类的蛇颈龙、[r]被归为鸟类的翼龙、
+[k]
+
+＠特佩乌
+在地上活动的兽脚类，似乎种类繁多呢。[r]而迪诺斯的绝大部分，都是兽脚类。
+[k]
+
+＠特佩乌
+不过我们的诞生多少受到了一些迈雅的管控，
+[k]
+
+＠特佩乌
+因此也不是完全没有翼龙、蛇颈龙类的迪诺斯。
+[k]
+
+＠特佩乌
+实际上，翼龙虽是稀有物种，但确实存在。[r]我刚才使用了『异端』这个词，
+[k]
+
+＠特佩乌
+但我是言行存在些许问题，[r]才会被排挤在群体之外。
+[k]
+
+＠特佩乌
+另一方面，翼龙或蛇颈龙[r]可谓生来便是『异端』吧。
+[k]
+
+＠特佩乌
+听说恐龙是植食性居多，肉食性较少，[r]但迪诺斯全都是植食性的。
+[k]
+
+＠特佩乌
+不存在肉食性的迪诺斯。
+[k]
+
+＠特佩乌
+吃肉后会因无法分解毒素而备受折磨，[r]丧失理智，最终致死。
+[k]
+
+＠特佩乌
+袭击各位的失智迪诺斯也是这种状态。
+[k]
+
+＠特佩乌
+不是在面对死亡时放弃了理智，[r]就是被奥塞洛特尔投毒导致的残暴化吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+原来是这样啊……虽然很可怕，[r]但那些迪诺斯也很可怜呢……
+[k]
+
+＠尼莫水兵
+在痛苦中死去，而且还要吃那种[r]根本不想吃的肉，简直就是丧尸嘛……
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.5]
+
+？1：奥塞洛特尔为什么要做这种事？
+
+？！
+
+
+
+＠特佩乌
+好像是因为『新的教诲』。[r]算是你们所说的宗教……信仰吧。
+[k]
+
+＠特佩乌
+换作现在我就能明白了，[r]奥塞洛特尔跟你们一样，都是人属的生物……
+[k]
+
+＠特佩乌
+都是『人类』吧。[r]他们突然出现在米克特兰，扩大了势力范围。
+[k]
+
+＠特佩乌
+『将强大的心脏献给神明』，[r]这就是他们的信仰。
+[k]
+
+＠特佩乌
+由于米克特兰最强大的生物是迪诺斯，[r]他们的目标也就必然是迪诺斯了。
+[k]
+
+＠特佩乌
+他们在第五层建造了奥塞洛特尔的城市，[r]打着仪式的名号，挖出[#恐龙人:迪诺斯]的心脏。
+[k]
+
+＠特佩乌
+通过与你们共享知识，[r]现在我也能明确米克特兰的现状了。
+[k]
+
+＠特佩乌
+目前，米克特兰正处于两方势力争斗的[r]内战状态吧。
+[k]
+
+＠特佩乌
+一方是我们迪诺斯。
+[k]
+
+＠特佩乌
+受[#太阳神:库库尔坎]守护，[r]由恐龙王统治的[#黄金都市:奇琴伊察]。
+[k]
+
+＠特佩乌
+另一方是他们奥塞特洛尔。
+[k]
+
+＠特佩乌
+由来自泛人类史的[#隐匿者:Crypter]，[r]以及他带来的新神……
+[k]
+
+＠特佩乌
+活祭之神特斯卡特利波卡建造的死之都，[r]墨西哥城。
+[k]
+
+＠特佩乌
+而你们的目的地，Storm Border的迫降地点[r]就在这两座都市中间。
+[k]
+
+？1：位于墨西哥城的神……
+？2：那里就是戴比特所在之处……？
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+
+＠玛修
+请等一下。现在知道了[#隐匿者:Crypter]……[r]戴比特先生召唤的从者，
+[k]
+
+＠玛修
+就是我们泛人类史的神灵。[r]可是……
+[k]
+
+＠玛修
+迪诺斯们的都市里也存在神明吗？[r]而且竟然还是库库尔坎。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠尼莫水兵
+[FFFFFF]？[-]　玛修，为什么要纠结这点？[r]异闻带有神明也很正常吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠玛修
+不，库库尔坎是泛人类史玛雅神话中[r]『风与水之神』的名字。
+[k]
+
+＠玛修
+可是，迪诺斯们与泛人类史的神话毫无关系，
+[k]
+
+＠玛修
+因此米克特兰也存在[r]拥有该名称的神就不合道理了。
+[k]
+
+＠玛修
+啊，不对……这么说来，米克特兰本身，[r]也是阿兹特克神话中地下冥界的名称呢……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+你想说，你们的神话与我们的世界毫无关系吧。
+[k]
+
+＠特佩乌
+这是很合理的疑问。[r]但情况非常单纯。
+[k]
+
+＠特佩乌
+太阳神这一名称与概念，[r]都是最近才诞生的。
+[k]
+
+＠特佩乌
+我们并不关心[#这种事]。
+[k]
+
+＠特佩乌
+在[#隐匿者:Crypter]到来前，[r]我们甚至不怎么用语言进行对话。
+[k]
+
+＠特佩乌
+因此『神』这个概念本身就是[r]从泛人类史传过来的。
+[k]
+
+＠特佩乌
+在戴比特·泽姆·沃伊德到来前，[r]我们迪诺斯的世界并不存在『神』。
+[k]
+
+＠特佩乌
+正由于他召唤了特斯卡特利波卡这名泛人类史的神，[r]许多事物才被赋予了意义。
+[k]
+
+＠特佩乌
+原本『单纯存在的东西』结果『成了特别的东西』。[r]这虽然算现象的置换行为[line 3]
+[k]
+
+＠特佩乌
+但我们的世界，首次出现了故事。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_156 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

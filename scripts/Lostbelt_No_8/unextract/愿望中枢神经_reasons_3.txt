@@ -1,0 +1,1819 @@
+
+
+＄04-00-02-04-3-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098269500 1 莱诺尔]
+[charaSet B 1036001 1 高长恭]
+[charaSet C 1098269800 1 Caster的御主]
+[charaSet D 1098269600 1 Caster]
+[charaSet E 1098270330 1 阿愈丝]
+[charaSet F 98004000 1 雷夫]
+[charaSet G 1098270100 1 迦摩]
+[charaSet H 1098270000 1 希翁]
+[charaSet I 7046001 1 难敌]
+[charaSet J 1098270700 1 拉妮－Ｔ]
+[charaSet K 1098270900 1 拉妮－Ｒ]
+
+[sceneSet L 191200 1]
+[sceneSet M 191201 1]
+[sceneSet N 191202 1]
+[sceneSet O 191203 1]
+
+[charaSet P 1036001 1 高长恭（演出用）]
+[sceneSet Q 189401 1]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+
+[charaSet T 1098270330 1 阿愈丝（演出用）]
+
+[sceneSet U 189402 1]
+[sceneSet V 189402 1]
+
+[charaPut T 2000,2500]
+[charaEffectEdgeBlur T FFF9A5 FFF9A5 4 1.5]
+
+
+[scene 189401]
+
+
+[fadein black 1.5]
+[bgm BGM_MAP_56 0.1]
+[wait fade]
+
+
+[charaTalk off]
+[charaDepth A 5]
+[charaDepth B 4]
+
+[charaFace A 1]
+[charaFace B 0]
+[charaFadein A 0.1 175,0]
+[charaFadein B 0.1 -175,0]
+[wt 2.2]
+
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠Caster的御主
+什么……你们是……！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠A：？？？
+我们是客人。[r]只不过，再拖时间也没什么意义吧。
+[k]
+
+[charaFace A 0]
+＠A：？？？
+这家伙是[#Rider:骑兵]从者。[r]而我是他的御主。
+[k]
+
+＠A：？？？
+名字是……[wt 0.5][charaFace A 1]咯咯，ＡＩ出身却有名字，还真是奇怪，[r]只是御主化后不知为何总会想要自报姓名。
+[k]
+
+＠A：？？？
+这也不怪我吧？　总之呢，我是[line 3]
+[k]
+
+＠A：？？？
+我的名字是莱诺尔。[r]莱诺尔·古辛。
+[k]
+
+？1：…………！
+？！
+
+[charaFace A 8]
+＠莱诺尔
+你是魔术师吧。我有事要找[#修理部:Repair]。
+[k]
+
+＠莱诺尔
+考虑到未来，如果有发放号码牌的话，[r]倒是可以排下队，但若非如此[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[charaTalk off]
+[charaDepth D 4]
+[charaDepth M 2]
+[charaDepth P 5]
+
+[charaFace D 0]
+[charaFadein D 0.4 -260,0]
+[wt 0.05]
+[se ade321]
+[wt 1.1]
+
+[se ad60]
+[charaMove D -240,0 0.3]
+[wt 0.1]
+[seStop ad60 0.3]
+
+[subCameraOn 1]
+[charaLayer P sub #A]
+[charaLayer Q sub #A]
+[subCameraFilter #A maskEdge cut359_mask16 3 255,255,255,255]
+
+[charaScale Q 1.2]
+[charaFace P 0]
+[charaFadein P 0.1 0,125]
+[charaFadein Q 0.1 -350,-125]
+
+[se adm37]
+[subRenderFadein #A 0.5 300,-150]
+[subRenderMove #A 250,-150 0.5]
+[wt 2.4]
+
+[subRenderFadeout #A 0.1]
+[charaFadeout D 0.1]
+[wt 0.15]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠莱诺尔
+我劝你还是下次再来吧。[r]你应该不知道我们储蓄了多少力量吧。
+[k]
+
+＠莱诺尔
+就算当前的不等号再怎么明确，[r]只要追加一个未知数，你的算式就没有意义了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠Caster的御主
+呜……
+[k]
+
+[charaFace C 1]
+＠Caster的御主
+哼，哼。也罢。反正我们已经进一步[r]削减了你们的资源，增加了自己的资源。
+[k]
+
+＠Caster的御主
+优秀的我们可不能输。[r]还是小心驶得万年船吧……
+[k]
+
+[charaFace C 0]
+＠Caster的御主
+走吧，[#Caster:魔术师]。
+[k]
+
+[messageOff]
+[se ad95]
+[charaFadeout C 0.4]
+[seStop ad95 1.2]
+[wt 1.6]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠Caster
+是啊……确实。[r]一口气惩罚完就没意思了。
+[k]
+
+[charaFace D 7]
+＠Caster
+你们应该展现出更多、更多畏惧的表情。[r]应该把脑袋抵在地板上，向我谢罪才对……
+[k]
+
+[messageOff]
+[se ade428]
+[charaFadeout D 0.4]
+[seStop ade428 1.2]
+[wt 2.2]
+
+[fadeout black 1.5]
+[bgmStop BGM_MAP_56 1.5]
+[wait fade]
+
+[charaFadeout P 0.1]
+[charaFadeout Q 0.1]
+[subCameraOff]
+[charaLayer P normal]
+[charaLayer Q normal]
+
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.2]
+
+[se ad661]
+[wt 1.7]
+
+[se ade422]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 0,-30]
+[charaMove E 1 0.4]
+[wt 0.4]
+[seStop ade422 0.4]
+[wt 0.6]
+
+[bgm BGM_EVENT_70 0.1]
+
+＠阿愈丝
+这样型号Ｒ孩子们的应急治疗就结束了。[wt 1.0][charaFace E 5][r]虽然也有些孩子……已经不在了……
+[k]
+
+[messageOff]
+[charaFace E 3]
+[wt 1.0]
+
+[charaCrossFade E 1098270310 0 0.3]
+＠阿愈丝
+总而言之……又被别人搭救了。[wait charaCrossFade E]
+[k]
+
+＠阿愈丝
+谢谢你们，[#Rider:骑兵]及其御主……[r]我没说错吧？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠莱诺尔
+正如我所说的。我的确就是[#转运部:Transfer]首席ＡＩ，[r]也是[#Rider:骑兵]的御主。
+[k]
+
+[messageOff]
+[bgm BGM_EVENT_70 0.5 0.5]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth S 8]
+[charaDepth A 4]
+[charaDepth F 5]
+
+[se ad31]
+[charaPut S 1]
+[charaEffect S bit_talk_noise_gr]
+[wt 0.3]
+
+[seStop ad31 0]
+[charaPut S 2000,2500]
+[wt 0.5]
+
+[se ad31]
+[seVolume ad31 0 0.6]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+
+[scene 36001]
+
+
+[cameraFilter gray]
+
+[charaPut S 1]
+[charaFace F 2]
+[charaFadein F 0 1]
+[charaFadeout A 0]
+[wt 1.6]
+
+[bgm BGM_EVENT_70 0.5 1.0]
+
+[seStop ad31 0.1]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_noise_gr]
+
+[scene 189401]
+
+
+[cameraFilter normal]
+
+[charaFace A 1]
+[charaFadein A 0 1]
+[charaFadeout F 0]
+[wt 1.15]
+
+
+？1：（雷夫教授……？）
+？2：（莱诺尔……？）
+？！
+
+[charaTalk on]
+[charaFace A 0]
+＠莱诺尔
+唔？　这表情是什么意思。[r]难道你曾经见过我吗？
+[k]
+
+[charaFace A 9]
+＠莱诺尔
+奇怪了，乱数器应该拥有[r]完美的随机生成功能才对……
+[k]
+
+[charaFace A 10]
+＠莱诺尔
+所以生成精神方面有问题的家伙也在所难免。[r]有可能是使用了某种模板。
+[k]
+
+＠莱诺尔
+说不定是在那些模版里随机挑选的吧。
+[k]
+
+[charaFace A 1]
+＠莱诺尔
+综上所述，就算你认识跟我长得一样的男人，[r]我们也是完全不同的两个人。不必放在心上。
+[k]
+
+？1：然后，这位是……
+？2：[#Rider:骑兵]的，兰陵王……？
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠Rider
+……[r]……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠莱诺尔
+喂喂。怎么回事，你连他那张脸也认识吗？[r]不过与其说是脸，应该算是面具吧。
+[k]
+
+[charaFace A 0]
+＠莱诺尔
+真倒霉啊……不过真名这种东西早晚[r]都会暴露。你不如跟[&他:她]打个招呼吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠Rider
+若是命令，我便遵从，[r]但若不是，我无意这么做。
+[k]
+
+[charaFace B 0]
+＠Rider
+我只是件工具。
+[k]
+
+＠Rider
+要我说的话，其实名字也错了。[r]我不是什么王。
+[k]
+
+＠Rider
+哪怕真的曾被这么称呼过，[r]现在的我也不是了。
+[k]
+
+[charaFace B 5]
+＠Rider
+我就是一把利刃，就是一介武人，[r]就是[line 3]高长恭。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠迦摩
+哎呀呀，好冰冷的气息。[r]仿佛有一堵超高的心墙呢。
+[k]
+
+＠迦摩
+感觉只要一碰就会挨刀子。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 8]
+[charaFadein H 0.1 1]
+＠希翁
+高长恭……这依然是以兰陵王[r]这个称呼广为人知的武将之名。
+[k]
+
+＠希翁
+难道是作为[#Rider:骑兵]职阶的名字吗？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠高长恭
+……[r]……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 10]
+[charaFadein I 0.1 1]
+＠难敌
+所以呢？　[#Rider:骑兵]阵营来这里有何贵干？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_70 1.5]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠莱诺尔
+那还用问吗。当然是遵照[#ＡＩ圣杯战争:System Grail War]参加者的身份，[r]来进行从者间厮杀[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[charaTalk off]
+[charaDepth G 6]
+[charaDepth I 5]
+
+[charaFace G 4]
+[charaFace I 6]
+[charaFadeinFSR G 0.1 2]
+[charaFadeinFSL I 0.1 0]
+[wt 0.2]
+[se ade533]
+[seVolume ade533 0 0.5]
+[charaMoveFSR G 256,-8 1.0]
+[wt 0.5]
+[se ad977]
+[seVolume ad977 0 0.5]
+[charaMoveFSL I -256,-8 0.3]
+[wt 1.7]
+
+[charaFadeout G 0.1]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+[wt 1.4]
+[bgm BGM_EVENT_147 0.1]
+
+[charaFace A 5]
+＠莱诺尔
+才怪，这里是[#修理部:Repair]吧？[r]我带了个想麻烦你们修理的部下过来。
+[k]
+
+
+[charaFace A 1]
+＠莱诺尔
+厮杀随时都可以。但现在的我，[r]对别的事更感兴趣。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 8]
+[charaFadein I 0.1 1]
+＠难敌
+哈？
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.15]
+
+[cueSe SE_23 23_ad1297]
+[wt 0.6]
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.4 50,0]
+[charaMove J 1 0.4]
+[wt 0.2]
+[cueSeStop 23_ad1297 0.4]
+[wt 0.8]
+
+[charaSet E 1098270300 1 阿愈丝]
+
+
+＠J：转运部ＡＩ
+Hello。我是[#转运部:Transfer]ＡＩ，[r]也就是Ｒ.Ａ.Ｎ.Ｉ系列·型号Ｔ。
+[k]
+
+[charaFace J 2]
+＠拉妮－Ｔ
+说来非常丢脸，我在执行公务时出了事故。[r]突然有故障冒了出来，吓了我一跳。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠阿愈丝
+哎呀，真的呢。[r]所以你是来治疗这损伤的？　那两位是陪你过来的？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 0.1 1]
+＠拉妮－Ｔ
+Exactly。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠阿愈丝
+这可是圣杯战争期间，[r]竟特地跑来[#修理部:Repair]本部这座敌方大本营……？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠莱诺尔
+这个嘛，我知道你想表达什么。[r]也不是非得来这里治疗不可。
+[k]
+
+[charaFace A 10]
+＠莱诺尔
+我完全可以找到去其他分区出差的[r][#修理部ＡＩ:型号Ｒ]并拜托她们，
+[k]
+
+＠莱诺尔
+也可以向这里提出请求，再不然，[r]路边的急救修理包也不是不能用。
+[k]
+
+[charaFace A 8]
+＠莱诺尔
+只是[line 3]在御主化以后，[r]我也产生了些许所谓的欲望。
+[k]
+
+＠莱诺尔
+想四处转转、调查的欲望。
+[k]
+
+[charaFace A 1]
+＠莱诺尔
+来这里也是其中一环。[r]毕竟有很多东西不亲眼瞧瞧就不会明白吧？
+[k]
+
+＠莱诺尔
+所以请允许我参观学习一下。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠阿愈丝
+唉……真是个怪人。
+[k]
+
+[charaFace E 2]
+＠阿愈丝
+[%1][&先生:小姐]怎么看？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+[wt 1.7]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[wt 0.5]
+
+？1：虽然我不知道该如何表达，
+？2：不过我难免……会对他怀有一丝警戒。
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠希翁
+说得对，理所当然。[r]你能有这种合理的想法，我就放心了。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠莱诺尔
+哈哈，我想也是。
+[k]
+
+[charaFace A 1]
+＠莱诺尔
+那我只在你们能看得到的范围内行动，[r]这样如何？
+[k]
+
+＠莱诺尔
+而且我会命令[#Rider:骑兵]待着别动。
+[k]
+
+[charaFace A 8]
+＠莱诺尔
+我不可能在你们眼皮底下动什么手脚，[r]也不可能一个人在那闹事。对吧？
+[k]
+
+？1：这个嘛……这样的话……
+？2：我会死死盯着你的，只要你不介意就行。
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 21]
+[charaFadein G 0.1 1]
+＠迦摩
+可是那边的[#Rider:骑兵]先生能够接受[r]放任御主单独行动吗？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠高长恭
+既是命令，唯有遵从。[r]我就是个惟命是从的工具。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠迦摩
+……哼唔。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠莱诺尔
+对了，借我一个型号Ｒ当导游啦。[r]每次看到什么都要大声询问也很麻烦嘛。
+[k]
+
+[charaFace A 1]
+＠莱诺尔
+好了，先参观治疗舱或是医药包……
+[k]
+
+[charaFace A 9]
+＠莱诺尔
+不，应该先从这栋建筑开始吗？[r]现在我对以往从不在意的东西产生了无比强烈的兴趣……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth K 5]
+[charaDepth A 4]
+[wt 0.1]
+
+[se ade422]
+[charaFace K 0]
+[charaFadein K 0.4 -325,0]
+[wt 0.4]
+[seStop ade422 0.2]
+[wt 0.6]
+
+[charaMoveReturn K -325,-8 0.7]
+[wt 1.1]
+
+[se ade422]
+[wt 0.05]
+[se ad95]
+[charaFadeout A 0.4]
+[charaFadeout K 0.4]
+[seStop ade422 1.2]
+[seStop ad95 1.2]
+[wt 1.6]
+
+[charaTalk on]
+[charaTalk G]
+[charaFace G 14]
+[charaFadein G 0.1 1]
+＠迦摩
+我也同意他是个怪人。[r]除此以外还能怎么形容？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 11]
+[charaFadein I 0.1 1]
+＠难敌
+他真的只是来治疗和参观的吗？[r]不过多亏了他，才赶走了[#Caster:魔术师]。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 10]
+[charaFadein H 0.1 1]
+＠希翁
+然而……实际上，无论从御主还是从那名从者身上，[r]我都感受不到敌意。
+[k]
+
+[charaFace H 6]
+＠希翁
+只能感受到强烈的警惕心，[r]或者说不愿为伍的意志。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠高长恭
+……[r]……
+[k]
+
+？1：（一副连目光都不愿对上的样子）
+？2：（靠在墙上一动不动……）
+？！
+
+[messageOff]
+[wipeout rollRight 1.0 1.0]
+[bgm BGM_EVENT_147 1.0 0.5]
+[wait wipe]
+
+[charaSet E 1098270330 1 阿愈丝]
+
+[charaFadeout B 0.1]
+[wt 1.0]
+
+[bgm BGM_EVENT_147 1.0 1.0]
+[wipein rollLeft 1.0 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠阿愈丝
+这样就好啦。执行扫描[line 3]确认完毕。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 6]
+[charaFadein J 0.1 1]
+＠拉妮－Ｔ
+足以与我们媲美的[#飚速王:Speedster]治疗令人深感佩服。[r]这是作为答谢的拉妮物质。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[cueSe SE_23 23_ad1305]
+[cueSeVolume 23_ad1305 0 0.5]
+[se adm20]
+[charaTalk depthOff]
+[charaDepth T 5]
+[charaDepth E 4]
+[charaPut T 1]
+[charaFadeTime T 0 0]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠阿愈丝
+好，谢谢。[charaEffectEdgeBlurStop T][wt 0.5][charaFace E 2]呃，那位御主呢……
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.05]
+[charaPut T 2000,2500]
+[wt 0.1]
+
+[se ad8]
+[wt 2.4]
+
+[se ad95]
+[wt 0.6]
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.4 1]
+[wt 0.4]
+[seStop ad95 0.4]
+[wt 0.6]
+
+＠莱诺尔
+唔嗯，嗯嗯。有什么关系到未来……[r]必然……近乎完美的世界……
+[k]
+
+＠莱诺尔
+耐人寻味，真是耐人寻味。[wt 0.8][charaFace A 7][r]哎哟，结束了吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 0.1 1]
+＠拉妮－Ｔ
+Exactly。
+[k]
+
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+[wt 1.4]
+
+？1：（虽然一直在盯着他，）
+？2：（可确实，没有什么可疑的举动……）
+？！
+
+[charaSet E 1098270300 1 阿愈丝]
+
+[charaFace A 1]
+＠莱诺尔
+好，那我们回去吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠迦摩
+难道你来这里真的就为了这种事？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠莱诺尔
+什么难道不难道的，就是为了这事啊。
+[k]
+
+＠莱诺尔
+未来正不断向这里逼近。[r]我们已经没空原地发呆了吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠阿愈丝
+但是，你今天应该……不打算战斗吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠莱诺尔
+是啊。一旦开战或许就会结束。[r]对此，我内心也有种不舍的感觉。
+[k]
+
+[charaFace A 9]
+＠莱诺尔
+不过[#Caster:魔术师]那家伙就不好说了吧？[r]御主的性格怎么看都很好战。
+[k]
+
+＠莱诺尔
+那家伙应该会率先继续行动吧，[r]就是不知道会来这里，还是去别的地方。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 8]
+[charaFadein H 0.1 1]
+＠希翁
+我想也是。[r]这种程度我已经计算到了。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_147 1.5]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠莱诺尔
+就当是参观的费用，除拉妮物质，[r]顺带再告诉你们一些情报吧。
+[k]
+
+[bgm BGM_REQUIEM 0.1]
+
+＠莱诺尔
+我们不仅是[#转运部:Transfer]，还是[#Rider:骑兵]阵营。[r]包括ＡＩ在内的机动力都比其他家伙更强。
+[k]
+
+＠莱诺尔
+我已侦察过多个分区的情况了。
+[k]
+
+[charaFace A 9]
+＠莱诺尔
+不过也没有调查得特别详细，[r]只是简单摸个底。
+[k]
+
+[charaFace A 1]
+＠莱诺尔
+估计你们已经知道了，[#构筑部:Build]是[#Caster:魔术师]。
+[k]
+
+＠莱诺尔
+恐怕[#生产部:Grow]是[#Saber:剑士]，[r]而[#维持部:Keep]则是[#Lancer:枪兵]这样的布局。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠迦摩
+那些部门分别在哪儿来着？
+[k]
+
+[messageOff]
+
+[charaTalk off]
+[charaDepth G 2]
+[charaDepth L 3]
+[charaDepth M 4]
+[charaDepth N 5]
+[charaDepth O 6]
+[wt 0.3]
+
+[se ad1]
+[charaFadein L 0.6 0,-200]
+[wt 1.0]
+
+[charaFadeout G 0.1]
+[wt 0.55]
+
+[charaScale M 1.3]
+[charaScale N 1.3]
+[charaScale O 1.3]
+＠阿愈丝
+是这样。
+[k]
+
+[messageOff]
+[charaFadein M 0.6 0,-145]
+[wt 1.2]
+
+＠阿愈丝
+与我们[#修理部:Repair]相邻的是[wt 0.9][charaFadein N 0.4 0,-145][r][#构筑部:Build]与[#转运部:Transfer]。
+[k]
+
+[messageOff]
+[charaFadein O 0.6 0,-340]
+[wt 1.2]
+
+＠阿愈丝
+然后，[#生产部:Grow]和[#维持部:Keep]在这里哦。
+[k]
+
+
+
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+＠迦摩
+唔～，明白了。
+[k]
+
+[messageOff]
+[charaFadeout O 0.8]
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠莱诺尔
+我觉得应该不用提醒已经遭到袭击的你们了吧，[r]目前最具侵略性的是[#Caster:魔术师]阵营。
+[k]
+
+＠莱诺尔
+[#Saber:剑士]阵营与[#Lancer:枪兵]阵营还没有[r]积极挑起战斗的迹象。
+[k]
+
+[charaFace A 9]
+＠莱诺尔
+不知是御主不好战，[r]还是工于心计，正在积攒实力。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 10]
+[charaFadein I 0.1 1]
+＠难敌
+……[#Lancer:枪兵]也是吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠莱诺尔
+嗯，没错。目前还没有动静。[r]应该甚至都没离开过自己的分区。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_REQUIEM 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth R 4]
+[charaDepth I 5]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+[charaTalk I]
+[charaFace I 10]
+[charaFadein I 0.1 1]
+＠难敌
+（不好战，或是工于心计……）
+[k]
+
+＠难敌
+（怎么可能。真的有可能吗？[r]　[#那家伙][line 3]）
+[k]
+
+[charaFadeout I 0.1]
+[charaFadeout R 0.2]
+[wt 0.1]
+
+[bgm BGM_REQUIEM 0.5 1.0]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠阿愈丝
+[#Berserker:狂战士]？　怎么了？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠难敌
+……啊？　本老爷怎么了？[r]本老爷不还是老样子嘛。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠莱诺尔
+那我们就先告辞了。
+[k]
+
+[charaFace A 8]
+＠莱诺尔
+放心吧，很快就会再见面的[line 3]在不久的将来。[r]毕竟我们只有这条路可走。
+[k]
+
+[messageOff]
+[se ad95]
+[charaFadeout A 0.4]
+[seStop ad95 1.2]
+[wt 1.7]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[wt 0.5]
+
+[se ade422]
+[charaFadeout B 0.4]
+[seStop ade422 1.2]
+[wt 2.0]
+
+[fadeout black 1.0]
+[bgmStop BGM_REQUIEM 1.0]
+[wait fade]
+
+[scene 189301]
+
+[pictureFrame cut063_cinema]
+[wt 1.5]
+
+[se ad95]
+[seVolume ad95 0 0]
+[seVolume ad95 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+[wt 1.0]
+
+[seStop ad95 0.3]
+[wt 0.5]
+
+[bgm BGM_SENGOKU_1 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+＠莱诺尔
+好了，该怎么回去呢。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 8]
+[charaFadein J 0.1 0,-50]
+＠拉妮－Ｔ
+生气。
+[k]
+
+[charaFace J 11]
+＠拉妮－Ｔ
+我们[#转运部:Transfer]的高速移动资产[r]和[#Rider:骑兵]大人的马，哪边能更快抵达。
+[k]
+
+＠拉妮－Ｔ
+在我看来是在提这样的Question。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 0,-50]
+＠莱诺尔
+啊？[wt 0.5][charaFace A 8][r]哈哈，我不是这个意思啦。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 11]
+[charaFadein J 0.1 0,-50]
+＠拉妮－Ｔ
+赛跑吧。我们可是这个世界引以为傲的[#飚速王:Speedster]。[r]既然受人挑战，就决不能输。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+＠高长恭
+……[r]……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 9]
+[charaFadein J 0.1 0,-50]
+＠拉妮－Ｔ
+无视我。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+＠莱诺尔
+你还是老样子，不跟我以外的人说话吗，[r][#Rider:骑兵]？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0,-50]
+＠高长恭
+是命令我就遵从，非命令我就不做。[r]仅此而已，御主。
+[k]
+
+[charaFace B 5]
+＠高长恭
+我已经说过很多遍了。
+[k]
+
+＠高长恭
+[#请不要期待我会有任何自主行为]。
+[k]
+
+[charaFace B 0]
+＠高长恭
+我决不会自主行动，自主战斗，[r]也不会自主使用宝具。
+[k]
+
+＠高长恭
+不会擅自采取任何行动。
+[k]
+
+[charaFace B 4]
+＠高长恭
+相对的，我会遵从御主所有的命令。[r]我就是这样的存在。
+[k]
+
+＠高长恭
+倘若御主期待从者这种存在[r]能完成超出自己预期的工作，
+[k]
+
+＠高长恭
+那我应该算是最为差劲的糟糕从者吧。
+[k]
+
+[charaFace B 0]
+＠高长恭
+我只是把剑。不，既然是[#Rider:骑兵]，[r]应该等同于一匹马。
+[k]
+
+＠高长恭
+只会朝命我前行的方向踏蹄，[r]只会在你策马扬鞭之时驰骋。
+[k]
+
+[bgm BGM_SENGOKU_1 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth R 4]
+[charaDepth B 5]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+[charaFace B 4]
+＠高长恭
+（没错[line 3]）
+[k]
+
+＠高长恭
+（毕竟被套上缰绳还敢擅自跑动的马儿，[r]　命运早已注定。）
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout R 0.2]
+[wt 0.1]
+
+[bgm BGM_SENGOKU_1 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 0,-50]
+＠莱诺尔
+呵。严格来说，比起听凭本能，[r]我的性格更偏向于谋而后动。
+[k]
+
+＠莱诺尔
+既然能减少不确定因素，[r]就意味着简单明了，我也求之不得。
+[k]
+
+[charaFace A 1]
+＠莱诺尔
+我对你的行为方式没什么不满。[r]只希望你能为了未来努力工作。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 0,-50]
+＠拉妮－Ｔ
+然后呢，打算怎么办？
+[k]
+
+[charaFace J 11]
+＠拉妮－Ｔ
+我们这种类型是不愿放过任何展现自身[r]优秀性能机会的。尤其擅长过发夹弯。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+＠高长恭
+……[r]……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 9]
+[charaFadein J 0.1 0,-50]
+＠拉妮－Ｔ
+无视我。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 0,-50]
+＠莱诺尔
+哈。不过啦，速度其实根本无关紧要。
+[k]
+
+＠莱诺尔
+要是真赶时间，我只需用自己的车就行了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 0,-50]
+＠拉妮－Ｔ
+这么说来，首席确实有一台[r]特殊的[#高速移动资产:摩托]。
+[k]
+
+＠拉妮－Ｔ
+就是车把伸得好长～的那台。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,-50]
+＠莱诺尔
+嗯。[r]不过我把我的Chopper留在大本营了。
+[k]
+
+＠莱诺尔
+要是只求快速移动，其实坐什么都可以，[r]但我现在还要兼顾观察与观测。
+[k]
+
+＠莱诺尔
+综合考虑下来，还是能边移动边分出心[r]兼顾那边的移动手段比较划算。
+[k]
+
+[charaFace A 8]
+＠莱诺尔
+所以在搭上你来这里的路上，[r]我也一直在同乘[#Rider:骑兵]的马吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 3]
+[charaFadein J 0.1 0,-50]
+＠拉妮－Ｔ
+……所以我这个飚速王就没用了吗？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,-50]
+＠莱诺尔
+不，说起来其实正好。
+[k]
+
+＠莱诺尔
+我现在正想返回大本营整理情报。
+[k]
+
+＠莱诺尔
+何况让[#Rider:骑兵]休息一下也是有意义的。
+[k]
+
+＠莱诺尔
+这次就坐你的移动用资产回去吧。[r]不过，不需要马力全开哦。
+[k]
+
+[charaFace A 8]
+＠莱诺尔
+毕竟如果在回去的路上发现了什么在意的东西，[r]我当然打算调查到心满意足为止[line 3]
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.0]
+[bgmStop BGM_SENGOKU_1 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[charaSet E 1098270370 1 阿愈丝]
+
+[scene 189401]
+
+[pictureFrame]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠阿愈丝
+好了。为保证发生意外时能立刻取得联系并赶回来，
+[k]
+
+＠阿愈丝
+有必要升级一下通讯协议才行呢。
+[k]
+
+[charaFace E 2]
+＠阿愈丝
+要加密……当然还要提升强度……
+[k]
+
+？1：……没事吧？
+
+[charaFace E 0]
+＠阿愈丝
+当然没事啦。[wt 0.5][charaFace E 3]失去了一些孩子的确会[r]让我感到寂寞……但也不能只顾垂头丧气啦。
+[k]
+
+？2：要是有什么我帮得上忙的……
+
+[charaFace E 6]
+＠阿愈丝
+不，没关系。[r]这毕竟是我这个首席ＡＩ的工作。
+[k]
+
+？！
+
+[charaFace E 6]
+＠阿愈丝
+所以你们先去休息吧。
+[k]
+
+＠阿愈丝
+我处理完该做的工作后也会去睡，[r]不必担心。
+[k]
+
+？1：大家平常都是怎么睡觉的？
+？！
+
+[charaFace E 0]
+＠阿愈丝
+我们的话，值夜班的孩子会继续行动，[r]而其他孩子则会进入管理舱。
+[k]
+
+[charaFace E 3]
+＠阿愈丝
+你们的话……唔～，该怎么办呢？
+[k]
+
+＠阿愈丝
+ＡＩ专用的管理舱硬邦邦的，[r]估计睡起来会不太舒服呢。
+[k]
+
+？1：睡哪里都没关系啦。
+？2：反正我也习惯露宿了。
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 9]
+[charaFadein H 0.1 1]
+＠希翁
+只要有个能躺下的地方就行了。
+[k]
+
+[charaFace H 2]
+
+＠希翁
+不过要是能有个供我们三人同时休息的房间，[r]就再好不过了。
+[k]
+
+[charaFace H 10]
+＠希翁
+我希望避免三个人每人一间单独睡。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 14]
+[charaFadein G 0.1 1]
+＠迦摩
+……难道你是在警惕我？[r]还是说有什么企图？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 10]
+[charaFadein H 0.1 1]
+＠希翁
+不只是你，保护[%1][&先生:小姐][r]睡眠时免遭一切危险……
+[k]
+
+＠希翁
+既是最优先事项，也是最优解。[wt 1.0][charaFace H 2][r]仅此而已，有什么问题吗？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 16]
+[charaFadein G 0.1 1]
+＠迦摩
+……[r]……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠阿愈丝
+气氛似乎有些剑拔弩张，[r]是我的错觉吧。
+[k]
+
+[charaFace E 1]
+＠阿愈丝
+符合条件的房间多得是，[r]我就带你们随便选一间啦。那么，晚安！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_2 1.0 0.5]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[scene 189402]
+[wt 1.0]
+
+[se ad8]
+[wt 2.4]
+
+[charaTalk off]
+[charaDepth U 1]
+[charaDepth V 2]
+
+[charaScale U 1.4]
+[charaScale V 1.4]
+[charaFadein U 0.1 25,-250]
+
+[charaMove U 125,-250 5.0]
+[bgm BGM_EVENT_2 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+[wt 2.6]
+
+[charaFadein V 1.0 -250,-325]
+
+[charaMove V -250,-410 5.0]
+[wt 1.0]
+[charaFadeout U 0.1]
+[wt 2.5]
+
+[charaFadeout V 1.0]
+[wt 1.4]
+
+[charaTalk on]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠希翁
+并不会过于宽敞，也没有过于狭小。[r]虽然不是床铺，但也有三个足够人躺下的台子。
+[k]
+
+[charaFace H 9]
+＠希翁
+无论从警戒入侵，还是紧急情况下确保[r]逃亡路线的角度来看，姑且都算合格吧。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠迦摩
+嗯，那我们睡吧。[r]委身于最为近在咫尺又难以逃脱的堕落吧。
+[k]
+
+＠迦摩
+负责陪同的，当然是我……
+[k]
+
+[messageOff]
+[se ad95]
+[charaMoveScale G 1.05 0.6]
+[charaMove G 0,9 0.6]
+[wt 0.4]
+[seStop ad95 0.2]
+[wt 0.8]
+
+[se ad95]
+[charaMoveScale G 1.1 0.6]
+[charaMove G 0,17 0.6]
+[wt 0.4]
+[seStop ad95 0.2]
+[wt 0.3]
+
+[cueSe SE_23 23_ad1308]
+[charaDepth S 9]
+[charaPut S 1]
+[charaEffect S bit_talk_ether_light01]
+[wt 0.2]
+
+[charaFace G 24]
+[charaShake G 0.02 2 3 0.5]
+[wt 1.5]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠希翁
+你的位置在那边。[r]我倒是不介意用灵线神经强制你移动过去哦。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaScale G 1.0]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠迦摩
+……[r]……
+[k]
+
+＠迦摩
+好啦好啦，知道啦。
+[k]
+
+[charaFace G 6]
+＠迦摩
+哼～。只是陪睡而已，有什么关系嘛。[r]而且那样更方便护卫。
+[k]
+
+＠迦摩
+受不了，真碍事……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_2 2.0]
+
+[charaTalk H]
+[charaFace H 8]
+[charaFadein H 0.1 1]
+＠希翁
+……[r]……
+[k]
+
+
+[charaTalk depthOff]
+[charaDepth R 4]
+[charaDepth H 5]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+＠希翁
+（果然……感觉有什么[#不太对劲]。）
+[k]
+
+＠希翁
+（迦摩。她真的是[r]　[#原本就在迦勒底的迦摩]吗……？）
+[k]
+
+
+
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

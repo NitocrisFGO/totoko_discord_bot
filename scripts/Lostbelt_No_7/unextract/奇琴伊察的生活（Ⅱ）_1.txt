@@ -1,0 +1,2012 @@
+
+＄03-00-13-12-1-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098255100 1 戈尔德鲁夫]
+[charaSet B 1098253600 1 恐龙王]
+[charaSet C 1098253300 1 神官乌库伯]
+[charaSet D 1098253300 1 神官乌库伯_演出用]
+[charaSet E 1098252410 1 库库尔坎]
+[charaSet F 1098254800 1 水兵A]
+[charaSet G 1098254800 1 水兵B]
+[charaSet H 1098254800 1 水兵C]
+[charaSet I 1098257100 1 玉藻前]
+[charaSet J 98001000 1 玛修]
+[charaSet K 1098257300 1 达·芬奇]
+[charaSet L 1098253200 1 U－奥尔加玛丽]
+[charaSet M 1098257500 1 拉斯普京]
+[charaSet N 1098252940 1 特佩乌]
+
+[sceneSet O 169600 1]
+[sceneSet P 169600 1]
+[sceneSet Q 169600 1]
+
+[charaScale O 1.4]
+[charaScale P 1.4]
+[charaScale Q 1.2]
+
+[sceneSet R 10000 1]
+[charaScale R 1.01]
+
+[masterSet S 1098259420 1098259430 1]
+
+[subCameraOn]
+
+[subRenderScale 1.1]
+
+[subCameraFilter maskEdge cut359_mask13 3 0,85,46,255]
+
+[charaLayer Q sub]
+[charaLayer D sub]
+
+[charaScale D 1.3]
+[charaFace D 0]
+[charaFadein D 0.1 -150,310]
+[charaFadein Q 0.1 160,-100]
+
+[scene 170300]
+
+[fadein black 1.0]
+[wait fade]
+[wt 1.0]
+
+
+[scene 170302 1.0]
+[wt 2.0]
+
+[scene 170301 1.0]
+[wt 2.0]
+
+[scene 170300 1.0]
+[wt 2.0]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[scene 169500]
+[wt 1.0]
+
+[bgm BGM_MAP_41 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 1.5]
+
+
+
+[scene 169600 1.5]
+[wt 2.5]
+
+[charaScale A 1.1]
+[charaScale B 1.1]
+[charaScale S 1.1]
+[charaScale C 1.3]
+[charaScale D 1.3]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth B 7]
+[charaDepth C 6]
+[charaDepth P 5]
+[charaDepth A 4]
+[charaDepth S 3]
+[charaDepth O 2]
+[charaDepth E 1]
+
+[charaFace S 0]
+[charaFace A 0]
+[charaFadein S 0.7 -120,0]
+[charaFadein A 0.7 420,0]
+[charaFadein O 0.7 -130,-220]
+
+[charaMove A 370,0 1.0]
+[charaMove S -170,0 1.0]
+[charaMove O -180,-220 1.0]
+[wt 2.5]
+
+[charaFace B 0]
+[charaFace C 4]
+[charaFadein B 0.7 120,-30]
+[charaFadein C 0.7 -320,130]
+[charaFadein P 0.7 130,-220]
+
+[charaMove B 170,-30 1.0]
+[charaMove C -270,130 1.0]
+[charaMove P 180,-220 1.0]
+[wt 1.2]
+
+[charaFadeout A 0.1]
+[charaFadeout S 0.1]
+[charaFadeout O 0.1]
+[wt 1.3]
+
+[charaFadeout B 0.7]
+[charaFadeout C 0.7]
+[charaFadeout P 0.7]
+[wt 1.2]
+
+[charaTalk on]
+[charaTalk depthOn]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.4 1]
+[wt 0.4]
+
+＠库库尔坎
+欢迎光临，迦勒底的各位！[r]奇琴伊察欢迎大家的到来～！
+[k]
+
+＠库库尔坎
+我知道你们不会出于自私自利的理由[r]加害我们米克特兰的生命。
+[k]
+
+[charaFace E 11]
+
+＠库库尔坎
+为什么我会知道？[r]那当然是因为我由始至终都在听着。
+[k]
+
+[charaFace E 0]
+
+＠库库尔坎
+他们并非外敌。我将以[#太阳的教诲:库库尔坎]的名义[r]通告全体迪诺斯，今后要将他们当作朋友接待。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaScale B 1.0]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠恐龙王
+就是这样。[r]又强行塞了件无谓的负担给我。
+[k]
+
+[charaFaceFade B 0 0.2]
+
+＠恐龙王
+乌库伯。去颁布命令，[r]允许与迦勒底谈论泛人类史。
+[k]
+
+＠恐龙王
+就说迦勒底不同于奥塞洛特尔，[r]是亲近[#恐龙人:迪诺斯]的友好种族。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaScale C 1.0]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠神官乌库伯
+……就，就算您这么说，[r]可那些人怎样看都是奥塞洛特尔。
+[k]
+
+[charaFace C 0]
+
+＠神官乌库伯
+不，是比奥塞洛特尔还要糟糕。
+[k]
+
+＠神官乌库伯
+他们与那个让邪恶文化植根于米克特兰的[r][#隐匿者:Crypter]是同一种族吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠库库尔坎
+没错。与隐匿者是同一生物。[r]知道很～多不好的[#文明:事]。
+[k]
+
+＠库库尔坎
+不过，墨西哥城享有异文化的恩惠，[r]而奇琴伊察却没有，未免太不公平了吧？
+[k]
+
+＠库库尔坎
+各位迪诺斯也趁此机会学习一下吧。[r]不光是好的[#生态:方面]，也要学习坏的[#生态:方面]。
+[k]
+
+[charaFace E 6]
+
+＠库库尔坎
+没关系啦，乌库伯。迪诺斯很聪明。[r]而且事到如今物种方向性也不会改变了。
+[k]
+
+＠库库尔坎
+他们的价值观终究只是调味料。[r]就当是继玉米之后的新鲜刺激吧？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth D 3]
+[charaDepth Q 2]
+[charaDepth C 1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠神官乌库伯
+……我知道了。[r]一切遵照[#太阳的教诲:库库尔坎]的吩咐。
+[k]
+
+
+[messageOff]
+[cueSe SE_22 22_ad1208]
+[seVolume 22_ad1208 0 0.5]
+[cueSeStop 22_ad1208 1.5]
+[charaMove C -80,0 1.0]
+[charaFadeout C 0.7]
+[wt 1.4]
+
+[subRenderFadeinFSR 0.4 -150,-300]
+[subRenderMove 0,-300 0.4]
+[wt 1.0]
+
+[charaFaceFade D 4 0.2]
+
+＠神官乌库伯
+[line 6]嘁。
+[k]
+
+[messageOff]
+[subRenderFadeout 0.4]
+[cueSe SE_22 22_ad1208]
+[seVolume 22_ad1208 0 0.5]
+[cueSeStop 22_ad1208 1.5]
+[wt 1.0]
+
+？1：（离开时恶狠狠地瞪了我们一眼……）
+？2：（好强的敌意与厌恶感……）
+
+？！
+
+[subCameraOff]
+
+[charaScale A 1.0]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+啊～，咳咳！[r]那么，我方可以发言了吗！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠恐龙王
+嗯，你就是迦勒底的代表吧。[r]可以啊，长话短说。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+唔，唔嗯。[r]首先要感谢各位愿意接纳我们。
+[k]
+
+＠戈尔德鲁夫
+泛人类史与异闻带，二者本是水火不容的关系，[r]但现在为打倒共同的敌人特斯卡特利波卡[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+[bgmStop BGM_MAP_41 1.5]
+
+＠恐龙王
+不用特地找这些由头了，[r]客套话也免了，我说过要长话短说吧。
+[k]
+
+＠恐龙王
+无论有没有奥塞洛特尔这层原因，[r]我们都不会把泛人类史视作敌人。
+[k]
+
+[bgm BGM_EVENT_39 0.1]
+
+＠恐龙王
+那个一天到晚给人添麻烦的女人都说你们是朋友了。[r]对迪诺斯而言，有这句话就够了。
+[k]
+
+[charaFaceFade B 2 0.2]
+
+＠恐龙王
+然后呢，你们需要什么？
+[k]
+
+＠恐龙王
+我也从这里看到了，真是惨不忍睹。[r]很抱歉咱们的[#库库尔坎:神明]完全是头大猩猩。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+[wt 1.0]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠恐龙王
+看那情形，里面的船员免不了出现伤员吧。[r]这里有专门制造给[#人类:我]用的医疗器具。
+[k]
+
+＠恐龙王
+有多少就给你们多少。[r]如果还不够，就让神官们增产。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+真，真的吗？[r]不，听你这么一说，你也是人类啊……
+[k]
+
+＠戈尔德鲁夫
+归根结底，你和特斯卡特利波卡[r]究竟是什么关系？
+[k]
+
+＠戈尔德鲁夫
+墨西哥城的特斯卡特利波卡，[r]和身为恐龙王的特斯卡特利波卡。
+[k]
+
+＠戈尔德鲁夫
+两者看上去都像是我们泛人类史[r]这边的特斯卡特利波卡……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠恐龙王
+不必在意这点。我和那家伙都是特斯卡特利波卡，[r]但这不代表我们的关系良好。
+[k]
+
+＠恐龙王
+神拥有多个侧面，[r]这些侧面都单独存在而已。
+[k]
+
+＠恐龙王
+既然你也是魔术师，应该能明白吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_39 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth A 6]
+[charaDepth R 4]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+[charaTalk A]
+[charaFace A 16]
+[charaFadein A 0.1 1]
+＠戈尔德鲁夫
+（……也就是说，是不同于戴比特所召唤的[r]　特斯卡特利波卡的，落单从者吗？）
+[k]
+
+＠戈尔德鲁夫
+（相传特斯卡特利波卡神拥有多种神格。[r]　要说他是其中之一，倒也能够理解……）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout R 0.2]
+[wt 0.1]
+
+[bgm BGM_EVENT_39 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠恐龙王
+还有其他需要吗？[r]你们能修好那艘舰艇吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 17]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+噢，噢噢，当然可以！[r]只是人手和材料都不够！　你这里有吗！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+＠恐龙王
+呵，看上去相当想要呢！[r]肚子里那点算盘完全不打算藏吗！
+[k]
+
+＠恐龙王
+身为一军的司令官，[r]别这样喜形于色地扑向眼前的大餐啊！
+[k]
+
+[charaFaceFade B 6 0.2]
+＠恐龙王
+不过也罢，我并不讨厌这种拼命的样子。[r]尤其是像你这种不够老实坦率的家伙。
+[k]
+
+
+＠恐龙王
+特佩乌在你们那边吧？[r]以那家伙为对接人，借你们几个迪诺斯吧。
+[k]
+
+＠恐龙王
+材料的筹措也委托给迪诺斯吧，[r]让他们来能快好几倍完工。
+[k]
+
+＠恐龙王
+站在[#泛人类史:你们]的角度看，[r]米克特兰就是一座资源的宝山。没什么是弄不到手的。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+唔。[r]是，是吗。谢谢你，恐龙王。
+[k]
+
+
+[charaFace A 15]
+[bgmStop BGM_EVENT_39 1.5]
+
+＠戈尔德鲁夫
+……那么，我们该支付多少代价？[r]你该不会……要我们献上一个活祭吧？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+[wt 1.5]
+
+[bgm BGM_EVENT_161 0.1]
+
+[charaFace E 2]
+[charaMoveReturn E 0,5 0.3]
+[wt 1.0]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+[wt 1.0]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth A 2]
+[charaDepth R 1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+[charaShake A 0.02 2 2 0.6]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+＠戈尔德鲁夫
+（不知为何爆笑起来了！　难道意味着我说中了吗！？[r]　文化差异太大，完全不明白～～！）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout R 0.2]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠库库尔坎
+怎么办，国王陛下？[r]机会难得，干脆收下活祭吧～？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠恐龙王
+怎么，去了趟墨西哥城变成肉食性了吗？
+[k]
+
+＠恐龙王
+行啊，肝脏腥归腥，但很好吃。[r]我是生吃派，但新手务必烤熟了再吃哦。
+[k]
+
+＠恐龙王
+不然万一吃完拉肚子，可就要成为米克特兰的传说了。
+[k]
+
+＠恐龙王
+贵为[#太阳的教诲:库库尔坎]，[r]竟然粗俗到蹲进厕所就不出来了。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth E 2]
+[charaDepth I 1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠库库尔坎
+我不会吃，所以也不会蹲进去不出来～！[r]太阳是躲不起来的哟～！
+[k]
+
+＠库库尔坎
+好比基于个人原因躲进岩洞的太阳什么的，[r]我认为并不存在这种神明哟～！
+[k]
+
+？1：（点头表示确实如此）
+？2：不……那个……
+
+
+[messageOff]
+[charaTalk I,E]
+[charaFace I 1]
+[charaPut I -350,0]
+[charaFadeTime I 0.4 0.7]
+[wt 1.6]
+
+[charaFadeout I 0.4]
+[wt 0.4]
+
+？！
+
+[charaTalk depthOn]
+[charaFace E 11]
+
+＠库库尔坎
+难得你有此提议，[r]不过我们不需要活祭，戈尔德鲁夫先生。
+[k]
+
+＠库库尔坎
+这并非交易，[r]而是生活在米克特兰之人理当提供的帮助。
+[k]
+
+[charaFace E 0]
+
+＠库库尔坎
+只要在迪诺斯的能力范围之内，[r]请不必客气，尽管拜托他们吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠恐龙王
+嗯。要说你们有什么能向我们展现的诚意，
+[k]
+
+＠恐龙王
+那就是争分夺秒地修好舰艇，[r]然后离开奇琴伊察。
+[k]
+
+＠恐龙王
+想与[#隐匿者:Crypter]交战还是另寻别处吧。[r]要是让这座都市沦为战场，善后处理会很麻烦。
+[k]
+
+[charaFaceFade B 0 0.2]
+
+＠恐龙王
+谈话到此结束了吧？[r]招呼都打完了，赶紧回同伴身边吧。
+[k]
+
+＠恐龙王
+我不会浪费时间。[r]尽可能给我留下有意义的记忆。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 11]
+[charaFadein E 0.1 1]
+
+＠库库尔坎
+国王陛下很认真呢！[r]那么，[#太阳遍历:这边]就拜托你啦～。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠恐龙王
+……你要跟迦勒底一起走吗……[r]也罢，随你的便。
+[k]
+
+＠恐龙王
+你留在这也改变不了我的辛苦。[r]你走了至少不用被你碍事。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠库库尔坎
+好，国王陛下公认啦～☆
+[k]
+
+[charaFace E 11]
+＠库库尔坎
+我们回潜航艇停泊的森林吧，[r]戈尔德鲁夫先生、[%1][&先生:小姐]。
+[k]
+
+＠库库尔坎
+玛修小姐、总统小姐、卡多克先生、[r]达·芬奇小姐、希翁小姐……
+[k]
+
+＠库库尔坎
+除此以外还有数名从者吧？[r]没想到能与他们直接对话，我现在就很期待了！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_161 1.5]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[charaFadeout D 0.1]
+[charaFadeout Q 0.1]
+[charaLayer D normal]
+[charaLayer Q normal]
+
+[subCameraOff]
+
+[charaSet B 1098255200 1 哈贝特洛特]
+[charaSet C 1098257400 1 希翁]
+[charaSet D 1098239310 1 卡多克]
+[charaSet I 1098254110 1 高扬斯卡娅]
+[sceneSet O 173500 1]
+[sceneSet P 173500 1]
+[sceneSet Q 173500 1]
+
+[charaScale B 0.9]
+[charaScale F 0.9]
+[charaScale G 0.9]
+[charaScale H 0.9]
+[charaScale C 0.9]
+[charaScale D 0.9]
+[charaScale I 0.9]
+
+[charaScale O 1.1]
+[charaScale P 1.1]
+[charaScale Q 1.2]
+
+[scene 173500]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth Q 9]
+[charaDepth C 8]
+[charaDepth I 7]
+[charaDepth P 6]
+[charaDepth H 5]
+[charaDepth B 4]
+[charaDepth F 3]
+[charaDepth G 2]
+[charaDepth O 1]
+
+[charaFadein Q 0.1 60,-220]
+
+[charaFace F 5]
+[charaFadein F 0.1 -250,-60]
+[charaFadein O 0.1 60,-220]
+
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_62 0.1]
+[charaMove Q -100,-220 10.0]
+[wait fade]
+[wt 4.0]
+
+[cueSe SE_22 22_ad1156]
+[se ade318]
+[charaFadeout Q 0.7]
+[wt 0.5]
+[se ad517]
+
+
+[charaMove F -250,-70 0.4]
+[wait charaMove F]
+[charaMoveReturn F -255,-70 0.3]
+[wait charaMove F]
+[charaMoveReturn F -245,-70 0.3]
+[wait charaMove F]
+
+[charaDepth D 9]
+
+[charaFace G 6]
+[charaFadein G 0.4 -50,-60]
+[charaMove G 300,-60 2.0]
+
+[charaMove F -250,-60 0.6]
+[wait charaMove F]
+[charaMove F -400,-60 1.0]
+[charaFadeout F 0.7]
+
+[wt 1.0]
+[charaFadeout G 0.7]
+
+[charaFace H 6]
+[charaFadein H 0.4 -140,-60]
+[charaMove H -170,-60 0.4]
+[charaFace B 2]
+[charaFadein B 0.4 230,-60]
+[charaMove B 200,-60 0.4]
+[wt 0.6]
+
+[se ad516]
+[se ade129]
+[se ad1003]
+
+[charaFace B 4]
+[charaMoveReturn B 200,-55 0.3]
+[wait charaMove B]
+[wt 0.5]
+[charaFace H 11]
+[charaMoveReturn H -170,-55 0.3]
+[wt 1.0]
+
+[charaFace B 9]
+[charaFace H 2]
+[charaMove H -290,-60 1.0]
+[charaMove B 80,-60 1.0]
+
+[charaFadeout H 0.7]
+[charaFadeout B 0.7]
+[charaFadeout O 0.7]
+[wt 0.4]
+
+[charaFace C 9]
+[charaFadein C 0.7 30,-60]
+[charaFace D 0]
+[charaFadein D 0.7 350,-60]
+[charaFadein P 0.7 -60,-220]
+
+[charaFace C 10]
+[charaMoveReturn C 30,-65 0.4]
+[wt 0.8]
+
+[charaFace D 1]
+[charaMoveReturn D 350,-65 0.4]
+[wt 1.0]
+
+[charaFace I 0]
+[charaFadein I 0.4 -350,-60]
+[charaMove I -320,-60 0.4]
+[wt 0.6]
+
+[charaFace I 18]
+[charaMoveReturn I -320,-65 0.5]
+[wt 1.0]
+
+[charaMoveReturn C 30,-55 0.4]
+[charaCrossFade C 1098257410 16 0.4]
+[wait charaCrossFade C]
+[wt 0.6]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.8 1.0]
+[bgm BGM_EVENT_62 0.8 0.4]
+[wait wipe]
+
+[charaFadeout D 0.1]
+[charaFadeout I 0.1]
+[charaFadeout C 0.1]
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+[wt 0.1]
+
+[charaSet B 1098253500 1 恐爪龙十一兄弟·老大]
+[charaSet C 1098253510 1 恐爪龙十一兄弟·老二]
+[charaSet D 1098253500 1 恐爪龙十一兄弟·老三]
+[charaSet F 5009000 1 特效用1]
+[charaSet G 5009000 1 特效用2]
+[charaSet H 5009000 1 特效用3]
+
+[charaScale B 1.0]
+[charaScale C 1.0]
+[charaScale D 1.0]
+[charaScale R 1.01]
+[charaScale O 1.1]
+
+[subCameraOn 1]
+
+[charaLayer L sub #A]
+[charaLayer O sub #A]
+[charaLayer M sub #A]
+
+[charaDepth M 4]
+[charaDepth L 2]
+[charaDepth O 1]
+
+[subCameraFilter #A maskEdge cut359_mask07 4 255,180,0,255]
+
+[subRenderDepth #A 2]
+
+[subRenderScale #A 1.1]
+
+[charaScale L 0.9]
+[charaScale M 0.9]
+[charaScale O 1.1]
+
+[charaFace L 18]
+[charaFadein L 0.1 -125,225]
+[charaFadein O 0.1 120,75]
+
+[charaFace M 0]
+[charaFadein M 0.1 155,225]
+
+[charaTalk on]
+[wt 0.1]
+
+[wipein rectangleStripLeftToRight 0.8 1.0]
+[bgm BGM_EVENT_62 0.8 1.0]
+[se ade491]
+[seVolume ade491 0 0.3]
+[seVolume ade491 1.0 1.0]
+[wait wipe]
+[seStop ade491 0.4]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 0.4 1]
+[wt 0.4]
+
+＠玛修
+两位都回来了啊。[r]与恐龙王先生的会见情况如何？
+[k]
+
+？1：很顺利哦。
+？2：他允许我们留在这里，还保证会援助修理工作。
+
+？！
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠达·芬奇
+这真是个好消息。[r]我们也总算能安顿下来了。
+[k]
+
+[bgmStop BGM_EVENT_62 2.0]
+
+[charaFace K 9]
+
+＠达·芬奇
+话虽如此，要做的事还堆积如山。
+[k]
+
+＠达·芬奇
+我已阅览了[%1]你们[r]迄今为止的[#行动记录:报告]了，
+[k]
+
+[bgm BGM_EVENT_141 0.1]
+
+＠达·芬奇
+地底世界……[r]米克特兰不可思议的地方太多了。
+[k]
+
+＠达·芬奇
+称得上该异闻带人类的[#恐龙人:迪诺斯]，[r]他们所信仰的米克特兰唯一的神，库库尔坎。
+[k]
+
+＠达·芬奇
+以及前来袭击Storm Border的[r]特斯卡特利波卡神。
+[k]
+
+＠达·芬奇
+虽然奇琴伊察之王的恐龙王[r]也自称特斯卡特利波卡，
+[k]
+
+＠达·芬奇
+不过这点还是暂且搁置好了。
+[k]
+
+＠达·芬奇
+虽然他无疑也是特斯卡特利波卡，[r]但能够确定他并非我们的敌人吧。
+[k]
+
+＠达·芬奇
+问题在于[#隐匿者:Crypter]戴比特，[r]及其从者特斯卡特利波卡。
+[k]
+
+＠达·芬奇
+信仰这两人所宣扬的阿兹特克神话的奥塞洛特尔，[r]以及他们的都市墨西哥城。
+[k]
+
+＠达·芬奇
+还有会在不久的将来现身于那里的ORT，[r]加上Storm Border的修理及……
+[k]
+
+[messageOff]
+[bgm BGM_EVENT_141 2.0 0.5]
+
+[charaTalk K]
+[cameraMove 2.0 80,-10 1.3]
+[charaMove K 50,0 1.2]
+[charaFadeout K 1.0]
+[wt 2.0]
+
+[charaTalk M,L]
+
+[subRenderFadein #A 0.6 0,-320]
+
+[wt 1.4]
+
+＠U－奥尔加玛丽
+…………
+[k]
+
+＠拉斯普京
+怎么了，大小姐。[r]一脸世间万物都无聊透顶的表情。
+[k]
+
+＠拉斯普京
+[%1]与戈尔德鲁夫司令官[r]从祭坛那边返回了。
+[k]
+
+＠拉斯普京
+身为优秀的统治者，[r]难道不该送上一句慰劳的话语吗？
+[k]
+
+[charaFace L 16]
+
+＠U－奥尔加玛丽
+我知道，稍后再说也可以吧。[r]反正他们看起来也没受伤。
+[k]
+
+[charaFace M 3]
+
+＠拉斯普京
+……那面向迦勒底工作人员发表的[r]总统宣言呢？
+[k]
+
+＠拉斯普京
+您之前分明还那么期待与迦勒底会合。[r]隔得远远地观望可不像大小姐的作风哦。
+[k]
+
+[charaFace M 5]
+
+＠拉斯普京
+还是说您的心境发生了什么变化吗？[r]比方说[line 3]
+[k]
+
+＠拉斯普京
+您已明确地回想起了自己是什么人。
+[k]
+
+[messageOff]
+[charaTalk L]
+[charaFace L 10]
+[wt 1.0]
+
+[charaFace L 15]
+
+＠U－奥尔加玛丽
+[messageShake 0.05 3 3 0.4]
+就，就算回想起来了又怎样！？
+[k]
+
+＠U－奥尔加玛丽
+何况我自己的事情[r]连1AU都还没想起来！
+[k]
+
+[charaFace M 4]
+
+＠拉斯普京
+那真是遗憾。[r]可既然如此，您应该能无所顾虑地加入话题才对。
+[k]
+
+＠拉斯普京
+真的不需要进行[#选举演说:自我宣传]吗？
+[k]
+
+＠拉斯普京
+大小姐唯一的存在意义[line 3]『最强战力』的地位[r]可是要被库库尔坎夺走了哦。
+[k]
+
+[charaFace L 25]
+
+＠U－奥尔加玛丽
+我又没在跟别人争这个。[r]你能稍微安静一会儿吗？
+[k]
+
+[messageOff]
+[bgm BGM_EVENT_141 0.6 1.0]
+
+[subRenderFadeout #A 0.6]
+[wt 0.6]
+
+[charaTalk K]
+[charaFace K 34]
+[charaFadein K 0.6 50,0]
+[charaMove K 0,0 1.4]
+
+[cameraHome 1.4]
+[wait camera]
+[wt 0.4]
+
+＠达·芬奇
+……那边的两位……[r]U－奥尔加玛丽和拉斯普京也是个问题。
+[k]
+
+[subCameraOff]
+
+[charaTalk depthOn]
+
+＠达·芬奇
+老实说，我不知道该如何应对他们。
+[k]
+
+[charaTalk depthOff]
+[charaDepth K 4]
+[charaDepth R 3]
+
+[bgm BGM_EVENT_141 0.5 0.5]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+＠达·芬奇
+（拉斯普京真心不可饶恕，[r]　但现在还是以大局为重吧……）
+[k]
+
+[charaFadeout R 0.2]
+[bgm BGM_EVENT_141 0.5 1.0]
+
+[charaTalk depthOn]
+[charaFace K 9]
+＠达·芬奇
+就算丧失了记忆，[r]U－奥尔加玛丽也无疑是『异星之神』。
+[k]
+
+＠达·芬奇
+最终，不，由始至终都明确是我们的敌人。
+[k]
+
+＠达·芬奇
+福尔摩斯不在的当下，[r]我兼任技术顾问与经营顾问。
+[k]
+
+＠达·芬奇
+不能轻易地将她作为『协助者』去信任……[r]不，是不能轻易将她视作战力。
+[k]
+
+＠达·芬奇
+哪怕她在此前一路上帮助过你们许多次，[r]还在墨西哥城营救了我们。
+[k]
+
+？1：你的意思是，虽然她算协助者，却并非同伴吗？
+？！
+
+[charaFace K 34]
+
+＠达·芬奇
+……嗯，把话说白了就是这么个意思。[r]其实我也很想倚靠她……
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth J 4]
+[charaDepth R 3]
+
+[bgm BGM_EVENT_141 0.5 0.5]
+
+[charaTalk J]
+[charaFace J 12]
+[charaFadein J 0.1 1]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+＠玛修
+……（毕竟保持怀疑、加以应对是[r]福尔摩斯先生一直以来的职责……）
+[k]
+
+[charaFadeout R 0.2]
+[bgm BGM_EVENT_141 0.5 1.0]
+
+[charaTalk depthOn]
+[charaFace J 0]
+＠玛修
+那么请问，[r]高扬斯卡娅小姐该如何看待呢？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠达·芬奇
+啊，她倒是没问题。[r]因为特里斯墨吉斯忒斯Ⅱ已断定，
+[k]
+
+＠达·芬奇
+高扬斯卡娅是明确站在迦勒底这边……[r]站在人理这边的从者了。
+[k]
+
+
+[charaFace K 23]
+
+＠达·芬奇
+总之，迦勒底工作人员由于[r]Storm Border[#被搬运时]的冲击……
+[k]
+
+＠达·芬奇
+或者说由于剧烈的上下震动，导致全员身体不适，[r]都在潜航艇内休息。
+[k]
+
+＠达·芬奇
+包括穆尼尔在内。幸亏如此，[r]目前尚未表决该如何应对U－奥尔加玛丽。
+[k]
+
+＠达·芬奇
+等各位工作人员晕船的症状缓解后，[r]我再向他们说明现状。
+[k]
+
+＠达·芬奇
+在此前提下，哪怕只有一人提出『无法接受她』，[r]我也会尊重那个人的意见。
+[k]
+
+＠达·芬奇
+这样可以吗，两位？
+[k]
+
+？1：…………
+？2：…………嗯。
+
+？！
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 8]
+[charaFadein J 0.1 1]
+
+＠玛修
+…………我知道了。
+[k]
+
+＠玛修
+既然不是少数服从多数，而是尊重每一票，[r]那我没有异议。
+[k]
+
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+[wt 1.2]
+
+[charaFace A 1]
+
+＠戈尔德鲁夫
+既然你们觉得这样可以，[r]那我也没有异议。
+[k]
+
+＠戈尔德鲁夫
+无论那位地球总统是什么人，[r]她都长着与奥尔加玛丽那家伙同样的外貌。
+[k]
+
+＠戈尔德鲁夫
+我无从揣测自菲尼斯·迦勒底时代起[r]就与她有关的工作人员的心情如何。
+[k]
+
+＠戈尔德鲁夫
+因此以司令官权限下令『别纠结了，能用的人都用上』[r]『现在人手短缺到顾不上了』才是下下之策吧。
+[k]
+
+＠戈尔德鲁夫
+要是以穆尼尔为首的潜航艇工作人员[r]不认可U－奥尔加玛丽，
+[k]
+
+＠戈尔德鲁夫
+我也无话可说。[r]话虽如此……
+[k]
+
+[charaFace A 2]
+
+＠戈尔德鲁夫
+穆尼尔、托玛琳、奥克塔维娅、陈、[r]卡扬、艾尔隆、川田、马库斯！
+[k]
+
+＠戈尔德鲁夫
+他们也是久经沙场的迦勒底精锐！
+[k]
+
+＠戈尔德鲁夫
+事到如今，区区一两个幕后黑手，[r]他们肯定也能表情抽搐着欣然接受的啦！
+[k]
+
+？1：[line 3]新所长。
+？2：就是说嘛！
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk J]
+[charaFace J 26]
+[charaFadein J 0.1 1]
+[wt 1.4]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 11]
+[charaFadein E 0.1 1]
+[wt 1.4]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_141 1.5]
+
+[charaTalk N]
+[charaFace N 4]
+[charaFadein N 0.6 30,0]
+[charaMove N 0,0 0.6]
+[wt 1.0]
+
+＠特佩乌
+事情都谈妥了吗？
+[k]
+
+[messageOff]
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 25]
+[charaFadein K 0.1 1]
+[wt 1.2]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk N]
+[charaFace N 0]
+[charaFadein N 0.1 1]
+
+＠特佩乌
+对不起，我看各位好像在人际关系上[r]存在些许问题，才一直保持旁观，
+[k]
+
+＠特佩乌
+但我身后的他们快要闹起来了，[r]我才出声打岔。
+[k]
+
+[charaCrossFade N 1098252900 2 0.3]
+
+＠特佩乌
+迦勒底的各位，大家好。[r]看情况，您就是达·芬奇吧？[wait charaCrossFade N]
+[k]
+
+＠特佩乌
+我是特佩乌，[r]是在第一层遇见了玛修和[%1]，
+[k]
+
+＠特佩乌
+并一路同行至此的迪诺斯。[r]而我身后的他们[line 2]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_147 1.0]
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+[wait wipe]
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaFadeout M 0.1]
+[charaFadeout L 0.1]
+[charaFadeout O 0.1]
+[charaLayer M normal]
+[charaLayer L normal]
+[charaLayer O normal]
+
+[charaSet K 1098257600 1 达·芬奇]
+
+[subCameraOn 3]
+
+[charaLayer F sub #A]
+[charaLayer B sub #A]
+[charaLayer G sub #B]
+[charaLayer D sub #B]
+[charaLayer H sub #C]
+[charaLayer C sub #C]
+
+[charaPut F 2500,2500]
+[charaPut G 2500,2500]
+[charaPut H 2500,2500]
+[charaEffect F bit_talk_back_splash_bl]
+[charaEffect G bit_talk_back_splash_re]
+[charaEffect H bit_talk_back_splash_gr]
+[charaRoll G 180 0,0]
+[charaRoll H 270 0,0]
+
+[charaTalk depthOff]
+[charaDepth F 1]
+[charaDepth G 2]
+[charaDepth H 3]
+[charaDepth B 4]
+[charaDepth C 5]
+[charaDepth D 6]
+
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+[subRenderDepth #C 3]
+
+[subCameraFilter #A maskEdge cut359_mask06 3]
+[subCameraRoll #A 22 0,0]
+[subCameraFilter #B maskEdge cut359_mask06 3]
+[subCameraRoll #B 340 0,0]
+[subCameraFilter #C maskEdge cut359_mask05 3]
+
+[subRenderScale #A 1.1]
+[subRenderScale #B 1.1]
+[subRenderScale #C 1.0]
+
+[charaPut F 0,200]
+[charaFace B 0]
+[charaFadein B 0.1 310,250]
+
+[charaPut G 0,-200]
+[charaFace D 0]
+[charaFadein D 0.1 0,225]
+
+[charaPut H 200,0]
+[charaFace C 0]
+[charaFadein C 0.1 -80,220]
+[wt 0.1]
+
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[wait wipe]
+
+[bgm BGM_EVENT_160 0.1]
+
+[se ad326]
+[seVolume ad326 0 0.6]
+[charaTalk B]
+[charaMove B 480,250 0.5]
+[subRenderFadein #A 0.1 0,-400]
+[wt 1.0]
+
+＠恐爪龙十一兄弟·老大
+没错，我们就是！
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[se ad326]
+[seVolume ad326 0 0.6]
+[charaTalk C]
+[charaMove C -80,50 0.5]
+[subRenderFadein #C 0.1 0,-150]
+
+[wt 1.0]
+
+＠恐爪龙十一兄弟·老二
+可靠的劳动力！
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[se ad325]
+[seVolume ad325 0 0.6]
+[charaTalk D]
+[charaMove D -175,225 0.5]
+[subRenderFadein #B 0.1 0,-405]
+[wt 1.0]
+
+＠恐爪龙十一兄弟·老三
+恐爪龙十一兄弟！
+[k]
+
+[messageOff]
+[charaTalk B,C,D]
+[se ade346]
+[seVolume ade346 0 0.8]
+[flashin once 0.1 0.3 FFFFFFFF FFFFFF00]
+[fowardEffect bit_talk_thunder_04]
+[wt 1.5]
+[seStop ade346 1.0]
+[wt 1.0]
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[subRenderFadeout #C 0.1]
+[wt 0.1]
+
+[charaRoll G 0 0,0]
+[charaRoll H 0 0,0]
+[charaPut F 2500,2500]
+[charaPut G 2500,2500]
+[charaPut H 2500,2500]
+[charaEffectDestroy F bit_talk_back_splash_bl]
+[charaEffectDestroy G bit_talk_back_splash_re]
+[charaEffectDestroy H bit_talk_back_splash_gr]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[subCameraOff]
+
+[charaLayer B normal]
+[charaLayer C normal]
+[charaLayer D normal]
+[charaLayer F normal]
+[charaLayer G normal]
+[charaLayer H normal]
+[wt 0.1]
+
+
+[charaDepth B 3]
+[charaDepth F 4]
+[charaDepth C 5]
+[charaDepth G 6]
+[charaDepth D 1]
+[charaDepth H 2]
+
+[charaTalk B,C,D]
+[charaFace B 0]
+[charaFace C 0]
+[charaFace D 0]
+
+[se ad223]
+[charaPut B 450,0]
+[charaPut F 450,0]
+[charaPut C -80,0]
+[charaPut G -80,0]
+[charaPutFSL D -200,0]
+[charaPutFSL H -200,0]
+[charaEffect F bit_talk_quickmove]
+[charaEffect G bit_talk_quickmove]
+[charaEffect H bit_talk_quickmove]
+[charaSpecialEffect B appearance 1 0.25]
+[charaSpecialEffect C appearance 1 0.25]
+[charaSpecialEffect D appearance 1 0.25]
+[wt 1.4]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 0.1 1]
+
+＠玛修
+死亡翻滚队的各位！[r]难道说大家正在跑步锻炼吗！？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth B 2]
+[charaDepth C 3]
+[charaDepth D 1]
+
+[charaTalk D]
+[charaFace B 0]
+[charaFace C 0]
+[charaFace D 0]
+
+[charaFadein B 0.1 450,0]
+[charaFadein C 0.1 -80,0]
+[charaFadeinFSL D 0.1 -200,0]
+
+＠D：恐爪龙十一兄弟
+不，猜错啦。[r]玛修大姐头，现在不用练习蹴球。
+[k]
+
+[clear]
+[charaTalk C]
+
+＠C：恐爪龙十一兄弟
+我们是被特佩乌大师挑中[r]前来修理迦勒底舰艇的哦。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk J]
+[charaFace J 3]
+[charaFadein J 0.1 1]
+
+＠玛修
+是，是这样吗。[r]非常感谢。
+[k]
+
+？1：很高兴能再见到你们。
+？2：有你们帮忙我就放心了。
+
+？！
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth B 2]
+[charaDepth C 3]
+[charaDepth D 1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFace C 0]
+[charaFace D 0]
+
+[charaFadein B 0.1 450,0]
+[charaFadein C 0.1 -80,0]
+[charaFadeinFSL D 0.1 -200,0]
+
+＠B：恐爪龙十一兄弟
+嘿嘿，是吧～？　老实说，我还没拿过[r]比球更重的东西，不过总会有办法的！
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk N]
+[charaFace N 0]
+[charaFadein N 0.1 1]
+
+＠特佩乌
+是的，我会想办法（监督）的。
+[k]
+
+[charaFace N 2]
+
+＠特佩乌
+恐爪龙兄弟们的脚程很快。[r]我会让他们负责筹措与搬运物资。
+[k]
+
+＠特佩乌
+修理所需的材料由我们来准备，[r]达·芬奇你们可以无所顾虑地专心修理[line 3]
+[k]
+
+[bgmStop BGM_EVENT_160 1.0]
+
+[charaFace N 0]
+
+＠特佩乌
+请问？　难道是日照不足吗？
+[k]
+
+[messageOff]
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 38]
+[charaFadein K 0.4 1]
+[wt 1.0]
+
+＠达·芬奇
+[line 3]
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+怎么了，技术经营顾问？[r]眼神……死掉了……吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 38]
+[charaFadein K 0.1 1]
+[se ad60]
+[seStop ad60 0.8]
+[charaMove K 0,5 1.0]
+[charaMoveScale K 1.05 1.0]
+
+＠达·芬奇
+[f small][line 3]龙。[wt 1.6][se ad60][seStop ad60 0.8][charaMove K 0,10 1.0][charaMoveScale K 1.1 1.0][r][f small][line 3]龙，[line 3]恐龙[line 3]
+[k]
+
+[wait charaMove K]
+
+[bgm BGM_MIZUGI_2017 0.1]
+
+[charaFace K 37]
+
+＠达·芬奇
+呜哇～是恐龙[line 4]！[r]是真的，是爆炸，是艺术[line 4]！
+[k]
+
+[charaFace K 1]
+
+＠达·芬奇
+这是什么这是什么原来迪诺斯真的是恐龙[line 2]！[r]好厉害，好厉害[line 4]！　好想摸摸看[line 2]！
+[k]
+
+[messageOff]
+[se adm21]
+[effect bit_talk_41_fs]
+[charaMove K 0,30 0.3]
+[charaMoveScale K 1.2 0.3]
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaFadeout K 0.1]
+
+[cueSe Servants_403500 bac1241]
+[wt 0.6]
+
+[cueSe Servants_305300 m52322]
+[wt 0.6]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth B 2]
+[charaDepth C 3]
+[charaDepth D 1]
+[charaDepth K 4]
+[charaDepth R 5]
+[charaDepth F 6]
+
+[charaFace B 0]
+[charaFace C 0]
+[charaFace D 0]
+
+[charaFadein B 0.1 450,0]
+[charaFadein C 0.1 -80,0]
+[charaFadeinFSL D 0.1 -200,0]
+[wt 0.1]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+＠恐爪龙十一兄弟
+！！！？
+[k]
+
+[messageOff]
+[se ad75]
+[charaShake B 0.02 3 3 1.0]
+[charaShake C 0.02 3 3 1.0]
+[charaShake D 0.02 3 3 1.0]
+[wt 0.2]
+
+[cameraMove 1.0 0,-20 1.25]
+[wt 0.7]
+[seStop ad75 1.0]
+
+[se ad111]
+[cueSe SE_21 21_ade627]
+[seVolume 21_ade627 0 0.7]
+[seStop 21_ade627 2.2]
+[effect bit_talk_magical_pon 300,0]
+[effect bit_talk_magical_pon]
+[effect bit_talk_magical_pon -300,0]
+
+[effectDestroy bit_talk_41_fs]
+[charaFadein R 0.3 0,-200]
+
+[wt 1.0]
+
+[fadeout black 1.0]
+[bgmStop BGM_MIZUGI_2017 1.0]
+[wait fade]
+
+[cameraMove 0.1 0,0 1.0]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout K 0.1]
+[charaPut F 2000,2000]
+[charaFadeout F 0.1]
+[charaFadeout R 0.1]
+[wt 0.1]
+
+[charaSet K 1098257300 1 达·芬奇]
+
+[charaTalk on]
+[charaTalk K]
+[charaFace K 8]
+[charaFadein K 0.1 1]
+[wt 2.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.5]
+
+[bgm BGM_EVENT_77 0.1]
+
+＠达·芬奇
+真是非常抱歉。[r]我刚从睡眠中恢复过来，精神状态不太稳定呢。
+[k]
+
+＠达·芬奇
+我是迦勒底的技术人员，[r]莱昂纳多·达·芬奇。
+[k]
+
+＠达·芬奇
+你就是报告中提到的迪诺斯协助者，特佩乌吧。[r]今后也请多指教啦。
+[k]
+
+？1：（仿佛无事发生过的正经态度……）
+？2：（恐爪龙兄弟被摸到累趴下了……）
+
+？！
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk N]
+[charaFace N 0]
+[charaFadein N 0.1 1]
+
+＠特佩乌
+请多指教。[r]我们并不理解这艘舰艇的构造。
+[k]
+
+＠特佩乌
+只要你提出修理所需资源的需求，[r]我们就会立刻去收集。
+[k]
+
+[charaFace N 2]
+
+＠特佩乌
+另外，夜晚可以来我家借宿，[r]想在都市过夜的人请尽管说。
+[k]
+
+＠特佩乌
+我会尽自己所能款待各位[r]来自泛人类史的朋友。
+[k]
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 7]
+[charaFadein K 0.1 1]
+
+＠达·芬奇
+不会吧，太棒了！[r]我要去，我去定了～！　好想看看迪诺斯的城市～！
+[k]
+
+[charaFace K 36]
+
+＠达·芬奇
+啊，这当然是为了加深对异闻带的理解程度哦？[r]总得了解米克特兰的历史和文化才行嘛。
+[k]
+
+＠达·芬奇
+前提是不会给特佩乌添麻烦……
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk N]
+[charaFace N 2]
+[charaFadein N 0.1 1]
+
+＠特佩乌
+哪里哪里，请务必光临。
+[k]
+
+＠特佩乌
+毕竟能与泛人类史贤者交谈的机会[r]才算是个奇迹啊。
+[k]
+
+[charaFace N 0]
+
+＠特佩乌
+[line 3]对了。[r]在此之前要先做一件事。
+[k]
+
+＠特佩乌
+Storm Border的修理不会很快结束，[r]应该会经过好几个夜晚吧。
+[k]
+
+＠特佩乌
+因此先得保证安全才行。[r]必须驱逐这附近的食肉虫和野兽。
+[k]
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 16]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+嚯，食肉虫。光是听到就想收拾包袱走人的名称呢。[r]我凭直觉大致猜到了。
+[k]
+
+＠戈尔德鲁夫
+御主[%1]、[r]玛修·基列莱特。
+[k]
+
+＠戈尔德鲁夫
+你们两个想办法解决吧。[r]因为尼托克丽丝和尼莫尚未恢复正常状态。
+[k]
+
+？1：明白了！
+？2：（也得向U……不，现在还是别叫她为妙……）
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 13]
+[charaFadein J 0.1 1]
+
+＠玛修
+我们已经多次与食肉虫交过战了。[r]在战斗力方面没有问题。
+[k]
+
+＠玛修
+我们出发吧，御主。[r]只凭我们两个[line 3]库库尔坎小姐？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠库库尔坎
+唔？[r]是要将攻击性生物赶出这片地区吧？
+[k]
+
+＠库库尔坎
+那能让我陪你们一起去吗？[r]毕竟将舰艇放在这里的是我[line 3]
+[k]
+
+[charaFace E 11]
+
+＠库库尔坎
+我对你们所谓的『战斗』一直很感兴趣。
+[k]
+
+＠库库尔坎
+虽然我不太熟悉具体的礼仪作派，但还请多担待啦。[r]能让我与泛人类史的英雄并肩战斗吗？
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_77 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

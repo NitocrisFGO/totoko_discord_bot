@@ -1,0 +1,478 @@
+
+
+＄03-00-13-11-4-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 8001400 1 玛修]
+[charaSet B 1098259300 1 维齐洛波奇特利]
+[charaSet C 1098253200 1 U－奥尔加玛丽]
+[charaSet D 1098259200 1 特斯卡特利波卡]
+[charaSet E 1098239310 1 卡多克]
+[charaSet F 1098252410 1 库库尔坎]
+[charaSet G 1098252400 1 夸乌特利]
+
+[sceneSet H 170500 1]
+[charaScale H 1.5]
+[sceneSet I 170500 1]
+[charaScale I 1.3]
+
+[imageSet J back10001 1]
+
+[charaSet R 5009000 1 特效用1]
+[charaSet S 5009000 1 特效用2]
+[charaSet T 5009000 1 特效用3]
+[charaSet U 5009000 1 特效用3]
+
+[scene 170500]
+
+[charaTalk depthOff]
+[charaDepth R 1]
+[charaDepth B 2]
+[charaDepth S 3]
+
+[charaPut R 2500,2500]
+[charaEffect R bit_talk_black_aura_tsk]
+[charaPut S 2500,2500]
+[charaEffect S bit_talk_black_aura_tsk]
+
+[wt 1.0]
+
+[bgm BGM_BATTLE_137 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 22]
+[charaFadein B 0.1 1]
+[charaPut S 0,-200]
+[charaPut R 1]
+[wt 0.5]
+
+[se ad1006]
+[seVolume ad1006 0 0.8]
+[charaPut S 1]
+[charaEffect S bit_talk_41_fs]
+[charaMoveScale B 1.2 0.3]
+[charaMoveScale R 1.2 0.3]
+[charaMove B 0,20 0.3]
+[blur motion 0.3 4 200 0.5 0.6 0.02 200]
+[charaFadeout B 0.3]
+[wt 0.4]
+[charaPut R 2500,2500]
+[charaPut S 2500,2500]
+[charaEffectStop S bit_talk_41_fs]
+[charaScale B 1.0]
+[charaScale R 1.0]
+[blurOff motion 0.1]
+[wt 0.1]
+
+[se ad85]
+[effect bit_talk_h_slash01_fs]
+[wt 0.6]
+
+[se bac98]
+[effect bit_talk_14]
+[wt 0.1]
+[se ad671]
+[wt 0.1]
+[seStop ad671 0.8]
+[wt 0.2]
+[charaScale A 1.3]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 0,15]
+[charaMoveScale A 1.0 0.3]
+[charaMove A 0,0 0.3]
+[charaShake A 0.02 2 3 0.6]
+[wt 1.0]
+
+＠玛修
+呜……！
+[k]
+
+？1：玛修！
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 22]
+[charaFadein B 0.1 1]
+[charaPut S 0,-200]
+[charaPut R 1]
+
+＠维齐洛波奇特利
+形势较之前反转了呢。[r]能报一箭之仇真痛快。
+[k]
+
+＠维齐洛波奇特利
+损益持平、[#平局:Even]、[#左右对称:Symmetry]。[r]不觉得对称性放在任何时代都很美丽，吗？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut R 2500,2500]
+[charaPut S 2500,2500]
+
+[blur lens 0.5 1 20]
+
+[subCameraOn 2]
+[charaLayer E sub #A]
+[charaLayer H sub #A]
+[charaLayer T sub #A]
+[charaLayer J sub #MASK]
+
+[charaDepth H 1]
+[charaDepth E 2]
+[charaDepth T 3]
+[charaDepth J 4]
+
+[charaScale E 1.3]
+[charaTalk E]
+[charaFace E 4]
+[charaFadeinFSSideR H 0.1 -400,-300]
+[charaFadeinFSSideR E 0.1 360,-130]
+[charaFadeinFSSideR J 0.1 1000,-400]
+[charaRoll J 45]
+[wt 0.1]
+
+[subCameraFilter #A maskEdge #MASK 3]
+[subRenderFadein #A 0.1 0,0]
+[charaMoveFSSideR J 500,-400 0.3]
+[wt 0.5]
+
+＠卡多克
+那家伙怎么回事，不仅超硬，旋转速度还快得要死！[r]真的是生物吗！？
+[k]
+
+＠卡多克
+快逃，玛修、[%1]！[r]正面跟她对抗会被碾碎[line 2]
+[k]
+
+[messageOff]
+[se bac341]
+[charaPutFSSideR T 165,-70]
+[charaEffect T bit_talk_muzzleflash]
+[wt 0.2]
+[charaFace E 3]
+[charaShake E 0.05 3 3 0.5]
+[wt 0.7]
+[se ad7]
+[charaEffectDestroy T bit_talk_muzzleflash]
+[charaMoveFSSideR E 500,-130 0.4]
+[charaFadeout E 0.4]
+[wt 0.4]
+[charaScale E 1.0]
+
+[blurOff lens 0.5]
+[subRenderFadeout #A 0.4]
+[wt 0.4]
+[charaFadeout H 0.1]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer H normal]
+[charaLayer E normal]
+[charaLayer T normal]
+[charaLayer J normal]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠特斯卡特利波卡
+能不能不要背地里说我老妹坏话。[r]啊，不，你是堂堂正正地说，所以不算背地里吧。
+[k]
+
+＠特斯卡特利波卡
+应该叫批判、抗议，还是控告？[r]无论如何，既然你敢黑她，肯定有所觉悟了吧。
+[k]
+
+[charaFaceFade D 1 0.2]
+
+＠特斯卡特利波卡
+等解决掉这些家伙之后，[r]就轮到那边的魔术师了，蜂鸟。
+[k]
+
+＠特斯卡特利波卡
+两名活祭[line 3]早就逃跑了吗？[r]是那个神父打扮的男人吧，行动真迅速。
+[k]
+
+＠特斯卡特利波卡
+幸好这里还有两人份的心脏。[r]虽然质量差了点，但好歹也是泛人类史人类的。
+[k]
+
+＠特斯卡特利波卡
+今天暂且凑合着用吧。毕竟仪式如果不成立的话，[r]伊斯卡利也会很失落吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+[charaPut S 0,-200]
+[charaPut R 1]
+
+＠维齐洛波奇特利
+……是的。伊斯卡利已经干得很好了。[r]他的失分就由我来挽回，对吧。
+[k]
+
+[messageOff]
+[se ad95]
+[charaMove B 0,5 0.5]
+[charaMoveScale B 1.05 0.5]
+[charaMoveScale R 1.05 0.5]
+[charaMoveScale S 1.05 0.5]
+[wt 0.2]
+[seStop ad95 0.5]
+[wt 0.8]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut R 2500,2500]
+[charaPut S 2500,2500]
+
+[charaTalk C]
+[charaFace C 19]
+[charaFadein C 0.1 1]
+
+＠U－奥尔加玛丽
+不过是占据了一次优势而已，嚣张什么……！[r]那团黑烟是怎么回事，为何攻击打不中！？
+[k]
+
+[charaFace C 15]
+
+＠U－奥尔加玛丽
+就没什么办法吗，[%1]！？[r]再这样下去，除我以外将全军覆没啊！？
+[k]
+
+？1：就算你这样说[line 3]
+？2：（只能硬着头皮再度交战了吗……！？）
+
+？！
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut S 0,-200]
+[charaPut R 1]
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 0,5]
+[wt 0.3]
+
+[se ad95]
+[charaMove B 0,20 1.0]
+[charaMoveScale B 1.2 1.0]
+[charaMoveScale R 1.2 1.0]
+[charaMoveScale S 1.2 1.0]
+[wt 0.8]
+[seStop ad95 0.2]
+[wt 0.2]
+
+[charaFadeout B 0.2]
+[wt 0.2]
+[charaPut R 2500,2500]
+[charaPut S 2500,2500]
+
+[bgmStop BGM_BATTLE_137 1.0]
+
+＠？？？
+那可不行。
+[k]
+
+＠？？？
+虽然我一直避免干涉来自[r]泛人类史的客人间的战斗，
+[k]
+
+＠？？？
+但那边的[&他:她]可是我的监视对象，[r]所以我要稍微偏袒一下啦！
+[k]
+
+[charaPut U 2500,2500]
+[charaEffect U bit_talk_back_splash_bl 0,0 H]
+
+[se ad678]
+[seVolume ad678 0 0.7]
+＠？？？
+嘿～！
+[k]
+
+[messageOff]
+[subCameraOn 1]
+[charaLayer U sub #A]
+[charaLayer G sub #A]
+
+[charaDepth T 1]
+[charaDepth G 2]
+
+[charaPut U 0,200]
+[subCameraFilter #A maskEdge cut359_mask06 3]
+[subCameraRoll #A 22 0,0]
+[subRenderScale #A 1.1]
+[wt 0.1]
+
+[subRenderFadein #A 0.1 0,-400]
+[wt 0.1]
+
+[se ad85]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 400,200]
+[charaMove G -400,200 0.3]
+[wt 0.2]
+
+[charaFadeout G 0.1]
+[wt 0.2]
+
+[subRenderFadeout #A 0.1]
+[wt 0.2]
+
+[charaPut U 2500,2500]
+[charaEffectDestroy U bit_talk_back_splash_bl]
+[subCameraOff]
+[charaLayer G normal]
+[charaLayer U normal]
+
+[charaScale U 1.4]
+[charaScale B 1.4]
+
+[se bac98]
+[effect bit_talk_14]
+[wt 0.1]
+[se ad671]
+[wt 0.1]
+[seStop ad671 0.8]
+[wt 0.2]
+[charaPut S 0,-200]
+[charaPut R 1]
+[charaTalk B]
+[charaFace B 18]
+[charaFadein B 0.1 0,40]
+[charaMoveScale B 1.0 0.3]
+[charaMoveScale R 1.0 0.3]
+[charaMoveScale S 1.0 0.3]
+[charaMove B 0,0 0.3]
+[charaShake B 0.02 2 3 0.6]
+[wt 1.3]
+
+
+＠维齐洛波奇特利
+贯穿了兄长的烟雾……！？[r]是谁，泛人类史的从者吗！？
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth I 5]
+[charaDepth G 6]
+
+[charaScale F 1.3]
+[charaScale G 1.3]
+
+[charaFadein I 0.5 0,-245]
+[wt 0.7]
+[charaFadeout B 0.1]
+[charaPut R 2500,2500]
+[charaPut S 2500,2500]
+[charaEffectStop R bit_talk_black_aura_tsk]
+[charaEffectStop S bit_talk_black_aura_tsk]
+
+[bgm BGM_BATTLE_97 0.1]
+[charaPut G 0,210]
+[charaTalk G]
+[charaFace G 7]
+[se ad223]
+[fowardEffect bit_talk_quickmove]
+[charaSpecialEffect G appearance 1 0.25]
+[wt 0.6]
+
+[charaMove I 0,-350 1.5]
+[charaMove G 0,0 1.5]
+[wt 1.7]
+
+＠夸乌特利
+[FFFFFF]？[-]　啊，对哦。[r]我还没向维齐洛波奇特利小姐打过招呼吧。
+[k]
+
+[messageOff]
+[se ade253]
+[charaCrossFade G 1098252410 0 0.4]
+[wt 0.5]
+[charaTalk on]
+
+＠G：夸乌特利
+你们好，泛人类史的各位。[r]我是库库尔坎，是风与水，顺带也是太阳之神库库尔坎。
+[k]
+
+[charaFace G 2]
+
+＠G：库库尔坎
+说得简洁明了一点，就是这米克特兰的造物主。[r]你们口中的『南美异闻带』之王哟～！
+[k]
+
+[messageOff]
+[charaFadeout I 0.5]
+[charaFadeout G 0.5]
+[wt 0.7]
+[charaScale F 1.0]
+[charaScale G 1.0]
+
+[charaTalk off]
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+[wt 1.5]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[wt 1.5]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+哈[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+[wt 0.5]
+
+？1：哈啊啊啊啊啊啊！？！？
+？2：我就觉得你像某个人啊～！
+
+？！
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_BATTLE_97 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

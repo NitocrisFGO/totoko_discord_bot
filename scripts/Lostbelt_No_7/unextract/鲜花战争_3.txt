@@ -1,0 +1,831 @@
+
+
+＄03-00-13-18-3-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252540 1 奥塞洛特尔1]
+[charaSet B 1098252540 1 奥塞洛特尔2]
+[charaSet C 1098252540 1 奥塞洛特尔3]
+[charaSet D 1098252540 1 奥塞洛特尔4]
+[charaSet E 1098252540 1 奥塞洛特尔5]
+[charaSet F 1098252550 1 奥塞洛特尔6]
+[charaSet G 1098252550 1 奥塞洛特尔7]
+[charaSet H 1098254300 1 迪诺斯1]
+[charaSet I 1098254300 1 迪诺斯2]
+[charaSet J 1098254300 1 迪诺斯3]
+[charaScale H 1.2]
+[charaScale I 1.2]
+[charaScale J 1.2]
+
+[charaSet K 1098253800 1 瓦克昌]
+
+[sceneSet L 10000 1]
+[charaScale L 1.01]
+
+[sceneSet M 169502 1]
+[charaScale M 1.3]
+[sceneSet N 169502 1]
+[charaScale N 1.3]
+[sceneSet O 169900 1]
+[charaScale O 1.3]
+[sceneSet P 170300 1]
+
+[charaSet Q 5009000 1 特效用1]
+[charaSet R 5009000 1 特效用2]
+[charaSet S 5009000 1 特效用3]
+[charaSet T 5009000 1 特效用4]
+
+[cameraMove 0.1 0,0 1.01]
+
+[pictureFrameTop cut063_cinema]
+[scene 169502]
+
+[cueSe SE_23 23_ad1229 1.0 0.4]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_MAP_63 0.1]
+
+
+[wt 0.5]
+
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth H 2]
+[charaDepth I 2]
+[charaDepth A 2]
+[charaDepth J 3]
+[charaDepth B 3]
+[charaDepth C 3]
+[charaDepth D 4]
+[charaDepth E 5]
+[charaDepth F 6]
+[charaDepth G 7]
+[charaDepth Q 8]
+[charaDepth R 8]
+[charaDepth S 8]
+[charaDepth T 8]
+
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSR D 0.1 256,-50]
+[charaFadeinFSL E 0.1 -256,-50]
+[wt 0.2]
+[cueSe Battle bac134]
+[effect bit_talk_h_slash01_fs]
+[wt 0.3]
+[cueSe Battle bac210]
+[charaShake D 0.05 3 3 0.5]
+[wt 0.1]
+[charaShake E 0.05 3 3 0.5]
+[wt 0.5]
+[se ad863]
+[effect bit_talk_blood_splash_fs]
+[wt 0.4]
+[se ad464]
+[effect bit_talk_blood_splash_fs 0,0 H]
+[wt 0.5]
+[charaFadeout D 0.3]
+[charaMoveFSR D 256,-80 0.3]
+[wt 0.2]
+[se ad144]
+[charaFadeout E 0.3]
+[charaMoveFSL E -256,-80 0.3]
+[wt 0.2]
+[se ad144]
+[wt 0.6]
+
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadein M 0.1 -190,-300]
+[wt 0.2]
+
+[fadein black 0.5]
+[wait fade]
+
+[wt 0.3]
+
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+[se ad563]
+[charaPut Q -150,-50]
+[charaEffect Q bit_talk_muzzleflash]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.2]
+[charaShake H 0.05 3 3 0.2]
+[se ade65]
+[charaPut R 1]
+[charaEffect R bit_talk_muzzleflash]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.2]
+[charaShake H 0.05 3 3 0.5]
+[se ad563]
+[charaPut S 150,50]
+[charaEffect S bit_talk_muzzleflash]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.5]
+[se ad161]
+[effect bit_talk_35]
+[wt 0.5]
+[cueSe SE_22 22_ad1205]
+[wt 0.8]
+[charaShake H 0.03 2 2 0.3]
+[charaFadeout H 0.4]
+[charaMove H 0,-30 0.4]
+[wt 0.5]
+[se ad789]
+[shake 0.03 4 4 1.5]
+[wt 1.0]
+
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[charaPut M 140,-300]
+[wt 0.2]
+
+[charaMove M 190,-300 0.8]
+[fadein black 0.5]
+[wait fade]
+
+[wt 0.5]
+
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+[charaFadeinFSR A 0.1 380,-50]
+[charaFadeinFSL B 0.1 -380,-50]
+[charaFadein C 0.1 0,-50]
+[wt 0.3]
+[cueSe Servants_9944040 m90017]
+[cameraMove 0.3 0,-30 1.2]
+[wt 0.3]
+[cueSe SE_21 21_ad1118]
+[effect bit_talk_fang_02]
+[wipeout cutSide 0.1 1.0]
+[wait wipe]
+
+[wt 0.4]
+[se ad342]
+[se ad191]
+[charaFadeout M 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[scene 10000]
+[cameraHome 0.1]
+[wt 0.1]
+
+[wipein cutSide 0.1 1.0]
+[wait wipe]
+
+[se ad464]
+[charaPut R 1]
+[charaEffect R bit_talk_blood_splash02]
+[wt 1.8]
+
+[fadeout black 0.5]
+[wait fade]
+
+[effectDestroy bit_talk_fang_02]
+[charaFadein M 0.1 -140,-300]
+[wt 0.2]
+
+[charaMove M -190,-300 0.8]
+[fadein black 0.5]
+[wait fade]
+
+[wt 0.5]
+
+[charaFace I 0]
+[charaFace J 0]
+[charaFadeinFSR I 0.1 150,0]
+[charaFadeinFSL J 0.1 -300,0]
+[wt 0.3]
+[se ade386]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[charaPut Q -300,0]
+[charaPut R -120,0]
+[charaPut S 120,0]
+[charaPut T 300,0]
+[charaEffect Q bit_shot_01]
+[wt 0.2]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[charaShake J 0.03 4 4 0.5]
+[charaEffect R bit_shot_01]
+[wt 0.2]
+[cueSe SE_21 21_ad1118]
+[effect bit_talk_blood_stay]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[charaShake I 0.03 4 4 0.5]
+[charaEffect S bit_shot_01]
+[wt 0.2]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[charaEffect T bit_shot_01]
+[wt 0.2]
+[cueSe SE_22 22_ad1206]
+[effectStop bit_talk_blood_stay]
+[se ad161]
+[effect bit_talk_blood_stay 0,0 H]
+[wt 0.5]
+[cueSe SE_22 22_ad1205]
+[charaEffectDestroy Q bit_shot_01]
+[charaEffectDestroy R bit_shot_01]
+[charaEffectDestroy S bit_shot_01]
+[charaEffectDestroy T bit_shot_01]
+[wt 0.2]
+[effectStop bit_talk_blood_stay]
+[wt 0.3]
+[cueSeStop 22_ad1206 1.0]
+[charaShake I 0.03 2 2 0.3]
+[charaFadeout I 0.4]
+[charaMoveFSR I 150,-30 0.4]
+[wt 0.1]
+[charaShake J 0.03 2 2 0.3]
+[charaFadeout J 0.4]
+[charaMoveFSL J -300,-30 0.4]
+[wt 0.5]
+[se ad789]
+[shake 0.03 4 4 1.5]
+[wt 1.0]
+
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadeout M 0.1]
+[scene 169502]
+[wt 0.2]
+
+[fadein black 0.5]
+[wait fade]
+
+[charaFace F 0]
+[charaFace G 0]
+[charaFadeinFSR F 0.1 256,-80]
+[charaFadeinFSL G 0.1 -256,-80]
+[wt 0.3]
+[cueSe Battle bac210]
+[effect bit_talk_x_slash03 0,80]
+[wt 0.3]
+
+[fadeout black 0.1]
+[wait fade]
+
+[charaFadeout F 0]
+[charaFadeout G 0]
+[scene 10000]
+[wt 0.2]
+
+[fadein black 0.1]
+[wait fade]
+
+[se ad464]
+[se 21_ad1101]
+[charaPutFSL Q -256,0]
+[charaPutFSR R 256,0]
+[charaEffect Q bit_talk_neck_blood02]
+[wt 0.5]
+[charaEffect R bit_talk_neck_blood02]
+[wt 1.8]
+[cueSe SE_21 21_ad1118]
+[se ad144]
+[wt 1.0]
+[se ad144]
+[wt 1.4]
+[cameraMove 0.1 0,0 1.01]
+[wt 0.1]
+[charaEffectStop Q bit_talk_neck_blood02]
+[charaEffectStop R bit_talk_neck_blood02]
+[shake 0.01 1 2 0]
+
+[charaSet C 1098258510 1 母亲迪诺斯]
+[charaSet D 1098253200 1 U－奥尔加玛丽]
+[imageSet E cut425_uom 1]
+[charaScale E 2.4]
+[imageSet F cut425_uom 1]
+[charaScale F 2.4]
+[imageSet G cut425_uom 1]
+[charaScale G 2.4]
+[sceneSet S 169900 1]
+[charaScale S 1.3]
+[sceneSet T 169900 1]
+[charaScale T 1.3]
+
+[charaDepth L 4]
+[charaDepth N 3]
+
+[cueSe SE_22 22_ad1219]
+[cueSeVolume 22_ad1219 0 0]
+[cueSeVolume 22_ad1219 1.5 0.8]
+[cueSeStop 23_ad1229 1.5]
+[scene 169502 1.5]
+[wt 2.0]
+
+[shake 0.01 1 2 0.4]
+[cueSeStop 22_ad1219 0.5]
+[charaTalk on]
+[charaTalk K]
+[charaFace K 4]
+[charaFadein K 0.4 0,-50]
+[wt 0.4]
+
+＠瓦克昌
+呼，呼，呼[line 6]……！[r]糟糕，糟糕，糟糕啦[line 6]！
+[k]
+
+[charaFadeout K 0.2]
+
+＠
+这还是我第一次萌生这种心情。[r]胸口好闷，呼吸好烫，脑袋天旋地转的。
+[k]
+
+＠
+无论打倒多少，奥塞洛特尔都会涌现。[r]无论杀死多少，奥塞洛特尔都不畏惧。
+[k]
+
+＠
+受够了，这让我受够了。[r]这种毫无意义的事让我受够了。
+[k]
+
+＠
+我不会死，不会疲惫，不会倒下。[r]奥塞洛特尔们的武器伤不到我。
+[k]
+
+＠
+结果显而易见。[r]赢的是我，输的是奥塞洛特尔。
+[k]
+
+＠
+无论其他迪诺斯被杀死多少，唯有这个结果不会改变。[r]所以，我是不会萌生这种心情的。
+[k]
+
+[messageOff]
+[charaTalk K]
+[charaFace K 4]
+[charaFadein K 0.2 0,-50]
+[wt 0.2]
+
+[cameraMove 0.3 0,-20 1.1]
+[wt 0.3]
+[charaFaceFade K 8 0.2]
+
+＠瓦克昌
+虽[messageShake 0.05 5 5 0.5]然不会啊啊啊啊！[r]但总觉得好难受啊啊啊啊！
+[k]
+
+[messageOff]
+[charaFadeout K 0.2]
+[charaFadein L 0 0,-200]
+[cueSe Battle bac154]
+[se ad1051]
+[effect bit_talk_claw_red02 0,0 H]
+[wt 0.7]
+[cameraHome 0.1]
+[wt 0.1]
+[scene 169502]
+[charaTalk off]
+
+[charaFace A 0]
+[charaFace B 0]
+[charaFadeinFSR A 0 256,-50]
+[charaFadeinFSL B 0 -256,-50]
+[wt 0.1]
+[charaFadeout L 0]
+[charaShake A 0.05 3 3 0.5]
+[charaShake B 0.05 3 3 0.5]
+[wt 0.4]
+[se ad161]
+[effect bit_talk_35]
+[wt 0.8]
+[charaMoveFSR A 256,-80 0.3]
+[charaFadeout A 0.3]
+[wt 0.2]
+[se ad144]
+[charaMoveFSL B -256,-80 0.3]
+[charaFadeout B 0.3]
+[wt 0.2]
+[se ad144]
+[wt 1.5]
+
+[charaDepth M 1]
+[charaDepth K 2]
+
+[charaScale K 1.2]
+[charaScale M 1.2]
+
+[charaFace K 4]
+[charaFadein M 1.0 100,-330]
+[charaFadein K 1.0 100,-80]
+[charaMove M 100,-280 25.0]
+[charaMove K 100,-30 25.0]
+[wt 1.5]
+
+＠
+我一直以来都很害怕奥塞洛特尔。
+[k]
+
+＠
+不是害怕他们挑战不可战胜对手的勇气，[r]不是害怕他们不惜舍弃性命也要猎杀迪诺斯的执念，
+[k]
+
+＠
+不是害怕他们逐渐变强的武器，[r]也不是害怕他们不断增加的总体数量。
+[k]
+
+＠
+只是害怕与奥塞洛特尔对峙。
+[k]
+
+＠
+害怕遭到讨厌，[r]害怕无法理解，
+[k]
+
+＠
+害怕令我不禁想去思考，[r]我们是不是欠缺了什么东西。
+[k]
+
+[charaFaceFade K 8 0.2]
+
+＠瓦克昌
+其他斗士职都去哪了！[r]我一个人也只能保护好我自己啊！
+[k]
+
+[messageOff]
+[se ad85]
+[charaFadeout K 0.1]
+[charaScale Q 1.3]
+[charaPut Q 0,100]
+[charaEffect Q bit_talk_x_slash_bk_03]
+[wt 0.6]
+[cueSe Battle bac403]
+[charaFadein L 0 0,-200]
+[effect bit_talk_blood_stay]
+[charaMove M 100,-285 0.1]
+[charaMove K 100,-35 0.1]
+[effect bit_talk_blood_stay 100,-50 H]
+[wt 0.4]
+
+＠
+撕裂成群结队的奥塞洛特尔。[r]令人不适的触感。撕裂肉体的感觉总是那么恶心。
+[k]
+
+＠
+好像就只有我这么觉得。[r]其他迪诺斯不像我这么胆小。
+[k]
+
+[messageOff]
+[fadeout black 0.3]
+[wait fade]
+
+[charaFadeout L 0.1]
+[effectDestroy bit_talk_blood_stay]
+
+[subCameraOn 1]
+[charaLayer K sub #A]
+[subCameraFilter #A through]
+[charaFace K 3]
+[charaFadein K 0.1 100,-30]
+[subRenderFadein #A 0.1 0,0]
+
+[subCameraMove #A 0.1 0,-20 1.05]
+[cameraMove 0.1 0,-20 1.05]
+[blur lens 0.1 2 20]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+＠
+『物种不同便无法相互理解。』[r]『米克特兰的灵长只有迪诺斯。』
+[k]
+
+＠
+听说在很久很久，很久以前，[r]迈雅是这样决定的。
+[k]
+
+＠
+迈雅的声音如今已无法听到。[r]也不知神官们是否还能听到。
+[k]
+
+＠
+无比强大、无比长久、无比聪明。[r]我们就是这样一直活到现在，没有人心怀不满。
+[k]
+
+＠
+不过关于这个问题，[r]该不会只是因为我们连不满是什么都不知道吧？
+[k]
+
+[messageOff]
+[subCameraMove #A 0.5 0,0 1.01]
+[cameraMove 0.5 0,0 1.01]
+[blurOff lens 0.5]
+[wt 0.8]
+[charaLayer K normal]
+[subCameraOff]
+[charaFaceFade K 4 0.2]
+
+＠瓦克昌
+[line 3]啊，可恶，我的注意力开始散漫了！[r]抓紧，抓紧，抓紧！
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1219 0 0.8]
+[shake 0.01 1 2 1.3]
+[charaFadeout K 0.4]
+[wt 0.8]
+
+[cueSeVolume 22_ad1219 1.2 0.4]
+[charaFadein N 1.0 -60,-300]
+[charaMove N 60,-300 25.0]
+[wt 1.2]
+[charaFadeout M 0.1]
+[charaScale K 1.0]
+[charaFace K 4]
+[charaFadein K 0.1 0,-50]
+
+＠
+对了，我正在前往祭祀场。[r]因为死期将近的迪诺斯都去祭祀场避难了。
+[k]
+
+＠
+斗士职以外的迪诺斯对战斗一无所知。[r]对战斗这种行为本身毫无兴趣。
+[k]
+
+＠
+因此就算遭到奥塞洛特尔的袭击，也不会选择战斗，[r]倒是会因遭到攻击时的生理反应挥舞爪子，
+[k]
+
+＠
+结果则会导致奥塞洛特尔死亡，[r]战斗就此结束。
+[k]
+
+＠
+然而死期将近的迪诺斯不一样。[r]由于衰老，不会出现生理反应，
+[k]
+
+＠
+只会一味遭受攻击，慢慢遭受凌迟，[r]怀着『为什么？』的疑问步入死亡。
+[k]
+
+[messageOff]
+[charaFadeout N 0.5]
+[wt 0.7]
+
+＠瓦克昌
+这样不好，这样可不好，[r]这其实，是非常不好的吧[line 4]！？
+[k]
+
+[charaFadeout K 0.2]
+
+＠
+边打倒奥塞洛特尔边奔跑着，[r]奥塞洛特尔们包围着祭祀场的四周。
+[k]
+
+＠
+看来，里面已经无力回天了。[r]我知道，我知道，我知道这是在白费力气。
+[k]
+
+＠
+但我的双腿停不下来。[r]有些事就算无力回天，也不能视若无睹。
+[k]
+
+[cueSeVolume 22_ad1219 0.5 0.8]
+
+[messageOff]
+[cameraMove 1.5 0,0 1.1]
+[shake 0.01 1 2 2.0]
+[charaMove K 0,-20 1.5]
+[charaMoveScale K 1.1 1.5]
+[charaFadeout K 0.5]
+[wt 1.0]
+
+[fadeout black 0.5]
+[bgmStop BGM_MAP_63 1.5]
+[cueSeStop 22_ad1219 1.5]
+[wait fade]
+
+[scene 10000]
+[wt 1.5]
+
+[fadein black 0.5]
+[wait fade]
+
+
+＠
+[line 3]然后，我[line 2]
+[k]
+
+
+[messageOff]
+[cueSe NoblePhantasm_700600 NP_700600_7]
+[cueSe Servants_304900 m03104]
+[se ad842]
+[seVolume ad842 0 0.6]
+[effect bit_talk_lightning_U_02]
+[wt 0.6]
+
+[fadeout white 0.5]
+[wait fade]
+
+[effectDestroy bit_talk_lightning_U_02]
+[charaDepth O 1]
+[charaDepth E 2]
+[charaDepth S 3]
+[charaDepth F 4]
+[charaDepth T 5]
+[charaDepth G 6]
+
+[charaFadein O 0.1 0,-100]
+[charaFadein E 0.1 0,300]
+[scene 169900]
+[wt 2.5]
+
+[charaMove O 0,-200 6.0]
+[charaMove E 0,100 6.0]
+[bgm BGM_MAP_58 0.1]
+[fadein white 2.5]
+[wait fade]
+
+[wt 1.5]
+
+[charaFadein S 1.5 0,-250]
+[charaFadein F 1.5 0,-300]
+[charaMove S 0,-350 6.0]
+[charaMove F 0,-500 6.0]
+[wt 3.0]
+
+[fadeout white 1.0]
+[wait fade]
+
+[charaFadeout O 0.1]
+[charaFadeout S 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[charaFadein T 0.1 0,-420]
+[charaFadein G 0.1 0,-650]
+[wt 0.5]
+
+[cameraMove 2.5 0,0 1.01]
+[fadein white 2.0]
+[wait fade]
+
+[wt 0.7]
+
+＠U－奥尔加玛丽
+给我滚出去，暴徒们！[r]你们没资格获得什么选举权！
+[k]
+
+＠
+我看到了为我们而激昂愤慨的，[r]另一种生物。
+[k]
+
+[messageOff]
+[charaFadeout T 0.5]
+[charaFadeout G 0.5]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0,-50]
+
+＠母亲迪诺斯
+谢谢你……谢谢你……！
+[k]
+
+＠母亲迪诺斯
+这些孩子刚诞生，[r]连眼睛都睁不开，连世界都没见过……
+[k]
+
+＠母亲迪诺斯
+他们可以不用在漆黑中，除疼痛外一无所知地咽气，[r]全都多亏了您的帮助……！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 20]
+[charaFadein D 0.1 0,-50]
+
+＠U－奥尔加玛丽
+……是吗，那太好了。[r]但我不是专程来救你们的，所以无须道谢。
+[k]
+
+[charaFace D 16]
+
+＠U－奥尔加玛丽
+……毕竟，我还是那么讨厌蜥蜴。
+[k]
+
+[charaFace D 13]
+
+＠U－奥尔加玛丽
+只是那些试图杀害毫无抵抗之人的家伙，[r]令我咽不下这口气罢了。
+[k]
+
+[messageOff]
+[se ade283]
+[cueSe SE_22 22_ad1187]
+[charaMove D 1 0.5]
+[charaFadeout D 0.4]
+[wt 0.7]
+
+[subCameraOn 1]
+[charaLayer P sub #A]
+[charaLayer D sub #A]
+[charaLayer Q sub #A]
+
+[charaScale P 1.2]
+[charaDepth P 1]
+[charaDepth D 2]
+[charaDepth Q 3]
+
+[charaFadein P 0.1 100,100]
+
+[subCameraFilter #A maskEdge cut359_mask07 5 255,225,150,255 0]
+[subRenderFadein #A 0.4 0,-200]
+[subRenderMove #A 0,-300 0.3]
+[wt 0.4]
+
+[cueSeStop 22_ad1187 0.4]
+[seStop ade283 0.4]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.4 0,200]
+[charaMove D 0,250 0.4]
+[wt 0.4]
+
+＠U－奥尔加玛丽
+只是心血来潮，不会有第二次了。
+[k]
+
+＠U－奥尔加玛丽
+不要留在这座祭祀场，逃去树海吧。[r]继续目睹惨叫的[#色彩:声音]只会令我不快。
+[k]
+
+[messageOff]
+[se ad678]
+[se ade7]
+[seVolume ade7 0 0.6]
+[charaSpecialEffect D erasureReverse 1 0.4]
+[charaEffect Q bit_talk_mgn_light02_U]
+[wt 0.2]
+[cueSe SE_21 21_ad1097]
+[wt 1.0]
+[seStop ade7 2.0]
+[cueSeStop 21_ad1097 2.0]
+[wt 1.0]
+[subRenderFadeout #A 0.4]
+[wt 1.0]
+[charaLayer D normal]
+[charaLayer Q normal]
+[subCameraOff]
+
+[charaTalk depthOff]
+[charaScale O 1.2]
+[charaScale K 1.1]
+[charaTalk K]
+[charaFace K 5]
+[charaFadein O 1.0 0,-300]
+[charaFadein K 1.0 100,-50]
+[wt 1.2]
+
+＠瓦克昌
+[line 6]，好。
+[k]
+
+＠
+抱歉，心中的疑问已经无关紧要了。[r]更重要的是，其实事到如今也不言自明了……
+[k]
+
+[cameraMove 0.3 0,-20 1.1]
+[wt 0.3]
+[charaFace K 7]
+
+＠瓦克昌
+我[messageShake 0.05 5 5 0.5]老婆（个人期望），好帅啊[line 8]！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_MAP_58 2.0]
+[wait fade]
+[cameraHome 0.1]
+[wt 0.5]
+[soundStopAll]
+[end]
+

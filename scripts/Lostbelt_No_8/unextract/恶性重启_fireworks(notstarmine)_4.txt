@@ -1,0 +1,1218 @@
+
+
+
+＄04-00-02-08-4-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098268910 1 樱]
+[charaSet B 7046001 1 难敌]
+[charaSet C 1098267120 1 美杜莎]
+[charaSet D 1098270000 1 希翁]
+[charaSet E 1098270200 1 迦摩]
+[charaSet F 1098269910 1 玛奇里]
+[charaSet G 1098269500 1 莱诺尔]
+[charaSet H 1098270700 1 拉妮－Ｔ1]
+[charaSet I 1098270700 1 拉妮－Ｔ2]
+[charaSet J 1098270700 1 拉妮－Ｔ3]
+[charaSet K 1036001 1 高长恭]
+[charaSet L 1098270300 1 阿愈丝]
+
+[sceneSet M 10001 1]
+[charaScale M 1.05]
+[sceneSet N 10000 1]
+[charaScale N 1.05]
+[sceneSet O 10000 1]
+[charaScale O 1.05]
+[sceneSet P 190400 1]
+[charaScale P 1.2]
+[sceneSet Q 191600 1]
+[charaScale Q 1.3]
+[sceneSet R 190400 1]
+[charaScale R 1.2]
+[sceneSet S 190400 1]
+[charaScale S 1.2]
+[sceneSet T 190400 1]
+[charaScale T 1.2]
+
+[scene 191600]
+
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaFadein Q 0.1 0,-300]
+[wt 0.1]
+[charaMoveScale Q 1.1 10.0]
+[charaMove Q 0,-250 10.0]
+
+[cueSe SE_23 23_ad1294 1.0 1.0]
+[shake 0.05 1 1 0]
+[fadein black 1.0]
+[bgm BGM_BATTLE_168 0.1]
+[wait fade]
+
+[wt 3.0]
+
+[cueSeStop 23_ad1294 1.2]
+[shake 0.03 1 1 1.0]
+[charaFadeout Q 1.0]
+[wt 1.2]
+
+[subCameraOn 4]
+[charaLayer O sub #A]
+[charaLayer F sub #A]
+[charaLayer R sub #B]
+[charaLayer E sub #B]
+[charaLayer N sub #B]
+[charaLayer D sub #B]
+[charaLayer S sub #C]
+[charaLayer B sub #C]
+[charaLayer T sub #D]
+[charaLayer L sub #D]
+
+[charaDepth O 1]
+[charaDepth F 2]
+[charaDepth R 1]
+[charaDepth E 2]
+[charaDepth N 2]
+[charaDepth D 3]
+[charaDepth S 1]
+[charaDepth B 2]
+[charaDepth T 1]
+[charaDepth L 2]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFace E 16]
+[charaFace B 0]
+[charaFace L 7]
+[charaFadein O 0.1 -200,0]
+[charaFadein E 0.1 0,320]
+[charaFadein B 0.1 0,320]
+[charaFadein L 0.1 -15,320]
+[charaFadein F 0.1 -460,270]
+[charaFadein R 0.1 0,150]
+[charaFadein S 0.1 -320,150]
+[charaFadein T 0.1 320,150]
+
+[subCameraFilter #A maskEdge cut359_mask12 4 255,255,255,255 0]
+[subCameraFilter #B maskEdge cut359_mask05 4 255,255,255,255 0]
+[subCameraFilter #C maskEdge cut359_mask05 4 255,255,255,255 0]
+[subCameraFilter #D maskEdge cut359_mask05 4 255,255,255,255 0]
+[wt 0.1]
+[subRenderFadeinFSSideL #A 0.3 95,200]
+[subRenderMoveFSSideL #A 95,-200 0.3]
+[wt 0.5]
+
+＠玛奇里
+呼喀喀。怎么，结束了吗？
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[subRenderFadein #B 0.3 0,-380]
+[subRenderMove #B 0,-330 0.3]
+[wt 0.5]
+
+＠迦摩
+啊～可恶～，烦死了……
+[k]
+
+[messageOff]
+[subRenderFadeout #B 0.1]
+[wt 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk B]
+[subRenderFadeinFSR #C 0.3 300,-380]
+[subRenderMoveFSR #C 300,-330 0.3]
+[wt 0.5]
+[se ad60]
+[seStop ad60 0.5]
+[charaMove S -350,150 0.5]
+[wt 1.2]
+[se ad60]
+[seStop ad60 0.5]
+[charaMove S -380,150 0.5]
+[wt 1.0]
+
+＠难敌
+……[r]……
+[k]
+
+[messageOff]
+[charaTalk L]
+[subRenderFadeinFSL #D 0.3 -300,-380]
+[subRenderMoveFSL #D -300,-330 0.3]
+[wt 0.5]
+
+＠阿愈丝
+逃跑是很逊的哦，[#Berserker:狂战士]！
+[k]
+
+[charaTalk B]
+[charaFace B 15]
+
+＠难敌
+知，知道啦！
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripDownToUp 0.5 1.0]
+[wait wipe]
+
+[subRenderFadeout #C 0.1]
+[subRenderFadeout #D 0.1]
+[scene 190400]
+[wt 0.5]
+
+[wipein rectangleStripUpToDown 0.5 1.0]
+[wait wipe]
+
+[charaDepth P 3]
+[charaDepth A 4]
+[charaDepth M 5]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[wt 0.5]
+[charaFace C 3]
+[wt 0.2]
+[cueSe SE_21 21_ade605]
+[charaFadein M 0.5 0,-200]
+[wt 0.5]
+
+[charaChange C 1098267100 2 normal 0.1]
+[wt 0.5]
+
+[charaFadeout M 0.5]
+[wt 1.0]
+
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[bgm BGM_BATTLE_168 0.5 0.5]
+[wait wipe]
+
+[charaTalk A]
+[charaScale A 1.2]
+[charaFace A 22]
+[charaFadein P 0.1 120,-300]
+[charaFadein A 0.1 0,-50]
+[pictureFrame cut063_cinema]
+
+[scene 190400]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[bgm BGM_BATTLE_168 0.5 1.0]
+[wait wipe]
+
+[wipeFilter cinema 0.5 0]
+[wt 0.5]
+
+[charaMove A 0,-100 0.5]
+[charaFadeout A 0.4]
+[wt 0.5]
+[se ad144]
+[wt 0.5]
+
+[charaLayer C sub #B]
+[charaDepth C 2]
+[charaScale C 1.2]
+[charaScale R 1.3]
+
+[charaTalk C]
+[charaFace C 15]
+[charaMove R -320,25 0.1]
+[charaMove C 120,160 0.1]
+[subCameraFilter #B maskEdge cut359_mask16 4 255,255,255,255 0]
+[wt 0.1]
+
+[subRenderFadein #B 0.4 200,-300]
+[charaMove R -320,100 0.5]
+[charaMove C 120,235 0.5]
+[wt 0.5]
+
+＠美杜莎
+樱！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth A 2]
+[charaScale A 1.0]
+[charaFace A 22]
+[charaFadein A 0.1 -130,-100]
+
+[se ad443]
+[charaFadeout C 0.4]
+[charaMove C -200,235 0.6]
+[wt 0.4]
+[subRenderFadeout #B 0.5]
+[charaFadeout P 0.5]
+[wt 1.0]
+[charaLayer C normal]
+
+[charaDepth C 1]
+[charaScale C 1.0]
+[charaFace C 17]
+[charaFadein C 0.4 210,-50]
+[charaMove C 130,-80 0.4]
+[wt 0.2]
+[seStop ad443 0.2]
+[wt 0.6]
+
+[se ad661]
+[seVolume ad661 0 0.6]
+[seStop ad661 0.8]
+[charaMove C 130,-50 0.4]
+[wt 0.15]
+[charaMove A -130,-50 0.5]
+[wt 0.5]
+[charaTalk on]
+[charaTalk C]
+
+＠美杜莎
+呜……樱，你……！
+[k]
+
+[charaTalk A]
+[charaFace A 21]
+
+＠樱
+对，对不起。但是，不可以啊。[r]不可以，失去容身之处。
+[k]
+
+＠樱
+虽然我体内，已经，什么都不剩了。
+[k]
+
+[charaFace A 20]
+
+＠樱
+[#以令咒下令]。
+[k]
+
+＠樱
+你可以用尽我的一切。[r][#Saber:剑士]，请你，守护这个地方……
+[k]
+
+[charaTalk C]
+[charaFace C 16]
+
+＠美杜莎
+樱！　现在可不是说这个[line 3]！
+[k]
+
+[messageOff]
+[charaTalk off]
+[cueSe Battle bas16]
+[effect bit_talk_CommandMantra_skr]
+[wt 1.6]
+[charaCrossFade A 1098268920 20 0.4]
+[wait charaCrossFade A]
+
+[se ad574]
+[charaFadein M 0.5 0,-200]
+[wt 0.5]
+
+[charaChange C 1098267120 16 normal 0.1]
+[wt 0.5]
+
+[wipeOff]
+[charaFadeout M 0.5]
+[wt 1.5]
+
+[messageOff]
+[wipeout rectangleStripUpToDown 0.5 1.0]
+[bgm BGM_BATTLE_168 0.5 0.5]
+[wait wipe]
+
+[charaFadeout S 0.1]
+[charaFadeout T 0.1]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout L 0.1]
+[charaLayer S normal]
+[charaLayer T normal]
+[charaLayer E normal]
+[charaLayer B normal]
+[charaLayer L normal]
+[pictureFrame]
+[charaFace F 0]
+[scene 191600]
+[wt 0.5]
+
+[wipein rectangleStripDownToUp 0.5 1.0]
+[bgm BGM_BATTLE_168 0.5 1.0]
+[wait wipe]
+
+[charaTalk on]
+[charaTalk F]
+[subRenderFadeinFSSideL #A 0.1 95,-200]
+
+＠玛奇里
+嚯，祭出令咒了啊。可是太晚了。[r]要用就该在事态发展成这样之前用。
+[k]
+
+＠玛奇里
+你们所需要的，是能一口气将老夫[r]这个存在轰得灰飞烟灭的『输出』。
+[k]
+
+＠玛奇里
+然而看起来并非那种类型的强化。
+[k]
+
+＠玛奇里
+是由于过度缺乏资源……导致光是准备维持[r]战斗所用的燃料库就需要竭尽全力了吗……？
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.1]
+
+[subCameraFilter #B maskEdge cut359_mask05 4 255,255,255,255 0]
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 0,320]
+[charaPut N 0,320]
+[charaFadeTime N 0.1 0.5]
+[charaScale R 1.2]
+[charaMove R 320,150 0.1]
+[wt 0.1]
+[subRenderFadein #B 0.3 0,-380]
+[subRenderMove #B 0,-330 0.3]
+[wt 0.5]
+
+[bgm BGM_BATTLE_168 0.5 0.5]
+
+＠希翁
+（他说得确实没错，我也清楚我们需要什么。[r]　然而我们并没有能诱导那份输出的『炮』。）
+[k]
+
+＠希翁
+（迦摩并非这种性质的从者[line 3]）
+[k]
+
+＠希翁
+（即便阿愈丝小姐愿意使用令咒，）
+[k]
+
+＠希翁
+（扩展难敌的宝具范围，[r]　恐怕也无法成为单点集中的攻击。）
+[k]
+
+[charaFace D 7]
+
+＠希翁
+（其他的对策……！）
+[k]
+
+[subRenderFadeout #B 0.1]
+[wt 0.1]
+[charaFadeout N 0.1]
+[charaFadeout D 0.1]
+
+[bgm BGM_BATTLE_168 0.5 1.0]
+
+[charaTalk F]
+[charaFace F 2]
+[subRenderFadeinFSSideL #A 0.1 95,-200]
+
+＠玛奇里
+你们肯定在拼命思索吧，[r]但不会改变，不会改变。
+[k]
+
+[charaLayer N normal]
+[charaLayer D normal]
+
+＠玛奇里
+上次你们也没能战胜这玩意本身吧？[r]这次也同样。倘若没有了卑鄙暗杀，结局不会发生任何改变。
+[k]
+
+＠玛奇里
+这是只要不断吞食便能一直膨胀下去的无限器官。[r]无人能战胜这只没有弱点的怪物！
+[k]
+
+[charaFace F 4]
+
+＠玛奇里
+老夫要用这种力量将世界纳入囊中，[r]然后，抵达根源……！
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth P 1]
+[charaDepth C 2]
+[charaDepth A 3]
+[charaDepth S 4]
+[charaDepth E 5]
+[charaDepth D 6]
+[charaDepth T 7]
+[charaDepth B 8]
+[charaDepth L 9]
+
+[charaScale S 1.3]
+[charaScale T 1.3]
+[charaScale E 1.2]
+[charaScale D 1.2]
+[charaFace D 8]
+[charaFace E 24]
+[charaFadein S 0.8 160,-350]
+[charaFadeinFSR E 0.8 226,0]
+[charaFadeinFSL D 0.8 -286,-20]
+[charaMove S 190,-350 0.8]
+[charaMoveFSR E 2 0.8]
+[charaMoveFSL D -256,-20 0.8]
+[wt 1.8]
+
+[charaScale B 1.2]
+[charaScale L 1.2]
+[charaFace B 15]
+[charaFace L 8]
+[charaFadein T 0.8 -160,-350]
+[charaFadeinFSR B 0.8 286,0]
+[charaFadeinFSL L 0.8 -226,0]
+[charaMove T -190,-350 0.8]
+[charaMoveFSR B 2 0.8]
+[charaMoveFSL L 0 0.8]
+[wt 1.0]
+[charaFadeout S 0.1]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[charaScale P 1.15]
+[charaScale C 1.15]
+[charaScale A 1.15]
+[charaFace C 1]
+[charaFace A 20]
+[charaFadein P 0.1 0,-275]
+[charaFadein C 0.1 150,0]
+[charaFadein A 0.1 -150,0]
+[wt 0.8]
+
+[scene 190400]
+[charaFadeout T 0.8]
+[charaFadeout B 0.8]
+[charaFadeout L 0.8]
+[charaMoveScale A 1.2 1.5]
+[charaMoveScale C 1.2 1.5]
+[charaMoveScale P 1.2 1.5]
+[charaMove C 155,0 1.5]
+[charaMove A -158,0 1.5]
+[charaMove P 0,-300 1.5]
+[wt 3.0]
+
+[bgmStop BGM_BATTLE_168 1.5]
+
+[charaFadeout P 0.5]
+[charaFadeout C 0.5]
+[charaFadeout A 0.5]
+[wt 0.7]
+[charaScale E 1.0]
+[charaScale D 1.0]
+[charaScale B 1.0]
+[charaScale L 1.0]
+
+＠？？？
+[#不会改变]，[#同样]。
+[k]
+
+＠？？？
+只要能观测到这点，[r]办法多得是。
+[k]
+
+＠？？？
+哪怕多少有些蛮干，只要构建出[r]能保证瞬间输出的结构即可。
+[k]
+
+[charaFace E 18]
+[charaFadein E 0.1 1]
+
+＠迦摩
+那是……
+[k]
+
+
+[messageOff]
+[charaSet L 1098269500 1 莱诺尔2]
+[charaScale L 1.2]
+
+[charaDepth E 1]
+[charaDepth P 2]
+[charaDepth L 3]
+
+[charaScale P 1.3]
+[charaFace L 1]
+[charaFadein P 1.0 -160,-350]
+[charaFadein L 1.0 45,0]
+[charaMove P -190,-350 1.0]
+[charaMove L 1 1.0]
+[wt 1.0]
+[bgm BGM_BATTLE_48 0.1]
+[wt 1.0]
+[scene 190400]
+[charaFadeout E 0.1]
+
+？1：莱诺尔！
+？2：[#Rider:骑兵]的御主！
+？！
+
+[charaLayer B sub #B]
+[charaScale R 1.0]
+[charaDepth R 1]
+[charaDepth B 2]
+
+[charaFace B 9]
+[charaFadein B 0.1 500,200]
+[charaFadein R 0.1 500,50]
+[subCameraFilter #B maskEdge cut359_mask11 4 231,41,45,255 0]
+[wt 0.1]
+[charaTalk on]
+[charaTalk B]
+[subRenderFadeinFSSideR #B 0.3 -95,200]
+[subRenderMoveFSSideR #B -95,-200 0.3]
+[wt 0.5]
+
+＠难敌
+不只是他们俩哦！？[r]那些家伙是怎么回事。
+[k]
+
+[subRenderFadeout #B 0.1]
+[wt 0.1]
+[charaFadeout B 0.1]
+
+[charaTalk L]
+
+＠L：莱诺尔
+综上所述，集合吧，小子们。
+[k]
+
+[messageOff]
+[charaLayer B normal]
+[charaFadeout P 0.5]
+[charaFadeout L 0.5]
+[wt 0.7]
+
+[charaTalk off]
+[charaDepth H 1]
+[charaDepth I 3]
+[charaDepth J 2]
+
+[se ad159]
+[charaFace H 1]
+[charaFace I 11]
+[charaFace J 0]
+[charaFadeinFSL H 0.4 -250,0]
+[charaMoveFSL H -300,0 0.4]
+[wt 0.2]
+[se ad159]
+[charaFadein I 0.4 50,0]
+[charaMove I 1 0.4]
+[wt 0.2]
+[se ad159]
+[charaFadeinFSR J 0.4 350,0]
+[charaMoveFSR J 300,0 0.4]
+[wt 0.4]
+
+[charaTalk on]
+[charaTalk H]
+
+＠H：拉妮－Ｔ
+耶～。
+[k]
+
+[charaTalk J]
+＠J：拉妮－Ｔ=spot[J]
+飚速王，登场。
+[k]
+
+[charaTalk I]
+[charaFace I 9]
+
+＠I：拉妮－Ｔ=spot[I]
+不过，Not小子们。[r]吾等乃是，Girls。
+[k]
+
+？1：那么多[#转运部:Transfer]的ＡＩ……？
+？！
+
+[messageOff]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[se ad984]
+[charaTalk depthOn]
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.4 1]
+[wt 1.5]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠莱诺尔
+直说吧，这名[#Rider:骑兵]的宝具是……啊～，[r]名字我忘了，总之是『摘下面具露出真面目』。
+[k]
+
+＠莱诺尔
+看到他真面目的同伴能力将得到增强。[r]而ＡＩ们持有的拉妮物质也会被激发、获得增幅。
+[k]
+
+＠莱诺尔
+我保存了原本产生的增幅分量，[r]经过凝缩后送到了这个『未来』。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠希翁
+！？　这种事[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠莱诺尔
+当然做得到。我能使用的[#术式:指令]属性，[r]是『虚数』……
+[k]
+
+＠莱诺尔
+可以拿不受空间与时间束缚的虚数空间[r]当做口袋，咻咻地丢进去。
+[k]
+
+[charaFace G 9]
+
+＠莱诺尔
+只是打开口袋还好说，但若想汇集起来利用的话，[r]考虑到容器的形式，就少不了这些家伙了……
+[k]
+
+[charaFace G 8]
+
+＠莱诺尔
+总之，算是必要支出吧。
+[k]
+
+＠莱诺尔
+实际使其活性化并加以利用的术式已经构建好了。[r]排好队排好队，快点。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaTalk I]
+[charaFace H 11]
+[charaFace I 11]
+[charaFace J 11]
+[charaFadeinFSL H 0.1 -300,0]
+[charaFadein I 0.1 1]
+[charaFadeinFSR J 0.1 300,0]
+
+＠I：拉妮－Ｔ
+Roger～。
+[k]
+
+[messageOff]
+[charaTalk off]
+[cueSe SE_23 23_ad1298]
+[charaMoveFSL H -400,0 0.4]
+[charaFadeout H 0.4]
+[wt 0.1]
+[charaMove I -100,0 0.4]
+[charaFadeout I 0.4]
+[wt 0.1]
+[charaMoveFSR J 200,0 0.4]
+[charaFadeout J 0.4]
+[wt 0.4]
+
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[bgm BGM_BATTLE_48 0.5 0.5]
+[cueSeStop 23_ad1298 1.0]
+[wait wipe]
+
+[charaSet A 1098270700 1 拉妮－Ｔ4]
+[charaSet B 1098270700 1 拉妮－Ｔ5]
+[charaSet C 1098270700 1 拉妮－Ｔ6]
+[charaSet D 1098270700 1 拉妮－Ｔ7]
+
+[sceneSet Q 191400 1]
+[sceneSet S 191401 1]
+[sceneSet T 191403 1]
+
+[charaScale H 0.83]
+[charaScale I 0.83]
+[charaScale J 0.93]
+[charaScale A 0.93]
+[charaScale Q 1.01]
+[charaScale S 1.01]
+[charaScale T 1.01]
+
+[charaDepth H 1]
+[charaDepth I 2]
+[charaDepth J 3]
+[charaDepth A 4]
+[charaDepth B 5]
+[charaDepth C 7]
+[charaDepth D 6]
+
+[charaDepth Q 1]
+[charaDepth S 2]
+
+[cameraMove 0.1 0,-40 1.2]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[bgm BGM_BATTLE_48 0.5 1.0]
+[wait wipe]
+
+[se ad159]
+[charaFace H 11]
+[charaFace I 11]
+[charaFadein H 0.4 -100,-50]
+[charaMove H -150,-50 0.4]
+[wt 0.2]
+[se ad159]
+[charaFadein I 0.4 200,-50]
+[charaMove I 150,-50 0.4]
+[wt 0.5]
+
+[cameraMove 0.5 0,-20 1.1]
+[wt 0.5]
+[se ad159]
+[charaFace J 11]
+[charaFace A 11]
+[charaFadein J 0.4 -235,-30]
+[charaMove J -285,-30 0.4]
+[wt 0.2]
+[se ad159]
+[charaFadein A 0.4 335,-30]
+[charaMove A 285,-30 0.4]
+[wt 0.5]
+
+[cameraMove 0.5 0,0 1.0]
+[wt 0.5]
+[se ad159]
+[charaFace B 11]
+[charaFace C 11]
+[charaFace D 11]
+[charaFadein B 0.4 -380,0]
+[charaMove B -430,0 0.4]
+[wt 0.2]
+[se ad159]
+[charaFadein C 0.4 50,0]
+[charaMove C 1 0.4]
+[wt 0.2]
+[se ad159]
+[charaFadein D 0.4 480,0]
+[charaMove D 430,0 0.4]
+[wt 1.5]
+
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠莱诺尔
+准备好了吗？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace H 11]
+[charaFace I 11]
+[charaFace J 11]
+[charaFace A 11]
+[charaFace B 11]
+[charaFace C 5]
+[charaFace D 11]
+[charaFadein H 0.1 -150,-50]
+[charaFadein I 0.1 150,-50]
+[charaFadein J 0.1 -285,-30]
+[charaFadein A 0.1 285,-30]
+[charaFadein B 0.1 -430,0]
+[charaFadein C 0.1 1]
+[charaFadein D 0.1 430,0]
+
+＠C：拉妮－Ｔ
+随时候命～。
+[k]
+
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 10]
+[charaFadein G 0.1 1]
+
+＠莱诺尔
+……[#Rider:骑兵]。
+[k]
+
+[charaFace G 1]
+
+＠莱诺尔
+既然你那么想当个工具，[r]就让我把你当工具来使用吧。
+[k]
+
+＠莱诺尔
+作为单纯的术式开关。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠高长恭
+求之不得。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[subRenderFadeinFSSideL #A 0.1 95,-200]
+
+＠玛奇里
+你打算……做什么？　小子！
+[k]
+
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+
+＠莱诺尔
+所以说啦……我打造了一台大炮哦。[r]虽说这玩意仅限此时此刻使用。
+[k]
+
+
+[charaFace G 6]
+
+＠莱诺尔
+[line 3][#连接:Set]，请求解锁，微修正咬合坐标。[r]与虚界层相连。转动，连接，转动，开启。
+[k]
+
+＠莱诺尔
+[#界囊:Pocket]，[#展开:open][line 3]！
+[k]
+
+[messageOff]
+[cameraMove 0.5 0,-20 1.1]
+[wt 0.5]
+[charaFace G 4]
+
+＠莱诺尔
+动手吧，[#Rider:骑兵]！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_BATTLE_48 1.0]
+[wait fade]
+
+[cameraHome 0.1]
+[charaFadeout G 0.1]
+[scene 10000]
+[wt 0.5]
+
+[fadein black 0.5]
+[wait fade]
+
+[bgm BGM_BATTLE_174 0.1]
+
+[criMovie talk_mov173 bgmPlay false]
+[wt 8.5]
+[fadeout white 1.0]
+[wait fade]
+
+[scene 190400]
+
+[charaEffectEdgeBlurPause A FFF9A5 FFF9A5 4 3.0]
+[charaEffectEdgeBlurPause B FFF9A5 FFF9A5 4 3.0]
+[charaEffectEdgeBlurPause C FFF9A5 FFF9A5 4 3.0]
+[charaEffectEdgeBlurPause D FFF9A5 FFF9A5 4 3.0]
+[charaEffectEdgeBlurPause H FFF9A5 FFF9A5 4 3.0]
+[charaEffectEdgeBlurPause I FFF9A5 FFF9A5 4 3.0]
+[charaEffectEdgeBlurPause J FFF9A5 FFF9A5 4 3.0]
+[wt 0.5]
+
+[fadein white 1.5]
+[wait fade]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaFace H 11]
+[charaFace I 11]
+[charaFace J 11]
+[charaFace A 11]
+[charaFace B 11]
+[charaFace C 11]
+[charaFace D 11]
+[charaFadein H 0.1 -150,-50]
+[charaFadein I 0.1 150,-50]
+[charaFadein J 0.1 -285,-30]
+[charaFadein A 0.1 285,-30]
+[charaFadein B 0.1 -430,0]
+[charaFadein C 0.1 1]
+[charaFadein D 0.1 430,0]
+[wt 0.3]
+
+[se ad852]
+[seVolume ad852 0 0]
+[seVolume ad852 1.0 1.0]
+[effect bit_talk_noble_light]
+[wt 0.2]
+[charaEffectEdgeBlurStart A]
+[charaEffectEdgeBlurStart B]
+[charaEffectEdgeBlurStart C]
+[charaEffectEdgeBlurStart D]
+[charaEffectEdgeBlurStart H]
+[charaEffectEdgeBlurStart I]
+[charaEffectEdgeBlurStart J]
+[se ade446]
+[seVolume ade446 0 0]
+[seVolume ade446 0.6 0.3]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 0.3 0.4]
+[wt 0.3]
+[backEffect bit_talk_charge_blu -250,0]
+[backEffect bit_talk_charge_blu 250,0]
+[wt 3.0]
+
+[charaFace F 3]
+[subRenderFadeinFSSideL #A 0.1 95,-200]
+
+＠玛奇里
+唔噢？
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.1]
+[wt 0.5]
+
+[cueSe SE_21 21_ad1110]
+[seStop ade446 2.8]
+[seStop ad852 3.3]
+[seStop ad556 2.8]
+[cueSeStop 21_ad1110 3.3]
+[effectStop bit_talk_noble_light]
+[wt 1.4]
+
+[fadeout white 0.1]
+[wait fade]
+
+[backEffectDestroy bit_talk_charge_blu]
+[effectDestroy bit_talk_noble_light]
+[charaEffectEdgeBlurDestroy H]
+[charaEffectEdgeBlurDestroy I]
+[charaEffectEdgeBlurDestroy J]
+[charaEffectEdgeBlurDestroy A]
+[charaEffectEdgeBlurDestroy B]
+[charaEffectEdgeBlurDestroy C]
+[charaEffectEdgeBlurDestroy D]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaFadein Q 0.1 0,-200]
+[wt 1.5]
+
+[fadein white 1.5]
+[wait fade]
+[wt 0.5]
+
+[charaLayer P sub #B]
+[charaLayer G sub #B]
+[charaScale P 1.0]
+[charaDepth P 1]
+[charaDepth G 2]
+
+[charaFace G 0]
+[charaFadein G 0.1 500,200]
+[charaFadein P 0.1 0,50]
+[subCameraFilter #B maskEdge cut359_mask11 4 103,123,50,255 0]
+[wt 0.1]
+[charaTalk on]
+[charaTalk G]
+[subRenderFadeinFSSideR #B 0.3 -95,200]
+[subRenderMoveFSSideR #B -95,-200 0.3]
+[wt 0.5]
+
+＠莱诺尔
+给这烟花起个什么名字好呢。其实无所谓啦。
+[k]
+
+[charaFace G 8]
+
+＠莱诺尔
+仅此一发的纯粹大炮，[r][#速射连发烟花:Starmine]实在荒诞不经。
+[k]
+
+[charaFace G 5]
+
+＠莱诺尔
+干脆叫『[#活性化拉妮物质炮:Raniment Fireworks]』吧！！
+[k]
+
+[messageOff]
+[subRenderFadeout #B 0.1]
+[wt 0.1]
+
+[se ad790]
+[se ad779]
+[seVolume ad779 0 0.5]
+[se ad145]
+[se ade446]
+[seVolume ade446 0 0]
+[seVolume ade446 1.0 0.3]
+[se ad550]
+[seVolume ad550 0 0.4]
+[charaFadein S 1.5 0,-200]
+[wt 2.0]
+[charaFadeout Q 0.1]
+
+[se ad778]
+[se ad912]
+[seVolume ad912 0 0.5]
+[overlayFadein T 1.5 0,-200]
+[wt 1.0]
+
+[seStop ad778 1.4]
+[seStop ad912 1.5]
+[wt 1.0]
+[charaFadeout S 0.1]
+[scene 10000]
+
+[seStop ad145 1.0]
+[seStop ad550 1.0]
+[se ad634]
+[seVolume ad634 0 0]
+[seVolume ad634 1.0 0.3]
+[seVolume ad779 1.0 0.3]
+[seVolume ade446 1.0 0.2]
+[wt 0.9]
+
+[charaTalk F]
+[charaFace F 3]
+[subRenderFadeinFSSideL #A 0.1 95,-200]
+
+＠玛奇里
+这股，力量！　从何而来[line 3]！？
+[k]
+
+[charaTalk G]
+[charaFace G 1]
+[subRenderFadeinFSSideR #B 0.1 -95,-200]
+
+＠莱诺尔
+正如我刚才所说的，这是来自过去的无聊积压货，[r]没必要把注意力放在这种东西上哦，老爷子。
+[k]
+
+＠莱诺尔
+你该注视的是未来。
+[k]
+
+[charaFace G 12]
+
+＠莱诺尔
+是自己将被纯粹到荒唐透顶、[r]徒有巨大可言的输出给炸飞的未来哦！
+[k]
+
+[charaFace G 5]
+
+＠莱诺尔
+嗯，真是摇滚到让人清醒。[r]一定很痛快，真令人羡慕呢[line 3]！
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[wt 0.4]
+
+[seStop ad790 1.0]
+[seStop ad779 1.0]
+[seStop ad634 1.0]
+[seStop ade446 1.0]
+[criMovie talk_mov174 bgmPlay false]
+[wt 0.5]
+[charaFadeout T 0.5]
+[wt 9.0]
+[bgmStop BGM_BATTLE_174 1.0]
+[wt 6.0]
+
+[skip false]
+[fadeout white 0.5]
+[wait fade]
+
+[charaFadeout P 0.1]
+[charaFadeout G 0.1]
+[charaFadeout O 0.1]
+[charaFadeout F 0.1]
+[charaLayer P normal]
+[charaLayer G normal]
+[charaLayer O normal]
+[charaLayer F normal]
+[subCameraOff]
+[wt 1.0]
+
+[fadein white 2.0]
+[wait fade]
+
+
+[fadeout black 0.5]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

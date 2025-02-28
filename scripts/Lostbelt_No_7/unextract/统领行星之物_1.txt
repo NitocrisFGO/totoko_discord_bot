@@ -1,0 +1,182 @@
+
+
+
+＄03-00-13-25-1-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257300 1 达·芬奇]
+[charaSet B 1098255100 1 戈尔德鲁夫]
+[charaSet C 1098239310 1 卡多克]
+[charaSet D 8001410 1 玛修]
+[charaSet E 1098252900 1 特佩乌]
+
+[scene 142000]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_BATTLE_68 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠达·芬奇
+ORT重新开始移动！[r]它果然打算前往墨西哥城！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+
+＠戈尔德鲁夫
+呜唔唔，胜算本来已经够低的了，[r]要是连太阳都被它吸收了还打什么！
+[k]
+
+＠戈尔德鲁夫
+登陆墨西哥城这件事无论如何都要阻止[line 3]
+[k]
+
+[charaFace B 15]
+
+＠戈尔德鲁夫
+……阻止，不了吧？
+[k]
+
+
+＠戈尔德鲁夫
+考虑到现在应该评估别的作战计划或方针，[r]所以只能先撤退[line 3]
+[k]
+
+？1：不行也要上！
+？2：我会继续攻击的！
+
+？！
+
+
+[charaFace B 6]
+
+＠戈尔德鲁夫
+眼神中透露出了前所未有的魄力！[r]技术顾问也劝劝[&他:她]啊！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠达·芬奇
+嗯，做不到的事就是做不到！[r]所以就按照杜木兹的建议，继续攻击吧！
+[k]
+
+＠达·芬奇
+[%1]继续在这里进行远程召唤！[r]每隔30分钟就要休息5分钟哦！
+[k]
+
+＠达·芬奇
+戈尔德鲁夫负责保持[r]与ORT相隔2公里的位置！
+[k]
+
+＠达·芬奇
+卡多克就座炮手位，击落来袭的种子！
+[k]
+
+＠达·芬奇
+以现在这个距离，玛修出击后就回不来了，[r]暂时禁止与ORT战斗！
+[k]
+
+＠达·芬奇
+玛修与卡多克一起守护Shadow Border吧！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠卡多克
+我赞成。就算无法阻止它登陆墨西哥，[r]也应该继续与ORT战斗。
+[k]
+
+＠卡多克
+不只是为了取得战斗数据，[r]也是为了在[#之后]的战斗中尽可能提高获胜率。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+[wt 0.5]
+
+[charaMoveReturn D 0,-10 0.5]
+[wt 1.0]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 18]
+[charaFadein B 0.1 1]
+
+＠戈尔德鲁夫
+哎哎，一群笨蛋！[r]没办法了，先去把晕车药吃了！
+[k]
+
+[charaFace B 12]
+
+＠戈尔德鲁夫
+接下来的驾驶将会更加狂野！
+[k]
+
+＠戈尔德鲁夫
+特佩乌一定要紧紧握住扶手！[r]毕竟你没办法系安全带啊！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+[wt 1.0]
+[charaFace E 2]
+
+＠特佩乌
+这是当然。[r]我还是希望能尽可能与各位同行得久一些。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.5]
+
+？1：好嘞[line 3]
+？2：重新开始追击！
+
+？！
+
+
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_BATTLE_68 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

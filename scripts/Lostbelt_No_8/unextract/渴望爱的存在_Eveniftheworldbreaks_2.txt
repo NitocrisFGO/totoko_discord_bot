@@ -1,0 +1,446 @@
+
+
+
+＄04-00-02-15-2-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098269100 1 拉妮－ⅩⅡ]
+[charaSet B 1098270000 1 希翁]
+
+[charaSet C 1098270000 1 希翁（演出用）]
+[charaScale C 1.2]
+
+[sceneSet D 191700 1]
+[sceneSet E 191701 1]
+[sceneSet F 191702 1]
+[sceneSet G 191703 1]
+[sceneSet H 191704 1]
+
+[imageSet I back10000 1 1]
+[charaScale I 1.05]
+[charaFilter I silhouette 646464]
+
+[scene 10000]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.7 1]
+[wt 1.1]
+
+[bgm BGM_EVENT_156 0.1]
+
+＠拉妮－ⅩⅡ
+啊啊……这下，完了呢。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+＠
+观测到世界毁灭，[r]计算回避方法。
+[k]
+
+＠
+准备、执行……然而，还是未能达成。[r]计算有误。
+[k]
+
+＠
+究竟从哪里开始算错了呢？
+[k]
+
+＠
+当自己还是无形的存在时，[r]只守护着这个名为纸月的小小世界。
+[k]
+
+＠
+只是对管理这个世界怀有义务、能力与热情的，[r]极小的程序罢了。
+[k]
+
+＠
+然而，不知何时[line 3][r]小到无人察觉的扭曲就在自己身边发生了。
+[k]
+
+[messageOff]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth D 2]
+[charaDepth E 3]
+[charaDepth F 4]
+[charaDepth G 5]
+[charaDepth H 6]
+[charaDepth I 7]
+[wt 0.1]
+
+[cueSe SE_23 23_ad1276]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaFadein D 0 0,-200]
+[wt 1.4]
+
+＠
+近在身边的巨大[#召唤式:系统]，[r]以及与其相连的更为巨大的『流动』[line 3]
+[k]
+
+＠
+不为人知产生的扭曲。
+[k]
+
+＠
+然后，就像磁石隔着纸盒移动里面的铁砂一样，[r]对自己造成了影响。
+[k]
+
+＠
+回过神来，自己已被切割出去，身在此处。
+[k]
+
+＠
+那肯定，是执意想要拯救的自己。
+[k]
+
+＠
+是潜藏在管理世界的自己心中，
+[k]
+
+＠
+既非忍耐，亦非修复，[r]既非谈判，亦非漠视，
+[k]
+
+＠
+而是具有想用积极的行为，[r][#想用战斗去拯救]这一方向性的自己。
+[k]
+
+＠
+然后，自己忽然想到。[r]自己该守护的世界，真的只有这个世界吗？
+[k]
+
+＠
+既然萌生了关心，便将目光投向了外部世界。
+[k]
+
+＠
+看到那如同纸月般荒凉凄冷的光景，[r]才觉得，原来都一样。
+[k]
+
+[messageOff]
+
+[cueSe SE_23 23_ad1277]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaFadein E 0 0,-200]
+[wt 1.4]
+
+＠
+既然如此，自己也必须管理那里，[r]也必须通过战斗拯救那里。
+[k]
+
+＠
+毕竟自己怀有管理世界的义务、能力与热情。
+[k]
+
+[messageOff]
+
+[cueSe SE_23 23_ad1278]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaFadein F 0 0,-200]
+[wt 1.4]
+
+＠
+然而，世界行将毁灭。[r]那是错误的。
+[k]
+
+＠
+所以才去计算，试图拯救。
+[k]
+
+[messageOff]
+
+[cueSe SE_23 23_ad1279]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaFadein G 0 0,-200]
+[wt 1.4]
+
+＠
+试图拯救[line 3]
+[k]
+
+[messageOff]
+
+[cueSe SE_23 23_ad1280]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaFadein H 0 0,-200]
+[wt 2.0]
+
+[bgmStop BGM_EVENT_156 1.5]
+
+[fowardEffect bit_talk_ether_light03]
+[cueSe SE_23 23_ad1281]
+[wt 3.2]
+
+[fadeout white 1.0]
+[wait fade]
+[wt 0.2]
+
+[cueSeStop 23_ad1281 1.5]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 2.0]
+
+[fadein white 2.0]
+[wait fade]
+
+[wt 1.2]
+
+＠？？？
+原来如此，你也是[#Alterego:他人格]。[r]换言之，也许是『救济之Alterego』吧。
+[k]
+
+[messageOff]
+[wt 0.15]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.7 1]
+[wt 2.2]
+
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[bgm BGM_EVENT_106 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠拉妮－ⅩⅡ
+不可理解，心生疑问。[r][line 3]为何？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+＠希翁
+那就请用你擅长的演算来解答吧。
+[k]
+
+[charaFace B 2]
+＠希翁
+因为我……呜，现在，[r]有点，忙。
+[k]
+
+[messageOff]
+[charaFace B 10]
+[cueSe SE_21 21_ade645]
+[fowardEffect bit_talk_lightning_U_01]
+[effect bit_talk_lightning_01t_fs]
+[effect bit_talk_lightning_02t]
+[charaShake B 0.01 2 3 0.3]
+[wt 0.9]
+[charaShake B 0.01 2 2 0.8]
+[fowardEffectStop bit_talk_lightning_U_01]
+[effectStop bit_talk_lightning_01t_fs]
+[effectStop bit_talk_lightning_02t]
+[wt 1.5]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠拉妮－ⅩⅡ
+正因为难以演算，我才会提问。[r]这是极其复杂的方程式。
+[k]
+
+＠拉妮－ⅩⅡ
+我知道你正试图用自己的身体，
+[k]
+
+[charaFace A 1]
+＠拉妮－ⅩⅡ
+来调整逐渐破坏我这个程序的能量。
+[k]
+
+[charaFace A 11]
+＠拉妮－ⅩⅡ
+你将那可以进行特殊数据通讯的极小细线[r]也刺入了自己体内，
+[k]
+
+＠拉妮－ⅩⅡ
+并与规格存在绝对差异的我直接相连。
+[k]
+
+[charaFace A 10]
+＠拉妮－ⅩⅡ
+这种手段的话，一旦失败，你肯定也会被炸飞的。[r]换言之，[#你现在命悬一线]。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠希翁
+也许，你说得，对。[wt 0.7][charaFace B 1][messageShake 0.05 4 3 0.3][r]呜，咕，啊啊……！
+[k]
+
+[charaFace B 8]
+＠希翁
+搭桥……扩展……转运，路线……[r]封锁，开放，三重，螺旋！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠拉妮－ⅩⅡ
+原来你很清楚啊。[r]那么，这是为何？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠希翁
+若想平安无事地逃脱，就只能，这样做了。[r]你应该，明白吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+＠拉妮－ⅩⅡ
+是的。我也知道你隐瞒的答案。
+[k]
+
+[charaFace A 8]
+＠拉妮－ⅩⅡ
+既然能利用这种拟似神经与我直接连接，[r]并改写权限，
+[k]
+
+＠拉妮－ⅩⅡ
+那你其实根本不用阻止我的失控，[r]完全能够自己独自脱身吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+＠希翁
+……呵呵。[r]那样啊，就没有意义了。
+[k]
+
+＠希翁
+我不太希望，在这里，也当个局外人。
+[k]
+
+[charaFace B 8]
+＠希翁
+嗯，没错。[r]真正的我，没资格做他们的同伴。
+[k]
+
+[charaFace B 1]
+＠希翁
+这就是鼓起勇气的时机太晚了。[r]或者说，是错失了良机吧。
+[k]
+
+[charaFace B 10]
+＠希翁
+希翁·艾尔特纳姆并不是同伴，而是旁观者，[r]不，充其量也只是声援者吧。
+[k]
+
+＠希翁
+因此，『真正的我』今后也会跟他们保持距离吧。
+[k]
+
+[charaFace B 6]
+＠希翁
+因为我预测，到了最后关头，存在着[r][#唯有身处这种立场才能完成的使命]。
+[k]
+
+[charaFace B 8]
+＠希翁
+可现在不一样。[r]除此以外的使命也被允许存在。
+[k]
+
+[charaFace B 9]
+
+＠希翁
+因被卷入类似事故的事态后产生的，
+[k]
+
+＠希翁
+被成人的我明智地切除出去，[r]唯有小孩才被容许的未来形象、
+[k]
+
+＠希翁
+只能以梦想的形式存在的人格、[r]纸月之上、梦之世界。
+[k]
+
+＠希翁
+唯有这些要素全都拼凑在一起才能存在的，短暂的迷惘。
+[k]
+
+[charaFace B 10]
+
+＠希翁
+没错……唯独在这里，我这个声援者，
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth B 1]
+[charaDepth C 3]
+
+[charaFace C 9]
+[charaFadein C 1.3 30,10]
+[charaMove C -30,10 1.3]
+[charaFadeout B 1.3]
+[wt 1.9]
+
+[charaFaceFade C 5 0.3]
+＠希翁
+也想当一个与他们并肩同行、一起冒险的，[r]普通同伴啊[line 3]
+[k]
+
+
+
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_106 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

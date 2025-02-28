@@ -1,0 +1,195 @@
+
+
+＄04-00-02-08-1-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098268910 1 樱]
+[charaSet B 1098267100 1 美杜莎]
+[charaSet C 1098270300 1 阿愈丝]
+[charaSet D 7046001 1 难敌]
+[charaSet E 1098270000 1 希翁]
+[charaSet F 6037001 1 迦摩]
+[charaSet G 1098271020 1 强化蠢魔1]
+[charaSet H 1098271020 1 强化蠢魔2]
+[charaSet I 1098271020 1 强化蠢魔3]
+
+[scene 10000]
+[effect bit_talk_marblebg_fs]
+[wt 0.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_127 0.1]
+
+
+＠
+正在重启。[r]９８％[line 3]９９％[line 3]
+[k]
+
+＠
+运行参数变更确认程序。
+[k]
+
+＠
+基本性质……不变。
+[k]
+
+＠
+固有能力……调整。外表……微调。[r]伦理极限……调整。名称……不变。
+[k]
+
+＠
+[line 3][r][line 3]
+[k]
+
+＠
+最终确认工序。[r]虚拟表露后，提问。
+[k]
+
+＠
+『[#汝乃]』, 『[#何人]』[line 3]？
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_127 1.5]
+[wait fade]
+
+[effectDestroy bit_talk_marblebg_fs]
+
+[scene 190400]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_MAP_63 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth G 3]
+[charaDepth H 2]
+[charaDepth I 1]
+
+[charaFace G 0]
+[charaFace H 0]
+[charaFace I 0]
+[charaFadein G 0.1 1]
+[charaFadeinFSR H 0.1 300,0]
+[charaFadeinFSL I 0.1 -300,0]
+[wt 1.0]
+
+？1：这些家伙是！？
+？2：跟之前的，有些不一样……？
+？！
+
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠希翁
+为什么！？[r][#Caster:魔术师]应该已经消失了吧……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠迦摩
+既然它们还实际存在着，也只能接受了吧。[r]请退后，御主！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad444]
+[seVolume ad444 0 0]
+[wt 0.1]
+[se ad443]
+[seVolume ad443 0 0]
+[seVolume ad444 1.0 1.0]
+[seVolume ad443 1.0 1.0]
+[wt 1.5]
+
+[seStop ad444 0.5]
+[seStop ad443 0.5]
+[charaTalk off]
+[charaFace B 0]
+[charaFace A 20]
+[charaFadeinFSL A 0.4 0]
+[wt 0.1]
+[charaFadeinFSR B 0.4 2]
+[wt 0.6]
+[charaTalk on]
+[charaTalk A]
+
+＠樱
+看来，大家都，平安无事呢。[r]呼，呼……
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠难敌
+哼，还以为是你们的计策呢。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠美杜莎
+这应该是我们的台词吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠阿愈丝
+真是的，现在不是争这些的时候吧～！
+[k]
+
+[charaFace C 8]
+
+＠阿愈丝
+齐心协力消灭它们，小心不要受伤！[r]没问题吧！？
+[k]
+
+？1：我同意！
+？！
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStopEnd BGM_MAP_63 0.4]
+[wait fade]
+[soundStopAllEnd]
+[end]

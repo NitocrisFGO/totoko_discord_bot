@@ -1,0 +1,988 @@
+
+
+
+＄04-00-02-05-4-1
+
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098269800 1 玛奇里]
+[charaSet B 1098269000 1 ＤＸ]
+[charaSet C 1098268900 1 樱]
+[charaSet D 1098268900 1 樱2]
+[charaScale D 1.3]
+[charaSet E 1098267110 1 美杜莎]
+[charaSet F 1098270300 1 阿愈丝]
+[charaSet G 7046001 1 难敌]
+[imageSet H back10000 1 1]
+[charaScale H 1.01]
+[imageSet I back10000 1 1]
+[charaScale I 1.01]
+
+[charaSet J 1098270000 1 希翁]
+[charaSet K 1098270200 1 迦摩]
+[charaSet L 1098270430 1 拉妮－Ｇ1]
+[charaSet M 1098270430 1 拉妮－Ｇ2]
+
+[sceneSet N 10000 1]
+[charaScale N 1.01]
+[sceneSet O 191500 1]
+[sceneSet P 190300 1]
+[charaScale P 1.2]
+[sceneSet Q 191205 1]
+[charaScale Q 1.01]
+[sceneSet R 190300 1]
+[charaScale R 1.2]
+[sceneSet S 190300 1]
+[charaScale S 1.3]
+[sceneSet T 190300 1]
+[charaScale T 1.2]
+
+[scene 190300]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_BATTLE_137 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠难敌
+这，这，这……这是啥啊啊啊！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 4]
+[charaFadein J 0.1 1]
+
+＠希翁
+所谓的撒手锏就是这个吗？[r]单纯在规模与容量上都很异常……！
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 4]
+[charaFadein K 0.1 1]
+
+＠迦摩
+也就是蠢得很纯粹吧。
+[k]
+
+＠迦摩
+不过，或许正因如此……才不太妙。[r]到了这种地步，就跟燃耗没什么关系了。
+[k]
+
+＠迦摩
+而且感觉内在也跟[#Caster:魔术师]同化了。[r]一旦变成那副模样，连堕落也对它没效果了吧。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.1 1]
+
+＠难敌
+好！　就让本老爷迅速给你们[r]指明下一步行动的正确答案吧。
+[k]
+
+[charaFace G 5]
+
+＠难敌
+没指望！　撤退！
+[k]
+
+[messageOff]
+[se ad769]
+[charaFadeout G 0.4]
+[wt 0.5]
+[seStop ad769 1.5]
+[wt 2.0]
+
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth C 2]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFace C 15]
+[charaFadein E 0.1 2]
+[charaFadein C 0.1 0]
+
+＠美杜莎
+樱，向ＡＩ们发出全力避难的指示。[r]现在能做的只有这些了。
+[k]
+
+＠美杜莎
+我所说的全力，[r]也包含了逃离这[#生产部:Grow]区域的意思。
+[k]
+
+[charaFace E 13]
+
+＠美杜莎
+不，应该说以此为前提才更安全吧。[r]就这么办吧。
+[k]
+
+[charaTalk C]
+[charaFace C 15]
+
+＠樱
+可，可是……可是！
+[k]
+
+[charaTalk E]
+[charaFace E 1]
+
+＠美杜莎
+身为怪物的我看得出来。那是比此前更为纯粹的[r]满脑只有『吞噬』这个念头的怪物。
+[k]
+
+＠美杜莎
+现在就算迎战也毫无胜算。[r]所以我们这些饵食只能逃跑了。
+[k]
+
+[charaFace E 3]
+
+＠美杜莎
+设施遭破坏也只能当作必要的开支了。
+[k]
+
+＠美杜莎
+要是让ＡＩ们躲在里面，[r]它怕是会连同整座设施一起吞下肚吧。
+[k]
+
+＠美杜莎
+总之所有人都得离开这里。[r]这不是要抛弃[#生产部:Grow]。
+[k]
+
+[messageOff]
+[cameraMove 0.5 50,-20 1.1]
+[charaMove E 140,0 0.5]
+[wt 0.3]
+[se ad183]
+[wt 0.2]
+[charaMove E 170,0 0.3]
+[wt 0.1]
+[charaMove C -226,0 0.2]
+[charaFace E 16]
+
+＠美杜莎
+恰恰是为了避免[#生产部:Grow]真正的终结，[r]现在才只能逃跑。你要想明白啊，樱！
+[k]
+
+
+[charaTalk C]
+[charaFace C 21]
+
+＠樱
+呜…………！
+[k]
+
+[messageOff]
+[charaTalk off]
+[se ad769]
+[charaMove E 240,0 0.5]
+[charaMove C -156,0 0.5]
+[charaFadeout E 0.4]
+[charaFadeout C 0.4]
+[cameraMove 5.0 120,-40 1.2]
+[wt 0.5]
+[seStop ad769 1.5]
+[wt 2.5]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.7 1.0]
+[bgm BGM_BATTLE_137 0.7 0.5]
+[wait wipe]
+
+[charaDepth O 1]
+[charaFadein O 0.1 0,-200]
+[overlayFadein H 0.1 0,-736]
+[overlayFadein I 0.1 0,736]
+[cameraMove 0.1 0,0 1.01]
+[wt 1.0]
+
+[charaShake O 0.02 1 1 0]
+[charaMove O 60,-200 4,5]
+[charaMoveScale O 1.1 4.5]
+[cueSe SE_23 23_ad1293 0.7 1.0]
+[wipein rectangleStripRightToLeft 0.7 1.0]
+[bgm BGM_BATTLE_137 0.7 1.0]
+[wait wipe]
+
+[wipeFilter cinema 0.5 0]
+[wt 2.5]
+
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[cueSeVolume 23_ad1293 1.2 0.5]
+[charaShake O 0.02 1 1 1.0]
+[charaFadeout O 1.0]
+[wt 1.2]
+
+[se ad769]
+[charaFace L 0]
+[charaFace M 0]
+[charaFadein L 0.4 -500,-50]
+[charaMove L 450,-50 2.0]
+[wt 0.5]
+[charaFadein M 0.4 -700,-50]
+[charaMove M 250,-50 2.0]
+[wt 0.5]
+
+[se ad85]
+[wt 0.2]
+[se ad628]
+[seStop ad769 0.2]
+[effect bit_talk_gram_slash_violet_01]
+[wt 0.3]
+[charaSpecialEffect L erasure 1 0.3]
+[charaSpecialEffect M erasure 1 0.3]
+[wait charaSpecialEffect L]
+
+[shake 0.05 5 4 3.5]
+[effect bit_talk_impactlanding]
+[se ad161]
+[effect bit_talk_35]
+[wt 0.5]
+[cueSe SE_23 23_ad1299]
+[wt 3.0]
+
+[charaTalk on]
+[charaDepth O 1]
+[charaDepth P 2]
+[charaDepth A 3]
+
+[charaScale A 1.2]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein P 1.0 90,-300]
+[charaFadein A 1.0 -45,-50]
+[charaMove P 120,-300 1.0]
+[charaMove A 0,-50 1.0]
+[wt 1.2]
+[charaFadein O 0.1 -60,-250]
+
+＠玛奇里
+啊啊，非常好。[r]超乎想象！
+[k]
+
+＠玛奇里
+不必在意什么燃料，从逃跑的那边开始吃吧！[r]反正食物遍地都是！
+[k]
+
+[charaFace A 0]
+
+＠玛奇里
+……趁现在运行控制例行程序……唔……？[r]指令的响应速度不该这么慢才对……
+[k]
+
+[messageOff]
+[cueSeVolume 23_ad1293 1.0 1.0]
+[charaShake O 0.02 1 1 0]
+[charaMoveScale O 1.2 4.5]
+[charaMove O -120,-250 4.5]
+[charaFadeout P 1.0]
+[charaFadeout A 1.0]
+[wt 3.0]
+
+[cueSeVolume 23_ad1293 1.2 0.5]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 1.0 0,-50]
+[charaFadein P 1.0 120,-300]
+[wt 1.2]
+[charaFadeout O 0.1]
+
+＠玛奇里
+接下来是那边吗？[r]对[#ＡＩ:拉妮物质]的感应也灵敏起来了啊。
+[k]
+
+[charaFace A 1]
+
+＠玛奇里
+[line 3]也罢。虽然形式上比我预想的[r]更接近自动驾驶，但是没问题。
+[k]
+
+＠玛奇里
+虽说牺牲了一点灵活度，但能有这种威力也值回票了。[r]好吧，贪婪地吞食，贪婪地膨胀吧！
+[k]
+
+＠玛奇里
+有从者的话，顺便吃掉也无妨哦。
+[k]
+
+[charaFace A 4]
+
+＠玛奇里
+反正没人能赢得了，谁都赢不了！[r]呼哈，呼哈哈哈哈！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[cueSeStop 23_ad1293 1.5]
+[bgmStop BGM_BATTLE_137 1.5]
+[wait fade]
+
+[charaFadeout P 0.1]
+[charaFadeout A 0.1]
+[wipeOff]
+[charaSet H 7046001 1 难敌2]
+[charaSet I 7046001 1 难敌3]
+
+[scene 190300]
+[wt 2.5]
+
+[se ad769]
+[seVolume ad769 0 0]
+[seVolume ad769 1.5 0.5]
+[cueSe SE_23 23_ad1292 1.5 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_81 0.1]
+
+[wt 1.5]
+[seStop ad769 1.3]
+[wt 1.3]
+[cueSeStop 23_ad1292 0.4]
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.4 1]
+[wt 0.4]
+
+＠难敌
+咿～呼～。够，够了吧？[r]已经跑得足够远了吧。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 6]
+[charaFadein J 0.1 1]
+
+＠希翁
+我们目前位置在哪儿？
+[k]
+
+[messageOff]
+[se ad15]
+[wt 0.6]
+
+[se ad1]
+[charaDepth R 3]
+[charaDepth D 4]
+[charaDepth Q 5]
+[charaFadein Q 0.5 0,-200]
+[wt 1.0]
+[charaFadeout J 0.1]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+[charaFadein R 0.1 0,-300]
+
+[subCameraOn 1]
+[charaLayer T sub #A]
+[charaLayer F sub #A]
+
+[charaDepth T 1]
+[charaDepth F 2]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 500,200]
+[charaFadein T 0.1 200,50]
+[subCameraFilter #A maskEdge cut359_mask11 4 98,206,228,255 0]
+[wt 0.1]
+[subRenderFadeinFSSideR #A 0.3 -95,200]
+[subRenderMoveFSSideR #A -95,-200 0.3]
+[wt 0.5]
+
+＠阿愈丝
+我看看……大概在这附近。
+[k]
+
+＠阿愈丝
+刚好位于[#生产部:Grow]、[#维持部:Keep]，[r]以及中央[#警防部:Defend]区域的交点吧。
+[k]
+
+[messageOff]
+[charaTalk off]
+[subRenderFadeout #A 1.0]
+[charaFadeout Q 1.0]
+[wt 1.0]
+[charaFadeout T 0.1]
+[charaFadeout F 0.1]
+
+[charaFace E 0]
+[charaFace C 9]
+[charaFadeinFSR E 0.1 2]
+[charaFadeinFSL C 0.1 0]
+[wt 1.5]
+
+[charaLayer T normal]
+[charaLayer F normal]
+[subCameraOff]
+[charaFadeout R 0.8]
+[charaFadeout D 0.8]
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk E]
+
+＠美杜莎
+你有用同型号间通讯通知[#生产部:Grow]的ＡＩ们吗？
+[k]
+
+[charaTalk C]
+[charaFace C 15]
+
+＠樱
+嗯，我让她们优先逃跑。[r]不必担心区域的情况，总之先离开。
+[k]
+
+＠樱
+不过那些孩子不同于[#转运部ＡＩ:型号Ｔ]，[r]移动速度并不快。
+[k]
+
+[charaFace C 10]
+
+＠樱
+在我们逃出来以后，[r]应该也有不少被那头巨大的怪物……
+[k]
+
+[charaTalk E]
+[charaFace E 12]
+
+＠美杜莎
+既然大家都四散而逃了，[r]敌人也不可能追击所有方位才对。
+[k]
+
+＠美杜莎
+只能认为损害已被控制在最小限度了。
+[k]
+
+[charaTalk C]
+[charaFace C 9]
+
+＠樱
+……[r]……
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_81 0.5 0.5]
+
+[charaDepth N 1]
+[charaDepth K 2]
+[charaTalk K]
+[charaFace K 4]
+[charaFadein K 0.1 1]
+[charaPut N 0,-200]
+[charaFadeTime N 0.2 0.5]
+
+＠迦摩
+（总感觉这ＡＩ的脸很像帕尔瓦蒂，[r]　令人坐立不安呢……）
+[k]
+
+[charaFadeout N 0.2]
+[charaFadeout K 0.2]
+[wt 0.2]
+
+
+[bgmStop BGM_EVENT_81 1.5]
+
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 16]
+[charaFadein C 0.1 1]
+
+＠樱
+啊，对，对不起。[r]承蒙各位相救，我却连句道谢都没有。
+[k]
+
+[charaFace C 0]
+
+＠樱
+请容我正式向各位致谢。
+[k]
+
+[bgm BGM_EVENT_92 0.1]
+
+＠樱
+我……被[#Saber:剑士]取名为樱，[r]是她的御主，也是[#生产部:Grow]的首席ＡＩ。
+[k]
+
+＠樱
+非常，感谢你们。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠阿愈丝
+既然收到了正式的求助，[r]身为[#修理部:Repair]的ＡＩ，我总不能置若罔闻嘛。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 16]
+[charaFadein C 0.1 1]
+
+＠樱
+……其实我联络时，没抱什么希望。[r]然而，为什么……？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠阿愈丝
+如你所见，我可以说已经与[r]这位[#Assassin:暗匿者]小姐[&他们:她们]联手了。
+[k]
+
+[charaFace F 3]
+
+＠阿愈丝
+该怎么说呢……圣杯战争自然需要努力，
+[k]
+
+＠阿愈丝
+但我觉得没必要因此就彻底切断[r]与其他ＡＩ之间的联系吧。
+[k]
+
+[charaFace F 0]
+
+＠阿愈丝
+而且我的愿望就是让这种联系变得更紧密。
+[k]
+
+＠阿愈丝
+所以嘛，就是正常地没法见死不救？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠樱
+请容我再说一遍。[r]……非常，感谢各位。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+＠难敌
+道谢就免了，[r]我们只是做了应做的事而已。
+[k]
+
+[charaFace G 0]
+
+＠难敌
+重要的是，既然大家也冷静下来了，容本老爷先观察。[r]不是吗……？　不对，再看看……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth R 1]
+[charaDepth H 2]
+[charaDepth C 3]
+[charaDepth S 4]
+[charaDepth I 5]
+[charaDepth E 6]
+[charaDepth D 7]
+
+[charaScale R 1.3]
+[charaScale I 1.03]
+[charaScale C 1.1]
+[charaScale D 1.1]
+
+[charaFace C 0]
+[charaFadein R 0.8 -120,-300]
+[charaFadein C 0.8 -150,-35]
+[wt 1.3]
+[charaFadeout G 0.1]
+
+[se ad60]
+[seStop ad60 0.5]
+[charaFace H 0]
+[charaFadein H 0.4 200,0]
+[charaMove H 220,0 0.4]
+[wt 0.4]
+[charaFace C 16]
+[wt 0.6]
+[charaMoveScale H 1.03 0.5]
+[charaMove H 200,0 0.5]
+[wt 1.0]
+
+[se ad60]
+[charaMove H 1 1.3]
+[wt 0.8]
+
+[charaFace D 16]
+[charaFadein S 0.5 120,-300]
+[charaFadein D 0.5 150,-35]
+[wt 1.0]
+[charaFadeout R 0.1]
+[charaFadeout H 0.1]
+[charaFadeout C 0.1]
+
+[seStop ad60 0.5]
+[charaFace I 0]
+[charaFadein I 0.4 -200,0]
+[charaMove I -260,0 0.5]
+[wt 0.4]
+[charaFace D 12]
+[wt 0.6]
+[charaMove I -240,0 0.7]
+[charaMoveScale I 1.05 0.7]
+[wt 1.3]
+[charaMove I -200,0 0.5]
+[wt 1.0]
+[charaMove I -220,0 0.3]
+[wt 1.3]
+
+[charaFace E 2]
+[charaFadein E 0.4 0,-45]
+[charaMove E -80,-45 0.8]
+[wt 0.1]
+[se ad183]
+[charaFace I 6]
+[charaShake I 0.02 1 1 0.5]
+[charaMove S 180,-300 0.8]
+[charaMove D 210,-35 0.8]
+[charaMove I -300,0 0.8]
+[wt 0.1]
+[se ad344]
+[seVolume ad344 0 0.6]
+[seStop ad344 1.0]
+[wt 1.1]
+
+[charaTalk on]
+[charaTalk E]
+
+＠美杜莎
+你在对樱做什么？[r]如果敢继续纠缠她，看我直接杀了你。
+[k]
+
+[charaTalk I]
+
+＠I：难敌
+可恶，身材不错，却是个危险的女人。[r]……你也不是。嗯，不是。
+[k]
+
+[charaFace I 2]
+
+＠I：难敌
+哼，看来你们也不是本老爷命中注定的女人呢。
+[k]
+
+[charaTalk E]
+[charaFace E 3]
+
+＠美杜莎
+我不知道你在说些什么[line 3]
+[k]
+
+＠美杜莎
+姑且不论樱，但你别以为救了我们[r]就能卖我个人情。
+[k]
+
+？1：（[#Saber:剑士]的，美杜莎……）
+？2：（感觉好像年轻了一点呢……）
+？！
+
+[messageOff]
+[charaFadeout S 0.5]
+[charaFadeout I 0.5]
+[charaFadeout E 0.5]
+[charaFadeout D 0.5]
+[wt 0.7]
+[charaScale C 1.0]
+
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠阿愈丝
+没关系啦。先不论[#Berserker:狂战士]，[r]我可从未有过这种想法。
+[k]
+
+＠阿愈丝
+总之，刚才我让[#修理部:Repair]的大家也来这边了。
+[k]
+
+＠阿愈丝
+受损的[#生产部:Grow]孩子们就交给我们来修理吧。
+[k]
+
+[charaFace F 3]
+
+＠阿愈丝
+不过，要在哪里修理呢？[r]是不是应该让她们在这里集合？
+[k]
+
+[charaFace F 8]
+
+＠阿愈丝
+不，还得取决于[#Caster:魔术师]……[r]那头巨大怪物的动向吧。
+[k]
+
+＠阿愈丝
+万一它追到这里来，[r]还是逃离这里为妙吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+
+＠希翁
+等一下。我记得[#警防部:Defend]区域[r]应该禁止针对ＡＩ的攻击吧？
+[k]
+
+＠希翁
+那还是从当前地点再移动一段距离，[r]完全进入中央部后，
+[k]
+
+＠希翁
+至少就不用担忧ＡＩ今后的安危了。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠樱
+说得对。
+[k]
+
+＠樱
+就是考虑到这一点，我才会联系[#生产部:Grow]的孩子们，[r]让她们尽可能往中央逃。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠阿愈丝
+啊，对哦！　那就再走一段路，[r]去那边搭建战地医院[line 3]
+[k]
+
+[bgmStop BGM_EVENT_92 1.2]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+＠？？？
+很遗憾，我不建议这样做。
+[k]
+
+[charaTalk E]
+[charaFace E 16]
+[charaFadein E 0.1 1]
+
+＠美杜莎
+是谁！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[cueSe SE_23 23_ad1303 1.0 1.0]
+[wt 1.5]
+
+[cueSeStop 23_ad1303 0.4]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 1]
+[wt 1.5]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_91 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠迦摩
+我记得，你是[#警防部:Defend]的首席ＡＩ……？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠阿愈丝
+是ＤＸ吧。[r]你为什么会在这里？
+[k]
+
+＠阿愈丝
+不，这里与[#警防部:Defend]也毗邻，[r]你会出现在这里一点也不奇怪。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 6]
+[charaFadein J 0.1 1]
+
+＠希翁
+……发言也很令人在意。你所说的不建议，[r]是针对我们的哪种行为呢？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ＤＸ
+回答包括多个对象。
+[k]
+
+＠ＤＸ
+不建议[#生产部:Grow]ＡＩ，或是修理她们的[#修理部:Repair]ＡＩ集合。[r]也不建议让她们聚集到[#警防部:Defend]。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠樱
+请等一下。[r]你的意思是，不要让大家前往[#警防部:Defend]区域避难吗？
+[k]
+
+＠樱
+[#警防部:Defend]的中立规则，应该也包括这种情况下[r]充当紧急避难场所的效力才对。
+[k]
+
+＠樱
+正如教会是圣杯战争参加者的中立区域一样，[r][#警防部:Defend]也是ＡＩ们的[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠ＤＸ
+……肯定，你说得没错。[r]但我不得不明言。
+[k]
+
+＠ＤＸ
+目前，那个『[#警防部:Defend]内的ＡＩ中立规定』，[r][#并没有在发挥效力]。
+[k]
+
+＠ＤＸ
+由[#Caster:魔术师]的使魔……被称呼为蠢魔的东西[r]合为一体诞生的巨大物体，现在，
+[k]
+
+[bgmStop BGM_MAP_91 2.0]
+＠ＤＸ
+已入侵中央区域，对[#警防部ＡＩ:型号Ｄ]们[r]见一个吞一个[line 3]
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[blur lens 0.5 2 20]
+[subCameraOn 1]
+[charaLayer T sub #A]
+[charaLayer G sub #A]
+[charaLayer E sub #A]
+[charaLayer C sub #A]
+[charaLayer K sub #A]
+[charaLayer F sub #A]
+[charaLayer J sub #A]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth T 1]
+[charaDepth G 2]
+[charaDepth E 3]
+[charaDepth C 4]
+[charaDepth K 5]
+[charaDepth F 6]
+[charaDepth J 7]
+
+[charaFace G 9]
+[charaFace E 16]
+[charaFace C 2]
+[charaFace K 18]
+[charaFace F 7]
+[charaFace J 4]
+
+[charaFadein T 0.1 -120,50]
+[charaFadein G 0.1 100,270]
+[charaFadeinFSL E 0.1 -210,215]
+[charaFadeinFSL C 0.1 -440,210]
+[charaFadeinFSR J 0.1 250,150]
+[charaFadein F 0.1 -80,210]
+[charaFadeinFSR K 0.1 430,210]
+[wt 0.1]
+
+[subCameraFilter #A maskEdge cut359_mask08 4 0,0,0,255 0]
+[subRenderFadein #A 0.4 -100,-330]
+[subRenderMove #A 0,-330 0.3]
+[wt 2.3]
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

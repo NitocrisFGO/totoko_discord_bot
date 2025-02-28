@@ -1,0 +1,1246 @@
+
+
+
+＄03-00-13-25-6-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252450 1 库库尔坎]
+[charaSet B 1098253610 1 恐龙王]
+[charaSet C 1098257400 1 希翁]
+[charaSet D 1098257300 1 达·芬奇]
+[charaSet E 1098254800 1 尼莫水兵]
+[charaSet F 1098257910 1 玛修]
+[charaSet G 1098239310 1 卡多克]
+[charaSet H 1098123000 1 穆尼尔]
+[charaSet I 1098182110 1 尼莫教授]
+[charaSet J 6042002 1 高扬斯卡娅]
+[charaScale J 1.3]
+[charaSet K 1098253500 1 恐爪龙十一兄弟·老大]
+[charaSet L 1098253500 1 恐爪龙十一兄弟·老三]
+[charaSet M 1098253520 1 恐爪龙十一兄弟·老七]
+
+[sceneSet N 177600 1]
+[charaScale N 1.3]
+[sceneSet O 177700 1]
+[charaScale O 1.3]
+[sceneSet P 177801 1]
+[charaScale P 1.2]
+[sceneSet Q 170302 1]
+[charaScale Q 1.01]
+[sceneSet R 177700 1]
+[charaScale R 1.2]
+[sceneSet S 132900 1]
+[charaScale S 1.01]
+
+[charaSet T 98115000 1 特效用1]
+
+[sceneSet U 170302 1]
+[charaScale U 1.01]
+
+[sceneSet V 177800 1]
+[charaScale V 1.25]
+[scene 177600]
+
+[charaTalk depthOff]
+[charaDepth N 1]
+
+[charaFadein N 0.1 0,-350]
+[wt 0.1]
+
+[charaMoveScale N 1.1 30.0]
+[charaMove N 0,-250 30.0]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_MAP_64 0.7]
+
+[wt 1.0]
+
+＠
+最后的迪诺斯们奔跑在染成赤红的大平原上。
+[k]
+
+＠
+有人甚至没能靠近就倒下了，[r]有人为救助同胞而倒下，
+[k]
+
+＠
+有人不停地攻击敌人的外皮直到倒下，
+[k]
+
+＠
+有人在圆盘飞过头顶后依然回身追赶，[r]穷追到最后一刻，但没能对其造成任何伤害就倒下了，
+[k]
+
+＠
+有人划着闪电般的轨迹在空中驱驰，杀死了圆盘的[r]一条命，却付出了手脚被扭断坠落到大地的代价。
+[k]
+
+[messageOff]
+[charaFadeout N 1.5]
+[wt 1.7]
+
+＠
+就这样，敌人穿越大平原，[r]迪诺斯们的进军结束了。
+[k]
+
+＠
+拥有强大生命力的迪诺斯哪怕[r]被削去半边身体也不会命丧当场。
+[k]
+
+＠
+以破碎的身躯倒在地上，[r]接受了生命将在数分钟后到来的终结，
+[k]
+
+＠
+却又以漠然的，仿佛在寻求什么的眼神，[r]凝视着早已远去的红色太阳。
+[k]
+
+[messageOff]
+[scene 169402 1.0]
+[wt 1.5]
+
+[subCameraOn 2]
+[charaLayer Q sub #A]
+[charaLayer A sub #A]
+[charaLayer U sub #B]
+[charaLayer B sub #B]
+
+[charaDepth U 3]
+[charaDepth B 4]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 25,270]
+[charaFadein U 0.1 -100,70]
+
+[subCameraFilter #B maskEdge cut359_mask05 4 240,230,140,255 0]
+
+[charaDepth Q 1]
+[charaDepth A 2]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 25,270]
+[charaFadein Q 0.1 100,70]
+
+[subCameraFilter #A maskEdge cut359_mask05 4 0,174,149,255 0]
+[subRenderFadeinFSR #A 0.4 220,-250]
+[subRenderMoveFSR #A 220,-300 0.3]
+[wt 0.6]
+
+＠库库尔坎
+[line 6]
+[k]
+
+
+
+[messageOff]
+[charaTalk B]
+[subRenderFadeinFSL #B 0.4 -220,-250]
+[subRenderMoveFSL #B -220,-300 0.3]
+[wt 0.4]
+
+＠恐龙王
+最终，你到最后都没有伸出援手啊。[r]你完全可以直接掀翻台面的。
+[k]
+
+＠恐龙王
+感觉如何，庇护至今的物种死绝的景象。[wt 0.7][r]没什么特别的感想吗？　[wt 0.7][charaFaceFade B 5 0.2]嘁，是哦。
+[k]
+
+[charaFaceFade B 6 0.2]
+
+＠恐龙王
+反正我是挺开心的，所以无所谓啦。[r]乌库伯那家伙，最后甚至破罐子破摔地哼起歌来了哦。
+[k]
+
+＠恐龙王
+害我也忍不住哼唱起来了。[r]就是那首什么的骑行。
+[k]
+
+[charaTalk A]
+[charaFace A 12]
+
+＠库库尔坎
+[line 3]迪诺斯是你煽动的吗？[r]说什么比起平稳的灭绝，还是地狱般的全军覆没更好？
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+
+＠恐龙王
+没错。这就是特斯卡特利波卡的使命。[r]战斗，然后被打败。身为神，我也只能揭示这么点了。
+[k]
+
+＠恐龙王
+不过，那些家伙是不会满足于此的吧。[r]6600万年份的倦怠可是很棘手的哦。
+[k]
+
+＠恐龙王
+既然无法在战争中满足，那就不是我的任务了。[r]这次是我输了。
+[k]
+
+[charaFaceFade B 6 0.2]
+
+＠恐龙王
+再见啦，鸟公。[r]要是还有下次，届时就来场[#代理人战争:认真比试]吧。
+[k]
+
+[messageOff]
+[charaEffect B bit_talk_06]
+[wt 2.0]
+[se ad52]
+[charaSpecialEffect B flashErasure 1 2.0]
+[wait charaSpecialEffect B]
+[charaEffectStop B bit_talk_06]
+[wt 0.5]
+
+[subRenderFadeout #A 0.5]
+[subRenderFadeout #B 0.5]
+[wt 0.5]
+
+[charaFadeout U 0.1]
+[charaFadeout B 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout A 0.1]
+[charaScale Q 1.1]
+[charaScale A 1.1]
+[wt 1.0]
+
+[subCameraOff]
+[charaLayer Q normal]
+[charaLayer A normal]
+[charaLayer U normal]
+[charaLayer B normal]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 1.5 0,-30]
+[charaFadein Q 1.5 0,-250]
+[charaMoveScale A 1.2 20.0]
+[charaMoveScale Q 1.2 20.0]
+[charaMove A 0,-40 20.0]
+[charaMove Q 0,-300 20.0]
+[wt 2.5]
+
+＠库库尔坎
+[line 6]
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_MAP_64 1.5]
+[wait fade]
+
+[charaFadeout Q 0.1]
+[charaFadeout A 0.1]
+[cameraMove 0.1 0,0 1.01]
+
+[charaSet A 1098158330 1 尼莫]
+[charaSet B 1098255100 1 戈尔德鲁夫]
+
+[scene 169505]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[wt 2.0]
+
+[bgm BGM_EVENT_122 0.1]
+
+
+[scene 132900 1.5]
+[wt 2.0]
+
+
+？1：先遣队返回啦！
+
+？！
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠尼莫
+欢迎回来。[r]辛苦你们了，竟能一路上接连不断地攻击ORT。
+[k]
+
+＠尼莫
+多亏你们的全力以赴，才出现了击破ORT的可能性。[r]目前作战已进入最终阶段。
+[k]
+
+[charaTalk off]
+[charaDepth A 2]
+[charaDepth B 3]
+[charaDepth V 5]
+[se ad907]
+[seVolume ad907 0 0]
+[seVolume ad907 1.0 0.2]
+＠尼莫
+主[charaFadein V 1.0 -170,-250][charaMove V -120,-250 40.0]炮，[#人理定理:Hume Barrel]·[#未来证明:Ray Proof]的填充已基本完成。
+[k]
+
+＠尼莫
+待本舰与ORT的距离只剩30公里时，[r]就启动特里同引擎虚拟五号、六号。
+[k]
+
+＠尼莫
+让源自虚数空间的电力供应稳定下来，[r]进入发射态势。
+[k]
+
+＠尼莫
+在那之前，诸位就在这管制室待命吧。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaFace B 15]
+[charaFadein B 0.1 1]
+＠尼莫
+实际上，我们已经不打算再打近距离战斗了。[r]接下来的问题就在于这一击是命中还是射偏。
+[k]
+
+[messageOff]
+[seStop ad907 1.0]
+[charaFadeout V 0.8]
+[wt 0.9]
+[charaTalk on]
+＠戈尔德鲁夫
+能别这么轻描淡写地说恐怖的事吗？[r]何不考虑现在就开始运转五号与六号呢？
+[k]
+
+＠戈尔德鲁夫
+可千万别给我整什么关键时刻[r]『无法启动！』的戏码哦？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+＠希翁
+我也很想这样做，[r]但主炮也存在有效射程。
+[k]
+
+＠希翁
+根据特里斯墨吉斯忒斯Ⅱ的计算，与ORT的距离[r]必须得在10公里以内时才能造成有效打击。
+[k]
+
+＠希翁
+那家伙是哪怕只剩一点细胞也能复原的怪物。[r]必须一击，一瞬间让它彻底蒸发。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+唔。所以才不能提前拉满功率吗。[r]这我倒是能理解……
+[k]
+
+＠达·芬奇
+万一ORT具备射程超越[#Storm:我们]，[r]超越10公里的攻击手段时又该怎么办？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 16]
+[charaFadein C 0.1 1]
+
+＠希翁
+[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+
+＠戈尔德鲁夫
+你这『到那时就听天由命吧』的表情[r]是什么意思！
+[k]
+
+＠戈尔德鲁夫
+真的没有吗？[r]没有被先发制人时的防御手段吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠尼莫
+没有。[r]主炮展开时舰艇无法进行大幅度的动作。
+[k]
+
+＠尼莫
+只能仰仗魔术的物理保护与装甲的电磁屏障了。[r]当然，所需的储备也准备完毕了。
+[k]
+
+＠尼莫
+总之就是ORT一旦超乎我方预料就完蛋了。[r]这点你还是认命吧，戈尔德鲁夫。
+[k]
+
+＠尼莫
+人事已尽。现阶段彼此的牌都发完了，[r]接下来唯有坐在座位上一决胜负。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 18]
+[charaFadein B 0.1 1]
+
+＠戈尔德鲁夫
+唔……既然船长都说到这份上了，[r]看来确实别无他法了……
+[k]
+
+[charaFace B 14]
+
+＠戈尔德鲁夫
+好吧！　全员，各就各位！[r]无论是哭是笑，这都是最后了！
+[k]
+
+＠戈尔德鲁夫
+还有什么没做完的事就趁现在处理完毕！[r]ORT可不会等我们带薪如厕哦！
+[k]
+
+[bgmStop BGM_EVENT_122 2.0]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad794]
+[wt 2.8]
+[seStop ad794 0.3]
+[wt 0.5]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+[bgm BGM_EVENT_125 1.1]
+
+＠尼莫水兵
+ORT，穿越大平原！[r]距离奇琴伊察还有33、[wt 0.8]32、[wt 0.8]30[line 3]
+[k]
+
+＠尼莫水兵
+突破30啦～！[r]通知轮机室，通知～～！
+[k]
+
+[charaTalk T]
+
+＠T：尼莫引擎
+好嘞，真是让我好等！[r]一号、二号、虚拟五号、六号，并列运转！
+[k]
+
+＠T：尼莫引擎
+三号、四号已用于防御，所以无法连续发射～！[r]一定要精确地命中啊，水兵！
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+
+＠尼莫水兵
+放心吧！　目标远比『异星之神』那次大得多！[r]不会射偏的啦～！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+
+＠玛修
+……终于到时候了吧。
+[k]
+
+＠玛修
+Storm Border背对着太阳，[r]所以ORT会笔直朝我们过来。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠卡多克
+接下来……只要ORT不具备射程超过10公里的[r]攻击手段就没问题了吧……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠穆尼尔
+与ORT的距离，[wt 0.8]23、[wt 0.8]21、[wt 0.7]19[line 3][wt 0.6][charaFace H 8][r]不会吧，那家伙是不是在提升速度？
+[k]
+
+＠穆尼尔
+是打算直接撞过来撞碎Storm吗？
+[k]
+
+＠穆尼尔
+不，就算是ORT，也不可能在几秒内[r]走完10公里的距离才[line 3]
+[k]
+
+[bgmStop BGM_EVENT_125 1.0]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[flashin once 0.8 0.8 D72727FF 00000000]
+[se ad9]
+[wt 1.7]
+[flashin once 0.8 0.8 D72727FF 00000000]
+[wt 1.3]
+[seStop ad9]
+[wt 0.3]
+
+[bgm BGM_BATTLE_137 0.1]
+
+[charaPut T 1]
+[charaEffect T bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[wt 0.3]
+[charaTalk I]
+[charaFace I 2]
+[charaFadein I 0.1 1]
+
+＠尼莫教授
+好了，紧急事态～。[r]ORT内部的细胞质量正在增大～。
+[k]
+
+＠尼莫教授
+是惯例的金属触手吧～。[r]长度也许会伸长至20公里～。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠戈尔德鲁夫
+竟然不是撞过来而是靠触手！？[r]呃，唔噢噢噢噢噢噢！？
+[k]
+
+＠戈尔德鲁夫
+有个恶心的玩意正从前方伸过来，伸过来了！[r]船长，采取回避行动！
+[k]
+
+＠戈尔德鲁夫
+我们跟那玩意战斗过好多次了！[r]靠装甲是防不住的！
+[k]
+
+＠戈尔德鲁夫
+一旦被碰到，就会以触点为起点遭到融合！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠尼莫
+电磁屏障，最大输出！[r]在碰到装甲前弹开它！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[cueSe Servants_9944000 m89601 0 0.6]
+[wt 0.6]
+[se ad815]
+[se adm31]
+[cueSe Servants_303000 bac504]
+[cueSe SE_22 22_adm89]
+[shake 0.05 5 4 0.6]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.2]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.4]
+[cueSe Servants_303000 bac504]
+[shake 0.04 5 4 1.9]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.4]
+[cueSeStop 22_adm89 0.5]
+[wt 1.5]
+[seStop adm31 1.0]
+[shake 0.03 2 1 0.5]
+[wt 1.0]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠尼莫水兵
+弹是弹开了，但势头不减！[r]再这样下去[#三号:引擎]会过热的～！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠尼莫
+不用管，维持住5秒！[r]有这点时间就能击坠它了！
+[k]
+
+？1：能击坠它……？
+？2：难道灵子鱼雷在发射后能够掉头吗？
+？！
+
+[charaFace A 6]
+
+＠尼莫
+这个嘛，确实可以，但会伤到舰艇，[r]所以当做最终手段。
+[k]
+
+[charaFace A 2]
+
+＠尼莫
+比起这个，现在有值得信赖的友军。[r]让我们相信[#她]的本事吧。
+[k]
+
+[charaFace A 8]
+
+＠尼莫
+通知79式玉藻坦克，同意量子汇款！[r]抬起炮管，开战了！
+[k]
+
+[messageOff]
+[wipeout rectangleStripDownToUp 0.5 1.0]
+[bgmStop BGM_BATTLE_137 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+
+[subCameraOn 2]
+[subCameraFilter #A maskEdge cut359_mask02 4 245,195,194,255 0]
+[subCameraFilter #B maskEdge cut359_mask12 4 255,255,255,255]
+
+[charaLayer R sub #A]
+[charaLayer J sub #A]
+[charaLayer S sub #B]
+[charaLayer B sub #B]
+
+[charaTalk depthOff]
+[charaDepth R 1]
+[charaDepth J 2]
+
+[charaDepth S 1]
+[charaDepth B 2]
+
+[charaDepth N 1]
+
+[charaFace J 28]
+[charaFace B 6]
+[charaFadein R 0.1 0,300]
+[charaFadein S 0.1 -450,50]
+[charaFadein J 0.1 0,245]
+[charaFadein B 0.1 -510,210]
+
+[charaFadein O 0.1 0,-380]
+[scene 177700]
+[wt 1.0]
+
+[cueSe SE_22 22_ade778]
+[wt 1.0]
+
+[cueSe Servants_604200 NP_604200_11]
+[shake 0.03 5 4 4.0]
+[charaMove O 0,-140 3.0]
+[wipein rectangleStripUpToDown 1.0 1.0]
+[wait wipe]
+
+[cueSeStop 22_ade778 0.3]
+[cueSe Servants_604200 NP_604200_5]
+[wt 1.0]
+[shake 0.02 2 2 1.0]
+[charaFadeout O 1.0]
+[wt 1.2]
+
+[bgm BGM_BATTLE_174 0.1]
+
+
+[charaTalk J]
+[subRenderFadein #A 0.4 100,-300]
+[subRenderMove #A 0,-300 0.3]
+[wt 0.6]
+
+＠高扬斯卡娅
+交易成立，我恭候已久。[r]为了此刻特地搜刮材料建造而成的这座炮塔[line 3]
+[k]
+
+＠高扬斯卡娅
+79式掷祸大社·米克特兰SP！[r]将会彻底保护好各位重要的财产！
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+[charaTalk B]
+[subRenderFadeinFSSideL #B 0.3 295,200]
+[subRenderMoveFSSideL #B 95,-200 0.3]
+[wt 0.5]
+
+＠戈尔德鲁夫
+啊[line 4]！[r]我正奇怪她怎么不在呢[line 3]！
+[k]
+
+[subRenderFadeout #B 0.2]
+[wt 0.2]
+[charaFadeout B 0.1]
+[charaFadeout S 0.1]
+
+[charaTalk J]
+[charaFace J 9]
+[subRenderFadein #A 0.2 0,-300]
+
+＠高扬斯卡娅
+来吧，各位临时员工！[r]请遵照员工手册工作哦～♡
+[k]
+
+[messageOff]
+[charaLayer B normal]
+
+[scene 169105 0.5]
+[subRenderFadeout #A 0.5]
+[wt 0.7]
+[subCameraOff]
+
+[charaDepth K 1]
+[charaDepth L 3]
+[charaDepth M 2]
+[charaTalk K]
+[charaFace K 1]
+[charaFace L 0]
+[charaFace M 0]
+[charaFadeinFSL K 0.1 -200,0]
+[charaFadeinFSR L 0.1 500,0]
+[charaFadein M 0.1 135,0]
+
+＠恐爪龙十一兄弟·老大
+噢噢，高扬大姐头下达指令了[line 2]！[r]各就各位，[#兄弟:我们]！
+[k]
+
+[charaTalk L]
+
+＠恐爪龙十一兄弟·老三
+噢噢！　终于能帮上[%1]他们的忙了！
+[k]
+
+＠恐爪龙十一兄弟·老三
+也不枉我们被大姐头招揽以后，[r]一直被强迫在树海暗中劳动啦[line 2]！
+[k]
+
+[charaTalk M]
+
+＠恐爪龙十一兄弟·老七
+Storm Border能听到这段通讯吗？[r]能听到？　是吗，那你们都听到了吧！
+[k]
+
+＠恐爪龙十一兄弟·老七
+我不是说过要在补时阶段逆转嘛！[r]第一球就由我们拿下吧[line 2]！
+[k]
+
+[messageOff]
+[wipeout rectangleStripUpToDown 0.5 1.0]
+[bgm BGM_BATTLE_174 0.5 0.5]
+[wait wipe]
+
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[scene 132900]
+[wt 0.5]
+
+[wipein rectangleStripDownToUp 0.5 1.0]
+[bgm BGM_BATTLE_174 0.5 1.0]
+[wait wipe]
+
+[wt 0.5]
+
+？1：死亡翻滚队的各位！
+？2：哈[line 3]哈哈，哈哈哈哈哈！
+
+？！
+
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 19]
+[charaFadein F 0.1 1]
+
+＠玛修
+大家[line 3]大家……！[r]都还活着呢！
+[k]
+
+[charaTalk T]
+
+＠T：恐爪龙十一兄弟
+其实真的很危险，但我们很擅长假装被干掉嘛！[r]感觉玛修大姐头也很精神，真是再好不过了！
+[k]
+
+＠T：恐爪龙十一兄弟
+发射发射不断发射[line 2]！
+[k]
+
+[bgmStop BGM_BATTLE_174 1.5]
+
+＠T：恐爪龙十一兄弟
+我们会把那些恶心人的玩意[r]全部拦截下来的～！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_163 0.1]
+[cueSe SE_23 23_ad1265 1.5 0.7]
+[scene 177803 0.5]
+[wt 0.5]
+
+
+[cueSe Servants_604200 m45321 0 0.7]
+[wt 0.7]
+[se ad880]
+[cueSe SE_23 23_ad1248 0 0.8]
+[cueSe NoblePhantasm_604200 NP_604200_10 0 0.7]
+[wt 1.0]
+[se ad1015]
+[wt 1.0]
+[se ad609]
+[wt 1.5]
+[cueSe SE_22 22_ad1165 0 0.4]
+[wt 0.5]
+[cueSeStop 23_ad1248 1.5]
+[wt 1.5]
+
+
+[cueSeStop 23_ad1265 1.0]
+
+[scene 132900 1.0]
+[wt 1.5]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠穆尼尔
+ORT，从20公里处进一步接近！[wt 0.8][r]18、[wt 0.8]16、[wt 0.8]14[line 3]距离进入有效射程，还有20秒！
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[se ad146]
+[wt 3.0]
+[seStop ad146 0.7]
+[se ad879]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠尼莫
+抗威胁反应阀，开启！　魔力循环全开，[r]光谱，朝舰首剑身重叠！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad904]
+[wt 1.5]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠尼莫水兵
+误差角度修正，示巴确认命中保险装置解除！[r][line 3]瞄准，固定为敌方宇宙侵略体·ORT的中心！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠戈尔德鲁夫
+噢噢……能行，能行啊～！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth P 1]
+[charaFadein P 1.0 50,-300]
+[charaMoveScale P 1.1 7.0]
+[charaMove P 0,-250 7.0]
+[cueSe SE_23 23_ad1265 1.0 0.5]
+[se ad779]
+[seVolume ad779 0 0.5]
+[wt 1.5]
+[seVolume ad779 2.0 0.4]
+[scene 177801]
+[wt 2.5]
+[charaFadeout P 1.0]
+[wt 1.5]
+
+＠穆尼尔
+已进入有效射程！[r]船长！
+[k]
+
+＠尼莫
+主炮，发射[line 3]！
+[k]
+
+
+[messageOff]
+
+[seStop ad779 1.0]
+[cueSeStop 23_ad1265 1.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 10000]
+[wt 1.0]
+
+[fadein black 0.1]
+[wait fade]
+
+[wt 0.5]
+
+[criMovie talk_mov163 bgmPlay false]
+[wt 34.0]
+[scene 10001 1.0]
+[wt 1.5]
+
+[fadeout black 1.5]
+[wait fade]
+
+
+[scene 132900]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠尼莫
+[line 3]什么……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 25]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+宇宙风暴[line 3]！？[r]怎么会，产生器官应该已经被摧毁了吧！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[charaPut T 1]
+[charaTalk I]
+[charaFace I 2]
+[charaFadein I 0.1 1]
+
+＠尼莫教授
+是的呜哇啊啊啊。
+[k]
+
+[charaFace I 4]
+
+＠尼莫教授
+内部质量与重力生成都是之前的两倍～～！[r]那个该不会是[#次世代]的器官吧～～（泪）。
+[k]
+
+＠尼莫教授
+恐怕并不是再生，而是以新的概念[r]重新打造出来的～～！
+[k]
+
+＠尼莫教授
+凭借这股余波排泄出老化、不需要的细胞，[r]又开始形成蜘蛛型的角质了～！
+[k]
+
+？1：[line 3]（哑口无言）
+？2：也就是要从头再来吗！？
+？！
+
+[charaFadeout I 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+[charaEffectStop T bit_talk_10_LowLevel]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠尼莫
+不，它没有彻底防御住！[r]只是[#未来证明:Ray Proof]的弹道被扭曲了而已！
+[k]
+
+＠尼莫
+希翁，计算出途径那重力圈也能直接命中的弹道！[r]引擎，抓紧准备第二发！
+[k]
+
+＠尼莫
+距离一旦被逼近就完了！[r]不能后退，一旦太阳被它夺走，就毫无胜算了！
+[k]
+
+[charaTalk T]
+[charaEffect T bit_talk_10_LowLevel_depth]
+
+＠T：尼莫引擎
+我已经说过做不到了吧～！？[r]哪怕烧坏引擎也要花上两分钟啊！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 8]
+[charaFadein H 0.1 1]
+
+＠穆尼尔
+ORT，产生着宇宙风暴逐渐接近！[r]距离，[wt 0.6]9[line 3][wt 0.8]8[line 3][wt 0.8]7[line 3]
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[se ad876]
+[seVolume ad876 0 0.8]
+[se ad14]
+[shake 0.05 5 4 0]
+[charaSet K 1098257510 1 拉斯普京]
+[charaScale K 1.2]
+[sceneSet L 10000 1]
+[charaScale L 1.01]
+[sceneSet M 10001 1]
+[charaScale M 1.01]
+[sceneSet N 132900 1]
+[charaScale N 1.2]
+[wt 2.0]
+
+[seVolume ad14 1.5 0.7]
+[shake 0.03 3 2 0]
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠尼莫水兵
+宇宙风暴造成的影响极大！[r]无法维持舰艇的稳定性了[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[cueSe SE_23 23_ad1252 0 0.3]
+[charaDepth M 9]
+[charaPut M 0,-200]
+[charaFadeTime M 1.5 0.4]
+[wt 2.0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠尼莫
+唔……！
+[k]
+
+
+？1：船长……！
+？2：（由我上……！）
+
+？！
+
+[charaFace A 8]
+
+＠尼莫
+你可千万别说什么自己来！
+[k]
+
+＠尼莫
+外面是宇宙射线的地狱，[r]就算有礼装也无法保障生命！
+[k]
+
+＠尼莫
+现在应该[line 3][wt 0.7]现在应该[line 3]
+[k]
+
+[charaDepth L 1]
+[charaDepth A 2]
+
+[charaPut L 0,-200]
+[charaFadeTime L 0.2 0.5]
+
+＠尼莫
+（虽然能撤退并逃离米克特兰……[r]　但就没有下一次可言了……！）
+[k]
+
+＠尼莫
+（真丢脸，明明有这么充足的准备时间，[r]　竟然还会束手无策[line 3]！）
+[k]
+
+＠尼莫
+（至少要争取到第二发所需的时间[line 3]）
+[k]
+
+[shake 0.02 3 2 0]
+[seVolume ad14 1.0 0.5]
+[bgmStop BGM_EVENT_163 1.5]
+
+[messageOff]
+[charaTalk off]
+[charaDepth N 7]
+[charaDepth K 8]
+
+[charaFace K 5]
+[charaFadein N 1.5 -100,-320]
+[charaFadein K 1.5 -100,-20]
+[charaMove N 0,-320 1.5]
+[charaMove K 0,-20 1.5]
+[wt 1.7]
+[charaFadeout L 0.1]
+[charaFadeout A 0.1]
+
+[charaTalk K]
+
+＠拉斯普京
+我能理解。毕竟只差最后一步了嘛。[r]所以我有个提议，不知诸位意下如何？
+[k]
+
+[messageOff]
+[charaDepth D 1]
+[charaDepth B 2]
+[charaDepth C 3]
+[charaDepth G 3]
+
+[charaFace C 6]
+[charaFace D 25]
+[charaFace B 5]
+[charaFace G 3]
+[charaFadeinFSL C 0.1 -400,0]
+[charaFadein D 0.1 -150,0]
+[charaFadein G 0.1 175,0]
+[charaFadeinFSR B 0.1 400,0]
+[wt 0.1]
+[charaFadeout N 0.5]
+[charaFadeout K 0.5]
+[wt 2.0]
+[charaScale K 1.0]
+
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaDepth F 1]
+[charaDepth I 1]
+[charaDepth T 2]
+[charaDepth E 2]
+[charaDepth H 3]
+[charaDepth A 4]
+
+[charaFace A 1]
+[charaFace F 5]
+[charaFace I 2]
+[charaFace H 2]
+[charaFace E 11]
+
+[charaPutFSL T -200,0]
+[charaFadeinFSSideL H 0.1 -425,0]
+[charaFadeinFSL I 0.1 -200,0]
+[charaFadein A 0.1 1]
+[charaFadeinFSR E 0.1 200,0]
+[charaFadeinFSSideR F 0.1 350,0]
+[wt 1.5]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFadeout I 0.1]
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+[charaEffectStop T bit_talk_10_LowLevel_depth]
+
+[charaFace K 5]
+[charaFadein K 0.1 1]
+[wt 0.5]
+
+？1：拉[line 3]拉斯普京！？
+
+？！
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[seStop ad14 2.0]
+[cueSeStop 23_ad1252 2.0]
+[wait fade]
+[shakeStop]
+[wt 0.5]
+[soundStopAll]
+[end]

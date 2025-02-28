@@ -1,0 +1,1843 @@
+
+
+＄03-00-13-08-4-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098255200 1 哈贝特洛特]
+[charaSet C 1098252900 1 特佩乌]
+[charaSet D 1098257500 1 拉斯普京]
+[charaSet E 1098254800 1 尼莫水兵A]
+[charaSet F 1098254800 1 尼莫水兵B]
+[charaSet G 1098255100 1 戈尔德鲁夫]
+[charaSet H 6042000 1 高扬斯卡娅]
+[charaSet I 1098253900 1 伊斯卡利]
+[charaSet J 1098252540 1 奥塞洛特尔1]
+[charaSet K 1098252540 1 奥塞洛特尔2]
+[charaSet L 1098252540 1 奥塞洛特尔3]
+[charaSet M 1098252540 1 奥塞洛特尔4]
+[charaSet N 1098252540 1 奥塞洛特尔5]
+[charaSet O 1098252540 1 奥塞洛特尔6]
+[charaSet P 1098253200 1 U－奥尔加玛丽]
+
+[imageSet Q back10000 1 1]
+[charaScale Q 1.3]
+
+[charaSet R 98115000 1 特效用]
+[charaSet S 98115000 1 特效用]
+[charaSet T 98115000 1 特效用]
+[charaSet U 98115000 1 特效用]
+[charaSet V 98115000 1 特效用]
+[charaSet W 98115000 1 特效用]
+[charaSet X 98115000 1 特效用]
+[charaSet Y 1098252940 1 特佩乌_B]
+
+[sceneSet Z 172200 1]
+[charaScale Z 1.1]
+
+[charaPut S 2000,2500]
+[charaEffect S bit_sepia01_depth_fs]
+
+[scene 170000]
+
+[charaFadein Z 0.1 0,-200]
+[charaMoveScale Z 1.01 4.0]
+
+[fadein black 1.5]
+[wait fade]
+
+
+[bgm BGM_EVENT_41 0.1]
+[wt 4.0]
+[charaFadeout Z 1.5]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 17]
+[charaFadein A 0.1 1]
+＠玛修
+…………
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠哈贝特洛特
+…………
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠特佩乌
+…………
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.6]
+
+？1：（……接下来，究竟，该做什么……）
+？2：（至少……得将大家的，遗体[line 3]）
+
+？！
+
+[sceneSet Z 170000 1]
+[charaScale Z 1.5]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+[wt 1.0]
+
+
+[charaFace D 8]
+＠拉斯普京
+…………很遗憾，这也是一种结果。[r]既然是战斗，自然会出现不归人。
+[k]
+
+＠拉斯普京
+水兵的事令人遗憾。虽然算不上辩解，[r]但伊斯卡利的身体能力确实堪比从者。
+[k]
+
+＠拉斯普京
+隐藏气息，隐藏身影，[r]精准地瞄准这个团队最弱的人。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠特佩乌
+不，应该是我。[r]最不适合战斗的人应该是我才对。
+[k]
+
+＠特佩乌
+水兵并没有参与战斗。[r]他为何要对不参战的人做那种事。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠拉斯普京
+身为迪诺斯的特佩乌氏与瓦克昌[r]两位的[#能力:规格]堪比从者。
+[k]
+
+＠拉斯普京
+你们只是没有战意而已，[r]一旦开始防卫，便会发挥出无可比拟的强劲实力。
+[k]
+
+[charaFace D 7]
+＠拉斯普京
+另一方面，水兵虽有战意，[r]却几乎没有战斗能力。
+[k]
+
+＠拉斯普京
+战争中最有效的战略，[r]就是攻击战斗力低下的后方支援部队。
+[k]
+
+[charaFace D 0]
+＠拉斯普京
+而伊斯卡利正是执行了这一战略。[r]就像泛人类史的人类一样。
+[k]
+
+[charaFace D 8]
+＠拉斯普京
+结果导致水兵消灭，[r]Storm Border上的迦勒底工作人员……
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[se ad527]
+[wt 0.6]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 1]
+[wt 0.2]
+[seStop ad527 0.2]
+[wt 0.6]
+
+[bgmStop BGM_EVENT_41 1.5]
+
+＠尼莫水兵A
+啊～！　是[%1]和玛修～！[r]呀嗬～！　欢迎回来～～～！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth A 2]
+[charaDepth B 3]
+[charaDepth C 4]
+[charaDepth D 5]
+
+[charaScale Y 1.3]
+
+[charaFace A 5]
+[charaFace B 16]
+[charaFace Y 4]
+[charaFace D 9]
+[charaFadeinFSSideR A 0.1 320,-50]
+[charaFadeinFSR B 0.1 125,-50]
+[charaFadeinFSSideL Y 0.1 -220,100]
+[charaFadeinFSL D 0.1 -125,-50]
+[wt 1.4]
+
+[charaTalk on]
+＠Y：特佩乌
+[line 6]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout Y 0.1]
+[charaFadeout D 0.1]
+[wt 0.15]
+
+
+[se ad527]
+[wt 0.6]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.4 1]
+[wt 0.2]
+[seStop ad527 0.2]
+[wt 0.6]
+
+[bgm BGM_EVENT_116 0.1]
+
+＠尼莫水兵B
+真的耶，好像还跟恐龙在一起，但我并不在意～！[r]戈尔德鲁夫司令官～！　戈尔德鲁夫司令官～！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[se ad800]
+[wt 0.6]
+[charaTalk G]
+[charaFace G 14]
+[charaFadein G 0.4 1]
+[wt 0.2]
+[seStop ad800 0.2]
+[wt 0.6]
+
+＠戈尔德鲁夫
+哎哎，吵死了，别大声嚷嚷！[r]要是那群奥塞洛特尔杀个回马枪该怎么[line 3]
+[k]
+
+[charaFace G 17]
+＠戈尔德鲁夫
+噢[messageShake 0.05 4 3 0.3]噢！　[wt 0.5]噢[messageShake 0.05 4 3 0.4]噢噢噢噢噢噢！[r]都没事啊[line 3]你们都平安无事啊！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠玛修
+戈，戈尔德鲁夫新所长？[r]倒是你们各位都平安无事吗？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+[wt 1.0]
+
+[charaFace G 0]
+＠戈尔德鲁夫
+唔嗯。也是，看到这副惨状后，[r]会陷入悲观也是在所难免的。
+[k]
+
+＠戈尔德鲁夫
+可是啊，看仔细了。看似我们遗体的[r]那些东西都是用魔术制造的伪装。
+[k]
+
+＠戈尔德鲁夫
+不过嘛，大家确实险遭枪杀……
+[k]
+
+[charaFace G 1]
+＠戈尔德鲁夫
+我们是靠灵机一动、与生俱来的幸运，[r]以及积累起来的品德，才摆脱了绝境。
+[k]
+
+＠戈尔德鲁夫
+我们一直固守在潜航艇的机库里。[r]机库的装甲连寻常从者都无法破坏。
+[k]
+
+＠戈尔德鲁夫
+正当我们连日来顶着奥塞洛特尔的猛攻，[r]觉得“快要因食物不足全军覆没”时，
+[k]
+
+＠戈尔德鲁夫
+外面传来了巨大的落雷声，[r]于是水兵便出去侦查情况……就是这么回事。
+[k]
+
+[charaFace G 2]
+＠戈尔德鲁夫
+没想到那竟是[%1]你们干的！
+[k]
+
+＠戈尔德鲁夫
+辛苦你们扫荡奥塞洛特尔了！[r]不愧是身经百战的御主及其从者！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 18]
+[charaFadein A 0.1 1]
+＠玛修
+应该是大家，决断非常英明……！
+[k]
+
+[charaFace A 19]
+＠玛修
+一听说有遇袭的可能性，[r]我和前辈都坐立不安……！
+[k]
+
+？1：真是太好了[line 3]
+？2：不过，这些战斗的痕迹是……？
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_116 1.5]
+
+＠？？？
+那当然是因为有人救了[r]被奥塞洛特尔围困的各位啦。
+[k]
+
+＠？？？
+一看到人理陷入危机，就单独显现于异闻带，[r]骑着引以为傲的摩托车穿梭于密林，
+[k]
+
+＠？？？
+以别具一格的子弹特别服务[r]将奥塞洛特尔一扫而空的神秘美女[line 3]
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[se ad527]
+[wt 0.6]
+
+
+[charaDepth Z 1]
+[charaDepth H 2]
+[charaScale H 1.5]
+[charaTalk H]
+[charaFace H 16]
+[charaFadein Z 0.6 0,-150]
+[charaFadein H 0.6 0,300]
+[wt 0.2]
+[seStop ad527 0.2]
+[bgm BGM_MAP_56 0.1]
+[wt 1.0]
+[charaMove Z 0,-400 3.0]
+[charaMove H 0,-50 3.0]
+[wt 3.5]
+
+＠高扬斯卡娅
+没错。就是我，[r]玉藻巫池·高扬斯卡娅干的♡
+[k]
+
+[messageOff]
+[charaFadeout Z 0.6]
+[charaFadeout H 0.6]
+[wt 1.0]
+[charaScale H 1.0]
+[charaScale Z 1.0]
+
+[charaTalk off]
+[charaDepth D 5]
+[charaDepth A 4]
+
+[charaFace D 9]
+[charaFace A 24]
+[charaFadeinFSL D 0.1 0]
+[charaFadeinFSR A 0.1 2]
+[wt 1.6]
+
+[bgmStop BGM_MAP_56 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+
+[scene 170000]
+
+[charaPut R 1]
+[charaEffect R bit_talk_movie_film_v]
+
+[charaPut S 1]
+[wt 1.0]
+
+[se ade306]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.5]
+
+[seStop ade306 1.0]
+[wt 1.4]
+
+[bgm BGM_EVENT_90 0.1]
+
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 0,-50]
+＠戈尔德鲁夫
+慢，慢着！[r]你们是这[#异闻带:世界]的居民吧！？
+[k]
+
+＠戈尔德鲁夫
+我们是迦勒底！[r]与你们并非敌对关系！
+[k]
+
+＠戈尔德鲁夫
+不对，虽然以往确实处于与异闻带[r]互不相容的立场，但这次不一样！
+[k]
+
+＠戈尔德鲁夫
+我们的目的在于调查被称作『ORT』的生命体！
+[k]
+
+＠戈尔德鲁夫
+无意与你们交战！[r]希望能与各位展开和平的对话！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 0,-50]
+＠伊斯卡利
+……嚯。同胞被杀害，同伴被带走，[r]却仍打算与我们交涉啊。
+[k]
+
+[charaFace I 8]
+
+＠伊斯卡利
+真是个冷酷，且无情的男人。[r]不错，很合我意。
+[k]
+
+＠伊斯卡利
+你懂得如何对待生命。[r]跟我一样，适合当领袖。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth G 6]
+[charaDepth Q 4]
+
+[charaPut Q 1]
+[charaFadeTime Q 0.2 0.5]
+
+[charaTalk G]
+[charaFace G 11]
+[charaFadein G 0.1 0,-50]
+＠戈尔德鲁夫
+（谁跟你一样啊！[r]　我这都是为了尽早将穆尼尔搬去治疗室！）
+[k]
+
+[charaFadeout Q 0.2]
+
+[charaFace G 14]
+＠戈尔德鲁夫
+是，是吗，那就放下枪吧。[r]如你所见，我们并没有武装。
+[k]
+
+＠戈尔德鲁夫
+拿枪口对准我们的话，[r]就算想谈也没法[line 2]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 4]
+[charaFadein I 0.1 0,-50]
+＠伊斯卡利
+不过，你是来自外界的[#金发异邦人]。[r]还是在了解[#我等的世界:米克特兰]前就去死吧。
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_90 1.5]
+
+[se ad346]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth S 9]
+[charaDepth Q 8]
+[charaDepth I 7]
+[charaDepth J 6]
+[charaDepth K 5]
+[charaDepth L 4]
+[charaDepth M 3]
+[charaDepth N 2]
+[charaDepth O 1]
+
+[charaFace J 0]
+[charaFace M 0]
+[charaFace K 0]
+[charaFace N 0]
+[charaFace L 0]
+[charaFace O 0]
+[charaFadein J 0.1 150,-50]
+[charaFadein M 0.1 -150,-50]
+[charaFadeinFSR K 0.1 350,-50]
+[charaFadeinFSL N 0.1 -350,-50]
+[wt 0.15]
+[charaMoveReturn J 150,-53 0.2]
+[wt 0.2]
+[charaMoveReturn M -150,-53 0.2]
+[wt 0.1]
+[charaMoveReturnFSL N -350,-53 0.2]
+[wt 0.2]
+[charaMoveReturnFSR K 350,-53 0.2]
+[wt 1.3]
+
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[wt 0.15]
+
+[charaTalk on]
+[charaTalk G]
+[charaFace G 15]
+[charaFadein G 0.1 0,-50]
+[wt 1.6]
+
+[charaFadein Q 1.0 1]
+[wt 1.0]
+
+[charaFadeout G 0.1]
+
+[scene 10000]
+[wt 0.2]
+
+[charaFadeout Q 0.2]
+[wt 0.1]
+
+[se ade65]
+[wt 1.1]
+
+[fowardEffect bit_talk_movie_film_v]
+
+
+[charaTalk off]
+[charaDepth T 1]
+[charaDepth U 1]
+[charaDepth V 1]
+[charaDepth W 1]
+[charaDepth X 1]
+
+[cueSe Servants_604200 m45326]
+[cueSeVolume m45326 0 0]
+[cueSe Servants_604200 m45325]
+[cueSeVolume m45325 0 0]
+[cueSeVolume m45326 0.2 1.0]
+[cueSeVolume m45325 0.2 0.4]
+[wt 0.1]
+[charaPut T -500,0]
+[charaEffect T bit_shot_01]
+[wt 0.25]
+[charaPut U -250,0]
+[charaEffect U bit_shot_01]
+[wt 0.25]
+[charaPut V 1]
+[charaEffect V bit_shot_01]
+[wt 0.25]
+[charaPut W 250,0]
+[charaEffect W bit_shot_01]
+[wt 0.25]
+[charaPut X 500,0]
+[charaEffect X bit_shot_01]
+[wt 0.25]
+
+
+[cueSeStop m45326 0.3]
+[cueSeStop m45325 0.3]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaPut T 200,2500]
+[charaPut U 200,2500]
+[charaPut V 200,2500]
+[charaPut W 200,2500]
+[charaPut X 200,2500]
+[scene 170000]
+[charaFace J 0]
+[charaFace M 0]
+[charaFace K 0]
+[charaFace N 0]
+[charaFace L 0]
+[charaFace O 0]
+[charaFadein J 0 150,-50]
+[charaFadein M 0 -150,-50]
+[charaFadeinFSR K 0 350,-50]
+[charaFadeinFSL N 0 -350,-50]
+[charaShake J 0.02 2 3 0.5]
+[charaShake K 0.03 2 2 0.5]
+[charaShake L 0.02 3 3 0.5]
+[charaShake M 0.01 3 3 0.5]
+[charaShake N 0.04 2 2 0.5]
+[charaShake O 0.03 2 3 0.5]
+[wt 1.0]
+
+[charaMove J 150,-100 0.4]
+[charaFadeout J 0.4]
+[charaFadeout O 0.4]
+[wt 0.1]
+[charaMove M -150,-100 0.4]
+[charaFadeout M 0.4]
+[wt 0.15]
+[charaMoveFSR K 350,-100 0.4]
+
+[charaFadeout K 0.4]
+
+[wt 0.1]
+[charaMoveFSL N -350,-100 0.4]
+[charaFadeout N 0.4]
+[charaFadeout L 0.4]
+[wt 0.05]
+[se ad144]
+[wt 0.35]
+[se ad144]
+[wt 1.4]
+
+[fowardEffectDestroy bit_talk_movie_film_v]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk I]
+[charaFace I 4]
+[charaFadein I 0.1 0,-50]
+＠伊斯卡利
+怎么回事！？
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.2]
+
+
+[cueSe Servants_604200 m45308]
+[cueSeVolume m45308 0 0]
+[seVolume m45308 1.2 0.8]
+[wt 1.45]
+[cueSeStop m45308 0.3]
+[cueSe Servants_604200 m45307]
+[wt 1.3]
+
+
+[cueSe Servants_204600 m44108]
+[cueSeVolume m44108 0 0.7]
+[cueSe Servants_204600 m39719]
+[cueSeVolume m39719 0 0.7]
+[se ad127]
+[seVolume ad127 0 0.4]
+[se ad671]
+[seVolume ad671 0 0.6]
+[wt 0.1]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.25 -150,-50]
+[charaMove H -50,-50 0.25]
+[charaShake H 0.02 3 4 0.8]
+[wt 0.25]
+[charaMove H 0,-50 0.4]
+[seStop ad127 0.7]
+[seStop ad671 0.7]
+[wt 1.6]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgm BGM_BATTLE_185 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 0,-50]
+＠戈尔德鲁夫
+什么，你是[line 3]！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 9]
+[charaFadein H 0.1 0,-50]
+＠高扬斯卡娅
+是的，好久不见，阁下♡
+[k]
+
+＠高扬斯卡娅
+光之高扬斯卡娅，[r]察觉到迦勒底陷入危机，前来开展业务☆
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 15]
+[charaFadein G 0.1 0,-50]
+[wt 1.4]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+
+[charaTalk H]
+[charaFace H 24]
+[charaFadein H 0.1 0,-50]
+＠高扬斯卡娅
+哎，那是什么表情？[r]我可是马力全开赶来救你们的哦？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 5]
+[charaFadein I 0.1 0,-50]
+＠伊斯卡利
+嘁，又是从者吗……！[r]别畏缩，先从人类杀起！　从者留待之后再解决！
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+
+[charaTalk off]
+
+[cueSe SE_22 22_ade707]
+[wt 0.4]
+[se ade210]
+[charaFace J 0]
+[charaFace M 0]
+[charaFace K 0]
+[charaFace N 0]
+[charaFace L 0]
+[charaFace O 0]
+[charaFadein J 0.4 0,-50]
+[charaFadein M 0.4 -290,-50]
+[charaFadeinFSR K 0.4 400,-50]
+[charaFadeinFSL N 0.4 -400,-50]
+[charaFadein L 0.4 200,-50]
+[wt 0.4]
+[seStop ade210]
+[cueSeStop 22_ade707 0.2]
+[wt 1.1]
+
+[charaFadeout J 0.2]
+[charaFadeout K 0.2]
+[charaFadeout L 0.2]
+[charaFadeout M 0.2]
+[charaFadeout N 0.2]
+[charaFadeout O 0.2]
+[wt 0.2]
+
+[charaTalk on]
+[charaTalk H]
+[charaFace H 28]
+[charaFadein H 0.1 0,-50]
+＠高扬斯卡娅
+哎哟，不愧是特斯卡特利波卡训练的士兵，[r]反应挺不错。可是[line 3]
+[k]
+
+[messageOff]
+[wt 0.25]
+
+[charaFilter Q silhouette FFFFFFFF]
+[charaDepth Q 6]
+[charaDepth H 4]
+
+[charaMoveReturn H 0,-57 0.3]
+[wt 0.15]
+[se ade310]
+[cueSe Servants_901100 m43431]
+[charaFadein Q 0.25 1]
+[wt 0.25]
+
+[charaFadeout H 0.1]
+[charaPut T 0,-300]
+[charaEffect T bit_talk_smoke]
+[wt 1.0]
+
+[charaFadeout Q 1.5]
+[wt 1.7]
+
+[charaTalk H]
+[charaFace H 29]
+[charaFadein H 0.1 0,-50]
+＠高扬斯卡娅
+武器的种类是不是少了点？[r]竟然连烟雾弹都没有。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 0,-50]
+＠戈尔德鲁夫
+这这这这是怎么回事，你真的是高扬斯卡娅吗！？[r]我可以相信你吗？　你不会从背后给我来上一枪吧！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 22]
+[charaFadein H 0.1 0,-50]
+＠高扬斯卡娅
+问题稍后再提，[r]现在最好还是先躲进潜航艇。
+[k]
+
+＠高扬斯卡娅
+各位的大致情况已经被我这[r]可爱的兔耳朵竖起来捕捉到了。
+[k]
+
+[charaFace H 20]
+＠高扬斯卡娅
+……虽然没能实现拯救所有人的完美营救……
+[k]
+
+[charaFace H 7]
+＠高扬斯卡娅
+但我不允许出现更多的损失。[r]作为NFF服务的负责人，我定会保护好各位。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 1.5]
+[bgmStop BGM_BATTLE_185 1.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+[charaPut T 2000,2500]
+[charaEffectDestroy T bit_talk_smoke]
+[charaPut R 2000,2500]
+[charaEffectDestroy R bit_talk_movie_film_v]
+[charaPut S 2000,2500]
+[charaEffectDestroy S bit_sepia01_depth_fs]
+
+[scene 170000]
+
+[charaFilter Q normal]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_MAP_87 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+大概就是这么个经过。
+[k]
+
+＠戈尔德鲁夫
+她曾对菲尼斯·迦勒底发起过攻击，[r]也与我们[#新:Novum]·迦勒底长期处于敌对关系。
+[k]
+
+＠戈尔德鲁夫
+最终，在通古斯卡成功讨伐Beast，[r]与BeastⅣ的幼体实现了停战。
+[k]
+
+＠戈尔德鲁夫
+而这样一位魔性美女为何会[r]前来救我们，就是永远的谜了[line 3]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+＠高扬斯卡娅
+哪有什么谜……『无论是多么微不足道的小恩情，[r]受人相助自当回报』……
+[k]
+
+＠高扬斯卡娅
+出于野兽的这种骄傲，我才不惜[r]特地成为从者也要前来搜刮钱财……
+[k]
+
+＠高扬斯卡娅
+您竟然不愿相信我的真心，以及希望通过[r]加倍偿还恩情来抢占道德制高点的尊严……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠玛修
+（※表示原来如此地点点头）[charaMoveReturn A 0,-6 0.4]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠哈贝特洛特
+咱很怀疑究竟该信你几成，[r]不过这就是所谓的狐……不对，是兽之报恩吧。
+[k]
+
+[charaFace B 0]
+＠哈贝特洛特
+不过，动机姑且不论，手段呢？[r]就算你具备『独自显现的能力』，
+[k]
+
+＠哈贝特洛特
+没有什么契机的话，[r]是无法在这个[#时代:时机]结下缘分的。
+[k]
+
+＠哈贝特洛特
+你究竟是以什么为标记才能显现为从者的呢？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 17]
+[charaFadein H 0.1 1]
+＠高扬斯卡娅
+您是指标记吗？[r]那当然是[line 3]
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth G 4]
+[charaDepth R 6]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+[wt 0.2]
+
+[cueSe Servants_204300 m44717]
+[seVolume m44717 0 0.5]
+[wt 0.1]
+[charaPut R -200,0]
+[charaEffect R bit_talk_red_light]
+
+[bgmStop BGM_MAP_87 1.5]
+[wt 2.5]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut R 2000,2500]
+
+
+[charaTalk off]
+[charaFace A 5]
+[charaFace B 13]
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 0]
+＠玛修＆哈贝特洛特
+（啊）
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaPut R -200,0]
+[charaTalk G]
+[charaFace G 16]
+[charaFadein G 0.1 1]
+[wt 0.5]
+
+？1：啊。
+？2：你在发光哦，新所长。
+
+？！
+
+[bgm BGM_EVENT_94 0.1]
+
+＠戈尔德鲁夫
+唔？　怎么一脸不可思议地盯着我？[r]外衣的里袋莫名发烫……
+[k]
+
+[messageOff]
+[wt 0.6]
+[charaFace G 5]
+[wt 1.2]
+
+[charaFace G 1]
+＠戈尔德鲁夫
+哈哈，什么都没有，什么都没有哦。[r]所以快别这样凝视我啦。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut R 2000,2500]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠玛修
+可是戈尔德鲁夫司令官，[r]您右边胸口正在冒红光啊？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut R -200,0]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+应该是激光笔吧？[r]总而言之，不用在意啦。
+[k]
+
+？1：难道说……
+？2：……是那时的口红？
+
+？！
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[bgm BGM_EVENT_94 0.6 0.5]
+[wait fade]
+
+[charaPut R 2000,2500]
+[charaEffectStop R bit_talk_red_light]
+
+[scene 104100]
+
+[charaFace G 11]
+
+[charaPut S 1]
+[charaEffect S bit_sepia01_depth_fs]
+[wt 0.7]
+
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+
+＠戈尔德鲁夫
+这，这，这[line 3]
+[k]
+
+＠戈尔德鲁夫
+这种，这种，这种[line 3]
+[k]
+
+[charaFace G 12]
+＠戈尔德鲁夫
+唔噢噢噢噢噢噢噢[line 3]！[r]这种玩意儿，这种玩意儿[line 8]！
+[k]
+
+[messageOff]
+[se ad7]
+[charaMove G 0,5 0.1]
+[wt 0.1]
+[charaMove G 0,-20 0.2]
+[wt 0.2]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+
+[se ad113]
+[wt 0.5]
+[se ad684]
+[seVolume ad684 0 0.4]
+[wt 1.0]
+
+
+[fadeout white 0.6]
+[cueSeStop ad684 0.6]
+[wait fade]
+
+
+[charaPut S 2000,2500]
+
+[scene 170000]
+[wt 0.7]
+
+[bgm BGM_EVENT_94 0.6 1.0]
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 28]
+[charaFadein A 0.1 1]
+＠玛修
+！　这么说来，希翁小姐曾经说过！
+[k]
+
+＠玛修
+事后没有在垃圾桶里[r]找到被扔在地板上的口红！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 18]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+呜……！[r]没错，因为！　后来我偷偷回收了！
+[k]
+
+＠戈尔德鲁夫
+你们肯定会觉得很蠢吧，我也觉得很蠢！[r]可是，因为是陷阱就要扔掉的做法肯定有哪里不对！
+[k]
+
+＠戈尔德鲁夫
+“哪怕是陷阱　收到礼物时的喜悦也是无价的”[r]“拿在手心上　便能回忆起　桃花泛滥期”
+[k]
+
+＠戈尔德鲁夫
+终有一天，你们也能理解这种心情吧……！[r]请你们就当是这么一回事！
+[k]
+
+？1：我能懂……大概吧……
+？2：不过也因此而得救了嘛。
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠高扬斯卡娅
+是的，如果戈尔德鲁夫阁下[r]没有随身携带这支口红的话，
+[k]
+
+＠高扬斯卡娅
+我只会对迦勒底的危机无动于衷，[r]此刻仍在通古斯卡的森林里浅眠着吧。
+[k]
+
+[bgmStop BGM_EVENT_94 1.5]
+
+[charaFace H 22]
+＠高扬斯卡娅
+我会身在此处的原因与经过[line 3][r]各位理解了吗？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+……那个，怎么说呢。[r]其实攻击菲尼斯·迦勒底一事，我也同罪。
+[k]
+
+＠戈尔德鲁夫
+我迟早必须对此负责任吧。
+[k]
+
+[charaFace G 11]
+＠戈尔德鲁夫
+然而现在事态紧急。不惜借助猫，不对，[r]不惜借助兔子的力量也得继续前进才行！
+[k]
+
+＠戈尔德鲁夫
+虽然我也清楚她是个可疑的从者，[r]但还是希望你们能信任她！
+[k]
+
+？1：说到可疑的话……
+？2：其实……我们这边也……
+
+？！
+
+[charaFace G 16]
+＠戈尔德鲁夫
+唔？　怎么了？
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[se ad527]
+[wt 0.6]
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.4 1]
+[wt 0.2]
+[seStop ad527 0.2]
+[wt 0.6]
+＠拉斯普京
+你好，Mr.戈尔德鲁夫。[r]自迦勒底基地一别，我们还是第一次像这样交谈吧？
+[k]
+
+＠拉斯普京
+基于各种原因，总之目前[r]我正与[%1]一同冒险。
+[k]
+
+＠拉斯普京
+今后还请多关照。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+[charaShake G 0.05 2 2 0.3]
+＠戈尔德鲁夫
+拉，拉斯普京！？[r]你疯了吗，[%1]！
+[k]
+
+＠戈尔德鲁夫
+是是是是中了怎样的陷阱，[r]你才会想着跟这个男人一起冒险啊！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 1]
+＠拉斯普京
+哈哈哈哈哈。为区区这种程度就怀疑[r][%1]氏的理性可令人难以苟同呢。
+[k]
+
+[bgmStop BGM_EVENT_81 1.5]
+＠拉斯普京
+毕竟[line 3]
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[se ad527]
+[wt 0.6]
+[charaTalk P]
+[charaFace P 1]
+[charaFadein P 0.4 1]
+[wt 0.2]
+[seStop ad527 0.2]
+[wt 0.6]
+＠U－奥尔加玛丽
+………………
+[k]
+
+[charaFadeout P 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠拉斯普京
+如你所见，还有一位比我更棒的[r]重量级嘉宾正在协助[&他:她]嘛。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+竟……[wt 0.5][messageShake 0.05 4 3 0.7][r]竟然是U－奥尔加玛丽[line 5]！！？？？
+[k]
+
+[messageOff]
+[charaShake G 0.01 1 2 0.4]
+[wt 0.85]
+
+[charaShake G 0.01 2 1 1.0]
+[charaMove G 0,-50 1.0]
+[wt 0.3]
+[charaFadeout G 0.7]
+[wt 0.6]
+
+[se ad775]
+[wt 1.5]
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout G 0.1]
+
+[scene 86202]
+
+
+[charaSet A 98001000 1 玛修]
+
+[wt 1.5]
+
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk G]
+[charaFace G 11]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+唔唔唔唔唔……[r]唔唔唔唔唔唔唔唔唔唔唔！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk P]
+[charaFace P 18]
+[charaFadein P 0.1 1]
+＠U－奥尔加玛丽
+[line 6]
+[k]
+
+
+[messageOff]
+[wt 0.5]
+[wipeout circleIn 1.0 1.0]
+[bgm BGM_EVENT_5 1.0 0.5]
+[wait wipe]
+
+[charaFadeout P 0.1]
+
+[scene 51500]
+
+[charaPut S 1]
+[wt 1.0]
+
+[wipein circleIn 1.0 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+你们到底是怎么想的！[r]好死不死偏偏带来了最大的敌人！
+[k]
+
+＠戈尔德鲁夫
+拉斯普京倒还好。说实话，[r]我觉得『异星之神』的使徒中只有那家伙能正常沟通。
+[k]
+
+＠戈尔德鲁夫
+但是独那家伙，唯独U－奥尔加玛丽不行！[r]你们明白吗，那家伙正是[line 2]
+[k]
+
+？1：关于这件事……
+
+？！
+
+[charaFace G 4]
+＠戈尔德鲁夫
+丧失……记忆？
+[k]
+
+＠戈尔德鲁夫
+除了自己的名字，[r]和自己来自宇宙以外，其他全都不记得了？
+[k]
+
+＠戈尔德鲁夫
+只要不告诉她『异星之神』的身份，[r]说不定就可以和解……？
+[k]
+
+[charaFace G 11]
+＠戈尔德鲁夫
+哪有这种天上掉馅饼的事啊！
+[k]
+
+＠戈尔德鲁夫
+即便她在来到这里的路上[r]一直在帮助你们也一样！
+[k]
+
+[charaFace G 12]
+＠戈尔德鲁夫
+听好了，我决不认可！[r]我不会信任她，也不会向她示好！
+[k]
+
+[charaFace G 18]
+＠戈尔德鲁夫
+只是目前情况特殊，我会尽量避免[r]刺激她恢复记忆的愚蠢行径……
+[k]
+
+[charaFace G 12]
+＠戈尔德鲁夫
+但必须对那家伙做相应的处置！[r]明白了吗，[%1]！
+[k]
+
+[messageOff]
+[wipeout circleIn 1.0 1.0]
+[wait wipe]
+
+[charaFadeout G 0.1]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_sepia01_depth_fs]
+
+[scene 86202]
+[wt 1.0]
+
+[bgm BGM_EVENT_5 1.0 1.0]
+[wipein circleIn 1.0 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk depthOff]
+[charaDepth Q 4]
+[charaDepth G 6]
+
+[charaPut Q 1]
+[charaFadeTime Q 0.2 0.5]
+
+[charaTalk G]
+[charaFace G 18]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+（不能提到『异星之神』这个名字……[r]　不能提……不能提……）
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout Q 0.2]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠玛修
+我们这段时间的经历就是这样，[r]戈尔德鲁夫新所长。
+[k]
+
+＠玛修
+另外，特佩乌先生正在潜航艇内参观，[r]瓦克昌先生则正在外面休息。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 11]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+这样啊，我本想去向他们说一声辛苦了……
+[k]
+
+[charaFace G 13]
+＠戈尔德鲁夫
+但我们这边满地狼藉。[r]Storm Border严重损毁。
+[k]
+
+＠戈尔德鲁夫
+神秘武装集团带走了达·芬奇、希翁、[r]卡多克、尼莫船长这4人。
+[k]
+
+＠戈尔德鲁夫
+目前潜航艇内只剩包括我在内的[r]9名迦勒底工作人员，
+[k]
+
+＠戈尔德鲁夫
+以及独立行动的尼莫系列……
+[k]
+
+＠戈尔德鲁夫
+水兵11名、护士、烘焙坊、教授、[r]引擎，共计15名，
+[k]
+
+＠戈尔德鲁夫
+高扬斯卡娅，以及正从濒死状态[r]逐渐恢复的女王尼托克丽丝。
+[k]
+
+＠戈尔德鲁夫
+共计26名。
+[k]
+
+＠戈尔德鲁夫
+我们之前都固守在潜航艇舰尾，[r]无法转移至管制室与治疗室，
+[k]
+
+＠戈尔德鲁夫
+多亏了你们，现在也可以[r]前往这两处地方了。
+[k]
+
+＠戈尔德鲁夫
+只是由于电源尚未修复，[r]什么功能都用不了就是了。
+[k]
+
+？1：26名……
+？2：U－奥尔加玛丽，来一下。
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk P]
+[charaFace P 6]
+[charaFadein P 0.1 1]
+＠U－奥尔加玛丽
+……干嘛啦。难道你想说与我提到的人数不一致吗？[r]确实是12种吧。
+[k]
+
+
+[charaFadeout P 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠玛修
+啊，难道U－奥尔加玛丽小姐是把[r]尼莫系列的各位视作『一个』了吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk P]
+[charaFace P 6]
+[charaFadein P 0.1 1]
+＠U－奥尔加玛丽
+那当然啦。无论分裂成多少个，[r]所谓的灵基都是一样的。
+[k]
+
+＠U－奥尔加玛丽
+所以我将他们认知为一个从者了。
+[k]
+
+[charaFace P 27]
+＠U－奥尔加玛丽
+……现在已经不再这样认为了。
+[k]
+
+[charaFace P 12]
+＠U－奥尔加玛丽
+话说，[%1]、玛修。[r]这情况是怎么回事，跟说好的不一样啊。
+[k]
+
+＠U－奥尔加玛丽
+我原本觉得迦勒底是拯救地球的组织，[r]是值得我协助的组织……
+[k]
+
+＠U－奥尔加玛丽
+结果那男人怎么回事。[r]为何会向我表现出叛意。
+[k]
+
+＠U－奥尔加玛丽
+地球人类终究是无法理解我[r]伟大之处的愚蠢智慧生命吗？
+[k]
+
+[charaFadeout P 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+这，这话该由我来说才对，你这地球总统！[r]我们才不会借助外星人的力量！
+[k]
+
+＠戈尔德鲁夫
+归根结底，你以为Storm Border会沦为这样[r]都是拜谁所赐啊……！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk P]
+[charaFace P 20]
+[charaFadein P 0.1 1]
+＠U－奥尔加玛丽
+[FFFFFF]？[-]　明知我是统领行星之人，[r]还胆敢反抗？　太可笑了吧？
+[k]
+
+[charaFace P 7]
+＠U－奥尔加玛丽
+不对，重要的是刚才那段发言我可不能置若罔闻！
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+＠U－奥尔加玛丽
+你说究竟是谁破坏了我们的舰艇！[r]我会帮忙报仇的，快告诉我！
+[k]
+
+[charaFadeout P 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth Q 4]
+[charaDepth G 6]
+
+[charaPut Q 1]
+[charaFadeTime Q 0.2 0.5]
+
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+（她，她这话全是认真的！？[r]　呜哇啊啊这情况该如何是好[line 3]！）
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout Q 0.2]
+[wt 0.1]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠拉斯普京
+大小姐，从戈尔德鲁夫司令官的立场来看，[r]会警惕我们这些中途入队者也是理所当然的。
+[k]
+
+＠拉斯普京
+这时不妨展现一点善意来博取他们的信赖如何？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaDepth Q 4]
+[charaDepth G 6]
+
+[charaPut Q 1]
+[charaFadeTime Q 0.2 0.5]
+
+[charaTalk G]
+[charaFace G 17]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+（噢噢，言峰神父！[r]　何等巧妙又黑心肠的话术！）
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout Q 0.2]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk P]
+[charaFace P 18]
+[charaFadein P 0.1 1]
+＠U－奥尔加玛丽
+蠢得该[#极刑:Death]。[r]光是我身在此处就是值得信赖的现象才对……
+[k]
+
+＠U－奥尔加玛丽
+不过这次就采纳你的建议吧。[r]所以呢？　善意具体是指什么？
+[k]
+
+[charaFadeout P 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠拉斯普京
+刚才到这里来的路上，[r]我看到了治疗室的情况……
+[k]
+
+＠拉斯普京
+戈尔德鲁夫司令官，[r]现在是不是有一名工作人员需要治疗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+[line 3]！[wt 0.9][r]他有救吗？　你能救活那个男人吗！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+＠拉斯普京
+如果不实际诊断一下，我也无法给出结论。[r]一切追随主的意思。
+[k]
+
+？1：……？
+？2：……治疗？
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠玛修
+请问，是有哪位受伤了吗？[r]刚才都没有提起过这件事……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 16]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+唔，嗯，是有一个人。[r]不是什么大不了的伤，你们俩不需要知道。
+[k]
+
+[charaFace G 12]
+＠戈尔德鲁夫
+言峰神父！　请火速前往治疗室！[r]让我见识一下你的本领吧！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠拉斯普京
+………………
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+为何不动！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠拉斯普京
+我是U－奥尔加玛丽大人的管家。[r]没有大小姐的吩咐，我不能轻举妄动。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 11]
+[charaFadein G 0.1 1]
+＠戈尔德鲁夫
+呜……！[r]原来是这样，可恶的冒牌神父！
+[k]
+
+[charaFace G 12]
+＠戈尔德鲁夫
+好吧，我承认！[r]我承认U－奥尔加玛丽为迦勒底的协助者！
+[k]
+
+＠戈尔德鲁夫
+在此前提下拜托了！[r]向那个邪魔外道神父下达命令吧！
+[k]
+
+＠戈尔德鲁夫
+哪怕要与恶魔做交易，[r]也请您治好治疗室里的那个男人！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk P]
+[charaFace P 20]
+[charaFadein P 0.1 1]
+＠U－奥尔加玛丽
+[FFFFFF]？[-]　虽然不是很明白，只要下命令就行了吗？[r]管家，怎么都行，快去救人吧。
+[k]
+
+[charaFadeout P 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+＠拉斯普京
+谨遵命令。[r]就让各位见识一下寄宿于此身的精灵之一[line 3]
+[k]
+
+＠拉斯普京
+曾提议要给予人类不死的暗夜使者，[r]『月之巴卢』的力量吧。
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_70 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,1226 @@
+
+＄03-00-10-07-7-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098124500 1 达·芬奇]
+[charaSet B 1098123200 1 戈尔德鲁夫]
+[charaSet C 5021001 1 贤者格里姆]
+[charaSet D 1098158300 1 尼莫]
+[charaSet E 1098215900 1 店主妖精]
+[charaSet F 1098216200 1 哈贝特洛特]
+[charaSet G 5045001 1 阿尔托莉雅]
+[charaSet H 1098231510 1 玛修]
+[charaSet I 9005001 1 福尔摩斯]
+[charaSet J 1098181900 1 尼莫水兵]
+[charaSet K 1098215900 1 店主妖精（剪影）]
+[charaFilter K silhouette 00000080]
+[charaSet L 1098210410 1 摩耳斯]
+[charaFilter L silhouette 00000080]
+
+
+[imageSet Q back10000 1]
+[charaScale Q 1.01]
+[imageSet R back10000 1]
+[charaScale R 1.01]
+
+[charaSet S 98115000 1 特效用]
+
+
+[scene 122601]
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.0 0.6]
+[fadein black 1.5]
+[wait fade]
+[wt 1.5]
+[seStop ad556 1.5]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 132901]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠达·芬奇
+Shadow Border朝诺里奇出击了呢。[r]接下来轮到我啦，20分钟就能回来哦。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+唔，嗯。[r]我听说索尔兹伯里是不列颠最和平的城市。
+[k]
+
+＠戈尔德鲁夫
+估计不会有太大危险……[r]但是真的不用带几个护卫去吗？
+[k]
+
+＠戈尔德鲁夫
+船长与水兵们忙着[r]修理Storm Border抽不开身……
+[k]
+
+＠戈尔德鲁夫
+格里姆·林与阿尔托莉雅·卡斯特，[r]要找他俩之一帮个忙吗？
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth B 6]
+[charaDepth C 4]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.4 -300,0]
+[wt 1.4]
+
+[charaFadeout C 0.4]
+[wt 0.5]
+
+[charaTalk depthOn]
+[charaFace B 5]
+＠戈尔德鲁夫
+不，那个，虽然是个痛苦的决定，不过要找福尔摩斯，[r]或者看情况由我陪你去也是可以的啦。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 23]
+[charaFadein A 0.1 1]
+＠达·芬奇
+戈尔德鲁夫你吗？[r]你不是讨厌特异点吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+特异点和异闻带我都讨厌！[r]离开潜航艇一事我想都不愿去想！
+[k]
+
+[charaFace B 18]
+＠戈尔德鲁夫
+但是这次由不得我这么说了。[r]我好像有种非常不好的预感……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 37]
+[charaFadein A 0.1 1]
+＠达·芬奇
+真爱操心呢。你的心意我很高兴，[r]但我一个人去解决起来比较快哦。
+[k]
+
+＠达·芬奇
+反正我在索尔兹伯里都被当作妖精，[r]而且也熟悉那个地方。
+[k]
+
+[charaFace A 26]
+＠达·芬奇
+何况双肩包喷射器只有一人份。[r]我会唰地降落，前往酒馆，
+[k]
+
+＠达·芬奇
+把哈贝特洛特带回来的。
+[k]
+
+[charaFace A 8]
+＠达·芬奇
+那我去去就回哦。[r]船长，Storm的控制暂时交给你啦。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠尼莫
+嗯，虽然舰长是我，但舰艇的头脑可是你。[r]哪怕只快1分钟，也希望你能尽早回来哦。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 19]
+[charaFadein A 0.1 1]
+＠达·芬奇
+哎～，明明靠教授一个人也能行吧～。[r]船长可真会哄骗人呢～！
+[k]
+
+[charaFace A 10]
+＠达·芬奇
+不过我很高兴能受到信赖！[r]既然说到这个份上，那我怎么能不马上回来呢！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_70 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[scene 123000]
+
+[se ad429]
+[seVolume ad429 0 0]
+[se ad726]
+[seVolume ad726 0 0]
+[wt 1.0]
+
+[seVolume ad429 1.0 0.4]
+[seVolume ad726 1.0 0.4]
+[fadein black 1.0]
+[wait fade]
+[wt 1.5]
+
+[fadeout black 1.5]
+[seVolume ad429 1.0 0.1]
+[seVolume ad726 1.0 0.1]
+[wait fade]
+
+[scene 117700]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠店主妖精
+……城市在燃烧……[r]……已经燃烧了好久，好久了……
+[k]
+
+＠店主妖精
+……收不到欧若拉大人的『风之讯息』……[r]……城里的大家也都变了样……
+[k]
+
+[seStop ad429 2.0]
+[seStop ad726 2.0]
+
+[charaFace E 9]
+＠店主妖精
+……也是啦，我懂的。[r]……每个人内心深处其实都在嫉妒他人。
+[k]
+
+＠店主妖精
+……装作在欢笑，其实怒目而视。[r]……装作很悲伤，其实背地嘲笑。
+[k]
+
+＠店主妖精
+……我们就是这样的生物……[r]……所以这是当然的。会变成这样是理所当然的。
+[k]
+
+[charaFace E 10]
+＠店主妖精
+……店里也安静下来了呢……[r]……大家以前分明在这里笑得那么开心……
+[k]
+
+＠店主妖精
+……但谁都不会再来了……[r]……不列颠……要完了吧……
+[k]
+
+[charaFace E 4]
+＠店主妖精
+……也无所谓啦……反正，只是恢复原状……[r]我这家店从前就是这样的嘛……
+[k]
+
+＠店主妖精
+……比起大路上的店铺，既阴暗、又平凡、[r]还无聊……像极了我自己……
+[k]
+
+＠店主妖精
+……最近的热闹只是特例……[r]……谎言般的欢乐时光罢了……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_81 1.0]
+[charaFadeout E 0.1]
+[wt 0.2]
+
+[se ad93]
+[wt 1.6]
+
+[se ad94]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 31]
+[charaFadein A 0.1 1]
+＠达·芬奇
+呼[line 3]总算没被发现顺利抵达了！
+[k]
+
+＠达·芬奇
+好危险好危险，戈尔德鲁夫说得对呢！[r]索尔兹伯里确实处于内乱状态嘛！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_92 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠店主妖精
+！[r]达荤奇！　达荤奇回来啦！
+[k]
+
+＠店主妖精
+呜哇啊啊啊，哇呀啊啊啊！[r]太好啦，太好啦！　原来你平安无事啊！
+[k]
+
+[charaFace E 2]
+＠店主妖精
+大圣堂不是发生了很严重的事件吗！？[r]可担心死我了，可担心死我啦……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFace E 2]
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL E 0.1 0]
+＠达·芬奇
+嗯，我回来啦，迈克。[r]很高兴看到你也平安无事。
+[k]
+
+[charaFace A 0]
+＠达·芬奇
+不过我没有特别担心就是了。
+[k]
+
+＠达·芬奇
+因为迈克的店开得很踏实嘛，[r]最重要的是迈克你非常谨慎。
+[k]
+
+＠达·芬奇
+我就知道你不会像其他妖精那样跑出去[r]跟着闹，也不会被传闻耍得团团转。
+[k]
+
+[charaFace E 6]
+＠店主妖精
+是，是啊。就就，就是嘛，那当然啦！[r]我一直待在厨房构思新菜单呢！
+[k]
+
+＠店主妖精
+来看看嘛，达荤奇，这次可厉害啦！
+[k]
+
+＠店主妖精
+我用从诺里奇寄来的荞麦粉，[r]将生面团稍微烤一下！
+[k]
+
+＠店主妖精
+然后在上面放很多食材，[r]再放奶油，还放火腿[line 2]
+[k]
+
+
+[charaFace A 9]
+＠达·芬奇
+真的吗，迈克，那是格雷派饼哦！
+[k]
+
+＠达·芬奇
+这是连打破了女王的规矩，[r]自由发展起来的诺里奇都还没诞生的食物哦！
+[k]
+
+[charaFace A 30]
+＠达·芬奇
+你是独自反复试错摸索出来的吧。[r]身为老师，没有比这更令我高兴的了。
+[k]
+
+
+[charaFace E 3]
+＠店主妖精
+[line 3]嗯。[r]嗯，没错。说得对。我很努力哦。
+[k]
+
+＠店主妖精
+虽然很辛苦，但也很开心。[r]虽然很麻烦，但也很有趣，
+[k]
+
+[charaFace E 1]
+＠店主妖精
+比起无所事事的从前，简直是不同的世界。[r]我不会再被别人叫做废物迈克了。
+[k]
+
+＠店主妖精
+多亏了达荤奇，[r]我已经成为独当一面的妖精啦。
+[k]
+
+
+[charaFace A 12]
+＠达·芬奇
+这说得太过了啦。[r]迈克原本就是个勤奋的妖精嘛。
+[k]
+
+＠达·芬奇
+哪怕没有我，[r]你也迟早能将酒馆办得风生水起啦。
+[k]
+
+[messageOff]
+[se ad95]
+[seStop ad95 1.0]
+[charaMoveFSR A 306,0 0.4]
+[charaFadeout A 0.4]
+[wt 1.4]
+
+[charaFace E 0]
+＠店主妖精
+[line 3]达荤奇？[r]你要去哪？　有事要去二楼吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠达·芬奇
+嗯，我是来拿我落下的东西的。
+[k]
+
+＠达·芬奇
+我必须带上蒂福内和哈贝特洛特[r]立刻回舰艇才行。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠店主妖精
+[line 6]回去？
+[k]
+
+[bgmStop BGM_EVENT_92 2.0]
+
+＠店主妖精
+………………[wt 1.0][charaFace E 5]回哪里？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 26]
+[charaFadein A 0.1 1]
+＠达·芬奇
+我们的舰艇正停留在上空。[r]接下来要去消灭『灾厄』哦。
+[k]
+
+[charaFace A 0]
+＠达·芬奇
+对了，虽然也许会被戈尔德鲁夫训斥，[r]不过迈克要跟我来吗？
+[k]
+
+＠达·芬奇
+外面的暴动看起来没有平息的迹象吧？[r]就算多你一个，对作战也没有什么影响。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠店主妖精
+……不，不了。[r]我还是留在这里吧。留在这里，就行了。
+[k]
+
+＠店主妖精
+反，反正店里有地下室。[r]不管发生什么都很，安全。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+[wt 1.2]
+
+[se ad95]
+[seStop ad95 1.0]
+[charaMove A 50,0 0.4]
+[charaFadeout A 0.4]
+[wt 1.8]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠店主妖精
+……很安全。[r]这里才是，最安全的。
+[k]
+
+＠店主妖精
+……根本不需要出去。[r]……只要一直，待在这里就行了。
+[k]
+
+[messageOff]
+[wt 0.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[scene 117800]
+
+[pictureFrame cut063_cinema]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 0,-30]
+＠达·芬奇
+哈贝特洛特，你醒着吗！？[r]还有意识吗！？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad661]
+[wt 1.2]
+
+[charaTalk F]
+[charaFace F 11]
+[charaFadein F 0.4 0,-30]
+[wt 0.6]
+
+＠哈贝特洛特
+…………唔…………啊………………
+[k]
+
+＠哈贝特洛特
+……哦哦，这声音，是达·芬奇吧？[r]果然没错，咱就觉得你会来接咱。
+[k]
+
+[charaFace F 12]
+＠哈贝特洛特
+咱其实本想自己过去……[r]不过算啦。
+[k]
+
+＠哈贝特洛特
+看你这表情，咱就知道啦。[r]不用解释，也乐得轻松。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_73 0.1]
+
+[charaTalk A]
+[charaFace A 25]
+[charaFace F 12]
+[charaFadeinFSR A 0.1 256,-30]
+[charaFadeinFSL F 0.1 -256,-30]
+＠达·芬奇
+……说得也是。
+[k]
+
+＠达·芬奇
+我不明白为什么会变成这种状况，[r]也不清楚你为何会作出那种选择。
+[k]
+
+＠达·芬奇
+只是当我在潜航艇上扫描了一遍不列颠全境后，[r]得出了[#就是这样]的结论。
+[k]
+
+＠达·芬奇
+……你愿意帮助我们吧？
+[k]
+
+
+＠哈贝特洛特
+当然啦。因为一直硬撑着[r]不睡着也很辛苦嘛。
+[k]
+
+＠哈贝特洛特
+很抱歉，麻烦你连咱一起带走吧。[r]咱的身体已经不听使唤了。
+[k]
+
+[messageOff]
+[charaTalk A]
+[charaFace A 4]
+[wt 1.0]
+
+[charaFace A 0]
+＠达·芬奇
+我原本就打算这么做。
+[k]
+
+＠达·芬奇
+一直以来谢谢你啦，哈贝特洛特。[r]你确实是新娘的守护者呢。
+[k]
+
+[messageOff]
+[fadeout black 2.5]
+[bgmStop BGM_MAP_73 2.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+
+[scene 117700]
+
+[pictureFrame]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+[wt 0.6]
+
+[se ade46]
+[charaMoveReturn E 0,-10 0.6]
+[wt 0.4]
+
+[seStop ade46 0.2]
+[wt 0.8]
+
+[bgm BGM_EVENT_71 0.1]
+
+＠店主妖精
+…………我知道哦，达荤奇。
+[k]
+
+＠店主妖精
+达荤奇虽然不是人类，[r]但也不是妖精。
+[k]
+
+[charaFace E 4]
+＠店主妖精
+……[%1]他们[r]应该并不知道吧……
+[k]
+
+＠店主妖精
+……你比人类、比妖精还要强……[r]……但你却极其、极其短命……
+[k]
+
+＠店主妖精
+……我知道……你很快，就要迎来终结了……
+[k]
+
+
+[se ade247]
+＠达·芬奇
+好嘞，蒂福内二世也回收完毕！[r]比预计多花了点时间，得赶快才行！[seStop ade247 2.0]
+[k]
+
+[charaFace E 11]
+＠店主妖精
+那么，只要一直留在这里就行了。
+[k]
+
+＠店主妖精
+没错。[r]比起去外面，留在这里应该能活得更久。
+[k]
+
+[messageOff]
+
+[charaTalk depthOff]
+[charaDepth S 6]
+[charaDepth E 5]
+
+[se ad644]
+[cueSeVolume ad644 0 0.4]
+[charaPut S 1]
+[charaEffect S bit_talk_morse]
+[wt 3.5]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠达·芬奇
+迈克，抱歉打扰啦！[r]不过有你在真是帮大忙了！
+[k]
+
+＠达·芬奇
+不只是今天的事，而是迄今为止所有的事哦。
+[k]
+
+＠达·芬奇
+要是没能遇到你，[r]我们的旅途会变得更为困难。
+[k]
+
+＠达·芬奇
+感谢你那一天愿意听我说话。[r]酒馆的生活也非常刺激哦。
+[k]
+
+＠达·芬奇
+这次说不定就是最后的机会了，[r]所以我要对你说清楚……
+[k]
+
+[charaFace A 26]
+＠达·芬奇
+其实你是个远比自己想象的[r]要厉害得多的人物哦，迈克。
+[k]
+
+＠达·芬奇
+从今往后会有更多更多[r]快乐的日子在等待着你。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk E]
+[charaFace E 11]
+[charaFadein E 0.1 1]
+＠店主妖精
+[line 6]。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠达·芬奇
+那你也要多保重哦！[r]我稍微去拯救一下世界啦！
+[k]
+
+[messageOff]
+[se ad95]
+[seStop ad95 1.0]
+[charaMove A 50,0 0.4]
+[charaFadeout A 0.4]
+[wt 1.6]
+
+[overlayFadein Q 0.1 0,-800]
+[overlayFadein R 0.1 0,800]
+
+[charaMove Q 0,-745 0.5]
+[charaMove R 0,745 0.5]
+[wt 0.5]
+
+＠
+■■■转身面向出口，[r]向我露出了毫无防备的后背。
+[k]
+
+＠
+如果就这样什么都不做，■■■就会走掉。[r]会走掉，会走掉。
+[k]
+
+＠
+我又会变回原本无聊的我了。
+[k]
+
+＠
+我讨厌那样。好可怕，好可怕。[r]非常可怕。太可怕了，我无法忍受。
+[k]
+
+＠
+我需要■■■，[r]■■■应该留在这里。
+[k]
+
+＠
+这样做，肯定能活得更久。[r]所以，所以[line 2]
+[k]
+
+[bgmStop BGM_EVENT_71 1.5]
+
+[charaPut S 0,-50]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0,-50]
+＠店主妖精
+[line 3]啊，啊[line 3][r]啊啊，啊………………！
+[k]
+
+[messageOff]
+
+[charaTalk off]
+[charaDepth K 5]
+[charaDepth E 4]
+
+[se ad644]
+[cueSeVolume ad644 0 0.4]
+[cueSe SE_21 21_ad1083]
+[wt 0.2]
+
+[charaFadein K 0.8 0,-50]
+[wt 3.0]
+[charaFadeout E 0.2]
+
+[charaTalk on]
+＠店主妖精
+啊啊…………啊啊啊，啊[line 3]
+[k]
+
+[charaFadeout K 0.2]
+[wt 0.2]
+[charaPut S 2000,2500]
+
+＠
+门打开了，[r]渐行渐远。
+[k]
+
+[se ad209]
+[seVolume ad209 0 0.4]
+
+＠
+手中藏起的菜刀掉在地上。
+[k]
+
+[bgm BGM_EVENT_95 0.1]
+
+＠
+我涕泗横流地凝视着那渐行渐远的背影。
+[k]
+
+＠
+没错。正因为■■■，[r]正因为达荤奇是自由的，她才是达荤奇。
+[k]
+
+＠
+正因为努力去往任何地方，她才是达荤奇。
+[k]
+
+＠
+正因为在有限的时间中，竭尽全力突破自我，[r]追寻心之所向，她才那么的耀眼。
+[k]
+
+[messageOff]
+[charaPut S 0,-50]
+[charaFadein K 0.1 0,-50]
+[wt 0.8]
+[se ade153]
+[seVolume ade153 0 0.6]
+[charaFadein E 0.1 0,-50]
+[wt 1.2]
+
+[charaFadeout K 0.8]
+[wt 1.5]
+
+＠店主妖精
+………呜呜。[r]呜呜呜，呜……呜呜呜……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+＠
+所以，我必须目送她离开。[r]必须保持笑容到最后一刻。
+[k]
+
+＠
+我一直以为妖精国是个什么都能[r]获得的梦想世界，但其实并非如此。
+[k]
+
+＠
+真正的“梦想”是遥不可及的。[r]正因如此，每天才会既辛苦，又快乐。
+[k]
+
+＠
+才会让人觉得要努力活下去。[r]哪怕在即将终结的世界中也一样。
+[k]
+
+＠
+……哪怕对我们这种[r]恐怖的[#怪物:妖精]来说也一样。
+[k]
+
+[charaPut S 0,-50]
+[charaTalk E]
+[charaFace E 12]
+[charaFadein E 0.1 0,-50]
+＠店主妖精
+嗯……嗯……
+[k]
+
+＠店主妖精
+永别了，我来自遥远世界的朋友。
+[k]
+
+＠店主妖精
+谢谢你来到不列颠[line 3][r]谢谢你来到我店里[line 3]
+[k]
+
+＠店主妖精
+[line 3]谢谢你带来的那段梦幻般的美妙时光。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+＠
+天使的翅膀无所不往。
+[k]
+
+＠
+在那么危险的城市中，笔直地，[r]朝着彼方，疾驰而去。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.5]
+[bgmStop BGM_EVENT_95 2.5]
+[wait fade]
+
+[charaEffectStop S bit_talk_morse]
+[charaFadeout Q 0.1]
+[charaFadeout R 0.1]
+
+[scene 122601]
+[wt 1.5]
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.0 0.6]
+[fadein black 1.5]
+[wait fade]
+[wt 2.5]
+
+[seStop ad556 1.5]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 132901]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_82 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠尼莫
+前往诺里奇的玛修、穆尼尔、[r][%1]。
+[k]
+
+＠尼莫
+前往索尔兹伯里的达·芬奇。
+[k]
+
+＠尼莫
+两支别动队已分别完成各自的任务，[r]顺利实现会合。
+[k]
+
+＠尼莫
+本舰接下来的航向将前往『大洞穴』。[r]不过在此之前[line 3]
+[k]
+
+[charaFace D 5]
+＠尼莫
+戈尔德鲁夫司令官，请对作战内容作最终确认。[r]我们还有做这些的时间。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+唔，嗯，毕竟确认是很重要的事嘛！[r]感谢你关注这种细节！
+[k]
+
+[charaFace B 15]
+＠戈尔德鲁夫
+我们迦勒底引以为傲的异闻带调查部队，[r]以及当地的协助者们啊！
+[k]
+
+＠戈尔德鲁夫
+接下来将于『大洞穴』[r]展开科尔努诺斯讨伐作战！
+[k]
+
+＠戈尔德鲁夫
+本作战预计将会是在不列颠的最终战斗。[r]不需要再考虑之后的战斗了。
+[k]
+
+＠戈尔德鲁夫
+请各位将持有的一切力量……[r]没错，比方说王牌之类的东西……
+[k]
+
+[charaFace B 16]
+＠戈尔德鲁夫
+都能毫不保留地拿出来，竭尽全力！[r]因为你们总是会藏着这类东西不用嘛！
+[k]
+
+＠戈尔德鲁夫
+这次别再玩惊吓游戏了！[r]要切实地遵照作战计划击败科尔努诺斯！
+[k]
+
+＠戈尔德鲁夫
+因为我们已经全军覆没过一次了！
+[k]
+
+[charaFace B 4]
+＠戈尔德鲁夫
+当时救了我们的，[r]是那个可恨的高扬斯卡娅……
+[k]
+
+[charaFace B 5]
+＠戈尔德鲁夫
+不过据达·芬奇所说，[r]现在已经检测不到那家伙的灵基反应了。
+[k]
+
+＠戈尔德鲁夫
+看来她已经逃离异闻世界不列颠了！[r]哼，这下爽多了！
+[k]
+
+[charaFace B 15]
+＠戈尔德鲁夫
+都听好了，这是第二次，也是最后的机会！[r]真心拜托别再来第三次了！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth G 4]
+[charaDepth C 5]
+[charaDepth H 3]
+
+[charaFace G 0]
+[charaFace C 5]
+[charaFace H 7]
+[charaFadein G 0.1 0,0]
+[charaFadeinFSL C 0.1 -300,0]
+[charaFadeinFSR H 0.1 300,0]
+[wt 1.6]
+
+[charaFadeout G 0.1]
+[charaFadeout C 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+[wt 0.5]
+
+？1：……明白！
+？2：我们会全力以赴！
+
+？！
+
+[charaFace B 0]
+＠戈尔德鲁夫
+很好。[r]那么经营顾问，详细讲解作战计划。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 7]
+[charaFadein I 0.1 1]
+＠福尔摩斯
+知道了，戈尔德鲁夫司令官。
+[k]
+
+[charaFace I 0]
+＠福尔摩斯
+Storm Border的修理已经结束。[r]航行与战斗行为均无问题。
+[k]
+
+＠福尔摩斯
+另一方面，科尔努诺斯出现在『大洞穴』[r]至今已经过了20分钟。
+[k]
+
+＠福尔摩斯
+上次袭击我们的大量『灾厄之手』[r]从『大洞穴』中溢出则是在40分钟后……
+[k]
+
+＠福尔摩斯
+不过正如前来攻击Storm Border的『炎之灾厄』，[r]预计科尔努诺斯也将出现变化。
+[k]
+
+[charaFace I 5]
+＠福尔摩斯
+具体说来，就是会出现防卫机能。
+[k]
+
+＠福尔摩斯
+察觉到我方有阿尔托莉雅·卡斯特这一“神造兵装”的[r]『灾厄』有极高概率会开始迎击。
+[k]
+
+
+[messageOff]
+[se ad592]
+[seVolume ad592 0 0.5]
+[fadeout white 0.4]
+[wait fade]
+
+[charaFadeout I 0.1]
+
+[scene 128501]
+[cameraFilter gray]
+[wt 0.6]
+
+[fadein white 0.6]
+[wait fade]
+[wt 1.2]
+
+[fadeout white 0.4]
+[wait fade]
+
+[scene 132901]
+
+[cameraFilter normal]
+
+[charaTalk I]
+[charaFace I 5]
+[charaFadein I 0.1 1]
+[wt 0.6]
+
+[fadein white 1.0]
+[wait fade]
+[wt 0.2]
+
+＠福尔摩斯
+想躲过那多得夸张的诅咒是不可能的。
+[k]
+
+＠福尔摩斯
+因此我们要将所有力量倾注在对咒层防御，[#接下]攻击。[r]是这样吧，贤者格里姆。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠贤者格里姆
+嗯。[r]我会在甲板铺设冥想之地……“泉”。
+[k]
+
+＠贤者格里姆
+虽说是代理人，我好歹也是『智慧之神』的代理人。[r]只要认真集中精力，就能让这整艘舰艇变成圣域。
+[k]
+
+＠贤者格里姆
+虽说无法抵御阿尔比恩的热射线，[r]但灵性干涉就另当别论了。
+[k]
+
+[charaFace C 1]
+＠贤者格里姆
+科尔努诺斯的愤怒……诅咒就由我来承受。[r]看在老乡的份上，我就听听它的牢骚话吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠福尔摩斯
+在贤者格里姆的帮助下，Storm Border[r]要尽可能接近科尔努诺斯。
+[k]
+
+＠福尔摩斯
+上次卡美洛在科尔努诺斯出现的50分钟后[r]被破坏了。这次要赶在那之前击败他。
+[k]
+
+＠福尔摩斯
+战斗人员是[%1]、[r]玛修、阿尔托莉雅·卡斯特。
+[k]
+
+＠福尔摩斯
+另外，待在甲板的格里姆自不必说，[r]若有必要，我们迦勒底的从者也会参战。
+[k]
+
+＠福尔摩斯
+能拨给战斗的时间是从现在起的30分钟。[r]这是一场有时间限制的战斗。
+[k]
+
+[charaFace I 5]
+＠福尔摩斯
+御主[%1]切记留意时间。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 2]
+[charaFadein J 0.1 1]
+＠尼莫水兵
+经过牛津！[r]5分钟后科尔努诺斯就会进入视野～！
+[k]
+
+＠尼莫水兵
+要保持现状继续前进吗～！？[r]还是要稍微迂回一下呢～！？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠福尔摩斯
+没那个必要哦，水兵。[r]贤者格里姆，请做准备。
+[k]
+
+[charaFace I 2]
+＠福尔摩斯
+接下来将展开最后的『灾厄』祓除！
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_82 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

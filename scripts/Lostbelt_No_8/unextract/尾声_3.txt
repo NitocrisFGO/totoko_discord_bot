@@ -1,0 +1,429 @@
+
+
+
+＄04-00-02-17-3-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 10014000 1 方巿]
+[charaSet B 10014000 1 方巿2]
+[sceneSet C 158100 1]
+[charaScale C 1.2]
+
+[scene 158100]
+
+[charaTalk depthOff]
+[charaDepth C 1]
+[charaFadein C 0.1 120,-300]
+[wt 0.1]
+
+[se ade428]
+[seVolume ade428 0 0]
+[seVolume ade428 1.5 1.0]
+[charaMove C 60,-300 3.0]
+[fadein black 1.5]
+[wait fade]
+[wt 1.0]
+
+[seStop ade428 0.5]
+[wt 0.5]
+
+？1：哎呀，那是……
+？！
+
+[messageOff]
+[charaFadeout C 0.8]
+[wt 1.0]
+
+[se ade277]
+[wt 1.5]
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 34]
+[charaFadein A 0.4 1]
+[wt 0.4]
+
+＠方巿
+啊呜啊呜唔嗯唔嗯。
+[k]
+
+？1：方巿亲正吃咖喱面包。
+
+＠方巿
+咕嘟。[r]……干嘛啦，才不给你呢～。
+[k]
+
+＠方巿
+新来的那个身材异常魁梧的厨师先生与烘焙坊[r]共同研发的这款咖喱面包，
+[k]
+
+＠方巿
+是充满刺激感的辣度着实刺激（词穷）[r]令人上瘾的杰作。
+[k]
+
+＠方巿
+想要就自己去拿啦～。
+[k]
+
+＠方巿
+……你问我在边吃边看什么？
+[k]
+
+？2：方巿亲在看什么呢？
+
+＠方巿
+咕嘟。[r]干嘛啦，有问题吗？
+[k]
+
+？！
+
+
+＠方巿
+这篇论文风格的文章不知什么时候[r]被塞进了数据库里面哦～。
+[k]
+
+＠方巿
+作为紧急激发对策的[#试运行:Demo]对象现界倒是无所谓啦，[r]但反正我又没别的事可做。
+[k]
+
+＠方巿
+所以就在阅读这篇文章消磨时间啦。
+[k]
+
+？1：这是什么论文？
+？！
+
+＠方巿
+好像是关于[#Alterego:他人格]的意义和成立过程[r]这些方面的考究吧。
+[k]
+
+[messageOff]
+[se ade277]
+[wt 1.5]
+
+＠方巿
+说什么『以往我们未曾理解该职阶的意义与本质，[r]就随便拿来加以利用了。』
+[k]
+
+＠方巿
+『说不定现在应该好好重新思考这个问题。』
+[k]
+
+＠方巿
+『我相信这样做可以加深对他们[#Alterego:他人格]的理解，』
+[k]
+
+＠方巿
+『还能最大限度地活用他们的力量[line 3]』。
+[k]
+
+＠方巿
+感觉相当正经呢～。[r]啊，还有，
+[k]
+
+＠方巿
+『[#Alterego:他人格]基本上都是自发出现的，』
+[k]
+
+＠方巿
+『若非具备相当厉害的作弊技能，[r]　或是把自己当作素材，』
+[k]
+
+＠方巿
+『否则刻意的制造应该会非常困难，请务必注意』[r]这种话呢。
+[k]
+
+＠方巿
+那当然啦。
+[k]
+
+＠方巿
+话说连我也不知道现在的自己[r]为什么会是[#Alterego:他人格]呢～。
+[k]
+
+？1：但是，你并不后悔吧？
+
+？！
+
+[bgmStop BGM_EVENT_147 1.5]
+
+＠方巿
+当然不会。
+[k]
+
+＠方巿
+就算不知道『为什么会这样出现』，[r]我也很清楚『为什么会是这样』。
+[k]
+
+[bgm BGM_EVENT_116 0.1]
+
+＠方巿
+答案当然，[r]是对虞大人的……LOVE……（地道的发音）。
+[k]
+
+＠方巿
+我对这篇报告中最赞同的部分就是这点哦。
+[k]
+
+＠方巿
+哪怕[#Alterego:他人格]确实是从原本的人格中衍生出来的……[r]有所欠缺、遭到分割的『部分』。
+[k]
+
+＠方巿
+也有着正因为是这样的存在才做得到的事。
+[k]
+
+＠方巿
+假如不是这样的我，[r]而是原本被众多无谓的枷锁缠身的我，
+[k]
+
+＠方巿
+说不定就无法实现这种将行动、思考及资源等[r]所有一切都献给虞大人的梦幻生活了吧。
+[k]
+
+？1：或许……是吧。
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+＠
+总感觉以前曾听谁说过，[r]说自己是造物，内在空空如也。
+[k]
+
+＠
+然而，这大概并不代表一切。
+[k]
+
+＠
+哪怕本人认为自己是[r]没有感情这一材料就无法行动，
+[k]
+
+＠
+无异于以自身为薪柴来奔跑的人偶[line 3]
+[k]
+
+＠
+也没人能否定那种纯粹。[r]肯定也存在唯有靠那种纯粹才能抵达的地方。
+[k]
+
+[charaTalk A]
+[charaFace A 34]
+[charaFadein A 0.1 1]
+[wt 0.3]
+
+？2：（真希望她也能为我们的工作贡献那么一点。）
+？！
+
+[charaFaceFade A 0 0.3]
+[charaMoveReturn A 0,-5 0.5]
+
+＠方巿
+……咽下。
+[k]
+
+
+
+[charaFace A 27]
+
+＠方巿
+……唔嗯。作为头脑派的一员，[r]作为话题中心的[#Alterego:他人格]的一员，
+[k]
+
+＠方巿
+就由我来补充一些算得上是考究的内容好了。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth C 1]
+[charaDepth B 2]
+
+[charaScale B 1.2]
+[charaFace B 27]
+[charaFadein C 1.0 -60,-300]
+[charaFadein B 1.0 -90,0]
+[charaMove C 0,-300 60.0]
+[charaMove B 1 60.0]
+[wt 1.2]
+[charaFace B 0]
+
+＠方巿
+要说身为单一[#方向性:感情]满溢的存在才能做到[r]什么的可能性，其实人类肯定也是一样的。
+[k]
+
+＠方巿
+比方说，当你达成了足以留名人类史的伟业时。
+[k]
+
+＠方巿
+身在那里的，有可能并非普通的你，[r]而是只为了对某人的爱而活的你。
+[k]
+
+＠方巿
+也有可能是一心只想着哪怕付出性命[r]也要守护某人的你。
+[k]
+
+＠方巿
+还有可能是打从心底只想着杀死某人的你。
+[k]
+
+[charaFace B 6]
+
+＠方巿
+『在那每一个瞬间的你』，[r]这种每个人都拥有无数个的英雄之形[line 3]
+[k]
+
+＠方巿
+它们相接而成的，说不定就是[r]我们[#Alterego:他人格]这种存在吧……
+[k]
+
+[charaFace B 8]
+
+＠方巿
+类似这样吧？
+[k]
+
+[messageOff]
+[charaFace A 8]
+[charaFadeout C 0.8]
+[charaFadeout B 0.8]
+[wt 1.3]
+[charaTalk on]
+
+？1：虽然我不太明白，
+？2：但又好像隐约能够理解了。
+？！
+
+[charaFace A 28]
+
+＠方巿
+到底懂还是不懂啦～。
+[k]
+
+[charaFace A 12]
+
+＠方巿
+算了，无所谓啦。[r]反正只是在消磨时间。
+[k]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_116 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[sceneSet C 158100 1]
+[charaScale C 1.2]
+[charaFadein C 0.1 -120,-300]
+[wt 2.5]
+
+[charaMove C 120,-300 60.0]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_45 0.1]
+
+[wt 0.5]
+
+
+＠
+不知是出于谁的兴趣，[r]食堂里小声地播放着以前的爵士乐。
+[k]
+
+＠
+哪怕只是纸月，哪怕只是造物，[r]只要你愿意相信，它就不再只是……
+[k]
+
+＠
+演唱的歌词，就是这种，[r]渴望感情力量的话语。
+[k]
+
+＠
+正如[#Saber:剑士]用剑战斗那样，[r]正如[#Lancer:枪兵]持枪战斗那样。
+[k]
+
+＠
+他们这些[#Alterego:他人格]，[r]或许就是靠思念谁人，思念什么的力量来战斗的[line 3]
+[k]
+
+＠
+不禁，这样心想。
+[k]
+
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.5]
+[bgmStop BGM_EVENT_45 2.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+[scene 10000]
+[wt 1.0]
+
+[fadein black 0.1]
+[wait fade]
+
+[skip false]
+[wt 1.0]
+
+[input selectBranch]
+[messageOff]
+[skip false]
+
+[soundStopAllFade 0.4]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[scene 10000]
+
+[cameraMove 0.1 0,0 1.01]
+[wt 0.4]
+[maskin black 1.0]
+[wait mask]
+[label selectBranch]
+[cameraMove 0.1 0,0 1.01]
+[wt 0.5]
+
+[fowardEffect bit_chapterclear401]
+[wait fowardEffect]
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]
+

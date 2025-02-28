@@ -1,0 +1,998 @@
+
+
+＄03-00-13-12-6-1
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252410 1 库库尔坎]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet D 1098253600 1 恐龙王]
+[charaSet E 98001000 1 玛修]
+[charaSet F 1098257300 1 达·芬奇]
+
+[charaSet G 1098258400 1 角鼻龙]
+[charaSet J 1098258700 1 神官职迪诺斯]
+[charaSet K 1098253510 1 恐爪龙十一兄弟·老二]
+[charaSet L 1098253520 1 恐爪龙十一兄弟·老七]
+[charaSet M 1098253520 1 恐爪龙十一兄弟·老四]
+[charaSet N 1098253530 1 恐爪龙十一兄弟·老六]
+
+[charaSet O 2038000 1 俄里翁]
+[charaSet P 2046000 1 为朝]
+
+[sceneSet Q 169902 1]
+[sceneSet R 169902 1]
+
+[scene 169902]
+
+[charaScale D 1.2]
+[charaScale A 1.2]
+[charaScale B 1.0]
+[charaScale J 1.2]
+[charaScale Q 1.2]
+[charaScale R 1.2]
+
+[charaTalk depthOff]
+[charaDepth A 8]
+[charaDepth O 7]
+[charaDepth P 6]
+[charaDepth R 5]
+[charaDepth J 4]
+[charaDepth B 3]
+[charaDepth Q 2]
+
+[fadein black 1.0]
+[wait fade]
+
+
+＠齐聚一堂的迪诺斯们
+………………
+[k]
+
+？1：……以上，就是发生在亚特兰蒂斯的冒险。
+？2：（继俄罗斯之后又讲了大西洋异闻带的故事……）
+
+？！
+[messageOff]
+[bgm BGM_EVENT_94 0.1]
+[se ad521]
+[wt 3.0]
+
+[charaTalk B,J]
+[charaFace J 0]
+[charaFace B 0]
+[charaFadein J 1.0 -400,100]
+[charaFadein B 1.0 400,-100]
+[charaFadein Q 1.0 70,-250]
+
+[charaMove J -370,100 1.0]
+[charaMove B 430,-100 1.0]
+[charaMove Q 100,-250 1.0]
+[wt 1.4]
+
+＠神官职迪诺斯
+竟然是整体的九成都满是水的世界！[r]而且还那么深！
+[k]
+
+＠神官职迪诺斯
+水的透射比呢？　阳光能照射到多深？[r]难道不同于我们，每层的生存手段都不一样吗？
+[k]
+
+＠特佩乌
+以泛人类史的基准而言，[r]平均深度似乎是3700米。
+[k]
+
+＠特佩乌
+最深的海沟据说超过一万米。[r]想必温度与水压都很惊人吧。
+[k]
+
+＠神官职迪诺斯
+水栖类迪诺斯应该能够生存吧？[r]啊，不对，那么深的话，阳光照射不到。
+[k]
+
+＠神官职迪诺斯
+在没有太阳恩惠的世界中，[r]无论什么样的迪诺斯都无法活动吧……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFace A 1]
+[charaFadeinFSR A 1.0 100,0]
+[charaFadein R 1.0 -70,-250]
+
+[charaMoveFSR A 70,0 1.0]
+[charaMove R -100,-250 1.0]
+[wt 1.4]
+
+[charaFadeout B 0.1]
+[charaFadeout J 0.1]
+[charaFadeout Q 0.1]
+[charaScale B 1.0]
+[charaScale J 1.0]
+
+＠库库尔坎
+这样啊……[r]阿耳忒弥斯神被狙击了啊……
+[k]
+
+＠库库尔坎
+我原本还期待会是地面上真刀真枪的战斗呢……
+[k]
+
+[charaFace A 2]
+
+＠库库尔坎
+但俄里翁很棒呢！[r]虽说是卫星，但竟然能击坠天体，真行～！
+[k]
+
+[charaFace O 0]
+[charaPut O -250,0]
+[charaFadeTime O 1.5 0.8]
+
+＠库库尔坎
+肯定是位威风凛凛禁欲主义双眼熠熠生辉，[wt 1.2][r]披着与月光相得益彰的全身机甲的弓兵吧！[charaFadeout O 0.4][charaFace P 2][charaPut P -250,0][charaFadeTime P 0.8 0.8]
+[k]
+
+[messageOff]
+[charaFadeout A 0.6]
+[charaFadeout P 0.6]
+[charaFadeout R 0.6]
+[wt 0.8]
+[charaScale A 1.0]
+
+[charaDepth K 2]
+[charaDepth L 1]
+
+[charaTalk on]
+[charaTalk K]
+[charaFace K 0]
+[charaFadeinFSL K 0.1 0]
+[charaFace L 0]
+[charaFadeinFSR L 0.1 325,0]
+＠恐爪龙十一兄弟·老二
+请问请问！　为什么波塞冬一直叫喊[r]不在场的人的名字喊个不停呢！？
+[k]
+
+＠恐爪龙十一兄弟·老二
+对那家伙来说，眼前的危机[r]应该是[%1]辈前吧！？
+[k]
+
+＠恐爪龙十一兄弟·老二
+要喊也该喊辈前的名字啊！[r]无论是传球，还是射门时，都该这样！
+[k]
+
+＠恐爪龙十一兄弟·老七
+[#兄弟:你]还真是[#幼年期:小孩子]呢。[r]这是爱啦，爱。你不懂吗？
+[k]
+
+＠恐爪龙十一兄弟·老七
+还是聊聊赫淮斯托斯吧！[r]制造机器的机器真厉害呢！　而且还秃顶！
+[k]
+
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+为了赫淮斯托斯氏的名誉，我替他辩护一下，[r]机器恐怕是不存在秃顶这种劣化的哦。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth D 5]
+[charaDepth Q 4]
+[charaDepth M 3]
+[charaDepth N 2]
+[charaDepth E 1]
+
+[charaTalk M]
+[charaFace M 0]
+[charaFadeinFSR M 0.1 325,0]
+[charaFace N 0]
+[charaFadeinFSL N 0.1 -300,0]
+＠恐爪龙十一兄弟·老四
+我很在意那个叫提弥的家伙呢。[r]为什么会在意呢。[#兄弟:你]知道吗？
+[k]
+
+＠恐爪龙十一兄弟·老六
+因为他孩子气的部分跟[#兄弟:你]很像吧。[r]就算拥有重要的事物，
+[k]
+
+＠恐爪龙十一兄弟·老六
+也太晚才意识到自己还有[r]宝贵的事物这点啦。
+[k]
+
+
+[bgm BGM_EVENT_94 2.0 0.6]
+[messageOff]
+[charaTalk N,D]
+[charaFace D 6]
+[charaFadein D 1.0 250,0]
+[charaFadein Q 1.0 -100,-250]
+[charaMove D 230,0 1.0]
+[charaMove Q -120,-250 1.0]
+[wt 1.0]
+[charaFadeout N 0.1]
+[charaFadeout M 0.1]
+[charaFace E 13]
+[charaFadein E 0.1 1]
+[wt 1.5]
+[charaTalk E,D]
+[charaFadeout D 1.0]
+[charaFadeout Q 1.0]
+[wt 1.2]
+
+＠玛修
+看来各位迪诺斯也很喜欢亚特兰蒂斯的记录，[r]真是太好了。
+[k]
+
+[charaFace E 12]
+
+＠玛修
+最开始……我还担心跟各位讲其他[r]异闻带的事会不会不太好……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+没关系，玛修。[r]这是恐龙王，最重要的是我们自己希望的。
+[k]
+
+[charaFace B 0]
+
+＠特佩乌
+还有，[%1]。
+[k]
+
+＠特佩乌
+非常感谢你细心，不夹杂主观，[r]尽可能公平地讲述了故事。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠达·芬奇
+彼此彼此，我们才应该感谢各位迪诺斯哦。
+[k]
+
+＠达·芬奇
+今天也来了很多迪诺斯帮忙修理潜航艇。
+[k]
+
+＠达·芬奇
+尤其是你们在理解了泛人类史与异闻带关系以后，[r]依然愿意接纳我们。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[bgmStop BGM_EVENT_94 2.0]
+
+＠特佩乌
+[FFFFFF]？[-]　为何要对此表示感谢？
+[k]
+
+？1：虽然特佩乌没有生气……
+？2：但其他人未必如此……
+
+？！
+
+
+[charaFace B 2]
+[bgm BGM_EVENT_161 0.1]
+
+＠特佩乌
+哦哦，原来如此。
+[k]
+
+[charaFace B 0]
+
+＠特佩乌
+因为你们是正确的历史，[r]而我们是本该已被切除的历史吗？
+[k]
+
+＠特佩乌
+请放心吧。[#他们:迪诺斯]并不存在[r]拿他人与自己作比较的思想。
+[k]
+
+＠特佩乌
+『对方比自己更优秀，[r]　对方比自己更幸运。』
+[k]
+
+＠特佩乌
+『所以，要夺取自己不足的部分。』[r]『要破坏对方富足的部分，取得平衡[line 3]』
+[k]
+
+＠特佩乌
+他们并不存在这样的感情。[r][#不会去作比较]。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠玛修
+[line 3]不会去作比较[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+是的。因此，我们对哪边才是“可能性”[r]并没有什么兴趣。
+[k]
+
+[charaFace B 2]
+
+＠特佩乌
+反倒更希望你能多讲一些“可能性”的故事吧。
+[k]
+
+＠特佩乌
+迪诺斯们只是纯粹陶醉于[r]你们所讲述的情景之中。
+[k]
+
+[charaFace B 0]
+
+＠特佩乌
+艰难的旅途、愉快的旅途、想克服的旅途、难以逃避的旅途，[r]你们经历了诸多旅途吧。
+[k]
+
+＠特佩乌
+你们的[line 3][r]两位的话语，是鲜活的。
+[k]
+
+＠特佩乌
+这份热量，将“没能留存下来的世界”的记录，[r]以故事的形式传达给了我们。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 23]
+[charaFadein F 0.1 1]
+
+＠达·芬奇
+[line 6]
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaScale D 1.0]
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠恐龙王
+竟然能感同身受地享受其他异闻。[r]没想到迪诺斯也有好奇心啊。
+[k]
+
+＠恐龙王
+拜此所赐，玉座已经空无一人了。[r]我的护卫都上哪去了。
+[k]
+
+＠恐龙王
+喂，是你说迪诺斯会对我言听计从，[r]我才当王的，这跟说好的不一样啊，白痴女人。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth A 6]
+[charaDepth D 5]
+
+[charaTalk off]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠库库尔坎
+嘴上是这么说，国王陛下不也听得很开心吗？[r]尤其是奥德修斯的部分。
+[k]
+
+[charaFace D 9]
+[charaPut D -320,0]
+[charaFadeTime D 0.4 0.8]
+
+＠库库尔坎
+还像这样欢呼“活该！”“干得漂亮！”
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk on]
+
+[bgmStop BGM_EVENT_161 1.5]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠恐龙王
+[line 3]笨蛋。[r]我乐在其中的又不是异闻带的故事。
+[k]
+
+＠恐龙王
+也罢，太阳也该休息了。[r]比起其他世界的故事，还是自己的生活更重要。
+[k]
+
+[bgm BGM_EVENT_25 0.1]
+
+＠恐龙王
+好啦，就此解散，迪诺斯们！[r]点燃篝火后就回居住区吧！
+[k]
+
+＠恐龙王
+想要复盘就回家里跟家人复盘吧。[r]别浪费时间哦。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaSet K 1098258200 1 古角龙]
+[charaSet L 1098258510 1 钉状龙_换色]
+[charaSet M 1098253520 1 恐爪龙十一兄弟·老四]
+[charaSet N 1098258300 1 鱼猎龙]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth D 9]
+[charaDepth A 8]
+[charaDepth M 7]
+[charaDepth N 6]
+[charaDepth K 5]
+[charaDepth G 4]
+[charaDepth L 3]
+[charaDepth J 2]
+[charaDepth B 1]
+
+[charaScale K 0.8]
+[charaScale M 0.9]
+[charaScale N 1.2]
+
+[charaFace M 0]
+[charaFadeinFSR M 0.2 256,-80]
+[charaFace N 0]
+[charaFadein N 0.2 100,50]
+[wt 1.0]
+
+[cueSe SE_22 22_ad1217]
+[cueSeStop 22_ad1217 1.5]
+[cueSe SE_22 22_ad1208]
+[cueSeStop 22_ad1208 1.5]
+[charaFadeout M 0.4]
+[charaFadeout N 0.4]
+[wt 1.5]
+
+[charaFace K 0]
+[charaFadeinFSL K 0.2 -500,-150]
+[charaFace G 0]
+[charaFadein G 0.2 -50,0]
+[charaFace L 0]
+[charaFadeinFSR L 0.2 200,0]
+[wt 1.0]
+
+[cueSe SE_22 22_ad1217]
+[seVolume 22_ad1217 0 0.5]
+[cueSeStop 22_ad1217 1.5]
+[cueSe SE_22 22_ad1208]
+[cueSeStop 22_ad1208 1.5]
+[cueSe SE_22 22_ad1210]
+[cueSeStop 22_ad1210 1.5]
+[charaFadeout K 0.4]
+[charaFadeout G 0.4]
+[charaFadeout L 0.4]
+[wt 1.5]
+
+[charaScale B 1.0]
+[charaScale J 1.2]
+
+[charaFace B 0]
+[charaFadein B 0.2 400,-100]
+[charaFace J 0]
+[charaFadein J 0.2 -400,100]
+[wt 1.0]
+
+[cueSe SE_22 22_ad1208]
+[seVolume 22_ad1208 0 0.6]
+[cueSeStop 22_ad1208 1.5]
+[charaFadeout J 0.4]
+[charaFadeout B 0.4]
+[wt 0.1]
+[cueSe SE_22 22_ad1210]
+[cueSeStop 22_ad1210 1.4]
+[wt 1.4]
+
+[charaScale B 1.0]
+[charaScale J 1.0]
+[charaTalk on]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadeinFSL D 0.1 0]
+[charaFace A 7]
+[charaFadeinFSR A 0.1 2]
+
+＠恐龙王
+我要回玉座了。[r]白痴女人，你也跟我来。
+[k]
+
+＠库库尔坎
+唔？　我现在没事要找国王陛下啊？
+[k]
+
+[charaFaceFade D 5 0.2]
+
+＠恐龙王
+自从你缠上迦勒底以后，[r]一次也没碰过太阳遍历吧。
+[k]
+
+＠恐龙王
+要是不事先倾听[#总体意见]，可是会露馅的。[r]当然如果你愿意就那样自生自灭，倒是帮了我大忙。
+[k]
+
+[charaFace A 1]
+
+＠库库尔坎
+对哦，我都给忘了……
+[k]
+
+[charaFace A 2]
+
+＠库库尔坎
+今晚我会在祭坛过夜！[r]明天见啦，各位！
+[k]
+
+[messageOff]
+[se ad184]
+[seStop ad184 1.5]
+[charaFadeout D 0.4]
+[charaFadeout A 0.4]
+[wt 1.5]
+
+[charaTalk depthOn]
+
+[charaTalk F]
+[charaFace F 23]
+[charaFadein F 0.1 1]
+
+＠达·芬奇
+…………
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_25 1.5]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+[charaSet J 1098257300 1 达·芬奇]
+
+[charaScale J 1.3]
+[charaScale Q 1.3]
+
+[charaTalk depthOff]
+[charaDepth J 4]
+[charaDepth Q 3]
+[charaDepth E 2]
+[charaDepth F 1]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+？1：大家都回去了呢……
+？2：就剩下我们几个了吧……
+
+？！
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠达·芬奇
+啊，对了。[r]有个好消息要告诉你们俩。
+[k]
+
+＠达·芬奇
+Storm Border的管制室已经修复完毕。[r]还有卡多克的房间。
+[k]
+
+＠达·芬奇
+从今晚起就可以在潜航艇过夜了，[r]你们俩打算如何？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 12]
+[charaFadein E 0.1 1]
+
+＠玛修
+我……可以的话，待在这座都市的期间，[r]我都打算在特佩乌先生家就寝……
+[k]
+
+？1：赞成。
+？2：嗯，反正夜晚也不热嘛。
+
+？！
+
+[charaFace E 26]
+
+＠玛修
+是的！　还要与奥尔加玛丽小姐共进晚餐嘛！[r]我也会思考如何用玉米做新菜色！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_147 1.5 0.6]
+
+[charaTalk F]
+[charaFace F 33]
+[charaFadein F 0.1 1]
+
+＠达·芬奇
+[line 3]
+[k]
+
+？1：……达·芬奇亲？
+？2：……关于U－奥尔加玛丽，发生了什么事吗？
+
+？！
+
+[charaFace F 34]
+
+＠达·芬奇
+……算是吧。关于她，[r]迦勒底工作人员已经作出了表决。
+[k]
+
+[charaFace F 22]
+
+＠达·芬奇
+虽说丧失了记忆，但U－奥尔加玛丽仍是危险人物。[r]最关键的是，她是我们最终的敌人。
+[k]
+
+＠达·芬奇
+但是，她作为协助者多次帮助了我们也是事实。
+[k]
+
+＠达·芬奇
+基于上述事实，没有任何一名工作人员提出[r]“想要驱逐她”的意见。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+[wt 1.0]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_147 1.5]
+[charaTalk F]
+[charaFace F 23]
+[charaFadein F 0.1 1]
+
+＠达·芬奇
+只是半数以上都反对让她登上Storm Border。[r]我也是其中之一。
+[k]
+
+[messageOff]
+[charaTalk J,F]
+[charaFace J 23]
+[charaFadein J 1.0 0,80]
+[charaFadein Q 1.0 150,-240]
+
+[charaMove J 0,0 40.0]
+[charaMove Q 150,-280 36.0]
+[wt 1.0]
+[bgm BGM_EVENT_76 0.1]
+
+＠J：达·芬奇
+如果能通过对话与她……与『异星之神』[r]和平谈判，那应该就是最佳方案。
+[k]
+
+＠J：达·芬奇
+实际上，现在的她并非完全没有这种可能性。[r]然而，这可能性也微乎其微。
+[k]
+
+＠J：达·芬奇
+[#一旦她恢复了记忆]，[#就全完了]。
+[k]
+
+＠J：达·芬奇
+据特里斯墨吉斯忒斯Ⅱ所述，她的记忆障碍[r]似乎只是机能不全导致的临时现象。
+[k]
+
+＠J：达·芬奇
+只要身体机能恢复，记忆也会随之恢复。[r]不，应该说会恢复为原本的『人类之敌』吧。
+[k]
+
+＠J：达·芬奇
+那样一来，战斗便无可避免。
+[k]
+
+＠J：达·芬奇
+然而，我们当前的战力甚至比不上[r]现在已经弱化的『异星之神』。
+[k]
+
+＠J：达·芬奇
+我们所能做到的事，只有[#赶在那之前]，[r]完成舰艇的修理，并严阵以待。
+[k]
+
+＠J：达·芬奇
+然后……将被迫面对两个选项。
+[k]
+
+＠J：达·芬奇
+是不相信，还是相信。[r]是夺取[#主导权:Initiative]，还是不夺。
+[k]
+
+[messageOff]
+[charaTalk J,F]
+[charaFadeout J 0.8]
+[charaFadeout Q 0.8]
+[wt 1.0]
+
+？1：也就是说……
+？2：是否要先下手为强吗？
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠玛修
+……哪怕成功修复了Storm Border，[r]也敌不过状态万全的『异星之神』。
+[k]
+
+＠玛修
+事实上，我们已经输过一次了。[r]所以只能趁她恢复之前[line 3]
+[k]
+
+＠玛修
+攻击当前丧失记忆状态下的[#『异星之神』:U－奥尔加玛丽]……[r]这道理我能理解。
+[k]
+
+[charaFace E 24]
+
+＠玛修
+可这是违反人道的行为。
+[k]
+
+[charaFace E 2]
+
+＠玛修
+我无法接受攻击未与我们敌对，[r]而是信任着我们的伙伴的这种行为！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 23]
+[charaFadein F 0.1 1]
+
+＠达·芬奇
+[line 3]我知道了。玛修反对是吧。
+[k]
+
+＠达·芬奇
+那你呢？　赞成趁现在攻击『异星之神』吗？
+[k]
+
+？1：……我反对。
+？2：攻击朋友这种事，我做不到。
+
+？！
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 1.4]
+[charaFadeout E 0.1]
+[wt 0.1]
+[bgmStop BGM_EVENT_76 1.3]
+
+[charaTalk F]
+[charaFace F 23]
+[charaFadein F 0.1 1]
+[wt 1.2]
+[charaFace F 0]
+[wt 0.3]
+
+＠达·芬奇
+[line 3]嗯。[r]那我就放心了。肯定会顺利的。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+[bgm BGM_EVENT_136 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+[wt 1.4]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠达·芬奇
+明知“先下手为强有胜算”，[r]你们仍“不想那样做”。
+[k]
+
+[charaFace F 1]
+
+＠达·芬奇
+这点非常重要。[r]因为比起『算计』，你们选择了『感情』。
+[k]
+
+＠达·芬奇
+无论是好是坏，[r]人类都是一报还一报的生物。
+[k]
+
+＠达·芬奇
+以『算计』回报『算计』，[r]以『感情』回报『感情』。
+[k]
+
+＠达·芬奇
+所以[line 3]你们的『感情』最终[r]开花结果的可能性非常之高。
+[k]
+
+＠达·芬奇
+就算她恢复了记忆，[r]也不会与我们敌对的可能性。
+[k]
+
+＠达·芬奇
+就算她恢复原状，也依然维持现状的可能性。[r]希望继续维持现状的可能性。
+[k]
+
+[charaFace F 0]
+
+＠达·芬奇
+我也认为这是最佳选择。[r]因为[line 3]
+[k]
+
+[charaFace F 16]
+
+＠达·芬奇
+现在的她看起来很开心吧。[r]卡多克也这样说过哦。
+[k]
+
+＠达·芬奇
+“玛修的变化固然值得惊讶，[r][f small]  [f -]但那家伙更令我惊讶。”
+[k]
+
+＠达·芬奇
+“虽然我不知道她与奥尔加玛丽本人有何关系，[r][f small]  [f -]但她的本性，原来是那么活泼闹腾的啊。”
+[k]
+
+＠达·芬奇
+唯有这种事，是只会记录演算结果的[r]特里斯墨吉斯忒斯Ⅱ所无法理解的。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 16]
+[charaFadein E 0.1 1]
+
+＠玛修
+卡多克先生也……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠达·芬奇
+是啊，所以希望你们能与U－奥尔加玛丽[r]维持一如既往的关系。
+[k]
+
+[charaFace F 34]
+
+＠达·芬奇
+但还是别让她登上潜航艇为好，[r]如果真的逃不过，就具体情况具体处理吧。
+[k]
+
+＠达·芬奇
+毕竟工作人员的意见也合情合理。[r]届时再考虑折衷方案吧。
+[k]
+
+[charaFace F 0]
+
+＠达·芬奇
+我们几个无法离开潜航艇，[r]但你们俩就继续逗留在奇琴伊察吧。
+[k]
+
+[charaFace F 8]
+
+＠达·芬奇
+只是，早晨的作战会议千万别迟到哦。
+[k]
+
+＠达·芬奇
+此前一直都在延后，[r]从明天起就要回归原本的任务了。
+[k]
+
+＠达·芬奇
+攻略异闻带，以及重新开展ORT搜寻作战。[r]希望你们能绷紧神经行动。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_136 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

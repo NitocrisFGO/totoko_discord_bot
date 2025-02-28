@@ -1,0 +1,649 @@
+
+＄03-00-13-12-3-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098255300 1 尼托克丽丝]
+[charaSet B 1098252410 1 库库尔坎]
+[charaSet C 98001000 1 玛修]
+[charaSet D 1098252940 1 特佩乌]
+[charaSet F 1098253500 1 恐爪龙十一兄弟·老大]
+[charaSet G 1098253510 1 恐爪龙十一兄弟·老二]
+[charaSet H 1098253520 1 恐爪龙十一兄弟·老七]
+[charaSet I 1098253500 1 恐爪龙十一兄弟·老三]
+[charaSet J 1098253520 1 恐爪龙十一兄弟·老四]
+[charaSet K 1098253510 1 恐爪龙十一兄弟·老五]
+[charaSet L 1098253530 1 恐爪龙十一兄弟·老六]
+[charaSet M 1098258300 1 鱼猎龙]
+[charaSet N 1098258500 1 迪诺斯2]
+
+[sceneSet Q 169902 1]
+[charaScale Q 1.4]
+[charaSet S 98115000 1 特效用]
+[sceneSet T 169902 1]
+[charaScale T 1.4]
+
+[scene 170300]
+
+[fadein black 1.0]
+[wait fade]
+[wt 2.0]
+
+[scene 170302 1.5]
+[wt 3.0]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 169902]
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+[wt 1.0]
+
+[bgm BGM_EVENT_146 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.4 1]
+[charaShake A 0.02 3 2 0.4]
+[wt 0.4]
+
+＠尼托克丽丝
+备受……折磨……
+[k]
+
+[charaFace A 2]
+＠尼托克丽丝
+那令人不快至极的啼鸣究竟是什么！
+[k]
+
+＠尼托克丽丝
+遗憾、悔恨、留恋、惭愧！[r]对所有生者的控诉与亵渎！
+[k]
+
+＠尼托克丽丝
+米克特兰不是考验死者的同时，[r]也给予救赎的神圣世界吗！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠库库尔坎
+你说的是泛人类史……
+[k]
+
+[charaFace B 13]
+
+＠库库尔坎
+不过确实跟平常不太一样。[r]就算是能麻痹半规管的声波，
+[k]
+
+＠库库尔坎
+为何只对尼托克丽丝有那么强烈的效果呢？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+
+＠尼托克丽丝
+总而言之！　那头火鸡一定要大卸八块，[r]然后仔细烤透认真烹调！
+[k]
+
+＠尼托克丽丝
+毕竟它体内很有可能遍布着可怕的不敬因子！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[cueSe SE_22 22_ad1217]
+[cueSeVolume 22_ad1217 0 0.1]
+[cueSeVolume 22_ad1217 1.5 1.0]
+[wt 1.5]
+[cueSeStop 22_ad1217 0.5]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 60,0]
+[charaMove F 0,0 0.4]
+[wt 1.0]
+
+＠恐爪龙十一兄弟·老大
+呼～，累死了～！[r]第四层与奇琴伊察之间的往返真是累得够呛！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠恐爪龙十一兄弟·老二
+问我这样做是为了什么？[r]特佩乌大师说这样能锻炼腰腿！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠恐爪龙十一兄弟·老七
+我听说只是去捡舰艇零件的简单工作啊。
+[k]
+
+＠恐爪龙十一兄弟·老七
+特佩乌大师没有告诉我们距离有多远吧～。[r]而且路上还有奥塞洛特尔，相当艰难呢～。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠恐爪龙十一兄弟·老三
+算啦，别这么说嘛，兄弟。[r]这也是为了新兄弟们。
+[k]
+
+＠恐爪龙十一兄弟·老三
+听说等舰艇修好以后，可以在甲板上蹴球。[r]我们华丽的传球将在空中绽放……
+[k]
+
+[charaFace I 1]
+
+＠恐爪龙十一兄弟·老三
+听起来如何？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+＠恐爪龙十一兄弟·老四
+肯定会令人兴奋啦。[r]看来下次也得继续努力了！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth L 8]
+[charaDepth F 7]
+[charaDepth N 6]
+[charaDepth M 5]
+[charaDepth T 4]
+[charaDepth K 3]
+[charaDepth Q 2]
+[charaDepth J 1]
+
+[charaScale F 1.15]
+[charaScale K 1.15]
+[charaScale L 1.15]
+[charaScale M 1.25]
+[charaScale N 1.3]
+
+[charaFadein Q 0.7 50,-200]
+[charaMove Q 100,-200 0.7]
+
+[charaFace K 0]
+[charaFadein K 0.7 -120,0]
+[charaMove K -70,0 0.7]
+[wt 0.8]
+
+[charaFadeout J 0.1]
+＠恐爪龙十一兄弟·老五
+在那之前，还得麻烦[%1][r]完成自己的任务才行。[wt 0.8][bgmStop BGM_EVENT_146 1.5][cueSe SE_22 22_ad1210][charaMove K 0,0 0.6][wt 0.6][seStop 22_ad1210 0.3]好，这个座位归我。[wt 0.3][charaMove K 0,-7 0.6]
+[k]
+
+[messageOff]
+[charaFadein T 0.7 -100,-200]
+[charaMove T -150,-200 0.7]
+[wt 1.0]
+[charaFadeout K 0.1]
+[charaFadein Q 0.1 100,-200]
+
+[cueSe SE_22 22_ad1208]
+[seVolume 22_ad1208 0 0]
+[seVolume 22_ad1208 0.5 0.8]
+[charaFace M 0]
+[charaFadeinFSL M 0.7 150,100]
+[charaMoveFSL M 100,100 1.0]
+[wt 0.7]
+[seStop 22_ad1208 0.5]
+[wt 0.4]
+[charaMoveFSL M 100,93 0.7]
+[wt 1.5]
+
+[charaFadeout M 0.7]
+[charaFadeout T 0.7]
+[charaMove Q 150,-200 0.7]
+[wt 1.0]
+
+[cueSe SE_22 22_ad1208]
+[seVolume 22_ad1208 0 0]
+[seVolume 22_ad1208 0.5 0.8]
+[charaFace N 0]
+[charaFadein N 0.7 0,50]
+[charaMove N 50,50 0.7]
+[wt 0.7]
+[seStop 22_ad1208 0.5]
+[wt 0.4]
+[cueSe SE_22 22_ad1207]
+[seVolume 22_ad1207 0 0.6]
+[charaMove N 50,43 0.7]
+[wt 1.0]
+
+
+？1：哎……
+？2：什么意思？
+
+？！
+
+[charaFadeout F 0.4]
+[charaFadeout G 0.4]
+[charaFadeout K 0.4]
+[charaFadeout M 0.4]
+[charaFadeout N 0.4]
+[charaFadeout Q 0.4]
+[wt 0.5]
+
+[charaScale F 1.0]
+[charaScale K 1.0]
+[charaScale L 1.0]
+[charaScale M 1.0]
+[charaScale N 1.0]
+
+[bgm BGM_EVENT_161 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠恐爪龙十一兄弟·老七
+就是那个啦，关于泛人类史的事。[r]你不是要说给我们听吗？
+[k]
+
+
+＠恐爪龙十一兄弟·老七
+还以为对这种事感兴趣的兄弟只有我一个，[r]结果大家都很想听。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠玛修
+是特佩乌先生提过的那件事吧。[r]我明白了。
+[k]
+
+＠玛修
+既然尼托克丽丝小姐在场，[r]就来聊聊古埃及吧。
+[k]
+
+＠玛修
+可以吗，法老尼托克丽丝？
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+[charaFace A 0]
+
+＠尼托克丽丝
+当然可以。我居玉座的时间虽短，[r]但也是以法老的身份君临天下之身。
+[k]
+
+＠尼托克丽丝
+就让我来讲述一下我等光辉灿烂的王国，[r]古埃及第六王朝的生活吧！
+[k]
+
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_161 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaSet B 1098252410 1 库库尔坎]
+[sceneSet Q 169903 1]
+
+[scene 169903]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth A 2]
+[charaDepth Q 1]
+
+[charaScale A 1.0]
+[charaScale K 1.0]
+[charaScale M 1.0]
+[charaScale N 1.0]
+[charaScale Q 1.3]
+
+[wt 2.0]
+
+[se ade24]
+[seVolume ade24 0 0]
+[seVolume ade24 1.5 1.0]
+
+[cameraMove 0.1 0,0 1.07]
+[wt 0.1]
+
+[cameraMove 3.0 0,0 1.01]
+[fadein black 1.5]
+[wait fade]
+[seStop ade24 2.0]
+[wt 2.0]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+[wt 0.4]
+
+[bgm BGM_EVENT_112 0.1]
+
+
+＠尼托克丽丝
+……就这样，我结束了作为法老的人生，[r]并未踏上前往永恒国度之旅，就离开人世。
+[k]
+
+＠尼托克丽丝
+这是发生在公元前22世纪的事。后来，[r]古埃及王朝一直繁荣到了公元前1世纪。
+[k]
+
+＠尼托克丽丝
+法老克娄巴特拉努力到了最后一刻，[r]但还是被罗马共和国结束了这段历史。
+[k]
+
+[charaFadeout A 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠恐爪龙十一兄弟·老大
+不会吧……女王陛下，[r]您的人生也太困难模式了吧……
+[k]
+
+＠恐爪龙十一兄弟·老大
+那啥，作恶的神官就类似乌库伯吧？
+[k]
+
+＠恐爪龙十一兄弟·老大
+从出生的那刻起，身边就有一大堆乌库伯？[r]王兄不仅受人摆布，还被暗杀了？
+[k]
+
+＠恐爪龙十一兄弟·老大
+尼托大人本人则身处敌阵腹地[r]假装受人摆布，创造反击的机会？
+[k]
+
+＠恐爪龙十一兄弟·老大
+持续忍辱负重，终于找到机会将那些作恶多端的[r]逆臣贼子骗到了一块一网打尽？
+[k]
+
+[charaFace F 1]
+＠恐爪龙十一兄弟·老大
+做得到吗？　[#兄弟:你]做得到吗？[r]这好比蹴球时队友也全是敌人。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaScale A 1.0]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠恐爪龙十一兄弟·老二
+唔噢噢，不行，做不到～！[r]怎么想都不可能活下来～～～！
+[k]
+
+＠恐爪龙十一兄弟·老二
+在这情况下还赢了比赛什么的，尼托大人太厉害了吧～！？[r]比库库尔坎大人还厉害～～～！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[wt 1.2]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠恐爪龙十一兄弟·老二
+这就是所谓的神明吗！[r]毕竟咱们的神明基本上只会到处散步嘛！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+
+＠库库尔坎
+呵呵呵。[r]看来恐爪龙种也差不多该被淘汰掉了吧～？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠尼托克丽丝
+不。并不是因为我有多优秀。[r]身为法老，能做到这些是理所应当的。
+[k]
+
+＠尼托克丽丝
+而且……如果我真的有那么优秀，[r]就不用走到处决那些神官的地步[line 3]
+[k]
+
+＠尼托克丽丝
+……而是能在更早的阶段，[r]成功救下被神官暗杀的兄弟们了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 1]
+
+＠玛修
+尼托克丽丝小姐……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠尼托克丽丝
+话虽如此！　这依然算我的大胜利！
+[k]
+
+＠尼托克丽丝
+兄弟们应该也会在永恒国度以我为荣吧。
+[k]
+
+[charaFace A 1]
+
+＠尼托克丽丝
+辛苦各位一直聆听到最后。[r]迪诺斯都很讲礼貌，非常好！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 1]
+[charaFadein L 0.1 1]
+＠恐爪龙十一兄弟·老六
+那是因为你故事讲得很好啊。[r]令人仿佛身临其境。
+[k]
+
+＠恐爪龙十一兄弟·老六
+这就是所谓的『历史』……所谓的『故事』吗？[r]过于尖锐，令人脑瓜里火花四溅呢。
+[k]
+
+[charaFace L 0]
+
+＠恐爪龙十一兄弟·老六
+要是跟你身处同一个世界，[r]我们肯定全都死光光了吧。
+[k]
+
+＠恐爪龙十一兄弟·老六
+因阴谋诡计而痛失血亲。[r]同种族相互欺骗、憎恨、残杀。
+[k]
+
+[bgmStop BGM_EVENT_112 2.0]
+
+＠恐爪龙十一兄弟·老六
+[#我们可无法承受这么残酷的事]。
+[k]
+
+＠恐爪龙十一兄弟·老六
+不过，像这样当故事来听还是可以承受的。[r]所谓的故事就是这么一回事吧。
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠尼托克丽丝
+[line 3]或许，确实如此吧。[r]……难不成大家迄今为止从未经历过战争[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_156 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠恐爪龙十一兄弟·老七
+但是，也有一些地方我听不太懂。
+[k]
+
+＠恐爪龙十一兄弟·老七
+所谓的年号？[r]数时间是泛人类史特有的感觉吗？
+[k]
+
+
+？1：各位迪诺斯不数时间吗？
+？2：（……这么说来………）
+
+？！
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠玛修
+哎，请等一下。[r]米克特兰没有年号……
+[k]
+
+＠玛修
+不，是没有数年份的文化吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠特佩乌
+……是的。自从与各位一同行动以来，[r]我也产生了一种异样感。
+[k]
+
+＠特佩乌
+感觉迪诺斯与人对时间的观念并不一样。[r]我们并没有『年』的概念。
+[k]
+
+[charaFaceFade D 0 0.3]
+
+＠特佩乌
+你们所说的『过去』，[r]我们会一股脑地统称为『以前』。
+[k]
+
+＠特佩乌
+『100年前』是『稍早以前』，[r]『1000年前』则是『更早以前』。
+[k]
+
+＠特佩乌
+因此社会的构造不会像尼托克丽丝[r]讲述的王朝那样渐趋复杂。
+[k]
+
+＠特佩乌
+我们迪诺斯不会记录年的流逝[line 3][r]不会记录历史，不需要记录历史。
+[k]
+
+＠特佩乌
+我们的生活从『很久很久，很久以前』起，[r]就以当前的形式持续至今。
+[k]
+
+＠特佩乌
+[line 3]没错。按照泛人类史的标准来换算，[r][#我们在这６６００万年间]，[#未曾有过任何改变]。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_156 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,745 @@
+
+
+＄03-00-13-11-2-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098258900 1 高扬斯卡娅]
+[charaScale B 0.9]
+[charaSet C 1098252940 1 特佩乌]
+[charaSet D 1098257500 1 拉斯普京]
+[charaScale D 0.9]
+[charaSet E 1098253200 1 U－奥尔加玛丽]
+[charaSet F 1098253900 1 伊斯卡利]
+[charaSet G 1098239310 1 卡多克]
+
+[sceneSet O 10000 1]
+[charaScale O 1.01]
+[sceneSet P 10001 1]
+[charaScale P 1.01]
+[sceneSet Q 173200 1]
+[charaScale Q 1.5]
+[sceneSet R 170500 1]
+[charaScale R 1.2]
+[sceneSet S 172300 1]
+[charaScale S 1.3]
+[sceneSet T 170401 1]
+[charaScale T 1.01]
+
+[sceneSet U 170300 1]
+
+[pictureFrame cut063_cinema]
+[charaFadein Q 0.1 0,-250]
+
+[scene 173200]
+[wt 0.1]
+
+[charaMove Q 0,-200 0.5]
+[charaMoveScale Q 1.01 6.0]
+[charaShake Q 0.02 2 2 0]
+[se ad59]
+[seVolume ad59 0 0]
+[se ad769]
+[seVolume ad769 0 0]
+[seVolume ad59 1.5 0.8]
+[seVolume ad769 1.5 0.8]
+[fadein black 1.5]
+[bgm BGM_EVENT_49 0.1]
+[wait fade]
+
+[wt 2.0]
+
+[seStop ad59 1.5]
+[seStop ad769 1.5]
+[charaFadeout Q 1.5]
+[wt 1.7]
+[charaShakeStop Q]
+
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 0,-50]
+＠U－奥尔加玛丽
+你就是卡多克吧！[r]黑眼圈很严重啊，有没有注意肝脏啊！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 0,-50]
+
+＠卡多克
+要，要你管。[r]使用对兽魔术的人都会变成这样啦。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 13]
+[charaFadein E 0.1 0,-50]
+
+＠U－奥尔加玛丽
+对兽魔术……就是与野兽战斗的魔术吧。
+[k]
+
+＠U－奥尔加玛丽
+确实啊，野兽要比人类强大。[r]不得不保持神经紧绷，所以眼睛才会那么疲劳……
+[k]
+
+[subCameraOn 1]
+[charaLayer G sub #A]
+[subCameraFilter #A through]
+[charaFace G 4]
+[charaFadein G 0.1 0,-50]
+
+[charaFace E 0]
+
+＠U－奥尔加玛丽
+这意味着你是个谨慎之人吧！[r]这种细致应该跟我很合得来！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk G]
+[subRenderFadein #A 0.1 0,0]
+
+＠卡多克
+（喂，[%1]，这是怎么回事！[r]　我可没预料到事态会异常到这种地步啊！？）
+[k]
+
+＠卡多克
+（拉斯普京和高扬斯卡娅！[r]　连U－奥尔加玛丽也在！）
+[k]
+
+＠卡多克
+（要多离谱的经历才会组成这种荒唐的队伍啊！[r]　波澜壮阔也给我适可而止啦！）
+[k]
+
+？1：其实卡多克在场也挺……
+
+[charaFace G 7]
+
+＠卡多克
+我很平凡！　别把我跟他们混为一谈！
+[k]
+
+？2：不会再增加了。没关系。
+
+[charaFace G 6]
+
+＠卡多克
+真的吗？[r]我倒是感觉还会再增加些什么。
+[k]
+
+？！
+
+[charaFace G 1]
+
+＠卡多克
+（……也罢。总之，[r]　只要假装不认识所长就行了吧？）
+[k]
+
+＠卡多克
+（毕竟你和玛修都散发着这样的气场。[r]　是把她当作在异闻带结识的人吧。）
+[k]
+
+[messageOff]
+[subCameraMove #A 1.0 -85,-30 1.15]
+[cameraMove 1.0 -85,-30 1.15]
+[wt 1.2]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.3 300,-65]
+[bgm BGM_EVENT_49 2.0 0.6]
+＠拉斯普京
+哎呀，说悄悄话吗？[r]很高兴看到你们俩感情愈发和睦了，卡多克。
+[k]
+
+＠拉斯普京
+对此我也非常骄傲。[r]也不枉我冒着危险送你去潜航艇了。
+[k]
+
+[messageOff]
+[charaTalk G]
+[charaFace G 13]
+[wt 1.0]
+
+[charaTalk off]
+[charaDepth D 1]
+[charaDepth B 2]
+
+[subCameraMove #A 0.6 0,-30 1.15]
+[cameraMove 0.6 0,-30 1.15]
+[wt 0.6]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.3 -300,-65]
+[subBlur #A lens 0.5 1 10 1.0 subBlur]
+
+＠高扬斯卡娅
+哎呀！　原来是神父救了本该死在[r]奥林波斯的卡多克先生一命吗！？
+[k]
+
+[charaFace B 7]
+
+＠高扬斯卡娅
+这可是天大的背叛……[r]各位使徒分明那么要好……
+[k]
+
+＠高扬斯卡娅
+你这样做，已故的Limbo先生[r]与村正大人都会死不瞑目……
+[k]
+
+[charaFace B 21]
+
+＠高扬斯卡娅
+哪怕说得保守一点，[r]你也该切腹向他们谢罪吧……
+[k]
+
+[charaTalk D]
+[charaFace D 4]
+
+＠拉斯普京
+假哭可不好哦，高扬斯卡娅。[r]哪怕是美女，主也不会原谅你的。
+[k]
+
+＠拉斯普京
+还是多照照镜子直面自己的丑恶，[r]以便将演技磨炼得更为真实点吧。
+[k]
+
+[bgm BGM_EVENT_49 1.5 1.0]
+[messageOff]
+[charaTalk B,D]
+[charaFace B 4]
+[charaFace D 10]
+[wt 1.2]
+
+[charaFace B 23]
+[charaFace D 6]
+[wt 1.0]
+
+[charaMove B -150,-65 0.2]
+[charaMove D 150,-65 0.2]
+[charaFadeout D 0.2]
+[charaFadeout B 0.2]
+[wt 0.2]
+
+[cueSe Battle bac148 0 0.7]
+[backEffect bit_talk_13 200,100]
+[wt 0.3]
+[cueSe Battle bac149 0 0.7]
+[backEffect bit_talk_14 -200,-200]
+[wt 0.3]
+[cueSe Battle bac9]
+[backEffect bit_talk_14 150,100]
+[wt 0.3]
+[cueSe Battle bac150 0 0.7]
+[backEffect bit_talk_14 -150,-100]
+[wt 0.6]
+[bgmStop BGM_EVENT_49 1.5]
+
+
+[charaTalk off]
+[subBlurOff #A lens 1.0 normal]
+[subCameraHome #A 1.0]
+[cameraHome 1.0]
+[wt 1.5]
+
+
+[charaTalk on]
+[charaTalk G]
+[charaFace G 1]
+[bgm BGM_MAP_23 0.1]
+
+＠卡多克
+作战是这样安排的。[r]祭坛那边怎么想都应该都会有神官之类的在场吧。
+[k]
+
+＠卡多克
+由[%1]、玛修、尼莫、[r]U－奥尔加玛丽……
+[k]
+
+＠卡多克
+和这位恐龙……特佩乌氏一起闯进去。[r]靠冲击力决胜负。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[subRenderFadeout #A 0.1]
+[charaLayer G normal]
+[subCameraOff]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 0,-50]
+
+＠特佩乌
+我无法战斗，但若要吸引奥塞洛特尔们的目光，[r]我确实是正确的人选。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth G 2]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0,-50]
+[charaPut O 0,-200]
+[charaFadeTime O 0.2 0.5]
+
+＠卡多克
+（……长成那样还是非战主义者吗……[r]　这异闻带真是彻头彻尾不同于以往啊……）
+[k]
+
+[charaFadeout O 0.1]
+[charaFace G 1]
+
+＠卡多克
+然后，趁你们大闹期间，由拉斯普京[r]和高扬斯卡娅去营救达·芬奇和希翁。
+[k]
+
+＠卡多克
+[#我们:迦勒底]当然没有[#老好人:蠢]到将一切[r]都托给这两个家伙。由我来监视他们俩。
+[k]
+
+？1：[&呃，哦:说，说得对]。
+？2：嗯，就这么办吧。
+
+？！
+
+＠卡多克
+那接下来就要分头行动了。[r]我们会走另一条路线去到祭坛。
+[k]
+
+＠卡多克
+你们越是引人注目，我们这边的成功率[r]就越高。去尽情大闹一场吧！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth E 1]
+[charaDepth A 2]
+
+[charaFace E 18]
+[charaFace A 7]
+[charaFadeinFSL E 0.1 -256,-50]
+[charaFadeinFSR A 0.1 256,-50]
+[wt 0.5]
+[charaMoveReturnFSL E -256,-57 0.5]
+[charaMoveReturnFSR A 256,-57 0.5]
+[wt 1.0]
+
+[wipeout leftToRight 1.0 1.0]
+[bgmStop BGM_MAP_23 1.0]
+[wait wipe]
+
+[cameraMove 0.1 0,0 1.01]
+
+[charaSet G 1098252530 1 奥塞洛特尔1]
+[charaSet H 1098252530 1 奥塞洛特尔2]
+[charaSet I 1098252530 1 奥塞洛特尔3]
+[charaSet J 1098252530 1 奥塞洛特尔4]
+[charaSet K 1098252530 1 奥塞洛特尔5]
+[charaSet L 1098252530 1 奥塞洛特尔6]
+[charaSet M 1098252530 1 奥塞洛特尔7]
+[charaSet N 1098252570 1 奥塞洛特尔8]
+[charaScale G 0.8]
+[charaScale H 0.8]
+[charaScale I 0.9]
+[charaScale J 0.9]
+[charaScale K 0.9]
+
+[pictureFrame]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+
+[charaDepth R 1]
+[charaDepth P 3]
+[charaDepth S 4]
+
+[charaFadein R 0.1 -120,-300]
+[charaFadein P 0.1 0,-200]
+[scene 172300]
+[wt 1.0]
+
+[se ad59]
+[seVolume ad59 0 0]
+[se ad769]
+[seVolume ad769 0 0]
+[seVolume ad59 1.0 0.8]
+[seVolume ad769 1.0 0.8]
+[wt 1.0]
+
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+
+[seStop ad59 0.5]
+[seStop ad769 0.5]
+
+[se ad889]
+[seVolume ad889 0 0]
+[se ad647]
+[seVolume ad647 0 0]
+[seVolume ad889 0.5 1.0]
+[seVolume ad647 0.5 0.8]
+[effect bit_talk_lens_flare_fs]
+[charaMove R 50,-300 5.0]
+[charaFadeout P 1.5]
+[wt 2.5]
+[seStop ad889 2.0]
+[wt 1.0]
+
+[bgm BGM_EVENT_105 0.1]
+
+[effectForceStop bit_talk_lens_flare_fs]
+[charaFadein S 1.0 -100,-150]
+[charaMove S -50,-350 11.0]
+[wt 1.0]
+
+[charaFadeout R 0.1]
+[wt 3.5]
+
+[charaFadeout S 1.0]
+[wt 1.5]
+
+[subCameraOn 2]
+[charaLayer U sub #B]
+[charaLayer F sub #B]
+[charaLayer R sub #B]
+[charaLayer A sub #B]
+[charaLayer E sub #B]
+[charaTalk on]
+
+[charaScale U 1.2]
+[charaScale F 1.2]
+[charaDepth U 1]
+[charaDepth F 2]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 0,300]
+[charaFadein U 0.1 100,100]
+
+[subRenderDepth #A 2]
+[subRenderDepth #B 1]
+
+[subCameraFilter #B maskEdge cut359_mask05 5 0,0,0,255 0]
+[subRenderFadein #B 0.4 0,-200]
+[subRenderMove #B 0,-300 0.3]
+[wt 0.4]
+
+＠伊斯卡利
+咆吼吧，米克特兰的战士们啊！
+[k]
+
+＠伊斯卡利
+藉由迪诺斯们的鲜血，[r]月之路已回到正确的颜色！
+[k]
+
+＠伊斯卡利
+只知肆意挥霍毫无变化的循环！[r]不曾构筑起任何事物的愚蠢迪诺斯！
+[k]
+
+＠伊斯卡利
+那些家伙的鲜血现已送往希巴尔巴！[r]以期再度唤醒伟大的太阳！
+[k]
+
+[messageOff]
+[subRenderFadeout #B 0.4]
+
+[charaLayer T sub #A]
+[charaLayer G sub #A]
+[charaLayer H sub #A]
+[charaLayer I sub #A]
+[charaLayer J sub #A]
+[charaLayer K sub #A]
+[charaLayer L sub #A]
+[charaLayer M sub #A]
+[charaLayer N sub #A]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth G 1]
+[charaDepth H 2]
+[charaDepth I 3]
+[charaDepth J 4]
+[charaDepth K 5]
+[charaDepth L 6]
+[charaDepth M 7]
+[charaDepth N 8]
+
+[charaFace G 0]
+[charaFace H 0]
+[charaFace I 0]
+[charaFace J 0]
+[charaFace K 0]
+[charaFace L 0]
+[charaFace M 0]
+[charaFace N 0]
+[charaFadein T 0.1 0,200]
+[charaFadein G 0.1 -650,190]
+[charaFadein H 0.1 260,190]
+[charaFadein I 0.1 100,215]
+[charaFadein J 0.1 -300,210]
+[charaFadein K 0.1 600,220]
+[charaFadein L 0.1 -480,250]
+[charaFadein M 0.1 380,250]
+[charaFadein N 0.1 -65,250]
+[wt 0.1]
+
+[se ad647]
+[seVolume ad647 0 0]
+[seVolume ad647 0.4 0.5]
+
+[subCameraFilter #A maskEdge cut359_mask08 3 0,0,0,255 0]
+[subRenderFadein #A 0.4 -50,-300]
+[subRenderMove #A 0,-300 0.3]
+[wt 0.4]
+
+＠地面上的奥塞洛特尔们
+[image npc_language_17][line 3]！[r][image npc_language_17][line 3]！
+[k]
+
+[messageOff]
+[seStop ad647 1.0]
+[subRenderFadeout #A 0.4]
+[subRenderFadein #B 0.4 0,-300]
+[wt 0.4]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 3]
+
+＠伊斯卡利
+向太阳献上生命！[r]向特斯卡特利波卡献上荣耀！
+[k]
+
+＠伊斯卡利
+然后，赐予征服者们凄惨的死亡！
+[k]
+
+＠伊斯卡利
+否定我等的米克特兰，否定第五太阳的泛人类史！[r]他们虽为外敌，然而心脏仍将点燃圣火！
+[k]
+
+＠伊斯卡利
+太阳将会因稀有的鲜血而跃动！[r]我等的愿望将藉由这些活祭得以实现！
+[k]
+
+[messageOff]
+[subRenderFadeout #B 0.4]
+
+[se ad647]
+[seVolume ad647 0 0]
+[seVolume ad647 0.4 1.0]
+[charaTalk off]
+[subRenderFadein #A 0.4 50,-300]
+[subRenderMove #A 0,-300 0.3]
+[wt 0.4]
+[shake 0.03 4 4 1.0]
+＠地面上的奥塞洛特尔们
+[image npc_language_19][line 3]！[r][image npc_language_19][line 3]！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[charaFadeout U 0.1]
+[seStop ad647 1.0]
+[subRenderFadeout #A 0.4]
+[wt 0.4]
+
+[charaDepth R 1]
+[charaDepth A 2]
+[charaDepth E 2]
+
+[charaScale A 1.2]
+[charaScale E 1.2]
+[charaScale R 1.2]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 -100,200]
+[charaFadein R 0.1 -650,-100]
+[subCameraFilter #B maskEdge cut359_mask09 5 255,255,255,255 0]
+[subRenderFadeinFSSideR #B 0.4 400,-100]
+[subRenderMoveFSSideR #B 400,-200 0.3]
+
+＠玛修
+这狂热感太惊人了！[r]地面上传来的欢呼声震得整座桥都在摇晃……！
+[k]
+
+？1：不过，这是个好机会！
+？2：祭坛上只有伊斯卡利和神官……！
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaLayer U NORMAL]
+[charaLayer F NORMAL]
+[charaScale F 1.0]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 -90,200]
+
+＠U－奥尔加玛丽
+要动手啦，两位！[r]小心别掉到地面上！
+[k]
+
+[messageOff]
+[wipeout leftToRight 0.7 1.0]
+[bgmStop BGM_EVENT_105 0.7]
+[wait wipe]
+
+[subRenderFadeout #B 0.1]
+[charaFadeout E 0.1]
+[charaLayer A NORMAL]
+[charaLayer E NORMAL]
+[scene 170500]
+[wt 0.5]
+
+[se ad59]
+[seVolume ad59 0 0]
+[se ad769]
+[seVolume ad769 0 0]
+[seVolume ad59 0.7 0.8]
+[seVolume ad769 0.7 0.8]
+[wipein rightToLeft 0.7 1.0]
+[wait wipe]
+
+[seStop ad59 0.5]
+[seStop ad769 0.5]
+[wt 0.5]
+
+？1：到此为止了！
+？2：把她们俩还回来！
+
+？！
+
+[cueSe SE_21 21_ade643 0.7 0.6]
+[wt 0.3]
+[charaTalk off]
+[subRenderFadein #A 0.4 -50,-300]
+[subRenderMove #A 0,-300 0.3]
+[wt 0.4]
+＠地面上的奥塞洛特尔们
+[image npc_language_35_w9][image npc_language_35_w2][image npc_language_35_w1]……？[wt 1.0][cueSeStop 21_ade643 1.0][wt 1.0][shake 0.03 4 4 1.0][se ad647][seVolume ad647 0 0][seVolume ad647 0.4 1.0][r][image npc_language_20]，[image npc_language_20][line 3]！！！！
+[k]
+
+[messageOff]
+[seStop ad647 1.3]
+[subRenderFadeout #A 1.0]
+[wt 1.2]
+
+[bgm BGM_BATTLE_48 0.1]
+
+[charaFadeout T 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaLayer T normal]
+[charaLayer G normal]
+[charaLayer H normal]
+[charaLayer I normal]
+[charaLayer J normal]
+[charaLayer K normal]
+[charaLayer L normal]
+[charaLayer M normal]
+[charaLayer N normal]
+[charaScale G 1.0]
+[charaScale H 1.0]
+[charaScale I 1.0]
+[charaScale J 1.0]
+[charaScale K 1.0]
+[subCameraOff]
+
+[charaSet G 1098252500 1 奥塞洛特尔1]
+[charaSet H 1098252540 1 奥塞洛特尔2]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠伊斯卡利
+果然来了啊，泛人类史的[&男人:女人]。[r]否则也就没意思了。
+[k]
+
+＠伊斯卡利
+虽然心脏已经够数了，[r]但你们的脑袋也有价值。
+[k]
+
+＠伊斯卡利
+毕竟是打倒了好几名奥塞洛特尔的战士。[r]正适合拿来点缀仪式的尾声。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth G 1]
+[charaDepth H 2]
+[charaDepth F 3]
+
+[charaFace G 0]
+[charaFace H 0]
+[se ad1025]
+[charaFadeinFSL G 0.4 -280,-50]
+[wt 0.2]
+[seStop ad1025 0.5]
+[charaFadeinFSR H 0.4 280,0]
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 8]
+
+＠伊斯卡利
+他们是最古老的奥塞洛特尔，是战士中的战士。[r]决不逊色于你所召唤的从者之流。
+[k]
+
+[charaFace F 4]
+
+＠伊斯卡利
+[line 3]这次不会掉以轻心了。[r]我乃奥塞洛特尔之王，已活命一年的特斯卡特利波卡。
+[k]
+
+[charaFace F 6]
+
+＠伊斯卡利
+乃是对此名起誓统率米克特兰之人！[r]决不会再度输给征服者！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_BATTLE_48 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,1136 @@
+
+
+
+＄04-00-02-07-2-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270330 1 阿愈丝]
+[charaSet B 1098270500 1 拉妮－Ｄ]
+[charaSet C 1098270410 1 拉妮－Ｇ]
+[charaSet D 1098270000 1 希翁]
+[charaSet E 6037001 1 迦摩]
+[charaSet F 7046001 1 难敌]
+
+[charaSet G 7046001 1 难敌（演出用）]
+
+[charaSet H 1098270540 1 警报机器人]
+
+[sceneSet L 189501 1]
+[charaScale L 1.2]
+[sceneSet M 189501 1]
+[charaScale M 1.2]
+
+
+[charaSet S 98115000 1 特效用dummy]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[scene 189501]
+
+[charaTalk off]
+[charaDepth L 1]
+[charaDepth M 2]
+
+[charaFadein L 0.1 -20,-160]
+[charaMove L -120,-160 4.0]
+
+[bgm BGM_EVENT_167 1.5]
+
+[fadein black 1.5]
+[wait fade]
+[wt 1.5]
+
+[charaTalk M]
+[charaFace M 0]
+[charaFadein M 1.0 125,-270]
+[charaMove M 125,-320 4.0]
+[wt 1.5]
+
+[charaFadeout L 0.1]
+[wt 1.5]
+
+[charaFadeout M 1.0]
+[wt 1.25]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+先这样处置，再用这个包起来……这样！[wt 1.1][charaFace A 1][r]好，结束了，之后要好好静养哦！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaScale H 1.0]
+[charaTalk B,H]
+[charaFace B 1]
+[charaFace H 1]
+[charaFadein B 0.1 1]
+[charaFadein H 0.1 170,0]
+＠拉妮－Ｄ=spot[B,H]
+感谢。[r]虽然不多，但还是要提供谢礼。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[cueSe SE_23 23_ad1305 0 0.6]
+[se adm20]
+[charaEffectEdgeBlur A FFF9A5 FFF9A5 4 1.5]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+是吗？　其实等手头宽裕时再给也行，[r]不过谢啦！
+[k]
+
+[charaEffectEdgeBlurStop A]
+[charaFace A 1]
+＠阿愈丝
+[line 3]好，下一位～！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.05]
+[charaPut A 2000,2500]
+[wt 0.1]
+
+[se ad60]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 -150,0]
+[charaMove C -120,0 0.4]
+[charaShake C 0.01 1 1 0.4]
+[wt 0.4]
+[seStop ad60 0.2]
+[wt 0.8]
+
+[se ad60]
+[charaMove C -70,0 0.8]
+[charaShake C 0.01 1 1 0.8]
+[wt 0.8]
+[seStop ad60 0.2]
+[wt 0.8]
+
+[charaSet A 1098270300 1 阿愈丝]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠阿愈丝
+别再走了啦，就躺在那边吧！
+[k]
+
+[charaFace A 8]
+＠阿愈丝
+为了治疗，我得先将你的意识切断一次，[r]不用担心哦。那我开始啦[line 3]
+[k]
+
+[messageOff]
+[wipeout rollRight 1.0 1.0]
+[bgm BGM_EVENT_167 1.0 0.5]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[wt 0.5]
+
+[charaSet A 1098270370 1 阿愈丝]
+
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth A 2]
+[charaDepth D 2]
+[charaDepth E 2]
+[charaDepth F 2]
+
+[charaScale L 1.01]
+[charaFadein L 0.1 0,-200]
+
+[wt 1.5]
+
+[bgm BGM_EVENT_167 1.0 1.0]
+[wipein rollLeft 1.0 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠阿愈丝
+……呼。
+[k]
+
+？1：辛苦了。
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠希翁
+要短暂歇息了吗？　这很好。[r]从长远目光来看，这样能切实地提升工作效率。
+[k]
+
+＠希翁
+将工作暂时交给前来支援的[#修理部ＡＩ:型号Ｒ]处理吧。
+[k]
+
+[charaSet A 1098270300 1 阿愈丝]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaDepth A 2]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+也辛苦你们帮忙了。
+[k]
+
+[charaFace A 3]
+＠阿愈丝
+事态看上去虽然是顺利摆平了，[r]但毕竟被那种巨大怪物大闹了一场，
+[k]
+
+＠阿愈丝
+损失果然很严重呢……[r]令人不禁叹息。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 1]
+＠迦摩
+不过总比什么都不做要好吧？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠希翁
+说得对。我们的确减少了损失。[r]这点很明确。
+[k]
+
+＠希翁
+毕竟原本说不定连现在这种[r]治疗ＡＩ们的环境都保证不了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠阿愈丝
+唔，嗯。[r]话虽如此……话虽如此……
+[k]
+
+[charaFace A 4]
+＠阿愈丝
+还是觉得，好难受啊。
+[k]
+
+＠阿愈丝
+治疗伤员是[#修理部:Repair]的使命，[r]我对这点没有任何怨言，
+[k]
+
+＠阿愈丝
+但这并不代表我希望有谁受伤。
+[k]
+
+[charaCrossFade A 1098270310 0 0.3]
+＠阿愈丝
+……话说，我突然意识到一件事。[r]所谓的家人，基本上都是很重要的人吧？[wait charaCrossFade A]
+[k]
+
+＠阿愈丝
+组建家庭是不是就意味着重要的人会变多？
+[k]
+
+？1：说得对。
+？！
+
+[charaFace A 4]
+＠阿愈丝
+我会忍不住想象，万一重要的人受伤了……[r]有种腹部猛地抽紧的感觉呢。
+[k]
+
+＠阿愈丝
+假如我的愿望能够实现，大家都被纳入家人的范畴[r]在一起的话[line 3]
+[k]
+
+[charaFace A 3]
+＠阿愈丝
+那大家受伤的时候，[r]我说不定会比现在更加难受。
+[k]
+
+？1：也许……是吧。
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠迦摩
+呵呵呵，你意识到了呢。[r]没错，爱与痛楚乃是一体两面。
+[k]
+
+？2：所以就更不希望她们受伤了吧。
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠迦摩
+呵呵，不过凡事都有极限。
+[k]
+
+＠迦摩
+爱与痛楚乃是一体两面。[r]人是无法从中逃脱的。
+[k]
+
+？！
+
+[charaFace E 1]
+＠迦摩
+正因为有爱，才会联系到一起。[r]正因为联系到一起，才会感受到痛楚。
+[k]
+
+＠迦摩
+这是不可回避的原理。[r]爱本就是充满了痛楚的存在。
+[k]
+
+[charaFace E 15]
+＠迦摩
+所以[line 3]你打算怎么办？[r]要放弃你对家人的爱了吗？
+[k]
+
+[charaSet A 1098270300 1 阿愈丝]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaDepth A 2]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+
+＠阿愈丝
+不。[r]我不要。我不想放弃。
+[k]
+
+＠阿愈丝
+即便家人不全都是好事。[r]即便如此……也许正因为如此吧。
+[k]
+
+[charaFace A 5]
+＠阿愈丝
+做好忍耐痛楚的觉悟，接受痛楚的准备，[r]深刻理解可能会难受的事实，
+[k]
+
+＠阿愈丝
+我总觉得……[r]我还是要找到自己的家人才行。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 1]
+＠迦摩
+是吗。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠阿愈丝
+[line 3]好了，休息结束！[r]又要振作精神努力修理啦～！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠希翁
+之前连喘口气的空档都没有，[r]既然总算是休息了一会儿……
+[k]
+
+＠希翁
+也就意味着前来求助的人数减少了吧。
+[k]
+
+＠希翁
+需要救护的人是不是快要没有了？
+[k]
+
+[charaSet A 1098270330 1 阿愈丝]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaDepth A 2]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+不，应该还有很多需要修理的孩子。
+[k]
+
+[charaFace A 3]
+＠阿愈丝
+不过，说得对……或许主动前来联系[r][#修理部:Repair]的孩子是变少了吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠希翁
+这是什么意思？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+我们ＡＩ之间的所有互动，都是以[r]『用拉妮物质作为回报』的例行程序为基本原则的。
+[k]
+
+＠阿愈丝
+手上拉妮物质不多的伤员[r]应该也主动不起来吧。
+[k]
+
+[charaFace A 4]
+＠阿愈丝
+就算看到了我们，也不能主动[r]向[#修理部:Repair]提出『请求』吧。
+[k]
+
+＠阿愈丝
+倒也不是绝对不行，[r]但需要先经过各种手续或步骤。
+[k]
+
+[bgmStop BGM_EVENT_167 1.5]
+
+[charaFace A 3]
+＠阿愈丝
+所以必须由我们主动搭话才行。[r]麻烦归麻烦，但也没办法[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[se ad95]
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.4 1]
+[wt 0.4]
+[seStop ad95 0.4]
+[wt 0.6]
+
+[bgm BGM_MAP_49 0.1]
+
+＠难敌
+怎么可能没办法嘛，蠢货。[r]现在可没空在这里磨蹭吧。
+[k]
+
+[charaSet A 1098270300 1 阿愈丝]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaDepth A 2]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠阿愈丝
+[#Berserker:狂战士]！　真是的，你上哪去了啦。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠难敌
+本老爷自有本老爷该做的事。
+[k]
+
+[charaFace F 11]
+＠难敌
+手头上有拉妮物质的人就能优先接受治疗，[r]除此以外的统统靠后？
+[k]
+
+[charaFace F 10]
+＠难敌
+这可不是正确的国家该有的样子。[r]这种情况必须加以矫正才行。
+[k]
+
+[charaFace F 3]
+＠难敌
+综上所述！[r]本老爷制作了ＡＩ用的契约代币。
+[k]
+
+[charaFace F 0]
+＠难敌
+这是打包了『可以先用后付拉妮物质』[r]这一双边契约程序的压缩文件。
+[k]
+
+＠难敌
+把这些分发出去，[r]交给那些待救护的人员吧。
+[k]
+
+＠难敌
+这样一来，那些囊中羞涩的人[r]也能毫无顾虑地接受治疗了吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠阿愈丝
+你，你这是怎么了，[#Berserker:狂战士]！？[r]这主意也太棒了，是撞到脑袋了吗！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠难敌
+蠢货，身为王族，本老爷只是尽了自己的本分罢了！
+[k]
+
+[charaFace F 12]
+＠难敌
+本老爷不是一直在说吗，本老爷还是一名智将。
+[k]
+
+[charaFace F 3]
+＠难敌
+只是找到了证明的机会采取了行动而已啦。[r]莫要惊慌莫要惊慌，哈哈哈！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠阿愈丝
+总之，只要有了这个，救援速度也会随之提升了吧。
+[k]
+
+＠阿愈丝
+也将这些交给[#修理部:Repair]的孩子们，[r]让她们分发给需要的孩子们吧！
+[k]
+
+[charaFace A 1]
+＠阿愈丝
+嗯，这下又要忙起来了！[r]修理魂，奋战！
+[k]
+
+[messageOff]
+[se ad348]
+[charaMove A -150,0 0.4]
+[charaFadeout A 0.4]
+[seStop ad348 1.2]
+[wt 1.6]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[wt 0.3]
+
+[charaMoveReturn F 0,-7 0.5]
+[wt 0.55]
+[charaMoveReturn F 0,-7 0.5]
+[wt 1.2]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+＠迦摩
+抱歉在你一副幕后军师腔调频频点头时打扰。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠希翁
+但这个契约代币，背后写着『视为同意事后支付[r]包含利息在内的正常量１.４倍的拉妮物质』
+[k]
+
+＠希翁
+这么一句话哦？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MAP_49 1.5]
+
+[charaTalk F]
+[charaFace F 11]
+[charaFadein F 0.1 1]
+＠难敌
+……[r]……
+[k]
+
+[se ad186]
+[charaPut S 0,150]
+[charaEffect S bit_talk_41_fs]
+
+[charaMoveScale F 1.15 0.3]
+[charaMoveScale L 1.1 0.3]
+[charaMove L 0,-240 0.3]
+[charaMove F 0,5 0.3]
+
+[charaFace F 8]
+＠难敌
+哎[messageShake 0.05 4 3 0.4]哎！？
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+？1：太做作了……
+？！
+
+[messageOff]
+[charaEffectStop S bit_talk_41_fs]
+[charaFadeout F 0.4]
+[charaFadeout L 0.4]
+[wt 0.4]
+[charaPut S 2000,2500]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠希翁
+竟然乘人之危偷加不平等条约，[r]拜金主义到家了。
+[k]
+
+＠希翁
+而且绝妙地将利率设置成没有过于离谱的倍率，[r]反而更为恶劣了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+＠迦摩
+你到底有多人渣啊。[r]脑子是难敌吗？
+[k]
+
+
+[charaFace E 7]
+＠迦摩
+不过，我觉得你那已经一只脚踏入无可救药堕落的废柴感[r]还是挺可爱的。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaScale F 1.0]
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+＠难敌
+慢着，你刚才是不是极其自然地把本老爷的名字[r]拿来当骂人的词用了？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+＠希翁
+……唉，你真是做了件蠢事啊。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠难敌
+有，有什么关系！　平等和公平可不一样！
+[k]
+
+＠难敌
+做特别之事的人，[r]就该享受特别的利益！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠希翁
+我不是指这个。
+[k]
+
+[charaFace D 8]
+＠希翁
+虽然刚才好像还没有察觉到，[r]但毕竟是首席ＡＩ，
+[k]
+
+＠希翁
+阿愈丝小姐肯定会很快留意到[r]这个契约代币的机制吧。
+[k]
+
+＠希翁
+改写和修正应该都能轻松搞定。
+[k]
+
+[charaFace D 10]
+＠希翁
+在如此惨烈的战场上，做出这种利用伤员[r]赚钱的行为……那孩子会怎么看，
+[k]
+
+[charaFace D 7]
+＠希翁
+我是指连她的反应都想象不到的你很愚蠢。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[se adm76]
+[seVolume adm76 0 0]
+[seVolume adm76 1.0 0.5]
+[wt 1.3]
+
+[subCameraOn 1]
+[charaLayer S sub #A]
+[charaLayer A sub #A]
+[charaLayer L sub #A]
+[subCameraFilter #A maskEdge cut359_mask10 4 255,255,255,255]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth A 2]
+[charaDepth S 3]
+
+[charaScale S 0.8]
+[charaPut S 25,100]
+[charaEffect S bit_talk_41_fs]
+
+[charaScale L 1.2]
+[charaScale A 1.2]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 0,130]
+[charaFadein L 0.1 350,-100]
+
+[charaShake A 0.01 1 2 0]
+
+[subRenderFadeinFSSideL #A 0.4 -750,-150]
+[subRenderMoveFSSideL #A -350,-150 0.4]
+[wt 0.5]
+
+[charaTalk on]
+＠A：逐渐接近的阿愈丝的声音
+喂～！　[#Berserker:狂战士]！[r]这是怎么回事～！？
+[k]
+
+[seStop adm76 1.5]
+
+[charaTalk F]
+[charaFace F 11]
+[charaFadeinFSR F 0.1 200,0]
+＠难敌
+唔……
+[k]
+
+[charaFace F 0]
+＠难敌
+毕竟那家伙也忙得很，本老爷不认为[r]接下来她会无论如何都要坚持惩罚我。
+[k]
+
+[charaFace F 5]
+＠难敌
+综上所述，先逃之夭夭！
+[k]
+
+[charaFace F 12]
+＠难敌
+由于过于担心御主工作得太辛苦，为了让她[r]能获得正当报酬的善良脱缰失控了……
+[k]
+
+[charaFace F 2]
+＠难敌
+麻烦你像这样帮本老爷解释一下吧。[r]拜托啦！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+[charaFace F 0]
+[se ad348]
+[wt 0.1]
+[charaMoveFSR F 300,0 0.4]
+[charaFadeout F 0.4]
+[seStop ad348 1.2]
+[wt 0.6]
+
+[charaFace A 8]
+[wt 1.0]
+
+[se adm76]
+[subRenderMoveFSSideL #A -150,-150 0.4]
+[subRenderFadeout #A 0.4]
+[seStop adm76 1.2]
+[wt 1.8]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+＠希翁
+真是的，这就是所谓的绣花枕头吧。[r]看来是个名副其实的人物。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠迦摩
+我倒是很喜欢他哦？　他那种就很有人类的感觉，[r]看上去就非常容易堕落。
+[k]
+
+？1：总之是个坦率面对自身欲望的人呢。
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠希翁
+说得对，非常简单易懂。
+[k]
+
+？2：而且也挺讨人喜欢的，莫名恨不起来。
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠希翁
+这方面的评价就不在我的管辖范围了……
+[k]
+
+[charaFace D 0]
+＠希翁
+但不可否认的是，他具备某种心理上的亲和力。[r]那也算是一种领袖魅力吧。
+[k]
+
+？！
+
+？1：归根结底，用一句话形容[line 3]
+？！
+
+[messageOff]
+[fadeout black 0.8]
+[bgm BGM_EVENT_2 0.8 0.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_41_fs]
+[charaFadeout A 0.1]
+[charaFadeout L 0.1]
+
+[subCameraOff]
+[charaLayer S normal]
+[charaLayer A normal]
+[charaLayer L normal]
+[charaScale A 1.0]
+[charaScale L 1.0]
+[charaScale S 1.0]
+
+[pictureFrameTop cut063_cinema]
+
+[charaSet C 1098270460 1 拉妮－Ｇ]
+
+[wt 0.8]
+
+[fadein black 0.8]
+[bgm BGM_EVENT_2 1.5 1.0]
+[wait fade]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 17]
+[charaFadein F 0.1 0,-50]
+[charaMoveReturn F 0,-58 0.5]
+＠难敌
+呼[wt 0.5][charaMoveReturn F 0,-58 0.5]，呼。
+[k]
+
+[charaFace F 8]
+
+＠难敌
+啊。本老爷喜欢的这根带子被扯破了一点啊。
+[k]
+
+＠难敌
+是逃跑时，还是之前的战斗造成的？　该死。
+[k]
+
+[charaFace F 11]
+＠难敌
+编一条替换也需要拉妮物质。[r]没办法，只好先折起来遮一下了……[wt 1.0]唔？
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+[charaFadeout F 0.1]
+[wt 0.6]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+[se ad60]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 -320,-50]
+[charaMove C -290,-50 0.4]
+[charaShake C 0.01 1 1 0.4]
+[wt 0.4]
+[seStop ad60 0.2]
+[wt 0.8]
+
+[se ad60]
+[charaMove C -240,-50 0.8]
+[charaShake C 0.01 1 1 0.8]
+[wt 0.8]
+[seStop ad60 0.2]
+[wt 0.8]
+
+[subCameraOn 1]
+[charaLayer G sub #A]
+[charaLayer L sub #A]
+[subCameraFilter #A maskEdge cut359_mask05 3 231,41,45,255]
+
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth G 2]
+
+[charaScale G 1.2]
+[charaScale L 1.4]
+[charaFace G 2]
+[charaFadein G 0.1 0,100]
+[charaFadein L 0.1 -350,-125]
+
+[charaTalk G]
+[subRenderFadeinFSR #A 0.4 200,-140]
+[subRenderMoveFSR #A 200,-190 0.4]
+[wt 1.6]
+
+[charaFace G 11]
+[wt 1.2]
+
+[subRenderFadeout #A 0.4]
+[subRenderMoveFSR #A 200,-240 0.4]
+[wt 0.75]
+
+[charaDepth C 3]
+[charaDepth F 2]
+
+[se ad95]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.4 250,-50]
+[charaMove F 200,-50 0.4]
+[wt 0.4]
+[seStop ad95 0.4]
+[wt 0.6]
+[bgmStop BGM_EVENT_2 2.0]
+
+[charaTalk on]
+＠难敌
+喂，那边那个。
+[k]
+
+＠拉妮－Ｇ
+……？
+[k]
+
+＠难敌
+一副随时可能倒下的样子，看着就碍眼。[r]而且本老爷不喜欢那条手臂摇摇晃晃的样子。
+[k]
+
+[charaFace F 8]
+＠难敌
+难道已经断了？[r]实在是太不像样了[line 3]
+[k]
+
+[messageOff]
+[charaFace F 11]
+[wt 1.0]
+
+[se ade512]
+[charaMoveReturn F 200,-60 0.9]
+[wt 1.6]
+
+[bgm BGM_EVENT_116 0.1]
+[charaFace F 7]
+＠难敌
+……哼。这根带子就给你吧。用这把手臂吊起来。[r]然后去找[#修理部:Repair]，把这个代币交给她们。
+[k]
+
+[charaFace F 8]
+＠难敌
+什么，拉妮物质？
+[k]
+
+[charaFace F 6]
+＠难敌
+本老爷打从一开始就没指望过能从你这种看上去[r]就很穷的家伙身上赚到钱。这代币就是为此而存在的。
+[k]
+
+＠难敌
+给，少废话，赶紧去吧。[r]本老爷可是很忙的。
+[k]
+
+
+[messageOff]
+[charaTalk off]
+[charaFace C 1]
+[wt 0.45]
+
+[charaMoveReturn C -240,-57 0.6]
+[wt 1.2]
+
+[se ad60]
+[charaMove C -290,-50 0.4]
+[charaFadeout C 0.4]
+[seStop ad60 1.4]
+[wt 2.0]
+
+
+[charaTalk on]
+[charaFace F 7]
+＠难敌
+虽然契约可能会被改写，但只要事后[r]能赚到正常的量，至少也不算白费工夫。
+[k]
+
+＠难敌
+而且……没错。
+[k]
+
+[charaFace F 2]
+＠难敌
+本老爷也正好想丢掉这根破破烂烂的带子，[r]换条新的[line 3]
+[k]
+
+[messageOff]
+[fadeout black 0.8]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+[pictureFrame]
+[wt 0.8]
+
+[bgm BGM_EVENT_116 0.8 1.0]
+[fadein black 0.8]
+[wait fade]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth E 4]
+[charaDepth D 3]
+
+[charaFace E 0]
+[charaFace D 0]
+[charaFadeinFSR E 0.1 2]
+[charaFadeinFSL D 0.1 -256,-20]
+[wt 1.4]
+
+？1：以世俗眼光来看，大概是个坏人吧。
+？2：但又感觉不是纯粹的坏人呢……
+？！
+
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_116 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

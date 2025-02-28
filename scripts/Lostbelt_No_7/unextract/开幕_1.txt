@@ -1,0 +1,2077 @@
+
+＄03-00-13-00-1-0
+
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098235000 1 卡多克]
+[charaSet C 1098124800 1 异星的巫女]
+
+[sceneSet D 168701 1]
+[charaScale D 1.1]
+
+[sceneSet E 168702 1]
+[charaScale E 1.01]
+
+[sceneSet G 168702 1]
+[charaScale G 1.5]
+
+[charaSet H 98115000 1 特效用]
+
+[sceneSet I 168702 1]
+[charaScale I 1.3]
+
+[sceneSet J 168702 1]
+[charaScale J 1.3]
+
+[scene 10000]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_72 0.1]
+
+
+[criMovie talk_mov136 bgmPlay true]
+
+
+[fadeout black 1.0]
+[wait fade]
+
+[blur lens 0.1 2 2]
+
+[subCameraOn 2]
+[charaLayer A sub #A]
+[subCameraFilter #A through]
+[subRenderFadein #A 0 0,0]
+
+[charaLayer B sub #B]
+[subCameraFilter #B through]
+[subRenderFadein #B 0 0,0]
+
+[subRenderDepth #A 3]
+[subRenderDepth #B 2]
+
+[scene 168701]
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth E 2]
+
+[charaDepth I 1]
+[charaDepth J 2]
+
+[charaDepth A 3]
+[charaDepth B 4]
+[charaDepth C 6]
+[charaDepth H 5]
+
+[charaScale A 1.35]
+[charaFadein D 0.1 -50,-200]
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 256,30]
+
+[charaScale B 0.95]
+[charaFace B 6]
+[charaFadein B 0.1 -356,-30]
+
+[subBlur #B lens 0.1 1 1 1.0 subBlur]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+＠玛修
+这是[line 3][r]这里究竟是[line 3]
+[k]
+
+[messageOff]
+[charaTalk off]
+
+[cameraMove 1.0 20,0 1.05]
+[charaMoveScale A 1.4 0.4]
+[charaMove A 290,40 0.4]
+[charaFadeout A 0.4]
+
+[charaMoveScale B 1.05 1.0]
+[charaMove B -300,0 1.0]
+[subBlurOff #B lens 0.5 normal]
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 6]
+[wt 0.4]
+
+＠卡多克
+手术室与……[r]疑似生命体之物的，尸体吗……？
+[k]
+
+[messageOff]
+[charaFadeout B 0.4]
+[charaMoveScale B 1.1 0.4]
+[charaMove B -330,15 0.4]
+[blurOff lens 1.0]
+[cameraMove 1.5 30,40 1.15]
+[wt 1.8]
+
+[charaScale A 1.0]
+[charaScale B 1.0]
+
+？1：…………
+？2：根据情况来看，这个人就是[line 3]
+
+？！
+[messageOff]
+[cameraHome 1.2]
+[wt 0.8]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.4 -260,0]
+[charaMove B -250,0 0.4]
+[wt 1.0]
+[charaFace B 4]
+
+＠卡多克
+……嗯。根据情况来看，这个人，[r]就是特异点所有从者的御主……
+[k]
+
+＠卡多克
+莫里亚蒂称其为『受检体：E』……
+[k]
+
+[messageOff]
+[charaFadeout B 0.3]
+[wt 0.4]
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098235000 1 卡多克]
+[subCameraOff]
+[charaDepth A 3]
+[charaDepth B 4]
+[wt 0.2]
+
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.2 200,0]
+
+＠玛修
+！　对不起，刚才不小心停止了思考。[r]开始收集四周的数据！
+[k]
+
+[messageOff]
+[charaPut H 1]
+[charaScale H 1.5]
+[se ad1]
+[charaEffect H bit_talk_scan]
+[wt 3.0]
+[charaEffectStop H bit_talk_scan]
+
+
+
+[charaFadeout A 0.1]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.2 -200,0]
+[wt 1.0]
+[charaFace B 0]
+
+＠卡多克
+也是，各项扫描就拜托你了。[r]我也会试着调查一下是否有术式运作或魔力的痕迹。
+[k]
+
+＠卡多克
+……只不过，感觉不会有什么成果。[r]在如此现代化的设备中，应该轮不到魔术[line 3]
+[k]
+
+[bgmStop BGM_EVENT_72 2.0]
+[messageOff]
+
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+[charaScale D 1.4]
+[charaMove D 260,-300 0.1]
+[charaFadeout B 0.1]
+[charaDepth H 5]
+[charaDepth C 3]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+
+[se ad31]
+[charaPut H 0,145]
+[charaEffect H bit_talk_noise_gr]
+[wt 0.2]
+
+[charaEffectStop H bit_talk_noise_gr]
+[seStop ad31]
+[wt 0.4]
+
+[se ad31]
+[charaPut H 0,145]
+[charaEffect H bit_talk_noise02]
+[charaEffect H bit_talk_noise_gr]
+[wt 0.1]
+[shake 0.05 2 2 0.2]
+[wt 0.4]
+[charaScale C 0.8]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 -256,-70]
+[wt 0.1]
+
+[charaEffectStop H bit_talk_noise02]
+[charaEffectStop H bit_talk_noise_gr]
+[seStop ad31]
+
+[wt 1.5]
+[charaFadeout C 1.0]
+[wt 1.5]
+[charaScale C 1.0]
+
+？1：刚才那是[line 3]
+
+？！
+
+[charaFadeout D 1.0]
+[wt 1.5]
+
+[cueSe SE_22 22_ad1192]
+[seVolume 22_ad1192 0.5 0.6]
+[messageOff]
+[shake 0.05 1 1 1.8]
+[effect bit_talk_collapse_room1]
+[wt 1.5]
+[bgm BGM_BATTLE_137 0.1]
+
+？1：玛修、卡多克，有什么不太妙！
+
+？！
+
+[subCameraOn 3]
+[charaLayer A sub #A]
+[charaLayer I sub #A]
+[subCameraFilter #A maskEdge cut359_mask05 3 0,0,0,255 1]
+
+[charaLayer B sub #B]
+[charaLayer J sub #B]
+[subCameraFilter #B maskEdge cut359_mask05 3 0,0,0,255 1]
+
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+
+[charaTalk off]
+
+[charaScale A 1.25]
+[charaScale B 1.25]
+
+[charaFace A 5]
+[charaFace B 6]
+
+[charaFadein A 0.3 -60,160]
+[charaFadein I 0.3 -350,-15]
+
+[charaFadein B 0.3 0,180]
+[charaFadein J 0.3 280,-15]
+
+[subRenderFadeinFSSideR #A 0.5 230,-240]
+[subRenderMoveFSSideR #A 230,-200 0.3]
+
+[subRenderFadeinFSSideL #B 0.5 -230,-240]
+[subRenderMoveFSSideL #B -230,-200 0.3]
+
+[wt 1.4]
+[charaTalk on]
+[charaTalk B]
+[charaFace B 8]
+
+＠卡多克
+别突然大喊大叫，很吓人的啦！[r]不过你这表情我见过好多次了！
+[k]
+
+＠卡多克
+看来不太妙应该是确实无疑的！[r]玛修，抓紧扫描！
+[k]
+
+[messageOff]
+[charaTalk off]
+[wt 0.6]
+[charaFace A 6]
+[se ad241]
+[shake 0.05 2 2 1.0]
+[wt 2.0]
+[seStop ad241 1.0]
+[wt 0.5]
+
+
+[se ad15]
+[charaTalk on]
+[charaTalk A]
+[charaFace A 2]
+[charaFace B 8]
+
+＠玛修
+是！　距离该空间内可测量、可记录范围内的[r]所有信息扫描完毕，还剩10秒！
+[k]
+
+[messageOff]
+[charaTalk B]
+[charaFace B 0]
+[se ad59]
+[charaMove J 350,-15 0.3]
+[wt 0.5]
+[seStop ad59]
+[se ad547]
+
+[charaFace B 2]
+＠卡多克
+很好，门还开着！[r]等玛修一扫描完就立刻逃离！
+[k]
+
+＠卡多克
+[%1]！[r]你也到这边[line 3]
+[k]
+
+[charaFace B 8]
+[charaFace A 5]
+
+＠卡多克
+你怎么打算将尸体也带回去啦！？[r]别随便乱碰来路不明的东西啦，大笨蛋！
+[k]
+
+？1：（……虽然的确很害怕……）
+
+？！
+
+[bgm BGM_BATTLE_137 1.5 0.6]
+[messageOff]
+[subRenderFadeout #A 0.3]
+[subRenderMoveFSSideR #A 230,-220 0.5]
+
+[subRenderFadeout #B 0.3]
+[subRenderMoveFSSideL #B -230,-220 0.5]
+
+[cameraMove 1.0 30,30 1.1]
+[wt 1.4]
+
+？1：但就这样放着未免……
+？2：至少也要带到外面去……
+
+？！
+
+[messageOff]
+[charaTalk off]
+[charaMove D 20,-180 1.0]
+[charaMoveScale D 1.3 1.0]
+[wt 1.2]
+
+[se ade47]
+[seVolume ade47 0 0.5]
+[charaFadein E 1.0 0,-200]
+[wt 1.0]
+[seStop ade47 0.5]
+[wt 1.0]
+
+[charaFace A 5]
+[charaFace B 6]
+
+[charaFadein A 0.3 -60,160]
+[charaFadein I 0.3 -350,-15]
+
+[charaFadein B 0.3 0,180]
+[charaFadein J 0.3 350,-15]
+
+
+[subRenderFadeinFSSideR #A 0.5 230,-240]
+[subRenderMoveFSSideR #A 230,-200 0.3]
+
+[subRenderFadeinFSSideL #B 0.5 -230,-240]
+[subRenderMoveFSSideL #B -230,-200 0.3]
+
+[wt 0.4]
+
+
+＠玛修＆卡多克
+啊……
+[k]
+
+[charaTalk on]
+[charaFace A 28]
+
+＠玛修
+前辈！？
+[k]
+
+＠卡多克
+你这家伙，将宝贵的样本给……！
+[k]
+
+＠卡多克
+不，算了，这也没办法！[r]重要的是你没有异常吧！？　没有？　那就好！
+[k]
+
+＠卡多克
+玛修，10秒到了！[r]判断再继续待下去会有危险，快逃吧！
+[k]
+
+[charaFace A 2]
+
+＠玛修
+是！　数据收集完毕！[r]御主，我们赶紧逃吧！
+[k]
+
+？1：明，明白了！
+
+？！
+
+[messageOff]
+[subRenderFadeout #A 0.3]
+[subRenderMoveFSSideR #A 230,-220 0.5]
+
+[subRenderFadeout #B 0.3]
+[subRenderMoveFSSideL #B -230,-220 0.5]
+
+[se ad59]
+[se ad667]
+[wt 1.0]
+[seStop ad667 0.5]
+[seStop ad59 0.5]
+[wt 1.0]
+
+[se ad59]
+[charaMove E 50,-200 1.0]
+[wt 1.0]
+[seStop ad59]
+[wt 0.5]
+
+[charaLayer G sub #C]
+[charaFadein G 0.1 30,-200]
+[charaMove G 0,-200 1.5]
+
+[subCameraFilter #C through]
+[subRenderFadein #C 1.0 0,0]
+[wt 2.5]
+
+[effectDestroy bit_talk_collapse_room1]
+
+
+
+
+？1：不过，那个……
+？2：（总觉得，非常……）
+
+？！
+
+＠卡多克
+[%1]！[r]你还在干嘛，抓紧！
+[k]
+
+[messageOff]
+[bgm BGM_BATTLE_137 1.5 0]
+[se ad59]
+[wipeout leftToRight 0.7 1]
+[wait wipe]
+
+[cameraHome 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[subRenderFadeout #C 0.1]
+[wt 0.5]
+[seStop ad59 0.5]
+[scene 10000]
+
+[wipein rightToLeft 0.1 1]
+[wait wipe]
+
+[fadeout black 0.1]
+[wait fade]
+
+[scene 168702]
+
+[effect bit_talk_collapse_room2]
+[wt 0.5]
+
+[cueSe SE_22 22_ad1193]
+[fadein black 1.0]
+[wait fade]
+
+[wt 8.0]
+
+[cueSeStop 22_ad1192 2.0]
+[fadeout black 1.0]
+[wait fade]
+
+[effectDestroy bit_talk_collapse_room2]
+[sceneSet D 154700 1]
+
+[sceneSet I 154700 1]
+[charaScale I 1.3]
+
+[sceneSet J 154700 1]
+[charaScale J 1.3]
+
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth E 2]
+
+[charaDepth I 1]
+[charaDepth J 2]
+
+[charaDepth A 3]
+[charaDepth B 4]
+[charaDepth C 6]
+[charaDepth H 5]
+
+[charaScale D 1.5]
+
+[pictureFrame]
+[scene 154700]
+[effect bit_talk_collapse_room3]
+
+[subCameraOff]
+[charaScale A 1.0]
+
+[cameraMove 0.1 0,10 1.2]
+[wt 1.0]
+[fadein black 2.0]
+[bgm BGM_BATTLE_137 2.0 1.0]
+[wait fade]
+
+[se ad241]
+[cueSe SE_22 22_ad1192]
+[seVolume 22_ad1192 0 0.6]
+[shake 0.05 2 2 1.5]
+[wt 2.0]
+[seStop ad241 1.0]
+
+
+[subCameraOn 2]
+
+[charaLayer A sub #A]
+
+[subCameraFilter #A through]
+[charaFadein A 0.1 0,0]
+
+[charaLayer B sub #B]
+[charaLayer J sub #B]
+[subCameraFilter #B maskEdge cut359_mask05 3 0,0,0,255 1]
+
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+
+[charaTalk A]
+[charaFace A 2]
+[subRenderFadein #A 0 0,0]
+
+＠玛修
+物质的结合正逐渐断开！
+[k]
+
+＠玛修
+还出现了时空间的紊乱，[r]但更危急的是通道撑不住了！
+[k]
+
+＠玛修
+基于紧急事态，我要强制搬运两位！[r]御主、卡多克先生，恕我冒犯了！
+[k]
+
+[messageOff]
+
+[se ad7]
+[charaMoveScale A 1.1 0.2]
+[charaFadeout A 0.4]
+[wt 0.3]
+[se ad183]
+[cameraMove 0.5 0,-10 1.2]
+[shake 0.05 3 3 0.3]
+[wt 0.5]
+
+[charaScale H 1.0]
+[charaPut H 1]
+[charaEffect H bit_talk_41_fs]
+[se ad667]
+[shake 0.05 1 3 0]
+[charaMoveScale D 1.3 8.0]
+[charaMove D 50,-240 8.0]
+[wt 2.0]
+[seVolume ad667 1.0 0.2]
+[charaTalk on]
+
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.3 0,180]
+[charaFadein J 0.3 280,-15]
+
+[subRenderFadeinFSSideL #B 0.5 -230,-240]
+[subRenderMoveFSSideL #B -230,-200 0.3]
+
+＠卡多克
+呜啊，基列莱特！？[r]（单手就把我夹起来了吗[line 3]！？）
+[k]
+
+？1：毕竟她马力十足嘛！
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,0]
+
+＠玛修
+是的，因为我是亚从者！
+[k]
+
+？2：毕竟是超级玛修嘛！
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 0,0]
+
+＠玛修
+请，请您忘掉那件事！
+[k]
+
+？！
+
+[messageOff]
+[subRenderFadeout #B 0.3]
+[subRenderMoveFSSideL #B -230,-220 0.5]
+[charaFadeout A 0.4]
+
+[se ad241]
+[shake 0.05 2 2 2.0]
+[wt 2.0]
+[seStop ad241 1.0]
+[charaPut H 2000,2000]
+[charaEffectStop H bit_talk_41_fs]
+[seStop ad667 0.4]
+
+[charaScale A 1.0]
+[charaScale B 1.0]
+[charaSet A 8001400 1 玛修]
+[charaScale A 1.3]
+[charaScale B 1.3]
+[charaScale D 1.4]
+[charaLayer A sub #A]
+
+[se ad656]
+[charaTalk A]
+[charaFace A 2]
+[charaFace B 6]
+[charaFadein D 0.4 0,-300]
+[charaFadein A 0.4 100,0]
+[charaFadein B 0.4 -200,0]
+[charaMove D -20,-300 0.8]
+[charaMove A 80,0 0.8]
+[charaMove B -220,0 0.8]
+[wt 0.8]
+
+＠玛修
+[#圆桌之盾:Round Shield]，作为滑板固定！[r]推进器，最大展开！
+[k]
+
+＠玛修
+奥特瑙斯[f x-small center]突击[f -]滑行模式，要上了！[r]两位都请小心，千万别咬到舌头了！
+[k]
+
+[se ad631]
+[charaFadeout A 0.1]
+
+＠B：两人
+滑，滑行！？[r]突击，突击是什么意思啊，玛修[line 4]！？
+[k]
+
+[messageOff]
+[charaTalk A]
+[wt 1.0]
+[cueSe SE_21 21_ade546]
+[seVolume 21_ade546 0 0.4]
+[se ade334]
+[seVolume 21_ade546 0 0.2]
+
+
+[cueSeStop 22_ad1192 3.0]
+[bgmStop BGM_BATTLE_137 1.5]
+[cameraMove 2.5 0,0 1.0]
+[fadeout white 2.5]
+[wait fade]
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+
+[effectDestroy bit_talk_collapse_room3]
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 1.5]
+
+[charaLayer A normal]
+[charaLayer B normal]
+[subCameraOff]
+[scene 10000]
+
+[fadein white 1.0]
+[wait fade]
+
+[fadeout black 1.0]
+[wait fade]
+
+[cameraMove 0.1 0,0 1.01]
+[scene 126500]
+[charaScale B 1.0]
+[wt 2.0]
+[charaSet A 98001000 1 玛修]
+[charaSet B 1098239320 1 卡多克]
+[charaSet C 1098257410 1 希翁]
+[charaSet D 1098255100 1 戈尔德鲁夫]
+[charaSet E 1098158330 1 尼莫]
+[charaSet F 1098182000 1 尼莫护士]
+[charaSet G 1098257310 1 达·芬奇]
+
+[charaSet I 1098241500 1 莫里亚蒂]
+
+[sceneSet J 132900 1]
+[charaScale J 1.2]
+
+[charaSet K 98115000 1 特效用2]
+[charaSet L 1098257400 1 希翁_上升用]
+[charaSet M 1098257410 1 希翁_B立绘用]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 2.0]
+[scene 132900 1.0]
+[wt 2.0]
+
+
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.4 1]
+[wt 0.4]
+[bgm BGM_EVENT_77 0.1]
+
+＠戈尔德鲁夫
+[line 3]于是乎，三名现场调查员[r]就这样从神秘空间返回了[line 3]
+[k]
+
+＠戈尔德鲁夫
+嗯。通过一小时的休息，大家看来都舒缓下来了。[r]有遵照命令，将礼装送去清洗吗？
+[k]
+
+[messageOff]
+[cameraMove 0.4 0,10 1.01]
+[wt 0.4]
+[cameraMove 0.4 0,0 1.01]
+[wt 0.8]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玛修
+是，在特异点使用过的礼装都交给实验室了。[r]非常感谢各位帮忙维护。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+回答得好，基列莱特。[r][%1]的点头也很好。
+[k]
+
+[charaFace D 0]
+
+＠戈尔德鲁夫
+卡多克·泽姆露普斯，你怎么样？[r]都乖乖交出去了吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠卡多克
+……是的。这可是司令官大人亲自下达的命令，[r]我还没蠢到会去违抗。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+嗯，坦率是好事。[r]说实话，我对你的评价比当初预想的还要高。
+[k]
+
+＠戈尔德鲁夫
+你在这次的特异点中干得很漂亮。[r]橄榄，没错，如橄榄般大显身手。
+[k]
+
+＠戈尔德鲁夫
+[%1]虽然算身经百战的御主，[r]但本质还是个小市民，而非魔术师。
+[k]
+
+＠戈尔德鲁夫
+偶尔会与我这种冷静又冷血的魔术师方针相悖。
+[k]
+
+[charaFace D 1]
+
+＠戈尔德鲁夫
+而你刚好能在中间成为缓冲材料。[r]着实是个方便好用的人才啊。
+[k]
+
+＠戈尔德鲁夫
+今后也拜托你啦，泽姆露普斯。[r]如果你不想再度被套上项圈的话哦？
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+
+
+
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠卡多克
+…………
+[k]
+
+
+
+
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 1]
+
+＠尼莫
+戈尔德鲁夫，我能理解你想慰劳他们的心情，[r]但时间有限，也该进入正题了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+噢噢，抱歉，也是也是。[r]呃～，咳咳。
+[k]
+
+[charaFace D 13]
+
+＠戈尔德鲁夫
+成功自大规模特异点返回，做得很好。[r]诸位，这次也辛苦你们了。
+[k]
+
+＠戈尔德鲁夫
+在你们的努力之下，名称为『Traum』的[r]大规模特异点顺利消灭了。
+[k]
+
+[charaFace D 8]
+
+＠戈尔德鲁夫
+经营顾问……英灵夏洛克·福尔摩斯[r]未能返回一事固然令人遗憾，
+[k]
+
+[charaFace D 3]
+
+＠戈尔德鲁夫
+不过放心吧，那个男人肯定会回来的。[r]届时我定会刨根问底到烦死他。
+[k]
+
+[charaFace D 13]
+
+＠戈尔德鲁夫
+现在应该优先其他事项。[r]基列莱特在51区获得的数据……
+[k]
+
+＠戈尔德鲁夫
+51区的神秘房间，[r]以及『受检体：E』。
+[k]
+
+＠戈尔德鲁夫
+目前，达·芬奇所领导的电脑室[r]正最优先地在解析这些数据。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠尼莫
+达·芬奇与希翁、教授、[r]记录书记艾尔隆、灵子工学维护员马库斯、
+[k]
+
+＠尼莫
+助手奥克塔维娅，电脑室的成员都开足[r]马力了嘛。过不多时报告应该就会来了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠卡多克
+……那这段时间我们就待机吗？[r]没收礼装也是因为这个？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠尼莫护士
+是的。[r]本舰目前正在北美大陆上空待机。
+[k]
+
+＠尼莫护士
+前往下个作战目标，第七异闻带……[r]南美的亚马逊热带雨林地带，
+[k]
+
+＠尼莫护士
+将在大家的疲劳都缓解以后，[r]也就是大概48小时后。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+能在Storm Border内休息两天时间吧。[r]那真是太好了。
+[k]
+
+＠玛修
+毕竟前辈与卡多克先生都是在现场活动的。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠卡多克
+……这个嘛，确实挺辛苦的。[r]有中场休息的机会就太好了。
+[k]
+
+＠卡多克
+且不论我，这家伙啊，比起什么营养剂，[r]还是美味的饭菜和可以安睡的床铺更为有效。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+[se ad8]
+[wt 1.2]
+
+[se ade422]
+[wt 0.8]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 0.4]
+[seStop ade422]
+
+＠希翁
+意思是精神层面的回复吧？
+[k]
+
+＠希翁
+精气神也是召唤从者的重要因素嘛。[r]确实啊，真希望一个月起码有一周双休呢。
+[k]
+
+？1：希翁！
+？2：我们回来了！
+
+？！
+
+[messageOff]
+[charaFace C 15]
+[wt 1.2]
+[charaCrossFade C 1098257400 7 0.6]
+[wait charaCrossFade C]
+
+＠希翁
+恭喜各位完成任务。[r]很高兴能看到大家平安无事。
+[k]
+
+[charaFace C 8]
+
+＠希翁
+虽然我一点都没担心过。[r]容我刻意说这句话吧！　都在我计算之内！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠卡多克
+……在你计算之内吗。
+[k]
+
+＠卡多克
+这话从阿特拉斯炼金术师的顶级精英嘴里说出来，[r]可不能当玩笑话呢。
+[k]
+
+[bgmStop BGM_EVENT_77 2.0]
+
+＠卡多克
+……你连福尔摩斯的事都早知道了吗？
+[k]
+
+＠卡多克
+包括那家伙是『异星之神』的使徒，[r]以及会在那个特异点输给莫里亚蒂的事。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+
+＠希翁
+被你戳中痛处了呢……[r]不，既然是狼，该形容为被咬中吗？
+[k]
+
+[charaFace C 9]
+
+＠希翁
+正如你指出的，我一直确信福尔摩斯氏[r]就是『异星之神』的使徒。
+[k]
+
+＠希翁
+理由有两条。[r]其一是在第六特异点，阿特拉斯院的报告。
+[k]
+
+＠希翁
+『福尔摩斯氏与三尖赫耳墨斯同步，[r]　并取得了情报』。
+[k]
+
+＠希翁
+虽然说得轻描淡写，但三尖赫耳墨斯[r]是阿特拉斯院的大脑兼心脏。
+[k]
+
+＠希翁
+倘若区区一介英灵连接访问，[r]只会因信息过多导致灵基破裂。
+[k]
+
+＠希翁
+虽说那是夏洛克·福尔摩斯，[r]但他的记忆容量也并非神灵级。
+[k]
+
+＠希翁
+人类规格的英灵……不，[r]普通从者是[#不可能承受得住的]。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+这……确实呢。
+[k]
+
+＠玛修
+怀着“毕竟是福尔摩斯先生”这种想法，[r]我们理所当然地接受了……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 18]
+[charaFadein C 0.1 1]
+
+＠希翁
+还有一条，是他这等人物竟然[r]不去考究『异星之神』的目的为何。
+[k]
+
+＠希翁
+并非因为想不明白导致无法推进，[r]而是因为不能想明白，才没去推进。
+[k]
+
+＠希翁
+……本该揭露真相的侦探，[r]却在自欺欺人。
+[k]
+
+＠希翁
+从我的角度，我无法描述对福尔摩斯氏而言，[r]这是何等苦涩的选择……
+[k]
+
+[charaFace C 11]
+
+＠希翁
+但他这么做的理由倒是很明白。
+[k]
+
+＠希翁
+“一旦对这个疑点追根究底，我就会破灭。”[r]“为了迦勒底，决不可继续考究。”
+[k]
+
+＠希翁
+这就是他所能采取的，[r]唯一且最好的“神机妙策”了吧。
+[k]
+
+[charaFace C 7]
+
+＠希翁
+他虽是『异星之神』的使徒，[r]却通过忘记此事，成了迦勒底的伙伴。
+[k]
+
+[charaFace C 11]
+
+＠希翁
+而这次也一样。
+[k]
+
+＠希翁
+发现了自己真实身份的福尔摩斯氏[r]通过主动掉下瀑布，阻止了自己成为敌人。
+[k]
+
+[charaFace C 10]
+
+＠希翁
+福尔摩斯氏这种程度的英灵，
+[k]
+
+＠希翁
+『在被异星之神召唤时，为何，[r]　会主动允诺成为使徒呢？』
+[k]
+
+＠希翁
+关于这个『为何』的答案，[r]我还稍微～～有点看不出来，
+[k]
+
+[charaFace C 11]
+
+＠希翁
+但无论如何，他都只能抹消自己的记忆，[r]“在知晓自身的真实身份前”退场。
+[k]
+
+＠希翁
+皆因他乃是[#新:Novum]·迦勒底的伙伴。
+[k]
+
+[charaFace C 9]
+
+＠希翁
+我能看透的就这么多了。[r][line 3]这样你满意了吗，卡多克·泽姆露普斯。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠卡多克
+……意思是身为[#名侦探:福尔摩斯]的他虽不可信，[r]但作为迦勒底的伙伴，你却一直信任着他吗。
+[k]
+
+＠卡多克
+既然都明白这么多了，那么那家伙的目的你也明白了吗？[r]福尔摩斯是『异星之神』使徒的话，
+[k]
+
+＠卡多克
+那家伙最开始，[r]又是[#基于何种目的接触迦勒底]的？
+[k]
+
+＠卡多克
+『异星之神』想让那家伙做什么？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 12]
+[charaFadein M 0.1 1]
+
+＠M：希翁
+那当然是[#为了协助迦勒底]啦。
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace B 3]
+[charaFace D 4]
+[charaFadeinFSL B 0.1 0]
+[charaFadeinFSR D 0.1 2]
+
+＠卡多克＆戈尔德鲁夫
+哈？
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠希翁
+福尔摩斯氏的行动虽然可划分为『使徒』与『忘记使徒身份后』[r]两种，但无论哪种，所做的事应该都是一样的。
+[k]
+
+＠希翁
+他是以『帮助迦勒底攻略异闻带』一事[r]为目的的『异星之神』使徒。
+[k]
+
+＠希翁
+由于迄今为止一直恪守着被赋予的『职责』，[r]才没有被『异星之神』肃清掉。
+[k]
+
+[charaFace C 9]
+
+＠希翁
+但这次青年莫里亚蒂教授被选作『使徒』，[r]福尔摩斯氏成为了肃清对象。
+[k]
+
+＠希翁
+我猜测这恐怕是因为『异星之神』的[#命令:Command]是
+[k]
+
+＠希翁
+『到A地点为止要协助他们，[r]　从B地点往后决不可协助他们』吧。
+[k]
+
+＠希翁
+A地点是第五异闻带，B地点则是那之后。
+[k]
+
+＠希翁
+抑或是，
+[k]
+
+＠希翁
+『要是迦勒底跨越了A地点，[r]　就从内部使迦勒底崩溃』吧。
+[k]
+
+[charaFace C 18]
+
+＠希翁
+……无论是哪种，那一刻都终于到来了。[r]于是福尔摩斯氏被迫作出选择。
+[k]
+
+＠希翁
+是作为『使徒』的自己，[r]还是作为『迦勒底』的自己。
+[k]
+
+＠希翁
+最终，他掉下瀑布深渊，[r]选择了作为迦勒底经营顾问的身份。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace A 4]
+[charaFace D 8]
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL D 0.1 0]
+[wt 1.5]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠尼莫
+……这我可接受不了。
+[k]
+
+＠尼莫
+哪怕为打倒莫里亚蒂，[r]必须先打倒福尔摩斯。
+[k]
+
+＠尼莫
+但既然要对『异星之神』掀起反旗，[r]那应该活着回来才对吧？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+
+＠希翁
+问题就在这里啦……真是的，[r]那位福尔摩斯氏竟会选择自我毁灭，不可能啦不可能。
+[k]
+
+[charaFace C 13]
+
+＠希翁
+所以说，这就是最大的谜团，[r]同时也是直逼『异星之神』本质的线索。
+[k]
+
+＠希翁
+『哪怕想要成为迦勒底经营顾问，但想必只要自己[r]　还活着，就不得不听命于『异星之神』吧。』
+[k]
+
+＠希翁
+正因为理解了这件事，[r]福尔摩斯氏才不得不退出了舞台。
+[k]
+
+[charaFace C 14]
+
+＠希翁
+这是截然不同于从者契约的，[r]类似已无可救药的性癖的[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_70 0.5]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaEffect H bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[wt 0.3]
+[charaTalk G]
+[charaFace G 14]
+[charaFadein G 0.1 1]
+
+＠达·芬奇
+抱歉在各位畅谈时打扰！[r]大家都还在管制室吗！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+唔，嗯，当然在！[r]虽然我不是很想问，发生什么事了，技术顾问！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[charaPut H 1]
+[charaTalk G]
+[charaFace G 26]
+[charaFadein G 0.1 1]
+[bgm BGM_EVENT_122 0.1]
+
+＠达·芬奇
+我们正在检查『受检体：E』的数据，[r]结果发现附带了个不得了的玩意！
+[k]
+
+＠达·芬奇
+那个空间的角落暗中隐藏着[r]炸弹般的病毒数据[line 3]
+[k]
+
+＠达·芬奇
+嗯，一打开，就爆炸！[r]我设置成你们那边也能看见了，来，快看！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+爆爆爆爆炸，你在说什么蠢话……！
+[k]
+
+＠戈尔德鲁夫
+快快快快住手，还不快住手，[r]找东西封起来丢到外面去啊……！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk G]
+[charaFace G 26]
+[charaFadein G 0.1 1]
+[wt 0.5]
+[se ad31]
+[charaPut K 0,32]
+[charaEffect K bit_talk_10]
+[wt 0.6]
+[charaFadeout G 0.3]
+[bgmStop BGM_EVENT_122 1.0]
+[wt 1.2]
+[seStop ad31 0.5]
+[charaPut K 2000,2000]
+[charaEffectStop K bit_talk_10]
+[wt 0.2]
+
+[charaTalk I]
+[se ade227]
+[seVolume 21_ade620 0 0.5]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+[wt 2.3]
+
+[bgm BGM_MAP_91 0.1]
+[charaFace I 3]
+
+＠莫里亚蒂
+啊～，测试测试。[r]听得到吗？　拍得还清楚吗？
+[k]
+
+[charaFace I 1]
+
+＠莫里亚蒂
+嚯嚯。很好，这角度不错。[r]虽然遗憾的是没有椅子，但也不能强求。
+[k]
+
+[charaFace I 7]
+
+＠莫里亚蒂
+诸位早上好，或者说晚上好。[r]我是邪恶的天才，詹姆斯·莫里亚蒂。
+[k]
+
+[charaFace I 4]
+
+＠莫里亚蒂
+当这个文件被打开的时候，[r]想必我已经消失了吧。着实令人悲伤。
+[k]
+
+[charaFace I 0]
+
+＠莫里亚蒂
+这是我为防万一，[r]事先记录下来的莫里亚蒂影像。
+[k]
+
+＠莫里亚蒂
+好了，想来我跟你们间应该发生了许多事，[r]希望你们都能既往不咎。
+[k]
+
+＠莫里亚蒂
+我想要拯救世界。[r]这对迦勒底，不，
+[k]
+
+＠莫里亚蒂
+这对[%1]而言是个重担。[r][#我更能顺遂地拯救世界]。
+[k]
+
+＠莫里亚蒂
+那都是因为我就是有如此坚定的自负。
+[k]
+
+＠莫里亚蒂
+并非因为我想照顾御主[%1]。
+[k]
+
+＠莫里亚蒂
+毕竟我很害羞，想来也不会直接讲出来，[r]所以我就在这里说好了。
+[k]
+
+[charaFace I 9]
+
+＠莫里亚蒂
+我不看好[%1]。[r]这点希望你们不要搞错。
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+不好意思。[r]请问我可以现在就删掉这段影像吗。
+[k]
+
+？1：咬牙忍忍。
+？2：咬牙忍着吧。
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠莫里亚蒂
+你们获得了『受检体：E』的信息。
+[k]
+
+＠莫里亚蒂
+虽说解析『受检体：E』为何物是迦勒底的工作……[r]但我就给你们一点福利好了。
+[k]
+
+[charaFace I 9]
+
+＠莫里亚蒂
+那个并不是地球的生命体。
+[k]
+
+＠莫里亚蒂
+是100年间一直被人类亲手隐藏在那座设施内，[r]不断遭到检查与实验的生物之残骸。
+[k]
+
+＠莫里亚蒂
+疑似是其临终哀嚎唤来了[r]身为同胞的『异星之神』……
+[k]
+
+[charaFace I 4]
+
+＠莫里亚蒂
+不过再进一步的情况我也无法考究。[r]毕竟缺少必要的数值嘛。
+[k]
+
+[charaFace I 0]
+
+＠莫里亚蒂
+想必Storm Border上的特里斯墨吉斯忒斯Ⅱ[r]应该能找到更进一步的答案吧。
+[k]
+
+[charaFace I 1]
+
+＠莫里亚蒂
+那么，再会了，迦勒底。[r]我会祈祷你们能找出真相……不，我不会祈祷呢。
+[k]
+
+[charaFace I 7]
+
+＠莫里亚蒂
+该发生奇迹的时候自然会发生。[r]向神明祈祷是忘记做作业的学生才会干的事。
+[k]
+
+[messageOff]
+[se ad1]
+[charaFadeout I 0.4]
+[wt 0.2]
+[charaEffectStop H bit_talk_10_LowLevel]
+
+[wt 0.5]
+[charaPut H 1200,1200]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠卡多克
+那混账只是想挖苦两句吗！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+是相当坏的坏坏教授……！[r]也许会对御主的人格造成不良影响！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad1]
+[charaPut H 1]
+[charaEffect H bit_talk_10_LowLevel]
+[wt 0.3]
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 0.1 1]
+[wt 0.2]
+
+＠莫里亚蒂
+卡多克·泽姆露普斯与玛修·基列莱特[r]这会儿差不多应该发表完感想了吧？
+[k]
+
+[charaFace I 4]
+
+＠莫里亚蒂
+啊～，咳咳。[r]我再提供一点福利好了。
+[k]
+
+[charaFace I 6]
+
+＠莫里亚蒂
+毕竟这样下去好感会……不，贡献度还差一点，[r]可能存在将来不被迦勒底召唤的风险呢。
+[k]
+
+[charaFace I 0]
+
+＠莫里亚蒂
+事先声明，[r]留给你们的时间已经非常少了。
+[k]
+
+＠莫里亚蒂
+作为『异星之神』显现的U－奥尔加玛丽[r]图谋着进一步的灵基强化。
+[k]
+
+＠莫里亚蒂
+沉眠于南美的『领域外生命』，[r]在魔术协会被分类为『传承科』的绝对禁忌。
+[k]
+
+[charaFace I 9]
+
+＠莫里亚蒂
+这颗行星上货真价实的[#侵略生命体:Invader][line 3]
+[k]
+
+＠莫里亚蒂
+被称作『ORT』的外星生物。[r]与其融合就是她现在的目的。
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+
+[charaTalk off]
+[charaFace D 4]
+[charaFace C 6]
+[charaFadeinFSR D 0.1 2]
+[charaFadeinFSL C 0.1 0]
+[wt 1.5]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk I]
+[charaFace I 6]
+[charaFadein I 0.1 1]
+
+＠莫里亚蒂
+哈哈哈哈，吓到了吗？　吓到了吧？[r]能吓到你们我也痛快了不少。
+[k]
+
+[charaFace I 0]
+
+＠莫里亚蒂
+时限迫在眉睫。[r]哪怕打倒了我，也没时间休息了。
+[k]
+
+＠莫里亚蒂
+一旦『异星之神』将ORT纳入囊中，[r]便是地球人类败北之刻。
+[k]
+
+[charaFace I 7]
+
+＠莫里亚蒂
+抓紧时间吧。如果你们不想让这颗[r]充满邪恶可能性的行星被切成两半。
+[k]
+
+[messageOff]
+[charaFadeout I 0.4]
+[wt 0.3]
+[se ad1]
+[bgmStop BGM_MAP_91 1.0]
+[charaEffectStop H bit_talk_10_LowLevel]
+[wt 1.2]
+
+[fadeout black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_79 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+[charaShake D 0.05 2 2 0]
+
+＠戈尔德鲁夫
+竟，竟，竟[line 3]竟然是ORT！？
+[k]
+
+？1：ORT是什么？
+
+[charaShakeStop D]
+[charaFace D 7]
+
+＠戈尔德鲁夫
+你居然不知道ORT吗！？[r]啊不对，你也不可能知道嘛，该死的！
+[k]
+
+＠戈尔德鲁夫
+『晚上不睡觉的话，ORT就会出现，把你从头到脚嘎吱嘎吱[r]　吃掉或者说应该是连整栋房子一起吃掉吧。』
+[k]
+
+＠戈尔德鲁夫
+毕竟你没被这样管教过嘛！[r]羡慕死人了！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+
+
+
+
+？！
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠卡多克
+所谓的ORT嘛，让我想想……
+[k]
+
+＠卡多克
+按照你也能听懂的说法来说，[r]就是流传于魔术世界的[#怪谈]。
+[k]
+
+＠卡多克
+相传公元前，有一只降临至南美的外星生物，[r]无论是谁，只要靠近都会被瞬间杀死。
+[k]
+
+＠卡多克
+踏入那家伙的领域后，[r]还能活着回来的魔术师连一个都没有。
+[k]
+
+＠卡多克
+尽管如此，不知是认定那是不能放任不顾的危险，[r]还是出于纯粹的学术兴趣……
+[k]
+
+＠卡多克
+16世纪，某位做好万全准备的[#冠位:Grand]魔术师[r]偕同六名同胞[#色位:Brand]魔术师闯入了南美。
+[k]
+
+＠卡多克
+冠位魔术师是魔术世界中的顶点，[r]是独自一人便足以匹敌一国的怪物。
+[k]
+
+＠卡多克
+而虽然低了一阶，但色位魔术师也是[r]能力上比肩冠位，如宝石般的天才。
+[k]
+
+＠卡多克
+集结了七位这种魔术师的探索，[r]可谓前所未有的轰动事件吧。
+[k]
+
+＠卡多克
+实际上，听说建造于丛林中的探险用营地[r]弥漫着节日的氛围。
+[k]
+
+＠卡多克
+但是……[r]从探索中返回的魔术师只有一个。
+[k]
+
+＠卡多克
+『目前还不可以接触那个。[r]　这一轮的地球生命无一能够企及。』
+[k]
+
+＠卡多克
+『等待下个[#纪元]吧。将希望托付给[r]　我等灭绝后经历了全新进化的生命吧。』
+[k]
+
+＠卡多克
+留下了这段话，他就在众人的环视中，[r]活生生地[#变成了水晶]。
+[k]
+
+＠卡多克
+魔术师名为阿斯特亚，[r]是当时的时钟塔十二君主之一。
+[k]
+
+＠卡多克
+经过那次事件后，魔术协会·时钟塔的[#学院长:Top][r]就宣布将这只怪物命名为『ORT』。
+[k]
+
+＠卡多克
+从此以后，南美的[#某个地带]便作为[r]人类不可踏足的魔境广为人知。
+[k]
+
+[charaFace B 6]
+
+＠卡多克
+……虽然对我这种末端的魔术师家系而言，[r]这只是个可疑的童话故事罢了。
+[k]
+
+＠卡多克
+但是从戈尔德鲁夫的样子来看，[r]这件事在贵族之间是作为事实流传的吧。
+[k]
+
+＠卡多克
+以至于拿来吓唬不听话的小孩说『ORT要来咯』。
+[k]
+
+？1：也就是说……地球上还存在外星生物？
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+说得没错！
+[k]
+
+＠戈尔德鲁夫
+决不可接触ORT，[r]敬外星人而远之！　学院长如是说，
+[k]
+
+＠戈尔德鲁夫
+『只要星球不呼喊，ORT就不会苏醒。[r]　它正在南美的地底舒舒服服地冬眠着。』
+[k]
+
+＠戈尔德鲁夫
+『因此千万别对它出手。[r]　一旦它有所动作，这颗星球的人类圈便会丧失。』
+[k]
+
+＠戈尔德鲁夫
+那可是能让学院长说到这份上的怪物啊！[r]比『异星之神』还恶劣！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠尼莫
+这样的神秘就沉眠于南美吗。[r]身为船长，确实被撩拨起了冒险之心呢……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+就是你这种！　这种好奇心险些[r]导致世界毁灭啦！　给我注意点！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+我想起来了，迦勒底的数据库也有关于『ORT』的记述。
+[k]
+
+＠玛修
+『ORT』是当前魔术世界所确认到的[r]最强韧、最不可思议的生命体。
+[k]
+
+＠玛修
+相传是拥有坚硬、柔软、炽热、冰冷的外皮，[r]在体内通过核聚变反应生成能量，
+[k]
+
+＠玛修
+能将触碰到的物质转变为水晶的，[r]巨大蜘蛛型外星生物。
+[k]
+
+＠玛修
+不得不说是凭借人类公元3000年以前的技术[r]都无法解析的『人类威胁』。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠卡多克
+不会吧。
+[k]
+
+？1：这么夸张……？
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+
+＠希翁
+[line 3]在计算之外，彻头彻尾在计算之外。
+[k]
+
+＠希翁
+『异星之神』要与『ORT』融合？
+[k]
+
+＠希翁
+分明已经具备充足的性能了，[r]为何还要添这种多余的饭？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+
+＠尼莫
+……不过她都自称是地球总统了，[r]所以肯定贪得无厌吧……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠希翁
+哎～。如果将迦勒底当前的战斗力比作50级的话，[r]那『异星之神』的战斗力则相当于1000级。
+[k]
+
+＠希翁
+没必要再增强战斗力了。[r]然而她却想与ORT融合进化为10000级？
+[k]
+
+＠希翁
+究竟有多喜欢有备无患啊。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth C 1]
+[charaDepth J 2]
+[charaDepth L 3]
+
+[charaScale L 1.2]
+[charaFace L 10]
+[charaFadein J 0.6 50,-250]
+[charaFadein L 0.6 -150,0]
+[charaMove J 70,-250 1.0]
+[charaMove L -130,0 1.0]
+[bgmStop BGM_EVENT_79 2.0]
+[wt 1.0]
+
+＠希翁
+无论如何，既然莫里亚蒂都留下了这种[r]精心拍摄的影像，应该就是事实吧。
+[k]
+
+[charaFace L 5]
+[bgm BGM_CHALDEA_2 0.1]
+
+＠希翁
+戈尔德鲁夫氏。达·芬奇。[r]我提议火速变更行程。
+[k]
+
+＠希翁
+虽然『异星之神』U－奥尔加玛丽能否与[r]其他生物融合一事还需要验证，
+[k]
+
+＠希翁
+但万一她真的与『ORT』融合了，[r]我们就毫无胜算可言了。
+[k]
+
+＠希翁
+好不容易完成的圣剑兵装也不会再奏效。[r]在不列颠的作战就前功尽弃了。
+[k]
+
+＠希翁
+根据特里斯墨吉斯忒斯Ⅱ的预测，[r]地球上尚未发生[#那等规模]的危险。
+[k]
+
+＠希翁
+有什么原因导致『异星之神』在[r]寻找『ORT』上耽误工夫。
+[k]
+
+＠希翁
+既是如此，我们也一刻都不能拖延了。
+[k]
+
+＠希翁
+接下来Storm Border将边进行装备的最终调整，[r]边朝着第七异闻带进发。
+[k]
+
+＠希翁
+找出『异星之神』，[r]在她与『ORT』融合前击败她吧！
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_CHALDEA_2 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

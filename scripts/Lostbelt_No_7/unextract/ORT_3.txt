@@ -1,0 +1,1089 @@
+
+
+＄03-00-13-23-3-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098252940 1 特佩乌_B]
+[charaSet D 1098255200 1 哈贝特洛特]
+[charaSet E 1098257300 1 达·芬奇]
+[charaSet F 1098257420 1 希翁]
+[charaSet G 1098255100 1 戈尔德鲁夫]
+[charaSet H 1098239310 1 卡多克]
+
+[charaSet I 1098154000 1 空想树的种子]
+[charaSet J 1098154000 1 空想树的种子]
+[charaSet K 1098154000 1 空想树的种子]
+[charaSet L 1098154000 1 空想树的种子]
+[imageSet M cut415_border 1]
+[imageSet N cut415_border 1]
+
+[imageSet O cut415_border 1]
+
+[sceneSet Q 174701 1]
+[sceneSet R 174701 1]
+[sceneSet P 176801 1]
+[imageSet S back10000 1 1]
+[charaSet T 98115000 1 特效用]
+
+[charaScale B 1.2]
+[charaScale C 1.2]
+[charaScale M 3.4]
+[charaScale N 3.4]
+[charaScale O 1.25]
+[charaScale Q 1.4]
+[charaScale R 1.4]
+[charaScale P 1.3]
+[charaScale S 1.01]
+
+[subCameraOn 1]
+[charaLayer O sub #A]
+[subCameraFilter #A maskEdge cut359_mask07 3 255,255,255,255]
+[subRenderScale #A 1.0]
+[charaFadein O 0.1 -20,-100]
+
+[scene 174800]
+
+[cameraMove 0.1 0,0 1.01]
+[shake 0.05 1 3 0]
+[effect bit_talk_41_fs]
+
+[fadein black 1.0]
+[bgm BGM_BATTLE_107 0.1]
+[se ad59]
+[seVolume ad59 0 0.5]
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0.5]
+[wait fade]
+
+[wt 2.5]
+
+[fadeout black 0.6]
+[bgm BGM_BATTLE_107 0.6 0.4]
+[seVolume ad59 0.6 0.2]
+[cueSeVolume 22_ad1210 0.6 0.2]
+[wait fade]
+
+[seStop ad59 1.0]
+[cueSeStop 22_ad1210 1.0]
+[shakeStop]
+[effectDestroy bit_talk_41_fs]
+
+[scene 174701]
+
+[charaTalk depthOff]
+[charaDepth R 2]
+[charaDepth Q 1]
+[charaDepth P 1]
+
+[charaFadein Q 0.1 -230,-420]
+[wt 1.5]
+
+[fadein black 1.0]
+[bgm BGM_BATTLE_107 1.0 1.0]
+[charaMove Q 30,-420 6.0]
+[wait fade]
+[wt 3.0]
+
+[charaFadein R 0.4 260,-160]
+[charaMove R 260,-360 6.0]
+[wt 1.0]
+[charaFadeout Q 0.1]
+[wt 2.0]
+[charaFadeout R 0.7]
+[wt 1.0]
+
+？1：米克特兰到处都是空想树……！
+？2：ORT呢！？
+
+？！
+
+[messageOff]
+[cueSe SE_23 23_ad1246]
+[fadeout white 0.7]
+[bgm BGM_BATTLE_107 0.7 0.4]
+[wait fade]
+
+[charaTalk depthOn]
+
+[cameraMove 0.1 50,-20 1.2]
+[wait camera]
+
+[scene 176801]
+[charaFadein P 0.1 0,-370]
+
+[shake 0.01 1 1 0]
+[se ade59]
+[seVolume ade59 0 0]
+[seVolume ade59 0.2 0.7]
+[seVolume ade92 0.2 1.0]
+[wt 0.5]
+
+[charaMove P 0,-200 5.5]
+[fadein white 2.0]
+[se ad882]
+[se ad828]
+[se ad915]
+[se ad914]
+[se ade92]
+[seVolume ade92 0 0]
+[seVolume ade92 0.2 1.0]
+[wt 1.0]
+[seStop ade59 0.5]
+[wt 0.5]
+[bgm BGM_BATTLE_107 0.7 1.0]
+[wait fade]
+
+[wt 1.5]
+[shakeStop]
+[charaFadeout P 1.0]
+
+[cameraMove 3.0 0,0 1.01]
+[wait camera]
+[wt 1.0]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+[bgm BGM_BATTLE_107 0.7 0.4]
+[wait wipe]
+
+[scene 174701]
+
+[charaTalk E]
+[charaFace E 26]
+[charaFadein E 0.1 1]
+[wt 0.6]
+
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[bgm BGM_BATTLE_107 0.7 1.0]
+[wait wipe]
+
+＠达·芬奇
+ORT也上浮到第九层了！[r]灵基输出与规模都与刚才截然不同！
+[k]
+
+＠达·芬奇
+尺寸也肉眼可见地变大了！　推测有100米，[r]与墨西哥城那次的报告完全一致！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠哈贝特洛特
+那是什么，太大了吧！
+[k]
+
+＠哈贝特洛特
+如果特斯卡特利波卡的未来是准确的，[r]ORT将会从这里一路朝地表前进吧！？
+[k]
+
+＠哈贝特洛特
+靠咱们的脚程是追不上的！[r]得有能装下所有人的交通工具[line 3]
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth I 4]
+[charaDepth L 3]
+[charaDepth J 2]
+[charaDepth K 1]
+
+[se ad75]
+
+[charaPut K -400,0]
+[charaPut J 400,0]
+[charaPut I 0,0]
+
+[wt 1.0]
+
+[charaTalk off]
+
+[se ad322]
+[charaEffect K bit_talk_impactlanding]
+[shake 0.05 0 3 1.0]
+[wt 0.4]
+
+[charaFace K 0]
+[charaFadein K 0.4 -400,0]
+
+[se ad322]
+[charaEffect J bit_talk_impactlanding]
+[shake 0.05 0 3 1.0]
+[wt 0.4]
+
+[charaFace J 0]
+[charaFadein J 0.4 400,0]
+[wt 0.8]
+
+[se ad322]
+[charaEffect I bit_talk_impactlanding]
+[shake 0.05 0 3 1.0]
+[wt 0.8]
+
+[charaFace I 0]
+[charaFadein I 0.4 0,0]
+[wt 1.5]
+
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+空想树的种子朝这边过来了！[r]示巴发出的危险观测为B+！
+[k]
+
+＠玛修
+危险度比刚才战斗过的种子增大了！[r]御主，请下达指示！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠哈贝特洛特
+不行啊，玛修，别战斗！[r]连续战斗至今，大家已经精疲力竭了吧！？
+[k]
+
+＠哈贝特洛特
+跟那个数量级的敌人交战，大家都会死的！[r][%1]，暂且回神殿吧！
+[k]
+
+？1：（哈贝特洛特的意见是对的……！）
+？2：（但如果现在返回神殿，ORT就[line 3]）
+
+？！
+
+[bgmStop BGM_BATTLE_107 1.0]
+[messageOff]
+[charaFadeout D 0.1]
+
+[se ad729]
+[seVolume ad729 0 0.2]
+[seVolume ad729 1.0 1.0]
+[se ade327]
+[wt 1.0]
+
+[charaTalk depthOff]
+[charaDepth O 7]
+[charaDepth N 6]
+[charaDepth M 5]
+
+[shake 0.01 3 3 1.6]
+[se ad815]
+[charaFadein M 0.7 20,-1350]
+[charaMove M 20,-1150 2.5]
+[wt 0.9]
+[se ad815]
+[cueSe Servants_304100 bac1644]
+[wt 1.0]
+
+[shake 0.01 3 3 1.8]
+[cueSe SE_22 22_ade778]
+[charaFadein N 0.7 -30,-700]
+[charaMove N 30,-700 1.5]
+[wt 1.0]
+[charaFadeout M 0.1]
+[wt 1.5]
+
+[charaFadeout N 0.7]
+[cueSeStop 22_ade778 0.6]
+[seStop ad729 1.0]
+[se ad159]
+
+[subRenderFadeinFSL #A 0.4 -150,-150]
+[subRenderMoveFSL #A -150,-200 0.4]
+[wt 0.4]
+
+[bgm BGM_BATTLE_48 0.1]
+＠[51ffff]卡多克[-]
+[51ffff]赶上了！　待会再解释，先赶快上车！[-][r][51ffff]种子从整片树海铺天盖地地涌过来了！[-]
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.4]
+[wt 0.4]
+
+[messageOff]
+[charaScale B 1.2]
+[charaScale E 0.9]
+[charaScale D 0.9]
+[charaScale A 0.9]
+
+[charaDepth E 4]
+[charaDepth D 3]
+[charaDepth A 2]
+[charaDepth B 1]
+
+[charaTalk E,D,B,A]
+[charaFace A 1]
+[charaFadein A 0.1 -120,-100]
+[charaFace D 9]
+[charaFadein D 0.1 -350,-100]
+[charaFace E 7]
+[charaFadein E 0.1 340,-100]
+[charaFace B 1]
+[charaFadein B 0.1 500,50]
+[wt 1.8]
+
+[fadeout black 1.0]
+[bgm BGM_BATTLE_48 1.5 0.5]
+[wait fade]
+
+[se ad729]
+[seVolume ad729 0 0.2]
+[seVolume ad729 1.0 0.8]
+[se ade327]
+[wt 1.5]
+
+[se ade329]
+[wt 1.0]
+[seStop ad729 1.0]
+
+[seVolume ad729 1.0 0.2]
+
+[subCameraOff]
+
+[charaTalk depthOn]
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[charaScale A 1.0]
+[charaScale D 1.0]
+[charaScale E 1.0]
+[charaScale B 1.0]
+
+[scene 142000]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_BATTLE_48 1.0 1.0]
+[wait fade]
+[wt 0.5]
+
+
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠戈尔德鲁夫
+哼。不在进站维修上耗费时间，[r]这是优秀车队的常识。
+[k]
+
+？1：呜哇，得救了[line 3]！
+
+[charaFace G 2]
+
+＠戈尔德鲁夫
+哈哈哈，怎么还有人泪眼汪汪的啊！[r]看来是经历了接连不断的危机呢！
+[k]
+
+[charaFace G 16]
+
+＠戈尔德鲁夫
+[line 3]辛苦你们了。
+[k]
+
+＠戈尔德鲁夫
+你们出色地完成了全员都能活着再见[r]这个最为重要的任务。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+
+？2：话说卡多克，把剩下的茶给我。
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 8]
+[charaFadein H 0.1 1]
+
+＠卡多克
+这算什么。[r]九死一生冲进来第一句话就这？
+[k]
+
+＠卡多克
+很不凑巧，全都被库库尔坎清空了哦。[r]剩下的芝士曲奇也由我津津有味地享用掉了。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+得救了。[r]这里还有勉强供我挤进来的空间呢。
+[k]
+
+＠特佩乌
+各位，何不先坐下来静下心呢？[r]就算现在不是那种时候，也需要休息。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠达·芬奇
+嗯，坐下来喘口气吧。[r]玛修和[%1]都是。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠哈贝特洛特
+咱也回到基态吧。[r]咦，话说高扬斯卡娅呢？　没跟你们在一起吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠卡多克
+她先回奇琴伊察了。[r]反正那家伙可以单独横跨米克特兰。
+[k]
+
+[charaFace H 8]
+
+＠卡多克
+不过米克特兰都成这样了，[r]估计这会儿她正在第四层附近发牢骚吧。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠戈尔德鲁夫
+放心吧，高扬斯卡娅肯定能身手敏捷地[r]驯服种子，并平安回到城里吧。
+[k]
+
+[charaFace G 0]
+
+＠戈尔德鲁夫
+驾驶就交给我吧。[r]目前正边躲避种子边行驶在安全范围内。
+[k]
+
+＠戈尔德鲁夫
+然后呢，情况如何？[r]地下究竟发生了什么？
+[k]
+
+？1：其实……
+
+？！
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_BATTLE_48 1.0]
+[wait fade]
+
+[charaFadeout G 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.5]
+
+[bgm BGM_EVENT_5 0.1]
+
+＠玛修
+……事情的经过就是这样。
+[k]
+
+＠玛修
+尽管发生了很多事，但最终还是没能[r]阻止戴比特先生，导致ORT苏醒，
+[k]
+
+＠玛修
+库库尔坎小姐虽然向我们伸出了援手，[r]可现在却不知飞到哪里去了，
+[k]
+
+＠玛修
+还有……得知了『异星之神』的『异星』，[r]就是指迦勒底亚斯……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth G 2]
+[charaDepth C 1]
+
+[charaScale C 1.1]
+[charaScale G 0.95]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 0,-30]
+
+＠戈尔德鲁夫
+[line 6][r]（※突破承受上限，身体僵住了。）
+[k]
+
+[messageOff]
+[charaTalk C]
+[charaFace C 0]
+[charaFadeinFSR C 0.4 480,50]
+[charaMoveFSR C 450,50 0.4]
+[wt 0.4]
+
+＠C：特佩乌
+唔。这就是自动驾驶按钮吧。[r]恕我失礼，戈尔德鲁夫，我要按了。
+[k]
+
+[messageOff]
+[charaTalk C,G]
+[cueSe SE_21 21_ade599]
+[charaMoveReturnFSR C 450,45 0.5]
+[wt 1.0]
+
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaScale C 1.0]
+[charaScale G 1.0]
+
+[charaTalk depthOn]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠卡多克
+…………这样啊。
+[k]
+
+＠卡多克
+『要是能成功阻止我的计划，就去南极吧。』[r]戴比特是这样说的吧？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+是的，他说无论如何，都要『自己去亲眼确认』。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 8]
+[charaFadein H 0.1 1]
+
+＠卡多克
+嗯，说得没错。[r]没有废话，也不迁就。很像那家伙的回答。
+[k]
+
+？1：卡多克不感到震惊吗？
+
+？！
+
+[charaFace H 5]
+
+＠卡多克
+……当然很震惊。不过，[r]我曾经是迦勒底的对立面。
+[k]
+
+＠卡多克
+就算有人说“迦勒底肯定有鬼”，[r]我也只会讽刺说“没有才怪吧”。
+[k]
+
+[charaFace H 8]
+
+＠卡多克
+受到沉重打击的倒是那位贵族大人。
+[k]
+
+＠卡多克
+相信迦勒底是正经组织，[r]砸进全副身家当上所长，
+[k]
+
+＠卡多克
+结果却发现其实是图谋灭绝地球人类的组织，[r]如此悲惨的下下签真是稀世罕见哦。
+[k]
+
+？1：说得也是……就算能解决白纸化……
+？2：所有罪名也会由身为所长的戈尔德鲁夫氏……来背吗……
+
+？！
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 15]
+[charaFadein G 0.1 1]
+
+＠戈尔德鲁夫
+不是，你们都在说什么啊？[r]我也是受害者吧？　审讯时你们可要给我作证哦？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠达·芬奇
+放心吧，等夺回地球之后，[r]戈尔德鲁夫无疑会成为时钟塔的英雄！
+[k]
+
+[charaFace E 0]
+
+＠达·芬奇
+不过，若想当英雄，[r]得先闯过眼前的难关。
+[k]
+
+[charaFace E 22]
+
+＠达·芬奇
+由于ORT已正式开始行动，[r]米克特兰变成了未知的世界。
+[k]
+
+＠达·芬奇
+树木全部遭到入侵，在ORT的侵蚀固有结界影响下，[r]变成了同一种东西[line 3]空想树。
+[k]
+
+＠达·芬奇
+现在这已经不是消灭一个ORT[r]就能切除得了的规模了。
+[k]
+
+＠达·芬奇
+我认为，眼下不得不放弃攻略第七异闻带。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玛修
+ORT毕竟是空想树的源头，抹除掉ORT后，[r]其他空想树也会停止运作的可能性有多大？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth E 2]
+[charaDepth S 1]
+
+[charaTalk E]
+[charaFace E 23]
+[charaFadein E 0.1 1]
+
+＠达·芬奇
+可能性很低。[r]倒不如说[line 3]
+[k]
+
+[charaPut S 1]
+[charaFadeTime S 0.2 0.5]
+
+＠达·芬奇
+（即便能阻止ORT，[r]　只要还残存哪怕一棵空想树[line 3]）
+[k]
+
+[charaFadeout S 0.2]
+[charaFace E 36]
+
+＠达·芬奇
+不，比起这个问题，现在的关键是如何攻克ORT本体。
+[k]
+
+＠达·芬奇
+ORT应该会从地底世界爬上地表，并朝南极前进吧。[r]然后连同整座迦勒底基地一并破坏掉迦勒底亚斯。
+[k]
+
+＠达·芬奇
+迦勒底亚斯是地球的精密复制品。
+[k]
+
+＠达·芬奇
+想要破坏它，[r]需要字面意思上足以破坏地球的冲击。
+[k]
+
+＠达·芬奇
+破坏迦勒底亚斯的冲击会粉碎地球的四成，[r]人类会连同泛人类史与异闻带一起灭绝。
+[k]
+
+[charaFace E 8]
+
+＠达·芬奇
+这个结果是我们无论如何都必须阻止的。
+[k]
+
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠卡多克
+……也就是无论迦勒底亚斯藏着什么样的内幕，[r]现在都不得不保护迦勒底亚斯吧。
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+＠卡多克
+为此[line 2]
+[k]
+
+
+？1：[line 3]只能击败ORT了。
+
+？！
+
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_76 0.1]
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 1]
+
+＠戈尔德鲁夫
+蠢货，什么叫『只能击败』啊！[r]别用这种带哭腔的声音逞强啦！
+[k]
+
+＠戈尔德鲁夫
+无论在墨西哥城，还是在地下神殿，[r]你们一直是被ORT碾压的！
+[k]
+
+＠戈尔德鲁夫
+唯一直接与它交战过的你，[r]都感觉到这『不可能』了！
+[k]
+
+＠戈尔德鲁夫
+想要击败这种对手的作战，我是不会认可的！
+[k]
+
+＠戈尔德鲁夫
+可以有必死的觉悟，[r]毕竟在我到来前，迦勒底一直都是这样！
+[k]
+
+＠戈尔德鲁夫
+但是，决不能允许你们执行毫无胜算的战斗，[r]成功率为零的[#作战:任务]！
+[k]
+
+＠戈尔德鲁夫
+拟定击败ORT以外的作战计划吧，技术顾问！[r]总有其他路可走吧，应该有吧！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 23]
+[charaFadein E 0.1 1]
+
+＠达·芬奇
+没有啦，戈尔德鲁夫司令官。[r]从我们没能阻止戴比特的那刻起[line 3]
+[k]
+
+＠达·芬奇
+不。是从戴比特加入A组的那刻起，[r]这个选择就注定了。
+[k]
+
+＠达·芬奇
+除了打倒ORT，我们别无生存之路。[r]Storm Border并不是宇宙飞船。
+[k]
+
+＠达·芬奇
+就算搭乘潜航艇逃离地表，[r]迟早也会全军覆没。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 18]
+[charaFadein G 0.1 1]
+
+＠戈尔德鲁夫
+呜……！　……哪怕事实如此，[r]要让比我还年轻的人去做这种……！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠达·芬奇
+谢谢你，戈尔德鲁夫·穆吉克。[r]但希望你不要小瞧我们。
+[k]
+
+[charaFace E 17]
+
+＠达·芬奇
+迦勒底不会打毫无胜算的仗。[r]我不会再同意以牺牲为前提的作战计划了。
+[k]
+
+＠达·芬奇
+好了，差不多都准备好了吧。[r]希翁，能听到吗？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_76 1.5 0.6]
+[charaPut T 1]
+[charaEffect T bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[wt 0.3]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠希翁
+那当然。这边也验证完毕了。[r]立刻着手准备。
+[k]
+
+＠希翁
+正如[%1]发回的报告所提到的，
+[k]
+
+＠希翁
+四道冥界线是容许泛人类史英灵存在的[r]『自由召唤区间』。
+[k]
+
+[bgmStop BGM_EVENT_76 1.5]
+
+＠希翁
+只要有这一特性，及一直以来与英灵们[r]缔结缘分的御主[%1]，
+[k]
+
+
+＠希翁
+就可以执行大规模的召唤作战。[bgm BGM_MAP_58 0.1]
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaPut T 1200,1200]
+[charaEffectStop T bit_talk_10_LowLevel]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+[wt 1.2]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaPut T 1]
+[charaEffect T bit_talk_10_LowLevel]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 11]
+[charaFadein F 0.1 1]
+
+＠希翁
+Storm Border会在奇琴伊察上空待机。[r]调拨出三台特里同引擎用于召唤术式。
+[k]
+
+
+＠希翁
+迄今为止被登记在迦勒底的所有英灵[line 3]
+[k]
+
+＠希翁
+全体从者的灵基肖像均从基态设定为激发态。
+[k]
+
+[charaFace F 12]
+
+＠希翁
+集[%5]骑之力的总体战。[r]这是史上首支英灵部队的战术性运用。
+[k]
+
+＠希翁
+怎么样，戈尔德鲁夫氏？[r]我们没能参加的时间神殿的[#冠位指定:Grand Order]。
+[k]
+
+＠希翁
+虽说是炒冷饭，但你难道不想参加吗？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaPut T 1200,1200]
+
+[charaTalk G]
+[charaFace G 17]
+[charaFadein G 0.1 1]
+[wt 1.2]
+[charaFace G 3]
+
+＠戈尔德鲁夫
+[line 3]哼，别说这种胡话了。[r]我自始至终就没反对过。
+[k]
+
+[charaFace G 2]
+
+＠戈尔德鲁夫
+好吧，我批准本次作战！[r]没有意见吧，[%1]！
+[k]
+
+？1：当然没有！
+？2：但具体该怎么做！
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaPut T 1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠希翁
+各位就这样继续追赶ORT，[r]并展开战斗。
+[k]
+
+＠希翁
+根据特里斯墨吉斯忒斯Ⅱ的计算，[r]距ORT横跨整个米克特兰还需要20小时。
+[k]
+
+＠希翁
+接下来御主将前往冥界线，[r]抵达后即刻行使召唤术。
+[k]
+
+＠希翁
+Storm Border将会全力运转三台引擎，[r]为Shadow Border提供魔力，
+[k]
+
+＠希翁
+打造出由从者组成的前线，[r]开始击败ORT的作战吧。
+[k]
+
+[charaFace F 9]
+
+＠希翁
+……特里斯墨吉斯忒斯Ⅱ只给出了[r]本次作战“存在”成功率的回答。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaPut T 1200,1200]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+[wt 1.2]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+[wt 1.2]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaPut T 1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+
+＠希翁
+重复一遍，时限是20小时。[r]要是没能在这段时间内击败ORT，
+[k]
+
+＠希翁
+就再也不可能目睹迦勒底亚斯的秘密、[r]地球白纸化的真正意图、以及人类的未来了。
+[k]
+
+＠希翁
+电脑室将本次作战命名为『空想树海决战』。[r]自此刻起，Storm Border将进入战斗态势。
+[k]
+
+[charaFace F 1]
+
+＠希翁
+那么迦勒底的各位，祝你们武运昌隆。[r]请尽情发挥一路积累至今的战力吧！
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_MAP_58 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

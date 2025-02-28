@@ -1,0 +1,300 @@
+
+
+
+＄04-00-02-11-3-1
+
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270900 1 拉妮－Ｒ]
+[charaSet B 1098270900 1 拉妮－Ｒ]
+[charaSet C 1098270300 1 阿愈丝]
+[charaSet D 6037001 1 迦摩]
+[charaSet E 1098270000 1 希翁]
+[charaSet F 7046001 1 难敌]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+
+
+[scene 189300]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_25 0.1]
+
+[charaTalk depthOff]
+[charaDepth A 2]
+[charaDepth B 3]
+[charaDepth S 8]
+[charaDepth T 9]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFace B 5]
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 0]
+＠A：拉妮－Ｒ
+Great。[r]本领果然精湛。
+[k]
+
+[clear]
+[charaFace B 12]
+＠B：拉妮－Ｒ
+庆祝归来。[r]敬请感受大本营的舒适。
+[k]
+
+[messageOff]
+[charaTalk off]
+
+[cueSe SE_23 23_ad1304 0 0.8]
+
+[charaPutFSR S 2]
+[charaPutFSL T 0]
+[charaEffect S bit_talk_raniment01]
+[charaEffect T bit_talk_raniment01]
+[wt 2.5]
+
+[charaMoveFSR S 406,0 0.9]
+[charaMoveFSL T -106,0 0.9]
+[wt 0.3]
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[cueSeVolume 23_ad1304 0.5 0.4]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.3]
+
+[charaPut S -100,0]
+[charaPut T -250,0]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.4]
+
+[charaMove S 1 0.6]
+[charaMove T 1 1.5]
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[cueSeVolume 23_ad1304 0.5 0.8]
+[wait wipe]
+[wt 1.1]
+[charaEffectEdgeBlur C FFF9A5 FFF9A5 4 1.5]
+[wt 0.3]
+
+[cueSeStop 23_ad1304 0.2]
+[cueSe SE_23 23_ad1305 0 0.8]
+[charaEffectStop S bit_talk_raniment01]
+[charaEffectStop T bit_talk_raniment01]
+[wt 0.5]
+[se adm20]
+[wt 2.0]
+[charaEffectEdgeBlurStop C]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaFace C 1]
+＠阿愈丝
+唔～，不管怎么说，[r]还是最熟悉[#修理部:Repair]的工作呢。劳动的喜悦！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.05]
+[charaPut C 2000,2500]
+[wt 0.05]
+
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.1 1]
+＠迦摩
+不枉我辛苦工作，[r]肚子相当饱了呢。
+[k]
+
+＠迦摩
+这下算是万事俱备了吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠阿愈丝
+感觉像好不容易回到了起跑线呢。
+[k]
+
+[charaFace C 5]
+＠阿愈丝
+[#Caster:魔术师]那种粗暴的家伙消失后，[r]今后应该能进行正常的圣杯战争了。
+[k]
+
+[charaFace C 8]
+＠阿愈丝
+就是做好准备后就堂堂正正地找上门去发起挑战吧！[r]这种样子决胜负吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 1]
+＠希翁
+只要彼此都不耍阴招，[r]应该就会是这样吧。
+[k]
+
+[charaFace E 2]
+＠希翁
+不过我们至少得先完成一件要紧的事[r]才能去这么做。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠难敌
+计划没有变更吧？　既然都填饱肚子了，[r]赶紧去一决胜负也无妨吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+＠希翁
+还是应该先掌握相当于这场战争地基的部分才行。
+[k]
+
+＠希翁
+原计划是五骑相争，而[#Assassin:暗匿者]……[r]迦摩被解释成了非正规参战。
+[k]
+
+[charaFace E 10]
+＠希翁
+所以难保不会发生第二起异常。
+[k]
+
+[charaFace E 8]
+＠希翁
+[#Archer:弓兵]真实存在的可能性有多大，[r]对我来说也是个未知数，
+[k]
+
+＠希翁
+既然有机会确认，[r]就应该事先确认清楚。
+[k]
+
+[charaFace E 2]
+＠希翁
+既然这场圣杯战争的结束条件是『成为最后一骑』，
+[k]
+
+＠希翁
+搞错此处实际有多少骑从者这一前提，[r]会引起致命的事态吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 11]
+[charaFadein F 0.1 1]
+＠难敌
+这道理本老爷倒是能理解啦。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 1]
+＠希翁
+从现实层面来看，也有可能是剩下的[#Lancer:枪兵]或[#Saber:剑士]……
+[k]
+
+＠希翁
+用我们未知的远程攻击暗杀了[#Rider:骑兵]的御主。
+[k]
+
+[charaFace E 6]
+＠希翁
+关于[#Lancer:枪兵]……怖军，[r]身为熟人的你有何看法？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 13]
+[charaFadein F 0.1 1]
+＠难敌
+……那家伙是风神伐由之子。[r]他手持的枪应该也来源于此。
+[k]
+
+＠难敌
+只要他愿意，远程攻击也是能做到的吧，[r]只是从性格来说，不像会做这种事[line 3]
+[k]
+
+[charaFace F 6]
+＠难敌
+啊，不对不对，不了解！[r]本老爷一点都不了解那家伙！
+[k]
+
+＠难敌
+原本就不了解，现在样子很奇怪的他[r]就更不可能了解了吧！　哼！
+[k]
+
+[charaFace F 5]
+＠难敌
+我们还是赶紧走吧，不可浪费时间哦！
+[k]
+
+[messageOff]
+[se ade421]
+[charaMove F -75,0 0.4]
+[charaFadeout F 0.4]
+[seStop ade421 1.2]
+[wt 1.2]
+
+[charaSet C 1098270370 1 阿愈丝]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠阿愈丝
+我也不知发生了什么，可一提起[#Lancer:枪兵]，[r]他会变得比以前更恼火呢～。
+[k]
+
+＠阿愈丝
+究竟发生了什么呢……
+[k]
+
+[charaCrossFade C 1098270300 7 0.3]
+＠阿愈丝
+真是的，等等我啦～！[wait charaCrossFade C]
+[k]
+
+[messageOff]
+[se ad59]
+[charaMove C -150,0 0.4]
+[charaFadeout C 0.4]
+[seStop ad59 1.2]
+[wt 2.1]
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_25 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

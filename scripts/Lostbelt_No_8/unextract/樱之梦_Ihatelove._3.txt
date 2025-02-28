@@ -1,0 +1,1155 @@
+
+
+＄04-00-02-12-3-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098267150 1 美杜莎]
+[charaSet B 1098267150 1 美杜莎2]
+[charaSet C 1098268920 1 樱]
+[charaSet D 1098268920 1 樱2]
+[charaSet E 7046001 1 难敌]
+[charaSet F 1098270000 1 希翁]
+[charaSet G 6037001 1 迦摩]
+[charaSet H 1098270300 1 阿愈丝]
+[charaSet I 1098269300 1 塞蕾雪拉]
+[charaSet J 1098269300 1 塞蕾雪拉2]
+[charaSet K 3054001 1 怖军]
+
+[sceneSet L 190400 1]
+[charaScale L 1.3]
+[sceneSet M 190400 1]
+[charaScale M 1.01]
+[sceneSet N 190400 1]
+[charaScale N 1.3]
+
+[imageSet O black_fade_re 1 1]
+[imageSet P black_fade_re 1 1]
+[charaScale O 2.0]
+[charaScale P 2.0]
+
+[charaSet T 5009000 1 特效用1]
+
+[scene 10000]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_SHINYAMA_1 0.1]
+
+＠
+[dbadd6][#自己是]，[#什么人]。
+[k]
+
+＠
+[#生产部:Grow]首席ＡＩ。[#ＡＩ圣杯战争:System Grail War]的参加者。[r][#Saber:剑士]的御主。
+[k]
+
+＠
+[line 3]『樱』。
+[k]
+
+＠
+她给自己起的，来源于微不足道的根据，[r]却又合适到无比奇妙的名字。
+[k]
+
+＠
+被这些包裹的内在，[r]到头来，直到最后，
+[k]
+
+＠
+只有想要守护这容身之处的感情。
+[k]
+
+＠
+就算被问为什么，我也不明白。
+[k]
+
+＠
+打从一开始，这个命令就被深刻地烙印在自己心中，[r]不存在不这样做的选项，
+[k]
+
+＠
+所以我只是专心地这样做而已。
+[k]
+
+＠
+这是非善非恶的唯一存在价值。
+[k]
+
+＠
+理应如此存在，[r]无法想象并非这般存在的，自己的根基。
+[k]
+
+＠
+换作普通人类的话，会如何称呼它呢。[r]欲望、爱好、性癖。肯定不对。
+[k]
+
+＠
+而是更为根源性、更与内心深处相连的、[r]更无法逃脱的[line 3]
+[k]
+
+＠
+命运。
+[k]
+
+＠
+抑或是，诅咒。
+[k]
+
+＠
+然而，自己并没有痛苦、哀伤或是苦恼。[r]只是理当如此，才会如此而已。
+[k]
+
+＠
+恐怕，自己从一开始就是带着这种[#命运:诅咒][line 3][r]作为『想守护重要容身之处的自己』而诞生的。
+[k]
+
+＠
+并不后悔，不可能后悔。[r]这是只属于自己一个人的，比愿望更原始的愿望。
+[k]
+
+＠
+要一直守护、一直守护的重要容身之处。[r]一直播种下去，然后终有一日[line 3]
+[k]
+
+＠
+啊，不过，
+[k]
+
+＠
+要是到头来，还是自私地将这件事[r]托付给了并非自己的其他人，
+[k]
+
+＠
+还是，必须，道歉才行……
+[k]
+
+[messageOff]
+[wipeout openEye 1.5 1.5]
+[bgmStop BGM_SHINYAMA_1 1.5]
+[wait wipe]
+
+[scene 190400]
+
+[charaScale B 1.3]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth A 1]
+[charaDepth C 2]
+[charaDepth L 3]
+[charaDepth B 4]
+
+[charaFace A 0]
+[charaFace C 15]
+[charaFadein A 0.1 180,0]
+[charaFadein C 0.1 -180,0]
+[charaFadein L 0.1 0,-350]
+[charaFadein B 0.1 1]
+[blur lens 0.5 2 20]
+[wt 1.5]
+
+[wipein openEye 0.4 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+[wipeout openEye 0.6 1.0]
+[wait wipe]
+
+[wt 0.1]
+
+[wipein openEye 0.6 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+[wipeout openEye 0.8 1.0]
+[wait wipe]
+
+[wt 0.2]
+
+[blurOff lens 1.0]
+[wipein openEye 1.5 1.0]
+[wait wipe]
+
+[wt 0.5]
+
+
+＠美杜莎
+……樱。[r]能听得到吗，樱？
+[k]
+
+[messageOff]
+[charaFadeout L 1.0]
+[charaFadeout B 1.0]
+[wt 1.5]
+
+[bgm BGM_EVENT_123 0.1]
+
+[charaTalk on]
+[charaTalk C]
+
+＠樱
+[#Sa:剑]，[#bar:士]。
+[k]
+
+[charaFace C 9]
+
+＠樱
+……对不，起哦。[r]害你，扮演，坏人。
+[k]
+
+＠樱
+你，分明，是像王子殿下，那样的……
+[k]
+
+[charaTalk A]
+[charaFace A 4]
+
+＠美杜莎
+[line 3]不对，这只是外表。[r]我可不是什么王子殿下。
+[k]
+
+[charaFace A 6]
+
+＠美杜莎
+……[r]……
+[k]
+
+[charaFace A 0]
+
+＠美杜莎
+若是你不愿相信。
+[k]
+
+＠美杜莎
+[#那我就恢复平时的口吻了]，樱。
+[k]
+
+[charaTalk C]
+[charaFace C 5]
+
+＠樱
+……嗯。
+[k]
+
+＠樱
+无论哪个[#Saber:剑士]，我都不介意。[r]你就是，一如既往的，那个[#Saber:剑士]呢……
+[k]
+
+[charaTalk A]
+[charaFace A 0]
+
+＠美杜莎
+没错，我从一开始就未曾改变。[r]我是你饲养的怪物。
+[k]
+
+[charaFace A 1]
+
+＠美杜莎
+所以，很高兴你能随心所欲地使唤我。[r]你不需要为此而道歉。
+[k]
+
+[charaTalk C]
+[charaFace C 9]
+
+＠樱
+我肯定……也是怪物。
+[k]
+
+＠樱
+我眼里只能看到一件事，[r]为此，我什么都做得出来。
+[k]
+
+[charaFace C 10]
+
+＠樱
+然而在他人看来，这就像是发疯似的[r]做着毫无意义的事[line 3]
+[k]
+
+＠樱
+间接地，伤害了别人。
+[k]
+
+[charaTalk A]
+[charaFace A 0]
+
+＠美杜莎
+也许是吧，但并非如此。
+[k]
+
+＠美杜莎
+为了不让你沦为真正的怪物，[r]我会连同你那份一并成为怪物。
+[k]
+
+＠美杜莎
+直到最后，你都是你自己。
+[k]
+
+[charaFace A 4]
+
+＠美杜莎
+所以[line 3]我们俩，刚好呢。
+[k]
+
+[charaTalk C]
+[charaFace C 5]
+
+＠樱
+……嗯。
+[k]
+
+＠樱
+那么……就让我，说一声谢谢吧。
+[k]
+
+[charaFace C 17]
+
+＠樱
+愿意努力跟我保持一样的你。
+[k]
+
+＠樱
+我掌握不好，距离感……[r]说不定还挺烦人的。
+[k]
+
+＠樱
+可你还是愿意，一直跟我在一起，谢谢你。
+[k]
+
+[charaTalk A]
+[charaFace A 6]
+
+＠美杜莎
+那种态度……只是在掩饰害羞。
+[k]
+
+＠美杜莎
+因为我也掌握不好，[r]才会像那样态度粗鲁，而已。
+[k]
+
+[charaTalk C]
+[charaFace C 17]
+
+＠樱
+原来是这样。如果是这样，就太好了。
+[k]
+
+[charaFace C 8]
+
+＠樱
+希望有朝一日，我们还能像朋友一样，[r]散着步去野餐。
+[k]
+
+[charaFaceFade C 24 0.2]
+
+＠樱
+然后两个人，一起回到，重要的地方[line 3]
+[k]
+
+[charaTalk A]
+[charaFace A 4]
+
+＠美杜莎
+嗯。[r]那真是令人无比期待呢。
+[k]
+
+[messageOff]
+[charaPut T 130,0]
+[charaEffect T bit_talk_06]
+[cameraMove 9.0 -60,-30 1.1]
+[wt 1.5]
+[charaFaceFade A 12 0.3]
+[wt 1.5]
+
+＠美杜莎
+看来时间到了。
+[k]
+
+[charaFace A 0]
+
+＠美杜莎
+不必担心。在樱睡着的时候，[r]我已经跟他们基本谈妥了。
+[k]
+
+[charaFace A 4]
+
+＠美杜莎
+……下一段行程也安排好了，就这样吧。
+[k]
+
+[charaTalk C]
+[charaFace C 23]
+
+＠樱
+……嗯。再见，啦。
+[k]
+
+[messageOff]
+[charaTalk off]
+[wt 0.5]
+[se ad52]
+[charaSpecialEffect A flashErasure 1 2.0]
+[wait charaSpecialEffect A]
+[charaEffectStop T bit_talk_06]
+[wt 1.0]
+
+[subCameraOn 2]
+[charaLayer L sub #A]
+[charaLayer M sub #A]
+[charaLayer D sub #A]
+[charaLayer F sub #A]
+[charaLayer G sub #A]
+[charaLayer E sub #A]
+[charaLayer H sub #A]
+[charaLayer I sub #A]
+[charaLayer N sub #B]
+[charaLayer J sub #B]
+
+[charaDepth M 1]
+[charaDepth D 2]
+[charaDepth F 2]
+[charaDepth G 2]
+[charaDepth E 2]
+[charaDepth H 2]
+[charaDepth I 2]
+
+[charaDepth N 1]
+[charaDepth J 2]
+
+[charaFace D 23]
+[charaFadein M 0.1 0,-200]
+[charaFadein D 0.1 1]
+[charaFadein N 0.1 -190,50]
+[subCameraFilter #A through]
+[subCameraFilter #B maskEdge cut359_mask02 4 143,140,216,255 0]
+
+[bgmStop BGM_EVENT_123 2.5]
+
+[cameraMove 7.0 20,-40 1.2]
+[wt 2.5]
+
+[subRenderFadein #A 1.5 0,0]
+[wt 2.5]
+[charaFadeout C 0.1]
+[cameraHome 0.1]
+
+？1：…………
+？！
+
+[charaFadeout D 0.1]
+[wt 0.5]
+
+[se ad14]
+[seVolume ad14 0 0]
+[seVolume ad14 0.3 0.6]
+[shake 0.02 2 2 0]
+[wt 1.5]
+[shake 0.02 1 1 0]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠希翁
+是因为[#Saber:剑士]消失了吧。[r]又要发生旋转了。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[seVolume ad14 2.0 0.3]
+[bgm BGM_EVENT_95 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠D：樱
+其实，应该不用，我说了。[r]我也会……消失。
+[k]
+
+＠D：樱
+不管是否会被卷入旋转……[r]由于拉妮物质不足，我的结构体早已破烂不堪了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠阿愈丝
+……[r]……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠D：樱
+请不要露出，这种表情。[r]抱歉害你，感到过意不去。
+[k]
+
+[charaFace D 6]
+＠D：樱
+这不是你的错哦。[r]这真的是，不可避免的。
+[k]
+
+[charaFace D 17]
+＠D：樱
+我是你的敌人，你却还愿意出手相救。[r]对此，我真的很高兴。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+
+＠阿愈丝
+即便如此，身为[#修理部:Repair]的首席ＡＩ，[r]我还是会不甘心。
+[k]
+
+＠阿愈丝
+没能治好的损伤，对我来说就是输了。
+[k]
+
+＠阿愈丝
+既然是那样的因带来了这样的果，[r]我就绝对无法觉得是自己赢了。
+[k]
+
+[charaFace H 3]
+
+＠阿愈丝
+正因为彼此互为敌人，我才不希望是这种形式，[r]而是能堂堂正正地做个了断……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠D：樱
+……对不起。
+[k]
+
+[charaFace D 17]
+
+＠D：樱
+最后……我还有一个请求。
+[k]
+
+＠D：樱
+可以，留我，一个人独处吗？[r]我有话，想说。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+
+＠难敌
+唔？　这话是不是前后矛盾了？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 14]
+[charaFadein G 0.1 1]
+
+＠迦摩
+无关紧要啦。[r]好啦，赶紧走吧。
+[k]
+
+[charaFace G 6]
+
+＠迦摩
+我又要忙着准备当御主的软垫啦。
+[k]
+
+[messageOff]
+[se ad987]
+[charaMove G -50,0 0.5]
+[charaFadeout G 0.4]
+[wt 0.5]
+[seStop ad987 1.5]
+[wt 2.0]
+
+[charaScale L 1.2]
+[charaScale H 1.2]
+[charaDepth L 3]
+[charaDepth H 4]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein L 1.0 30,-300]
+[charaFadein H 1.0 45,0]
+[charaMove L 0,-300 1.0]
+[charaMove H 1 1.0]
+[wt 2.5]
+
+[se ad60]
+[charaMove H -50,0 0.5]
+[charaFadeout H 0.4]
+[wt 0.5]
+[cueSeStop ad60 1.5]
+[wt 2.5]
+
+[bgmStop BGM_EVENT_95 2.0]
+
+[charaFadeout L 2.0]
+[wt 4.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠D：樱
+大家都，走了哦。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaLayer L normal]
+[charaLayer F normal]
+[charaLayer G normal]
+[charaLayer E normal]
+[charaLayer H normal]
+
+[subRenderFadein #B 0.4 100,-320]
+[subRenderMove #B 0,-320 0.3]
+[wt 0.8]
+[se ad60]
+[seStop ad60 0.5]
+[charaScale J 1.25]
+[charaTalk J]
+[charaFace J 3]
+[charaFadein J 0.4 286,440]
+[charaMove J 256,440 0.4]
+[wt 1.4]
+
+[seStop ad14 1.0]
+[shake 0.02 1 1 1.0]
+[subRenderFadeout #B 0.5]
+[wt 0.5]
+[charaFadeout N 0.1]
+[charaFadeout J 0.1]
+[wt 1.0]
+[charaLayer N normal]
+[charaLayer J normal]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.4 1]
+[wt 0.4]
+
+
+＠塞蕾雪拉
+……[r]……
+[k]
+
+＠塞蕾雪拉
+那个，我[line 3]
+[k]
+
+[messageOff]
+[wt 1.5]
+
+[charaFace I 4]
+[bgm BGM_EVENT_110 0.1]
+
+＠塞蕾雪拉
+…………对不起。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠D：樱
+为什么，要道歉呢？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+
+＠塞蕾雪拉
+因为，我……其实我……
+[k]
+
+＠塞蕾雪拉
+察觉到了。恐怕比[#Saber:剑士]还早，[r]就留意到你的样子不太对劲了。
+[k]
+
+＠塞蕾雪拉
+留意到你缺乏拉妮物质……步履摇晃的样子。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 17]
+[charaFadein D 0.1 1]
+
+＠D：樱
+从我的视角来看，你可是帮我保守了秘密哦。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 22]
+[charaFadein I 0.1 1]
+
+＠塞蕾雪拉
+不对！　只有我留意到了。[r]如果我能说出来，能想办法做些什么[line 3]
+[k]
+
+[charaFace I 3]
+
+＠塞蕾雪拉
+你也许，就不会变成这样了。[r][#Saber:剑士]和你……都不会变成这样……
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠D：樱
+这也是无可奈何的，或者说是理所当然的吧？
+[k]
+
+[charaFace D 18]
+
+＠D：樱
+你想啊，我和塞蕾雪拉小姐，[r]好歹也互为敌人嘛。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+
+＠塞蕾雪拉
+是的。我知道。
+[k]
+
+[charaFace I 12]
+
+＠塞蕾雪拉
+……哈哈，真奇怪。
+[k]
+
+＠塞蕾雪拉
+然而，我还是……[#产生了罪恶感]。
+[k]
+
+[charaFace I 22]
+
+＠塞蕾雪拉
+这令我不能自制地厌恶，厌恶到[r]快要吐出来，厌恶到，甚至想死……！
+[k]
+
+＠塞蕾雪拉
+我最不愿意去思考，最不愿意去做，[r]却又绝对无法从身体中抹去的事，再次……
+[k]
+
+＠塞蕾雪拉
+所以我才希望能想办法做些什么，却又什么都做不到！
+[k]
+
+[charaFace I 3]
+
+＠塞蕾雪拉
+只能像这样……在一切都结束之后，[r]在一切都已经无可挽回之后，
+[k]
+
+＠塞蕾雪拉
+出现在还愿意对我这种人[r]表现出些许善意的你面前，
+[k]
+
+[charaFace I 4]
+
+＠塞蕾雪拉
+对比起我这种人，更应该活下去的你，[r]说些毫无意义的话而已。
+[k]
+
+[charaFace I 12]
+
+＠塞蕾雪拉
+哈哈，我真是个人渣……
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 16]
+[charaFadein D 0.1 1]
+
+＠D：樱
+……罪恶，感。
+[k]
+
+＠D：樱
+你之所以不怎么战斗，[r]就是出于这个原因吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 4]
+[charaFadein I 0.1 1]
+
+＠塞蕾雪拉
+谁知道呢。不过，也许吧。
+[k]
+
+[charaFace I 12]
+
+＠塞蕾雪拉
+我没资格战斗，[r]没资格祈愿，
+[k]
+
+＠塞蕾雪拉
+没资格得到什么。
+[k]
+
+[charaFace I 3]
+
+＠塞蕾雪拉
+因为，我怀有罪恶感。[r]怀有郁积不散的，罪孽意识……
+[k]
+
+[charaFace I 22]
+
+＠塞蕾雪拉
+虽然不清楚有什么意义，但就是存在啊……！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠D：樱
+啊啊……原来如此。[r]果然，或许，就是那样的吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 14]
+[charaFadein I 0.1 1]
+
+＠塞蕾雪拉
+……？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠D：樱
+事到如今，当ＡＩ的功能及结构体，
+[k]
+
+＠D：樱
+即将与乱数器赋予的人格分离的当下……
+[k]
+
+＠D：樱
+我才终于看见了，某些东西。[r]虽说意义不明，也无法将来源可视化，
+[k]
+
+＠D：樱
+只是黑匣子输出的，[r]毫无根据的数值般的东西。
+[k]
+
+[charaFace D 5]
+
+＠D：樱
+[#我们]，[#肯定是]，[#我们自己的碎片]。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 22]
+[charaFadein I 0.1 1]
+
+＠塞蕾雪拉
+……你说什么。这是什么意思……？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[subCameraMove #A 20.0 0,-20 1.1]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠D：樱
+这我也不知道。
+[k]
+
+[charaFace D 17]
+
+＠D：樱
+但是，我和塞蕾雪拉小姐，[r]肯定是非常相似的存在。
+[k]
+
+＠D：樱
+所以……只要能活出自己，[r]大概就够了。
+[k]
+
+＠D：樱
+你无需为因罪恶感而无法战斗一事，[r]怀有罪恶感。
+[k]
+
+[charaDepth L 1]
+[charaDepth J 2]
+[charaDepth O 3]
+[charaDepth P 4]
+
+[charaScale L 1.3]
+[charaScale J 1.2]
+[charaFace J 14]
+[charaFadein L 0.1 0,-350]
+[charaFadein J 0.1 1]
+
+＠D：樱
+你只需，做好你自己，[r]贯彻到底就行了……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadein O 0 0,-1100]
+[charaFadein P 0 0,300]
+[subRenderFadeout #A 0.5]
+[wt 0.7]
+[subCameraHome #A 0.1]
+[charaFadeout M 0.1]
+[charaFadeout D 0.1]
+
+[charaTalk on]
+[charaTalk J]
+
+＠J：塞蕾雪拉
+……为什么？
+[k]
+
+[charaLayer I normal]
+[charaLayer M normal]
+[charaLayer D normal]
+[subCameraOff]
+
+[charaTalk C]
+
+＠樱
+呵呵，那是因为……
+[k]
+
+＠樱
+这样就可以像为此而殉身的我一样，带着那么一点，[r]心满意足的心情……消失。
+[k]
+
+[messageOff]
+[charaMove O 0,-1050 5.0]
+[charaMove P 0,250 5.0]
+[wt 1.5]
+[charaFace J 22]
+[charaMoveScale J 1.25 0.5]
+[charaMove J 0,-10 0.5]
+
+＠J：塞蕾雪拉
+等，等一下……我还没……
+[k]
+
+[charaTalk C]
+[charaMove O 0,-950 10.0]
+[charaMove P 0,150 10.0]
+
+＠樱
+啊啊，不过，也有可能正相反吧。[r]毕竟[#Saber:剑士]就是这样的。
+[k]
+
+＠樱
+正因为自己一心想逃离，才会移不开视线，[r]反而能看得更清楚了。
+[k]
+
+＠樱
+就像可以采用不同于平时的搭话方式，[r]这种感觉吧。
+[k]
+
+＠樱
+所以啊，这肯定，不是什么坏事……
+[k]
+
+[bgmStop BGM_EVENT_110 3.0]
+
+[messageOff]
+[charaMove O 0,-900 2.0]
+[charaMove P 0,100 2.0]
+[wt 1.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout L 0.1]
+[charaFadeout J 0.1]
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+
+[charaDepth M 1]
+[charaDepth K 2]
+[charaDepth T 3]
+[charaDepth I 4]
+
+[charaScale M 1.2]
+[charaScale K 1.1]
+[charaScale T 1.1]
+[charaFadein M 0.1 120,-300]
+[wt 1.5]
+
+[shake 0.02 3 2 0]
+[se ad14]
+[seVolume ad14 0 0]
+[seVolume ad14 1.0 0.7]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+
+[charaTalk I]
+[charaFace I 2]
+[charaFadein I 0.1 1]
+
+＠塞蕾雪拉
+等一下啊！　樱！
+[k]
+
+[messageOff]
+[cameraMove 0.8 0,-20 1.1]
+[charaTalk off]
+[charaMove M 0,-300 0.8]
+[charaMove I -120,0 0.8]
+[wt 1.0]
+
+[charaPut K 150,25]
+[charaFace K 15]
+[se ad223]
+[seVolume ad223 0 0.8]
+[se ad443]
+[seStop ad443 0.5]
+[charaPut T 150,25]
+[charaEffect T bit_talk_quickmove]
+[charaSpecialEffect K appearance 1 0.25]
+[wt 0.4]
+[charaTalk on]
+[charaTalk K]
+
+＠怖军
+抱歉，我要抓紧你啦，御主。[r]要做好被甩飞的准备了。
+[k]
+
+[charaFace K 3]
+
+＠怖军
+……她已经，[#停摆了]。
+[k]
+
+[messageOff]
+[charaTalk I]
+[wt 0.5]
+[charaFaceFade I 13 0.4]
+[wt 1.5]
+
+
+[charaTalk off]
+[seStop ad14 0.5]
+[se ad875]
+[shake 0.05 0 20 0.8]
+[wt 0.8]
+[seStop ad875 0.5]
+
+[se ade365]
+[seVolume ade365 0 0]
+[wt 0.7]
+[cueSe SE_21 21_ade546]
+[seVolume ade365 0.1 1.1]
+[se ade338]
+[seVolume ade338 0 0.5]
+[effect bit_talk_42_depth]
+[wt 0.25]
+
+[blur motion 0.2 2 200 1.0 0 0.02 200]
+[wipeout rightToLeft 0.2 1.0]
+[cameraMove 0.4 -350,0 1.1]
+[charaMove I 230,0 0.4]
+[charaMove K 500,30 0.4]
+[wait wipe]
+
+[blurOff]
+[effectDestroy bit_talk_42_depth]
+[charaFadeout M 0.1]
+[charaFadeout K 0.1]
+[charaFadeout I 0.1]
+[shakeStop]
+[scene 10000]
+[wt 0.2]
+
+[wipein leftToRight 0.1 1.0]
+[wait wipe]
+
+[wt 1.0]
+
+
+
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]
+

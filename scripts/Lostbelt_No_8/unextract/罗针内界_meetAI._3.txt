@@ -1,0 +1,514 @@
+
+
+
+＄04-00-02-01-3-1
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 7046001 1 难敌]
+[charaSet B 1098269600 1 Caster]
+[charaSet C 1098270300 1 阿愈丝]
+[charaSet D 1098270000 1 希翁]
+[charaSet E 1098270100 1 迦摩]
+[charaSet F 1098269810 1 玛奇里]
+[charaSet G 1098270300 1 阿愈丝_演出用]
+[charaSet H 1098270100 1 迦摩_演出用]
+[charaSet I 1098270000 1 希翁_演出用]
+
+[sceneSet J 10000 1]
+[charaScale J 1.05]
+[sceneSet K 189300 1]
+[sceneSet L 189300 1]
+[charaScale L 1.2]
+
+[charaSet R 5009000 1 特效用1]
+[charaSet S 5009000 1 特效用2]
+[charaSet T 5009000 1 特效用3]
+
+[scene 189300]
+
+[subCameraOn 1]
+[charaLayer K sub #A]
+[charaLayer G sub #A]
+[charaLayer H sub #A]
+[charaLayer I sub #A]
+
+[subCameraFilter #A through]
+[subRenderScale #A 1.02]
+
+[charaTalk depthOff]
+[charaDepth K 1]
+[charaDepth L 1]
+[charaDepth G 2]
+[charaDepth H 2]
+[charaDepth I 2]
+[charaDepth B 2]
+[charaDepth E 2]
+[charaDepth F 2]
+[charaDepth R 3]
+[charaDepth S 3]
+[charaDepth T 3]
+
+[charaFace G 8]
+[charaFadein K 0.1 0,-200]
+[charaFadein G 0.1 1]
+[charaFadein L 0.1 0,-250]
+
+[bgm BGM_EVENT_80 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+[wt 0.3]
+
+[se ad1006]
+[seVolume ad1006 0 0.8]
+[charaPut R 1]
+[charaEffect R bit_talk_41_fs]
+[charaMoveScale B 1.2 0.3]
+[charaMove B 0,20 0.3]
+[blur motion 0.3 4 200 0.5 0.6 0.05 400]
+[charaFadeout B 0.3]
+[wt 0.4]
+[charaPut R 2500,2500]
+[charaEffectStop R bit_talk_41_fs]
+[charaScale B 1.0]
+[blurOff motion 0.1]
+[wt 0.1]
+
+[se ad85]
+[fowardEffect bit_talk_h_slash01_fs]
+[wt 0.5]
+[cueSe Battle bac169]
+[fowardEffect bit_talk_v_slash01]
+[wt 0.5]
+
+[se ad170]
+[effect bit_talk_14]
+[wt 0.2]
+
+[charaScale E 1.3]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0,30]
+[se ad543]
+[seVolume ad543 0 0.5]
+[se ad671]
+[charaShake E 0.05 2 2 0.4]
+[seStop ad671 0.5]
+[seStop ad543 0.5]
+[charaMoveScale E 1.0 0.4]
+[charaMove E 0,0 0.4]
+[wt 0.6]
+
+[se ad73]
+[charaEffect E bit_talk_quickmove]
+[charaSpecialEffect E erasureReverse 1 0.3]
+[wt 0.7]
+
+[charaPut R 250,0]
+[charaPut S 1]
+[charaPut T -250,0]
+[se ade440]
+[charaEffect R bit_shot_01]
+[wt 0.3]
+[charaEffect S bit_shot_01]
+[wt 0.3]
+[charaEffect T bit_shot_01]
+[wt 0.3]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+[wt 0.1]
+[cueSe Battle bac169]
+[se ad1014]
+[fowardEffect bit_talk_ichimon01wh 0,-50]
+[fowardEffect bit_talk_14 250,0]
+[charaMoveReturn B -8,0 0.2]
+[wt 0.1]
+[fowardEffect bit_talk_14]
+[wt 0.1]
+[fowardEffect bit_talk_14 -250,0]
+[wt 0.8]
+[charaFadeout L 0.5]
+[charaFadeout B 0.5]
+[wt 0.7]
+
+[charaPut E 0,-10]
+[charaTalk E]
+[charaFace E 0]
+[se ad223]
+[fowardEffect bit_talk_quickmove]
+[charaSpecialEffect E appearance 1 0.25]
+[wt 0.5]
+[charaMove E 0,0 0.3]
+[wt 1.0]
+
+[fowardEffectDestroy bit_talk_ichimon01wh]
+
+？1：跟我认识的吉尔不太一样……！？
+？！
+
+＠迦摩
+嗯。乍一看还挺像骑士的，[r]剑招却莫名粗暴……
+[k]
+
+[charaFace E 4]
+
+＠迦摩
+再加上这操控使魔的伎俩。[r]明明手上持剑，却是[#Caster:魔术师]吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+
+＠B：？？？
+咯咯咯。正是，[#我]的职阶是[#Caster:魔术师]。[r]真亏你能察觉呢，美丽的姑娘。
+[k]
+
+＠Caster
+真是朵香气格外[#诱人]的鲜花。[r]等你再长大一点，倒是可以迎娶来当我的新娘。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+
+＠迦摩
+我现在正忙着让这个木头人堕落呢，[r]恕我敬谢不敏。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠C：？？？
+什么情况？　我们得救了吗……？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[clear]
+[charaDepth J 1]
+[charaDepth A 2]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[charaPut J 0,-200]
+[charaFadeTime J 0.2 0.5]
+
+＠A：？？？
+（惊觉）
+[k]
+
+[charaFadeout J 0.2]
+[charaFace A 3]
+
+＠A：？？？
+很，很好～，很好很好很好～！[r]来得好啊，等你们很久了！
+[k]
+
+＠A：？？？
+着实了不起，心灵之友啊。[r]你们能前来帮忙简直有如百人助力！
+[k]
+
+＠A：？？？
+来吧，何不让我们一同打倒[#Caster:魔术师]呢！
+[k]
+
+？1：哎？
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaScale B 1.2]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.5 1]
+[charaFadein L 0.5 0,-300]
+[wt 0.7]
+
+＠Caster
+……[r]……
+[k]
+
+＠Caster
+怎么办，御主。
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[bgm BGM_EVENT_80 0.5 0.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[pictureFrame cut063_cinema]
+[charaScale L 1.5]
+[charaMove L 330,-55 0.1]
+[wt 0.3]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+
+[wt 0.5]
+
+[se ad95]
+[seStop ad95 0.5]
+[charaScale F 1.2]
+[charaTalk F]
+[charaFace F 0]
+[charaFadeinFSL F 0.4 -276,200]
+[charaMoveFSL F -256,200 0.4]
+[wt 1.0]
+[charaMove L 330,-222 2.0]
+[charaMoveFSL F -256,-50 2.0]
+[wt 2.2]
+
+＠F：？？？
+嘁。[r]已经跟其他阵营联手了啊。
+[k]
+
+＠F：？？？
+还没攒够足以与两骑为敌的资源。
+[k]
+
+＠F：？？？
+……眼下还是先撤退吧，[#Caster:魔术师]。
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+
+[charaScale L 1.2]
+[charaMove L 0,-300 0.1]
+[charaFadeout F 0.1]
+[pictureFrame]
+[cameraMove 0.1 0,0 1.01]
+[wt 0.5]
+
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[bgm BGM_EVENT_80 0.5 1.0]
+[wait wipe]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+
+＠Caster
+明白了。也就是说……[r]只能下次再邀你进房间做客了吧。
+[k]
+
+[bgmStop BGM_EVENT_80 2.0]
+
+[messageOff]
+[se ade428]
+[charaFadeout B 0.4]
+[wt 0.5]
+[seStop ade428 2.0]
+[wt 3.0]
+
+[charaFadeout L 1.5]
+[wt 2.0]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+
+＠希翁
+看来周遭的触手生物也全都消失了。[r]算是告一段落了吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+
+＠迦摩
+我可不会再追击了哦？[r]今天已经工作过度了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠C：？？？
+这，这是怎么一回事？[r]你认识那些人吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[clear]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠A：？？？
+呼～，很好。[r]看来本老爷的判断没有错。
+[k]
+
+＠A：？？？
+『意料之外却来历不明的家伙』就该在成为敌人之前[r]先拉拢来当伙伴。毕竟不知道会不会派上用场嘛。
+[k]
+
+＠A：？？？
+不过捡到迦尔纳那种宝贝的情况[r]并不多见就是了……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[clear]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠C：？？？
+喂，快给我解释清楚啦，[#Berserker:狂战士]！
+[k]
+
+？1：（他提到了迦尔纳……？）
+？2：（[#Berserker:狂战士]……）
+？！
+
+[messageOff]
+[charaTalk off]
+[subRenderFadein #A 0.4 0,0]
+
+[blur lens 0.1 2 2]
+[se ad231]
+[wt 0.5]
+
+[subRenderFadeout #A 0.5]
+[blurOff lens 1.0]
+[wt 0.5]
+
+[charaFadeout G 0.1]
+[charaFace H 18]
+[charaFadein H 0.1 1]
+[wt 0.5]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaFace E 18]
+[charaFadein E 0.1 1]
+
+＠迦摩
+咦，喂，御主？
+[k]
+
+[messageOff]
+[subRenderFadein #A 0.4 0,0]
+
+[blur lens 0.1 2 2]
+[se ad231]
+[wt 0.5]
+
+[subRenderFadeout #A 0.5]
+[blurOff lens 1.0]
+[wt 0.5]
+
+[charaFadeout H 0.1]
+[charaFace I 4]
+[charaFadein I 0.1 1]
+[wt 0.5]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠希翁
+糟了……！[r]看来刚才就不该搁置这个问题。
+[k]
+
+[charaFace D 1]
+
+＠希翁
+果然有部位从一开始就存在问题，[r]而刚才的正式战斗行为又加重了负担吧。
+[k]
+
+＠希翁
+[%1][&先生:小姐]，[r]快躺下，深呼吸[line 3]
+[k]
+
+[bgmStop BGM_EVENT_81 1.0]
+
+[charaFace D 4]
+
+＠希翁
+[%1][&先生:小姐]！？
+[k]
+
+[messageOff]
+[subRenderFadein #A 0.4 0,0]
+
+[blur lens 0.1 4 4]
+[se ad231]
+[wt 0.5]
+
+[subRenderFadeout #A 0.5]
+[blurOff lens 1.0]
+[wt 0.5]
+
+[charaFadeout I 0.1]
+[charaFadeout K 0.1]
+[wt 0.5]
+
+[subCameraOff]
+[charaLayer G normal]
+[charaLayer H normal]
+[charaLayer I normal]
+[charaLayer K normal]
+[wt 1.0]
+
+[blur lens 0.1 4 4]
+[cameraMove 0.5 0,30 1.01]
+[wipeout openEye 0.5 1.0]
+[wait wipe]
+
+[se ad144]
+[charaFadeout D 0.1]
+[scene 10000]
+[wt 1.5]
+
+[wipein openEye 0.1 1.0]
+[wait wipe]
+
+[fadeout black 2.0]
+[wait fade]
+[blurOff lens 0.1]
+[cameraHome 0.1]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

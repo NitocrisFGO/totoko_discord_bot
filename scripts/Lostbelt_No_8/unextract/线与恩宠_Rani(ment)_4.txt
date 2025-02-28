@@ -1,0 +1,860 @@
+
+
+
+＄04-00-02-02-4-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 7046001 1 难敌]
+[charaSet B 6037000 1 迦摩]
+[charaSet C 1098270000 1 希翁]
+[charaSet D 1098270300 1 阿愈丝]
+[charaSet E 1098270500 1 拉妮－Ｄ]
+[charaSet F 1098270500 1 拉妮－Ｄ2]
+[charaSet G 1098270500 1 拉妮－Ｄ3]
+[charaSet H 1098269100 1 综合统管ＡＩ]
+[charaSet I 1098269100 1 综合统管ＡＩ（演出用）]
+
+[charaSet J 1098270540 1 警报机器人]
+[charaSet K 1098270540 1 警报机器人2]
+[charaSet L 1098270540 1 警报机器人3]
+
+[sceneSet O 189500 1]
+[charaScale O 1.4]
+[sceneSet P 189500 1]
+[charaScale P 1.4]
+[sceneSet Q 189700 1]
+[charaScale Q 1.2]
+
+[sceneSet R 189300 1]
+[charaScale R 1.2]
+
+[imageSet S back10000 1 1]
+[charaScale S 1.3]
+
+
+[scene 189300]
+
+[bgm BGM_EVENT_3 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[cueSe Servants_603700 bac970]
+[wt 0.05]
+[fowardEffect bit_talk_gram_slash_03_fs]
+[wt 0.6]
+
+[cueSeStop bac970 0.3]
+[cueSe Battle bac98]
+[effect bit_talk_14]
+[charaScale A 1.2]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0,20]
+[charaMove A 1 0.3]
+[charaMoveScale A 1.0 0.3]
+[charaShake A 0.02 3 4 0.8]
+[wt 1.0]
+[fowardEffectDestroy bit_talk_gram_slash_03_fs]
+
+
+＠难敌
+呜哇！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_3 1.5]
+[charaMove A 0,-50 0.3]
+[charaFadeout A 0.3]
+[wt 0.3]
+
+[se ad775]
+[wt 1.6]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+＠迦摩
+你是白痴吗？
+[k]
+
+＠迦摩
+狂战士脑？[r]啊，确实是[#Berserker:狂战士]呢。
+[k]
+
+[charaFace B 0]
+＠迦摩
+好，杀掉吧。反正是敌人啦，敌人，毫无疑问。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠希翁
+无法否定。
+[k]
+
+＠希翁
+感觉他从不久前起就一直在偷偷寻找[r]我们的破绽，我早猜到他迟早会动手。
+[k]
+
+[charaFace C 2]
+＠希翁
+都在我计算之内。
+[k]
+
+？1：为什么突然发动攻击……
+？！
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.15]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.4 0,-30]
+[charaShake A 0.01 1 2 0.6]
+[charaMove A 1 0.6]
+[wt 0.3]
+[se ad984]
+[seVolume ad984 0 0.6]
+[wt 0.8]
+
+＠难敌
+呜。还以为只要偷袭就能成功呢，[r]小姑娘家还挺能干的嘛。
+[k]
+
+[charaFace A 12]
+＠难敌
+看来连本老爷也在不知不觉间掉以轻心了。
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+[charaFace A 2]
+＠难敌
+没办法，眼下只好……
+[k]
+
+[charaFace A 3]
+＠难敌
+很，很好！　这下锻炼够了吧！[bgm BGM_EVENT_7 0.1][r]本老爷也摸清你们实力了！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠迦摩
+哈？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠难敌
+本老爷只是想确认一下你们是否做好了[r]应对偷袭的心理准备。
+[k]
+
+＠难敌
+换言之，这是本老爷爱的鞭笞。
+[k]
+
+[charaFace A 3]
+＠难敌
+本老爷也常被德罗纳这样鞭笞呢，千真万确哦。[r]反正基本上都推给迦尔纳，自个儿开溜啦，哈哈哈！
+[k]
+
+[bgm BGM_EVENT_7 0.5 0.5]
+[charaTalk depthOff]
+[charaDepth S 4]
+[charaDepth A 5]
+
+[charaPut S 1]
+[charaFadeTime S 0.2 0.5]
+
+[charaFace A 7]
+＠难敌
+（哼。虽然[&他们:她们]扯了堆有的没的，[r]　但毕竟是从者，怎么可能毫无关系。）
+[k]
+
+＠难敌
+（如果能趁[&他们:她们]彻底大意时靠偷袭干掉一骑，[r]　就能占据相当大的优势了……）
+[k]
+
+＠难敌
+（也罢，反正机会有的是。下次再说吧，下次再说。[r]　哼哼哼，这才是智将之极致啊！）
+[k]
+
+[bgm BGM_EVENT_7 1.0 1.0]
+[charaFadeout S 0.2]
+
+[charaFace A 0]
+＠难敌
+哎呀，实在是太抱歉了。
+[k]
+
+＠难敌
+由于本老爷是战士中的战士，[r]所以一不小心采取了把你们作为同类应对的行为。
+[k]
+
+＠难敌
+应该将你们当做普通人看待才对呢～。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠阿愈丝
+你在干什么啊，真是的！[r]我还以为你真的在战斗呢。
+[k]
+
+＠阿愈丝
+道歉得再诚恳一些啦，快点！
+[k]
+
+[charaCrossFade D 1098270310 4 0.3]
+＠阿愈丝
+你们没事吧？　没受伤吧？[r]受伤了可得修理哦，或者说请允许我修理？[wait charaCrossFade D]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+＠迦摩
+……我没事。
+[k]
+
+[bgm BGM_EVENT_7 0.5 0.5]
+[charaTalk depthOff]
+[charaDepth S 4]
+[charaDepth B 5]
+
+[charaPut S 1]
+[charaFadeTime S 0.2 0.5]
+
+[charaFace B 17]
+＠迦摩
+（如果只有他一个人，我毫无疑问会让他堕落到[r]　深渊底部予爱予杀跟他把账给算清楚。）
+[k]
+
+[charaFace B 4]
+＠迦摩
+（但御主的态度又很正常，[r]　不太好办呢……）
+[k]
+
+[charaFace B 11]
+＠迦摩
+（要是咱们的御主能给我指示，我也就不用烦恼了，[r]　可这个人是绝不会说的！　真是的！）
+[k]
+
+[messageOff]
+[charaFadeout S 0.2]
+[wt 0.8]
+[bgmStop BGM_EVENT_7 2.0]
+
+？1：为什么突然狠狠瞪我啦……？
+？！
+
+[charaFace B 12]
+＠迦摩
+没什么！[r]你迟早会吃苦头的，我说真的！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+[bgm BGM_EVENT_77 0.1]
+＠难敌
+哈哈哈，要好好相处啦，好好相处～。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 17]
+[charaFadein B 0.1 1]
+[wt 1.2]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠难敌
+话说回来……只有我方暴露真名感觉不太爽，[r]于是本老爷思考了一下。
+[k]
+
+＠难敌
+你那散发着印度香气的花之箭。[r]提起花之箭当属迦摩神，难道说……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth A 1]
+[charaDepth R 2]
+[charaDepth B 3]
+
+[charaScale B 1.2]
+[charaFace B 0]
+[charaFadein B 0.7 250,10]
+[charaFadein R 0.7 -70,-225]
+[charaMove B 200,10 0.7]
+[charaMove R -100,-225 0.7]
+[wt 0.7]
+[charaFadeout A 0.1]
+[wt 0.3]
+
+＠迦摩
+（“怎么办？”的眼神）
+[k]
+
+？1：（怎么办呢……）
+？2：（其实我觉得告诉他们也无妨。）
+？！
+
+[messageOff]
+[charaFadeout B 0.4]
+[charaFadeout R 0.4]
+[wt 0.5]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠难敌
+喂，慢着慢着。本老爷还不至于迟钝到[r]看到你们的眼神交流还不明白。
+[k]
+
+＠难敌
+不会吧，真的吗？
+[k]
+
+[charaFace A 8]
+＠难敌
+话说……为什么是女人……？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaScale B 1.0]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+＠迦摩
+唉。
+[k]
+
+＠迦摩
+有各种原因啦。而且性别对我们来说[r]也不是什么特别重要的差异。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠难敌
+听你这么一说倒也没错。毕竟是神嘛。
+[k]
+
+[charaFace A 12]
+＠难敌
+话说回来，诱发情欲的花之箭啊。
+[k]
+
+＠难敌
+只要有了这玩意，无论[#德罗波蒂:黑公主]还是其他美女，[r]都能轻松收入本老爷囊中……唔呵呵……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+＠迦摩
+我，正拒做神明工作愉快罢工中。[r]无论怎么崇拜我，我都不打算干活。
+[k]
+
+[charaFace B 2]
+＠迦摩
+话说突然发动袭击的家伙哪儿来的脸提要求呢。
+[k]
+
+＠迦摩
+敢再有下次，小心我宰了你哦！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠难敌
+当然啦，本老爷明白。
+[k]
+
+＠难敌
+身为神明，身为一骑从者，[r]今后何不让我们彼此心怀敬意地相处呢。
+[k]
+
+[bgm BGM_EVENT_77 0.5 0.5]
+[charaTalk depthOff]
+[charaDepth S 4]
+[charaDepth A 5]
+
+[charaPut S 1]
+[charaFadeTime S 0.2 0.5]
+
+[charaFace A 1]
+＠难敌
+（不管怎么说，她终究是我们的神明。[r]　顺利的话，或许可以加以利用……）
+[k]
+
+[messageOff]
+[bgm BGM_EVENT_77 0.5 1.0]
+[charaFadeout S 0.2]
+[charaFace A 3]
+[wt 1.1]
+
+[charaSet D 1098270300 1 阿愈丝]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠阿愈丝
+怎么心情又好起来了？
+[k]
+
+[charaFace D 0]
+＠阿愈丝
+算了，就快进入中央的[#警防部:Defend]区域啦。[r]我们走吧。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_77 1.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[scene 189500]
+[wt 0.5]
+
+[charaTalk off]
+[charaDepth O 2]
+[charaDepth P 3]
+[charaDepth G 4]
+[charaDepth L 4]
+[charaDepth F 5]
+[charaDepth K 5]
+[charaDepth E 6]
+[charaDepth J 6]
+
+[charaFadein O 0.1 200,-225]
+[wt 1.0]
+
+[bgm BGM_AMAZONES 1.5]
+
+[charaMove O 250,-225 1.5]
+[fadein black 1.5]
+[wait fade]
+[wt 0.2]
+
+[se ade428]
+[wt 0.4]
+[charaScale E 1.2]
+[charaScale J 1.2]
+[charaFace E 0]
+[charaFace J 1]
+[charaFadein E 0.4 -170,80]
+[charaFadein J 0.4 60,80]
+[charaMove E -230,80 0.4]
+[charaMove J 0,80 0.4]
+[wt 0.4]
+[seStop ade428 0.2]
+[wt 0.6]
+
+[charaScale F 0.9]
+[charaScale G 0.8]
+[charaScale K 0.9]
+[charaScale L 0.8]
+[charaFace F 0]
+[charaFace K 1]
+[charaFadein F 0.4 0,-30]
+[charaFadein K 0.4 180,-30]
+[charaMove F 300,-30 2.4]
+[charaMove K 480,-30 2.4]
+[wt 0.8]
+[charaFace G 0]
+[charaFace L 1]
+[charaFadein G 0.4 500,-90]
+[charaFadein L 0.4 650,-90]
+[charaMove G 240,-90 2.4]
+[charaMove L 390,-90 2.4]
+[wt 0.8]
+
+[se ade428]
+[charaMove E -290,80 0.4]
+[charaMove J -60,80 0.4]
+[charaFadeout E 0.4]
+[charaFadeout J 0.4]
+[seStop ade428 1.2]
+[wt 0.4]
+[charaFadeout F 0.4]
+[charaFadeout K 0.4]
+[wt 0.8]
+[charaFadeout G 0.4]
+[charaFadeout L 0.4]
+[wt 0.6]
+
+[charaFadein P 0.8 -200,-225]
+[charaMove P -250,-225 0.8]
+[wt 0.8]
+
+[charaDepth G 4]
+[charaDepth L 4]
+[charaDepth F 6]
+[charaDepth K 6]
+[charaDepth E 5]
+[charaDepth J 5]
+
+[se ad95]
+[se ade428]
+[wt 0.4]
+[charaScale E 1.1]
+[charaScale F 1.1]
+[charaScale J 1.1]
+[charaScale K 1.1]
+[charaFace E 0]
+[charaFace F 0]
+[charaFace J 1]
+[charaFace K 1]
+[charaFadein E 0.4 -100,50]
+[charaFadein J 0.4 120,50]
+[charaFadein F 0.4 300,50]
+[charaFadein K 0.4 520,50]
+[charaMove E -50,50 0.4]
+[charaMove J 170,50 0.4]
+[charaMove F 250,50 0.4]
+[charaMove K 470,50 0.4]
+[charaFadeout O 0.1]
+[wt 0.4]
+[seStop ad95 0.2]
+[seStop ade428 0.2]
+[wt 0.4]
+
+
+[charaCrossFade E 1098270520 0 0.3]
+[wt 0.3]
+[charaCrossFade F 1098270520 0 0.3]
+[wait charaCrossFade F]
+
+[wait fastPlayDraw 1.0]
+
+[charaMoveReturn E -50,40 0.8]
+[wt 0.5]
+
+[charaScale G 0.9]
+[charaScale L 0.9]
+[charaFace G 0]
+[charaFace L 1]
+[charaFadein G 0.4 -100,-30]
+[charaFadein L 0.4 80,-30]
+[charaMove G -400,-30 2.4]
+[charaMove L -220,-30 2.4]
+[wt 0.5]
+
+[charaMoveReturn F 250,40 0.4]
+[wt 0.4]
+[charaMoveReturn F 250,40 0.4]
+[wt 0.8]
+
+[charaCrossFade E 1098270500 0 0.3]
+[charaCrossFade F 1098270500 0 0.3]
+
+[wait fastPlayDraw 1.0]
+
+[se ad95]
+[se ade428]
+[charaMove E 100,50 1.2]
+[charaMove J 320,50 1.2]
+[charaMove F 100,50 1.2]
+[charaMove K 320,50 1.2]
+[wt 0.3]
+[charaFadeout G 0.4]
+[charaFadeout L 0.4]
+[wt 0.5]
+[charaFadeout E 0.4]
+[charaFadeout J 0.4]
+[charaFadeout F 0.4]
+[charaFadeout K 0.4]
+[seStop ad95 1.2]
+[seStop ade428 1.2]
+[wt 1.0]
+[wait charaCrossFade E]
+[wait charaCrossFade F]
+
+[charaFadeout P 1.0]
+[wt 1.4]
+
+
+？1：有些不太一样的拉妮……
+？！
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠阿愈丝
+那就是[#警防部:Defend]的孩子，是型号Ｄ的ＡＩ哦。[r]这世界偶尔也会出现一些故障，
+[k]
+
+＠阿愈丝
+她们的使命是警戒并排除那些故障。[r]按照外面的说法，应该是类似警察（？）的职务吧。
+[k]
+
+[charaFace D 8]
+＠阿愈丝
+那些孩子都很重要，可别去招惹她们哦。[r]不然会挨骂的。
+[k]
+
+[messageOff]
+[se ade428]
+[se ad95]
+[wipeout leftToRight 1.0 1.0]
+[seStop ade428 1.5]
+[seStop ad95 1.5]
+[bgm BGM_AMAZONES 1.0 0.5]
+[wait wipe]
+
+[charaFadeout D 0.1]
+
+[scene 189600]
+[wt 1.2]
+
+[bgm BGM_AMAZONES 1.0 1.0]
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+[wt 0.4]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠希翁
+这里就是综合统管ＡＩ所在的场所吧。[r]看起来，像是教会……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠阿愈丝
+我不太懂设计呢。[r]肯定没什么特别的意义啦。
+[k]
+
+[charaFace D 6]
+＠阿愈丝
+估计是想给人以最为安定的感觉吧？
+[k]
+
+[charaFace D 0]
+＠阿愈丝
+来，进去吧。[r]发送入馆请求[line 3][wt 0.6][charaFace D 1]OK，获得许可了。
+[k]
+
+[messageOff]
+[se ad15]
+[wt 0.8]
+
+[se ad91]
+[wt 0.8]
+
+[fadeout black 2.0]
+[bgmStop BGM_AMAZONES 2.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[sceneSet O 189700 1]
+[charaScale O 1.4]
+[sceneSet P 189700 1]
+[charaScale P 1.4]
+
+[scene 189700]
+
+[charaTalk off]
+[charaDepth O 1]
+[charaDepth P 2]
+
+[charaFadein O 0.1 -265,-135]
+[wt 1.5]
+
+[charaMove O -90,-135 4.2]
+[fadein black 1.5]
+[wait fade]
+[wt 1.7]
+
+[charaFadein P 1.0 100,-325]
+[charaMove P 100,-425 4.5]
+[wt 1.0]
+[charaFadeout O 0.1]
+[wt 2.5]
+[charaFadeout P 1.0]
+[wt 1.4]
+
+[bgm BGM_EVENT_1 0.1]
+
+＠？？？
+刚才的话我都听到了，你说得没错。
+[k]
+
+＠？？？
+这栋建筑的形状没什么特别的理由，[r]也没有任何宗教方面的意义。
+[k]
+
+＠？？？
+只是测量了数据的平均值，选择了被认为[r]最没有违和感、最合适形状的结果而已。
+[k]
+
+＠？？？
+换言之[line 3]这就是所谓的『经典』吧。
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[charaDepth H 1]
+[charaDepth Q 2]
+[charaDepth I 3]
+
+[se ad311]
+[wt 0.9]
+
+[charaFadein Q 0.8 0,-240]
+[wt 1.3]
+
+[charaScale I 1.4]
+[charaFace I 0]
+[charaFadein I 0.5 0,250]
+[wt 0.4]
+[seStop ad311 0.2]
+[wt 0.1]
+
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[wt 0.7]
+
+[charaMove I 0,55 1.5]
+[charaMove Q 0,-320 1.5]
+[wt 2.3]
+
+[charaFadeout Q 0.8]
+[charaFadeout I 0.8]
+[wt 1.2]
+
+
+？1：这里的这位果然也是拉妮啊。
+？！
+
+[charaTalk on]
+＠综合统管ＡＩ
+是的。
+[k]
+
+＠综合统管ＡＩ
+我是作为这世界所有Ｒ.Ａ.Ｎ.Ｉ系列ＡＩ的[r]基盘与基础的[#首要:Primary]ＡＩ。
+[k]
+
+＠综合统管ＡＩ
+其他ＡＩ的外观设定当然也是[r]以我这个存在为主轴的。
+[k]
+
+[charaFace H 1]
+＠综合统管ＡＩ
+另外，我也对称呼进行过考究与掌握。
+[k]
+
+＠综合统管ＡＩ
+原本并不需要，但我认为现阶段[r]不仅不需要否定『个体名』，而且还是有用处的。
+[k]
+
+[charaFace H 0]
+＠综合统管ＡＩ
+换言之，虽然也可以说我才是拉妮……[r]但这也不准确。
+[k]
+
+＠综合统管ＡＩ
+我在功能上是独一无二的，[r]因此不对型号进行补充，
+[k]
+
+＠综合统管ＡＩ
+而是表明当前的版本信息，[r]也就是重大更新的次数会更为合适。
+[k]
+
+[charaFace H 1]
+＠综合统管ＡＩ
+所以我就基于上述逻辑，向各位公开吧。
+[k]
+
+＠综合统管ＡＩ
+拉妮－[#ⅩⅡ:Twelve]。
+[k]
+
+[charaFace H 0]
+＠综合统管ＡＩ
+目前这就是我所谓的名字[line 3]
+[k]
+
+
+
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_1 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

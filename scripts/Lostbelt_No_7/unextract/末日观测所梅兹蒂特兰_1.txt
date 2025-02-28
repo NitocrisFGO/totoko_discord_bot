@@ -1,0 +1,541 @@
+
+
+＄03-00-13-16-1-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098255300 1 尼托克丽丝]
+[charaSet C 1098257300 1 达·芬奇]
+[charaSet D 1098252410 1 库库尔坎]
+[charaSet E 1098252900 1 特佩乌]
+[charaSet F 1098255200 1 哈贝特洛特]
+[charaSet G 1098257900 1 玛修_护目镜]
+[charaSet I 1098252700 1 失智迪诺斯]
+[charaScale I 1.05]
+
+[charaDepth G 2]
+[charaDepth A 1]
+
+[sceneSet H 169101 1]
+
+[scene 169101]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_80 0.1]
+[wt 0.4]
+
+[effect bit_talk_14]
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.2 0,8]
+[charaMoveScale I 1.0 0.4]
+[charaMove I 0,0 0.4]
+
+[wt 0.1]
+[se ad32]
+[cueSe Servants_800101 bac691]
+[flashin once 0.1 0.2 FFFFFFAF FFFFFF00]
+[shake 0.03 3 3 0.4]
+[wt 0.8]
+[cueSe SE_22 22_ad1207]
+[wt 1.0]
+[cueSe SE_22 22_ad1208]
+[seStop 22_ad1208 2.0]
+[wt 0.5]
+[charaFadeout I 0.4]
+
+[bgmStop BGM_EVENT_80 2.5]
+[wt 1.8]
+
+[charaTalk off]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+[wt 0.1]
+[charaFace A 6]
+[charaFadein A 0 1]
+[wt 0.3]
+[charaFadeout G 0.4]
+[wt 0.3]
+[se ade57]
+[seVolume ade57 0.0 1.0]
+[seStop ade57 0.14]
+[wt 0.1]
+[se ad658]
+[wt 1.0]
+[charaTalk on]
+[charaTalk A]
+[charaFace A 1]
+
+＠玛修
+战斗顺利结束。[r]失智迪诺斯已逃离。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠尼托克丽丝
+看到了吧，这不是正好用来确认简易召唤吗！
+[k]
+
+＠尼托克丽丝
+结果如我所料！[r]战果斐然哦，[%1]！
+[k]
+
+？1：Yes。法老大人说得对。
+？2：但令咒本身还用不了……
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 22]
+[charaFadein C 0.1 1]
+
+＠达·芬奇
+嗯。御主的证明，[r]召唤的功能看来是恢复了，
+[k]
+
+＠达·芬奇
+但发动令咒的功能本身还没恢复。
+[k]
+
+[charaFace C 23]
+
+＠达·芬奇
+现在的[%1]虽然能召唤从者，[r]却无法用令咒进行强化。
+[k]
+
+＠达·芬奇
+作为御主还处于不完全的状态……[r]算是临时御主，或是[#召唤术士:Summoner]吧。
+[k]
+
+[charaFace C 34]
+
+＠达·芬奇
+至于为何会变成这种状态，[r]我阅览了第一冥界时的记录……
+[k]
+
+＠达·芬奇
+『在莫名其妙的地方与莫名其妙的对象交易，[r]　然后死而复生了』吗？
+[k]
+
+[charaFace C 9]
+
+＠达·芬奇
+如果这些话是真的，说不定你在米克特兰的期间[r]会一直保持这种状态。
+[k]
+
+＠达·芬奇
+又或者，
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+
+＠库库尔坎
+得教训一下与[%1][&先生:小姐][r]交易的『某人』吧。
+[k]
+
+＠库库尔坎
+既然卡玛佐茨持有令咒，[r]照理说他应该就是『那个某人』才对……
+[k]
+
+[branchRouteSelect lblSel01a 3001314 1000]
+[branchNotRouteSelect lblSel01b 3001314 1000]
+
+[k]
+
+[label lblSel01a]
+
+？1：跟我交易的不是卡玛佐茨。
+？2：……大概，是那个在墨西哥的特斯卡特利波卡。
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠特佩乌
+卡玛佐茨说过吧。[r]说他与特斯卡特利波卡做了交易。
+[k]
+
+＠特佩乌
+这样看来，[%1]所遇见的[r]『记不太清的某人』，应该就是特斯卡特利波卡。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠库库尔坎
+果然是那个墨镜混蛋吗？[r]很好很好。这下痛扁他的理由就又多一个了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+[branch lblSel01conf]
+
+[label lblSel01b]
+
+？1：跟我交易的应该不是卡玛佐茨。
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠特佩乌
+虽然想不起交易的地点与对象，[r]但你确信『不是卡玛佐茨』呢。
+[k]
+
+＠特佩乌
+这样看来，卡玛佐茨也许就是从『某人』那里[r]买下了[%1]的令咒吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+？2：卡玛佐茨不也做了交易吗？
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠尼托克丽丝
+其实我不认为那个吵闹的蝙蝠男[r]有能力作出这种判断……
+[k]
+
+[charaFace B 0]
+
+＠尼托克丽丝
+但既然他确实给了每个『冥界的守卫』[r]一划令咒，那应该不会错了吧。
+[k]
+
+[charaFace B 9]
+
+？！
+
+[label lblSel01conf]
+
+＠尼托克丽丝
+不过……刚才的失智迪诺斯数量是不是太多了？
+[k]
+
+＠尼托克丽丝
+难道说……第七层有失智迪诺斯的巢穴？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠特佩乌
+不，只是第七层对丧失理智的迪诺斯来说，[r]比较宜居而已。
+[k]
+
+＠特佩乌
+对普通迪诺斯或奥塞洛特尔来说，则是严苛的环境啦。[r]走错一步就会性命不保。
+[k]
+
+＠特佩乌
+还有一方面的原因是[r]紧挨着的第八层是死神卡玛佐茨的巢穴，
+[k]
+
+＠特佩乌
+从第八层到第九层不仅充斥着有毒气体，[r]还有对生物有害的宇宙射线。
+[k]
+
+＠特佩乌
+简直就是死之世界。[r]并非生命可以踏足之地。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 24]
+[charaFadein C 0.1 1]
+
+＠达·芬奇
+哦哦，所以……潜航艇的侦察无人机[r]在进入第八层后才会出故障停摆啊。
+[k]
+
+[charaFace C 34]
+
+＠达·芬奇
+这样看来，空想树果然就在最底层吧……[r]毕竟其他地方都不见踪影……
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.7 50,0]
+[charaMove F 0,0 0.7]
+[se ad527 0.5]
+[seStop ad527 1.4]
+[wt 0.7]
+[charaMove F 0,-10 0.7]
+[wt 0.7]
+[se ade505]
+[wt 0.8]
+[charaMove F 0,0 0.7]
+[se ade24]
+[wt 0.7]
+[seStop ade24 2.0]
+
+＠哈贝特洛特
+嘿哟。篝火这样就可以了。[r]聊天到此为止，来准备露营吧。
+[k]
+
+＠哈贝特洛特
+总共带来了两顶帐篷。一顶给玛修和达·芬奇，[r]另一顶给[%1]。
+[k]
+
+＠哈贝特洛特
+你们三人都是血肉之躯，[r]得准备正经床铺才行。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠特佩乌
+不用说，我会在My床草上休眠。[r]大地的硬度真令人欲罢不能。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠库库尔坎
+其实我也是血肉之躯……[r]各位能灵体化的从者也太狡猾了～……
+[k]
+
+[masterBranch lblmst01a lblmst01b]
+[label lblmst01a]
+[charaSet E 1098252940 1 特佩乌]
+
+？1：那你要来我的帐篷吗？
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠玛修
+！　说，说得对。
+[k]
+
+＠玛修
+库库尔坎小姐坦白了[r]攻击Storm Border的事实。
+[k]
+
+＠玛修
+身为相互信赖的同伴，提供帐篷的左半边空间[r]也是合情合理的，您请吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+
+＠库库尔坎
+啊～……哈哈。[r]不不，不了，我也跟特佩乌一样睡在大地上吧。
+[k]
+
+[charaFace D 15]
+
+＠库库尔坎
+虽然我还未满一年，但是嘛，[r]在密室里两人独处的刺激未免太强了……
+[k]
+
+＠库库尔坎
+万一克制不住自己，[r]米克特兰就真要完蛋啦～……
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_77 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+
+[label lblmst01b]
+[charaSet E 1098252940 1 特佩乌]
+
+[charaFace D 11]
+
+＠库库尔坎
+啊，突发奇想！　玛修小姐是和达·芬奇小姐[r]睡同一个帐篷吧？
+[k]
+
+[charaFace D 2]
+
+＠库库尔坎
+那么，[%1][&先生:小姐]的帐篷[r]应该还有空间！　请允许我叨扰啦～！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 29]
+[charaFadein A 0.1 1]
+
+＠玛修
+啊哇！？　不，不对，既然如此，[r]还请用我的帐篷吧！
+[k]
+
+＠玛修
+我会用睡袋在篝火旁休息！
+[k]
+
+？1：不，那不如我用睡袋休息吧。
+？2：玛修来我这顶帐篷，我去你那边如何？
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.1 1]
+
+＠库库尔坎
+唔～？　但这样会有些寂寞吧？
+[k]
+
+[charaFace D 2]
+
+＠库库尔坎
+那还不如大家一起挤帐篷呢！[r]我想在挤得满满当当的空间里热烈交谈！
+[k]
+
+＠库库尔坎
+迦勒底和『异星之神』的话题虽然不错，[r]但我也想听除此以外的泛人类史故事！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠玛修
+是，是这样啊……[r]这个提议真不错。
+[k]
+
+[charaFace A 9]
+
+＠玛修
+我对日常生活也只有知识层面的了解，[r]看来会成为前辈的个人秀呢。
+[k]
+
+＠玛修
+请务必讲讲日本都市中的趣事。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠达·芬奇
+怎么怎么，女生聚会？　帐篷派对？[r]那我也要参加～！　把帐篷连在一起吧！
+[k]
+
+[charaFace C 5]
+
+＠达·芬奇
+尼托克丽丝和哈贝特洛特当然也一起！[r]虽然我不建议熬夜，但热闹的话题就该聊个够！
+[k]
+
+[messageOff]
+[charaFadeout C 0.7]
+
+[charaScale E 1.2]
+[charaScale H 1.4]
+
+[charaDepth H 1]
+[charaDepth E 2]
+
+[bgmStop BGM_EVENT_77 2.0]
+[charaFadein H 0.7 100,-250]
+[charaMove H 150,-250 1.0]
+[wt 1.4]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.4 -100,-30]
+[wt 1.0]
+
+＠特佩乌
+[line 3]搞不懂。
+[k]
+
+[messageOff]
+[wt 0.7]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

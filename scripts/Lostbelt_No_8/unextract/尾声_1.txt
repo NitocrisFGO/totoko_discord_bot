@@ -1,0 +1,1487 @@
+
+
+
+＄04-00-02-17-1-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 98001000 1 玛修]
+[charaSet B 1098124500 1 达·芬奇]
+[charaSet C 1098158210 1 希翁]
+[charaSet D 1098182110 1 尼莫教授]
+[charaSet E 1098269330 1 艾尔隆]
+[charaSet F 1098269330 1 艾尔隆2]
+[charaSet G 1098269330 1 艾尔隆3]
+[charaSet H 1098269100 1 拉妮－ⅩⅡ]
+[charaSet I 1098123210 1 戈尔德鲁夫]
+[charaSet J 1098257540 1 拉斯普京]
+[charaSet K 1098267600 1 暗之高扬斯卡娅]
+[charaSet L 1098123500 1 警备A]
+[charaSet M 1098123500 1 警备B]
+[charaSet N 1098123500 1 警备C]
+[charaSet O 1098123500 1 警备D]
+
+[sceneSet P 10000 1]
+[charaScale P 1.05]
+[sceneSet Q 132800 1]
+[sceneSet R 132800 1]
+[sceneSet S 105500 1]
+
+[charaSet T 98115000 1 特效用dummy]
+
+[scene 10000]
+
+[wt 0.1]
+
+[fadein black 0.1]
+[wait fade]
+
+[wipeout openEye 0.1 1.0]
+[wait wipe]
+
+[blur lens 0.1 2 20]
+[scene 190800]
+[wt 0.1]
+
+[wipein openEye 0.6 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+[wipeout openEye 0.8 1.0]
+[wait wipe]
+
+[wt 0.2]
+
+[blurOff lens 1.0]
+[wipein openEye 1.5 1.0]
+[wait wipe]
+
+[wt 0.5]
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠玛修
+前辈！[r]您感觉如何，前辈！？
+[k]
+
+？1：咦，玛修……？
+？2：早上好。
+？！
+
+[charaFace A 13]
+
+＠玛修
+看来是……平安无事呢。[r]真是，太好了……
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[cameraMove 1.0 -60,-20 1.1]
+[wt 1.0]
+
+[se ade357]
+[wt 1.48]
+[seStop ade357]
+[wt 0.6]
+
+[se ade422]
+[seStop ade422 0.5]
+[charaScale B 0.91]
+[charaTalk B]
+[charaFace B 0]
+[charaFadeinFSR B 0.4 220,0]
+[charaMoveFSR B 190,0 0.4]
+[wt 0.4]
+
+＠达·芬奇
+嗯，生命体征也没有异常。[r]应该说由始至终就一直没有异常。
+[k]
+
+[charaFace B 14]
+
+＠达·芬奇
+跟平常的快波睡眠状态不太一样，[r]是谜之突然昏迷到突然苏醒……
+[k]
+
+＠达·芬奇
+唔～，是个谜呢～。
+[k]
+
+[charaFace B 32]
+
+＠达·芬奇
+而陷入相同状况的希翁也[r]几乎在同一时间醒了过来。
+[k]
+
+[messageOff]
+[cameraMove 1.0 0,-20 1.1]
+[wt 1.0]
+
+[charaScale C 0.91]
+[charaTalk C]
+[charaFace C 9]
+[charaFadeinFSL C 0.4 -190,0]
+[wt 0.4]
+
+＠希翁
+哎呀～，是啊～。不过嘛，[r]既然平安苏醒＆健康并无异常，
+[k]
+
+＠希翁
+就没有任何好担心的啦，没有！　对吧？
+[k]
+
+[charaTalk B]
+[charaFace B 34]
+
+＠达·芬奇
+话是这样说没错啦。[r]但难道没有任何特殊的原因吗？　真的吗？
+[k]
+
+＠达·芬奇
+局部催眠气体、影响大脑的电磁脉冲、[r]未知的魔术机关……
+[k]
+
+＠达·芬奇
+我总觉得应该会有什么原因才对啊。
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+
+＠希翁
+……[r]……
+[k]
+
+[messageOff]
+[charaCrossFade C 1098158200 1 0.4]
+[wait charaCrossFade C]
+
+＠希翁
+话说回来，我回想起我们睡着前正在处理的问题了，
+[k]
+
+＠希翁
+[#平面之月:Paper Moon]的故障如何了？
+[k]
+
+[charaTalk B]
+[charaFace B 0]
+
+＠达·芬奇
+那件事的话，几乎在你醒来的同时[r]恢复正常了哦。
+[k]
+
+[charaFace B 24]
+
+＠达·芬奇
+现在正完全照常运转，保险起见还在检查中。[r]究竟是怎么一回事呢？
+[k]
+
+[charaFace B 0]
+
+＠达·芬奇
+那边也得继续调查才行呢。
+[k]
+
+[charaTalk C]
+[charaFace C 6]
+
+＠希翁
+这样啊，原来如此原来如此。[r]恢复正常是件好事。
+[k]
+
+？1：唔～……？
+？2：[#平面之月:Paper Moon]……
+？！
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_EVENT_147 0.5 0.5]
+[wait fade]
+
+[cameraHome 0.1]
+[charaScale B 1.0]
+[charaScale C 1.0]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+
+[scene 189300]
+
+[pictureFrame cut063_cinema]
+[cameraFilter gray]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 2.0]
+
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[wait fade]
+
+[scene 190300]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 2.0]
+
+[fadeout white 0.5]
+[wait fade]
+
+[scene 190800]
+[pictureFrame]
+[cameraFilter normal]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_EVENT_147 0.5 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+怎么了，前辈？[r]歪着脑袋一脸纳闷的样子……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠希翁
+是在睡眠期间做了什么梦吗？[r]还记得内容吗？
+[k]
+
+？1：虽然好像梦见了什么。
+？2：但内容就不怎么……应该说完全不记得了……
+？！
+
+[charaFace C 15]
+
+＠希翁
+[line 6]
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut T 1]
+[charaEffect T bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[wt 0.3]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠尼莫教授
+嗯，有个惊喜～。[r]不好意思，可以打扰一下吗～。
+[k]
+
+＠尼莫教授
+刚才『人理奠基盘』的数值发生了变动。[r]从Ｅ被上调成Ｄ了，
+[k]
+
+＠尼莫教授
+两位对此有什么线索吗～？
+[k]
+
+？1：？　不，并没有。
+？2：希翁，你知道吗？
+？！
+
+[charaSet C 1098158210 1 希翁]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+[charaEffectStop T bit_talk_10_LowLevel]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+＠希翁
+我也无可奉告。[r]毕竟那不是『我』的经历。
+[k]
+
+[charaFace C 1]
+
+＠希翁
+总之，请当作是我和[%1][&先生:小姐][r]都在无意识间获得了成长！
+[k]
+
+[charaFace C 7]
+
+＠希翁
+『一个问题已得以解决』，[r]这件事不如就此作结吧？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaSet C 1098158200 1 希翁]
+
+[charaTalk depthOff]
+[charaDepth P 1]
+[charaDepth B 2]
+
+[charaTalk B]
+[charaFace B 24]
+[charaFadein B 0.1 1]
+[charaPut P 0,-200]
+
+＠达·芬奇
+[line 6]？[wt 0.6][charaFadeTime P 0.2 0.5][r]（怎么回事，以希翁而言，说法未免过于笼统了……）
+[k]
+
+[charaFadeout P 0.2]
+[charaFadeout B 0.2]
+[wt 0.2]
+[charaTalk depthOn]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+＠希翁
+重要的是，请继续为御主[%1]做检查吧。
+[k]
+
+＠希翁
+这次大脑好像比平时更为操劳，[r]麻烦为[&他:她]做个精密检查。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 24]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+啊，嗯。说得也是。
+[k]
+
+[charaFace B 0]
+
+＠达·芬奇
+好，那就先进行兼顾最终检查的[r]健康诊断，然后暂时解散吧。
+[k]
+
+＠达·芬奇
+回头可能还会再叫大家出来，[r]不过现在先各回各房间好好休息吧！
+[k]
+
+＠达·芬奇
+还有，玛修反而要在这里休息一下。[r]向你下达在我的监视下强制休息的指令。
+[k]
+
+＠达·芬奇
+毕竟你连觉都没睡，[r]一直片刻不离地陪着[&他:她]嘛。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+[wt 1.5]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_147 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaSet C 1098158210 1 希翁]
+
+[scene 132800]
+
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth C 2]
+[charaDepth E 3]
+[charaDepth R 4]
+[charaDepth F 5]
+
+[charaScale Q 1.2]
+[charaFadein Q 0.1 120,-300]
+[wt 2.5]
+
+[se ad8]
+[fadein black 1.5]
+[wait fade]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠希翁
+哎呀，我有种稀客来访的预感。
+[k]
+
+[charaFace C 7]
+
+＠希翁
+但在意归在意，我回去的路走这边。[r]晚安啦～。
+[k]
+
+[messageOff]
+[se ade422]
+[charaFadeout C 0.4]
+[wt 0.5]
+[seStop ade422 1.5]
+[wt 2.0]
+
+？1：……？
+？！
+
+＠？？？
+……话说，能打扰一下吗？
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaScale R 1.56]
+[charaScale F 1.3]
+
+[charaFadein R 1.0 155,-300]
+[wt 2.0]
+
+[se ad95]
+[seStop ad95 0.5]
+[charaFace F 0]
+[charaFadein F 0.4 0,240]
+[wt 1.0]
+
+
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaMove R 155,-460 2.0]
+[charaMove F 0,20 2.0]
+[wt 3.0]
+[bgm BGM_EVENT_116 0.1]
+
+[charaFadeout R 1.0]
+[charaFadeout F 1.0]
+[wt 1.5]
+
+[charaTalk on]
+[charaTalk E]
+
+？1：你好，艾尔隆小姐。
+？！
+
+＠艾尔隆
+嗯，你肯定认得我吧。
+[k]
+
+＠艾尔隆
+我是……[#塞蕾雪拉]·[#艾尔隆]。[r]隶属于迦勒底，职务是记录书记。
+[k]
+
+？1：（以前虽然有打过招呼，）
+？2：（但没怎么跟她聊过天。）
+？！
+
+[messageOff]
+[wt 0.5]
+
+？1：（但是，不知为何，现在莫名有点在意……）
+？！
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_EVENT_116 0.5 0.5]
+[wait fade]
+
+[charaFadeout Q 0.1]
+[charaFadeout E 0.1]
+
+[scene 189603]
+[pictureFrame cut063_cinema]
+[cameraFilter gray]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 0,-50]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_EVENT_116 0.5 1.0]
+[wait fade]
+[wt 0.5]
+
+
+＠拉妮－ⅩⅡ
+她是[line 3]Alterego Involved型御主，[r]也可以称之为牵连型吧。
+[k]
+
+＠拉妮－ⅩⅡ
+在最初的旋转时，[#她恰好在附近]。[r]从这层意义来说，是接近你们的存在。
+[k]
+
+＠拉妮－ⅩⅡ
+不过她是将人格原型复制为[#Alterego:他人格]的产物，
+[k]
+
+＠拉妮－ⅩⅡ
+与外部世界的她并无直接关联。
+[k]
+
+＠拉妮－ⅩⅡ
+真正受到事故般的直接干涉，被拽来这里的[r]你们的精神转移对本体也会造成影响，
+[k]
+
+＠拉妮－ⅩⅡ
+恐怕外部正处于昏迷状态吧，[r]而她则应该一无所知地照常生活着。
+[k]
+
+[charaFace H 1]
+
+＠拉妮－ⅩⅡ
+就算真的有什么影响，最多也就是[r]交感魔术那种无意识反馈的程度吧。
+[k]
+
+[charaFace H 0]
+
+＠拉妮－ⅩⅡ
+至于你们与她之间为何会存在差别……[r]答案一句话就能解释，因为很简单。
+[k]
+
+＠拉妮－ⅩⅡ
+打从一开始，她就处于[#容易变成这样的状态]。
+[k]
+
+＠拉妮－ⅩⅡ
+你们最终则是以事故的形式掉进来的。
+[k]
+
+＠拉妮－ⅩⅡ
+而差别就在于，[r]只有她成为了正式的御主ＡＩ。
+[k]
+
+[charaFace H 8]
+
+＠拉妮－ⅩⅡ
+据我推测，或许她原本就具有[r]某种精神层面的不稳定性。
+[k]
+
+＠拉妮－ⅩⅡ
+比方说人格比较容易脱落，或是会否定现在的自己，[r]寻求另一种自己或另一种可能性的，那种[line 3]
+[k]
+
+[messageOff]
+[fadeout white 0.5]
+[bgm BGM_EVENT_116 0.5 0.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+
+[scene 132800]
+[pictureFrame]
+[cameraFilter normal]
+
+[charaEffect T bit_sepia01_fade_fs]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[charaFadein Q 0.1 120,-300]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_EVENT_116 0.5 1.0]
+[wait fade]
+
+[wt 0.5]
+
+＠艾尔隆
+……话说。
+[k]
+
+？1：在！
+
+[charaFace E 6]
+[charaShake E 0.03 2 2 0.5]
+
+＠艾尔隆
+哇。
+[k]
+
+[charaFace E 7]
+
+＠艾尔隆
+别突然回答得那么大声啊。[r]吓了我一跳啦。
+[k]
+
+[charaFace E 3]
+
+＠艾尔隆
+话说，哦。
+[k]
+
+？2：打算，聊一会儿吗？
+
+[charaFace E 8]
+
+＠艾尔隆
+……别抢我想说的话啊。[r]难道你用了读心的魔术？
+[k]
+
+[charaFace E 3]
+
+＠艾尔隆
+好吧，无所谓啦。
+[k]
+
+？！
+
+[charaFace E 0]
+
+＠艾尔隆
+平时私人来往都交给穆尼尔他们，[r]我其实没怎么跟你说过话……
+[k]
+
+＠艾尔隆
+不过我现在，有些话想跟你说。[r]稍微陪我一会儿吧。
+[k]
+
+[messageOff]
+[cameraMove 0.4 0,10 1.0]
+[wt 0.4]
+[cameraMove 0.4 0,0 1.0]
+[wt 1.4]
+
+[se ad95]
+[wt 0.2]
+[se ade428]
+[charaFadeout E 0.4]
+[wt 0.5]
+[seStop ad95 1.5]
+[seStop ade428 1.5]
+[wt 1.5]
+
+[wipeout leftToRight 1.0 1.0]
+[bgm BGM_EVENT_116 1.0 0.5]
+[wait wipe]
+
+[charaFadeout Q 0.1]
+[wt 2.0]
+
+[wipein rightToLeft 1.0 1.0]
+[bgm BGM_EVENT_116 1.0 1.0]
+[wait wipe]
+[wt 0.5]
+
+？1：然后呢，想说什么？
+？！
+
+[charaTalk depthOn]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠艾尔隆
+唔，嗯。
+[k]
+
+＠艾尔隆
+其实有件事……我一直想跟你道歉。
+[k]
+
+＠艾尔隆
+不知为何，莫名觉得现在是个好机会。[r]所以希望你能听我说。
+[k]
+
+[charaFace E 4]
+[charaMoveReturn E 0,-5 1.0]
+
+＠艾尔隆
+吸……呼……
+[k]
+
+[charaFace E 0]
+
+＠艾尔隆
+嗯，那就听我说吧。[r]虽说可能会像是，在追忆往事。
+[k]
+
+[bgmStop BGM_EVENT_116 2.0]
+
+[messageOff]
+[cameraMove 6.0 0,-20 1.1]
+[wt 1.5]
+
+[fadeout black 1.5]
+[wait fade]
+
+[cameraHome 0.1]
+[charaFadeout E 0.1]
+
+[scene 190900]
+[charaPut T 1]
+[wt 1.0]
+
+[se ad951]
+[seVolume ad951 0 0]
+[seVolume ad951 1.5 0.7]
+[fadein black 1.5]
+[wait fade]
+
+
+＠
+2018年　12月　27日
+[k]
+
+＠
+直到昨晚还在刮着暴风雪的天空随着[r]拂晓的来临，化作了万里无云的晴天。
+[k]
+
+＠
+在一望无际的苍穹之下，[#黑色机体:直升机]飞行着。[r]搭乘着宣告终结的来访者。
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 1.0]
+[seStop ad951 1.0]
+[wait fade]
+
+[scene 105500]
+[pictureFrame cut063_cinema]
+
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth S 2]
+[charaDepth G 3]
+[charaDepth F 4]
+
+[charaScale F 1.0]
+[charaFilter F silhouette 00000080]
+[charaPut F 2000,2000]
+[charaFadeTime F 0.1 0.5]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 1.0]
+
+[charaEffectStop T bit_sepia01_fade_fs]
+[wt 1.0]
+
+[se ade422]
+[seVolume ade422 0 0]
+[seVolume ade422 1.0 1.0]
+[wt 0.2]
+[se ad95]
+[seVolume ad95 0 0]
+[seVolume ad95 1.0 1.0]
+[wt 2.3]
+[seStop ade422 0.5]
+[seStop ad95 0.5]
+[wt 1.0]
+
+[bgm BGM_EVENT_25 0.1]
+
+＠
+啊啊～，差不多快到了吧。
+[k]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+
+＠艾尔隆
+啊啊～什么啦。[r]你就那么喜欢这份工作吗？
+[k]
+
+
+[charaPut F 0,-50]
+
+＠
+怎么可能嘛。[r]虽说还要兼任其他工作，
+[k]
+
+＠
+但南极秘密基地的门岗这种职务，[r]在就任之前就知道肯定会无聊至极。
+[k]
+
+＠
+预期的访客都能有谁啊，企鹅吗？
+[k]
+
+＠
+不过嘛，一想到这份无聊至极的工作……[r]也到此结束了，还是会感慨万千的啦。
+[k]
+
+[charaPut F 2000,2000]
+
+＠艾尔隆
+是这样吗。
+[k]
+
+[charaPut F 0,-50]
+
+＠
+所以，在这种重要的最后时刻，[r]怎么是你来当门岗助手啦？
+[k]
+
+＠
+难道是塞蕾雪拉你觉得反正到最后了，[r]希望能尽可能和我多待一会儿的那种发展……
+[k]
+
+[charaPut F 2000,2000]
+[charaFace E 5]
+
+＠艾尔隆
+怎么可能嘛，纯粹是因为上面的指示啦。
+[k]
+
+＠艾尔隆
+说这是大门的进出记录难得具有意义的机会，[r]闲着没事干的记录书记也去当一下吧。
+[k]
+
+[charaFace E 4]
+
+＠艾尔隆
+还有，我不是说过很多遍了嘛，[r]不要用[#名字:First Name]称呼我啦。
+[k]
+
+[charaPut F 0,-50]
+
+＠
+毕竟我每次都想这么叫，也没办法啦。[r]到头来，我究竟叫了多少次啊？
+[k]
+
+＠
+……啊～，话说哦？　相应的，[r]我就不抱希望地把以往没能说的话全都说出来了哦。
+[k]
+
+＠
+毕竟我们身在同一个职场，也打了很久的交道，[r]而且这里解散后也总算要到外面去了……
+[k]
+
+＠
+那个，到了外面，愿不愿意和我……[r]一起吃顿饭之类的呢。
+[k]
+
+[charaPut F 2000,2000]
+[charaFace E 14]
+
+＠艾尔隆
+……[r]……
+[k]
+
+[charaPut F 0,-50]
+
+＠
+总之，我是认真的哦。
+[k]
+
+[charaPut F 2000,2000]
+[charaFace E 8]
+
+＠艾尔隆
+……３１２次。
+[k]
+
+[charaPut F 0,-50]
+
+＠
+哎？
+[k]
+
+[charaPut F 2000,2000]
+
+＠艾尔隆
+你擅自叫我名字的次数。[r]我都记得呢。
+[k]
+
+[charaPut F 0,-50]
+
+＠
+噢，噢噢，这样啊。不愧是记录书记，[r]你好像是有这种记忆类型的能力吧。
+[k]
+
+[charaPut F 2000,2000]
+[charaFace E 11]
+
+＠艾尔隆
+不，我不是这个意思。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaScale S 1.2]
+[charaScale F 1.2]
+[charaScale G 1.2]
+[charaFace G 11]
+[charaFadein S 1.0 0,-300]
+[charaFadein G 1.0 0,-50]
+[wt 1.5]
+[charaFadeout E 0.1]
+
+[charaTalk on]
+[charaTalk G]
+[charaFaceFade G 16 0.3]
+[wt 0.3]
+
+＠G：艾尔隆
+……我是说，一顿饭就够了吗？
+[k]
+
+＠G：艾尔隆
+那么死缠烂打地叫我的名字，[r]想跟我搞好关系，
+[k]
+
+＠G：艾尔隆
+结果就认真邀请我吃一次饭？
+[k]
+
+[charaPut F 0,-50]
+
+＠
+……。……！
+[k]
+
+＠
+怎，怎么会呢，别说傻话了～。[r]我肯定会邀请你好几次啊。
+[k]
+
+＠
+我会邀请你好几次，如果你同意赴约，[r]之后还会再一次又一次……！
+[k]
+
+＠
+……可以吗？[r]你这是同意了吧？
+[k]
+
+＠
+很好～，很好很好，很好～。[r]我成功啦。勇气可嘉……！
+[k]
+
+[charaPut F 2000,2000]
+[charaFace G 6]
+
+＠G：艾尔隆
+别摆出那种胜利的姿势啦，[r]要认真工作哦。
+[k]
+
+＠G：艾尔隆
+你看，大门那边有反应了。
+[k]
+
+[bgmStop BGM_EVENT_25 1.5]
+
+[messageOff]
+[charaScale F 1.0]
+[charaFadeout S 1.0]
+[charaFadeout G 1.0]
+[wt 2.0]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+
+＠艾尔隆
+看来是到了。[r]新任所长，戈尔德鲁夫·穆吉克，还有……
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut T 1]
+[charaEffect T bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad1]
+[wt 0.3]
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.4 0,-50]
+
+[wt 2.0]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+
+＠艾尔隆
+谁啊，这粉红头发的……秘书？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[se ad1]
+[charaPut T 1]
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.4 0,-50]
+[wt 1.0]
+
+＠
+那当然是秘书啦。
+[k]
+
+[messageOff]
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[se ad1]
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.4 0,-50]
+[wt 1.0]
+
+＠
+同行的还有联合国审查团的那群人。[r]应该不会是什么来历不明的可疑分子吧。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 6]
+[charaFadein I 0.1 0,-50]
+
+＠戈尔德鲁夫
+喂！　麦克风在哪里，这里吗？[r]我们到了！　还不赶紧开门！
+[k]
+
+[messageOff]
+[se ad562]
+[charaFadeout I 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+[charaEffectStop T bit_talk_10_LowLevel]
+
+[charaSet I 1098123200 1 戈尔德鲁夫]
+[charaSet J 1098123400 1 言峰绮礼]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+[wt 0.5]
+[charaPut F 0,-50]
+
+＠
+好好好，[r]我会大致过一下应答手续，
+[k]
+
+＠
+塞蕾雪拉，等那边的显示灯变绿了，[r]你就按下大门的开关按钮。
+[k]
+
+＠
+所以[line 3]你想吃什么？
+[k]
+
+[charaPut F 2000,2000]
+
+＠艾尔隆
+明白了。
+[k]
+
+[charaFace E 16]
+
+＠艾尔隆
+……其实什么都可以，但久违地品尝一下[r]故乡的葡萄牙菜或许也不错吧[line 3]
+[k]
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_77 1.5]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+
+[scene 135100]
+
+[charaTalk off]
+[charaDepth I 1]
+[charaDepth L 2]
+[charaDepth M 3]
+[charaDepth N 3]
+[charaDepth O 2]
+
+[charaFace I 1]
+[charaFace L 0]
+[charaFace M 0]
+[charaFace N 0]
+[charaFace O 0]
+[charaScale L 1.1]
+[charaScale M 1.1]
+[charaScale N 1.1]
+[charaScale O 1.1]
+[charaFadein I 0.1 0,-50]
+[charaFadein L 0.1 -300,-50]
+[charaFadein M 0.1 -200,-50]
+[charaFadein N 0.1 200,-50]
+[charaFadein O 0.1 300,-50]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_MAP_63 0.1]
+
+[wt 1.5]
+
+[fadeout black 1.0]
+[bgm BGM_MAP_63 1.0 0.5]
+[wait fade]
+
+[charaFadeout I 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaFadeout O 0.1]
+
+[scene 191000]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk J]
+[charaFace J 7]
+[charaFadein J 0.1 0,-50]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_MAP_63 1.0 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[fadeout black 1.0]
+[bgm BGM_MAP_63 1.0 0.5]
+[wait fade]
+
+[charaFadeout J 0.1]
+
+[scene 51800]
+[cameraMove 0.1 0,-50 1.0]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_MAP_63 0.5 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[charaPut T 1]
+[charaEffect T bit_sepia01_fade_fs]
+[wt 4.5]
+
+[fadeout black 1.5]
+[bgmStop BGM_MAP_63 1.5]
+[wait fade]
+
+[charaPut T 2000,2000]
+[charaEffectStop T bit_sepia01_fade_fs]
+
+[scene 132800]
+[pictureFrame]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[cameraMove 0.1 0,-10 1.03]
+[wt 1.5]
+
+[cameraHome 1.5]
+[fadein black 1.5]
+[wait fade]
+[wt 0.5]
+
+[bgm BGM_EVENT_95 0.1]
+
+？1：…………
+？！
+
+
+[charaFace E 3]
+
+＠艾尔隆
+也就是说，当时，[r][#打开那扇门的]，[#是我]。
+[k]
+
+＠艾尔隆
+现在回想起来……那其实，[r]是阻止惨剧发生的最后机会。
+[k]
+
+＠艾尔隆
+我总是会在睡梦中梦见，[r]如果当时我察觉到什么，又会如何。
+[k]
+
+？1：应该，很难做到吧……
+？2：大家当时，都已经为迎接访客而行动起来了。
+？！
+
+[charaFace E 12]
+
+＠艾尔隆
+我知道。
+[k]
+
+＠艾尔隆
+大家一起制作文件，准备接受调查。[r]穆吉克现所长也是经过了合法的手续，
+[k]
+
+＠艾尔隆
+何况他本人也是被骗了。[r]对我们来说，对那次命运来说，并没有选项。
+[k]
+
+[charaFace E 22]
+
+＠艾尔隆
+尽管如此[line 3]尽管如此啊！
+[k]
+
+＠艾尔隆
+我还是会忍不住去想，[r]如果我当初没有按下那个按钮会怎样。
+[k]
+
+＠艾尔隆
+在最后，真的在最后，[r]那『会发生』或『不会发生』的分歧点，
+[k]
+
+＠艾尔隆
+依然是我的手指啊。[r]这种念头始终挥之不去。
+[k]
+
+[charaFace E 3]
+
+＠艾尔隆
+比方说觉察到高扬斯卡娅的可疑之处，[r]谎称大门出了故障蒙混过去，
+[k]
+
+＠艾尔隆
+然后事先找人来商量，说不定只要那样做，[r]事情便会有什么转机。
+[k]
+
+＠艾尔隆
+那样的话，如果能成功做好某些事，
+[k]
+
+[charaFace E 22]
+
+＠艾尔隆
+[#与没能搭上潜航艇的那家伙一起吃饭的约定]，[r][#说不定就能兑现了]！
+[k]
+
+＠艾尔隆
+各种各样的可能性一直停留在我的脑海中，[r]难以忘怀。
+[k]
+
+[charaFace E 3]
+
+＠艾尔隆
+没错……我是记录书记。兴趣是写日记，[r]也拥有记忆的能力。我出身于这样的魔术家族。
+[k]
+
+＠艾尔隆
+所以，[#这种罪恶感]，才无法抹除。
+[k]
+
+＠艾尔隆
+当时如果能处理得更谨慎一些的罪恶感，[r]始终在我的心中。
+[k]
+
+＠艾尔隆
+我在心理咨询时说过这件事。[r]大家说不定也都隐约觉察到了。
+[k]
+
+[charaFace E 0]
+
+＠艾尔隆
+不，说不定连你也察觉到了。
+[k]
+
+＠艾尔隆
+可现在，不知为何……我想直接说出来，[r]想直接向你道歉。
+[k]
+
+＠艾尔隆
+所以请让我说吧。
+[k]
+
+＠艾尔隆
+我知道这很自私，但无论如何，[r]我都想说出来。
+[k]
+
+[messageOff]
+[wt 1.0]
+[charaFace E 3]
+
+＠艾尔隆
+[line 3]对不起。
+[k]
+
+[bgmStop BGM_EVENT_95 1.5]
+
+[messageOff]
+[wt 2.0]
+
+？1：……你不用道歉。
+？！
+
+？1：而且这里的所有人，肯定[line 3]
+？！
+
+？1：都怀着那种罪恶感吧。
+？！
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth Q 2]
+[charaDepth G 3]
+[charaFace E 14]
+[wt 1.0]
+
+[charaScale Q 1.2]
+[charaScale G 1.2]
+[charaFace G 14]
+[charaFadein Q 1.0 0,-300]
+[charaFadein G 1.0 1]
+[wt 1.5]
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_98 0.1]
+
+[charaTalk on]
+[charaTalk G]
+
+＠
+没错。每个人心里都有那种罪恶感。
+[k]
+
+＠
+该怎么做才能挥去这种罪恶感，[r]才能忘记这种罪恶感呢？
+[k]
+
+＠
+真的，可以忘掉它吗？
+[k]
+
+＠
+真的，能够赎罪吗？
+[k]
+
+＠
+现在，应该还没有人知道这个问题的答案。
+[k]
+
+[messageOff]
+[wt 0.5]
+
+？1：让我们一起去寻找吧。
+？2：所以今后也要请你多指教啦。
+？！
+
+[charaFace G 0]
+[wt 0.5]
+[charaMoveReturn G 0,-5 0.5]
+
+＠G：艾尔隆
+……嗯，请多指教。
+[k]
+
+[bgm BGM_EVENT_98 2.0 0.5]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout G 0.1]
+[pictureFrameTop cut063_cinema]
+
+[subCameraOn 2]
+[charaLayer E sub #A]
+[subCameraFilter #A through]
+
+[charaScale Q 1.1]
+[charaScale E 1.1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 6,-50]
+[charaMove Q 60,-250 0.1]
+[wt 1.0]
+
+[se ade428]
+[charaMove Q 0,-250 4.0]
+[fadein black 1.0]
+[wait fade]
+
+[seStop ade428 2.0]
+[wt 2.6]
+
+[bgm BGM_EVENT_98 1.0 1.0]
+
+[blur lens 0.4 2 20]
+[charaMove E 0,-50 0.4]
+[subRenderFadein #A 0.4 0,0]
+[wt 1.0]
+
+＠艾尔隆
+（说得对，就像在梦里见过的某个人，）
+[k]
+
+＠艾尔隆
+（一直被罪恶感压垮也不是办法。）
+[k]
+
+
+＠艾尔隆
+（就把难以忘怀的罪恶感当作燃料……[r]　照自己期望的形式，去做力所能及之事吧。）
+[k]
+
+[charaFace E 16]
+
+＠艾尔隆
+（去做那些，自己坚信能够成为赎罪的事吧[line 3]）
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_98 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

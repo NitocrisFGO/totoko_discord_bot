@@ -1,0 +1,304 @@
+
+
+＄04-00-02-07-5-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098268900 1 樱]
+[charaSet B 1098269000 1 ＤＸ]
+[charaSet C 1098270300 1 阿愈丝]
+[charaSet D 6037001 1 迦摩]
+[charaSet E 7046001 1 难敌]
+[charaSet F 1098267100 1 美杜莎]
+
+[charaSet G 98015000 1 通用从者1]
+[charaSet H 98015000 1 通用从者2]
+[charaSet I 98015000 1 通用从者3]
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[scene 10000]
+
+[bgm BGM_EVENT_80 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad85]
+[charaRoll S -20]
+[charaPut S 100,50]
+[charaEffect S bit_talk_strike_02 0,0 H]
+[wt 0.65]
+
+[cueSe Servants_2800500 bac1275]
+[charaPut T 1]
+[charaEffect T bit_talk_x_slash02]
+[wt 0.6]
+
+[cueSe Battle bac139]
+[cueSe Servants_105700 m54129]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaPut S 2000,2500]
+[charaPut T 2000,2500]
+
+[bgmStop BGM_EVENT_80 1.0]
+
+[scene 190300]
+
+[charaTalk off]
+[charaDepth G 6]
+[charaDepth H 5]
+[charaDepth I 4]
+
+[charaFadein G 0 1]
+[charaFadeinFSR H 0 300,0]
+[charaFadeinFSL I 0 -300,0]
+[charaShake G 0.01 2 3 0.5]
+[charaShake H 0.02 2 3 0.5]
+[charaShake I 0.02 3 2 0.5]
+[wt 1.0]
+
+
+[se ad42]
+[charaSpecialEffect G enemyErasure 0,0 1.0]
+[charaSpecialEffect H enemyErasure 0,0 1.0]
+[charaSpecialEffect I enemyErasure 0,0 1.0]
+[wait charaSpecialEffect G]
+[seStop ad42 0.8]
+[wt 1.25]
+
+
+[bgm BGM_EVENT_77 0.1 0.5]
+
+[charaTalk on]
+[charaTalk depthOff]
+[charaDepth R 5]
+[charaDepth A 6]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠樱
+（呼，成功解决了……）
+[k]
+
+[charaFace A 5]
+＠樱
+（看来，果然不需要过度担心呢。）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout R 0.2]
+[wt 0.1]
+
+[bgm BGM_EVENT_77 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ＤＸ
+感谢各位的协助。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠樱
+没事没事，驱除害虫相当于我的常规工作，
+[k]
+
+＠樱
+总不能全部交给别人来干嘛。
+[k]
+
+[charaFace A 8]
+＠樱
+有能力时，帮忙是应该的。
+[k]
+
+[charaFace A 16]
+＠樱
+虽然平常出现大家伙的时候，[r]反倒是我们经常联络[#警防部:Defend]的大家请求帮忙……
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[charaFace A 12]
+＠樱
+总之，这次是因为我们正好就在附近。
+[k]
+
+[charaFace A 17]
+＠樱
+你们也来帮忙了呀。
+[k]
+
+[charaFace A 10]
+＠樱
+……对不起，[#Caster:魔术师]的怪物消失后，[r]我们甚至没有好好答谢就匆忙离去了。
+[k]
+
+＠樱
+毕竟我实在很担心[#生产部:这里]的情况。
+[k]
+
+？1：完全没关系哦。
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠阿愈丝
+这里只是[#生产部:Grow]的边缘地带吧？
+[k]
+
+＠阿愈丝
+竟然连这种地方都亲自管理，[r]会不会太辛苦了？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 18]
+[charaFadein A 0.1 1]
+＠樱
+啊，这次与其说是在管理……[r]倒不如说只是凑巧……
+[k]
+
+[charaFace A 0]
+＠樱
+其实，这附近有个我很喜欢的休息地点。
+[k]
+
+＠樱
+如果各位愿意的话，[r]要不要一起来休息一会儿？
+[k]
+
+[charaFace A 7]
+＠樱
+在那边不仅能静心补给，[r]还有『便当』哦。
+[k]
+
+[charaCrossFade A 1098268930 8 0.3]
+＠樱
+别担心，我做了一大堆！[wait charaCrossFade A]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠迦摩
+怎么办？[r]我其实无所谓啦。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠难敌
+那个型号Ｄ为表感谢给出的拉妮物质也好，[r]维持所需的[#素材:食物]也罢，
+[k]
+
+[charaFace E 3]
+＠难敌
+总之本老爷想在工作后立刻拿到报酬。[r]不然会忘掉的！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ＤＸ
+我们还有任务在身，[r]恕我们先行告辞了。
+[k]
+
+＠ＤＸ
+只不过，我判断剩下的全都是小规模。[r]各位就去休息吧。
+[k]
+
+＠ＤＸ
+充当协助费的拉妮物质也趁现在给你们。[r]感谢你们这段时间的协助。
+[k]
+
+？1：那我们就恭敬不如从命了。
+？！
+
+[charaSet A 1098268900 1 樱]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠樱
+呃～，对不起啦，[#Saber:剑士]。
+[k]
+
+＠樱
+一想到必须向那些人道谢，[r]我不知不觉就……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 13]
+[charaFadein F 0.1 1]
+＠美杜莎
+为什么要道歉？
+[k]
+
+[charaFace F 0]
+＠美杜莎
+虽然我不主张跟他们混得太熟，[r]但既然你都决定了，那也没办法。
+[k]
+
+[charaFace F 13]
+＠美杜莎
+反正，[r]我只是你的从者而已[line 3]
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 19]
+[charaFadein A 0.1 1]
+[wt 1.5]
+
+
+
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_77 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

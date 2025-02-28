@@ -1,0 +1,800 @@
+
+
+
+＄04-00-02-06-1-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098270300 1 阿愈丝]
+[charaSet B 1098269000 1 ＤＸ]
+[charaSet C 1098268900 1 樱]
+[charaSet D 1098270200 1 迦摩]
+[charaSet E 3054001 1 怖军]
+[charaSet F 1098267110 1 美杜莎]
+[charaSet G 7046001 1 难敌]
+[charaSet H 1098270000 1 希翁]
+[charaSet I 1098269600 1 魔术师]
+[charaSet K 1098270900 1 拉妮－Ｒ]
+[charaSet L 1098270430 1 拉妮－Ｇ1]
+[charaSet M 1098270430 1 拉妮－Ｇ2]
+
+[imageSet O cut466_duy01 1]
+[imageSet P cut466_bma01 1]
+
+
+[sceneSet R 190300 1]
+[charaScale R 1.2]
+[sceneSet S 190300 1]
+[charaScale S 1.2]
+
+
+[charaSet T 98115000 1 特效用dummy]
+
+[imageSet V back10000 1 1]
+[charaScale V 1.3]
+[imageSet W back10001 1 1]
+[charaScale W 1.3]
+
+
+[scene 190300]
+
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.4 1]
+[wt 0.4]
+
+[bgm BGM_EVENT_122 0.1]
+
+＠阿愈丝
+这，这是怎么回事！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ＤＸ
+正如我所说的。[r]中立规定没有得到遵守。
+[k]
+
+＠ＤＸ
+据推测，[#Caster:魔术师]的御主，[#构筑部:Build]首席ＡＩ的程序[r]恐怕是发生了某种故障。
+[k]
+
+＠ＤＸ
+目前在坐标１７－５０附近，[#Caster:魔术师]的超巨大蠢魔[r]正在不断捕食与自己距离相近的ＡＩ。
+[k]
+
+＠ＤＸ
+根本不区分是从[#生产部:Grow]逃出来的型号Ｇ、[r]负责应对的[#警防部ＡＩ:型号Ｄ]，还是偶然在场的其他型号ＡＩ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+＠樱
+呜……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ＤＸ
+这是明确的异常事态。
+[k]
+
+＠ＤＸ
+因此本机根据综合统管ＡＩ的指示，[r]来到了存在多名从者的当前坐标。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠迦摩
+拉妮－ⅩⅡ的指示……暂且不管。[r]这与从者的数量有什么关系吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ＤＸ
+综合统管ＡＩ以监督官权限提议[line 3][r][#暂时停止ＡＩ圣杯战争]，
+[k]
+
+＠ＤＸ
+并且共同消灭疑似处于失控状态的[#Caster:魔术师]。
+[k]
+
+＠ＤＸ
+通告在场的从者们。[r]烦请各位与御主一同到教会集合。
+[k]
+
+＠ＤＸ
+[#Saber:剑士]、[#Berserker:狂战士]、[#Assassin:暗匿者]……
+[k]
+
+[bgmStop BGM_EVENT_122 1.5]
+＠ＤＸ
+[#还有]，[#枪兵]。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠Lancer
+行。
+[k]
+
+
+[branchQuestClear lblClear01 94080008]
+
+
+？1：…………！
+
+？！
+
+[branch lblConf01]
+
+[label lblClear01]
+
+？1：…………！
+？2：（好像，在哪里见过他……）
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[wait fade]
+
+[charaFadeout E 0.1]
+[wt 0.3]
+
+[charaSet E 1098255400 1 怖军]
+[wt 0.2]
+
+[scene 178701]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+
+[pictureFrame cut063_cinema]
+
+[cameraFilter gray]
+[wt 0.2]
+
+[fadein white 0.6]
+[wait fade]
+[wt 1.6]
+
+
+[fadeout white 0.6]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[pictureFrame]
+
+[cameraFilter normal]
+[wt 0.3]
+
+
+[charaSet E 3054001 1 怖军]
+[wt 0.2]
+
+[scene 190300]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.2]
+
+[fadein white 0.6]
+[wait fade]
+[wt 0.8]
+
+？！
+
+[branch lblConf01]
+
+[label lblConf01]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_49 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠美杜莎
+[#Lancer:枪兵]，你什么时候来的……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠Lancer
+这里也是我们阵地的边缘。
+[k]
+
+＠Lancer
+完成了采购的我正要回去，但突然感到背后十分吵闹。
+[k]
+
+＠Lancer
+原本还打算思考该如何活用到手的素材呢，[r]不过觉得还是得先确认一下。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 25]
+[charaFadein D 0.1 1]
+＠迦摩
+感觉又有印度神性的臭味。
+[k]
+
+＠迦摩
+这是……风神伐由……？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠Lancer
+没错，我是伐由之子。
+[k]
+
+＠Lancer
+顺带一提，我大哥是正法神之子，[r]弟弟们分别是因陀罗之子与双马童神之子哦。
+[k]
+
+[bgmStop BGM_MAP_49 1.5]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠难敌
+果然是你，[#怖军]……！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 15]
+[charaFadein E 0.1 1]
+＠怖军
+……哟，难敌。[r]真巧啊。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.15]
+
+[charaTalk off]
+
+[bgm BGM_EVENT_5 0.1]
+[charaFace O 0]
+[charaFace P 0]
+[charaFadein O 0.4 500,-200]
+[charaFadein P 0.4 -500,-200]
+[charaMove O 375,-200 0.4]
+[charaMove P -375,-200 0.4]
+
+[wt 2.5]
+
+[charaFadeout O 0.4]
+[charaFadeout P 0.4]
+[wt 0.5]
+
+
+[charaTalk on]
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+＠希翁
+风神伐由之子，怖军。[r]你知道吗，[%1][&先生:小姐]。
+[k]
+
+？1：是阿周那的哥哥……对吧。
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠怖军
+唔？　那边的御主认识阿周那吗？
+[k]
+
+＠怖军
+世上没人比那家伙更优秀了吧。[r]他是我引以为傲的弟弟。
+[k]
+
+＠怖军
+虽然我一点都不觉得他会给你们添麻烦，[r]但他这人过于认真，说不定有时会让人困扰吧。
+[k]
+
+[charaFace E 1]
+＠怖军
+不过这才像那家伙嘛，不必在意啦。[r]哈哈哈哈！
+[k]
+
+[charaFace E 0]
+＠怖军
+啊，我刚才这些话默认他是你们的伙伴了，应该没错吧？[r]毕竟要是那家伙的敌人的话，是不可能还活到现在的嘛。
+[k]
+
+？2：是般度五子之一，对吧。
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠怖军
+嚯？　不愧是带着印度神灵的御主，[r]这点事还是知道的吧。
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_5 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth H 6]
+[charaDepth V 5]
+
+[charaPut V 1]
+[charaFadeTime V 0.2 0.5]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+＠希翁
+（般度五子之一，阿周那的兄长。[r]　不仅如此。力大无比的怖军……）
+[k]
+
+＠希翁
+（根据传承，跟他恩怨最深的人是[line 3]）
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[charaFadeout V 0.2]
+[wt 0.1]
+
+[bgm BGM_EVENT_5 0.5 1.0]
+
+
+[charaTalk depthOff]
+[charaDepth G 3]
+[charaDepth E 2]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFace G 6]
+[charaFadeinFSL E 0.1 0]
+[charaFadeinFSR G 0.1 2]
+＠怖军
+别这么瞪我嘛，难敌。
+[k]
+
+[charaFace E 0]
+＠怖军
+现在可不是这种时候，对吧？
+[k]
+
+[charaFace G 5]
+＠难敌
+你，你，你说什么！？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠阿愈丝
+说得没错。我不知道你跟那个[#Lancer:枪兵][r]有着什么样的恩怨，
+[k]
+
+＠阿愈丝
+但现在更重要的是[#Caster:魔术师]的超巨大生物[r]和ＡＩ们的问题。
+[k]
+
+＠阿愈丝
+[#综合统管:拉妮－ⅩⅡ]是要我们去一趟教会吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ＤＸ
+肯定。就连不在场的[#Rider:骑兵]，[r]也已经通过其他途径发出了集合指示。
+[k]
+
+＠ＤＸ
+这是监督官的正式请求。[r]说是烦请各位尽可能遵从。
+[k]
+
+
+[messageOff]
+[bgm BGM_EVENT_5 0.5 0.3]
+[se ad437]
+[fadeout white 0.1]
+[wait fade]
+[charaFadeout B 0]
+
+[scene 189401]
+
+[wipeFilter cinema 0.5 0]
+
+[cameraFilter gray]
+
+[charaTalk off]
+[charaDepth W 9]
+[charaFace K 14]
+[charaFadein K 0 20,-50]
+
+[fadein white 0.1]
+[wait fade]
+[wt 0.7]
+
+[se ad59]
+[charaMove K 120,-50 0.4]
+[charaFadeout K 0.4]
+[seStop ad59 1.0]
+[wt 1.0]
+
+[charaFace I 0]
+[charaFadein I 0.1 0,-50]
+[wt 0.6]
+
+[charaFadeout I 0.1]
+[wt 0.2]
+
+[cueSe Battle bac134]
+[cueSe Servants_2500900 m45605]
+[effect bit_talk_x_slash_bk_01]
+[wt 0.65]
+
+[se ad464]
+[effect bit_talk_blood_splash_fs]
+[wt 1.8]
+
+[se ad437]
+[charaFadein W 0.1 0,-200]
+[wt 0.1]
+
+[cameraMove 0.1 0,0 1.01]
+[scene 190300]
+[wt 0.1]
+
+[charaFadeout W 0.1]
+[wt 0.3]
+
+[se ad769]
+[charaFace L 0]
+[charaFace M 0]
+[charaFadein L 0.4 -500,-50]
+[charaMove L 450,-50 2.0]
+[wt 0.5]
+[charaFadein M 0.4 -700,-50]
+[charaMove M 250,-50 2.0]
+[wt 0.5]
+
+[se ad85]
+[wt 0.2]
+[se ad628]
+[seStop ad769 0.2]
+[effect bit_talk_gram_slash_violet_01]
+[wt 0.3]
+[charaSpecialEffect L erasure 1 0.3]
+[charaSpecialEffect M erasure 1 0.3]
+[wait charaSpecialEffect L]
+
+[shake 0.05 5 4 3.5]
+[effect bit_talk_impactlanding]
+[se ad161]
+[effect bit_talk_35]
+[wt 0.5]
+[cueSe SE_23 23_ad1299]
+[wt 3.0]
+
+
+[cueSeStop 23_ad1293 0.3]
+[se ad437]
+[bgm BGM_EVENT_5 0.5 1.0]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+
+[scene 190300]
+
+[wipeOff]
+
+[cameraFilter normal]
+[cameraHome 0]
+
+[bgmStop BGM_EVENT_5 2.0]
+[charaTalk on]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0 1]
+[wt 2.0]
+
+？1：无论如何，都必须想办法处理[#Caster:魔术师]才行。
+？2：[line 3]走吧！
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_23 0.1]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠迦摩
+嗯，对付那个大家伙的人越多越好嘛。
+[k]
+
+＠迦摩
+我也希望分摊到个人身上的工作能尽可能轻松些。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 6]
+[charaFadein G 0.1 1]
+＠难敌
+哼。要去教会没问题，[r]但本老爷绝对不会跟那家伙一块去哦。
+[k]
+
+＠难敌
+谁知道他会何时从背后偷袭。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+＠怖军
+谁会做那种卑鄙行径啊。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠难敌
+呜，你这家伙，该死，哪有脸……！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_23 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth V 4]
+[charaDepth A 5]
+
+[charaPut V 1]
+[charaFadeTime V 0.2 0.5]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠阿愈丝
+（呜哇，脸涨得通红。[r]　看来是真的打从心底里讨厌对方呢。）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout V 0.2]
+[wt 0.1]
+
+[bgm BGM_MAP_23 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 13]
+[charaFadein F 0.1 1]
+＠美杜莎
+我也同意不愿拉近关系的意见。[r]只要最后能到教会就行了吧。
+[k]
+
+[charaFace F 0]
+＠美杜莎
+我们也会单独行动。[r]……樱。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+＠樱
+唔，嗯。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠ＤＸ
+希望你们尽可能以最快的速度集合。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth F 4]
+[charaDepth C 5]
+[charaDepth T 9]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFace C 15]
+[charaFadein F 0.1 170,0]
+[charaFadein C 0.1 -170,0]
+＠美杜莎
+这话对那些家伙说去吧。[r]最快的多半会是我们。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMove F 120,0 0.35]
+[wt 0.2]
+[se ad775]
+[seVolume ad775 0 0.5]
+[wt 0.1]
+[charaShake C 0.01 1 1 0.4]
+[wt 0.8]
+
+[charaMove F 120,-7 0.3]
+[charaMove C -170,-7 0.3]
+[wt 0.4]
+
+[se ad73]
+[charaSpecialEffect F erasureReverse 0,0 0.4]
+[charaSpecialEffect C erasureReverse 0,0 0.4]
+[charaPut T 1]
+[charaEffect T bit_talk_quickmove]
+[wt 0.1]
+[charaMove F 120,10 0.35]
+[charaMove C -170,10 0.35]
+[wt 1.2]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+＠阿愈丝
+哇，公主抱着御主跳走了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠怖军
+我得先回去一趟带上御主才行。
+[k]
+
+[charaFace E 5]
+＠怖军
+不过我可是风神之子。[r]别看我长得魁梧，速度可不慢哦？
+[k]
+
+[messageOff]
+[se ad60]
+[charaFadeout E 0.4]
+[seStop ad60 1.2]
+[wt 1.6]
+
+[charaTalk G]
+[charaFace G 10]
+[charaFadein G 0.1 1]
+＠难敌
+……[r]……
+[k]
+
+＠难敌
+走吧。
+[k]
+
+[messageOff]
+[se ad60]
+[charaFadeout G 0.4]
+[seStop ad60 1.2]
+[wt 1.6]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠阿愈丝
+啊，等等我啦～。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+＠希翁
+虽说事态朝着预料之外的方向发展，[r]但至少这下就确认所有从者了。
+[k]
+
+[charaFace H 8]
+＠希翁
+边确认情报，边前往教会吧[line 3]
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStopEnd BGM_MAP_23 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

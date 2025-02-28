@@ -1,0 +1,830 @@
+
+
+
+＄03-00-13-18-5-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098239310 1 卡多克]
+[charaSet B 1098257300 1 达·芬奇]
+[charaSet C 28005000 1 特拉洛克]
+[charaSet D 28005002 1 特拉洛克_第三]
+[charaSet E 1098255300 1 尼托克丽丝]
+[charaSet F 1098253020 1 卡玛佐茨_魔兽型]
+[charaSet G 1098253000 1 卡玛佐茨]
+[charaSet H 1098254830 1 尼莫水兵]
+[charaSet I 4037002 1 尼莫]
+
+[sceneSet L 10000 1]
+[charaScale L 1.01]
+[sceneSet M 173501 1]
+[charaScale M 1.01]
+[sceneSet N 173501 1]
+[charaScale N 1.2]
+[sceneSet O 173500 1]
+[charaScale O 1.2]
+[sceneSet P 170300 1]
+[charaScale P 1.2]
+
+[imageSet Q cut413_missile 1]
+[charaScale Q 1.2]
+
+[charaSet R 5009000 1 特效用1]
+[charaSet S 5009000 1 特效用2]
+[charaSet T 98115000 1 特效用3]
+[charaPut T 1]
+[charaEffect T bit_talk_rain01]
+
+[imageSet U back10000 1]
+[charaScale U 1.05]
+[charaFilter U silhouette C2001980]
+
+[scene 173501]
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth L 2]
+[charaDepth A 3]
+[charaDepth N 4]
+[charaDepth C 6]
+[charaDepth Q 7]
+[charaDepth R 8]
+[charaDepth S 9]
+[charaDepth T 9]
+[charaFadein M 0.1 0,-200]
+[wt 0.1]
+
+[se ade307]
+[seVolume ade307 0 0]
+[seVolume ade307 1.0 0.4]
+[fadein black 1.0]
+[bgm BGM_BATTLE_68 0.1]
+[wait fade]
+
+[wt 1.0]
+[seStop ade307 1.0]
+
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠特拉洛克
+[line 3]唉～，无语了。[r]你们究竟是怎么，回事。
+[k]
+
+＠特拉洛克
+和此前一成不变。
+[k]
+
+＠特拉洛克
+看你们如此大言不惭，还期待会蹦出什么[r]令人瞠目结舌的新武器，对吧。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_BATTLE_68 1.5]
+[se ade255]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.2 150,0]
+[charaPut L 0,-200]
+[charaFadeTime L 0.2 0.5]
+
+＠卡多克
+（是啊，当然要回应你的期待啦。[r]　岂止是瞠目结舌，而是贯穿心脏的冲击！）
+[k]
+
+[bgm BGM_BATTLE_48 0.1]
+[charaFadeout L 0.2]
+[charaMove A 145,5 0.3]
+[charaMove M 0,-235 0.3]
+[charaMoveScale A 1.1 0.3]
+[charaMoveScale M 1.1 0.3]
+[wt 0.3]
+[charaFace A 7]
+
+＠卡多克
+就是现在，她进入范围了，司令官！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaScale A 1.0]
+
+＠戈尔德鲁夫
+唔嗯！　这边已经装填完毕！[r]上吧，穆尼尔！　犹如[#沸腾:Boil]！
+[k]
+
+＠穆尼尔
+[#煮:Boil]有什么用，这里应该用烤吧，司令官！
+[k]
+
+[messageOff]
+[charaDepth L 5]
+
+[cueSe SE_23 23_ad1230]
+[charaTalk C]
+[charaFace C 13]
+[charaFadein N 0.4 -70,-300]
+[charaFadeinFSL C 0.4 -206,0]
+[charaMove N -120,-300 0.5]
+[charaMoveFSL C 0 0.5]
+[wt 0.7]
+[charaFadeout M 0]
+[wt 0.3]
+[cueSe SE_23 23_ad1231]
+[wt 0.5]
+[cueSe SE_23 23_ad1232]
+[charaFadeinFSSideR Q 0.3 300,-150]
+[charaMoveFSSideR Q 300,-250 0.3]
+[wt 0.7]
+
+[charaFace C 9]
+
+＠特拉洛克
+！？[wt 0.6][charaFadeTime L 0.2 0.5][r]（那里，打开了！）
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1233]
+[fadeout white 0.1]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout L 0]
+[charaFadeout Q 0]
+[charaFadeout C 0]
+[cameraMove 0.1 0,0 1.01]
+[wt 0.1]
+
+[se ad609]
+[seVolume ad609 0 0.5]
+[charaPut R 50,50]
+[charaEffect R bit_talk_explosion]
+[fadein white 0.1]
+[wait fade]
+
+[shake 0.05 6 6 2.0]
+[cueSe Battle bac325 0 0.5]
+[wt 0.1]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[charaPut S -50,-50]
+[charaEffect S bit_talk_explosion_triple02]
+[wt 0.5]
+[se ad828]
+[seVolume ad828 0 0.9]
+[wt 1.5]
+[se ad608]
+[seStop ad828 2.0]
+[shake 0.03 3 3 1.0]
+[wt 1.0]
+[charaEffectDestroy R bit_talk_explosion]
+[charaEffectDestroy S bit_talk_explosion_triple02]
+
+[bgm BGM_BATTLE_48 1.0 0.7]
+[se ade307]
+[seVolume ade307 0 0]
+[seVolume ade307 1.0 0.6]
+[charaFadeout N 1.5]
+[shake 0.01 2 2 1.5]
+[wt 2.5]
+
+[charaEffectStop T bit_talk_rain01]
+[seStop ade307 2.0]
+[scene 173500 1.5]
+[wt 2.5]
+
+[sceneSet M 173500 1]
+[charaScale M 1.3]
+[sceneSet N 173500 1]
+[charaScale N 1.2]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠卡多克
+直接命中！[r]轰飞到树海里了！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 2]
+[charaFadein I 0.1 1]
+
+＠尼莫
+管制室，快确认敌方从者[#状态:伤害]！[r]灵核还在？　灵基损伤了几成？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 17]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+这可是在虚数空间也能使用的灵子鱼雷，[r]而且还是用对神灵规格的特制品直接命中。
+[k]
+
+[bgmStop BGM_BATTLE_48 1.5]
+
+＠达·芬奇
+就算灵核还在，也肯定无法继续战斗了。[r]顺利的话，可以抓来当俘虏[line 3]
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad13]
+[wt 0.5]
+
+＠尼莫水兵
+船长和达·芬奇都是笨蛋[line 3]！[r]目标健在！　重复一遍，完全健在！
+[k]
+
+＠尼莫水兵
+她都站起身冲过来了！[r]灵基反应也好像不太对劲啦～～（悲）！
+[k]
+
+＠尼莫水兵
+这是什么，好几个灵基叠在一起啦～～！？
+[k]
+
+[bgm BGM_BATTLE_107 0.1]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth C 2]
+[charaDepth D 3]
+[charaDepth R 4]
+
+[charaScale C 1.2]
+[charaScale D 1.2]
+
+[messageOff]
+[se ad60]
+[seVolume ad60 0 0]
+[seVolume ad60 1.5 1.0]
+[se ade446]
+[seVolume ade446 0 0]
+[seVolume ade446 1.5 0.4]
+
+[charaFadein O 1.5 60,-300]
+[charaMove O 120,-300 1.5]
+[wt 2.0]
+
+[charaPutFSL R -256,-30]
+[charaPutFSL D 0]
+[charaEffect R bit_talk_lightning_01t_fs]
+[charaPut T 2000,2000]
+[charaEffect T bit_talk_rain01]
+
+[seStop ad60 0.5]
+[charaFace C 12]
+[charaFace D 12]
+[charaFadeinFSL C 0.4 0]
+[charaFadeTime D 0.8 0.5]
+[wt 0.8]
+[charaFadeTime D 0.5 0]
+[wt 1.0]
+[charaFadeTime D 0.8 0.5]
+[wt 0.8]
+[charaFadeout D 0.5]
+[wt 0.5]
+[charaTalk on]
+[charaTalk C]
+
+＠？？？
+……呼……呼………[r]……刚才那发……确实奏效了。
+[k]
+
+＠？？？
+……但是，没有，鱼的味道，对吧。[r]说是鱼雷，我还有所期待呢。
+[k]
+
+[messageOff]
+[seStop ade446 0.8]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaScale C 1.0]
+[charaPut R 2000,2000]
+[charaEffectStop R bit_talk_lightning_02r]
+[charaFadeout O 0.5]
+[wt 0.7]
+
+[charaTalk B]
+[charaFace B 26]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+别说致命伤了，魔力输出还提升了一段！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠卡多克
+该死，对神灵弹头也无效吗！？[r]太铜墙铁壁了吧！
+[k]
+
+＠卡多克
+库库尔坎让那家伙动弹不得的一击[r]究竟有多猛啊！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+不对，不是这样。[r]她不是神灵。
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_BATTLE_107 0.5 0.5]
+[wait fade]
+
+[charaPut T 1]
+[effect bit_sepia01_depth_fs]
+[charaFadeout E 0.1]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[scene 173501]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+[wt 0.3]
+
+＠特拉洛克
+但只要居住在都市里，他们就是我的子民。[r]身为神明，为子民流血是理所应当的，对吧。
+[k]
+
+[messageOff]
+[fadeout white 0.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaPut T 2000,2000]
+[charaEffectStop T bit_talk_rain01]
+[effectDestroy bit_sepia01_depth_fs]
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+[scene 173500]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_BATTLE_107 0.5 1.0]
+[wait fade]
+
+＠尼托克丽丝
+……那是错的。[r]神不会为人类流血。
+[k]
+
+＠尼托克丽丝
+她并非神灵，而是别的什么[line 3][r]而且，搞不好甚至凌驾神灵[line 3]
+[k]
+
+[charaDepth L 1]
+[charaDepth E 2]
+[charaFace E 8]
+[charaFadeTime L 0.2 0.5]
+
+＠尼托克丽丝
+（……再这样下去潜航艇会被破坏的。[r]　现在的我们没有时间与她对抗[line 3]）
+[k]
+
+＠尼托克丽丝
+（……但是，还有办法。[r]　特里斯墨吉斯忒斯Ⅱ选中的四骑从者。）
+[k]
+
+＠尼托克丽丝
+（全员都是隶属于冥界的从者。[r]　都是能让位于这地底世界的冥界化为真实的人物。）
+[k]
+
+＠尼托克丽丝
+（我也被赋予了这个选择。[r]　冥界的守卫，希基克教会我的仪式。）
+[k]
+
+＠尼托克丽丝
+（虽是罪孽深重的行为，但只要异灵化，[r]　就能改变这种状况了[line 3]！）
+[k]
+
+[charaFace E 9]
+[charaFadeout L 0.2]
+
+＠尼托克丽丝
+[line 3]达·芬奇、尼莫、卡多克！[r]躲进潜航艇！
+[k]
+
+＠尼托克丽丝
+由我来对付她！[r]哪怕要在此结束自己的使命[line 2]
+[k]
+
+[bgmStop BGM_BATTLE_107 1.0]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+＠？？？
+叽[messageShake 0.05 5 5 0.5]，啊啊，啊啊啊啊啊啊啊啊啊啊啊啊啊啊！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+[scene 10000]
+[overlayFadein L 0.1 0,-200]
+[wt 0.1]
+
+[wipein rectangleStripRightToLeft 0.1 1.0]
+[wait wipe]
+
+
+[criMovie talk_mov156 bgmPlay false]
+[wt 0.5]
+[charaFadeout L 1.0]
+[wt 18.5]
+
+
+[fadeout black 0.5]
+[wait fade]
+
+[charaPut R 2500,2500]
+[charaEffect R bit_talk_bat_silhouette]
+[charaEffect T bit_talk_10_LowLevel]
+[scene 173500]
+[wt 0.1]
+
+[fadein black 0.5]
+[wait fade]
+
+[bgm BGM_EVENT_126 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+刚才那极度不敬的声音是……！
+[k]
+
+[messageOff]
+[bgm BGM_EVENT_126 0.5 0.5]
+[wipeout rectangleStripUpToDown 0.5 1.0]
+[wait wipe]
+
+[charaFadeout E 0.1]
+
+[scene 170300]
+[wt 0.5]
+
+[wipein rectangleStripDownToUp 0.5 1.0]
+[bgm BGM_EVENT_126 0.5 1.0]
+[wait wipe]
+
+[subCameraOn 1]
+[charaLayer P sub #A]
+[charaLayer C sub #A]
+[charaLayer F sub #A]
+[charaLayer R sub #A]
+
+[charaDepth P 1]
+[charaDepth F 2]
+[charaDepth R 3]
+[charaDepth C 4]
+
+[charaPut R -256,235]
+[charaTalk C]
+[charaFace C 11]
+[charaFace F 0]
+[charaFadein P 0.1 0,200]
+[charaFadein C 0.1 256,235]
+[charaFadein F 0.1 -256,235]
+
+[blur lens 0.5 2 20]
+[subCameraFilter #A maskEdge cut359_mask06 3 0,0,0,255 0]
+[subRenderFadein #A 0.4 -50,-370]
+[subRenderMove #A 0,-370 0.3]
+[wt 0.4]
+
+＠？？？
+！？　你，你这家伙……！[r]为何要针对我！？
+[k]
+
+＠？？？
+唔，住手，放开我，肮脏！[r]别用泥泞的身体，玷污我的道路……呜哇啊啊啊啊！？
+[k]
+
+[messageOff]
+[fadeout black 0.3]
+[wait fade]
+
+[blurOff lens 0.1]
+[subRenderFadeout #A 0.1]
+
+[scene 10000]
+[overlayFadein L 0.1 0,-200]
+[wt 0.1]
+
+[fadein black 0.1]
+[wait fade]
+
+[criMovie talk_mov157 bgmPlay false]
+[wt 0.5]
+[charaFadeout L 1.0]
+[wt 15.0]
+[bgmStop BGM_EVENT_126 4.0]
+[wt 13.0]
+
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaLayer F normal]
+[charaLayer R normal]
+[charaLayer C normal]
+[subCameraOff]
+
+[charaTalk F]
+[charaPut F 1]
+[charaPut R 1]
+[cameraMove 0.1 0,0 1.2]
+
+[scene 173500]
+[wt 0.1]
+
+[cameraMove 3.5 0,0 1.01]
+[bgm BGM_EVENT_127 0.1]
+[fadein black 1.0]
+[wait fade]
+
+[wt 3.5]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaPut R 2000,2000]
+
+[charaTalk E]
+[charaFace E 13]
+[charaFadein E 0.1 1]
+[wt 1.5]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut T 1]
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠尼莫水兵
+特拉洛克的反应，消失！[r]感觉不只是四分五裂，已经被切成碎屑了～～！！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+
+[charaDepth F 5]
+[charaDepth R 6]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaPut R 1]
+[fowardEffect bit_talk_voice02]
+[shake 0.05 5 4 1.0]
+
+[cueSe SE_23 23_ad1235]
+
+＠某种黑色的存在
+[image berserker_language_1]，[image berserker_language_2][line 4]！！！！[wait fowardEffect]
+[k]
+
+[shakeStop]
+[cueSeStop 23_ad1235 0.5]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaPut R 2000,2000]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠卡多克
+不会吧，那个东西杀了特拉洛克吗！？[r]还是说把她放跑了！？
+[k]
+
+＠卡多克
+重要的是，这怪物是什么啊……！[r]比起这家伙，还是特拉洛克正常点……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+哪还有什么疑问，显而易见吧！[r]你是什么意思，卡玛佐茨！
+[k]
+
+＠尼托克丽丝
+你是用自己擅长的恶作剧救了我们吗！
+[k]
+
+[bgmStop BGM_EVENT_127 1.0]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaPut R 1]
+[charaShake F 0.02 2 2 0.3]
+[wt 0.4]
+[cueSe Servants_9944030 m89917]
+[cueSe SE_21 21_ad1082]
+[se ade393 0]
+[seVolume ade393 0.5 0.5]
+[cueSe Servants_603100 bac553]
+[wt 0.2]
+[se ad970]
+[wt 0.8]
+
+[se ade409]
+[wipeout downToUp 1.5 1.0]
+[wt 0.4]
+[wait wipe]
+[seStop 21_ad1082 1.0]
+
+[cueSe SE_23 23_ad1237 0]
+[seVolume 23_ad1237 1.0 1.0]
+[charaFadeout F 0.1]
+[charaPut R 2000,2000]
+[charaEffectStop R bit_talk_bat_silhouette]
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+[wt 1.0]
+
+[seStop 23_ad1237 1.0]
+[seStop ade393 1.0]
+[seStop bac553 1.4]
+[wipein upToDown 1.5 1.0]
+[wait wipe]
+
+[wt 0.8]
+
+[bgm BGM_BATTLE_68 0.1]
+
+＠卡玛佐茨
+[line 3]哈？[r]我，救了，你们？
+[k]
+
+[messageOff]
+[charaFace G 11]
+[wt 2.5]
+[charaFace G 6]
+
+＠卡玛佐茨
+不是笨蛋的家伙就别说傻话了！[r]害我都要混乱了！
+[k]
+
+＠卡玛佐茨
+为何我！　冥界统治者的我！[r]非得救你们不可啊！？
+[k]
+
+[charaFace G 10]
+
+＠卡玛佐茨
+真没办法。[r]考究之刻已至，想象之刻已至。
+[k]
+
+[charaFace G 11]
+
+＠卡玛佐茨
+动动脑子。肯定还有其他原因吧，其他的。[r]绞尽脑汁去思索我做这种奇特行径的缘由吧。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk E]
+[charaFace E 13]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+话，话是这么说没错……[r]那你刚才真的是为了救我们吗？
+[k]
+
+＠尼托克丽丝
+不是为了趁好机会袭击……特拉洛克之类的？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠卡玛佐茨
+[line 6]
+[k]
+
+[charaFace G 10]
+＠卡玛佐茨
+不对，错得离谱。哪怕说你离题都算给足你面子了。[r]我只不过是把该有的东西扔到该去的地方而已。
+[k]
+
+＠卡玛佐茨
+那女人打算现出真面目。如此一来，[r]你们全都会变成点缀祭坛的活祭吧。
+[k]
+
+＠卡玛佐茨
+那样未免太无聊了。[r]难得的人类鲜血、难得的英灵鲜血。
+[k]
+
+＠卡玛佐茨
+是瞧不起与卡玛佐茨打交道至今的缘分吗？
+[k]
+
+＠卡玛佐茨
+我们已经算老相识了。[r]无疑已自然成为了特别的客人。
+[k]
+
+[charaFace G 2]
+
+＠卡玛佐茨
+对了[line 3]反正都要死，还不如献给我！[r]就用这个理由，点子不错吧！
+[k]
+
+[charaFaceFade G 16 0.2]
+＠卡玛佐茨
+哈哈，哈哈哈，哈哈哈哈哈哈哈哈！[r]好啊，照此安排，那我也占个位置好了！
+[k]
+
+＠卡玛佐茨
+下冥界即将解禁！　通往第八层的道路即将开启！
+[k]
+
+[charaFaceFade G 0 0.2]
+
+＠卡玛佐茨
+尽管来吧，来到米克特兰最深的底层！[r]来到[#铸枯:疯狂]宇宙树的怀抱之处！
+[k]
+
+[charaFace G 2]
+
+＠卡玛佐茨
+赌上卡玛佐茨之名！[r]第四冥界欢迎你们！
+[k]
+
+[messageOff]
+[se ade216]
+[cueSe SE_21 21_ad1078]
+[charaEffect G bit_talk_quickmove]
+[charaSpecialEffect G erasureReverse 1 0.3]
+[wt 0.5]
+[seStop 21_ad1078 0.7]
+[wt 2.5]
+
+[charaTalk E]
+[charaFace E 13]
+[charaFadein E 0.1 1]
+[wt 1.5]
+
+[fadeout black 2.0]
+[bgmStop BGM_BATTLE_68 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

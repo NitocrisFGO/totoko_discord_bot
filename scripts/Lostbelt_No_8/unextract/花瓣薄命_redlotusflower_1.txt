@@ -1,0 +1,816 @@
+
+
+＄04-00-02-10-1-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270600 1 拉妮－Ｋ1]
+[charaSet B 1098270600 1 拉妮－Ｋ2]
+[charaSet C 1098270600 1 拉妮－Ｋ3]
+[charaSet D 1098270000 1 希翁]
+[charaSet E 6037001 1 迦摩]
+[charaSet F 1098270300 1 阿愈丝]
+[charaSet G 7046001 1 难敌]
+[charaSet H 1098270700 1 拉妮－Ｔ1]
+[charaSet I 1098270700 1 拉妮－Ｔ2]
+[charaSet J 1098269910 1 玛奇里]
+[charaSet K 1098269400 1 高长恭]
+[charaSet L 1098269400 1 高长恭（演出用）]
+[charaSet M 1098271200 1 刻印虫1]
+[charaSet N 1098271200 1 刻印虫2]
+[charaSet O 1098271200 1 刻印虫3]
+[charaSet U 1098271200 1 刻印虫3]
+
+[charaSet P 1098269400 1 高长恭（剪影）]
+[charaFilter P silhouette A5000080]
+
+
+[sceneSet Q 189900 1]
+[charaScale Q 1.3]
+
+[sceneSet R 189900 1]
+[charaScale R 1.3]
+
+[imageSet S back10000 1 1]
+[charaScale S 1.3]
+
+[charaSet T 98115000 1 特效用dummy]
+
+
+[scene 189900]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_104 1.5]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth A 2]
+[charaDepth B 3]
+[charaDepth C 4]
+[charaDepth R 5]
+
+[charaFadein Q 0.7 100,-250]
+[charaMove Q 150,-250 0.7]
+[wt 0.85]
+
+[se ad95]
+[wt 0.05]
+[se ade422]
+[charaFace A 0]
+[charaFace B 1]
+[charaFadein A 0.4 0,0]
+[charaFadein B 0.4 -200,0]
+[charaMove A -200,0 2.0]
+[charaMove B -400,0 2.0]
+[wt 1.2]
+[se ade423]
+[charaFadein C 0.4 400,0]
+[charaMove C 100,0 2.0]
+[wt 0.4]
+
+[seStop ade422 1.0]
+[seStop ad95 1.0]
+[charaFadeout A 0.4]
+[charaFadeout B 0.4]
+[wt 0.8]
+
+[seStop ade423 1.0]
+[wt 0.4]
+[charaFadeout C 0.4]
+[wt 0.6]
+
+[charaDepth A 6]
+[charaDepth B 7]
+[charaDepth C 8]
+
+[charaFadein R 0.7 -100,-250]
+[charaMove R -150,-250 0.7]
+
+[charaFace A 0]
+[charaFadein A 0.7 400,0]
+[charaMove A 350,0 0.65]
+[wt 0.7]
+[charaFadeout Q 0.1]
+[wt 0.2]
+
+[se ad95]
+[wt 0.4]
+[charaFace B 0]
+[charaFadein B 0.4 100,0]
+[wt 0.4]
+[seStop ad95 0.2]
+[wt 0.4]
+[charaFace B 1]
+[charaMoveReturn B 100,-7 0.5]
+[wt 0.8]
+[charaFace A 2]
+[charaMoveReturn A 350,-7 0.5]
+[wt 0.9]
+
+[se ade422]
+[se ad95]
+[charaMove A 300,0 0.4]
+[charaMove B 50,0 0.4]
+[charaFadeout A 0.4]
+[charaFadeout B 0.4]
+[seStop ade422 1.2]
+[seStop ad95 1.2]
+[wt 1.4]
+
+
+[charaFadeout R 0.6]
+[wt 1.0]
+
+？1：阿愈丝他们真的在这边？
+？！
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠希翁
+[#示踪剂:Tracer]就是这么反应的。
+[k]
+
+＠希翁
+他们好像是从被甩到的地方移动到了这边。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+＠迦摩
+为什么要擅自行动啊。[r]麻烦死了～。
+[k]
+
+[charaFace E 0]
+＠迦摩
+啊，是那边几个吧？
+[k]
+
+[messageOff]
+[wipeout leftToRight 1.0 1.0]
+[bgm BGM_EVENT_104 1.0 0.5]
+[wait wipe]
+
+[charaFadeout E 0.1]
+[wt 1.0]
+
+[bgm BGM_EVENT_104 1.0 1.0]
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠阿愈丝
+啊！　太好了，大家都平安无事啊！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠希翁
+彼此彼此。[r]可是，你们为什么会来这种地方？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠阿愈丝
+抱歉哦。我原本并没打算离开被甩去的那个地方，[r]不过[#Berserker:狂战士]他……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠难敌
+肚子饿了！　然后闻到了一股很香的味道！[r]所以自然应该去瞧瞧嘛。咀嚼咀嚼。
+[k]
+
+？1：这么说来，这里有好多像是路边摊的店呢。
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠阿愈丝
+嗯，该怎么说呢，原本这些店只有[line 2]
+[k]
+
+＠阿愈丝
+『提供方形的』『提供圆形的』[r]『量不一样』这种程度的差别。
+[k]
+
+＠阿愈丝
+也许是因为最近流行起了『菜肴』吧，[r]这里也发生了各种进化呢。
+[k]
+
+[charaFace F 1]
+
+＠阿愈丝
+还有前所未见过的素材加工……！
+[k]
+
+[charaFace F 7]
+＠阿愈丝
+啊，那是什么，[#Berserker:狂战士]！[r]看起来很好吃，给我一口！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+＠难敌
+唔，你想要吗？
+[k]
+
+[charaFace G 3]
+＠难敌
+这样啊～。[wt 0.4][charaMoveReturn G 0,-8 0.25]（一口吞下～）
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠阿愈丝
+啊～！
+[k]
+
+[messageOff]
+[se ad7]
+[charaMove F -80,0 0.3]
+[charaFadeout F 0.3]
+[wt 0.4]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth G 1]
+[charaDepth F 2]
+
+[charaFace G 12]
+[charaFadein G 0.1 1]
+[wt 0.2]
+
+[charaFace F 8]
+[charaFadein F 0.3 350,0]
+[charaMove F 300,0 0.3]
+[wt 0.4]
+
+[charaTalk on]
+[cueSe SE_23 23_ade838]
+[charaMoveReturn F 270,0 0.3]
+＠难敌
+喂喂，你可真贪吃啊。[wt 0.2][cueSeStop 23_ade838 0.12][wt 0.1][charaMoveReturn F 270,0 0.3][wt 0.05][cueSe SE_23 23_ade838][wt 0.1][cueSeStop 23_ade838 0.12][r]别在本老爷身上乱捶啦～。
+[k]
+
+[charaFace F 7]
+＠阿愈丝
+贪[messageShake 0.05 4 3 0.4]吃的到底是谁啊！？
+[k]
+
+[charaFace G 0]
+＠难敌
+你自己也去买不就好了。[r]本老爷可不会拦着。
+[k]
+
+？1：用拉妮物质买吗？
+？！
+
+[charaFace F 0]
+＠阿愈丝
+啊，嗯。没错。
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠迦摩
+支付拉妮物质，购买只含有少量拉妮物质的[r][#食物:素材]不是很亏吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠阿愈丝
+如果目的是拉妮物质的话，那确实算亏了。[r]但是对我们来说，这有维持ＡＩ结构体的效果。
+[k]
+
+[charaFace F 2]
+＠阿愈丝
+[#Berserker:狂战士]付拉妮物质买吃的也没什么意义吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠难敌
+管他呢！　本老爷只是想吃就吃罢了！
+[k]
+
+[charaFace G 0]
+＠难敌
+……话说回来，这里是什么地盘？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠阿愈丝
+你还知道问啊。我才刚想说，[r]你就自顾自地跑去买东西吃了。
+[k]
+
+[charaFace F 0]
+＠阿愈丝
+这里是[#维持部:Keep]区域的边缘哦。[r]店里都是[#维持部ＡＩ:型号Ｋ]，这总看得出来吧？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+＠难敌
+什么……[#维持部:Keep]，不就是[#Lancer:枪兵]的地盘吗……！？
+[k]
+
+[charaFace G 6]
+＠难敌
+你怎么不早说！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth Q 1]
+[charaDepth A 2]
+[charaDepth B 3]
+[charaDepth C 4]
+[charaDepth H 5]
+[charaDepth I 6]
+
+[charaFadein Q 0.8 -30,-225]
+[charaMove Q 30,-225 10,0]
+[wt 0.8]
+
+[se ad95]
+[seVolume ad95 0 0]
+[wt 0.05]
+[se ade422]
+[seVolume ade422 0 0]
+[seVolume ad95 0.6 0.4]
+[seVolume ade422 0.6 0.4]
+
+[charaFace A 0]
+[charaFadein A 0.4 -100,0]
+[charaMove A -250,0 1.2]
+[wt 0.8]
+[charaFadeout A 0.4]
+[wt 0.4]
+
+[cueSe SE_23 23_ad1297]
+[cueSeVolume 23_ad1297 0 0]
+[cueSeVolume 23_ad1297 0.4 0.5]
+[charaShake H 0.05 1 2 0]
+[charaFace H 0]
+[charaFadein H 0.4 400,0]
+[charaMove H 100,0 1.6]
+[wt 0.8]
+
+[charaFace B 2]
+[charaFace C 1]
+[charaFadein B 0.4 350,0]
+[charaFadein C 0.4 50,0]
+[charaMove B 1 2.8]
+[charaMove C -300,0 2.8]
+[wt 0.4]
+[cueSeStop 23_ad1297 1.0]
+[charaFadeout H 0.4]
+[wt 0.4]
+
+[cueSe SE_23 23_ad1298]
+[cueSeVolume 23_ad1298 0 0]
+[cueSeVolume 23_ad1298 0.4 0.5]
+[charaFace I 3]
+[charaFadein I 0.4 50,0]
+[charaMove I -450,0 1.6]
+[wt 0.8]
+[wt 0.4]
+[cueSeStop 23_ad1298 1.0]
+[charaFadeout I 0.4]
+[wt 0.2]
+[charaFadeout B 0.4]
+[charaFadeout C 0.4]
+
+[cueSe SE_23 23_ad1297]
+[cueSeVolume 23_ad1297 0 0]
+[cueSeVolume 23_ad1297 0.4 0.5]
+[charaFace H 0]
+[charaFadein H 0.4 400,0]
+[charaMove H 100,0 1.2]
+[wt 0.8]
+[cueSeStop 23_ad1297 1.0]
+[charaFadeout H 0.4]
+[wt 0.4]
+
+[seStop ad95 0.8]
+[seStop ade422 0.8]
+[charaShakeStop A]
+[charaShakeStop B]
+[charaFadeout Q 0.8]
+[wt 1.0]
+
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠希翁
+虽然目前还没见到[#Lancer:枪兵]的踪影。
+[k]
+
+＠希翁
+既然没事找他，那就趁还没刺激到他，[r]尽快离开这个区域为好。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠阿愈丝
+说得对，必须定一下今后的方针才行。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠迦摩
+我是无所谓啦，但可以问件事吗？
+[k]
+
+＠迦摩
+总感觉这里ＡＩ的种类莫名不平衡，[r]本来就是这样的吗？
+[k]
+
+＠迦摩
+[#维持部ＡＩ:型号Ｋ]自不用说，[r][#转运部ＡＩ:型号Ｔ]也相当多呢。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠阿愈丝
+……？　听你这么一说，好像确实呢。
+[k]
+
+＠阿愈丝
+应该不存在型号Ｔ的结构体更容易[r]磨损这种事才对……这是为什么呢？
+[k]
+
+[bgmStop BGM_EVENT_104 1.5]
+
+＠J：？？？
+这个嘛，是为什么呢？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[wt 1.0]
+
+[charaFadeout E 0.1]
+[wt 0.15]
+
+
+[se ad452]
+[wt 0.4]
+[seStop ad452 0.2]
+[wt 0.2]
+
+[se ad452]
+[cueSeVolume ad452 0 0]
+[wt 0.5]
+[cueSeVolume ad452 0.1 1.0]
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.4 1]
+[wt 0.4]
+[seStop ad452 0.2]
+[wt 1.0]
+
+[bgm BGM_EVENT_71 0.1]
+
+？1：[#Caster:魔术师]的……！
+？！
+
+＠玛奇里
+[#现在]，不是了。
+[k]
+
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+
+[se ade428]
+[charaTalk K]
+[charaFace K 4]
+[charaFadein K 0.4 1]
+[wt 0.4]
+[seStop ade428 0.2]
+[wt 0.6]
+
+[charaFace K 6]
+＠高长恭
+呜……[wt 0.6][messageShake 0.05 4 3 0.3]嘎……！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠迦摩
+……[#Rider:骑兵]。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠希翁
+竟然不只是从那个大术式炮下活了下来，[r]还夺走了从者。
+[k]
+
+[charaFace D 8]
+＠希翁
+我对发展成这样的来龙去脉很感兴趣，[r]但恐怕不会有得知的机会了吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+＠玛奇里
+没错。老夫来此处并非为了谈话或进食。
+[k]
+
+[charaFace J 2]
+＠玛奇里
+呼喀喀，虽说已经丧失了[#Caster:魔术师]的无限怪物，[r]不过老夫的力量跟[#这家伙:Rider]也很匹配。
+[k]
+
+[charaFace J 0]
+＠玛奇里
+快动起来，[#Rider:骑兵]。虫在支撑着你。[r]你应该浑身充满着无处宣泄的力量吧？
+[k]
+
+＠玛奇里
+准确地说，老夫修改了你的灵基，好让你能以[r]更少的拉妮物质发挥出超越以往的运转效率。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 6]
+[charaFadein K 0.1 1]
+＠高长恭
+……呜……！
+[k]
+
+[messageOff]
+[charaMove K 0,-7 0.6]
+[se adm37]
+[wt 1.8]
+
+[charaFace K 7]
+＠高长恭
+快，逃……我，已经……！[r]不，这个，男人……！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 0.1 1]
+＠玛奇里
+废话就免了。鸣叫吧，虫！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_71 1.5]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth K 1]
+[charaDepth P 2]
+[charaDepth L 3]
+[charaDepth M 6]
+[charaDepth N 5]
+[charaDepth O 4]
+
+[charaPut P 1]
+
+[charaFace K 6]
+[charaFadein K 0.1 1]
+[wt 0.2]
+
+[cueSe SE_23 23_ad1286]
+[cueSeVolume 23_ad1286 0 0]
+[cueSeVolume 23_ad1286 0.3 1.0]
+[charaFadeTime P 0.6 0.6]
+[wt 0.1]
+[charaShake K 0.02 2 2 1.0]
+[charaShake P 0.02 2 2 1.0]
+[wt 0.5]
+[cueSeStop 23_ad1286 0.9]
+[charaFadeout P 0.6]
+[wt 1.0]
+
+[se ad231]
+[charaScale L 1.2]
+[charaFace L 6]
+[charaFadein L 0 0,25]
+[charaFadeout L 0.8]
+[wt 1.2]
+
+[charaFace K 7]
+[se ad1006]
+[blur motion 0.3 4 200 0.5 0.6 0.02 200]
+[charaMoveScale K 1.1 0.25]
+[charaMove K 0,12 0.25]
+[charaFadeout K 0.25]
+[wt 0.25]
+[blurOff motion 0.1]
+[wt 0.4]
+
+[se ad85]
+[effect bit_talk_x_slash01]
+[wt 0.6]
+
+[se ad32]
+[wt 0.05]
+[se ad1014]
+[fowardEffect bit_talk_14]
+
+[se ad671]
+[charaScale G 1.1]
+[charaFace G 6]
+[charaFadein G 0.1 0,15]
+[charaMove G 1 0.3]
+[charaShake G 0.02 3 3 0.6]
+[charaMoveScale G 1.0 0.3]
+[seStop ad671 0.8]
+[wt 1.2]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaDepth M 1]
+[charaDepth N 2]
+[charaDepth O 3]
+[charaDepth U 4]
+[charaDepth G 6]
+[charaDepth E 6]
+
+[charaPut M 200,-20]
+[charaPut U -200,-20]
+[charaPutFSR N 450,-80]
+[charaPutFSL O -450,-80]
+
+[charaSpecialEffect M appearance 0,0 1.0]
+[wt 0.2]
+[cueSe SE_23 23_ad1287]
+[cueSe SE_23 23_ad1288]
+[wt 0.1]
+[charaSpecialEffect N appearance 0,0 1.0]
+[wt 0.3]
+[charaSpecialEffect O appearance 0,0 1.0]
+[wt 0.3]
+[charaSpecialEffect U appearance 0,0 1.0]
+[wt 0.3]
+[cueSeStop 23_ad1287 1.0]
+[cueSeStop 23_ad1288 1.0]
+[wait charaSpecialEffect U]
+[wt 0.8]
+
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaFadeout O 0.1]
+[charaFadeout U 0.1]
+[wt 0.1]
+
+[bgm BGM_BATTLE_137 0.1]
+
+[charaTalk on]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠难敌
+怎么可能逃得掉。
+[k]
+
+[charaFace G 7]
+＠难敌
+本来就知道他是个难缠的老头，[r]可完全没想到会变得比那个大块头更强！
+[k]
+
+[charaFace G 5]
+＠难敌
+是时候解决掉他了！[r]……这地点多少令人有点担心，还是速战速决吧！
+[k]
+
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠迦摩
+与其逃跑，[r]确实还是这样做来得更快呢。
+[k]
+
+[charaFace E 2]
+＠迦摩
+而且从生理角度来说，[r]我也非常想灭掉这些令人不快的虫！
+[k]
+
+
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStopEnd BGM_BATTLE_137 0.4]
+[wait fade]
+[soundStopAllEnd]
+[end]

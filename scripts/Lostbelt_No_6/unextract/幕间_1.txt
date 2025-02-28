@@ -1,0 +1,1400 @@
+
+＄03-00-10-06-1-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 3048000 1 妖精骑士兰斯洛特]
+[charaSet B 1098209000 1 欧若拉]
+[charaSet C 1098209400 1 风之氏族]
+
+[imageSet D back10000 1]
+[charaScale D 1.01]
+[imageSet E back10000 1]
+[charaScale E 1.01]
+
+[sceneSet F 125000 1]
+[charaScale F 1.01]
+
+[charaSet G 98115000 1 特效用dummy]
+[charaSet H 98115000 1 特效用dummy]
+
+[imageSet I cut290_orl 1]
+[charaScale I 1.15]
+[imageSet J cut290_mls 1]
+[charaScale J 1.15]
+
+
+[scene 128401]
+
+[pictureFrame cut063_cinema]
+
+[cueSe SE_21 21_ad1097]
+[seVolume 21_ad1097 0 0]
+[seVolume 21_ad1097 2.0 0.4]
+[fadein black 2.0]
+[wait fade]
+
+＠
+[align center]不列颠上空[align][r][align center]魔犬出现后2小时[align]
+[k]
+
+[bgm BGM_EVENT_142 0.1]
+
+
+＠妖精骑士兰斯洛特
+……那头巨大的魔兽是……[r]这样啊，是黑犬之王……
+[k]
+
+＠妖精骑士兰斯洛特
+……喜好黑烟与雷电的魔力吞食者。[r]你变成『灾厄』了呢，巴格斯特……
+[k]
+
+＠妖精骑士兰斯洛特
+……从大洞穴爬出来的[r]科尔努诺斯的诅咒已经阻止不了了。
+[k]
+
+＠妖精骑士兰斯洛特
+已然无处可逃。[r]不是变成[#邪恶妖精:Unseelie Court]，就是变成摩耳斯……
+[k]
+
+＠妖精骑士兰斯洛特
+无论如何，还正常的妖精屈指可数。[r]在下也不知道能清醒到何时。
+[k]
+
+＠妖精骑士兰斯洛特
+……哪怕，这就是『大灾厄』……[r]之所以会变成这样，也全都是……
+[k]
+
+＠妖精骑士兰斯洛特
+……全都是，因为她。[r]……欧若拉，在下的爱、在下的理由，在下的[line 3]
+[k]
+
+[messageOff]
+[wipeout circleIn 1.0 1]
+[wait wipe]
+[pictureFrame]
+
+[charaPut G 1]
+[charaEffect G bit_sepia01_depth_fs]
+
+[scene 118000]
+[wt 1.0]
+[wipein circleIn 1.0 1]
+[wait wipe]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠欧若拉
+听我说，兰斯洛特。[r]艾因塞尔是个非常危险的妖精。
+[k]
+
+＠欧若拉
+总是满嘴毫无用处的预言，[r]谁都没有发现她们的本性。
+[k]
+
+＠欧若拉
+通过做那种事吸引大家的注意力，受到吹捧之后，[r]不知道打算干些什么[line 3]
+[k]
+
+＠欧若拉
+『镜之氏族』是和『雨之氏族』[r]一起藏匿『乐园妖精』的氏族吧？
+[k]
+
+＠欧若拉
+在不知何时就会发生『大灾厄』的当下，[r]竟然作出那样的预言[line 3]
+[k]
+
+＠欧若拉
+这无疑是对摩根女王陛下的反叛。[r]一想到这里，我的翅膀都要灰暗了。
+[k]
+
+[charaFace B 0]
+
+＠欧若拉
+你应该能理解我的心情吧，[r]■■■■。
+[k]
+
+[charaFace B 1]
+
+＠欧若拉
+因为你是我的王子殿下嘛。
+[k]
+
+＠欧若拉
+无论何时，你都会为我带来[r]我最想要的东西吧？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout B 0.1]
+[scene 10000]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+
+＠
+她没有丝毫邪恶的想法。[r]甚至根本没有善恶可言。
+[k]
+
+＠
+『追求妖精与人类能够共存的世界，[r]　最温柔、最充满慈爱的妖精。』
+[k]
+
+＠
+然而，并不是这样。[r]只是看起来如此而已。
+[k]
+
+＠
+她爱的只有自己。
+[k]
+
+＠
+她重视的是爱自己的环境，[r]将自己放在首位的世界。
+[k]
+
+＠
+之所以拥护人类，[r]是因为这样做就会受到人类阿谀奉承。
+[k]
+
+＠
+之所以成为妖精们的标志，[r]是因为这样做就能获得所有妖精的尊敬。
+[k]
+
+＠
+之所以看起来像个优秀的领导者，[r]是因为她不会与任何人争斗。
+[k]
+
+＠
+之所以能一直存活到现在，[r]并不是因为她有多么强大。
+[k]
+
+＠
+只是因为她很擅长[r]扯其他领导者的后腿罢了。
+[k]
+
+＠
+每当比自己更受欢迎的妖精出现时，[r]她的“心血来潮”，就会让世界向糟糕的方向倾斜。
+[k]
+
+＠
+……这时也是其中一例。
+[k]
+
+＠
+她没有任何恶意。
+[k]
+
+＠
+只是[#心血来潮]地由衷觉得[r]『镜之氏族是危险的妖精』。
+[k]
+
+[messageOff]
+
+[effect bit_talk_sparks_fs]
+[cueSe SE_21 21_ad1114]
+[seVolume 21_ad1114 0 0]
+[seVolume 21_ad1114 2.0 0.1]
+[wt 2.0]
+
+
+[se ad464]
+[cueSe SE_21 21_ad1125]
+[effect bit_talk_blood_splash02]
+
+[wt 2.5]
+
+＠妖精骑士兰斯洛特
+[line 3]啊啊。[r]哈啊[line 3]哈啊[line 3]…………啊。
+[k]
+
+＠
+所以下了杀手，如她所愿下了杀手。
+[k]
+
+＠
+『镜之氏族』是无辜的，[r]毋庸置疑非常明显。
+[k]
+
+＠
+但还是非杀不可。[r]不然欧若拉真的会衰枯。
+[k]
+
+＠
+万事都能遂自己的心意，[r]世界都能遂自己的心意。
+[k]
+
+＠
+真心对此坚信不疑，[r]就是欧若拉这个妖精的本领。
+[k]
+
+＠
+因此她没有善恶可言。
+[k]
+
+＠
+之所以3000年来都没有失去光辉，[r]就是因为她的自我肯定性已超脱世间常理。
+[k]
+
+[seStop 21_ad1114 4.0]
+
+＠妖精骑士兰斯洛特
+啊……呜呜，呜……[r]啊，啊[line 3]
+[k]
+
+＠
+用沾满『镜之氏族』鲜血的双手[r]盖住脸庞不让自己看见。
+[k]
+
+＠
+没有资格说什么[r]希望原谅自己或是对不起这种话。
+[k]
+
+＠
+在下明知欧若拉是那样的妖精，[r]却还是以她的光辉为优先。
+[k]
+
+＠
+因为对在下而言，[r]欧若拉比不列颠所有妖精都更重要。
+[k]
+
+＠
+欧若拉并没有罪，[r]丑恶的只有在下一人。
+[k]
+
+＠
+在下不想失去那份为了依赖在下而装出来的爱，[r]才一次次犯下了诸多罪孽。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[effectStop bit_talk_sparks_fs]
+[effectDestroy bit_talk_sparks_fs]
+
+[scene 86401]
+[wt 1.0]
+
+[se ade307]
+[seVolume ade307 0 0]
+[seVolume ade307 1.5 1.0]
+
+[fadein black 2.0]
+[wait fade]
+[wt 1.0]
+
+＠
+但是，那天是特别的。[r]『镜之氏族』是特别的。
+[k]
+
+[seVolume ade307 3.0 0.5]
+
+＠
+她们是守护着曾为在下之物，[r]守护着阿尔比恩骸骨的温和妖精。
+[k]
+
+＠
+没有任何一个有所抵抗，[r]反而像是在怜悯在下一般，
+[k]
+
+＠
+她们主动地献出了生命。
+[k]
+
+＠妖精骑士兰斯洛特
+…………但是，这也没办法。[r]如果不这样做，欧若拉就会衰枯。
+[k]
+
+＠妖精骑士兰斯洛特
+……在下并没有错，在下并不是真心想杀的。[r]欧若拉……欧若拉，希望你能对在下说。
+[k]
+
+＠妖精骑士兰斯洛特
+没错……在下是为了你……[r]只要你能笑着对在下说声谢谢，就[line 3]
+[k]
+
+＠
+为避免留下证据，在下并没有飞走。[r]那天夜晚隐藏身影，浑身泥泞地回去了。
+[k]
+
+[messageOff]
+[seStop ade307 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaTalk depthOff]
+[charaDepth H 9]
+[charaDepth G 8]
+[charaDepth F 7]
+[charaDepth D 6]
+[charaDepth E 5]
+[charaDepth A 4]
+[charaDepth B 3]
+[charaDepth C 2]
+
+[charaScale F 1.6]
+
+[charaFadein D 0.1 -900,0]
+[charaFadein E 0.1 900,0]
+
+[scene 117900]
+[wt 1.0]
+
+[se ad992]
+[seStop ad992 2.0]
+
+[fadein black 2.0]
+[wait fade]
+[wt 0.5]
+
+
+
+＠风之氏族
+『镜之氏族』的城市竟然消失了……[r]究竟发生了什么啊。
+[k]
+
+＠风之氏族
+听说是遭到了摩耳斯群的袭击……[r]但怎么会有能跨越城市城墙的摩耳斯……
+[k]
+
+＠风之氏族
+果然是因为摩根陛下……[r]被艾因塞尔的预言触怒了吗[line 3]
+[k]
+
+[messageOff]
+[se ad592]
+[seVolume ad592 0 0.4]
+[fadeout white 0.3]
+[wait fade]
+
+
+[charaFadein F 0.1 150,-400]
+[wt 0.6]
+
+[fadein white 0.6]
+[wait fade]
+
+[wt 1.5]
+
+[fadeout white 1.2]
+[wait fade]
+
+[charaFadeout F 0.2]
+[wt 0.4]
+
+[fadein white 1.2]
+[wait fade]
+
+[wt 0.4]
+
+＠欧若拉
+这不可能。[r]摩根陛下是位深思熟虑的人物。
+[k]
+
+＠欧若拉
+她向来都非常重视[r]『镜之氏族』描述未来的预言。
+[k]
+
+＠欧若拉
+何况艾因塞尔可是一位[r]为不列颠未来担忧的优秀氏族长。
+[k]
+
+[messageOff]
+[se ad592]
+[seVolume ad592 0 0.5]
+[fadeout white 0.4]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[charaScale F 1.01]
+[charaFadein F 0.1 0,-200]
+
+[wt 0.2]
+[fadein white 1.0]
+[wait fade]
+
+[wt 0.6]
+
+[se ad31]
+[se ad539]
+[charaScale H 1.3]
+[charaPut H 0,87]
+[charaEffect H bit_talk_noise_gr]
+[wt 0.4]
+[seStop ad539 0.3]
+[seStop ad31 0.4]
+[charaEffectStop H bit_talk_noise_gr]
+[wt 0.6]
+
+[fadeout white 0.4]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+[charaFadein D 0.1 -900,0]
+[charaFadein E 0.1 900,0]
+
+
+[scene 117900]
+[wt 0.2]
+[fadein white 1.2]
+[wait fade]
+
+＠欧若拉
+……啊啊，可怜的艾因塞尔。[r]竟然会发生这种事……
+[k]
+
+＠欧若拉
+袭击『镜之氏族』的家伙[r]肯定非这世间的东西。
+[k]
+
+＠欧若拉
+肯定是由身体到心灵都污秽不堪的，[r]不列颠最丑陋、最腐败的怪物。
+[k]
+
+＠欧若拉
+无论将外表粉饰得多么漂亮，[r]终究也只是在模仿我罢了。
+[k]
+
+[bgmStop BGM_EVENT_142 2.0]
+
+＠欧若拉
+啊啊，那种生物[line 3]真是太讨厌了。[r][#光是想到都会觉得无比肮脏]。
+[k]
+
+[messageOff]
+[fadeout white 0.4]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[scene 125000]
+[wt 0.2]
+
+[fadein white 0.4]
+[wait fade]
+
+[wt 0.5]
+
+[se ad31]
+[se ad539]
+[se ad438]
+[charaPut H 0,87]
+[charaEffect H bit_talk_noise_gr]
+[wt 0.4]
+[seStop ad539 0.3]
+[seStop ad31 2.0]
+
+[wipeout noise 1.0]
+[wait wipe]
+
+[charaPut G 3000,3000]
+[charaPut H 3000,3000]
+[charaEffectStop H bit_talk_noise_gr]
+[scene 10000]
+
+[wipein noise 0.1]
+[wait wipe]
+
+[fadeout black 0.1]
+[wait fade]
+
+[charaPut G 1]
+[scene 117900]
+[wt 0.2]
+
+[charaFadein D 0.1 -900,0]
+[charaFadein E 0.1 900,0]
+
+[wt 0.1]
+
+[fadein black 1.5]
+[wait fade]
+
+＠妖精骑士兰斯洛特
+[line 3]，[line 6]
+[k]
+
+[messageOff]
+[se ad992]
+[seStop ad992 2.0]
+[wipeout cutVer 2.0 1]
+[wait wipe]
+
+[effect bit_talk_rain01]
+[charaPut G 3000,3000]
+[scene 10000]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[wipein cutVer 0.1 1]
+[wait wipe]
+
+[fadeout black 0.1]
+[wait fade]
+
+[charaPut G 1]
+[scene 129300]
+[wt 0.7]
+
+[se ade307]
+[seVolume ade307 0 0]
+[seVolume ade307 3.0 1.0]
+[fadein black 3.0]
+[wait fade]
+
+[seVolume ade307 3.0 0.5]
+
+[bgm BGM_EVENT_95 0.1]
+
+＠
+那是奇迹，是个奇迹。
+[k]
+
+＠
+她像是对待珍贵之物般，温柔地抱起了[r]只会在昏暗沼泽蠢动的肉块。
+[k]
+
+＠
+“你好，可爱的妖精。[r][f small]  [f -]还是应该道一声早上好呢。”
+[k]
+
+＠
+“我是欧若拉。[r][f small]  [f -]你叫什么名字？”
+[k]
+
+＠
+那个瞬间，我获得了心，获得了形体。[r]知晓了心，知晓了仰慕。
+[k]
+
+＠
+[line 3]知晓了不会动摇、[r]也甩不开的爱。
+[k]
+
+＠
+然而[line 3]
+[k]
+
+＠妖精骑士兰斯洛特
+……没错。[r]她就是这样的妖精。
+[k]
+
+＠妖精骑士兰斯洛特
+……就是这样的，妖精啊……
+[k]
+
+＠妖精骑士兰斯洛特
+当时……她抱起在下的理由，[r]在下其实也清楚……
+[k]
+
+
+
+
+
+＠妖精骑士兰斯洛特
+很清楚……很清楚……[r]很清楚自己根本并没有被爱……！
+[k]
+
+＠妖精骑士兰斯洛特
+即便如此……
+[k]
+
+[messageOff]
+[scene 129303 1.0]
+[wt 1.5]
+＠妖精骑士兰斯洛特
+即便如此，在下还是爱着你……[r]爱着你啊，欧若拉…………
+[k]
+
+[messageOff]
+[seVolume ade307 1.5 0.7]
+[wt 2.5]
+[seStop ade307 3.0]
+[bgmStop BGM_EVENT_95 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[effectDestroy bit_talk_rain01]
+
+[charaPut G 3000,3000]
+[charaEffectStop G bit_sepia01_depth_fs]
+[scene 128401]
+[wt 1.5]
+[fadein black 2.0]
+[wait fade]
+
+＠妖精骑士兰斯洛特
+……没错。[r]只要还有这颗心，在下便能维持住这身姿。
+[k]
+
+＠妖精骑士兰斯洛特
+即便没有摩根陛下的[#赐名:Gift]，[r]只要还有欧若拉，在下便能做在下自己。
+[k]
+
+＠妖精骑士兰斯洛特
+……如果她消失了，在下也将变回原本的样貌吧。
+[k]
+
+＠妖精骑士兰斯洛特
+变回8000年前，背负了『春之战争』中[r]死绝的北方妖精恨意的[#我]。
+[k]
+
+＠妖精骑士兰斯洛特
+……前往索尔兹伯里吧。
+[k]
+
+＠妖精骑士兰斯洛特
+哪怕不列颠会终结……[r]在下的生命，也要为了她付出到最后一刻[line 3]
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[wt 1.0]
+
+[cueSe SE_21 21_ad1114]
+[cueSeVolume 21_ad1114 0 0]
+[cueSe SE_21 21_ad1123]
+[cueSeVolume 21_ad1123 0 0]
+[se ad877]
+[seVolume ad877 0 0]
+[se ad726]
+[seVolume ad726 0 0]
+
+[wt 1.0]
+
+[scene 123000]
+[wt 1.0]
+[seVolume ad726 1.0 0.6]
+[seVolume ad877 1.0 0.6]
+[seVolume 21_ad1114 1.0 0.8]
+[seVolume 21_ad1123 1.0 0.4]
+[fadein black 1.0]
+[wait fade]
+
+＠妖精们
+■掉，■掉！[r]■掉北方妖精，他们是唤来『灾厄』的侵略者！
+[k]
+
+＠妖精们
+有没有感染了摩耳斯毒的妖精！[r]只要发现就抓起来！　在变成摩耳斯之前■掉！
+[k]
+
+＠妖精们
+将人类集中起来！　让他们与摩耳斯战斗！[r]不愿服从的人类就■掉以儆效尤！
+[k]
+
+＠妖精们
+去大圣堂！　打开大圣堂的门！[r]这座城市已经被污染了，逃往大圣堂！
+[k]
+
+＠妖精们
+欧若拉大人肯定会帮我们！[r]欧若拉大人肯定会救我们！
+[k]
+
+＠妖精们
+毕竟她是新任不列颠女王陛下嘛！[r]肯定愿意主动成为献给摩耳斯的活祭！
+[k]
+
+[messageOff]
+[seVolume ad726 1.0 1.0]
+[seVolume ad877 1.0 1.0]
+[seVolume 21_ad1114 1.0 1.0]
+[seVolume 21_ad1123 1.0 0.8]
+[wt 1.0]
+
+[wipeout rectangleStripUpToDown 0.7 1]
+[wait wipe]
+[scene 118002]
+[bgm BGM_EVENT_139 0.1]
+[wt 0.4]
+
+[seVolume ad726 1.0 0.3]
+[seVolume ad877 1.0 0.3]
+[seVolume 21_ad1114 1.0 0.4]
+[seVolume 21_ad1123 1.0 0.2]
+
+[wipein rectangleStripDownToUp 0.7 1]
+[wait wipe]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠欧若拉
+竟然露出如此恐怖的表情……[r]大家原本分明是如此温和的妖精啊……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[seStop ad726 2.0]
+[seStop ad877 2.0]
+[seStop 21_ad1114 2.0]
+[seStop 21_ad1123 2.0]
+
+＠妖精骑士兰斯洛特
+[line 3]欧若拉。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+
+＠欧若拉
+谁！？[r]是从哪里进来的！？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.4 1]
+[wt 0.5]
+
+
+
+＠妖精骑士兰斯洛特
+……是在下，欧若拉。[r]在下降落到上面的撞钟堂，然后下到了这里。
+[k]
+
+＠妖精骑士兰斯洛特
+……城市里惨绝人寰。[r]妖精们几乎都已化身暴徒。
+[k]
+
+＠妖精骑士兰斯洛特
+他们迟早也会闯进这座大圣堂。
+[k]
+
+＠妖精骑士兰斯洛特
+……虽然在下不太愿意这么说……[r]……可索尔兹伯里，已经……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+
+＠欧若拉
+哎呀[line 3]对哦，想起来了。[r]还有你呢，梅柳齐娜！
+[k]
+
+＠欧若拉
+还好你平安无事！　没受伤吧？[r]没有吧？
+[k]
+
+＠欧若拉
+毕竟你是不列颠最强的妖精骑士嘛。[r]是无论发生什么都不会受伤、不会劣化，
+[k]
+
+＠欧若拉
+自从相遇以来没有丝毫褪色的，[r]我重要的骑士。
+[k]
+
+[charaFace B 6]
+
+＠欧若拉
+你来的时机真是刚好……[r]可靠的果然还是只有你呢。
+[k]
+
+[charaFace B 4]
+
+＠欧若拉
+……没错，索尔兹伯里已经完了。[r]不，不列颠全境都已经……
+[k]
+
+＠欧若拉
+……恐怕我们已没有获救的路可走了吧。
+[k]
+
+＠欧若拉
+……事态为什么会变成这样呢……[r]虽然非常悲伤……
+[k]
+
+＠欧若拉
+但也没有其他手段了。[r]梅柳齐娜，跟我一起……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadeinFSL A 0.1 0]
+
+[charaFace B 4]
+[charaFadeinFSR B 0.1 2]
+
+＠妖精骑士兰斯洛特
+……嗯，说得对。[r]至少临终时，要一起[line 2]
+[k]
+
+[charaFace B 1]
+[bgmStop BGM_EVENT_139 2.0]
+
+＠欧若拉
+一起逃跑吧？[r]你肯定能带我走吧？
+[k]
+
+[messageOff]
+[charaTalk A]
+[charaFace A 19]
+[wt 1.5]
+
+＠妖精骑士兰斯洛特
+[line 6]你说什么？
+[k]
+
+[charaFace B 3]
+
+＠欧若拉
+有什么好惊讶的？[r]既然有危险，会选择逃跑应该很正常吧……
+[k]
+
+[messageOff]
+[charaTalk A]
+[charaFace A 13]
+[wt 1.0]
+
+[charaFace A 10]
+
+[bgm BGM_EVENT_142 0.1]
+＠妖精骑士兰斯洛特
+……这并不正常。[r]你只不过又一次放弃了思考而已。
+[k]
+
+＠妖精骑士兰斯洛特
+……逃跑又有什么用，欧若拉。
+[k]
+
+＠妖精骑士兰斯洛特
+抛弃了因相信你而聚集的妖精们，[r]抛弃了这个世界，你又能去哪里。
+[k]
+
+[charaFace B 4]
+
+＠欧若拉
+也是啊，这确实很遗憾。[r]但大家已经不愿意爱我了吧？
+[k]
+
+[charaFace B 1]
+
+＠欧若拉
+所以那个已经无所谓了。[r]比起这些，我们还是去更快乐的地方吧？
+[k]
+
+＠欧若拉
+离开不列颠！[r]迦勒底的人们不是说过吗？
+[k]
+
+＠欧若拉
+比起这种变得无聊的世界，[r]那里肯定好得多吧。
+[k]
+
+[charaFace B 2]
+
+＠欧若拉
+因为，那是个只有可怜、肮脏、[r]孱弱人类的世界嘛。
+[k]
+
+＠欧若拉
+能够更简单、更端庄有礼地[r]打造出理想的世界哦。
+[k]
+
+＠欧若拉
+那里的话，妖精就只有你和我。
+[k]
+
+＠欧若拉
+你想[line 3]那不就是你的愿望吗？
+[k]
+
+＠欧若拉
+可爱的人儿，我的梅柳齐娜。[r]现在，我最爱的就是你哦。
+[k]
+
+＠欧若拉
+伸出你的手，握住我的手吧。[r]我们一起开启新生活吧？
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMoveFSR B 230,0 0.4]
+[charaFadeout B 0.4]
+[wt 0.4]
+[se ad775]
+[seVolume ad775 0 0.4]
+[wt 1.0]
+[charaFadeout A 0.1]
+[wt 0.4]
+
+[charaTalk on]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠妖精骑士兰斯洛特
+这…………
+[k]
+
+[charaFace A 13]
+
+＠妖精骑士兰斯洛特
+…………这。[r]…………确实，是我的愿望。
+[k]
+
+＠妖精骑士兰斯洛特
+恐怕你又会不自觉地散播鳞粉吧。
+[k]
+
+＠妖精骑士兰斯洛特
+……甚至告诉自己，这是不自觉的行为，[r]在外部世界，重复同样的事。
+[k]
+
+＠妖精骑士兰斯洛特
+因为你的『目的』，[r]就是“让自己最受喜爱”。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠欧若拉
+梅柳齐娜？[r]你没头没脑地说些什么呀？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+
+＠妖精骑士兰斯洛特
+……科拉尔呢？[r]她在哪里？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠欧若拉
+科拉尔……？[r]哦哦，你是说科拉尔啊！
+[k]
+
+[bgmStop BGM_EVENT_142 3.0]
+
+[charaFace B 0]
+
+＠欧若拉
+我嫌她有点吵，就将她变成了毛毛虫，[r]刚才不小心把她踩扁了。
+[k]
+
+＠欧若拉
+那里还有痕迹，你要小心哦？[r]不然会弄脏地板的。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠妖精骑士兰斯洛特
+………………
+[k]
+
+[charaFace A 14]
+＠妖精骑士兰斯洛特
+……欧若拉。[r]在下，爱着你。
+[k]
+
+＠妖精骑士兰斯洛特
+哪怕你不相信，或是对你来说[r]无关紧要，在下都爱你。
+[k]
+
+＠妖精骑士兰斯洛特
+……无论你多么邪恶。[r]在下都会实现你的一切愿望。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+
+＠欧若拉
+哎，是吗，是这样吗！[r]虽然我不清楚你在说什么，不过是吗！
+[k]
+
+＠欧若拉
+那我们出发吧，去外部世界！[r]美妙的日子肯定又将开始！
+[k]
+
+[messageOff]
+[se ade422]
+[charaMoveScale B 1.05 0.7]
+[charaMove B 0,15 0.7]
+[wt 0.5]
+[charaFadeout B 0.2]
+[seStop ade422 0.2]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+[wt 0.2]
+[se ad166]
+[seStop ad166 0.3]
+[charaMoveScale A 1.05 0.7]
+[charaMove A 0,15 0.7]
+[wt 0.5]
+[charaFadeout A 0.2]
+[wt 1.0]
+
+
+
+[se ad775]
+[seVolume ad775 0 0.5]
+[shake 0.05 2 2 0.3]
+[wt 1.8]
+[cueSe SE_21 21_ad1118]
+[seVolume 21_ad1118 0 0.4]
+[fowardEffect bit_talk_blood_splash]
+[wt 2.2]
+
+[se ad240]
+[fowardEffect bit_talk_35]
+[wt 0.4]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.4 1]
+[charaShake B 0.05 2 2 0.4]
+[wt 0.8]
+
+＠欧若拉
+[line 3]，啊？
+[k]
+
+[messageOff]
+[wt 0.6]
+[charaMove B 0,-10 0.4]
+[charaFadeout B 0.4]
+[wt 0.3]
+[se ad144]
+[wt 0.4]
+
+[overlayFadein D 0.1 0,-840]
+[overlayFadein E 0.1 0,840]
+[charaMove D 0,-740 3.0]
+[charaMove E 0,540 3.0]
+[cameraMove 3.0 0,100 1.15]
+
+[wt 2.5]
+
+[charaTalk A]
+[charaFace A 18]
+[charaFadein A 0.4 1]
+[wt 1.4]
+
+[bgm BGM_EVENT_123 0.1]
+
+＠妖精骑士兰斯洛特
+……不可能。[r]……这当然不可能……
+[k]
+
+[messageOff]
+[wt 0.4]
+[cameraMove 2.0 0,0 1.2]
+[charaMove D 0,-960 5.0]
+[charaMove E 0,960 5.0]
+[wt 4.5]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+＠妖精骑士兰斯洛特
+这是，不可能的啊……！
+[k]
+
+＠妖精骑士兰斯洛特
+你不可能在外部世界受到喜爱……！[r]因为只有在这里，你才可能成为第一……！
+[k]
+
+＠妖精骑士兰斯洛特
+泛人类史并不像不列颠这么单纯，[r]你是个祸害这种事很快就会被看穿……！
+[k]
+
+＠妖精骑士兰斯洛特
+你以为自己能在那样的世界中活下去吗！？[r]就凭没有干净的水就活不下去的你！
+[k]
+
+＠欧若拉
+[line 6]。
+[k]
+
+＠妖精骑士兰斯洛特
+你的翅膀，你的容貌都会立刻褪色衰老！[r]最无法忍受那种[line 3]
+[k]
+
+[charaFace A 14]
+
+＠妖精骑士兰斯洛特
+……最无法忍受那种事的就是你自己。[r]你将无法爱上自己，深陷绝望。
+[k]
+
+＠妖精骑士兰斯洛特
+但还是会继续欺骗自己，[r]用与现在相距甚远的样貌，过着一如既往的生活[line 3]
+[k]
+
+＠妖精骑士兰斯洛特
+每当迎来清晨，在镜子前反复死去。
+[k]
+
+[charaFace A 13]
+
+＠妖精骑士兰斯洛特
+……这对其他妖精来说，[r]也许是没什么大不了的日常。
+[k]
+
+＠妖精骑士兰斯洛特
+但对你来说，却是最为残酷的折磨。
+[k]
+
+＠妖精骑士兰斯洛特
+那是个让你无法下决心去死，[r]为与日俱增的绝望哭得昏天黑地，
+[k]
+
+＠妖精骑士兰斯洛特
+却还抱有不切实际的幻想，紧抓着遥不可及的荣光，[r]不断憎恨着自己的焕然一新的地狱。
+[k]
+
+[charaFace A 18]
+
+＠妖精骑士兰斯洛特
+这[line 3]这种事[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.3]
+
+[charaTalk I]
+[charaFadein I 1.0 0,-300]
+[wt 1.4]
+
+＠欧若拉
+……呵呵。[r]你在，说什么，呢，梅柳齐娜。
+[k]
+
+＠欧若拉
+说这种，不可能存在的未来。[r]真是个过分的，冒牌，妖精。
+[k]
+
+＠欧若拉
+日渐，变得凄惨的自己，可是，[r]比死，还要恐怖，的哦？
+[k]
+
+＠欧若拉
+……啊啊……比起，那种事[line 3][r]还是，赶快，带我，走吧[line 3]
+[k]
+
+＠欧若拉
+去往，外部世界[line 3][r]去往，被大家喜爱的，每一天[line 3]
+[k]
+
+＠欧若拉
+你不就是，为我，而活着，的吗？
+[k]
+
+[messageOff]
+[charaFadeout I 0.4]
+[wt 0.7]
+
+[charaTalk J]
+[charaFadein J 1.0 0,-300]
+[wt 1.4]
+
+＠妖精骑士兰斯洛特
+……没错。
+[k]
+
+＠妖精骑士兰斯洛特
+如果在下是为自己而活着的生物，[r]那该有多好。
+[k]
+
+＠妖精骑士兰斯洛特
+如果那样[line 3][r]无论做什么，在下都会让你继续活下去。
+[k]
+
+＠妖精骑士兰斯洛特
+因为一旦你不在了，在下便会变回肉块。[r]然而[line 3]
+[k]
+
+[messageOff]
+[charaFadeout J 0.4]
+[wt 0.5]
+[se ade321]
+[seVolume ade321 0 0.6]
+[wt 1.0]
+
+＠妖精骑士兰斯洛特
+在下，只能，为你而活。[r]为了你，在下决不能，带你去往[#地狱:未来]。
+[k]
+
+＠妖精骑士兰斯洛特
+……呜咕。[r]…………呜呜，啊啊啊，啊，啊[line 3]
+[k]
+
+＠妖精骑士兰斯洛特
+[line 3]呜，呜呜，哇[line 3][r]啊……啊…………[line 6]
+[k]
+
+＠妖精骑士兰斯洛特
+…………啊啊。
+[k]
+
+＠妖精骑士兰斯洛特
+……哪怕是现在这种时候，都能想起来。[r]永远永远，都浮现在眼前。
+[k]
+
+＠妖精骑士兰斯洛特
+……造访昏暗沼泽的风。[r]辉煌灿烂，极光的你。
+[k]
+
+＠妖精骑士兰斯洛特
+[line 3]发誓过要穷极一生去守护的，我的一切。
+[k]
+
+＠妖精骑士兰斯洛特
+……我爱你，欧若拉。[r]……我是爱着你的，欧若拉。
+[k]
+
+＠妖精骑士兰斯洛特
+[line 3]纵使，[r]我会失去[#这份爱:这副样貌]。
+[k]
+
+[messageOff]
+[se ad171]
+[wt 1.0]
+[se ad161]
+[fowardEffect bit_talk_35]
+[wt 1.8]
+
+＠欧若拉
+[line 6]。
+[k]
+
+[messageOff]
+[wt 0.4]
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.4 1]
+[wt 0.8]
+[se ad1049]
+[seVolume ad1049 0 0.1]
+[seVolume ad1049 0.7 0.2]
+[charaMove A 15,0 0.4]
+[charaShake A 0.03 0 1 0.4]
+[wt 0.7]
+[seStop ad1049 0.1]
+[charaMove A 30,0 0.4]
+[charaShake A 0.03 0 1 0.4]
+[wt 0.7]
+[se ad1049]
+[seVolume ad1049 0 0.1]
+[seVolume ad1049 0.7 0.2]
+[charaMove A 45,0 0.4]
+[charaShake A 0.03 0 1 0.4]
+[wt 1.0]
+[seStop ad1049 0.1]
+[charaMove A 45,-20 0.4]
+[charaFadeout A 0.4]
+[wt 0.4]
+[se ad144]
+[seVolume ad144 0 0.5]
+[wt 1.5]
+
+[se ad768]
+[seVolume ad768 0 0.3]
+[wt 1.5]
+[seStop ad768 1.0]
+
+＠？？？
+[line 3]啊，啊[line 3]
+[k]
+
+＠？？？
+[line 3]AaAaAa，Aa[line 3]
+[k]
+
+＠？？？
+[line 3]Aaaaaaaaaaaa[line 3]
+[k]
+
+[messageOff]
+[wt 0.5]
+[se ad690]
+[se ad978]
+[shake 0.03 3 3 1.0]
+[effect bit_talk_black_mist]
+[wt 1.0]
+
+[se ad906]
+[se ade343]
+[wt 1.5]
+
+[seStop ade343 1.0]
+[se ad609]
+[fadeout white 1.0]
+[shake 0.03 3 3 1.0]
+[wait fade]
+
+[wt 0.7]
+[se ade437]
+[wt 0.4]
+[se ade437]
+[wt 0.7]
+
+[effectDestroy bit_talk_black_mist]
+[se ad913]
+[bgmStop BGM_EVENT_123 3.0]
+[wt 4.0]
+
+[scene 10000]
+[fadein white 2.0]
+[wait fade]
+[fadeout black 0.1]
+[wait fade]
+[wt 0.5]
+
+[soundStopAll]
+[end]
+

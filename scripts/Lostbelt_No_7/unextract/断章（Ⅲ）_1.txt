@@ -1,0 +1,295 @@
+
+
+
+＄03-00-13-17-1-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098253300 1 神官乌库伯]
+[charaSet B 1098253910 1 伊斯卡利]
+[charaSet C 1098252540 1 奥塞洛特尔1]
+[charaSet D 1098252540 1 奥塞洛特尔2]
+[charaSet E 1098252550 1 奥塞洛特尔3]
+[charaSet F 1098252540 1 奥塞洛特尔4]
+[charaSet G 1098252540 1 奥塞洛特尔5]
+[charaSet H 1098252550 1 奥塞洛特尔6]
+[charaScale C 0.8]
+[charaScale D 0.8]
+[charaScale E 0.8]
+[charaScale F 0.9]
+[charaScale G 0.9]
+[charaScale H 0.9]
+
+[sceneSet Q 169101 1]
+[charaScale Q 1.3]
+
+[pictureFrame cut063_cinema]
+
+[scene 169101]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad117]
+[wt 2.5]
+
+[cueSe Servants_404400 m45205]
+[wt 0.4]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.4 0,70]
+[charaMove A 0,-20 0.3]
+[wt 0.2]
+[charaMove A 0,-50 0.4]
+[wt 0.8]
+[charaCrossFade A 1098253310 0 0.4]
+[wait charaCrossFade A]
+
+＠神官乌库伯
+给我出来，奥塞洛特尔。[r]我知道你们躲在这里。
+[k]
+
+＠神官乌库伯
+迪诺斯的感知能力可不是你们这群猴子能比的。[r]我一个人也能瞬间宰掉你们那边的六只。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth C 2]
+[charaDepth D 2]
+[charaDepth E 3]
+[charaDepth F 4]
+[charaDepth G 4]
+[charaDepth H 5]
+[charaDepth B 6]
+[charaFadein Q 0.5 100,-200]
+[wt 0.7]
+[charaFadeout A 0.1]
+[charaSet A 1098253300 1 神官乌库伯]
+
+[se ade255]
+[wt 0.7]
+[se ad443]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSR D 0.3 250,-100]
+[charaMoveFSR D 300,-100 0.3]
+[wt 0.1]
+[se ad444]
+[charaFadein E 0.3 -100,-100]
+[charaMove E -50,-100 0.3]
+[wt 0.1]
+[seStop ad443 0.5]
+[seStop ad444 0.5]
+[charaFadeinFSL C 0.3 -450,-100]
+[charaMoveFSL C -400,-100 0.3]
+[wt 0.8]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[se ade255]
+[charaMove Q 0,-200 0.6]
+[charaMoveScale Q 1.2 0.6]
+[wt 0.8]
+
+[se ad443]
+[charaFace F 0]
+[charaFace G 0]
+[charaFace H 0]
+[charaFadeinFSL F 0.3 -250,-75]
+[charaMoveFSL F -300,-75 0.3]
+[wt 0.1]
+[se ad444]
+[charaFadein H 0.3 100,-75]
+[charaMove H 50,-75 0.3]
+[wt 0.1]
+[seStop ad443 0.5]
+[seStop ad444 0.5]
+[charaFadeinFSR G 0.3 450,-75]
+[charaMoveFSR G 400,-75 0.3]
+[wt 1.5]
+
+[se ad527]
+[seVolume ad527 0 0]
+[seVolume ad527 1.0 1.0]
+[wt 1.3]
+
+[seStop ad527 0.5]
+[charaScale B 1.2]
+[charaFace B 0]
+[charaFadein B 0.4 50,-50]
+[charaMove B 0,-50 0.4]
+[wt 1.0]
+
+[bgm BGM_MAP_67 0.1]
+
+[charaTalk on]
+[charaTalk B]
+
+＠伊斯卡利
+……按照约定独自来了啊。[r]好吧，那我尊重你，神官长乌库伯。
+[k]
+
+＠伊斯卡利
+战士们啊，退下吧。[r]接下来是王与王之间的对话。
+[k]
+
+[messageOff]
+[charaFadeout Q 0.5]
+[charaFadeout F 0.5]
+[charaFadeout G 0.5]
+[charaFadeout H 0.5]
+[charaFadeout B 0.5]
+[wt 0.7]
+[charaScale B 1.0]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+[wt 0.2]
+[charaShake A 0.02 1 1 0.2]
+
+＠神官乌库伯
+[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠伊斯卡利
+怎么了。称你为王还为时尚早吗？[r]还是说，你还没做好觉悟？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0,-50]
+
+＠神官乌库伯
+不，不对，并不是这样。[r]我是王。没错，是配当迪诺斯之王的人。
+[k]
+
+＠神官乌库伯
+『[#太阳的教诲:库库尔坎]』不能信任。[r]库库尔坎选中的恐龙王也一样。
+[k]
+
+＠神官乌库伯
+迪诺斯是米克特兰最优秀的物种。[r]是迈雅创造出来的理想人类。
+[k]
+
+[charaFace A 2]
+
+＠神官乌库伯
+另一方面，你们奥塞洛特尔则是[r]没有获得任何迈雅加护的劣等物种。
+[k]
+
+[charaFace A 1]
+
+＠神官乌库伯
+你我原本是不该像这样交谈的。[r]只不过[line 3]
+[k]
+
+[charaFace A 4]
+
+＠神官乌库伯
+如果你们的目的是延续米克特兰的寿命，[r]那我就故意犯下愚行好了。
+[k]
+
+＠神官乌库伯
+奥塞洛特尔之王，伊斯卡利啊。[r]如果你们真的能拯救太阳，
+[k]
+
+＠神官乌库伯
+我就把太阳遍历、奇琴伊察，[r]还有泛人类史的舰艇都给你们。如何？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠伊斯卡利
+哼。[r]你想说的不是“给你们”，而是“帮忙收拾掉”吧。
+[k]
+
+＠伊斯卡利
+用不着你提醒。[r]米克特兰不需要两座首都。
+[k]
+
+＠伊斯卡利
+我会多少为迪诺斯留些活口的。[r]但奇琴伊察必须毁灭。
+[k]
+
+＠伊斯卡利
+那是卡恩王国的遗物。是你口中的劣等物种[r]为求在米克特兰生存下去而构筑的智慧结晶。
+[k]
+
+＠伊斯卡利
+不是什么都拥有、什么都不需要的你们[r]有资格使用的东西。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0,-50]
+
+＠神官乌库伯
+…………
+[k]
+
+[charaFace A 3]
+
+＠神官乌库伯
+也罢，我会向大平原的斗士职颁布假命令。[r]接下来就取决于你们了。
+[k]
+
+＠神官乌库伯
+你们就破坏城墙，攻入祭坛吧。[r]不过，舰艇怎么办？　搬得动吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠伊斯卡利
+哦[line 3]我们不需要那玩意。[r]会当场破坏到不留痕迹。
+[k]
+
+＠伊斯卡利
+对手是泛人类史，[r]特拉洛克神也愿意屈尊驾临。
+[k]
+
+＠伊斯卡利
+迦勒底的御主好像不在呢，真可惜。[r]真想当着那家伙的面将那什么希望之舰砸得粉碎。
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_MAP_67 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

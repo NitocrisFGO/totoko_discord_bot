@@ -1,0 +1,130 @@
+
+
+＄03-00-13-18-2-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098226410 1 高扬斯卡娅]
+[charaSet B 6047001 1 特斯卡特利波卡]
+[charaSet C 6047001 1 特斯卡特利波卡_剪影]
+[charaFilter C silhouette 00000080]
+[charaScale B 1.2]
+[charaScale C 1.2]
+
+[sceneSet P 169502 1]
+[charaScale P 1.2]
+
+[pictureFrameTop cut063_cinema]
+
+[scene 169502]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_BATTLE_184 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 0,-50]
+
+＠高扬斯卡娅
+竟然给我的坦克安上了那种特殊功能……[r]奥塞洛特尔的技术成长真是不容小觑。
+[k]
+
+[charaFace A 16]
+
+＠高扬斯卡娅
+然而，还完全在预料范围内。敌方规模为20支小队。[r]这样算来，其中四成靠我一个就能对付[line 3]
+[k]
+
+[bgmStop BGM_BATTLE_184 1.0]
+
+[se ad60]
+[seVolume ad60 0 0]
+[seVolume ad60 1.0 1.0]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth P 1]
+[charaDepth B 2]
+[charaDepth C 3]
+[charaFadein P 1.0 0,-250]
+[wt 1.3]
+
+[seStop ad60 0.4]
+
+[charaFace C 0]
+[charaFadein C 0.4 0,50]
+[wt 0.7]
+
+[bgm BGM_EVENT_114 0.1]
+
+＠？？？
+[#不会双方都支持]？[r]怎么，你是真的已经隐居了吗，Beast？
+[k]
+
+＠？？？
+对恶人而言，战争当然越漫长、越激烈越好。
+[k]
+
+＠？？？
+NFF服务是为人类欲望服务的[#慈善事业:Volunteer]。[r]是予取予求地提供武器的战争贩子。
+[k]
+
+＠？？？
+换言之，跟我一样是[#死亡商人]。[r]是这样吧，[#兔子:Tochtli]。
+[k]
+
+＠？？？
+只要贯彻助人行善就能成为好商人？　少来这套。[r]那样可是会寂寞至死的哦。
+[k]
+
+[messageOff]
+[charaFace B 8]
+[charaFadein B 0.1 0,50]
+[wt 0.1]
+[charaFace A 31]
+[charaMove P 0,-300 2.0]
+[charaMove B 0,-50 2.0]
+[charaMove C 0,-50 2.0]
+[charaFadeout C 0.7]
+[wt 3.5]
+
+[charaFadeout P 0.5]
+[charaFadeout B 0.5]
+[wt 0.7]
+[charaScale B 1.0]
+
+[charaTalk on]
+[charaTalk A]
+
+＠高扬斯卡娅
+黑色[line 3]特斯卡，特利波卡。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 0,-50]
+
+＠特斯卡特利波卡
+[line 3]好了。
+[k]
+
+＠特斯卡特利波卡
+这是迪诺斯与奥塞洛特尔的战争。[r]与此无关的野兽还是剥掉皮摆上餐桌吧。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_114 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,860 @@
+
+
+
+＄03-00-13-20-6-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253050 1 卡玛佐茨]
+[charaSet B 1098257910 1 玛修]
+[charaSet C 1098255200 1 哈贝特洛特]
+[charaSet D 1098257300 1 达·芬奇]
+[charaSet E 1098253800 1 瓦克昌]
+[charaSet F 1098252900 1 特佩乌]
+[charaSet G 11015000 1 尼托克丽丝·Alter]
+[charaSet H 1098255300 1 尼托克丽丝]
+[charaSet I 1098253300 1 神官乌库伯]
+
+[charaSet S 98115000 1 特效用dummy]
+
+[imageSet T cut443_kms 1]
+[sceneSet U 10000 1]
+[sceneSet V 174200 1]
+
+[bgm BGM_BATTLE_184 0.1]
+
+[scene 10000]
+
+[wt 0.5]
+
+[fadein black 0.5]
+[wait fade]
+
+[se ad240]
+[effect bit_talk_blood_stay]
+
+[wt 1.2]
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 174200]
+
+[effectStop bit_talk_blood_stay]
+[effectDestroy bit_talk_blood_stay]
+
+[charaScale V 1.3]
+[charaScale U 1.3]
+[charaScale T 1.65]
+
+[charaTalk depthOff]
+
+[charaDepth V 2]
+[charaDepth U 3]
+[charaDepth T 4]
+
+[charaFadein V 0.1 -50,-200]
+[charaFadeTime U 0.1 0.6]
+
+[charaTalk T]
+[charaFace T 0]
+[charaFadein T 0.1 -50,0]
+
+[wt 0.1]
+
+[charaMove T -100,0 2.7]
+[charaMove V -100,-200 2.7]
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+[fadeout black 0.7]
+[wait fade]
+
+[charaTalk T]
+[charaFace T 0]
+[charaFadein T 0.1 50,-300]
+
+[charaFadein V 0.1 50,-200]
+
+[charaMove T 50,-300 0.1]
+[charaMove V 50,-200 0.1]
+[wt 0.1]
+
+[charaMove T 100,-300 2.7]
+[charaMove V 100,-200 2.7]
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.0]
+
+[fadeout black 0.7]
+[wait fade]
+
+[cameraMove 0.1 0,0 1.05]
+[charaFadeout U 0.1]
+[charaFadeout V 0.1]
+
+[charaTalk T]
+[charaFace T 0]
+[charaFadein T 0.1 0,-250]
+[wt 0.1]
+
+[cameraMove 2.8 0,0 1.00]
+[fadein black 1.8]
+[wait fade]
+[wt 1.2]
+
+[charaShake T 0.02 2 2 0.4]
+＠卡玛佐茨
+噢，噢噢……啊，哈啊啊啊啊[line 3]！
+[k]
+
+[charaFadeout T 0.2]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 28]
+[charaFadein B 0.1 1]
+＠玛修
+敌方Beast个体，健在！[r]还没能彻底瘫痪他的战斗力……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠哈贝特洛特
+不在这里做个了断就无路可退了！[r][%1]！
+[k]
+
+？1：……我知道！
+？2：……卡玛佐茨……！
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠卡玛佐茨
+呼，呼…………[r][line 3]，[wt 0.5][messageShake 0.05 4 3 0.3]！
+[k]
+
+[messageOff]
+[wipeout rectangleStripUpToDown 0.4 1.0]
+[bgm BGM_BATTLE_184 0.6 0.5]
+[wait wipe]
+
+[charaFadeout A 0.1]
+
+
+[scene 170301]
+
+[charaPut H 2000,2500]
+[charaEffectEdgeBlur H FFEF20]
+
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 1]
+[wt 0.5]
+
+[bgm BGM_BATTLE_184 0.6 1.0]
+[wipein rectangleStripDownToUp 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+[se ad952]
+[seVolume ad952 0 0.5]
+[se ad948]
+[seVolume ad948 0 0.7]
+[se ade404]
+[seVolume ade404 0 0]
+[seVolume ade404 0.4 0.2]
+
+[effect bit_talk_22]
+[charaEffectEdgeBlur G FFEF20]
+[wt 1.0]
+[wt 1.4]
+
+[se ad149]
+[se ad934]
+[fadeout white 0.3]
+[seStop ade404 0.3]
+[seStop ad948 0.3]
+[seStop ad952 0.3]
+[wait fade]
+
+[charaFadeout G 0.1]
+[charaPut G 2000,2500]
+[charaEffectEdgeBlurStop G]
+
+[charaTalk H]
+[charaFace H 17]
+[charaFadein H 0.1 1]
+[wt 1.5]
+
+[fadein white 1.0]
+[wt 0.7]
+[charaEffectEdgeBlurStop H]
+[wait fade]
+[wt 1.4]
+
+[charaShake H 0.01 1 2 0.4]
+[wt 0.9]
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 0.4 1.0]
+[charaPut S 1]
+[effect bit_talk_43h_fs 0,0 V]
+[charaAttack H normal 0,-200 0.5]
+[charaFadeout H 0.5]
+[wt 0.8]
+
+
+[wipeout rectangleStripDownToUp 0.4 1.0]
+[bgm BGM_BATTLE_184 0.6 0.5]
+[seStop ad556 1.0]
+[wait wipe]
+
+[effectDestroy bit_talk_43h_fs]
+[charaPut H 2000,2500]
+[charaPut S 2000,2500]
+[charaEffectDestroy S bit_talk_43h_fs]
+
+[scene 174200]
+[wt 0.6]
+
+[bgm BGM_BATTLE_184 0.6 1.0]
+[wipein rectangleStripUpToDown 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk D]
+[charaFace D 25]
+[charaFadein D 0.1 1]
+＠达·芬奇
+尼托克丽丝！？[r]失去意识了吗！？
+[k]
+
+＠达·芬奇
+那位置，不好！[r]要掉进谷底了！　瓦克昌，赶快！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠瓦克昌
+噢噢噢噢，就算不可能我也要做到给你看[line 5]！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠卡玛佐茨
+哈[line 3][wt 0.6][charaFace A 2][messageShake 0.05 4 3 0.4]呜啊啊啊啊啊啊！
+[k]
+
+[messageOff]
+[se ade216]
+[charaMove A 0,5 0.1]
+[wt 0.2]
+[charaMove A 0,-100 0.4]
+[cueSe SE_21 21_ad1078]
+[charaDepth S 8]
+[charaDepth A 6]
+[charaPut S 1]
+[charaSpecialEffect A erasure 0,0 0.3]
+
+[wipeout rectangleStripDownToUp 0.4 1.0]
+[bgmStop BGM_BATTLE_184 2.0]
+[wait wipe]
+
+[wt 0.5]
+[wait charaSpecialEffect A]
+
+[effect bit_talk_43h_fs 0,0 V]
+[charaFadeout A 0.1]
+[charaEffectDestroy S bit_talk_quickmove]
+
+
+[scene 10000]
+[wt 0.2]
+
+[charaRoll H 180]
+[charaRoll A 180]
+
+[charaTalk off]
+[charaDepth S 9]
+[charaDepth H 8]
+[charaDepth A 7]
+
+[charaPut S 1]
+[charaEffect S bit_talk_43h_fs]
+[charaScale H 1.1]
+[charaScale A 1.1]
+
+[charaFace H 17]
+[charaFadein H 0.1 0,-350]
+[charaShake H 0.01 1 1 0]
+[se ad1022]
+[seVolume ad1022 0 0]
+[wt 0.3]
+
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 0.4 0.3]
+[seVolume ad1022 0.4 0.2]
+[charaMove H 0,-450 3.2]
+[wipein rectangleStripUpToDown 0.4 1.0]
+[wait wipe]
+[wt 2.0]
+
+[cueSe Servants_404400 m45205]
+[charaFace A 0]
+[charaFadein A 0.4 -80,-300]
+[charaAttack A normal -80,-500 0.4]
+[wt 1.0]
+
+[charaMove A -30,-500 0.25]
+[wt 0.1]
+[se ad977]
+[seVolume ad977 0 0.6]
+[charaShake H 0.02 3 4 0.35]
+[wt 1.4]
+
+[se ade338]
+[seVolume ade338 0 0.5]
+[charaAttack H normal 0,-700 0.5]
+[charaAttack A normal -30,-700 0.5]
+[charaFadeout A 0.5]
+[charaFadeout H 0.5]
+[wt 0.7]
+
+[wipeout rectangleStripUpToDown 0.4 1.0]
+[seStop ad1022 0.6]
+[seStop ad556 0.6]
+[seStop ade338 1.0]
+[wait wipe]
+
+[charaRoll H 0]
+[charaRoll A 0]
+
+[charaScale H 1.0]
+[charaScale A 1.0]
+[effectDestroy bit_talk_43h_fs]
+[charaPut S 2000,2500]
+[charaEffectDestroy S bit_talk_43h_fs]
+
+[scene 174200]
+[wt 0.6]
+
+[wipein rectangleStripDownToUp 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠特佩乌
+卡玛佐茨抱着尼托克丽丝掉下去了？[r]不过……那才那模样就像是……
+[k]
+
+？1：赶快！
+？2：……（看上去就像是在保护尼托克丽丝……）
+
+？！
+
+[messageOff]
+[charaFadeout F 0.1]
+
+[se ad667]
+[se ad769]
+[cueSe SE_22 22_ad1210]
+[cueSe SE_22 22_ad1219]
+[cueSeVolume 22_ad1219 0 0.7]
+[wt 0.1]
+
+[fadeout black 1.5]
+[seStop ad667 1.5]
+[seStop ad769 1.5]
+[cueSeStop 22_ad1210 1.5]
+[cueSeStop 22_ad1219 1.5]
+[wait fade]
+
+[scene 10000]
+[se ad1022]
+[seVolume ad1022 0 0]
+[wt 1.5]
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.5 0.4]
+[seVolume ad1022 1.5 0.4]
+[fadein black 1.5]
+[wait fade]
+[wt 1.0]
+[seVolume ad556 2.0 0.1]
+[seVolume ad1022 2.0 0.1]
+
+[bgm BGM_EVENT_75 0.1]
+
+＠？？？
+说你“愚蠢至极”似乎言之过早了呢。[r]以至于，我现在都想不出程度更重的形容了。
+[k]
+
+＠？？？
+竟然主动挖出了心脏。[r]连我也不会挑战这种事，我怕痛。
+[k]
+
+＠？？？
+……女王啊，我要订正一个你的错误。[r]无论是谁死去，我都不会难过。
+[k]
+
+＠？？？
+面临物种灭绝的100万民众，[r]悲泣、喜泪、恸哭、恍惚。
+[k]
+
+＠？？？
+哭喊着“不想让你死”并投身炉中的亲子。[r]欢笑着“请您拯救吧”并投身炉中的战士们。
+[k]
+
+＠？？？
+我在熔炉底部，用失去手脚化作肉块的身躯，[r]一直见证着这些光景，
+[k]
+
+＠？？？
+可我的精神却很平稳。[r]只有“啊啊，死了吗”这点程度的感想。
+[k]
+
+＠？？？
+那家伙的死是那家伙的人生。
+[k]
+
+＠？？？
+就算在我眼前献上生命，[r]也与以往的日常光景没什么两样。
+[k]
+
+＠？？？
+从来如此。无论父母、妻子，还是朋友，[r]无论谁死去，悲伤都不会降临我心。
+[k]
+
+＠？？？
+我明明会因虚构的故事而感动落泪。
+[k]
+
+＠？？？
+这是真的，[r]无论谁死，我都不会产生罪孽的意识。
+[k]
+
+＠？？？
+我对他人的死，与自己的死，都麻木不仁。[r]因此我才会当上王。
+[k]
+
+＠？？？
+[line 3]是真的。还同时思考着该怎样做，[r]才能像[#人类:大家]一样流泪。
+[k]
+
+＠？？？
+说来奇怪。[r]这样的我，却不明所以地，担心起了一个女人。
+[k]
+
+＠？？？
+……啊啊，不过。[r]能回想起来，是件，好事。
+[k]
+
+＠？？？
+消逝的时间就在我眼前。[r]失去的东西一遍又一遍，一遍又一遍美丽地复苏。
+[k]
+
+[bgmStop BGM_EVENT_75 2.0]
+＠？？？
+[line 3]原来如此。
+[k]
+
+＠？？？
+[line 3]虽然不到永恒[line 3]
+[k]
+
+＠？？？
+[line 3]原来在事情过后仍活着，就是这么回事啊。
+[k]
+
+[messageOff]
+[seVolume ad1022 0.8 0.7]
+[seVolume ad556 0.8 0.8]
+[wt 1.2]
+
+[se ade338]
+[wt 0.8]
+
+[seStop ade338 0.2]
+[seStop ad1022 0.2]
+[seStop ad556 0.2]
+
+[cueSe Servants_9943340 m06312]
+[cueSeVolume m06312 0 0.5]
+[cueSe Servants_9944030 m89921]
+[cueSeVolume m87721 0 0.5]
+[cueSe SE_23 23_ad1243]
+[cueSeVolume 23_ad1243 0 0.5]
+
+[wt 2.5]
+[seStop 23_ad1243 2.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+
+[scene 174100]
+
+[se ad667]
+[seVolume ad667 0 0]
+[se ad769]
+[seVolume ad769 0 0]
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0]
+[cueSe SE_22 22_ad1219]
+[cueSeVolume 22_ad1219 0 0]
+[wt 2.0]
+
+[seVolume ad667 1.0 0.5]
+[seVolume ad769 1.0 0.5]
+[cueSeVolume 22_ad1210 1.0 0.5]
+[cueSeVolume 22_ad1219 1.0 0.3]
+[fadein black 1.0]
+[wait fade]
+[wt 1.5]
+
+[seStop ad667 0.3]
+[seStop ad769 0.3]
+[cueSeStop 22_ad1210 0.3]
+[cueSeStop 22_ad1219 0.3]
+[wt 0.6]
+
+[charaTalk D]
+[charaFace D 26]
+[charaFadein D 0.1 1]
+＠达·芬奇
+不会错，就在这附近！[r]但愿她在坠落过程中能醒过来[line 3]
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+[wt 1.0]
+
+
+[charaFace B 1]
+＠玛修
+找到了，是尼托克丽丝小姐！[r]没有外伤，看来平安无事！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+[charaFadeout B 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+＠尼托克丽丝
+………………
+[k]
+
+？1：尼托克丽丝[line 2]！
+？2：你没事真是太好了！
+？！
+
+[messageOff]
+[charaFace H 3]
+[wt 1.0]
+
+[bgm BGM_EVENT_116 0.1]
+
+[charaFace H 6]
+＠尼托克丽丝
+看来我害你们担心了呢。[r]魔力耗尽导致我失去了意识，掉了下去，
+[k]
+
+＠尼托克丽丝
+不过我在中途就醒了过来，勉强成功着陆了。[r]这也是奥西里斯的加护呢。
+[k]
+
+？1：那就好，但是……
+？2：卡玛佐茨呢……？
+
+？！
+
+[charaFace H 9]
+＠尼托克丽丝
+卡玛佐茨怎么了？[r]我醒来时就没看到他的踪影。
+[k]
+
+＠尼托克丽丝
+何况他不是在山顶上被大家讨伐了吗？[r]那这样就可以了。
+[k]
+
+＠尼托克丽丝
+……他永远都不会在黑暗中彷徨了。
+[k]
+
+[messageOff]
+[charaFace H 7]
+[wt 1.0]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠特佩乌
+确实已经听不到卡玛佐茨的扑翅声了。[r]充斥整座洞窟的蝙蝠气息也消失了。
+[k]
+
+[charaFace F 2]
+＠特佩乌
+米克特兰最大的威胁，[r]死神卡玛佐茨已被各位亲手打倒了。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+＠尼托克丽丝
+…………
+[k]
+
+[charaFace H 0]
+＠尼托克丽丝
+重要的是！　大家打了场精彩的胜仗呢，[r]玛修、[%1]。
+[k]
+
+＠尼托克丽丝
+这才是我的同盟者。我也倍感骄傲！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠达·芬奇
+嗯，虽说仅限于米克特兰内发展出来的人类圈，[r]但卡玛佐茨确实是Beast职阶。
+[k]
+
+＠达·芬奇
+只凭我们就击败了他简直形同奇迹。[r]这也是得益于你的帮助，尼托克丽丝。
+[k]
+
+＠达·芬奇
+虽然与Kingprotea她们一样[#异灵:Alter]化了，[r]但看来只是在限定条件下的呢。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠尼托克丽丝
+那当然。邀请阿努比神寄宿于此身这种事，[r]若不在冥界是根本承受不住的。
+[k]
+
+＠尼托克丽丝
+[FFFFFF]？[-]　怎么了，同盟者？
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[seStop ad788 1.0]
+[bgm BGM_EVENT_116 0.6 0.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+
+[scene 176100]
+
+[cameraFilter gray]
+[wt 0.7]
+
+[fadein white 0.6]
+[wait fade]
+[wt 1.5]
+
+[fadeout white 0.6]
+[wait fade]
+
+[scene 174100]
+
+[cameraFilter normal]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+[wt 0.7]
+
+[bgm BGM_EVENT_116 0.6 1.0]
+[fadein white 0.6]
+[wait fade]
+[wt 0.6]
+
+？1：……（虽然我其实并不希望她那样做，）
+？2：……（但这种发言会有损尼托克丽丝的决心。）
+？！
+
+[wt 0.5]
+
+？1：没什么[line 3]谢谢你，尼托克丽丝。
+？！
+
+[messageOff]
+[charaFace H 1]
+[wt 1.5]
+
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_116 1.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+
+[scene 151001]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+[wt 1.2]
+
+[wipeout leftToRight 1.0 1.0]
+[wt 0.3]
+[cueSe SE_22 22_ad1167]
+[wait wipe]
+
+[scene 169601]
+[wt 1.5]
+
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.4 1]
+[wt 0.8]
+
+[bgm BGM_EVENT_70 0.1]
+
+＠神官乌库伯
+连看守的迪诺斯都不在了。[r]这就是无能之辈凑一块死光的结果。白痴。
+[k]
+
+＠神官乌库伯
+恐龙王已死，斗士职也全军覆没。[r]奇琴伊察就此完蛋了。
+[k]
+
+[charaFaceFade I 2 0.2]
+＠神官乌库伯
+不，完蛋的不只是这座城市。
+[k]
+
+＠神官乌库伯
+无论是迦勒底还是[#隐匿者:Crypter]，[r]如果继续放任那些家伙不管，灭绝迟早会降临。
+[k]
+
+[charaFace I 1]
+＠神官乌库伯
+连这种道理都不明白……不，迪诺斯的生态[r]注定了他们明知如此还会放任不管。
+[k]
+
+＠神官乌库伯
+正因为自身的强大，才会缺乏求生欲与危机感。[r]我等到死都……不，是无论活多久都是这样。
+[k]
+
+＠神官乌库伯
+甚至不会拿他人与自己作比较的智慧，[r]是不可能萌生发展之芽的。
+[k]
+
+[charaFace I 0]
+＠神官乌库伯
+一年、一个月、一天、一瞬间。
+[k]
+
+＠神官乌库伯
+知晓这种恐怖的迪诺斯，到头来，[r]也只有我这个短命种了吧。
+[k]
+
+[charaFace I 4]
+＠神官乌库伯
+也罢。[r]批判[#同胞:迪诺斯]又没有什么好处。
+[k]
+
+＠神官乌库伯
+重要的是生存与改革。[r]墨西哥城有伊斯卡利为我准备好的席位。
+[k]
+
+[charaFaceFade I 6 0.2]
+＠神官乌库伯
+奥塞洛特尔似乎也需要神官的存在。[r]我要利用那群猴子，就算只剩我一个人，也要活下去。
+[k]
+
+[messageOff]
+[se ad7]
+[seVolume ad7 0 0.6]
+[se ad1006]
+[seVolume ad1006 0 0.6]
+[wt 0.05]
+[charaDepth S 9]
+[charaPut S 1]
+[charaEffect S bit_talk_quickmove]
+[charaSpecialEffect I erasureReverse 0,0 0.5]
+[wt 0.7]
+
+[se ade437]
+[wt 0.9]
+[se ade437]
+[seVolume ade437 0 0.5]
+[wt 0.4]
+
+[fadeout black 2.0]
+[wt 0.5]
+[se ade437]
+[seVolume ade437 0 0.2]
+[bgmStop BGM_EVENT_70 2.0]
+[seStop ade437 1.5]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

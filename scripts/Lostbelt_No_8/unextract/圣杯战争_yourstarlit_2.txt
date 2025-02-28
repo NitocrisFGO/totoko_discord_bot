@@ -1,0 +1,1318 @@
+
+
+
+＄04-00-02-03-2-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098269100 1 拉妮－ⅩⅡ]
+[charaSet B 1098270300 1 阿愈丝]
+[charaSet C 1098270300 1 阿愈丝2]
+[charaSet D 7046001 1 难敌]
+[charaSet E 7046001 1 难敌2]
+[charaSet F 1098270000 1 希翁]
+[charaSet G 6037000 1 迦摩]
+[charaSet H 6037000 1 迦摩_cutin]
+[charaScale H 1.2]
+[charaSet I 1098269600 1 Caster]
+[charaSet J 1098269800 1 Caster的御主]
+[charaScale J 1.2]
+[charaSet K 1098269800 1 Caster的御主_剪影1]
+[charaFilter K silhouette 00000080]
+[charaSet L 1098269800 1 Caster的御主_剪影2]
+[charaScale L 1.2]
+[charaFilter L silhouette 00000080]
+
+[sceneSet M 10000 1]
+[charaScale M 1.05]
+[sceneSet N 189700 1]
+[charaScale N 1.2]
+[sceneSet O 190500 1]
+[charaScale O 1.2]
+[sceneSet P 189700 1]
+[charaScale P 1.01]
+[sceneSet Q 189700 1]
+[charaScale Q 1.3]
+[imageSet R cut106_trans 1]
+[charaScale R 1.32]
+
+[scene 189700]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[subCameraOn 3]
+[charaLayer C sub #A]
+[charaLayer E sub #A]
+[charaLayer P sub #B]
+[charaLayer A sub #C]
+
+[subCameraFilter #A through]
+[subCameraFilter #B through]
+[subCameraFilter #C through]
+
+[charaDepth N 1]
+
+[charaDepth C 1]
+[charaDepth E 2]
+
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+[subRenderDepth #C 3]
+
+[charaScale C 1.1]
+[charaScale E 1.1]
+[charaFace E 0]
+[charaFace C 0]
+[charaFace A 0]
+[charaFadein N 0.1 50,-300]
+[charaFadein P 0.1 0,-200]
+[charaFadein E 0.1 -280,0]
+[charaFadein C 0.1 180,0]
+[charaFadein A 0.1 1]
+[subRenderFadein #A 0.1 0,0]
+[subRenderFadein #B 0.1 0,0]
+[blur lens 0.1 2 20]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_79 0.1]
+[subRenderFadein #C 0.1 0,0]
+
+＠拉妮－ⅩⅡ
+御主作为ＡＩ，身负让平面之月世界[r]恢复正常的使命。
+[k]
+
+＠拉妮－ⅩⅡ
+就算被乱数器赋予了个性，[r]这点也不会改变。
+[k]
+
+＠拉妮－ⅩⅡ
+只不过，有一个大前提[line 3][r]那就是在[#ＡＩ圣杯战争:System Grail War]中获胜的ＡＩ，
+[k]
+
+＠拉妮－ⅩⅡ
+定然会[#成为下一个综合统管ＡＩ]。
+[k]
+
+＠拉妮－ⅩⅡ
+届时将会催生出可以自行定制[r]经过版本升级后的下个世界的权利。
+[k]
+
+[messageOff]
+[charaMove N 100,-300 20.0]
+[charaMove C 230,0 20.0]
+[charaMove E -230,0 20.0]
+[subRenderFadeout #B 1.0]
+[subRenderFadeout #C 1.0]
+[wt 1.1]
+[charaFadeout P 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaLayer A normal]
+
+＠拉妮－ⅩⅡ
+如果已经藉由个性产生了愿望，[r]那获胜ＡＩ肯定能获得想要的东西吧。
+[k]
+
+＠拉妮－ⅩⅡ
+这种世界的变化与多样性是非常重要的。
+[k]
+
+＠拉妮－ⅩⅡ
+而获胜的从者也一样。
+[k]
+
+＠拉妮－ⅩⅡ
+可以作为居住于新世界的存在，[r]借助综合统管ＡＩ的权限实现愿望。
+[k]
+
+[messageOff]
+[blurOff lens 1.0]
+[charaFadeout N 1.0]
+[subRenderFadeout #A 1.0]
+[wt 1.1]
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaLayer E normal]
+[charaLayer C normal]
+[subCameraOff]
+[charaSet C 1098270300 1 阿愈丝2]
+[charaSet E 7046001 1 难敌_cutin]
+[sceneSet N 189700 1]
+[charaScale N 1.2]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+将这些实现愿望的概念[r]虚拟性地称为『圣杯』，
+[k]
+
+＠拉妮－ⅩⅡ
+这就是这种圣杯战争的命名来源。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠迦摩
+名字倒是无所谓啦……[r]如果是非ＡＩ的御主获胜会怎么样？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+综合统管ＡＩ的权利应该不会被转让吧。
+[k]
+
+＠拉妮－ⅩⅡ
+在这种情况下，[r]我保证将竭尽全力实现胜利者的愿望。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 13]
+[charaFadein G 0.1 1]
+
+＠迦摩
+唔～，原来如此。
+[k]
+
+＠迦摩
+虽说情况莫名其妙，[r]但无法确定在这里死去不会导致精神的死亡。
+[k]
+
+＠迦摩
+我们的愿望是『回到外部』。
+[k]
+
+＠迦摩
+无论是为了实现这个愿望，还是为了避免死亡[line 3][r]我们都必须打赢圣杯战争。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+的确如此。因为[#ＡＩ圣杯战争:System Grail War]的停止条件，[r]是『最后一组的诞生』，
+[k]
+
+＠拉妮－ⅩⅡ
+哪怕是原本不存在的第六组也不会被放过。[r]为了结束圣杯战争，你们必须投身战斗。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠迦摩
+这样啊。那从某种意义来说，[r]他的行为或许确实是正确的吧？
+[k]
+
+＠迦摩
+虽然我不知道[#Berserker:狂战士]方的具体愿望内容是什么。
+[k]
+
+[charaFaceFade G 15 0.2]
+
+＠迦摩
+但看来无论如何，[r]到头来彼此还是要厮杀吧？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠难敌
+啊，总算意识到了吗？[r]简单来说，就是本老爷说的那样嘛。
+[k]
+
+＠难敌
+脑袋应该像本老爷这样灵光点啦，真是的。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[blur lens 0.5 2 20]
+[subCameraOn 2]
+[charaLayer P sub #A]
+[charaLayer H sub #A]
+[charaLayer Q sub #B]
+[charaLayer E sub #B]
+
+[charaScale P 1.3]
+[charaScale E 1.2]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth P 1]
+[charaDepth Q 1]
+[charaDepth H 2]
+[charaDepth E 2]
+
+[charaFace H 5]
+[charaFace E 6]
+[charaFadein P 0.1 -190,0]
+[charaFadein Q 0.1 190,-50]
+[charaFadein H 0.1 256,270]
+[charaFadein E 0.1 -256,180]
+[wt 0.1]
+
+[subCameraFilter #A maskEdge cut359_mask02 4 243,58,128,255 0]
+[subCameraFilter #B maskEdge cut359_mask13 4 231,41,45,255 0]
+[subRenderFadein #A 0.4 -100,-472]
+[subRenderFadein #B 0.4 100,-244]
+[subRenderMove #A 0,-472 0.3]
+[subRenderMove #B 0,-244 0.3]
+[wt 1.8]
+
+[blurOff lens 0.5]
+[subRenderMove #A 100,-472 0.4]
+[subRenderMove #B -100,-244 0.4]
+[subRenderFadeout #A 0.4]
+[subRenderFadeout #B 0.4]
+[wt 0.4]
+[charaFadeout P 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaLayer P normal]
+[charaLayer Q normal]
+[charaLayer H normal]
+[charaLayer E normal]
+[subCameraOff]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+你们的记忆领域出故障了吗？
+[k]
+
+＠拉妮－ⅩⅡ
+这间教会是完全中立区域，[r]禁止一切战斗行为。
+[k]
+
+[charaFace A 11]
+
+＠拉妮－ⅩⅡ
+一旦违反规矩，全体[#警防部ＡＩ:型号Ｄ]都将集结起来，[r]拘捕，乃至于抹除你们。
+[k]
+
+＠拉妮－ⅩⅡ
+你们也会被淘汰出圣杯战争。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 15]
+[charaFadein G 0.1 1]
+
+＠迦摩
+不过，还是趁早动手比较省事吧？
+[k]
+
+[bgmStop BGM_EVENT_79 1.0]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+给我闭嘴。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth G 2]
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+[charaPut M 0,-200]
+[charaFadeTime M 0.2 0.5]
+[bgm BGM_EVENT_7 0.1 0.5]
+
+＠迦摩
+（给我闭嘴？）
+[k]
+
+
+[charaFadeout M 0.2]
+[charaFadeout G 0.2]
+[wt 0.2]
+
+[bgm BGM_EVENT_7 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+规则必须遵守，[r]算式必须准确。
+[k]
+
+＠拉妮－ⅩⅡ
+身为综合统管ＡＩ，[r]我不容许任何例外情况。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠阿愈丝
+没错，没错没错！[r]我也觉得不能在这里战斗！
+[k]
+
+[charaFace B 3]
+
+＠阿愈丝
+不，我也不是说在其他地方就可以……
+[k]
+
+[charaFace B 0]
+
+＠阿愈丝
+那个，既然是非正规的第六组，[r]就代表你们没有自己的区域吧？
+[k]
+
+[bgmStop BGM_EVENT_7 1.3]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠希翁
+这当然。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[bgm BGM_SENGOKU_1 0.1]
+
+＠阿愈丝
+那么，我们要不要[r]『在成为最后两组之前携手共斗』？
+[k]
+
+＠阿愈丝
+然后，等最后只剩下我们两组时，[r]再来一场无怨无悔的对决。关系就到那时为止！
+[k]
+
+＠阿愈丝
+你们若肯答应，我也会允许你们在[#修理部:Repair][r]分区内自由行动，就当是救了我们的谢礼。
+[k]
+
+[charaFace B 3]
+
+＠阿愈丝
+没有属于自己的区域应该会很艰难哦。[r]毕竟[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+说得对。这样会难以补充拉妮物质呢。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠迦摩
+补充拉妮物质……补充魔力啊。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+拉妮物质基本上由ＡＩ们持有。
+[k]
+
+＠拉妮－ⅩⅡ
+通过交涉或交易等行为[r]收集到的拉妮物质越多，
+[k]
+
+＠拉妮－ⅩⅡ
+给与从者的资源就会增加，[r]也就能在战斗中占据优势。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠迦摩
+说是交涉或交易，但ＡＩ们不都会为了[r]让自己领域之主获胜而行动吗？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+基本上是这样没错，[r]但ＡＩ们也被允许拥有自由意志。
+[k]
+
+＠拉妮－ⅩⅡ
+她们也拥有希望完成自身职能这种基本欲望，
+[k]
+
+＠拉妮－ⅩⅡ
+因此理论上，只要出手帮助那些基于[r]某种缘由无法完成职能的ＡＩ们，
+[k]
+
+＠拉妮－ⅩⅡ
+就有可能从自身管理范围之外的[r]ＡＩ那里获得拉妮物质。
+[k]
+
+＠拉妮－ⅩⅡ
+只要她们想要给与拉妮物质，[r]就肯定会支付吧。
+[k]
+
+[charaFace A 1]
+
+＠拉妮－ⅩⅡ
+不过[line 3]我也不否认还存在一种手段，[r]那就是直接从不愿给与的对象身上榨取拉妮物质。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠希翁
+原来如此，难怪[#Caster:魔术师]会袭击[#修理部:Repair]的ＡＩ们。
+[k]
+
+＠希翁
+他打算强行夺取相当于生命力、魔力及货币的资源。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠阿愈丝
+没错。总不能放任资源就这么被夺走嘛，[r]无论是谁，都会上前阻止吧？
+[k]
+
+＠阿愈丝
+这种手段看似轻松，其实也不轻松哦。
+[k]
+
+[charaFace B 0]
+
+＠阿愈丝
+所以，更可能实现和平转让的对象……
+[k]
+
+＠阿愈丝
+该怎么说呢，[r]拥有与自己关系融洽的ＡＩ们会更有利哦。
+[k]
+
+＠阿愈丝
+[#修理部:Repair]的孩子们已经认识你们了，[r]我觉得在各方面都会比较容易行事哦。
+[k]
+
+[charaFace B 3]
+
+＠阿愈丝
+老实说，目前[#Berserker:狂战士]的拉妮物质比较紧张。
+[k]
+
+＠阿愈丝
+赶跑[#Caster:魔术师]时消耗的分量还没补充完毕，[r]再加上刚才还打了场模拟战。
+[k]
+
+＠阿愈丝
+不回去好好补给一下，[r]下次战斗就难以为继了吧。
+[k]
+
+[charaFace B 0]
+
+＠阿愈丝
+所以我们暂时处于恢复阶段。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth N 1]
+[charaDepth C 2]
+[charaDepth M 3]
+[charaDepth D 4]
+
+[charaScale D 1.1]
+[charaScale C 1.1]
+[charaFace C 0]
+[charaFace D 8]
+[charaFadein N 1.0 70,-300]
+[charaFadein C 1.0 200,0]
+[charaFadein D 1.0 -260,0]
+[charaMove N 100,-300 0.8]
+[charaMove C 230,0 0.8]
+[charaMove D -230,0 0.8]
+[wt 1.0]
+[charaFadeout B 0.1]
+
+[charaTalk on]
+[charaTalk D]
+
+＠难敌
+喂喂，哪有人会把自己的温饱状况和盘托出啊。
+[k]
+
+[charaFace D 11]
+
+＠难敌
+吃饱喝足精力充沛的家伙，[r]和精疲力竭看上去戳一下就会倒下的家伙。
+[k]
+
+＠难敌
+强盗会盯上哪边显而易见吧。[r]如果不想被袭击，哪怕饿着肚子也要挺胸振作。
+[k]
+
+[messageOff]
+[se ad441]
+[wt 2.7]
+
+[charaFace D 12]
+
+＠难敌
+……不过，还是止不住肚子饿得咕咕叫就是了。
+[k]
+
+[charaTalk C]
+[charaFace C 0]
+
+＠C：阿愈丝
+在恢复过程中遭其他从者袭击就麻烦了，
+[k]
+
+＠C：阿愈丝
+为此，还是与[#Assassin:暗匿者]小姐联手比较放心吧？
+[k]
+
+＠C：阿愈丝
+两个人总比一个人好。[r]不仅现在这样，接下来也能放心了。
+[k]
+
+＠C：阿愈丝
+你很聪明，肯定明白我们将来[r]存在联手作战的可能性吧？
+[k]
+
+[charaTalk D]
+[charaFace D 0]
+
+＠难敌
+唔，这个嘛……也是啦。
+[k]
+
+[bgm BGM_SENGOKU_1 1.0 0.5]
+
+[messageOff]
+[cameraMove 1.0 60,-20 1.1]
+[wt 1.0]
+[charaFace D 2]
+[charaPut M 0,-200]
+[charaFadeTime M 0.2 0.5]
+
+＠难敌
+（说是联手，其实只是或许能够利用……[r]　不过基本上是一个意思啦。）
+[k]
+
+[messageOff]
+[cameraMove 1.0 0,-20 1.1]
+[wt 1.0]
+
+[charaFace D 11]
+
+＠难敌
+（话说，御主，[r]　你现在攻势相当猛烈呢，这是为什么？）
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[charaFace D 0]
+
+＠难敌
+（哦哦……是因为跟自己的『愿望』很接近吗？）
+[k]
+
+[messageOff]
+[cameraMove 1.4 60,-20 1.1]
+[wt 1.4]
+[charaFace D 2]
+
+＠难敌
+（真是的，没办法了。而且确实有好处……）
+[k]
+
+[charaFace D 7]
+
+＠难敌
+（最重要的是这个优哉游哉、[r]　一副滥好人样子的[#Assassin:暗匿者]御主。）
+[k]
+
+＠难敌
+（感觉[&他:她]不可能中途背叛我们，[r]　而且就算本老爷为最后的一对一决斗
+[k]
+
+＠难敌
+　构想出什么必胜的策略，[r]　[&他:她]也不会发现呢。）
+[k]
+
+[charaFace D 3]
+
+＠难敌
+（也就是说……本老爷……稳赚不赔！）
+[k]
+
+[bgm BGM_SENGOKU_1 1.0 1.0]
+
+[messageOff]
+[cameraHome 1.0]
+[wt 1.0]
+[charaFadeout M 0.2]
+[charaFace D 8]
+
+＠难敌
+唔唔唔唔……好吧，知道了。
+[k]
+
+＠难敌
+虽然对我们来说依然存在危险，[r]但报答相救之恩还是最重要的。
+[k]
+
+[charaFace D 10]
+
+＠难敌
+这种时候就该忍着断肠之痛！[r]以宽广的胸怀承受这种风险！
+[k]
+
+[charaFace D 7]
+
+＠难敌
+契约时限就到剩下最后两组为止，[r]就让我们跟这些家伙联合起来吧……！
+[k]
+
+[messageOff]
+[charaFadeout N 0.5]
+[charaFadeout C 0.5]
+[charaFadeout D 0.5]
+[wt 0.7]
+[charaScale D 1.0]
+
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 10]
+[charaFadein G 0.1 1]
+
+＠迦摩
+总感觉你这是在全力卖我们人情呢……
+[k]
+
+[charaFace G 7]
+
+＠迦摩
+不过我可是我，[r]是不会对你怀有丝毫感谢之情的哦？
+[k]
+
+？1：但总之还是先感谢你们愿意缔结同盟关系！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠难敌
+哈哈哈，客气客气。[r]本老爷就喜欢能为本老爷派上用场的家伙哦～？
+[k]
+
+＠难敌
+今后也要继续努力哦，唔嗯。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+？2：算是……逐渐找到逃离这里的方向了吧。
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠希翁
+……[r]……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠阿愈丝
+哇～。[r]也就是说我们又能共同行动一段时间了吧，哎嘿嘿。
+[k]
+
+[charaFace B 0]
+
+＠阿愈丝
+那么，让我们先回[#修理部:Repair]区域[r]收集拉妮物质吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠希翁
+从ＡＩ那里收集拉妮物质。[r]具体该怎么做呢？
+[k]
+
+＠希翁
+是用首席ＡＩ的权利强行征收吗？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠阿愈丝
+这……倒也不是做不到，只是难以持久，[r]可能的话，我还是想尽可能避免呢。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+ＡＩ基本都被编写得能够『报恩』或是『支付报酬』。
+[k]
+
+＠拉妮－ⅩⅡ
+ＡＩ在[#ＡＩ圣杯战争:System Grail War]期间也会活动，[r]并会遇到各式各样的问题。
+[k]
+
+＠拉妮－ⅩⅡ
+帮助她们正常活动，或是处理问题。
+[k]
+
+＠拉妮－ⅩⅡ
+这样就会获得ＡＩ的感谢，[r]自然就能收集到作为报酬的拉妮物质了吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠阿愈丝
+就是这么回事～。[r]好了，回去工作啦，工作！
+[k]
+
+[charaFace B 1]
+
+＠阿愈丝
+要忙起来啦～！
+[k]
+
+[charaFace B 0]
+
+＠阿愈丝
+感谢您的各种帮助，综合统管。[r]再会～！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠拉妮－ⅩⅡ
+不需要向我道谢。[r]这是我的职责。
+[k]
+
+[charaFace A 1]
+
+＠拉妮－ⅩⅡ
+那么各位，祝你们武运昌隆。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_SENGOKU_1 1.5]
+[wait fade]
+
+[charaTalk depthOff]
+[subCameraOn 2]
+[charaLayer A sub #A]
+[charaLayer P sub #B]
+
+[subCameraFilter #A through]
+[subCameraFilter #B through]
+
+[charaDepth N 1]
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+
+[charaScale P 1.01]
+[charaScale A 1.2]
+[charaFace A 2]
+[charaMove A -20,-50 0.1]
+[charaFadein N 0.1 -10,-300]
+[charaFadein P 0.1 0,-200]
+[subRenderFadein #A 0.1 0,0]
+[subRenderFadein #B 0.1 0,0]
+[blur lens 0.1 2 20]
+
+[pictureFrameTop cut063_cinema]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[se ad92]
+[wt 2.6]
+
+[charaMove N 0,-300 1.5]
+[charaMove A 0,-50 1.5]
+[subRenderFadeout #B 1.5]
+[wt 3.0]
+
+[bgm BGM_EVENT_1 0.1]
+
+＠拉妮－ⅩⅡ
+运行问题发起程序[line 3][r]肯定、否定、中立，票数相同。
+[k]
+
+[charaFace A 8]
+
+＠拉妮－ⅩⅡ
+……失败了。[r]无法否定行为不当的可能性。
+[k]
+
+＠拉妮－ⅩⅡ
+身为监督官，我理应保持中立，
+[k]
+
+＠拉妮－ⅩⅡ
+然而却只对他们说出了[r]“祝你们武运昌隆”这种话。
+[k]
+
+＠拉妮－ⅩⅡ
+在运行固定问候语例行程序时，[r]也许需要再追加一层检查功能。
+[k]
+
+[charaFace A 0]
+
+＠拉妮－ⅩⅡ
+不过，目前必须迅速给出调整方案才行。
+[k]
+
+＠拉妮－ⅩⅡ
+……既然对他们发言的事实无法取消，减除，
+[k]
+
+＠拉妮－ⅩⅡ
+哪怕会感到羞愧，[r]也只能做追加来扯平了。
+[k]
+
+＠拉妮－ⅩⅡ
+那么，为纠正不公平。
+[k]
+
+＠拉妮－ⅩⅡ
+身为监督官，我将关心着其他人，[r]也同样为他们送上祈祷吧[line 3]
+[k]
+
+[messageOff]
+[cameraMove 15.0 0,-10 1.1]
+[subCameraMove #A 15.0 0,-10 1.1]
+[wt 2.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_1 1.5]
+[wait fade]
+
+[pictureFrame]
+[blurOff lens 0.1]
+[cameraHome 0.1]
+[subCameraHome #A 0.1]
+[charaFadeout N 0.1]
+[subRenderFadeout #A 0.1]
+[charaScale A 1.0]
+
+[scene 189800]
+
+[charaDepth M 9]
+[charaDepth R 10]
+
+[charaPut M 1]
+[charaFadeTime M 0.1 0.6]
+[charaFadein R 0.1 0,-250]
+[wt 2.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[se ad533]
+[wt 1.0]
+
+[bgm BGM_EVENT_48 0.1]
+
+＠？？？
+嘿，还精神吗，御主？
+[k]
+
+[clear]
+
+＠？？？
+……一点儿都不精神。吵死了。
+[k]
+
+[clear]
+
+＠？？？
+那倒是正好。我对这次的相当有自信。[r]这下你肯定就能打起精神来了！　哈哈哈！
+[k]
+
+[clear]
+
+＠？？？
+……我都说了，你吵死了啦……唉……
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_48 1.0 0.5]
+[wait fade]
+
+[scene 190000]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_48 1.0 1.0]
+[wait fade]
+
+＠？？？
+咯咯咯，有意思，这世界真有意思。
+[k]
+
+＠？？？
+[#Rider:骑兵]，你也这么认为吧？
+[k]
+
+[clear]
+
+＠？？？
+我对此没什么兴趣。我是主人的道具，[r]除此以外什么都不是。
+[k]
+
+＠？？？
+道具只会在必要的时候采取必要的行动。
+[k]
+
+[clear]
+
+＠？？？
+唔？　也罢，道具就是手臂的延伸。[r]在人手不足的情况下，什么都能派上用场。
+[k]
+
+＠？？？
+啊啊该死，太有意思了，想调查的东西多得数不清。[r]这个世界的未来将会怎么样呢，喂？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_48 1.0 0.5]
+[wait fade]
+
+[scene 190200]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_48 1.0 1.0]
+[wait fade]
+
+＠？？？
+快看快看，[#Saber:剑士]，这个如何？[r]很大很漂亮吧？
+[k]
+
+[clear]
+
+＠？？？
+是啊。
+[k]
+
+＠？？？
+……可以别过于靠近我吗？[r]我不喜欢他人的体温。
+[k]
+
+[clear]
+
+＠？？？
+啊，对不起……
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_48 1.0 0.5]
+[wait fade]
+
+[scene 190500]
+
+[charaScale R 1.8]
+[charaPut R 0,-270]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_48 1.0 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[charaTalk I]
+[charaFace I 1]
+[charaFadein I 0.1 1]
+
+＠Caster
+啊啊，没错。[r]想要填饱肚子还差得远呢。
+[k]
+
+[charaFace I 0]
+
+＠Caster
+不过……这样好吗？
+[k]
+
+＠Caster
+摘取庭院里的花朵固然轻而易举，[r]但只会导致必然的荒废。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+＠Caster的御主
+这里准备的东西，[r]都是可以随意替代的便宜货。
+[k]
+
+＠Caster的御主
+除方便以外毫无意义。[r]有价值的[line 3]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth O 1]
+[charaDepth J 2]
+[charaDepth L 3]
+
+[se ad95]
+[seStop ad95 0.5]
+[charaFace K 0]
+[charaFadein K 0.4 1]
+[wt 1.4]
+
+[charaFace L 0]
+[charaFadein O 1.0 0,-250]
+[charaFadein L 1.0 0,75]
+[charaMove O 0,-300 1.5]
+[charaMove L 1 1.5]
+[wt 1.5]
+[charaFadeout K 0.1]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+[wt 0.5]
+[charaFadeout L 0.7]
+[wt 1.0]
+[charaTalk on]
+[charaTalk J]
+
+＠Caster的御主
+有价值的，只有优秀之人。
+[k]
+
+＠Caster的御主
+就只有我这样的[#英才:菁英]。
+[k]
+
+＠Caster的御主
+正因如此，[r]最为正确、最为合理的解注定只有一个。
+[k]
+
+[charaFace J 1]
+
+＠Caster的御主
+若是不够，只需从他处夺取。[r]随时随地，要多少有多少……
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgm BGM_EVENT_48 1.5 0.5]
+[wait fade]
+
+[charaFadeout O 0.1]
+[charaFadeout J 0.1]
+[charaFadeout M 0.1]
+[charaFadeout R 0.1]
+
+[scene 189700]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 0]
+[subRenderFadein #A 0.1 0,0]
+[charaMove N 0,-300 1.5]
+[cameraMove 0.1 0,-30 1.2]
+[subCameraMove #A 0.1 0,-30 1.2]
+
+[blur lens 0.1 2 20]
+
+[wipeFilter cinema 0.5 0]
+[wt 1.5]
+
+[cameraHome 60.0]
+[subCameraHome #A 60]
+[fadein black 1.5]
+[bgm BGM_EVENT_48 1.5 1.0]
+[wait fade]
+
+＠拉妮－ⅩⅡ
+……[#ＡＩ圣杯战争:System Grail War]才刚开始。[r]虽发生了小规模冲突，但还无人出局，
+[k]
+
+＠拉妮－ⅩⅡ
+正式的从者战也只发生了[r][#Berserker:狂战士]与[#Caster:魔术师]的那一场。
+[k]
+
+＠拉妮－ⅩⅡ
+然而，今后就没这么简单了吧。
+[k]
+
+＠拉妮－ⅩⅡ
+为了声援各组以便各位能尽情以完成系统为目标而战，[r]请容我再次发言。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[charaFace A 1]
+
+＠拉妮－ⅩⅡ
+祝各位武运昌隆。
+[k]
+
+＠拉妮－ⅩⅡ
+但愿在纸月之上，[r]亦有北天之星光为各位指明正确的道路[line 3]
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_48 2.0]
+[wait fade]
+[subCameraOff]
+[wipeOff]
+[blurOff lens 0.1]
+[wt 0.5]
+[soundStopAllEnd]
+[end]
+

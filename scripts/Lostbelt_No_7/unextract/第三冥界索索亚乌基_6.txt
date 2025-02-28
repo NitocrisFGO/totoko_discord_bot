@@ -1,0 +1,624 @@
+
+＄03-00-13-15-6-1
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098257300 1 达·芬奇]
+[charaSet D 1098255300 1 尼托克丽丝]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098256100 1 杜木兹]
+[charaSet G 1098257220 1 宁基伽勒]
+
+[charaSet H 1098256400 1 古伽兰那的腿1]
+[charaSet I 1098256400 1 古伽兰那的腿2]
+[charaSet J 1098256400 1 古伽兰那的腿3]
+[charaSet K 1098256400 1 古伽兰那的腿4]
+[charaSet L 1098256400 1 古伽兰那的腿5]
+[charaSet M 1098256400 1 古伽兰那的腿6]
+[charaSet N 1098256400 1 古伽兰那的腿7]
+
+[sceneSet O 173900 1]
+
+[charaTalk depthOff]
+
+[scene 173900]
+
+[cameraMove 0.1 0,0 1.01]
+[wt 0.1]
+
+[bgm BGM_BATTLE_105 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaDepth H 1]
+[charaDepth I 2]
+[charaDepth J 3]
+[charaDepth K 4]
+[charaDepth L 5]
+
+[charaScale H 1.8]
+[charaScale I 1.8]
+[charaScale J 1.8]
+
+[shake 0.02 5 5 3.5]
+
+[charaTalk off]
+[charaFadein H 0.4 -300,350]
+[charaMove H -300,300 0.4]
+[se ade311]
+[se ad882]
+[wt 1.5]
+
+[charaFadein I 0.4 300,350]
+[charaMove I 300,300 0.4]
+[se ade311]
+[se ad882]
+[wt 2.5]
+
+？1：什，什，什[line 3]
+？2：这是什么[line 4]！？
+
+？！
+
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaDepth A 4]
+[charaDepth B 3]
+
+[charaScale B 1.2]
+[charaScale A 0.9]
+
+[charaFace B 1]
+[charaFadein B 0.1 210,80]
+[wt 0.5]
+
+[charaFace A 29]
+[charaFadein A 0.2 130,-110]
+[charaMove A 180,-110 0.2]
+[se ad671]
+[seVolume ad671 0 0.5]
+[seStop ad671 1.0]
+
+[charaTalk on]
+
+＠玛修
+啊，危险，特佩乌先生！
+[k]
+
+[messageOff]
+[charaTalk off]
+
+[charaScale H 2.5]
+
+[charaDepth H 6]
+[charaFadein H 0.4 -420,550]
+[charaMove H -420,500 0.4]
+[se ade311]
+[se ad882]
+[se ad789]
+[wt 0.2]
+[shake 0.02 5 5 0.5]
+[effect bit_talk_impactlanding]
+[fadeout white 0.2]
+[se ad1015]
+[se ad1014]
+[se ad1022]
+[seStop ad1022 1.0]
+
+[charaMove B 270,130 0.5]
+[charaMove A 330,-60 0.5]
+[charaFadeout B 0.4]
+[charaFadeout A 0.4]
+[wait fade]
+[wt 0.2]
+
+[se ade338]
+[fadein white 0.2]
+[wait fade]
+
+[subCameraOn 4]
+
+[charaLayer A sub #A]
+[charaLayer B sub #A]
+[charaLayer O sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask06 3 255,255,255,255]
+
+[charaScale A 1.15]
+[charaScale B 1.25]
+[charaScale O 1.2]
+
+[charaDepth A 7]
+[charaDepth B 6]
+[charaDepth O 5]
+
+[charaFace B 1]
+[charaFadein B 0.1 0,280]
+[charaFace A 29]
+[charaFadein A 0.1 180,240]
+[charaFadein O 0.1 0,100]
+[wt 0.1]
+
+[subRenderScale #A 1.1]
+[subCameraRoll #A -5 0,0]
+
+[subRenderFadein #A 0.2 -50,-320]
+[subRenderMove #A 0,-320 0.2]
+[wt 0.4]
+
+[charaTalk on]
+
+＠玛修
+如，如果，如果能挡下一条腿就好了，[r]玛修·基列莱特光是想象这景象就已经需要竭尽全力了～！
+[k]
+
+
+[messageOff]
+[charaTalk off]
+
+[se ad75]
+[se ad1022]
+[seVolume ad1022 0 0]
+[seVolume ad1022 0.5 0.4]
+[charaFadeout H 0.4]
+
+[subCameraRollMove #A 5.0 30]
+[subCameraMove #A 5.0 0,-100 1.1]
+
+[subRenderMove #A 50,-120 0.4]
+[subRenderFadeout #A 0.4]
+[wt 1.0]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[charaFadeout O 0.1]
+[seStop ad1022 0.7]
+[seStop ad75 1.0]
+[wt 0.6]
+[charaScale B 1.0]
+[charaScale A 1.0]
+
+[charaTalk on]
+
+[charaTalk E]
+[charaFace E 15]
+[charaFadein E 0.1 -100,0]
+
+＠哈贝特洛特
+那头大得离谱的牛，[r]出现数量也多得离谱[line 3][wt 0.7][charaFaceFade E 14 0.2]呜哇[line 3]！
+[k]
+
+[messageOff]
+[charaDepth H 7]
+[charaDepth E 6]
+
+[charaTalk E,H]
+[charaFadein H 0.4 250,550]
+[charaMove H 250,500 0.4]
+[se ade311]
+[se ad882]
+[se ad789]
+[wt 0.2]
+[shake 0.02 5 5 0.5]
+[effect bit_talk_impactlanding]
+[fadeout white 0.2]
+[se ad609]
+[seStop ad609 1.0]
+[se ad1022]
+[seStop ad1022 1.0]
+[wt 0.5]
+
+[charaMove E -200,100 0.5]
+[charaFadeout E 0.4]
+[wait fade]
+[wt 0.3]
+
+[se ade338]
+[fadein white 0.2]
+[wait fade]
+
+[charaLayer E sub #B]
+[charaLayer O sub #B]
+
+[subCameraFilter #B maskEdge cut359_mask06 3 255,255,255,255]
+
+[charaScale E 1.1]
+
+[charaDepth E 6]
+[charaDepth O 5]
+
+[charaFace E 14]
+[charaFadein E 0.1 0,440]
+[charaFadein O 0.1 0,100]
+
+[subRenderScale #B 1.1]
+[subCameraRoll #B 5 -100,-50]
+[wt 0.1]
+
+[subRenderFadein #B 0.2 50,-400]
+[subRenderMove #B 0,-400 0.2]
+[wt 0.7]
+
+[se ad75]
+[se ad1022]
+[seVolume ad1022 0 0]
+[seVolume ad1022 0.5 0.4]
+[charaFadeout H 0.4]
+
+[subCameraRollMove #B 5.0 -60]
+[subCameraMove #B 5.0 0,0 1.1]
+
+[subRenderMove #B -50,120 0.4]
+[subRenderFadeout #B 0.4]
+[wt 1.0]
+[charaFadeout E 0.1]
+[charaFadeout O 0.1]
+[seStop ad1022 0.7]
+[seStop ad75 1.0]
+[wt 0.6]
+[charaScale E 1.0]
+[charaScale C 0.9]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 100,-80]
+
+＠达·芬奇
+无无，无处可逃，而且根本束手无策！[r]数据中提到的魔神柱军团就是这样的吗[line 3]！？
+[k]
+
+[messageOff]
+[charaFace C 14]
+
+[charaDepth H 7]
+[charaDepth C 6]
+
+[charaTalk C,H]
+[charaFadein H 0.4 -320,550]
+[charaMove H -320,500 0.4]
+[se ade311]
+[se ad882]
+[se ad789]
+[wt 0.2]
+[shake 0.02 5 5 0.5]
+[effect bit_talk_impactlanding]
+[fadeout white 0.2]
+[se ad609]
+[seStop ad609 1.0]
+[se ad1022]
+[seStop ad1022 1.0]
+[wt 0.5]
+
+[charaMove C 200,100 0.5]
+[charaFadeout C 0.4]
+[wait fade]
+[wt 0.3]
+
+[se ade338]
+[fadein white 0.2]
+[wait fade]
+
+[charaLayer C sub #C]
+[charaLayer O sub #C]
+
+[subCameraFilter #C maskEdge cut359_mask06 3 255,255,255,255]
+
+[charaScale C 1.1]
+
+[charaDepth C 6]
+[charaDepth O 5]
+
+[charaFace C 14]
+[charaFadein C 0.1 0,250]
+[charaFadein O 0.1 0,100]
+
+[subRenderScale #C 1.1]
+[subCameraRoll #C -5 0,0]
+[wt 0.1]
+
+[subRenderFadein #C 0.2 -50,-400]
+[subRenderMove #C 0,-400 0.2]
+[wt 0.7]
+
+[se ad75]
+[se ad1022]
+[seVolume ad1022 0 0]
+[seVolume ad1022 0.5 0.4]
+[charaFadeout H 0.4]
+
+[subCameraRollMove #C 5.0 30]
+[subCameraMove #C 5.0 0,0 1.1]
+
+[subRenderMove #C 50,-120 0.4]
+[subRenderFadeout #C 0.4]
+[wt 1.0]
+[charaFadeout C 0.1]
+[charaFadeout O 0.1]
+[seStop ad1022 0.7]
+[seStop ad75 1.0]
+[wt 0.6]
+[charaScale C 1.0]
+[charaScale D 0.9]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 -150,-80]
+
+＠尼托克丽丝
+这，这点程度，跟照顾奥斯曼狄斯大人的[r]斯芬克斯相比起来[line 3][wt 0.7][charaFace D 5]呀啊啊啊[line 2]！
+[k]
+
+[messageOff]
+[charaDepth H 7]
+[charaDepth D 6]
+
+[charaTalk D,H]
+[charaFadein H 0.4 250,550]
+[charaMove H 250,500 0.4]
+[se ade311]
+[se ad882]
+[se ad789]
+[wt 0.2]
+[shake 0.02 5 5 0.5]
+[effect bit_talk_impactlanding]
+[fadeout white 0.2]
+[se ad609]
+[seStop ad609 1.0]
+[se ad1022]
+[seStop ad1022 1.0]
+[wt 0.5]
+
+[charaMove D -250,100 0.5]
+[charaFadeout D 0.4]
+[wait fade]
+[wt 0.3]
+
+[se ade338]
+[fadein white 0.2]
+[wait fade]
+
+[charaLayer D sub #D]
+[charaLayer O sub #D]
+
+[subCameraFilter #D maskEdge cut359_mask06 3 255,255,255,255]
+
+[charaScale D 1.1]
+
+[charaDepth D 6]
+[charaDepth O 5]
+
+[charaFace D 5]
+[charaFadein D 0.1 0,240]
+[charaFadein O 0.1 0,100]
+
+[subRenderScale #D 1.1]
+[subCameraRoll #D 5 -50,0]
+[wt 0.1]
+
+[subRenderFadein #D 0.2 50,-400]
+[subRenderMove #D 0,-400 0.2]
+[wt 0.7]
+
+[se ad75]
+[se ad1022]
+[seVolume ad1022 0 0]
+[seVolume ad1022 0.5 0.4]
+[charaFadeout H 0.4]
+
+[subCameraRollMove #D 5.0 -60]
+[subCameraMove #D 5.0 0,0 1.1]
+
+[subRenderMove #D -50,120 0.4]
+[subRenderFadeout #D 0.4]
+[wt 1.0]
+[charaFadeout D 0.1]
+[charaFadeout O 0.1]
+[seStop ad1022 0.7]
+[seStop ad75 1.0]
+[wt 0.6]
+[charaScale D 1.0]
+
+[subCameraOff]
+[charaLayer A normal]
+[charaLayer B normal]
+[charaLayer E normal]
+[charaLayer C normal]
+[charaLayer D normal]
+[charaLayer O normal]
+[wt 1.0]
+
+[charaTalk depthOn]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+
+＠宁基伽勒
+哼，我不是说过了吗？[r]我是专门来踩扁你们的。
+[k]
+
+[charaFace G 2]
+
+＠宁基伽勒
+这就是我的回楼疆峡·天鸣神殿。[r]伊什塔尔将[#天之公牛:古伽兰那]当作神兽驾驭，
+[k]
+
+＠宁基伽勒
+而我则不需要只会到处大闹的神兽。[r]或者说，性价比太低了。
+[k]
+
+＠宁基伽勒
+重要的只有充当神殿支柱的腿。[r]然后[line 3]
+[k]
+
+[charaFaceFade G 16 0.2]
+
+＠宁基伽勒
+如你们所见，只要腿的话，[r]一头古伽兰那的消耗够我使役好几条腿了！
+[k]
+
+？1：竟然是只靠腿动起来的古伽兰那……！
+？2：太残忍了，你难道没有[#女神:温柔]心吗！
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠杜木兹
+一边倒，太过一边倒了。[r]没想到竟让冥界全境的古伽兰那都集结于此。
+[k]
+
+＠杜木兹
+四周转瞬间就全是由腿围成的墙壁了。[r]看来还是另寻机会为妙。
+[k]
+
+[messageOff]
+[se ad236]
+[cueSe SE_21 21_ade603]
+[fowardEffect bit_talk_smoke_pon]
+[charaCrossFade F 1098122300 0 0]
+[wait charaCrossFade F]
+[wt 1.0]
+
+＠杜木兹
+Don't give up。[r]这里是只能祈祷各位武运昌隆的杜木兹。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+[effect bit_talk_arrow_back_y 0,100 V]
+[se ad856]
+[seStop ad856 1.8]
+[wt 2.0]
+[effect bit_talk_starshine_golden -350,200]
+[se ade126]
+[seVolume ade126 0 0.6]
+[wt 2.0]
+
+？1：杜木兹[line 6]！
+？2：以惊人的空中机动飞走了……！
+
+？！
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠宁基伽勒
+嘁，让他溜了吗！
+[k]
+
+＠宁基伽勒
+不是侵吞冥界的魔力储藏库，[r]就是煽动反叛者，那家伙压根不干什么好事呢！
+[k]
+
+[charaFaceFade G 16 0.2]
+
+＠宁基伽勒
+算了，杜木兹的惩罚以后再说！
+[k]
+
+＠宁基伽勒
+结束了哦，[%1]！[r]你是逃不出古伽兰那之壁的！
+[k]
+
+＠宁基伽勒
+我要在此抓住你，[r]让你终身就任女神专属的宝石工匠！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth H 7]
+[charaDepth M 6]
+[charaDepth N 5]
+[charaDepth L 2]
+[charaDepth J 3]
+[charaDepth I 2]
+[charaDepth K 1]
+
+
+[charaScale M 1.8]
+[charaScale N 1.8]
+
+[shake 0.02 0 5 1.5]
+
+[charaTalk off]
+[charaFadein H 0.4 20,550]
+[charaMove H 20,500 0.4]
+[effect bit_talk_impactlanding]
+[se ade311]
+[se ad882]
+[se ad789]
+[wt 0.2]
+
+[charaFadein I 0.4 -180,350]
+[charaMove I -180,300 0.4]
+
+[charaFadein J 0.4 220,350]
+[charaMove J 220,300 0.4]
+[se ade311]
+[wt 0.2]
+
+[charaFadein K 0.4 -380,50]
+[charaMove K -380,0 0.4]
+
+[charaFadein L 0.4 420,50]
+[charaMove L 420,0 0.4]
+[se ade311]
+[wt 0.2]
+
+[charaFadein M 0.4 -580,350]
+[charaMove M -580,300 0.4]
+
+[shake 0.05 0 5 3.5]
+[charaFadein N 0.4 620,350]
+[charaMove N 620,300 0.4]
+[effect bit_talk_impactlanding]
+[se ade311]
+[se ad882]
+[se ad789]
+[se ad628]
+[wt 1.0]
+
+
+[fadeout white 2.0]
+[bgmStop BGM_BATTLE_105 2.0]
+[wait fade]
+
+[scene 10000]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[wt 1.5]
+
+[fadein white 1.0]
+[wait fade]
+[fadeout black 0.1]
+[wait fade]
+
+[wt 0.5]
+[soundStopAll]
+[end]
+

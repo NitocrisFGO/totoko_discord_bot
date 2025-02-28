@@ -1,0 +1,638 @@
+
+
+
+＄03-00-13-24-4-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098239310 1 卡多克]
+[charaSet B 1098255100 1 戈尔德鲁夫]
+[charaSet C 1098257920 1 玛修]
+[charaSet D 1098257300 1 达·芬奇]
+[charaSet E 1098252900 1 特佩乌]
+[charaSet F 1098256600 1 希基克]
+[charaSet G 1098252450 1 库库尔坎]
+[charaSet H 1098252940 1 特佩乌_B]
+
+[imageSet I back10000 1 1]
+[charaScale I 1.3]
+[imageSet J back10000 1 1]
+[charaScale J 1.01]
+[imageSet K back10000 1 1]
+[charaScale K 1.01]
+
+[sceneSet M 174701 1 1]
+
+[sceneSet O 142000 1]
+[sceneSet P 142000 1]
+
+[sceneSet Q 173601 1]
+[sceneSet R 173601 1]
+
+[charaSet S 98115000 1 特效用dummy]
+
+[scene 142000]
+
+[shake 0.01 2 2 0]
+
+[se ad729]
+[seVolume ad729 0 0]
+
+[seVolume ad729 1.5 1.0]
+[fadein black 1.5]
+[wait fade]
+[wt 1.0]
+
+？1：抱歉，我休息一会儿……！
+？！
+
+[seStop ad729 2.5]
+[shakeStop]
+
+[bgm BGM_MAP_97 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠卡多克
+不必道歉。[r]去位置上，放倒靠背躺一会儿吧。
+[k]
+
+＠卡多克
+15分钟，什么都别思考，只管休息。[r]极力避免依赖安瓿。否则事后会影响身体的。
+[k]
+
+＠卡多克
+戈尔德鲁夫司令，外面情况如何？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+＠戈尔德鲁夫
+没看到种子，现在就是机会！
+[k]
+
+＠戈尔德鲁夫
+先降低速度脱离战斗领域，[r]去到安全范围！
+[k]
+
+＠戈尔德鲁夫
+基列莱特，能听到吧！　回车内！[r]你也去休息，至少补充点营养！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaEffect S bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[wt 0.3]
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠玛修
+明白，这就前往后部舱门！
+[k]
+
+＠玛修
+达·芬奇亲，[r]奥特瑙斯的维护拜托您了！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_10_LowLevel]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+＠达·芬奇
+唉，真是的，这不就是一直维持临战态势吗！[r]等一下，我这就过去！
+[k]
+
+[messageOff]
+[se ad59]
+[charaFadeout D 0.4]
+[seStop ad59 1.2]
+[wt 1.6]
+
+[charaTalk depthOff]
+[charaDepth A 6]
+[charaDepth I 4]
+
+[charaPut I 1]
+[charaFadeTime I 0.2 0.5]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠卡多克
+（……近4小时连续战斗。[r]　虽然两人都考虑了节奏分配……）
+[k]
+
+＠卡多克
+（但这种情况还能维持多久？？[r]　能够在ORT抵达墨西哥城前阻止它吗……？）
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout I 0.2]
+[wt 0.2]
+
+[shake 0.01 1 1 0]
+[se ad729]
+[seVolume ad729 0 0]
+[seVolume ad729 1.5 0.2]
+[wt 1.8]
+
+[charaTalk depthOn]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠特佩乌
+…………
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠卡多克
+特佩乌？　怎么了，趴在窗户上。[r]是种子来了吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠特佩乌
+不，我正在观察空想树。[r]跟我们在第九层见到的不一样呢。
+[k]
+
+[messageOff]
+
+[charaFadeout E 0.4]
+[wt 0.4]
+
+[cameraMove 1.5 20,0 1.05]
+[seStop ad729 2.0]
+[wt 1.5]
+[shakeStop]
+
+
+[subCameraOn 1]
+[charaLayer M sub #A]
+[subCameraFilter #A maskEdge cut359_mask07 6 0,0,0,0 0]
+[charaScale M 1.0]
+
+[charaScale M 1.25]
+[charaFadein M 0.1 605,75]
+[charaMove M 605,-25 4.0]
+
+[subRenderFadein #A 1.5 -250,-250]
+[wt 4.5]
+
+？1：对哦，第九层那棵已经枯萎了嘛。
+？2：有什么让你这么在意？
+
+？！
+
+
+[charaScale H 1.0]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.2 300,0]
+＠H：特佩乌
+按照各位的说法，[r]是空想树在维持着异闻带吧。
+[k]
+
+＠H：特佩乌
+确实能感受到来自内部的庞大能量。[r]虽说不如米克特兰的太阳。
+[k]
+
+[charaFadeout H 0.2]
+[wt 0.2]
+
+
+[charaScale A 1.0]
+[charaTalk A]
+[charaFace A 6]
+[charaFadeinFSR A 0.1 200,0]
+＠卡多克
+相比起俄罗斯，现在杂乱林立的那些[r]就跟树梢似的。真正的空想树可大得多哦。
+[k]
+
+＠卡多克
+啊，不，空想树没有真伪可言……
+[k]
+
+[charaFadeout A 0.2]
+[wt 0.2]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.2 300,0]
+＠H：特佩乌
+没有真伪……[r]大小姑且不论，只要形状对得上就行了……
+[k]
+
+＠H：特佩乌
+树中的银河根本不可能是真正的银河，[r]我们却将它认知为银河……
+[k]
+
+＠H：特佩乌
+……『巨树内部存在银河』倒还能理解。[r]不过，这真的是异闻带的基石吗？
+[k]
+
+＠H：特佩乌
+事实上，哪怕身为空想树的ORT处于休止状态，[r]米克特兰也存续至今。
+[k]
+
+＠H：特佩乌
+是『在利用银河的能量』吧？[r]但这终究只是附带效果[line 3]
+[k]
+
+＠H：特佩乌
+关键在于『非得是银河不可』吗？[r]那些树木身为银河一事是有意义的……？
+[k]
+
+？1：……特佩乌？
+？！
+
+[messageOff]
+[subRenderFadeout #A 0.5]
+[charaFadeout A 0.5]
+[charaFadeout H 0.5]
+[shakeStop]
+[seStop ad729 1.4]
+[cameraMove 1.2 0,0 1.01]
+[wt 0.5]
+[subRenderMove #A 2000,2000 0]
+[charaFadeout M 0.1]
+[wt 0.2]
+[subCameraOff]
+[charaLayer M normal]
+[wt 0.7]
+
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+[wt 1.0]
+
+[charaFace B 13]
+＠戈尔德鲁夫
+ORT抵达第七层，前行路线不变。[r]照现状发展，将在第六层展开决战。
+[k]
+
+＠戈尔德鲁夫
+特佩乌，我们没有多余精力。[r]无法救援其他迪诺斯了。
+[k]
+
+＠戈尔德鲁夫
+我就在此下判断吧，[r]我们不可能抢先抵达梅兹蒂特兰。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaScale A 1.0]
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠卡多克
+啊。
+[k]
+
+？1：（对了，希基克……！）
+？2：（ORT的路线……与天文台重叠了……）
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠特佩乌
+我知道。[r]感谢你的关心，戈尔德鲁夫。
+[k]
+
+＠特佩乌
+就算赶得上，[r]希基克也走不出那座穹顶。
+[k]
+
+＠特佩乌
+她是无法离开那座天文台的。
+[k]
+
+＠特佩乌
+这是我和她早在很久以前[r]就已经接受的现实。
+[k]
+
+＠特佩乌
+因此，各位不必对此产生罪恶感。[r]那罪恶感是属于我的。
+[k]
+
+＠特佩乌
+这是明明想让她获得自由，却几百年来[r]都没能得出答案的我应得的报应吧。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_MAP_97 1.5]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[scene 173601]
+
+[pictureFrame cut063_cinema]
+[overlayFadein J 0.1 0,-736]
+[overlayFadein K 0.1 0,736]
+
+[se ad556]
+[seVolume ad556 0 0]
+[se ad555]
+[seVolume ad555 0 0]
+[se ad664]
+[seVolume ad664 0 0]
+[wt 1.0]
+
+[subCameraOn 1]
+[charaLayer F sub #A]
+[charaLayer Q sub #A]
+
+[charaDepth F 2]
+[charaDepth Q 1]
+
+[subCameraFilter #A maskEdge cut359_mask07 4 175,180,219,255]
+
+[charaScale F 1.2]
+[charaScale Q 1.5]
+[charaFace F 1]
+[charaFadein Q 0.1 -20,-450]
+[charaFadein F 0.1 330,-50]
+
+[seVolume ad556 1.5 0.5]
+[seVolume ad555 1.5 0.5]
+[seVolume ad664 1.5 0.5]
+[fadein black 1.5]
+[wait fade]
+[wt 0.5]
+
+[seVolume ad556 1.0 0.2]
+[seVolume ad555 1.0 0.2]
+[seVolume ad664 1.0 0.2]
+[wt 0.5]
+
+[charaTalk F]
+[subRenderFadein #A 0.6 -200,-80]
+
+[bgm BGM_EVENT_123 0.1]
+
+＠希基克
+竟然直接从正面过来。[r]我会连同这台地一起被粉碎吗？
+[k]
+
+[charaFace F 6]
+＠希基克
+呵呵，感觉有点兴奋呢。[r]这就是所谓的大场面吧。
+[k]
+
+[messageOff]
+
+[seVolume ad556 3.0 0]
+[seVolume ad555 3.0 0]
+[seVolume ad664 3.0 0]
+
+[se ad60]
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.4 300,-50]
+[wt 0.4]
+[seStop ad60 0.1]
+[wt 0.4]
+
+＠库库尔坎
+你打算坦率地迎接死亡吗。[r]这是正确的选择。
+[k]
+
+＠库库尔坎
+就算把你搬到外面去，[r]你也只能活在这座穹顶里。
+[k]
+
+＠库库尔坎
+作为Archetype诞生，[r]见证了第五纪的迪诺斯，希基克。
+[k]
+
+＠库库尔坎
+身为见证米克特兰去路的裁定者，[r]我将确认你的临终。
+[k]
+
+＠库库尔坎
+『既然ORT就是空想树，就别管ORT。』
+[k]
+
+＠库库尔坎
+『如果迦勒底打算让ORT停止活动，[r]　那就由[#我:库库尔坎]亲手抹除迦勒底。』
+[k]
+
+＠库库尔坎
+此前，迦勒底和你在这里对话时，[r]迈雅就这样决定了。
+[k]
+
+[charaFace F 4]
+
+＠希基克
+哎～。现在就我们两个人，[r]在我面前也要贯彻裁定者的架势吗？
+[k]
+
+＠希基克
+库库尔坎太一本正经了吧？[r]你不是听过泛人类史魁札尔·科亚特尔的故事了吗？
+[k]
+
+＠希基克
+迈雅们当作[#样本:原型]的她，可是那么地自由不羁。
+[k]
+
+[charaFace F 5]
+＠希基克
+到头来，无论你我，都只是没能成为[r]真品的“可能性”的存在吗？
+[k]
+
+[charaFace G 9]
+
+＠库库尔坎
+泛人类史的神，是泛人类史的神。
+[k]
+
+＠库库尔坎
+我是这异闻带的造物神。[r]作为被创造出来的存在，身负应承担的责任。
+[k]
+
+[charaFace F 0]
+＠希基克
+那我就作为朋友，作为诞生于地底世界的女儿[r]向你道别吧。
+[k]
+
+＠希基克
+迈雅，你们基于主观判断[r]让我们逃往地底，活了下来。
+[k]
+
+＠希基克
+你们对这个选择感到了后悔。[r]为了负起责任，努力了好几千万年。
+[k]
+
+＠希基克
+认为“本应有其他方法才对”，[r]“若做得跟泛人类史一样就好了”。
+[k]
+
+[charaFace F 6]
+＠希基克
+谢谢，但是已经够了。[r]我们已经足够幸福了。
+[k]
+
+＠希基克
+哪怕来自不同的星球，身为不同的生命，[r]你也是我们的母亲。
+[k]
+
+[charaFace F 7]
+＠希基克
+为孩子们的死，为未能实现的[#泛人类史:可能性]之梦感到悲伤[r]并不是什么错事吧？
+[k]
+
+[charaFace G 10]
+
+＠库库尔坎
+[line 6]
+[k]
+
+[messageOff]
+[charaTalk A]
+
+[seVolume ad556 0.8 0.5]
+[seVolume ad555 0.8 0.5]
+[seVolume ad664 0.8 0.5]
+[wt 0.9]
+[se ad913]
+[seVolume ad913 0 0.8]
+[se ad640]
+[seVolume ad640 0 0.8]
+[wt 2.5]
+
+[charaFace F 3]
+
+＠希基克
+哎哟，已经逼到眼前了呀。[r]请赶快咻～地飞走，别被牵连进来哦。
+[k]
+
+[charaFace F 7]
+＠希基克
+很高兴最后能有机会向你道谢。[r]再见了，库库尔坎。
+[k]
+
+＠希基克
+虽说我的朋友只有特佩乌哥哥，[r]和一直守望着我的[#太阳:你]，
+[k]
+
+[charaFace F 6]
+＠希基克
+但这仍是一段比其他任何人类[r]都更为波澜壮阔，都更充满爱的人生。
+[k]
+
+[messageOff]
+[charaTalk G]
+[charaFace G 9]
+[wt 1.0]
+
+[se ad678]
+[charaDepth S 9]
+[charaPut S 300,0]
+[charaRoll S 90 0,350]
+[charaEffect S bit_talk_gale 0,0 H]
+[charaSpecialEffect G erasureReverse 0,0 0.3]
+[wt 1.5]
+
+[subRenderFadeout #A 1.5]
+[wt 1.7]
+
+[bgmStop BGM_EVENT_123 1.5]
+
+[pictureFrame]
+[charaMove J 0,-850 2.0]
+[charaMove K 0,850 2.0]
+[charaFadeout J 2.0]
+[charaFadeout K 2.0]
+
+[shake 0.03 2 2 0]
+[se ad297]
+[seVolume ad297 0 0]
+[seVolume ad297 1.5 0.8]
+[seVolume ad556 1.5 0.8]
+[seVolume ad555 1.5 0.8]
+[seVolume ad664 1.5 0.8]
+[wt 1.5]
+[shake 0.03 3 4 0]
+[se ad826]
+[se ad854]
+[wt 0.8]
+[se ad914]
+[wt 0.5]
+[shake 0.03 6 5 0]
+[se ad226]
+[wt 1.2]
+[se ad285]
+[wt 0.6]
+[se ad284]
+[wt 1.0]
+
+[seStop ad285 0.5]
+[se ad477]
+[se ad733]
+[se ad744]
+[effect bit_talk_arjuna_alter_np02 0,0 V]
+[effect bit_talk_arjuna_alter_np02 0,0 F]
+
+[fadeout white 1.0]
+[wait fade]
+
+[effectDestroy bit_talk_arjuna_alter_np02]
+
+[scene 10000]
+[seStop ad733 4.0]
+[seStop ad744 4.0]
+[seStop ad477 4.0]
+[seStop ad826 4.0]
+[seStop ad297 4.0]
+[seStop ad556 4.0]
+[seStop ad555 4.0]
+[seStop ad664 4.0]
+[shakeStop]
+[wt 1.5]
+
+[fadein white 2.5]
+[wait fade]
+
+[wt 0.5]
+
+[fadeout black 0.5]
+[wait fade]
+
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,399 @@
+
+
+＄03-00-13-14-2-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252700 1 迪诺斯们]
+[charaSet B 8001410 1 玛修]
+[charaSet C 1098257420 1 希翁]
+[charaSet D 1098255200 1 哈贝特洛特]
+[charaSet E 1098252900 1 特佩乌]
+[charaSet F 1098257310 1 达·芬奇]
+[charaSet G 1098182210 1 尼莫引擎]
+[charaSet H 1098182310 1 尼莫烘焙坊]
+[charaSet I 1098158340 1 尼莫]
+[charaSet J 1098255110 1 戈尔德鲁夫]
+[charaSet K 1098254130 1 高扬斯卡娅]
+[charaSet L 1098252940 1 特佩乌]
+[charaSet M 1098257300 1 达·芬奇]
+
+[charaSet N 98115000 1 特效用]
+
+[scene 173500]
+
+[charaTalk off]
+[charaScale A 1.05]
+[charaDepth N 4]
+[charaDepth A 3]
+
+[charaFace A 0]
+[charaFadeinFSR A 0.1 -50,25]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[cueSe Battle ba6]
+[charaPutFSR N -50,0]
+[charaEffect N bit_talk_atomization_gra]
+[charaSpecialEffect A enemyErasure 0,0 1.3]
+[wt 2.3]
+
+？1：化作尘埃消散了……？
+？2：简直就像是自我毁灭……
+
+？！
+
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠玛修
+我也有这种感觉。[r]不是由于疼痛或毒素，更像是因其他原因失智化……
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaPut N 1]
+[charaEffect N bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[wt 0.3]
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+[bgm BGM_EVENT_70 0.1]
+＠希翁
+……唉。[r]没想到还能在异闻带遇到[#这类]怪物。
+[k]
+
+[charaFace C 9]
+＠希翁
+直截了当地说，刚才那些是吸血鬼。
+[k]
+
+＠希翁
+是被“吸血怪物”吸了血，[r]同样变成了“吸血怪物”的迪诺斯吧。
+[k]
+
+＠希翁
+第一波那些会动的尸体[r]应该是低级使魔，[#尸鬼:Ghoul]吧。
+[k]
+
+＠希翁
+是不具备理智，由于被赐予了少量不死之血，[r]哪怕身为尸体也能活动，本能地渴求鲜血的怪物。
+[k]
+
+[charaFace C 14]
+＠希翁
+怎样看都是前所未有，[r]而且本应与我们毫无关系的外敌。
+[k]
+
+＠希翁
+光是戴比特·泽姆·沃伊德与特斯卡特利波卡[r]已经够令人头疼的了，
+[k]
+
+＠希翁
+现在还出现了会攻击迦勒底的新威胁啊。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaPut N 2500,2500]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠哈贝特洛特
+不是什么新威胁！　刚才那是卡玛佐茨！[r]迪诺斯们也是这样说的吧！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut N 1]
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+＠希翁
+卡玛佐茨……是玛雅神话波波尔·乌所描述的[r][#恐怖之地:希巴尔巴]中的暗黑神之一吗？
+[k]
+
+＠希翁
+这么说来，[%1][&先生:小姐]的报告中[r]的确有这样的记述呢。
+[k]
+
+[charaFace C 14]
+＠希翁
+唔～……此事当真？[r]不是看错了什么，或是听错什么吗？
+[k]
+
+＠希翁
+卡玛佐茨确实是会『砍下人类脑袋』『吸食鲜血』的怪物，[r]但好像并没有『操控死者』的记载……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaPut N 2000,2500]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠特佩乌
+这下糟了。[r]此事非同小可，希翁、达·芬奇。
+[k]
+
+＠特佩乌
+对迪诺斯来说，卡玛佐茨比夜晚还要恐怖。
+[k]
+
+＠特佩乌
+一旦卡玛佐茨现身，[r]迪诺斯都会躲进家中。
+[k]
+
+＠特佩乌
+也就是说[line 3][bgmStop BGM_EVENT_70 1.5]
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaPut N 1]
+[charaTalk F]
+[charaFace F 34]
+[charaFadein F 0.1 1]
+[wt 1.0]
+
+[charaFace F 26]
+＠达·芬奇
+！　就无法帮我们修理潜航艇了！[r]修理速度会暴跌！
+[k]
+
+[charaFace F 31]
+＠达·芬奇
+不，其实我们打从一开始就打算只靠自己修理，[r]所以只能算是回到原样吧……
+[k]
+
+[bgm BGM_EVENT_77 0.1]
+
+？1：我懂，免不了会感到失落。
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠尼莫引擎
+就是说嘛。事到如今如果没有了各位迪诺斯，[r]这修理工作谁干得下去啊！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠尼莫烘焙坊
+说得对！　难得我今天特意[r]准备了很多玉米面包啊！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut N 2000,2500]
+
+？2：更重要的是，奇琴伊察会有危险吧？
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 -19,-21]
+＠尼莫
+嗯，毕竟这里在奇琴伊察的领地范围内。[r]难保刚才那些暴徒什么时候会前往城市。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+[charaPut N 2000,2500]
+
+？！
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠玛修
+也就是说，只能击败卡玛佐茨了吧。
+[k]
+
+＠玛修
+他是未经许可盗用御主[%1][r]令咒的[#重罪蝙蝠:Crime Man]。
+[k]
+
+＠玛修
+本就命中注定迟早与他一战，[r]因此我对此刻对决没有任何异议。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut N 1]
+[charaTalk J]
+[charaFace J 16]
+[charaFadein J 0.1 1]
+＠戈尔德鲁夫
+（[#重罪蝙蝠:Crime Man]是什么东西？）
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+[charaPut N 2000,2500]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠哈贝特洛特
+确，确实，玛修的愤怒合情合理。
+[k]
+
+[charaFace D 0]
+＠哈贝特洛特
+特佩乌原来知道卡玛佐茨啊。[r]第一冥界那次不是第一次遇见呀。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 4]
+[charaFadein L 0.1 1]
+＠L：特佩乌
+那的确是我第一次实际遇见他。
+[k]
+
+＠L：特佩乌
+卡玛佐茨是米克特兰唯一超越我们迪诺斯的[r]生命体，是我们恐惧的对象。
+[k]
+
+＠L：特佩乌
+只不过我刚好是不这样认为的迪诺斯，[r]才会有一种『哦哦，就是他啊』的第一印象。
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaPut N 1]
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+＠戈尔德鲁夫
+嗯，总之就是迪诺斯们都很怕他吧。
+[k]
+
+[charaFace J 1]
+＠戈尔德鲁夫
+既然如此，就轮到我们出场了。[r]何不向帮忙修理的迪诺斯们报恩呢。
+[k]
+
+[charaFace J 2]
+＠戈尔德鲁夫
+[%1]、玛修！[r]去打倒他吧！　高扬斯卡娅也一起去！
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 14]
+[charaFadein K 0.1 1]
+＠高扬斯卡娅
+哈？　为什么连我也要去？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 0.1 1]
+＠戈尔德鲁夫
+没什么特别的用意。
+[k]
+
+＠戈尔德鲁夫
+我完全没有什么“这位美女一点活都不干，只知道吃干饭吧？[r]是不是应该向迪诺斯们学习一下呢？”
+[k]
+
+＠戈尔德鲁夫
+诸如此类的想法。[r]要认真工作哦。
+[k]
+
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 30]
+[charaFadein K 0.1 1]
+[wt 1.2]
+
+[messageOff]
+[charaFadeout K 0.1]
+[wt 0.1]
+[charaPut N 2000,2500]
+[charaEffectStop N bit_talk_10_LowLevel]
+[wt 0.2]
+
+
+[se ad443]
+[seVolume ad443 0 0]
+[seVolume ad443 1.0 1.0]
+[wt 1.2]
+
+[seStop ad443 0.2]
+[wt 0.35]
+
+[charaTalk M]
+[charaFace M 0]
+[charaFadein M 0.1 1]
+＠M：达·芬奇
+好，那我也同行吧！[r]我已经掌握了[#尸鬼:Ghoul]们前来的方向。
+[k]
+
+＠M：达·芬奇
+地点是这里西北方向的树海。
+[k]
+
+＠M：达·芬奇
+就是此前[%1]等人[r]前去筹措食物的那一带！
+[k]
+
+[bgmStop BGM_EVENT_77 1.5]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 4]
+[charaFadein L 0.1 1]
+＠L：特佩乌
+[line 3]你说什么？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

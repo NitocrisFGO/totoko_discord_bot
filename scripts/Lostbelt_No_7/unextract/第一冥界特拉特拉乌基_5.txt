@@ -1,0 +1,341 @@
+
+
+
+＄03-00-13-03-5-1
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 8001500 1 玛修]
+[charaScale A 1.1]
+[charaSet B 1098257500 1 拉斯普京]
+[charaScale B 1.1]
+[charaSet C 1098253130 1 Kingprotea Alter]
+[sceneSet D 169201 1]
+[charaScale D 1.2]
+[sceneSet E 170300 1]
+[charaScale E 1.2]
+
+[imageSet F cut403_mask01 1]
+[imageSet G cut403_mask02 1]
+[imageSet H cut403_mask03 1]
+[imageSet I cut403_mask04 1]
+[charaScale F 1.05]
+[charaScale G 1.05]
+[charaScale H 1.05]
+[charaScale I 1.05]
+
+[sceneSet J 10000 1]
+[charaScale J 1.05]
+
+[charaSet K 1098257500 1 拉斯普京2]
+
+[charaSet T 98115000 1 特效用]
+[charaSet U 98115000 1 特效用]
+[charaSet S 98115000 1 特效用2]
+
+[scene 170300]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+[cameraMove 0.1 0,-100 1.35]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_24 0.1]
+
+[charaMove C 0,-15 1.2]
+[wt 0.5]
+[charaShake C 0.1 3 3 0.7]
+[se ade311]
+[se ad882]
+[wt 2.0]
+
+[wipeout rectangleStripDownToUp 0.4 1.0]
+[wait wipe]
+
+[charaFadeout C 0.1]
+
+[cameraHome 0.1]
+
+[scene 169201]
+[wt 0.5]
+
+[wipein rectangleStripUpToDown 0.4 1.0]
+[wait wipe]
+[wt 0.3]
+
+[charaTalk depthOff]
+[charaDepth D 3]
+[charaDepth A 4]
+[charaDepth B 5]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.5 80,0]
+[charaMove A 100,0 0.5]
+
+[charaFadein D 0.5 -80,-200]
+[charaMove D -100,-200 0.5]
+[wt 0.2]
+[se ad671]
+[seStop ad671 1.5]
+
+＠玛修
+Protea小姐的行动停止了！[r]根据示巴观测，距离藉由自我增殖的再生还剩10秒！
+[k]
+
+[se bac170]
+[se ad879]
+[seStop ad879 0.4]
+[charaMove A 100,-5 0.3]
+
+＠玛修
+我要把您发射到面具上了，言峰神父！
+[k]
+
+[messageOff]
+[charaTalk off]
+
+[charaMove A 250,-5 0.6]
+[charaMove D 50,-200 0.6]
+[wt 0.6]
+
+[charaFace B 5]
+[charaFadein B 0.2 -250,0]
+[wt 0.2]
+
+[charaTalk on]
+
+＠拉斯普京
+那就拜托你了。[r]麻烦让我软着陆。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFace A 7]
+[charaMove B -230,0 0.3]
+[se ad984]
+[wt 0.4]
+
+[charaMove A 250,-10 0.3]
+[se ade108]
+[se ad879]
+[seStop ad879 0.4]
+[se ad883]
+[seStop ad883 0.5]
+[wt 0.4]
+[charaMove A 250,0 0.3]
+[charaSpecialEffect B erasureReverse 1 0.3]
+[charaEffect B bit_talk_quickmove 0,30]
+[se ad678]
+[se ad556]
+[wt 0.2]
+[seStop ad556 0.5]
+
+[bgmStop BGM_EVENT_24 2.0]
+[wipeout upToDown 0.4 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+[scene 106800]
+
+[sceneSet D 10000 1]
+
+[charaScale C 1.48]
+[charaTalk off]
+[charaFace C 0]
+[charaFadein C 0.1 -200,15]
+
+
+[wipein downToUp 0.4 1.0]
+[wait wipe]
+
+[subCameraOn 2]
+[charaLayer B sub #A]
+[charaLayer K sub #A]
+[charaLayer E sub #A]
+[charaLayer T sub #A]
+
+
+[subCameraFilter #A maskEdge cut359_mask09 5 255,255,255,255]
+
+[charaScale B 1.2]
+[charaScale K 1.2]
+
+[charaDepth U 9]
+[charaDepth T 9]
+[charaDepth B 7]
+[charaDepth K 8]
+[charaDepth E 6]
+[charaDepth I 5]
+[charaDepth H 4]
+[charaDepth G 3]
+[charaDepth F 2]
+[charaDepth D 1]
+
+[charaFadein E 0.1 -200,0]
+
+[charaEffect T bit_talk_43h]
+
+[subRenderFadeinFSSideR #A 0.5 350,-250]
+[se ad556]
+[seVolume ad556 0 0.1]
+[seVolume ad556 1.0 1.0]
+[wt 1.5]
+[seStop ad556 1.0]
+
+[charaFace K 6]
+[charaFace B 6]
+[charaFadein B 0.3 10,200]
+[charaPut K 500,200]
+[charaFadeTime K 0.1 0]
+[charaMove B 10,220 0.3]
+[charaEffectStop T bit_talk_43h]
+[wt 1.0]
+[bgm BGM_BATTLE_78 0.1]
+
+＠拉斯普京
+无须动刀或麻醉，[r]灵媒治疗就是直接用手指插入患部进行剥离。
+[k]
+
+[cueSe SE_22 22_ad1213]
+[charaEffectEdgeBlur K f0f8ff f0f8ff 3 2.0]
+＠拉斯普京
+在代表了苦痛、苦恼、死亡的恶龙之名下，[charaMove K 10,220 0][r]无尽之脓肿，由[#我]视之。
+[k]
+
+＠拉斯普京
+死之污秽、恶之疟疾遍访万人，[r]零落、泛滥之泥，由[#我]所捧起。
+[k]
+
+＠拉斯普京
+『[#愿主垂怜这灵魂:Помилуй нас, Господи]』
+[k]
+
+[messageOff]
+[se ad85]
+[seStop 22_ad1213 3.0]
+[fowardEffect bit_talk_h_slash01_fs]
+[wt 0.2]
+[fadeout white 0.2]
+[wait fade]
+
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.5]
+
+[subRenderFadeout #A 0.1]
+
+[charaScale S 2.0]
+[charaPut S -150,300]
+[se bac402]
+[cueSe SE_21 21_ade631]
+[se ad949]
+[cueSe SE_22 22_ade807]
+[charaEffect S bit_talk_barrier02]
+[seStop 21_ade631 0.5]
+
+[charaPut S 2000,2000]
+[charaEffectStop S bit_talk_barrier02]
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[charaPut U 0,0]
+[scene 10000]
+[charaFadein F 0.1 -0,-200]
+
+[charaDepth J 2]
+[charaDepth C 1]
+
+[effect bit_talk_suspicious_moya]
+[charaPut J 1]
+[charaFadeTime J 0.2 0.5]
+[wt 0.5]
+[fadein white 1.0]
+[wait fade]
+
+[cueSe SE_22 22_ade807]
+[wt 1.0]
+[seStop 22_ade807 1.0]
+[wt 1.0]
+
+
+
+
+＠Kingprotea Xochitonal
+啊[line 3]
+[k]
+
+[messageOff]
+[flashin once 0.1 0.2 FFFFFFFA FFFFFF50]
+[charaPut U 0,0]
+[charaFadein G 0.1 0,-200]
+[wt 0.1]
+[charaFadeout F 0.5]
+[se ade60]
+[wt 1.5]
+
+＠Kingprotea Xochitonal
+啊[line 3]
+[k]
+
+[messageOff]
+[flashin once 0.1 0.2 FFFFFFFA FFFFFF50]
+[charaFadein H 0.1 0,-200]
+[wt 0.1]
+[charaFadeout G 0.5]
+[se ade60]
+[seVolume ade60 0 0.6]
+[se ad148]
+
+[wt 0.8]
+[seStop ad148 0.2]
+[seStop ade393 5.0]
+[wt 0.7]
+[charaEffect U bit_talk_mask_break]
+＠Kingprotea Xochitonal
+啊啊啊啊啊啊啊[line 3]！
+[k]
+
+
+[messageOff]
+[flashin once 0.1 0.2 FFFFFFFA FFFFFF50]
+[charaFadein I 0.1 0,-200]
+[wt 0.1]
+[charaFadeout H 0.5]
+[se ad148]
+[seStop ad148 1.0]
+[se ade62]
+[se ad641]
+[seStop ad641 1.0]
+[wt 2.5]
+
+[se ade60]
+[se ade245]
+[se ad114]
+[se ad149]
+[bgmStop BGM_BATTLE_78 2.5]
+[fadeout white 2.0]
+[wait fade]
+[scene 10000]
+[effectDestroy bit_talk_suspicious_moya]
+
+[charaPut U 2000,2000]
+[charaEffectStop U bit_talk_mask_break]
+[charaFadeout I 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[wt 2.0]
+
+[fadein white 1.0]
+[wait fade]
+[fadeout black 0.1]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

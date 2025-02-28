@@ -1,0 +1,1036 @@
+
+
+
+＄04-00-02-16-4-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270000 1 希翁]
+[charaSet B 1098269100 1 拉妮－ⅩⅡ]
+[charaSet C 1036001 1 高长恭]
+[charaSet D 1098269600 1 Caster]
+[charaSet E 3054002 1 怖军]
+[charaSet F 1098269320 1 塞蕾雪拉]
+[charaSet G 1098270320 1 阿愈丝]
+[charaSet H 7046001 1 难敌]
+[charaSet I 1098269200 1 奥西里斯之尘]
+[charaSet J 1098270320 1 阿愈丝（演出用）]
+[charaSet K 7046001 1 难敌（演出用）]
+
+[sceneSet L 189401 1]
+[charaScale L 1.4]
+[sceneSet M 189300 1]
+[charaScale M 1.4]
+[sceneSet N 189603 1]
+[charaScale N 1.01]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+
+[sceneSet V 10000 1]
+[charaScale V 1.03]
+[sceneSet W 10000 1]
+[charaScale W 1.03]
+
+
+[scene 189603]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_141 0.1]
+
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠希翁
+怖军、难敌[line 3][r]均受到无法修复的灵核损伤。
+[k]
+
+＠希翁
+两者退去已成定局。
+[k]
+
+[charaFace A 6]
+＠希翁
+这就是你这场圣杯战争的结局。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+既然星球已揭示这一结局，那也无可奈何。
+[k]
+
+[charaFace B 0]
+＠拉妮－ⅩⅡ
+然而，我直至此刻仍无法理解。[r]我究竟搞错了什么。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠希翁
+……[r]……
+[k]
+
+＠希翁
+这终究只是我个人的见解。
+[k]
+
+＠希翁
+我觉得着眼于[#Alterego:他人格]其实并不错。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+你真的，这样认为吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠希翁
+嗯。确实存在一些只有[#Alterego:他人格][r]才能做到的事嘛。
+[k]
+
+[charaFace A 10]
+＠希翁
+要是追本溯源，感觉就要牵扯到从者这一存在……
+[k]
+
+＠希翁
+为何会拥有人格、性格与自我这个设问了。
+[k]
+
+[charaFace A 6]
+＠希翁
+[%1][&先生:小姐]知道那是为什么吗？
+[k]
+
+？1：算是隐约知道吧。
+
+[charaFace A 0]
+＠希翁
+是觉得还是有比较好吗？
+[k]
+
+[charaFace A 9]
+＠希翁
+呵呵，这说不定只是[#同义反复:Tautology]，[r]不过也行吧。
+[k]
+
+？2：我不知道……
+
+[charaFace A 0]
+＠希翁
+或许是因为对你来说，[r]答案过于理所当然，
+[k]
+
+＠希翁
+反而会让你难以意识到吧。
+[k]
+
+？！
+
+[charaFace A 2]
+＠希翁
+我个人看法是[line 3]以总体视角而言，[r]这样比较有利。
+[k]
+
+＠希翁
+他们的感情与自我是拥有力量的。
+[k]
+
+＠希翁
+这种复杂的关系会左右他们身为从者的力量。
+[k]
+
+＠希翁
+正因如此，无谓地切割才有可能导致劣化。
+[k]
+
+[charaFace A 10]
+＠希翁
+并不是说只用一概分化，[r]增加数量即可。
+[k]
+
+＠希翁
+而证据，就是眼前的光景吧。
+[k]
+
+[charaFace A 6]
+＠希翁
+在场的他们姑且不论，但我不认为[#Rider:骑兵]和[r][#Caster:魔术师]的[#Alterego:他人格]从者化可谓顺利。
+[k]
+
+＠希翁
+和原本的他们相比反而弱化的可能性很高。
+[k]
+
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[bgm BGM_EVENT_141 0.6 0.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[cameraFilter gray]
+
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth C 2]
+
+[charaScale C 1.2]
+[charaScale L 1.4]
+[charaFace C 0]
+[charaFadein C 0.1 200,0]
+[charaFadein L 0.1 -250,-250]
+[wt 0.7]
+
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+＠拉妮－ⅩⅡ
+为避免遭到主君疏远的结局，[r]不惜伪装邪恶也想当一个纯粹工具的，
+[k]
+
+＠拉妮－ⅩⅡ
+『伪恶』之Alterego [#Rider:骑兵]。
+[k]
+
+[messageOff]
+
+[charaDepth M 3]
+[charaDepth D 4]
+
+[charaScale D 1.2]
+[charaScale M 1.4]
+[charaFace D 0]
+[charaFadein D 0.8 -250,0]
+[charaFadein M 0.8 200,-250]
+[charaMove D -200,0 0.8]
+[charaMove M 250,-250 0.8]
+[wt 0.8]
+
+[charaFadeout C 0.1]
+[charaFadeout L 0.1]
+[wt 0.4]
+
+＠拉妮－ⅩⅡ
+存在于灵基之内的，作为故事登场人物、[r]创造物的人格被切割出来的，
+[k]
+
+＠拉妮－ⅩⅡ
+『创造』之Alterego [#Caster:魔术师]。
+[k]
+
+[messageOff]
+
+[fadeout white 0.6]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaFadeout M 0.1]
+
+[cameraFilter normal]
+
+[charaDepth N 1]
+[charaDepth B 2]
+[charaDepth A 2]
+[charaDepth B 2]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+[charaFadein N 0.2 0,-200]
+[wt 0.6]
+
+
+[bgm BGM_EVENT_141 0.6 1.0]
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+
+＠拉妮－ⅩⅡ
+……说得对。根据数据的分析结果来看，[r]你说的或许确实没错。
+[k]
+
+[charaFace B 0]
+＠拉妮－ⅩⅡ
+虽说在『忌爱』之Alterego [#Saber:剑士]身上[r]倒是观测到了相当程度的输出，
+[k]
+
+＠拉妮－ⅩⅡ
+但我承认前两者综合战斗力[r]的确出现了失衡的部分。
+[k]
+
+[charaFace B 8]
+＠拉妮－ⅩⅡ
+而我却没能计算到这点，没能推导出这个答案。[r]这是为什么？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠希翁
+这是因为[line 3][r]你没把最重要的参数，
+[k]
+
+[charaFace A 6]
+＠希翁
+没把『感情』这个参数加入算式吧。
+[k]
+
+[charaFace A 8]
+＠希翁
+这是构造上的缺陷。
+[k]
+
+＠希翁
+[#英灵:人类]是基于每一次的感情、自我、[r]目的意识、[#外部形象:人格面具]来行动的。
+[k]
+
+[charaFace A 2]
+＠希翁
+换言之，可以说是由众多[#Alterego:他人格][r]叠加构成的复杂存在吧。
+[k]
+
+＠希翁
+也可以说，唯有这样才能算是人类吧。
+[k]
+
+[charaFace A 10]
+＠希翁
+然而，你是ＡＩ。[r]是『基于某条命令来行动』的功能性存在。
+[k]
+
+＠希翁
+正因如此，才没能理解这点，[r]才会觉得只要有一种自我就够了……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠拉妮－ⅩⅡ
+……[r]……
+[k]
+
+[charaFace B 0]
+＠拉妮－ⅩⅡ
+原来如此，我不否定。[r]但这样就会产生新的疑问。
+[k]
+
+[charaFace B 8]
+＠拉妮－ⅩⅡ
+既是如此，又为何会存在[r][#Alterego:他人格]这一职阶呢？
+[k]
+
+＠拉妮－ⅩⅡ
+高效的[#Alterego:他人格]化与非高效的[r][#Alterego:他人格]化究竟有何不同？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠希翁
+……[r]……
+[k]
+
+[overlayFadein V 0.1 0,-815]
+[overlayFadein W 0.1 0,815]
+＠希翁
+为了接近你所追求的答案，[r]你应该好好看看眼前的光景。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.2]
+
+[charaMove V 0,-748 1.0]
+[charaMove W 0,748 1.0]
+[wt 1.5]
+
+[bgm BGM_EVENT_141 0.6 0.5]
+
+＠
+其实，我也这么认为，[r]也认为应该好好看。
+[k]
+
+[charaTalk off]
+[charaMoveScale B 1.3 30.0]
+[charaMoveScale N 1.2 30.0]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.2 0,-50]
+[charaMove B 0,-10 40.0]
+[charaMove N 0,-265 40.0]
+＠
+所以，就与那边的ＡＩ少女一起，[r]默默地凝视着同一个方向。
+[k]
+
+＠
+ＡＩ是为履行使命而被制造出来的东西，[r]拥有重要的『单一方向性』。
+[k]
+
+＠
+说不定，[#Alterego:他人格]这一存在[r]也是一样的。
+[k]
+
+＠
+以怀有『这种感情』被制造出来的存在，[r]他们的意义、价值、能力范围……
+[k]
+
+＠
+反方向看，[r]则是他们的悲哀、罪孽、可怕之处。
+[k]
+
+＠
+归根结底[line 3][r]就是[#Alterego:他人格]这一存在的，意义。
+[k]
+
+＠
+自己有没有察觉到呢？
+[k]
+
+＠
+[#必须去面对这意义才行]。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_141 1.5]
+[wait fade]
+
+[charaFadeout V 0.1]
+[charaFadeout W 0.1]
+[charaFadeout B 0.1]
+[charaFadeout N 0.1]
+[wt 0.5]
+
+[charaSet B 1098269100 1 拉妮－ⅩⅡ]
+[sceneSet N 189603 1]
+[charaScale N 1.4]
+[sceneSet V 10000 1]
+[charaScale V 1.03]
+[sceneSet W 10000 1]
+[charaScale W 1.03]
+[charaSet C 3054002 1 怖军（演出用）]
+[charaSet D 1098269320 1 塞蕾雪拉（演出用）]
+[sceneSet L 189603 1]
+[charaScale L 1.4]
+[sceneSet M 189603 1]
+[charaScale M 1.4]
+
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+
+[charaDepth S 6]
+[charaDepth E 5]
+
+[charaPut S 1]
+[charaEffect S bit_talk_06]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[wt 2.4]
+
+[bgm BGM_EVENT_116 0.1]
+
+＠怖军
+啊～，抱歉。
+[k]
+
+[charaFace E 0]
+＠怖军
+刚才斗志昂扬大闹了一场，[r]但最后必须问清楚才行呢。
+[k]
+
+[charaFace E 1]
+＠怖军
+……你的愿望，实现了吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk F]
+[charaFace F 12]
+[charaFadein F 0.1 1]
+＠塞蕾雪拉
+不好说呢，毕竟，[r]这本就是我自以为是的赎罪。
+[k]
+
+[charaFace F 16]
+＠塞蕾雪拉
+不过，大概……不会是毫无意义的吧。
+[k]
+
+＠塞蕾雪拉
+待到战争结束后，[r]安稳的日常又将归来。
+[k]
+
+＠塞蕾雪拉
+虽说其中可能不会有那姑娘，[r]我可能也无法与之扯上关系……
+[k]
+
+[charaFace F 9]
+＠塞蕾雪拉
+但我可以认为，自己肯定了那姑娘期望的方向性，[r]直到最后一刻。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 1]
+＠怖军
+说得对。[r]你为他人的愿望而努力过了。
+[k]
+
+＠怖军
+哪怕是诞生自消极情绪的赎罪行为，[r]那也是真实存在的。你大可为之骄傲。
+[k]
+
+[messageOff]
+[charaFace E 11]
+[wt 1.0]
+
+＠怖军
+嗯……既然你成功找到了答案，
+[k]
+
+＠怖军
+我觉得，献给你的这道菜就算[r]不是胜利其实也没关系吧。
+[k]
+
+＠怖军
+……[r]……
+[k]
+
+[charaFace E 1]
+＠怖军
+呵呵……哈哈哈，哈～哈哈哈！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+
+[charaTalk F]
+[charaFace F 15]
+[charaFadein F 0.1 1]
+＠塞蕾雪拉
+突，突然笑什么啊。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 1]
+＠怖军
+我意识到了。
+[k]
+
+[charaFace E 1]
+＠怖军
+在一次次战斗中获胜的我，一直赢到现在的我，[r]竟然[#输了也能心满意足]！
+[k]
+
+＠怖军
+虽说曾在哈奴曼那里领教过[r]什么叫水准的差距，
+[k]
+
+＠怖军
+然而在这种纯粹的斗殴中体验到这种感觉，[r]还是头一回。
+[k]
+
+＠怖军
+而且对手竟然还是那家伙！[r]太新鲜了！
+[k]
+
+[charaFace E 0]
+＠怖军
+哎呀呀，这下懂了。[r]想来这也是败因之一吧。
+[k]
+
+[charaFace E 5]
+＠怖军
+哪怕输了也不会不甘心，还觉得这样或许也不错，[r]会得出这种结论的干架没理由会赢啊。
+[k]
+
+＠怖军
+再加上对方还铆足了劲，那就更不用说了。
+[k]
+
+[charaFace E 3]
+＠怖军
+只不过，哪怕对败北不感到后悔……[r]对除此以外的部分，还是有点的。
+[k]
+
+＠怖军
+不同于御主，[r]还是会有无法骄傲的部分[line 3]还是心存遗憾啊。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+
+[charaTalk F]
+[charaFace F 14]
+[charaFadein F 0.1 1]
+＠塞蕾雪拉
+哎？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠怖军
+抱歉啦。直到最后，[r]都没能让你吃上好吃的东西。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_116 1.5]
+
+[subCameraOn 1]
+[charaLayer F sub #A]
+[charaLayer L sub #A]
+
+[subCameraFilter #A through]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth F 2]
+
+[charaDepth M 2]
+[charaDepth D 3]
+
+[subRenderFadein #A 0 0,0]
+
+[charaDepth E 1]
+[charaDepth S 2]
+
+[charaScale F 1.3]
+[charaScale D 1.3]
+[charaScale L 1.4]
+[charaScale M 1.4]
+[charaFace F 3]
+[charaFadein F 0.8 -150,0]
+[charaFadein L 0.8 150,-240]
+[charaMove F -100,0 0.8]
+[charaMove L 200,-240 0.8]
+[wt 0.8]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaFace D 3]
+[charaFadein D 0.1 -100,0]
+[charaFadein M 0.1 200,-240]
+[wt 0.5]
+[charaPut F 10000,10000]
+[charaPut L 10000,10000]
+[wt 0.5]
+
+[charaFace D 13]
+＠塞蕾雪拉
+……不。
+[k]
+
+＠塞蕾雪拉
+没有这回事。
+[k]
+
+[messageOff]
+[charaFaceFade D 17 0.5]
+[charaFace F 17]
+[wt 1.0]
+
+[charaPut F -100,0]
+[charaPut L 200,-240]
+[wt 0.5]
+
+[bgm BGM_EVENT_110 0.1]
+
+＠塞蕾雪拉
+你做的菜由始至终都很好吃哦。[r]肯定，好吃啊。
+[k]
+
+＠塞蕾雪拉
+有问题的，是我。
+[k]
+
+＠塞蕾雪拉
+问题在于吃到好吃的东西也不知[r]自己有没有资格露出笑容的我……！
+[k]
+
+[charaFace F 18]
+＠塞蕾雪拉
+对不起，[#Lancer:枪兵]。
+[k]
+
+＠塞蕾雪拉
+由始至终，我都只能，[r]给你留下遗憾。
+[k]
+
+＠塞蕾雪拉
+对不起，没能用很好吃的评价来感谢你。[r]对不起，没能让你去做像个英雄的行动。
+[k]
+
+[charaPut S 1]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+[charaFace F 19]
+[charaFace D 19]
+＠塞蕾雪拉
+如果我能正常一点，就不会只让你做菜，[r]还会让你去战斗、去获胜……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout L 0.8]
+[charaFadeout M 0.8]
+[charaFadeout F 0.8]
+[charaFadeout D 0.8]
+[wt 1.2]
+
+[charaTalk on]
+＠怖军
+不，你错了。[r]现在这个我，很庆幸我是这样的。
+[k]
+
+＠怖军
+很庆幸我能一直忙着给你做菜，[r]只在最后战斗。
+[k]
+
+[charaFace E 3]
+＠怖军
+若是拥有一切的我，[r]身为完美战士的我……
+[k]
+
+＠怖军
+说不定，会真心因为难以容忍没能赢得胜利，[r]难以容忍像这样被打倒在地，
+[k]
+
+＠怖军
+而像个小屁孩那样赌气发火吧。
+[k]
+
+[charaFace E 6]
+＠怖军
+不，现在的我其实依然会对[r]被那家伙打成这样而感到火大呢。
+[k]
+
+[charaFace E 8]
+＠怖军
+该说觉得丢脸呢，还是说一想到可能[r]会被兄弟们嘲笑，就非常羞愧呢。
+[k]
+
+[charaFace E 3]
+＠怖军
+……不，这些先暂且不提啦。
+[k]
+
+[charaFace E 0]
+＠怖军
+正因为不是纯粹身为战士的自己，[r]我才能像这样，相当心满意足地死去。
+[k]
+
+
+[charaFace E 5]
+＠怖军
+你大概也只要这样就行了。
+[k]
+
+＠怖军
+被不明缘由的罪恶感所困，[r]决定为赎罪而战的你，
+[k]
+
+＠怖军
+只要这样就行了。
+[k]
+
+＠怖军
+虽然不知道对你说这些是否有意义……
+[k]
+
+＠怖军
+只希望有朝一日，你也能达成深埋于自己内心深处的赎罪。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaScale F 1.0]
+[charaTalk F]
+[charaFace F 12]
+[charaFadein F 0.1 1]
+＠塞蕾雪拉
+是啊。但愿，能够达成吧。[r]……能达成吗？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠怖军
+诀窍就按我教你的，[r]照自己想做的那样去做就行了。
+[k]
+
+＠怖军
+听好了。无法遗忘的痛楚虽然折磨人，[r]但也会成为原动力。
+[k]
+
+[charaFace E 3]
+＠怖军
+我们不曾忘记受过的屈辱。[r]所以无论是漫长的流放还是战争，都忍了下来。
+[k]
+
+[charaFace E 0]
+＠怖军
+既然你说『绝对忘不掉这种罪恶感』，[r]那么[line 3]
+[k]
+
+＠怖军
+那么，也就意味着，[r]它具备[#能一直当做原动力的强韧]吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk F]
+[charaFace F 14]
+[charaFadein F 0.1 1]
+＠塞蕾雪拉
+…[messageShake 0.05 4 3 0.3]…！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠怖军
+相比起没完没了地被它压垮最终一事无成，[r]这种用法总要好上几分吧。
+[k]
+
+＠怖军
+既然怎么都忘不掉，干脆化作自己的力量。[r]作为推动自己前进的、绝对不会耗尽的燃料吧。
+[k]
+
+＠怖军
+作为遇到困难时、痛苦时、难受时，[r]也能推动你迈步向前的[line 3]燃料哦。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+＠塞蕾雪拉
+……嗯。[r]说得也是。
+[k]
+
+[charaFace F 9]
+＠塞蕾雪拉
+我会将这种罪恶感当作『忘不掉的理由』[r][line 3]继续走下去。
+[k]
+
+＠塞蕾雪拉
+朝着我想前往的方向。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 1.2]
+
+
+[charaFace E 5]
+＠怖军
+到时间了。[r]再见啦，御主。
+[k]
+
+[charaFace E 1]
+＠怖军
+下次见面时，我一定会让你品尝到更好吃的美食，[r]然后展露笑容！
+[k]
+
+＠怖军
+敬请期待啦！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth N 1]
+[charaDepth E 2]
+[charaDepth S 3]
+
+[charaDepth M 4]
+[charaDepth D 5]
+
+[charaDepth L 4]
+[charaDepth F 5]
+
+[charaScale F 1.3]
+[charaScale D 1.3]
+[charaScale L 1.4]
+[charaScale M 1.4]
+[charaFace F 20]
+[charaFadein F 0.8 -150,0]
+[charaFadein L 0.8 150,-240]
+[charaMove F -100,0 0.8]
+[charaMove L 200,-240 0.8]
+[wt 0.9]
+[charaPut S 2000,2500]
+
+[charaFace D 20]
+[charaFadein D 0.1 -100,0]
+[charaFadein M 0.1 200,-240]
+[wt 0.2]
+[charaPut F 10000,10000]
+[charaPut L 10000,10000]
+[wt 0.8]
+
+＠塞蕾雪拉
+……嗯。我会期待的！
+[k]
+
+[messageOff]
+[charaFaceFade D 21 0.5]
+[charaFace F 21]
+[wt 1.2]
+
+[charaPut F -100,0]
+[charaPut L 200,-240]
+[wt 0.5]
+
+[charaScale E 1.35]
+[charaScale N 1.4]
+[charaPut S 50,0]
+[charaPut E 150,20]
+[charaFace E 4]
+[charaFadein N 0.1 -150,-240]
+[wt 0.2]
+
+[charaMove S 1 0.8]
+[charaMove E 100,20 0.8]
+[charaMove N -200,-240 0.8]
+[charaFadeout F 0.8]
+[charaFadeout D 0.8]
+[charaFadeout L 0.8]
+[charaFadeout M 0.8]
+[wt 1.2]
+
+[charaTalk on]
+＠怖军
+[line 3]
+[k]
+
+[charaFace E 5]
+＠怖军
+哈哈，不好意思啦。看来我的愿望，[r]还是实现了一部分呢[line 3]
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[se ad52]
+[charaSpecialEffect E flashErasure 1 2.0]
+[wait charaSpecialEffect E]
+[charaEffectStop S bit_talk_06]
+[wt 2.4]
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_110 2.0]
+[wait fade]
+
+[charaFadeout N 0.1]
+[subRenderFadeout #A 0.1]
+[charaFadeout L 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer F normal]
+[charaLayer L normal]
+[charaScale F 1.0]
+[charaScale L 1.0]
+
+
+
+
+[wt 0.5]
+[soundStopAllEnd]
+[end]

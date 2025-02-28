@@ -1,0 +1,353 @@
+
+
+＄03-00-13-05-2-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253530 1 恐爪龙十一兄弟·右]
+[charaSet B 1098253500 1 恐爪龙十一兄弟·左]
+[charaSet C 1098253510 1 恐爪龙十一兄弟·正中]
+[charaSet D 1098253530 1 恐爪龙十一兄弟1]
+[charaSet E 1098253510 1 恐爪龙十一兄弟2]
+[charaSet F 1098253520 1 恐爪龙十一兄弟3]
+[charaSet G 1098253500 1 恐爪龙十一兄弟4]
+[charaSet H 98001000 1 玛修]
+[charaSet I 1098255200 1 哈贝特洛特]
+
+[scene 169900]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_94 0.1]
+
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth E 2]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFace E 0]
+
+[charaFadeinFSR D 0.1 2]
+[charaFadeinFSL E 0.1 0]
+
+＠D：恐爪龙十一兄弟
+这无比灵巧的运球……[r]那腿的可动范围怎么这么大……不对劲吧……
+[k]
+
+＠D：恐爪龙十一兄弟
+就像随风摇晃的玉米穗……[r]不，简直就是奔驰在平原上的[#兔子:Tochtli]……
+[k]
+
+[clear]
+
+[charaTalk E]
+
+＠E：恐爪龙十一兄弟
+好厉害啊，各位前辈！[r]如此厉害的选手竟然甘愿当我们的手下！
+[k]
+
+＠E：恐爪龙十一兄弟
+啊，名字是叫[%1][&先生:小姐]和玛修小姐吧。
+[k]
+
+＠E：恐爪龙十一兄弟
+我们是恐爪龙十一兄弟。[r]不必客气，尽管叫我们恐爪龙十一兄弟吧。
+[k]
+
+？1：根本没有11个人吧！
+
+＠E：恐爪龙十一兄弟
+被你发现了啊……[r]一般迪诺斯肯定会直接忽略的……
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+？2：玛修，你还好吗？
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 21]
+[charaFadein H 0.1 1]
+
+＠玛修
+是，是的，[r]我勉强还能跟上这个发展！
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+？！
+
+[charaPut I 1]
+[se ad595]
+[charaTalk I]
+[charaFace I 2]
+[charaSpecialEffect I wipeTimeRe 0 1.0 0 0.2]
+[wt 1.2]
+[charaFadein I 0.0 1]
+
+＠哈贝特洛特
+好，回去吧。肯定是搞错了什么。[r]去参观其他队伍吧，[%1]。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaDepth A 1]
+[charaDepth B 2]
+[charaDepth C 3]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 -200,0]
+[charaFadein C 0.1 1]
+
+＠恐爪龙十一兄弟·左
+会说话！　这只[#兔子:Tochtli]会说话！[r][line 3]话说这是[#兔子:Tochtli]吗？
+[k]
+
+[charaTalk A]
+
+＠恐爪龙十一兄弟·右
+我可没听说过还有[#兔子:Tochtli]型的迪诺斯啊……[r]话说这家伙真是[#兔子:Tochtli]吗？
+[k]
+
+＠恐爪龙十一兄弟·右
+感觉更像……某种……不一样的动物……[r]也不是[#豹子:奥塞洛特尔]……
+[k]
+
+＠恐爪龙十一兄弟·右
+更像某种，自由随性，[r]喵嘎喵嘎的生物……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+
+＠玛修
+不，不是，虽然练习赛在预料之外，[r]但这几位是特佩乌先生为我们介绍的。
+[k]
+
+[charaFace H 13]
+
+＠玛修
+各位，初次见面。[r]我们是经特佩乌先生介绍过来的。
+[k]
+
+＠玛修
+希望能以替补的身份参加明天的蹴球，[r]不知是否可以？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 -200,0]
+[charaFadein C 0.1 1]
+
+＠恐爪龙十一兄弟·右
+明天？　哦哦，是指之后吗？
+[k]
+
+[charaFace A 1]
+
+＠恐爪龙十一兄弟·右
+还有什么可不可以，你们已经是我们的一员了！[r]请多关照啦！
+[k]
+
+[charaTalk B]
+[charaFace B 1]
+
+＠恐爪龙十一兄弟·左
+嘿，这下人数就凑够了！[r]参与奖也能人手一份啦！
+[k]
+
+[charaTalk C]
+
+＠恐爪龙十一兄弟·正中
+别说蠢话了，兄弟。只要有各位前辈的力量，[r]哪怕无法夺冠，还是有可能闯过第一轮的吧？
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaDepth F 1]
+[charaDepth G 2]
+
+[charaTalk G]
+[charaFace F 0]
+[charaFace G 0]
+[charaFadeinFSL F 0.1 -206,0]
+[charaFadeinFSR G 0.1 2]
+
+＠G：恐爪龙十一兄弟
+呱[line 5]说得没错！[r]这下就不怕一轮游了！
+[k]
+
+[bgmStop BGM_EVENT_94 1.5]
+
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+
+＠玛修
+……那，那个。[r]各位定的目标好像相当低啊……
+[k]
+
+＠玛修
+这应该是夺冠热门的……名门队伍吧？
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk off]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSR D 0.1 2]
+[charaFadeinFSL E 0.1 0]
+
+[wt 1.5]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaFace F 0]
+[charaFace G 1]
+[charaFadeinFSL F 0.1 -206,0]
+[charaFadeinFSR G 0.1 2]
+
+[wt 1.5]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 -200,0]
+[charaFadein C 0.1 1]
+
+＠恐爪龙十一兄弟
+[line 6][r]（全体眼神飘忽）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+
+＠哈贝特洛特
+在刚才那场比赛中，只是碰了下就很夸张地[r]飞出去啦、摔倒在地上啦，
+[k]
+
+＠哈贝特洛特
+那是表现给裁判看的？　自爆技？[r]真的很痛吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFace G 0]
+[charaFadeinFSL F 0.1 -206,0]
+[charaFadeinFSR G 0.1 2]
+
+＠F：恐爪龙十一兄弟
+当，当然啦。因为我们很纤弱，[r]只要擦碰一下就会被撞飞哦。
+[k]
+
+＠F：恐爪龙十一兄弟
+并，并不是要表现给[#神官:裁判]看，[r]也没有让对手吃黄牌的意图哦？
+[k]
+
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 12]
+[charaFadein H 0.1 1]
+
+＠玛修
+各位[#一直在进攻:都是前锋]，[r]好像没有[#负责防御:后卫]的队员……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace A 0]
+[charaFace B 1]
+[charaFace C 0]
+
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 -200,0]
+[charaFadein C 0.1 1]
+
+
+＠恐爪龙十一兄弟·左
+那只是因为[#DF:后卫]可可中毒病倒了……
+[k]
+
+＠恐爪龙十一兄弟·左
+别提这些了，不如来聊可可豆吧？[r]那玩意可好吃了，虽说吃太多会中毒就是了！
+[k]
+
+？1：这……这支队伍，没救了！
+？2：特佩乌……特佩乌[line 3]！
+
+？！
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_7 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

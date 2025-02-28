@@ -1,0 +1,525 @@
+
+
+＄04-00-02-02-2-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 7046001 1 难敌]
+[charaSet B 1098270300 1 阿愈丝]
+[charaSet C 1098270000 1 希翁]
+[charaSet D 1098270100 1 迦摩]
+[charaSet E 1098270310 1 阿愈丝2]
+
+[imageSet H cut466_icon 1]
+
+[charaSet S 98115000 1 特效用dummy]
+
+
+[scene 189400]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_146 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠难敌
+不愧是本老爷，比自己想象的还要有名。
+[k]
+
+[charaFace A 1]
+＠难敌
+对了，这就是……所谓的有名税。[r]没错，就当是这样吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠阿愈丝
+（傻眼）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+＠希翁
+难敌。[r]诞生于俱卢部族的俱卢族，持国百子的长兄。
+[k]
+
+＠希翁
+被视作迦利化身的不祥之子……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠难敌
+喂，最后那部分不对。那是本老爷的敌人散布的丑闻，[r]是抹黑形象的战略。感觉多半肯定是这样没错。
+[k]
+
+[charaFace A 0]
+＠难敌
+没有比本老爷更受大家仰慕爱戴的王子了哦。
+[k]
+
+＠难敌
+话说回来，你认识迦尔纳吗？
+[k]
+
+？1：还算挺熟吧。
+？2：他是可靠的太阳之子，施舍的英雄嘛。
+？！
+
+[charaFace A 3]
+＠难敌
+是吗是吗，看来你们曾身为伙伴并肩作战过？[r]那家伙是本老爷的手下，小弟……不，是挚友。
+[k]
+
+[charaFace A 7]
+＠难敌
+你们应该也知道，[r]正是本老爷发掘了他这个人才。
+[k]
+
+＠难敌
+是有了本老爷才会有那家伙。[r]因此你对本老爷的敬意与崇拜要比对他的更多。明白了吗？
+[k]
+
+？1：其实我跟阿周那也[line 3]
+？！
+
+[charaFace A 4]
+＠难敌
+慢[messageShake 0.05 4 3 0.3]着！　[wt 0.5]可别提[#般度五子:那边]。[r]会害人心脏猛跳……不，是会感到恶心的。
+[k]
+
+[charaFace A 6]
+＠难敌
+听好了，本老爷绝不是害怕他们，[r]只是等本老爷有兴致时再说。
+[k]
+
+[charaFace A 8]
+＠难敌
+目前本老爷正因真名过于随便[r]就暴露而大受动摇啦。不会吧～。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠阿愈丝
+虽然我不太明白啦，这意思是，[r]你的名字比想象的更广为人知吧？
+[k]
+
+[charaFace B 0]
+＠阿愈丝
+是啊，这在战斗方面或许会是种不利，[r]但也没办法吧。
+[k]
+
+＠阿愈丝
+这又不可能一直隐瞒到最后吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠难敌
+没错，就当是这么一回事吧！[r]本老爷知名度超高！　就这样！
+[k]
+
+[charaFace A 12]
+＠难敌
+你只需这样理解就够了……[r]本老爷也只要这样理解就够了……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_146 1.5]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠希翁
+说实话，就算知道了你的真名，[r]跟我们也没多大关系。
+[k]
+
+＠希翁
+既然大家都冷静下来了，[r]那现在可以聊聊当前情况了吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[bgm BGM_MAP_57 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠阿愈丝
+那个，该从哪里说起好呢。
+[k]
+
+＠阿愈丝
+目前正在运作的是ＡＩ圣杯战争………[r]是名为Grail War的系统……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠难敌
+从这里讲起吗？　对方可是御主和从者哦。[r]这点总该知道吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠阿愈丝
+可是，感觉[&他们:她们]不是我们这样的ＡＩ，[r]而且还有两个人。
+[k]
+
+＠阿愈丝
+我觉得某种异常导致与系统毫无关系的人[r]闯进来的可能性并不为零。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠难敌
+哈哈哈，还能发生这种事吗？[r]本老爷，哑然失笑。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+＠迦摩
+总觉得被小看了，令人恼火。
+[k]
+
+[charaFace D 0]
+＠迦摩
+总之……如果不先了解[#ＡＩ圣杯战争:Grail War][r]是怎么一回事，也无从谈起吧？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+＠希翁
+我们所熟知的圣杯战争，是由七名御主[r]与七骑从者进行的大混战。
+[k]
+
+＠希翁
+活到最后的人能获得可以实现[r]任何愿望的圣杯……就是这样。
+[k]
+
+[charaFace C 2]
+＠希翁
+在认识上有什么差异吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠阿愈丝
+唔～？　唔～，实现愿望这种说法或许也不算错，[r]不过……
+[k]
+
+[charaFace B 0]
+＠阿愈丝
+归根结底，这系统是为了[r]维护世界而执行的哦。
+[k]
+
+＠阿愈丝
+通过举办、完成这场圣杯战争，[r][#平面之月:Paper Moon]就会正常运作。
+[k]
+
+[charaFace B 1]
+＠阿愈丝
+嗯，这就是我们的圣杯战争的第一要义。
+[k]
+
+？1：为了维护[#平面之月:Paper Moon]世界……？
+？！
+
+[charaFace B 0]
+＠阿愈丝
+连这点都不知道的话，[r]说明你们果然是异常的存在呢。
+[k]
+
+＠阿愈丝
+那我觉得你们应该[r]先去找更熟悉这方面的人。
+[k]
+
+＠阿愈丝
+去找这场圣杯战争的监督官，综合统管ＡＩ。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 18]
+[charaFadein D 0.1 1]
+＠迦摩
+综合统管ＡＩ……那是什么？[r]不是说你就是队长吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠E：阿愈丝
+我相当于是这个[#修理部:Repair]内[r]治疗型ＡＩ们的代表啦。
+[k]
+
+＠E：阿愈丝
+而她不限于此，还统管着这[#平面之月:Paper Moon]内[r]所有型号的ＡＩ。是我们的上位ＡＩ哦。
+[k]
+
+[charaFace E 1]
+＠E：阿愈丝
+我现在就带你们去找她。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠难敌
+哎哎～？　还要特地跑一趟？　由我们带路？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠阿愈丝
+别那么不情不愿啦！[r]我们还欠人家的相救之恩吧！
+[k]
+
+？1：既然是圣杯战争，也就意味着正在打仗。
+？2：途中不会遭到刚才[#Caster:魔术师]那样的家伙袭击吗？
+？！
+
+[charaFace B 5]
+＠阿愈丝
+唔～，只要径直过去就没问题了吧。
+[k]
+
+＠阿愈丝
+既然已经一度撤退了，[r]感觉[#Caster:魔术师]也不会立马卷土重来，
+[k]
+
+[charaFace B 0]
+＠阿愈丝
+而且综合统管ＡＩ所在的分区[r]是禁止战斗的中立地带。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠希翁
+我正好想了解一下这个世界的地理分布呢。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠阿愈丝
+是吗，连这些都不知道啊。
+[k]
+
+＠阿愈丝
+那就沿路上给你们讲讲[#区域划分:Partition]吧。
+[k]
+
+[charaCrossFade B 1098270370 1 0.3]
+＠阿愈丝
+……呵呵，感觉有意思起来了！[wait charaCrossFade B]
+[k]
+
+＠阿愈丝
+竟然不是出于工作或是别的什么目的，[r]就是与大家一起边走边聊前往某处。
+[k]
+
+＠阿愈丝
+啊，难道说这就是传闻中的郊游吗？　好棒！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠难敌
+不，这应该不算郊游吧～。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MAP_57 1.5]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠阿愈丝
+少啰嗦～。
+[k]
+
+[charaFace B 0]
+＠阿愈丝
+啊，我需要准备一下，你们稍微等等哦。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+[bgm BGM_EVENT_77 0.3]
+＠希翁
+嗯。那我就趁此期间向[%1][&先生:小姐][r]讲解一下这个吧。
+[k]
+
+＠希翁
+可以稍微闭一会儿眼睛吗？
+[k]
+
+？1：……？
+？！
+
+[messageOff]
+[wipeout openEye 1.0 1.0]
+[wait wipe]
+
+[charaFadeout C 0.1]
+
+[scene 10000]
+[wt 0.2]
+
+[bgm BGM_EVENT_77 1.0 0.4]
+[wipein openEye 0.2 1.0]
+[wait wipe]
+
+
+[charaScale H 0.35]
+[se ade134]
+[charaFadeinFSSideL H 0.1 -430,115]
+[wt 0.65]
+
+[charaFadeout H 0.1]
+[wt 0.65]
+
+[charaFadeinFSSideL H 0.1 -430,115]
+[wt 0.65]
+
+[charaFadeout H 0.1]
+[wt 0.65]
+
+[wipeout openEye 0.2 1.0]
+[wait wipe]
+
+[scene 189400]
+[wt 0.2]
+
+[bgm BGM_EVENT_77 1.0 1.0]
+[wipein openEye 1.0 1.0]
+[wait wipe]
+[wt 0.5]
+
+？1：视野边缘好像能看到什么……
+？2：刚才那是什么？
+？！
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠希翁
+既然都已经被灵线神经连接起来了，[r]干脆额外提供信息处理辅助程序好啦。
+[k]
+
+＠希翁
+它会将我们获得的情报分门别类，[r]并且靠思考就能轻松访问。
+[k]
+
+＠希翁
+我不想浪费容量，[r]所以并没有塞入过多数据，
+[k]
+
+＠希翁
+但应该还是能帮助整理情况的，[r]要善加利用哦。
+[k]
+
+？1：谢谢你！
+？！
+
+[charaFace C 5]
+＠希翁
+小事一桩啦。[r]那我们也来做出发的准备吧[line 3]
+[k]
+
+
+
+
+
+
+
+
+[messageOff]
+[wt 0.5]
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_77 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

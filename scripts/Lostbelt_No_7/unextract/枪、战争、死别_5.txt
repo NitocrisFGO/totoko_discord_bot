@@ -1,0 +1,1073 @@
+
+
+＄03-00-13-08-5-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257500 1 拉斯普京]
+[charaSet B 1098123000 1 穆尼尔]
+[charaSet C 1098257800 1 玛修]
+[charaSet D 1098182000 1 护士]
+[charaSet E 1098255100 1 戈尔德鲁夫]
+[charaSet F 6042000 1 高扬斯卡娅]
+[charaSet G 1098253800 1 瓦克昌]
+[charaSet H 1098252900 1 特佩乌]
+[charaSet I 1098254800 1 尼莫水兵A]
+[charaSet J 1098254810 1 尼莫水兵B]
+[charaSet K 1098182100 1 教授]
+[charaSet L 1098253200 1 U－奥尔加玛丽]
+[charaSet M 1098124800 1 异星之神]
+
+[sceneSet N 105700 1]
+[charaScale N 1.2]
+[sceneSet O 10111 1]
+[charaScale O 1.2]
+
+[charaSet P 1098252940 1 特佩乌_B]
+
+[imageSet Q back10000 1 1]
+[charaScale Q 1.3]
+[charaSet R 98115000 1 特效用dummy]
+
+[sceneSet S 170000 1]
+[charaScale S 1.1]
+
+[charaPut R 2000,2500]
+[charaEffect R bit_sepia01_depth_fs]
+
+[scene 179200]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_41 0.1]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠拉斯普京
+……很遗憾，[r]我已经尽力了……
+[k]
+
+＠拉斯普京
+但心脏与眉心都被射穿的话，[r]我的治疗手段也起不了多大效果……
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.6]
+
+[bgmStop BGM_EVENT_41 0.4]
+[cueSe SE_21 21_ade553]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.25 0,-50]
+[charaMove B 1 0.25]
+[charaShake B 0.01 1 2 0.7]
+[wt 0.1]
+[se ad7]
+[wt 1.0]
+
+＠B：从床上跳起来的男人
+呜哇啊啊[line 5]！
+[k]
+
+＠B：从床上跳起来的男人
+这拉斯普京的灵媒治疗是想干嘛！[r]痛到我以为自己都要死了！
+[k]
+
+＠B：从床上跳起来的男人
+话说我确实是死掉了！[r]痛过头到整个人都跳起来应该算不上是复活吧！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_6 0.1]
+[charaTalk C]
+[charaFace C 28]
+[charaFadein C 0.1 1]
+＠玛修
+穆尼尔先生[line 3]！
+[k]
+
+？1：活过来了……活过来了[line 3]！
+？！
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth B 2]
+[charaDepth C 3]
+
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[wt 0.15]
+
+[cameraMove 0.3 0,-15 1.05]
+[charaFace C 25]
+[charaFadein C 0.2 325,0]
+[charaMove C 250,0 0.3]
+[wt 0.2]
+
+[se ad183]
+[wt 0.05]
+[charaShake B 0.01 3 2 0.4]
+[wt 1.1]
+
+[charaTalk on]
+＠穆尼尔
+噢？　噢！？　怎么左右夹击！？[r]是[%1]和玛修吗！？
+[k]
+
+[charaFace B 4]
+＠穆尼尔
+你们平安回来了啊！[r]不过我本来就不像大叔那么担心啦！
+[k]
+
+＠玛修
+是的……是的！[r]穆尼尔先生也醒过来，真是太好了……！
+[k]
+
+[charaFace B 5]
+＠穆尼尔
+[FFFFFF]？[-]　啊～，这样啊。[r]你们听说潜航艇上发生的事了吧？
+[k]
+
+[messageOff]
+[charaTalk off]
+[se ad661]
+[wt 0.1]
+[seStop ad661 0.6]
+[charaFaceFade C 27 0.2]
+[charaMove C 325,0 0.6]
+[cameraMove 0.6 0,0 1.01]
+[wt 1.2]
+
+[charaTalk on]
+[charaFace B 1]
+＠穆尼尔
+别露出那种表情啦，两位。[r]那都怪我过于轻率了。
+[k]
+
+＠穆尼尔
+在现场调查的两位，以及在管制室观察仪器的我们。[r]我忘了双方其实都同样身处战场。
+[k]
+
+[charaFace B 0]
+＠穆尼尔
+我只是体验了一下[%1]和玛修[r]平时所突破的危机而已。
+[k]
+
+[charaFace B 4]
+[charaFace C 5]
+＠穆尼尔
+所以不必介意，也不必觉得自己有责任。[r]如果你们有这种想法，我们所有人都会垂头丧气的。
+[k]
+
+？1：……？
+？2：会垂头丧气吗？
+
+？！
+
+[charaDepth B 1]
+[charaDepth C 2]
+[charaDepth N 3]
+[charaDepth O 4]
+
+＠穆尼尔
+是啊。从菲尼斯·迦勒底时代起，[r]我们迦勒底职员的信条就不曾改变。
+[k]
+
+＠穆尼尔
+『[charaFadein N 1.5 -100,-225][charaMove N 100,-225 30.0]无论如何都要让这个还找不着北就当上御主的新手[r]　平安踏上归途』
+[k]
+
+＠穆尼尔
+这就是我们的原动力。
+[k]
+
+＠穆尼尔
+对了，所谓的踏上归途不是指回到迦勒底基地。[r]而是回到你原本所在的地方。
+[k]
+
+[charaFadeout C 0.1]
+[charaFace B 11]
+＠穆尼尔
+……不过，[r]这一开始只是医生的口头禅来着。
+[k]
+
+＠穆尼尔
+不知不觉就成了我们所有人的目的。[r]正因为怀着这个目的，我们才不会气馁。
+[k]
+
+＠穆尼尔
+人理烧却时，全世界都焚毁了，[r]只有迦勒底基地残留在虚数空间[line 3]
+[k]
+
+＠穆尼尔
+有相当数量的工作人员都沮丧到[r]快要放弃一切了，
+[k]
+
+＠穆尼尔
+但当看到在特异点咬紧牙关硬撑的那两个新人后，[r]就萌生了“至少要帮这两人一把”的心情哦。
+[k]
+
+＠穆尼尔
+于[charaFadein O 1.5 100,-225][charaMove O -100,-225 30.0]是，在解决人理烧却之后，[r]这就成为了我们心中的骄傲。
+[k]
+
+＠穆尼尔
+我们的工作就是支撑[%1][r]和玛修·基列莱特。
+[k]
+
+＠穆尼尔
+人种与职业各不相同，在[#魔术协会:时钟塔]时[r]也因派系斗争而势同水火的我们，
+[k]
+
+[charaFadeout N 0.1]
+
+[charaFace B 4]
+＠穆尼尔
+现在之所以要好到能互开玩笑，[r]都有赖于心中的这份『骄傲』。
+[k]
+
+[messageOff]
+[charaFadeout O 1.0]
+[wt 1.0]
+
+[charaTalk on]
+＠穆尼尔
+所以，你们可别因为我们受个伤就心情低落哦。
+[k]
+
+＠穆尼尔
+不，你们愿意为我难过，我还是挺高兴的！
+[k]
+
+[charaFaceFade B 0 0.2]
+＠穆尼尔
+但像这种“都怪我们力有不逮”，[r]或是“明明可以做得更好”的想法，
+[k]
+
+＠穆尼尔
+可万万要不得。[r]毕竟咱们彼此都一直在竭尽自己所能嘛。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_6 1.5 0.7]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[wt 1.2]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠尼莫护士
+呵呵，穆尼尔先生说得没错。[r]展露给康复患者的表情还是当数笑容最好。
+[k]
+
+[charaFace D 1]
+＠尼莫护士
+不过，现在还是再静养一段时间为妙。[r]静养到生命体征恢复正常值为止，好吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+＠穆尼尔
+护士！[r]唔咿～，你一直在给我诊疗啊～！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠尼莫护士
+当然啦，这是我的工作嘛。[r]与对尼托克丽丝小姐的看护比例是七比三。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠穆尼尔
+想来也是，我应该是三成那边吧。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_6 1.0]
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+[wt 1.0]
+
+[charaFace D 5]
+＠尼莫护士
+[%1][&先生:小姐]、玛修小姐，[r]所长在管制室叫你们过去。
+[k]
+
+＠尼莫护士
+请火速返回管制室。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+[cameraMove 0.1 0,0 1.01]
+
+[scene 86202]
+[wt 1.0]
+
+[se ad8]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.2]
+
+[charaTalk off]
+[charaDepth E 6]
+[charaDepth A 5]
+[charaDepth F 4]
+
+[charaFace E 16]
+[charaFace A 1]
+[charaFace F 11]
+[charaFadein E 0.1 1]
+[charaFadeinFSR A 0.1 300,0]
+[charaFadeinFSL F 0.1 -300,0]
+[wt 1.4]
+
+[charaFadeout A 0.4]
+[charaFadeout F 0.4]
+[wt 0.6]
+
+[bgm BGM_EVENT_82 0.1]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 14]
+＠戈尔德鲁夫
+那么，我们来拟定下个作战目标吧！
+[k]
+
+[charaFace E 13]
+＠戈尔德鲁夫
+我们进入第七异闻带后，[r]就遭到了神秘光芒的袭击，不得不迫降。
+[k]
+
+＠戈尔德鲁夫
+在此过程中，[%1]、玛修[r]从舰艇上坠落，与我们分头行动，
+[k]
+
+＠戈尔德鲁夫
+不过自此刻起，双方已顺利会合。[r]辛苦大家了。
+[k]
+
+＠戈尔德鲁夫
+而在此期间，我们遭遇了神秘武装集团·奥塞洛特尔。[r]以及自称奥塞洛特尔领袖的人物，伊斯卡利。
+[k]
+
+＠戈尔德鲁夫
+还有被那个伊斯卡利称作特斯卡特利波卡的[r]来路不明的武器商人。
+[k]
+
+[charaFace E 0]
+＠戈尔德鲁夫
+……老实说，现阶段还不清楚那男人是否就是[r]阿兹特克神话中的特斯卡特利波卡神。
+[k]
+
+[charaFace E 11]
+＠戈尔德鲁夫
+然而！　那些家伙与我们敌对，[r]而且确实视泛人类史为眼中钉！
+[k]
+
+＠戈尔德鲁夫
+而且，这个敌对势力还绑架了[r]几位堪称我们核心的人员！
+[k]
+
+[charaFace E 14]
+＠戈尔德鲁夫
+御主[%1]、[r]调查员玛修·基列莱特、哈贝特洛特、
+[k]
+
+＠戈尔德鲁夫
+当地协助者特佩乌，异……U－奥尔加玛丽、[r]拉斯普京、高扬斯卡娅，
+[k]
+
+＠戈尔德鲁夫
+希望上述7人，[r]能前去营救遭到绑架的迦勒底职员[line 3]
+[k]
+
+＠戈尔德鲁夫
+达·芬奇、希翁、卡多克、尼莫！
+[k]
+
+＠戈尔德鲁夫
+目的地是奥塞洛特尔们的首都，墨西哥城！
+[k]
+
+？1：明白！
+？2：咦？　您很熟悉米克特兰吗？
+
+[charaFace E 1]
+＠戈尔德鲁夫
+那当然，你当我是谁啊。[r]我在时钟塔时可是对[#考古学科:梅尔阿斯特亚]也很感兴趣的哦？
+[k]
+
+＠戈尔德鲁夫
+米克特兰、迪诺斯、奥塞洛特尔，[r]这方面的知识我当然都已经掌握了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠高扬斯卡娅
+是的，在固守期间我都讲解过了。[r]当然，收取了额外费用哦♡
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠拉斯普京
+哎呀，应该花了不少冤枉钱吧。
+[k]
+
+＠拉斯普京
+如果能等到我们抵达，[r]本来可以免费告诉你哦。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 18]
+[charaFadein E 0.1 1]
+＠戈尔德鲁夫
+唔唔唔……！　确实没错，[r]钱包又被高扬斯卡娅那家伙给拿捏了！
+[k]
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠玛修
+这作战我明白了。[r]大家要去奇琴伊察去避难吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠戈尔德鲁夫
+不，我们会留在这里修理潜航艇。[r]刚才我与迪诺斯之一，瓦克昌交涉过了。
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[bgm BGM_EVENT_82 0.6 0.5]
+[wait fade]
+
+[charaFadeout E 0.1]
+
+[scene 170000]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+
+[charaPut R 1]
+[wt 0.7]
+
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+＠瓦克昌
+希望我充当『空中飞岩』的护卫？[r]唔～，唔～，唔～……
+[k]
+
+[charaFace G 0]
+＠瓦克昌
+好，我接受！[r]虽说我很想跟奥尔加一起走。
+[k]
+
+[charaFace G 3]
+＠瓦克昌
+但是对你们的同伴见死不救[r]也令我莫名感到恼火……
+[k]
+
+[charaFace G 6]
+＠瓦克昌
+只是驱逐奥塞洛特尔的话，我一个人就够了！[r]你们尽管去搭救被带走的同伴吧！
+[k]
+
+
+[messageOff]
+[fadeout white 0.6]
+[wait fade]
+
+[charaFadeout G 0.1]
+[charaPut R 2000,2500]
+[charaEffectStop R bit_sepia01_depth_fs]
+
+[scene 86202]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[wt 0.7]
+
+[bgm BGM_EVENT_82 0.6 1.0]
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+＠戈尔德鲁夫
+迪诺斯他们真不错，全都很理智。[r]最棒的当数他们都是植食性的。
+[k]
+
+＠戈尔德鲁夫
+我对之前仅因外表就吓得瑟瑟发抖的自己感到羞愧。[r]要是技术顾问在场，肯定会兴奋得蹦起来吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 12]
+[charaFadein C 0.1 1]
+＠玛修
+是的，达·芬奇亲肯定能与[r]迪诺斯们结下深厚的友谊。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠拉斯普京
+唔，从者尼托克丽丝呢？[r]还没恢复到可以战斗的状态吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠戈尔德鲁夫
+唔嗯，她提出要与[%1]同行，[r]但被我驳回了。
+[k]
+
+＠戈尔德鲁夫
+她好不容易才恢复到可以站起来的状态。[r]决不能让她胡来。
+[k]
+
+[charaFace E 1]
+＠戈尔德鲁夫
+没关系，这次不仅有高扬斯卡娅，[r]还有妖僧拉斯普京，以及那家伙。
+[k]
+
+[charaFace E 2]
+＠戈尔德鲁夫
+战斗力方面无可挑剔。[r]甚至可以说是史上最强！　呼哈哈哈哈！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠高扬斯卡娅
+他是这样说的哦。[r]你们那边有准备参加战斗吗？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠拉斯普京
+哎呀。您不知道吗，高扬斯卡娅？[r]我是治疗组，没有战斗能力。
+[k]
+
+＠拉斯普京
+放心吧。[r]有位比我可靠数十倍的人物同行。
+[k]
+
+＠拉斯普京
+战斗就交给她了，[r]而我就照顾大家的精神健康吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+＠高扬斯卡娅
+哎呀，真棒♡[r]我死也不要接受你的治疗呢♡
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠戈尔德鲁夫
+哈哈哈，虽然还不了解妖僧拉斯普京的为人，[r]但言峰神父在圣堂教会也算众口皆碑的高尚人物。
+[k]
+
+＠戈尔德鲁夫
+想必在陷入危机时，他肯定会拿出幽默的话题缓和气氛吧。[r]毕竟在前往迦勒底时，我就体验过了。
+[k]
+
+？1：那我们这就出发吧！
+？2：（新所长是有多老好人啊？）
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠高扬斯卡娅
+对了，还有一件事。[r]话说芙芙上哪去了？
+[k]
+
+[charaFace F 20]
+＠高扬斯卡娅
+我还以为它会不知悔改地继续窝在Storm Border上呢，[r]结果完全没有发现它的[#气息:身影]……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠戈尔德鲁夫
+没有跟基列莱特在一起吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+＠玛修
+不，不在这边……[r]我还以为它肯定在潜航艇上……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_82 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth F 6]
+[charaDepth Q 4]
+
+[charaPut Q 1]
+[charaFadeTime Q 0.2 0.5]
+
+[charaTalk F]
+[charaFace F 19]
+[charaFadein F 0.1 1]
+＠高扬斯卡娅
+（……啊，原来是这样。[r]　那只野兽秉持不跟ORT扯上关系的宗旨，）
+[k]
+
+[charaFace F 24]
+＠高扬斯卡娅
+（我还盘算着顺利的话能捞点资源呢，[r]　结果是察觉到我的气息翘班了吧。）
+[k]
+
+＠高扬斯卡娅
+（下次让我逮着它，再狠狠地踩它一顿，[r]　发泄通古斯卡的怨恨吧。）
+[k]
+
+[bgm BGM_EVENT_82 0.5 1.0]
+
+[charaFadeout Q 0.2]
+[charaFace F 0]
+＠高扬斯卡娅
+请放心吧，我想芙芙这会儿[r]应该正在地表追着风滚草吧。
+[k]
+
+＠高扬斯卡娅
+只要能三下五除二地切除掉第七异闻带，[r]它肯定就会厚着脸皮回来的♡
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_82 1.5]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+[scene 170000]
+
+[pictureFrame cut063_cinema]
+
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+
+[bgm BGM_EVENT_116 0.1]
+
+[charaTalk off]
+[charaDepth H 3]
+[charaDepth P 3]
+[charaDepth I 4]
+[charaDepth J 4]
+
+[charaScale P 1.3]
+[charaScale I 0.9]
+[charaScale J 0.9]
+
+[charaFace P 0]
+[charaFace I 1]
+[charaFace J 2]
+[charaFadein P 0.1 0,20]
+[charaFadeinFSR I 0.1 320,-130]
+[charaFadeinFSL J 0.1 -320,-130]
+[wt 0.4]
+
+[charaMoveReturnFSR I 320,-122 0.4]
+[wt 0.4]
+[charaMoveReturnFSR I 320,-122 0.4]
+[wt 0.6]
+
+[charaMoveReturnFSL J -320,-122 0.4]
+[wt 1.0]
+
+[charaMoveReturn P 0,13 0.8]
+[wt 1.2]
+
+[charaFadeout I 0.2]
+[charaFadeout J 0.2]
+[charaFadeout P 0.2]
+[wt 0.2]
+
+
+[charaTalk on]
+[charaTalk K]
+[charaFace K 1]
+[charaFadein K 0.1 0,-50]
+＠尼莫教授
+嗯，天才～。[r]特佩乌氏，已经学会使用我们的工具了～。
+[k]
+
+＠尼莫教授
+这些是强化从者灵基的药与术式。[r]找到船长以后，请立刻喂他喝下去哦～。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaTalk I]
+[charaFace I 1]
+[charaFace J 2]
+[charaFace P 0]
+[charaFadein P 0.1 0,20]
+[charaFadeinFSR I 0.1 320,-130]
+[charaFadeinFSL J 0.1 -320,-130]
+
+＠尼莫水兵A
+路上小心哦，特佩乌！[r]船长就拜托你啦～～！
+[k]
+
+[charaFaceFade P 5 0.2]
+＠P：特佩乌
+好的。我已经理解魔术的用法了。[r]我会尽全力营救尼莫船长。
+[k]
+
+[messageOff]
+[se ad527]
+[charaFadeout P 0.4]
+[seStop ad527 1.2]
+[wt 1.6]
+
+[wipeout leftToRight 0.8 1.0]
+[bgm BGM_EVENT_116 0.8 0.5]
+[wait wipe]
+
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaScale P 1.0]
+[wt 0.8]
+
+[bgm BGM_EVENT_116 0.8 1.0]
+[wipein rightToLeft 0.8 1.0]
+[wait wipe]
+[wt 0.2]
+
+[se ad527]
+[wt 1.0]
+[seStop ad527 0.5]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.4 0,-50]
+[wt 0.4]
+＠特佩乌
+…………
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 1]
+[charaFadein L 0.1 0,-50]
+＠U－奥尔加玛丽
+…………无精打采的[#色彩:表情]呢。[r]原本毫无浑浊的绿色泛起了阵阵涟漪。
+[k]
+
+＠U－奥尔加玛丽
+你反对前往墨西哥城吗？[r]记得那里好像是奥塞洛特尔们的首都。
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 0,-50]
+＠特佩乌
+不，我并不反对他们的方针。[r]毕竟前去救助同胞也在情理之中。
+[k]
+
+＠特佩乌
+我现在只是对不得不跨越[r]第二冥界一事感到担忧。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 27]
+[charaFadein L 0.1 0,-50]
+＠U－奥尔加玛丽
+这又是为何？
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk P]
+[charaFace P 4]
+[charaFadein P 0.1 0,-50]
+＠P：特佩乌
+…………究竟，是为何呢。
+[k]
+
+＠P：特佩乌
+正如水兵所说，[r]在场的水兵们跟[#他]没什么两样。
+[k]
+
+＠P：特佩乌
+跟我们一样，就算丧失个体的迪诺斯，[r]也不会对迪诺斯这一物种造成任何影响。
+[k]
+
+＠P：特佩乌
+水兵这一人物仍持续存在着，[r]不曾丧失。然而[line 3]
+[k]
+
+＠P：特佩乌
+……我却感到，非常悲伤。
+[k]
+
+＠P：特佩乌
+我已经永远不可能，[r]再挨那名水兵的攻击了吧。
+[k]
+
+[charaFadeout P 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 13]
+[charaFadein L 0.1 0,-50]
+＠U－奥尔加玛丽
+………………
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+[bgm BGM_EVENT_116 0.6 0.5]
+[wait wipe]
+
+[charaFadeout L 0.1]
+
+[pictureFrame]
+
+[se ad527]
+[wt 0.55]
+
+[bgm BGM_EVENT_116 0.6 1.0]
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[wait wipe]
+[seStop ad527 0.5]
+[wt 0.5]
+
+？1：特佩乌先生、U－奥尔加玛丽，
+？2：你们在这里啊。
+
+？！
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠特佩乌
+是的，我与教授共享了知识，[r]也听说了作战计划。
+[k]
+
+＠特佩乌
+是要前往墨西哥城营救同胞吧。[r]尽管力量微薄，我也会作为带路人同行。
+[k]
+
+[charaFace H 1]
+＠特佩乌
+U－奥尔加玛丽作何打算？[r]你当初的目的已经达到了。
+[k]
+
+＠特佩乌
+[%1]与玛修已经平安抵达潜航艇了。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 16]
+[charaFadein L 0.1 1]
+＠U－奥尔加玛丽
+是啊……虽说那个叫戈尔德鲁夫的人类[r]莫名令人不爽……
+[k]
+
+[bgmStop BGM_EVENT_116 1.5]
+
+？1：哎，你不跟我们一起来吗！？
+？2：拜托你了，总统！
+
+？！
+
+
+[charaFace L 8]
+＠U－奥尔加玛丽
+哼[line 3]我就知道！[r]你们显然需要我的力量！
+[k]
+
+[bgm BGM_EVENT_4 0.1]
+[charaFace L 14]
+＠U－奥尔加玛丽
+我当然可以帮忙！[r]毕竟现在的我是迦勒底的U－奥尔加玛丽嘛！
+[k]
+
+[charaFace L 0]
+＠U－奥尔加玛丽
+好，救援行动重启！[r]目标是第五层的墨西哥城！
+[k]
+
+＠U－奥尔加玛丽
+就让我这个大灾害将狂妄奥塞洛特尔的[r]那座都市蹂躏得乱七八糟吧！
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_4 2.0]
+[wait fade]
+
+[charaFadeout L 0.1]
+[wt 0.5]
+[charaDepth S 1]
+[charaDepth M 2]
+[charaFadein S 0.1 -100,-200]
+
+[pictureFrame cut063_cinema]
+[subCameraOn 1]
+[charaLayer L sub #A]
+[subCameraFilter #A through]
+[subRenderFadein #A 0 0,0]
+[charaScale L 1.4]
+
+[subBlur #A lens 0.1 2 10 1.0 subBlur]
+
+[charaTalk M]
+[charaFace L 0]
+[charaFadeinFSR L 0.1 460,60]
+[wt 0.5]
+
+[fadein black 1.5]
+[charaMoveFSR L 470,60 1.8]
+[charaMove S -120,-200 1.8]
+[wait fade]
+[wt 1.0]
+
+[charaScale M 0.95]
+[charaTalk M]
+[charaFace M 0]
+[charaFadeinFSL M 0.7 -350,-70]
+[wt 2.3]
+
+[fadeout black 2.0]
+[wait fade]
+
+[subCameraOff]
+[charaLayer L normal]
+
+[wt 0.5]
+[soundStopAll]
+[end]

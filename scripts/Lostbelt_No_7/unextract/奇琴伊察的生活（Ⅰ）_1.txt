@@ -1,0 +1,1071 @@
+
+
+＄03-00-13-05-1-0
+
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253200 1 U－奥尔加玛丽]
+[charaSet B 98001000 1 玛修]
+[charaSet C 1098252900 1 特佩乌]
+[charaSet D 1098254800 1 尼莫水兵]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098257510 1 拉斯普京]
+
+[sceneSet G 10000 1]
+[charaScale G 1.01]
+
+[charaSet H 5009000 1 特效用1]
+[charaSet I 5009000 1 特效用2]
+[charaSet J 5009000 1 特效用3]
+
+[scene 170301]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[scene 170300 1.5]
+[wt 0.5]
+[se ad220]
+[seVolume ad220 0 0]
+[seVolume ad220 1.0 0.4]
+[wt 2.5]
+
+[seStop ad220 1.0]
+[scene 169700 1.5]
+[wt 2.0]
+
+[bgm BGM_EVENT_92 0.1]
+
+？1：睡得真好～！
+？2：夜晚非常凉爽，很舒服。
+
+？！
+
+[charaTalk depthOff]
+[charaDepth G 1]
+[charaDepth A 2]
+
+[charaTalk A]
+[charaFace A 20]
+[charaFadein A 0.1 1]
+[charaPut G 0,-200]
+
+＠U－奥尔加玛丽
+………思维的振幅恢复了呢。[wt 1.0][charaFadeTime G 0.2 0.5][r]（这意味着夜晚输出会降低？）
+[k]
+
+[messageOff]
+[charaFadeout G 0.2]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad95]
+[seVolume ad95 0 0]
+[seVolume ad95 0.5 1.0]
+[wt 1.5]
+
+[seStop ad95 0.5]
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.4 40,0]
+[charaMove B 0,0 0.4]
+[wt 0.4]
+
+＠玛修
+早上好，前辈。[r]多亏有单独的寝室，过得非常舒适[line 3]
+[k]
+
+[charaFace B 13]
+
+＠玛修
+早上好，U－奥尔加玛丽小姐。
+[k]
+
+＠玛修
+您已经醒了啊。[r]您还是一如既往过着规律的生活[line 3][wt 0.5][charaFace B 6]啊。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 20]
+[charaFadein A 0.1 1]
+
+＠U－奥尔加玛丽
+[FFFFFF]？？[-]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 50,0]
+[charaMove C 0,0 0.4]
+[wt 0.4]
+
+＠特佩乌
+大家好。不，不对呢。[r]这种时候应该说早上好吧。
+[k]
+
+＠特佩乌
+只要大家睡得好就好。[r]我去拿玉米来给各位吃吧。
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1210]
+[cueSeStop 22_ad1210 1.5]
+[charaFadeout C 0.4]
+[wt 2.0]
+
+[charaSet C 1098252920 1 特佩乌]
+[se ad59]
+[seVolume ad59 0 0]
+[seVolume ad59 0.5 1.0]
+[wt 1.0]
+
+[seStop ad59 0.4]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.4 70,0]
+[charaMove D 0,0 0.4]
+[wt 0.4]
+
+＠尼莫水兵
+早安～！　睡得好香呢～！[r]没有危险的城市真棒～！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth B 2]
+
+[charaFace B 13]
+[charaFadein B 0.1 1]
+[wt 0.3]
+[charaPut E -180,30]
+[se ad595]
+[seVolume ad595 0 0.5]
+[charaFace E 2]
+[charaSpecialEffect E wipeTimeRe 0 1.0 0 0.2]
+[wt 1.2]
+[charaFadein E 0.0 -180,30]
+[wt 0.2]
+
+[charaMove E -180,-10 0.3]
+[wt 0.2]
+[se ade172]
+[wt 0.2]
+[charaMove E -180,0 0.2]
+[seStop ade172 0.2]
+[wt 0.2]
+
+[charaTalk on]
+[charaTalk E]
+
+＠哈贝特洛特
+水兵也要睡觉啊。
+[k]
+
+＠哈贝特洛特
+咱平时也会通过灵体化＆休眠来节能，[r]不过水兵没办法灵体化吧？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+嗯，我们水兵类似于船长的分身，[r]但终究不是英灵尼莫。
+[k]
+
+＠尼莫水兵
+如果在远离Storm Border的地方灵体化，[r]就没办法再实体化了。
+[k]
+
+＠尼莫水兵
+之所以能像这样作为『个人』实体化，[r]都是多亏了迦勒底的电力与特里斯墨吉斯忒斯Ⅱ。
+[k]
+
+[charaFace D 1]
+
+＠尼莫水兵
+魔力补充也是由Storm Border提供的哦～。[r]正是多亏了这样，尼莫系列才能这么多人一起行动！
+[k]
+
+[charaFace D 0]
+
+＠尼莫水兵
+所以能像昨晚那样睡一觉是很有帮助的哦。[r]既能减少魔力消耗，又能少许回复一些。
+[k]
+
+？1：原来是这样……
+？2：我都不知道。
+
+？！
+
+[charaFace D 2]
+
+＠尼莫水兵
+如果一直待在潜航艇确实会不知道呢～！[r]船长也不说明！
+[k]
+
+＠尼莫水兵
+不过，虽然没办法灵体化，[r]当然还是有优点的～！
+[k]
+
+＠尼莫水兵
+无论受了多重的伤，只要回到鹦鹉螺号，[r]就能交接给其他水兵恢复原状！
+[k]
+
+＠尼莫水兵
+我们水兵专职12人，全部共24人！[r]人数多就是优势哦☆
+[k]
+
+[charaTalk depthOff]
+[charaDepth G 1]
+[charaDepth D 2]
+
+[charaPut G 0,-200]
+[charaFadeTime G 0.2 0.5]
+
+＠尼莫水兵
+（啊～……不过现在全部只有19人，这个就不提了。[r]　在亚特兰蒂斯失去4人，在不列颠失去1人，对吧？）
+[k]
+
+[messageOff]
+[charaFadeout G 0.2]
+[charaFadeout D 0.1]
+[wt 0.2]
+
+[messageOff]
+[se ad60]
+[seVolume ad60 0 0]
+[seVolume ad60 0.5 1.0]
+[wt 0.8]
+
+[seStop ad60 0.5]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.4 1]
+[wt 0.4]
+
+＠拉斯普京
+[f large]诸位早上好。
+[k]
+
+[messageOff]
+[charaCrossFade F 1098257500 4 0.4]
+[wait charaCrossFade F]
+
+＠拉斯普京
+哎哟，抱歉，弥撒的习惯始终改不掉呢。[r]各位就将这当作拟似从者的缺点好了。
+[k]
+
+[charaFace F 2]
+
+＠拉斯普京
+那么，事不宜迟，来召开今早的宇宙会议吧。[r]没问题吧，大小姐？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠U－奥尔加玛丽
+好吧，我准了。[r]资料我已经准备好了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+（什么资料？）
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠哈贝特洛特
+（为什么？）
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 26]
+[charaFadein B 0.1 1]
+
+＠玛修
+（不愧是奥尔加玛丽小姐！）
+[k]
+
+？1：（打断会议的流程可不好。）
+？2：（祈祷资料不是什么PPT。）
+
+？！
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[bgmStop BGM_EVENT_92 1.5]
+
+[charaTalk depthOff]
+[charaDepth A 1]
+[charaDepth H 2]
+[charaDepth I 3]
+[charaDepth J 4]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+[wt 0.3]
+
+[se ad942]
+[cueSe SE_21 21_ad1108 0 0.3]
+[charaPut H 1]
+[charaPut I 1]
+[charaEffect H bit_talk_U_projection_wave]
+[wt 0.5]
+
+[cueSeStop 21_ad1108 2.0]
+[charaEffect I bit_talk_U_projection01]
+[wt 2.5]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaPut H 2500,2500]
+
+[bgm BGM_REQUIEM 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+噢噢……您回想起自己的一部分力量了吗？[r]这可太棒了。
+[k]
+
+
+[charaFace F 0]
+
+＠拉斯普京
+根据这段影像记录，[r]通往玉座的通道只有祭坛前的楼梯。
+[k]
+
+＠拉斯普京
+由于那里有被称作『斗士职』的迪诺斯们[r]把守着，因此这条路线走不了。
+[k]
+
+＠拉斯普京
+另外，总统之眼已经敏锐地观察到了[r]恐龙王的个人房间，类似别墅的建筑物，
+[k]
+
+＠拉斯普京
+但由于并未在其中确认到疑似恐龙王的人物。[r]看来他并不在那里。
+[k]
+
+＠拉斯普京
+可以说，就算我们强行突破祭坛，[r]成功谒见恐龙王的可能性也很低。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠玛修
+……也就是说，警戒力度超过了我们的预料吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+是在防备奥塞洛特尔的袭击吗？[r]这个问题得找迪诺斯们打听才行。
+[k]
+
+[charaFace F 3]
+
+＠拉斯普京
+无论如何，以正常的手段[r]都难以接触恐龙王。
+[k]
+
+＠拉斯普京
+于是[line 3]请看这个。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+[charaPut H 1]
+[charaPut I 1]
+[charaPut J 1]
+[wt 0.5]
+
+[cueSe SE_22 22_ad1164]
+[charaEffectStop H bit_talk_U_projection_wave]
+[charaEffectStop I bit_talk_U_projection01]
+[charaEffect J bit_talk_U_projection02]
+[wt 1.5]
+
+[charaTalk F]
+
+
+＠拉斯普京
+[%1]。[r]你觉得这个像什么？
+[k]
+
+[bgmStop BGM_REQUIEM 1.5]
+
+[messageOff]
+[charaFadeout A 0.2]
+[wt 0.2]
+
+[cameraMove 0.7	 0,-5 1.1]
+[wt 1.5]
+
+？1：……难道是球场？
+
+[flag select1 true]
+
+[wt 0.1]
+[cameraHome 0.7]
+[se ad562]
+[seVolume ad562 0 0.6]
+[charaEffectStop J bit_talk_U_projection02]
+[wt 0.7]
+[charaPut J 2500,2500]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+啊，说得对～！[r]这个大概是踢足球的地方吧～！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+？2：……难道是竞技场？
+
+[flag select1 false]
+
+[wt 0.1]
+[cameraHome 0.7]
+[se ad562]
+[seVolume ad562 0 0.6]
+[charaEffectStop J bit_talk_U_projection02]
+[wt 0.7]
+[charaPut J 2500,2500]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠玛修
+我也是这么看的。[r]圆形的娱乐设施，就像罗马的竞技场……
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？3：……难道是[#Fes.:摇滚]会场？
+
+[flag select1 false]
+
+[wt 0.1]
+[cameraHome 0.7]
+[se ad562]
+[seVolume ad562 0 0.6]
+[charaEffectStop J bit_talk_U_projection02]
+[wt 0.7]
+[charaPut J 2500,2500]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+……我能理解你的心情，但这是不可能的。[r]是不可能的哦，[%1]。
+[k]
+
+＠拉斯普京
+因此梦话就说到这里好了。[r]明白了吗？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 50,0]
+[charaMove C 0,0 0.4]
+[wt 0.4]
+
+＠特佩乌
+那是蹴球的祭祀场。[r]蹴球是向太阳献上喜悦的仪式。
+[k]
+
+＠特佩乌
+可谓我们迪诺斯为数不多的……不，[r]是唯一的『娱乐』，这有什么问题吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 18]
+[charaFadein A 0.1 1]
+
+＠U－奥尔加玛丽
+昨晚，我增加了频道，[r]读取了整座城中迪诺斯的思维。
+[k]
+
+＠U－奥尔加玛丽
+迪诺斯们的基本色是『绿色』……[r]这是代表了你们世界之轴的颜色吧。
+[k]
+
+[charaFace A 13]
+
+＠U－奥尔加玛丽
+这点暂且不提。[r]在迪诺斯们的思维中，最多的就是这个。
+[k]
+
+＠U－奥尔加玛丽
+『下个夜晚结束后就会举行蹴球。』[r]『好期待，好期待，冠军最后会花落谁家呢？』
+[k]
+
+＠U－奥尔加玛丽
+『赢到最后的队伍将会获得王亲自的赐言。[r]　就能接触到[#太阳的教诲:库库尔坎]了。』
+[k]
+
+[charaFace A 18]
+
+＠U－奥尔加玛丽
+如何？[r]只要参加这场仪式，就能见到那什么恐龙王了吧？
+[k]
+
+？1：原来如此！
+？2：总统太厉害了！
+
+？！
+
+[charaSet C 1098252940 1 特佩乌]
+
+[charaFace A 14]
+
+＠U－奥尔加玛丽
+那还用说，[r]毕竟倾听地球人类的声音就是我的工作！
+[k]
+
+？1：但蹴球是什么？
+
+？！
+
+[charaFace A 19]
+
+＠U－奥尔加玛丽
+这，这我可不知道！[r]我又不熟悉地球人类的仪式！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+蹴球就是用全身除手以外的部位，[r]弹飞大概这么大的球，
+[k]
+
+＠特佩乌
+哪队能把球撞到大概这么大的，[r]设有网的[#环内:球门]，就算赢的仪式。
+[k]
+
+＠特佩乌
+这种仪式非常困难，[r]估计泛人类史中并不存在吧。
+[k]
+
+[charaFaceFade C 2 0.2]
+
+＠特佩乌
+我年轻时也向往过当一名蹴球选手。[r]年纪大了以后就死心了。哈哈哈。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaSet C 1098252940 1 特佩乌]
+[bgmStop BGM_EVENT_77 1.0]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠玛修
+呃……那个。[r]特佩乌先生，那个难不成是[line 3]
+[k]
+
+[bgm BGM_EVENT_146 0.1]
+
+[branch select2a select1 false]
+
+[branch select2b select1 true]
+
+[label select2a]
+？1：不就是蹴鞠嘛[line 4]！
+？2：不就是足球嘛[line 4]！
+
+？！
+[branch lblConf]
+
+
+[label select2b]
+？1：果然是蹴鞠啊[line 4]！
+？2：果然是足球啊[line 4]！
+
+？！
+[branch lblConf]
+
+[label lblConf]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+你说什么？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_146 1.0]
+[wait fade]
+
+[charaSet C 1098252900 1 特佩乌]
+[charaFadeout C 0.1]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_62 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠玛修
+请容我总结一下。[r]我们的目标，
+[k]
+
+＠玛修
+是『参加蹴球，赢得冠军，谒见恐龙王，[r]　拿到大平原的通行许可』。
+[k]
+
+＠玛修
+然后，为此所需的步骤，
+[k]
+
+＠玛修
+是『结识优秀的蹴球选手，[r]　获准入队，参加仪式』，
+[k]
+
+＠玛修
+是这样吧？
+[k]
+
+？1：而且还要获得优胜……
+？2：（有点强人所难吧？）
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠尼莫水兵
+嗯。光参加还不行吧。[r]若想谒见陛下，就必须获得优胜才行。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+所以才要『结识优秀的蹴球选手』哦，[r]水兵。
+[k]
+
+＠拉斯普京
+我记得球赛在玛雅文明中也是[r]作为一种大型仪式流行的。
+[k]
+
+＠拉斯普京
+说是一流的战士不仅要能打倒敌人，[r]球技也必须出类拔萃才行。
+[k]
+
+[charaFace F 4]
+
+＠拉斯普京
+所以特佩乌氏。[r]迪诺斯的蹴球是几人制的？
+[k]
+
+＠拉斯普京
+2对2？　还是4对4？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+难得举行的仪式，参加人数为何那么少？[r]就是正常的11对11啊。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 21]
+[charaFadein B 0.1 1]
+
+＠玛修
+不好意思，但我觉得已经[r]可以称其为足球了吧！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+我能理解玛修的心情。[r]我也持相同意见。
+[k]
+
+[charaFace F 5]
+
+＠拉斯普京
+不过，既然人数那么多，就有可能存在『替补』。[r]有些队伍说不定正为人数不足而发愁。
+[k]
+
+＠拉斯普京
+获准入队这个方针也许有希望了。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠哈贝特洛特
+那咱们现在就去城里找蹴球选手吧？[r]仪式就在明天，所以期限……
+[k]
+
+＠哈贝特洛特
+嗯，今天之内吧。
+[k]
+
+[charaFace E 4]
+
+＠哈贝特洛特
+不过米克特兰的白天在咱们的体感来看有两倍长，[r]到处奔走寻找总会有办法的！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠玛修
+说得没错，抓紧时间吧。
+[k]
+
+＠玛修
+言峰神父，能否再对我们施加[r]伪装成迪诺斯的圣事呢？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+当然可以，[r]我也花费一天时间改良了圣事。
+[k]
+
+＠拉斯普京
+上次你们的模样可谓从头到尾都很迪诺斯，
+[k]
+
+＠拉斯普京
+不过从这次起，效果变成只有迪诺斯[r]会将我们的模样视作迪诺斯了。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 24]
+[charaFadein A 0.1 1]
+
+＠U－奥尔加玛丽
+哎，真的吗？　[%1]和[r]玛修看起来不会再像迪诺斯了？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+当然，以及我也一样。
+[k]
+
+＠拉斯普京
+如何？　这样一来，连讨厌[r]迪诺斯的大小姐也能同行了吧？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠U－奥尔加玛丽
+好吧，我妥协。
+[k]
+
+[charaFace A 0]
+
+＠U－奥尔加玛丽
+然后一决胜负吧，[r]玛修、[%1]！
+[k]
+
+？1：为什么？
+
+[charaFace A 14]
+
+＠U－奥尔加玛丽
+没有什么为什么！[r]简单说，只要搞到“能赢的队伍”就行了吧！
+[k]
+
+＠U－奥尔加玛丽
+物色人才是我擅长的领域！
+[k]
+
+＠U－奥尔加玛丽
+找出超级蹴球选手，[r]我的队伍将称霸世界！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？2：好吧[line 3]我接受挑战。
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠玛修
+前辈？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+
+＠U－奥尔加玛丽
+哼，看来不用解释你也明白了吧。[r]这才是迦勒底的御主。虽然我也不是很了解。
+[k]
+
+[charaFace A 14]
+
+＠U－奥尔加玛丽
+不用惊讶，玛修。
+[k]
+
+＠U－奥尔加玛丽
+找出“能赢的队伍”也是一场竞争，[r]仅此而已。
+[k]
+
+＠U－奥尔加玛丽
+我会带领我看中的队伍竞逐冠军。
+[k]
+
+＠U－奥尔加玛丽
+而[%1]将靠你[r]自己找到的队伍竞逐冠军。
+[k]
+
+[charaFace A 8]
+＠U－奥尔加玛丽
+无论哪队胜出，都同样能谒见恐龙王。[r]这个作战更为坚若磐石吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+原来如此。[r]参加仪式的队伍有8支。
+[k]
+
+＠特佩乌
+尽可能潜入更多的队伍，[r]就能提升成功谒见的概率。
+[k]
+
+＠特佩乌
+分头寻找并加入参赛队伍，[r]这个作战计划确实不错。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+[wt 0.5]
+
+[charaMoveReturn B 0,-10 0.5]
+[wt 1.0]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.1 1]
+
+＠拉斯普京
+那就分成[%1]和玛修、[r]大小姐和我、特佩乌氏和水兵行动吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+没问题～！　足球我们大家也经常踢！[r]我一定会找到优秀的队伍！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+那等太阳来到第四层的时候，[r]我们再回到这里集合吧。
+[k]
+
+＠特佩乌
+毕竟确认彼此的进展也很重要。
+[k]
+
+？1：我知道了！
+？2：出发，去寻找队伍！
+
+？！
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_62 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

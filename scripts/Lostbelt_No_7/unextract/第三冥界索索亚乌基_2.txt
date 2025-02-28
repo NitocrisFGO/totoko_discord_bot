@@ -1,0 +1,1771 @@
+
+＄03-00-13-15-2-0
+
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 98001000 1 玛修]
+[charaSet B 1098252940 1 特佩乌]
+[charaScale B 1.2]
+[charaSet C 1098252410 1 库库尔坎]
+[charaSet D 1098257300 1 达·芬奇]
+[charaSet E 1098255300 1 尼托克丽丝]
+[charaSet F 1098255200 1 哈贝特洛特]
+
+[sceneSet I 10000 1]
+[charaScale I 1.05]
+[sceneSet H 169001 1]
+[charaScale H 1.2]
+[sceneSet J 169001 1]
+
+[charaSet Y 98115000 1 特效用]
+[charaSet Z 98115000 1 特效用]
+
+[scene 169001]
+
+[charaTalk depthOff]
+[charaDepth A 8]
+[charaDepth F 7]
+[charaDepth D 6]
+[charaDepth E 5]
+[charaDepth B 4]
+[charaDepth C 3]
+[charaDepth I 2]
+[charaDepth H 1]
+
+[charaFadein H 0.1 130,-200]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_BATTLE_98 0.1]
+
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+[charaShake C 0.1 0 2 0]
+
+[effect bit_talk_41_fs]
+[cueSe SE_23 23_ad1226]
+[seVolume 23_ad1226 0 0.1]
+[seVolume 23_ad1226 0.8 1.0]
+[se ade161]
+[seVolume ade161 0 0.1]
+[seVolume ade161 0.5 1.0]
+[wt 2.2]
+
+？1：异闻带之王库库尔坎，
+？2：变成只会吃烤玉米的机器了。
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[effectDestroy bit_talk_41_fs]
+[charaShakeStop C]
+[seVolume 23_ad1226 1.0 0.4]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+库库尔坎，还是到此为止吧。[r]吃太多会吃坏肚子的。
+[k]
+
+[charaPut I 1]
+[charaFadeTime I 0.2 0.5]
+
+＠尼托克丽丝
+（不过，反正她已经吃下将近体积十倍的玉米了，[r]　我这应该只是在白操心吧。）
+[k]
+
+[charaFadeout I 0.2]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[seStop 23_ad1226 0.5]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠库库尔坎
+不，我还能吃！　特佩乌，再来一份！
+[k]
+
+＠库库尔坎
+我以前都不知道还能这样，[r]我要在此将近10万年的份全部吃回来！
+[k]
+
+[charaFace C 15]
+
+＠库库尔坎
+……倒不如说，泛人类史好狡猾啊。[r]好可怕，简直不是人！
+[k]
+
+＠库库尔坎
+为什么要费这种工夫？[r]做得这么好吃，玉米可是会灭绝的……
+[k]
+
+[charaFace C 3]
+
+＠库库尔坎
+不过，我是不会让那种事发生的！[r]因为我，是神明！
+[k]
+
+＠库库尔坎
+在玉米变得一穗难求之前，[r]我会亲手、亲口！　吃到极限为止！
+[k]
+
+[messageOff]
+[charaShake C 0.1 0 2 2.5]
+[cueSe SE_23 23_ad1226]
+[seVolume 23_ad1226 0 0.1]
+[seVolume 23_ad1226 0.8 1.0]
+[se ade161]
+[seVolume ade161 0 0.1]
+[seVolume ade161 0.5 1.0]
+[wt 1.5]
+
+[charaMove C -260,-110 1.6]
+[charaMove H -130,-280 1.6]
+[seStop 23_ad1226 1.0]
+[wt 1.6]
+
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.4 250,20]
+[wt 0.4]
+
+＠特佩乌
+这就是文化冲击，真可怕。[r]新的灭绝原因诞生了。
+[k]
+
+[charaFaceFade B 6 0.3]
+
+＠特佩乌
+各位，库库尔坎就由我负责照顾吧，[r]请大家不必客气，继续饭后的闲谈吧。
+[k]
+
+[messageOff]
+[charaTalk B,C]
+[wt 0.2]
+
+[bgmStop BGM_BATTLE_98 2.0]
+
+[charaMove B 230,20 0.5]
+[charaMove C -280,-110 0.5]
+[charaShake C 0.1 3 3 0.5]
+[se ad671]
+[seVolume ad671 0 0.2]
+[seStop ad671 0.8]
+[wt 0.8]
+
+[charaMove B 150,20 1.4]
+[charaMove C -360,-110 1.4]
+[charaShake C 0.1 3 3 1.4]
+[se ad671]
+[seVolume ad671 0 0.2]
+[seStop ad671 1.6]
+[wt 0.9]
+[charaFadeout C 0.4]
+[charaFadeout B 0.4]
+[wt 0.4]
+[charaScale B 1.0]
+
+[charaMove H -130,-200 1.0]
+[wt 1.2]
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.2 1]
+[wt 0.2]
+
+＠达·芬奇
+迪诺斯社会中几乎不存在烹饪技术，[r]看来这对库库尔坎来说新奇过头了。
+[k]
+
+＠达·芬奇
+不过只要她吃得开心就好。
+[k]
+
+＠达·芬奇
+毕竟不同于迪诺斯，她跟我们同样是人型，[r]虽然我早就猜到应该会合她口味。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+…………[r]达·芬奇。虽说现在才问这个问题。
+[k]
+
+＠尼托克丽丝
+库库尔坎是这个异闻带的神吧。[r]那她不是应该长着迪诺斯的外貌才合理吗？
+[k]
+
+？1：（这倒确实……）
+？2：（其实我也一直很在意。）
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 23]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+嗯，这是理所当然的疑问。
+[k]
+
+＠达·芬奇
+人类会幻想比自己更上位的存在，[r]比如说巨人，或是人头兽身的神。
+[k]
+
+＠达·芬奇
+由『自己所没有的特征』与[r]『外形近似于自己』的生物混合而成。
+[k]
+
+＠达·芬奇
+以这些例子而言，库库尔坎的外形若非与迪诺斯……[r]与恐龙相近，就会很奇怪。
+[k]
+
+[messageOff]
+[charaMove H 20,-200 0.7]
+[charaMove D 150,0 0.7]
+[charaFadeout D 0.7]
+[wt 0.2]
+
+[subCameraOn 1]
+
+[charaLayer C sub #A]
+[charaLayer J sub #A]
+[charaLayer Z sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask10 3 0,173,169,255]
+
+[charaDepth Z 4]
+[charaDepth C 3]
+[charaDepth J 2]
+
+[charaScale Z 0.95]
+[charaPut Z -120,200]
+[charaEffect Z bit_talk_41_fs]
+
+[charaScale C 1.3]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 -150,200]
+[charaFadein J 0.1 -50,0]
+
+[subRenderFadein #A 0.2 -150,0]
+[subRenderMove #A -150,-200 0.3]
+[wt 0.3]
+[se ade226]
+
+＠库库尔坎
+我要吃个精光！[r]我要将这些邪恶的烤玉米全部吃光！
+[k]
+
+[messageOff]
+[subRenderMove #A -150,-400 0.2]
+[subRenderFadeout #A 0.2]
+[wt 0.4]
+[charaMove H -130,-200 0.7]
+[wt 0.7]
+
+[charaFadeout C 0.1]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaScale C 1.0]
+[charaEffectDestroy Z bit_talk_41_fs]
+[charaScale Z 1.0]
+
+[subCameraOff]
+[charaLayer C normal]
+[charaLayer J normal]
+[charaLayer Z normal]
+
+[charaTalk F]
+[charaFace F 0]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+
+＠哈贝特洛特
+[line 3]话说啦，[r][align right]（那不就是恐龙吗？）[align]
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+不可以啦，哈贝特洛特小姐。[r]我明白您想说什么，但不可以。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+好，这是个好机会。原本还打算再搜集[r]一些情报后再说，但还是将预定提前吧。
+[k]
+
+[charaFaceFade D 3 0.2]
+[se ade158]
+
+＠达·芬奇
+召开紧急作战会议。[r]虽说以饭后的闲谈而言，可能稍微沉重了一点哦？
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_147 1.0]
+[wait fade]
+
+[charaFadeout H 0.1]
+[charaTalk depthOn]
+
+[charaSet D 1098257610 1 达·芬奇]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_109 0.1]
+
+[charaTalk D]
+[charaFace D 28]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+好了，[r]让你们久等了吧？
+[k]
+
+＠达·芬奇
+魔术世界里的中南美起源是什么？[r]可从中推导出的第七异闻带成立过程又是什么样的？
+[k]
+
+＠达·芬奇
+本该最先讨论的议题被一直拖到了现在，
+[k]
+
+＠达·芬奇
+我代表迦勒底向你们道歉。[r]但是[line 3]
+[k]
+
+[charaFace D 16]
+
+＠达·芬奇
+一路上铢积寸累，现在终于可以说时机已经成熟了！
+[k]
+
+＠达·芬奇
+准备好了吗，聚集在此的诸位，[r]还有[%1]！
+[k]
+
+[charaFace D 1]
+
+＠达·芬奇
+让大家久等了！[r]达·芬奇亲的神话考究开始啦～～！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[cueSe SE_21 21_ad1139]
+[seVolume 21_ad1139 0 0.4]
+
+[charaDepth E 2]
+[charaDepth A 3]
+[charaDepth F 1]
+
+[charaTalk off]
+
+[charaFace E 1]
+[charaFadeinFSL E 0.1 -320,0]
+[charaFace A 26]
+[charaFadein A 0.1 1]
+[charaFace F 9]
+[charaPutFSR F 320,0]
+[charaFadeTime F 0.1 0.7]
+
+[wt 1.0]
+[seStop 21_ad1139 1.5]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+那么，[%1]。
+[k]
+
+＠达·芬奇
+你已经听玛修讲解过泛人类史奇琴伊察的传说，[r]以及玛雅·阿兹特克神话的关系了吧。
+[k]
+
+＠达·芬奇
+还记得吗？
+[k]
+
+？1：玛雅比较古老，阿兹特克在其之后。
+？2：两者既有相同的教诲，也有不同的教诲。
+
+？！
+
+[charaFace D 23]
+
+＠达·芬奇
+虽然过于笼统了，但现在是要考究异闻带。[r]有这点对玛雅与阿兹特克的关系认知就够了。
+[k]
+
+[charaFace D 2]
+
+＠达·芬奇
+基于这个前提，[r]来整理一下我们这次的旅程吧。[bgmStop BGM_EVENT_109 1.5]
+[k]
+
+[messageOff]
+
+[scene 178200 0.6]
+[charaFadeout D 0.6]
+[wt 1.0]
+
+[bgm BGM_REQUIEM 0.1]
+[sceneSet H 170900 1]
+[sceneSet J 171300 1]
+[sceneSet K 171700 1]
+[sceneSet L 39400 1]
+
+[subCameraOn 2]
+
+[subRenderScale #A 1.7]
+
+[subRenderDepth #A 2]
+[subRenderDepth #B 3]
+
+[charaLayer H sub #A]
+[charaLayer J sub #A]
+[charaLayer K sub #A]
+[charaLayer L sub #A]
+[charaLayer I sub #A]
+[charaLayer Y sub #A]
+[charaLayer D sub #B]
+[charaLayer A sub #B]
+[charaLayer E sub #B]
+
+[subCameraFilter #A maskEdge cut359_mask14 3 0,0,0,0]
+[subCameraFilter #B through]
+
+[charaScale D 0.85]
+[charaScale A 0.85]
+[charaScale E 0.85]
+
+[charaScale Y 0.4]
+[charaScale H 0.4]
+[charaScale J 0.4]
+[charaScale K 0.4]
+[charaScale L 0.4]
+
+[charaDepth H 4]
+[charaDepth J 3]
+[charaDepth Y 5]
+[charaDepth I 1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0,0]
+[charaFadein I 0.1 1]
+[wt 0.1]
+
+[cueSe SE_22 22_ade695]
+[subRenderFadein #B 0.2 -325,-150]
+[subRenderMove #B -325,-130 0.2]
+[wt 1.2]
+
+[se ad1]
+[subRenderFadein #A 0.5 -640,-270]
+[wt 0.5]
+[charaFadein H 0.5 400,120]
+[wt 1.0]
+
+
+
+＠达·芬奇
+为了与『异星之神』决一胜负，[r]我们闯入了发生于南美的第七异闻带。
+[k]
+
+＠达·芬奇
+然而，突破了『风暴之壁』的我们[r]所面对的，并非南美大陆，
+[k]
+
+＠达·芬奇
+而是远比它辽阔的大陆[line 3][r]泛大陆盘古。
+[k]
+
+[messageOff]
+
+[charaFadein J 0.1 400,120]
+[wt 0.1]
+[charaFadeout H 1.0]
+[wt 1.2]
+
+[charaFace D 20]
+
+＠达·芬奇
+随后，Storm Border被撕裂地面[r]出现的神秘光束击沉，
+[k]
+
+＠达·芬奇
+迫降到了这个延伸于地底的世界，[r]也就是米克特兰。
+[k]
+
+[messageOff]
+[charaDepth J 4]
+[charaDepth K 3]
+
+[charaFadein K 0.1 400,120]
+[wt 0.1]
+[charaFadeout J 1.0]
+[wt 1.2]
+
+[charaFace D 2]
+
+＠达·芬奇
+这个地底世界正如米克特兰之名，[r]洋溢着浓厚的中南美特色，而非南美的。
+[k]
+
+＠达·芬奇
+恐怕是因为该异闻带的根基……基本思想[r]就是泛人类史的中南美神话吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玛修
+……所以准确地说，应该称之为『中南美异闻带』，[r]而非『南美异闻带』吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 30]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+嗯。不过嘛，地表的坐标确实是南美，[r]还是照旧叫南美异闻带吧。
+[k]
+
+[charaFace D 0]
+
+＠达·芬奇
+好了，这里就要提到第一项考究了。[r]我们来深挖一下中南美神话吧。
+[k]
+
+＠达·芬奇
+中南美神话贴近地球大自然的同时，[r]也追求着宇宙的视点。
+[k]
+
+＠达·芬奇
+实际上，中南美的壁画与遗物中有许多[r]被认为是『朝着天空进发的火箭』。
+[k]
+
+[charaFace D 2]
+
+＠达·芬奇
+这是为什么呢？[r]在魔术世界中对此有一条定论。
+[k]
+
+＠达·芬奇
+『玛雅文明的起源中，[r]　有实际知晓宇宙的存在』。
+[k]
+
+？1：实际……？
+？2：也就是外星人……？
+
+？！
+
+[charaFace D 27]
+
+＠达·芬奇
+嗯，来自宇宙的『某种存在』。[r]只不过，跟你想象中的生命略有不同。
+[k]
+
+[messageOff]
+[charaDepth K 4]
+[charaDepth L 3]
+
+[charaFadein L 0.1 400,120]
+[wt 0.1]
+[charaFadeout K 1.0]
+[wt 1.0]
+
+[charaFace D 7]
+
+＠达·芬奇
+距我们[#现在:当下]的6600万年前，[r]BIG-5中的第五次大灭绝时。
+[k]
+
+＠达·芬奇
+巨大的陨石坠落到了中南美的尤卡坦半岛。
+[k]
+
+＠达·芬奇
+据说陨石的冲击化作热浪笼罩了地球，[r]使得掌握着那个时代陆地霸权的生命[line 3]
+[k]
+
+＠达·芬奇
+恐龙灭绝了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+虽说与迪诺斯……有所不同，[r]但我听说恐龙也是具备强韧肉体的物种。
+[k]
+
+＠尼托克丽丝
+说明那是场严重到足以使它们灭绝[line 3][r]足以改变生态系统的灾害吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 39]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+嗯。陨石撞击引发的地震震级达11级以上，[r]海啸高达300多米。
+[k]
+
+[charaFace D 22]
+
+＠达·芬奇
+……最近有说法称同一时期西非[r]也遭到了陨石撞击，
+[k]
+
+＠达·芬奇
+但巨大陨石坠落到中南美尤卡坦半岛的事实[r]不可动摇。毕竟可循之迹实在是太多了。
+[k]
+
+[charaFace D 2]
+
+＠达·芬奇
+半岛上直径160公里的撞击坑遗迹、[r]稀有金属铱的发现，
+[k]
+
+＠达·芬奇
+以及最重要的，是撞击形成的[#辽阔的地下空洞]。
+[k]
+
+＠达·芬奇
+尤卡坦半岛有许多被称作[#洞状陷穴:Cenote]的泉。
+[k]
+
+＠达·芬奇
+那是由深邃纵穴底部涌出地下水来构成的，[r]是人们生活中不可或缺的水源。
+[k]
+
+＠达·芬奇
+[#洞状陷穴:Cenote]形成的原因之一，[r]就是陨石撞击造成的地壳变化。
+[k]
+
+＠达·芬奇
+洞状陷穴之间在地下彼此相连，[r]就像蚁穴一样。
+[k]
+
+＠达·芬奇
+明白了吗？　在尤卡坦半岛，早在6600万年前[r]就已经构筑起了辽阔的地下世界。
+[k]
+
+＠达·芬奇
+玛雅神话中的[#地下冥界:希巴尔巴][r]对他们来说是真实存在的。
+[k]
+
+＠达·芬奇
+阿兹特克神话也继承了这个要素，[r]作为[#地下冥界:米克特兰]重获新生……
+[k]
+
+[charaFace D 10]
+
+＠达·芬奇
+这不仅是经由言传、文明传达的信息，[r]还是刻在肉体记忆中的根源性恐惧[line 3]
+[k]
+
+＠达·芬奇
+在魔术世界则被推论为[r]或许是[#刻在遗传因子里的信息]。
+[k]
+
+？1：刻在遗传因子里的信息……？
+？2：跟一般的……人类遗传因子不一样吗？
+
+？！
+
+[messageOff]
+[bgmStop BGM_REQUIEM 1.5]
+[scene 169001 1.0]
+
+[subRenderFadeout #A 1.0]
+[subRenderFadeout #B 1.0]
+[wt 1.0]
+[charaFadeout L 0.1]
+[charaFadeout D 0.1]
+[charaFadeout I 0.1]
+[wt 0.1]
+[charaScale D 1.0]
+[charaScale A 1.0]
+[charaScale E 1.0]
+
+[subCameraOff]
+[charaLayer H normal]
+[charaLayer J normal]
+[charaLayer K normal]
+[charaLayer L normal]
+[charaLayer D normal]
+[charaLayer A normal]
+[charaLayer E normal]
+[charaLayer I normal]
+
+[charaTalk D]
+[charaFace D 20]
+[charaFadein D 0.4 1]
+[wt 0.4]
+
+＠达·芬奇
+当然是『一般的人类』。[r]只不过，还添加了『除此以外的因素』而已。
+[k]
+
+[bgm BGM_EVENT_79 0.5]
+
+[charaFace D 2]
+
+＠达·芬奇
+坠落到尤卡坦半岛上的陨石含有丰富的资源。
+[k]
+
+＠达·芬奇
+地球上只能少量生成的[#贵重矿石:稀有金属]自不必说，[r]还有这颗星球上不曾存在的[line 3]
+[k]
+
+＠达·芬奇
+地外物质，或是[#生物]。
+[k]
+
+＠达·芬奇
+坠落到尤卡坦半岛的陨石上，[r]名副其实地[#搭乘着外星人]哦。
+[k]
+
+？1：[line 3]不会吧？
+
+[charaFace D 15]
+
+＠达·芬奇
+嗯，是真的。[r]不过外星人这个说法有点言过其实吧？
+[k]
+
+？2：[line 3]超现实？
+
+[charaFace D 30]
+
+＠达·芬奇
+唔～，确实很超现实哦。[r]不过以反证法而言，也只能这么认为了。
+[k]
+
+？！
+
+[charaFace D 2]
+
+＠达·芬奇
+总之，陨石附着着其他天体的智慧生命体，
+[k]
+
+＠达·芬奇
+它们寄生，或是融合到地球的生命身上，[r]使荒芜的地表急速重生，促进了生命的发展。
+[k]
+
+＠达·芬奇
+这是像我们这种『雌雄个体通过生殖繁衍子孙』的[r]生物不可能完成的工作。
+[k]
+
+＠达·芬奇
+必须是能更广阔、更简短，更频繁地繁殖，[r]并能覆盖地表的生命才做得到。
+[k]
+
+＠达·芬奇
+换言之，是大自然，是植物。[r]它们并非『搭乘着陨石而来的外星人』。
+[k]
+
+＠达·芬奇
+而是附着在陨石上的植物芽苗[line 3][r]『拥有信息传达功能的真菌』。
+[k]
+
+＠达·芬奇
+它们寄生在地球的植物上，帮助物种发展，[r]在人类诞生后被敬奉为『自然的化身』。
+[k]
+
+＠达·芬奇
+这就是中南美『神』的根源。[r]它们会倚靠、帮助任何存在。
+[k]
+
+＠达·芬奇
+有时也会以自然本身的形式出现吧。
+[k]
+
+＠达·芬奇
+时而以动物为宿主，[r]时而以人类为宿主。
+[k]
+
+＠达·芬奇
+最终身为玛雅文明起源的人群诞生，[r]能适应这种真菌的人成为了神官，成为了国王，
+[k]
+
+＠达·芬奇
+有时或许也会成为神，[r]向玛雅的人民展现真菌们故乡的幻象……
+[k]
+
+＠达·芬奇
+展现『宇宙的样貌』吧。[r]在魔术世界中是如此认为的。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+附着在陨石上的“神之元素”……[r]6600万年前的“访客”……
+[k]
+
+？1：……（咦？）
+？2：……（刚才这番话好像有哪里不太对劲……？）
+
+？！
+
+[charaFace A 0]
+
+＠玛修
+达·芬奇亲。这里提到的真菌，[r]可以理解成我们熟知的蘑菇吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 30]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+哎哟，近来甚至有说法称地球上的菌类也拥有语言，[r]地球上的所有菌类[line 2]
+[k]
+
+＠达·芬奇
+都是通过地下网络交谈的，[r]不过这点还是以后有机会再谈吧。
+[k]
+
+[charaFace D 36]
+
+＠达·芬奇
+我刚才说是真菌，其实有点语病。[r]准确地说，类似于[#植物的根部]。
+[k]
+
+＠达·芬奇
+只靠神经组织活动的极小生命体。[r]外观应该近似于纤维吧？
+[k]
+
+＠达·芬奇
+附着在陨石上的『它们』虽然具备信息传达功能，[r]却无法独自产生智慧。
+[k]
+
+＠达·芬奇
+这样打比方虽然不太好听，[r]其实就是病毒与感染者的关系。
+[k]
+
+＠达·芬奇
+『它们』应该是通过依靠寄生对象的生物，[r]来发展物种、确立生存圈的。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+[#传承带原者:God's Holder]……
+[k]
+
+＠玛修
+听说魔术协会还有将神代的神秘当作病原菌[r]保管的家族，就跟那个一样吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 16]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+嗯。起源虽有不同，[r]但[#传承带原者:God's Holder]应该也是同样的原理吧。
+[k]
+
+＠达·芬奇
+正可谓稀有中的稀有。感染了神之血的人类[r]在现代也能重现神代的神秘。
+[k]
+
+[charaFace D 0]
+
+＠达·芬奇
+在阿兹特克神话中，
+[k]
+
+＠达·芬奇
+魁札尔·科亚特尔与特斯卡特利波卡[r]虽是神，但也常以人类的身份登场。
+[k]
+
+＠达·芬奇
+如果将此视作『魁札尔·科亚特尔』这一[#神之纤维][r]寄宿于那个时代的国王身上，就解释得通了。
+[k]
+
+＠达·芬奇
+『它们』先依靠植物繁荣起来，[r]打造出南美辽阔的密林。
+[k]
+
+＠达·芬奇
+然后以遍布地底的根为神经培育世界，[r]觅见人类这一灵长，承认神代的终结……
+[k]
+
+＠达·芬奇
+承认自己寿命已尽，再也无法回到宇宙的事实，[r]将希望托付给了生活在地表的[#人类:孩子]们。
+[k]
+
+＠达·芬奇
+这就是玛雅·阿兹特克文明。
+[k]
+
+＠达·芬奇
+作为地球的记忆，知晓『五次大灭绝』，[r]却不认为那是什么坏事，
+[k]
+
+＠达·芬奇
+满怀无论面对什么样的终焉都能克服的意志，[r]相信『物种新生』的神话体系。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_79 2.0]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaDepth E 1]
+[charaDepth A 2]
+
+[charaTalk off]
+[charaFace E 13]
+[charaFadeinFSL E 0.1 -250,0]
+[charaFace A 6]
+[charaFadeinFSR A 0.1 250,0]
+[wt 1.6]
+
+？1：[line 3]
+？2：（接受灭绝，克服灭绝[line 3]）
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.4 0,-15]
+[charaMove B 0,10 0.4]
+[se ad27]
+[seVolume ad27 0 0.7]
+[wt 0.1]
+[se ad984]
+[seVolume ad984 0 0.6]
+[wt 0.2]
+[charaMove B 0,0 0.4]
+[wt 0.4]
+
+＠特佩乌
+[line 3]刚才那些对话我都听到了。[r]库库尔坎正在那边睡觉。
+[k]
+
+[bgm BGM_MAP_41 0.1]
+
+＠特佩乌
+您是想这么说吧，达·芬奇。
+[k]
+
+＠特佩乌
+迫降在中南美的『它们』托付『想回去』[r]这个愿望的对象之不同，导致了人类史的分歧。
+[k]
+
+＠特佩乌
+在泛人类史中，被选中的是人类，[r]而在这南美异闻带，被选中的则是[#恐龙:我们]。
+[k]
+
+＠特佩乌
+如此看来……南美异闻带是以6600万年前的[r]大灭绝为界诞生的……对吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+要，要真是这样，那南美异闻带的历史[r]在异闻带中也可谓前所未有的最大规模了。
+[k]
+
+＠玛修
+不，作为人类一路发展至今的时间[r]甚至要比泛人类史还长[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 20]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+………嗯。[r]我觉得这个判断应该没错……
+[k]
+
+[bgm BGM_MAP_41 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth D 5]
+[charaDepth I 1]
+
+[charaPut I 1]
+[charaFadeTime I 0.2 0.5]
+
+＠达·芬奇
+（然而不解之处还是太多了……坠落至尤卡坦半岛的陨石[r]　无疑就是异闻带的起点。）
+[k]
+
+＠达·芬奇
+（但是，再往后就捉摸不透了。[r]　库库尔坎为何不是迪诺斯型呢？）
+[k]
+
+＠达·芬奇
+（这异闻带的『神之纤维』选择的寄生对象[r]　为何不是人类，而是迪诺斯呢？）
+[k]
+
+＠达·芬奇
+（在第五次灭绝时，恐龙也灭绝了。）
+[k]
+
+＠达·芬奇
+（要选寄生对象的话，应该跟泛人类史一样，[r]　选择日后掌握陆地霸权的哺乳类才对吧。）
+[k]
+
+[bgm BGM_MAP_41 0.5 1.0]
+
+[charaFadeout I 0.2]
+
+[charaFace D 30]
+
+＠达·芬奇
+抱歉，这段考究应该大致是吻合的。
+[k]
+
+＠达·芬奇
+如果福尔摩斯在场，估计还能推测得更深一点，[r]但我只能止步于此了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+进一步的考究需要新的情报吧。[r]……嗯。
+[k]
+
+＠特佩乌
+那我们改变一下着眼点吧。[r]既然不清楚『神之纤维』为何会选择迪诺斯，
+[k]
+
+＠特佩乌
+那反过来说，认为我们迪诺斯被[r]『它们』选中的根据又是什么呢？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+嗯，这倒是很明确。[r]这就是第二项考究，对事实的确认。
+[k]
+
+＠达·芬奇
+[%1]。
+[k]
+
+＠达·芬奇
+关于迪诺斯，[r]这段时间获得的情报中有什么值得一提的吗？
+[k]
+
+？1：极其强大。
+
+[charaFace D 2]
+
+＠达·芬奇
+嗯，恐龙的肌力自不用说，[r]还有类似变色龙的拟态，经由意念沟通，
+[k]
+
+？2：是不同于恐龙的生物。
+
+[charaFace D 2]
+
+＠达·芬奇
+嗯，恐龙的肌力自不用说，[r]还有类似变色龙的拟态，经由意念沟通，
+[k]
+
+？3：皮肤独具特征。
+
+[charaFace D 40]
+
+＠达·芬奇
+！　怎么，原来你意识到了啊！[r]真有你的！
+[k]
+
+[charaFace D 6]
+
+＠达·芬奇
+那么，接下来是对答案的时间。
+[k]
+
+[charaFace D 2]
+
+＠达·芬奇
+恐龙的肌力自不用说，[r]还有类似变色龙的拟态，经由意念沟通，
+[k]
+
+？！
+
+＠达·芬奇
+种类繁多却又全都是植食性，[r]通过生体波动免疫物理冲击，
+[k]
+
+＠达·芬奇
+这些特征不可能是基于地球环境进化出来的。[r]最关键的是，他们的高度智慧本就不可能。
+[k]
+
+[charaFace D 20]
+
+＠达·芬奇
+不是指『不可能头脑灵活』，[r]而是指植食性动物不可能支撑如此多样的活动。
+[k]
+
+[charaFace D 2]
+
+＠达·芬奇
+智慧与思考所需的能量消耗[r]不是植食能够提供的。
+[k]
+
+＠达·芬奇
+所以说，迪诺斯们是靠不同于[r]进食的方式补充能量的。
+[k]
+
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+太阳的教诲[line 3]只靠水和阳光就能生存[line 3][r]！　难不成，各位迪诺斯[line 2]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+没错，他们在进行光合作用。[r]是『神之纤维』让他们进化成这样的。
+[k]
+
+
+＠达·芬奇
+动物与植物的混血儿。[r]这就是这异闻带中的灵长，[#恐龙人:迪诺斯]。
+[k]
+
+[bgmStop BGM_MAP_41 2.0]
+＠达·芬奇
+是远比我们人型人类优秀好几倍，[r]横亘6600万年的霸者哦。
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[charaSet D 1098257300 0 1]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_141 0.5]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+太令人震惊了，[r]原来我们很厉害啊。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+嗯，当然很厉害。[r]迪诺斯们都会觉得这是理所当然吧，
+[k]
+
+[charaFace D 0]
+
+＠达·芬奇
+但你们是完美的智慧生物。
+[k]
+
+＠达·芬奇
+所有人都是强者，[r]不需要相互争夺生存所需的物资。
+[k]
+
+＠达·芬奇
+甚至称得上是基尔什塔利亚所追求的[r]『无须争斗的人类』的一种形式吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+[line 6]
+[k]
+
+
+？1：幸好理想的人类是各位迪诺斯。
+
+？！
+
+[charaFace A 13]
+
+＠玛修
+是的。基尔什塔利亚先生所追求的并非白日梦。
+[k]
+
+＠玛修
+存在值得追求的理想，而且这理想就是[r]像特佩乌先生他们这般善良的人，
+[k]
+
+＠玛修
+这令我非常[line 3]非常高兴[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 36]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+话虽如此。
+[k]
+
+＠达·芬奇
+我们谈论过作为南美异闻带开端的[r]尤卡坦半岛的陨石了，
+[k]
+
+＠达·芬奇
+但第七异闻带为什么会变成这样的世界结构，[r]目前尚且不明。
+[k]
+
+＠达·芬奇
+要想知道答案，只能去一趟观测所。[r]不过在此之前……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+
+＠哈贝特洛特
+还有第三冥界这道关卡呢！
+[k]
+
+＠哈贝特洛特
+反正这次有尼托克丽丝和达·芬奇在，[r]还有睡在那边的可怕恐龙神！
+[k]
+
+＠哈贝特洛特
+无论冒出什么都没什么好怕的！[r]势如破竹地突破过去吧！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_141 1.5]
+[wait fade]
+
+[charaFadeout F 0.1]
+
+[sceneSet H 171701 1]
+[charaScale H 1.2]
+
+[scene 10000]
+[wt 2.5]
+
+[fadein black 1.5]
+[wait fade]
+
+
+[bgm BGM_EVENT_79 0.1]
+
+＠
+达·芬奇的考究大致吻合的。
+[k]
+
+＠
+我们是从苍穹坠落的存在，[r]是漂流至这颗星球的存在。
+[k]
+
+＠
+在[#泛人类史:你们]的世界中，[r]是在6600万年前招致了第五次灭绝的存在。
+[k]
+
+＠
+然而，这里是异闻。
+[k]
+
+＠
+是由于些微的轨道偏差，[r]我们早了约2亿5000万年到来的世界。
+[k]
+
+[messageOff]
+
+[charaFadein H 1.5 50,-200]
+[charaMove H -50,-200 30.0]
+[wt 1.5]
+
+＠
+[line 3]这成了不同于你的世界的，[r]　　　米克特兰的开端。
+[k]
+
+＠
+我们藉由根部，将泛大陆维持了[r]长达2亿3400万年之久，然而[line 3]
+[k]
+
+＠
+6600万年前，[r]这颗星球迎来了第三次大灭绝。
+[k]
+
+＠
+在[#泛人类史:你们]的时间中，[r]世界终结，并重启为新生代。
+[k]
+
+＠
+我们选择了他们。[r]并非日后出现的你们。
+[k]
+
+＠
+选择了与终将诞生的你们一样，[r]拼命在这颗星球上生存的，古生代的孩子们。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_79 1.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+[wt 1.5]
+
+[wipeout openEye 0.1 1.0]
+[wait wipe]
+
+[scene 170301]
+[blur lens 0.1 2 10]
+[wt 0.5]
+
+[fadein black 0.1]
+[wait fade]
+
+[wipein openEye 1.0 1.0]
+[wait wipe]
+
+[wipeout openEye 1.0 1.0]
+[wait wipe]
+
+[blurOff lens 1.0]
+
+[wipein openEye 1.0 1.0]
+[wait wipe]
+[wt 2.0]
+
+
+？1：……忽然醒了过来……
+？2：……大家都还在睡……
+
+？！
+
+＠库库尔坎
+哎呀？　你醒着啊？
+[k]
+
+[messageOff]
+
+[scene 169001 1.5]
+[wt 2.0]
+
+[bgm BGM_EVENT_156 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.4 1]
+[wt 0.4]
+
+＠库库尔坎
+太巧了，我也醒了。
+[k]
+
+＠库库尔坎
+难得的机会，我接替了哈贝特洛特小姐守夜的工作，[r]在这里眺望着米克特兰的夜空。
+[k]
+
+[charaFace C 2]
+
+＠库库尔坎
+所以请你继续休息吧。[r]我保证能万无一失地守好夜！
+[k]
+
+？1：………………
+
+？！
+
+[charaFace C 13]
+
+＠库库尔坎
+你睡不着吗？[r]啊，那要不要喝点什么？　补充水分是很重要吧？
+[k]
+
+[charaFace C 7]
+
+＠库库尔坎
+哦，你更在意夜空吗？[r]“明明在地底，为什么能看见星星呢？”……
+[k]
+
+[charaFace C 20]
+
+＠库库尔坎
+很遗憾，米克特兰的夜空[r]并非真正的[#宇宙:天空]。
+[k]
+
+＠库库尔坎
+只是看起来像是那么回事而已。
+[k]
+
+＠库库尔坎
+看似星星的东西是迈雅的磷光，[r]只是在模仿它们曾见过的[#宇宙:天空]。
+[k]
+
+＠库库尔坎
+称得上天体的东西只有太阳。
+[k]
+
+＠库库尔坎
+但那也是拟似制造的极微小规模版，[r]到头来还是冒牌货。
+[k]
+
+？1：但愿只是我的错觉，库库尔坎你……
+
+？！
+
+[charaFace C 0]
+
+＠库库尔坎
+我怎么了？
+[k]
+
+？1：刚才是不是在装睡？
+
+？！
+
+[charaFace C 7]
+
+＠库库尔坎
+哇噢，穿帮了呢。
+[k]
+
+[charaFace C 20]
+
+＠库库尔坎
+我心想反正没有我出场的余地，[r]只要像那样装睡就不会碍着你们了。
+[k]
+
+＠库库尔坎
+因为要是把话题抛给我，就会聊不下去了。
+[k]
+
+＠库库尔坎
+“库库尔坎怎么看？”[r]“米克特兰是怎么回事？”
+[k]
+
+＠库库尔坎
+要是把这些问题抛给我，我也很伤脑筋。
+[k]
+
+[charaFace C 1]
+
+＠库库尔坎
+立场上，如果找我商量，我就不得不回答……[r]但我不能撒谎…………所以……
+[k]
+
+＠库库尔坎
+……我才会装睡，静待暴风雨过去……
+[k]
+
+？1：……这样啊。
+？2：也就是说你还有什么事瞒着我们吧？
+
+？！
+
+[charaFaceFade C 14 0.2]
+
+＠库库尔坎
+[line 3]哎嘿。
+[k]
+
+[charaFaceFade C 6 0.2]
+
+＠库库尔坎
+啊，不过[%1][&先生:小姐]也有事[r]瞒着达·芬奇小姐吧？
+[k]
+
+＠库库尔坎
+你明明有机会在讲解过程中提出“不是那样”的。
+[k]
+
+＠库库尔坎
+为何要保持沉默呢？
+[k]
+
+＠库库尔坎
+其实你早就知道自己在奇琴伊察做的梦[r]是[#谁的梦]了。
+[k]
+
+＠库库尔坎
+是因为不想打断达·芬奇小姐吗？[r]还是说，意识到我在装睡后，
+[k]
+
+＠库库尔坎
+本能地理解了[r][#一不小心说漏嘴就会被我杀掉]吗？
+[k]
+
+？1：嗯。就是因为这样。
+
+[charaFace C 2]
+
+＠库库尔坎
+是吗～！　那你做得完全正确！
+[k]
+
+＠库库尔坎
+要是你当场说了出来，[r]这会儿大家早就跟玉米田一块消失了吧！
+[k]
+
+？2：其实我压根没有意识到存在出入。
+
+[messageOff]
+[charaFace C 7]
+[wt 1.2]
+[charaFace C 11]
+
+＠库库尔坎
+呵呵。你既然能说得出这番话，[r]就无异于表示“我知道”哦。
+[k]
+
+[charaFace C 20]
+
+＠库库尔坎
+我不知道你为何明明意识到了还保持沉默……[r]但我还是挺高兴的，非常感谢。
+[k]
+
+？！
+
+[charaFace C 11]
+
+＠库库尔坎
+[line 3]好啦，玩笑话就到此为止吧。[r][%1][&先生:小姐]所做的梦，
+[k]
+
+＠库库尔坎
+正如你猜测的，[r]就是植根于米克特兰的存在……『[#神之纤维:迈雅]』的梦。
+[k]
+
+＠库库尔坎
+我不知道你为何会与米克特兰同步，[r]但这并不是什么坏事，
+[k]
+
+＠库库尔坎
+所以请不必顾虑，把梦的内容告诉大家，[r]各抒己见地审议一番吧。
+[k]
+
+[charaFace C 1]
+
+＠库库尔坎
+虽说结果会导致[line 3][r]某个人犯下的某场祸……
+[k]
+
+＠库库尔坎
+或者说不经大脑所做的坏事暴露的可能性·大！[r]但那也是自作自受，也只能接受了……
+[k]
+
+？1：话虽如此……
+？2：梦的内容我基本都记不起来了……
+
+？！
+
+[charaFace C 7]
+
+＠库库尔坎
+[FFFFFF]？[-]　梦在睡醒后就会被彻底忘个精光？[r]人类会这样吗？
+[k]
+
+[charaFace C 17]
+
+＠库库尔坎
+呜哇，这么说来我也是这样！[r]原来不只有我一个人健忘啊！
+[k]
+
+[charaFaceFade C 14 0.2]
+
+＠库库尔坎
+那那那，那就晚安啦！[r]这段对话也发生在梦中，醒来后就忘掉吧！
+[k]
+
+[messageOff]
+[charaMove C -50,0 0.2]
+[charaFadeout C 0.2]
+[se ad55]
+[seStop ad55 0.4]
+[wt 0.2]
+[se ade255]
+[wt 1.5]
+
+[se ade255]
+[wt 0.4]
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.2 -50,0]
+[charaMove C 0,0 0.2]
+[se ad55]
+[seStop ad55 0.4]
+[wt 0.4]
+
+＠库库尔坎
+不对，我会认真守夜的！[r]放心吧！
+[k]
+
+[messageOff]
+[charaMove C -100,0 0.5]
+[charaFadeout C 0.4]
+[se ad55]
+[seStop ad55 1.0]
+[wt 0.5]
+[se ade255]
+[seVolume ade255 0 0.6]
+[wt 2.0]
+
+？1：……好。
+？2：……睡吧！
+
+？！
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_156 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

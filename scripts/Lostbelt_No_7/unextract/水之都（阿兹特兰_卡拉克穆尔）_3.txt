@@ -1,0 +1,634 @@
+
+
+
+＄03-00-13-21-3-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 11015001 1 尼托克丽丝·Alter]
+[charaSet B 1098257700 1 特诺奇蒂特兰]
+[charaSet C 1098255300 1 尼托克丽丝]
+[charaSet D 1098257910 1 玛修]
+[charaSet E 1098257300 1 达·芬奇]
+[charaSet F 1098255200 1 哈贝特洛特]
+[charaSet G 1098252900 1 特佩乌]
+
+[sceneSet H 175000 1]
+[sceneSet I 175000 1]
+[charaSet J 1098257700 1 特诺奇蒂特兰_大]
+
+[imageSet L back10000 1 1]
+[charaScale L 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+
+[scene 175000]
+
+[pictureFrameTop cut063_cinema]
+
+[bgm BGM_BATTLE_200 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth A 4]
+[charaDepth B 6]
+
+[charaFace A 2]
+[charaFadein A 0.1 0,-50]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.2]
+
+[se ad7]
+[se ad1006]
+[blur motion 0.1 4 100 0.5 0.6 0.03 100]
+[charaFace A 5]
+[charaMoveScale A 1.15 0.25]
+[charaMove A 0,-30 0.25]
+[charaFadeout A 0.25]
+[wt 0.3]
+[blurOff motion 0.1]
+[wt 0.25]
+
+[cueSe Servants_1101500 m52909]
+[fowardEffect bit_talk_quick_slash]
+[wt 0.8]
+
+[cueSe Servants_1101500 m52913]
+[flashin once 0.1 0.1 FF0000FA FF000050]
+[wt 0.1]
+[fowardEffectDestroy bit_talk_quick_slash]
+
+[fowardEffect bit_talk_35 -100,0]
+[charaFadein H 0.8 0,-250]
+[shake 0.03 2 2 0.4]
+[charaMove H 0,-150 0.4]
+[wt 0.4]
+[se ad671]
+[shake 0.03 3 4 0.8]
+[wt 1.25]
+
+[charaScale A 1.2]
+[charaEffect A bit_talk_quickmove]
+[wt 0.1]
+[charaPut A 0,-0]
+[charaFace A 5]
+[charaSpecialEffect A appearance 1 0.25]
+[se ad223]
+[wt 0.25]
+[se ad480]
+[wt 0.1]
+[shake 0.03 2 3 0.3]
+[wt 0.7]
+
+[fowardEffectDestroy bit_talk_35]
+
+[charaTalk on]
+＠尼托克丽丝·Alter
+城墙被粉碎了！[r]终于跪伏了吧，特诺奇蒂特兰！
+[k]
+
+[messageOff]
+[bgm BGM_BATTLE_200 1.0 0.4]
+
+[charaDepth L 5]
+
+[subCameraOn 1]
+[charaTalk off]
+[charaTalk J]
+[charaLayer I sub #A]
+[charaLayer J sub #A]
+[charaDepth I 1]
+[charaDepth J 2]
+[charaScale I 1.2]
+[charaScale J 1.25]
+[subCameraFilter #A maskEdge cut359_mask06 3 255,255,255,255 0]
+[charaFadein I 0.1 0,350]
+[charaFace J 26]
+[wt 0.1]
+[charaPut L 1]
+[charaFadeTime L 0.4 0.5]
+[subRenderFadein #A 0.4 0,-300]
+[charaFadein J 0.4 -250,260]
+[charaMove J -200,260 0.4]
+[wt 1.0]
+
+＠J：特诺奇蒂特兰
+呜……！[wt 0.6][r]（不行，会被干掉的……！）
+[k]
+
+
+[messageOff]
+[se ad231]
+[cameraMove 0.4 60,-15 1.1]
+[subCameraMove #A 0.4 60,-15 1.1]
+[wipeout openEye 0.4 1.0]
+[wait wipe]
+
+[bgmStop BGM_BATTLE_200 1.5]
+[subRenderFadeout #A 0.1]
+[charaLayer I normal]
+[charaLayer J normal]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaScale A 1.0]
+
+[subCameraHome #A 0.1]
+[cameraHome 0.1]
+[charaFadeout B 0.1]
+[charaFadeout L 0.1]
+[charaFadeout A 0.1]
+
+[scene 10000]
+
+[charaTalk on]
+[pictureFrameTop]
+[charaScale B 1.2]
+[charaTalk B]
+[charaFace B 7]
+[charaPut B -200,0]
+[wt 1.0]
+[subCameraOff]
+
+[wipein openEye 1.0 1.0]
+[wait wipe]
+
+
+[charaFadeTime B 0.2 0.6]
+＠特诺奇蒂特兰
+……？[r]（没有追击……没有用宝具补最后一击……？）
+[k]
+
+[charaFadeout B 0.5]
+
+＠尼托克丽丝·Alter
+你要闭眼到什么时候。[r]虽然无法战斗了，但应该没受致命伤吧。
+[k]
+
+[messageOff]
+[fadeout black 0.1]
+[wait fade]
+
+[charaScale B 1.0]
+[wt 0.2]
+
+[fadein black 0.1]
+[wait fade]
+
+[wipeout openEye 0.1 1.0]
+[wait wipe]
+
+[scene 175000]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[wt 0.8]
+
+[wipein openEye 2.0 1.0]
+[wait wipe]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_95 0.1 0.8]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+＠特诺奇蒂特兰
+……什么意思？[r]不打算挖出我的心脏吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠尼托克丽丝·Alter
+虽然我可以挖，但现在还不到那个时候。[r]被我握在手中的心脏都是属于死者的。
+[k]
+
+＠尼托克丽丝·Alter
+不需要还留有未竟之事的生者心脏。[r]不冷不热的令人恶心。
+[k]
+
+[charaFace A 2]
+＠尼托克丽丝·Alter
+另外，这也不是对以前被你放了一马的回礼。
+[k]
+
+＠尼托克丽丝·Alter
+若要洗刷那次屈辱，唯有鞭打你一百次，[r]把你彻底破坏才行。现在这点程度可不够看。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 1]
+＠特诺奇蒂特兰
+……分明被我放了一马，却用杀害作为回礼，吗？你是用[r]杀人灭口抹杀失言的那种类型？　竟然还好意思自称神明，对吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut C 2000,2500]
+[charaEffectEdgeBlur C FFEF20]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠尼托克丽丝·Alter
+还有余力反唇相讥呢。
+[k]
+
+＠尼托克丽丝·Alter
+那就好。[bgmStop BGM_EVENT_95 2.0][r]我只担心自己会不会做得太过火了。
+[k]
+
+[messageOff]
+[se ad952]
+[seVolume ad952 0 0.5]
+[se ad948]
+[seVolume ad948 0 0.7]
+[se ade404]
+[seVolume ade404 0 0]
+[seVolume ade404 0.4 0.2]
+[effect bit_talk_22 0,-50]
+[charaEffectEdgeBlur A FFEF20]
+[wt 1.0]
+[wt 1.4]
+
+[se ad149]
+[se ad934]
+[fadeout white 0.3]
+[seStop ade404 0.3]
+[seStop ad948 0.3]
+[seStop ad952 0.3]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaPut A 2000,2500]
+[charaEffectEdgeBlurStop A]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+[wt 1.5]
+
+[fadein white 1.0]
+[wt 0.7]
+[charaEffectEdgeBlurStop C]
+[wait fade]
+[wt 0.5]
+
+[charaPut S 0,-50]
+[charaEffect S bit_talk_06_blue 0,-100]
+[charaFadeTime C 1.0 0.7]
+[fadeMove white 1.0 0.2]
+[bgm BGM_EVENT_123 0.1]
+[wt 2.5]
+
+？1：尼托克丽丝！？
+？2：那种消失方式……不是退去……
+
+？！
+
+＠尼托克丽丝
+不行哦，我的同盟者。[r]虽说被镇压了，但对方毕竟是野蛮的中南美英灵。
+[k]
+
+＠尼托克丽丝
+不能保证不会挤出最后的力量发动攻击。[r]还是请在那边目送我离去吧。
+[k]
+
+[charaFace C 1]
+＠尼托克丽丝
+刚才已经道过别了吧？[r]我就到此为止了，很抱歉那么自说自话。
+[k]
+
+[charaFace C 0]
+＠尼托克丽丝
+其实应该说，[r]真亏自己能撑到现在呢！
+[k]
+
+＠尼托克丽丝
+毕竟我挖出了心脏当异灵化的燃料，[r]会消失也是理所当然的。
+[k]
+
+＠尼托克丽丝
+我已经在第四冥界死去了。
+[k]
+
+＠尼托克丽丝
+异灵化是仅允许在冥界进行的转生。[r]要是在外面进行，必然会变成这样。
+[k]
+
+[charaFace C 6]
+＠尼托克丽丝
+我不后悔，但遗憾的是『这个我』[r]将会在此消灭。
+[k]
+
+＠尼托克丽丝
+法老尼托克丽丝应该再也不会[r]被迦勒底召唤出来了吧。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+[wt 1.4]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk C]
+[charaFace C 6]
+[charaFadeTime C 0.1 0.8]
+[wt 0.5]
+
+？1：……这可不好说哦。
+
+[charaFace C 1]
+＠尼托克丽丝
+还有很细微，非常细微的可能性呢。[r]不过，既然你这么说了。
+[k]
+
+＠尼托克丽丝
+那就算不认识迦勒底的我，[r]也肯定能缔结良好的同盟关系吧。
+[k]
+
+？2：[line 3][&我知道了:嗯]。之后的事你就不必担心了。
+
+[charaFace C 0]
+＠尼托克丽丝
+那当然！[r]我的同盟者可是身经百战的御主嘛！
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠特诺奇蒂特兰
+……为什么？[r]付出了那么多的牺牲，却只做到这种程度吗？
+[k]
+
+＠特诺奇蒂特兰
+明明能够彻底杀死我，真是莫名其妙。[r]过于屈辱了，还是杀了我吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk C]
+[charaFace C 9]
+[charaFadeTime C 0.1 0.8]
+＠尼托克丽丝
+就是说嘛。我也很怀疑自己的兴趣。
+[k]
+
+＠尼托克丽丝
+竟然会从你这种阴暗顽固孤僻的女人身上[r]感受到相似的地方。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaPut S 2000,2500]
+
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 1]
+＠特诺奇蒂特兰
+相似？　我和你吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaTalk C]
+[charaFace C 11]
+[charaFadeTime C 0.1 0.8]
+＠尼托克丽丝
+嗯，我们都专注于思考被赋予的立场，[r]隐藏起了自己真正想做的事。
+[k]
+
+＠尼托克丽丝
+正如你所说的，我是为复仇而战的女王。
+[k]
+
+＠尼托克丽丝
+设下阴险的陷阱，[r]处决了远比自己强大的神官们。
+[k]
+
+＠尼托克丽丝
+虽然有人称赞那是有勇有谋的行动……
+[k]
+
+[charaFace C 6]
+＠尼托克丽丝
+……可那一切都是我愚蠢的证明。
+[k]
+
+＠尼托克丽丝
+一切都为时已晚了。[r]我已经失去了真正想守护的存在。
+[k]
+
+＠尼托克丽丝
+没能发现自己早就错失了[r]展现勇气与智慧的机会。
+[k]
+
+＠尼托克丽丝
+比起为诛杀谋害兄弟的神官们而战，[r]更应该为守护兄弟而战，哪怕自己势单力薄。
+[k]
+
+＠尼托克丽丝
+就算后来惩罚了自己，[r]附着在灵魂上的瑕疵与后悔都不会改变。
+[k]
+
+＠尼托克丽丝
+你那不情不愿战斗的模样，[r]很像当初失去兄弟前的我。
+[k]
+
+＠尼托克丽丝
+因此[line 3]虽然这只是出于我想拯救自我的，[r]自我满足的愿望，但还是希望你能记在心里。
+[k]
+
+＠尼托克丽丝
+该战斗的时刻、该战斗的对手，[r]当你真正遇到这些的时候，不要伪装自己。
+[k]
+
+＠尼托克丽丝
+说要为民众流血的，美丽都市的化身。
+[k]
+
+＠尼托克丽丝
+你的心脏里，还留存着[#眷恋:热量]吧？
+[k]
+
+[messageOff]
+[cueSe SE_21 21_ad1142]
+[charaFadeTime C 2.0 0]
+[fadeMove white 2.0 1.0]
+[charaSpecialEffect C erasure 1 2.0]
+[wt 1.0]
+[se ad528 0.6]
+[wait charaSpecialEffect C]
+[charaEffectDestroy S bit_talk_06_blue]
+[seStop 21_ad1142 2.5]
+[seStop ad526 1.5]
+[wt 1.2]
+[fadein white 1.0]
+[bgmStop BGM_EVENT_123 3.0]
+[wait fade]
+[wt 1.5]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+[cameraMove 0.1 0,0 1.01]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠玛修
+……尼托克丽丝小姐的灵基确认消灭。[r]保管在潜航艇的灵基肖像恐怕也……
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut S 1]
+[charaEffect S bit_talk_rubble]
+[se ad14]
+[seVolume ad14 0 0]
+[se ade393]
+[seVolume ade393 0 0]
+
+[seVolume ad14 0.2 1.0]
+[seVolume ade393 0.2 0.4]
+[se ad228]
+[shake 0.02 4 2 2.0]
+[wt 1.6]
+[charaPut S 2000,2000]
+[seStop ad14 0.8]
+[seStop ade393 0.8]
+[wt 0.6]
+[seStop ad228 0.4]
+[wt 0.8]
+
+[bgm BGM_BATTLE_78 0.1]
+
+？1：！　由于刚才的战斗，桥快要塌了！
+？2：大家，快跑！
+
+？！
+
+[charaTalk E]
+[charaFace E 12]
+[charaFadein E 0.1 1]
+＠达·芬奇
+糟了，下面是岩浆之海，掉下去可就没救了！[r]有话稍后再说，抓紧前往神殿[line 3]
+[k]
+
+[messageOff]
+
+[charaPut S 1]
+[se ad14]
+[seVolume ad14 0 0]
+[se ade393]
+[seVolume ade393 0 0]
+
+[seVolume ad14 0.2 1.0]
+[seVolume ade393 0.2 0.4]
+[se ad228]
+[se ad913]
+[shake 0.03 2 4 2.0]
+[wt 0.3]
+[charaFace E 26]
+[wt 1.3]
+[seStop ad14 0.8]
+[seStop ade393 0.8]
+[wt 0.6]
+[seStop ad228 0.4]
+[seStop ad913 1.2]
+[wt 0.8]
+[charaPut S 2000,2000]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk off]
+[charaDepth D 3]
+[charaDepth F 2]
+[charaDepth G 1]
+
+
+[charaScale G 1.2]
+[charaScale D 0.9]
+[charaScale F 0.9]
+[charaFace D 6]
+[charaFace F 14]
+[charaFace G 1]
+[charaFadeinFSR D 0.1 300,-50]
+[charaFadeinFSL F 0.1 -300,-50]
+[charaFadeinFSL G 0.1 250,70]
+[wt 1.6]
+[bgmStop BGM_BATTLE_78 2.0]
+
+
+[shake 0.05 3 3 0.3]
+[se ad913]
+[se ade338]
+[se ad640]
+[se ad10]
+[wipeout downToUp 0.4 1.0]
+[wait wipe]
+
+[charaFadeout D 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+
+[scene 10000]
+[wt 1.0]
+
+[seStop ad640 2.0]
+[seStop ad913 2.0]
+[wipein upToDown 0.5 1.0]
+[wait wipe]
+
+
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]

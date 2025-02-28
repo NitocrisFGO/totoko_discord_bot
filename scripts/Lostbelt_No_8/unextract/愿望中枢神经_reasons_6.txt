@@ -1,0 +1,668 @@
+
+
+
+＄04-00-02-04-6-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270370 1 阿愈丝]
+[charaSet B 1098270900 1 拉妮－Ｒ]
+[charaSet C 1098270000 1 希翁]
+[charaSet D 1098269600 1 Caster]
+[charaSet E 1098271000 1 蠢魔1]
+[charaSet F 1098271000 1 蠢魔2]
+[charaSet G 1098271000 1 蠢魔3]
+[charaSet H 1098271000 1 蠢魔4]
+[charaSet I 1098271000 1 蠢魔5]
+[charaSet J 7046001 1 难敌]
+[charaSet K 6037001 1 迦摩]
+[charaSet L 1098270530 1 拉妮－Ｄ]
+[charaSet M 1098183600 1 恶性数据]
+
+[charaSet N 1098270540 1 警报机器人]
+
+[sceneSet O 189300 1]
+[charaScale O 1.4]
+[sceneSet P 189300 1]
+[charaScale P 1.4]
+
+[charaSet S 98115000 1 特效用dummy]
+
+[imageSet R back10000 1 1]
+[charaFilter R silhouette FFFFFF80]
+[charaScale R 1.3]
+
+[scene 189400]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_92 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+[charaMoveReturn A 0,-7 0.4]
+＠阿愈丝
+咀嚼咀嚼。[wt 0.35][charaMoveReturn A 0,-7 0.4][wt 0.6][charaFace A 2]唔～，果然有种奇妙的感觉呢。[r]这就是所谓的『味道』吗……？
+[k]
+
+[charaFace A 0]
+
+＠阿愈丝
+该怎么说呢，我一点都不讨厌呢……
+[k]
+
+[charaFace A 6]
+＠阿愈丝
+哎嘿嘿～。
+[k]
+
+＠阿愈丝
+这就是所谓的好吃吧？[r]幸福指数正在上升哦。
+[k]
+
+？1：那真是太好了。
+？2：确实好吃。
+？！
+
+[charaFace A 0]
+＠阿愈丝
+话说回来，是什么时候做的这种升级呢？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠拉妮－Ｒ
+虽然没有明确的证据，但据我推测，[r]应该是自从[#ＡＩ圣杯战争:System Grail War]打响以后吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠希翁
+制造出这东西的[#维持部:Keep]也有御主和从者。
+[k]
+
+＠希翁
+根据我的计算，是受他们影响的可能性最高，[r]不知实际情况如何。
+[k]
+
+[charaSet A 1098270300 1 阿愈丝]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠阿愈丝
+嗯，也许吧。
+[k]
+
+[charaFace A 0]
+＠阿愈丝
+话说，这世界还有其他变化吗？[r]传闻程度的也照说无妨。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠拉妮－Ｒ
+我想想，要说明确的变化……
+[k]
+
+[charaFace B 1]
+＠拉妮－Ｒ
+也就是[#构筑部:Build]的ＡＩ，[r]型号Ｂ整体的行动都很迟缓了吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠阿愈丝
+[#构筑部:Build]……[r]就是[#Caster:魔术师]可能驻扎的地方吧。
+[k]
+
+＠阿愈丝
+百般欺负我们型号Ｒ的孩子们，[r]还强行夺走拉妮物质的过分家伙。
+[k]
+
+＠阿愈丝
+他们[#构筑部:Build]自己分区的孩子们[r]或许也被[line 3]
+[k]
+
+[charaFace A 5]
+＠阿愈丝
+……[r]……
+[k]
+
+[charaCrossFade A 1098270330 3 0.3]
+＠阿愈丝
+不，现在再怎么担心其他孩子也无济于事。[wait charaCrossFade A]
+[k]
+
+＠阿愈丝
+我们必须做好自己的工作才行。
+[k]
+
+[charaFace A 0]
+＠阿愈丝
+首先要做的，就是比以往更加警戒[#Caster:魔术师]……[r]或是其他从者的骚扰，
+[k]
+
+＠阿愈丝
+以及补充拉妮物质吧。
+[k]
+
+＠阿愈丝
+我指的不是这种进食级别的，[r]不，这种当然也很重要，
+[k]
+
+＠阿愈丝
+果然还是得好好赚取[r]能供战斗使用程度的燃料才行。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_92 1.5]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠希翁
+而且[line 3]还需要超越对手补给的速度吧。
+[k]
+
+
+
+[messageOff]
+[se ad437]
+[fadeout white 0.1]
+[wait fade]
+[charaFadeout C 0]
+
+[scene 189401]
+
+[pictureFrame cut063_cinema]
+
+[cameraFilter gray]
+
+
+[charaTalk off]
+[charaDepth R 9]
+[charaDepth S 8]
+[charaDepth E 7]
+[charaDepth F 6]
+[charaDepth G 5]
+[charaDepth H 4]
+[charaDepth I 3]
+[charaDepth D 1]
+
+[charaFace D 12]
+[charaFadein D 0 0,-50]
+[fadein white 0.1]
+[wait fade]
+
+[pictureFrame]
+[pictureFrameTop cut063_cinema]
+
+
+[wt 1.5]
+
+
+[charaFadein R 0.1 1]
+[wt 0.1]
+[charaFadeout D 0]
+
+[charaFace E 0]
+[charaFace F 0]
+[charaFace G 0]
+[charaFace H 0]
+[charaFace I 0]
+[charaFadein E 0 0,-50]
+[charaFadeinFSR F 0 250,-50]
+[charaFadeinFSL G 0 -250,-50]
+[charaFadeinFSSideR H 0 450,-50]
+[charaFadeinFSSideL I 0 -450,-50]
+[charaFadeout R 0.1]
+[wt 0.6]
+
+[charaFilter R silhouette FF000080]
+
+[se ad1006]
+[charaMoveScale C 1.1 0.3]
+[charaMoveScale D 1.1 0.3]
+[charaMoveScale E 1.1 0.3]
+[charaMoveScale F 1.1 0.3]
+[charaMoveScale G 1.1 0.3]
+[charaMove E 0,-35 0.3]
+[charaMoveFSR F 260,-35 0.3]
+[charaMoveFSL G -260,-35 0.3]
+[charaMoveFSSideR H 470,-35 0.3]
+[charaMoveFSSideL I -470,-35 0.3]
+[charaFadeout E 0.3]
+[charaFadeout F 0.3]
+[charaFadeout G 0.3]
+[charaFadeout H 0.3]
+[charaFadeout I 0.3]
+[wt 0.45]
+
+[cueSe Battle bac267]
+[wt 0.4]
+
+[cueSe Servants_704200 m40101]
+[wt 0.4]
+[cueSe Servants_704200 m49207]
+[wt 0.4]
+[cueSe Servants_2500900 m45619]
+[charaFadein R 0.1 1]
+[wt 0.05]
+[effect bit_talk_blood_stay 0,0 H]
+[wt 0.05]
+[charaFadeout R 0.1]
+[wt 1.05]
+[effectStop bit_talk_blood_stay]
+[wt 0.7]
+
+[pictureFrameTop]
+[pictureFrame cut063_cinema]
+
+[fadeout white 0.1]
+[wait fade]
+[effectDestroy bit_talk_blood_stay]
+
+[scene 189400]
+
+[pictureFrame]
+
+[cameraFilter normal]
+
+[charaFilter R normal]
+
+[fadein white 0.1]
+[wait fade]
+
+[wt 1.2]
+
+
+？1：（面对不惜使用那种残忍行径的对手……）
+？2：（我们真能在补给速度上取胜吗……？）
+？！
+
+[messageOff]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[wt 1.4]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaFace A 7]
+＠阿愈丝
+所以！　我们也必须以自己的方式[r]全力以赴才行哦！
+[k]
+
+[charaFace A 8]
+＠阿愈丝
+就算我这么说，你们也不知该怎么做吧……[r]吃完这些后，先跟我来吧。
+[k]
+
+＠阿愈丝
+让我来告诉你们何为[#修理部:Repair]的工作！
+[k]
+
+？1：请多指教！
+？！
+
+[messageOff]
+[wt 0.15]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth A 4]
+[charaDepth J 3]
+
+[se ad8]
+[wt 2.0]
+
+[se ade421]
+[wt 0.8]
+
+[charaTalk J]
+[charaFace J 10]
+[charaFadein J 0.4 350,0]
+[charaMove J 300,0 0.4]
+[wt 0.2]
+[seStop ade421 0.2]
+[wt 0.6]
+
+[charaTalk on]
+[charaTalk A]
+[charaCrossFade A 1098270300 0 0.3]
+＠阿愈丝
+啊，[#Berserker:狂战士]。怎么了？[wait charaCrossFade A]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFace J 2]
+[charaMoveReturn J 300,-7 0.5]
+[wt 0.1]
+[se ad78]
+[wt 0.8]
+[charaFace A 7]
+[charaMove J 350,0 0.4]
+[charaFadeout J 0.4]
+＠阿愈丝
+呃，啊～！　那是我的～！
+[k]
+
+＠阿愈丝
+虽然我已经补充了必要分量，也无所谓啦，虽说无所谓，[r]但最后一个我本打算留着慢慢品尝啊！
+[k]
+
+＠阿愈丝
+干嘛啦，你不是不想吃吗！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 5]
+[charaFadein J 0.1 1]
+＠难敌
+少啰嗦啦～！　饿着肚子没法那啥嘛！[r]本老爷突然又想吃了！
+[k]
+
+＠难敌
+无论厨师是谁，食材本身没有罪过！[r]这就是所谓的惜物精神！
+[k]
+
+[bgm BGM_EVENT_77 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth R 4]
+[charaDepth J 5]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+[charaFace J 10]
+＠难敌
+（……要赢，非赢不可。[r]　这次无论如何，无论如何都要赢。）
+[k]
+
+＠难敌
+（因此，现在必须全力积蓄力量才行。）
+[k]
+
+＠难敌
+（[#怎么可以]，[r]　[#再次输给那种卑鄙小人啊][line 3]）
+[k]
+
+[charaFadeout R 0.2]
+[bgm BGM_EVENT_77 0.5 1.0]
+
+[charaFace J 5]
+＠难敌
+大[se ade104][charaMoveReturn J 0,-7 0.3]嚼[wt 0.5][charaMoveReturn J 0,-7 0.3]特嚼[wt 0.3][charaMoveReturn J 0,-7 0.3]咕嘟[wt 0.6][charaFace J 10][charaMoveReturn J 0,-7 0.5]咽下！[wt 0.7][charaFace J 3][r]嗯，还不够！
+[k]
+
+[charaFace J 6]
+＠难敌
+倒不如说这点食物根本就是杯水车薪。[r]快点快点，去获取拉妮物质吧。抓紧时间！
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠阿愈丝
+怎么突然充满干劲了啦……[r]有点可怕……
+[k]
+
+[charaFace A 1]
+＠阿愈丝
+不过，也罢。想必是[#Berserker:狂战士]也领会[r]我们的想法了吧，肯定是这样没错！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 14]
+[charaFadein K 0.1 1]
+＠迦摩
+我倒觉得唯独没有这个可能性。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠阿愈丝
+好～，大家一起加油吧！
+[k]
+
+[charaFace A 2]
+＠阿愈丝
+……不过，我们的工作是修理，[r]要是没有受损的ＡＩ就谈不上工作了。
+[k]
+
+＠阿愈丝
+期盼有人上门也不太合适，[r]所以基本上只能干等着[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[bgmStop BGM_EVENT_77 1.5]
+
+[se ade422]
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.4 1]
+[wt 0.4]
+[seStop ade422 0.2]
+[wt 0.6]
+＠拉妮－Ｒ
+请求。请求救援。我们[#修理部:Repair]区域的[r]外缘部附近出现了恶性数据群。
+[k]
+
+＠拉妮－Ｒ
+最先遭遇恶性数据的数台[#修理部ＡＩ:型号Ｒ]受到中等程度的损伤。[r]抵达现场的一台[#警防部ＡＩ:型号Ｄ]虽受轻微损伤，但仍在应对。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_80 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 1]
+＠阿愈丝
+糟了。看来还是直接赶去比较好吧。[r]我们走吧！
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[se ade427]
+[wt 0.1]
+[se ad59]
+[wt 1.0]
+
+[wipeout leftToRight 0.8 1.0]
+[bgm BGM_EVENT_80 0.8 0.5]
+[seStop ade427 0.8]
+[seStop ad59 0.8]
+[wait wipe]
+
+
+[scene 189300]
+[wt 1.0]
+
+[charaFadein P 0.1 250,-300]
+
+[bgm BGM_EVENT_80 0.8 1.0]
+[wipein rightToLeft 0.8 1.0]
+[wait wipe]
+[wt 0.2]
+
+[subCameraOn 1]
+[charaLayer L sub #A]
+[charaLayer B sub #A]
+[charaLayer N sub #A]
+[charaLayer O sub #A]
+[subCameraFilter #A maskEdge cut359_mask16 3 255,255,255,255]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth P 1]
+[charaDepth M 4]
+[charaDepth B 4]
+[charaDepth L 5]
+[charaDepth N 3]
+
+[charaScale L 1.0]
+[charaScale N 1.0]
+[charaScale B 1.0]
+[charaScale O 1.4]
+
+[charaScale N 1.0]
+[charaFace L 2]
+[charaFace B 9]
+[charaFace N 0]
+[charaFadeinFSR L 0.1 -130,100]
+[charaFadeinFSR N 0.1 20,100]
+[charaFadeinFSR B 0.1 170,100]
+[charaFadein O 0.1 -250,-200]
+
+
+
+[se ad19]
+[charaScale M 1.2]
+[charaFace M 0]
+[charaFadein M 0.4 0,50]
+[wt 2.0]
+
+[charaMoveFSL M -256,50 0.8]
+[charaMove P 200,-300 0.8]
+[wt 0.2]
+
+[se ad346]
+[subRenderFadein #A 0.6 575,-140]
+[subRenderMove #A 225,-140 0.6]
+[wt 0.4]
+[seStop ad346 0.2]
+[wt 1.2]
+
+
+[subRenderFadeout #A 0.2]
+[charaFadeout P 0.2]
+[charaFadeout M 0.2]
+[wt 0.2]
+
+[charaFadeout O 0.1]
+[charaFadeout N 0.1]
+[charaFadeout B 0.1]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer O normal]
+[charaLayer B normal]
+[charaLayer L normal]
+[charaLayer N normal]
+[charaScale O 1.0]
+[charaScale B 1.0]
+[charaScale N 1.0]
+[charaScale L 1.0]
+
+[charaTalk on]
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠迦摩
+是那个吧。[r]还有外形从未见过的敌人……
+[k]
+
+＠迦摩
+不过要干的活本身跟昨天回来路上的那次一样吧。[r]打倒敌人卖个人情。
+[k]
+
+[charaFace K 13]
+
+＠迦摩
+强行推销的好意、不由分说的帮助、[r]单方面的强迫救赎……
+[k]
+
+[charaFace K 1]
+＠迦摩
+呵呵呵，这或许会是美妙的娇纵，[r]无人能逃脱的堕落哦？
+[k]
+
+＠迦摩
+这种可是我的拿手好戏。
+[k]
+
+[charaFace K 6]
+＠迦摩
+看仔细了哦，御主。
+[k]
+
+＠迦摩
+说不定看着看着，自己也会兴奋起来，[r]想要变成那样了。
+[k]
+
+[charaFace K 7]
+＠迦摩
+啊，如果能够出色完成，[r]你可得好好夸奖我才行哦？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠希翁
+……[r]……
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStopEnd BGM_EVENT_80 0.4]
+[wait fade]
+[soundStopAllEnd]
+[end]

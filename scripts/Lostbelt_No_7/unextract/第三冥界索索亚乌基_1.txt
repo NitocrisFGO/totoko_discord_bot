@@ -1,0 +1,194 @@
+
+＄03-00-13-15-1-1
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098252920 1 特佩乌]
+[charaSet B 1098252410 1 库库尔坎]
+[charaSet C 1098255200 1 哈贝特洛特]
+
+[scene 169001]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_77 0.1]
+[wt 0.5]
+
+？1：总算是突围了……
+
+[charaTalk C]
+[charaFace C 9]
+[charaPut C 1]
+[charaFadeTime C 0.1 0.7]
+
+＠哈贝特洛特
+嗯，挺厉害的嘛～！[r]其实咱也想参与枪械交火，
+[k]
+
+＠哈贝特洛特
+不过咱的宝具是用来对付超巨大生物的～。[r]要跟玛修的魔力一起保存实力才行！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？2：这里也有玉米田呢。
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠库库尔坎
+那当然。玉米是『神之肉』。[r]已经改良成在米克特兰的任何地方都能种植了。
+[k]
+
+＠库库尔坎
+毕竟对迪诺斯而言，[r]这是仅次于太阳的重要能量来源。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 0,-15]
+[charaMove A 0,10 0.4]
+[se ad27]
+[seVolume ad27 0 0.7]
+[wt 0.1]
+[se ad984]
+[seVolume ad984 0 0.6]
+[wt 0.2]
+[charaMove A 0,0 0.4]
+[wt 0.4]
+
+＠特佩乌
+为大家收获了好多回来哦。
+[k]
+
+＠特佩乌
+明天终于要进入第六层[line 3][r]第三冥界了。
+[k]
+
+[charaFace A 3]
+
+＠特佩乌
+我倒是早就习惯了，[r]但大家还是头一次去银河砂丘。
+[k]
+
+＠特佩乌
+今晚要摄取充足的营养，[r]备战明天的跨越砂丘吧。
+[k]
+
+[charaFace A 2]
+
+＠特佩乌
+顺带一提，我这里有Storm Border上[r]烘焙坊分给我的酱汁。
+[k]
+
+[messageOff]
+[charaFace A 0]
+[charaMove A 0,-15 1.2]
+[se ad77]
+[seVolume ad77 0 0.5]
+[wt 0.4]
+[seStop ad77 1.0]
+[charaCrossFade A 1098252940 0 0.4]
+[wait charaCrossFade A]
+[se ad775]
+[seVolume ad775 0 0.7]
+[wt 0.8]
+
+[charaMoveReturn A 0,-20 0.5]
+[se ade312]
+[seVolume ade312 0 0.5]
+[cueSe Servants_2500600 m40101]
+[seVolume m40101 0 0.2]
+[seStop m40101 0.3]
+[wt 0.5]
+[charaMoveReturn A 0,-20 0.5]
+[cueSe Servants_2500600 m40103]
+[seVolume m40103 0 0.2]
+[seStop m40103 0.3]
+[seStop ade312 0.7]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+
+＠库库尔坎
+……？　将那种黑色的水涂在神圣的玉米上……？[r]外表看起来怪邪恶的……那是什么？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+是名为酱油的东西。[r]将这个涂在玉米上，再烤一下表面[line 3]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_77 2.0]
+
+[se ad450]
+[seVolume ad450 0 0.1]
+[seVolume 21_ade597 1.0 0.7]
+
+[cueSe SE_21 21_ade597]
+[seVolume 21_ade597 0 0.1]
+[seVolume 21_ade597 1.0 0.5]
+[wt 2.0]
+
+[charaFaceFade A 6 0.2]
+
+＠特佩乌
+您应该明白会变成什么样了吧？
+[k]
+
+[bgm BGM_EVENT_94 0.1]
+
+？1：是烤玉米[line 3]！
+
+？！
+
+[messageOff]
+[seStop 21_ade597 2.0]
+[seStop ad450 2.0]
+
+[charaCrossFade A 1098252900 2 0.4]
+[wait charaCrossFade A]
+[wt 1.4]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+
+＠库库尔坎
+[FFFFFF]？[-]？？
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_94 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,749 @@
+
+
+＄03-00-13-02-7-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098254800 1 尼莫水兵]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098252900 1 特佩乌]
+[charaSet D 1098231510 1 玛修]
+[charaSet E 1098255200 1 哈贝特洛特]
+[sceneSet F 170301 1]
+[charaScale F 1.01]
+[charaSet G 1098124800 1 异星的巫女]
+[charaSet H 1098257500 1 身穿神父服的男人]
+[imageSet I cut258_scope_fs 1 1]
+[imageSet J back10000 1 1]
+[charaScale J 1.05]
+[imageSet K back10000 1 1]
+[charaScale K 1.05]
+[sceneSet O 169001 1]
+[charaScale O 1.2]
+[sceneSet P 169001 1]
+[charaScale P 1.2]
+[charaSet Q 98115000 1 特效用]
+
+[cameraMove 0 0,0 1.01]
+
+[cameraFilter gray]
+
+[scene 169001]
+[pictureFrame cut063_cinema]
+
+[bgm BGM_EVENT_77 1.5 0.5]
+
+[fadein black 1.5]
+[wait fade]
+
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 0,-50]
+＠特佩乌
+请容我先去补充睡眠。[r]我想整理一下这次的情报。
+[k]
+
+[messageOff]
+[fadeout white 1.0]
+[wait fade]
+
+[pictureFrame]
+[charaFadeout C 0.1]
+[wt 1.0]
+
+[cameraFilter normal]
+
+[bgm BGM_EVENT_77 1.0 1.0]
+[fadein white 1.0]
+[wait fade]
+[wt 0.2]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+＠玛修
+说完这句话，[r]特佩乌先生便早早就寝了。
+[k]
+
+[messageOff]
+[charaTalk B]
+[wt 0.1]
+
+[subCameraOn 1]
+
+[charaLayer F sub #A]
+[charaLayer B sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask10 3 255,255,255,255 0]
+
+[charaScale F 1.0]
+[charaScale B 1.0]
+[charaDepth F 2]
+[charaDepth B 3]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 0,150]
+[charaFadein F 0.1 315,0]
+
+[subRenderFadeinFSL #A 0.6 -550,-200]
+[subRenderMoveFSL #A -400,-200 0.6]
+[wt 0.8]
+
+＠U－奥尔加玛丽
+[line 6]
+[k]
+
+[messageOff]
+[subRenderMoveFSL #A -550,-200 0.6]
+[subRenderFadeout #A 0.6]
+[wt 0.8]
+
+
+[charaTalk D]
+[charaFace D 0]
+＠玛修
+U－奥尔加玛丽小姐则在20米开外的地方仰望夜空。
+[k]
+
+[bgmStop BGM_EVENT_77 1.5]
+
+？1：……这倒是正好。虽然有些对不起U，但我们确认一下状况吧。
+
+？！
+
+[charaFace D 7]
+＠玛修
+……好。是讨论如何应对U－奥尔加玛丽，[r]以及我们今后的作战内容吧。
+[k]
+
+[bgm BGM_MAP_41 0.1]
+
+[charaFace D 0]
+＠玛修
+前辈是如何看待U－奥尔加玛丽小姐的呢？
+[k]
+
+＠玛修
+她目前正处于因记忆障碍，[r]只能回忆起自身名字与目的的状况。
+[k]
+
+＠玛修
+『U－奥尔加玛丽是为支配地球而来的外星人。』
+[k]
+
+＠玛修
+『没有除此以外的个人记忆。[r]　只有为了解地球而观看的影像记录的知识。』
+[k]
+
+＠玛修
+……她对迦勒底的事、地球白纸化的事，[r]以及Storm Border上那场战斗都一概不知。
+[k]
+
+[charaFace D 4]
+＠玛修
+哪怕她是『异星之神』……[r]我也不想与她为敌。
+[k]
+
+＠玛修
+这12小时内，她对我们非常友善。[r]如果她能一直这样恢复不了记忆的话……
+[k]
+
+？1：……现在先隐瞒她『异星之神』的身份吧。
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+虽然心里过意不去，但我也觉得这样比较好。[r]U虽然提过好几次统治地球，
+[k]
+
+＠尼莫水兵
+但那些话听起来不像是『支配人类』，[r]而是『要更好地管理』哦。
+[k]
+
+＠尼莫水兵
+跟她作为『异星之神』[r]袭击Storm Border时不一样。
+[k]
+
+＠尼莫水兵
+现在的状态肯定才是她的本性啦。[r]所以说[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠哈贝特洛特
+只要她本人回想不起自己『异星之神』的身份，[r]至少不会与我们为敌吧。
+[k]
+
+＠哈贝特洛特
+既然如此，那咱也赞成。[r]不过先保证一件事哦。
+[k]
+
+＠哈贝特洛特
+[#其他事就别隐瞒她了]。[r]什么事都瞒着可不算朋友哦。
+[k]
+
+？1：那当然！
+？2：[line 3]既然这样决定了[line 3]
+
+？！
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.5]
+
+[bgmStop BGM_MAP_41 1.5]
+
+？1：总统[line 3]！
+？2：U小姐[line 3]！
+
+？！
+
+[messageOff]
+[charaTalk B]
+[charaFace B 22]
+[subRenderFadeinFSL #A 0.5 -550,-200]
+[subRenderMoveFSL #A -400,-200 0.5]
+[wt 1.6]
+
+[se ad60]
+[seStop ad60 1.0]
+[charaMove B 50,150 0.4]
+[charaFadeout B 0.4]
+[wt 1.4]
+
+[subRenderMoveFSL #A -550,-200 0.6]
+[subRenderFadeout #A 0.6]
+[wt 0.6]
+
+[charaFadeout F 0.1]
+[wt 0.2]
+
+[subCameraOff]
+[charaLayer B normal]
+[charaLayer F normal]
+[charaScale B 1.0]
+[charaScale F 1.0]
+[wt 0.4]
+
+[se ad60]
+[charaTalk B]
+[charaFace B 18]
+[charaFadein B 0.4 1]
+[wt 0.4]
+[seStop ad60 0.2]
+[wt 0.4]
+
+[bgm BGM_HALLOWEEN_2021_1 0.1]
+
+＠U－奥尔加玛丽
+干嘛？[r]我正忙着打造[#总统星座:President Sign]哦？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 21]
+[charaFadein D 0.1 1]
+＠玛修
+抱，抱歉在如此繁重的工作期间打扰您！[r]我认为打造星座非常地浪漫！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+来到新的天体自然得先玩星座游戏吧。[r]这是贵人的修养哦，不过也罢。
+[k]
+
+[charaFace B 1]
+＠U－奥尔加玛丽
+有话就说吧。[r]应该是能令我满意的内容吧。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_HALLOWEEN_2021_1 1.0 0.5]
+[wait fade]
+
+[charaFace B 20]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 1.2]
+
+[wipeout rollRight 0.8 1.0]
+[wait wipe]
+
+[charaFace B 5]
+[wt 0.1]
+
+[wipein rollLeft 0.8 1.0]
+[wait wipe]
+[wt 1.4]
+
+[wipeout rollRight 0.8 1.0]
+[wait wipe]
+
+[charaFace B 19]
+[wt 0.1]
+
+[wipein rollLeft 0.8 1.0]
+[wait wipe]
+[wt 1.4]
+
+[wipeout rollRight 0.8 1.0]
+[wait wipe]
+
+[charaFace B 24]
+[wt 0.1]
+
+[wipein rollLeft 0.8 1.0]
+[wait wipe]
+[wt 1.4]
+
+[wipeout rollRight 0.8 1.0]
+[wait wipe]
+
+[charaFace B 10]
+[wt 0.1]
+
+[wipein rollLeft 0.8 1.0]
+[wait wipe]
+[wt 1.4]
+
+[wipeout rollRight 0.8 1.0]
+[wait wipe]
+
+[charaFace B 15]
+[wt 0.1]
+
+[wipein rollLeft 0.8 1.0]
+[wait wipe]
+[wt 1.6]
+
+[fadeout black 1.5]
+[bgmStop BGM_HALLOWEEN_2021_1 1.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+？1：……以上这些，就是我们的来历。
+？！
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+从者……御主……魔术师……[r]迦勒底、人理烧却、特异点……
+[k]
+
+＠U－奥尔加玛丽
+地球白纸化、[#隐匿者:Crypter]、空想树……[r]泛人类史、异闻带、不知第几次的地球危机……
+[k]
+
+[charaFace B 23]
+＠U－奥尔加玛丽
+哼，哼唔～。我已充分理解人类有多愚蠢了。[r]你们经历了很多嘛。
+[k]
+
+[bgm BGM_EVENT_116 0.1]
+
+[charaFace B 8]
+＠U－奥尔加玛丽
+不过[line 3]虽说只有一次，[r]但竟能成功夺回未来，还挺能干的嘛。
+[k]
+
+＠U－奥尔加玛丽
+[%1]，我对你刮目相看了。[r]玛修，你也很努力哦。
+[k]
+
+＠U－奥尔加玛丽
+迦勒底这个组织也挺有本事的。
+[k]
+
+＠U－奥尔加玛丽
+在不为人知的情况下，保障人们的未来[line 3][r]感觉是件挺值得去完成的[#职责:工作]。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠玛修
+所长[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 20]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+所长？　那是什么意思？
+[k]
+
+＠U－奥尔加玛丽
+你们偶尔会说些奇怪的话呢，[r]是出故障了吗？
+[k]
+
+[charaFace B 13]
+＠U－奥尔加玛丽
+不[line 3]我要说的不是这个。[r]嗯，以内容而言，我想想。100分满分能打90分。
+[k]
+
+[charaFace B 23]
+＠U－奥尔加玛丽
+虽然我前所未有地满意，但还是90分。[r]你们知道这是为什么吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+＠玛修
+不，我不知道。[r]您说自己前所未有地满意了吧？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+因为还有欠缺啊，不是吗。
+[k]
+
+＠U－奥尔加玛丽
+当然，我认同[%1]与玛修[r]都有精彩的表现。
+[k]
+
+＠U－奥尔加玛丽
+但应该说画龙尚未点睛吗，[r]还是该说徒有其表内在空洞呢。
+[k]
+
+＠U－奥尔加玛丽
+如果能加入某个闪耀的存在就更好了。[r]我不会说那是什么，也不知道那是谁。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠玛修
+啊[line 3]！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+[wt 0.5]
+
+？1：因为少了奥尔加玛丽，所以要扣10分！
+？2：你要做，值得去做的工作吗？
+
+？！
+
+
+[charaFace B 22]
+＠U－奥尔加玛丽
+[line 3]！
+[k]
+
+[charaFace B 0]
+＠U－奥尔加玛丽
+哼！　光凭你刚才的回答，[r]就能颠覆人类愚蠢值的100分了！
+[k]
+
+＠U－奥尔加玛丽
+既然都说到这个份上，我就出手相助拯救地球的任务吧。[r]就让我以朋友的身份跟你们一起战斗吧！
+[k]
+
+？1：太好了[line 2]！
+
+？！
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth E 1]
+[charaDepth A 4]
+[charaDepth D 3]
+
+[charaFace D 26]
+[charaFace A 2]
+[charaFace E 9]
+[charaFadeinFSR D 0.1 300,0]
+[charaFadein A 0.1 1]
+[charaFadeinFSL E 0.1 -300,0]
+[wt 0.2]
+
+[charaMoveReturn A 0,10 0.3]
+[wt 0.35]
+[charaMoveReturn A 0,10 0.3]
+[wt 1.2]
+
+[charaFadeout D 0.1]
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 22]
+[charaFadein B 0.1 1]
+[wt 1.6]
+
+[wipeout rectangleStripLeftToRight 0.8 1.0]
+[bgm BGM_EVENT_116 0.5 0.5]
+[wait wipe]
+
+
+[charaFadeout B 0.1]
+
+[charaFadein J 0.1 0,-760]
+[charaFadein K 0.1 0,760]
+[wt 0.2]
+
+[cameraMove 0.1 -15,0 1.01]
+[wt 0.1]
+
+[cameraMove 0.8 0,0 1.01]
+[wipein rectangleStripRightToLeft 0.8 1.0]
+[wait wipe]
+[wt 0.4]
+
+[charaTalk depthOff]
+[charaDepth F 6]
+[charaDepth J 5]
+[charaDepth K 5]
+[charaDepth G 4]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.4 0,-50]
+[wt 1.0]
+
+＠异星的巫女
+[line 6]
+[k]
+
+
+[messageOff]
+[wt 1.0]
+
+[charaTalk off]
+[charaFadein F 1.4 0,-200]
+[wt 3.0]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_116 2.0]
+[wait fade]
+
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout G 0.1]
+[charaFadeout F 0.1]
+
+[scene 169001]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠玛修
+哎呀，虽然我们高兴到激动不已，[r]但夜已深，是时候钻进睡袋睡觉了吧。
+[k]
+
+＠玛修
+根据特佩乌先生的说法，[r]太阳会间隔约半个白天后到来。
+[k]
+
+＠玛修
+换算成具体时间，估计约为12小时。
+[k]
+
+＠玛修
+因此我们先充足地睡上7个小时后，[r]再趁着夜色穿越玉米田吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+夜间的看守交给我吧！[r]大家尽管放心睡觉吧～！
+[k]
+
+？1：谢谢你，水兵。
+？2：那就承蒙你的好意，大睡一觉吧。
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 20]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+[FFFFFF]？[-]
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_2 2.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[subCameraOn 2]
+[charaLayer D sub #A]
+[charaLayer B sub #A]
+[charaLayer I sub #B]
+[subCameraFilter #A through]
+[subCameraFilter #B through]
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+[subRenderFadein #A 0 0,0]
+[subRenderFadein #B 0 0,0]
+[charaScale D 1.0]
+[charaScale B 1.0]
+[charaScale I 1.35]
+[charaScale O 1.4]
+
+[blur lens 0.1 3 50]
+
+[charaTalk off]
+[charaFadein I 0.1 0,-350]
+
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth D 2]
+[charaDepth A 3]
+
+[charaFace D 26]
+[charaFace A 2]
+[charaFadein D 0.1 -80,-25]
+[charaFadein A 0.1 -265,-25]
+[charaFadein O 0.1 0,-200]
+
+[wt 1.5]
+
+
+[fadein black 1.0]
+[wait fade]
+[wt 1.3]
+
+
+
+[charaMove O 200,-200 1.2]
+[charaMove D 20,-25 0.4]
+[charaMove A -165,-25 0.4]
+[charaFadeout D 0.4]
+[charaFadeout A 0.4]
+[wt 0.8]
+
+[charaFace B 22]
+[charaFadein B 0.4 -100,-25]
+[charaMove B -25,-25 0.4]
+[wt 0.4]
+
+[wt 1.6]
+
+[cueSe SE_21 21_ade689]
+[fadeout black 0.8]
+[wait fade]
+
+[charaFadeout O 0.1]
+[blurOff lens 0.1]
+[charaFadeout B 0.1]
+[charaFadeout I 0.1]
+[wt 0.2]
+
+[subCameraOff]
+[wt 0.1]
+
+[charaLayer D normal]
+[charaLayer B normal]
+[charaLayer I normal]
+[charaScale D 1.0]
+[charaScale B 1.0]
+[charaScale I 1.0]
+
+[scene 173101]
+
+[pictureFrame cut063_cinema]
+[wt 0.2]
+
+[fadein black 0.8]
+[wait fade]
+[wt 0.3]
+
+[se ad984]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 0,-50]
+[wt 1.0]
+＠身穿神父服的男人
+……唔。[r]这下事态麻烦了呢。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

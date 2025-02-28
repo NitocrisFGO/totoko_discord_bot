@@ -1,0 +1,905 @@
+
+
+＄03-00-13-09-5-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098254000 1 红阎魔]
+[charaSet B 1098254100 1 高扬斯卡娅]
+[charaSet C 1098257910 1 玛修]
+[charaSet D 1098252900 1 特佩乌]
+[charaSet E 1098253200 1 U－奥尔加玛丽]
+[charaSet F 1098257500 1 拉斯普京]
+[charaSet G 1098254000 1 红阎魔（演出用）]
+
+[imageSet H cut421_mtn01 1]
+[imageSet I cut421_mtn02 1]
+[imageSet N cut421_mtn03 1]
+
+[sceneSet J 170200 1]
+[sceneSet K 170200 1]
+[charaScale K 1.01]
+[charaSet L 1098254100 1 高扬斯卡娅（演出用）]
+[sceneSet M 170200 1]
+[charaSet O 98115000 1 特效用dummy]
+[imageSet P back10000 1 1]
+[charaScale P 1.3]
+
+[imageSet Q cut421_mtn01_re 1]
+[imageSet R cut421_mtn02_re 1]
+
+[charaDepth H 4]
+[charaDepth I 3]
+[charaDepth N 2]
+[charaDepth Q 1]
+
+[charaScale H 1.35]
+[charaScale I 1.35]
+[charaScale N 1.35]
+
+[charaScale Q 1.35]
+[charaScale R 1.35]
+
+[scene 170200]
+
+[charaFadein K 0.1 0,-200]
+
+[bgm BGM_BATTLE_141 0.1]
+
+[fadein black 1.0]
+[wt 0.9]
+[se ad954]
+[seVolume ad954 0 0]
+[wait fade]
+
+[subCameraOn 2]
+
+[charaLayer G sub #A]
+[charaLayer J sub #A]
+[charaLayer L sub #B]
+[charaLayer M sub #B]
+
+[subCameraFilter #A maskEdge cut359_mask03 3 178,34,34,255 0]
+[subCameraFilter #B maskEdge cut359_mask02 3 245,195,194,255 0]
+
+[charaScale G 1.4]
+[charaScale J 1.3]
+[charaScale L 1.4]
+[charaScale M 1.3]
+
+[charaDepth J 2]
+[charaDepth G 3]
+[charaDepth M 2]
+[charaDepth L 3]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 0,70]
+[charaFadein J 0.1 0,-300]
+
+[seVolume ad954 0.2 1.0]
+[cueSe Servants_103700 bac962]
+[cueSeVolume bac962 0 0.6]
+
+[subRenderFadein #A 0.3 -250,-100]
+[subRenderMove #A 0,-100 0.3]
+[wt 0.8]
+
+＠G：红阎魔·Alter
+啾啾[line 3]！[r]又不是翠鸟，竟悉数穿过我针山的[#溪谷:间隙][line 3]！
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+
+[se ad619]
+[seVolume ad619 0 0]
+[se ade393]
+[seVolume ade393 0 0]
+[se ad14]
+[seVolume ad14 0 0]
+[seVolume ad619 0.3 1.0]
+[seVolume ade393 0.3 0.7]
+[seVolume ad14 0.3 0.7]
+[wt 0.15]
+[shake 0.01 2 1 0]
+[wt 0.05]
+
+[cueSe Servants_404400 m45216]
+[cueSe Servants_404400 m45217]
+[cueSe Servants_9941810 bac1038]
+[flashin once 0.1 0.3 FFFFFFFF FFFFFF00]
+[charaFadein I 0.4 -200,-484]
+[charaMove I 3,-384 0.2]
+[charaShake I 0.05 2 2 1.0]
+
+[effect bit_talk_impactlanding -400,-300]
+[wt 1.0]
+
+[se ad7]
+[charaMoveScale I 1.4 0.4]
+[charaMove I -100,-384 0.4]
+[charaFadeout I 0.4]
+
+[seVolume ad619 0.3 0.7]
+[seVolume ade393 0.3 0.4]
+[seVolume ad14 0.3 0.4]
+
+[charaMoveScale K 1.2 0.3]
+[charaMove K -100,-250 0.3]
+[blur motion 0.3 4 100 0.25 0.6 0.03 100]
+[wt 0.1]
+[wt 0.25]
+[blurOff motion 0.1]
+[wt 0.1]
+
+[seVolume ad619 0.3 1.0]
+[seVolume ade393 0.3 0.7]
+[seVolume ad14 0.3 0.7]
+
+[cueSe Servants_404400 m45216]
+[cueSe Servants_404400 m45217]
+[cueSe Servants_9941810 bac1038]
+[flashin once 0.1 0.3 FFFFFFFF FFFFFF00]
+[charaFadein H 0.4 200,-484]
+[charaMove H -4,-384 0.2]
+[charaShake H 0.05 2 2 1.0]
+
+[effect bit_talk_impactlanding 400,-300]
+
+[wt 1.0]
+
+[se ad7]
+[seVolume ad619 0.3 0.7]
+[seVolume ade393 0.3 0.4]
+[seVolume ad14 0.3 0.4]
+
+[charaMoveScale H 1.4 0.4]
+[charaMove H 100,-384 0.4]
+[charaFadeout H 0.4]
+
+[charaMoveScale K 1.3 0.3]
+[charaMove K 100,-275 0.3]
+[blur motion 0.3 4 100 0.75 0.6 0.03 100]
+[wt 0.1]
+[wt 0.25]
+[blurOff motion 0.1]
+
+[se ad7]
+[seVolume ad7 0 0.8]
+[se ad1006]
+[seVolume ad1006 0 0.8]
+[wt 0.05]
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[seStop ad619 0.8]
+[seStop ade393 0.8]
+[seStop ad14 0.8]
+[wait wipe]
+
+[shakeStop]
+[charaMoveScale K 1.0 0.1]
+[charaMove K 0,-200 0.1]
+[wt 0.4]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+[wt 0.05]
+
+[charaTalk L]
+[charaFace L 12]
+[charaFadein L 0.1 0,250]
+[charaFadein M 0.1 0,250]
+
+[se ade338]
+[wt 0.2]
+
+[subRenderFadein #B 0.3 250,-300]
+[subRenderMove #B 0,-300 0.3]
+[seStop ade338 0.8]
+[wt 1.0]
+
+
+＠L：高扬斯卡娅
+最短、最快的雀之居合竟如此狼狈。[r]这样可算不上是优良兵器。
+[k]
+
+＠L：高扬斯卡娅
+虽然适合用来碾碎大家伙，[r]可惜对小目标便如此德性。
+[k]
+
+[charaFace L 18]
+＠L：高扬斯卡娅
+难道是长大成人后就看不清脚边了吗？[r]还是说，对小个子的自己怀有自卑感呢？
+[k]
+
+[messageOff]
+[charaTalk G]
+[charaFace G 5]
+[subRenderMove #B 0,-180 0.3]
+[subRenderFadein #A 0.3 -250,-190]
+[subRenderMove #A 0,-190 0.3]
+[wt 0.4]
+
+＠G：红阎魔·Alter
+少狂妄自大了，兔子！[r]即便成为了大王，我的剑技依然精妙！
+[k]
+
+[messageOff]
+[bgmStop BGM_BATTLE_141 1.0]
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[wt 0.1]
+
+[se ad619]
+[seVolume ad619 0 0]
+[se ade393]
+[seVolume ade393 0 0]
+[se ad14]
+[seVolume ad14 0 0]
+[seVolume ad619 0.3 0.7]
+[seVolume ade393 0.3 0.4]
+[seVolume ad14 0.3 0.4]
+[wt 0.15]
+[shake 0.01 2 1 0]
+
+[se ad628]
+[cueSe Servants_404400 m45216]
+[cueSe Servants_9941810 bac1038]
+[flashin once 0.1 0.3 FFFFFFFF FFFFFF00]
+[charaFadein H 0.4 200,-484]
+[charaMove H -4,-384 0.2]
+[charaShake H 0.05 2 2 1.0]
+
+[effect bit_talk_impactlanding 400,-300]
+[wt 0.3]
+
+[cueSe Servants_404400 m45217]
+[cueSe Servants_9941810 bac1039]
+[effect bit_talk_impactlanding -500,-300]
+[charaFadein I 0.1 0,-684]
+[charaMove I -4,-384 0.2]
+[charaShake I 0.05 2 2 1.0]
+[wt 0.3]
+
+[cueSe Servants_404400 m45216]
+[cueSe Servants_9941810 bac1038]
+[charaFadein Q 0.1 0,100]
+[charaMove Q 0,-300 0.2]
+[charaShake Q 0.05 2 2 1.0]
+[flashin once 0.1 0.3 FFFFFFFF FFFFFF00]
+[effect bit_talk_impactlanding 400,-300]
+[wt 0.3]
+
+[cueSe Servants_404400 m45217]
+[cueSe Servants_9941810 bac1039]
+[charaFadein R 0.1 0,100]
+[charaMove R 0,-300 0.2]
+[charaShake R 0.05 2 2 1.0]
+[effect bit_talk_impactlanding 400,-300]
+[wt 0.5]
+
+
+[wt 2.0]
+
+
+
+[charaTalk B]
+[charaFace B 28]
+[charaFadein B 0.1 1]
+[bgm BGM_BATTLE_97 0.1]
+＠高扬斯卡娅
+[line 3]好机会！[r]我就是在等这个数量！
+[k]
+
+[charaFace B 9]
+
+＠高扬斯卡娅
+狂妄自大的是您才对。[r]红阎魔大人的剑击乃是刹那·随性的不可视之剑。
+[k]
+
+＠高扬斯卡娅
+而不是这种连猎物的身影都会挡住的粗糙斩击！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 14]
+[subRenderFadein #A 0.1 0,-100]
+＠G：红阎魔·Alter
+！
+[k]
+
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+＠高扬斯卡娅
+那么[line 3]就让我代替您，[r]穿过针的缝隙吧！
+[k]
+
+＠高扬斯卡娅
+在岩壁上驰骋可不是专属于山羊的特技！[r]兔子也能骑着摩托纵横驰骋！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[cueSe Servants_604200 m45307]
+[wt 0.4]
+[cueSe Servants_604200 m45308]
+[cueSeVolume m45308 0 0]
+[cueSeVolume m45308 0.6 1.0]
+[wt 1.6]
+
+[cameraMove 0.3 -10,0 1.08]
+[se ad543]
+[seStop ad543 1.0]
+[se ad7]
+[charaMoveScale H 1.4 0.4]
+[charaMove H 100,-384 0.4]
+[charaFadeout H 0.4]
+
+[cueSe Servants_604200 m45307]
+[cueSeVolume m45307 0 0.5]
+[charaMoveScale K 1.2 0.3]
+[charaMove K 100,-250 0.3]
+[blur motion 0.3 4 100 0.75 0.6 0.03 100]
+[wt 0.35]
+[blurOff motion 0.1]
+[wt 0.4]
+
+[cameraMove 0.3 5,-5 1.16]
+[se ad543]
+[seStop ad543 1.0]
+[se ad7]
+[charaMoveScale I 1.4 0.4]
+[charaMove I -100,-384 0.4]
+[charaFadeout I 0.4]
+
+[cueSe Servants_604200 m45307]
+[cueSeVolume m45307 0 0.5]
+[charaMoveScale K 1.3 0.3]
+[charaMove K -100,-275 0.3]
+[blur motion 0.3 4 100 0.25 0.6 0.03 100]
+[wt 0.35]
+[blurOff motion 0.1]
+
+[subRenderScale #B 1.15]
+[charaScale L 1.6]
+[charaTalk L]
+[charaFace L 14]
+[charaPut L 0,420]
+[subRenderFadein #B 0.5 0,-320]
+
+[wt 0.5]
+[charaCrossFade L 1098254110 14 0.6]
+
+[se ade512]
+[seVolume ade512 0 0.9]
+[wt 0.3]
+[se bac375]
+[seVolume bac375 0 0.1]
+[seVolume bac375 0.5 1.3]
+[wt 0.9]
+[wait charaCrossFade L]
+
+[wt 0.2]
+[subRenderFadeout #B 0.3]
+[wt 0.5]
+
+[charaTalk G]
+[charaFace G 14]
+[subRenderFadein #A 0.2 0,-150]
+[wt 1.4]
+
+[subRenderFadeout #A 0.2]
+[wt 0.1]
+
+[cueSe Servants_604200 m45329]
+[cueSeVolume m45329 0 0]
+[wt 0.2]
+
+[cameraMove 0.4 -20,-5 1.24]
+[charaMoveScale Q 1.5 0.4]
+[charaMove Q 100,-250 0.4]
+[charaFadeout Q 0.4]
+
+[charaMoveScale R 1.5 0.4]
+[charaMove R -100,-250 0.4]
+[charaFadeout R 0.4]
+
+[cueSeVolume m45329 1.2 0.9]
+[wt 0.05]
+[se ad7]
+[seVolume ad7 0 0.6]
+[se ad543]
+[seStop ad543 1.0]
+[cueSe Servants_604200 m45307]
+[cueSeVolume m45307 0 0.5]
+[charaMoveScale K 1.4 0.3]
+[charaMove K 0,-300 0.3]
+[blur motion 0.3 4 100 0.5 0.6 0.03 100]
+[wt 2.2]
+
+[cueSeStop m45329 0.3]
+[cueSeStop m45308 0.3]
+[cueSe Servants_604200 m45307]
+[wipeout rectangleStripUpToDown 0.4 1.0]
+[bgmStop BGM_BATTLE_97 1.5]
+[seStop ad619 0.8]
+[seStop ade393 0.8]
+[seStop ad14 0.8]
+[wait wipe]
+
+[cameraHome 0.1]
+[shakeStop]
+[blurOff motion 0.1]
+[charaFadeout K 0.1]
+
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout G 0.1]
+[wt 0.2]
+
+[charaLayer L normal]
+[charaLayer M normal]
+
+[charaLayer A normal]
+[charaLayer G normal]
+
+[wt 0.2]
+
+[charaSet B 1098254110 1 高扬斯卡娅]
+[charaSet L 1098254110 1 高扬斯卡娅（演出用）]
+
+[sceneSet M 35010 1]
+[sceneSet N 10000 1]
+[charaFilter N silhouette 11586680]
+
+
+[subRenderFadeout #B 0.1]
+
+[charaScale L 1.45]
+[charaScale M 1.3]
+[charaScale N 1.3]
+
+[charaDepth M 2]
+[charaDepth N 3]
+[charaDepth L 4]
+
+[charaFadein M 0.1 -100,-200]
+[charaPut N -100,-200]
+[charaFadeTime N 0.1 0.5]
+
+[scene 170300]
+
+[cueSeStop m45307 1.0]
+[wt 0.8]
+
+[se ad126]
+[charaTalk L]
+[charaFace L 4]
+[charaFadein L 0.4 0,50]
+[charaMove L 0,70 0.4]
+
+[se ad207]
+[seVolume ad207 0 0.1]
+[seVolume ad207 0.4 1.0]
+
+[wipein rectangleStripDownToUp 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+[seStop ad207 1.5]
+
+＠L：高扬斯卡娅
+呀～，成功了～！[r]好了好了，那我就不客气啦～！
+[k]
+
+[messageOff]
+[se ad75]
+[charaMove L 0,50 0.6]
+[wipeout rectangleStripDownToUp 0.5 1.0]
+[wait wipe]
+
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+
+[scene 170200]
+[wt 0.5]
+
+[charaScale A 1.0]
+
+[charaTalk G]
+[charaFace G 14]
+[charaFadein G 0.1 1]
+[wt 0.1]
+
+[cameraMove 1.5 0,-50 1.2]
+[wipein rectangleStripDownToUp 0.5 1.0]
+[wait wipe]
+
+[wt 0.7]
+[charaFace G 16]
+＠G：红阎魔·Alter
+变[line 3][wt 0.6][messageShake 0.05 4 3 0.5]变态啾[line 3]！？
+[k]
+
+[messageOff]
+[cameraMove 0.5 0,-80 1.4]
+
+[se ad183]
+[wipeout heartOut 0.5 1.0]
+[wait wipe]
+[wt 0.1]
+[se ad30]
+[seVolume ad30 0 0.6]
+
+
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+
+[charaFadeout L 0.1]
+[charaFadeout G 0.1]
+[charaFadeout J 0.1]
+[charaFadeout M 0.1]
+
+[subCameraOff]
+
+[charaLayer J normal]
+[charaLayer M normal]
+[charaLayer G normal]
+[charaLayer L normal]
+[charaScale J 1.0]
+[charaScale M 1.0]
+[charaScale L 1.0]
+[charaScale G 1.0]
+[wt 0.5]
+
+[charaSet A 1037002 1 红阎魔]
+[charaSet G 1037002 1 红阎魔（演出用）]
+[wt 0.5]
+
+[scene 170200]
+[wt 0.5]
+
+[cameraHome 0.1]
+[wt 1.5]
+
+[wipein heartOut 1.5 1.0]
+[wait wipe]
+[wt 0.7]
+
+[bgm BGM_EVENT_96 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.4 1]
+[wt 0.4]
+
+＠红阎魔
+……实在是无地自容啾。[r]我这般[#麻雀:身份]竟会露出那等丑态啾。
+[k]
+
+[charaFace A 3]
+＠红阎魔
+请容我重新打个招呼啾。[r]我是剪舌麻雀红阎魔。
+[k]
+
+[charaFace A 1]
+＠红阎魔
+您就是迦勒底的御主啾？[r]一直以来的守护人理工作辛苦您了啾。
+[k]
+
+[charaFace A 6]
+＠红阎魔
+今后也请您在不勉强自己的范围内努力啾！
+[k]
+
+[charaFace A 1]
+＠红阎魔
+健康、休养、早睡早起、美味的食物。[r]我能为您效劳的也就只有这些了啾，
+[k]
+
+＠红阎魔
+但只要能看到您的笑容，[r]无论要帮什么忙我都在所不辞啾。
+[k]
+
+＠红阎魔
+今后请不必客气，直接称我为红吧。[r]我会让您见识快刀斩乱麻的拔刀术啾！
+[k]
+
+？1：彼此彼此，请多关照。
+
+？2：阎魔亭那次承蒙关照了。
+
+[messageOff]
+[charaFace A 8]
+[wt 1.0]
+
+[charaFace A 3]
+＠红阎魔
+您，您果然造访过阎魔亭啾。
+[k]
+
+＠红阎魔
+现在的红并没有相关的记忆，[r]看来我们是之后才相遇的啾。
+[k]
+
+[charaFace A 7]
+＠红阎魔
+……问这种事虽然违反规则啾……
+[k]
+
+＠红阎魔
+但各位造访的是哪个时代，[r]什么样的阎魔亭啾？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠玛修
+我们是在某年的新年造访的。
+[k]
+
+＠玛修
+当时红老板娘正与麻雀的都市先生他们努力经营着旅馆。[r]大家对我们都非常友善。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠红阎魔
+这样啾。你的笑容非常美好啾，玛修。
+[k]
+
+＠红阎魔
+能听到你们这样说，[r]我感到非常高兴啾！
+[k]
+
+？！
+
+[charaFace A 9]
+＠红阎魔
+[line 3]话说回来。
+[k]
+
+＠红阎魔
+能不能想办法处理一下这只[r]紧抱着我的脚不放的怪物啾。
+[k]
+
+
+[messageOff]
+[charaTalk B]
+
+[subCameraOn 1]
+
+[charaLayer B sub #A]
+[charaLayer G sub #A]
+[charaLayer J sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask10 3 255,255,255,255 0]
+
+[charaScale G 1.5]
+[charaScale B 1.3]
+[charaScale J 1.3]
+
+[charaDepth J 2]
+[charaDepth G 4]
+[charaDepth B 6]
+
+[charaFace B 38]
+[charaFace G 9]
+[charaFadein B 0.1 0,200]
+[charaFadein G 0.1 300,670]
+[charaFadein J 0.1 0,110]
+
+[subRenderFadeinFSL #A 0.4 -400,-260]
+[subRenderMoveFSL #A -300,-260 0.4]
+[wt 0.6]
+
+＠高扬斯卡娅
+骗[messageShake 0.05 4 3 0.9]人的吧，小红～～～！？[r]你竟然不认得我了～～～！
+[k]
+
+[charaTalk A]
+[charaFace A 10]
+＠红阎魔
+跟您长得一模一样的巫女狐我倒是认识啾，[r]但我对您并无任何印象啾。
+[k]
+
+[charaTalk B]
+[charaFace B 21]
+＠高扬斯卡娅
+怎么能这样……这冷淡的态度，[r]虽然我已经习惯了，但还是相当难受啊……
+[k]
+
+＠高扬斯卡娅
+遏制住您[#异灵:Alter]化后大闹丑态的分明是我啊……
+[k]
+
+
+[charaTalk A]
+[charaFace A 5]
+＠红阎魔
+那并不是什么丑态啾。[r]红终将要担任十王的代理。
+[k]
+
+＠红阎魔
+直到刚才那个样子是我必将成为的理所当然之姿。[r]……所以没有什么好丢脸的啾。
+[k]
+
+＠红阎魔
+可以被称作丑态的，[r]也是被您躲过了针山剑一事啾。
+[k]
+
+[charaFace A 13]
+＠红阎魔
+……竟会中了挑衅，靠蛮力使出落山风四连发，[r]终究还是不够成熟……
+[k]
+
+[charaFadeout A 0.1]
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠特佩乌
+不。您的技术十分出色，红阎魔。[r]无论是枪械还是剑，人类的工具总是令人惊叹不已。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠U－奥尔加玛丽
+话说[%1]。[r]令咒回来了吗？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.2]
+
+[charaPut P 1]
+[charaFadeTime P 0.5 0.5]
+
+[cueSe SE_22 22_ad1180]
+[seVolume 22_ad1180 0 0]
+[seVolume 22_ad1180 1.0 0.5]
+[masterBranch _Male _Female]
+[label _Male]
+
+[charaPut O 1]
+[charaEffect O bit_talk_CommandMantra_25]
+
+[branch _branchEnd]
+[label _Female]
+
+[charaPut O 1]
+[charaEffect O bit_talk_CommandMantra_26]
+
+[branch _branchEnd]
+[label _branchEnd]
+[wt 1.0]
+[seStop 22_ad1180 2.0]
+
+[charaFadeout B 0.1]
+[charaFadeout G 0.1]
+[charaFadeout J 0.1]
+[wt 0.5]
+
+[subCameraOff]
+[charaLayer B normal]
+[charaLayer G normal]
+[charaLayer J normal]
+[charaScale B 1.0]
+[charaScale G 1.0]
+[charaScale J 1.0]
+[wt 3.5]
+
+[charaFadeout P 0.4]
+[wt 0.6]
+
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠拉斯普京
+嚯，这样就只剩一划了。[r]以此类推，应该在第三冥界的守卫手上吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+＠红阎魔
+那个蝙蝠男，竟敢使用[%1]大人的令咒，[r]真是只胡闹的蝙蝠啾。
+[k]
+
+[charaFace A 0]
+＠红阎魔
+不过得亏此事，红才获得了力量啾。
+[k]
+
+＠红阎魔
+虽然只能以『冥界守卫』的身份[r]留在『米克特兰』是个沉重打击，
+[k]
+
+＠红阎魔
+但多亏如此，才能随时变成大人啾。
+[k]
+
+[charaFace A 1]
+＠红阎魔
+大家，还请继续前进啾。[r]大可不必介意红啾。
+[k]
+
+＠红阎魔
+当遇到感觉非斩不可的敌人时，[r]红必将全身心都倾注在那一刀之上。
+[k]
+
+[charaFace A 5]
+＠红阎魔
+我会将此事铭记于心啾。[r]下次战斗时，定会向各位展现阎魔的奥传啾。
+[k]
+
+？1：？
+？2：下次是什么意思？
+
+？！
+
+[charaFace A 1]
+＠红阎魔
+就是下一次啾。[r][#异灵:Alter]化虽已解除，可红仍是『冥界的守卫』啾。
+[k]
+
+＠红阎魔
+您定会在这冥界线上迎来一场大战啾。
+[k]
+
+＠红阎魔
+红会在此继续修行，以备那个时刻的到来。[r]而且也有人愿意锻炼我啾！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠玛修
+[FFFFFF]？[-]
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_96 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

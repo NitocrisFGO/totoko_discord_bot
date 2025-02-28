@@ -1,0 +1,1015 @@
+
+
+＄04-00-02-15-3-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[masterBranch _Male _Female]
+[label _Male]
+
+[charaSet A 1098259400 1 主人公_第二部立绘_新表情（男）]
+[branch _branchEnd]
+[label _Female]
+[charaSet A 1098259410 1 主人公_第二部立绘_新表情（女）]
+[branch _branchEnd]
+[label _branchEnd]
+
+[charaSet B 1098270210 1 迦摩]
+[charaSet C 1098267010 1 迦梨]
+[charaSet D 23001000 1 ＢＢ]
+[charaSet E 1098270200 1 迦摩_通常]
+
+[sceneSet H 189602 1]
+[charaScale H 1.2]
+[sceneSet I 189602 1]
+[charaScale I 1.2]
+
+[imageSet O back10000 1 1]
+[charaScale O 1.3]
+[imageSet P black_fade_re 1 1]
+[charaScale P 2.0]
+[imageSet Q black_fade_re 1 1]
+[charaScale Q 2.0]
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+[charaSet U 98115000 1 特效用dummy]
+
+
+[scene 189602]
+
+
+[pictureFrame cut063_cinema]
+
+[charaTalk off]
+[charaDepth H 1]
+[charaDepth E 2]
+[charaDepth C 3]
+[charaDepth T 4]
+[charaDepth S 5]
+[charaDepth O 9]
+
+[charaScale H 1.2]
+[charaFadein H 0.1 0,-240]
+
+[fadein black 1.0]
+[bgm BGM_BATTLE_135 0.1]
+[wait fade]
+
+[wt 0.2]
+
+[charaFace C 24]
+[charaFadein C 0.1 0,-50]
+[wt 0.5]
+
+[se ad678]
+[blur motion 0.25 4 200 0.5 0.6 0.02 200]
+[charaMoveScale C 1.1 0.25]
+[charaMove C 0,-35 0.25]
+[charaFadeout C 0.25]
+[wt 0.25]
+[blurOff motion 0.1]
+[wt 0.45]
+
+[se ad85]
+[wt 0.15]
+[charaPut T 1]
+[charaEffect T bit_talk_v_slash02]
+[wt 0.4]
+
+[charaFadein O 0.1 0,-200]
+[wt 0.2]
+[seStop ad85 0.3]
+[cueSe SE_23 23_ad1341]
+[wt 0.1]
+[charaPut T 2000,2500]
+[charaEffectDestroy T bit_talk_v_slash02]
+
+[charaPut S 1]
+[charaEffect S bit_talk_41_r]
+
+[charaFadeout O 0.1]
+
+[charaMoveScale H 1.01 1.2]
+[charaMove H 0,-200 1.2]
+[charaShake H 0.02 2 2 0]
+[wt 1.1]
+
+[se ad608]
+[se ad914]
+[charaPut T 1]
+[charaEffect T bit_talk_35]
+[wt 0.1]
+[se ad240]
+[charaEffectStop S bit_talk_41_r]
+[shake 0.03 4 5 0.8]
+[charaShake H 0.03 4 5 0.8]
+[wt 0.2]
+[se ad228]
+[wt 0.8]
+[seStop ad608 0.8]
+[seStop ad914 0.8]
+[wt 1.2]
+
+[blur lens 1.0 2 2]
+[charaMove H 0,-180 0.6]
+[wt 0.4]
+[se ad775]
+[seStop ad228 1.2]
+[wt 1.4]
+
+[wipeout openEye 1.3 1.0]
+[bgm BGM_BATTLE_135 1.3 0.5]
+[wait wipe]
+
+[blurOff lens 0.1]
+[charaFadeout H 0.1]
+[charaFadeout E 0.1]
+[charaPut S 2000,2500]
+[charaScale E 1.0]
+
+[scene 10000]
+[wt 0.2]
+
+[wipein openEye 0.2 1.0]
+[wait wipe]
+[wt 0.5]
+
+？1：迦摩！
+？！
+
+[messageOff]
+[wt 0.5]
+
+＠
+……哎哟。不行，不行。
+[k]
+
+[messageOff]
+[wipeout openEye 0.1 1.0]
+[wait wipe]
+
+[scene 189602]
+
+
+[charaDepth A 1]
+[charaDepth P 7]
+[charaDepth Q 7]
+
+[charaScale A 1.1]
+[charaFace A 0]
+[charaFadein A 0.1 0,15]
+
+[overlayFadein P 0.1 0,-1010]
+[overlayFadein Q 0.1 0,190]
+
+[blur lens 0 2 10]
+
+[pictureFrame]
+
+[cameraMove 0 0,0 1.01]
+
+[wt 0.5]
+
+[bgm BGM_BATTLE_135 1.5 1.0]
+[wipein openEye 1.5 1.0]
+[wait wipe]
+[wt 0.5]
+
+
+
+
+？1：『…………，…………！』
+？！
+
+[subCameraOn 2]
+[charaLayer B sub #A]
+[charaLayer H sub #A]
+[charaLayer U sub #C]
+[subCameraFilter #A maskEdge cut359_mask20 4 0,0,0,255]
+[subCameraFilter #C through]
+[subRenderFadein #C 0.1 0,0]
+
+[subRenderDepth #A 1]
+[subRenderDepth #C 3]
+
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth B 2]
+[charaDepth C 2]
+[charaDepth T 3]
+[charaDepth U 9]
+
+[charaTalk on]
+[charaTalk B]
+[charaScale H 1.3]
+[charaScale B 1.3]
+[charaFace B 4]
+[charaFadein H 0.1 -350,-50]
+
+[subRenderFadeinFSR #A 0.7 280,-140]
+[subRenderMoveFSR #A 280,-190 0.7]
+[wt 1.4]
+
+[charaFadein B 0.7 30,455]
+[wt 1.5]
+
+[charaMove H -350,-175 2.6]
+[charaMove B 30,225 2.6]
+[wt 2.8]
+
+
+＠
+[charaTalk B]
+我没事啦，御主。[r]不用那么慌张。
+[k]
+
+[charaFace B 0]
+＠
+[charaTalk B]
+我其实，相当结实哦。
+[k]
+
+＠
+[charaTalk B]
+别看我这样，好歹也是神明，[r]甚至还是魔王。
+[k]
+
+＠
+[charaTalk B]
+而且[line 3]嗯，而且啊。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[charaFaceFade B 2 0.4]
+＠
+[charaTalk B]
+我还有，想要的东西。
+[k]
+
+＠
+[charaTalk B]
+只要我努力，就肯定，可以得到。
+[k]
+
+＠
+[charaTalk B]
+所以才难得萌生了想要稍微努力一下的心情哦。
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[subRenderFadeout #A 0.1]
+
+[charaScale C 1.1]
+[charaTalk C]
+[charaFace C 24]
+[charaFadein C 0.1 0,10]
+[wt 0.3]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+[se ad694]
+[charaMove C 1 0.2]
+[wt 0.8]
+
+[se ad85]
+[cueSe Servants_105500 m51515]
+[cueSe Servants_9944030 bac727]
+[charaPut T 1]
+[charaEffect T bit_talk_h_slash02_fs 0,0 H]
+[wt 0.4]
+
+[charaPut O 1]
+[charaFadeTime O 0.1 1.0]
+[charaFadeout C 0.1]
+[wt 0.3]
+
+[cueSe SE_21 21_ad1118]
+[charaPut U 1]
+[charaEffect U bit_talk_blood_stay]
+[shake 0.01 2 2 0.4]
+[wt 1.8]
+[charaScale C 1.0]
+
+[charaEffectStop U bit_talk_blood_stay]
+＠
+啊啊，不过。
+[k]
+
+＠
+我，究竟，想要什么来着？
+[k]
+
+＠
+……我知道，我应该知道。
+[k]
+
+＠
+那是，我不具备的东西。
+[k]
+
+＠
+正因为我能给予一切……[r]才没有人能给予我的东西。
+[k]
+
+[messageOff]
+[wipeout openEye 0.1]
+[wait wipe]
+
+[charaFadeout O 0.1]
+[charaPut U 2000,2500]
+[charaPut P 0,-1050]
+[charaPut Q 0,250]
+
+[subRenderFadeout #C 0.1]
+[wt 0.1]
+
+[charaFadeout B 0.1]
+[charaFadeout U 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer B normal]
+[charaLayer U normal]
+[charaLayer H normal]
+[charaScale B 1.0]
+[charaScale U 1.0]
+[charaScale H 1.0]
+
+[wt 0.5]
+
+[blurOff lens 2.0]
+[wipein openEye 1.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaDepth P 7]
+[charaDepth Q 7]
+[charaDepth C 2]
+
+[se ad714]
+[charaTalk C]
+[charaFace C 26]
+[charaFadein C 0.4 0,-50]
+[wt 1.0]
+
+＠迦梨
+哈[messageShake 0.05 4 3 0.4]哈哈哈哈哈！
+[k]
+
+[messageOff]
+[se ad678]
+[blur motion 0.25 4 200 0.5 0.6 0.02 200]
+[charaMoveScale C 1.1 0.25]
+[charaMove C 0,-35 0.25]
+[charaFadeout C 0.25]
+[wt 0.25]
+[blurOff motion 0.1]
+[wt 0.1]
+
+[fadeout black 0.4]
+[wait fade]
+
+[charaFadeout P 0.1]
+[charaFadeout Q 0.1]
+[wt 0.1]
+
+[imageSet P black_fade_re 1 1]
+[charaScale P 2.0]
+[imageSet Q black_fade_re 1 1]
+[charaScale Q 2.0]
+
+[scene 10000]
+[wt 0.1]
+
+[fadein black 0.1]
+[wait fade]
+
+[bgmStop BGM_BATTLE_135 2.0]
+
+[cueSe SE_23 23_ad1337]
+[charaPut U 1]
+[charaEffect U bit_talk_v_slash02]
+[wt 0.4]
+[cueSeStop 23_ad1337 0.6]
+[wt 0.7]
+
+[se ad789]
+[cueSe SE_23 23_ad1339]
+[wt 0.6]
+
+
+[fadeout black 1.0]
+[wait fade]
+
+[cameraMove 0 0,0 1.01]
+
+[scene 10000]
+
+[pictureFrame]
+
+[se ad228]
+[se ad322]
+[se ad608]
+[se ad299]
+[se ad297]
+[wt 1.0]
+
+[seStop ad297 2.0]
+[fadein black 1.0]
+[wait fade]
+[seStop ad299 1.0]
+[seStop ad228 1.0]
+[wt 2.5]
+
+＠
+[line 3]啊啊。
+[k]
+
+＠
+好想要啊。
+[k]
+
+＠
+『[#　]』。
+[k]
+
+[messageOff]
+[wt 3.0]
+
+
+[se ad7]
+
+[charaScale D 1.1]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.2 0,-100]
+[charaMove D 0,0 0.4]
+[wt 1.0]
+
+＠ＢＢ
+嘿～！
+[k]
+
+[charaFace D 6]
+＠ＢＢ
+啊～真是的，[r]你差不多也该想起来了吧？
+[k]
+
+＠ＢＢ
+其实我也不想在这种严肃场合跑出来啦，[r]受不了。
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.15]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.7 1]
+[wt 1.1]
+
+[bgm BGM_EVENT_38 0.1]
+
+＠E：迦摩
+[line 3]啊啊。[r]是你啊。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaScale D 1.0]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ＢＢ
+没错。就算是纸月，月亮也是月亮。
+[k]
+
+＠ＢＢ
+针对[#月:Moon]之性质麻烦事的以毒攻毒，[r]可是ＢＢ亲的拿手好戏……不过呢，
+[k]
+
+＠ＢＢ
+关于本次事件，我感觉比起我或Melt她们，[r]迦摩小姐会更适合……
+[k]
+
+[charaFace D 1]
+＠ＢＢ
+所以这次就当是服务日活动，[r]破例安排让你能与御主同行好了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+＠E：迦摩
+我是不是还该向你道谢说，[r]那还真是多谢了？
+[k]
+
+＠E：迦摩
+但我怎么感觉在这意识之外的地方，[r]我其实就快死了吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠ＢＢ
+我可承担不了那么多责任。[r]只能说，你加油哦。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠E：迦摩
+话说回来，你所谓的安排，[r]具体是做了什么？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ＢＢ
+那还用问吗。
+[k]
+
+＠ＢＢ
+我把你变成了适合那个世界的存在，[r]变成了能自然地与御主一同进入那里的存在。
+[k]
+
+＠ＢＢ
+毕竟我在搓揉[#那种玩意]的方面可是有一日之长的。
+[k]
+
+[charaFace D 6]
+＠ＢＢ
+对了，还是姑且声明一下，SAKURA FIVE们[r]是略微偏离那边规则的特制品。
+[k]
+
+＠ＢＢ
+她们是我把我自身的癌给切割了出来的……[r]或者说是[#捏造了自然发生]那类的异常处理。
+[k]
+
+[charaFace D 1]
+＠ＢＢ
+不过，还是存在共通技术的，光看那一部分的话，[r]ＢＢ亲也是[#天才:最终Boss]级的，好厉害～。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 25]
+[charaFadein E 0.1 1]
+[bgmStop BGM_EVENT_38 1.5]
+＠E：迦摩
+你到底在说什么？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ＢＢ
+哎哟，话题跑偏了。[r]刚才说到我把你怎么了对吧。
+[k]
+
+＠ＢＢ
+一言以蔽之，自然是[line 3]
+[k]
+
+[bgm BGM_MAP_59 0.1]
+
+[charaFace D 11]
+＠ＢＢ
+我把你变成了[#Alterego:他人格]。
+[k]
+
+[charaFace D 1]
+＠ＢＢ
+准确地说，是从原本的你身上，[r]将[#Alterego:他人格]的你切割出去了哦☆
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠E：迦摩
+……切割了什么样的？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠ＢＢ
+这个嘛，要是明说可就没意思了。
+[k]
+
+[charaFace D 6]
+＠ＢＢ
+不过，我想你应该已经明白了。
+[k]
+
+＠ＢＢ
+那是确实存在于原本的你心中的[#要素:人格]。
+[k]
+
+＠ＢＢ
+然而那是原本绝不可能成立，[r]绝不会浮现于表面的存在。
+[k]
+
+＠ＢＢ
+因为这个要素，跟你给予他人的『　』相比，[r]实在是过于渺小了。
+[k]
+
+＠ＢＢ
+毕竟以比重而言，相当于[#全人类比自己]嘛。[r]会被淹没、掩盖起来也是理所当然的。
+[k]
+
+[charaFace D 0]
+＠ＢＢ
+不过，若是只将这部分独立出来，[r]作为[#Alterego:他人格]放到外面的当下……
+[k]
+
+[charaFace D 11]
+＠ＢＢ
+不对，正因为是当下，[r]看上去显得比较坦率不也是件好事吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠E：迦摩
+[line 6]
+[k]
+
+[charaFace E 8]
+＠E：迦摩
+呼。
+[k]
+
+[charaFace E 20]
+
+＠E：迦摩
+不，其实我自己也觉得有点奇怪啦。
+[k]
+
+＠E：迦摩
+再怎么说，那种……[r]现在这个我，又不是因为夏天兴奋过头，
+[k]
+
+＠E：迦摩
+怎么可能……怎么可能……[r]像那样露骨地撒娇提要求，一副谄媚的样子呢……
+[k]
+
+[messageOff]
+[charaFace E 6]
+[wt 1.0]
+
+＠E：迦摩
+[line 3]算了，做过的事还是先别记在心上了。
+[k]
+
+[charaFace E 7]
+＠E：迦摩
+总之我是……会渴望[#那个]的人格，[r]是这样的[#Alterego:他人格]吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠ＢＢ
+是的。
+[k]
+
+＠ＢＢ
+好了，既然已经把事情都搞清楚了，[r]就请回想起自己身在那里的意义吧。
+[k]
+
+[charaFace D 9]
+＠ＢＢ
+[line 3]不，其实我也不是预测到了所有事哦。
+[k]
+
+＠ＢＢ
+我只是有种预感，觉得来这里的，[r]应该是你，而不是我们吧。
+[k]
+
+[charaFace D 6]
+＠ＢＢ
+而答案，我是刚刚才明白的。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠E：迦摩
+啊啊，原来如此。
+[k]
+
+[charaFace E 8]
+＠E：迦摩
+既然我这个人选是有意义的，应该就是那么回事吧。[r]我也明白了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 1]
+＠ＢＢ
+请不要说什么残忍哦？　虽然要说也可以，[r]但那完全是对最终Boss系后辈的赞美啦。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠E：迦摩
+我才不会说呢。[r]毕竟这对魔王来说也是赞美。
+[k]
+
+[charaFace E 4]
+＠E：迦摩
+……我知道自己该做什么了，[r]但还有一个问题[line 3]
+[k]
+
+[messageOff]
+[charaTalk off]
+
+[charaScale D 1.2]
+[charaFace D 1]
+[charaFadein D 0.7 -150,0]
+[charaMove D -200,0 0.7]
+[charaFadeout E 0.7]
+[wt 0.9]
+
+[charaTalk on]
+＠ＢＢ
+船到桥头自然直啦，肯定没错。
+[k]
+
+[charaFace D 0]
+＠ＢＢ
+那祝你武运昌隆。[r]上述内容是来自过去记忆的声援哦。
+[k]
+
+[messageOff]
+[charaTalk off]
+
+[charaScale E 1.2]
+[charaFace E 8]
+[charaFadein E 0.7 150,0]
+[charaMove E 200,0 0.7]
+[charaFadeout D 0.7]
+[wt 0.9]
+
+[charaTalk on]
+＠E：迦摩
+说得倒是轻巧。[r]你我果然就不该有任何来往呢。
+[k]
+
+[charaFace E 0]
+＠E：迦摩
+好了，那么。
+[k]
+
+[charaFace E 1]
+＠E：迦摩
+就以魔王的碎片该有的模样，[r]去伤害那个人吧[line 3]
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_MAP_59 1.5]
+[wait fade]
+
+[charaFadeout E 0.1]
+[wt 0.2]
+
+[fadein black 0.1]
+[wait fade]
+
+[wipeout openEye 0.1 1.0]
+[wait wipe]
+
+[scene 189602]
+[wt 1.2]
+
+[wipein openEye 1.7 1.0]
+[wait wipe]
+[wt 0.4]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.4 1]
+[wt 1.2]
+
+[bgm BGM_MAP_51 1.0]
+
+？1：迦摩，振作一点！
+？2：收下这个……！
+？！
+
+[messageOff]
+[se ad852]
+[effect bit_talk_light_range]
+[wt 1.5]
+[charaEffectEdgeBlur B FFF9A5 FFF9A5 4 5]
+[wt 1.5]
+
+[seStop ad852 1.5]
+[wt 0.4]
+[effectStop bit_talk_light_range]
+[charaEffectEdgeBlurStop B]
+[wt 1.5]
+
+[charaFace B 0]
+＠迦摩
+……呼。[r]非常感谢，我好受多了。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut B 2000,2500]
+[charaEffectEdgeBlurDestroy B]
+
+[charaScale C 1.0]
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠迦梨
+啊啊，啊啊啊！[r]胜利，吾正在胜利！
+[k]
+
+＠迦梨
+破坏世界之舞不会停息。[r]在湿婆出现之前，都不会停息！
+[k]
+
+＠迦梨
+现身吧，吾心爱的湿婆啊！　吾之丈夫啊！[r]现身吧，现身吧，现身吧！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.15]
+
+[se ade393]
+[seVolume ade393 0 0.3]
+[se ade79]
+[cueSe Servants_1000900 bac1034]
+[se ad294]
+[charaPut S -350,-250]
+[charaPut U 1]
+[charaEffect S bit_talk_impactlanding]
+[charaEffect U bit_talk_rubble]
+[shake 0.04 2 8 1.6]
+[wt 0.6]
+[se ad228]
+[seVolume ad228 0 0.8]
+[wt 1.0]
+[seStop ade79 0.2]
+[wt 0.2]
+
+[se ad241]
+[seVolume ad241 0 0.4]
+[se ad293]
+[cueSe Servants_1000900 bac1038]
+[cueSe Servants_1000900 bac1037]
+[shake 0.05 3 6 1.8]
+[charaPut T 350,-250]
+[charaEffect T bit_talk_impactlanding]
+
+[se ad299]
+[seVolume ad299 0 0.2]
+[se ad297]
+[seVolume ad297 0 0.2]
+[wt 2.0]
+[seStop ad294 0.3]
+[seStop ad293 2.0]
+[seStop ad228 0.6]
+[wt 0.4]
+
+
+
+？1：呜……！
+？2：世界，快要……！
+？！
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠迦摩
+没关系，没关系啦。[r]我能看到胜算了。大逆转，就请交给我吧。
+[k]
+
+[charaFace B 3]
+＠迦摩
+……你的眼神在问是不是真的吧。[r]我能理解你的心情。
+[k]
+
+＠迦摩
+确实，还存在一道难关哦。[r]必须跨越它才行。
+[k]
+
+[charaFace B 0]
+＠迦摩
+[line 3]我需要资源。
+[k]
+
+[charaFace B 2]
+＠迦摩
+啊，我可不会指望现在还不稳定的御主之令咒哦。
+[k]
+
+＠迦摩
+我需要除此以外的，可以供我不负责任地[r]用光最后一滴的大量能源。
+[k]
+
+[charaFace B 1]
+＠迦摩
+如果能有这样的能源，就好了。[r]在附近地上找找，不知能否找到呢？
+[k]
+
+？1：那种，东西……
+？！
+
+[messageOff]
+[bgmStop BGM_MAP_51 1.5]
+[seStop ad299 1.5]
+[seStop ad297 1.5]
+[se ad39]
+[effect bit_talk_noble_light]
+[effect bit_talk_under_light]
+[wt 0.5]
+[charaEffectStop U bit_talk_rubble]
+[wt 2.0]
+
+[charaFace B 5]
+[wt 1.0]
+
+？1：从裂开的地面下方，好像有什么……
+？2：自行浮起来了……？
+？！
+
+＠迦摩
+这是[line 3]
+[k]
+
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[seStop ad241 2.0]
+[seStop ade393 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

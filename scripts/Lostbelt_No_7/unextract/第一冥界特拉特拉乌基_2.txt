@@ -1,0 +1,456 @@
+
+
+＄03-00-13-03-2-1
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 8001500 1 玛修]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098252940 1 特佩乌]
+[charaSet D 1098254800 1 尼莫水兵]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098188300 1 Kingprotea]
+
+[sceneSet G 169200 1]
+[charaScale G 1.5]
+
+[sceneSet H 169200 1]
+[charaScale H 1.5]
+
+[charaTalk depthOff]
+
+[charaDepth G 1]
+[charaDepth F 2]
+[charaDepth H 3]
+[charaDepth A 4]
+[charaDepth B 5]
+[charaDepth C 6]
+[charaDepth D 7]
+[charaDepth E 8]
+
+[scene 169200]
+
+[cameraMove 0.1 0,0 1.01]
+[charaFadein G 0.1 300,-350]
+[wt 0.1]
+
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.5 0.4]
+[se ad619]
+[seVolume ad619 0 0]
+[seVolume ad619 1.5 0.3]
+
+[fadein black 1.0]
+[wait fade]
+
+[shake 0.04 2 2 2.0]
+[wt 0.7]
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 1.0 0,50]
+[charaMove F 0,0 1.0]
+[wt 1.0]
+[seStop ade393 1.0]
+[seStop ad619 1.0]
+[wt 1.0]
+
+[bgm BGM_EVENT_77 0.1]
+
+＠Kingprotea
+又搞砸了……[r]抱歉吓到你们了……
+[k]
+
+＠Kingprotea
+我还以为你们铁定是[r]击坠了Storm Border的坏人呢……
+[k]
+
+[charaFace F 0]
+
+＠Kingprotea
+不过，你是……迦勒底的御主吧？[r]你认得我吗？
+[k]
+
+？1：当然！
+
+[flag select_answer_01 true]
+
+[charaFace F 8]
+
+＠Kingprotea
+太好了，果然是[%1][&先生:小姐]呢！
+[k]
+
+＠Kingprotea
+Kingprotea被咚咚地召唤出来啦！[r]很高兴能再见到你！
+[k]
+
+？2：抱歉，我没印象……
+
+[flag select_answer_01 false]
+
+[charaFace F 11]
+
+＠Kingprotea
+是这样吗？[r]……不过我倒是记得……
+[k]
+
+＠Kingprotea
+……是那种情况吧，对我来说是过去的事，
+[k]
+
+＠Kingprotea
+但是对[%1][&先生:小姐]来说……[r]还是未来的事吗？
+[k]
+
+[charaFace F 1]
+
+＠Kingprotea
+不过我还是很高兴能见到你。[r]我是他人格，Kingprotea。
+[k]
+
+＠Kingprotea
+为了助各位一臂之力，[r]从虚数之海哗啦一下来到了这里！
+[k]
+
+？！
+
+[messageOff]
+[charaTalk off]
+
+[charaFace B 21]
+[charaFadein B 0.4 1]
+[charaFadein H 0.4 -320,-150]
+[wt 0.4]
+
+＠U－奥尔加玛丽
+哎，怎么突然正常聊起来了！？[r]她不是很危险吗！？　难道是伙伴？
+[k]
+
+＠U－奥尔加玛丽
+所谓的从者什么都可以吗[line 2]！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠玛修
+我，我也很惊讶，[r]不过Protea小姐身上并没有敌对反应，嗯。
+[k]
+
+[branch select_answer_02 select_answer_01 false]
+
+＠玛修
+御主好像也认识她……
+[k]
+
+[branch select_join]
+
+[label select_answer_02]
+
+＠玛修
+虽说御主好像并不认识她……
+[k]
+
+[label select_join]
+
+[charaFace A 13]
+
+＠玛修
+总之她也很有礼貌地自我介绍了。[r]请多关照，Protea小姐！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+啊，我知道了！[r]是在潜航艇上召唤好的从者！
+[k]
+
+[charaFace F 1]
+
+＠尼莫水兵
+除了尼托克丽丝，预计还有其他三骑吧。[r]Protea，你是其中一骑吗？
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[charaFadeout H 0.4]
+[wt 0.4]
+
+＠Kingprotea
+嗯，没错，水兵先生。[r]我是迦勒底援助从者四人众之一。
+[k]
+
+[charaFace F 4]
+
+＠Kingprotea
+可是……我原本想以泛人类史从者的身份[r]成为迦勒底的助力，
+[k]
+
+＠Kingprotea
+结果回过神来发现已经在这条河里了，[r]周围一个人都没有，只有蝙蝠吵吵闹闹的……
+[k]
+
+[charaFace F 6]
+
+＠Kingprotea
+在我满心担忧动弹不得时，[r]就听到了大家的声音……
+[k]
+
+[charaFace F 1]
+
+＠Kingprotea
+呵呵。[r]还好我鼓起勇气站了起来。
+[k]
+
+[charaFace F 8]
+
+＠Kingprotea
+虽然吓了大家一跳，但也多亏如此才能会合！[r]接下来请多关照啦，御主！
+[k]
+
+？1：请多关照，Protea！
+
+？！
+
+[messageOff]
+[charaTalk off]
+
+[charaFace B 10]
+[charaFadein B 0.4 1]
+[charaFadein H 0.4 -320,-150]
+[wt 0.4]
+
+＠U－奥尔加玛丽
+是，是吗。[r]只要[%1]你们不介意就行。
+[k]
+
+[bgmStop BGM_EVENT_77 2.0]
+
+[charaFace B 1]
+
+＠U－奥尔加玛丽
+你究竟是什么样的英灵啊？
+[k]
+
+[charaFace F 0]
+
+＠U－奥尔加玛丽
+泛人类史应该不存在叫什么[r][#他人格:Alterego]的[#模具:职阶]才对啊。
+[k]
+
+[messageOff]
+[charaFadeout B 0.4]
+[charaFadeout H 0.4]
+[wt 0.4]
+
+＠Kingprotea
+我吗……？
+[k]
+
+[bgm BGM_EVENT_1 0.1]
+＠Kingprotea
+我是组合了多位女神的精髓，[r]以及母亲的其他人格制造出来的从者。
+[k]
+
+＠Kingprotea
+成为我精髓的女神有多位大地母神，
+[k]
+
+＠Kingprotea
+除此以外还有神兽爱罗婆多……
+[k]
+
+[charaFace F 10]
+
+＠Kingprotea
+……咦。感觉还混入了其他东西……？[r]真奇怪……这是，什么呢……
+[k]
+
+[messageOff]
+
+[charaFace A 7]
+[charaFadein A 0.4 1]
+[charaFadein H 0.4 -320,-150]
+[wt 0.4]
+
+＠玛修
+！　爱罗婆多是印度神话传说之一，
+[k]
+
+[charaFace F 8]
+
+＠玛修
+『搅拌乳海』中诞生的[r]那个爱罗婆多吗？
+[k]
+
+[messageOff]
+[charaFadeout A 0.4]
+[charaFadeout H 0.4]
+[wt 0.4]
+
+＠Kingprotea
+没错！　诸神的衰退导致地表丧失活力，[r]化作死之世界。
+[k]
+
+＠Kingprotea
+对此感到头疼的诸神为了让世界复苏，
+[k]
+
+＠Kingprotea
+与诸神之敌的阿修罗们联手，[r]众志成城挑战世界复兴的仪式。
+[k]
+
+＠Kingprotea
+那就是『搅拌乳海』。[r]是让世界的色彩由『死』转为『生』的大伟业。
+[k]
+
+＠Kingprotea
+诸神将世间一切投入乳海加以搅拌，[r]制造出了不老不死的灵药·[#阿密哩多:甘露]。
+[k]
+
+＠Kingprotea
+在这一过程中诞生的就是白象爱罗婆多。[r]是一头畅游乳海的优雅大象哦！
+[k]
+
+[messageOff]
+
+[charaFace C 6]
+[charaFadein C 0.4 1]
+[charaFadein H 0.4 -320,-150]
+[wt 0.4]
+
+＠特佩乌
+丧失活力的世界……[r]投入死，孕育生……
+[k]
+
+[charaFaceFade C 0 0.3]
+
+＠特佩乌
+唔，换一种角度来看，[r]也算是『发生在冥界的事』吧？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+没错。Protea小姐具有不止能横渡生命之海，[r]还能横渡死亡之海的特性。
+[k]
+
+＠玛修
+因此[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+对哦，让Protea载着我们过去就行了吧！[r]她这么大只，能载得下我们所有人吧！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_1 2.0 0.7]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠哈贝特洛特
+喂，大只这词是多余的，水兵。[r]这种话就算没有恶意，有时也会伤害到别人。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaFace F 6]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+对哦，对不起～！[r]作为惩罚，我就游过去吧～～！（泪）
+[k]
+
+[messageOff]
+[charaFadeout D 0.4]
+[charaFadeout H 0.4]
+[wt 0.4]
+
+＠Kingprotea
+没事，不要紧的。[r]你能这么说，我已经很高兴了。
+[k]
+
+＠Kingprotea
+不过……
+[k]
+
+[charaFace F 0]
+
+＠Kingprotea
+要渡过这条河……[r]要由我成为承载大家的船……
+[k]
+
+[charaFace F 3]
+
+＠Kingprotea
+………………[r]………………………………[bgmStop BGM_EVENT_1 2.0]
+[k]
+
+＠Kingprotea
+………………………………那个。
+[k]
+
+
+＠Kingprotea
+[%1][&先生:小姐]也希望我这样做吗？
+[k]
+
+？1：Protea，可以拜托你吗……？
+
+？！
+
+[bgm BGM_EVENT_94 0.1]
+
+[charaFace F 1]
+
+＠Kingprotea
+我知道了，请交给我吧。[r]虽然我是怪兽，不知道自己能否动作温柔……
+[k]
+
+[charaFace F 7]
+
+＠Kingprotea
+但我还是第一次肩负如此重责大任！[r]我一定会竭尽全力不负众望的！
+[k]
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_94 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

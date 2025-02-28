@@ -1,0 +1,1017 @@
+
+＄04-00-02-00-1-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098257800 1 玛修]
+[charaSet B 1098257300 1 达·芬奇]
+[charaSet C 1098257400 1 希翁]
+[charaSet D 5041000 1 希翁（萝莉）]
+[charaSet E 1098270100 1 迦摩]
+[charaSet F 1098270100 1 迦摩_演出用1]
+[charaScale F 1.3]
+[charaSet G 1098270100 1 迦摩_演出用2]
+
+[sceneSet H 10001 1]
+[charaScale H 1.05]
+[sceneSet I 189300 1]
+[charaScale I 1.3]
+[sceneSet J 189300 1]
+[sceneSet K 189300 1]
+
+[imageSet L cut466_son_full 1]
+[charaScale L 1.3]
+[imageSet M cut466_son_full 1]
+[charaScale M 1.3]
+[imageSet N cut466_son_full 1]
+[charaScale N 1.3]
+
+[charaSet S 5009000 1 特效用1]
+
+[scene 132900]
+[wipeFilter cinema 0.5 0]
+
+[cameraMove 50.0 0,10 1.2]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_MAP_57 0.1]
+[wt 1.0]
+
+＠迦勒底职员Ａ
+……糟了。
+[k]
+
+＠迦勒底职员Ｂ
+嗯，虽然原因不明，[r]但情况符合使用手册上的『事项Ｑ－２３』。
+[k]
+
+＠迦勒底职员Ｂ
+可以判断为异常事态吧。
+[k]
+
+＠迦勒底职员Ｃ
+『不明原因导致虚数罗盘[#平面之月:Paper Moon][r]　性能降低、机能不全』……对吧。
+[k]
+
+＠迦勒底职员Ｃ
+……按照使用手册，开始收集查明事象所需的信息，[r]同时开始记录状况。保存强度为ＡＡ。
+[k]
+
+＠迦勒底职员Ｃ
+接下来不仅是对象的状况，[r]我们的发言与操作也会被记录下来。敬请谅解。
+[k]
+
+＠迦勒底职员Ｂ
+抱歉，我这边忙不过来！[r]舰内广播就麻烦你了！
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 1.0]
+[bgmStop BGM_MAP_57 1.0]
+[wait fade]
+
+[cameraHome 0.1]
+[wipeOff]
+
+[scene 132800]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad59]
+[seVolume ad59 0 0]
+[seVolume ad59 1.0 1.0]
+[wt 1.5]
+[seStop ad59 0.3]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.4]
+
+[bgm BGM_EVENT_77 0.1]
+
+＠玛修
+啊，前辈。[r]您听到刚才的广播了吗？
+[k]
+
+？1：好像是什么异常事态呢。
+？！
+
+＠玛修
+是的，被叫过去的是达·芬奇亲和希翁小姐……
+[k]
+
+＠玛修
+可见是发生了某些技术上的问题，
+[k]
+
+＠玛修
+只是听广播的语气，[r]感觉事态非同小可。
+[k]
+
+＠玛修
+所以我想不知自己能不能帮上什么忙。
+[k]
+
+？1：我也一样哦。
+？2：总之先去看看吧。
+？！
+
+[charaFace A 12]
+
+＠玛修
+是！
+[k]
+
+[bgmStop BGM_EVENT_77 2.0]
+
+[messageOff]
+[se ad59]
+[se ade427]
+[charaFadeout A 0.4]
+[wt 1.0]
+
+[fadeout black 1.0]
+[seStop ad59 1.0]
+[seStop ade427 1.0]
+[wait fade]
+
+[scene 132900]
+[wt 2.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玛修
+[line 3][#平面之月:Paper Moon]发生了故障吗？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.4 1]
+[wt 0.4]
+
+＠达·芬奇
+看来就是这么回事。
+[k]
+
+＠达·芬奇
+我们也正打算找在那边歪头纳闷的[#制造商:管理员][r]打听一下详细情况呢。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.4 1]
+[wt 0.4]
+
+＠希翁
+唔～……[r]其实想发问的反倒是我……
+[k]
+
+＠希翁
+从性质上来说，它应该不会那么容易出故障才对……
+[k]
+
+？1：是吗？
+？！
+
+[charaFace C 13]
+
+＠希翁
+嗯。虽说[#平面之月:Paper Moon]的测量能力[r]是超常级的，但功能却极为简单。
+[k]
+
+＠希翁
+不可能出现测量误差，[r]在恶劣环境下也不会出故障。
+[k]
+
+＠希翁
+正因为具备这种绝对性，才是在虚数空间也能使用的梦幻罗盘。
+[k]
+
+[charaFace C 9]
+
+＠希翁
+归根结底，无论有形还是无形，[r]无论实数存在还是虚数存在，
+[k]
+
+＠希翁
+它就是个将这所有一切事物[r]都原原本本映照出来的平面之月而已。
+[k]
+
+＠希翁
+这东西本身并不会进行什么复杂的计算或运作。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 34]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+不不不，[r]可它内部全是些黑匣子吧。
+[k]
+
+＠达·芬奇
+连我都害怕弄坏它，[r]不敢随便打开。
+[k]
+
+[charaFace B 9]
+
+＠达·芬奇
+毕竟它被赠送给迦勒底已经很久了，[r]各位对自身本领有自信的技术人员都曾试图彻底调查一番，
+[k]
+
+＠达·芬奇
+到头来，直到潜航艇造好以前，[r]都因『确实非常厉害但不知有什么用途』的缘故，
+[k]
+
+＠达·芬奇
+始终将其搁置在一边。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 16]
+[charaFadein C 0.1 1]
+
+＠希翁
+那当然啦，这可是阿特拉斯院的魔术礼装。
+[k]
+
+＠希翁
+虽说送给了迦勒底，[r]但设计与内部构造可是机密中的机密。
+[k]
+
+＠希翁
+在微观层面上嵌入了数种[#本族:我家]的专利技术，
+[k]
+
+＠希翁
+若没有我亲自出马，应该是很难调整根基的吧。
+[k]
+
+？1：功能很简单，却很困难……？
+？！
+
+[charaFace C 7]
+
+＠希翁
+是的。该说是困难，还是偏执呢。
+[k]
+
+[charaFace C 11]
+
+＠希翁
+我想想哦。比方说……
+[k]
+
+＠希翁
+请想象一下由约一亿块碎片拼成的[r]完全纯白没有花纹的拼图吧。
+[k]
+
+[charaFace C 0]
+
+＠希翁
+用糨糊将拼好的拼图固定好，[r]再装进画框装饰起来。
+[k]
+
+＠希翁
+这东西几乎等同于简单的『纯白海报』，
+[k]
+
+＠希翁
+但依然是由一亿块细小的碎片构成的。
+[k]
+
+＠希翁
+没有人能动它，现在被糨糊固定住，[r]紧紧拼凑在一起，因此具备纯白的单纯性。
+[k]
+
+＠希翁
+正因为这种单纯性，[r]才几乎不可能乱掉。
+[k]
+
+[charaFace C 4]
+
+＠希翁
+然而从定义上来看，[r]它只是一亿块碎片的集合体，
+[k]
+
+＠希翁
+若想对细节进行调整，只能逐一关注[r]或拿出每一块碎片……类似于这样吧？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠玛修
+原，原来如此。[r]我似乎……大致听懂了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠希翁
+总之，这虽说是我时间多得没事干，[r]还没找到目标时的产物，
+[k]
+
+＠希翁
+但也没有使用会轻易劣化的材料，
+[k]
+
+＠希翁
+甚至搭载了出现意外时[r]会自我修复的[#术式:程序][line 3]
+[k]
+
+[charaFace C 0]
+
+＠希翁
+用刚才的举例来说，我对此的认知是，
+[k]
+
+[charaFace C 4]
+
+＠希翁
+『身为阿特拉斯院长爱女的我（天才）[r]　拼得严丝合缝的拼图是不可能没来由损坏的』。
+[k]
+
+[charaFace C 11]
+
+＠希翁
+不过还是先调查看看吧。
+[k]
+
+[messageOff]
+[se ad15]
+[charaMoveReturn C 0,-5 0.3]
+[wt 0.5]
+[se ad15]
+[charaMoveReturn C 0,-5 0.3]
+[wt 0.3]
+
+＠希翁
+把这里像这样激活，[r]我弄我弄……
+[k]
+
+[bgmStop BGM_EVENT_81 1.5]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 24]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+唔，咦，等一下？[r]显示器上出现了类似特异点反应的光？
+[k]
+
+[charaFace B 25]
+
+＠达·芬奇
+快确认一下！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+＠迦勒底职员Ａ
+确，确实！[r]确实能看见，虽然能看见[line 3]
+[k]
+
+＠迦勒底职员Ｂ
+却没有特异点反应！
+[k]
+
+[bgm BGM_EVENT_124 0.1]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+＠希翁
+[line 3][wt 2.0][charaFace C 15][#真的吗:Really]？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+嗯，抱歉，确实能看见。[r]按世界地图来说，应该是在埃及附近吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+＠迦勒底职员Ｂ
+无论确认多少遍，[r]都没有发现向[#平面之月:Paper Moon]输入的指令。
+[k]
+
+＠迦勒底职员Ｂ
+本应不可能出现那种光才对……！
+[k]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠希翁
+没有输入任何指令，却[#看得见]？
+[k]
+
+[charaFace C 10]
+
+＠希翁
+……能想到的可能性有两种呢。
+[k]
+
+[charaFace C 1]
+
+＠希翁
+第一种是显示装置有问题。
+[k]
+
+＠希翁
+所谓的烧屏，[r]或是屏幕被人拿笔乱涂乱画，
+[k]
+
+＠希翁
+这类与数据无关的错觉。
+[k]
+
+[charaFace C 0]
+
+＠希翁
+若非如此，就是第二种可能性了。
+[k]
+
+＠希翁
+与屏幕直接相连的接收器，
+[k]
+
+＠希翁
+也就是[#平面之月自身在发出某种信号][line 3]
+[k]
+
+[bgmStop BGM_EVENT_124 1.5]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[cueSe SE_23 23_ad1310 1.0 0.5]
+[charaTalk depthOff]
+[charaDepth S 1]
+[charaDepth B 2]
+[charaDepth H 3]
+
+[charaPut S 1]
+[charaEffect S bit_talk_wht_way_back]
+[wt 3.5]
+
+[bgm BGM_EVENT_122 0.1]
+
+？1：那光……！？
+？2：变得，很刺眼……
+？！
+
+[charaTalk B]
+[charaFace B 25]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+发生什么事了！？[r]全员，进入警戒态势！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[cueSeVolume 23_ad1310 0.4 0.7]
+[charaPut H 0,-200]
+[charaFadeTime H 0.4 0.4]
+[wt 0.4]
+[cueSeVolume 23_ad1310 0.4 0.3]
+[charaFadeTime H 0.4 0]
+[wt 0.4]
+[cueSeVolume 23_ad1310 0.4 0.6]
+[charaFadeTime H 0.4 0.4]
+[wt 0.4]
+[cueSeVolume 23_ad1310 0.4 0.3]
+[charaFadeTime H 0.4 0]
+[wt 0.4]
+[cueSeVolume 23_ad1310 1.5 0.7]
+[charaFadeTime H 1.5 0.85]
+[wt 2.5]
+
+
+＠玛修
+呜，前辈，没事吧，前辈！？[r]请待在我身边……！
+[k]
+
+？1：太刺眼了，什么都，看不[line 3]
+？！
+
+[messageOff]
+[cueSeVolume 23_ad1310 4.0 0.8]
+[se ad744]
+[cueSe SE_22 22_ad1187]
+[fadeout white 2.0]
+[wait fade]
+
+[charaEffectDestroy S bit_talk_wht_way_back]
+[charaFadeTime H 0.1 1.0]
+[wt 2.0]
+
+[fadein white 0.1]
+[wait fade]
+
+[wipeout openEye 0.3 1.0]
+[bgmStop BGM_EVENT_122 0.2]
+[seStop ad744 0.2]
+[cueSeStop 23_ad1310 0.2]
+[wait wipe]
+
+[charaFadeout H 0.1]
+
+
+[scene 189300]
+[blur lens 0.1 2 2]
+[cameraMove 0.1 0,30 1.01]
+[wt 5.0]
+
+[wipein openEye 2.0 1.0]
+[wait wipe]
+
+[wt 0.6]
+
+？1：唔……
+？！
+
+[wipeout openEye 0.4 1.0]
+[wait wipe]
+
+[wt 0.1]
+
+[wipein openEye 0.4 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+[wipeout openEye 0.6 1.0]
+[wait wipe]
+
+[wt 0.1]
+
+[wipein openEye 0.6 1.0]
+[wait wipe]
+
+[wt 0.4]
+
+[wipeout openEye 0.8 1.0]
+[wait wipe]
+
+[wt 0.2]
+
+[blurOff lens 1.0]
+[wipein openEye 1.5 1.0]
+[wait wipe]
+
+[wt 0.8]
+
+[se ad480]
+[cameraMove 1.0 0,0 1.01]
+[wt 2.2]
+[cameraMove 1.5 -50,0 1.1]
+[wt 2.0]
+[cameraMove 2.0 50,0 1.1]
+[wt 3.0]
+[cameraHome 1.5]
+[wt 2.0]
+
+？1：这里，是……？
+？2：从未见过的，城市……？
+？！
+
+＠？？？
+你终于醒了啊～？[r]还是那么爱睡懒觉呢。
+[k]
+
+[messageOff]
+[charaDepth I 1]
+[charaDepth F 2]
+
+[charaFadein I 1.0 50,-145]
+[charaMove I 0,-145 1.2]
+[wt 2.0]
+
+[se ade422]
+[seStop ade422 0.5]
+[charaTalk F]
+[charaFace F 14]
+[charaFadein F 0.4 0,280]
+[wt 1.0]
+
+[bgm BGM_MAP_41 0.1]
+
+[charaMove I 0,-245 2.0]
+[charaMove F 0,80 2.0]
+[wt 2.5]
+
+[charaFace F 1]
+
+＠F：迦摩
+不过也罢。[r]懒散的回笼觉正是怠惰的证明。
+[k]
+
+＠F：迦摩
+是种相当轻松，每天都能执行的堕落。[r]我可不会阻止哦。
+[k]
+
+[charaFace F 3]
+
+＠F：迦摩
+想睡就请一直这样睡下去吧。
+[k]
+
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠F：迦摩
+就算发生什么致命性问题，陷入何等境地，[r]也不是我的错嘛。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout I 1.0]
+[charaFadeout F 1.0]
+[wt 1.5]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk E]
+
+？1：奇怪，迦摩……？
+？2：这里是哪儿？　到底怎么了？
+？！
+
+[charaFace E 0]
+
+＠迦摩
+哎呀，就算你用那种被雨淋湿的小狗般的眼神看我，[r]我也不好办哦。
+[k]
+
+＠迦摩
+毕竟我也是刚醒。
+[k]
+
+＠迦摩
+情况多半跟你一样吧。
+[k]
+
+[charaFace E 1]
+
+＠迦摩
+换言之[line 3]我也是一头雾水。
+[k]
+
+？1：这样啊。
+
+＠迦摩
+换作能干忍者那种[#Assassin:暗匿者]的话，[r]这会儿也许已经调查完周遭情况了吧，
+[k]
+
+＠迦摩
+不过在场的毕竟是我嘛？
+[k]
+
+＠迦摩
+我没有擅自行动，只是观察着你的睡脸，[r]戳你的脸颊玩了一会儿而已。
+[k]
+
+＠迦摩
+真遗憾呢，唔呵呵呵。
+[k]
+
+[subCameraOn 1]
+[charaLayer G sub #A]
+[charaLayer J sub #A]
+
+[subCameraFilter #A through]
+[subRenderScale #A 1.02]
+
+[charaTalk depthOff]
+[charaDepth G 2]
+[charaDepth J 1]
+
+[charaFace G 1]
+[charaFadein G 0 1]
+[charaFadein J 0 0,-200]
+
+？2：不过，能有迦摩在，我也稍微松了口气。
+
+[charaFace E 9]
+
+＠迦摩
+你，你，你在说什么呢……
+[k]
+
+[charaFace E 10]
+
+＠迦摩
+我这样的，那个。其实，那啥吧？
+[k]
+
+＠迦摩
+反倒有点敌人的感觉？[r]就算对我露出那种笑容，我也……
+[k]
+
+[charaFace E 20]
+
+＠迦摩
+……咦？　倒是意外不错呢……
+[k]
+
+[charaFace E 6]
+
+＠迦摩
+好奇怪，绝对很奇怪。[r]忘了吧，好啦好啦都忘掉啦～。
+[k]
+
+[subCameraOn 1]
+[charaLayer G sub #A]
+[charaLayer J sub #A]
+
+[subCameraFilter #A through]
+[subRenderScale #A 1.02]
+
+[charaTalk depthOff]
+[charaDepth G 2]
+[charaDepth J 1]
+
+[charaFace G 6]
+[charaFadein G 0 1]
+[charaFadein J 0 0,-200]
+
+？！
+
+[bgm BGM_MAP_41 0.5 0.5]
+
+[messageOff]
+[charaTalk off]
+
+[subRenderFadein #A 0.4 0,0]
+
+[blur lens 0.1 2 2]
+[se ad231]
+[wt 0.5]
+
+[subRenderFadeout #A 0.5]
+[blurOff lens 1.0]
+[wt 0.5]
+
+[charaFadeout G 0.1]
+[charaFadeout J 0.1]
+[wt 0.5]
+
+[subCameraOff]
+[charaLayer G normal]
+[charaLayer J normal]
+
+[bgm BGM_MAP_41 0.5 1.0]
+
+[charaScale I 2.0]
+[charaScale J 2.0]
+[charaScale K 2.0]
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk E]
+
+？1：（头晕……？）
+？2：（不过，还算，忍得住吧。）
+？！
+
+[charaFace E 7]
+
+＠迦摩
+总之……当我回过神时，就已身处陌生的地方，[r]没有其他从者或是工作人员的身影。
+[k]
+
+＠迦摩
+而且那什么通讯功能也用不了，[r]无法与任何地方取得联络。
+[k]
+
+[charaFace E 0]
+
+＠迦摩
+怎么办？
+[k]
+
+＠迦摩
+虽然我不想工作啦，[r]但既然只有我，也就没办法了。
+[k]
+
+＠迦摩
+只是随便收集点情报的话，我倒是可以帮忙。
+[k]
+
+＠迦摩
+你打算一起行动，还是我独自外出侦察呢，[r]由你来决定[line 3]
+[k]
+
+[bgmStop BGM_MAP_41 1.2]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+＠？？？
+等一下。
+[k]
+
+＠？？？
+明明是同伴……不，明明是从者，[r]却没有察觉到吗？
+[k]
+
+＠？？？
+不得不说你注意力散漫呢。[r]刚才我用肉眼观测到了些微的不平衡。
+[k]
+
+＠？？？
+[&他:她][line 3][r]身体应该有些不舒服吧？
+[k]
+
+？1：这声音是……
+？2：希翁？　希翁也来这里[line 3]
+？！
+
+[messageOff]
+[subCameraOn 1]
+[charaLayer L sub #A]
+[charaLayer M sub #A]
+[charaLayer N sub #A]
+[subCameraFilter #A through]
+[charaFadein L 0 -100,130]
+
+[charaTalk depthOff]
+[charaDepth I 1]
+[charaDepth J 2]
+[charaDepth K 3]
+[charaDepth L 4]
+[charaDepth M 5]
+[charaDepth N 6]
+
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+
+[blur lens 0.1 2 2]
+[charaFadein I 0.1 -50,-70]
+[subRenderFadein #A 1.0 0,0]
+[wt 0.5]
+
+[charaMove I 0,-70 10.0]
+[charaMove L 0,130 10.0]
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+[bgm BGM_HALLOWEEN_2021_1 0.1]
+
+[wt 2.5]
+
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadeout L 0.1]
+[charaFadeout I 0.1]
+[charaFadein J 0.1 50,-150]
+[charaFadein M 0.1 100,-150]
+[wt 0.1]
+
+[charaMove J 0,-150 10.0]
+[charaMove M 0,-150 10.0]
+[fadein black 0.5]
+[wait fade]
+
+[wt 2.5]
+
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout M 0.1]
+[charaFadeout J 0.1]
+[charaFadein K 0.1 0,-270]
+[charaFadein N 0.1 0,-340]
+[wt 0.1]
+
+[charaMove K 0,-300 3.0]
+[charaMove N 0,-400 3.0]
+[fadein black 2.0]
+[wait fade]
+
+[wt 2.0]
+
+？1：…………为什么？
+？2：怎么变小了[line 4]！！
+？！
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_HALLOWEEN_2021_1 2.0]
+[wait fade]
+
+[charaFadeout K 0.1]
+[charaFadeout N 0.1]
+[scene 10000]
+[wt 1.0]
+
+[fadein black 0.1]
+[wait fade]
+
+[skip false]
+[wt 1.0]
+
+[input selectBranch]
+[messageOff]
+[skip false]
+
+[soundStopAllFade 0.4]
+
+[charaPut S 2000,2000]
+[charaEffectDestroy S bit_talk_wht_way_back]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaFadeout S 0.1]
+
+[cameraHome 0.1]
+[pictureFrame]
+
+[scene 10000]
+[wt 0.4]
+
+[maskin black 1.0]
+[wait mask]
+[label selectBranch]
+[wt 0.5]
+
+[fowardEffect bit_chapterstart401]
+[wait fowardEffect]
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

@@ -1,0 +1,900 @@
+
+
+＄03-00-13-20-3-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098253800 1 瓦克昌]
+[charaSet D 1098255300 1 尼托克丽丝]
+[charaSet E 1098257300 1 达·芬奇]
+[charaSet F 1098255200 1 哈贝特洛特]
+[charaSet G 1098253040 1 卡玛佐茨]
+[charaSet H 1098256300 1 骸骨兵]
+[charaSet I 1098256300 1 骸骨兵]
+[charaSet J 1098256300 1 骸骨兵]
+[charaSet K 1098256300 1 骸骨兵]
+[charaSet L 1098256300 1 骸骨兵]
+[masterBranch _Male _Female]
+[label _Male]
+[charaSet M 1098259440 1 主人公_第二部立绘_新表情（男）]
+[branch _branchEnd]
+[label _Female]
+[charaSet M 1098259450 1 主人公_第二部立绘_新表情（女）]
+[branch _branchEnd]
+[label _branchEnd]
+[sceneSet N 174100 1]
+[sceneSet O 174100 1]
+[imageSet P black_fade_re 1 1]
+[imageSet Q black_fade_re 1 1]
+
+[charaSet S 98115000 1 特效用dummy]
+
+[cameraMove 0 0,0 1.01]
+
+[scene 174100]
+
+
+[charaTalk off]
+[charaDepth N 4]
+[charaDepth O 5]
+
+[charaScale N 1.4]
+[charaFadein N 0.1 200,-130]
+[charaMove N 270,-130 5.5]
+
+[bgm BGM_MAP_57 0.1]
+[fadein black 1.5]
+[wait fade]
+[wt 3.0]
+
+[charaScale O 1.4]
+[charaFadein O 1.0 -200,-425]
+[charaMove O -270,-425 5.5]
+[wt 1.0]
+[charaFadeout N 0.1]
+[wt 3.0]
+
+[charaFadeout O 1.2]
+[wt 1.6]
+
+
+？1：这里就是第四冥界[line 3]
+？2：明明是在山脉中，可是该怎么说呢[line 3]
+
+？！
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠玛修
+好美啊……
+[k]
+
+＠玛修
+闪闪发光的是矿石吗。[r]宛若置身于星空之下。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠特佩乌
+道路的形状比较接近第二冥界呢。[r]狭窄的崖道绵延不绝。
+[k]
+
+＠特佩乌
+瓦克昌，把大家放下来，小心翼翼地前进吧。[r]感觉我们在这里奔跑会非常危险。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠瓦克昌
+噢，没想到不是从外侧，[r]而是从内侧爬山的冥界啊。
+[k]
+
+＠瓦克昌
+也就是无论如何最后都会经由山顶去对面吧。
+[k]
+
+[charaFaceFade C 6 0.2]
+＠瓦克昌
+反正就算我踩空滚下去，[r]这种程度的斜坡也很快就能爬回来啦。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠尼托克丽丝
+你这话说得太早了，瓦克昌。[r]谷底激荡着大量死灵。
+[k]
+
+＠尼托克丽丝
+掉下去后就会被它们缠上，[r]想要再攀上岩壁就会变得极其困难吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+＠达·芬奇
+简直就是把生者拖下去的冥界之路吧。[r]没问题。大家，排成纵队小心不要掉下山道。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0,10]
+[charaMove F 0,0 0.2]
+[se ad786]
+[seStop ad786 0.4]
+＠哈贝特洛特
+哎哟，看来轮到玛修和咱出场了吧。[r]交给咱俩来打头阵吧。
+[k]
+
+＠哈贝特洛特
+玛修，要是遭到敌人袭击快掉下去的话，[r]就抓紧咱。咱会靠毅力悬浮3秒左右。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+＠玛修
+好的。万一遇到什么意外，就拜托您了，[r]哈贝特洛特小姐。
+[k]
+
+[messageOff]
+[bgm BGM_MAP_57 1.5 0.5]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[charaTalk off]
+[charaDepth S 9]
+[charaDepth F 8]
+[charaDepth A 7]
+[charaDepth D 6]
+[charaDepth M 5]
+[charaDepth E 4]
+[charaDepth B 3]
+[charaDepth C 2]
+
+[charaScale A 0.9]
+[charaScale F 0.9]
+[charaScale D 0.9]
+[charaScale M 0.9]
+[charaScale E 0.9]
+[charaScale B 1.2]
+[charaScale C 1.2]
+
+[se ad666]
+[se ad452]
+[charaFace A 0]
+[charaFace F 1]
+[charaFadeinFSSideR A 0.2 400,-50]
+[charaFadeinFSSideR F 0.2 290,-150]
+[wt 0.4]
+[seStop ad666 0.1]
+[seStop ad452 0.1]
+[wt 0.5]
+
+[se ade422]
+[charaFace D 0]
+[charaFadeinFSSideR D 0.2 200,-50]
+[wt 0.4]
+[seStop ade422 0.1]
+[wt 0.5]
+
+[se ad60]
+[charaFace M 0]
+[charaFadeinFSR M 0.2 -130,-50]
+[wt 0.4]
+[seStop ad60 0.1]
+[wt 0.5]
+
+[se ad988]
+[charaFace E 0]
+[charaFadein E 0.2 -250,-50]
+[wt 0.4]
+[seStop ad988 0.1]
+[wt 0.5]
+
+[cueSe SE_22 22_ad1210]
+[charaFace B 2]
+[charaFadeinFSL B 0.2 100,70]
+[wt 0.4]
+[cueSeStop 22_ad1210 0.1]
+[wt 0.5]
+
+[cueSe SE_22 22_ad1219]
+[charaFace C 0]
+[charaFadeinFSL C 0.2 -275,70]
+[wt 0.4]
+[cueSeStop 22_ad1219 0.2]
+[wt 0.5]
+[bgmStop BGM_MAP_57 1.5]
+
+[fadeout white 0.2]
+[se ade210]
+[wait fade]
+[seStop ade210 0.5]
+[charaMove A 100,-90 0.1]
+[charaMove F 0,-150 0.1]
+[charaRollMove D 0.1 -10]
+[charaMove D 320,-80 0.1]
+[charaRollMove M 0.1 10]
+[charaMove M -70,-60 0.1]
+[charaMove E 210,80 0.1]
+[charaMove B 100,-10 0.1]
+[charaMove C -350,0 0.1]
+[charaScale C 1.4]
+[charaRollMove C 0.1 45]
+[wt 0.1]
+[fadein white 0.5]
+[wait fade]
+
+[se ad139]
+[charaPut S 1]
+[charaEffect S bit_talk_41_fs]
+[wt 2.5]
+
+[wipeout rollRight 1.0 1.0]
+[wait wipe]
+
+[charaRollMove D 0.1 0]
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFadeout D 0.1]
+[charaFadeout M 0.1]
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_41_fs]
+[wt 1.5]
+
+[cueSe SE_21 21_ad1065]
+[cueSeVolume 21_ad1065 0 0]
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0]
+[cueSe SE_22 22_ad1219]
+[cueSeVolume 22_ad1219 0 0]
+
+[cueSeVolume 21_ad1065 1.0 1.0]
+[cueSeVolume 22_ad1210 1.0 0.8]
+[cueSeVolume 22_ad1219 1.0 0.6]
+[wipein rollLeft 1.0 1.0]
+[wait wipe]
+[wt 1.5]
+
+[cueSeStop 21_ad1065 1.0]
+[cueSeStop 22_ad1210 1.0]
+[cueSeStop 22_ad1219 1.0]
+[wt 0.5]
+
+[bgm BGM_EVENT_147 0.1]
+
+[charaScale A 1.0]
+[charaScale F 1.0]
+[charaScale D 1.0]
+[charaScale M 1.0]
+[charaScale E 1.0]
+[charaScale B 1.0]
+[charaScale C 1.0]
+
+[charaScale C 1.1]
+[charaRollMove D 0.1 0]
+[charaRollMove M 0.1 0]
+[charaRollMove C 0.1 0]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠特佩乌
+队尾是瓦克昌吧。[r]无论遇到什么敌害都休想过他这一关。很合理的部署。
+[k]
+
+[charaFace B 0]
+＠特佩乌
+然后，达·芬奇。[r]第四冥界在泛人类史的米克特兰相当于哪里？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+＠达·芬奇
+嗯。不同于以往，[r]并没有让我感到“就在这里！”的相似性，
+[k]
+
+＠达·芬奇
+这里大概是第七层特约洛夸洛扬吧。
+[k]
+
+＠达·芬奇
+『栖息着可怖的饥饿野兽，』
+[k]
+
+＠达·芬奇
+『要是因恐惧走错了该走的路，[r]　吞食心脏的美洲豹便会攻击死者。』
+[k]
+
+＠达·芬奇
+另外，现身于该冥界的美洲豹也被视作特斯卡特利波卡的[r][#别相:托纳尔]，[#山之心脏:特佩约洛特尔]。
+[k]
+
+？1：山之心脏？
+？2：那是什么意思？
+
+？！
+
+[charaFace E 8]
+＠达·芬奇
+应该是指『巨大如山的美洲豹』吧。
+[k]
+
+＠达·芬奇
+盘踞着如此可怕的『怪物』，[r]应该就是第七层特约洛夸洛扬的试炼吧。
+[k]
+
+[charaFace E 36]
+＠达·芬奇
+既然这第四冥界是卡玛佐茨的巢穴，[r]看来『与怪物对峙』本身就是相似性。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠玛修
+……也就是说，[r]穿过冥界的条件就是与怪物战斗吧。
+[k]
+
+＠玛修
+御主，来确认一下战力吧。[r]召唤方面情况如何？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[se ad632]
+[seVolume ad632 0 0.2]
+[effect bit_talk_summon_failed]
+[wt 1.7]
+[seStop ad632 2.0]
+[effectForceStop bit_talk_summon_failed]
+[wt 1.9]
+
+？1：没问题，可以召唤。
+？2：看来颁布了召唤禁令的只有埃列什基伽勒。
+？！
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+[charaFace A 6]
+＠玛修
+那就保持警戒态势前进吧，[r]以便随时都能应对袭击。
+[k]
+
+[charaFace A 1]
+＠玛修
+……话说回来，前辈。[r]这次没有冥界便利道具吗？
+[k]
+
+[charaFace A 3]
+＠玛修
+不是，因为之前的冥界线您都做好了准备，[r]我才猜想这次是否也会有……
+[k]
+
+？1：剩下的还有……
+？2：驱赶蝙蝠的薄荷香和透明的雨衣。
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 24]
+[charaFadein E 0.1 1]
+＠达·芬奇
+透明的雨衣？　让我瞧瞧。[r]………唔？　这是[#氧化膜:almite]吧。
+[k]
+
+[bgmStop BGM_EVENT_147 1.5]
+＠达·芬奇
+是用于航天服的素材。[r]为什么会有这种[line 3][wt 0.7]啊。
+[k]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaFace E 26]
+＠达·芬奇
+我知道了，第八层和第九层 不久之前[r]还遍布着宇宙射线吧！
+[k]
+
+[charaFace E 12]
+＠达·芬奇
+[%1]，[r]赶紧穿上那件雨衣！
+[k]
+
+＠达·芬奇
+这点放射量对从者和迪诺斯造成不了影响，[r]但是对人体是有害的。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_81 1.0]
+[charaTalk A]
+[charaFace A 21]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+[charaFace A 2]
+＠玛修
+嘿[messageShake 0.05 4 3 0.4][line 3]！
+[k]
+
+
+[messageOff]
+[se ad7]
+[charaMoveScale A 1.15 0.3]
+[charaMove A 0,15 0.3]
+[wt 0.2]
+
+[cueSe SE_21 21_ade553]
+[wipeout rectangleStripUpToDown 0.4 1.0]
+[wt 0.1]
+[shake 0.01 1 2 1.0]
+[wait wipe]
+
+[charaFadeout A 0.3]
+[charaScale P 2.0]
+[charaFadein P 0.1 0,-220]
+[wt 0.6]
+
+[wipein rectangleStripDownToUp 0.2 1.0]
+[wait wipe]
+
+[se ad661]
+[charaMove P 0,400 1.4]
+[wt 0.6]
+[charaFadeout P 0.7]
+[wt 1.3]
+
+[charaTalk F]
+[charaFace F 15]
+[charaFadein F 0.1 1]
+＠哈贝特洛特
+竟然……0.7秒就完成了快速换装……？
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaScale A 1.0]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+[wt 0.6]
+
+[bgm BGM_EVENT_7 0.1]
+
+？1：谢，谢谢你，玛修。
+？2：仿佛用纸网捞金鱼般飞快的速度呢……
+
+？！
+
+
+[charaFace A 3]
+＠玛修
+不，不好意思，大脑思考之前[r]身体就做出了反应……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 37]
+[charaFadein E 0.1 1]
+＠达·芬奇
+很棒哦，完美无缺的反应！[r]是那种出门时帮人穿外套的技能！
+[k]
+
+[charaFace E 0]
+＠达·芬奇
+幸好你第一时间注意到了，玛修。
+[k]
+
+＠达·芬奇
+这里还只是第八层的入口，没有什么危害，[r]再往下走就危险了。
+[k]
+
+＠达·芬奇
+也幸亏[%1]准备得那么周全。
+[k]
+
+＠达·芬奇
+险些就要中途折返，[r]回潜航艇拿材料了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠特佩乌
+驱赶蝙蝠的薄荷香也帮上了大忙呢。
+[k]
+
+＠特佩乌
+从刚才起，洞窟内的蝙蝠就没有靠近我们，[r]都是这东西的功劳。
+[k]
+
+[charaFace B 0]
+＠特佩乌
+蝙蝠拥有食肉虫10倍的速度与食欲，[r]再加上其残暴性，是米克特兰最凶恶的吸血生物。
+[k]
+
+＠特佩乌
+就算是迪诺斯，遭到大量蝙蝠袭击[r]也会不堪一击。
+[k]
+
+＠特佩乌
+能轻易突破生体波动膜的獠牙，[r]以及被吸血时的恍惚感。
+[k]
+
+＠特佩乌
+那是一种大脑功能麻痹，全身亢奋，[r]仿佛一切都变得无关紧要的可怕感觉。
+[k]
+
+＠特佩乌
+称它们为顶级掠食者也毫不为过吧。[r]我们之间甚至还流传着名为『蝙蝠醉』的教训。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 15]
+[charaFadein F 0.1 1]
+＠哈贝特洛特
+不是，那单纯是酒醉吧……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠尼托克丽丝
+对卡玛佐茨……应该没效果吧。[r]他不会仅因为区区味道就避开我们。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+＠达·芬奇
+我想也是。既然目标是山顶，[r]卡玛佐茨就必然会袭击我们吧。
+[k]
+
+＠达·芬奇
+做好这样的准备前往山顶吧。[r]现在最重要的是拼速度。
+[k]
+
+[charaFace E 17]
+＠达·芬奇
+必须赶在戴比特他们抵达最底层之前[r]突破这里才行！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+[bgm BGM_EVENT_7 1.5 0.6]
+＠卡玛佐茨
+嚯，与[#隐匿者:Crypter]拼速度啊。[r]情况我明白了。赶紧去第九层吧。
+[k]
+
+＠卡玛佐茨
+我是通情达理的卡玛佐茨。[r]既然你们的目标是ORT，那我就不妨碍你们了。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠瓦克昌
+感激不尽！[r]我身后的卡玛佐茨都这样说了哦！
+[k]
+
+＠瓦克昌
+我还一直提心吊胆不知几时会碰上呢！[r]没想到这家伙还挺爽快的！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_7 1.5]
+
+[charaTalk off]
+[charaDepth E 5]
+[charaDepth D 4]
+
+[charaFace E 13]
+[charaFace D 13]
+[charaFadeinFSR E 0.1 2]
+[charaFadeinFSL D 0.1 0]
+＠达·芬奇＆尼托克丽丝
+哎？
+[k]
+
+？1：瓦克昌说自己的身后？
+？2：是谁来着？
+
+？！
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 16]
+[charaFadein G 0.1 1]
+[wt 1.2]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_80 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠玛修
+敌对反应极大，模式与上回一致！[r]是卡玛佐茨！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaScale C 1.3]
+[charaScale B 0.8]
+
+[charaDepth C 6]
+[charaDepth B 4]
+
+[charaFace C 5]
+[charaFace B 1]
+[charaFadeinFSR C 0.1 300,60]
+[charaFadeinFSL B 0.1 0,-200]
+[charaShake C 0.02 3 4 0.4]
+[charaShake B 0.02 3 4 0.4]
+＠瓦克昌＆特佩乌
+啊哇哇哇哇哇哇哇哇哇！
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0.8]
+[cueSe SE_22 22_ad1219]
+[cueSeVolume 22_ad1219 0 1.0]
+[charaMoveFSR C 200,60 0.4]
+[charaMoveFSL B -100,-200 0.4]
+[cueSeStop 22_ad1210 1.2]
+[cueSeStop 22_ad1219 1.2]
+[charaFadeout C 0.4]
+[charaFadeout B 0.4]
+[wt 1.6]
+
+[charaTalk G]
+[charaFace G 16]
+[charaFadein G 0.1 1]
+＠卡玛佐茨
+呼呼，唔呼呼，[r]哈[messageShake 0.05 4 3 0.4]哈哈哈哈哈哈哈哈！
+[k]
+
+[messageOff]
+[cueSe Servants_404400 m45219]
+[wt 0.05]
+[charaMoveReturn G 0,-6 0.25]
+[wt 0.80]
+[cueSe Servants_404400 m45219]
+[charaMoveReturn G 0,-6 0.25]
+[wt 0.85]
+[charaMove G 0,-8 0.3]
+[wt 0.45]
+[se ade216]
+[wt 0.1]
+[cueSe SE_21 21_ad1078]
+[charaDepth S 8]
+[charaDepth G 6]
+[charaPut S 1]
+[charaEffect S bit_talk_quickmove]
+[charaSpecialEffect G erasureReverse 0,0 0.3]
+[charaMove G 0,0 0.3]
+[wt 0.5]
+[seStop 21_ad1078 0.7]
+[wt 0.6]
+[wait charaSpecialEffect G]
+
+
+
+
+
+
+[subCameraOn 1]
+[charaLayer G sub #A]
+[charaLayer N sub #A]
+[subCameraFilter #A maskEdge cut359_mask07 3 0,0,0,255 0]
+[charaScale N 1.2]
+[charaScale G 1.1]
+
+[charaFadein N 0.1 0,5]
+[charaFace G 2]
+[charaFadein G 0.1 -120,300]
+
+
+[charaTalk G]
+[subRenderFadein #A 0.4 0,-380]
+[subRenderMove #A 0,-330 0.4]
+[wt 0.5]
+
+＠卡玛佐茨
+悲剧！　无可比拟的悲剧！[r]不知挑战敌人有多强大的乐观！　相当于白白送死！
+[k]
+
+[charaFace G 1]
+＠卡玛佐茨
+白白送死乃是[#喜剧:笑料]。[r]我乃是嗤笑死亡之人。
+[k]
+
+＠卡玛佐茨
+其实也不是不能放你们一马。[r]我也很乐意让你们在葬身冥界之前，先葬身地狱。
+[k]
+
+[charaFace G 0]
+＠卡玛佐茨
+见证吧，观战吧！[r]末期的米克特兰，流淌着狂暴活祭之血！
+[k]
+
+＠卡玛佐茨
+恭敬叩拜之刻已至！[r]为死之源泉兼冥界之王[line 3]
+[k]
+
+[charaFace G 2]
+＠卡玛佐茨
+掌握汝等命运之翼，卡玛佐茨的宽宏大量而叩拜吧！
+[k]
+
+[messageOff]
+
+[subRenderFadeout #A 0.2]
+[wt 0.2]
+
+[charaFadeout G 0.1]
+[charaFadeout N 0.1]
+[wt 0.2]
+
+[subCameraOff]
+[charaLayer G normal]
+[charaLayer N normal]
+[charaScale G 1.0]
+[charaScale N 1.0]
+
+
+
+
+[charaTalk off]
+[charaDepth S 8]
+[charaDepth H 7]
+[charaDepth I 6]
+[charaDepth J 5]
+[charaDepth K 4]
+[charaDepth L 3]
+
+[charaPut S 0,-400]
+[charaEffect S bit_talk_impactlanding]
+
+[cueSe Battle bac351]
+[cueSeVolume bac351 0 0.5]
+[se ad804]
+[charaShake H 0.02 2 3 1.0]
+[charaFadein H 0.4 0,-50]
+[charaMove H 0,0 1.0]
+[wt 0.2]
+
+[charaShake I 0.02 2 3 1.0]
+[charaFadeinFSR I 0.4 150,-50]
+[charaMoveFSR I 150,0 1.0]
+[wt 0.1]
+
+[se ad802]
+[charaShake J 0.02 2 3 1.0]
+[charaFadeinFSL J 0.4 -150,-50]
+[charaMoveFSL J -150,0 1.0]
+[wt 0.2]
+
+[charaShake K 0.02 2 3 1.0]
+[charaFadeinFSSideR K 0.4 350,-50]
+[charaMoveFSSideR K 350,0 1.0]
+[wt 0.1]
+
+[se ad804]
+[seStop ad802 0.2]
+[cueSeStop bac351 1.0]
+[charaShake L 0.02 2 3 1.0]
+[charaFadeinFSSideL L 0.4 -350,-50]
+[charaMoveFSSideL L -350,0 1.0]
+[wt 1.8]
+
+[charaFadeout H 0.1]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+＠哈贝特洛特
+那家伙的开场白咱已经听腻了！[r][%1]，更替队形！
+[k]
+
+＠哈贝特洛特
+让特佩乌和瓦克昌移动到前面！[r]骸骨兵由咱和你，还有达·芬奇来解决！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_80 0.4]
+[wait fade]
+[soundStopAll]
+[end]

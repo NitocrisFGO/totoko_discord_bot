@@ -1,0 +1,202 @@
+
+
+＄03-00-13-20-4-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098257300 1 达·芬奇]
+[charaSet C 1098255200 1 哈贝特洛特]
+[charaSet D 1098253800 1 瓦克昌]
+[charaSet E 1098252900 1 特佩乌]
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+
+
+[scene 174100]
+
+[bgm BGM_EVENT_24 0.1]
+
+[fowardEffect bit_talk_bat_aura02]
+
+[se ad153]
+[seVolume ad153 0 0]
+[cueSe Servants_603100 bac553]
+[cueSeVolume bac553 0 0]
+
+[cueSeVolume bac553 1.0 1.0]
+[seVolume ad153 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.2]
+
+[cueSeVolume bac553 0.6 0.5]
+[seVolume ad153 0.6 0.5]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠玛修
+从四周感知到来历不明的热源！[r]这是[line 3]蝙蝠群！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 26]
+[charaFadein B 0.1 1]
+＠达·芬奇
+怎么会这样，用光线照射也驱散不了黑暗！[r]第四冥界的蝙蝠拥有吸收光线的皮肤！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+＠哈贝特洛特
+[%1]、玛修！[r]咱要发射[#黑色炮身:Black Barrel]了！　轰散蝙蝠！
+[k]
+
+？1：[&动手吧！:拜托了！]
+？2：小心别让洞窟坍塌！
+
+？！
+
+[charaFace C 3]
+＠哈贝特洛特
+当然啦，咱会控制好输出，只扫荡蝙蝠！[r]要上啦[line 3]！
+[k]
+
+[messageOff]
+[se ad39]
+[charaPut S 0,-50]
+[charaEffect S bit_talk_36]
+[wt 2.0]
+[charaEffectStop S bit_talk_36]
+
+[seStop ad39 1.0]
+[cueSe NoblePhantasm_404200 NP_404200_6]
+[charaEffect C bit_talk_charge_red]
+[wt 2.0]
+
+[cueSeStop NP_404200_6 0.3]
+[cueSe NoblePhantasm_404200 NP_404200_7]
+[fadeout white 0.4]
+[bgmStop BGM_EVENT_24 1.0]
+[cueSeStop bac553 1.0]
+[seStop ad153 1.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaPut S 2000,2500]
+[charaPut C 2000,2500]
+[charaEffectStop C bit_talk_charge_red]
+[fowardEffectDestroy bit_talk_bat_aura02]
+[wt 1.5]
+[cueSeStop NP_404200_7 2.0]
+[wt 3.0]
+
+[fadein white 2.0]
+[wait fade]
+[wt 0.5]
+
+[charaTalk off]
+[charaScale E 0.9]
+[charaScale D 1.2]
+
+[charaTalk depthOff]
+[charaDepth D 2]
+[charaDepth E 1]
+
+[charaDepth C 2]
+[charaDepth B 3]
+[charaDepth A 1]
+
+[charaFace D 0]
+[charaFace E 3]
+[charaFadeinFSR D 0.1 300,70]
+[charaFadeinFSL E 0.1 -200,-100]
+[wt 1.6]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaScale E 1.0]
+[charaScale D 1.0]
+
+
+[charaFace C 17]
+[charaFace B 23]
+[charaFace A 6]
+[charaFadeinFSL B 0.1 -350,0]
+[charaFadein C 0.1 1]
+[charaFadeinFSR A 0.1 300,0]
+[wt 1.6]
+
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠瓦克昌
+蝙蝠们慌忙逃往洞窟的四面八方了！[r]卡玛佐茨那家伙也消失不见了！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠特佩乌
+我听到很响的扑翅声向上空逐渐消失了……[r]是飞去山顶了吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 33]
+[charaFadein B 0.1 1]
+＠达·芬奇
+占据压倒性优势的是卡玛佐茨。[r]他没理由撤退吧……
+[k]
+
+[bgmStop BGM_EVENT_70 1.5]
+
+？1：不对，尼托克丽丝……！
+？2：不见了！
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 24]
+[charaFadein A 0.1 1]
+＠玛修
+是的，不见尼托克丽丝小姐的身影！[r]推测是在黑暗中被敌方个体带走了！
+[k]
+
+
+
+[messageOff]
+[wt 0.5]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

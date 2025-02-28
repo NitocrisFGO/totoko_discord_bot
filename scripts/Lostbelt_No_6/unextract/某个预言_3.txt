@@ -1,0 +1,531 @@
+
+＄03-00-10-07-3-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098123200 1 戈尔德鲁夫]
+[charaSet B 1098124510 1 达·芬奇]
+[charaSet C 9005001 1 福尔摩斯]
+[charaSet D 5021000 1 贤者格里姆]
+[charaSet E 1098231510 1 玛修]
+[charaSet F 1098123000 1 穆尼尔]
+[charaSet G 4037000 1 尼莫]
+[charaSet H 1098124510 1 通讯用]
+[charaSet I 5045001 1 阿尔托莉雅]
+
+[charaPut H 1200,1200]
+[charaEffect H bit_talk_10_LowLevel]
+
+[scene 122603]
+[se ad951]
+[seVolume ad951 0 0]
+[seVolume ad951 1.0 0.5]
+[fadein black 2.0]
+[wait fade]
+
+[wt 2.0]
+
+[seStop ad951 2.0]
+[scene 86200 1.5]
+[wt 2.0]
+
+[charaTalk A]
+[charaFace A 16]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+干得漂亮，迦勒底的诸位，[r]以及不列颠的阿尔托莉雅·卡斯特君！
+[k]
+
+＠戈尔德鲁夫
+但现在没有多余时间慰劳你们的奋斗了！[r]技术顾问，报告现状！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaPut H 1]
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]Storm Border右舷损毁严重。[-][r][51ffff]另外，刚才的战斗消耗了大量[#燃料:资源]。[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]需要让潜航艇在空中待机，[-][r][51ffff]进行装甲修补与燃料补给。[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]补给的部分可以从[-][r][51ffff]大气中的[#魔力:玛纳]炼成，[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]舰艇的修理最少也要20分钟。[-][r][51ffff]最好能有30分钟。[-]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+唔，嗯，要那么久吗！[r]那你想办法努力吧！
+[k]
+
+＠戈尔德鲁夫
+经营顾问，你对接下来有何预判！？[r]对损耗的时间有何想法！？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠福尔摩斯
+与『炎之灾厄』的交战已经耗费了20分钟。
+[k]
+
+＠福尔摩斯
+距离Storm Border再度进入战斗状态，[r]还有30分钟。
+[k]
+
+？1：10分钟后科尔努诺斯就会出现了……
+？2：诅咒溢出则是在其出现的1小时后……
+
+？！
+
+＠福尔摩斯
+没错。虽然无法在场见证科尔努诺斯的出现，[r]但距离最终[#末日:Catastrophe]还有40分钟的宽限。
+[k]
+
+＠福尔摩斯
+只求击败科尔努诺斯的话，我们有很大的胜算。[r]可是[line 3]
+[k]
+
+[charaFace C 4]
+
+＠福尔摩斯
+问题在于另一个『灾厄』，巴格斯特。
+[k]
+
+＠福尔摩斯
+它已经率领黑犬群烧光了牛津，[r]很快就将抵达诺里奇。
+[k]
+
+＠福尔摩斯
+不可能靠Storm Border同时攻破。[r]若要想击败它，我们只能组建一支别动队。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠贤者格里姆
+我觉得放弃那边比较明智哦。[r]正所谓成大事者不拘小节。
+[k]
+
+＠贤者格里姆
+『大洞穴』是世界规模的灾厄，[r]而『黑犬』只是『焚烧都市之物』。
+[k]
+
+＠贤者格里姆
+哪怕放任那边不管，[r]世界也不会消失。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠福尔摩斯
+……我同意，贤者格里姆。
+[k]
+
+＠福尔摩斯
+离开诺里奇出海的巴格斯特[r]今后将成为泛人类史也能认知的『灾厄』。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth I 1]
+[charaDepth E 2]
+[charaFace I 5]
+[charaFace E 7]
+[charaFadeinFSL I 0.1 0]
+[charaFadeinFSR E 0.1 2]
+[wt 1.5]
+
+[charaFadeout I 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠福尔摩斯
+虽说在英国妖精史中，对『巴格斯特』[r]这名妖精的看法恐怕会发生变化……
+[k]
+
+＠福尔摩斯
+但它终归是在后世也能应对的『灾厄』。[r]并不是现在该优先的对象。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_70 2.0]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠玛修
+不，请等一下！[r]我请求派别动队出击！
+[k]
+
+＠玛修
+我能理解事态的轻重缓急，[r]很清楚应该将资源用在科尔努诺斯身上。
+[k]
+
+＠玛修
+即便如此……即便如此，还是拜托了！[r]请允许我出击吧！
+[k]
+
+＠玛修
+我不能让巴格斯特小姐[r]成为泛人类史的敌人！
+[k]
+
+[charaFace E 4]
+
+＠玛修
+而且……而且，诺里奇是博格特先生[r]与巴格斯特小姐的故乡。
+[k]
+
+＠玛修
+由她亲手破坏掉自己的故乡，[r]也未免太[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+基列莱特[line 3]
+[k]
+
+？1：玛修[line 3]
+？2：[line 3]嗯，说得对。
+
+？！
+
+[charaFace A 10]
+
+＠戈尔德鲁夫
+……有胜算吗，[%1]？
+[k]
+
+＠戈尔德鲁夫
+玛修·基列莱特是你的专属从者。[r]如果你判断能行，那我就允许。
+[k]
+
+＠戈尔德鲁夫
+虽然不知道巴格斯特[r]变成了什么样的『灾厄』……
+[k]
+
+＠戈尔德鲁夫
+但战斗肯定会相当激烈。[r]你明知如此还是要去吗？
+[k]
+
+？1：当然。
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_82 0.1]
+
+[charaTalk E]
+[charaFace E 16]
+[charaFadein E 0.1 1]
+[wt 1.5]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 16]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+好吧！　福尔摩斯，为[&他们:她们]拟定作战计划吧！[r]不管有多乱来都可以！
+[k]
+
+＠戈尔德鲁夫
+时间必须控制在Storm Border[r]出发前往『大洞穴』之前！
+[k]
+
+[charaFace A 15]
+
+＠戈尔德鲁夫
+另外，阿尔托莉雅·卡斯特要留在潜航艇！
+[k]
+
+＠戈尔德鲁夫
+万一你们没能回来，[r]她将成为对付科尔努诺斯的王牌。
+[k]
+
+＠戈尔德鲁夫
+……不……阿尔托莉雅·卡斯特、[r]格里姆，以及Storm Border。
+[k]
+
+＠戈尔德鲁夫
+恐怕只要凑齐这三个，[r]就有可能击败科尔努诺斯。
+[k]
+
+＠戈尔德鲁夫
+假设你们没能赶上出发时间，[r]我将毫不留情地丢下你们。
+[k]
+
+[charaFace A 6]
+
+＠戈尔德鲁夫
+听好了，一旦判断无法成功，就立刻回来！[r]而且绝对要严守时间！
+[k]
+
+＠戈尔德鲁夫
+唯独这次，决不允许违反命令，[r]一旦违背，就做好被关一周禁闭的准备吧！
+[k]
+
+？1：[line 3]是！
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠福尔摩斯
+[line 3]真是的。[r]作战变得愈发困难了呢。
+[k]
+
+＠福尔摩斯
+不过比起普通的案件，我也更喜欢追求疑难案件。[r]自然会尊重你们的选择。
+[k]
+
+[charaFace C 1]
+
+＠福尔摩斯
+我早就料到也许会这样，已经在你们下灵洞期间，[r]维护好Shadow Border了。
+[k]
+
+＠福尔摩斯
+不过还差个驾驶员……
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+[wt 1.5]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠福尔摩斯
+Mr.穆尼尔，可以麻烦你再当一回驾驶员吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠穆尼尔
+喔，噢，包在我身上吧！[r]反正我已经习惯降落伞了！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[wt 1.5]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 5]
+[charaFadein C 0.1 1]
+
+＠福尔摩斯
+那就这么定了。[r]去诺里奇祓除『灾厄』的是我方精锐[line 2]
+[k]
+
+＠福尔摩斯
+[&Mr.:Miss][%1]、[r]玛修·基列莱特。
+[k]
+
+＠福尔摩斯
+作战时间是30分钟。[r]决不能花费更多时间了。
+[k]
+
+＠福尔摩斯
+Shadow Border将用舰载弹射器弹射出去，[r]并降落到诺里奇近郊。
+[k]
+
+＠福尔摩斯
+待你们两位击败巴格斯特后，[r]就乘坐Shadow Border移动到会合地点。
+[k]
+
+＠福尔摩斯
+Storm Border会将职员连带[#车辆:Shadow]一同回收，[r]随后前往『大洞穴』。
+[k]
+
+[charaFace C 0]
+
+＠福尔摩斯
+有什么问题吗，达·芬奇？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]嗯，正好。[-][r][51ffff]我这边也因为别的事需要一点时间。[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]根据扫描，我有了一个无论如何都得[-][r][51ffff]去一趟索尔兹伯里的理由。[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]必须去取回忘带的东西。[-][r][51ffff]我把蒂福内落在迈克的酒馆里了。[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]那里面保存了满满的旅途记录。[-][r][51ffff]可能的话，我希望回收它。[-]
+[k]
+
+？1：说起迈克的旅馆，还有哈贝特洛特！
+
+？！
+
+[charaFace B 0]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]嗯，当然啦。[-][r][51ffff]……毕竟让她承担了艰苦的职责嘛。[-]
+[k]
+
+[charaFace B 26]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]将Shadow Border弹射出去后，[-][r][51ffff]Storm Border会前往索尔兹伯里。[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]让舰艇在索尔兹伯里上空待机，[-][r][51ffff]我直接前往酒馆接哈贝特洛特。[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]再然后就是让潜航艇移动到诺里奇附近，[-][r][51ffff]等候你们的抵达。[-]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠尼莫
+看来事情都谈妥了吧。[r]那就开始作战。
+[k]
+
+[charaFace G 2]
+
+＠尼莫
+水兵们和引擎、护士齐心协力[r]修理右舷装甲！
+[k]
+
+＠尼莫
+别动队火速登上Shadow Border！[r]在做好出发的准备之前，本舰会朝诺里奇方向前进！
+[k]
+
+＠尼莫
+待Shadow Border弹射出去后，立刻改航[r]前往索尔兹伯里，然后放达·芬奇降落！
+[k]
+
+？1：明白了！　达·芬奇也一定要保重！
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]不用担心啦，[-][r][51ffff]毕竟是熟门熟路的[#迈克的酒馆]嘛！[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]稍后再会合吧，[%1]！[-][r][51ffff]我相信你们会平安无事的！[-]
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_82 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

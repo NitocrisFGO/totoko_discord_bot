@@ -1,0 +1,1506 @@
+
+
+
+＄04-00-02-06-2-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 7046001 1 难敌]
+[charaSet B 1098270300 1 阿愈丝]
+[charaSet C 1098270000 1 希翁]
+[charaSet D 1098269500 1 莱诺尔]
+[charaSet E 1036001 1 高长恭]
+[charaSet F 1098269100 1 拉妮－ⅩⅡ]
+[charaSet G 1098267100 1 美杜莎]
+[charaSet H 1098268910 1 樱]
+[charaSet I 3054001 1 怖军]
+[charaSet J 1098269300 1 塞蕾雪拉]
+[charaSet K 1098270200 1 迦摩]
+
+[sceneSet O 189700 1]
+[charaScale O 1.2]
+[sceneSet P 189700 1]
+[charaScale P 1.2]
+[sceneSet Q 189700 1]
+[charaScale Q 1.2]
+[sceneSet R 189700 1]
+[charaScale R 1.2]
+
+
+[charaSet S 98115000 1 特效用dummy]
+
+[imageSet T back10000 1 1]
+[charaScale T 1.3]
+
+[sceneSet U 191500 1]
+[charaScale U 1.2]
+
+
+[scene 189500]
+
+[se ad95]
+[seVolume ad95 0 0]
+[wt 0.05]
+[se ade422]
+[seVolume ade422 0 0]
+[wt 0.35]
+[se ade428]
+[seVolume ade428 0 0]
+
+[seVolume ad95 1.5 1.0]
+[seVolume ade422 1.5 1.0]
+[seVolume ade428 1.5 1.0]
+[fadein black 1.5]
+[wait fade]
+[wt 1.1]
+
+[seStop ad95 0.2]
+[seStop ade422 0.25]
+[seStop ade428 0.25]
+[wt 0.45]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠难敌
+（闹情绪）
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠阿愈丝
+心情明显很糟呢。
+[k]
+
+＠阿愈丝
+果然是因为[#Lancer:枪兵]吗？[r]你们俩认识吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠难敌
+少啰嗦。别问啦。
+[k]
+
+[charaSet B 1098270330 1 阿愈丝]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+＠阿愈丝
+唔唔唔……当然要问啦！[r]谁叫你什么都不跟我说！
+[k]
+
+＠阿愈丝
+那可是有可能在这场圣杯战争中[r]成为敌人的从者吧？
+[k]
+
+＠阿愈丝
+身为御主，我想要知道相关情报[r]不是理所当然的吗。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠希翁
+如果你不肯说，
+[k]
+
+＠希翁
+我也可以将我们所知范围内的客观情报[r]一五一十地告诉阿愈丝小姐。
+[k]
+
+[charaFace C 10]
+＠希翁
+只是在你本人看来，出自我们的情报[r]有可能并不正确，或是惹你不快，
+[k]
+
+[charaFace C 5]
+＠希翁
+但这也没办法吧？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+＠难敌
+什[messageShake 0.05 4 3 0.3]么……[wt 0.5]慢着，快住手！
+[k]
+
+＠难敌
+反正肯定都是些说本老爷是大坏蛋[r]或是全都怪难敌之类的胡说八道啦！
+[k]
+
+[bgmStop BGM_EVENT_5 1.0]
+
+[charaFace A 11]
+＠难敌
+知道啦，那就稍微告诉你一些好啦。
+[k]
+
+[bgm BGM_MAP_41 0.1]
+
+＠难敌
+他们五兄弟是我们持国百子的敌人。
+[k]
+
+＠难敌
+我们原本同属一个国家，[r]还曾同在一位师父门下学习过武术。
+[k]
+
+[charaSet B 1098270300 1 阿愈丝]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 1]
+＠阿愈丝
+嗯嗯。[wt 0.4][charaFace B 8]后来怎么会变成敌人呢？[r][#Berserker:狂战士]为什么这么讨厌他呢？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠希翁
+简单来说就是家族内斗。[r]类似于为了哪边拥有继承王国的正统性而争斗[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠难敌
+可恶，你给我闭嘴。
+[k]
+
+＠难敌
+原因有很多啦，虽然有很多……
+[k]
+
+[charaFace A 7]
+＠难敌
+但一言以蔽之，都怪他们是群妄自尊大、[r]认不清自己身份的家伙。就这么简单。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠阿愈丝
+虽然是出于我的直觉啦，但我觉得[r]肯定不是你这一句话就能概括完的吧～。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠难敌
+不，都概括清楚了。他们始终都是这样。[r]所以本老爷和弟弟们才会一直跟他们战斗。
+[k]
+
+[charaFace A 10]
+＠难敌
+其中最碍眼的就是那家伙，怖军。[r]还是个小鬼头时就牛高马大、身强力壮，糟透了。
+[k]
+
+[charaFace A 12]
+＠难敌
+本老爷只能采取给他下毒弄晕他，[r]然后趁机把他绑起来扔进河里这种计谋来对抗。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+＠阿愈丝
+（傻眼）
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+＠难敌
+然而那家伙不知为何抵达了地底之国，[r]喝下蛇王的甘露变强后又回来了！
+[k]
+
+＠难敌
+何等狡猾！　不可饶恕！
+[k]
+
+[charaFace A 11]
+＠难敌
+后来本老爷又靠骰子赌博夺走了他们的一切……[r]这还是多亏了沙恭尼舅父才得以顺利搞定……
+[k]
+
+[charaFace A 6]
+＠难敌
+还有，对了，本老爷为了当面指着并嘲笑[r]遭流放后居住在森林里的那群家伙而出发前往时，
+[k]
+
+[charaFace A 15]
+＠难敌
+竟然被一群健达缚给捉住了，还反过来[r]被他们所救，尝到了极致的耻辱！
+[k]
+
+[charaFace A 5]
+＠难敌
+好了！　听到这里，[r]你应该也能明白那些家伙有多邪恶了吧。
+[k]
+
+＠难敌
+本老爷压根不想提那家伙也在情理之中吧。[r]你要理解啊！
+[k]
+
+[charaSet B 1098270370 1 阿愈丝]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠阿愈丝
+这个嘛……嗯。[r]你的确经历了各种苦难呢……[wt 1.0][f x-small]对方也是。[f -]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠难敌
+哼，聊到这就够了吧。[r]快走吧，离教会还有点距离。
+[k]
+
+[messageOff]
+[se ad95]
+[charaMove A -50,0 0.4]
+[seStop ad95 1.2]
+[charaFadeout A 0.4]
+[wt 1.4]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠希翁
+很明显强行结束了话题呢。[r]想必是不想提起那场大战吧。
+[k]
+
+？1：也不是不能理解啦。
+
+[charaFace C 10]
+＠希翁
+嗯。对难敌来说，[r]怖军在般度五子中也是因缘匪浅的对手。
+[k]
+
+＠希翁
+[#自己是与他决斗时败下阵来而死的]这种事，[r]确实不愿意亲口说出来吧[line 3]
+[k]
+
+？2：这是为什么呢？
+
+[charaFace C 10]
+＠希翁
+可以根据知识来推测。
+[k]
+
+＠希翁
+对难敌来说，[r]怖军在般度五子中也是因缘匪浅的对手。
+[k]
+
+＠希翁
+[#自己是与他决斗时败下阵来而死的]这种事，[r]确实不愿意亲口说出来吧[line 3]
+[k]
+
+？！
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_MAP_41 1.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+
+[scene 189700]
+[wt 2.0]
+
+[se ad91]
+[wt 3.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk off]
+[charaDepth D 6]
+[charaDepth E 5]
+
+[se ad95]
+[wt 0.05]
+[se ade422]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSR D 0.4 2]
+[charaFadeinFSL E 0.4 0]
+[wt 0.4]
+[seStop ad95 0.4]
+[seStop ade422 0.4]
+[wt 0.6]
+
+[bgm BGM_MAP_101 0.1]
+
+[charaTalk on]
+[charaFace D 7]
+＠莱诺尔
+哎呀，我们是最后一个吗？[r]抱歉，我们当时离这里有点远。
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠拉妮－ⅩⅡ
+……都到齐了吧。[r]那就正式开始吧。
+[k]
+
+[charaFace F 0]
+＠拉妮－ⅩⅡ
+你们好。[r]好久不见，各位。
+[k]
+
+＠拉妮－ⅩⅡ
+我这名监督官原本只会在发生预料之外的事态时[r]才会与ＡＩ圣杯战争的参加者见面……
+[k]
+
+[charaFace F 8]
+＠拉妮－ⅩⅡ
+但很遗憾，这种预料之外的事态现在发生了。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.15]
+
+[charaTalk off]
+[charaDepth O 1]
+[charaDepth G 3]
+[charaDepth H 2]
+
+
+[charaFadein O 0.7 70,-225]
+[charaMove O 120,-225 0.7]
+[wt 0.8]
+
+[charaScale G 1.15]
+[charaScale H 1.15]
+[charaFace G 0]
+[charaFace H 15]
+[charaFadeinFSL G 0.4 1]
+[charaFadeinFSL H 0.4 -300,0]
+[wt 1.5]
+
+[charaSet B 1098270300 1 阿愈丝]
+
+[charaDepth P 4]
+[charaDepth A 5]
+[charaDepth B 6]
+
+[charaFadein P 0.7 -70,-225]
+[charaMove P -120,-225 0.7]
+[wt 0.7]
+
+[charaFadeout O 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaScale B 1.15]
+[charaScale A 1.15]
+[charaFace B 8]
+[charaFace A 6]
+[charaFadeinFSR B 0.4 1]
+[charaFadeinFSR A 0.4 300,0]
+[wt 1.5]
+
+
+[charaDepth Q 7]
+[charaDepth E 8]
+[charaDepth D 9]
+
+[charaFadein Q 0.7 70,-225]
+[charaMove Q 120,-225 0.7]
+[wt 0.7]
+
+[charaFadeout P 0.1]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaScale D 1.15]
+[charaScale E 1.15]
+[charaFace D 1]
+[charaFace E 0]
+[charaFadeinFSL D 0.4 1]
+[charaFadeinFSL E 0.4 -300,0]
+[wt 0.5]
+
+[charaDepth Q 1]
+[charaDepth E 2]
+[charaDepth D 3]
+[wt 1.0]
+
+
+[charaDepth O 1]
+[charaDepth R 4]
+[charaDepth I 5]
+[charaDepth T 6]
+[charaDepth J 7]
+
+[charaFadein R 0.7 -70,-225]
+[charaMove R -120,-225 0.7]
+[wt 0.7]
+
+[charaScale O 1.1]
+[charaFadein O 0.1 -25,-210]
+[charaFadeout Q 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaScale I 1.3]
+[charaScale J 1.15]
+[charaFace I 0]
+[charaFace J 3]
+[charaFadeinFSR I 0.4 325,25]
+[charaFadeinFSR J 0.4 25,0]
+[wt 1.5]
+
+[bgm BGM_MAP_101 0.5 0.5]
+
+[charaTalk on]
+[charaTalk depthOff]
+
+[charaPut T 1]
+[charaFadeTime T 0.2 0.5]
+
+＠塞蕾雪拉
+（被强行带过来了……）
+[k]
+
+[messageOff]
+[charaFadeout T 0.2]
+[wt 0.7]
+
+？1：那就是[#Lancer:枪兵]的御主……
+？2：……？
+？！
+
+[messageOff]
+[bgm BGM_MAP_101 0.5 1.0]
+
+[charaFadeout R 0.6]
+[charaFadeout I 0.6]
+[charaFadeout J 0.6]
+[wt 0.7]
+
+[charaTalk off]
+[charaDepth K 5]
+[charaDepth T 6]
+[charaDepth C 7]
+
+[charaFace C 0]
+[charaFace K 0]
+[charaFadeinFSL C 0.1 -256,-20]
+[charaFadeinFSR K 0.1 2]
+[wt 1.2]
+
+[charaTalk on]
+＠迦摩
+据[#Saber:剑士]御主的说法，好像是叫什么塞蕾雪拉。[r]不过这并不重要啦。
+[k]
+
+[bgm BGM_MAP_101 0.5 0.5]
+
+[charaTalk depthOff]
+[charaPut T 1]
+[charaFadeTime T 0.2 0.5]
+
+[charaFace C 8]
+＠希翁
+（……？　好像有某种违和感。[r]　想不明白呢，这感觉因何而起……？）
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout K 0.1]
+[charaFadeout T 0.2]
+[wt 0.1]
+
+[bgm BGM_MAP_101 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠拉妮－ⅩⅡ
+情况正如[#警防部:Defend]首席ＡＩ的传话内容。
+[k]
+
+＠拉妮－ⅩⅡ
+[#Caster:魔术师]藉由他的宝具及御主的构造辅助[#术式:程序]，[r]召唤并同化了以使魔们为基础组建而成的大型异形[line 3]
+[k]
+
+＠拉妮－ⅩⅡ
+也就是超巨大蠢魔，[r]成为了只知吞食附近ＡＩ的怪物。
+[k]
+
+[charaFace F 1]
+＠拉妮－ⅩⅡ
+由于完全无视了[#警防部:Defend]的中立规定，[r]估计已经处于失控状态了。
+[k]
+
+[charaFace F 11]
+＠拉妮－ⅩⅡ
+虽然尚不明确御主的意志对该行为[r]存在多大程度的干涉，
+[k]
+
+＠拉妮－ⅩⅡ
+但既然御主尚无阻止[#Caster:魔术师]的迹象，[r]就必须给予他们违反规定的惩罚。
+[k]
+
+[charaFace F 10]
+＠拉妮－ⅩⅡ
+结论是我这名监督官认定他们是[#ＡＩ圣杯战争:System Grail War]的障碍，[r]是必须被排除的对象。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 4]
+[charaFadein K 0.1 1]
+＠迦摩
+结论下得太慢了吧？[r]明显只有那些家伙一直在兴风作浪。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠拉妮－ⅩⅡ
+ＡＩ管理也是这场圣杯战争的要素之一。[r]只要不是会波及整个世界的行动，
+[k]
+
+＠拉妮－ⅩⅡ
+也能视作一种战略被容许存在[line 3]但中立区域[r]被搅得乱七八糟的无法无天之举实在无法视若无睹。
+[k]
+
+[charaFace F 0]
+＠拉妮－ⅩⅡ
+也就是说，他们打破了底线。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaScale A 1.0]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠难敌
+所以，为什么非得由我们干不可啊。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠拉妮－ⅩⅡ
+毕竟事实上，从者的战斗力[r]只有你们从者才能压制。
+[k]
+
+＠拉妮－ⅩⅡ
+可以说目前全世界的拉妮物质都以你们为中心运转。
+[k]
+
+[charaFace F 1]
+＠拉妮－ⅩⅡ
+我也能理解除了这类规格上的理由，[r]你想问立场上有什么必要性的想法。
+[k]
+
+[charaFace F 0]
+＠拉妮－ⅩⅡ
+因此身为监督官，[r]我为这项作战准备了『报酬』。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaScale D 1.0]
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠莱诺尔
+嚯？　报酬是指？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠拉妮－ⅩⅡ
+我会将自己作为监督官保有的预备令咒分给你们。
+[k]
+
+[charaFace F 5]
+＠拉妮－ⅩⅡ
+不用我提醒，那是专门定制来供[#ＡＩ圣杯战争:System Grail War][r]御主使用的超高压缩拉妮物质。
+[k]
+
+[charaFace F 4]
+＠拉妮－ⅩⅡ
+这将会成为今后战斗中的有利条件吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaScale B 1.0]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠阿愈丝
+哇，这报酬不错！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠希翁
+这……可以解释为会分给在场[r]表明愿意参与的所有人吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠拉妮－ⅩⅡ
+那样一来，说不定会因贡献的不同而滋生出不公平。
+[k]
+
+[charaFace F 0]
+＠拉妮－ⅩⅡ
+完全的公平也许难以实现，[r]但还是拜托[#警防部:Defend]的ＡＩ们观察与记录吧。
+[k]
+
+＠拉妮－ⅩⅡ
+若是不参与合作，独自完成了规定的工作，令咒便归其个人。
+[k]
+
+＠拉妮－ⅩⅡ
+若是分工合作阻止了他们，[r]则分给该队所有成员。
+[k]
+
+[charaFace F 1]
+＠拉妮－ⅩⅡ
+换言之，你们的判断也属于圣杯战争的一环。
+[k]
+
+[charaSet B 1098270310 1 阿愈丝]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠阿愈丝
+我不认为那是能一个人单枪匹马打倒的对象，[r]还是通力合作比较好。
+[k]
+
+？1：我同意！
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaScale H 1.0]
+[charaTalk H]
+[charaFace H 25]
+[charaFadein H 0.1 1]
+＠樱
+我也是……这么想的。
+[k]
+
+＠樱
+附近还有很多[#生产部:Grow]的孩子吧。[r]我不能对她们见死不救。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MAP_101 1.5]
+
+[charaScale I 1.0]
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠怖军
+[#我就免了]。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠难敌
+……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_67 0.1]
+
+[charaTalk I]
+[charaFace I 3]
+[charaFadein I 0.1 1]
+＠怖军
+仔细想了想，[r]我还有其他该做的事。
+[k]
+
+[charaFace I 0]
+＠怖军
+既然凑齐了这么多人，应该犯不着我来出手。[r]你们应该有办法解决吧。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaScale J 1.0]
+[charaTalk J]
+[charaFace J 5]
+[charaFadein J 0.1 1]
+＠塞蕾雪拉
+自作主张地把我带来，就得出这结论？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠怖军
+既然叫我们全体集合，出于礼貌起码得露个脸嘛。[r]不过，听完之后照不照做就另当别论了。
+[k]
+
+＠怖军
+听下来，不做也没有惩罚吧？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠拉妮－ⅩⅡ
+……是的。这是向全员发出的请求，[r]但终究只是请求，并非强制要求。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+＠怖军
+那就无所谓了吧。至于只有我们得不到好处的问题，[r]其实没什么好在意的。
+[k]
+
+＠怖军
+要是只有我们享用美食，就只有我们得到好处。[r]两者没什么差别，算是扯平了。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 8]
+[charaFadein J 0.1 1]
+＠塞蕾雪拉
+你这话真是莫名其妙。[r]不，也不能算，完全不明白啦……
+[k]
+
+[charaFace J 4]
+＠塞蕾雪拉
+……[r]……
+[k]
+
+[charaFace J 0]
+＠塞蕾雪拉
+算了。反正毫无干劲的我们在场也只会碍事，[r]我是这么想的。所以说[line 3]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMove O 25,-210 1.5]
+[charaMove J 250,0 1.5]
+
+[charaFace H 0]
+[charaFadein H 0.8 -500,0]
+[charaMove H -250,0 1.5]
+[wt 2.8]
+
+[charaTalk on]
+[charaFace H 17]
+＠樱
+没关系啦，塞蕾雪拉小姐。
+[k]
+
+＠樱
+正所谓各司其职……[r]我们这边还有大家在。
+[k]
+
+＠樱
+我也很期待你们能做出美味的菜肴。
+[k]
+
+[charaFace H 8]
+＠樱
+等情况稳定下来，请务必让我见识一下[r]我的素材变成了什么样的美食。
+[k]
+
+[charaFace J 3]
+＠塞蕾雪拉
+……嗯……
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.6 1.0]
+[bgm BGM_MAP_67 0.5 0.5]
+[wait wipe]
+
+[charaFadeout O 0.1]
+[charaFadeout J 0.1]
+[charaFadeout H 0.1]
+[wt 0.2]
+
+[subCameraOn 1]
+[charaLayer I sub #A]
+[charaLayer J sub #A]
+[subCameraFilter #A through]
+[subRenderFadein #A 0.1 0,0]
+
+[charaTalk off]
+[charaDepth O 1]
+[charaDepth A 2]
+[charaDepth I 3]
+[charaDepth J 4]
+
+[charaFace A 6]
+[charaFadein A 0.1 1]
+[charaScale O 1.2]
+[charaFadein O 0.1 0,-225]
+[wt 0.4]
+
+[wipein rectangleStripRightToLeft 0.6 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaMoveScale A 0.9 1.5]
+[charaMoveScale O 1.1 1.5]
+[charaMove A 0,-30 1.5]
+[charaMove O 0,-210 1.5]
+[wt 1.2]
+
+[blur lens 1.0 2 10]
+[wt 0.5]
+
+[se ade422]
+[se ad95]
+[charaScale I 1.1]
+[charaScale J 1.1]
+[charaFace I 0]
+[charaFace J 0]
+[charaFadein I 0.6 275,10]
+[charaFadein J 0.6 475,10]
+[charaMove I -325,10 3.5]
+[charaMove J -125,10 3.5]
+
+[charaMove O 70,-210 3.3]
+[charaMove A 50,-30 3.3]
+
+[wt 2.7]
+[seStop ade422 0.8]
+[seStop ad95 0.8]
+[charaFadeout I 0.6]
+[charaFadeout J 0.6]
+[wt 0.6]
+
+[blurOff lens 1.0]
+[wt 2.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_MAP_67 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout O 0.1]
+[charaScale I 1.0]
+[charaScale J 1.0]
+[charaScale A 1.0]
+
+[wt 2.0]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.1]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 3]
+[charaFadein F 0.1 1]
+＠拉妮－ⅩⅡ
+虽然没能凑齐全员，[r]但这个答案也在我的预料范围内。
+[k]
+
+[charaFace F 0]
+＠拉妮－ⅩⅡ
+那接下来，我就将解决事态[r]所需的具体情报告诉你们吧。
+[k]
+
+[charaTalk depthOff]
+[charaDepth F 1]
+[charaDepth U 2]
+
+＠拉妮－ⅩⅡ
+魔[charaFadein U 1.0 -25,-250][charaMove U 25,-250 40.0]术师的超巨大蠢魔恐怕是遵从[r]『朝着期望值上最便于补充拉妮物质的方向前进』
+[k]
+
+＠拉妮－ⅩⅡ
+这样的例行程序。
+[k]
+
+＠拉妮－ⅩⅡ
+只要范围内有ＡＩ，就前往该处。[r]如果没有，就前往可能存在的最近地点。
+[k]
+
+＠拉妮－ⅩⅡ
+如果存在期望值相等的候选地点，[r]则前往目标最为集中的那边[line 3]
+[k]
+
+＠拉妮－ⅩⅡ
+目前所在地是[#警防部:Defend]分区北部，坐标在１０－１４附近。[r]自从出现在[#生产部:Grow]以来，一直在持续南下……
+[k]
+
+[charaFadeout F 0.1]
+＠拉妮－ⅩⅡ
+换言之，对方正向着[#警防部:Defend]的中心前进。[r]也许是打算来这座教会吧。
+[k]
+
+＠拉妮－ⅩⅡ
+之所以进入[#警防部:Defend]，[r]是因为相较于四散而逃的[#生产部:Grow]ＡＩ的密度，
+[k]
+
+＠拉妮－ⅩⅡ
+『没有逃跑的[#警防部:Defend]这边密度更高』吧。
+[k]
+
+[messageOff]
+[charaFadeout U 0.5]
+[wt 0.6]
+
+[charaTalk depthOn]
+[charaTalk H]
+[charaFace H 10]
+[charaFadein H 0.1 1]
+＠樱
+……[r]……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaScale G 1.0]
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+＠美杜莎
+这不是樱的错。[r]没有采取对策的[#警防部:Defend]也有问题。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+＠迦摩
+话说，那玩意的最终目标是这座教会吗？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠拉妮－ⅩⅡ
+既然[#Caster:魔术师]是在感知拉妮物质的量，[r]就无法否定他盯上的是保管于这间教会的……
+[k]
+
+＠拉妮－ⅩⅡ
+预定要交给你们的预备令咒，
+[k]
+
+＠拉妮－ⅩⅡ
+或是用于系统运行的基础拉妮物质的可能性。
+[k]
+
+[charaFace F 1]
+＠拉妮－ⅩⅡ
+倒不如说既然他处于受纯机械性例行程序[r]所支配的失控状态，那这才是正常做法吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠莱诺尔
+也就是说，对方的路线已经大致明确了。
+[k]
+
+[charaFace D 8]
+＠莱诺尔
+哈。既然如此[line 3]该做什么也很明确了。[r]请恕我们先行告辞。
+[k]
+
+[charaSet B 1098270300 1 阿愈丝]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠阿愈丝
+哎！？　你不跟我们一起吗！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaScale D 1.0]
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+＠莱诺尔
+嗯，我设想不到那种未来。[r]你们想怎么办都行。
+[k]
+
+[charaFace D 1]
+＠莱诺尔
+再会啦。[r]走吧，[#Rider:骑兵]。
+[k]
+
+[messageOff]
+[se ad95]
+[charaMove D -50,0 0.4]
+[charaFadeout D 0.4]
+[seStop ad95 1.2]
+[wt 1.6]
+
+[charaScale E 1.0]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠高长恭
+……[r]……
+[k]
+
+[messageOff]
+[se ade422]
+[charaMove E -50,0 0.4]
+[charaFadeout E 0.4]
+[seStop ade422 1.2]
+[wt 1.6]
+
+
+[charaTalk K]
+[charaFace K 24]
+[charaFadein K 0.1 1]
+＠迦摩
+毫无协作能力！
+[k]
+
+[charaFace K 21]
+＠迦摩
+本以为好不容易能轻松点，[r]结果到头来留下来的只有三骑？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+＠难敌
+……奇怪。[r]这也太奇怪了。
+[k]
+
+＠难敌
+比起战斗，那家伙竟然会优先其他事。
+[k]
+
+[charaFace A 10]
+＠难敌
+那个人……真的是怖军吗……？
+[k]
+
+[charaSet B 1098270330 1 阿愈丝]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠阿愈丝
+喂，别发呆啦，[#Berserker:狂战士]！
+[k]
+
+＠阿愈丝
+虽然不知道是怎么回事，[r]但现在只能靠我们自己想办法解决了！
+[k]
+
+[charaFace B 8]
+＠阿愈丝
+得思考该怎么战斗才行……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠希翁
+既然知道了敌人的前进方向，[r]严阵以待应该才是基本做法吧。
+[k]
+
+[charaFace C 10]
+＠希翁
+不过对手已经变得比以往战斗时更为强大了。
+[k]
+
+＠希翁
+所以我们也要找一些不同于以往的利好因素。
+[k]
+
+[charaFace C 8]
+＠希翁
+就目前来说，就是这个问题。
+[k]
+
+＠希翁
+拉妮－ⅩⅡ。既然这是监督官的正式请求，[r]那给我们行个方便才合情合理吧？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠拉妮－ⅩⅡ
+[line 3]受理。
+[k]
+
+[charaFace F 0]
+＠拉妮－ⅩⅡ
+基于我的自由裁量权，给你们提供[r]一定程度的拉妮物质作为预先补给吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠希翁
+很好。
+[k]
+
+＠希翁
+那么不同于先前那几场战斗的点，就在于这资源量，[r]以及坐等对手上门带来的地利。
+[k]
+
+[charaFace C 6]
+＠希翁
+再有[line 3]
+[k]
+
+＠希翁
+就是你了吧，[#Saber:剑士]。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠美杜莎
+……你是要我干活？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 1]
+[charaFadein K 0.1 1]
+＠迦摩
+既然你还留在这里，[r]不就是这个意思吗？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠美杜莎
+……[r]……
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 16]
+[charaFadein H 0.1 1]
+＠樱
+[#Saber:剑士]，我也拜托你了。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 13]
+[charaFadein G 0.1 1]
+＠美杜莎
+……唉。
+[k]
+
+[charaFace G 0]
+＠美杜莎
+确实，这不同于在[#生产部:Grow]战斗那时。
+[k]
+
+＠美杜莎
+周围既没有[#生产部ＡＩ:型号Ｇ]，[r]也不需要在意设备。
+[k]
+
+＠美杜莎
+还能补给充分的[#燃料:拉妮物质]……[r]若想尽情战斗，确实可以做到。
+[k]
+
+＠美杜莎
+不过说实话，我不想让别人见到我认真战斗的样子。
+[k]
+
+＠美杜莎
+没关系吗？　樱。[r]这意味着要对这些家伙亮出我的手牌。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 10]
+[charaFadein H 0.1 1]
+＠樱
+……我觉得，这也没办法。
+[k]
+
+[charaFace H 9]
+＠樱
+无论如何，如果不想办法解决那个[#Caster:魔术师]，[r]我们就回不了[#生产部:Grow]。
+[k]
+
+[charaFace H 0]
+＠樱
+我只想回到我最喜欢的那个地方。[r]像往常一样，和大家一起平静地……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_70 1.5]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 1]
+[wt 1.2]
+
+[charaFace G 13]
+[charaMoveReturn G 0,-7 0.8]
+[wt 1.7]
+
+[bgm BGM_KYOSU_1 0.1]
+
+[charaFace G 0]
+＠美杜莎
+……我知道了。战斗就行了吧。
+[k]
+
+＠美杜莎
+不过，既然我要全力以赴，[r]你们也得卖力干活才行。
+[k]
+
+＠美杜莎
+不准你们像逃跑的那些家伙一样偷懒。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 6]
+[charaFadein K 0.1 1]
+＠迦摩
+我的确很想偷懒，不过也没办法。
+[k]
+
+[charaFace K 13]
+＠迦摩
+毕竟就连我们这边动不动就带头偷懒的[#Berserker:狂战士][r]现在也有点心不在焉。
+[k]
+
+＠迦摩
+需要有人负责踹他屁股让他工作。
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 1]
+＠难敌
+……[r]……
+[k]
+
+[charaSet B 1098270310 1 阿愈丝]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠阿愈丝
+帮忙踹屁股的任务就交给我来吧！[r]万一踢出淤青来，我也会完美治好他的！
+[k]
+
+[charaFace B 3]
+＠阿愈丝
+不过，你有胜算吗，[#Saber:剑士]？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 13]
+[charaFadein G 0.1 1]
+＠美杜莎
+虽说不试试看也不知道结果，
+[k]
+
+＠美杜莎
+但如果不用那么在意战斗的余波[r]给周遭带来破坏的话。
+[k]
+
+[charaFace G 0]
+＠美杜莎
+接下来就看……我这只怪物，与那只蠢魔，
+[k]
+
+＠美杜莎
+哪边能闹得更像怪物而已了吧[line 3]
+[k]
+
+
+
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[bgmStopEnd BGM_KYOSU_1 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

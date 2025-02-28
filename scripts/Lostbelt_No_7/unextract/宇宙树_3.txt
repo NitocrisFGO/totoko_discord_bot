@@ -1,0 +1,271 @@
+
+＄03-00-13-22-3-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 6047001 1 特斯卡特利波卡]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098257500 1 拉斯普京]
+[charaSet D 1098257300 1 达·芬奇]
+[imageSet E cut445_dbt 1]
+
+[sceneSet F 174900 1]
+[sceneSet G 174502 1]
+[sceneSet H 174502 1]
+[sceneSet I 174502 1]
+[imageSet J cut445_dbt 1]
+[imageSet K cut445_dbt 1]
+
+[cameraMove 0.1 0,0 1.01]
+[wt 0.1]
+[scene 174500]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_BATTLE_123 0.1]
+
+[effect bit_talk_kengekiall02]
+[se bac528]
+[wt 0.1]
+[shake 0.03 3 3 0.2]
+[wt 0.2]
+[se ad467]
+[wt 0.1]
+[shake 0.03 3 3 0.3]
+[wt 0.6]
+[se ad686]
+[fowardEffect bit_talk_14]
+[wt 0.1]
+[shake 0.03 3 3 0.4]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,7]
+[charaMove A 0,0 0.4]
+[wt 0.4]
+[se ade401]
+[charaShake A 0.04 2 2 0.3]
+[wt 0.4]
+
+＠特斯卡特利波卡
+呜……！[charaEffect A bit_talk_06 0,-50]
+[k]
+
+？1：成功了……！
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaPut A 1200,1200]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+是我们大获全胜！[r]毕竟有我在，其实也可以说是理所当然的！
+[k]
+
+[messageOff]
+
+？1：这样一来，ORT的复活计划就破产啦！
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaPut A 1200,1200]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+哎？　会变成这样吗！？
+[k]
+
+[subCameraOn]
+[charaLayer F sub]
+[charaLayer C sub]
+[charaScale F 1.0]
+[charaScale C 1.0]
+[charaDepth F 1]
+[charaDepth C 2]
+[subCameraFilter maskEdge cut359_mask11 3 34,58,112,255]
+[charaFadein F 0.1 950,30]
+[charaFace C 5]
+[charaFadein C 0.1 520,185]
+[wt 0.1]
+[charaTalk C]
+[subRenderFadeinFSSideR 0.4 5,-200]
+[subRenderMoveFSSideR -95,-200 0.4]
+[wt 0.4]
+
+＠拉斯普京
+当然会啊，大小姐。[r]所以我不是说了嘛，帮他们就亏大了。
+[k]
+
+＠拉斯普京
+半年来潜伏在南美异闻带的辛苦[r]就这么全部付诸东流了。哈哈哈。
+[k]
+
+[charaFace B 11]
+
+＠U－奥尔加玛丽
+呜……！　呜，呜呜，呜呜呜……！
+[k]
+
+[charaFace B 15]
+
+＠U－奥尔加玛丽
+Good哦，拉斯普京！[r]其实我打从一开始就有此意！
+[k]
+
+[messageOff]
+[charaFadeout B 0.2]
+[subRenderFadeout 0.2]
+[wt 0.2]
+[charaFadeout F 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+[subCameraOff]
+[charaLayer F normal]
+[charaLayer C normal]
+[charaScale F 1.0]
+[charaScale C 1.0]
+
+
+[charaTalk D]
+[charaFace D 17]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+不管怎么说，这下就没有重启ORT的手段了。
+[k]
+
+＠达·芬奇
+无论伊斯卡利还是特斯卡特利波卡，[r]这样都当不成活祭了。
+[k]
+
+＠达·芬奇
+中南美的仪式需要活生生地献上心脏。[r]将『神之心脏』当作引爆装置的计划就此[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠特斯卡特利波卡
+嗯。怀有迷惘的灵魂、受伤的心脏[r]是无法唤醒ORT的。
+[k]
+
+＠特斯卡特利波卡
+就算强行唤醒，也无法下达『[#指令:Order]』。[r]只会导致它随便乱啃几下地球就转身飞走。
+[k]
+
+[bgmStop BGM_BATTLE_123 6.0]
+
+＠特斯卡特利波卡
+我不会付出得不到成果的牺牲。[r]我会干脆地在此消失。
+[k]
+
+[charaFaceFade A 6 0.2]
+
+＠特斯卡特利波卡
+我的方案失败了。[r]接下来就看你的方案了，戴比特。
+[k]
+
+＠特斯卡特利波卡
+一切随你的便。让我们在死者的乐园再会吧。
+[k]
+
+[messageOff]
+[charaSpecialEffect A flashErasure 1 1.7]
+[se ad52]
+[wait charaSpecialEffect A]
+[charaEffectStop A bit_talk_06]
+[wt 1.5]
+
+[se ad311 0]
+[seVolume ad311 1.0 0.6]
+[wt 1.0]
+[seStop ad311 1.0]
+
+？1：哎[line 3]
+？2：（此刻，从我身后传来的脚步声是[line 3]）
+
+？！
+
+
+
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+[wait wipe]
+
+[scene 174502]
+[wt 0.5]
+
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[wait wipe]
+
+[se ad311 0]
+[seVolume ad311 2.0 1.0]
+[wt 2.0]
+
+[charaTalk off]
+[subCameraOn 3]
+[charaLayer G sub #A]
+[charaLayer E sub #A]
+[charaScale G 2.25]
+[charaScale E 2.0]
+[charaDepth G 1]
+[charaDepth E 2]
+[charaLayer H sub #B]
+[charaLayer J sub #B]
+[charaScale H 2.25]
+[charaScale J 2.0]
+[charaDepth H 1]
+[charaDepth J 2]
+[charaLayer I sub #C]
+[charaLayer K sub #C]
+[charaScale I 2.7]
+[charaScale K 2.3]
+[charaDepth I 1]
+[charaDepth K 2]
+
+[subCameraFilter #A through]
+[subCameraFilter #B through]
+[subCameraFilter #C through]
+[charaFace E 0]
+[charaFace J 0]
+[charaFace K 0]
+[charaFadein G 0.1 200,-400]
+[charaFadein E 0.1 225,350]
+[charaFadein H 0.1 -200,-400]
+[charaFadein J 0.1 -200,-200]
+[charaFadein I 0.1 0,-400]
+[charaFadein K 0.1 50,-625]
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+[subRenderDepth #C 3]
+[wt 0.1]
+[subRenderFadein #A 0.5 0,365]
+[subRenderMove #A 0,265 4.4]
+[seStop ad311 7.6]
+[wt 3.15]
+[subRenderFadein #B 0.5 0,125]
+[subRenderMove #B 0,25 4.4]
+[wt 3.15]
+[subRenderFadein #C 0.5 0,-190]
+[subRenderMove #C 0,-260 1.9]
+[wt 4.5]
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

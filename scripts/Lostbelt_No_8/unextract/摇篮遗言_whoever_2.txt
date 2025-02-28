@@ -1,0 +1,334 @@
+
+
+
+＄04-00-02-11-2-1
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098270700 1 拉妮－Ｔ1]
+[charaSet B 1098270730 1 拉妮－Ｔ2]
+[charaSet C 1098270370 1 阿愈丝]
+[charaSet D 6037001 1 迦摩]
+[charaSet E 7046001 1 难敌]
+[charaSet F 1098270000 1 希翁]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+[charaSet T 98115000 1 特效用dummy]
+
+
+[scene 190100]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_64 0.1]
+
+[charaTalk depthOff]
+[charaDepth A 1]
+[charaDepth B 2]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFace B 1]
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 0]
+＠A：拉妮－Ｔ
+飚速王，声名鹊起。
+[k]
+
+[clear]
+[charaFace B 10]
+＠B：拉妮－Ｔ
+如狼似龙……[r]速度快到仿佛能看到这种幻觉，Nice。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠阿愈丝
+习惯了以后，[#转运部:Transfer]孩子们的高速移动还挺舒服呢。[r]要不要找人帮忙做一辆个人用的移动配件呢。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaDepth S 3]
+[charaDepth T 4]
+
+[charaFace A 1]
+[charaFace B 1]
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 0]
+
+[cueSe SE_23 23_ad1304 0 0.8]
+[charaPutFSR S 2]
+[charaPutFSL T 0]
+[charaEffect S bit_talk_raniment01]
+[charaEffect T bit_talk_raniment01]
+[wt 2.5]
+
+[charaMoveFSR S 406,0 0.9]
+[charaMoveFSL T -106,0 0.9]
+[wt 0.3]
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[cueSeVolume 23_ad1304 0.5 0.4]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.3]
+
+[charaPut S -100,0]
+[charaPut T -250,0]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[wt 0.4]
+
+[charaMove S 1 0.6]
+[charaMove T 1 1.5]
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[cueSeVolume 23_ad1304 0.5 0.8]
+[wait wipe]
+[wt 1.1]
+[charaEffectEdgeBlur C FFF9A5 FFF9A5 4 1.5]
+[wt 0.3]
+[cueSeStop 23_ad1304 0.2]
+[cueSe SE_23 23_ad1305 0 0.8]
+[charaEffectStop S bit_talk_raniment01]
+[charaEffectStop T bit_talk_raniment01]
+[wt 0.5]
+[se adm20]
+[wt 2.0]
+[charaEffectEdgeBlurStop C]
+[charaEffectDestroy S bit_talk_raniment01]
+[charaEffectDestroy T bit_talk_raniment01]
+
+[charaFace C 3]
+＠阿愈丝
+是不是太多了？　没关系吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.05]
+[charaPut C 2000,2500]
+[wt 0.05]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFace B 2]
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 0]
+＠A：拉妮－Ｔ
+……Bonus。
+[k]
+
+[clear]
+＠B：拉妮－Ｔ
+我还以为今后会永远当个有去无回的飚速王呢。
+[k]
+
+[charaSet C 1098270310 1 阿愈丝]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠阿愈丝
+……放心吧，我绝对不会[r]再允许自爆这种过分的事发生了。
+[k]
+
+[charaFace C 1]
+＠阿愈丝
+你们就放下心来，像风一样四处奔驰吧！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace A 6]
+[charaFace B 6]
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 0]
+[wt 1.0]
+
+[charaTalk on]
+＠A：拉妮－Ｔ
+放下心了。
+[k]
+
+[clear]
+
+[charaFace B 10]
+
+＠B：拉妮－Ｔ
+那么，为展示这种稳定情况，我希望久违地[r]举办一场竞技大赛，大家意下如何。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠迦摩
+竞技大赛？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFace B 0]
+[charaFadeinFSR A 0.1 2]
+[charaFadeinFSL B 0.1 0]
+＠A：拉妮－Ｔ
+是如风般四处奔驰的我们较量速度的比赛。
+[k]
+
+＠A：拉妮－Ｔ
+希望各位务必以嘉宾的身份出席。
+[k]
+
+[clear]
+[charaFace B 11]
+＠B：拉妮－Ｔ
+顺带一提，由于各ＡＩ之间不存在基础性能差，
+[k]
+
+＠B：拉妮－Ｔ
+参赛者的时间差大概会算到[r]１／１００秒以下。Dead Heat。
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠难敌
+感觉反而毫无意义呢。
+[k]
+
+[charaSet C 1098270300 1 阿愈丝]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠阿愈丝
+那个，脚程最快的果然还是[r][#Berserker:狂战士]吧。[wt 1.0][charaFace C 1]加油哦！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+＠迦摩
+既然你整天宣扬自己有多优秀，[r]脚程肯定也很快吧。虽然我也不清楚啦。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+＠希翁
+需要我用灵线神经帮你增速吗？[r]代价虽然是肌肉撕裂，但这是必要成本。
+[k]
+
+？1：我会替你加油的！
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+＠难敌
+谁会参赛啊～！[r]那些家伙骑摩托，本老爷徒步！
+[k]
+
+[charaFace E 6]
+＠难敌
+本老爷啊，最讨厌的就是明知会输的比赛！
+[k]
+
+[charaFace E 10]
+＠难敌
+不，本老爷也同样讨厌在本以为绝对会赢的[r]比赛中输掉啦。应该说但凡会输都讨厌！
+[k]
+
+[charaFace E 7]
+＠难敌
+相比起参赛……提起[#竞技大赛:竞速]，[r]肯定少不了赌博吧。
+[k]
+
+＠难敌
+这倒是可以参加。[r]不，干脆由本老爷做庄承办整场赌局吧。
+[k]
+
+＠难敌
+无论马位差距有多小，[r]只要做庄就不影响赚钱……呼呵呵……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+＠阿愈丝
+喂，那边的，禁止耍可疑的阴谋诡计！
+[k]
+
+[charaFace C 8]
+＠阿愈丝
+你还真是喜欢赌博呢。[r]想必以前一定赢了一大笔吧。
+[k]
+
+？1：（其实那次是出了老千。）
+？！
+
+[charaFace C 0]
+＠阿愈丝
+总之，我们会去观看竞技大赛并给你们加油的。[r]那我们先前往下一个地方吧！
+[k]
+
+
+
+[messageOff]
+[wt 0.5]
+[fadeout black 2.0]
+[bgmStopEnd BGM_EVENT_64 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

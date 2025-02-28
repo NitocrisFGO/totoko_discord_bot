@@ -1,0 +1,404 @@
+
+
+＄03-00-13-14-4-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098256300 1 骸骨兵]
+[charaSet B 1098256300 1 骸骨兵]
+[charaSet C 1098256300 1 骸骨兵]
+[charaSet D 1098256300 1 骸骨兵]
+[charaSet E 1098256300 1 骸骨兵]
+[charaSet F 1098256300 1 骸骨兵]
+[charaSet G 1098253040 1 卡玛佐茨]
+[charaSet H 1098255300 1 尼托克丽丝]
+[charaSet I 1098252940 1 特佩乌]
+[charaSet J 8001400 1 玛修]
+
+[sceneSet O 175700 1]
+
+[charaSet T 98115000 1 特效用dummy]
+
+
+[scene 173800]
+
+[bgm BGM_BATTLE_137 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk J]
+[charaFace J 7]
+[charaFadein J 0.1 1]
+[wt 0.3]
+
+[se ad7]
+[seVolume ad7 0 0.6]
+[se ad1006]
+[seVolume ad1006 0 0.6]
+[charaFace J 2]
+[charaMoveScale J 1.15 0.3]
+[charaMove J 0,36 0.3]
+[blur motion 0.3 4 100 0.5 0.6 0.03 100]
+[charaFadeout J 0.3]
+[se ad85]
+[effect bit_talk_v_slash01]
+[wt 0.35]
+[blurOff motion 0.1]
+[wt 0.25]
+
+[cueSe Servants_800101 bac690]
+[fowardEffect bit_talk_14]
+[wt 0.1]
+[effectDestroy bit_talk_v_slash01]
+[charaTalk off]
+[charaDepth A 7]
+[charaDepth B 6]
+[charaDepth C 5]
+[charaDepth D 4]
+[charaDepth E 3]
+
+[charaFace A 0]
+[charaFace B 0]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadein A 0 1]
+[charaFadeinFSR B 0 150,0]
+[charaFadeinFSL C 0 -150,0]
+[charaFadeinFSSideR D 0 350,0]
+[charaFadeinFSSideL E 0 -350,0]
+[charaShake A 0.02 3 4 0.6]
+[charaShake B 0.03 2 4 0.5]
+[charaShake C 0.03 3 2 0.6]
+[charaShake D 0.02 4 2 0.6]
+[charaShake E 0.02 3 3 0.5]
+[wt 1.0]
+
+[charaMove A 0,-50 0.4]
+[charaFadeout A 0.4]
+[wt 0.05]
+[charaMoveFSSideR D 350,-50 0.4]
+[charaFadeout D 0.4]
+[wt 0.1]
+[charaMoveFSL C -150,-50 0.4]
+[charaMoveFSSideL E -350,-50 0.4]
+[charaFadeout C 0.4]
+[charaFadeout E 0.4]
+[wt 0.05]
+[charaMoveFSR B 150,-50 0.4]
+[charaFadeout B 0.4]
+[wt 0.2]
+[se ad804]
+[seVolume ad804 0 0.8]
+[se ad144]
+[wt 0.2]
+[se ad144]
+[wt 1.3]
+
+
+
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.1 1]
+＠卡玛佐茨
+[line 3]这是怎么回事。[r]这究竟是怎么回事。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+＠尼托克丽丝
+这代表胜负已分，中南美的魔神。[r]聚集在这座废墟的死灵已经云消雾散。
+[k]
+
+＠尼托克丽丝
+你能操控的棋子，已经一个都不剩了。
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+[wt 0.2]
+
+[cueSe SE_22 22_ad1211]
+[charaCrossFade G 1098253000 5 0.5]
+[wait charaCrossFade G]
+[wt 0.9]
+
+[charaFaceFade G 6 0.2]
+＠卡玛佐茨
+[line 3]卡玛佐茨问的是，这究竟是怎么回事！
+[k]
+
+[messageOff]
+[se ade216]
+[wt 0.4]
+
+[cueSe SE_22 22_ad1212]
+[charaMoveScale G 1.25 0.2]
+[charaMove G 0,40 0.2]
+[blur motion 0.2 4 100 0.5 0.6 0.03 100]
+[charaFadeout G 0.2]
+[wt 0.2]
+
+[wipeout circleIn 0.4 1.0]
+[bgm BGM_BATTLE_137 0.6 0.5]
+[wait wipe]
+
+[blurOff motion 0.1]
+
+[scene 10000]
+[wt 0.1]
+[cueSe Servants_105500 m51510]
+[wt 0.1]
+
+[wipein circleIn 0.1]
+[wait wipe]
+
+[effect bit_talk_v_slash01 -100,0]
+[effect bit_talk_v_slash01 0,0]
+[effect bit_talk_v_slash01 100,0]
+[effect bit_talk_v_slash01 -200,0]
+[se ad85]
+[se ad171]
+[cueSe Servants_105500 m51511]
+[wt 1.0]
+
+[se ade33]
+[se ad421]
+[fadeout black 0.2]
+[wait fade]
+
+[scene 175700]
+[wt 1.0]
+
+[charaScale O 1.2]
+[charaFadein O 0.1 100,-225]
+
+[se ad787]
+[charaMove O -100,-225 5.0]
+[bgm BGM_BATTLE_137 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+[wt 3.0]
+
+[charaFadeout O 1.0]
+[wt 1.6]
+
+？1：尼托克丽丝！？
+？2：卡玛佐茨……！
+
+？！
+
+
+＠卡玛佐茨
+不许动。[r]只要胆敢动一下，我的镰刀便会纵向劈开这女人。
+[k]
+
+[messageOff]
+[se ad532]
+[wt 0.7]
+
+[cueSe SE_21 21_ad1101]
+[shake 0.01 1 1 0.4]
+[wt 1.4]
+
+＠尼托克丽丝
+呜……！[r]（这是何等速度……竟然比眨眼的瞬间还快……！）
+[k]
+
+＠卡玛佐茨
+来吧，回答我，女人。[r]刚才那是怎么回事。是基于什么原理做到的？
+[k]
+
+＠尼托克丽丝
+呜……是指让你的使魔回归尘土吗……？[r]当然是用死灵驱逐死灵[line 3]
+[k]
+
+＠卡玛佐茨
+不对不对不对不对！[r]是士兵！　是你率领的士兵！
+[k]
+
+＠卡玛佐茨
+那群白色的亡者[line 3][r]难道你将那群亡者当作臣民对待？
+[k]
+
+＠卡玛佐茨
+将那些已死之人！　将丧失了怀梦灵魂之人！[r]你这家伙，难不成[line 3]
+[k]
+
+[bgmStop BGM_BATTLE_137 1.5]
+
+＠卡玛佐茨
+[#还记得那群亡者]，[r][#还记得他们所有人的名字吗]？
+[k]
+
+＠尼托克丽丝
+[line 3]哈？
+[k]
+
+＠卡玛佐茨
+我是在问你，你是不是每一个名字都[#想得起来]！
+[k]
+
+＠卡玛佐茨
+是不是每次召唤时，都会回想起[r]那些已死之人的名字与记录并加以使役！
+[k]
+
+[bgm BGM_BATTLE_178 0.1]
+
+＠尼托克丽丝
+[line 3]那当然。[r]他们是效忠法老的臣民。
+[k]
+
+＠尼托克丽丝
+纵是已逝之人，也要尊重他们的英名。
+[k]
+
+＠尼托克丽丝
+我这种不成熟的法老之所以能作为英灵存在，[r]正是因为与他们的痛楚同在。
+[k]
+
+＠卡玛佐茨
+[line 3]嘎。[wt 0.6][r]嘎[messageShake 0.05 4 3 0.6]啊啊，嘎啊啊啊啊啊啊啊啊！
+[k]
+
+[messageOff]
+[se ad977]
+[se ade216]
+[wt 0.1]
+[wipeout rectangleStripUpToDown 0.4 1.0]
+[bgm BGM_BATTLE_178 0.4 0.5]
+[wait wipe]
+
+[cueSe SE_22 22_ad1212]
+
+[scene 170300]
+[wt 0.65]
+
+[bgm BGM_BATTLE_178 0.4 1.0]
+[wipein rectangleStripDownToUp 0.4 1.0]
+[wait wipe]
+[wt 0.25]
+
+[cueSe Servants_404400 m45219]
+
+[charaPut T 1]
+[charaEffect T bit_talk_quickmove 0,0 V]
+[wt 0.1]
+[charaPut G 0,-10]
+[charaFace G 14]
+[charaSpecialEffect G appearance 0,0 0.2]
+[wait charaSpecialEffect G]
+[charaMove G 0,0 0.2]
+[wt 0.3]
+
+＠卡玛佐茨
+令人反胃，令人反胃！[r]啊，好痒好痒好痒好痒！
+[k]
+
+＠卡玛佐茨
+忍不了，我忍不了了！
+[k]
+
+＠卡玛佐茨
+真是最糟的一天，最低劣的女人，[r]那是什么令人恼火的耳朵，害我全身寒毛都倒竖似针！
+[k]
+
+[charaFaceFade G 10 0.2]
+＠卡玛佐茨
+我要去[#第四冥界:亚亚乌基]泡温泉疗养！[r]夜之源泉的话，应该就能抚平这种恶寒了吧！
+[k]
+
+[messageOff]
+[bgmStop BGM_BATTLE_178 1.5]
+[se ade216]
+[wt 0.1]
+[cueSe SE_21 21_ad1078]
+[charaDepth T 8]
+[charaDepth G 6]
+[charaPut T 1]
+[charaEffect T bit_talk_quickmove]
+[charaSpecialEffect G erasureReverse 0,0 0.3]
+[wt 0.5]
+[seStop 21_ad1078 0.7]
+[wt 1.0]
+[wait charaSpecialEffect G]
+
+[wt 1.4]
+
+[wipeout rectangleStripDownToUp 0.5 1.0]
+[wait wipe]
+
+[scene 173800]
+[wt 0.6]
+
+[wipein rectangleStripUpToDown 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk H]
+[charaFace H 13]
+[charaFadein H 0.1 1]
+＠尼托克丽丝
+……总觉得被劈头盖脸地说了一通[r]相当不敬的话……
+[k]
+
+＠尼托克丽丝
+这样应该算击退他了吧？[r]虽然没有对他发动任何攻击……
+[k]
+
+？1：嗯，算是吧……
+？2：姑且应该算赢了吧……
+
+？！
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk I]
+[charaFace I 4]
+[charaFadein I 0.1 1]
+＠特佩乌
+没错，是各位获胜了。[r]而且我也得救了，非常感谢。
+[k]
+
+＠特佩乌
+尼托克丽丝，你战胜了迄今为止[r]没有任何人能击退的卡玛佐茨。
+[k]
+
+＠特佩乌
+肯定会为此举办庆典庆祝的。[r]请抬头挺胸地返回奇琴伊察吧。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 3]
+[charaFadein H 0.1 1]
+＠尼托克丽丝
+哦，庆典啊……[wt 0.7][charaFace H 4][r]唔，什么？
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_77 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

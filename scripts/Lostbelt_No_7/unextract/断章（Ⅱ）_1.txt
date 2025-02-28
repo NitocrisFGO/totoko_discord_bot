@@ -1,0 +1,841 @@
+
+
+
+＄03-00-13-13-1-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098259200 1 特斯卡特利波卡]
+[charaSet B 1098124340 1 戴比特]
+[charaSet C 8001400 1 玛修]
+[charaSet D 1098253200 1 U－奥尔加玛丽]
+[charaSet E 1098253800 1 瓦克昌]
+
+[charaSet F 1098258200 1 路过的迪诺斯们]
+[charaFilter F silhouette 00000080]
+[charaSet G 1098258000 1 路过的迪诺斯们]
+[charaFilter G silhouette 00000080]
+[charaSet H 1098256800 1 路过的迪诺斯们]
+[charaFilter H silhouette 00000080]
+[sceneSet O 169800 1]
+[sceneSet P 170301 1]
+[sceneSet Q 170301 1]
+[sceneSet R 169800 1]
+[charaSet S 98115000 1 特效用dummy]
+
+[masterBranch _Male _Female]
+[label _Male]
+
+[charaSet I 1098259420 1 主人公_第二部立绘_新表情（男）]
+[branch _branchEnd]
+[label _Female]
+[charaSet I 1098259430 1 主人公_第二部立绘_新表情（女）]
+[branch _branchEnd]
+[label _branchEnd]
+
+[charaPut S 2000,2500]
+[charaEffect S bit_talk_noise_gr]
+
+[pictureFrame cut063_cinema]
+
+
+[cameraFilter gray]
+
+[scene 170500]
+
+[bgm BGM_EVENT_142 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+＠特斯卡特利波卡
+哟，总统小姑娘。[r]好久不见啊，你是来报仇雪恨的吗？
+[k]
+
+＠特斯卡特利波卡
+不过真令人惊讶，在那种状态下还能活下来啊。[r][#不愧是自称为神的]。
+[k]
+
+[messageOff]
+[wt 0.05]
+
+[charaDepth S 9]
+[charaDepth A 5]
+
+[se ad31]
+[wt 0.05]
+[shake 0.05 1 1 0.25]
+[charaPut S 1]
+[wt 0.25]
+[seStop ad31 0.1]
+[wt 0.1]
+
+[charaPut S 2000,2500]
+[wt 0.3]
+
+[se ad31]
+[wt 0.05]
+[shake 0.05 3 3 1.0]
+[charaPut S 1]
+[wt 1.0]
+
+[wipeout noise 1.0 1.0]
+[bgm BGM_EVENT_142 1.0 0.5]
+[seStop ad31 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_noise_gr]
+
+[scene 10000]
+[wt 0.2]
+[wipein noise 0.1 1.0]
+[wait wipe]
+
+[fadeout black 0.1]
+[wait fade]
+
+[scene 170503]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+[wt 1.5]
+
+[bgm BGM_EVENT_142 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+＠戴比特
+你们三个都活下来了吗？虽说是预支了未来，[r]但没想到彼此会在[#地球:星球]终结的瞬间对峙，命运还真是坎坷。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 0,-50]
+＠玛修
+……这就是您的目的吗，戴比特先生。
+[k]
+
+＠玛修
+基尔什塔利亚先生违背了『异星之神』的意图，[r]使用空想树来追求人类的进化。
+[k]
+
+＠玛修
+但是您……却打算彻底毁灭人类。[r]这……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 0,-50]
+＠[%1]
+跟试图消除人类史的『异星之神』没什么区别。
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 29]
+[charaFadein D 0.1 0,-50]
+[wt 1.5]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_142 1.0 0.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+[cameraFilter normal]
+
+[scene 10000]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+＠
+我失去了自我。
+[k]
+
+＠
+被那名从者害得一度『死亡』之后，
+[k]
+
+＠
+为了减轻重新启动时的负担，[r]暂时将自身初始化了。
+[k]
+
+＠
+在洞窟中苏醒过来的我所记得的，[r]只有自身的存在理由、自己的名称，
+[k]
+
+＠
+以及恐怕是通过外置记忆设备的影像记录[r]学习到的信息。
+[k]
+
+＠
+『要整顿愚蠢的人类，拯救这颗行星。』[r]『自己是名为U－奥尔加玛丽的外星人。』
+[k]
+
+＠
+只有这两件事。虽说已经死亡，但真不愧是我。[r]这两件事很简单，不可能搞错。
+[k]
+
+＠
+然而，也许是因为初始化了吧。
+[k]
+
+＠
+使我得以成为我的装饰的脱落，[r]导致某个部位暴露了出来。
+[k]
+
+＠
+[line 3]感情的自由化。[r]　　　即为，判断能力降低。
+[k]
+
+＠
+不再优先于被赋予的[#使命:Order]，[r]而是优先于自己的判断。
+[k]
+
+＠
+其结果，[r]令我喜欢上了令自己感觉到『好』的行动。
+[k]
+
+＠
+虽然真的无法解析为何会产生这种感觉，[r]但与那两个人……
+[k]
+
+＠
+与[%1]和玛修一同[r]前往奇琴伊察的旅程，非常充实。
+[k]
+
+＠
+我对名为迦勒底的组织也很感兴趣。[r]当我提出要协助他们时，兴奋剂在大脑中扩散。
+[k]
+
+＠
+视而不见我这外星人与[r]他们那些地球人的差异。
+[k]
+
+＠
+总感觉，只要保持这样，敷衍了事，[r]就能顺利地相处下去。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_142 1.5]
+[wt 1.0]
+
+＠
+　[r][r][align right]分明连自己是谁都不知道。[align]
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+
+[scene 170301]
+[wt 1.3]
+
+[cueSe SE_22 22_ad1219]
+[seVolume 22_ad1219 0 0]
+[wt 0.2]
+[cueSe SE_21 21_ade580]
+[seVolume 21_ade580 0 0]
+
+[seVolume 21_ade580 1.5 0.8]
+[seVolume 22_ad1219 1.5 0.6]
+[fadein black 1.5]
+[wait fade]
+[wt 1.5]
+
+
+[fadeout black 1.0]
+[seStop 21_ade580 1.0]
+[cueSeStop 22_ad1219 1.0]
+[wait fade]
+
+[subCameraOn 1]
+[scene 173101]
+[charaScale O 1.2]
+[charaLayer O sub #A]
+[subCameraFilter #A maskEdge cut359_mask06 3 0,0,0,0 0]
+[charaFadein O 0.1 -100,80]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[wt 0.8]
+
+[subRenderFadein #A 1.0 -50,-350]
+[subRenderMove #A 0,-350 1.0]
+[wt 1.0]
+
+＠瓦克昌
+到来啦……[r]这一刻终于来啦！
+[k]
+
+＠瓦克昌
+与艳压群芳的美女一同欣赏[r]奇琴伊察最美丽的风景！
+[k]
+
+＠U－奥尔加玛丽
+[line 6]
+[k]
+
+[bgm BGM_EVENT_116 0.1]
+
+＠
+哑口无言。
+[k]
+
+＠
+斗士职迪诺斯，瓦克昌花了一天时间[r]带我逛遍城里，最后的驻足之处，
+[k]
+
+＠
+既不是华丽的集会所，[r]也不是喧闹的竞技场，
+[k]
+
+[messageOff]
+[wt 1.5]
+
+＠
+只是可以平静地一览整座城市，[r]无比安稳、平凡的风景。
+[k]
+
+[messageOff]
+[subRenderFadeout #A 1.0]
+[wt 1.0]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+
+＠瓦克昌
+很漂亮吧？　太阳的光照固然不错，[r]但这里的照明也很棒吧。
+[k]
+
+＠瓦克昌
+篝火是用来驱散黑暗的火焰，[r]虽说没有太阳的夜晚本该休息。
+[k]
+
+[charaFace E 1]
+＠瓦克昌
+但我很喜欢那些被火光照映出来的迪诺斯之影哦。[r]喜欢它们映在墙壁上的模样。
+[k]
+
+＠瓦克昌
+不同于在树海里『活着』的感觉，[r]该怎么说呢，有种『生活着』的感觉吧？
+[k]
+
+＠瓦克昌
+仿佛在原本空无一物的地方，[r]留下了我们存在过的[#证明:印记]。
+[k]
+
+[charaFace E 3]
+＠瓦克昌
+其实只是些影子罢了。不过一看到同样的影子，[r]我就会回想起以前还活着的老爹。
+[k]
+
+[messageOff]
+[charaFadeout E 0.2]
+[wt 0.5]
+＠
+我并没有指出，[r]那就是所谓的面影。
+[k]
+
+＠
+不过，我切实感受、深刻体会，并理解了。
+[k]
+
+＠
+这里是个安稳的世界。
+[k]
+
+＠
+迪诺斯的社会是人型人类无法相提并论的，[r]完美的理想社会。
+[k]
+
+＠
+身为迪诺斯中最强斗士的他[r]认为『最棒』并引以为傲的地方，
+[k]
+
+＠
+并非鼓舞自身斗志的地方，[r]而是这平静的生活场景，就证明了这一点。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_116 2.0]
+[charaTalk D]
+[charaFace D 32]
+[charaFadein D 0.2 0,-50]
+[wt 0.6]
+
+＠U－奥尔加玛丽
+……，[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0,-50]
+
+＠瓦克昌
+奥，奥尔加！？[r]怎么了，是撞到哪里了吗！？
+[k]
+
+＠瓦克昌
+很痛吗！？　但你身上没有伤啊！？
+[k]
+
+＠
+[charaTalk S]
+这是我所追求，在我变成这样以前就怀揣于心，[r]坚信就该如此的世界。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth E 2]
+[charaDepth R 3]
+
+[charaScale R 1.2]
+[charaFadein R 1.0 25,-300]
+[charaMove R -25,-300 20.0]
+[wt 1.0]
+[bgm BGM_EVENT_110 0.1]
+＠
+然而，我却抗拒着这片风景。
+[k]
+
+[charaFadeout E 0.1]
+
+＠
+明明是如此美妙的世界，[r]我却很清楚，[#自己的容身之处并非此地]。
+[k]
+
+＠
+只要我依旧是[#现在的]我，[r]就是站在燃烧这片风景那方的生命体。
+[k]
+
+[messageOff]
+[charaFadeout R 1.0]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 32]
+[charaFadein D 0.2 0,-50]
+
+[wt 0.5]
+＠U－奥尔加玛丽
+[line 3]不对。[r]不对……不对……不，对[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFadein E 0.1 0,-50]
+
+＠瓦克昌
+什什，什么不对？[r]外貌或形状吗！？
+[k]
+
+[charaFaceFade E 3 0.2]
+＠瓦克昌
+虽然奥尔加确实跟我们，[r]还有[%1]他们都不一样啦……
+[k]
+
+[charaFaceFade E 6 0.2]
+＠瓦克昌
+但我并不在意哦！[r]重要的是内在。是心灵色彩之美！
+[k]
+
+＠瓦克昌
+奥尔加的色彩跟我小时候[r]在天文台见到的星星一模一样。
+[k]
+
+[charaFace E 7]
+＠瓦克昌
+刺刺的，七彩缤纷的，[r]对了，该怎么说呢，[#跟任何人的形态都不一样]！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 19]
+[charaFadein D 0.1 0,-50]
+
+＠U－奥尔加玛丽
+呜[messageShake 0.05 4 3 0.3][line 3]！
+[k]
+
+＠
+[charaTalk S]
+判断能力在降低，[r]正以感情为优先。所以，
+[k]
+
+[charaFace D 7]
+＠U－奥尔加玛丽
+[line 3]给我滚！[r]我受够了！　快从我眼前消失！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 0,-50]
+＠瓦克昌
+奥，奥尔加……？[r]干什么啦，怎么生这么大的气[line 2]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 0,-50]
+＠U－奥尔加玛丽
+我从一开始就很讨厌蜥蜴！[r]看到的瞬间就会作呕！
+[k]
+
+＠U－奥尔加玛丽
+什么人类啊，厚颜无耻！　像你们这样丑陋、[r]愚钝的生物怎么可能是人类……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 0,-50]
+＠瓦克昌
+[line 6]
+[k]
+
+[messageOff]
+[charaFadeout E 0.5]
+[wt 0.5]
+
+＠
+单纯用话语拒绝了他。
+[k]
+
+＠
+原本那么自由、高大、天真无邪的他，[r]像是瞬间萎缩成了小型迪诺斯一样，
+[k]
+
+＠
+拖着沉重的脚步，寂寞地离去了。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[bgmStop BGM_EVENT_110 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout R 0.1]
+[wt 0.5]
+
+[subCameraOff]
+[charaLayer O normal]
+
+[scene 170301]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+[wt 1.2]
+
+[scene 170300 1.5]
+[wt 2.8]
+
+[scene 170302 1.5]
+[wt 2.8]
+
+[scene 170301 1.5]
+[wt 2.7]
+
+[fadeout black 1.5]
+[wait fade]
+
+[scene 169501]
+[wt 1.0]
+
+[sceneSet O 169501 1]
+[charaScale O 1.2]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.5]
+
+[bgm BGM_EVENT_75 0.1]
+
+＠
+对自己的厌恶令我头晕目眩。[r]对瓦克昌的歉意令我机能下降。
+[k]
+
+＠
+那不过是在迁怒罢了。[r]看来我攻击性很强，性情很急躁，却唯独缺乏勇气。
+[k]
+
+＠
+当时，既没能叫住瓦克昌，[r]也没能向他道歉，
+[k]
+
+＠
+更没有勇气加入大家的对话，[r]今晚也像这样，漫无目的地移动着。
+[k]
+
+[charaTalk D]
+[charaFace D 31]
+[charaFadein D 0.2 0,-50]
+
+＠U－奥尔加玛丽
+……但是……
+[k]
+
+[charaFadeout D 0.2]
+[wt 0.1]
+
+＠
+我不知道，自己该如何是好。
+[k]
+
+＠
+虽然我将记忆初始化了，那也只是暂时的。[r][#遗忘的事]，[#只要一看到]，[#便会回想起来]。
+[k]
+
+＠
+所以[line 3][r]当我看到那个特斯卡特利波卡时，就想起来了。
+[k]
+
+＠
+想起了我被那家伙杀害的事。[r]以及，当时我被称作『异星之神』的事。
+[k]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.2 0,-50]
+＠U－奥尔加玛丽
+……我就是……『异星之神』……[r]迦勒底的……敌人……
+[k]
+
+[charaFadeout D 0.2]
+[wt 0.1]
+
+＠
+看来我虽然对自己『人类之敌』的身份引以为傲，[r]却不愿意去思考自己是『迦勒底的敌人』。
+[k]
+
+＠
+……现在，很难返回特佩乌家。[r]若不整理好自己的感情，就没法回去。
+[k]
+
+[messageOff]
+
+[charaTalk off]
+[charaDepth O 1]
+[charaDepth F 2]
+[charaDepth G 3]
+[charaDepth H 4]
+
+[charaFadein O 1.0 80,-250]
+[charaMove O 120,-250 1.5]
+[wt 2.0]
+
+[charaScale F 0.7]
+[charaFace F 0]
+[charaFace G 0]
+[charaFace H 0]
+[charaFadeinFSR F 0.5 -150,-200]
+[charaFadeinFSL G 0.5 -450,-20]
+[charaFadeinFSR H 0.5 450,-50]
+[wt 0.7]
+＠F：路过的迪诺斯们
+哎呀。[r]太阳不知不觉就过去了，真是受不了。
+[k]
+
+[charaMoveReturnFSR H 450,-60 0.6]
+＠[FFFFFF]路过的迪诺斯们[-]
+泛人类史的故事很有趣吧。[r]还想再多听一些异闻带的故事吧。
+[k]
+
+[charaMoveReturnFSR F -150,-205 0.3]
+＠H：路过的迪诺斯们
+真想去希腊看看呢！[wt 0.3][charaMoveReturnFSR F -150,-205 0.3]
+[k]
+
+＠H：路过的迪诺斯们
+听说那里像Storm Border那样的机器堆积如山，[r]令人按捺不住兴奋之情呢！
+[k]
+
+[messageOff]
+[charaFadeout F 0.5]
+[charaFadeout G 0.5]
+[charaFadeout H 0.5]
+[charaFadeout O 0.5]
+[wt 1.0]
+
+＠
+大街上都在讨论迦勒底的事。
+[k]
+
+＠
+据说[%1]会在祭祀场讲述异闻带的故事。
+[k]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 17]
+[charaFadein D 0.2 0,-50]
+＠U－奥尔加玛丽
+……还讲什么异闻带的故事。[r]这样一来，岂不是[line 3]
+[k]
+
+[charaFadeout D 0.2]
+[wt 0.1]
+
+＠
+会让越来越多的迪诺斯知道，[r]这些事都是谁干的。
+[k]
+
+＠
+……[%1]和玛修是不是不知道。
+[k]
+
+＠
+不知道我就是『异星之神』。
+[k]
+
+＠
+不，不可能知道。[r]如果知道的话，是不可能允许我同行的。
+[k]
+
+＠
+[%1][&他们:她们]不知道。[r][%1][&他们:她们]不知道。
+[k]
+
+＠
+[&他们:她们]，不可以知道。
+[k]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.2 0,-50]
+＠U－奥尔加玛丽
+……既不是迪诺斯，也不是人类。[r]我没有容身之处……
+[k]
+
+[messageOff]
+
+[charaTalk off]
+[charaDepth D 1]
+[charaDepth O 2]
+[charaDepth F 3]
+[charaDepth G 4]
+[charaDepth H 5]
+
+[charaFadein O 1.0 120,-250]
+
+[charaFace F 0]
+[charaFace G 0]
+[charaFace H 0]
+[charaFadeinFSR F 1.0 -150,-200]
+[charaFadeinFSL G 1.0 -450,-20]
+[charaFadeinFSR H 1.0 450,-50]
+[wt 1.2]
+＠路过的迪诺斯们
+不过，这是为什么呢。[r]虽然还想听更多、更多的故事。
+[k]
+
+[charaFace D 1]
+[charaMoveReturnFSR F -150,-207 0.4]
+＠[FFFFFF]路过的迪诺斯们[-]
+嗯，是啊。[r]泛人类史的故事很有趣，却也令人感到悲伤呢。
+[k]
+
+[messageOff]
+[charaFadeout O 0.5]
+[charaFadeout F 0.5]
+[charaFadeout G 0.5]
+[charaFadeout H 0.5]
+[wt 1.0]
+
+[charaTalk on]
+＠U－奥尔加玛丽
+…………
+[k]
+
+[charaFadeout D 0.2]
+[wt 0.1]
+
+＠
+有趣，但也很悲伤。
+[k]
+
+＠
+这是自然。因为，无论如何，[r]我们都无法跻身其中。
+[k]
+
+[charaTalk D]
+[charaFace D 31]
+[charaFadein D 0.2 0,-50]
+＠U－奥尔加玛丽
+………………
+[k]
+
+[charaFadeout D 0.2]
+[wt 0.1]
+
+＠
+够了。放弃思考，忘记自己就是[r]被称作『异星之神』的个体，
+[k]
+
+＠
+变回前往墨西哥城之前的『我』吧。[r]正当我如此自暴自弃的时候，
+[k]
+
+[bgmStop BGM_EVENT_75 1.5]
+
+＠[%1]
+啊，找到了！　喂～！
+[k]
+
+＠
+看到了发现了我，朝我挥着手跑过来的，[r][%1]的身影。
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,986 @@
+
+
+
+＄04-00-02-05-3-1
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098269800 1 Caster的御主]
+[charaSet B 1098269600 1 Caster]
+[charaSet C 1098269700 1 蓝胡子2]
+[charaSet D 1098268900 1 樱]
+[charaSet E 1098267110 1 Saber]
+[charaSet F 1098270300 1 阿愈丝]
+[charaSet G 7046001 1 难敌]
+[charaSet H 1098270000 1 希翁]
+[charaSet I 1098270000 1 希翁2]
+[charaSet J 1098270200 1 迦摩]
+[charaSet K 98026000 1 佐尔根]
+[charaSet L 1098271000 1 蠢魔1]
+[charaSet M 1098271000 1 蠢魔2]
+
+[sceneSet N 10000 1]
+[charaScale N 1.05]
+[sceneSet O 190300 1]
+[charaScale O 1.2]
+[sceneSet P 190300 1]
+[charaScale P 1.2]
+[sceneSet Q 191500 1]
+[charaScale Q 1.5]
+[sceneSet R 191500 1]
+[charaScale R 1.5]
+[sceneSet S 191500 1]
+[charaScale S 1.2]
+[charaSet T 5009000 1 特效用1]
+
+[scene 190300]
+
+[bgm BGM_BATTLE_107 0.1]
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth L 1]
+[charaDepth M 2]
+[charaDepth T 3]
+
+[charaFace G 5]
+[charaFadein G 0.1 1]
+[wt 0.3]
+
+[se ad158]
+[se ad1006]
+[seVolume ad1006 0 0.8]
+[charaPut T 1]
+[charaEffect T bit_talk_42 0,0 H]
+[charaMove G -200,0 0.2]
+[charaFadeout G 0.2]
+[wt 0.5]
+[seStop ad158 0.1]
+[charaPut T 2000,2000]
+[charaEffectStop T bit_talk_42]
+
+[charaFace L 0]
+[charaFace M 0]
+[charaFadeinFSR L 0.1 2]
+[charaFadeinFSL M 0.1 0]
+[wt 0.1]
+
+[se ad237]
+[wt 0.1]
+[effect bit_talk_strike_02]
+[wt 0.3]
+[seStop ad237 0.4]
+[cueSe Battle bac10]
+[cueSe Battle bac151]
+[charaEffect L bit_talk_blow02]
+[charaEffect M bit_talk_blow02]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaShake L 0.02 3 4 0.6]
+[charaShake M 0.03 4 2 0.6]
+[wt 0.6]
+
+[se ad42]
+[charaSpecialEffect L enemyErasure 0,0 1.0]
+[charaSpecialEffect M enemyErasure 0,0 1.0]
+[wait charaSpecialEffect L]
+[wt 0.8]
+
+[charaFace J 4]
+[charaFadein J 0.1 1]
+[wt 0.3]
+
+[se ad73]
+[charaEffect J bit_talk_quickmove]
+[charaSpecialEffect J erasureReverse 1 0.3]
+[wt 0.7]
+
+[charaFace L 0]
+[charaFace M 0]
+[charaFadeinFSR L 0.1 2]
+[charaFadeinFSL M 0.1 0]
+[wt 0.1]
+
+[se ade440]
+[cameraMove 0.3 -40,-20 1.1]
+[wt 0.2]
+[charaEffect L bit_shot_01]
+[wt 0.3]
+[charaEffect L bit_talk_13]
+[charaShake L 0.02 3 4 0.6]
+[wt 0.3]
+[se ade440]
+[cameraMove 0.3 40,-40 1.2]
+[wt 0.2]
+[charaEffect M bit_shot_01]
+[wt 0.3]
+[charaEffect M bit_talk_13]
+[charaShake M 0.03 4 2 0.6]
+[wt 0.6]
+
+[se ad42]
+[charaSpecialEffect L enemyErasure 0,0 1.0]
+[charaSpecialEffect M enemyErasure 0,0 1.0]
+[wait charaSpecialEffect L]
+[wt 1.5]
+
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+[bgm BGM_BATTLE_107 1.0 0.4]
+[wait wipe]
+
+[cameraHome 0.1]
+[wt 1.0]
+
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[wait wipe]
+
+[bgm BGM_BATTLE_107 1.5 0.7]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+[wt 0.1]
+[se ad852]
+[seVolume ad852 0 0]
+[seVolume ad852 1.0 1.0]
+[fowardEffect bit_talk_light_range]
+[wt 3.0]
+
+[seStop ad852 1.2]
+[fowardEffectStop bit_talk_light_range]
+[wt 1.7]
+[charaFace F 0]
+
+＠阿愈丝
+……呼。如何？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0,-20]
+
+＠樱
+……应该没事了。[r]非常感谢，得救了。
+[k]
+
+[messageOff]
+[se ad661]
+[seVolume ad661 0 0.6]
+[seStop ad661 0.8]
+[charaMove D 1 0.5]
+[wt 0.5]
+[charaShake D 0.03 2 2 0.5]
+[charaFace D 14]
+
+＠樱
+呜……
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠阿愈丝
+啊，还不可以乱动！
+[k]
+
+＠阿愈丝
+这真的只是应急治疗，只是把你重要的部位[r]紧急维系起来，以免你停止活动。
+[k]
+
+＠阿愈丝
+ＡＩ的部分暂且不论，御主相关的领域[r]有些部分我也无法插手[line 3]
+[k]
+
+＠阿愈丝
+说不定会留下后遗症。
+[k]
+
+[charaFace F 3]
+
+＠阿愈丝
+可能的话，希望你事后再[r]好好接受一次体检……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠樱
+[line 3]不。[r]我只要能动就够了。
+[k]
+
+[charaFace D 15]
+
+＠樱
+还是请你优先治疗其他受伤的ＡＩ吧。[r]拜托了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠阿愈丝
+我觉得能动就够了这种想法相当成问题，[r]但毕竟现在情况紧急。我知道了。
+[k]
+
+[charaFace F 8]
+
+＠阿愈丝
+不过，等有空之后一定要来哦！[r]体检可是很重要的！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 17]
+[charaFadein D 0.1 1]
+[wt 1.5]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠美杜莎
+你没事吧，樱。
+[k]
+
+[charaFace E 6]
+
+＠美杜莎
+……太好了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠樱
+嗯，多亏了这孩子。[r][#Saber:剑士]，情况如何？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠美杜莎
+总算是帮我们干了最低限度的活儿吧。[r]虽然我也不会感到高兴就是了。
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.7 1.0]
+[bgmStop BGM_BATTLE_107 1.0]
+[wait wipe]
+
+[charaFadeout E 0.1]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 0.7 1.0]
+[wait wipe]
+
+[bgm BGM_BATTLE_195 0.1]
+[wt 0.3]
+
+[cueSe Battle bac11]
+[effect bit_talk_14]
+[wt 0.2]
+
+[charaScale B 1.3]
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.4 0,30]
+[charaShake B 0.05 2 2 0.4]
+[se ad543]
+[seVolume ad543 0 0.5]
+[se ad671]
+[seStop ad671 0.7]
+[seStop ad543 0.7]
+[charaMoveScale B 1.0 0.5]
+[charaMove B 0,0 0.5]
+[wt 0.5]
+
+＠Caster
+呜，噢……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠Caster的御主
+为什么！？[r]明明应该是我们积蓄的力量更多才对啊！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 13]
+[charaFadein J 0.1 1]
+
+＠迦摩
+这个嘛，单论资源量，[r]感觉确实是你们那边比较多。
+[k]
+
+＠迦摩
+最终还是在于用法。该用的时候就用，该省的时候就省。[r]有些劣势靠窍门就能弥补吧？
+[k]
+
+＠迦摩
+拿着充足的资金一个劲地生产杂鱼，[r]虽然麻烦，但也仅此而已。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠难敌
+燃耗率低也是一流战士的条件嘛。
+[k]
+
+＠难敌
+而本老爷也是一流这点，[r]自然无须赘言。
+[k]
+
+[charaFace G 10]
+
+＠难敌
+……喂，是谁在那边瞎说什么[r]“只是很会偷懒而已”这种大实话啊？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠Caster
+是与[#Saber:剑士]战斗时玩得太开心了吗？[r]美丽的妻子太多也是个烦恼……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_BATTLE_195 1.5 0.7]
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠希翁
+[line 3]原来如此。
+[k]
+
+？1：希翁？
+？2：你明白什么了？
+？！
+
+
+＠希翁
+我从之前起就有种违和感，[r]而经过这次的全力战斗，我可以肯定了。
+[k]
+
+＠希翁
+[#那不是吉尔]·[#德]·[#雷]。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+
+[charaTalk J]
+[charaFace J 25]
+[charaFadein J 0.1 1]
+
+＠迦摩
+哈？　可是……
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠希翁
+那是半吊子的样貌，以及使魔给人的印象一致[r]所导致的错误。
+[k]
+
+＠希翁
+与法国元帅不符的态度。他所执着的，[r]净是美丽女子的悲鸣这种猎奇的事物。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+
+＠迦摩
+他本就是怀有这种爱的男人吧？[r][#Caster:魔术师]职阶时明确如此。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠希翁
+再加上『新娘』『房间』『钥匙』这些词语[line 3][r]可以进一步缩小定义。
+[k]
+
+＠希翁
+相传拥有一把魔法钥匙和一个秘密房间，[r]会杀害偷看房间内貌的新娘，纯粹的杀人魔。
+[k]
+
+＠希翁
+我知道有这么一个人。[r]这不是我有意记录下来的，
+[k]
+
+＠希翁
+只是我体内留存着一个只有十几ＫＢ左右的数据，[r]于是参考了一下而已。
+[k]
+
+＠希翁
+你应该也知道这么一号人物吧，[r][%1][&先生:小姐]？
+[k]
+
+？1：你说的难道是[line 3]
+
+[charaFace H 10]
+[charaMoveReturn H 0,-5 0.4]
+
+＠希翁
+没错。
+[k]
+
+？2：……？
+
+[charaFace H 10]
+
+＠希翁
+就算知道那个名字，也有可能因为过于出名，[r]反而不清楚具体的内容吧。
+[k]
+
+＠希翁
+说出来应该就知道了。
+[k]
+
+？！
+
+[charaFace H 8]
+
+＠希翁
+[line 3][#蓝胡子]。
+[k]
+
+＠希翁
+十七世纪的诗人佩罗笔下故事中的登场人物，[r]据说以吉尔元帅为原型描写出来的怪人。
+[k]
+
+＠希翁
+这就是那位[#Caster:魔术师]的真名吧。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 14]
+[charaFadein J 0.1 1]
+
+＠迦摩
+真的吗？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 8]
+[charaFadein H 0.1 1]
+
+＠希翁
+要想证明这点，[r]只需问一个问题即可。
+[k]
+
+＠希翁
+[#Caster:魔术师]……
+[k]
+
+[bgmStop BGM_BATTLE_195 2.0]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth O 1]
+[charaDepth I 2]
+[charaDepth P 3]
+[charaDepth B 4]
+
+[charaScale I 1.2]
+[charaScale B 1.2]
+[charaFace I 8]
+[charaFadein O 1.0 120,-300]
+[charaFadeinFSR I 1.0 180,0]
+[charaMove O 100,-300 1.0]
+[charaMoveFSR I 150,0 1.0]
+[wt 1.5]
+
+＠希翁
+[#你对贞德有什么看法]？
+[k]
+
+
+[messageOff]
+[charaFace B 0]
+[charaFadein P 1.0 -120,-300]
+[charaFadeinFSL B 1.0 -180,0]
+[charaMove P -100,-300 1.0]
+[charaMoveFSL B -150,0 1.0]
+[wt 2.5]
+[charaFadeout O 0.1]
+[charaFadeout I 0.1]
+
+
+＠Caster
+[#那是谁啊]？
+[k]
+
+[bgm BGM_MAP_67 0.1]
+
+？1：…………！
+？！
+
+[messageOff]
+[charaFadeout P 0.5]
+[charaFadeout B 0.5]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 1]
+
+＠希翁
+[line 3]都在，我计算之中。
+[k]
+
+[charaFace H 6]
+
+＠希翁
+灵基构造相似，[r]甚至可以说确实存在共用部分吧。
+[k]
+
+＠希翁
+据我推测，正因为如此，[r]才会拥有将使魔与禁忌的房间联系在一起，
+[k]
+
+＠希翁
+构成会溢出恐怖怪物的房间，[r]以及打开房间的魔法钥匙，这样一个宝具吧。
+[k]
+
+＠希翁
+换言之，他就是，
+[k]
+
+＠希翁
+仅将存在于吉尔·德·雷体内的蓝胡子这一部分切离出来的，[r]类似于某种他人格的[line 3]
+[k]
+
+[messageOff]
+[charaFace H 2]
+[wt 1.0]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠Caster的御主
+别再喋喋不休了，闭嘴，闭嘴！[r]就算知道了真名，那又如何！
+[k]
+
+＠Caster的御主
+我很优秀。优秀的我是不可能输的，[r]不可以输！
+[k]
+
+＠Caster的御主
+撒手锏，要用那个撒手锏了，[#Caster:魔术师]！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MAP_67 1.5]
+
+[charaScale B 1.0]
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠Caster
+噢噢，噢噢噢。[r]真的好吗，御主。那可是[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgm BGM_BATTLE_68 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠Caster的御主
+管他呢！　这等屈辱岂能容忍。[r]我岂可一而再、再而三地败退。
+[k]
+
+＠Caster的御主
+以及最重要的是[line 3][r]我绝对不能再逃跑了！
+[k]
+
+＠Caster的御主
+我要追求理想。[r]我就是为此而来的。
+[k]
+
+＠Caster的御主
+既是如此，我不会对使用魔术师的[r]正当手段怀有丝毫犹豫。
+[k]
+
+＠Caster的御主
+不，若非如此，连追求理想的资格都没有！
+[k]
+
+＠Caster的御主
+不认同我的这个世界、愚钝的ＡＩ们，[r]还有阻挡我抵达根源之路的其他魔术师们！
+[k]
+
+
+＠Caster的御主
+[#我名为玛奇里]·[#佐尔根]！[r]牢牢把我的名字刻在脑海中，然后去死吧！
+[k]
+
+
+？1：（玛奇里·佐尔根……？）
+？！
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_BATTLE_68 0.5 0.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[charaTalk depthOff]
+[charaDepth T 1]
+[charaPut T 1]
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+[effect bit_sepia01_depth_fs]
+[scene 185600]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[se ad437]
+[charaEffect T bit_talk_noise_gr]
+[wt 0.5]
+[charaEffectDestroy T bit_talk_noise_gr]
+[wt 0.2]
+[se ad437]
+[charaEffect T bit_talk_noise_gr]
+[wt 0.6]
+[charaEffectDestroy T bit_talk_noise_gr]
+[wt 0.1]
+[se ad438]
+[charaEffect T bit_talk_noise_gr]
+[wt 0.8]
+
+[fadeout white 0.5]
+[wait fade]
+
+[charaFadeout K 0.1]
+[charaEffectDestroy T bit_talk_noise_gr]
+[effectStop bit_sepia01_depth_fs]
+
+[scene 190300]
+[charaSet A 1098269800 1 玛奇里]
+
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_BATTLE_68 0.5 1.0]
+[wait fade]
+
+[wt 0.5]
+
+？1：（感觉好像在哪里听过这名字，）
+？2：（却又无法明确回想起来……！）
+？！
+
+[charaFace A 4]
+
+＠玛奇里
+给我看仔细了，这正是以[#构筑部:Build]首席ＡＩ的构造能力[r]组建而成的宝具结构体！
+[k]
+
+[charaFaceFade A 9 0.2]
+
+＠玛奇里
+[#Caster:魔术师]！　动手！[r]对你那可怖的真名起誓，杀光他们！
+[k]
+
+[bgmStop BGM_BATTLE_68 1.4]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[cueSe SE_21 22_ad1178]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+[wt 0.2]
+
+[cameraMove 0.7 0,-40 1.2]
+[wt 0.7]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth B 1]
+[charaDepth N 2]
+
+[charaFadein N 0 1]
+[wt 0.5]
+[cameraHome 0.1]
+[charaFadeout B 0.1]
+[scene 10000]
+[wt 0.5]
+[charaFadeout N 0.1]
+[wt 1.5]
+
+[bgm BGM_BATTLE_179 0.1]
+
+＠
+[b0209c][#自己是]，[#什么人]。
+[k]
+
+＠
+腰缠万贯，却非大元帅；心怀信仰，却非狂信徒；[r]手持利剑，却非骑士。
+[k]
+
+＠
+自己不过是个杀害了多任妻子的怪人。
+[k]
+
+＠
+用魔法钥匙藏起秘密的小房间，[r]连名字都没有的杀人魔。
+[k]
+
+＠
+[line 3]我乃，蓝胡子！
+[k]
+
+[se ad574]
+
+[messageOff]
+[fadeout black 0.1]
+[wait fade]
+
+[charaSet B 1098269700 1 蓝胡子]
+
+[subCameraOn 1]
+[charaLayer C sub #A]
+
+[subCameraFilter #A through]
+
+[charaScale C 1.2]
+[charaFace C 10]
+[charaFadein O 0.1 0,-250]
+[charaFadein C 0.1 0,60]
+
+[blur lens 0.1 2 20]
+[subRenderFadein #A 0.1 0,0]
+[scene 190300]
+[wt 2.5]
+
+[cueSe SE_21 21_ade580 2.0 0.4]
+[charaMove O 0,-300 7.5]
+[charaMove C 0,-15 7.5]
+[fadein black 2.0]
+[wait fade]
+
+[wt 2.8]
+[cueSeStop 21_ade580 0.5]
+[se ad921]
+[seVolume ad921 0 0.6]
+[blurOff lens 1.5]
+[charaFadeout O 1.5]
+[subRenderFadeout #A 1.5]
+[wt 1.5]
+[charaFadeout C 0.1]
+[wt 0.2]
+[subCameraOff]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.4 1]
+[wt 0.4]
+
+＠蓝胡子
+噢噢，噢噢噢！[r]小小的钥匙，将开启更深的禁忌之门！
+[k]
+
+＠蓝胡子
+龙骑兵与禁卫骑兵皆不足为惧！[r]我的第七任妻子啊、第八任妻子啊，
+[k]
+
+＠蓝胡子
+以及将会到来的未来所有妻子啊！[r]请你们，请你们，请你们！
+[k]
+
+[charaFace B 7]
+
+＠蓝胡子
+心怀喜悦地，在那个房间里！[r]让我杀死吧[line 5]！
+[k]
+
+[bgmStop BGM_BATTLE_179 2.0]
+
+[messageOff]
+[se ade446]
+[seVolume ade446 0 0.6]
+[effect bit_talk_lightning_01t_fs]
+[wt 0.5]
+
+[cueSe SE_22 22_ad1181 1.0 0.4]
+[charaEffectEdgeBlur B FFF9A5 FFF9A5 4 6]
+[wt 1.0]
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ade446 0 1.0]
+[seVolume ad556 1.0 0.5]
+[cueSeVolume 22_ad1181 1.0 0.8]
+[backEffect bit_talk_avalon_light01]
+[wt 1.0]
+
+[se ad734]
+[wt 0.5]
+[backEffect bit_talk_avalon_light02]
+[effect bit_talk_under_light]
+[wt 0.5]
+
+[se ad791]
+[effectStop bit_talk_under_light]
+[wt 2.0]
+
+[cueSe SE_21 21_ade546]
+
+[shake 0.02 1 1 0]
+[fadeout white 1.0]
+[seStop ad734 1.0]
+[seStop ade446 1.0]
+[seStop ad556 1.0]
+[cueSeStop 22_ad1181 1.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaEffectEdgeBlurDestroy B]
+[backEffectDestroy bit_talk_avalon_light01]
+[backEffectDestroy bit_talk_avalon_light02]
+[effectDestroy bit_talk_lightning_01t_fs]
+[effectDestroy bit_talk_under_light]
+
+[charaDepth Q 1]
+[charaDepth R 2]
+[charaDepth S 3]
+[charaFadein Q 0.1 0,-120]
+[cameraMove 0.1 0,0 1.01]
+[wt 2.0]
+
+[bgm BGM_BATTLE_135 0.1]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 2.0 0.6]
+
+[cueSe SE_23 23_ad1294 2.0 1.0]
+[charaMove Q 0,-220 7.0]
+[fadein white 2.0]
+[wait fade]
+
+[wt 2.5]
+[charaFadein R 1.5 -100,-370]
+[charaMove R 0,-470 7.0]
+[wt 4.5]
+[charaFadeout Q 0.1]
+
+[charaFadein S 2.0 0,-300]
+[charaMove S 0,-200 3.5]
+[charaMoveScale S 1.01 3.5]
+[wt 5.5]
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[cueSeStop 23_ad1294 2.0]
+[seStop ade393 2.0]
+[bgmStopEnd BGM_BATTLE_135 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

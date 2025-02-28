@@ -1,0 +1,396 @@
+
+＄03-00-13-15-3-1
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet T 98115000 1 特效用]
+[charaPut T 0,0]
+[charaEffect T bit_talk_sand_dust_front_fs 0,-150]
+[charaEffect T bit_talk_sand_dust_back_fs 0,-250]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet D 1098257300 1 达·芬奇]
+[charaSet E 1098255300 1 尼托克丽丝]
+[charaSet F 1098255200 1 哈贝特洛特]
+[charaSet G 1098256400 1 古伽兰那的腿]
+[charaFilter G silhouette 00000080]
+[charaSet H 1098256400 1 古伽兰那的腿2]
+[charaFilter H silhouette 00000080]
+
+[sceneSet I 10000 1]
+[charaScale I 1.05]
+
+[scene 173900]
+[wt 0.2]
+
+[se ad135]
+[seVolume ad135 0 0.1]
+[seVolume ad135 1.0 0.3]
+[se ad153]
+[seVolume ad153 0 0.1]
+[seVolume ad153 1.0 0.3]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.5]
+
+[charaEffectStop T bit_talk_sand_dust_front_fs]
+[seStop ad135 1.5]
+[seStop ad153 1.5]
+[wt 1.5]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk E]
+[charaFace E 15]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+你是想害死我吗[line 3]！？[r]得亏是我，换别人来早就死了吧！？
+[k]
+
+？1：对不起……但是………
+？2：召唤式在中途停下来了……
+
+？！
+
+[charaFace E 9]
+
+＠尼托克丽丝
+没能召唤！？[r]可我听说在冥界线能自由召唤英灵啊！
+[k]
+
+＠尼托克丽丝
+然而却没有援军，岂止是不敬，简直就是无能！[r]难道是过度高估我的实力了吗！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+不，不是的，法老尼托克丽丝。[r]我也在近距离确认过了。
+[k]
+
+＠玛修
+召唤式确实成立了，[r]但似乎由于其他原因被[#废弃:取消]了。
+[k]
+
+＠玛修
+恐怕是这冥界线特有的规则吧。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_7 1.5]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[wt 1.4]
+[charaFace E 7]
+
+＠尼托克丽丝
+这……怎么会……
+[k]
+
+＠尼托克丽丝
+召唤术士被封印了召唤，[r]无异于鸟儿被扯断了翅膀。
+[k]
+
+＠尼托克丽丝
+同为术者，[r]我能理解你的不安与懊恼。
+[k]
+
+[bgm BGM_EVENT_2 0.1]
+
+＠尼托克丽丝
+……非常抱歉，[%1]。[r]刚才那是还没掌握情况就作出的不当叱责。
+[k]
+
+[charaFace E 6]
+
+＠尼托克丽丝
+还有，同为术者，我还要给你一个建议。
+[k]
+
+＠尼托克丽丝
+请不要将自身的不成熟当做弱小。[r]没有人类能面面俱到。
+[k]
+
+＠尼托克丽丝
+当你陷入低谷时，越是哀叹“为何会变成这样”，[r]情况就会变得越糟。
+[k]
+
+＠尼托克丽丝
+应该深呼吸，无论朝哪个方向都行，[r]试着慢慢迈步向前，改变自己的心境。
+[k]
+
+？1：……明白了。谢谢你，尼托克丽丝。
+？2：还有，抱歉害你一个人战斗。
+
+？！
+
+[charaFace E 0]
+
+＠尼托克丽丝
+呼，这你倒是不必在意。[r]那点程度的砂虫岂是我的敌手。
+[k]
+
+[charaFace E 1]
+
+＠尼托克丽丝
+虽然多少受了点惊，但我已经习惯了。[r]再来10只，不，再来100只我都能尽数消灭！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+说得对。尼托克丽丝小姐是强大到[r]足以驾驭[#沙漠神兽:斯芬克斯]的法老。
+[k]
+
+＠玛修
+就算身处米克特兰的冥界，[r]您的威光也丝毫无损吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth E 5]
+[charaDepth I 2]
+[charaDepth T 1]
+
+[charaPut I 1]
+[charaFadeTime I 0.2 0.5]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+（斯芬克斯其实是法老奥斯曼狄斯赐给我的，[r]　但这件事还是不说为好。）
+[k]
+
+[charaFadeout I 0.2]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[charaTalk D]
+[charaFace D 23]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+话虽如此，[%1]的召唤式[r]被取消依然是个问题。
+[k]
+
+＠达·芬奇
+战力方面……有强大的进攻手尼托克丽丝[r]与库库尔坎在，倒也没什么好可担心的，
+[k]
+
+＠达·芬奇
+只是无法召唤其他英灵的状况始终令人放心不下。[r]究竟是基于什么原理才会存在这种规则……
+[k]
+
+[bgmStop BGM_EVENT_2 1.5]
+[charaFace D 24]
+
+＠达·芬奇
+哈贝特洛特？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 13]
+[charaFadein F 0.1 1]
+
+＠哈贝特洛特
+[line 3]
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+哈贝特洛特？[r]你怎么了，张大着嘴巴。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 13]
+[charaFadein F 0.1 1]
+
+＠哈贝特洛特
+[line 3]那个。[r]快看，那个。快看快看，快看快看快看。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaScale B 1.2]
+
+[charaTalk depthOff]
+[charaDepth E 4]
+[charaDepth A 3]
+[charaDepth D 2]
+[charaDepth B 1]
+[charaScale E 0.9]
+[charaScale D 0.9]
+[charaScale A 0.9]
+
+
+[charaTalk off]
+[charaFace E 3]
+[charaFadeinFSL E 0.1 -350,-110]
+[charaFace A 0]
+[charaFadein A 0.1 -50,-110]
+[charaFace B 0]
+[charaFadein B 0.1 280,70]
+[charaFace D 24]
+[charaFadeinFSR D 0.1 300,-110]
+
+＠全体
+[FFFFFF]？[-]
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaScale E 1.0]
+[charaScale D 1.0]
+[charaScale A 1.0]
+
+[charaTalk depthOn]
+[charaTalk on]
+
+[cameraMove 1.5 0,0 1.3]
+[charaMove T 0,150 1.5]
+[se ad135]
+[seVolume ad135 0 0]
+[seVolume ad135 1.5 0.1]
+[se ad153]
+[seVolume ad153 0 0]
+[seVolume ad153 1.5 0.1]
+[wt 0.5]
+
+[charaDepth T 3]
+[charaDepth H 2]
+[charaDepth G 1]
+[charaScale G 2.5]
+[charaScale H 2.5]
+
+[charaFadein G 1.0 -50,0]
+[wt 1.2]
+[charaMove G -80,50 1.0]
+[wt 1.2]
+
+[charaMove G -110,0 0.7]
+[shake 0.05 5 5 0.5]
+[se ade311]
+[se ad882]
+[wt 1.0]
+[charaFadeout G 1.0]
+
+[charaFadein H 1.0 250,0]
+[wt 1.2]
+[charaMove H 220,50 1.0]
+[wt 1.2]
+
+[charaMove H 190,0 0.7]
+[shake 0.05 5 5 0.5]
+[se ade311]
+[se ad882]
+[wt 1.0]
+[charaFadeout H 1.0]
+[wt 1.0]
+
+[seStop ad135 1.5]
+[seStop ad153 1.5]
+[cameraHome 1.5]
+[charaMove T 0,0 1.5]
+[wt 1.5]
+
+[charaDepth T 1]
+
+[bgm BGM_BATTLE_62 0.1]
+[wt 0.2]
+
+？1：好像，有条巨大的腿，
+？2：近在眼前，近在眼前！
+
+？！
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+嗯，我也看到了！[r]那无疑是生物的腿！
+[k]
+
+＠达·芬奇
+连脚都有那种尺寸，意味全长超过60米！[r]是Protea级的大巨人！
+[k]
+
+＠达·芬奇
+糟糕，藏身之处，藏身之处[line 3]完全找不到～！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+呜……！！[r]大家快靠过来，弯下身体！　我要张开御衣了！
+[k]
+
+[messageOff]
+[se ad921]
+[fadeout white 1.5]
+[wait fade]
+
+[charaEffectDestroy T bit_talk_sand_dust_back_fs]
+[scene 10000]
+[charaFadeout E 0.1]
+[wt 1.5]
+[bgmStop BGM_BATTLE_62 2.5]
+
+[fadein white 1.0]
+[wait fade]
+
+[fadeout black 1.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

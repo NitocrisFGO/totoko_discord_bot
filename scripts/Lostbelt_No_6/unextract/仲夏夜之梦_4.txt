@@ -1,0 +1,2444 @@
+
+＄03-00-10-08-4-0
+
+
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098209660 1 奥伯龙·伏提庚]
+[charaSet B 1098209670 1 奥伯龙·伏提庚_有翅膀]
+[charaSet C 5045002 1 阿尔托莉雅]
+[charaSet D 1098231510 1 玛修]
+[charaSet E 1098211500 1 威尔士的妖精_人型1]
+[charaSet F 1098211600 1 威尔士的妖精_虫型1]
+[charaSet G 1098124510 1 达·芬奇]
+[charaSet H 9005001 1 福尔摩斯]
+[charaSet I 1098123200 1 戈尔德鲁夫]
+[charaSet J 1098158310 1 尼莫]
+[charaSet K 1098182100 1 尼莫教授]
+[charaSet L 1098181900 1 尼莫水兵]
+[charaSet M 1098123000 1 穆尼尔]
+
+[charaSet N 1098213600 1 摩根]
+[charaSet O 1050000 1 巴格斯特]
+[charaSet P 1098209100 1 科拉尔]
+[charaSet Q 1098209900 1 伍德沃斯]
+[charaSet R 3047001 1 珀西瓦尔]
+[charaSet S 1098209000 1 欧若拉]
+[charaSet W 2043000 1 芭万·希]
+
+[charaSet T 98115000 1 特效用]
+
+[imageSet U cut277_bod1 1 1]
+[imageSet V cut277_bod2 1 1]
+[charaScale U 2.0]
+[charaScale V 2.0]
+
+[scene 118600]
+[pictureFrame cut063_cinema]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_20 0.1]
+[wt 0.5]
+
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 0,-50]
+
+[cueSe SE_21 21_ad1094]
+[seVolume 21_ad1094 0 0.3]
+＠威尔士的妖精A
+[image npc_language_5:！　是奥伯龙大人，是奥伯龙大人！][r][image npc_language_5:大家，奥伯龙大人回来啦———！][seStop 21_ad1094 1.0]
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0,-50]
+
+[cueSe Servants_603100 bac554]
+[seVolume bac554 0 0.5]
+
+＠威尔士的妖精B
+[image npc_language_6:说来听听！　说来听听！][r][image npc_language_6:将想杀掉我们的外面大家的事情说来听听！]
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,-50]
+
+＠奥伯龙·伏提庚
+大家，我回来了。[r]今天也勉强苟延残喘下来了吗？
+[k]
+
+[charaFace A 8]
+
+＠奥伯龙·伏提庚
+嗯，大家都已经被烧死了吗？[r]这样啊。这结局很妥当，反正迟早的事！
+[k]
+
+[charaFace A 1]
+
+＠奥伯龙·伏提庚
+那外面的事就留待下次吧。[r]其实我也没什么新的话题可说啦。
+[k]
+
+[charaFace A 7]
+
+＠奥伯龙·伏提庚
+哎呀，你是[line 3]
+[k]
+
+？1：哟.
+？2：抱歉，刚才我睡着了吗？
+
+？！
+
+[charaFace A 2]
+
+＠奥伯龙·伏提庚
+[line 6]不会吧。[r]你这混账脸皮是有多厚啊。
+[k]
+
+[charaFace A 1]
+
+＠奥伯龙·伏提庚
+哎哟，脏话禁止，禁止。
+[k]
+
+＠奥伯龙·伏提庚
+是在犹豫什么？[r]还是在战斗中睡着了？
+[k]
+
+＠奥伯龙·伏提庚
+算了，反正都是场梦。[r]最后要来喝点红茶吗？
+[k]
+
+＠奥伯龙·伏提庚
+只不过，[907ca1]我[-]已经没什么可说的了。[r][907ca1]我[-]的目的、性格、来历，都事无巨细地说了。
+[k]
+
+＠奥伯龙·伏提庚
+你应该已经[r]没有继续留在这里的理由了吧？
+[k]
+
+？1：你还有事没告诉我。
+？2：既然是最后了，至少让我听听真心话吧。
+
+？！
+
+[bgmStop BGM_EVENT_20 1.5]
+[charaFace A 10]
+
+＠奥伯龙·伏提庚
+哈？　你脑袋烂了吗？　比[907ca1]我[-]还严重吧？[r]记忆容量连虫子都不如吧？
+[k]
+
+？1：毕竟你是个骗子嘛，奥伯龙。
+
+？！
+
+[charaFace A 1]
+
+＠奥伯龙·伏提庚
+[line 3][wt 1.0][bgm BGM_EVENT_45 0.1]说得没错。[r]既然你这么说，那[907ca1]我[-]只能投降啦。
+[k]
+
+[charaFace A 0]
+
+＠奥伯龙·伏提庚
+确实。有真心话。[r]嗯，还挺多。
+[k]
+
+＠奥伯龙·伏提庚
+伏提庚是不列颠岛的命运，[r]而[907ca1]我[-]则是作为其分身诞生的……
+[k]
+
+＠奥伯龙·伏提庚
+你想啊，因为[907ca1]我[-]也是奥伯龙嘛。
+[k]
+
+[charaFace A 4]
+
+＠奥伯龙·伏提庚
+之前有稍微提过一嘴吗？[r]关于妖精国是什么。
+[k]
+
+＠奥伯龙·伏提庚
+这里呀，全都是童话哦，[r]只是一篇故事。
+[k]
+
+＠奥伯龙·伏提庚
+是只在虚构历史中才有容身之处的[r]摩根描绘的长达一万四千年的绘本。
+[k]
+
+＠奥伯龙·伏提庚
+你们则是一如往常地将它否定了。[r]说它是错误的，并没有意义。
+[k]
+
+[charaFace A 10]
+
+＠奥伯龙·伏提庚
+[907ca1]我[-]就是对此感到不爽。[r]不爽到甚至忘记了恶心。
+[k]
+
+＠奥伯龙·伏提庚
+你们创造出方便的存在，[r]创造出所有人梦寐以求的故事，
+[k]
+
+＠奥伯龙·伏提庚
+甚至连人生都会被那篇故事改变，
+[k]
+
+＠奥伯龙·伏提庚
+却又以“这是现实中不存在的[#幻想:东西]”为由，[r]加以怠慢与嘲笑。
+[k]
+
+？1：[line 3]这是[line 3]
+？2：……对故事这一事物的，愤怒？
+
+？！
+
+[charaFace A 0]
+
+＠奥伯龙·伏提庚
+嗯。无论是陈旧不堪的王国，[r]还是未被提及的配角，都是有意义的。
+[k]
+
+＠奥伯龙·伏提庚
+哪怕是随着翻完最后一页而遭到遗忘，[r]被[#现实:你们]的速度抛在身后的故事[line 3]
+[k]
+
+＠奥伯龙·伏提庚
+也应当拥有留存后世的权利。
+[k]
+
+
+
+[charaFace A 1]
+
+＠奥伯龙·伏提庚
+不过对身为人类的你说这些也是对牛弹琴。[r]反正下一篇故事到来时，就会被你遗忘吧。
+[k]
+
+＠奥伯龙·伏提庚
+更新、成长就是泛人类史的规矩吧？[r]不存在任何永恒，变化永不停息。
+[k]
+
+＠奥伯龙·伏提庚
+[907ca1]我[-]最厌烦这种东西了。
+[k]
+
+＠奥伯龙·伏提庚
+就因为各种恼火，[r]才会想终结一切。
+[k]
+
+[charaFace A 3]
+
+＠奥伯龙·伏提庚
+这样说你满意了吗？[r]满意就快醒过来。
+[k]
+
+＠奥伯龙·伏提庚
+因为朝之云雀与夜之帷幕，[r]对你来说还是不需要的东西嘛。
+[k]
+
+[charaFace A 8]
+
+＠奥伯龙·伏提庚
+再会啦，迦勒底的混账玩意！[r]虽说旅途很无聊，但意外倒是层出不穷呢！
+[k]
+
+＠奥伯龙·伏提庚
+下次也要加油哦！[r][907ca1]我[-]会真心祈祷你们能旗开得胜哦！
+[k]
+
+[messageOff]
+[se ad527]
+[seStop ad527 1.5]
+[charaFadeout A 0.4]
+[wt 2.0]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0,-50]
+
+[cueSe Servants_603100 bac554]
+[seVolume bac554 0 0.3]
+
+＠威尔士的妖精
+[image npc_language_6:要去哪儿？　要去哪儿？][r][image npc_language_6:带上我们嘛！　带上我们嘛！][seStop bac554 1.0]
+[k]
+
+[charaFace F 1]
+＠威尔士的妖精
+[image npc_language_6:再见啦，奥伯龙的朋友！][r][image npc_language_6:欢迎再来威尔士森林，再来奥伯龙的森林哦！]
+[k]
+
+[messageOff]
+[wt 0.5]
+[fadeout white 1.5]
+[bgmStop BGM_EVENT_45 1.5]
+[wait fade]
+
+[charaFadeout F 0.1]
+[pictureFrame]
+[scene 10001]
+[wt 2.5]
+
+[fadein white 0.1]
+[wait fade]
+
+[fadeout black 1.5]
+[wait fade]
+
+[scene 122604]
+[cameraMove 0.1 0,0 1.01]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_24 0.1]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+
+＠B：奥伯龙·伏提庚
+啊啊啊啊啊啊啊啊啊啊啊啊啊！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth C 2]
+
+[charaTalk off]
+[charaFace C 2]
+[charaFace D 2]
+[charaFadein C 0.1 0]
+[charaFadein D 0.1 2]
+[wt 0.5]
+[se ad678]
+[charaMove C -256,10 0.2]
+[charaMove D 256,10 0.2]
+[charaMoveScale C 1.05 0.2]
+[charaMoveScale D 1.05 0.2]
+[charaFadeout C 0.2]
+[charaFadeout D 0.2]
+[wt 0.6]
+
+[charaScale D 1.0]
+[charaScale C 1.0]
+
+[cueSe Servants_504500 bac1394]
+[cueSeVolume bac1394 0 0.8]
+[wt 0.3]
+[effect bit_talk_gold_slash_02]
+[cueSe Servants_504500 bac762]
+[cueSeVolume bac762 0 0.8]
+[cueSeStop bac762 2.5]
+[cueSeStop bac1394 1.5]
+[wt 0.5]
+[charaTalk on]
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 1]
+[effect bit_talk_14]
+[charaShake B 0.05 3 3 0.7]
+[wt 0.6]
+[charaFadeout B 0.7]
+[wt 0.6]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.0 0.7]
+[wt 1.0]
+[seStop ad556 3.0]
+
+[charaTalk depthOn]
+
+[bgmStop BGM_EVENT_24 2.5]
+[wt 2.5]
+
+？1：奥伯龙[line 3]！
+
+？！
+
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠玛修
+敌对从者从甲板上掉落[line 3][r]朝空洞掉下去了……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠阿尔托莉雅
+确认奥伯龙·伏提庚的灵核[r]出现重度损伤。
+[k]
+
+＠阿尔托莉雅
+对奈落之虫……对伏提庚而言，[r]圣剑是既能成为食粮，也会成为剧毒的双刃剑。
+[k]
+
+＠阿尔托莉雅
+受了那么重的伤，[r]想必再也爬不上来了吧。
+[k]
+
+＠阿尔托莉雅
+他将永远朝着非现实所存之奈落不断坠落。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠玛修
+……向这洞中，永远地[line 3][r]这未免[line 3]
+[k]
+
+？1：……不，这样就好。
+？2：……这样，比较好……
+
+？！
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[wt 0.5]
+[charaEffect C bit_talk_06 0,-100]
+[wt 2.5]
+[charaFace C 10]
+
+[bgm BGM_EVENT_78 1.1]
+
+＠阿尔托莉雅
+哎哟，[r]我也没空沉浸在余韵中了。
+[k]
+
+[charaFace C 7]
+
+＠阿尔托莉雅
+退场的时刻转眼就到了。
+[k]
+
+＠阿尔托莉雅
+毕竟跟[#泛人类史:你们那边]的梅林一样，[r]是擅自跑来的，会这样也很正常。
+[k]
+
+？1：是这样啊。（原来是徒步赶来的。）
+
+[charaFace C 3]
+
+＠阿尔托莉雅
+并不是徒步哦。[r]就像超越了时间与空间，啪地一下。
+[k]
+
+？2：……嗯，谢谢你
+
+[charaFace C 1]
+
+＠阿尔托莉雅
+[line 3]应该由我向你道谢。[r]因为我听到了你的声音。
+[k]
+
+＠阿尔托莉雅
+很高兴能帮上你的忙。
+[k]
+
+？！
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaPut C 2000,2000]
+[wt 0.2]
+
+
+[charaPut T 1]
+[se ad13]
+[charaEffect T bit_talk_10_LowLevel]
+[wt 0.2]
+[charaTalk J]
+[charaFace J 2]
+[charaFadein J 0.1 1]
+
+＠尼莫
+这里是Storm Border管制室！[r]听得到吗，[%1]！
+[k]
+
+＠尼莫
+虽然经过尚无法确认，[r]但是情况已经掌握了！
+[k]
+
+＠尼莫
+就在刚才，确认这概念空间的崩溃……[r]不，是开始闭塞运动！
+[k]
+
+＠尼莫
+奈落之洞目前正在失去与外界的所有联系！
+[k]
+
+＠尼莫
+必须赶在闭塞运动结束前逃脱，[r]否则我们也将永远坠落！
+[k]
+
+＠尼莫
+因此，本舰接下来将全速朝垂直方向[line 3][r]向上空进发！
+[k]
+
+
+＠尼莫
+[%1]、玛修·基列莱特！[r]两位立刻退避到潜航艇内！
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+
+[charaTalk D]
+[charaFace D 21]
+[charaFadein D 0.1 1]
+
+＠玛修
+情况就是这样，御主！[r]呃……怎么办！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠阿尔托莉雅
+不必在意我，快去躲避吧。[r]我们也已经道过别了。
+[k]
+
+＠阿尔托莉雅
+……与两位一同旅行过的她，[r]阿尔托莉雅·卡斯特。
+[k]
+
+＠阿尔托莉雅
+她是仅限于这异闻带的存在，[r]是随乐园之影回归星之内海的存在。
+[k]
+
+＠阿尔托莉雅
+然而[line 3]
+[k]
+
+[charaFace C 0]
+
+＠阿尔托莉雅
+她的行动与答案，[r]已经像这样刻在我的身上了。
+[k]
+
+＠阿尔托莉雅
+我并非亚瑟王，而是肩负圣剑者[line 3][r]『圣剑骑士』的概念获得形体之物。
+[k]
+
+＠阿尔托莉雅
+这把剑只会交到被圣剑选中之人、[r]使用圣剑之人的手上。
+[k]
+
+[charaFace C 1]
+
+＠阿尔托莉雅
+因此，这次算特别服务。[r]那是重要的契约，可不能打破嘛。
+[k]
+
+？1：[line 3]因为仅限一次，对吧。
+
+？！
+
+[charaFace C 7]
+
+＠阿尔托莉雅
+是的。正如你的期望，[r]那个“我”同样希望成为你的助力。
+[k]
+
+[messageOff]
+[wt 0.5]
+[se ad241]
+[shake 0.02 3 3 1.0]
+[wt 1.0]
+[seStop ad241 2.0]
+[wt 1.2]
+
+[charaFace C 0]
+
+＠阿尔托莉雅
+请抓紧时间。[r]千万不能被『奈落之虫』的滑落牵连。
+[k]
+
+＠阿尔托莉雅
+再见了，[%1]、玛修。
+[k]
+
+＠阿尔托莉雅
+愿两位能无所畏惧地前进。[r]因为你们的旅途中，有[#观星者:迦勒底]的灯火相伴。
+[k]
+
+
+[messageOff]
+[se ad52]
+[charaSpecialEffect C flashErasure 1 2.0]
+[wait charaSpecialEffect C]
+[charaEffectStop C bit_talk_06]
+[wait charaEffect C bit_talk_06]
+[wt 1.5]
+
+
+？1：[line 4]再见了。来自不列颠的，重要的朋友。
+
+？！
+
+[messageOff]
+[wt 1.2]
+
+？1：……再见了，与我极其相似的，平凡无奇的女孩。
+
+？！
+
+[wt 0.5]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+＠玛修
+……前辈……
+[k]
+
+？1：好了，走吧！
+
+？！
+
+[charaFace D 13]
+
+＠玛修
+是！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_78 2.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[charaSet J 4037000 1 尼莫]
+[cameraHome 0.1]
+
+[scene 132903]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_82 0.1]
+
+[charaPut T 1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff][%1][-][51ffff]、玛修，[-][r][51ffff]确认上述两人进入舰内！　船长，动手吧！[-]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+
+
+[se ad905]
+
+[charaTalk J]
+[charaFace J 2]
+[charaFadein J 0.1 1]
+
+＠尼莫
+很好！[r]特里同引擎，四台并列运转，开始！
+[k]
+
+＠尼莫
+目标速度，时速10000km！[r]朝『空洞』出口，Storm Border，进发！
+[k]
+
+[messageOff]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaDepth U 1]
+[charaDepth V 2]
+
+[charaFadein U 1.0 310,-700]
+[se ad906]
+[wt 1.8]
+[cueSe SE_21 21_ad1097]
+[se ade378]
+
+[se ad907]
+[seVolume ad907 0 0]
+[seVolume ad907 1.0 0.6]
+[scene 122901]
+[wt 0.3]
+
+[charaFadein V 1.0 350,-620]
+[charaMove V 0,-720 2.5]
+[wt 1.0]
+[charaFadeout U 0.1]
+[wt 0.5]
+[se ad225]
+
+[charaFadeout V 1.0]
+[wt 1.0]
+[seStop ad907 1.5]
+[se ade343]
+[seVolume ade343 0 0]
+[seVolume ade343 1.0 0.5]
+
+[wt 3.0]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 132903]
+
+[seVolume ade343 1.0 0.3]
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk J]
+[charaFace J 2]
+[charaFadein J 0.1 1]
+
+＠尼莫
+教授，距离闭塞还有多久！？[r]按现在的速度赶得上吗！？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[seStop ade343 3.0]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠尼莫教授
+好，报告～。[r]距『奈落之洞』闭塞结束预计还有5分钟～。
+[k]
+
+＠尼莫教授
+另一方面，电脑室的停摆时间为20分钟，[r]考虑到期间本舰一直都在坠落，
+[k]
+
+＠尼莫教授
+嗯，粗算一下坠落距离约为420㎞。
+[k]
+
+＠尼莫教授
+就算将加速、减速时间都考虑在内，[r]也只要能够达到8.5马赫，就能轻松赶上了～！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_82 1.5]
+
+[charaPut T 1]
+[charaTalk G]
+[charaFace G 22]
+[charaFadein G 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]！　不，慢着，根据坠落时间计算[-][r][51ffff]到出口的距离并没有意义！[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]这个洞是无限！　自进来的那一刻起，[-][r][51ffff]就没有什么出口与入口了！[-]
+[k]
+
+[bgm BGM_EVENT_72 0.1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]无论提升到什么速度，[-][r][51ffff]也无法抵达“当初掉进来的入口”！[-]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠福尔摩斯
+也就是说，是只能『造』一个出口吗……！
+[k]
+
+＠福尔摩斯
+船长，能用Storm Border的炮击[r]在侧面开一个洞吗。
+[k]
+
+＠福尔摩斯
+既然无论怎样往上飞都无法抵达出口，[r]我们就只能打破『空洞』的概念了！
+[k]
+
+[charaFace H 2]
+
+＠福尔摩斯
+虽说会通往哪里完全是个赌注[line 3][r]但5分钟后就连赌的机会都没有了！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 2]
+[charaFadein J 0.1 1]
+
+＠尼莫
+抱歉，由于长时间的连续作战，[r]已经没有足以这么做的资源了！
+[k]
+
+＠尼莫
+光是让舰艇飞起来已经动用全力了！
+[k]
+
+＠尼莫
+就算现在停止一台引擎，[r]也不够时间生成灵子弹头！
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 9]
+[charaFadein I 0.1 1]
+
+＠戈尔德鲁夫
+也就是说[line 3]只要没有出口，[r]我们就不可能离开这个洞吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠福尔摩斯
+……是的。[r]而且从今往后也哪里都去不了了。
+[k]
+
+＠福尔摩斯
+一旦失去与外界的联系，[r]这个空洞就会变得比黑洞还糟糕。
+[k]
+
+＠福尔摩斯
+黑洞虽是连光都无法逃脱的重力陷坑，[r][#但它依然有出口]。
+[k]
+
+＠福尔摩斯
+只要能进行类似跳跃的航行，[r]便有机会脱身。
+[k]
+
+[charaFace H 5]
+
+＠福尔摩斯
+可这个空洞连『出口』都没有。
+[k]
+
+＠福尔摩斯
+无论人类获得了多么优秀的移动手段，[r]都无法逃脱的空间[line 3]
+[k]
+
+[charaFace H 8]
+
+＠福尔摩斯
+真是名副其实的『陷阱』。[r]我们在上升的同时，也在向奈落下坠。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 14]
+[charaFadein I 0.1 1]
+
+＠戈尔德鲁夫
+现在是佩服的时候吗[line 3]！[r]哎哎，真就一点办法都没有了吗！？
+[k]
+
+[charaFace I 5]
+
+＠戈尔德鲁夫
+又不是遭到敌人袭击，[r]也不是舰艇爆炸！
+[k]
+
+[bgmStop BGM_EVENT_72 2.0]
+
+＠戈尔德鲁夫
+我们居然会输在单纯的[#没有出口]上，[r]这我决不能认可[line 2]
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.2]
+
+[cueSe NoblePhantasm_304800 NP_304800_18]
+
+[cueSe NoblePhantasm_304800 NP_304800_19]
+[wt 1.0]
+
+[fadeout black 1.0]
+[wait fade]
+[cueSe NoblePhantasm_304800 NP_304800_20]
+[wt 1.0]
+
+[cueSe NoblePhantasm_304800 NP_304800_21]
+[se ade9]
+[se ad828]
+[scene 122902]
+[wt 1.0]
+
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 3.0 1.0]
+[se ad241]
+[seVolume ad241 0 0]
+[seVolume ad241 3.0 0.6]
+[shake 0.05 3 3 2.5]
+[fadein black 3.0]
+[wait fade]
+[wt 2.0]
+
+
+＠尼莫水兵
+报告，报告～！！！！[r]确认3000㎞的前方发生谜之爆炸！
+[k]
+
+＠尼莫水兵
+空洞被撕开，能看见外面了！
+[k]
+
+
+＠尼莫水兵
+那种热射线，不会错！[r]是阿尔比恩！　是阿尔比恩的魔力放出！
+[k]
+
+＠尼莫水兵
+虽然不知道为什么，[r]但阿尔比恩攻击了『奈落之虫』！
+[k]
+
+[messageOff]
+[seStop ade393 1.5]
+[seStop ad241 1.5]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 132903]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaDepth J 4]
+[charaDepth I 3]
+[charaDepth H 1]
+[charaDepth G 2]
+
+[charaTalk off]
+[charaFace J 2]
+[charaFadeinFSL J 0.1 -420,0]
+
+[charaFace I 7]
+[charaFadeinFSL I 0.1 -80,0]
+
+[charaFace H 6]
+[charaFadeinFSR H 0.1 90,0]
+
+[charaPutFSR T 410,0]
+[charaFace G 22]
+[charaFadeinFSR G 0.1 410,0]
+[wt 2.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout J 0.1]
+[charaFadeout I 0.1]
+[charaFadeout H 0.1]
+[charaFadeout G 0.1]
+[charaTalk on]
+[charaPut T 2000,2000]
+[charaEffectStop T bit_talk_10_LowLevel]
+[scene 128401]
+[wt 1.0]
+
+[sceneSet A 118004 1]
+
+[fadein black 2.0]
+[wait fade]
+
+＠
+精疲力竭，往下坠落。[bgm BGM_EVENT_123 0.1]
+[k]
+
+＠
+边眺望着末日的天空，眺望着[r]遥远的边界线，边向着地面坠落。
+[k]
+
+＠
+那个已经没有了理性与记忆。[r]原本构成她的要素全都粉碎了。
+[k]
+
+＠
+存在于此的，[r]只有从已死之龙身上零落的肉块。
+[k]
+
+＠
+只有丧失了所有目的与愿望，[r]静静等待走向碎裂的，坠落之星。
+[k]
+
+＠龙骸
+[line 3]，[line 3]
+[k]
+
+＠
+然而，还有胸口掠过的痛楚，[r]还有某个必须回想起来的记录。
+[k]
+
+＠
+『[line 3]检索。[r]　[line 3]检索。检索[line 3]』
+[k]
+
+[messageOff]
+[effect bit_talk_noise_gr]
+[se ad31]
+[seVolume ad31 0 0.1]
+[seVolume ad31 1.0 1.0]
+[wt 1.0]
+
+[fadeout black 1.0]
+[seStop ad31 1.0]
+[bgm BGM_EVENT_123 1.0 0.5]
+[wait fade]
+
+[effectStop bit_talk_noise_gr]
+[effect bit_sepia01_depth_fs]
+[scene 117400]
+[pictureFrame cut063_cinema]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 2.0]
+
+[fadeout black 1.0]
+[wait fade]
+[scene 118700]
+[wt 0.5]
+[fadein black 1.0]
+[wait fade]
+
+[wt 2.0]
+
+[fadeout black 1.0]
+[wait fade]
+[scene 121300]
+[wt 0.5]
+[fadein black 1.0]
+[wait fade]
+
+[wt 2.0]
+
+[fadeout black 1.0]
+[wait fade]
+[scene 117600]
+[wt 0.5]
+[fadein black 1.0]
+[wait fade]
+
+[wt 2.0]
+
+[fadeout black 1.0]
+[wait fade]
+[scene 128401]
+[effectStop bit_sepia01_depth_fs]
+[pictureFrame]
+[wt 0.5]
+[fadein black 1.0]
+[bgm BGM_EVENT_123 1.0 1.0]
+[wait fade]
+
+[wt 0.5]
+
+＠
+重生的瞬间，即碎裂的光景。[r]每当看到那些无法再度阅览的记录，
+[k]
+
+＠龙骸
+[line 3]，[line 6][r][line 3]啊，啊[line 6]
+[k]
+
+＠
+细胞都会迸发出鲜艳的火花。
+[k]
+
+＠
+仿佛在发问，[r]自己是什么，曾经是什么。
+[k]
+
+＠
+[line 3]又是为了什么，[r]才一直在这片大地上飞翔呢。
+[k]
+
+[messageOff]
+[effect bit_talk_noise_gr]
+[se ad31]
+[seVolume ad31 0 0.1]
+[seVolume ad31 1.0 1.0]
+[wt 1.0]
+
+[fadeout black 1.0]
+[seStop ad31 1.0]
+[bgm BGM_EVENT_123 1.0 0.5]
+[wait fade]
+
+[effectStop bit_talk_noise_gr]
+[effect bit_sepia01_depth_fs]
+[pictureFrame cut063_cinema]
+[scene 10000]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaTalk N]
+[charaFace N 0]
+[charaFadein N 0.4 100,-50]
+[wt 1.5]
+[charaFadeout N 0.4]
+[wt 0.4]
+
+[charaTalk O]
+[charaFace O 0]
+[charaFadeinFSL O 0.4 -100,-50]
+[wt 1.5]
+[charaFadeout O 0.4]
+[wt 0.4]
+
+[charaTalk W]
+[charaFace W 0]
+[charaFadeinFSR W 0.4 100,-50]
+[wt 1.5]
+[charaFadeout W 0.4]
+[wt 0.4]
+
+[charaTalk P]
+[charaFace P 0]
+[charaFadeinFSL P 0.4 -100,-50]
+[wt 1.5]
+[charaFadeout P 0.4]
+[wt 0.4]
+
+[charaTalk Q]
+[charaFace Q 0]
+[charaFadeinFSR Q 0.4 100,-50]
+[wt 1.5]
+[charaFadeout Q 0.4]
+[wt 0.4]
+
+[charaTalk R]
+[charaFace R 0]
+[charaFadein R 0.4 0,-50]
+[wt 1.5]
+[charaFadeout R 0.4]
+[wt 1.2]
+
+[scene 125001 1.0]
+[wt 3.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+[effectStop bit_sepia01_depth_fs]
+[scene 128401]
+[pictureFrame]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_123 1.0 1.0]
+[wait fade]
+
+＠龙骸
+[line 3]啊。[r]啊啊，啊[line 3]
+[k]
+
+＠
+在其中，看到了。
+[k]
+
+＠
+毁灭妖精国的存在，[r]引领妖精国走向这个结局的存在。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_123 1.0 0.5]
+[wait fade]
+
+[scene 124300]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_123 1.0 1.0]
+[wait fade]
+
+＠
+[line 3]不列颠的白龙。
+[k]
+
+＠
+吞没她所爱的人们居住的世界，[r]与她拥有相同[#缘由:名字]的，终结之姿。
+[k]
+
+＠龙骸
+啊[line 3]啊。[r]啊，啊啊啊啊啊…………！！！！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_123 1.0 0.5]
+[wait fade]
+
+[imageSet N back10001 1]
+[imageSet O back10000 1]
+[charaFilter O silhouette FFC68E80]
+[charaScale N 1.05]
+[charaScale N 1.05]
+
+[scene 128401]
+[wt 1.0]
+
+[se ade208]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_123 1.0 1.0]
+[wait fade]
+[wt 0.5]
+
+[se ade7]
+[cueSe SE_21 21_ad1097]
+[scene 128400 1.0]
+[wt 2.0]
+
+＠
+展开折断的双翼，[r]撑开溃烂的喉咙。
+[k]
+
+＠
+因飞翔而逐渐剥落的鳞片，[r]撑不住重启而逐渐溃散的肉块。
+[k]
+
+＠
+接受了所有这一切，龙飞翔着。
+[k]
+
+＠妖精骑士梅柳齐娜
+[line 3]没错。[r]必须飞起来，必须飞起来。
+[k]
+
+＠妖精骑士梅柳齐娜
+纵使作为妖精，没有任何值得骄傲的事。[r]纵使作为骑士，没有任何值得称赞的事。
+[k]
+
+＠妖精骑士梅柳齐娜
+纵使自始至终都不过是个[r]模仿人类的，异物……！
+[k]
+
+＠
+她并非不列颠的妖精。
+[k]
+
+＠
+正因身为更高位的生命，[r]才是既不从属妖精、亦不从属人类的局外者。
+[k]
+
+＠
+司掌边界之龙哪怕身在异闻带，[r]亦被算作泛人类史的存在。
+[k]
+
+＠
+原本就是从属于异邦的生命，
+[k]
+
+＠
+这不列颠内原本就没有任何容身之处。
+[k]
+
+＠妖精骑士梅柳齐娜
+大地与安宁我都不可能获得。[r]决不会被赐予[line 3]
+[k]
+
+＠妖精骑士梅柳齐娜
+决不可去追求。[r]我拥有的，只有这片景色。
+[k]
+
+＠妖精骑士梅柳齐娜
+只有划分天与地、星与宙的，[r]这片[#边界:苍穹]。
+[k]
+
+＠
+不过还是曾得到过什么。
+[k]
+
+＠
+就算是虚伪的，就算已经割舍，[r]还是曾获得过什么。
+[k]
+
+＠
+虽然已经一个都想不起来了，[r]但记忆回路的空白，表明了那些东西曾经存在过。
+[k]
+
+＠妖精骑士梅柳齐娜
+这架机体的名字是……[r]这份记录上标记的铭是……
+[k]
+
+[charaTalk depthOff]
+[cueSe SE_21 21_ad1097]
+[charaDepth O 2]
+[charaDepth N 1]
+[charaPut N 0,-200]
+[charaFadeTime N 2.0 0.3]
+
+＠
+空气障壁削磨机体。[r]飞翔体随着速度的提升，愈发丧失龙之形貌。
+[k]
+
+＠
+再这样下去会自我毁灭，[r]所剩无几的生命会在瞬间燃尽。
+[k]
+
+＠
+作为兵器是有失资格的，作为生命是矛盾的行为。[r]龙的思考在指摘自身的错误。
+[k]
+
+＠
+即便如此。
+[k]
+
+＠
+『理由：不需要。[r]　目的：讨伐一切威胁不列颠之物。』
+[k]
+
+＠
+她的眼中亮起的火焰，[r]令铁之[#机体:躯体]加速。
+[k]
+
+＠妖精骑士梅柳齐娜
+我的名字是，梅柳齐娜[line 3][r]妖精骑士，梅柳齐娜！
+[k]
+
+＠妖精骑士梅柳齐娜
+飞吧……！[r]纵是残骸，你也要展翅飞翔……！
+[k]
+
+[charaFadeTime N 2.0 0.5]
+
+＠
+划破疾风，挺身迎敌。[r]跨越末日的光景[#飞翔:疾驰]着。
+[k]
+
+＠
+作为被这不列颠拯救的生命之一，[r]行将溃散的龙，发出最后的咆哮。
+[k]
+
+[messageOff]
+[cueSe NoblePhantasm_304800 NP_304800_18]
+
+[cueSe NoblePhantasm_304800 NP_304800_19]
+[wt 1.0]
+
+[cueSe NoblePhantasm_304800 NP_304800_20]
+[wt 1.0]
+
+[bgm BGM_EVENT_123 2.0 0.5]
+[charaFadein O 2.0 1]
+[wt 1.0]
+[cueSe NoblePhantasm_304800 NP_304800_21]
+[se ade9]
+[se ad828]
+[wt 1.0]
+[fadeout white 2.0]
+[wait fade]
+[seStop ad828 3.0]
+
+[charaTalk depthOn]
+[charaFadeout O 0.1]
+[charaFadeout N 0.1]
+[scene 118004]
+[wt 1.0]
+
+[fadein white 1.5]
+[bgm BGM_EVENT_123 1.5 1.0]
+[wait fade]
+
+[cueSe SE_21 21_ad1097]
+[seVolume 21_ad1097 0 0.5]
+[wt 2.0]
+
+＠欧若拉
+……啊……[r]……刚才的，声音……
+[k]
+
+＠
+仿佛听到了令人恼火的声音，[r]她恢复了意识。
+[k]
+
+＠
+被妖精骑士的剑刺穿后，已过去数小时。[r]她仰面躺着，朦胧地睁开了双眼。
+[k]
+
+[messageOff]
+[scene 132501 1.5]
+[wt 2.0]
+
+＠欧若拉
+……非常安静。[r]城里的喧嚣已经平息了吗。
+[k]
+
+[scene 132506 0.3]
+
+＠欧若拉
+呵呵，也是呢。毕竟一直在闹嘛。[r]大家应该都疲劳，并冷静下来了吧。
+[k]
+
+[scene 132500 0.3]
+
+＠欧若拉
+都说了吧？　只要等下去，迟早会平息的。[r]所有的烦恼都会有别人来帮忙解决。
+[k]
+
+＠欧若拉
+我一直都是这样的哦。[r]所以，这次不也是这样吗？
+[k]
+
+[messageOff]
+[scene 118004 1.5]
+[wt 2.0]
+
+＠
+咳咳，咳咳，咳嗽声响起。
+[k]
+
+＠
+面带柔和的微笑，[r]她一如既往优雅地诉说着。
+[k]
+
+＠
+房间里已经没有任何人了，[r]城市里已经没有幸存者了。
+[k]
+
+＠
+回应她的，只有过去的回忆。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_123 1.0 0.5]
+[wait fade]
+
+[scene 118000]
+[effect bit_sepia01_depth_fs]
+[pictureFrame cut063_cinema]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_123 1.0 1.0]
+[wait fade]
+
+＠桌上的虫子
+『自己是最为光辉闪耀的』，[r]这就是你唯一拥有的爱。
+[k]
+
+＠桌上的虫子
+从未想过让自己成为优秀的存在，[r]也从未想过要去成长或是努力。
+[k]
+
+＠桌上的虫子
+毕竟，[r]你从诞生的那刻起，就已经是完成形了。
+[k]
+
+＠桌上的虫子
+不需要像土之氏族那样工作，[r]不需要像牙之氏族那样受伤，
+[k]
+
+＠桌上的虫子
+不需要像翅之氏族那样学习，[r]不需要像镜之氏族那样奉献。
+[k]
+
+＠桌上的虫子
+[#只需存在便有价值的妖精]。[r]这就是风之氏族的结论。
+[k]
+
+＠桌上的虫子
+[line 3]你就是这样的化身啊，欧若拉。
+[k]
+
+＠桌上的虫子
+不爱任何人，也不渴求任何人。[r]需要的，只有装饰自己的饰品。
+[k]
+
+＠桌上的虫子
+相当有魅力的存在方式。[r]我很喜欢哦，嗯，非常喜欢。
+[k]
+
+＠桌上的虫子
+不过，一旦出现了比自己更受欢迎的人，[r]那时的你就不太好了。
+[k]
+
+＠桌上的虫子
+亲自动手未免太不像你的作风了吧。[r]这种事就该交给身边的跟班去解决。
+[k]
+
+＠桌上的虫子
+比方说伦蒂尼恩那次，[r]又比方说艾因塞尔那次。
+[k]
+
+
+＠欧若拉
+[FFFFFF]？[-]　你在说什么啊，奥伯龙？[r]你说的那两次都是自作自受招致的毁灭吧？
+[k]
+
+
+＠欧若拉
+我也非常悲伤……[r]不过他们肯定是招惹了他人的怨恨吧……
+[k]
+
+
+＠桌上的虫子
+是吗，太好了。
+[k]
+
+＠桌上的虫子
+去西边人类牧场那次，[r]你早就知道那天高文会来的事，
+[k]
+
+＠桌上的虫子
+以及派优秀的妖精马负责监视的事，[r]诸如此类，看来都是我的错觉吧。
+[k]
+
+
+＠欧若拉
+[FFFFFF]？[-]　我确实知道高文的安排……
+[k]
+
+＠欧若拉
+她与『预言之子』发生冲突一事有什么问题吗？
+[k]
+
+
+＠桌上的虫子
+当然没有，多亏如此，进度还加快了。[r]少了一个演员这事就一笑置之好啦。
+[k]
+
+＠桌上的虫子
+嗯，那今后也麻烦你啦。[r]要和斯普里根和睦相处哦。
+[k]
+
+
+＠欧若拉
+你要走了吗？
+[k]
+
+＠欧若拉
+我还以为可以听到更多[r]有趣的故事呢……真遗憾。
+[k]
+
+
+＠桌上的虫子
+就算我不说，[r]大多数发生的事你不也知道吗？
+[k]
+
+＠桌上的虫子
+说实话，在谍报活动方面，我可比不过风之氏族哦。[r]从古至今，就没有比『风之讯息』更恐怖的情报操控了。
+[k]
+
+＠桌上的虫子
+对了，只是[line 3]
+[k]
+
+＠桌上的虫子
+能麻烦你不要对阿尔托莉雅[r]与[%1]出手吗？
+[k]
+
+＠桌上的虫子
+想打倒摩根，[r]那两个都是必要的棋子哦。
+[k]
+
+
+＠欧若拉
+哎呀，居然露出了从未见过的表情。[r]我都要嫉妒那两个孩子了。
+[k]
+
+
+＠欧若拉
+话说，奥伯龙。[r]你说过你的目的是让摩根陛下退位……
+[k]
+
+＠欧若拉
+我真的可以相信你说的话吗？[r]你应该不是混进我的不列颠的害虫吧？
+[k]
+
+
+＠桌上的虫子
+当然啦。[r]我是为了不列颠的未来而行动的。
+[k]
+
+＠桌上的虫子
+正因为我觉得你是全不列颠最适合[r]当统治者的，才会这样为你安排。
+[k]
+
+＠桌上的虫子
+不过，你确实不可过于信任我。[r]毕竟我所说的话全都是谎言。
+[k]
+
+
+＠欧若拉
+[FFFFFF]？[-]　这是什么意思呢？
+[k]
+
+＠欧若拉
+倘若全都是谎言，那你的这句[r]『不可以过于信任我』也同样是谎言吧……
+[k]
+
+
+＠桌上的虫子
+我就是这样子的英灵啦。
+[k]
+
+＠桌上的虫子
+既没有隐瞒真相，[r]也没有散播虚假。
+[k]
+
+＠桌上的虫子
+妖精王奥伯龙说出口的，[r]自始至终都会是“不值得相信的话”。
+[k]
+
+＠桌上的虫子
+不管是真的，还是假的，[r]从嘴里说出来的那刻起，就会变成谎言。
+[k]
+
+＠桌上的虫子
+与你截然相反哦，欧若拉。[r]你说的一切都会变成真话。
+[k]
+
+＠桌上的虫子
+无论怀着多么阴暗的感情，[r]无论怎样伪装自己，
+[k]
+
+＠桌上的虫子
+当说出口的瞬间，妖精们，还有世界，[r]最重要的是你自己，都会相信那并非谎言。
+[k]
+
+
+＠欧若拉
+呵呵，奥伯龙你真奇怪。[r]总是说这种莫名其妙的话。
+[k]
+
+＠欧若拉
+呃，你是说……我是个骗子吗？[r]类似骗子能够理解骗子的感觉？
+[k]
+
+
+＠桌上的虫子
+怎么可能。[r]你连自己在撒谎的自觉都没有吧。
+[k]
+
+＠桌上的虫子
+既是加害者，亦是旁观者。[r]正因如此，你才能一直存活至今。
+[k]
+
+＠桌上的虫子
+还说什么不列颠最美丽的妖精，[r]太夸张了。
+[k]
+
+＠桌上的虫子
+你是不列颠最纯洁的簒夺者哦。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_123 1.0 0.5]
+[wait fade]
+
+[scene 118004]
+[effectStop bit_sepia01_depth_fs]
+[pictureFrame]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_123 1.0 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[scene 132500 1.5]
+[wt 2.0]
+
+＠欧若拉
+真是个可爱的人儿。[r][line 3]要是能抓起来杀掉就好了。
+[k]
+
+[messageOff]
+[charaScale A 1.8]
+[charaFadein A 1.0 -100,-100]
+[charaMove A 100,-100 20.0]
+[wt 1.0]
+
+＠
+不列颠最美丽的妖精，[r]不列颠最闪耀的妖精。
+[k]
+
+＠
+像这样存在是她唯一的『目的』，[r]3000年间一直追求像这样存在。
+[k]
+
+＠
+谎言与阴谋都并非罪过。[r]只不过是[#像这样存在]所需的费用罢了。
+[k]
+
+＠
+她既没有作恶的自觉，也没有行善的自觉。[r]一切都被她当做追求“闪耀”的手段。
+[k]
+
+＠
+只是[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 1.0]
+[wt 1.0]
+
+＠欧若拉
+[line 3]从前，曾有过一次[line 3]
+[k]
+
+[fadeout black 3.0]
+[bgm BGM_EVENT_123 3.0 0.5]
+
+＠
+只有过一次，做了对自己没有好处的事。
+[k]
+
+[messageOff]
+[wait fade]
+
+[imageSet B cut276_orl1 1]
+[charaScale B 2.0]
+[sceneSet D 132600 1]
+[sceneSet E 132600 1]
+[charaScale D 2.5]
+[charaFadein B 0.1 200,-700]
+
+[scene 125002]
+[effect bit_sepia01_depth_fs]
+[wt 1.0]
+
+[fadein black 2.0]
+[charaMove B -200,-700 15.0]
+[bgm BGM_EVENT_123 2.0 1.0]
+[wait fade]
+
+[wt 3.0]
+
+＠
+女王历1600年，湖区。[r]带着侍女们前去视察镜之氏族的城市时。
+[k]
+
+＠
+在昏暗的湖水中，她发现了那个生物。
+[k]
+
+＠
+蠢动的肉块，那在腐烂的污浊中，[r]仍显得格外骇人的存在方式。
+[k]
+
+[messageOff]
+[charaFadeout B 2.0]
+[wt 2.5]
+
+＠欧若拉
+哎呀[line 3]
+[k]
+
+＠
+当时想到的，只是算计。[r]只想在侍女们面前装模作样。
+[k]
+
+＠
+『不列颠最美丽的妖精[r]　救助了不列颠最丑陋的东西。』
+[k]
+
+＠
+那个举动原本只是用来宣传，[r]能这样做的自己比任何人都更优秀。
+[k]
+
+＠欧若拉
+我是欧若拉。[r]你的名字是？
+[k]
+
+＠龙骸
+[line 3]，[line 3][r]……[line 6]……
+[k]
+
+＠
+只不过，令人意外的是，[r]抱起来的肉块像人一样发出了呜咽声。
+[k]
+
+＠
+如此悲伤、温暖、真挚的泪水，她从未见过。
+[k]
+
+＠
+如此，并非事后获得的艳羡[line 3][r]而是对自己行为本身大为感动的事[line 3]
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgm BGM_EVENT_123 1.5 0.5]
+[wait fade]
+
+[scene 118004]
+[effectStop bit_sepia01_depth_fs]
+[pictureFrame]
+[wt 1.0]
+
+[fadein black 1.5]
+[bgm BGM_EVENT_123 1.5 1.0]
+[wait fade]
+
+＠欧若拉
+[line 3]其实，[r]那种东西，我根本不想碰。
+[k]
+
+＠
+『我想变得像你一样』，[r]说罢，肉块变成了美丽的妖精。
+[k]
+
+＠
+她虽是不老的，但也会衰败。[r]自从进入女王历以来，翅膀的光辉便有减无增，
+[k]
+
+＠
+所以不每天找些稀奇的事、新颖的玩意儿[r]振奋心情的话，光辉便会衰退。
+[k]
+
+[messageOff]
+[scene 132503 1.5]
+[wt 2.0]
+
+
+＠欧若拉
+[line 3]啊啊，可是那女孩。
+[k]
+
+＠
+竟然无比强大、美丽、不会衰败。
+[k]
+
+＠
+甚至不需要刻意保持纯洁，[r]以免察觉到自己是个丑恶的生物。
+[k]
+
+[scene 132502 0.3]
+
+＠欧若拉
+看，现在依然，在那种地方。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadein D 1.0 800,-915]
+[scene 132600]
+[wt 1.0]
+
+[fadein black 1.0]
+[charaMove D 700,-865 5.0]
+[wait fade]
+
+[wt 3.0]
+[charaFadeout D 1.0]
+[wt 2.5]
+
+＠
+在孤高的空中前行的龙之妖精。[r]是多么令人火大、多么令人憎恨、多么令人厌恶。
+[k]
+
+＠
+自己在地上满身泥泞时，[r]那个妖精却比任何人都要美丽。
+[k]
+
+
+＠欧若拉
+……傻孩子。[r]只要，杀死，我[line 2]
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 10000]
+[wt 0.1]
+
+[fadein black 0.1]
+[wait fade]
+
+＠
+龙之妖精便会变回肉块。
+[k]
+
+＠
+她是绝对不会主动爱龙的。[r]赌上她的骄傲，决不会容许龙得到回报。
+[k]
+
+＠
+龙只需对徒有其表的爱之话语感到失望，[r]并永远痛苦下去就行了。
+[k]
+
+＠
+那种渴望，那种绝望，[r]使龙成为了妖精。
+[k]
+
+＠
+那头龙恰恰是为了自己，[r]而不得不一直守护着她这个痛苦的源头。
+[k]
+
+＠
+而龙却并非为了自己，[r]而是为了她，才终结了她的性命。
+[k]
+
+[messageOff]
+[fadeout black 0.1]
+[wait fade]
+
+[scene 132500]
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+
+＠欧若拉
+嗯，说得对。[r]其实我，根本不害怕，自己的死。
+[k]
+
+＠欧若拉
+我怕的是失去光辉，[r]怕的是褪色，变得不再特别。
+[k]
+
+[scene 132505 0.3]
+
+＠欧若拉
+所以[line 3]
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 125001]
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+
+＠
+哪怕，会变回原本丑陋的肉块，
+[k]
+
+＠
+龙也要为拯救了自己的[#奇迹:欧若拉]，[r]杀害自己在这世间最爱之物。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 132500]
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+
+
+＠欧若拉
+……从头到尾，都那么可恨。[r]也罢。总算能说再见，痛快多了。
+[k]
+
+＠欧若拉
+看吧，奥伯龙。[r]纯洁这个词，就是在形容那种蠢货。
+[k]
+
+[messageOff]
+[charaDepth D 2]
+[charaDepth E 1]
+[charaScale D 2.0]
+[charaFadein D 1.5 600,-710]
+[wt 2.0]
+[charaScale E 1.05]
+[charaFadein E 0.1 0,-200]
+
+＠
+纯粹出于虚荣心抱起来的东西，[r]犹如湖面，一直映照着她那丑陋的存在。
+[k]
+
+[scene 132600]
+
+＠欧若拉
+…………消失吧，消失吧。
+[k]
+
+＠
+但是，随后诞生的东西真的很美丽。
+[k]
+
+＠
+她露出了微笑，[r]表示自己第一次做了件好事。
+[k]
+
+[messageOff]
+[scene 132517]
+[charaFadeout D 2.0]
+[charaMoveScale E 1.0 4.0]
+[wt 3.0]
+
+＠欧若拉
+……高高地，高高地。
+[k]
+
+＠欧若拉
+……无穷无尽地……高飞…………
+[k]
+
+＠
+龙之残骸逐渐碎裂。
+[k]
+
+[messageOff]
+[charaFadeout E 2.0]
+[wt 3.0]
+
+＠
+像个孩子那样仰望着那副光景，[r]她的性命随着光辉一同消散了。
+[k]
+
+[messageOff]
+[fadeout white 3.0]
+[bgmStop BGM_EVENT_123 3.0]
+[wait fade]
+
+[scene 122902]
+[wt 1.5]
+
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 3.0 0.7]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 3.0 1.0]
+[se ad241]
+[seVolume ad241 0 0]
+[seVolume ad241 3.0 0.6]
+[shake 0.05 2 2 6.5]
+[fadein white 3.0]
+[wait fade]
+[wt 2.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaPut T 2000,2000]
+[charaEffect T bit_talk_10_LowLevel]
+
+[scene 132903]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.5]
+
+[seStop ad556 2.0]
+[seStop ade393 2.0]
+[seStop ad241 2.0]
+
+？1：那就是出口[line 3]！
+
+？！
+
+[charaTalk I]
+[charaFace I 8]
+[charaFadein I 0.1 1]
+
+＠戈尔德鲁夫
+唔，嗯，确实是出口！[bgm BGM_EVENT_63 0.1][r]但阿尔比恩究竟为什么要这样做！？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 2]
+[charaFadein J 0.1 1]
+
+＠尼莫
+详情以后再细究！[r]达·芬奇，距离目标有多远！？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaPut T 1]
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]距离空洞中裂开的裂缝还有800㎞！[-][r][51ffff]比目测要远，但完全没问题！　船长！[-]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+[charaEffectStop T bit_talk_10_LowLevel]
+
+[charaTalk J]
+[charaFace J 2]
+[charaFadein J 0.1 1]
+
+＠尼莫
+全员，抓什么都行，总之抓稳了！[r]穆尼尔，功率提至最大！　不用考虑后果！
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 2]
+[charaFadein M 0.1 1]
+
+＠穆尼尔
+噢，包在我身上！[r]Storm Border，全速前进！
+[k]
+
+＠穆尼尔
+冲到太阳上吧！
+[k]
+
+[messageOff]
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 2.0 0.7]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 2.0 1.0]
+[se ad241]
+[seVolume ad241 0 0]
+[seVolume ad241 2.0 0.6]
+
+[charaFadeout M 1.0]
+
+[scene 122902 1.0]
+[wt 2.5]
+[seStop ad556 2.0]
+[seStop ade393 2.0]
+[seStop ad241 2.0]
+[se ad906]
+[wt 1.8]
+[cueSe SE_21 21_ad1097]
+[se ade378]
+
+[se ad907]
+[seVolume ad907 0 0]
+[seVolume ad907 1.0 0.6]
+
+
+[cameraMove 2.5 0,-30 1.1]
+[wt 1.0]
+
+[fadeout white 1.5]
+[bgmStop BGM_EVENT_63 1.5]
+[seStop ad907 2.5]
+[wait fade]
+
+[sceneSet A 125504 1]
+[sceneSet B 125500 1]
+[sceneSet C 125503 1]
+[sceneSet D 125502 1]
+[sceneSet P 125501 1]
+[charaScale P 1.5]
+[imageSet Q back10000 1]
+[imageSet R back10000 1]
+[charaScale Q 1.01]
+[charaScale R 1.01]
+
+[cameraHome 0.1]
+[charaTalk depthOff]
+[charaDepth P 1]
+[charaDepth Q 2]
+[charaDepth R 3]
+
+[scene 10000]
+[wt 2.5]
+
+[fadein white 1.5]
+[wait fade]
+
+[fadeout black 0.1]
+[wait fade]
+
+
+
+[scene 10000]
+
+[fadein black 1.5]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.5 0.6]
+
+[se ad1022]
+[seVolume ad1022 0 0]
+[seVolume ad1022 1.5 0.3]
+[wait fade]
+
+[wt 1.0]
+[seStop ad556 4.0]
+[seStop ad1022 4.0]
+
+[charaScale A 0.8]
+[charaFadein A 1.0 200,-400]
+[charaMove A 50,-200 12.0]
+
+＠
+奥伯龙在坠落。
+[k]
+
+＠
+在无底空洞，没有尽头的坑道，[r]无尽地坠落。
+[k]
+
+＠
+已经没有了飞翔的力量。[r]不，说到底[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 1.0]
+[wt 1.0]
+[scene 125501 1.0]
+[wt 1.0]
+
+
+
+
+[bgm BGM_EVENT_95 0.1]
+
+＠奥伯龙·伏提庚
+背上的翅膀本就是装饰，[r]怎么可能飞起来嘛，笨蛋。
+[k]
+
+＠
+憎恨地嗤笑着。[r]实际上，还算挺痛快吧。
+[k]
+
+＠
+虽说吃了败仗，但奥伯龙的目的已然实现。
+[k]
+
+＠
+感到不爽的，[r]也只有没能拉着迦勒底陪葬而已。
+[k]
+
+＠奥伯龙·伏提庚
+去吧去吧，爱飞哪儿飞哪儿！[r]一想到再也不用见到你们，[907ca1]我[-]也痛快多了！
+[k]
+
+[scene 10000 1.0]
+[effect bit_talk_border_light]
+
+＠
+渐行渐远，[r]渐行渐远。
+[k]
+
+＠
+『异邦的魔术师』、另一位预言之子。[r]漫长旅途的同伴朝着遥远的天空飞去。
+[k]
+
+[messageOff]
+[effectStop bit_talk_border_light]
+[charaDepth B 1]
+[charaDepth C 2]
+[charaScale B 1.1]
+[charaScale C 1.1]
+[charaFadein B 2.0 -60,-200]
+[charaFadein C 2.0 -60,-200]
+[charaMove B 60,-200 20.0]
+[charaMove C 60,-200 20.0]
+[wt 2.0]
+
+＠
+大骗子奥伯龙憎恨地见证了全过程后。
+[k]
+
+＠奥伯龙·伏提庚
+算了，都无关紧要了。[r]反正我杀死不列颠的愿望已经实现了。
+[k]
+
+[charaFadeout C 0.5]
+
+＠奥伯龙·伏提庚
+对了，但是[line 3]
+[k]
+
+＠奥伯龙·伏提庚
+虚构的[C0C0C0]你[-]，[r]爱着性格别扭的奥伯龙的，缇坦妮娅。
+[k]
+
+＠奥伯龙·伏提庚
+为了[C0C0C0]你[-]，我消灭[#泛人类史:那些家伙]的愿望[r]没能实现啊。
+[k]
+
+[messageOff]
+[charaFadeout B 2.0]
+[wt 3.0]
+
+＠
+基于“成为那样吧”的需求被创造，[r]却因“没有后续戏份”而遭舍弃的存在。
+[k]
+
+＠
+只能存在于故事中，[r]犹如活祭的，他心中的爱。
+[k]
+
+＠
+[line 3]就算，[r]已经遇到了与之相似的对象。
+[k]
+
+＠
+大骗子奥伯龙也无法承认这点。
+[k]
+
+[messageOff]
+[scene 125500 2.0]
+[wt 3.0]
+
+＠奥伯龙·伏提庚
+唉，话说回来啊。[r]都被暴打到一败涂地了[line 3]
+[k]
+
+＠奥伯龙·伏提庚
+为什么[907ca1]我[-]还会这么平静呢。
+[k]
+
+＠
+奈落之洞正在消失，[r]无尽地坠落。
+[k]
+
+＠
+其中，
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_95 2.0]
+[scene 10000 2.0]
+[wt 2.5]
+
+＠奥伯龙·伏提庚
+哼，那就是泛人类史的天空吗……
+[k]
+
+[messageOff]
+[charaScale D 1.5]
+[charaFadein D 2.0 -300,-100]
+[charaMove D -300,-250 15.0]
+[wt 2.0]
+[bgm BGM_EVENT_110 0.1]
+[wt 1.0]
+
+＠奥伯龙·伏提庚
+真是的。[r]这不是漂亮得令人作呕嘛[line 3]
+[k]
+
+[messageOff]
+[wt 3.0]
+[charaFadeout D 2.5]
+[wt 4.5]
+
+
+
+＠
+无限空洞的盖子紧闭。[r]奈落之虫不会抵达任何地方地，坠落着。
+[k]
+
+
+[messageOff]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.5 0.6]
+
+[se ad1022]
+[seVolume ad1022 0 0]
+[seVolume ad1022 1.5 0.3]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_110 2.0]
+[wait fade]
+
+[seStop ad556 2.0]
+[seStop ad1022 2.0]
+[wt 2.0]
+[se ad308]
+[se ad299]
+[se ad298]
+[seStop ad308 3.0]
+[seStop ad299 3.0]
+[seStop ad298 3.0]
+[wt 4.0]
+
+[soundStopAll]
+[end]

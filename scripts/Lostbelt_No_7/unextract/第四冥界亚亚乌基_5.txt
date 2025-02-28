@@ -1,0 +1,922 @@
+
+
+
+＄03-00-13-20-5-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253060 1 卡玛佐茨]
+[charaSet B 5012001 1 尼托克丽丝]
+
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+[charaSet S 98115000 1 逆臣们]
+[charaSet T 98115000 1 特效用dummy]
+
+[sceneSet C 174200 1]
+[charaScale C 1.4]
+
+
+[scene 131700]
+[effect bit_sepia01_depth_fs]
+
+[se ade393]
+[seVolume ade393 0 0]
+[se ad14]
+[seVolume ad14 0 0]
+
+[seVolume ade393 1.5 0.7]
+[seVolume ad14 1.5 0.3]
+[fadein black 1.5]
+[wait fade]
+[wt 0.5]
+
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.4 1]
+[wt 0.4]
+
+[bgm BGM_EVENT_1 0.1]
+[seVolume ade393 1.0 0.5]
+[seVolume ad14 1.0 0.1]
+
+＠尼托克丽丝
+毁灭吧，丑陋的家伙们……！！
+[k]
+
+＠尼托克丽丝
+你们的惨叫、呻吟、恳求！[r]如今已无人能听到！
+[k]
+
+＠尼托克丽丝
+我会杀死你们！[r]能在尼罗河水的拥抱下死去，你们反倒该高兴才对！
+[k]
+
+[charaFace B 9]
+＠尼托克丽丝
+我的兄弟无一不被你们当作傀儡法老操控，[r]最终甚至还被你们赶尽杀绝……
+[k]
+
+[charaFace B 5]
+＠尼托克丽丝
+我绝不饶恕，岂可饶恕，不可饶恕不可饶恕！[r]我一直在翘首期盼着这一天……！
+[k]
+
+[charaTalk S]
+＠逆臣们
+为什么，尼托克丽丝[line 3][r]拥戴你成为法老的人可是我们啊！
+[k]
+
+[charaFace B 9]
+＠尼托克丽丝
+都是为了这一天。[r]一切、一切都是为了诛杀你们所有人。
+[k]
+
+＠尼托克丽丝
+我苟活到现在就是为了这一件事。[r]为了让你们选我当下一任傀儡……
+[k]
+
+＠尼托克丽丝
+让你们误以为自己能肆意操控并[r]占据我的尊严、存在、肉体以及意志。
+[k]
+
+＠尼托克丽丝
+然后，你们就中了我的陷阱。[r]听说我有礼物相赠，你们都想象了些什么？
+[k]
+
+[charaFace B 5]
+＠尼托克丽丝
+酒池肉林之宴？　黄金的财宝？[r]还是说[line 3][wt 1.0]哦，难道你们以为能享用我的身体？
+[k]
+
+[charaFace B 2]
+＠尼托克丽丝
+结束了，我会结束一切。[r]妄图操控法老的傲慢之辈，就在此破灭吧！
+[k]
+
+[charaTalk S]
+＠逆臣们
+住手，不要，我不想死……！[r]饶命啊……！
+[k]
+
+[charaFace B 5]
+＠尼托克丽丝
+去向我心爱的兄弟们求饶吧！[r]向被你们残忍杀害的他们求饶！
+[k]
+
+[charaFace B 9]
+＠尼托克丽丝
+你们绝不可能前往永恒国度。[r]呵呵，不过庆幸吧。因为我也一样，我也会紧随你们之后。
+[k]
+
+[charaFace B 2]
+＠尼托克丽丝
+只为紧紧抓住死去的你们，[r]为你们带去未来永劫决不消散的痛苦[line 3]！
+[k]
+
+[messageOff]
+
+[cueSe NoblePhantasm_602800 NP_602800_8]
+[cueSe NoblePhantasm_602800 NP_602800_9]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+
+[bgmStop BGM_EVENT_1 0.7]
+[effectStop bit_sepia01_depth_fs]
+[seStop ade393 0.4]
+[seStop ad14 0.4]
+[se bac69]
+[wt 0.7]
+[cueSeStop NP_602800_8 1.0]
+[cueSeStop NP_602800_9 1.0]
+[se ad36]
+[wait se bac69]
+[wt 1.0]
+
+
+[scene 10000]
+
+[charaSet B 1098255300 1 尼托克丽丝]
+
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_75 0.1]
+
+＠
+没错，我不后悔。[r]我完成了复仇，匡正了法老的威严，随后自尽了。
+[k]
+
+＠
+死去的法老会前往没有任何痛苦的乐园。[r]他们拥有这种资格，拥有相应的权力。
+[k]
+
+＠
+可我却没有为之做准备。[r]我认为自己没有那样做的资格。
+[k]
+
+＠
+我不曾忘记那愤怒，[r]我不曾忘记那憎恨。
+[k]
+
+＠
+而且，我也无法忘记。
+[k]
+
+＠
+我认为无论出于何种正义、何种理由，[r]都不能忘记自己犯下的罪。
+[k]
+
+[messageOff]
+[wt 0.5]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_75 1.5]
+[wait fade]
+
+[pictureFrame cut063_cinema]
+
+[scene 174200]
+
+[cameraMove 0 0,0 1.01]
+
+
+[effect bit_talk_lens_flare_fs]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+[wt 1.2]
+
+[cueSe SE_23 23_ad1239]
+[wt 1.5]
+
+[seStop 23_ad1239 0.5]
+[effectForceStop bit_talk_lens_flare_fs]
+[wt 1.7]
+
+＠尼托克丽丝
+……好……耀眼……[r]……我……这是……
+[k]
+
+＠尼托克丽丝
+……与那只怪物战斗……然后蝙蝠……[r]………话说，这声音……
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1239]
+
+[bgm BGM_EVENT_142 1.0]
+
+[charaTalk depthOff]
+[charaDepth C 1]
+[charaDepth A 2]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.4 0,-20]
+[charaFadein C 0.4 0,-220]
+[charaMove A 0,-100 2.0]
+[charaMove C 0,-300 2.0]
+[wt 3.5]
+[charaChange A 1098253000 17 fade 0.5]
+[wait charaChange A]
+[seStop 23_ad1239 0.5]
+＠卡玛佐茨
+真难喝，猴子的血果然难喝。[r]只知道吃肉，根本算不上什么正经饮食。
+[k]
+
+＠卡玛佐茨
+不过似乎比以前好了一点？[r]感觉……味道好像……浓郁起来了？
+[k]
+
+[messageOff]
+[charaFadeout C 0.5]
+[charaFadeout A 0.5]
+[wt 0.8]
+
+[charaTalk depthOn]
+
+[se ad7]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.3 0,-100]
+[charaMove B 0,-50 0.3]
+[wt 0.8]
+
+＠尼托克丽丝
+卡玛佐茨！？[r]你在干什么！？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 17]
+[charaFadein A 0.1 0,-50]
+[wt 0.4]
+
+[cueSe Servants_603900 bac1059]
+[charaMoveReturn A 0,-43 0.3]
+[wt 0.6]
+
+[se adm39]
+[seVolume adm39 0 0.4]
+[wt 1.1]
+
+[charaFaceFade A 3 0.2]
+＠卡玛佐茨
+[line 3]我在进食。[r]无论什么样的战士，都会饥饿，都要解决内急。
+[k]
+
+＠卡玛佐茨
+跟迦勒底打着打着，我就想喝血了。[r]卡玛佐茨只要有想要的东西便会去取。
+[k]
+
+＠卡玛佐茨
+所以我就回到巢穴，滋润口舌。[r]会把你带来则是出于此前的习性。
+[k]
+
+＠卡玛佐茨
+[#第一冥界:Kingprotea]、[#第二冥界:红阎魔]、[#第三冥界:埃列什基伽勒]。[r]全都是散发着冥界味道的从者。
+[k]
+
+[charaFace A 1]
+
+＠卡玛佐茨
+带走她们，使用令咒，[r]让她们变成守卫还真是愉快。
+[k]
+
+＠卡玛佐茨
+一个顺势就选择了你来当第四个，[r]结果忘记令咒已经用光了。
+[k]
+
+[charaFace A 11]
+
+＠卡玛佐茨
+没有令咒就无法实现愿望。[r]把你带来也没有任何意义。
+[k]
+
+[charaFace A 13]
+
+＠卡玛佐茨
+正可谓无能，而且无用。[r]怎能让人如此白费力气。
+[k]
+
+[messageOff]
+[se ad60]
+[charaFadeout A 0.4]
+[seStop ad60 1.0]
+[wt 1.6]
+
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+也就是说……我被你囚禁起来了？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.15]
+
+[se ad60]
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.4 0,-50]
+[wt 0.4]
+[seStop ad60 0.1]
+[wt 0.4]
+＠卡玛佐茨
+只是把你带来了而已。[r]而且还是顺势而为，因此并无理由。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+是吗，原来你是顺势而活的啊。
+[k]
+
+＠尼托克丽丝
+所以，从特拉洛克手下救了我们也是顺势而为？[r]毕竟你没有与特拉洛克战斗的理由。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 0,-50]
+＠卡玛佐茨
+当时你身上散发着不祥的氛围。[r]那种波长很刺耳。虽然现在也散发着那种氛围。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+………不祥的……氛围吗。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 0,-50]
+＠卡玛佐茨
+………………
+[k]
+
+[charaFace A 1]
+
+＠卡玛佐茨
+白费力气是愚者的行径。[r]卡玛佐茨不是愚者，那就从你身上找出意义吧。
+[k]
+
+[charaFace A 4]
+
+＠卡玛佐茨
+解开我的疑问，死灵使。
+[k]
+
+[bgmStop BGM_EVENT_142 1.5]
+
+＠卡玛佐茨
+你为何不会忘记。[r]为何事成之后，要自我了断？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_123 1.0]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+你是从哪里知道的？[r]我可不记得自己跟你说过生前的事。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 0,-50]
+＠卡玛佐茨
+……我不是说过了吗，我耳朵很灵。[r]而卡恩的废墟和奇琴伊察很近。
+[k]
+
+＠卡玛佐茨
+你的话乘着风飘进了我耳中。[r]从那之后，我大脑的约三分之一就一直很不对劲。
+[k]
+
+[charaFace A 5]
+＠卡玛佐茨
+回答我。你完成了复仇。[r]复仇之后的解脱，正是你人生的报酬。
+[k]
+
+＠卡玛佐茨
+然而你却选择了自我了断，[r]也不曾前往那什么乐园。
+[k]
+
+＠卡玛佐茨
+百思不得其解。为何要拒绝克服困难后的救赎！[r]你究竟在为了什么耗费自己的人生？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+那是因为……我在暗杀神官的计划上倾尽了全心全力，[r]没能做好启程前往乐园的准备……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 0,-50]
+＠卡玛佐茨
+你撒谎。杀死那群神官后，时间应该[r]要多少有多少。因为你是没有外敌的王。
+[k]
+
+[charaFace A 11]
+
+＠卡玛佐茨
+为了让神官们在冥界永远受折磨？[r]这也是在撒谎。
+[k]
+
+＠卡玛佐茨
+就算你不亲自动手，[r]冥界的系统也会自动执行。
+[k]
+
+[charaFace A 10]
+
+＠卡玛佐茨
+你自始至终就没打算去乐园。[r]老实说吧。卡玛佐茨能分辨谎言。
+[k]
+
+＠卡玛佐茨
+我想不明白的只有你为何这么做的理由。
+[k]
+
+[charaFace A 9]
+
+＠卡玛佐茨
+虽然我觉得不太可能，但你[line 3][r]该不会认为自己是罪人吧？
+[k]
+
+＠卡玛佐茨
+分明拥有绝对的正义、绝对的权利，[r]却觉得[#自己是最邪恶的]？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+………………
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+＠卡玛佐茨
+不说话吗。沉默意味着肯定。[wt 0.8][charaFace A 1][r][line 3]哈。
+[k]
+
+[charaFace A 14]
+＠卡玛佐茨
+哈哈，哈哈哈哈哈哈哈哈哈哈！[r]有意思有意思，泛人类史的王真有意思！
+[k]
+
+＠卡玛佐茨
+生而为复仇者，成功地完成了复仇！[r]却拒绝自己复仇者的身份，证明自己是该被裁决的罪人！
+[k]
+
+[charaFace A 1]
+＠卡玛佐茨
+无比愚蠢的女人，如太阳般倔强的脾气。[r]比起成神之路，竟选择殉身于自己的信念。
+[k]
+
+＠卡玛佐茨
+这下说得通了。卡玛佐茨满意了。[r]重新回归无聊的进食吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+……等一下。[r]只有我被打探过去未免太不公平了。
+[k]
+
+＠尼托克丽丝
+或者说令人不快。[r]我也要问个问题，可以吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 0,-50]
+＠卡玛佐茨
+……好吧，长话短说。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+你自称冥界之王，[r]还自称是米克特兰真正的王。
+[k]
+
+＠尼托克丽丝
+那你又如何看待面临毁灭的米克特兰的。
+[k]
+
+＠尼托克丽丝
+太阳即将迎来临界点，然后消灭。[r]届时你也会消灭吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,-50]
+＠卡玛佐茨
+就算太阳消失，卡玛佐茨也不会改变。[r]会死绝的只有米克特兰。
+[k]
+
+＠卡玛佐茨
+迪诺斯们应该会接受灭绝吧。[r]就像他们曾经也这么接受过。
+[k]
+
+[charaFace A 4]
+＠卡玛佐茨
+然而我不一样，我不会灭绝。[r]哪怕没有太阳，仅靠大地的热量也能活下去。
+[k]
+
+＠卡玛佐茨
+10万年间，卡恩就是这样成长起来的。[r]耗费了10万年，才从哺乳类成长为人类。
+[k]
+
+＠卡玛佐茨
+长达10万年的[#历史:梦想]造就了这副身躯。[r]然后卡玛佐茨一直活了600万年。
+[k]
+
+＠卡玛佐茨
+[#王:我]所拥有的权能是“不死之身”。[r]卡玛佐茨的武器仅此而已。
+[k]
+
+[charaFace A 1]
+＠卡玛佐茨
+这点今后也不会改变。
+[k]
+
+＠卡玛佐茨
+无论是太阳消失，[r]还是ORT破坏了行星，
+[k]
+
+＠卡玛佐茨
+只要忘记一切，[r]过去就会变成“任何事”都没发生过。
+[k]
+
+[charaFace A 7]
+＠卡玛佐茨
+没有任何痛苦或忧愁，[r]连自己的影子都不存在，“现在”将会永恒持续下去。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+……你……果然……
+[k]
+
+[bgm BGM_EVENT_123 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth R 4]
+[charaDepth B 6]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+＠尼托克丽丝
+（通过忘记所有一切……[r]　通过不给予自己任何东西……）
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout R 0.2]
+[wt 0.1]
+
+[bgm BGM_EVENT_123 0.5 1.0]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 0,-50]
+＠卡玛佐茨
+够了吧，死灵使。[r]胆敢离开这山顶，我就杀了你，但只要不离开，我就不杀你。
+[k]
+
+＠卡玛佐茨
+我不打算束缚你，也不渴望得到你，你可以自由行动。[r]只不过[line 3]
+[k]
+
+[charaFace A 4]
+＠卡玛佐茨
+只不过，绝对不许成为异灵。令人不快至极。[r]卡玛佐茨可不打算见到不是你的你。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 11]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+你还真是天真呢。[r]我的同盟者很快就会到来。
+[k]
+
+＠尼托克丽丝
+放任我自由行动，只会徒增敌人哦？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0,-50]
+＠卡玛佐茨
+别说蠢话了，那些家伙不会来的。[r]即便大脑只有鸟那么点大，也能理解实力的差距才对。
+[k]
+
+＠卡玛佐茨
+只要是[#有点水平]的战士，就不可能来挑战卡玛佐茨。[r]更何况还是为了一名从者。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+……会来的，绝对会来。[r]我也觉得这不正常，但肯定会来。要不打个赌吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+＠卡玛佐茨
+注定会赢的赌局可谈不上打赌。[r]不过就跟你赌一把吧，机会难得。
+[k]
+
+＠卡玛佐茨
+等那些家伙就这样逃离米克特兰的时候，[r]就道出你的名字，并主动献给王吧。
+[k]
+
+＠卡玛佐茨
+那些家伙若敢挑战我，届时我就把[r]这个冥界给你，作为女王兴废存亡吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_123 1.5]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 0,-50]
+＠尼托克丽丝
+是吗。看来这个赌是我赢了。[r]因为，你看。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad667]
+[seVolume ad667 0 0]
+[se ad769]
+[seVolume ad769 0 0]
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0]
+[cueSe SE_22 22_ad1219]
+[cueSeVolume 22_ad1219 0 0]
+[seVolume ad667 1.2 0.2]
+[seVolume ad769 1.2 0.2]
+[cueSeVolume 22_ad1210 1.2 0.2]
+[cueSeVolume 22_ad1219 1.2 0.1]
+[wt 2.0]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 0,-50]
+[wt 2.0]
+
+[charaFace A 1]
+＠卡玛佐茨
+看来不算[#有点水平]吗？[r]真是的[line 3]
+[k]
+
+＠卡玛佐茨
+所谓的人型人类啊，[r]还真是不死心呢。
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[seStop ad667 1.5]
+[seStop ad769 1.5]
+[cueSeStop 22_ad1210 1.5]
+[cueSeStop 22_ad1219 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[pictureFrame]
+
+[se ad667]
+[seVolume ad667 0 0]
+[se ad769]
+[seVolume ad769 0 0]
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0]
+[cueSe SE_22 22_ad1219]
+[cueSeVolume 22_ad1219 0 0]
+[wt 1.5]
+
+[seVolume ad667 1.5 0.5]
+[seVolume ad769 1.5 0.5]
+[cueSeVolume 22_ad1210 1.5 0.5]
+[cueSeVolume 22_ad1219 1.5 0.3]
+[fadein black 1.5]
+[wait fade]
+[wt 1.0]
+
+[seStop ad667 0.3]
+[seStop ad769 0.3]
+[cueSeStop 22_ad1210 0.3]
+[cueSeStop 22_ad1219 0.3]
+[wt 0.6]
+
+？1：尼托克丽丝！
+？2：太好了，你没事……！
+？！
+
+[bgm BGM_BATTLE_68 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠卡玛佐茨
+不屈过度则为不敬。[r]没有比缺少劝谏者的勇者更可怜的存在了。
+[k]
+
+[charaFace A 2]
+＠卡玛佐茨
+但还是表示欢迎。屠戮吧！[r]让第四冥界的山顶，升起鲜血之阳！
+[k]
+
+[charaFace A 1]
+＠卡玛佐茨
+迦勒底的神官，[r]我和你也算交情匪浅了。
+[k]
+
+＠卡玛佐茨
+只要砍下你的脑袋，沐浴你洒落的鲜血，[r]享乐便会成为过去，遭到遗忘。
+[k]
+
+[charaFace A 12]
+＠卡玛佐茨
+可是那样会让我于心难忍。[r]因此，趁现在向你传达我的感谢之情吧。
+[k]
+
+[charaFace A 4]
+＠卡玛佐茨
+『戴比特是对镜。[r]　敌人战力越多，那家伙唤来的影子便越多。』
+[k]
+
+[bgmStop BGM_BATTLE_68 1.5]
+[charaCrossFade A 1098253060 1 0.3]
+＠卡玛佐茨
+收下了吗？[r]那就开始晚餐吧！[wait charaCrossFade A]
+[k]
+
+＠卡玛佐茨
+勇者之血献予祭坛！[r]人理之徒葬于墓穴！
+[k]
+
+[bgm BGM_BATTLE_32 0.1]
+
+＠卡玛佐茨
+汝，杀害同胞[#人类史:邻舍]之时已至！
+[k]
+
+[messageOff]
+[cueSe SE_23 23_ad1237]
+
+[charaDepth S 9]
+[charaDepth T 8]
+[charaDepth A 7]
+
+[charaPut S 1]
+[charaEffect S bit_talk_bat_aura01]
+[wt 2.0]
+
+[se ade409]
+[se ade103]
+[cueSeStop 23_ad1237 0.3]
+[cueSe Servants_305300 m52323]
+[flashin once 0.1 0.1 000000FF 000000FF]
+[charaPut T 1]
+[charaEffect T bit_talk_bat_silhouette]
+[charaCrossFade A 1098253020 1 0.1]
+[wait charaCrossFade A]
+[wt 0.3]
+[cueSeStop m52323 1.0]
+[seStop ade103 0.1]
+[wt 0.4]
+
+[se ad690]
+[wt 1.0]
+
+[cueSe Servants_9944030 m89916]
+[cueSe Servants_9944030 m89924]
+[fadeout white 0.3]
+[cueSeStop bac553 0.6]
+[cueSeStop 21_ad1082 0.6]
+[wait fade]
+
+[charaScale A 1.2]
+[charaPut S 2000,2500]
+[charaPut T 2000,2500]
+[charaEffectStop S bit_talk_bat_aura01]
+[charaEffectStop T bit_talk_bat_silhouette]
+[wt 1.8]
+
+[fadein white 1.5]
+[wait fade]
+[wt 0.2]
+
+[cueSe SE_23 23_ad1235]
+[se ad625]
+[se ad711]
+[fowardEffect bit_talk_voice02]
+[wt 0.1]
+[shake 0.01 3 3 0]
+
+[wt 2.5]
+
+
+
+
+[fadeout black 0.5]
+[seStop 23_ad1235 0.5]
+[seStop ad625 0.5]
+[seStop ad711 0.5]
+[bgmStop BGM_BATTLE_32 0.4]
+[wait fade]
+[soundStopAll]
+[end]

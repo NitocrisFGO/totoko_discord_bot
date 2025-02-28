@@ -1,0 +1,487 @@
+
+＄94-03-35-71-7-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+
+
+[charaSet A 1098188100 1 达·芬奇]
+[charaSet C 1098183600 1 魔兽(四足步行)]
+
+[charaSet D 98115000 1 特效用]
+[charaSet E 98115000 1 特效用]
+
+[equipSet F 9808190 1 情人节礼装]
+
+[scene 10600]
+
+[cameraMove 0.1 0,0 1.01]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk A]
+[charaFace A 34]
+[charaFadeinFSL A 0.4 -350,0]
+[bgm BGM_EVENT_77 0.1]
+
+[charaMoveFSL A -120,0 1.5]
+[wt 1.7]
+[se ade408]
+[charaMoveReturnFSL A -120,-5 0.8]
+[wait charaMove A]
+[wt 1.5]
+[charaFace A 4]
+[charaMove A 0,0 1.2]
+[wt 1.5]
+[se ade11]
+[charaMoveReturn A 0,-5 0.8]
+[wait charaMove A]
+[wt 1.2]
+[charaFace A 13]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V010]
+啊啊，收拾不完了，收拾不完了。[wait tVoice]
+[k]
+
+[charaFace A 14]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V020]
+因为从夏日冒险带了很多东西回来，[r]就这么搁置着没有整理。[wait tVoice]
+[k]
+
+？1：要我帮忙吗？
+？！
+
+[charaFace A 0]
+＠达·芬奇
+[tVoiceUser ValVoice_901200 0_V030 ValVoice_901200 0_V040]
+哎呀，[%1][&君:亲]。[r]是呀，如果你愿意帮忙，那可就太好了！[wait tVoice]
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_77 1.0 0.4]
+[wait fade]
+
+[charaFadeout A 0.1]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_77 1.0 1.0]
+[wait fade]
+
+[wt 0.5]
+[cameraMove 0.5 0,15 1.01]
+[wt 1.0]
+[cameraMove 0.3 0,10 1.01]
+[se ade408]
+[wt 0.3]
+[cameraMove 0.3 0,15 1.01]
+[wt 0.3]
+[cameraMove 0.3 0,10 1.01]
+[wt 0.3]
+[cameraMove 0.3 0,15 1.01]
+[wt 1.0]
+[cameraMove 0.5 0,-15 1.01]
+[wait camera]
+
+？1：达·芬奇亲～，这个放哪儿？
+？！
+
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V050]
+那是海底探索时使用的氧气瓶吧。[wt 4.5][charaFace A 24][r]唔～……还是留下来吧。[wait tVoice]
+[k]
+
+[charaFace A 0]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V060]
+把那个放在角落里～。[wait tVoice]
+[k]
+
+[messageOff]
+[wipeout rollRight 1.5 1]
+[bgm BGM_EVENT_77 1.5 0.4]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.7]
+[wipein rollLeft 1.5 1]
+[bgm BGM_EVENT_77 1.5 1.0]
+[wait wipe]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V070]
+那是悬挂式滑翔翼的试作品。[wt 3.5][charaFace A 7][r]唔～……放在角落里吧！[wait tVoice]
+[k]
+
+[messageOff]
+[wipeout rollRight 1.5 1]
+[bgm BGM_EVENT_77 1.5 0.4]
+[wait wipe]
+[charaFadeout A 0.1]
+[wt 0.7]
+[wipein rollLeft 1.5 1]
+[bgm BGM_EVENT_77 1.5 1.0]
+[wait wipe]
+[wt 0.4]
+
+[charaTalk A]
+[charaFace A 26]
+[charaFadein A 0.1 1]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V080]
+哎呀，这不是那个扑翼机的备用零件嘛。[wait tVoice]
+[k]
+
+[charaFace A 1]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V090]
+……这个也放在角落……[wait tVoice]
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_77 0.5]
+
+？1：这样怎么可能收拾干净嘛！
+？！
+
+[bgm BGM_EVENT_146 0.1]
+[charaFace A 16]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V100]
+哎呀～……啊哈哈。[r]抱歉抱歉。[wait tVoice]
+[k]
+
+＠达·芬奇
+[tVoice ValVoice_901200 0_V110]
+因为每一件都很珍贵，[r]都是包含了很多回忆的物件。[wait tVoice]
+[k]
+
+＠达·芬奇
+[tVoice ValVoice_901200 0_V120]
+所以不知不觉养成了保存东西的习惯。[wait tVoice]
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_146 2.0]
+[wait fade]
+[charaFadeout A 0.1]
+[wt 0.7]
+[fadein black 1.0]
+[wait fade]
+[wt 0.4]
+[bgm BGM_EVENT_147 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V130]
+唔～，[r]这个应该不需要了吧……[wait tVoice]
+[k]
+
+
+[branchQuestNotClear lblNotClear1 3000303]
+[label lblClear1]
+
+[charaFace A 0]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V140]
+嗯。作为不用的东西交给希翁吧。[r]她应该会帮忙妥善处理的。[wait tVoice]
+[k]
+
+[branch lblIsClearConf1]
+
+[label lblNotClear1]
+
+[label lblIsClearConf1]
+
+
+[charaFace A 10]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V150]
+哎呀呀，终于整理得差不多了。[wait tVoice]
+[k]
+
+？1：达·芬奇亲，最后是这个。
+？！
+
+[charaFace A 6]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V160]
+啊！[r]那是……[wait tVoice]
+[k]
+
+[charaFace A 26]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V170]
+呵呵。[r]你能稍微看着我一会儿吗？[wait tVoice]
+[k]
+
+？1：可以倒是可以……
+？！
+
+[bgmStop BGM_EVENT_147 1.0]
+
+[charaFace A 1]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V180]
+好。变身～♪[wait tVoice]
+[k]
+
+[messageOff]
+[se ad236]
+[effect bit_talk_magical_pon]
+[charaCrossFade A 9012000 1 0.1]
+[wait charaCrossFade A]
+[wt 1.0]
+
+[bgm BGM_MAP_78 0.1]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V190]
+这是本应该在加勒比海大展身手的！[wait tVoice]
+[k]
+
+＠达·芬奇
+[tVoice ValVoice_901200 0_V200]
+达·芬奇亲特制泳装灵基变换装置～。[wait tVoice]
+[k]
+
+[charaFace A 13]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V210]
+原本是为了快速换装而发明的，[r]结果由于在那边一直穿着泳装……[wait tVoice]
+[k]
+
+＠达·芬奇
+[tVoice ValVoice_901200 0_V220]
+结果压根没有派上什么用处。[r]呵呵。[wait tVoice]
+[k]
+
+[charaFace A 0]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V230]
+好了，夏天以来久违地穿上了泳装[line 3][wait tVoice]
+[k]
+
+[charaFace A 1]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V240]
+也算是兼顾调整，[r]一起去一趟战斗模拟装置吧！[wait tVoice]
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_MAP_78 1.0]
+[wait fade]
+[cameraHome 0.1]
+[charaFadeout A 0.1]
+[scene 129600]
+[wt 1.0]
+[fadein black 1.0]
+[bgm BGM_EVENT_3 0.1]
+[wait fade]
+
+[charaDepth C 1]
+[charaDepth D 2]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[se ad564]
+[wt 2.0]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 26]
+[charaFadein A 0.1 1]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V250]
+射击！[wait tVoice]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[cueSe Servants_901200 m46403]
+[charaPut D 1]
+[charaEffect D bit_talk_13]
+[wt 0.5]
+
+[cueSe Servants_901200 m46421]
+[fowardEffect bit_talk_explosion]
+[se ad34]
+[charaShake C 0.04 3 3 1.0]
+[wt 0.5]
+[fowardEffectStop bit_talk_explosion]
+[wt 1.0]
+
+[se ad569]
+[wt 0.5]
+[se ad42]
+[charaSpecialEffect C enemyErasure 1 1.3]
+[bgmStop BGM_EVENT_3 1.0]
+[wait charaSpecialEffect C]
+[wt 1.0]
+
+[bgm BGM_EVENT_77 0.1]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V260]
+嗯。[r]枪的状况没有问题。[wait tVoice]
+[k]
+
+＠达·芬奇
+[tVoiceUser ValVoice_901200 0_V270 ValVoice_901200 0_V280]
+谢谢你，御主[&君:亲]。[r]好了，得向你道谢才行呢。[wait tVoice]
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[se ad79]
+[wt 0.1]
+[effect bit_talk_valentinegift01]
+[backEffect bit_talk_valentine_brilliant_fs]
+[wt 3.0]
+[backEffectStop bit_talk_valentine_brilliant_fs]
+[wt 1.0]
+
+？1：啊，情人节！？
+？！
+
+[charaFace A 13]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V290]
+对啊～。[r]你以为我忘了吗？[wait tVoice]
+[k]
+
+＠达·芬奇
+[tVoice ValVoice_901200 0_V300]
+这可是重要的活动。[r]错过未免太可惜了吧？[wait tVoice]
+[k]
+
+[messageOff]
+[charaFace A 0]
+
+[se ad218]
+[seVolume ad218 0 0.7]
+[seStop ad218 4.0]
+[wt 3.0]
+
+[charaFace A 30]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V310]
+现在这个样子，总会让人回忆起夏天呢。[r]无论是大海、天空还是大地，全都在熠熠生辉。[wait tVoice]
+[k]
+
+？1：真想再去一次呢……
+？！
+
+[charaFace A 11]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V320]
+说得对。[wait tVoice]
+[k]
+
+[charaFace A 26]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V330]
+啊，但是和玛修两个人旅行或许也不错吧？[wait tVoice]
+[k]
+
+[charaFace A 1]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V340]
+不过那种情况下就不是情人节快乐了，[r]而是蜜月快乐了吧。[wait tVoice]
+[k]
+
+？1：达·芬奇亲！？
+？！
+
+[charaFace A 19]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V350]
+开玩笑开玩笑！[r]来吧，好不容易做出来了。[wait tVoice]
+[k]
+
+
+[charaFace A 7]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V360]
+找玛修和戈尔德鲁夫他们一起，[r]边回忆夏日边品尝吧。[wait tVoice]
+[k]
+
+？1：就这么办吧。
+？！
+
+[charaFace A 10]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V370]
+嗯。[r]……呵呵。[wait tVoice]
+[k]
+
+[charaFace A 3]
+＠达·芬奇
+[tVoice ValVoice_901200 0_V380]
+只要拥有闪耀的回忆，就会以此为契机，[r]萌生全新的回忆……[wait tVoice]
+[k]
+
+[charaFace A 30]
+＠达·芬奇
+[tVoiceUser ValVoice_901200 0_V390 ValVoice_901200 0_V400]
+世界的构成真的十分巧妙呢，[r][%1][&君:亲]。[wait tVoice]
+[k]
+
+？1：说得对！
+？！
+
+[messageOff]
+[wt 0.5]
+[charaFaceFade A 1 0.5]
+[wt 1.5]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_77 2.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[scene 10000]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[se bas2]
+[charaFace F 0]
+[charaFadein F 0.5 0,-70]
+[wt 2.0]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[soundStopAll]
+[end]

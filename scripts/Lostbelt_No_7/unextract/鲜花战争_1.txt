@@ -1,0 +1,1025 @@
+
+
+
+＄03-00-13-18-1-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098257300 1 达·芬奇]
+[charaSet D 1098255200 1 哈贝特洛特]
+[charaSet E 1098255300 1 尼托克丽丝]
+[charaSet F 1098252410 1 库库尔坎]
+[charaSet G 1098253200 1 U－奥尔加玛丽]
+[charaSet H 1098239340 1 卡多克]
+
+[imageSet O cut411_message 1]
+
+[sceneSet P 10000 1]
+[charaScale P 1.01]
+[sceneSet Q 174300 1]
+[charaScale Q 1.4]
+[sceneSet R 169500 1]
+[charaScale R 1.1]
+
+[charaSet S 5009000 1 特效用1]
+[charaSet T 98115000 1 特效用2]
+
+[scene 173600]
+[cueSe SE_21 21_ad1066 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+
+[wt 1.5]
+
+[cueSeStop 21_ad1066 1.5]
+[wipeout rightToLeft 1.0 1.0]
+[wait wipe]
+
+[scene 173900]
+[wt 1.0]
+
+[cueSe SE_21 21_ad1065 1.0 1.0]
+[wipein leftToRight 1.0 1.0]
+[wait wipe]
+
+[wt 1.5]
+
+[cueSeVolume 21_ad1065 0.7 0.5]
+[wipeout rectangleStripUpToDown 0.7 1.0]
+[wait wipe]
+
+[charaFadein Q 0.1 0,-300]
+[wt 0.5]
+
+[charaMoveScale Q 1.3 8.0]
+[charaMove Q 0,-250 8.0]
+[wipein rectangleStripDownToUp 0.7 1.0]
+[cueSeVolume 21_ad1065 0.7 1.0]
+[wait wipe]
+
+[wt 0.5]
+[bgm BGM_MAP_41 1.0]
+[wt 3.0]
+
+[cueSeStop 21_ad1065 1.5]
+[wipeout rightToLeft 1.0 1.0]
+[wait wipe]
+
+[charaFadeout Q 0.1]
+[scene 169100]
+[wt 1.0]
+
+[wipein leftToRight 1.0 1.0]
+[wait wipe]
+
+[wt 0.5]
+
+？1：那个太阳即将迎来临界点了啊……
+？！
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠玛修
+就算没有戴比特先生或ORT这些威胁，[r]米克特兰也会毁灭……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+……非常抱歉。[r]我是故意不提太阳这件事的。
+[k]
+
+＠特佩乌
+一方面也是因为[r]这件事与泛人类史的人类无关……
+[k]
+
+＠特佩乌
+但主要还是因为我不希望大家戴着『濒临灭绝』的有色眼镜[r]看待迪诺斯的生活。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠达·芬奇
+你不必道歉啦，特佩乌。[r]多亏了你的这份关怀，我们内心的负担才得以减轻。
+[k]
+
+[charaFace C 31]
+
+＠达·芬奇
+倒不如说，我甚至对你们产生了挫败感。
+[k]
+
+[charaFace C 2]
+
+＠达·芬奇
+迪诺斯们确实拥有过人的智慧与道德观。
+[k]
+
+＠达·芬奇
+在太阳即将爆炸的环境下，[r]不会发动任何暴动的人类也只有你们了吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth P 1]
+[charaDepth D 2]
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+[charaPut P 0,-200]
+[charaFadeTime P 0.2 0.5]
+
+＠哈贝特洛特
+（……咱不太喜欢这样呢……）
+[k]
+
+＠哈贝特洛特
+（既然真的已经山穷水尽无力回天了，[r]　最后应该做些自己想做的事吧？）
+[k]
+
+[charaFadeout P 0.2]
+[charaFadeout D 0.2]
+[wt 0.2]
+
+[charaTalk depthOn]
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+…………
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠库库尔坎
+…………
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠达·芬奇
+无论如何，在梅兹蒂特兰久留也无济于事。[r]我们已经弄清戴比特的目的与实现手段了。
+[k]
+
+＠达·芬奇
+现在还是返回奇琴伊察，[r]寻求恐龙王的协助吧。
+[k]
+
+＠达·芬奇
+看是趁戴比特还在墨西哥城时抓住他，[r]还是在下冥界的路上，第三冥界附近布下罗网。
+[k]
+
+＠达·芬奇
+无论如何，我们都需要迪诺斯们的协助。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+是的。而且只要返回奇琴伊察，[r]也能再见到奥尔加玛丽小姐了。
+[k]
+
+[charaFace A 26]
+
+＠玛修
+既然她是为了办什么事而前往第一层的话，[r]这会儿估计已经回来了吧！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 33]
+[charaFadein C 0.1 1]
+[wt 1.5]
+
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[bgm BGM_MAP_41 0.5 0.5]
+[wait fade]
+
+[charaFadeout C 0.1]
+[effect bit_sepia01_depth_fs]
+[charaTalk depthOff]
+[charaDepth P 1]
+[charaDepth O 2]
+
+[charaTalk O]
+[charaFadein O 0.1 0,-200]
+[charaPut P 1]
+[charaFadeTime P 0.4 0.5]
+[scene 169700]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 3.5]
+
+[fadeout white 0.5]
+[wait fade]
+
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+[effectDestroy bit_sepia01_depth_fs]
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 26]
+[charaFadein A 0.1 1]
+[scene 169100]
+[wt 0.1]
+
+[fadein white 0.5]
+[bgm BGM_MAP_41 0.5 1.0]
+[wait fade]
+
+[wt 0.5]
+
+？1：…………玛修，其实…………
+？2：…………她，已经…………
+
+？！
+
+[charaFaceFade A 4 0.15]
+[wt 1.4]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MAP_41 1.0]
+
+[charaPut T 1]
+[charaEffect T bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[wt 0.3]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠卡多克
+听得到吗，基列莱特、[%1]！[r]我知道你们在第五层，平安无事的话就快回答我！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+！　梅兹蒂特兰调查队没有异常。[r]目前正朝奇琴伊察移动中。
+[k]
+
+＠玛修
+是发生紧急事态了吗？[r]这一带并没有感知到敌对反应啊……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_122 0.1]
+
+[charaPut T 1]
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+
+＠卡多克
+不是你们那边，是我们这边！　奥塞洛特尔的大军[r][#把奇琴伊察包围起来了]！
+[k]
+
+＠卡多克
+那些家伙不知用什么办法避开了大平原上的[#斗士职:迪诺斯]，[r]直接杀过来了！
+[k]
+
+＠卡多克
+战斗即将打响！　请火速返回潜航艇！[r]光凭我们是守不住潜航艇的！
+[k]
+
+[charaTalk A]
+
+＠A：戈尔德鲁夫
+哈啊啊啊！？　别说傻话了，蠢货！[r]你们除了搬运货物以外根本一无是处吧！？
+[k]
+
+[cueSe SE_22 22_ad1217]
+[seVolume 22_ad1217 0 0.5]
+
+＠A：戈尔德鲁夫
+还说要出去守护潜航艇什么的[line 3][r]慢着，别出去，潜航艇的装甲多少还能撑一阵子！[seStop 22_ad1217 3.0]
+[k]
+
+＠A：戈尔德鲁夫
+出去战斗可不像你们的作风！[r]给我等待[%1]抵达啦！
+[k]
+
+＠A：戈尔德鲁夫
+老七，快阻止他们！[r]你们是兄弟吧，让他们听[line 3]你也要去吗？
+[k]
+
+[charaTalk H]
+[charaFace H 4]
+
+＠卡多克
+现状就是这样，我要切断通讯了！[r]这里还能撑半天！　在那之前赶回来！
+[k]
+[messageOff]
+[se ad562]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut T 2000,2000]
+[charaEffectStop T bit_talk_10_LowLevel]
+[wt 1.0]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠玛修
+御主！
+[k]
+
+？1：我知道！
+？2：全速赶回奇琴伊察……！
+
+？！
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_122 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[charaSet A 1098253900 1 伊斯卡利]
+[charaSet B 6047000 1 特斯卡特利波卡]
+
+[charaSet C 1098252500 1 奥塞洛特尔1]
+[charaSet D 1098252500 1 奥塞洛特尔2]
+[charaSet E 1098252500 1 奥塞洛特尔3]
+
+[charaSet F 1098252540 1 奥塞洛特尔4]
+[charaSet G 1098252540 1 奥塞洛特尔5]
+[charaSet H 1098252540 1 奥塞洛特尔6]
+
+[charaSet I 1098252550 1 奥塞洛特尔7]
+[charaSet J 1098252550 1 奥塞洛特尔8]
+[charaSet K 1098252550 1 奥塞洛特尔9]
+
+[charaSet L 1098256900 1 迪诺斯1]
+[charaSet M 1098258100 1 迪诺斯2]
+[charaSet N 1098258020 1 迪诺斯3]
+[charaScale L 1.2]
+[charaScale M 1.25]
+[charaScale N 1.25]
+
+[se ad608]
+[se ad882]
+[se ad728]
+[wt 2.0]
+[se ad769]
+[seVolume ad769 0 0]
+[seVolume ad769 0.5 1.0]
+[wt 1.5]
+[seStop ad769 1.0]
+
+[cameraMove 0.1 0,0 1.01]
+[scene 169500]
+
+[pictureFrameTop cut063_cinema]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_BATTLE_137 0.1]
+
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth C 1]
+[charaDepth D 2]
+[charaDepth E 3]
+
+[se ad769]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadein E 0.4 0,-50]
+[wt 0.1]
+[charaFadeinFSL C 0.4 -320,-50]
+[wt 0.1]
+[seStop ad769 0.6]
+[charaFadeinFSR D 0.4 320,-50]
+[wt 0.8]
+
+[se ad1006]
+[seVolume ad1006 0 0.8]
+[charaPut S 0,-50]
+[charaEffect S bit_talk_41_fs]
+[charaMoveScale E 1.1 0.3]
+[charaMove E 0,-30 0.3]
+[blur motion 0.3 4 200 0.5 0.6 0.02 200]
+[charaFadeout E 0.3]
+[wt 0.1]
+[charaMoveScale C 1.1 0.3]
+[charaMoveFSL C -320,-30 0.3]
+[charaFadeout C 0.3]
+[wt 0.1]
+[charaMoveScale D 1.1 0.3]
+[charaMoveFSR D 320,-30 0.3]
+[charaFadeout D 0.3]
+[wt 0.4]
+[charaPut S 2500,2500]
+[charaEffectStop S bit_talk_41_fs]
+[charaScale C 1.0]
+[charaScale D 1.0]
+[charaScale E 1.0]
+[blurOff motion 0.1]
+[wt 0.1]
+
+[charaFace L 0]
+[charaFadein L 0.1 100,-95]
+[wt 0.1]
+[se adm14]
+[se bac140]
+[effect bit_talk_Slash_white_01]
+[wt 0.2]
+[charaShake L 0.03 2 2 0.2]
+[effect bit_talk_14]
+[se adm15]
+[se bac141]
+[effect bit_talk_Slash_white_01_L]
+[wt 0.2]
+[charaShake L 0.03 2 2 0.2]
+[se adm14]
+[effect bit_talk_ichimon01wh 0,-50]
+[wt 0.2]
+[se bac142]
+[wt 0.2]
+[charaShake L 0.03 2 2 0.3]
+[wt 0.4]
+[effectDestroy bit_talk_ichimon01wh]
+
+[cueSe Battle bac134]
+[se ad1051]
+[effect bit_talk_x_slash03]
+[wt 0.2]
+[charaFadeout L 0.1]
+[wt 0.2]
+[charaFadein E 0.1 0,-50]
+[charaFadeinFSL C 0.1 -320,-50]
+[charaFadeinFSR D 0.1 320,-50]
+[wt 0.1]
+[effect bit_talk_claw_red02]
+[cueSe SE_21 21_ad1118]
+[charaShake E 0.05 5 5 0.5]
+[wt 0.1]
+[charaShake C 0.05 5 5 0.5]
+[charaShake D 0.05 5 5 0.5]
+[wt 0.4]
+[se ad863]
+[effect bit_talk_blood_splash_fs]
+[fowardEffect bit_talk_blood_splash_fs 0,0 H]
+[wt 0.8]
+[charaMove E 0,-80 0.3]
+[charaFadeout E 0.3]
+[wt 0.2]
+[se ad144]
+[charaMoveFSL C -320,-80 0.3]
+[charaMoveFSR D 320,-80 0.3]
+[charaFadeout C 0.3]
+[charaFadeout D 0.3]
+[wt 0.2]
+[se ad144]
+[wt 0.8]
+
+[se ad769]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSR D 0.3 280,-50]
+[charaMoveFSR D 320,-50 0.3]
+[wt 0.2]
+[charaFadein E 0.3 -50,-50]
+[charaMove E 0,-50 0.3]
+[wt 0.2]
+[seStop ad769 0.6]
+[charaFadeinFSL C 0.4 -370,-50]
+[charaMoveFSL C -320,-50 0.3]
+[wt 0.8]
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+
+[charaFace L 0]
+[charaFadein L 0.1 100,-95]
+[wt 0.1]
+[effect bit_talk_kengekiall02]
+[wt 0.1]
+[cueSe Battle bac209 0 0.8]
+[wt 0.2]
+[charaShake L 0.03 4 4 0.3]
+[cueSe Battle bac210 0 0.8]
+[wt 0.3]
+[cueSe Battle bac211 0 0.8]
+[charaShake L 0.03 4 4 0.3]
+[wt 0.5]
+[se ad161]
+[effect bit_talk_35]
+[wt 0.5]
+[cueSe SE_22 22_ad1205]
+[wt 1.2]
+[charaShake L 0.03 2 2 0.3]
+[charaMove L 100,-125 0.3]
+[charaFadeout L 0.3]
+[wt 0.5]
+[se ad789]
+[shake 0.03 4 4 1.5]
+[wt 1.5]
+
+[wipeout rectangleStripLeftToRight 0.7 1.0]
+[bgm BGM_BATTLE_137 0.7 0.5]
+[wait wipe]
+
+[charaFadein R 0.1 60,-250]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 0.7 1.0]
+[bgm BGM_BATTLE_137 0.7 1.0]
+[wait wipe]
+
+[charaScale F 0.9]
+[charaScale G 0.9]
+[charaDepth F 1]
+[charaDepth G 2]
+
+[charaFace F 0]
+[charaFace G 0]
+[charaFadeinFSL F 0.1 -50,-50]
+[charaFadeinFSL G 0.1 -350,-50]
+[wt 0.3]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[se ade65]
+[wt 0.2]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[se ad563]
+[wt 0.5]
+
+[cueSe Battle bac134]
+[effect bit_talk_h_slash01_fs]
+[wt 0.3]
+[cueSe Battle bac386]
+[charaShake F 0.05 5 5 0.5]
+[wt 0.1]
+[charaShake G 0.05 5 5 0.5]
+[wt 0.4]
+[se ad863]
+[fowardEffect bit_talk_blood_splash_fs 0,0 H]
+[wt 0.8]
+[charaMoveFSL F -50,-80 0.3]
+[charaFadeout F 0.3]
+[wt 0.2]
+[se ad144]
+[charaMoveFSL G -350,-80 0.3]
+[charaFadeout G 0.3]
+[wt 0.2]
+[se ad144]
+[wt 0.1]
+[charaMove R -120,-300 0.7]
+[charaMoveScale R 1.2 0.7]
+[wt 0.7]
+
+[charaDepth F 2]
+[charaDepth G 1]
+[charaFace F 0]
+[charaFace G 0]
+[charaFadeinFSR F 0.1 50,-50]
+[charaFadeinFSR G 0.1 350,-50]
+[wt 0.3]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[se ad563]
+[wt 0.2]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[se ade65]
+[wt 0.4]
+
+[cueSe Battle bac134]
+[effect bit_talk_h_slash01_fs 0,0 H]
+[wt 0.3]
+[cueSe Battle bac210]
+[charaShake F 0.05 5 5 0.5]
+[wt 0.1]
+[charaShake G 0.05 5 5 0.5]
+[wt 0.5]
+[se ad464]
+[fowardEffect bit_talk_blood_splash_fs 0,0]
+[wt 0.8]
+[charaMoveFSR F 50,-80 0.3]
+[charaFadeout F 0.3]
+[wt 0.2]
+[se ad144]
+[charaMoveFSR G 350,-80 0.3]
+[charaFadeout G 0.3]
+[wt 0.2]
+[se ad144]
+[wt 0.1]
+[charaMove R 0,-350 0.7]
+[charaMoveScale R 1.3 0.7]
+[wt 0.7]
+
+[se ad346]
+[charaScale F 1.0]
+[charaScale G 1.0]
+[charaDepth F 1]
+[charaDepth G 2]
+[charaDepth H 3]
+
+[charaFace F 0]
+[charaFace G 0]
+[charaFace H 0]
+[charaFadeinFSL F 0.1 -320,-50]
+[charaFadeinFSR G 0.1 320,-50]
+[charaFadein H 0.1 0,-50]
+[wt 0.3]
+[charaMoveReturn H 0,-60 0.3]
+[wt 0.1]
+[charaMoveReturnFSL F -320,-60 0.3]
+[wt 0.1]
+[charaMoveReturnFSR G 320,-60 0.3]
+[wt 1.0]
+
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[se ad563]
+[wt 0.2]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[se ade65]
+[wt 0.2]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[se ad563]
+[fadeout white 0.1]
+[wait fade]
+
+[charaFadeout R 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaScale R 1.01]
+
+[charaFace M 0]
+[charaFadein M 0.1 -100,-40]
+[wt 0.1]
+
+[effect bit_shot_01 200,100]
+[fadein white 0.1]
+[wait fade]
+
+[cueSe Battle bac178]
+[charaShake M 0.03 4 4 0.3]
+[wt 0.5]
+[effectDestroy bit_shot_01]
+
+[se ad161]
+[effect bit_talk_35]
+[wt 0.5]
+[cueSe SE_22 22_ad1206]
+[wt 0.8]
+[charaShake M 0.03 2 2 0.3]
+[charaMove M -100,-70 0.3]
+[charaFadeout M 0.3]
+[wt 0.5]
+[se ad322]
+[seVolume ad322 0 0.6]
+[shake 0.03 4 4 2.0]
+[wt 2.0]
+
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+[bgm BGM_BATTLE_137 0.7 0.5]
+[wait wipe]
+
+[charaSet C 1098252560 1 奥塞洛特尔4]
+[charaSet D 1098252560 1 奥塞洛特尔5]
+[charaSet E 1098252560 1 奥塞洛特尔6]
+
+[charaFadein R 0.1 0,-200]
+[wt 0.5]
+
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[bgm BGM_BATTLE_137 0.7 1.0]
+[wait wipe]
+
+[charaDepth I 1]
+[charaDepth J 2]
+[charaDepth K 3]
+
+[charaFadeinFSR I 0.1 256,-80]
+[charaFadeinFSL J 0.1 -256,-80]
+[wt 0.3]
+[se ad85]
+[effect bit_talk_gram_slash_oko]
+[wt 0.4]
+[se ad1051]
+[charaShake I 0.05 5 5 0.5]
+[wt 0.1]
+[charaShake J 0.05 5 5 0.5]
+[wt 0.8]
+
+[se ad464]
+[effect bit_talk_blood_splash_fs]
+[fowardEffect bit_talk_blood_splash_fs 0,0 H]
+[wt 0.8]
+[charaMoveFSR I 256,-110 0.3]
+[charaFadeout I 0.3]
+[wt 0.2]
+[se ad144]
+[charaMoveFSL J -256,-110 0.3]
+[charaFadeout J 0.3]
+[wt 0.2]
+[se ad144]
+[wt 0.6]
+[se ad769]
+[charaMoveScale R 1.1 1.0]
+[charaMove R 0,-250 1.0]
+[wt 1.0]
+
+[seStop ad769 0.4]
+[charaScale I 0.9]
+[charaScale J 0.9]
+[charaScale K 0.9]
+[charaFace I 0]
+[charaFace J 0]
+[charaFace K 0]
+[charaFadeinFSR I 0.4 320,-80]
+[charaFadein J 0.4 0,-80]
+[charaFadeinFSL K 0.4 -320,-80]
+[charaMoveScale I 1.0 0.4]
+[charaMoveScale J 1.0 0.4]
+[charaMoveScale K 1.0 0.4]
+[wt 1.0]
+
+[se ade386]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.2]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.2]
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+[wt 0.1]
+[charaFace N 0]
+[charaFadein N 0.1 1]
+[charaPut S -150,0]
+[charaPut T 1]
+[effect bit_shot_01 150,0]
+[wt 0.1]
+[charaShake N 0.03 4 4 0.5]
+[charaEffect T bit_shot_01]
+[wt 0.1]
+[charaEffect S bit_shot_01]
+[wt 0.2]
+[effectDestroy bit_shot_01]
+[wt 0.1]
+[charaEffectDestroy T bit_shot_01]
+[wt 0.2]
+[charaEffectDestroy S bit_shot_01]
+
+[se ad161]
+[effect bit_talk_35]
+[wt 0.5]
+[cueSe SE_22 22_ade719]
+[wt 0.8]
+[charaShake N 0.03 2 2 0.3]
+[charaMove N 0,-30 0.3]
+[charaFadeout N 0.3]
+[wt 0.5]
+[se ad322]
+[seVolume ad322 0 0.6]
+[shake 0.03 4 4 2.0]
+[wt 2.0]
+
+[charaFadeout R 1.0]
+[wt 1.5]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0,-50]
+
+＠伊斯卡利
+……嘁。一个迪诺斯要用三十个人对付吗？[r]没想到配备了最新武装还会有这般损耗。
+[k]
+
+[charaFace A 0]
+
+＠伊斯卡利
+不过算了。入口已经镇压完毕。[r]第4至第8部队去镇压南部。
+[k]
+
+＠伊斯卡利
+第9至第17部队去迎击由大平原[r]折返的斗士职迪诺斯。
+[k]
+
+[messageOff]
+[se ade386]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.2]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.2]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 1.5]
+
+[charaFace A 6]
+
+＠伊斯卡利
+将进入视野的迪诺斯全部杀光！[r]向特斯卡特利波卡神献上更多的心脏吧！
+[k]
+
+＠伊斯卡利
+一切都是为了我等的太阳！[r]为了让墨西哥城成为永恒之都！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth C 1]
+[charaDepth D 2]
+[charaDepth E 3]
+
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSR C 0.1 320,-50]
+[charaFadeinFSL D 0.1 -320,-50]
+[charaFadein E 0.1 0,-50]
+
+[cueSe SE_23 23_ad1271]
+[cueSe SE_23 23_ad1273]
+[cueSe SE_23 23_ad1228]
+
+＠奥塞洛特尔们
+[image npc_language_19][line 3]！
+[k]
+
+[messageOff]
+[cueSeStop 23_ad1271 1.0]
+[cueSeStop 23_ad1273 1.0]
+[cueSeStop 23_ad1228 1.0]
+[se ad769]
+[charaMoveFSR C 370,-50 0.5]
+[charaFadeout C 0.4]
+[wt 0.1]
+[charaMove E 50,-50 0.5]
+[charaFadeout E 0.4]
+[wt 0.1]
+[charaFadeout D 0.4]
+[charaMoveFSL D -270,-50 0.5]
+[wt 0.5]
+[seStop ad769 1.0]
+[wt 2.0]
+
+[charaTalk on]
+[charaTalk depthOn]
+[se ad60]
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.4 0,-50]
+[wt 0.4]
+[seStop ad60 0.3]
+
+＠特斯卡特利波卡
+指挥得不错，伊斯卡利。[r]本想秉着父母心过来看看，似乎没这个必要了。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+
+＠伊斯卡利
+怎么会呢。只要特斯卡特利波卡神身在战场，[r]战士们的士气也会提升。
+[k]
+
+＠伊斯卡利
+他们的欢喜、恐惧、死亡时的痛楚，[r]都是献给伟大特斯卡特利波卡的供品。
+[k]
+
+＠伊斯卡利
+我等将杀戮。不论妇孺、反抗者，[r]或是不反抗者，一概格杀勿论。
+[k]
+
+＠伊斯卡利
+皆因这是歼灭迪诺斯的最后一战，[r]是神圣的[#鲜花战争:xōchiyāōyōtl]。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 0,-50]
+
+＠特斯卡特利波卡
+哈，竟然说这是[#鲜花战争:xōchiyāōyōtl]！[r]那可是赶尽杀绝的奴隶狩猎，是阿兹特克的日常！
+[k]
+
+＠特斯卡特利波卡
+你听谁说的？　特拉洛克吗？[r]以教育者而言，得给她打满分了呢。
+[k]
+
+[charaFaceFade B 1 0.2]
+
+＠特斯卡特利波卡
+还是说[line 3]一无所知就脱口而出了？[r]而全然不知这个词会给你带来什么样的命运。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 10]
+[charaFadein A 0.1 0,-50]
+
+＠伊斯卡利
+[line 3]特斯卡特利波卡神？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0,-50]
+
+＠特斯卡特利波卡
+不必在意，这只是我个人的爱好。[r]你就奋力完成自己的使命吧。
+[k]
+
+＠特斯卡特利波卡
+大街上那群蜥蜴的猎杀就让给我吧。[r]我本打算在事态稳定下来前贯彻商人的身份[line 3]
+[k]
+
+[charaFaceFade B 8 0.2]
+
+＠特斯卡特利波卡
+但奥塞洛特尔们的死状令我热血沸腾。[r]就当支付给枉死生命的酬劳好了。
+[k]
+
+＠特斯卡特利波卡
+让你们见识一下[r]正宗的[#豹战士:Ocelomeh]是什么样的吧。
+[k]
+
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_BATTLE_137 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

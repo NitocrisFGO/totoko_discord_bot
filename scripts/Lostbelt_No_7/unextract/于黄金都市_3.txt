@@ -1,0 +1,1311 @@
+
+
+＄03-00-13-04-3-0
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 1098252900 1 特佩乌]
+[charaDepth A 2]
+[charaSet B 1098255200 1 哈贝特洛特]
+[charaSet C 1098259100 1 玛修]
+[charaDepth C 10]
+[charaSet D 1098256810 1 主人公]
+[charaDepth D 10]
+[charaSet E 1098256900 1 拉斯普京]
+[charaDepth E 10]
+[charaSet F 1098253200 1 U－奥尔加玛丽]
+[charaSet G 1098254800 1 尼莫水兵]
+[charaDepth G 3]
+[charaSet H 1098253300 1 神官乌库伯]
+[charaSet I 1098254300 1 斗士迪诺斯1]
+[charaSet J 1098254300 1 斗士迪诺斯2]
+[charaSet K 1098256800 1 迪诺斯_路过1]
+[charaSet L 1098254300 1 迪诺斯_路过2]
+[charaDepth K 3]
+[charaDepth L 4]
+[charaScale K 1.0]
+[charaScale L 1.0]
+
+[charaSet S 1098259100 1 迪诺斯_路过3]
+[charaSet T 1098258000 1 迪诺斯_路过4]
+
+[charaSet M 1098253410 1 玛修]
+[masterSet N 1098253400 1098253430 1]
+[charaSet O 1098253420 1 拉斯普京]
+[charaSet U 1098252940 1 特佩乌（B）]
+[charaDepth U 2]
+[charaSet W 1098253310 1 神官乌库伯（B）]
+
+[sceneSet P 169500 1]
+[charaScale P 1.1]
+[charaDepth P 2]
+[sceneSet Q 169500 1]
+[charaScale Q 1.2]
+[charaDepth Q 1]
+[sceneSet R 169600 1]
+[charaScale R 1.4]
+[charaDepth R 3]
+
+[charaSet V 98115000 1 特效用]
+[charaDepth V 10]
+[charaPut V 2000,2000]
+[charaEffect V bit_sepia01_fade_fs]
+
+[subCameraOn 4]
+[charaLayer S sub #A]
+[charaLayer T sub #B]
+
+[subCameraFilter #A through]
+[subCameraFilter #B through]
+
+
+[charaFadein P 0.1 -70,-250]
+[charaFadein Q 0.1 0,-200]
+[charaScale S 0.8]
+[charaScale T 0.8]
+[charaFadein S 0.1 450,0]
+[charaFadein T 0.1 -450,0]
+
+[wt 0.1]
+[charaMove P 70,-250 7.5]
+[scene 169500]
+[fadein black 1.5]
+[wt 1.0]
+[bgm BGM_EVENT_161 0.5 0.5]
+[wait fade]
+
+[cueSe SE_21 21_ad1079 0]
+[seVolume 21_ad1079 1.0 0.2]
+[wt 0.5]
+
+[charaScale K 1.4]
+[charaScale L 1.3]
+[charaScale S 1.0]
+[charaScale T 1.0]
+
+[se ad642]
+[shake 0.05 0 1 4.5]
+[charaFadein K 0.4 180,100]
+[charaMove K 100,100 3.0]
+[wt 2.0]
+[charaFadeout K 0.4]
+[wt 0.5]
+[charaFadein L 0.4 -180,150]
+[charaMove L 0,150 3.0]
+[wt 2.0]
+[charaFadeout L 0.8]
+[charaFadeout P 1.0]
+[seStop ad642 0.5]
+
+[seVolume 21_ad1079 1.0 0.4]
+[subRenderFadein #A 1.0 0,0]
+[subRenderFadein #B 1.0 0,0]
+[wt 1.5]
+[charaMoveReturn S 450,7 0.25]
+[wt 0.4]
+[charaMoveReturn S 450,7 0.25]
+[wt 1.0]
+[charaFace T 2]
+[charaMoveReturn T -450,-15 0.6]
+[wt 1.5]
+[cueSe SE_21 22_ad1217]
+[charaMove S 600,-30 6.0]
+[charaMove T -600,-30 6.0]
+[charaMove Q 0,-300 6.0]
+
+[charaMoveScale S 1.2 6.0]
+[charaMoveScale T 1.2 6.0]
+
+[charaMoveScale Q 1.3 6.0]
+
+[charaFadeout S 1.0]
+[charaFadeout T 1.0]
+[wt 1.0]
+[seStop 22_ad1217 2.0]
+[wt 6.0]
+[seStop 21_ad1079 1.5]
+[charaFadeout Q 1.5]
+[bgm BGM_EVENT_161 1.5 1.0]
+[wt 1.5]
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[wt 0.1]
+[subBlurOff #A lens 0.1 normal]
+[subBlurOff #B lens 0.1 normal]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.4]
+
+＠特佩乌
+各位，欢迎光临。[r]这里就是迪诺斯的城市。
+[k]
+
+＠特佩乌
+是由很久以前的都市遗迹扩建改造而成的，
+[k]
+
+＠特佩乌
+所以建筑物或日用品这类东西[r]在各位看来或许会稍微大一些。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth C 4]
+[charaDepth M 5]
+[charaDepth P 3]
+[charaDepth B 2]
+
+[charaScale P 1.2]
+[charaScale C 1.2]
+[charaScale M 1.1]
+[charaScale D 1.2]
+[charaScale N 1.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadeTime B 0.1 0.7]
+[wt 0.1]
+
+＠哈贝特洛特
+这已经不是稍微了吧～！？
+[k]
+
+＠哈贝特洛特
+这规格基本是人类的两倍以上吧！[r]在咱眼里就是巨人的城市！
+[k]
+
+＠哈贝特洛特
+那些楼梯根本就爬不上去！[r]咱就算飘起来也只有1米左右高啦！
+[k]
+
+[charaFace B 6]
+
+＠哈贝特洛特
+嘁，既然如此，也只能暂时退回[r][#奥特瑙斯:Black Barrel]里面了吧……
+[k]
+
+＠哈贝特洛特
+这分明是咱难得的首次异闻带观光啊。
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1210]
+
+[charaTalk off]
+[charaFace C 0]
+[charaFadein C 1.0 130,0]
+[charaFadein P 1.0 -70,-250]
+[charaMove C 100,0 1.0]
+[charaMove P -100,-250 1.0]
+[seStop 22_ad1210 1.0]
+[wt 1.2]
+[charaFace B 16]
+
+
+[charaFace M 1]
+[charaPut M 0,0]
+[charaFadeTime M 0.4 0.7]
+[wt 0.4]
+
+＠玛修
+放心吧，哈贝特洛特小姐。[r]有需要时请坐到我肩膀上。
+[k]
+
+[messageOff]
+[charaFadeout C 0.4]
+[charaFadeout M 0.4]
+[charaFadeout P 0.4]
+[wt 0.5]
+
+[charaScale C 1.0]
+[charaScale M 1.0]
+
+[charaDepth D 8]
+[charaDepth N 9]
+
+[charaFadeTime B 0.1 0.7]
+[wt 1.2]
+
+[se ad642]
+[charaFace D 0]
+[charaFadein D 1.0 -200,100]
+[charaMove D -170,100 1.0]
+[charaFadein P 1.0 90,-250]
+[charaMove P 120,-250 1.0]
+[wt 1.2]
+[seStop ad642 1.0]
+[charaFace B 5]
+
+[charaFace N 0]
+[charaPut N -250,0]
+[charaFadeTime N 0.4 0.7]
+[wt 0.7]
+
+？1：还是由我把你举起来呢？
+
+？！
+
+[charaFadeout D 0.4]
+[charaFadeout N 0.4]
+[charaFadeout P 0.4]
+[wt 0.5]
+
+[charaScale D 1.0]
+[charaScale N 1.0]
+
+[charaTalk on]
+[charaTalk B]
+[wt 0.1]
+
+＠哈贝特洛特
+关键是这种视觉效果太异次元啦！[r]拉斯普京，不可饶恕！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaScale M 1.0]
+
+[charaScale E 1.1]
+[charaDepth E 4]
+[charaDepth O 6]
+
+[se ad642]
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.4 100,0]
+[wt 0.4]
+[seStop ad642 0.5]
+[charaFace O 6]
+[charaPut O -30,0]
+[charaFadeTime O 0.4 0.7]
+[wt 0.4]
+
+＠拉斯普京
+哈哈哈哈哈。[r]各位可还满意我的变装术吗？
+[k]
+
+[charaFace O 10]
+
+＠拉斯普京
+毕竟『人类』如果直接进入迪诺斯的城市，[r]明摆着会重蹈大平原的覆辙嘛。
+[k]
+
+＠拉斯普京
+于是我就用不熟练的魔术……[wt 0.8][charaMoveReturn O -30,-7 0.4]咳咳，用圣事，[r]将[%1]和玛修[line 2]
+[k]
+
+＠拉斯普京
+伪装成看似是迪诺斯的外表了哦。
+[k]
+
+[charaFace O 5]
+
+＠拉斯普京
+放心吧，只是外表看上去像迪诺斯而已。[r]你们就当是一种增强现实吧。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+[charaTalk depthOn]
+
+
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaFace M 12]
+[charaPut M 0,0]
+[charaFadeTime M 0.1 0.7]
+[wt 0.1]
+
+＠玛修
+多亏如此，我们才没有引发骚乱，[r]顺利地进入了奇琴伊察。
+[k]
+
+＠玛修
+言峰神父出人意料的特技帮上了大忙呢，[r]前辈！
+[k]
+
+？1：嘎呜！
+？2：嘎呜嘎呜，嘎呜！
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaFace E 0]
+[charaFadein E 0.1 100,0]
+[charaFace O 4]
+[charaPut O -30,0]
+[charaFadeTime O 0.1 0.7]
+[wt 0.1]
+
+＠拉斯普京
+哈哈。[r]我知道你心情不错，但麻烦说人话。
+[k]
+
+＠拉斯普京
+毕竟就算使用我们自己的语言，[r]也不会引起迪诺斯们的怀疑。
+[k]
+
+？1：可惜的是U－奥尔加玛丽和水兵不在呢。
+
+？！
+
+[charaFadeout E 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaFace M 0]
+[charaFadeTime M 0.1 0.7]
+[wt 0.1]
+
+＠玛修
+是啊……奥尔加玛丽所……[r]不，U－奥尔加玛丽小姐她……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_161 1.0]
+[wipeout circleIn 1.0 1]
+[wait wipe]
+
+[charaTalk on]
+
+[charaFadeout C 0.1]
+[charaFadeout M 0.1]
+[scene 169100]
+[wt 1.0]
+
+[charaSet O 1098257500 1 拉斯普京]
+
+[charaPut V 0,0]
+[wt 0.1]
+
+[bgm BGM_EVENT_77 1.0 1.0]
+[wipein circleIn 1.0 1]
+[wait wipe]
+
+[charaEffectStop V bit_sepia01_fade_fs]
+[wt 2.0]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+
+＠U－奥尔加玛丽
+谁要变装成蜥蜴啊。[r]我要拿这里当大使馆露营。
+[k]
+
+[charaFace F 3]
+
+＠U－奥尔加玛丽
+管家，你也会留下来吧？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk O]
+[charaFace O 8]
+[charaFadein O 0.1 1]
+
+＠O：拉斯普京
+很遗憾，恕难从命。[r]我对奇琴伊察也很感兴趣。
+[k]
+
+[charaFace O 2]
+
+＠O：拉斯普京
+我会带些伴手礼回来的，还请您见谅。[r]是要食物？　还是说您喜欢工艺品？
+[k]
+
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk F]
+[charaFace F 25]
+[charaFadein F 0.1 1]
+
+＠U－奥尔加玛丽
+我说你啊，真的是我的管家吗？[r]也太自由散漫了吧？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠哈贝特洛特
+咱会灵体化跟着你们，[r]所以不需要拉斯普京的变装哦。
+[k]
+
+[charaFace B 9]
+＠哈贝特洛特
+啊～，好期待～！[r]毕竟咱们的[#妖精乡:世界观]没有丛林嘛！
+[k]
+
+＠哈贝特洛特
+咱现在就很期待，不知道会有什么样的精灵呢！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+那打算留在这里的就只有U了吧。
+[k]
+
+[charaFace A 3]
+
+＠特佩乌
+……其实我认为U甚至不需要变装……[r]但没办法了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+＠尼莫水兵
+是吗？　那我也留在这里吧！[r]我不希望留U孤身一人！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 24]
+[charaFadein F 0.1 1]
+[wt 1.2]
+
+[charaEffect V bit_sepia01_fade_fs]
+[wt 2.0]
+
+
+[messageOff]
+[bgmStop BGM_EVENT_77 1.0]
+[wipeout circleIn 1.0 1]
+[wait wipe]
+
+[charaEffectStop V bit_sepia01_fade_fs]
+[charaPut V 2000,2000]
+
+[charaSet O 1098253420 1 拉斯普京]
+
+[charaFadeout F 0.1]
+[charaTalk off]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaFace M 0]
+[charaPut M 0,0]
+[charaFadeTime M 0.1 0.7]
+[scene 169500]
+[wt 1.0]
+[bgm BGM_EVENT_161 1.0 1.0]
+[wipein circleIn 1.0 1]
+[wait wipe]
+
+＠玛修
+话虽如此，我们的目的是与Storm Border会合。
+[k]
+
+＠玛修
+只是去拿个通行许可，应该不会[r]让待在城外的两位等上太久。
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 0]
+[charaFadeTime B 0.1 0.7]
+[wt 0.1]
+
+＠哈贝特洛特
+嗯，那倒也是啦。[r]抱歉，用『异闻带观光』这种没什么紧张感的说法。
+[k]
+
+＠哈贝特洛特
+话说这里是叫奇琴伊察吗？[r]比想象的还要热闹呢。人口有多少啊？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+我还在的时候有2000人左右，[r]由于奥塞洛特尔们狩猎迪诺斯的影响，
+[k]
+
+＠特佩乌
+散布在全米克特兰的迪诺斯们[r]好像都聚集到这里来了。
+[k]
+
+＠特佩乌
+据我的粗略感知，[r]现在大概有2400人左右吧。
+[k]
+
+？1：分明全米克特兰的人全都聚集过来了……？
+？2：结果只增加了400人？
+
+？！
+
+＠特佩乌
+[#隐匿者:Crypter]现身，[r]奥塞洛特尔们的城市·墨西哥城被建造起来，
+[k]
+
+＠特佩乌
+其他迪诺斯都被奥塞洛特尔杀掉了。[r]也许还有部分迪诺斯躲在密林里……
+[k]
+
+＠特佩乌
+留在米克特兰的迪诺斯已经濒临灭绝了。[r]不，也可以说是注定灭绝吧。
+[k]
+
+＠特佩乌
+有时雌性个体会被优先狩猎，[r]导致下一代无法诞生。
+[k]
+
+＠特佩乌
+就算诞生了，『今后』的生存依然充满绝望。[r]毕竟米克特兰也即将终结了。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace C 0]
+[charaFace M 11]
+[charaFadein C 0.1 1]
+[charaPut M 0,0]
+[charaFadeTime M 0.1 0.7]
+[wt 0.1]
+
+＠玛修
+那是指[line 3]那个，因为[r]我们要切除空想树吗？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+哦，还有那种结局呢。
+[k]
+
+＠特佩乌
+请不必在意，[r]玛修、[%1]。
+[k]
+
+＠特佩乌
+你们只需作出对你们的生存[r]必不可少的决断即可。
+[k]
+
+＠特佩乌
+而我们也只会考虑我们所剩的[#现在:当下]。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 4]
+[charaDepth O 6]
+[charaFace E 0]
+[charaFadein E 0.1 100,0]
+[charaFace O 0]
+[charaPut O -30,0]
+[charaFadeTime O 0.1 0.7]
+[wt 0.1]
+
+＠拉斯普京
+特佩乌氏。我可以提两个问题吗？
+[k]
+
+＠拉斯普京
+大街上有类似货摊的店铺，[r]那是怎么运作的？
+[k]
+
+＠拉斯普京
+如果是在做生意，那你们的生活中[r]是否存在『货币』这种概念？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+哦，货币啊。是泛人类史的发明吧。[r]我们并没有。
+[k]
+
+[charaFace A 0]
+
+＠特佩乌
+那只是将需要的东西摆放在一起而已。[r]有什么想要的都能随便拿。
+[k]
+
+＠特佩乌
+摊边有一名迪诺斯留守是出于安全保障。[r]因为迪诺斯的个体差异很大。
+[k]
+
+＠特佩乌
+对某些迪诺斯来说算是蜜糖，[r]对另一些迪诺斯来说有时就是毒药。
+[k]
+
+＠特佩乌
+熟悉这方面情况的迪诺斯[r]会像那样在货摊边负责说明。
+[k]
+
+？1：也就是……甚至不是以物易物的完全供给制？
+？2：为什么会没有货币呢？
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.1 100,0]
+[charaFace O 7]
+[charaPut O -30,0]
+[charaFadeTime O 0.1 0.7]
+[wt 0.1]
+
+＠拉斯普京
+……这就是迪诺斯与人类的差异吧。[r]人类总是[#缺少太多东西了]。
+[k]
+
+＠拉斯普京
+不只是驱动肉体的营养，[r]还包括充实精神的『幸福』。
+[k]
+
+＠拉斯普京
+追求比他人更好的东西，[r]追求比他人更多的东西。
+[k]
+
+＠拉斯普京
+这类饥饿感使人类发明了[r]『高效获取财富』的方式。
+[k]
+
+＠拉斯普京
+货币就是推动人类社会运转的血液，而这一切，[r]都因为人类是[#个体能做到的事情有限]的生命。
+[k]
+
+＠拉斯普京
+像迪诺斯那样拥有强大肉体、稳定精神的生命[r][#在生存上不缺任何东西]。
+[k]
+
+[charaFace O 0]
+
+＠拉斯普京
+他们没有『相互争夺』这种想法。[r]所有人都是平等的，都是值得去爱的朋友。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaFace M 18]
+[charaPut M 0,0]
+[charaFadeTime M 0.1 0.7]
+[wt 0.1]
+
+＠玛修
+[line 6]
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+是的，迪诺斯之间不会发生『争斗』。[r]也不存在泛人类史那样的人种差异。
+[k]
+
+＠特佩乌
+啊，不对，在仪式上也会举办名为蹴球的竞争，[r]但那也是很和平的。
+[k]
+
+？1：蹴球？
+
+？！
+
+＠特佩乌
+与神父所说的『祈祷』一样。[r]感谢太阳的光辉，希望它能逗留。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.1 100,0]
+[charaFace O 0]
+[charaPut O -30,0]
+[charaFadeTime O 0.1 0.7]
+[wt 0.1]
+
+＠拉斯普京
+太阳的逗留……[r]特佩乌氏，第二个问题。
+[k]
+
+＠拉斯普京
+关于城市深处的建筑……中美式的金字塔，[r]那就是王所居住的祭坛吗？
+[k]
+
+＠拉斯普京
+泛人类史也有与那座建筑相同的东西。[r]只不过，有一点不同的是[line 3]
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaFace M 0]
+[charaPut M 0,0]
+[charaFadeTime M 0.1 0.7]
+[wt 0.1]
+
+＠玛修
+是从祭坛顶端延伸到空中的矿石吧。[r]像是翡翠色的水晶……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+嚯嚯，[r]原来泛人类史也有太阳祭坛吗？
+[k]
+
+[charaFace A 0]
+
+＠特佩乌
+看来想要更接近上天的想法，[r]两边都一样呢。
+[k]
+
+＠特佩乌
+那就是奇琴伊察身为圣域的理由。[r]那是太阳的起点与终点。
+[k]
+
+＠特佩乌
+『太阳遍历』。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaScale P 1.4]
+[charaDepth P 3]
+[charaFadein R 1.0 -200,-375]
+[charaMove R -200,-425 15.0]
+[wt 1.3]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaTalk on]
+
+＠特佩乌
+泛人类史的太阳位于宇宙中，[r]而地球则是围绕着它旋转的吧？
+[k]
+
+＠特佩乌
+然而米克特兰没有宇宙，[r]太阳位于米克特兰内部。
+[k]
+
+＠特佩乌
+据[#泛人类史:各位]所述，[#我们:米克特兰]的太阳[r]是人工制作的极小太阳吧。
+[k]
+
+＠特佩乌
+太阳从这奇琴伊察开始移动，[r]移动至第九层，然后再返回。
+[k]
+
+＠特佩乌
+那座祭坛就是太阳的『家』。[r]容纳归来的太阳，赋予活力，再送它出门。
+[k]
+
+＠特佩乌
+这就是米克特兰中太阳的构造。[r]各位明白了吗？
+[k]
+
+[messageOff]
+[charaFadeout P 0.4]
+[charaFadeout R 0.4]
+[wt 0.7]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.1 100,0]
+[charaFace O 5]
+[charaPut O 0,0]
+[charaFadeTime O 0.1 0.7]
+[wt 0.1]
+
+＠拉斯普京
+原来如此。米克特兰的重力是对地面……[r]对外部起作用的。
+[k]
+
+＠拉斯普京
+虽然我对那个太阳是如何在这种环境下[r]漂浮起来的还存在疑问……
+[k]
+
+＠拉斯普京
+这代表太阳本身是不同于米克特兰法则的[r]独立超遗物吧。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+应该是吧。[r]还有，我要订正一点。
+[k]
+
+＠特佩乌
+向天空延伸的柱子并非矿石。[r]那是植物，看起来闪闪发光的是树脂。
+[k]
+
+＠特佩乌
+贯穿这米克特兰的宇宙树。[r]它的顶端就是那座祭坛。
+[k]
+
+＠特佩乌
+问题都问完了吧？[r]那我们前往祭坛吧。
+[k]
+
+＠特佩乌
+听说恐龙王是位难以取悦的人物，不过同为迪诺斯，[r]只要说清楚情况，应该就能得到理解了吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaFace M 0]
+[charaPut M 0,0]
+[charaFadeTime M 0.1 0.7]
+[wt 0.1]
+＠玛修
+那真是太好了……[r]但恐龙王会那么轻易允许我们谒见吗？
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+嗯。实不相瞒，其实我以前[r]曾是奇琴伊察的神官。
+[k]
+
+[charaFace A 0]
+
+＠特佩乌
+虽然在恐龙王出现以前，我就从[r]奇琴伊察出逃了，因此没见过王，
+[k]
+
+＠特佩乌
+不过我有以往在职时的实绩……[r]也就是所谓的门路。
+[k]
+
+＠特佩乌
+而且，我们原本就没有划定过[r]什么『领地』『国境』。
+[k]
+
+＠特佩乌
+在米克特兰，无论谁要去哪里都是自由的。[r]就像是往返于世界的那个太阳一样。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_161 1.0]
+[wipeout leftToRight 1.0 1]
+[wait wipe]
+[charaFadeout A 0.1]
+[scene 169600]
+[wt 1.0]
+[wipein rightToLeft 1.0 1]
+[wait wipe]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.4 1]
+[wt 0.4]
+[bgm BGM_EVENT_131 0.1]
+
+＠？？？
+你竟然还有牙回来啊，特佩乌！[r]可恶，滚回去滚回去，给我踩玉米穗去死啦！
+[k]
+
+＠？？？
+谁会放你这种思考异常者[r]进入神圣的『太阳遍历之间』啊！
+[k]
+
+＠？？？
+而且你背后那年轻迪诺斯怎么回事！
+[k]
+
+[charaFaceFade H 5 0.2]
+
+＠？？？
+唔唔，多么[&伶俐:楚楚可怜]的站姿！[r]你是来炫耀徒弟的吗，太可恨了！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+并非徒弟而是教师。[r]我能从[&他:她]身上学到的东西多如小山。
+[k]
+
+[charaFace A 2]
+＠特佩乌
+言归正传，神官乌库伯。[r]很高兴看到你这么精神。
+[k]
+
+＠特佩乌
+我想要谒见恐龙王，[r]请问可以吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk W]
+[charaFace W 0]
+[charaFadein W 0.1 1]
+＠W：神官乌库伯
+当然不可以……！[r]王正忙着应对那群奥塞洛特尔！
+[k]
+
+＠W：神官乌库伯
+隐居的你怕是不知道吧，[r]奥塞洛特尔是名为人类的残暴生物！
+[k]
+
+＠W：神官乌库伯
+于此迪诺斯危急存亡之际，[r]王封锁了大平原，以示抗战到底之意。
+[k]
+
+＠W：神官乌库伯
+奇琴伊察可不是你这种没种的家伙该待的地方！[r]赶紧离开这里！
+[k]
+
+[charaFadeout W 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+不，我的家应该还在奇琴伊察才对。[r]毕竟是我自己亲手建起来的。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk W]
+[charaFace W 0]
+[charaFadein W 0.1 1]
+
+＠W：神官乌库伯
+我不是在跟你说这个！[r][line 3]斗士！　斗士们啊，快出来！
+[k]
+
+[messageOff]
+[charaFadeout W 0.1]
+[wt 0.1]
+
+[charaDepth I 9]
+[charaDepth J 8]
+
+[charaTalk off]
+[charaFace I 0]
+[charaFadeinFSL I 0.4 -250,0]
+[charaFace J 0]
+[charaFadeinFSR J 0.4 230,0]
+[cueSe SE_22 22_ad1206]
+[cueSe SE_22 22_ad1162 0.6]
+[wt 0.4]
+[seStop 22_ad1206 1.0]
+[seStop 22_ad1162 0.4]
+[cueSe SE_22 22_ad1207]
+
+＠斗士迪诺斯
+[image npc_language_33]，[image npc_language_34][line 3]
+[k]
+
+[charaFadeout I 0.1]
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+＠神官乌库伯
+将这个恬不知耻的迪诺斯撵出去！[r]竟然还想谒见恐龙王，真是痴心妄想！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_131 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout H 0.1]
+[charaTalk on]
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[subBlurOff #A lens 0.1 normal]
+[subBlurOff #B lens 0.1 normal]
+[scene 169500]
+
+[charaSet A 1098252940 1 特佩乌]
+[wt 1.0]
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+对吧？
+[k]
+
+[bgm BGM_EVENT_94 0.1]
+
+？1：彻底受冷遇了吧！？
+？2：特佩乌难道是……（天然？）
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaSet A 1098252900 1 特佩乌]
+
+[charaTalk off]
+[charaFace E 0]
+[charaFadein E 0.1 100,0]
+[charaFace O 0]
+[charaPut O -30,0]
+[charaFadeTime O 0.1 0.7]
+[wt 0.1]
+
+＠拉斯普京
+特佩乌氏。恕我失礼，您与那位名叫[r]乌库伯的迪诺斯关系好像并不怎么好。
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠特佩乌
+是的，没想到把我当腐烂玉米一样讨厌，[r]动不动就向我派暗杀斗士的乌库伯，
+[k]
+
+＠特佩乌
+竟然会出人头地到当上神官长。[r]哎呀呀，我都忘记说一声恭喜了呢。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaFace M 7]
+[charaPut M 0,0]
+[charaFadeTime M 0.1 0.7]
+[wt 0.1]
+
+＠玛修
+讨厌特佩乌先生的人成了神官首领，[r]这就意味着……
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 6]
+[charaFadeTime B 0.1 0.7]
+[wt 0.1]
+
+＠哈贝特洛特
+没办法走正常渠道去见恐龙王了呢……
+[k]
+
+＠哈贝特洛特
+而且，玛修和[%1]的长相[r]说不定也被记住了……
+[k]
+
+＠哈贝特洛特
+就算只有咱们去申请谒见，[r]也会被当作『特佩乌的同伴』吃闭门羹……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+哈贝特洛特的攻击，[r]哈贝特洛特的攻击。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+[charaFace M 6]
+[charaPut M 0,0]
+[charaFadeTime M 0.1 0.7]
+[wt 0.1]
+
+＠玛修
+没办法。[r]现在应该换个思路。
+[k]
+
+＠玛修
+既然特佩乌先生的门路破破烂烂走不通，[r]也只能找其他行得通的路了。
+[k]
+
+＠玛修
+在奇琴伊察内想办法找到协助者，[r]通过其他渠道去见恐龙王。
+[k]
+
+？1：（点头）
+？2：为此得先收集情报，对吧。
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaFace E 0]
+[charaFadein E 0.1 100,0]
+[charaFace O 5]
+[charaPut O -30,0]
+[charaFadeTime O 0.1 0.7]
+[wt 0.1]
+
+＠拉斯普京
+我也赞成。[r]这并非一朝一夕就能解决的问题。
+[k]
+
+＠拉斯普京
+如此一来，就需要一个能安顿下来的地方吧。
+[k]
+
+＠拉斯普京
+特佩乌氏，奇琴伊察有什么[r]供外来者居住的公共设施吗？
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠特佩乌
+那就住去我家吧。[r]应该还保留着才对。
+[k]
+
+＠特佩乌
+那里位于大街尽头不起眼的角落，[r]也能毫无顾虑地畅谈泛人类史的话题。
+[k]
+
+＠特佩乌
+对了，把U和水兵也一起叫来吧。
+[k]
+
+[charaFace A 2]
+
+＠特佩乌
+各位并不是迪诺斯，[r]还是尽可能待在一起为妙。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_94 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

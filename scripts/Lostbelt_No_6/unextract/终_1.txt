@@ -1,0 +1,647 @@
+
+＄03-00-10-09-1-0
+
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098124500 1 达·芬奇]
+[charaSet C 4037000 1 尼莫]
+[charaSet D 1098123200 1 戈尔德鲁夫]
+[charaSet E 1098123000 1 穆尼尔]
+[charaSet F 1098158200 1 希翁]
+
+[sceneSet G 10001 1]
+[charaScale G 1.01]
+
+[scene 10000]
+
+[se ad906]
+
+[fadein black 1.0]
+[wait fade]
+
+[cueSe SE_21 21_ad1097]
+[se ade378]
+
+＠尼莫
+距通常空间的边界面，还剩40、30、20……！
+[k]
+
+＠尼莫
+特里同引擎，二号至四号，停止！[r]迅速将航行速度恢复平常值！
+[k]
+
+＠尼莫
+要来了，大家快防备冲击！[r]前面就是不列颠异闻带[line 3]不对，
+[k]
+
+＠尼莫
+前面就是不列颠岛的上空了！
+[k]
+
+
+[messageOff]
+[seStop ad729 1.0]
+
+
+
+[criMovie talk_mov111 bgmPlay false]
+[wt 14.0]
+[scene 106800]
+[wt 11.0]
+[overlayFadein G 1.0 0,-200]
+[wt 3.0]
+[scene 132800]
+[wt 1.0]
+[charaFadeout G 1.0]
+[wt 1.5]
+
+
+
+
+
+
+
+[bgm BGM_EVENT_82 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玛修
+前辈！[r]快看窗外！
+[k]
+
+？1：嗯[line 3]嗯！
+
+＠玛修
+是的，是我们熟知的天空！[r]要去甲板吗！？
+[k]
+
+？2：去甲板吧，玛修！
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[se ad13]
+
+
+＠尼莫
+通知舰内的职员，[r]本舰已顺利返回不列颠岛上空。
+[k]
+
+＠尼莫
+警戒态势已被解除。
+[k]
+
+＠尼莫
+将护身用的武器迅速放回保管空间，[r]恢复通常的职务形态。
+[k]
+
+＠尼莫
+另外，戈尔德鲁夫司令官好像也有事要通知。[r]给你麦克风，请讲吧。
+[k]
+
+
+
+＠戈尔德鲁夫
+唔，嗯！[r]此次前所未有的长期作战，辛苦大家了。
+[k]
+
+＠戈尔德鲁夫
+调查未知的世界，与当地人类携手，[r]阻止世界崩溃的调查员。
+[k]
+
+＠戈尔德鲁夫
+在长达50天的黑暗中待命，[r]并且维护舰艇的工作人员。
+[k]
+
+＠戈尔德鲁夫
+在诸位的努力下，[r]观测透镜·示巴恢复了正常值。
+[k]
+
+
+＠戈尔德鲁夫
+原本预计将从不列颠岛扩散出去的[r]『崩落』也被完全消除了！
+[k]
+
+＠戈尔德鲁夫
+因此我在此宣布，自此刻起，[r]在不列颠岛的作战行动[line 3]
+[k]
+
+
+＠戈尔德鲁夫
+[#异闻带:Lostbelt]攻略完成！[r]可喜可贺！　可喜可贺！
+[k]
+
+
+
+＠穆尼尔
+噗噗，什么话啊。[r]大叔，你词汇量也太差了吧～！
+[k]
+
+
+
+＠戈尔德鲁夫
+我，我只是说出了最直观的感受而已！[r]你要不要也来体验一下演讲有多辛苦！？
+[k]
+
+＠戈尔德鲁夫
+不能紧张，不能吃螺丝，而且[r]内容还要精彩，这可是很辛苦的！
+[k]
+
+[messageOff]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+[wt 1.5]
+[charaFadeout A 0.1]
+[wt 0.1]
+[bgmStop BGM_EVENT_82 2.0]
+
+
+＠尼莫
+……真是的。[r]达·芬奇，把麦克风还给我。
+[k]
+
+
+＠尼莫
+接着是工作通报。
+[k]
+
+＠尼莫
+由于目前要进行系统检查，[r]本舰正以低速航行中。
+[k]
+
+＠尼莫
+甲板边缘已展开空气网，[r]接下来20分钟允许前往甲板。
+[k]
+
+
+[bgm BGM_EVENT_45 0.1]
+
+＠尼莫
+[line 3]去看看吧。[r]或许会很难受，但这也是一种了断。
+[k]
+
+＠尼莫
+作为不列颠这段记忆[r]最后的收尾总结吧。
+[k]
+
+[messageOff]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[wt 1.0]
+[charaFace A 7]
+[wt 1.5]
+
+[cameraMove 0.5 0,10 1.01]
+[wt 0.5]
+[cameraMove 0.5 0,0 1.01]
+[wt 1.5]
+
+[fadeout white 1.5]
+[bgm BGM_EVENT_45 1.5 0.4]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[cameraMove 0.1 0,0 1.1]
+[scene 106800]
+[wt 1.5]
+
+[fadein white 1.5]
+[bgm BGM_EVENT_45 1.5 1.0]
+[cameraMove 4.0 0,0 1.0]
+[wait fade]
+[wt 4.5]
+
+[scene 122605 1.5]
+[wt 2.5]
+
+？1：啊啊[line 3]
+？2：（[line 3]沁人心脾般的天空颜色[line 3]）
+
+？！
+
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+[wt 1.2]
+[charaFaceFade A 28 0.2]
+[wt 1.5]
+[charaFaceFade A 29 0.2]
+[wt 0.4]
+
+＠玛修
+[line 3]但是，[r]不列颠岛……
+[k]
+
+＠玛修
+妖精国不列颠……[r]已经消失了呢……
+[k]
+
+？1：……嗯。
+？2：……因为……是已经修复完的特异点嘛……
+
+？！
+
+[messageOff]
+[wt 0.5]
+
+？1：但这，并不代表它，没存在过。与其他异闻带一样。
+
+？！
+
+[charaFaceFade A 19 0.2]
+[wt 1.5]
+[charaFaceFade A 16 0.2]
+[wt 0.4]
+
+＠玛修
+[line 3]是啊。是啊……！
+[k]
+
+＠玛修
+这是教会了我许多许多重要事情的，[r]无可取代的旅途记忆……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+喂～！[r][%1]、玛修[line 3]！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玛修
+达·芬奇亲！[r]达·芬奇亲也是来查看不列颠的吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+嗯。[r]作为在那个国家旅行过的人，来做最后的道别。
+[k]
+
+＠达·芬奇
+我从烘焙坊那拿了点酒，[r]想敬迈克一杯。
+[k]
+
+[messageOff]
+[se ad505]
+[wt 0.7]
+[se ade256]
+[seStop ade256 2.5]
+[wt 2.0]
+
+[charaFace B 0]
+
+＠达·芬奇
+这是叫做饯行的道别之礼哦，迈克。[r]你现在也在那家店里快乐地干活吧。
+[k]
+
+＠达·芬奇
+我这样相信着，也希望如此。[r]哪怕是遭到剪定、被修复了的“错误的世界”[line 3]
+[k]
+
+＠达·芬奇
+哪怕被当作不需要，[r]再也无法从这个宇宙观测到，
+[k]
+
+＠达·芬奇
+曾一度存在过的事物，[r]如今也继续残留于星之记忆中。
+[k]
+
+＠达·芬奇
+[line 3]总有一天我会超越边界前去见你哦。[r]为了查看你取得了多大的进步。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 22]
+[charaFadein A 0.1 1]
+[wt 1.5]
+
+？1：…………嗯。
+？2：…………说得对，达·芬奇亲。
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 31]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+啊对了，差点忘了还有别的事！
+[k]
+
+[charaFace B 22]
+
+＠达·芬奇
+玛修、[%1]，[r]赶紧来一趟我的工房！
+[k]
+
+[charaFace B 15]
+
+＠达·芬奇
+灵基肖像好像在发光，[r]还传来了喵喵的声音！
+[k]
+
+＠达·芬奇
+你们陪我确认一下召唤器！[r]不知道会有什么东西蹦出来！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+嗯，既然是这样，请交给我吧。[r]不管冒出什么，我都决不会输。
+[k]
+
+＠玛修
+因为我是在妖精国强化了的超级基列莱特！
+[k]
+
+？1：啊～……关于这件事啊，玛修……
+
+？！
+
+[charaFace A 35]
+
+＠玛修
+是！[r]什么事啊，御主！
+[k]
+
+？1：你的灵基输出恢复原状了。
+？2：所谓的超级状态，基本上都是有时限的嘛。
+
+？！
+
+[charaFace A 3]
+
+＠玛修
+[line 3]！
+[k]
+
+[charaFace A 21]
+
+＠玛修
+我，我早就知道了，不要紧！[r]之后我会独自躲起来垂头丧气的！
+[k]
+
+[charaFace A 1]
+
+＠玛修
+总之，一码归一码，[r]我们先前往达·芬奇亲的工房吧！
+[k]
+
+＠玛修
+不知为何，我感到非常激动。[r]等待着我们的肯定会是一次美好的相遇！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 19]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+真的吗～～？[r]不过嘛，既然是超级基列莱特的直觉，我还是相信好了。
+[k]
+
+＠达·芬奇
+好了，正式向不列颠道别吧。[r]感谢这一路上的众多相遇。
+[k]
+
+＠达·芬奇
+来[line 3][r]走吧，[%1]。
+[k]
+
+＠达·芬奇
+我们的旅途仍在继续。[r]现在就将回忆留在心中，返回我们的家吧。
+[k]
+
+？1：[line 3]是！
+？2：[line 3]嗯，再见啦，不列颠！
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+不过稍微有点兴奋呢。
+[k]
+
+＠玛修
+不知道新召唤出来的，[r]会是什么样的英灵呢？
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout white 2.0]
+[bgmStop BGM_EVENT_45 2.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[scene 66500]
+[wt 3.0]
+
+[fadein white 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 66400]
+[pictureFrame cut063_cinema]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 0,-50]
+
+＠希翁
+特里斯墨吉斯忒斯Ⅱ。[r][#末日时钟碎片整理:Catastrophe Defragmentation]，停止。
+[k]
+
+＠希翁
+状态改为[#末日时钟预先输入:Catastrophe Automation]。[r]辛苦你发现并修正预料之外的[#死亡结局:Dead End]啦。
+[k]
+
+[charaFace F 10]
+[bgm BGM_EVENT_79 0.1]
+＠希翁
+哎呀，不愧是迦勒底的大家！[r]耗时23小时58分游刃有余地阻止了『崩落』的未来！
+[k]
+
+[charaFace F 12]
+
+＠希翁
+我也不能优哉游哉下去了呢。[r]针对下个[#死亡节点:Dead Point]开始做准备吧。
+[k]
+
+[charaFace F 14]
+
+＠希翁
+让我看看，看上去很糟糕的特殊案件还剩……
+[k]
+
+＠希翁
+从不列颠抽身飞走的Beast幼体，[r]以及有史以来最大规模特异点产生的可能性……
+[k]
+
+＠希翁
+卡多克氏的恢复情况嘛……
+[k]
+
+[charaFace F 4]
+
+＠希翁
+无论如何都无法取下那所谓的大令咒，[r]只能死心放弃这么做了吗……
+[k]
+
+[charaFace F 15]
+
+＠希翁
+唔，根据象形文字预测，[r]『没问题。叛乱吧。睑睑。』？
+[k]
+
+＠希翁
+看不懂啦～，请讲阿拉伯语。[r]算了，这条就无视吧。
+[k]
+
+[charaFace F 17]
+
+＠希翁
+比起这个，现在应该将注意力放在最关键的她身上吧。[r]会怎么样呢～，她会去做什么呢～。
+[k]
+
+[messageOff]
+[se ad1]
+[wt 1.5]
+
+[charaFace F 14]
+
+＠希翁
+……哎哟，还有这种未来预测。[r]要说正常确实很正常，只是没什么时间了呢。
+[k]
+
+[charaFace F 0]
+
+＠希翁
+好啦好啦，我也得抓紧时间准备才行。
+[k]
+
+＠希翁
+迦勒底已六度攻略了[#异闻带:Lostbelt]。[r]『异星之神』差不多也该完成学习了吧。
+[k]
+
+[charaFace F 13]
+
+＠希翁
+这代表彼此的目标都只剩一个了。
+[k]
+
+＠希翁
+没有人员折损的胜利到此为止。[r]接下来就不可能平安无事地，解决问题了吧？
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[bgmStop BGM_EVENT_79 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[charaFadeout F 0.1]
+[scene 10000]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+[skip false]
+[wt 1.0]
+
+[input selectBranch]
+
+[messageOff]
+[skip false]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098124500 1 达·芬奇]
+[charaSet C 4037000 1 尼莫]
+[charaSet D 1098123200 1 戈尔德鲁夫]
+[charaSet E 1098123000 1 穆尼尔]
+[charaSet F 1098158200 1 希翁]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout F 0.1]
+
+[soundStopAllFade 0.4]
+[scene 10000]
+[wt 0.4]
+[soundStopAll]
+[maskin black 1]
+[wait mask]
+[label selectBranch]
+
+[wt 1.0]
+[fowardEffect bit_chapterclear308]
+[wait fowardEffect]
+
+[wt 1.0]
+[soundStopAll]
+[end]

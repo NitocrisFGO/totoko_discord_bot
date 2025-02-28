@@ -1,0 +1,1578 @@
+
+＄03-00-13-23-1-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098253810 1 瓦克昌]
+[charaSet D 1098257700 1 特诺奇蒂特兰]
+[charaSet E 1098257300 1 达·芬奇]
+[charaSet F 1098255100 1 戈尔德鲁夫]
+[charaSet G 1098239310 1 卡多克]
+[charaSet H 1098252440 1 库库尔坎]
+
+[sceneSet L 174500 1]
+[sceneSet M 174500 1]
+[sceneSet N 174500 1]
+[sceneSet O 174500 1]
+[imageSet P black_fade_re 1]
+[imageSet Q black_fade_re 1]
+
+[charaScale D 1.3]
+[charaScale A 1.1]
+[charaScale L 1.1]
+[charaScale M 1.2]
+[charaScale N 1.2]
+[charaScale O 1.2]
+[charaScale P 2.0]
+[charaScale Q 2.0]
+
+[imageSet S back10000 1 1]
+[charaScale S 1.05]
+[charaSet T 5009000 1 特效用1]
+[charaPut T 2000,2000]
+[charaEffect T bit_sepia01_depth_fs]
+
+[sceneSet U 10001 1 1]
+[charaScale U 1.2]
+
+[scene 174500]
+
+[cameraMove 0.1 0,0 1.01]
+[shake 0.05 0 1 0]
+
+[subCameraOn 2]
+[charaLayer D sub #A]
+[charaLayer M sub #A]
+[subCameraFilter #A maskEdge cut359_mask07 4 0,0,0,255]
+[subRenderScale #A 1.0]
+[subCameraFilter #B maskEdge cut359_mask08 4 0,0,0,0]
+[subRenderScale #B 1.0]
+[charaDepth D 9]
+[charaDepth M 8]
+[charaFace D 8]
+[charaFadein D 0.1 -20,350]
+[charaFadein M 0.1 0,150]
+
+[charaTalk depthOff]
+[charaDepth P 6]
+[charaDepth Q 5]
+[charaDepth C 4]
+[charaDepth N 3]
+[charaDepth A 2]
+[charaDepth L 1]
+
+[effect bit_talk_rubble]
+
+[fadein black 1.0]
+[se ade393]
+[seVolume ade393 0 0.2]
+[wait fade]
+
+[seVolume ade393 1.0 0.5]
+
+[wt 3.5]
+
+[fadeout black 1.0]
+[wait fade]
+
+[seStop ade393 8.0]
+[shakeStop]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 200,0]
+[charaFadein L 0.1 70,-200]
+[wt 1.0]
+
+[bgm BGM_BATTLE_195 1.0]
+[fadein black 1.0]
+[wait fade]
+
+
+[wt 1.5]
+
+[charaMove A 200,20 2.0]
+[charaMove L 70,-180 2.0]
+
+[fadeout black 0.8]
+[wait fade]
+
+
+[charaScale C 1.3]
+
+[charaFadeout A 0.1]
+[charaFadeout L 0.1]
+
+[effectStop bit_talk_rubble]
+
+[charaFadein P 0.1 0,-1000]
+[charaFadein Q 0.1 0,200]
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 0,150]
+[charaFadein N 0.1 0,-50]
+[wt 0.2]
+
+[fadein black 0.6]
+[wait fade]
+[wt 2.0]
+
+？1：瓦克昌……
+？2：……至少要带他回到地表……
+
+？！
+
+[cameraMove 0.8 0,0 1.03]
+[wt 1.0]
+
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+[bgm BGM_BATTLE_195 0.7 0.4]
+[wait wipe]
+
+[charaFadeout C 0.1]
+[charaFadeout P 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout N 0.1]
+
+[cameraHome 0.1]
+
+[charaLayer C sub #B]
+[charaLayer N sub #B]
+[charaDepth C 7]
+[charaDepth N 6]
+[charaScale C 1.4]
+[charaFace C 0]
+[charaFadein C 0.1 0,600]
+[charaFadein N 0.1 0,300]
+
+[charaDepth B 6]
+[charaDepth O 5]
+[charaDepth A 4]
+[charaDepth L 3]
+
+[charaScale A 1.2]
+[charaScale B 1.2]
+[charaScale L 1.2]
+[charaScale O 1.2]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 30,0]
+[charaFadein O 0.1 -70,-320]
+
+[charaFace A 8]
+[charaFadein A 0.1 200,0]
+[charaFadein L 0.1 70,-200]
+
+[effect bit_talk_rubble]
+[wt 0.1]
+
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[bgm BGM_BATTLE_195 0.7 1.0]
+[charaMove B 0,0 0.7]
+[charaMove O -100,-320 0.7]
+[wait wipe]
+
+＠特佩乌
+不行，[%1]、玛修。[r]瓦克昌的身体遍布着毒素。
+[k]
+
+＠特佩乌
+我们是没有办法搬运他的。[r]只能把他留在这里了。
+[k]
+
+＠特佩乌
+现在应该争分夺秒地回到上面。[r]玛修，特诺奇蒂特兰呢？
+[k]
+
+[messageOff]
+[charaTalk B,A]
+[charaFadeout B 0.4]
+[charaFadeout O 0.4]
+[wt 0.4]
+
+＠玛修
+……虽然还有意识……[r]但她说无法与我们同行。
+[k]
+
+[messageOff]
+[charaDepth B 2]
+[charaScale B 1.0]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+[charaTalk A,D]
+[charaMove A 240,0 1.0]
+[charaMove L 110,-200 1.0]
+[wt 1.0]
+
+[subRenderFadeinFSL #A 1.0 -240,-350]
+[wt 2.6]
+
+[charaTalk A,D,B]
+[subRenderFadeout #A 0.7]
+[charaFadeout A 0.7]
+[charaFadeout L 0.7]
+[wt 1.0]
+
+＠特佩乌
+知道了。那么达·芬奇和[%1]坐到我的背上。
+[k]
+
+＠特佩乌
+达·芬奇、玛修、哈贝特洛特、[r][%1]、我。
+[k]
+
+＠特佩乌
+就我们5人回去。没问题吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaScale A 1.0]
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠玛修
+是，没有异议。[r]我们走吧，前辈。
+[k]
+
+？1：……嗯。
+
+？！
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 1.0 1.0]
+[bgm BGM_BATTLE_195 1.0 0.5]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 1.0 1.0]
+[bgm BGM_BATTLE_195 1.0 1.0]
+[wait wipe]
+
+[cameraMove 1.5 0,20 1.03]
+[wt 2.0]
+
+[charaTalk C]
+[subRenderFadein #B 1.0 0,-330]
+[wt 1.5]
+
+？1：……再见了，瓦克昌。
+？2：谢谢你救了我的朋友。
+
+？！
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStop BGM_BATTLE_195 2.0]
+[wait fade]
+
+[effectStop bit_talk_rubble]
+
+[subRenderFadeout #B 0.1]
+
+[charaFadeout D 0.1]
+[charaFadeout C 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaLayer D normal]
+[charaLayer C normal]
+[charaLayer M normal]
+[charaLayer N normal]
+
+[subCameraOff]
+
+[charaTalk depthOn]
+
+[charaSet A 1098257910 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098253810 1 瓦克昌]
+[charaSet D 1098257700 1 特诺奇蒂特兰]
+[charaSet E 1098257300 1 达·芬奇]
+[charaSet F 1098255100 1 戈尔德鲁夫]
+[charaSet G 1098239310 1 卡多克]
+[charaSet H 1098252440 1 库库尔坎]
+[sceneSet L 174500 1]
+[sceneSet M 174500 1]
+[sceneSet N 174500 1]
+[sceneSet O 174500 1]
+[imageSet P black_fade_re 1]
+[imageSet Q black_fade_re 1]
+[imageSet S back10000 1 1]
+
+[cameraMove 0.1 0,0 1.01]
+
+[shakeStop]
+[pictureFrame]
+[scene 10000]
+[wt 0.5]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[criMovie talk_mov160 bgmPlay false]
+[wt 30.0]
+[overlayFadein U 1.0 0,-200]
+[wt 1.5]
+
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout U 1.0]
+[charaSet C 1098255200 1 哈贝特洛特]
+[charaSet D 6042002 1 光之高扬斯卡娅]
+[sceneSet L 175002 1]
+[sceneSet M 175002 1]
+[sceneSet N 176700 1]
+[sceneSet O 175002 1]
+[charaSet P 98115000 1 特效用]
+[charaScale P 1.01]
+[charaSet Q 98115000 1 特效用]
+[charaScale Q 1.01]
+[sceneSet V 176700 1]
+
+[scene 175002]
+
+[subCameraOn 2]
+[charaLayer E sub #A]
+[charaLayer L sub #A]
+[charaLayer H sub #B]
+[subCameraFilter #A maskEdge cut359_mask05 3 255,255,255,255 0]
+[subCameraFilter #B maskEdge cut359_mask08 3 0,174,149,255 0]
+[subRenderScale #A 1.0]
+[subRenderScale #B 1.1]
+
+[charaScale B 1.2]
+[charaScale H 1.1]
+[charaScale E 1.0]
+[charaScale C 1.0]
+[charaScale L 1.2]
+[charaScale M 1.2]
+[charaScale N 1.2]
+[charaScale O 1.2]
+
+[charaTalk depthOff]
+[charaDepth E 8]
+[charaDepth L 7]
+[charaDepth H 6]
+[charaDepth C 5]
+[charaDepth A 4]
+[charaDepth B 3]
+[charaDepth P 2]
+[charaDepth M 1]
+
+[charaFace E 14]
+[charaFadein E 0.1 -20,350]
+[charaFadein L 0.1 -200,60]
+
+[shake 0.01 2 2 0]
+
+[charaPut P 1]
+[charaEffect P bit_talk_41_fs]
+[wt 1.5]
+
+
+[fadein black 2.0]
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0.2]
+[cueSeVolume 22_ad1210 1.0 0.8]
+[bgm BGM_BATTLE_210 0.1]
+[wt 3.0]
+
+
+[fadeout black 1.0]
+[bgm BGM_BATTLE_210 1.0 0.4]
+[cueSeVolume 22_ad1210 1.0 0.2]
+[wait fade]
+
+[shakeStop]
+
+[charaEffectDestroy P bit_talk_41_fs]
+[charaPut P 2000,2000]
+
+[charaTalk B,E]
+[charaFace B 3]
+[charaFadeinFSL B 0.1 0,50]
+[charaFadein M 0.1 -120,-180]
+
+[fadein black 1.0]
+[shake 0.01 1 1 0]
+[bgm BGM_BATTLE_210 1.0 1.0]
+[cueSeVolume 22_ad1208 1.0 0.8]
+[wait fade]
+
+[subRenderFadeinFSR #A 0.3 300,-280]
+[subRenderMoveFSR #A 300,-380 0.3]
+[wt 0.5]
+
+＠达·芬奇
+背着两个人不觉得重吗，特佩乌！？[r]难受的话我先下来[line 2]
+[k]
+
+＠特佩乌
+没问题。马上就要开战了。[r]两位还是先保存好体力吧。
+[k]
+
+＠特佩乌
+毕竟我也只能帮上这点忙了。
+[k]
+
+[charaFace E 33]
+
+＠达·芬奇
+特佩乌……
+[k]
+
+[messageOff]
+[shake 0.01 2 3 0]
+[charaTalk B,E]
+[se ade393]
+[seVolume ade393 0 0.9]
+[se ad619]
+[seVolume ad619 0 0.5]
+[wt 1.5]
+
+[subRenderFadeout #A 0.4]
+
+[cueSeVolume 22_ad1210 1.0 0]
+[charaTalk B,A]
+[charaMoveFSL B 60,50 0.4]
+[charaMove M -80,-180 0.5]
+[charaFadeout B 0.4]
+[wt 0.1]
+
+[cameraMove 0.4 30,-10 1.1]
+
+[charaFace A 2]
+[charaFadeinFSL A 0.4 -190,0]
+[charaMoveFSL A -130,0 0.4]
+[wt 0.7]
+
+＠玛修
+巨大质量正从下层上升！[r]御主，请把礼装的体温调节功能调到最大！
+[k]
+
+[shake 0.01 1 1 0]
+
+＠玛修
+示巴给出的危险观测与敌对反应均为最大值！[r]灵基模式在地球上不存在同型波长！
+[k]
+
+＠玛修
+推测灵基规模相当于卫星级，[r]规模仍在扩大中！
+[k]
+
+＠玛修
+距离接触敌人还剩6、5[line 3][wt 1.0]来了！
+[k]
+
+＠玛修
+是ORT！
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[bgm BGM_BATTLE_210 0.5 0.4]
+[cueSeStop 22_ad1210 0.5]
+[wait wipe]
+
+[charaFadeout M 0.1]
+[charaFadeout A 0.1]
+[subRenderFadeout #A 0.1]
+[charaFace E 12]
+
+[cameraMove 0.1 0,0 1.01]
+[shakeStop]
+
+[scene 176700]
+[charaDepth N 3]
+[charaDepth V 2]
+[charaScale N 1.3]
+[charaFadein N 0.1 190,-200]
+[charaScale V 1.07]
+[charaFadein V 0.1 0,-240]
+
+[se ade59]
+[seVolume ade59 0 0]
+[se ad177]
+[seVolume ad177 0 0]
+[seVolume ade59 0.2 0.7]
+[seVolume ade92 0.2 1.0]
+[wt 0.5]
+[se ad882]
+[se ad828]
+[se ad915]
+[se ad914]
+[se ade92]
+[seVolume ade92 0 0]
+[seVolume ade92 0.2 1.0]
+[wt 1.0]
+[seStop ade59 0.5]
+[seStop ad177 0.5]
+[wt 0.5]
+
+
+[effect bit_talk_impactlanding -200,0]
+[wt 0.1]
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[shake 0.05 2 2 3.0]
+[bgm BGM_BATTLE_210 0.5 1.0]
+
+[charaMove N 190,-350 8.0]
+[se ad439]
+[seVolume ad439 0 0.5]
+[se ad429]
+[seVolume ad429 0 0.5]
+[se adm11]
+[seVolume adm11 0 0.5]
+[se ad416]
+[seVolume ad416 0 0.6]
+[seVolume ade393 1.0 0.8]
+[seVolume ad619 1.0 0.8]
+[wait wipe]
+
+[effect bit_talk_rubble]
+[seVolume ad439 1.0 1.0]
+[seVolume ad429 1.0 1.0]
+[seVolume ad416 1.0 1.0]
+[seVolume adm11 1.0 1.0]
+[wt 5.5]
+[seStop ad439 1.0]
+[seStop ad429 1.0]
+[seStop adm11 1.0]
+[seStop ad416 1.0]
+[wt 2.0]
+[effectStop bit_talk_rubble]
+[charaFadeout N 1.0]
+[charaMoveScale V 1.0 3.0]
+[charaMove V 0,-200 3.0]
+[wt 4.0]
+
+[seStop ade393 5.0]
+[seStop ad619 5.0]
+
+？1：从地幔爬出来却毫发无伤……！
+？2：（真的有办法对付那玩意吗！？）
+
+？！
+
+[charaTalk E]
+[subRenderFadeinFSR #A 0.3 300,-280]
+[subRenderMoveFSR #A 300,-380 0.3]
+[wt 0.5]
+
+＠达·芬奇
+虽，虽然有所耳闻，但这压迫感还真是出类拔萃[line 2]！[r]这都能算是宇宙怪兽了吧！
+[k]
+
+＠达·芬奇
+虽说只有数秒，但你竟跟这种东西战斗过吗，[r][%1]！？
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.2]
+[fadeout white 0.5]
+[bgm BGM_BATTLE_210 0.5 0.4]
+[wait fade]
+
+[charaFadeout V 0.1]
+[charaPut T 1]
+
+[subRenderFadeout #A 0.1]
+
+[scene 172600]
+[wt 0.5]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 2.0]
+
+[fadeout white 0.5]
+[wait fade]
+[charaPut T 2000,2000]
+[charaEffectStop T bit_sepia01_depth_fs]
+
+[sceneSet N 175002 1]
+
+[scene 175002]
+
+[charaDepth O 8]
+
+[charaTalk E]
+[subRenderFadeinFSR #A 0.1 300,-380]
+
+[charaTalk B,E]
+[charaFace B 3]
+[charaFadeinFSL B 0.1 0,50]
+[charaFadein M 0.1 -80,-180]
+
+[shake 0.01 1 1 0]
+[cueSe SE_22 22_ad1210]
+[cueSeVolume 22_ad1210 0 0.2]
+[wt 0.5]
+
+[fadein white 0.5]
+[bgm BGM_BATTLE_210 0.5 1.0]
+[cueSeVolume 22_ad1210 0.5 0.8]
+[wt 0.5]
+[wait fade]
+
+？1：请别让我回想起来啦！
+？2：那哪是战斗，只是单方面被干掉而已！
+
+？！
+
+[messageOff]
+[subRenderMoveFSR #A 320,-380 0.4]
+[subRenderFadeout #A 0.4]
+[cueSeStop 22_ad1210 0.4]
+[charaTalk C,B]
+[charaMoveFSL B 60,50 0.4]
+[charaMove M -40,-180 0.5]
+[charaFadeout B 0.4]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 -50,0]
+[wt 0.4]
+
+＠哈贝特洛特
+快逃吧，这玩意真的拿它没辙啦。[r]就算在异闻带，也要分可以做和不该做的事啦。
+[k]
+
+[messageOff]
+[charaTalk A]
+[charaMove C -90,0 0.4]
+[charaMove M -80,-180 0.5]
+[charaFadeout C 0.4]
+[wt 0.1]
+
+[charaFace A 13]
+[charaFadein A 0.4 70,0]
+[charaMove A 40,0 0.4]
+[wt 0.4]
+
+＠玛修
+话虽如此，我们已经被ORT捕捉到了！[r]上第九层的墙壁在ORT身后！
+[k]
+
+？1：怎么办，怎么办！？
+？2：（是躲起来，还是回下面呢！？）
+
+？！
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+[shakeStop]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFadeout M 0.1]
+
+[charaDepth P 2]
+[charaDepth Q 1]
+[charaDepth A 9]
+[charaLayer A sub #A]
+
+[charaFace A 13]
+[charaFadein A 0.1 -70,350]
+[wt 0.5]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+
+
+[charaPut P 1]
+[cueSe SE_23 23_ad1249]
+[charaEffect P bit_talk_ort_cvr_net_1]
+[wt 1.5]
+
+[charaTalk A]
+[subRenderFadeinFSR #A 0.3 300,-280]
+[subRenderMoveFSR #A 300,-380 0.3]
+[wt 0.4]
+
+＠玛修
+网状的金属纤维朝全方位展开！[r]站在这么狭窄的落脚点上根本无处可逃！
+[k]
+
+＠玛修
+战斗环境恶劣至极！[r]此时战斗无异于自寻死路，御主！
+[k]
+
+[messageOff]
+[subRenderMoveFSR #A 300,-480 0.3]
+[subRenderFadeout #A 0.3]
+[wt 0.3]
+[se ade393]
+[seVolume ade393 0 0.9]
+[shake 0.05 2 2 1.5]
+[cueSe SE_23 23_ad1251]
+[seVolume 23_ad1251 0 0]
+[wt 1.0]
+
+[seStop ade393 3.0]
+[seVolume 23_ad1251 0 1.0]
+[charaPut Q 1]
+[charaEffect P bit_talk_ort_cvr_net_2]
+[wt 1.5]
+
+？1：（简直就像蜘蛛的巢穴[line 3]！）
+？2：（不行，待在这里毫无胜算！）
+
+？！
+
+[bgmStop BGM_BATTLE_210 1.0]
+
+＠C：？？？
+啊～～～～，看不下去了！[r]稍微打扰一下哦！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[charaFace E 7]
+[charaFadein E 0.1 -20,350]
+[charaFadeout M 0.1]
+[wt 0.2]
+[cueSe SE_23 23_ad1250]
+[effect bit_talk_kuk_slash_once -100,20]
+[wt 1.6]
+[cueSe Servants_304800 m44410]
+
+[charaFadein U 0.2 0,-200]
+[wt 0.2]
+
+[charaPut P 2000,2000]
+[charaPut Q 2000,2000]
+[charaEffectStop P bit_talk_ort_cvr_net_1]
+[charaEffectStop Q bit_talk_ort_cvr_net_2]
+[wt 0.4]
+
+[cueSe Servants_104900 m43009]
+[cueSe Servants_9941810 bac1035]
+[wt 0.3]
+[cueSe Battle bac201]
+[cueSe Servants_900200 m06312]
+[wt 0.6]
+
+[charaFadeout U 0.7]
+[wt 1.0]
+
+[charaLayer M sub #B]
+[charaFadein M 0.1 0,-90]
+[charaFadein H 0.1 0,368]
+
+[charaTalk E]
+[subRenderFadeinFSR #A 0.3 300,-280]
+[subRenderMoveFSR #A 300,-380 0.3]
+[wt 0.5]
+
+＠达·芬奇
+ORT的丝被如此轻易地切断了！[r]刚才那毫无疑问是……！
+[k]
+
+[messageOff]
+[shakeStop]
+[subRenderFadeout #A 0.4]
+[wt 0.4]
+
+[bgm BGM_BATTLE_97 0.1]
+
+[charaScale N 1.2]
+[charaFadein N 0.7 0,-220]
+[charaMove N 0,-320 3.0]
+[wt 3.4]
+
+[charaTalk H]
+[subRenderFadein #B 1.5 0,-380]
+[wt 2.5]
+
+[wipeout rectangleStripDownToUp 0.5 1.0]
+[bgm BGM_BATTLE_97 0.5 0.4]
+[wait wipe]
+
+[charaFadeout E 0.1]
+[charaFadeout N 0.1]
+[subRenderFadeout #B 0.1]
+
+[charaLayer A normal]
+[charaLayer E normal]
+[charaLayer L normal]
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[scene 175002]
+
+[subCameraFilter #B maskEdge cut359_mask15 5 0,174,149,255 0]
+[charaLayer H sub #B]
+[charaLayer M sub #B]
+
+[charaDepth H 5]
+[charaDepth M 4]
+[charaDepth E 3]
+[charaDepth A 2]
+[charaDepth L 1]
+
+[charaScale H 1.0]
+[charaFace H 0]
+[charaFadein H 0.1 0,200]
+[charaScale M 1.3]
+[charaFadein M 0.1 280,-50]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadeinFSR A 0.1 2]
+[wt 0.2]
+
+[wipein rectangleStripUpToDown 0.5 1.0]
+[bgm BGM_BATTLE_97 0.5 1.0]
+[wait wipe]
+
+＠玛修
+库库尔坎小姐！
+[k]
+
+[messageOff]
+[charaTalk H]
+[subRenderFadeinFSL #B 0.4 -250,-130]
+[subRenderMoveFSL #B -250,-230 0.4]
+[wt 0.5]
+[charaFace H 2]
+
+＠库库尔坎
+嗨～！　没错，实不相瞒，就是我～！[r]感谢你面带笑容地叫我，玛修小姐！
+[k]
+
+[charaFace H 3]
+
+＠库库尔坎
+[messageShake 0.05 3 3 0.4]
+[line 3]不对！
+[k]
+
+[charaFace H 5]
+
+＠库库尔坎
+这可不像你们的作风！　无论对手多强大，[r]你们不都会吆喝一声挺身面对吗！
+[k]
+
+＠库库尔坎
+竟然在这种地方束手待毙，[r]那坚信着『大家肯定没问题！』，
+[k]
+
+＠库库尔坎
+跟卡多克先生他们悠闲品茶的我[r]岂不是像是笨蛋一样了吗[line 2]！
+[k]
+
+[messageOff]
+[charaTalk A,H]
+[charaFace A 5]
+[wt 1.0]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E,H]
+[charaFace E 24]
+[charaFadeinFSR E 0.1 200,0]
+[wt 1.0]
+[bgmStop BGM_BATTLE_97 2.0]
+
+？1：跟卡多克他们？
+？2：悠闲品茶？
+
+？！
+
+
+[fadeout black 1.5]
+[wait fade]
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[charaFadeout H 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaLayer A normal]
+[charaLayer E normal]
+[charaLayer H normal]
+[charaLayer L normal]
+[charaLayer M normal]
+
+[subCameraOff]
+
+[charaTalk depthOn]
+
+[sceneSet L 175500 1]
+[sceneSet M 175500 1]
+[imageSet S back10000 1 1]
+
+[scene 175500]
+
+[cameraMove 0.1 0,0 1.15]
+[cameraRoll 10 0,0]
+
+[charaTalk depthOff]
+[charaDepth Q 7]
+[charaDepth H 6]
+[charaDepth G 5]
+[charaDepth D 4]
+[charaDepth M 3]
+[charaDepth F 2]
+[charaDepth L 1]
+
+[charaScale F 1.0]
+[charaScale G 1.0]
+[charaScale L 1.2]
+[charaScale M 1.2]
+[charaScale Q 1.05]
+
+[charaPut Q 0,15]
+[charaEffect Q bit_sepia01_depth_fs]
+[wt 0.5]
+
+[se ad876]
+[se ad898]
+[wt 1.0]
+[seStop ad876 0.5]
+[seStop ad898 0.5]
+[se ad848]
+[se ad542]
+[wt 0.6]
+[se ad849]
+[seVolume ad849 0 0.8]
+[se ad608]
+[seVolume ad608 0 0.4]
+[wt 1.0]
+[seStop ad849 1.0]
+[seStop ad608 1.0]
+
+[shake 0.01 5 10 1.0]
+[cameraRollMove 0.4 0]
+
+[charaScale L 1.2]
+[charaFadein L 0.1 0,-220]
+
+[fadein black 0.8]
+[se ad880]
+[se ad882]
+[wait fade]
+
+[shake 0.01 2 2 0.6]
+[wt 1.0]
+
+[charaRoll F 180 0,0]
+[charaRoll G 180 0,0]
+
+[cameraMove 1.0 0,0 1.01]
+[wait camera]
+[wt 0.5]
+
+[bgm BGM_EVENT_49 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.7 0,-400]
+[charaShake F 0.02 3 3 0.7]
+[wt 0.7]
+
+＠戈尔德鲁夫
+噢噢噢世界在旋转，是神风吗！[r]我美食家的舌头都快要咬断一截了！
+[k]
+
+＠戈尔德鲁夫
+怎么回事，泽姆露普斯！[r]高扬斯卡娅怎么样了！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 0,-400]
+
+＠卡多克
+她被从戴比特的影子里冒出来的“某种东西”干掉了！[r]她好像也打倒了几只，但还剩两只！
+[k]
+
+＠卡多克
+而那些家伙对Shadow Border发动了攻击！[r]糟糕，追击就要来了！
+[k]
+
+＠卡多克
+快把车体摆正，戈尔德鲁夫！[r]再这样下去会被打穿车底一命呜呼的！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 0,-400]
+
+＠戈尔德鲁夫
+不，就算是我，也没有能让上下颠倒的车[r]恢复原状的技术哦？
+[k]
+
+＠戈尔德鲁夫
+我们需要拖车，或是起重机！
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[cueSe SE_22 22_ad1196]
+[se ad776]
+[seStop ad776 1.4]
+[se ad876]
+[se ad1015]
+[se ad828]
+[se ad797]
+[shake 0.05 0 8 2.0]
+[wt 1.0]
+[se ad882]
+[wt 1.0]
+[se ade339]
+[seVolume ad339 0 0.6]
+[flashin loop 0.6 0.8 FF000080 FF000000]
+[wt 2.5]
+[seVolume ade339 1.0 0.1]
+
+[charaRoll G 0 0,0]
+[wt 0.1]
+
+[se ad346]
+[shake 0.01 0 1 0.3]
+[wt 0.3]
+[seStop ad346 0.2]
+[wt 0.8]
+
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.4 0,15]
+[charaMove G 0,0 0.3]
+[se ad775]
+[seVolume ad775 0 0.5]
+
+＠卡多克
+该死，它们跳到[#车底:上面]了！[r]只能弃车而逃了！　抓紧时间！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 16]
+[charaFadein F 0.1 0,-400]
+
+＠戈尔德鲁夫
+哼。那么哪怕只剩你一个人，也要活下去。[r]我是车手，要与Shadow同生死共命运。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠卡多克
+哈！？　你在说什么呢，[r]这种时候还开玩笑[line 3][wt 1.0]你的安全带是不是在冒红光？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 15]
+[charaFadein F 0.1 0,-400]
+
+＠戈尔德鲁夫
+说得没错。感觉是刚才那下摔出故障了。[r]我解不开安全带，快帮我想想办法，卡多克！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠卡多克
+可恶啊，你还真是个大人物！[r]等着，我记得有紧急用的切割工具[line 2]
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[shake 0.05 4 0 0.8]
+[se ad789]
+[se ad815]
+[se ad797]
+[charaMove L 0,-160 0.3]
+[wt 0.3]
+[charaMove L 0,-220 0.4]
+[wt 0.4]
+[charaMoveReturn L 0,-230 0.2]
+[wt 0.2]
+
+[shake 0.05 2 2 0]
+
+＠抽中下下签的两人
+唔[messageShake 0.05 5 5 1.0]噢噢噢噢噢噢噢噢[line 4]！？[r]要完蛋了吗[line 6]！？
+[k]
+
+[messageOff]
+[seStop ade339 1.5]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_49 1.5]
+[wait fade]
+
+[flashOff]
+[shakeStop]
+[charaFadeout L 0.1]
+
+[charaTalk depthOn]
+
+[charaRoll F 0 0,0]
+
+[scene 173900]
+
+
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.4 1]
+[wt 0.4]
+
+[bgm BGM_EVENT_79 0.1]
+
+＠库库尔坎
+差点就被那种程度的外宇宙终端干掉，[r]泛人类史的人类果然很弱小呢。
+[k]
+
+＠库库尔坎
+被我这个敌人救了一命的心情如何？
+[k]
+
+＠库库尔坎
+两位有什么话想对我呢～？[r]比方说全力求饶，或是行贿保命之类的～？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 18]
+[charaFadein F 0.1 1]
+
+＠戈尔德鲁夫
+谢谢你，真的非常感谢……！[r]这种体验我还是有生以来第一次[line 3]
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 7]
+[charaFadein H 0.1 1]
+[wt 1.0]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth F 2]
+[charaDepth S 1]
+
+[charaTalk F]
+[charaFace F 18]
+[charaFadein F 0.1 1]
+[wt 0.8]
+
+[charaFace F 4]
+
+[charaPut S 1]
+[charaFadeTime S 0.2 0.6]
+
+＠戈尔德鲁夫
+（不对，来迦勒底以后已经见怪不怪了吧？）
+[k]
+
+[charaFadeout S 0.2]
+[charaFace F 1]
+
+＠戈尔德鲁夫
+不，即便如此也相当Amazing。
+[k]
+
+＠戈尔德鲁夫
+不仅轻松赶跑让高扬斯卡娅感到棘手的怪物，[r]还很贴心地帮忙搬动Shadow Border。
+[k]
+
+＠戈尔德鲁夫
+真是再怎么感激都不够。[r]如何，要来车里喝杯茶吗？
+[k]
+
+＠戈尔德鲁夫
+就让我向你露一手在伦敦留学期间[r]锻炼出来的正宗下午茶吧。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk H]
+[charaFace H 19]
+[charaFadein H 0.1 1]
+[wt 1.2]
+
+[charaFace H 15]
+
+＠库库尔坎
+……没问题吗？[r]我可是各位的敌人啊……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠卡多克
+只是立场上算敌人吧。……我听[%1][r]报告过最基本的情况了。
+[k]
+
+＠卡多克
+『库库尔坎是异闻带之王，[r]　守护米克特兰是她的使命。』
+[k]
+
+＠卡多克
+『不过，她也不是会因此就盲目[r]　憎恨外敌的人。』
+[k]
+
+＠卡多克
+……就是这样。我也持相同意见，[r]只是没法像那家伙那样乐观。
+[k]
+
+＠卡多克
+我是真心感谢你刚才救了我们。
+[k]
+
+[charaTalk off]
+[charaFace D 24]
+[charaPutFSL D -300,0]
+[charaFadeTime D 0.3 0.7]
+
+＠卡多克
+我会连同正在潜航艇内闹情绪的高扬斯卡娅的份，[r]向你表示道谢。
+[k]
+
+[charaFadeout D 0.3]
+
+[charaFace G 8]
+
+＠卡多克
+谢谢你，库库尔坎。
+[k]
+
+＠卡多克
+你的实力果然了得。[r]幸好你是个有心的神。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk H]
+[charaFace H 20]
+[charaFadein H 0.1 1]
+
+＠库库尔坎
+[line 3]是吗。[r]在你们看来，我是『有心的神』啊。
+[k]
+
+[charaFace H 2]
+
+＠库库尔坎
+那我也得行个方便才行呢！
+[k]
+
+[charaFace H 9]
+
+＠库库尔坎
+说来不好意思，我没有掌握[#隐匿者:Crypter][r]戴比特所在位置的手段。
+[k]
+
+＠库库尔坎
+迈雅的耳朵听不到他的心跳声。
+[k]
+
+＠库库尔坎
+因此，追踪并阻止他的任务[r]就交给[%1][&先生:小姐]了。
+[k]
+
+＠库库尔坎
+虽说在那之后，我会阻止打算[r]切除空想树的[%1][&先生:小姐]……
+[k]
+
+[charaFace H 0]
+
+＠库库尔坎
+既然都要追上去，你们不如跟我一起去吧？[r]就你们俩的话，我可以两胁各夹一个飞过去，
+[k]
+
+＠库库尔坎
+把你们完好无损地送到第九层。[r]肯定很快就能到哦。[bgmStop BGM_EVENT_79 1.0]
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaFadein F 0.1 1]
+[wt 1.2]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 3]
+[charaFadein G 0.1 1]
+[wt 1.2]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠戈尔德鲁夫
+……不，恕我拒绝这个提议。[bgm BGM_MAP_89 0.1][r]能获得库库尔坎的保护确实值得感激，
+[k]
+
+＠戈尔德鲁夫
+但我们也有使命在身。[r]那就是驾驶Shadow Border支援先遣队的使命。
+[k]
+
+＠戈尔德鲁夫
+你就别管我们了。[r]我们将以前所未有的速度修理车辆，立刻出发。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠卡多克
+司令官说得没错。我们也能[r]立马追上[%1]他们。
+[k]
+
+＠卡多克
+你先走一步吧。对手可不只戴比特，[r]还有特斯卡特利波卡嘛。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 9]
+[charaFadein H 0.1 1]
+
+＠库库尔坎
+不要紧吗？[r]追上[%1][&先生:小姐]之后，我就会[line 2]
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 8]
+[charaFadein G 0.1 1]
+
+＠卡多克
+反正只是嘴上说说吧。[r]或者说，就算真被你阻止也无可奈何。
+[k]
+
+＠卡多克
+我们只要能阻止ORT就行了。[r]至于米克特兰的存亡，可以坐下来心平气和地谈。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 20]
+[charaFadein H 0.1 1]
+
+＠库库尔坎
+[line 3]也是呢。[r]那我先告辞[line 3][bgmStop BGM_MAP_89 1.0][wt 1.0]哎哟，慢着。
+[k]
+
+[bgm BGM_EVENT_146 0.1]
+
+[charaFace H 4]
+
+＠库库尔坎
+机会难得，可以让我品尝一下那个[r]叫什么下午茶（？）的东西吗？
+[k]
+
+＠库库尔坎
+我非常想学习泛人类史的文化～！
+[k]
+
+[messageOff]
+[fadeout black 1.5]
+[bgm BGM_EVENT_146 1.5 0.4]
+[wait fade]
+
+[charaFadeout H 0.1]
+[charaPut Q 2000,2000]
+[charaEffectDestroy Q bit_sepia01_depth_fs]
+[wt 0.1]
+
+[sceneSet L 175001 1]
+[sceneSet M 175001 1]
+
+[subCameraOn 1]
+
+[charaTalk depthOff]
+[charaDepth H 5]
+[charaDepth M 4]
+[charaDepth E 3]
+[charaDepth A 2]
+[charaDepth L 1]
+
+[charaScale H 1.0]
+[charaScale M 1.1]
+
+
+[scene 175002]
+[wt 0.1]
+
+[fadein black 1.5]
+[bgm BGM_EVENT_146 1.5 1.0]
+[wait fade]
+
+[charaTalk H]
+[charaFace H 14]
+[charaFadein H 0.1 1]
+
+＠库库尔坎
+……综上所述，我享用了美味的茶和三块三明治、[r]两块蛋糕……哎嘿。
+[k]
+
+？1：那还真是……
+？2：悠闲愉快的茶会呢！
+
+？！
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 22]
+[charaFadein A 0.1 1]
+
+＠玛修
+无论何时都不忘秉持风雅，[r]不愧是戈尔德鲁夫司令官！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_146 1.0]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+
+＠库库尔坎
+拜他所赐，我也得消耗一点过剩的卡路里才行。
+[k]
+
+
+＠库库尔坎
+我会开足马力战斗，[r]泛人类史的各位都能跟得上吧～？
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[bgm BGM_BATTLE_185 0.1]
+[charaTalk E]
+[charaFace E 17]
+[charaFadein E 0.1 1]
+
+＠达·芬奇
+那当然，而且现在已经没有后顾之忧了！
+[k]
+
+＠达·芬奇
+既然你愿意加入我们这边，[r]我们也就不需要保存战力了！
+[k]
+
+＠达·芬奇
+动手吧，[%1]、[r]玛修、哈贝特洛特！
+[k]
+
+＠达·芬奇
+让我们亲手瘫痪ORT的战斗力吧！[r]至于切除空想树，等那之后再说！
+[k]
+
+？1：没问题！
+？2：上吧[line 3]！
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠玛修
+是！　开始与敌人[line 3][r]侵略型生命体ORT交战！
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_BATTLE_185 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
+

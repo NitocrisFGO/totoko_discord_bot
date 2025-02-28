@@ -1,0 +1,1255 @@
+
+
+＄03-00-13-01-1-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 98001000 1 玛修]
+[charaSet B 1098239320 1 卡多克]
+[charaSet C 1098257400 1 希翁]
+[charaSet D 1098255100 1 戈尔德鲁夫]
+[charaSet E 1098158330 1 尼莫]
+[charaSet F 1098182000 1 尼莫护士]
+[charaSet G 1098257300 1 达·芬奇]
+[charaSet H 98115000 1 特效用]
+[charaSet I 98002000 1 芙芙]
+[masterImageSet J cut396_costume_m cut396_costume_w 1]
+[charaSet K 1098255200 1 哈贝特洛特]
+[charaSet L 1098123000 1 穆尼尔]
+[charaSet M 1098254800 1 尼莫水兵1]
+[charaSet N 1098254800 1 尼莫水兵2]
+[charaSet O 1098254800 1 尼莫水兵3]
+[sceneSet P 132900 1]
+[charaSet Q 1098182110 1 尼莫教授]
+[charaSet R 1098255300 1 尼托克丽丝]
+[charaSet S 98005000 1 奥尔加玛丽]
+[sceneSet T 132900 1]
+[charaSet U 1098255300 1 尼托克丽丝_上升用]
+[masterBranch _Male _Female]
+[label _Male]
+[charaSet V 1098259400 1 决战礼装御主立绘（男）]
+[branch _branchEnd]
+[label _Female]
+
+[charaSet V 1098259410 1 决战礼装御主立绘（女）]
+[branch _branchEnd]
+[label _branchEnd]
+
+
+
+[scene 157900]
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad775]
+[seVolume ad775 0 0.2]
+[charaScale J 0.95]
+[charaFadein J 0.4 0,-200]
+[wt 1.0]
+[wait touch]
+[charaFadeout J 0.4]
+[se ade385]
+[seVolume ade385 0 0.6]
+[wt 1.0]
+[se ad748]
+[wt 0.2]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠芙芙
+芙，芙呜！
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth K 1]
+[charaDepth F 2]
+
+[charaTalk off]
+[charaScale K 1.0]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[charaFace K 1]
+[charaPut K 250,0]
+
+＠尼莫护士
+太好了。尺码刚刚好呢。[wt 0.8][charaFadeTime K 0.4 0.7][r]不愧是哈贝特洛特小姐，工作完成得很出色。
+[k]
+[charaFadeout K 0.4]
+
+＠尼莫护士
+这就是攻略第七异闻带……不，[r]是对『异星之神』攻略用的魔术礼装。
+[k]
+
+[charaTalk depthOn]
+[charaTalk on]
+＠尼莫护士
+Storm Border正以对地速度900km/h[r]朝着南美大陆飞行。
+[k]
+
+＠尼莫护士
+距离抵达还有约4小时。
+[k]
+
+＠尼莫护士
+虽然无法充分休息，[r]但你要小睡个2小时左右吗？
+[k]
+
+？1：不要紧。
+
+[charaFace F 1]
+
+＠尼莫护士
+那就来一杯能平复心情的红茶吧。[r]我会加上满满的蜂蜜哦。
+[k]
+
+？2：（……对『异星之神』的装备吗……）
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[fadeout white 0.5]
+[wait fade]
+[effect bit_sepia01_depth_fs]
+
+[charaFadeout F 0.1]
+[charaTalk S]
+[charaFace S 0]
+[charaFadein S 0.1 1]
+
+[scene 10710]
+[wt 0.1]
+
+[fadein white 0.5]
+[wait fade]
+
+[wt 2.5]
+
+[fadeout white 0.5]
+[wait fade]
+
+[effectDestroy bit_sepia01_depth_fs]
+[charaFadeout S 0.1]
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+[wt 0.1]
+[scene 157900]
+
+[fadein white 0.8]
+[wait fade]
+
+
+＠芙芙
+…………
+[k]
+
+？！
+[messageOff]
+[bgmStop BGM_EVENT_77 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout I 0.1]
+[charaFadeout F 0.1]
+[wt 1.0]
+[scene 89200]
+
+[pictureFrame cut063_cinema]
+
+[cueSe SE_21 21_ade579]
+[fadein black 1.0]
+[wait fade]
+[wt 1.2]
+
+
+
+[bgm BGM_EVENT_2 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0,-50]
+
+＠达·芬奇
+太好了，看来在Traum的[#紧急出击:突击转移][r]并没有造成什么故障。
+[k]
+
+＠达·芬奇
+这样就不必担心在南美的行动了。[r]你可以全程大显身手了哦。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 0,-50]
+
+＠玛修
+非常感谢，达·芬奇亲。[r]您能这么说，我也就有自信了。
+[k]
+
+[charaFace A 13]
+
+＠玛修
+那个，虽说是自我诊断，[r]但我也感觉状态前所未有地好……
+[k]
+
+＠玛修
+先不提[#黑色炮身:Black Barrel]的使用，[r]奥特瑙斯的操控也轻松多了。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 22]
+[charaFadein G 0.1 0,-50]
+[wt 1.0]
+[charaFace G 28]
+
+＠达·芬奇
+看来是这样。[r]玛修的身体能力值比以往有所提升。
+[k]
+
+＠达·芬奇
+按这种成长速度，[r]跻身顶级从者之列也不再是梦。
+[k]
+
+＠达·芬奇
+你是我们[#新:Novum]·迦勒底名副其实的代表战力。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 0,-50]
+
+＠玛修
+是，是的。这么夸奖让人怪不好意思的，[r]但我会努力让自己配得上这份评价的。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 36]
+[charaFadein G 0.1 0,-50]
+
+＠达·芬奇
+嗯，但是[#黑色炮身:Black Barrel]的使用[r]还得加上进一步的限制哦。
+[k]
+
+＠达·芬奇
+今后要用纯粹的『藉压缩魔力发动炮击』[r]作为基本用法。
+[k]
+
+＠达·芬奇
+禁止利用[#刻寿测量针:Accomplish Measure]去计算[#存在规模:Life Scale]、[r]形成[#悖论构造体:Black Barrel]、
+[k]
+
+＠达·芬奇
+生成[#生命距离弹:Dead Counter]。[r]那会同时对你的身体与御主的命运力造成负担。
+[k]
+
+＠达·芬奇
+还有，虽说是基本用法，但严禁在都市区域使用。[r]记得也转告[%1]。
+[k]
+
+＠达·芬奇
+因为范围太广了，[r]无论如何都会导致无辜群众受害。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+
+＠玛修
+是的，我认为这是正确的判断。[r]毕竟[#生命距离弹:Dead Counter]会打破世界的法则。
+[k]
+
+＠玛修
+我很清楚它决不可拿来滥用。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 0,-50]
+
+＠达·芬奇
+嗯，说得没错。也难怪阿特拉斯院会将[r]『死亡的概念』用作兵器视为危险。
+[k]
+
+＠达·芬奇
+……而且。
+[k]
+
+[charaFace G 1]
+
+＠达·芬奇
+一般从者基本上都是灵体。[r]哪怕实体化，身体也是由以太构成的。
+[k]
+
+＠达·芬奇
+称不上是[#肉体]，也不会有超越生前……[r]超越记录于英灵之座能力的成长。
+[k]
+
+＠达·芬奇
+然而正如你所知的，[r]亚从者是将英灵的灵基移植到人类的身体上。
+[k]
+
+＠达·芬奇
+虽然无法灵体化，但你从一开始就拥有着肉体。[r]这一特征如今逐渐展现出了它的优势。
+[k]
+
+[charaFace G 0]
+
+＠达·芬奇
+之前我也说过，你的灵基模式[r]已经配合肉体出现了成长。
+[k]
+
+＠达·芬奇
+不，成长的主因应该在于精神的变化，[r]而非肉体的成长，不过先不扯远了。
+[k]
+
+[charaFace G 23]
+
+＠达·芬奇
+问题在于『你虽活着，却在接近英灵』。
+[k]
+
+＠达·芬奇
+你应该知道从者在魔术世界被怎样称呼吧。[r]叫做[#境界记录带]。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0,-50]
+[wt 1.2]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 23]
+[charaFadein G 0.1 0,-50]
+
+＠达·芬奇
+无论如何，只要追求更胜当前的力量，[r]你很快就不再是『亚』了。
+[k]
+
+[charaFace G 22]
+
+＠达·芬奇
+这件事你可要仔细思考清楚了，[r]毕竟成长是不可逆的。
+[k]
+
+[charaFace G 17]
+
+＠达·芬奇
+没关系。一旦你感觉到不妙，[r]就脱下奥特瑙斯返回潜航艇吧。
+[k]
+
+＠达·芬奇
+我们已经不再是以前的我们了，[r][#新:Novum]·迦勒底有可靠的伙伴们。
+[k]
+
+＠达·芬奇
+战力也不只有你一个人，[r]遇到危机时，就靠大家集思广益吧。
+[k]
+
+＠达·芬奇
+这点[%1]肯定也很清楚哦。
+[k]
+
+[se ade158]
+[charaFaceFade G 3 0.2]
+
+＠达·芬奇
+你们两位都还没放弃奥尔加玛丽所长吧？[r]那我自然也会奉陪。
+[k]
+
+[charaFaceFade G 31 0.2]
+
+＠达·芬奇
+毕竟无论怎么看，[r]她都是记录中的奥尔加玛丽吧？
+[k]
+
+[charaFace G 5]
+
+＠达·芬奇
+虽然具体手段目前仍然毫无眉目，[r]但只要能让她丧失战斗力，剩下的就只有对话啦。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 0,-50]
+[wt 1.0]
+[charaFaceFade A 26 0.2]
+
+[wt 1.5]
+
+[bgmStop BGM_EVENT_2 1.5]
+[fadeout black 1.5]
+[wait fade]
+
+[pictureFrame]
+
+
+[charaFadeout A 0.1]
+[scene 132900]
+[wt 1.0]
+[charaSet G 1098257310 1 达·芬奇]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.2]
+
+[bgm BGM_EVENT_124 0.1]
+
+[charaTalk off]
+[charaDepth V 5]
+[charaDepth A 4]
+[charaDepth B 6]
+
+[charaDepth L 5]
+[charaDepth M 5]
+[charaDepth N 7]
+[charaDepth O 6]
+[charaDepth C 4]
+
+[charaFace A 7]
+[charaFace B 0]
+[charaFace V 0]
+[charaFadeinFSR A 0.1 300,0]
+[charaFadein V 0.1 1]
+[charaFadeinFSL B 0.1 -300,0]
+[wt 1.6]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout V 0.1]
+[wt 0.1]
+
+
+[charaFace M 5]
+[charaFace N 5]
+[charaFace O 5]
+[charaFace L 0]
+[charaFace C 9]
+[charaFadeinFSR M 0.1 440,0]
+[charaFadeinFSR N 0.1 300,0]
+[charaFadeinFSR O 0.1 150,0]
+[charaFadein L 0.1 -50,0]
+[charaFadeinFSL C 0.1 -300,0]
+[wt 1.6]
+
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaFadeout O 0.1]
+[charaFadeout L 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+＠尼莫
+本舰即将穿过中美洲！[r]自墨西哥至危地马拉并无敌人的妨碍！
+[k]
+
+＠尼莫
+只要跨越白海大地就抵达南美的『风暴之壁』了！[r]距离作战开始预计还有20分钟！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+很，很好！[r][#新:Novum]·迦勒底，全员都各就各位了吧！
+[k]
+
+＠戈尔德鲁夫
+虽说是紧急执行作战，[r]但准备已经预先完成了。
+[k]
+
+＠戈尔德鲁夫
+没什么好慌张的！[r]是这样吧，技术顾问！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[se ad13]
+[charaPut H 1]
+[charaEffect H bit_talk_10_LowLevel]
+[wt 0.2]
+[charaTalk G]
+[charaFace G 18]
+[charaFadein G 0.1 1]
+
+＠达·芬奇
+当然啦。[r]对『异星之神』的撒手锏，
+[k]
+
+＠达·芬奇
+将圣剑的概念武装化的圣剑兵装[line 3]
+[k]
+
+＠达·芬奇
+以泛人类史的正统性，人理本身作为炮弹装填的主炮，[r][#人理定理:Hume Barrel]·[#未来证明:Ray Proof]。
+[k]
+
+＠达·芬奇
+在特里斯墨吉斯忒斯Ⅱ内的模拟实验[r]次数已经超过了一亿次，
+[k]
+
+＠达·芬奇
+已证实成功率达到了99.99％。[r]包括变形工序在内，可以投入实战。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+唔嗯，真可靠！[r]这才不愧为我们的技术顾问！
+[k]
+
+[charaFace D 1]
+
+＠戈尔德鲁夫
+话说既然叫主炮，就意味着那个吧？
+[k]
+
+＠戈尔德鲁夫
+发射时用来模拟枪身的发射装置[r]就在这管制室内吧？　稍后务必让我瞧瞧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 7]
+[charaFadein L 0.1 1]
+
+＠穆尼尔
+大叔，炮击手肯定是水兵啊。[r]你还真是不见棺材不落泪。
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+[charaTalk D]
+[charaFace D 14]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+哎哎，我当然知道啊，[#野味:Gibier]！[r]我只是想感受下浪漫而已！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+＠希翁
+需要听我这边的报告吗，司令官。[r]是关于『受检体：E』的解析结果。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_124 1.0]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth D 3]
+[charaDepth L 2]
+[charaDepth E 1]
+[charaDepth A 5]
+[charaDepth B 4]
+[charaDepth P 6]
+[charaDepth C 7]
+[charaFace D 5]
+[charaFace L 2]
+[charaFace E 4]
+[charaFadein D 0.1 1]
+[charaFadeinFSR L 0.1 320,0]
+[charaFadeinFSL E 0.1 -320,0]
+[wt 1.5]
+[charaFadeout D 0.1]
+[charaFadeout L 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaFace A 7]
+[charaFace B 3]
+[charaFadein A 0.1 2]
+[charaFadein B 0.1 0]
+[wt 1.5]
+[charaTalk on]
+[charaTalk B]
+[charaFace B 0]
+
+＠卡多克
+务必说来听听。[r]你发现了什么吗？
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaScale P 1.2]
+[charaScale C 1.2]
+[charaFace C 17]
+[charaFadein P 0.4 50,-250]
+[charaFadein C 0.4 -150,0]
+[charaMove P 70,-250 0.6]
+[charaMove C -130,0 0.6]
+[bgm BGM_MAP_57 1.0]
+[wt 1.0]
+
+
+＠希翁
+并没有能算是关键的信息。[r]发现的事总共有以下三点。
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[charaFace C 9]
+
+＠希翁
+１．手术室与我们的文明水平相同。[r]　　是最先进的设备。
+[k]
+
+＠希翁
+２．『受检体：E』是未知的生命体。[r]　　特里斯墨吉斯忒斯Ⅱ内并无符合的数据。
+[k]
+＠希翁
+３．虽然经过了擦拭，但从室内检验出了大量血迹与细胞。[r]　　这些是属于人类的。
+[k]
+
+[charaFace C 11]
+
+＠希翁
+更深入的解析需要更多时间，[r]但现在必须优先攻略南美异闻带，
+[k]
+
+＠希翁
+因此我暂停了特里斯墨吉斯忒斯Ⅱ的解析。[r]到这里为止有什么问题吗？
+[k]
+
+？1：……有血迹就意味着……发生了杀人事件吗？
+
+？！
+
+[charaFace C 12]
+
+＠希翁
+猜得没错。虽然清扫得很干净，[r]但还是从室内检验出了不少血液与碎肉。
+[k]
+
+＠希翁
+若非自残行为，[r]推测应该就是发生了杀人事件。
+[k]
+
+[messageOff]
+[charaFadeout P 0.6]
+[charaFadeout C 0.6]
+[wt 0.8]
+[charaScale C 1.0]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玛修
+……既然是手术室，有没有可能，[r]是治疗时出现了失误呢？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠希翁
+嗯，原来如此。这可能性确实也占一半呢。
+[k]
+
+＠希翁
+虽然一般情况下，血液是不会飞溅到[r]距手术台1米远的地板上啦。
+[k]
+
+[bgmStop BGM_MAP_57 1.0]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠尼莫
+『受检体：E』的话题就聊到这吧。[r]即将进入战斗区域，战力补充情况如何？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_62 0.1]
+
+[charaPut H 1]
+[charaTalk Q]
+[charaFace Q 1]
+[charaFadein Q 0.1 1]
+
+＠尼莫教授
+好的，我来回答～。[r]这里是电脑室，不，是召唤室～。
+[k]
+
+＠尼莫教授
+特里斯墨吉斯忒斯Ⅱ推荐在[r]本次任务中召唤四骑从者～。
+[k]
+
+＠尼莫教授
+虽说闯入异闻带以后再召唤比较节能，[r]但考虑到不列颠的前车之鉴～。
+[k]
+
+＠尼莫教授
+因此已经先完成了第一骑的召唤，[r]已经让她朝管制室那边过去了～。
+[k]
+
+[charaFace Q 5]
+
+＠尼莫教授
+剩下的三骑也很快就会到来，[r]还请心怀期待稍等片刻哦。
+[k]
+
+[messageOff]
+[se ad1]
+[charaFadeout Q 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+[wt 1.0]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+嗯，这判断很明智。如果进入异闻带后[r]再说『无法召唤！』可就太不像话了。
+[k]
+
+[charaFace D 1]
+
+＠戈尔德鲁夫
+那么，用来攻略最后一个异闻带的英灵，[r]获得如此殊荣的第一骑究竟是谁呢？
+[k]
+
+＠戈尔德鲁夫
+南美可是片严苛的土地。
+[k]
+
+＠戈尔德鲁夫
+来的应该是个肌肉发达、横冲直撞、忘却文明，[bgmStop BGM_EVENT_62 1.0][r]如[#粗鲁野蛮:嗷嗷直叫]的大猩猩般的从者，
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth T 2]
+[charaDepth U 3]
+[charaDepth E 1]
+[charaFadeout D 0.1]
+[wt 0.1]
+[se ad8]
+[wt 1.2]
+
+[charaFace U 9]
+[charaScale T 1.4]
+[charaScale U 1.35]
+[se ade422]
+[wt 0.8]
+[charaFadein T 0.8 180,-150]
+[charaMove T 200,-150 0.8]
+[wt 0.5]
+[seStop ade422 0.5]
+[wt 1.0]
+[charaFadein U 0.4 0,260]
+[charaMove T 200,-250 3.0]
+[charaMove U 0,30 3.0]
+[wt 3.4]
+
+[charaFace U 5]
+[bgm BGM_MAP_85 0.1]
+
+＠尼托克丽丝
+你说谁嗷嗷直叫啊！[r]太不敬了，迦勒底的司令官！
+[k]
+
+？1：尼托克丽丝！
+
+[charaFace U 0]
+
+＠尼托克丽丝
+嗯，看来你很精神嘛，[%1]。[r]如你所见，我为回应求助的呼声前来了。
+[k]
+
+？2：梅杰德大人里面的人！
+
+[charaFace U 4]
+
+＠尼托克丽丝
+梅，梅杰德大人里面才没有人，不对，[r]里面才没有法老呢！
+[k]
+
+？！
+
+[messageOff]
+[charaFadeout U 0.4]
+[charaFadeout T 0.4]
+[wt 0.5]
+
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠尼莫
+看这反应……你们认识吗？
+[k]
+
+＠尼莫
+尼托克丽丝，你拥有在第六特异点[r]遇见过玛修与[%1]的[line 2]
+[k]
+
+＠尼莫
+尼托克丽丝的记忆吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaTalk depthOn]
+
+[charaTalk R]
+[charaFace R 9]
+[charaFadein R 0.1 1]
+
+＠尼托克丽丝
+看来的确如此。既然是源自迦勒底[r]所记录的灵基肖像的召唤，
+[k]
+
+＠尼托克丽丝
+这种『经历的继承』也是有可能发生的吧。
+[k]
+
+＠尼托克丽丝
+不过实际上算是初次见面，[r]确实需要打声招呼。
+[k]
+
+＠尼托克丽丝
+咳咳。抬起头来吧，迦勒底的各位。[r]……早就抬起来了呢，虽然不敬，但我先放过你们好了。
+[k]
+
+＠尼托克丽丝
+我名为尼托克丽丝。[r]乃天空神的化身、冥界之镜的使用者。
+[k]
+
+＠尼托克丽丝
+虽然并不熟悉南美的土地，[r]但法老的光辉纵使在异邦亦不会改变。
+[k]
+
+＠尼托克丽丝
+尽管尊敬、仰仗我吧。
+[k]
+
+[charaFadeout R 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玛修
+所以第一骑同行者是尼托克丽丝小姐吧。[r]太令人安心了。
+[k]
+
+[charaFace A 6]
+
+＠玛修
+可是……那个，总感觉与以前遇见过的[r]尼托克丽丝小姐有哪里不太一样呢……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk R]
+[charaFace R 0]
+[charaFadein R 0.1 1]
+
+＠尼托克丽丝
+呵呵呵，是灵基，灵基的形象不一样啦，玛修。[r]现在这个我从一开始就开足马力。
+[k]
+
+＠尼托克丽丝
+藉Storm Border提供的庞大魔力，[r]灵基成为了最终“该有的形态”。
+[k]
+
+＠尼托克丽丝
+而且还追加了御主不在也能行动的[r]『单独行动』功能！
+[k]
+
+？1：好厉害……！
+？2：所以你能自由行动呢！
+
+？！
+
+[charaFace R 6]
+
+＠尼托克丽丝
+你感到高兴的是这点吗。[r]该说令人无语，还是脱力呢。
+[k]
+
+[charaFace R 9]
+
+＠尼托克丽丝
+这次的我是所谓能单独成立的从者。
+[k]
+
+＠尼托克丽丝
+御主提供的魔力不是必须的，[r]也不受迦勒底的束缚。完全是自由的。
+[k]
+
+[charaFace R 0]
+
+＠尼托克丽丝
+不过所有事我都了解了。[r]为了泛人类史、为了迦勒底的胜利，
+[k]
+
+＠尼托克丽丝
+哪怕不受契约束缚，法老尼托克丽丝也会[r]成为你们的助力到最后一刻。
+[k]
+
+[charaFadeout R 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠卡多克
+……虽然护卫的从者能单独行动是很方便……
+[k]
+
+＠卡多克
+为了实现此事的魔力量同样不容小觑，[r]能接受此事的气魄也非同小可。
+[k]
+
+＠卡多克
+在你们心目中，尼托克丽丝就是[r]如此值得信赖的从者啊。
+[k]
+
+？1：嗯，甚至于她身为敌人却每次都愿意帮助我们！
+
+？！
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[bgmStop BGM_MAP_85 1.5]
+[charaFace A 26]
+[charaFace R 4]
+[charaFadein A 0.1 2]
+[charaFadein R 0.1 0]
+[wt 1.5]
+[charaFadeout R 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_82 0.1]
+
+[charaPut H 1]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠达·芬奇
+相比起御主的护卫……我更希望拜托尼托克丽丝[r]担任整支现场队伍的护卫。
+[k]
+
+＠达·芬奇
+预计在南美很多时候都得徒步探索。[r]因此需要能随机应变，也能应对团体战，
+[k]
+
+＠达·芬奇
+擅长应对热性病或秽物的强大魔术使用者。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+
+[charaScale K 1.0]
+
+[charaPut K 1]
+
+[se ad595]
+[charaTalk K]
+[charaFace K 2]
+[charaSpecialEffect K wipeTimeRe 0 1.0 0 0.2]
+[wt 1.2]
+[charaFadein K 0.0 1]
+＠哈贝特洛特
+唔～，简单来说就是保镖吧。[r]既然如此，咱也得打声招呼才行。
+[k]
+
+[charaFace K 9]
+
+＠哈贝特洛特
+哟！　咱是哈贝特洛特！[r]算是寄宿在玛修盾牌内的守护妖精！
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk R]
+[charaFace R 0]
+[charaFadein R 0.1 1]
+
+＠尼托克丽丝
+您太客气了。您是芭丝特神的眷属吧？[r]请多指教。
+[k]
+
+[charaFadeout R 0.1]
+[wt 0.1]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+
+＠哈贝特洛特
+[FFFFFF]？（芭丝特神是什么？）[-]
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+唔嗯，也就是说之后还会有三骑[r]始终现界型从者被召唤吧。
+[k]
+
+[charaFace D 2]
+
+＠戈尔德鲁夫
+真是太可靠了！[r]果然还是异闻带比特异点更好啊，各位！
+[k]
+
+＠戈尔德鲁夫
+看来这次定能实现未能在通古斯卡展开的[r]大规模投入从者作战！
+[k]
+
+＠戈尔德鲁夫
+一找到空想树就迅速砍伐掉吧！
+[k]
+
+[messageOff]
+[cueSe Servants_204300 m44717]
+[seVolume m44717 0 0.2]
+[effect bit_talk_red_light -200,0]
+[wt 3.0]
+[effectStop bit_talk_red_light]
+[charaFace D 4]
+
+＠戈尔德鲁夫
+啊不，不对呢。[r]记得南美异闻带没有空想树的反应吧。
+[k]
+
+＠戈尔德鲁夫
+是这样吧，希翁？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+＠希翁
+说得没错，南美异闻带并没有空想树特有的能量反应。
+[k]
+
+[charaCrossFade C 1098257410 12 0.3]
+
+＠希翁
+不过既然仍作为异闻带存续着，[r]某处肯定存在相当于空想树的东西才对。[wait charaCrossFade C]
+[k]
+
+＠希翁
+不是像不列颠那样因为某种缘由枯萎了，[r]就是像中国异闻带那样被藏起来了吧。
+[k]
+
+[wait charaCrossFade C]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk G]
+[charaFace G 23]
+[charaFadein G 0.1 1]
+
+＠达·芬奇
+无论是哪种，这次空想树都要延后处理。[r]最优先事项在于攻略『异星之神』。
+[k]
+
+＠达·芬奇
+必须在U－奥尔加玛丽与『ORT』融合前阻止她才行。
+[k]
+
+＠达·芬奇
+大家，千万别忘记这点。
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth A 5]
+[charaDepth R 4]
+[charaDepth K 3]
+
+[charaTalk off]
+[charaFace R 9]
+[charaFace A 7]
+[charaFace K 2]
+[charaFadeinFSL R 0.1 -320,0]
+[charaFadein A 0.1 1]
+[charaFadeinFSR K 0.1 320,0]
+[wt 0.5]
+[charaMoveReturnFSL R -320,-5 0.4]
+[charaMoveReturn A 0,-5 0.4]
+[charaMoveReturnFSR K 320,-5 0.4]
+[wt 1.0]
+
+[charaFadeout A 0.2]
+[charaFadeout R 0.2]
+[charaFadeout K 0.2]
+[wt 0.2]
+
+[charaFace B 0]
+[charaFace D 0]
+[charaFadeinFSL B 0.2 0]
+[charaFadeinFSR D 0.2 2]
+[wt 0.5]
+[charaMoveReturnFSL B -256,-5 0.4]
+[charaMoveReturnFSR D 256,-5 0.4]
+[wt 1.0]
+
+[charaFadeout D 0.2]
+[charaFadeout B 0.2]
+[wt 0.2]
+
+[charaTalk depthOn]
+[charaTalk on]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠尼莫
+[line 3]看来作战目的都传达清楚了呢。[r]时间刚好。
+[k]
+
+＠尼莫
+本舰即将抵达『风暴之壁』。[r]全员都坐在座位上系好安全带。
+[k]
+
+[se ade208]
+[seVolume ade208 0 0]
+[seVolume ade208 1.0 0.7]
+
+＠尼莫
+特里同引擎，第一号至第三号并列运转。[r]六成分配给推进力，四成分配给防御障壁。
+[k]
+
+＠尼莫
+靠Storm Border突破围绕异闻带的[r]空间断层型[#积雨云:超级单体]。
+[k]
+
+[charaFace E 8]
+
+＠尼莫
+舰首，展开次元钻孔机构！[r]自此刻起，开始『异星之神』攻略作战！
+[k]
+
+
+[messageOff]
+[se ade7]
+[seVolume ade7 0 0.3]
+[cueSe SE_21 21_ad1097]
+[seVolume 21_ad1097 0 0.7]
+[fadeout white 2.0]
+[bgmStop BGM_EVENT_82 2.0]
+[wait fade]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 10000]
+
+[fadein white 2.0]
+[wait fade]
+
+[fadeout black 0.1]
+[wait fade]
+
+[wt 0.5]
+[soundStopAll]
+[end]
+

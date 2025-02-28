@@ -1,0 +1,1117 @@
+
+
+＄03-00-13-08-3-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098254800 1 尼莫水兵]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098257910 1 玛修]
+[charaSet D 1098253900 1 伊斯卡利]
+[charaSet E 1098257500 1 ラス]
+[charaSet F 1098252540 1 奥塞洛特尔1]
+[charaSet G 1098252500 1 奥塞洛特尔2]
+[charaSet H 1098252540 1 奥塞洛特尔3]
+[charaSet I 1098252540 1 奥塞洛特尔4]
+[charaSet J 1098252500 1 奥塞洛特尔5]
+[charaSet K 1098252540 1 奥塞洛特尔6]
+
+[charaSet L 1098253200 1 U－奥尔加玛丽（演出用）]
+[sceneSet M 169100 1]
+[charaSet N 1098254800 1 水兵（演出用）]
+[sceneSet O 169100 1]
+[imageSet P back10000 1 1]
+[charaScale P 1.3]
+
+[charaSet Q 98115000 1 特效用]
+[charaSet R 98115000 1 特效用]
+[charaSet S 98115000 1 特效用]
+[charaSet T 98115000 1 特效用]
+[charaSet U 98115000 1 特效用]
+[charaSet V 98115000 1 特效用]
+[charaSet W 98115000 1 特效用]
+
+
+[charaPut Q 1]
+[charaEffect Q bit_sepia01_depth_fs]
+[charaPut R 2000,2500]
+[charaEffect R bit_sepia01_depth_fs]
+[charaPut S 2000,2500]
+[charaEffect S bit_sepia01_depth_fs]
+[wt 0.8]
+
+[scene 169100]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_25 0.1]
+
+＠尼莫水兵
+是吗？　那我也留在这里吧！[r]我不希望留U孤身一人！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 24]
+[charaFadein B 0.1 1]
+[wt 1.3]
+
+[wipeout rollRight 1.0 1.0]
+[bgm BGM_EVENT_25 0.5 0.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+
+[wt 1.0]
+
+[bgm BGM_EVENT_25 0.5 1.0]
+[wipein rollLeft 1.0 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+全速前进～，丛林丛林～♪
+[k]
+
+＠尼莫水兵
+你好～，我是水兵～！　今天啊，[r]我要用大大的叶片造一座小屋～！
+[k]
+
+[messageOff]
+[se ad443]
+[charaMove A 250,0 0.6]
+[wt 0.55]
+[seStop ad443 0.2]
+[wt 0.4]
+[se ad511]
+[seVolume ad511 0 0.8]
+[charaMoveReturn A 250,-10 0.5]
+[wt 0.5]
+[charaMoveReturn A 250,-10 0.5]
+[wt 0.45]
+[seStop ad511 0.2]
+[wt 0.5]
+
+[se ad443]
+[charaMove A -250,0 1.2]
+[wt 1.15]
+[seStop ad443 0.2]
+[wt 0.4]
+[se ad511]
+[seVolume ad511 0 0.8]
+[charaMoveReturn A -250,-10 0.5]
+[wt 0.5]
+[charaMoveReturn A -250,-10 0.5]
+[wt 0.45]
+[seStop ad511 0.2]
+[wt 0.7]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+………………
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+唔？　感觉你心情很糟糕？[r]啊，对了！
+[k]
+
+＠尼莫水兵
+放心吧，会是两人用的小屋啦☆[r]U也想躲进来遮遮阴吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+这点阳光对我没有任何伤害……
+[k]
+
+[charaFace B 6]
+＠U－奥尔加玛丽
+……你为什么要留下来？[r]是为了监视我吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+[FFFFFF]？[-]　难道U不介意孤身一人吗？[r]是不是我不在更好呢？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+…………也是。[r]你在，总比不在，更有意义呢。
+[k]
+
+＠U－奥尔加玛丽
+而且还在搭建小屋。[r]手法相当娴熟嘛。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+对吧～！[r]毕竟尼莫船长也是冒险家嘛～！
+[k]
+
+＠尼莫水兵
+我以前也说过，我们水兵负责的[r]是驾驶、清扫、搬运、维修、侦察，
+[k]
+
+＠尼莫水兵
+所以这种活干起来得心应手，也很开心～！[r]U对吊床感兴趣吗？　还是喜欢澡堂？
+[k]
+
+＠尼莫水兵
+假如在Protea所在的那条河，还能用石头造一间，[r]但在密林就没办法了。要是有铁桶之类的就好了～。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 20]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+[FFFFFF]？[-][r]澡堂是什么？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+清洁身体！　虽说在所难免，[r]但在作战过程中大家都脏兮兮的嘛～。
+[k]
+
+＠尼莫水兵
+只要回到Border就能用淋浴间冲澡了，[r]但在那之前也只能一直忍耐了～。
+[k]
+
+[charaFace A 0]
+＠尼莫水兵
+不过U完全没弄脏呢。[r]跟[%1]和我们大不相同！
+[k]
+
+＠尼莫水兵
+感觉无论发生什么U都不会变脏，[r]也不会精疲力竭！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+……是吗。真抱歉哦，[r]跟地球人类大不相同。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+为什么道歉？　我觉得只要干净就行了哦～。
+[k]
+
+＠尼莫水兵
+不过，无关弄脏与否，泡澡本身就很舒服，[r]有机会我一定会帮你准备哦！
+[k]
+
+[messageOff]
+
+[se ad443]
+[charaMove A 250,0 0.6]
+[wt 0.55]
+[seStop ad443 0.2]
+[wt 0.4]
+[se ad511]
+[seVolume ad511 0 0.8]
+[charaMoveReturn A 250,-10 0.5]
+[wt 0.5]
+[charaMoveReturn A 250,-10 0.5]
+[wt 0.45]
+[seStop ad511 0.2]
+[wt 0.5]
+
+[se ad443]
+[charaMove A -250,0 1.2]
+[wt 0.6]
+[seStop ad443 0.3]
+[wt 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaMove A 0,0 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[wt 1.4]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[subCameraOn 2]
+[charaLayer L sub #A]
+[charaLayer M sub #A]
+[charaLayer P sub #A]
+[charaLayer R sub #A]
+[charaLayer N sub #B]
+[charaLayer O sub #B]
+[charaLayer S sub #B]
+
+[subCameraFilter #A maskEdge cut359_mask06 3 255,225,150,255 1]
+[subCameraFilter #B maskEdge cut359_mask06 3 160,225,255,255 1]
+
+[charaScale L 1.4]
+[charaScale M 1.3]
+[charaScale N 1.4]
+[charaScale O 1.3]
+
+[charaDepth M 2]
+[charaDepth P 3]
+[charaDepth L 4]
+[charaDepth O 2]
+[charaDepth N 3]
+[charaDepth R 4]
+[charaDepth S 4]
+
+[charaPut R 0,200]
+[charaTalk L]
+[charaFace L 1]
+[charaFadein L 0.1 200,390]
+[charaFadein M 0.1 -200,50]
+
+[subRenderFadein #A 0.4 0,-280]
+[wt 1.2]
+＠L：U－奥尔加玛丽
+我说，水兵。
+[k]
+
+
+＠尼莫水兵
+什么～？
+[k]
+
+＠L：U－奥尔加玛丽
+这是我从[%1]那里听说的，[r]说有很多个你，这是怎么回事？
+[k]
+
+＠尼莫水兵
+啊，这件事啊～？
+[k]
+
+＠尼莫水兵
+唔～，我们是英灵尼莫的分身，[r]或者说是让“其他用途的人格”从者化的产物。
+[k]
+
+＠尼莫水兵
+阿特拉斯的炼金术师会使用一种叫『分割思考』[r]的技术，我们则是对此实际的运用。
+[k]
+
+＠尼莫水兵
+我们的本体尼莫船长是领队，[r]而我们则类似于船长的复制品。
+[k]
+
+＠尼莫水兵
+其他还有护士或是教授之类的，[r]不过他们是『单独』的分身。
+[k]
+
+＠尼莫水兵
+我们是将船长持有的『水兵职』资源[r]分割为24人份的群体哦～☆
+[k]
+
+[charaFace L 15]
+＠L：U－奥尔加玛丽
+你[messageShake 0.05 4 3 0.4]有24个吗！？[r]可这里只有你一个吧！？
+[k]
+
+＠尼莫水兵
+其他水兵都在潜航艇里。
+[k]
+
+＠尼莫水兵
+我被任命为[%1]的护卫，
+[k]
+
+＠尼莫水兵
+所以当看到[%1]掉下去时，[r]心想“一定要想办法～！” 的我便跳了出去，成了现在这样啦。
+[k]
+
+[charaFace L 24]
+＠L：U－奥尔加玛丽
+哦哦，所以你才没有战斗能力吧，因为是24分之1。
+[k]
+
+[charaFace L 22]
+＠L：U－奥尔加玛丽
+在这种状态下也没垂头丧气，真了不起。[r]你分明应该很想早日回潜航艇，恢复原本的状态吧。
+[k]
+
+＠尼莫水兵
+啊哈哈，不是啦～。
+[k]
+
+＠尼莫水兵
+我们并没有分割[#灵基:力量]，[r]并不是只要聚在同一个地方就会变强。
+[k]
+
+＠尼莫水兵
+我们的存在前提就是用完即弃的。[r]无论做什么都无法变强，也不会成长。
+[k]
+
+＠尼莫水兵
+[#所以才会有24人哦]，[r]以保证在[#漫长航海:Grand Order]途中无论减员多少都不碍事。
+[k]
+
+＠尼莫水兵
+哪怕水兵A死了，还有水兵B在。[r]哪怕水兵B死了，还有水兵C在。
+[k]
+
+＠尼莫水兵
+我们就是这样的。[r][#因为大家的能力都一样]，[#无论谁消失了]，[#工作都不会停摆]。
+[k]
+
+[charaFace L 17]
+＠L：U－奥尔加玛丽
+……真的是这样吗？[r]就算能力相同，性格上还是会出现误差的吧？
+[k]
+
+＠尼莫水兵
+好厉害，光听刚才那些话就猜到了呀！[r]毕竟我们是『群体职』嘛。
+[k]
+
+＠尼莫水兵
+为了当大家聚在一起时，不会出现意见分歧，[r]都做出一副同一个体的样子。
+[k]
+
+＠尼莫水兵
+但其实确实会有一点差异。[r]比方说，我最爱哭鼻子。
+[k]
+
+＠尼莫水兵
+在迦勒底的作战中，我总是双腿打颤，[r]只是在配合其他水兵强忍着而已～！
+[k]
+
+＠尼莫水兵
+不过，现在不需要配合其他水兵了，[r]我就不勉强自己，而是以真面目示人啦。
+[k]
+
+＠尼莫水兵
+总感觉像是变成了“独一无二的自己”，[r]怪难为情的！
+[k]
+
+[charaFace L 8]
+＠L：U－奥尔加玛丽
+听说是复制品，我就放心了。[r]虽然米克特兰的环境对你那种身体条件过于严苛了，
+[k]
+
+＠L：U－奥尔加玛丽
+但只要那个叫什么尼莫船长的本体还在，[r]你就能复活吧。
+[k]
+
+＠L：U－奥尔加玛丽
+这也算一种优秀的生存能力哦。
+[k]
+
+[messageOff]
+
+[bgmStop BGM_EVENT_25 1.5]
+[charaTalk N]
+[charaFace N 4]
+[charaFadein N 0.1 -200,455]
+[charaFadein O 0.1 200,250]
+
+[subRenderMove #A 0,-255 0.8]
+[wt 0.4]
+
+[subRenderFadein #B 0.4 0,-455]
+[wt 1.5]
+
+[charaFaceFade N 0 0.3]
+[wt 1.0]
+[bgm BGM_EVENT_45 0.1]
+
+＠N：尼莫水兵
+嗯，说得对。[r]所以即便我很弱小也没关系。
+[k]
+
+＠N：尼莫水兵
+哪怕我消失了，只要其他水兵还在，[r]大家也不会忘记我吧☆
+[k]
+
+[charaPut P 1]
+[charaFadeTime P 0.2 0.5]
+[charaFace L 29]
+
+＠L：U－奥尔加玛丽
+（[line 3]刚才的色彩[line 3]是谎言的[line 3]）
+[k]
+
+[charaTalk N]
+[charaFace N 6]
+[charaFadeout P 0.2]
+＠N：尼莫水兵
+不过不过，我还是坦白吧，[r]当[%1]的护卫对我来说负担太重了～！
+[k]
+
+＠N：尼莫水兵
+我要是能像船长那样战斗该有多好啊～！？[r]因为我是迦勒底的从者嘛～！
+[k]
+
+[messageOff]
+[charaTalk L]
+[charaFace L 16]
+[wt 1.0]
+
+[charaFace L 23]
+＠L：U－奥尔加玛丽
+从者也分很多种吧，虽然我也不清楚。[r]而且你有许多其他特殊技能吧。
+[k]
+
+＠L：U－奥尔加玛丽
+下次一有战斗，你就与特佩乌一起躲起来如何？[r]顺带一提，我还挺喜欢战斗的。
+[k]
+
+[charaFace N 0]
+＠N：尼莫水兵
+是吗，毕竟你成为了拯救地球的同伴嘛～！
+[k]
+
+＠N：尼莫水兵
+再次感谢你保护了我这么多次，总统。[r]只要你不嫌弃，我会为你声援的。
+[k]
+
+[charaFace L 13]
+＠L：U－奥尔加玛丽
+……哼。那当然，一辈子都对我感恩戴德吧。[r]务必要为我投下神圣的一票哦。
+[k]
+
+[charaFace L 17]
+＠L：U－奥尔加玛丽
+不过……真的可以这么相信我吗？[r]我可是除自己的名字以外什么都不记得的生物哦？
+[k]
+
+[charaFace N 4]
+＠N：尼莫水兵
+[FFFFFF]？[-]　正因为如此啦。分明只记得自己的名字，[r]你却还是救了我吧。
+[k]
+
+[messageOff]
+[charaTalk L]
+[charaFace L 29]
+[wt 1.2]
+
+＠N：尼莫水兵
+我觉得U虽然很可怕、容易发飙、说话也很刻薄，[r]却是个非常有责任感的人。
+[k]
+
+＠N：尼莫水兵
+“虽然非常不愿意自己一个人吃苦，[r][f small]  [f -]但不会逃避自己能做的事、该做的事。”
+[k]
+
+[charaFace N 0]
+＠N：尼莫水兵
+我很喜欢这种人哦，很帅气。[r]所以我很高兴你愿意陪在我身边～。
+[k]
+
+＠N：尼莫水兵
+U的这种方面值得学习☆[r]虽然我们没法成长就是了！
+[k]
+
+[charaFace L 23]
+＠L：U－奥尔加玛丽
+……是吗。那你在力所能及的范围内努力一下如何？[r]反正要是遇到什么困难，我还是愿意帮你一把的。
+[k]
+
+[charaFace N 2]
+＠N：尼莫水兵
+嗯！　虽然我没法战斗，[r]今后也许会成为累赘[line 3]
+[k]
+
+＠N：尼莫水兵
+但我绝不会扯大家的后腿！[r]到时候要替我加油哦，奥尔加玛丽！
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout white 2.5]
+[bgmStop BGM_EVENT_45 2.5]
+[wait fade]
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[charaFadeout B 0.1]
+[charaFadeout L 0.1]
+[charaFadeout A 0.1]
+[charaFadeout N 0.1]
+[charaFadeout M 0.1]
+[charaFadeout O 0.1]
+[charaPut Q 2000,2500]
+[charaEffectStop Q bit_sepia01_depth_fs]
+[charaPut R 2000,2500]
+[charaEffectStop R bit_sepia01_depth_fs]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_sepia01_depth_fs]
+[wt 0.5]
+
+[subCameraOff]
+[charaLayer N normal]
+[charaLayer O normal]
+[charaLayer L normal]
+[charaLayer M normal]
+[charaLayer R normal]
+[charaLayer S normal]
+[charaScale N 1.0]
+[charaScale O 1.0]
+[charaScale L 1.0]
+[charaScale M 1.0]
+[wt 0.5]
+
+[cameraMove 0 0,0 1.01]
+
+[scene 170000]
+
+[charaSet A 1098254820 1 尼莫水兵]
+
+[wt 0.5]
+
+[fadein white 1.5]
+[wait fade]
+[wt 0.4]
+
+[se ad528]
+[wt 2.6]
+
+[bgm BGM_MAP_52 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+[wt 1.4]
+
+？1：[line 3]，[line 6]
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+＠伊斯卡利
+怎么了。[r]远非刚才所能及的杀气呢。
+[k]
+
+＠伊斯卡利
+这是愤怒吗？　要是这样，就不合理了。[r]你们果然是错的。
+[k]
+
+？1：[line 3]哪里[line 2]
+？2：[line 3]哪里有错？
+
+？！
+
+[charaFace D 0]
+
+＠伊斯卡利
+错在你们为同伴之死感到悲伤、愤怒。
+[k]
+
+＠伊斯卡利
+我等奥塞洛特尔可不一样。
+[k]
+
+＠伊斯卡利
+我等的死是情理之中的，人类的死是情理之中的。[r]如果不这么思考，是根本无法相互厮杀的。
+[k]
+
+＠伊斯卡利
+[#正因所有生命皆为等价]，[r][#杀戮才会被允许]。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+＠拉斯普京
+…………嚯。[r]意思是，你们不会哀悼同伴之死吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠伊斯卡利
+那当然。[r][#要是有挂念同胞的感情]，[#是打不了战争的]。
+[k]
+
+＠伊斯卡利
+你们泛人类史的人类会哀悼同伴之死。[r]仿佛在情理之中，仿佛是在救济。
+[k]
+
+＠伊斯卡利
+既然具备这等智慧，就该想到[#敌方其实也一样]，[r]最终理所当然会变得无法夺人性命。
+[k]
+
+＠伊斯卡利
+只要还怀有『体恤』之心，就不会爆发战争。[r][#根本不可能爆发]。
+[k]
+
+[charaFace D 7]
+
+＠伊斯卡利
+然而实际情况如何呢。骇人听闻的泛人类史人类啊。
+[k]
+
+＠伊斯卡利
+富有想象力的同时，仍相互厮杀。[r]尊重生命的同时，仍夺取生命。
+[k]
+
+＠伊斯卡利
+这矛盾该怎么解释。[r]在评定善恶基准之前，你们本身就存在缺陷。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 10]
+[charaFadein E 0.1 1]
+＠拉斯普京
+嗯。关于这点，我无从反驳。[r]无论是否身怀原罪，人类都尚未完成。
+[k]
+
+＠拉斯普京
+那么，嘴上这样说的你们又如何呢？[r]是不知何谓爱憎，名副其实的[#美洲豹战士:奥塞洛特尔]吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠伊斯卡利
+[line 3]没错。[r]奥塞洛特尔不同于你们这群泛人类史的野兽。
+[k]
+
+＠伊斯卡利
+我等只会将感情献给特斯卡特利波卡神。
+[k]
+
+[charaFace D 0]
+＠伊斯卡利
+只会乐神之乐，忧神之忧，[r]为神之怒而颤抖。
+[k]
+
+＠伊斯卡利
+无论死多少敌人，死多少同胞，[r]愤怒与悲伤之业，皆由神明背负。
+[k]
+
+[charaFace D 5]
+＠伊斯卡利
+这才是正确的战争。[r]若非如此，[#人类:人]的生态也过于[#罪孽深重:丑陋不堪]了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+＠玛修
+……[r]哪怕真是如此，你[line 3]！
+[k]
+
+[messageOff]
+[se ad787]
+[seVolume ad787 0 0.5]
+[wt 0.1]
+[charaMove C 0,-6 0.8]
+[wt 0.4]
+[seStop ad787 0.5]
+[wt 1.5]
+
+[bgmStop BGM_MAP_52 1.5]
+[se ad632]
+[seVolume ad632 0 0]
+[seVolume ad632 0.2 0.3]
+
+[se ad626]
+[seVolume ad626 0 0]
+[cueSe SE_22 22_adm89]
+[cueSeVolume 22_adm89 0 0]
+[seVolume ad626 0.2 0.05]
+[wt 0.1]
+[charaDepth Q 9]
+[charaPut Q 1]
+[charaEffect Q bit_talk_lightning_U_01]
+[wt 0.6]
+[charaFace C 5]
+[wt 1.6]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+
+[seVolume ad626 0.4 0.1]
+[cueSeVolume 22_adm89 0.4 0.3]
+[charaTalk B]
+[charaFace B 12]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+无聊。[r]自吹自擂只有这些吗，人类？
+[k]
+
+[bgm BGM_BATTLE_78 0.1]
+
+[charaFace B 2]
+＠U－奥尔加玛丽
+那就去死吧！[r]如你所愿，死在[#神:我]的手上！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠伊斯卡利
+你说什么……！？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+[cueSeVolume 22_adm89 0.6 0.5]
+[seVolume ad626 0.6 1.0]
+[se ad964]
+[seVolume ad964 0 0]
+[seVolume ad964 1.0 0.6]
+[wt 1.5]
+
+[seStop ad964 0.3]
+[seStop ad626 0.3]
+[cueSeStop 22_adm89 0.3]
+
+[cueSe Servants_401500 bac1074]
+[wt 0.1]
+[cueSe NoblePhantasm_700600 NP_700600_7]
+[fowardEffect bit_talk_lightning_U_02]
+[cueSe Servants_304900 m03104]
+[wt 0.05]
+[se ad842]
+[seVolume ad842 0 0.5]
+[wt 1.3]
+[charaPut Q 2000,2500]
+[charaEffectDestroy Q bit_talk_lightning_U_01]
+
+[charaFadeout B 0.1]
+
+[charaTalk off]
+[charaDepth F 7]
+[charaDepth G 6]
+[charaDepth H 5]
+[charaDepth I 4]
+[charaDepth J 2]
+[charaDepth K 3]
+
+[charaFace F 0]
+[charaFace I 0]
+[charaFace G 0]
+[charaFace J 0]
+[charaFace H 0]
+[charaFace K 0]
+[charaFadein F 0.1 100,0]
+[charaFadein I 0.1 -150,0]
+[charaFadeinFSR G 0.1 250,-50]
+[charaFadeinFSL J 0.1 -300,-50]
+[charaFadeinFSSideR H 0.1 400,0]
+[charaFadeinFSSideL K 0.1 -450,0]
+[charaShake F 0.02 3 4 2.5]
+[charaShake G 0.02 3 3 2.5]
+[charaShake H 0.03 4 3 2.5]
+[charaShake I 0.03 4 2 2.5]
+[charaShake J 0.02 4 3 2.5]
+[charaShake K 0.03 3 3 2.5]
+[wt 0.4]
+[cueSe Servants_9942300 bac1684]
+[cueSeVolume bac1684 0 0.4]
+[wt 1.2]
+
+[fowardEffectStop bit_talk_lightning_U_02]
+[wt 1.4]
+
+[cueSe Battle ba6]
+[charaPut Q 100,0]
+[charaEffect Q bit_talk_atomization_gra]
+[charaSpecialEffect F enemyErasure 0,0 1.3]
+[wt 0.4]
+[charaPutFSR R 250,0]
+[charaEffect R bit_talk_atomization_gra]
+[charaSpecialEffect G enemyErasure 0,0 1.3]
+
+[charaPut T -100,0]
+[charaEffect T bit_talk_atomization_gra]
+[charaSpecialEffect I enemyErasure 0,0 1.3]
+[wt 0.2]
+
+[charaPutFSL U -250,0]
+[charaEffect U bit_talk_atomization_gra]
+[charaSpecialEffect J enemyErasure 0,0 1.3]
+
+[charaPutFSSideR S 450,0]
+[charaEffect S bit_talk_atomization_gra]
+[charaSpecialEffect H enemyErasure 0,0 1.3]
+[wt 0.2]
+[charaPutFSSideL V -450,0]
+[charaEffect V bit_talk_atomization_gra]
+[charaSpecialEffect K enemyErasure 0,0 1.3]
+
+[seVolume ad632 4.0 0.0]
+[wt 1.0]
+
+[sceneSet M 170300 1]
+[subCameraOn 1]
+[charaLayer D sub #A]
+[charaLayer M sub #A]
+[charaLayer W sub #A]
+[subCameraFilter #A maskEdge cut359_mask05 3 0,0,0,255 1]
+[charaScale D 1.25]
+[charaScale M 1.2]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 -5,200]
+[charaFadein M 0.1 320,25]
+
+[se ade338]
+[subRenderFadein #A 0.3 0,-350]
+[subRenderMove #A 0,-250 0.3]
+[wt 0.2]
+[seStop ade338 0.8]
+[wt 0.5]
+[charaPut W 2000,2500]
+[charaEffect W bit_talk_atomization_gra_ikr]
+[wt 0.1]
+
+[charaPut W 0,0]
+[charaShake D 0.03 3 4 0.4]
+＠伊斯卡利
+呜，啊啊，啊啊啊啊啊啊啊[line 3]！？
+[k]
+
+＠伊斯卡利
+不可能，我这被特斯卡特利波卡神[r]选中的身体竟然会崩解……！
+[k]
+
+[charaFace D 5]
+＠伊斯卡利
+为何，为何正确的一方会输！？[r]那些家伙有何正义可言……！
+[k]
+
+
+
+[messageOff]
+[cueSe Battle ba6]
+[charaEffectStop W bit_talk_atomization_gra_ikr]
+[wt 0.5]
+[charaFadeout D 0.5]
+[fowardEffectDestroy bit_talk_lightning_U_02]
+[charaPut Q 2000,2500]
+[charaEffectDestroy Q bit_talk_atomization_gra]
+[charaEffect Q bit_talk_lightning_U_01]
+[charaEffectDestroy R bit_talk_atomization_gra]
+[wt 1.5]
+
+
+[subRenderFadeout #A 0.4]
+[wt 0.4]
+[charaFadeout M 0.1]
+[charaFadeout D 0.1]
+[charaEffectDestroy W bit_talk_atomization_gra]
+[wt 0.15]
+[subCameraOff]
+[charaLayer D normal]
+[charaLayer W normal]
+[charaLayer M normal]
+[charaScale D 1.0]
+[charaScale W 1.0]
+[charaScale M 1.0]
+
+[wt 0.2]
+[bgmStop BGM_BATTLE_78 1.5]
+[wt 1.7]
+
+[charaDepth Q 9]
+[charaPut Q 1]
+[charaTalk B]
+[charaFace B 9]
+[charaFadein B 0.1 1]
+[seVolume ad632 1.0 0.2]
+[wt 0.4]
+[charaEffectStop Q bit_talk_lightning_U_01]
+[wt 1.2]
+
+[seVolume ad632 2.0 0.0]
+
+[charaMoveReturn B 0,-6 1.2]
+＠U－奥尔加玛丽
+呼……呼……呼……[r]…………呼，呼……啊。
+[k]
+
+[messageOff]
+[wt 0.5]
+[charaFaceFade B 31 0.5]
+[wt 0.5]
+＠U－奥尔加玛丽
+……刚才那算过度的暴力了呢。
+[k]
+
+＠U－奥尔加玛丽
+……我要谢罪。[r]这不是统领[#行星:星球]的存在该有的表现。
+[k]
+
+[messageOff]
+[wt 1.5]
+[bgm BGM_EVENT_75 0.1]
+
+＠U－奥尔加玛丽
+……然后呢，[r]水兵很快就会回来了吧。
+[k]
+
+＠U－奥尔加玛丽
+因为他说过，[r]自己是有很多个的从者。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+
+＠玛修
+…………是的。听说只要尼莫先生健在，[r]水兵先生就能复活。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 32]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+…………………………是吗。[r]水兵他，是这样，对你们说的吗。
+[k]
+
+＠U－奥尔加玛丽
+那就无需惋惜。[r]……反正，很快就能再见。
+[k]
+
+[messageOff]
+[wt 0.6]
+
+[wipeout rectangleStripUpToDown 0.8 1.0]
+[bgm BGM_EVENT_75 0.8 0.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+
+[scene 170300]
+[wt 0.3]
+
+[cameraMove 0.1 0,25 1.01]
+[wt 0.1]
+[cameraMove 3.5 0,0 1.01]
+[bgm BGM_EVENT_75 0.8 1.0]
+[wipein rectangleStripDownToUp 0.8 1.0]
+[wait wipe]
+[wt 2.0]
+
+＠U－奥尔加玛丽
+（比起让大家记住自己，[r]　更想选择不让大家悲伤的未来。）
+[k]
+
+＠U－奥尔加玛丽
+（真是，彻头彻尾，为了大家呢。[r]　还面带笑容地，说什么自己能复活的谎言。）
+[k]
+
+＠U－奥尔加玛丽
+（……真的，这哪里是什么弱小啊。）
+[k]
+
+＠U－奥尔加玛丽
+（再见了，哭鼻子的水兵。）
+[k]
+
+＠U－奥尔加玛丽
+（拥有无比顽强[#意志:内心]的，[r]　独一无二的从者。）
+[k]
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 3.0]
+[bgmStop BGM_EVENT_75 3.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

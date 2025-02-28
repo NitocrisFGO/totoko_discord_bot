@@ -1,0 +1,919 @@
+
+
+＄03-00-13-09-4-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098252900 1 特佩乌]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098257910 1 玛修]
+[charaSet D 1098257500 1 拉斯普京]
+[charaSet E 1098255200 1 哈贝特洛特]
+[charaSet F 1098254100 1 高扬斯卡娅]
+[charaSet G 1098257000 1 芬恩·麦克库尔]
+[charaSet H 98108400 1 吉尔伽美什]
+[charaSet I 23001000 1 BB]
+[charaSet J 1098252940 1 特佩乌_B]
+
+[equipSet L 9402180 2 返老还童的灵药]
+[imageSet M back10000 1 1]
+[charaScale M 1.3]
+
+[charaSet O 98115000 1 特效用dummy]
+[charaSet P 98115000 1 特效用dummy]
+
+[charaPut P 2000,2500]
+[charaEffect P bit_sepia01_depth_fs]
+
+[scene 170100]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_5 0.1]
+
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+＠J：特佩乌
+一垓年……？[r]那是什么意思……
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 19]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+意思是，认真理会也是白费力气。[r]这么长的刑罚，连红巨星也无法奉陪啦。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+＠玛修
+红阎魔小姐所说的『地狱』，[r]应该是源自佛教的地狱吧……
+[k]
+
+＠玛修
+印度是最早发现了0这个概念的国家，[r]对『数字』的造诣很深吧……
+[k]
+
+[charaFace C 8]
+＠玛修
+话虽如此，刑罚一垓年也有点长得过分了……[r]这是个天文数字。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+＠拉斯普京
+真是名副其实的『无期徒刑』啊。[r]看来只有越狱这条路可走了。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaPut E 1]
+[charaFace E 6]
+[charaFadeTime E 0.1 0.7]
+＠哈贝特洛特
+越狱？　这里可是连出口都没有，要怎么越狱？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠拉斯普京
+放心吧，很简单。
+[k]
+
+＠拉斯普京
+既然红阎魔成为守卫导致这里变成了刑罚场，[r]那只要她一消失，就会回复原本的冥界线了吧。
+[k]
+
+＠拉斯普京
+我先前建议不用管她，但事已至此，也唯有攻克了。[r]是这么个道理吧，[%1]？
+[k]
+
+？1：……高扬斯卡娅没意见吗？
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 30]
+[charaFadein F 0.1 1]
+＠高扬斯卡娅
+我当然反对。冒牌神父必须死。
+[k]
+
+[charaFace F 20]
+＠高扬斯卡娅
+……不过，看来不攻克她就无法[r]离开这冥界线确为事实。
+[k]
+
+＠高扬斯卡娅
+我会将生意上的[#信念:Pride]，[r]与身为野兽的[#骄傲:Pride]区别对待[line 3]
+[k]
+
+[charaFace F 24]
+＠高扬斯卡娅
+[line 3]既然选择攻克，[r]我也会毫不留情地提供支援。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+＠J：特佩乌
+所以，是确定要战斗了吧？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+＠玛修
+…………
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+…………
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.5]
+
+？1：……说是要攻克，其实胜算很渺茫。
+
+？！
+
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+＠拉斯普京
+……那确实是“连死者都照杀无误”的即死剑狂舞。
+[k]
+
+＠拉斯普京
+不过，幸好这里是日本的地狱。[r][#罪人即便被杀死也会复活]。
+[k]
+
+＠拉斯普京
+大小姐之所以能在刚才的战斗中凭毅力复原，[r]也是得益于这种特性吧。
+[k]
+
+＠拉斯普京
+无论被杀死多少次，从者都会复活。[r]剩下的问题就是能承受多少痛苦了。
+[k]
+
+[bgm BGM_EVENT_5 1.5 0.6]
+
+？1：问题不在这里，而是我希望她能恢复原状。
+
+？！
+
+[messageOff]
+[wt 0.5]
+[bgmStop BGM_EVENT_5 2.0]
+
+？1：毕竟她是回应了迦勒底召唤的英灵。
+
+？！
+
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠拉斯普京
+[line 3]
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_64 0.1]
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+这是理所应当的判断。[r]优秀的人材必须掌握在手里才行。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+＠玛修
+是！[r]我也赞成御主的意见！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 6]
+[charaFadein J 0.1 1]
+＠J：特佩乌
+那就和Kingprotea那时一样吧。[r]言峰神父将大展身手。
+[k]
+
+＠J：特佩乌
+宛若躲过奥塞洛特尔的枪林弹雨般，[r]穿梭于死亡之刃间。
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 1]
+＠拉斯普京
+哈哈哈哈。[r]特佩乌氏，这种有勇无谋是有去无回的哦。
+[k]
+
+[charaFaceFade D 1 0.2]
+＠拉斯普京
+非常抱歉，但恕难从命。[r]Kingprotea那时有『面具』这个患部。
+[k]
+
+＠拉斯普京
+可红阎魔并没有这种『变化的源头』。[r]凭我是无法治疗她那[#异灵:Alter]化的。
+[k]
+
+？1：……（也就是说，只能打倒她了……）
+？2：……原来是这样……
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+＠高扬斯卡娅
+………言峰神父束手无策了吗？[r]那我有一个提议。
+[k]
+
+＠高扬斯卡娅
+剪舌麻雀红阎魔大人。[r]她那模样是强制成长后的形象吧。
+[k]
+
+＠高扬斯卡娅
+『小红终有一日会熬过悠久的修行，[r]　成为地狱大王们的代理。』
+[k]
+
+＠高扬斯卡娅
+就是这种未来的状态。[r]并非改头换面，而是成长。因此[line 3]
+[k]
+
+[charaFace F 4]
+＠高扬斯卡娅
+只要给她来上一下，[r]让她返老还童不就行了嘛☆
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠拉斯普京
+……原来如此。[r]是个综合了兴趣与实际利益的美妙构想。
+[k]
+
+＠拉斯普京
+只不过，这方案忽视了不可能实现的前提。
+[k]
+
+＠拉斯普京
+在场的各位谁有返老还童的魔术或宝具吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 18]
+[charaFadein F 0.1 1]
+＠高扬斯卡娅
+当然没有。[r]不过您是不是忘记了一件事？
+[k]
+
+＠高扬斯卡娅
+冥界是包含了『过去』与『未来』的因果收束空间。[r]只要魔力充足，就能肆意召唤从者。
+[k]
+
+＠高扬斯卡娅
+现在的我们拥有一大群协助者。[r]是吧，[#迦勒底的御主]？
+[k]
+
+？1：只要能召唤拥有返老还童传说的英灵……！
+
+？！
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠玛修
+我来搜索数据库！[r]我们以往可是完成了诸多作战！
+[k]
+
+＠玛修
+肯定能找到拥有『返老还童』宝具的[#英灵:人物]！
+[k]
+
+[messageOff]
+[bgmStop BGM_MAP_64 1.5]
+[wipeout rollRight 1.0 1.0]
+[wait wipe]
+
+[charaFadeout C 0.1]
+[wt 1.5]
+[wipein rollLeft 1.0 1.0]
+[wait wipe]
+[wt 0.2]
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+＠玛修
+……非常抱歉……[r]实在有些难以启齿……
+[k]
+
+＠玛修
+有多名[#英灵:人物]拥有『不死之身』[r]『不死』『无敌』这类宝具，
+[k]
+
+＠玛修
+但似乎并没有拥有『返老还童』宝具的[#英灵:人物]……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+就没有浦岛太郎之类的吗！？[r][%1]，你是日本人吧！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠拉斯普京
+哈哈哈哈。大小姐，这是常有的误会。[r]太郎只是年岁增长了而已。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaPut E 1]
+[charaFace E 6]
+[charaFadeTime E 0.1 0.7]
+＠哈贝特洛特
+唔～……妖精里也没什么符合的呢。[r]大多都是些让人变老的恶作剧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠特佩乌
+也就是英灵召唤也并非万能的……真是遗憾。[r]到头来还是只能发射言峰神父吧。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠拉斯普京
+哈哈哈哈。特佩乌氏的玩笑还真是难懂呢。
+[k]
+
+？1：……既然无法返老还童…………
+？2：……应该还有……还有其他方法才对……！
+
+？！
+
+[messageOff]
+[bgmStop BGM_EVENT_70 1.5]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+[wt 1.0]
+
+[se ad574]
+[wt 0.1]
+[charaPut O 1]
+[charaEffect O bit_talk_simple_summon]
+[wt 1.3]
+[charaFace C 5]
+[wt 1.4]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaPut O 2000,2500]
+[charaEffectStop O bit_talk_simple_summon]
+
+
+
+＠？？？
+啊～，打扰了。[r]我能插个嘴吗？
+[k]
+
+＠？？？
+我这边的大神悄悄对我说，[r]“不能净让奥丁一个人抢占风头”。
+[k]
+
+＠？？？
+恕我冒昧，我可以提点建议吗？
+[k]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+＠玛修
+哇[messageShake 0.05 4 3 0.3]！？[r]这这，这声音是[line 3]
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.15]
+
+[charaPut O 1]
+[charaEffect O bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[wt 0.3]
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+[wt 0.7]
+
+[bgm BGM_MAP_56 0.1]
+
+＠芬恩·麦克库尔
+『宝具』即是该英灵传说的具现化，[r]或是升华而成的招式。也就是王牌。
+[k]
+
+＠芬恩·麦克库尔
+以『返老还童』这种传说为王牌的英灵[r]确实寥寥无几吧。
+[k]
+
+[charaFace G 0]
+＠芬恩·麦克库尔
+因此你们不妨降低一个档次思考一下。
+[k]
+
+＠芬恩·麦克库尔
+持有『返老还童』宝具的英灵固然稀缺，[r]但珍藏着这类药物的英灵必然存在。
+[k]
+
+[charaFace G 1]
+＠芬恩·麦克库尔
+遗憾的是我并没有[line 3][r]不过各位试想一下，不是有一个人有吗？
+[k]
+
+＠芬恩·麦克库尔
+某位最喜欢收集这类东西的，[r]与你们有缘的英雄。
+[k]
+
+[charaFace G 0]
+＠芬恩·麦克库尔
+那我先告辞了。[r]替我向老板娘问好。
+[k]
+
+[messageOff]
+[wt 0.05]
+[se ad1]
+[wt 0.1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut O 2000,2500]
+[wt 1.3]
+
+[charaTalk C]
+[charaFace C 29]
+[charaFadein C 0.1 1]
+＠玛修
+竟，竟然是从召唤阵另一头发起的联络！[r]不愧是冥界，基本已经是英灵之座外派地了！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+＠拉斯普京
+[line 3]
+[k]
+
+[bgm BGM_MAP_56 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth M 4]
+[charaDepth D 6]
+
+[charaPut M 1]
+[charaFadeTime M 0.2 0.5]
+
+＠拉斯普京
+（所有人类确实都会死，英雄也会迎来死亡。[r]　冥界……死后的世界既是人类信息的大熔炉，亦是终点。）
+[k]
+
+＠拉斯普京
+（为何特斯卡特利波卡神会安设这种东西。[r]　难道冥界线有什么别的意图……？）
+[k]
+
+[charaFadeout D 0.1]
+[charaFadeout M 0.2]
+[wt 0.1]
+
+[bgm BGM_MAP_56 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 24]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+哼……那人是这么说的哦，[%1]。[r]你有头绪吗？
+[k]
+
+？1：唔～，就算你这么说～。
+？2：哎～，有些想不起来呢～。
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MAP_56 1.5]
+
+＠？？？
+可恶，你们这群笨蛋，怎么没有立马想到本王！
+[k]
+
+＠？？？
+当然有啊，乌鲁克至高的王！[r]人类最强最优秀的[#财宝持有者:收藏者]！
+[k]
+
+[messageOff]
+[wt 0.25]
+
+[se ad1]
+[wt 0.1]
+[charaPut O 1]
+[wt 1.0]
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.7 9,-145]
+[wt 0.5]
+
+[bgm BGM_EVENT_39 0.1]
+[wt 1.0]
+
+？1：呜哇[line 2]，是国王陛下[line 4]！
+？2：好，好，好久不见……！
+
+？！
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut O 2000,2500]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+＠玛修
+吉尔伽美什王[line 3]！[r]对哦，提到秘药，自然该想到这位！
+[k]
+
+＠玛修
+还有，好久不见！[r]很高兴能再次见到[line 3]
+[k]
+
+[charaFace C 3]
+＠玛修
+啊，不对，不是再次见到呢。
+[k]
+
+[charaFace C 4]
+＠玛修
+第七特异点的经历并没有刻在[r]原本的吉尔伽美什王身上……
+[k]
+
+＠玛修
+非常抱歉……[r]由于我们自身的缘由，不小心说失礼的话……
+[k]
+
+？1：对哦……
+？2：………对不起……
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut O 1]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 9,-145]
+＠吉尔伽美什
+[line 3]哼。[r]无妨，本王又不是特地来怪责你们的。
+[k]
+
+＠吉尔伽美什
+事到如今也无需再讲解英灵召唤的机制了。[r]稍后你们可要用功补课啊。
+[k]
+
+[charaFace H 0]
+＠吉尔伽美什
+现在需要的是『返老还童』的药吧？[r]那个的话，本王倒是有。
+[k]
+
+＠吉尔伽美什
+由于你们那边召唤者只有三流水平的魔力，[r]本王没法亲自动身过去，
+[k]
+
+[charaFace H 1]
+＠吉尔伽美什
+但区区灵药的程度，还是可以召唤的吧。[r]给，拿去吧。
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut O 2000,2500]
+[wt 0.05]
+
+[se ad574]
+[seVolume ad574 0 0.7]
+[wt 0.2]
+[fadeout white 0.8]
+[wait fade]
+[fadein white 0.8]
+[wt 0.3]
+[seStop ad574 0.5]
+[wait fade]
+[wt 0.3]
+
+[charaTalk depthOff]
+[charaDepth M 4]
+[charaDepth L 6]
+
+[cueSe Battle bas2]
+[wt 0.05]
+[charaTalk L]
+[charaFace L 0]
+[charaFadein L 0.5 0,-50]
+[charaPut M 1]
+[charaFadeTime M 0.5 0.4]
+[wt 2.2]
+
+[charaFadeout L 0.4]
+[charaFadeout M 0.4]
+[wt 0.6]
+
+
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+＠拉斯普京
+噢噢，多么慷慨啊。[r]跟我所认识的王判若两人，是认错王了吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut O 1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 9,-145]
+＠吉尔伽美什
+哈哈哈，[%1]。[r]趁现在取下那家伙的首级。
+[k]
+
+＠吉尔伽美什
+长着那张脸的男人最后肯定会背叛你。[r]而且，还会在最适合让一切毁于一旦的时机。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut O 2000,2500]
+
+[charaTalk D]
+[charaFace D 10]
+[charaFadein D 0.1 1]
+＠拉斯普京
+这可是天大的误会，[r]毕竟我从一开始就不是什么同伴。
+[k]
+
+[charaFace D 0]
+＠拉斯普京
+不过，吉尔伽美什王。
+[k]
+
+＠拉斯普京
+在传说中，寻求不老不死之药的您[r]最终在深渊中获得了要找的药。
+[k]
+
+＠拉斯普京
+虽然那并非『不老不死』，而是『返老还童的灵草』，[r]但您还是愿意妥协，并回到了地表，
+[k]
+
+＠拉斯普京
+在返回王国的途中，[r]一时骄傲自满，被蛇抢走了灵草。
+[k]
+
+＠拉斯普京
+如果我没记错的话……您到最后还是[r]没能获得『返老还童的灵草』吧？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut O 1]
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 9,-145]
+＠吉尔伽美什
+蠢货，你当本王是谁啊。
+[k]
+
+＠吉尔伽美什
+灵草确实在泉水边被蛇夺走了，[r]本王拖着年迈的身躯回到乌鲁克，重建了国家。
+[k]
+
+[charaFace H 0]
+＠吉尔伽美什
+但即便身居玉座，灵草那件事始终在脑海中挥之不去。[r]本王是个不把失败当一回事的男人。
+[k]
+
+[charaFace H 1]
+＠吉尔伽美什
+因此，本王又一次前去摘取了灵草，[r]它也确实有相当的价值，并最终收进了宝物库。
+[k]
+
+？1：原来如此（一脸不得不接受的表情点头×3）。
+
+？2：这么说来……之前好像在哪里听说过这回事……
+
+[messageOff]
+[cueSe SE_22 22_ad1177]
+[wt 0.1]
+[fadeout white 0.6]
+[bgm BGM_EVENT_39 0.8 0.5]
+[wait fade]
+
+[charaFadeout H 0.1]
+[charaPut O 2000,2500]
+
+[scene 41700]
+
+[charaPut P 1]
+
+[charaTalk I]
+[charaFace I 5]
+[charaFadein I 0.1 1]
+[wt 0.8]
+
+[seStop ad592 0.6]
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+＠BB
+……那位国王陛下，竟一脸洋洋得意地在[r]个人房间对前辈讲那种事哦！
+[k]
+
+[messageOff]
+[fadeout white 0.6]
+[wait fade]
+
+[charaFadeout I 0.1]
+[charaPut P 2000,2500]
+[charaEffectStop P bit_sepia01_depth_fs]
+
+[scene 170100]
+
+[charaPut O 1]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 9,-145]
+[wt 0.8]
+
+[bgm BGM_EVENT_39 0.8 1.0]
+[fadein white 0.6]
+[wait fade]
+[wt 0.2]
+
+？！
+
+＠吉尔伽美什
+就这样吧，那什么人类最后的御主。[r]好好努力下冥界吧。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut O 2000,2500]
+
+[charaTalk C]
+[charaFace C 29]
+[charaFadein C 0.1 1]
+＠玛修
+话说，您说前辈三流，[r]是以什么为基准的呢！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaPut O 1]
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 9,-145]
+＠吉尔伽美什
+魔力、触媒、命运力。[r]现在尤其欠缺命运力。是遗落在哪里了吗？
+[k]
+
+[charaFace H 0]
+＠吉尔伽美什
+不过，三流确实有点过于偏颇了。[r][line 3]已经成长到二流水准了吧，迦勒底的。
+[k]
+
+？1：[line 3][&是:嗯]！
+
+？！
+
+[messageOff]
+[charaFace H 1]
+[wt 1.0]
+
+
+[wt 0.05]
+[se ad1]
+[wt 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaPut O 2000,2500]
+[wt 1.6]
+
+
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_39 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

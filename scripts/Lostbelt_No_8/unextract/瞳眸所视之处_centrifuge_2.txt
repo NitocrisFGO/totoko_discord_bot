@@ -1,0 +1,1087 @@
+
+
+＄04-00-02-13-2-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 7046001 1 难敌]
+[charaSet B 1098270000 1 希翁]
+[charaSet C 1098270200 1 迦摩]
+[charaSet D 1098270300 1 阿愈丝]
+[charaSet E 1098267000 1 杜尔伽]
+[charaSet F 1098269100 1 拉妮－ⅩⅡ]
+[charaSet G 3054001 1 怖军]
+[charaSet H 1098269300 1 塞蕾雪拉]
+
+[sceneSet I 10000 1]
+[charaScale I 1.05]
+[sceneSet J 189600 1]
+[charaScale J 1.01]
+[sceneSet K 189600 1]
+[charaScale K 1.2]
+[sceneSet L 189600 1]
+[charaScale L 1.3]
+[sceneSet M 189600 1]
+[charaScale M 1.3]
+
+[scene 189600]
+
+[charaTalk off]
+[charaTalk depthOff]
+[subCameraOn 1]
+[charaLayer J sub #A]
+[charaLayer E sub #A]
+[subCameraFilter #A through]
+[charaDepth J 1]
+[charaDepth E 2]
+
+[charaFace C 24]
+[charaFace E 31]
+[charaFadein J 0.1 0,-200]
+[charaFadein C 0.1 1]
+[charaFadein E 0.1 1]
+[subCameraMove #A 0.1 0,-40 1.2]
+[subRenderFadein #A 0.1 0,0]
+[wt 0.1]
+
+[subCameraMove #A 10.0 0,-20 1.1]
+[bgm BGM_MAP_92 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[wt 2.5]
+
+[subRenderFadeout #A 1.0]
+[wt 1.0]
+[subCameraHome #A 0.1]
+[charaFadeout J 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+[charaLayer J normal]
+[charaLayer E normal]
+[subCameraOff]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk C]
+
+＠迦摩
+……糟透了，真是糟透了。
+[k]
+
+＠迦摩
+竟然找来了我绝对不想见到的从者之榜首。
+[k]
+
+？1：杜尔伽……！
+
+[charaFace C 8]
+
+＠迦摩
+名字至少应该听说过吧。[r]毕竟好像还挺有名的。
+[k]
+
+？2：杜尔伽……？
+
+[charaFace C 1]
+
+＠迦摩
+第一次听说吗？
+[k]
+
+＠迦摩
+好吧，想知道的话，我就告诉你好了。[r]希望你务必也感受一下我这糟透的心情。
+[k]
+
+[charaFace C 4]
+
+＠迦摩
+简单说，是被视作帕尔瓦蒂另一侧面的湿婆神妃。[r]这就是那家伙。
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠希翁
+跟以温和与美丽为特征的优美女神[r]帕尔瓦蒂形成鲜明对比的，
+[k]
+
+＠希翁
+象征纷争与战争的女神……是这样吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠迦摩
+嗯，她几乎完全是战斗用女神。[r]不，连战斗用这个词都显得过于保守。
+[k]
+
+＠迦摩
+应该说[#歼灭用]才对吧。
+[k]
+
+＠迦摩
+为毁灭曾让诸神棘手不已的魔神，
+[k]
+
+＠迦摩
+由诸多愤怒的神明齐心协力打造而成的，[r]用于歼灭魔神的功能。
+[k]
+
+＠迦摩
+这就是那个名为杜尔伽的[r]超危险女神的本质。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 30]
+[charaFadein E 0.1 1]
+
+＠杜尔伽
+正确。你能准确地认知本女神的功能。[r]爱神，迦摩啊。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠迦摩
+多谢夸奖。
+[k]
+
+＠迦摩
+包括不知为何使用了同型号的凭依之躯这点也是，[r]跟[#帕尔瓦蒂:那个女神]一样，着实令人讨厌呢。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠难敌
+可恶，你说杜尔伽？
+[k]
+
+＠难敌
+这未免太糟糕了吧。哪怕是隔着凭依之躯的分灵，[r]竟然要与湿婆的神妃为敌……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 29]
+[charaFadein E 0.1 1]
+
+＠杜尔伽
+散发着[#魔:迦利]之气味的男人。[r]还有[line 3]这是，伐由……？
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth K 2]
+[charaDepth G 3]
+[charaDepth H 4]
+
+[charaFadein K 1.0 -60,-270]
+[charaMove K -120,-270 1.0]
+[wt 1.2]
+[charaFadeout E 0.1]
+[se ade255]
+[wt 1.0]
+[se ad60]
+[seVolume ad60 0 0]
+[se ad95]
+[seVolume ad95 0 0]
+[seVolume ad60 1.0 1.0]
+[seVolume ad95 1.0 1.0]
+[wt 1.5]
+
+[seStop ad60 0.4]
+[seStop ad95 0.4]
+[charaScale G 1.1]
+[charaFace G 0]
+[charaFace H 0]
+[charaFadeinFSR G 0.4 256,25]
+[charaFadeinFSL H 0.4 0]
+[wt 1.0]
+
+[charaTalk on]
+[charaTalk G]
+
+＠怖军
+不愧是神，鼻子真灵啊。[r]本打算躲起来观望情况呢，看来是我太天真了呢。
+[k]
+
+[charaFace A 15]
+[charaFadein A 0.1 1]
+[charaTalk H]
+
+＠塞蕾雪拉
+……[r]……
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout K 0.5]
+[charaFadeout G 0.5]
+[charaFadeout H 0.5]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk A]
+
+＠难敌
+嘁，原来那些家伙也在啊。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠拉妮－ⅩⅡ
+看来目前还幸存的所有从者[r]都集结于此了呢。
+[k]
+
+[charaFace F 3]
+
+＠拉妮－ⅩⅡ
+没办法。这也是为了展现善之光所需的[r]即时应对补正的一环。
+[k]
+
+[charaFace F 0]
+
+＠拉妮－ⅩⅡ
+就算以设计的形式隐藏起来，[r]也会若隐若现[line 3]
+[k]
+
+＠拉妮－ⅩⅡ
+所谓的真理便是如此。
+[k]
+
+＠拉妮－ⅩⅡ
+我就开放一部分高位信息的访问权限吧。
+[k]
+
+＠拉妮－ⅩⅡ
+也就是说，有什么想问的，[r]我都可以回答哦。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠阿愈丝
+这究竟是怎么回事，综合统管？
+[k]
+
+＠阿愈丝
+你说这个[#Archer:弓兵]，[r]是你的从者……
+[k]
+
+＠阿愈丝
+也就是说，你也是[r][#ＡＩ圣杯战争:System Grail War]的参加者吗？
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+[wt 0.2]
+[charaMove F 5,0 0.2]
+[wt 0.2]
+[charaMove F -5,0 0.4]
+[wt 0.4]
+[charaMove F 1 0.2]
+
+＠拉妮－ⅩⅡ
+不，并非如此。
+[k]
+
+[charaFace F 0]
+
+＠拉妮－ⅩⅡ
+我是管理这场圣杯战争的监督官，[r]她是我的从者。
+[k]
+
+＠拉妮－ⅩⅡ
+这两者皆为真实，而且，也不存在矛盾。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠希翁
+也就是说，只有那个[#Archer:弓兵]……[r]只有杜尔伽具有特殊的意义吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉妮－ⅩⅡ
+肯定。正因为她被召唤了出来，[r]这场圣杯战争才会开始。
+[k]
+
+＠拉妮－ⅩⅡ
+不，是才有可能开始。
+[k]
+
+＠拉妮－ⅩⅡ
+开始这名为[#ＡＩ圣杯战争:System Grail War]的[r]实验性仪式。
+[k]
+
+？1：既然是实验，也就是说这场圣杯战争……
+？2：并不是，为了维护平面之月？
+？！
+
+＠拉妮－ⅩⅡ
+平面之月之所以不再运转，[r]正是因为这次仪式的开启。
+[k]
+
+＠拉妮－ⅩⅡ
+待仪式结束后，平面之月便会重新运转。[r]只不过，是以不同于以往的形式。
+[k]
+
+＠拉妮－ⅩⅡ
+因此请容我主张，这并非虚假的报告。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠希翁
+这场圣杯战争会导致平面之月的[r]运转方式发生变化……？
+[k]
+
+＠希翁
+换言之[line 3]这是为了以不同于以往的形式[r]利用平面之月而进行的实验？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[subCameraOn 3]
+[charaLayer B sub #A]
+[charaLayer A sub #B]
+[charaLayer D sub #B]
+[charaLayer G sub #C]
+[charaLayer H sub #C]
+
+[subCameraFilter #A through]
+[subCameraFilter #B through]
+[subCameraFilter #C through]
+
+[charaTalk F]
+[charaFace F 4]
+[charaFadein F 0.1 1]
+
+＠拉妮－ⅩⅡ
+充满逻辑的思维，太精彩了。
+[k]
+
+[subRenderDepth #A 3]
+[subRenderDepth #B 2]
+[subRenderDepth #C 1]
+
+[charaDepth K 1]
+[charaDepth L 2]
+[charaDepth M 3]
+[charaDepth A 2]
+[charaDepth E 2]
+[charaDepth C 2]
+[charaDepth G 2]
+[charaDepth D 3]
+[charaDepth H 3]
+[charaDepth B 3]
+
+[charaFace F 0]
+
+＠拉妮－ⅩⅡ
+这是利用了平面之月[r]『依样临摹一切』的力量与性质，
+[k]
+
+[charaScale K 1.3]
+[charaScale B 1.1]
+[charaScale A 1.1]
+[charaScale D 1.1]
+[charaScale G 1.21]
+[charaScale H 1.1]
+
+＠拉妮－ⅩⅡ
+旨在人为地创造出[#某种事物]的实验。
+[k]
+
+[charaFace B 6]
+[charaFace A 10]
+[charaFace D 4]
+[charaFace G 15]
+[charaFace H 0]
+[charaFadein B 0.1 -230,-30]
+[charaFadein A 0.1 -230,0]
+
+＠拉妮－ⅩⅡ
+那就是圣杯战争，而其实验体与产物，[r]就是你们这些御主与从者。
+[k]
+
+[charaFadein D 0.1 230,0]
+[charaFadein G 0.1 230,25]
+[charaFadein H 0.1 -230,0]
+
+＠拉妮－ⅩⅡ
+虽然成立的方式各不一样，但都属于同一类别。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠迦摩
+你说，我们是实验体？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉妮－ⅩⅡ
+没错……在场的御主与从者，[r]你们全都不是自然的存在。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaLayer C sub #A]
+[charaScale C 1.1]
+[charaFace C 16]
+[charaFadein C 0 230,0]
+[blur lens 1.0 2 20]
+[charaFadein K 1.0 0,-300]
+[charaMove K 0,-350 20.0]
+[subRenderFadein #A 1.0 0,50]
+[subRenderMove #A 0,0 20.0]
+[wt 1.2]
+[charaFadeout F 0.1]
+
+＠拉妮－ⅩⅡ
+而是经过加工之物、人为产生之物。
+[k]
+
+＠拉妮－ⅩⅡ
+对此能有几分自觉存在个体差异，[r]也存在程度上的差异。
+[k]
+
+＠拉妮－ⅩⅡ
+不过，若是具备某种特殊客观视角之人，[r]自己应该也能感受到才对。
+[k]
+
+[messageOff]
+[subRenderFadeout #A 1.0]
+[subRenderFadein #B 1.0 -50,0]
+[subRenderMove #B 0,0 20.0]
+[charaFadein L 1.0 140,-350]
+[charaMove L 190,-350 20.0]
+[wt 1.2]
+[charaFadeout K 0.1]
+[charaFadeout C 0.1]
+[charaFadeout B 0.1]
+
+＠拉妮－ⅩⅡ
+又或者，有人也许会被告知[r]自己在他人眼中是这样的。
+[k]
+
+＠拉妮－ⅩⅡ
+性格不同、主义主张不同、[r]爱好不同、重视的东西不同。
+[k]
+
+＠拉妮－ⅩⅡ
+然而这并非凭空产生的，[r]而是你们原本的心中确实曾存在过的事物。
+[k]
+
+[messageOff]
+[subRenderFadeout #B 1.0]
+[subRenderFadein #C 1.0 50,0]
+[subRenderMove #C 0,0 20.0]
+[charaFadein M 1.0 -140,-350]
+[charaMove M -190,-350 20.0]
+[wt 1.2]
+[charaFadeout L 0.1]
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+
+＠拉妮－ⅩⅡ
+换言之，依然是本人无疑，
+[k]
+
+＠拉妮－ⅩⅡ
+而仿佛只有本人心中的部分人格[r]被独立抽取出来般存在的产物[line 3]
+[k]
+
+[messageOff]
+[blurOff lens 1.0]
+[subRenderFadeout #C 1.0]
+[charaFadeout M 1.0]
+[wt 1.0]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[wt 0.1]
+[charaScale C 1.0]
+[charaScale B 1.0]
+[charaScale A 1.0]
+[charaScale D 1.0]
+[charaScale G 1.0]
+[charaScale H 1.0]
+[charaLayer A normal]
+[charaLayer C normal]
+[charaLayer D normal]
+[charaLayer G normal]
+[charaLayer H normal]
+[charaLayer B normal]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉妮－ⅩⅡ
+你们应该早已知道，[r]该如何称呼这种存在才对。
+[k]
+
+？1：那是……！
+？！
+
+
+
+
+
+＠拉妮－ⅩⅡ
+没错，你们所有人都是[line 3]
+[k]
+
+[bgmStop BGM_MAP_92 1.5]
+
+＠拉妮－ⅩⅡ
+由[#平面之月:Paper Moon]具现于表面的，[r][#人造Alterego:人造他人格]。
+[k]
+
+[messageOff]
+[wt 1.0]
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout F 0.1]
+[wt 2.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_MAP_91 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠希翁
+……不可能。身为管理者，我敢断言。[r]平面之月不具备这种功能。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉妮－ⅩⅡ
+但我说我已经这么做了，自称管理者之人。
+[k]
+
+＠拉妮－ⅩⅡ
+关键在于旋转，[r]以及由此产生的[#离心力]。
+[k]
+
+＠拉妮－ⅩⅡ
+让这个世界通过圣杯战争这一系统的力量旋转起来，[r]并用藉由这种方式产生的概念性离心力，
+[k]
+
+＠拉妮－ⅩⅡ
+拓印并临摹分离出来的灵魂要素[line 3][r]简单说，就是这么个原理。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠希翁
+呜……
+[k]
+
+＠希翁
+[#灵魂的]，[#离心分离]……！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉妮－ⅩⅡ
+一副难以理解却仍认同其可能性的表情呢。[r]你很优秀。
+[k]
+
+＠拉妮－ⅩⅡ
+我将其命名为ＡＥＣ法………[r][#他人格离心分离:Alterego Centrifuge]法。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+
+＠迦摩
+慢着慢着。
+[k]
+
+＠迦摩
+内容夸张到我都左耳进右耳出了，[r]这是真的吗？
+[k]
+
+＠迦摩
+根本没有证据可言吧。[r]有没有可能只是这女人信口雌黄？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+
+＠希翁
+要说间接证据的话，倒也不是没有。
+[k]
+
+＠希翁
+我们被旋转甩飞后醒来时，[r]布置在外缘的[#冲击吸收空间:阻尼器]……
+[k]
+
+＠希翁
+是不是给人一种既视感？
+[k]
+
+＠希翁
+那玩意恐怕是[#筐体]。[r]至少是具备相似功能的东西。
+[k]
+
+[charaFace B 8]
+
+＠希翁
+防止灵魂，防止灵子逸脱的容器。[r]用来获取分离人格的摇篮……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉妮－ⅩⅡ
+顺带一提，从者消失时发生的旋转算是预备动作，[r]或者说是事前准备。
+[k]
+
+＠拉妮－ⅩⅡ
+因此请不必担心，还没有发生人格的分离。[r]等仪式完成之际，才是重头戏。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 15]
+[charaFadein A 0.1 1]
+
+＠难敌
+从刚才听到现在，[r]本老爷也还一头雾水。
+[k]
+
+＠难敌
+假设我们真的是[#Alterego:他人格]，[r]这场圣杯战争是为了创造这玩意而存在的好了。
+[k]
+
+＠难敌
+那目的又是什么？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+[bgmStop BGM_MAP_91 1.5]
+
+＠拉妮－ⅩⅡ
+那当然，
+[k]
+
+＠拉妮－ⅩⅡ
+[#是为了回避世界毁灭]。
+[k]
+
+？1：…………！？
+？！
+
+[bgm BGM_EVENT_79 0.1]
+
+＠拉妮－ⅩⅡ
+这个问题必须从所有的原点开始说明才行。
+[k]
+
+＠拉妮－ⅩⅡ
+某一刻，平面之月内的微观领域产生了圣杯。[r]与之呼应，我这一存在被固定化了。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_79 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth I 1]
+[charaDepth B 2]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+[charaPut I 0,-200]
+[charaFadeTime I 0.2 0.5]
+
+＠希翁
+（……果然，不只是名称，[r]　还牵扯到了实际的圣杯啊。）
+[k]
+
+＠希翁
+（凭借拥有无限结构与力量的圣杯概念，[r]　连这种极小的虚拟世界都可以干涉……）
+[k]
+
+[charaFadeout I 0.2]
+[charaFadeout B 0.2]
+[wt 0.2]
+
+[bgm BGM_EVENT_79 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉妮－ⅩⅡ
+然后我利用圣杯的力量进行演算，[r]得出了再这样下去，世界将会终结的结论。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠迦摩
+……你说的是哪个世界？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠拉妮－ⅩⅡ
+当然是白纸化的地球。[r]你们迦勒底正试图拯救的世界。
+[k]
+
+＠拉妮－ⅩⅡ
+也明白了你们正处于即将面对最终决战的状况。
+[k]
+
+＠拉妮－ⅩⅡ
+最大的问题、毁灭的原因就在于此。[r][#纯粹的战力不足]。
+[k]
+
+？1：没有，这种事……！
+
+[charaFace F 1]
+
+＠拉妮－ⅩⅡ
+不。与你结缘的从者、[r]迦勒底幸存的工作人员。
+[k]
+
+[charaFace F 0]
+
+＠拉妮－ⅩⅡ
+这是将他们的数量与能力全部数值化后[r]计算得出的结论。优秀的我不会算错。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠塞蕾雪拉
+……[r]……
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+？2：还有愿意鼎力相助的大家……！
+
+[charaFace F 1]
+
+＠拉妮－ⅩⅡ
+计算表明，光凭这些还不够。
+[k]
+
+[charaFace F 0]
+
+＠拉妮－ⅩⅡ
+我承认确实『存在』。[r]问题在于是否达到或超出所需数量。
+[k]
+
+＠拉妮－ⅩⅡ
+在决战中『不足』无异于零，[r]毫无意义。
+[k]
+
+？！
+
+＠拉妮－ⅩⅡ
+于是为了增强战力，[r]我把目光放到了[#Alterego:他人格]这一职阶上。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠阿愈丝
+虽然现在才问，不过[#Alterego:他人格]是什么……？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+
+＠希翁
+是为从者分配的额外职阶之一。
+[k]
+
+＠希翁
+不同于该英灵的存在方式发生变化，[r]能力或思想发生变化的『[#异灵:Alter]』，
+[k]
+
+＠希翁
+可以说是作为一名英灵的『他人格』被切离，[r]『成为了另一[#存在:从者]』的职阶。
+[k]
+
+[charaFace B 2]
+
+＠希翁
+以电脑应用来举例，[r][#异灵:Alter]是同一应用的不同版本。
+[k]
+
+＠希翁
+而另一类，[#Alterego:他人格]则是沿用该应用的系统，[r]制作成另一款商品的不同应用。
+[k]
+
+[charaFace B 6]
+
+＠希翁
+由于『被切分』这一性质，[r]多数情况会成为空缺部分
+[k]
+
+＠希翁
+被神灵从者等重量级存在填补的高等从者，[r]但这并非必要条件。
+[k]
+
+＠希翁
+最后只要是以他人格的存在为主体，[r]就可以成为[#Alterego:他人格]这一职阶。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠拉妮－ⅩⅡ
+虽然你们好像在不知不觉间[r]把它看作是『这样的职阶』来习惯了，
+[k]
+
+＠拉妮－ⅩⅡ
+但在我看来，它依然是极其不可思议的职阶。
+[k]
+
+＠拉妮－ⅩⅡ
+作为从者职阶的符合条件实在是过于广泛了。
+[k]
+
+＠拉妮－ⅩⅡ
+过于依赖无形的心理层面与精神性了。
+[k]
+
+[charaFace F 4]
+
+＠拉妮－ⅩⅡ
+于是我这么想。
+[k]
+
+＠拉妮－ⅩⅡ
+既然只要以某个人格的一个侧面为主，[r]就可以作为[#Alterego:他人格]职阶成立。
+[k]
+
+＠拉妮－ⅩⅡ
+那是否能从同一个本体中，[r]创造出两骑[#Alterego:他人格]呢？
+[k]
+
+[charaFace F 2]
+＠拉妮－ⅩⅡ
+我也明白生命体的精神活动与人格是各式各样的。
+[k]
+
+＠拉妮－ⅩⅡ
+哪怕一个人类、一位英雄，应该也是[r]重叠着无数人格、无数方向性存在的。
+[k]
+
+＠拉妮－ⅩⅡ
+另一方面，[#Alterego:他人格]仅作为[#Alterego:他人格][r]便可独立成立。
+[k]
+
+＠拉妮－ⅩⅡ
+我在偷看了迦勒底的数据后，也没有发现[#Alterego:他人格][r]在战斗力方面不如其他职阶的数据。
+[k]
+
+[charaFace F 0]
+
+＠拉妮－ⅩⅡ
+既然如此……假设有某位从者。
+[k]
+
+＠拉妮－ⅩⅡ
+与其只作为一骑使用，[r]还不如人为地分离其人格，
+[k]
+
+＠拉妮－ⅩⅡ
+从中创造多个[#Alterego:他人格]从者，[r]在战力方面才更为有效吧？
+[k]
+
+？1：怎么能这样，太胡来了……！
+？！
+
+[charaFace F 2]
+
+＠拉妮－ⅩⅡ
+这不是胡来。[r]我能做到，且有意义，这才是正确答案。
+[k]
+
+＠拉妮－ⅩⅡ
+因此我才会付诸实施。
+[k]
+
+[charaFace F 1]
+
+＠拉妮－ⅩⅡ
+这就是这里正在举行的[r][#ＡＩ圣杯战争:System Grail War]……
+[k]
+
+[bgmStop BGM_EVENT_79 2.5]
+[messageOff]
+[cameraMove 0.8 0,-20 1.1]
+[wt 1.0]
+[charaFace F 0]
+
+＠拉妮－ⅩⅡ
+[#Alterego增产:Alterego Increase]圣杯战争，[r]无限[#Alterego:他人格]制造计划的关键所在[line 3]
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

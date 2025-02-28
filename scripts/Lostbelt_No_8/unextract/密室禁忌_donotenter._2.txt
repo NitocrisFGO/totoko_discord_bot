@@ -1,0 +1,588 @@
+
+
+
+＄04-00-02-05-2-1
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 1098269800 1 Caster的御主]
+[charaSet B 1098269600 1 Caster]
+[charaSet C 1098268900 1 樱]
+[charaSet D 1098268950 1 樱2]
+[charaSet E 1098267110 1 Saber]
+[charaSet F 1098267110 1 Saber2]
+[charaSet G 1098267110 1 Saber魔眼演出用1]
+[charaSet H 1098267110 1 Saber魔眼演出用2]
+[charaSet I 1098271000 1 蠢魔1]
+[charaSet J 1098271000 1 蠢魔2]
+
+[sceneSet K 10000 1]
+[charaScale K 1.05]
+[sceneSet L 10000 1]
+[charaScale L 1.05]
+[sceneSet M 190300 1]
+[charaScale M 1.2]
+[sceneSet N 190300 1]
+[charaScale N 1.3]
+[sceneSet O 190300 1]
+[charaScale O 1.2]
+
+[charaSet S 5009000 1 特效用1]
+[charaSet T 5009000 1 特效用2]
+
+[scene 190300]
+
+[bgm BGM_BATTLE_107 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+[wt 0.3]
+
+[se ad73]
+[charaEffect E bit_talk_quickmove]
+[charaSpecialEffect E erasureReverse 1 0.3]
+
+[subCameraOn 1]
+[charaLayer M sub #A]
+[charaLayer L sub #A]
+[charaLayer G sub #A]
+[charaLayer S sub #A]
+[charaLayer H sub #A]
+[charaLayer T sub #A]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth K 2]
+[charaDepth G 3]
+[charaDepth S 4]
+[charaDepth H 5]
+[charaDepth T 6]
+
+[charaRoll M 0]
+[charaScale G 1.4]
+[charaScale H 1.7]
+[charaScale S 1.4]
+[charaScale T 1.7]
+[charaFace G 24]
+[charaFace H 23]
+[charaFadein M 0.1 0,-50]
+[charaFadein G 0.1 0,220]
+
+[subCameraFilter #A maskEdge cut359_mask08 3 217,93,151,255]
+[wt 0.8]
+
+[cueSe Servants_2800200 m40512]
+[cueSeVolume m40512 0 0.5]
+[cueSe Servants_2800200 m45707]
+[cueSeVolume m45707 0 0.5]
+[subRenderFadein #A 0.4 100,-282]
+[subRenderMove #A 0,-282 0.3]
+[cueSeStop m40512 1.0]
+[cueSeStop m45707 1.0]
+[wt 1.0]
+
+[charaDepth K 9]
+[charaPut K 1]
+[charaPut L 1]
+[charaFadeTime K 0.5 0.7]
+[charaFadeTime L 0.3 0.2]
+[wt 0.2]
+
+[charaPut S 0,210]
+[charaEffect S bit_talk_mysticeyes_mds]
+[charaPut T 0,245]
+[charaEffect T bit_talk_mysticeyes_mds]
+[wt 0.45]
+[cueSe SE_23 23_ad1296]
+[wt 0.1]
+[charaFace G 23]
+[charaFadein H 0 0,258]
+[charaFadeout H 1.2]
+[charaFadeTime L 1.0 0.5]
+[wt 0.6]
+[cueSeStop 23_ad1296 0.9]
+[wt 0.5]
+
+[cueSe Battle bac1774]
+[cueSeVolume bac1774 0 0.5]
+[fadeout white 0.5]
+[wait fade]
+
+[subRenderFadeout #A 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout M 0.1]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_mysticeyes_mds]
+[charaPut T 2000,2500]
+[charaEffectStop T bit_talk_mysticeyes_mds]
+[charaLayer G normal]
+[charaLayer H normal]
+[charaLayer M normal]
+[charaLayer S normal]
+[charaLayer T normal]
+[subCameraOff]
+
+[charaScale G 1.0]
+[charaScale H 1.0]
+[charaScale S 1.0]
+[charaScale T 1.0]
+[charaDepth I 1]
+[charaDepth S 2]
+[charaDepth J 3]
+[charaDepth T 4]
+
+[charaFace I 0]
+[charaFace J 0]
+[charaFadeinFSL I 0.1 0]
+[charaFadeinFSR J 0.1 2]
+[wt 0.5]
+
+[fadein white 1.0]
+[wait fade]
+
+[se ad198]
+[cueSe Battle bac238]
+[flashin once 0.1 0.2 FFFFFFFA FFFFFF50]
+[charaChange I 1098271010 0 normal 0.1]
+[charaChange J 1098271010 0 normal 0.1]
+[wt 1.0]
+[se ad753]
+[wt 1.5]
+
+[se ade47]
+[charaPutFSL S 0]
+[charaEffect S bit_talk_atomization_gra]
+[charaSpecialEffect I enemyErasure 0,0 1.3]
+[wt 0.4]
+[seStop ad753 2.3]
+[seStop ade47 2.3]
+[charaPutFSR T 2]
+[charaEffect T bit_talk_atomization_gra]
+[charaSpecialEffect J enemyErasure 0,0 1.3]
+[wt 2.3]
+
+[charaSet I 1098271000 1 蠢魔1]
+[charaSet J 1098271000 1 蠢魔2]
+
+[charaTalk E]
+[charaFace E 20]
+[se ad223]
+[fowardEffect bit_talk_quickmove]
+[charaSpecialEffect E appearance 1 0.25]
+[wt 0.8]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠Caster的御主
+嚯？　你那石化之魔眼，[r]以及在光之形态下隐约可见的『怪物』……
+[k]
+
+＠Caster的御主
+你是，美杜莎吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 25]
+[charaFadein E 0.1 1]
+
+＠Saber
+……随你怎么猜。
+[k]
+
+＠Saber
+（这些使魔能够打倒。[r]　只是，数量，太多了……！）
+[k]
+
+＠Saber
+（眼下，似乎只能逃跑了。[r]　哪怕要抛弃[#生产部:这里][line 3]）
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+＠樱
+不行。不行啊，[#Saber:剑士]。[r]求你了。那样做，毫无，意义……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 22]
+[charaFadein E 0.1 1]
+
+＠Saber
+呜……
+[k]
+
+[messageOff]
+[se ad598]
+[charaFaceFade E 12 1.0]
+[wt 1.0]
+[seStop ad598 1.0]
+[wt 1.0]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠Caster的御主
+燃料不足吗？　看来那魔眼无法连续发动呢。
+[k]
+
+＠Caster的御主
+至少，没法发挥出隔着这段距离[r]也能立刻将我石化的效果……
+[k]
+
+[charaFace A 1]
+
+＠Caster的御主
+不过，就算石化的效果袭来，[r]优秀的我当然也会[#抵抗:Resist]就是了。
+[k]
+
+＠Caster的御主
+该做的事情还是不变。只需继续保持距离，[r]靠数量差距碾压她们[line 3]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth E 1]
+[charaDepth M 2]
+[charaDepth I 3]
+[charaDepth J 4]
+[charaDepth K 5]
+[charaDepth C 6]
+
+[se ad21]
+[charaFace I 0]
+[charaFace J 0]
+[charaFadeinFSL I 0.1 0]
+[charaFadeinFSR J 0.1 2]
+[wt 1.0]
+
+[se ad1006]
+[seVolume ad1006 0 0.6]
+[cueSe Servants_2500700 m41410 0 0.6]
+[charaMoveFSR J 256,20 0.4]
+[charaMoveScale J 1.2 0.3]
+[charaFadeout J 0.3]
+[wt 0.1]
+[cueSeStop m41410 0.8]
+[charaMoveFSL I -256,20 0.4]
+[charaMoveScale I 1.2 0.3]
+[charaFadeout I 0.3]
+[wt 0.8]
+
+[charaFace E 1]
+[charaFadein E 0.1 1]
+[wt 0.2]
+[cueSe Servants_9944040 m90017]
+[charaPut S 1]
+[charaEffect S bit_talk_41_fs]
+[blur motion 0.3 4 200 0.5 0.6 0.02 200]
+[cameraMove 0.3 0,-30 1.2]
+[wt 0.2]
+
+[fadeout black 0.2]
+[cueSeStop m90017 0.5]
+[wait fade]
+
+[charaPut S 2500,2500]
+[charaEffectStop S bit_talk_41_fs]
+[blurOff motion 0.1]
+[cameraHome 0.1]
+
+[charaFadeout E 0.1]
+
+[charaScale I 1.0]
+[charaScale J 1.0]
+[charaFace I 0]
+[charaFace J 0]
+[charaFadeinFSL I 0.1 0]
+[charaFadeinFSR J 0.1 2]
+[charaFadein K 0.1 0,-200]
+[wt 0.1]
+
+[fadein black 0.1]
+[wait fade]
+
+[fowardEffect bit_talk_kengekiall02_fs]
+[wt 0.1]
+[cueSe Battle bac136]
+[wt 0.1]
+[cueSe Battle bac137]
+[wt 0.3]
+[cueSe Battle bac135]
+[wt 0.2]
+
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[charaFadeout K 0]
+[charaShake J 0.05 4 4 0.5]
+[wt 0.1]
+[charaShake I 0.05 4 4 0.5]
+[wt 0.5]
+
+[se ad42]
+[charaSpecialEffect J enemyErasure 1 1.5]
+[wt 0.2]
+[charaSpecialEffect I enemyErasure 1 1.5]
+[wait charaSpecialEffect I]
+[seStop ad42 0.5]
+
+[charaScale E 1.3]
+[charaTalk on]
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.4 0,30]
+[charaShake E 0.05 2 2 0.4]
+[se ad543]
+[seVolume ad543 0 0.5]
+[se ad671]
+[seStop ad671 0.7]
+[seStop ad543 0.7]
+[charaMoveScale E 1.0 0.5]
+[charaMove E 0,0 0.5]
+[wt 1.0]
+
+[charaFadein M 0.8 70,-300]
+[charaMove M 120,-300 0.8]
+[wt 1.0]
+[charaFadeout E 0.1]
+
+[cueSe Servants_2500700 m41410 0 0.6]
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.4 -50,0]
+[charaMove I 0,0 0.4]
+[wt 0.1]
+[cueSeStop m41410 0.8]
+[wt 1.0]
+[cueSe Battle bac169]
+[effect bit_talk_v_slash02]
+[wt 0.3]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 15]
+[charaFadein C 0.1 1]
+[wt 0.2]
+[effect bit_talk_14]
+[cueSe Battle bac11]
+[wt 0.1]
+[charaFace C 14]
+[charaShake C 0.05 4 4 0.5]
+[wt 0.5]
+[se ad161]
+[fowardEffect bit_talk_35]
+[wt 0.7]
+[charaFadeout C 0.4]
+[charaMove C 0,-50 0.5]
+[wt 0.5]
+[se ad144]
+[wt 0.7]
+
+[blur lens 0.5 2 20]
+[subCameraOn 1]
+[charaLayer O sub #A]
+[charaLayer F sub #A]
+[charaLayer S sub #A]
+
+[charaDepth O 1]
+[charaDepth F 2]
+[charaDepth S 3]
+
+[charaScale F 1.1]
+[charaTalk F]
+[charaFace F 15]
+[charaFadein O 0.1 0,100]
+[charaFadeinFSR F 0.1 256,199]
+[subCameraFilter #A maskEdge cut359_mask02 4 217,93,151,255 0]
+[wt 0.1]
+
+[subRenderFadein #A 0.4 100,-320]
+[subRenderMove #A 0,-320 0.3]
+[wt 0.8]
+[se ad158]
+[se ad1006]
+[seVolume ad1006 0 0.8]
+[charaPut S 0,500]
+[charaEffect S bit_talk_42 0,0 H]
+[charaMoveFSR F 56,199 0.2]
+[charaFadeout F 0.2]
+[wt 0.5]
+[seStop ad158 0.1]
+[charaPut S 2000,2000]
+[charaEffectStop S bit_talk_42]
+[blurOff lens 0.1]
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+[charaFadeout O 0.1]
+[wt 0.1]
+[charaScale E 1.0]
+[charaLayer O normal]
+[charaLayer F normal]
+[charaLayer S normal]
+[subCameraOff]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+[wt 0.3]
+[cueSe Battle bac139]
+[fowardEffect bit_talk_x_slash03 0,0 H]
+[wt 0.2]
+[charaShake I 0.03 4 4 0.5]
+[wt 0.8]
+
+[se ad42]
+[charaSpecialEffect I enemyErasure 1 1.5]
+[wait charaSpecialEffect I]
+[seStop ad42 0.5]
+[wt 1.0]
+
+[charaSet C 1098268950 1 樱]
+
+[charaDepth E 1]
+[charaDepth C 2]
+[charaDepth M 3]
+[charaDepth N 4]
+[charaDepth F 5]
+[charaDepth D 6]
+
+[charaScale D 1.2]
+[charaTalk D]
+[charaFace D 8]
+[charaFadein N 1.0 120,-250]
+[charaFadein D 1.0 0,20]
+[charaMove N 120,-300 15.0]
+[charaMove D 0,-55 15.0]
+[wt 1.0]
+[charaFadeout M 0.1]
+[wt 2.0]
+
+[charaFadeout N 0.8]
+[charaFadeout D 0.8]
+[wt 1.0]
+[charaSet D 1098268950 1 樱2]
+[charaDepth D 6]
+[sceneSet N 190300 1]
+[charaDepth N 4]
+[charaScale N 1.3]
+
+[charaTalk off]
+[charaFace C 8]
+[charaFadein C 0.4 -180,0]
+[charaMove C -130,-50 0.5]
+[wt 0.2]
+
+[se ad478]
+[charaFace E 17]
+[charaFadein E 0.4 200,0]
+[charaMove E 130,-30 0.3]
+[wt 0.3]
+[se ad183]
+[charaShake C 0.03 3 2 0.3]
+
+[charaTalk on]
+[charaTalk E]
+
+＠Saber
+樱……！
+[k]
+
+
+[charaTalk C]
+[charaFace C 7]
+
+＠樱
+……对不，起。[r]不过，这，不要紧……
+[k]
+
+[charaTalk E]
+[charaFace E 16]
+
+＠Saber
+怎么可能不要紧……！
+[k]
+
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠Caster
+最后一击就交给我吧。
+[k]
+
+＠Caster
+我要挖出你那双坏眼睛。[r]挖出你那看见了不该看见之物的眼睛。
+[k]
+
+[charaFace B 6]
+
+＠Caster
+然后，呵呵呵，美丽的新娘，[r]发出悔恨的悲鸣吧[line 3]
+[k]
+
+[messageOff]
+[cameraMove 1.5 0,-10 1.05]
+[charaTalk off]
+[charaScale D 1.2]
+[charaScale F 1.2]
+[charaFace D 5]
+[charaFace F 2]
+[charaFadein N 1.5 120,-300]
+[charaFadein D 1.5 -155,-20]
+[charaFadein F 1.5 155,0]
+[wt 2.5]
+[bgmStop BGM_BATTLE_107 1.0]
+[wt 1.0]
+
+？1：到此为止！
+？！
+
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]
+

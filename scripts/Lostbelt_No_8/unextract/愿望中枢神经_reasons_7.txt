@@ -1,0 +1,880 @@
+
+＄04-00-02-04-7-1
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 7046001 1 难敌]
+[charaSet B 1098270200 1 迦摩]
+[charaSet C 1098270000 1 希翁]
+[charaSet D 1098270300 1 阿愈丝]
+
+[masterBranch _Male _Female]
+[label _Male]
+
+[charaSet E 1098259400 1 主人公_第二部立绘_新表情（男）]
+[branch _branchEnd]
+[label _Female]
+[charaSet E 1098259410 1 主人公_第二部立绘_新表情（女）]
+[branch _branchEnd]
+[label _branchEnd]
+[charaSet F 1098269600 1 Caster]
+[charaSet G 1098269800 1 ？？？]
+[charaSet H 1098270900 1 拉妮－Ｒ]
+[charaSet I 98015000 1 通用从者]
+
+[sceneSet L 191204 1]
+[sceneSet M 189300 1]
+[charaScale M 1.2]
+
+[imageSet Q back10001 1 1]
+[charaScale Q 1.3]
+[imageSet R back10000 1 1]
+[charaScale R 1.3]
+
+[charaSet S 98115000 1 特效用dummy]
+
+
+[scene 189300]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+
+[fadein black 1.0]
+[wait fade]
+
+[se ad42]
+[charaSpecialEffect I enemyErasure 0,0 1.0]
+[wait charaSpecialEffect I]
+[seStop ad42 0.8]
+[wt 1.0]
+
+
+[bgm BGM_EVENT_70 0.1]
+
+
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠迦摩
+……[r]……
+[k]
+
+＠迦摩
+刚才那是什么？
+[k]
+
+？1：虽然被黑雾遮挡着看不太清。
+？2：但对方的攻击好像挺眼熟的……
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠难敌
+是吗？　被秒杀得太快了，[r]完全看不清楚呢，嘎哈哈！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠希翁
+我想详细调查一下残渣。[r]阿愈丝小姐，可以麻烦你帮忙吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+＠阿愈丝
+当然可以啦。[r]唔～，是这附近吗……还是这边呢……
+[k]
+
+[messageOff]
+[se ad95]
+[charaMove D -50,0 0.4]
+[charaFadeout D 0.4]
+[seStop ad95 1.2]
+[wt 1.4]
+
+[bgmStop BGM_EVENT_70 1.5]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth D 2]
+[charaDepth M 3]
+[charaDepth B 4]
+
+[charaFadein M 0.8 -70,-225]
+[charaMove M -120,-225 0.8]
+[wt 1.0]
+
+[se ade422]
+[charaScale B 1.1]
+[charaFace B 4]
+[charaFadein B 0.4 50,10]
+[charaMove B 0,10 0.4]
+[wt 0.4]
+[seStop ade422 0.2]
+[wt 0.4]
+
+[charaTalk on]
+＠迦摩
+御主，方便说几句吗？[r]我想趁现在聊点悄悄话。
+[k]
+
+[bgm BGM_EVENT_5 0.1]
+
+＠迦摩
+之前我也说过了……[r]那女人，真的是希翁·艾尔特纳姆吗？
+[k]
+
+＠迦摩
+她未免太冷静了吧。
+[k]
+
+＠迦摩
+这会儿她说不定其实也早就了然于胸，[r]只是在那做做样子假装调查而已。
+[k]
+
+？1：唔…………
+？！
+
+[charaFace B 0]
+
+＠迦摩
+外形发生变化是其一。[r]再加上连内在也不一样了吧。
+[k]
+
+[charaFace B 8]
+
+＠迦摩
+虽然我跟那个女人倒也不是特别熟络，[r]但还是多次在管制室见过她。
+[k]
+
+[charaFace B 0]
+
+＠迦摩
+充实感爆棚到令人恼火的工作态度，[r]无论什么事态都会轻松地摆出一副仿佛置身事外的表情，
+[k]
+
+＠迦摩
+却又冷静地在自己与迦勒底的各位之间[r]筑起一堵微妙的墙，
+[k]
+
+＠迦摩
+不知道脑子里在想些什么的炼金术师。
+[k]
+
+[charaFace B 8]
+
+＠迦摩
+虽说我个人总觉得她背后还隐藏着某种[r]会令人坐立不安的气息……
+[k]
+
+[charaFace B 24]
+
+＠迦摩
+但至少，她给人的感觉不该是那种[r]一本正经的古板研究者吧。
+[k]
+
+＠迦摩
+到目前为止，那家伙可曾有大声笑过一次？
+[k]
+
+？1：虽然平常的希翁也很一本正经。
+？2：但她应该更像和蔼可亲的班长那类人吧。
+？！
+
+[charaFace B 0]
+＠迦摩
+对。所以说[line 3]
+[k]
+
+＠迦摩
+那家伙极有可能是[r][#假冒希翁]·[#艾尔特纳姆之名的某人]吧？
+[k]
+
+＠迦摩
+我觉得应该对她再多留几个心眼哦。
+[k]
+
+？1：唔唔…………
+？！
+
+[bgmStop BGM_EVENT_5 1.5]
+[messageOff]
+[charaFadeout M 0.8]
+[charaFadeout B 0.8]
+[wt 1.0]
+
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠希翁
+你们在聊什么？
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaScale B 1.0]
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 1]
+[wt 1.0]
+
+[bgm BGM_EVENT_77 0.1]
+[charaFace B 3]
+＠迦摩
+不，没什么。
+[k]
+
+＠迦摩
+我是在打听御主喜欢怎样的[#堕落:爱]。
+[k]
+
+＠迦摩
+毕竟特殊欲望这东西有时候会在某天突然觉醒吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠希翁
+真是无聊的对话。[r]都在我计算之中。
+[k]
+
+？1：话说……你们就不能更和睦一些吗？
+？2：至少在相处时，能否更随意一些？
+？！
+
+[charaFace C 6]
+＠希翁
+意思是……要我把你们当朋友一样对待吗？
+[k]
+
+？1：应该是这意思吧。
+？！
+
+[messageOff]
+[charaFace C 10]
+[wt 1.0]
+
+[charaFace C 6]
+＠希翁
+应该不可能。
+[k]
+
+＠希翁
+我当不了你们的朋友。[r]因为我[#没有这个资格]。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠迦摩
+……？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+＠希翁
+比起这些，还是讨论些更有建设性的话题吧。
+[k]
+
+[charaFace C 7]
+＠希翁
+很遗憾，从刚才的影子残渣中，[r]没能找到什么线索。
+[k]
+
+＠希翁
+唯一值得庆幸的是，它们应该是含有拉妮物质的[r]信息结构体，可以充当一定程度的补给。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠迦摩
+含有拉妮物质的信息结构体？　那不就是[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+＠希翁
+是啊。用这个世界中的存在举例的话。[r]……与从者，很相似。
+[k]
+
+＠希翁
+然而那并不是从者。
+[k]
+
+[charaFace C 8]
+＠希翁
+谜团太多了。[r]还需要不断调查呢。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠迦摩
+哼嗯，那就交给你啦。
+[k]
+
+＠迦摩
+毕竟你看起来懂的要比我多。[r]各方面都是，对吧……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+＠希翁
+……[r]……
+[k]
+
+？1：看，看来这边的工作都结束了。
+？2：要不先回去一趟吧？
+？！
+
+[charaSet D 1098270310 1 阿愈丝]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+＠阿愈丝
+是啊。毕竟不只是这种外派形式，[r]像[#Rider:骑兵]的御主带来的孩子那样，
+[k]
+
+＠阿愈丝
+还有些会带着损伤修复任务来我们大本营的孩子。
+[k]
+
+[charaFace D 0]
+＠阿愈丝
+不过现在还是尽可能不要浪费时间，[r]先联系大本营问问吧？
+[k]
+
+＠阿愈丝
+这是吸取了先前的教训，经过强化的同型号间通讯哦。[wt 1.0][charaCrossFade D 1098270350 5 0.3][se ad15][r]频道开启[line 3]喂喂？[wait charaCrossFade D]
+[k]
+
+[messageOff]
+[charaFace D 0]
+[wt 1.5]
+
+[charaFace D 1]
+[wt 1.5]
+
+[bgmStop BGM_EVENT_77 1.5]
+[charaFace D 3]
+[wt 1.5]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠难敌
+怎么了？[r]总不至于又受到袭击了吧。
+[k]
+
+[charaSet D 1098270300 1 阿愈丝]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_57 0.1]
+
+[charaTalk D]
+[charaFace D 3]
+[charaFadein D 0.1 1]
+＠阿愈丝
+没……没有。不是的。
+[k]
+
+＠阿愈丝
+大本营那边，不要紧。说是什么事都没有，[r]也没有受损的ＡＩ来过。
+[k]
+
+[charaFace D 4]
+＠阿愈丝
+……但是说，接下来说不定会来，[r][#来很多]。
+[k]
+
+＠阿愈丝
+应该说，是经由[#转运部:Transfer]那些孩子的情报转达，[r]发来了正式的支援请求。
+[k]
+
+＠阿愈丝
+说是[line 3]『[#生产部出现大量受损ＡＩ]』。
+[k]
+
+＠阿愈丝
+『我们很清楚目前正在圣杯战争期间，[r]　但如果可能，还望提供人道主义援助』。
+[k]
+
+？1：[#生产部:Grow]就是……
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+＠迦摩
+[#Saber:剑士]所在的场所吗？[r]是我们尚未接触的对象呢。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠希翁
+从地点来看……
+[k]
+
+
+[messageOff]
+[charaTalk off]
+[charaDepth L 6]
+[charaDepth C 5]
+[wt 0.15]
+
+[se ad1]
+[charaFadein L 0.6 0,-200]
+[wt 0.8]
+[charaFadeout C 0.1]
+[wt 1.0]
+
+＠希翁
+我们中间夹着中央的[#警防部:Defend]区域，[r]可以说是最远的区域。
+[k]
+
+＠希翁
+至少对我们而言，[r]不是会立刻构成威胁的场所……
+[k]
+
+
+＠难敌
+……[r]……
+[k]
+
+[bgm BGM_MAP_57 0.5 0.5]
+
+＠难敌
+（[#生产部:Grow]的隔壁……就是[#维持部:Keep]。是[#Lancer:枪兵]的地方。）
+[k]
+
+＠难敌
+（[line 3][#是那家伙吗]？）
+[k]
+
+＠难敌
+（有可能，确实有可能。毕竟[#生产部:Grow]的素材[r]　应该是[#维持部:Keep]烹饪食物的必需品。）
+[k]
+
+＠难敌
+（没错，怎么想都是那家伙。[r]　那家伙终于开始行动了！）
+[k]
+
+
+[messageOff]
+[charaFadeout L 0.8]
+[wt 1.1]
+
+[charaTalk on]
+[charaTalk depthOff]
+[charaDepth R 4]
+[charaDepth A 5]
+
+[charaPut R 1]
+[charaFadeTime R 0.2 0.5]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+＠难敌
+（不过慢着，现在应该好好思考。[r]　这反而[line 3]是个好机会吧？）
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaFadeout R 0.1]
+
+[charaTalk off]
+[charaDepth B 5]
+[charaDepth E 4]
+
+[charaFace B 0]
+[charaFace E 0]
+[charaFadeinFSR E 0.1 256,-50]
+[charaFadeinFSL B 0.1 -256,-50]
+
+[pictureFrame cut063_cinema]
+[wt 0.6]
+
+[wipein rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+[wt 1.6]
+
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+
+[pictureFrame]
+
+[charaTalk on]
+[charaPut R 1]
+[charaFadeTime R 0.1 0.5]
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+[wt 0.6]
+
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+＠难敌
+（本老爷，和[#Assassin:暗匿者]这群滥好人。[r]　正好刚完成了补给。）
+[k]
+
+＠难敌
+（而根据本老爷的推测，[r]　ＡＩ们会请求修理也就意味着[line 3]）
+[k]
+
+[charaFace A 0]
+＠难敌
+（至少[#她们还有这么做的余力]。[r]　也就是说[#Saber:剑士]还没有输。）
+[k]
+
+[charaFace A 11]
+＠难敌
+（不，说不定现在正在战斗。[r]　如此一来，就有机会形成３对１的局面……）
+[k]
+
+[charaFace A 10]
+＠难敌
+（现在，也许赢得了。[r]　不，说不定，只有现在[line 3]）
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout R 0.2]
+[wt 0.1]
+
+[bgmStop BGM_MAP_57 1.5]
+
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+＠阿愈丝
+怎么了，[#Berserker:狂战士]？[r]表情那么复杂……
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+[wt 1.0]
+
+[charaFace A 7]
+[wt 1.0]
+
+[bgm BGM_KYOSU_1 0.1]
+
+[charaFace A 10]
+＠难敌
+表情复杂？　当然啦，这是必然的吧！
+[k]
+
+＠难敌
+有人正在寻求帮助。
+[k]
+
+[charaFace A 5]
+＠难敌
+那么！　做出回应不正是所谓富足者的义务吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+＠阿愈丝
+等，等一下，你这是怎么了！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠难敌
+没怎么。只是基于本老爷的原则，[r]不能无视这一请求而已！
+[k]
+
+[charaFace A 10]
+＠难敌
+目前的事态分秒必争吧？[r]从位置来看，返回大本营只会绕远路。
+[k]
+
+＠难敌
+就这样直接赶往[#生产部:Grow]吧，抓紧时间！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 1]
+＠迦摩
+这家伙肯定在打什么算盘。
+[k]
+
+[charaFace B 3]
+＠迦摩
+要不然你们自己采取这种行动，[r]而我们则按自己的步调稳扎稳打巩固好地盘？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+＠难敌
+呃。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+＠迦摩
+『呃』？
+[k]
+
+[messageOff]
+
+[wt 1.0]
+
+[messageOff]
+[bgm BGM_KYOSU_1 0.5 0.3]
+[se ad437]
+[fadeout white 0.1]
+[wait fade]
+
+[charaFadeout B 0]
+
+
+[scene 189401]
+
+[pictureFrame cut063_cinema]
+
+[cameraFilter gray]
+
+[charaTalk off]
+[charaDepth F 3]
+[charaDepth G 2]
+[charaDepth Q 9]
+
+[charaFace F 10]
+[charaFace G 1]
+[charaFadein F 0 175,-50]
+[charaFadein G 0 -175,-50]
+
+[fadein white 0.1]
+[wait fade]
+[wt 1.2]
+
+[se ad437]
+[charaFadein Q 0.1 0,-200]
+[wt 0.1]
+
+[charaFace H 14]
+[charaFadein H 0 20,-50]
+[charaFadeout F 0]
+[charaFadeout G 0]
+[charaFadeout Q 0.1]
+[wt 0.7]
+
+
+[se ad59]
+[charaMove H 120,-50 0.4]
+[charaFadeout H 0.4]
+[seStop ad59 1.0]
+[wt 1.0]
+
+[charaFace F 0]
+[charaFadein F 0.1 0,-50]
+[wt 0.6]
+
+[charaFadeout F 0.1]
+[wt 0.2]
+
+[cueSe Battle bac134]
+[cueSe Servants_2500900 m45605]
+[effect bit_talk_x_slash_bk_01]
+[wt 0.65]
+
+[se ad464]
+[effect bit_talk_blood_splash_fs]
+[wt 1.8]
+
+[bgm BGM_KYOSU_1 0.5 1.0]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[wt 0.1]
+[effectDestroy bit_talk_blood_splash_fs]
+
+[scene 189300]
+
+[pictureFrame]
+
+[cameraFilter normal]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0 1]
+[wt 0.8]
+
+？1：（虽然不知道是不是[#Caster:魔术师]，）
+？2：（但那一幕有可能，再度上演。）
+？！
+
+[messageOff]
+[wt 0.2]
+
+？1：[line 3]既然有人寻求帮助。
+
+[charaFace B 8]
+＠迦摩
+就不能熟视无睹，对吧。
+[k]
+
+[charaFace B 7]
+＠迦摩
+唉。好吧，我就知道会这样。
+[k]
+
+？2：我就不想无视。
+
+[charaFace B 7]
+＠迦摩
+唉。好吧，我就知道会这样。
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+＠希翁
+都在我计算之中。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 1]
+＠难敌
+呼。很，很好，不愧是与本老爷联手之人。[r]这份志气值得称赞！
+[k]
+
+[charaFace A 3]
+＠难敌
+本老爷会全力夸奖你的。[r]唔嗯，了不起！
+[k]
+
+？1：（感觉这个人在各方面都挺容易看透，）
+？2：（但不知为何，总让人恨不起来呢……）
+？！
+
+[charaFace A 10]
+＠难敌
+好了。既然决定了，那就出发吧。[r]这是关键时刻，切勿大意哦。
+[k]
+
+＠难敌
+我们……要赢。[r]必须得赢……！
+[k]
+
+
+
+
+[messageOff]
+[wt 1.0]
+[fadeout black 2.0]
+[bgmStopEnd BGM_KYOSU_1 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAllEnd]
+[end]

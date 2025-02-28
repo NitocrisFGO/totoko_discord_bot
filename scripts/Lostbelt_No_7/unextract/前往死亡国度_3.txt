@@ -1,0 +1,1502 @@
+
+
+＄03-00-13-01-3-0
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 8001400 1 玛修]
+[charaSet B 1098239320 1 卡多克]
+[charaSet C 1098257400 1 希翁]
+[charaSet D 1098255100 1 戈尔德鲁夫]
+[charaSet E 1098158330 1 尼莫]
+[sceneSet F 171300 1]
+[charaSet G 1098257310 1 达·芬奇]
+[charaSet H 98115000 1 特效用]
+[sceneSet I 171301 1]
+[sceneSet J 179406 1]
+[charaSet K 1098255200 1 哈贝特洛特]
+[charaSet L 1098123000 1 穆尼尔]
+[charaSet M 1098254800 1 尼莫水兵]
+[imageSet N back10000 1 1]
+[charaScale N 1.3]
+[sceneSet P 122608 1]
+[charaScale P 1.01]
+[charaSet Q 1098182110 1 尼莫教授]
+[charaSet R 1098182200 1 尼莫引擎]
+[sceneSet S 179404 1]
+[sceneSet T 179410 1]
+[sceneSet U 158000 1]
+[sceneSet V 179402 1]
+[sceneSet W 179407 1]
+[sceneSet X 171400 1]
+[charaSet Y 1098255300 1 尼托克丽丝]
+[sceneSet Z 168500 1]
+[charaScale Z 1.2]
+
+[scene 122608]
+[subCameraOn 3]
+
+[charaLayer J sub #A]
+[charaLayer S sub #A]
+[charaLayer T sub #A]
+
+[subCameraFilter #A mask cut359_mask08 3]
+
+[charaTalk depthOff]
+[charaDepth P 0]
+[charaDepth Z 4]
+[charaDepth A 3]
+[charaDepth H 2]
+[charaFadein P 0.1 0,-200]
+
+[charaDepth J 3]
+[charaDepth S 2]
+[charaDepth T 1]
+
+[charaScale J 1.05]
+[charaScale S 1.05]
+[charaScale T 1.05]
+
+[charaFadein J 0.1 0,-25]
+[charaFadein S 0.1 0,-25]
+[charaFadein T 0.1 0,-25]
+
+[subRenderFadein #A 0.1 0,-270]
+
+[fadein black 1.0]
+[bgm BGM_BATTLE_168 0.1]
+[wait fade]
+
+
+
+＠U－奥尔加玛丽
+哈，哈哈哈哈哈哈哈！
+[k]
+
+＠U－奥尔加玛丽
+虽说毫发无伤，[r]但这种从外部受到挤压的感觉很棒呢！
+[k]
+
+[messageOff]
+[charaFadeout J 0.4]
+[wt 0.5]
+
+＠U－奥尔加玛丽
+挺能干的嘛，是所谓的[#技术:技能]吗？[r]也不枉我配合你们学习了一番！
+[k]
+
+[messageOff]
+[charaFadeout S 0.4]
+[wt 0.5]
+
+＠U－奥尔加玛丽
+那你们翘首以盼的大招要来了，小心接招吧。[r]接下我的重力圈，『切勿大意』！
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.3]
+[wt 0.5]
+
+[se ade358]
+[effect bit_talk_31 0,250]
+[fadeout white 0.5]
+[wait fade]
+
+[se ad241]
+[cueSe SE_22 22_ad1194]
+[seVolume 22_ad1194 0 0.3]
+[effectStop bit_talk_31]
+[shake 0.05 3 3 0]
+[charaPut H 1]
+[charaEffect H bit_talk_blackhole]
+
+[fadein white 0.5]
+[wait fade]
+
+
+[wt 3.5]
+
+[charaTalk A]
+[charaFace A 2]
+[overlayFadein A 0.2 1]
+
+＠玛修
+休想得逞！[r]这种规模的话，单凭我一人应该也能挡下来……！
+[k]
+
+
+[messageOff]
+[se ad39]
+[fowardEffect bit_talk_36]
+[wt 2.5]
+[fowardEffectStop bit_talk_36]
+[cueSe NoblePhantasm_800100 NP_800100_24]
+[wt 0.3]
+[fowardEffect bit_talk_shield_mash]
+[se ad718]
+[se ad556]
+[se ad14]
+[wt 1.0]
+
+＠玛修
+白垩之盾啊，仅让无罪者通过吧……！[r]『[#已然脆弱的梦想之城:Mold Camelot]』……！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[fowardEffectDestroy bit_talk_shield_mash]
+[se ad85]
+[seStop 22_ad1194 2.0]
+[seStop ad718 0.5]
+[seStop ad556 0.5]
+[seStop ad14 0.5]
+[cueSeStop NP_800100_24 0.5]
+[fowardEffect bit_talk_gram_slash_03_fs]
+[wt 0.2]
+
+[flashin once 0.1 0.2 FFFFFF80 FFFFFF00]
+[wt 0.1]
+
+[se ad897]
+[se ad32]
+[fowardEffect bit_talk_14]
+[seStop ad241 0.5]
+[se ad246]
+[charaEffectStop H bit_talk_blackhole]
+[wt 1.0]
+[seStop ad246 2.0]
+
+[charaSet A 8001400 1 玛修]
+[charaDepth A 3]
+[wt 0.1]
+[shakeStop]
+[wt 1.0]
+
+[charaFadein Z 1.0 0,-250]
+[charaMove Z 0,-310 1.0]
+[wt 1.2]
+
+＠U－奥尔加玛丽
+什么，竟然像球一样弹回来了！？[r]这是……网球！　是网球吧，我在记录里见过！
+[k]
+
+[fowardEffectDestroy bit_talk_14]
+＠U－奥尔加玛丽
+你这家伙原来是网球英灵吗[line 4]！
+[k]
+
+[messageOff]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0 1]
+
+[charaFadeout Z 0.5]
+[wt 0.7]
+
+＠玛修
+虽然不是，但我一直很向往温网赛事！[r]管制室，就是现在！
+[k]
+
+[messageOff]
+[wipeout rectangleStripDownToUp 0.5 1]
+[bgm BGM_BATTLE_168 0.5 0.5]
+[wait wipe]
+
+[charaPut H 1200,1200]
+[charaEffect H bit_talk_10_LowLevel]
+
+[charaFadeout J 0.1]
+[charaFadeout S 0.1]
+[charaFadeout T 0.1]
+[charaLayer J normal]
+[charaLayer S normal]
+[charaLayer T normal]
+
+[charaFadeout P 0.1]
+[charaFadeout A 0.1]
+[sceneSet P 132900 1]
+
+[wt 0.5]
+[scene 132900]
+
+[wipein rectangleStripUpToDown 0.5 1]
+[bgm BGM_BATTLE_168 0.5 1.0]
+[wait wipe]
+
+[charaTalk M]
+[charaFace M 3]
+[charaFadein M 0.1 1]
+
+＠尼莫水兵
+『异星之神』吃下[#自己:玛修]的攻击后移动了！[r]目前位于舰首前端！
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+
+＠尼莫
+推进器，反向喷射！　全速后退！[r]同时展开主炮！　达·芬奇！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk G]
+[charaFace G 14]
+[charaFadein G 0.1 1]
+
+＠达·芬奇
+交给我吧，发射工序基本上都结束了！
+[k]
+
+＠达·芬奇
+这都多亏了[%1]帮我们争取时间！
+[k]
+
+[charaFace G 17]
+
+＠达·芬奇
+Storm Border，拔刀形态变形完毕！[r]抗威胁反应阀，开启！　开始魔力循环！
+[k]
+
+[messageOff]
+[bgmStop BGM_BATTLE_168 1.0]
+[fadeout black 1.0]
+[wait fade]
+
+[sceneSet J 171000 1]
+[charaScale J 1.0]
+
+[charaFadeout G 0.1]
+[charaPut H 2000,2000]
+[charaEffectStop H bit_talk_10_LowLevel]
+
+[scene 10000]
+[wt 0.5]
+
+[charaLayer U sub #B]
+[charaLayer R sub #B]
+[charaLayer P sub #C]
+[charaLayer Q sub #C]
+[charaLayer G sub #C]
+[charaLayer H sub #C]
+[charaLayer E sub #C]
+
+[fadein black 1.0]
+[wait fade]
+[criMovie talk_mov149 bgmPlay false]
+[wt 5.5]
+[bgm BGM_BATTLE_174 1.0]
+[wt 20.5]
+[overlayFadein J 1.0 0,-200]
+
+
+
+
+[charaScale U 1.5]
+[charaEffect H bit_talk_10_LowLevel_depth]
+
+[charaTalk depthOff]
+[charaDepth U 1]
+[charaDepth R 2]
+[charaFadein U 0.1 -200,-50]
+[charaTalk R]
+
+[charaFace R 2]
+[charaFadein R 0.1 -510,300]
+
+[subCameraFilter #B mask cut359_mask12 3]
+[subCameraFilter #C mask cut359_mask11 3]
+[subRenderFadeinFSSideL #B 0.3 95,200]
+[subRenderMoveFSSideL #B 95,-200 0.3]
+[wt 0.6]
+
+＠尼莫引擎
+特里同引擎虚拟五号、六号，正常运转！[r]源自虚数空间的电力供给，维持在最大值！
+[k]
+
+[charaFace R 1]
+
+＠尼莫引擎
+可以上了，船长，[r]趁数值暴跌前轰她一炮吧～！
+[k]
+
+[messageOff]
+[charaScale P 1.5]
+[charaDepth P 1]
+[charaDepth Q 2]
+[charaDepth G 3]
+[charaDepth E 4]
+[charaDepth H 5]
+
+[subRenderMoveFSSideL #B -105,-400 0.6]
+[subRenderFadeout #B 0.3]
+[wt 0.3]
+[charaFadeout R 0.1]
+[charaFadeout U 0.1]
+[wt 0.2]
+
+？1：好厉害！　可是……
+？2：这是怎么一回事啊！？
+
+？！
+
+[charaTalk Q]
+[charaFadein P 0.1 200,50]
+[charaFace Q 5]
+[charaPut H 520,260]
+[charaFadein Q 0.1 520,260]
+[subRenderFadeinFSSideR #C 0.3 -95,200]
+[subRenderMoveFSSideR #C -95,-200 0.3]
+[wt 0.5]
+
+＠尼莫教授
+呃～，这个嘛～，[r]该说是[#黑色炮身:Black Barrel]的运用吗～。
+[k]
+
+＠尼莫教授
+[#黑色炮身:Black Barrel]能测量对手的『寿命』，[r]将其寿命逆转换成能量，制成炮弹。
+[k]
+
+＠尼莫教授
+另一方面，圣剑兵装则是测量『对人类史的威胁』，[r]并根据其等级而变化的地球防卫力……
+[k]
+
+＠尼莫教授
+就是那个啦，自净作用。也可以叫做白细胞吧。[r]通过这种方式从地球内核获得能量供给。
+[k]
+
+[charaFaceFade Q 1 0.2]
+
+＠尼莫教授
+无论哪种都不是从我们这边，而是从『更庞大的存在』[r]身上吸取攻击力与使用热量的武器～。
+[k]
+
+[charaFadeout Q 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 17]
+[charaFadein G 0.1 510,250]
+
+＠达·芬奇
+没错。所以Storm Border自身[r]消耗的魔力算不上很多。
+[k]
+
+＠达·芬奇
+不会对继续飞行造成任何阻碍。[r]接下来嘛[line 3]船长！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut H 2000,2000]
+[charaEffectStop H bit_talk_10_LowLevel_depth]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 540,280]
+
+＠尼莫
+炮击手，瞄准目标！[r]一定要命中！　这样的机会失不再来！
+[k]
+
+[messageOff]
+[subRenderMoveFSSideR #C 105,-400 0.6]
+[subRenderFadeout #C 0.3]
+[wt 0.5]
+
+＠尼莫水兵
+放心吧，人类尺寸的目标虽然确实太小了，[r]但主炮的辐射范围可是很～～～广的哦！
+[k]
+
+＠尼莫水兵
+误差角度修正，确认源自示巴的命中保险解除！
+[k]
+
+＠尼莫水兵
+主炮弹舱，换装为Hume Barrel！[r][line 3]Ray Proof，发射[line 4]！
+[k]
+
+[messageOff]
+[bgmStop BGM_BATTLE_174 1.0]
+[scene 10000]
+[criMovie talk_mov150 bgmPlay false]
+[wt 1.0]
+[charaFadeout J 1.0]
+[wt 26.0]
+[bgm BGM_BATTLE_139 0.1]
+[wt 10.0]
+
+[fadeout black 1.0]
+[bgm BGM_BATTLE_139 1.0 0.4]
+[wait fade]
+
+[charaFadeout J 0.1]
+[charaEffect H bit_talk_10_LowLevel]
+[charaFadeout E 0.1]
+[charaFadeout P 0.1]
+[charaLayer P normal]
+[charaLayer U normal]
+[charaLayer R normal]
+[charaLayer Q normal]
+[charaLayer G normal]
+[charaLayer E normal]
+[charaLayer H normal]
+[scene 132900]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_BATTLE_139 1.0 1.0]
+[wait fade]
+
+
+[charaTalk M]
+[charaFace M 6]
+[charaFadein M 0.1 1]
+
+＠尼莫水兵
+敌人『异星之神』，依然健在～！[r]而且力量反而提升啦～！
+[k]
+
+＠尼莫水兵
+主炮的冲击都被她转换成能量吸收掉了[line 3]！
+[k]
+
+[charaFadeout M 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠尼莫
+[line 3]哈？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk G]
+[charaFace G 12]
+[charaFadein G 0.1 1]
+＠达·芬奇
+为什么！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk Q]
+[charaFace Q 6]
+[charaFadein Q 0.1 1]
+
+＠尼莫教授
+没错，她作弊～。[r]难道说那对角有那种能力吗～。
+[k]
+
+[charaFadeout Q 0.1]
+[wt 0.1]
+[charaPut H 2000,2000]
+
+[charaTalk C]
+[charaFace C 9]
+[charaFadein C 0.1 1]
+
+＠希翁
+……不。[r]Ray Proof已经连这种能力都考虑在内了……
+[k]
+
+[charaTalk depthOff]
+[charaDepth N 4]
+[charaDepth C 6]
+
+[charaPut N 1]
+[charaFadeTime N 0.2 0.5]
+＠希翁
+（……临发射前，主炮的输出大幅低于[r]　预计数值呢……这代表……）
+[k]
+
+[charaFadeout C 0.1]
+[charaFadeout N 0.2]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+哎哎，现在是发呆的时候吗，快看她的表情！
+[k]
+
+[messageOff]
+[wipeout rectangleStripUpToDown 0.5 1]
+[bgm BGM_BATTLE_139 0.5 0.5]
+[wait wipe]
+
+[charaLayer V sub #A]
+[charaLayer W sub #A]
+[charaScale V 1.05]
+[charaScale W 1.05]
+[charaDepth V 2]
+[charaDepth W 1]
+
+[charaFadein V 0.1 0,-25]
+[charaFadein W 0.1 0,-25]
+
+[subRenderFadein #A 0.1 0,-270]
+[charaFadeout D 0.1]
+[scene 122608]
+
+[wt 0.5]
+
+[wipein rectangleStripDownToUp 0.5 1]
+[bgm BGM_BATTLE_139 0.5 1.0]
+[wait wipe]
+[wt 0.5]
+[charaFadeout V 0.3]
+[wt 1.2]
+
+[wipeout rectangleStripDownToUp 0.5 1]
+[bgm BGM_BATTLE_139 0.5 0.5]
+[wait wipe]
+
+[charaFadeout W 0.1]
+[charaLayer W normal]
+[charaLayer V normal]
+[subRenderFadeout #A 0.1]
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+[wt 0.5]
+[scene 132900]
+
+[wipein rectangleStripUpToDown 0.5 1]
+[bgm BGM_BATTLE_139 0.5 1.0]
+[wait wipe]
+
+＠戈尔德鲁夫
+虽然我不知道那家伙是怎么扛下来的，[r]但我能看出她的表情写满了无法接受！
+[k]
+
+＠戈尔德鲁夫
+她要认真地[#冲着我们撒气了]！[r]用那摧毁了彷徨海的重力圈！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk G]
+[charaFace G 14]
+[charaFadein G 0.1 1]
+
+＠达·芬奇
+！　第二发，抓紧时间！
+[k]
+
+＠达·芬奇
+这次变更设置！[r]将光子反应弹改为装甲炼金弹的话[line 2]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut H 2000,2000]
+[charaEffectStop H bit_talk_10_LowLevel]
+
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.3]
+
+[bgmStop BGM_BATTLE_139 2.0]
+＠尼莫水兵A
+慢着慢着，地表确认异常～～！[r]是大规模的地壳塌陷[line 3]！
+[k]
+
+[charaEffect H bit_talk_10_LowLevel_depth]
+
+＠尼莫水兵B
+大陆地底确认巨大空洞！[r]好夸张，这有多少公里啊！？
+[k]
+
+[se ad935]
+[seVolume ad935 0 0]
+＠尼莫水兵C
+有超超高温度热源从地下空洞接近！[r]呜哇，就在本舰正下方啦～～～！（泪）
+[k]
+
+[messageOff]
+
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth G 1]
+[charaDepth H 2]
+[charaDepth C 4]
+[charaDepth L 3]
+[charaDepth D 5]
+
+[charaFace G 14]
+[charaFace C 9]
+[charaFace D 5]
+[charaFace L 8]
+[charaPutFSR H 115,0]
+[charaFadeinFSR G 0.1 115,0]
+[charaFadeinFSSideL C 0.1 -350,0]
+[charaFadeinFSSideR D 0.1 350,0]
+[charaFadeinFSL L 0.1 -120,0]
+[wt 2.0]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout G 0.1]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaDepth Q 1]
+[charaDepth Y 2]
+[charaDepth B 3]
+[charaDepth E 4]
+
+[charaFace E 8]
+[charaFace B 3]
+[charaFace Y 5]
+[charaFace Q 2]
+[charaPutFSR H 120,0]
+[charaFadeinFSL E 0.1 -80,0]
+[charaFadeinFSSideL Y 0.1 -350,0]
+[charaFadeinFSSideR B 0.1 350,0]
+[charaFadeinFSR Q 0.1 120,0]
+[wt 2.0]
+
+[se ad791]
+[cueSe SE_22 22_ad1195]
+[cueSeVolume 22_ad1195 0 0]
+[cueSeVolume 22_ad1195 1.0 1.0]
+[fadeout white 2.0]
+[wait fade]
+
+[charaPut H 2000,2000]
+[charaEffectStop H bit_talk_10_LowLevel_depth]
+[charaScale F 1.4]
+[charaFadein F 0.1 -200,-135]
+[charaFadeout E 0.1]
+[charaFadeout B 0.1]
+[charaFadeout Y 0.1]
+[charaFadeout Q 0.1]
+
+[charaTalk depthOn]
+[scene 171300]
+[wt 1.0]
+
+[seVolume ade393 1.0 1.0]
+[seVolume ad935 1.0 0.5]
+
+[fadein white 1.0]
+[charaShake F 0.05 2 2 4.4]
+[charaMove F -260,-420 5.4]
+[wait fade]
+
+[charaEffect H bit_talk_10_LowLevel]
+[wt 3.0]
+
+[cueSeVolume 22_ad1195 1.4 0.3]
+[seVolume ade393 1.4 0.3]
+[seVolume ad935 1.4 0.1]
+[bgm BGM_BATTLE_78 0.1]
+
+[shake 0.04 1 1 0]
+[charaFadeout F 1.4]
+[wt 2.4]
+
+
+
+＠戈尔德鲁夫
+那是什么玩意！？[r]是『异星之神』新的攻击吗！？
+[k]
+
+＠希翁
+不对，那是别的东西！[r]人理奠基值显示为负数！
+[k]
+
+＠希翁
+那是来自异闻带之物！
+[k]
+
+＠希翁
+内部气压2000亿，温度1600万度，[r]密度是水的160倍[line 3]怎么看都是太阳！
+[k]
+
+[messageOff]
+[fadeout black 0.7]
+[cueSeVolume 22_ad1195 0.7 0.1]
+[seVolume ade393 0.7 0.1]
+[seVolume ad935 0.7 0.05]
+[wait fade]
+
+[shakeStop]
+
+[scene 132900]
+[wt 0.6]
+[charaSet A 1098257920 1 玛修]
+
+[fadein black 1.0]
+[wait fade]
+
+[charaPut H 1]
+[charaTalk G]
+[charaFace G 25]
+[charaFadein G 0.1 1]
+
+＠达·芬奇
+！[r]穆尼尔，甲板状况如何！！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut H 2000,2000]
+
+[charaTalk L]
+[charaFace L 2]
+[charaFadein L 0.1 1]
+
+＠穆尼尔
+『异星之神』正与那道光柱对峙着！
+[k]
+
+＠穆尼尔
+玛修正待命以便随时能应对其中任何一方！[r]但说真的，她过于拼命啦！
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠尼莫
+玛修，可以回舰内了！[r]在Shadow Border机库待命吧！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaPut H 1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+
+＠玛修
+明白，玛修·基列莱特，[r]退至一号[#机库:舱口]！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaPut H 1200,1200]
+[charaEffectStop H bit_talk_10_LowLevel]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+
+＠尼莫
+你们也是，[r][%1]、卡多克、穆尼尔！
+[k]
+
+＠尼莫
+还有其他迦勒底工作人员，[r]火速前往Shadow Border机库！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+这是要疏散吗！？[r]那我呢！？　希翁·艾尔特纳姆呢！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+
+＠尼莫
+司令官要疏散还为时尚早。[r]而维持我的存在则需要希翁。
+[k]
+
+＠尼莫
+达·芬奇也以尽可能的最快速度[r]离开电脑室，前往机库！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 7]
+[charaFadein D 0.1 1]
+
+＠戈尔德鲁夫
+留，留在这里的人类工作人员只剩我一个了吗！[r]虽虽虽说是司令官，但我终究是个凡人啊！？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk Y]
+[charaFace Y 5]
+[charaFadein Y 0.1 1]
+
+＠尼托克丽丝
+怎么能在这自乱阵脚呢！[r]我来当你的护卫，放心吧！
+[k]
+
+[messageOff]
+[charaFadeout Y 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 17]
+[charaFadein D 0.1 1]
+[wt 1.2]
+
+[charaFadeout D 0.1]
+[wt 0.4]
+
+？1：可是尼莫他们呢……？
+
+？！
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠卡多克
+现在是身为Storm Border本身的尼莫[r]感受到了危机，乖乖照做就是了！
+[k]
+
+＠卡多克
+只要我们能与玛修会合，尼莫也就能[r]更自由地行动了！　对吧！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠尼莫
+你说得对，卡多克。[r]好了，大家快前往机库。
+[k]
+
+＠尼莫
+我会派一名水兵跟着。[r]如果发生了什么事，就经由水兵转告我吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 0]
+[charaFadein M 0.1 1]
+
+＠尼莫水兵
+Aye，aye，Sir！[r]联络就交给我吧，船长！
+[k]
+
+[messageOff]
+[se ad771]
+[seStop ad771 1.2]
+[charaFadeout M 0.4]
+[wt 1.5]
+
+[wipeout rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+
+[wt 0.5]
+[scene 171300]
+
+[cueSeVolume 22_ad1195 0.6 0.3]
+[seVolume ade393 0.6 0.3]
+[seVolume ad935 0.6 0.1]
+[wipein rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+
+
+[wt 1.2]
+
+[charaLayer V sub #A]
+[charaLayer W sub #A]
+
+[charaScale V 1.05]
+[charaScale W 1.05]
+[charaDepth V 2]
+[charaDepth W 1]
+
+[charaFadein V 0.1 0,-25]
+[charaFadein W 0.1 0,-25]
+
+[charaTalk V]
+[subRenderFadein #A 0.4 0,-270]
+[wt 0.4]
+
+
+＠U－奥尔加玛丽
+[line 3]这光是什么。[r]在[#那个地底世界]从未见过这种[line 3]
+[k]
+
+[messageOff]
+[charaFadeout V 0.4]
+[wt 0.5]
+
+＠U－奥尔加玛丽
+[FFFFFF]！？[-]
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.1]
+[wt 0.1]
+
+[cueSeVolume 22_ad1195 0.7 1.0]
+[seVolume ade393 0.7 1.0]
+[seVolume ad935 0.7 0.8]
+[wt 1.2]
+
+[cueSe SE_22 22_ad1196]
+[se ad875]
+[seVolume ad875 0 0.8]
+[fadeout white 0.5]
+[cueSeStop 22_ad1195 0.3]
+[seStop ade393 0.3]
+[seStop ad935 0.3]
+[wait fade]
+
+[scene 171301]
+[wt 0.5]
+
+[charaFadeout W 0.1]
+[charaLayer W normal]
+[charaLayer V normal]
+[wt 1.5]
+
+[cueSe SE_22 22_ade783]
+[cueSeVolume 22_ade783 0 0]
+[cueSe SE_22 22_adm89]
+[cueSeVolume 22_adm89 0 0]
+[cueSeVolume 22_ade783 1.5 1.0]
+[cueSeVolume 22_adm89 1.5 0.1]
+
+[charaScale I 1.4]
+[charaFadein I 0.1 -260,-135]
+[charaMove I -260,-425 6.2]
+[fadein white 1.5]
+[wait fade]
+[wt 3.5]
+
+[charaFadeout I 1.2]
+[wt 1.6]
+
+＠U－奥尔加玛丽
+你这家伙打算干什么！？
+[k]
+
+＠U－奥尔加玛丽
+这艘舰艇是我的猎物，[r]既然你打算插手[line 3]！
+[k]
+
+[bgmStop BGM_BATTLE_78 1.0]
+
+[messageOff]
+[cueSe SE_22 22_ad1197 0 1.0]
+[cueSe SE_22 22_ade778]
+[se ad477]
+[seVolume ad477 0 0.7]
+[se ad875]
+[se ade393]
+[seVolume ade393 0 1.0]
+[cueSeVolume 22_adm89 1.0 0.3]
+[flashin once 0.1 0.1 FFFFFFFA FFFFFF50]
+[blur motion 0.1 4 100 0.5 0.6 0.03 100]
+[wt 0.1]
+
+[charaScale X 1.7]
+[charaFadein X 0 460,-460]
+[charaShake X 0.04 3 3 3.4]
+[scene 171400]
+[wt 0.8]
+[cueSeStop 22_ade778 1.0]
+
+[wt 2.6]
+
+[blurOff motion 1.2]
+[charaFadeout X 1.2]
+[shake 0.04 1 1 0]
+[wt 1.6]
+
+
+＠U－奥尔加玛丽
+这触感，既不是光，也不是火[line 3][r]竟然是植物与矿物的融合体……！？
+[k]
+
+＠U－奥尔加玛丽
+既是太阳也是植物，[r]既是火焰也是矿物[line 3]
+[k]
+
+＠U－奥尔加玛丽
+这种物质，究竟是在哪里[line 3]！
+[k]
+
+＠U－奥尔加玛丽
+无法彻底防住……！[r]我竟会在输出上相形见绌吗[line 4]！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[cueSeStop 22_ad1197 1.0]
+[cueSeStop 22_adm89 1.0]
+[cueSeStop 22_ade783 1.0]
+[wait fade]
+
+[shakeStop]
+
+[backEffect bit_talk_light_window]
+[scene 168600]
+
+[cameraMove 0.1 0,0 1.01]
+[wt 1.0]
+
+
+[se ad771]
+[seVolume ad771 0 0]
+[seVolume ad771 1.0 1.0]
+
+[cueSe SE_22 22_ad1197]
+[cueSe SE_22 22_ad1197 0 0]
+[cueSe SE_22 22_ade783]
+[cueSeVolume 22_ade783 0 0]
+[cueSe SE_22 22_adm89]
+[cueSeVolume 22_adm89 0 0]
+[cueSeVolume 22_ad1197 1.0 0.4]
+[cueSeVolume 22_ade783 1.0 0.4]
+[cueSeVolume 22_adm89 1.0 0.1]
+[fadein black 1.0]
+[wait fade]
+[wt 1.0]
+
+[seStop ad771 0.3]
+
+[charaTalk L]
+[charaFace L 8]
+[charaFadein L 0.1 1]
+
+＠穆尼尔
+呜噢，这声音与热量是怎么回事！[r]外面正在发生很可怕的事吧！？
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠卡多克
+有空观望还不如快跑！
+[k]
+
+＠卡多克
+尼莫叫我们前往机库就意味着[r]叫我们搭乘Shadow Border！
+[k]
+
+＠卡多克
+也就是说尼莫判断有坠落的危险！[r]是这样吧，[%1]！
+[k]
+
+？1：……嗯，没错。
+
+？2：哎？
+
+[charaFace B 4]
+
+＠卡多克
+哎你个头！　已经经历过好几回了吧，[r]靠降落伞让Shadow Border着陆的那种！
+[k]
+
+＠卡多克
+只是我也没想到竟然这么快就要去体验了！
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 6]
+[charaFadein M 0.1 1]
+
+＠尼莫水兵
+哎～，是这样吗[line 3]！？[r]船长的判断也太酷啦[line 3]！
+[k]
+
+＠尼莫水兵
+其实我们不是负责干这些的！[r]搬运物资、打扫和报告才是我们的本职工作啦～～！
+[k]
+
+[messageOff]
+[cueSe SE_22 22_ad1198]
+[charaFadeout M 0.1]
+[cueSeStop 22_ad1197 0.3]
+[cueSeStop 22_ade783 0.3]
+[cueSeStop 22_adm89 0.3]
+[wt 0.8]
+[se ad1015]
+[se ad882]
+[cueSe SE_22 22_ad1199]
+
+[cameraMove 0.02 0,0 1.5]
+[shake 0.02 100 100 1.5]
+[wt 0.5]
+
+[se ade393]
+[seVolume ade393 0 0.4]
+[se ad898]
+[se ad815]
+[seVolume ad898 0 0.4]
+[se ad608]
+[fadeout white 0.9]
+[wait fade]
+
+[seStop ad776 0.8]
+[seStop ad815 0.8]
+[scene 168601]
+[backEffectStop bit_talk_light_window]
+[cameraMove 0.1 0,0 1.01]
+[wt 1.6]
+
+[se ad135]
+[seVolume ad135 0 0]
+[se ad556]
+[seVolume ad556 0 0]
+[cueSe SE_22 22_ad1151]
+[cueSeVolume 22_ad1151 0 0]
+
+[seVolume ad135 1.0 0.2]
+[seVolume ad556 1.0 0.6]
+[cueSeVolume 22_ad1151 1.0 1.0]
+
+[shake 0.05 4 4 2.5]
+[fadein white 3.0]
+[wait fade]
+[wt 0.6]
+
+？1：[line 3]啊。
+
+？！
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠卡多克
+慢着，喂[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 8]
+[charaFadein L 0.1 1]
+
+＠穆尼尔
+骗人的吧？
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 5]
+[charaFadein M 0.1 1]
+
+＠尼莫水兵
+……！
+[k]
+
+[messageOff]
+[se ad7]
+[charaMove M 0,10 0.2]
+[charaMoveScale M 1.1 0.2]
+[charaFadeout M 0.2]
+[wt 0.5]
+
+[se ad876]
+[se ad728]
+[shake 0.05 4 4 1.0]
+[fadeout white 0.3]
+[wait fade]
+
+[scene 168602 0.5]
+
+[fadein white 0.3]
+[wait fade]
+
+[wt 1.0]
+[se ade338]
+[cameraMove 0.6 0,0 1.2]
+[fadeout black 0.6]
+[seStop ad135 0.6]
+[seStop ad556 0.6]
+[cueSeStop 22_ad1151 0.6]
+[wt 0.5]
+[seStop ade338 1.0]
+[wait fade]
+
+[cameraHome 0.1]
+[wt 0.5]
+
+[masterBranch _Male _Female]
+[label _Male]
+[sceneSet F 171500 1]
+
+[scene 171500]
+[branch _branchEnd]
+[label _Female]
+[sceneSet F 171501 1]
+[scene 171501]
+[branch _branchEnd]
+[label _branchEnd]
+
+[wt 1.5]
+
+[charaScale F 1.4]
+[charaFadein F 0.1 0,-425]
+[charaMove F 0,-250 5.7]
+[seStop ade393 6.0]
+[fadein black 1.5]
+[wait fade]
+[wt 3.0]
+
+[charaFadeout F 1.2]
+[wt 1.8]
+
+
+？1：[line 3]这下要死了。
+？2：[line 3]大家，对不起。
+
+？！
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 3.0]
+[wait fade]
+
+[scene 132900]
+[charaSet E 1098158320 1 尼莫]
+[imageSet A black_fade_re 1]
+[imageSet B black_fade_re 1]
+[sceneSet C 10000 1]
+[charaFilter C silhouette FF000080]
+[charaScale A 2.0]
+[charaScale B 2.0]
+[charaScale P 1.2]
+[charaScale E 1.2]
+
+[charaTalk depthOff]
+[charaDepth A 9]
+[charaDepth B 8]
+[charaDepth C 4]
+[charaDepth E 5]
+[charaDepth P 1]
+
+[charaFadein A 0 0,-1000]
+[charaFadein B 0 0,200]
+[charaFadein P 0.1 0,-130]
+
+[charaScale C 2.0]
+[charaPut C 0,-200]
+[charaFadeTime C 0.1 0.4]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 0,220]
+[wt 1.5]
+
+[se ad813]
+[seVolume ad833 0 0.5]
+[se ad632]
+[seVolume ad632 0 0.1]
+[fadein black 1.0]
+[wt 0.5]
+[se ad833]
+[seVolume ad833 0 0.5]
+[charaMove P 0,-190 4.0]
+[charaMove E 0,160 4.0]
+[wait fade]
+[wt 1.0]
+[se ad61]
+[seVolume ad61 0 0.7]
+[seStop ad61 1.0]
+[wt 1.0]
+[se ad813]
+[seVolume ad833 0 0.5]
+[seStop ad632 3.5]
+[wt 1.0]
+[se ad833]
+[seVolume ad833 0 0.6]
+[wt 1.0]
+
+
+
+＠尼莫
+……呼……呼……
+[k]
+
+[messageOff]
+[charaMove B 0,250 4.0]
+[charaMove A 0,-1050 4.0]
+[charaMove P 0,-300 4.0]
+[charaMove E 0,50 4.0]
+[wt 4.0]
+[se ade302]
+[se ad874]
+[seVolume ad874 0 0]
+[seVolume ad874 0.5 0.4]
+[wt 0.5]
+[seStop ad874 1.2]
+[charaFace E 3]
+
+
+＠尼莫
+……通告正在疏散的工作人员。[r]本舰因敌方势力的攻击严重损毁，无法维持航行。
+[k]
+
+＠尼莫
+接下来将朝地表……不，是朝地表空缺出来的空间[r]毅然执行机腹着陆。作好抗冲击准备。
+[k]
+
+[charaFace E 5]
+
+＠尼莫
+另外，剩余魔力资源已用于英灵召唤而非航行。
+[k]
+
+＠尼莫
+预定的剩余三骑已召唤完毕。[r]想必能帮上御主[%1]的忙吧。
+[k]
+
+[charaFace E 2]
+[charaShake E 0.05 2 2 0.3]
+
+＠尼莫
+……呜……[r]抱歉，报告到此为止。
+[k]
+
+[charaFace E 4]
+
+＠尼莫
+尼莫船长剩余的魔力将全都用于保证着陆成功。
+[k]
+
+＠尼莫
+[line 3]无论如何都要保住工作人员的性命。[r]祈祷你们能在着陆后奋勇战斗。
+[k]
+
+
+[messageOff]
+[wt 1.0]
+[se ad920]
+[fowardEffect bit_talk_switch_off]
+[wt 0.6]
+
+[fadeout black 0.2]
+[wait fade]
+
+[charaFadeout P 0.1]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout E 0.1]
+[scene 10000]
+[fowardEffectDestroy bit_talk_switch_off]
+[skip false]
+[wt 2.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[input selectBranch]
+
+[messageOff]
+[skip false]
+
+[soundStopAllFade 0.4]
+
+[charaPut H 2000,2000]
+[effectDestroy bit_talk_31]
+[fowardEffectDestroy bit_talk_36]
+[charaEffectDestroy H bit_talk_blackhole]
+[charaEffectDestroy H bit_talk_10_LowLevel]
+[charaEffectDestroy H bit_talk_10_LowLevel_depth]
+[backEffectDestroy bit_talk_light_window]
+
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[charaFadeout G 0.1]
+[charaFadeout K 0.1]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout R 0.1]
+[charaFadeout Y 0.1]
+[charaFadeout N 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+[charaFadeout P 0.1]
+[charaFadeout U 0.1]
+[charaFadeout F 0.1]
+[charaFadeout I 0.1]
+[charaFadeout X 0.1]
+[charaFadeout Z 0.1]
+[charaFadeout S 0.1]
+[charaFadeout T 0.1]
+[charaFadeout V 0.1]
+[charaFadeout W 0.1]
+[charaFadeout C 0.1]
+
+[charaFadeout J 0.1]
+[subCameraOff]
+
+[shakeStop]
+[scene 10000]
+[wt 0.4]
+
+[maskin black 1.0]
+[wait mask]
+
+[label selectBranch]
+[wt 0.5]
+
+[fowardEffect bit_chapterstart311]
+[wait fowardEffect]
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

@@ -1,0 +1,1091 @@
+
+
+
+＄04-00-02-12-2-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 7046001 1 难敌]
+[charaSet B 1098270000 1 希翁]
+[charaSet C 6037001 1 迦摩]
+[charaSet D 1098270300 1 阿愈丝]
+[charaSet E 1098267140 1 美杜莎]
+[charaSet F 1098267140 1 美杜莎2]
+[charaSet G 1098268920 1 樱]
+[charaSet H 1098268920 1 樱2]
+
+[sceneSet K 10000 1]
+[charaScale K 1.05]
+[sceneSet L 10000 1]
+[charaScale L 1.05]
+[sceneSet M 190200 1]
+[charaScale M 1.2]
+[sceneSet N 190400 1]
+[charaScale N 1.2]
+[sceneSet O 190400 1]
+[charaScale O 2.0]
+[sceneSet P 192000 1]
+[charaScale P 1.2]
+[imageSet Q back10000 1 1]
+[charaScale Q 1.01]
+[imageSet R back10000 1 1]
+[charaScale R 1.01]
+
+[charaSet S 5009000 1 特效用1]
+[charaSet T 5009000 1 特效用2]
+
+[scene 190200]
+
+[bgm BGM_BATTLE_195 0.1]
+[fadein black 1.5]
+[wait fade]
+
+[cueSe Battle bac11]
+[effect bit_talk_14]
+[wt 0.2]
+[charaScale E 1.3]
+[charaTalk E]
+[charaFace E 19]
+[charaFadein E 0.4 0,30]
+[charaShake E 0.05 2 2 0.4]
+[se ad543]
+[seVolume ad543 0 0.5]
+[se ad671]
+[seStop ad671 0.7]
+[seStop ad543 0.7]
+[charaMoveScale E 1.0 0.5]
+[charaMove E 0,0 0.5]
+[wt 0.5]
+
+＠美杜莎
+呜……！
+[k]
+
+[charaFace E 12]
+
+＠美杜莎
+啊啊……虽说不一样……[r]但相似之人，还是很相似啊……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+
+＠迦摩
+总感觉是连我都不清楚的自己的某一点，[r]使得你的剑刃在最后关头迟钝了。
+[k]
+
+[charaFace C 0]
+
+＠迦摩
+可即便在这种情况下，我也是不会手下留情的。[r]你运气不太好呢。
+[k]
+
+[charaFace C 4]
+
+＠迦摩
+至于除此以外还有什么不好……[r]我就不得而知了。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠美杜莎
+呵呵……呵呵呵。
+[k]
+
+＠美杜莎
+真可笑。本以为唯独将爱拒之门外的我，[r]却偏偏为了爱，做出这种事。
+[k]
+
+＠美杜莎
+这果然是会招致终结，应当避讳的死因。[r]可是，即便如此[line 3]
+[k]
+
+＠美杜莎
+它也是一旦出现在眼前，就会忍不住抓在手中，不愿放开的，[r]长满荆棘的诱惑。
+[k]
+
+[charaFace E 4]
+
+＠美杜莎
+这就是，所谓的爱吧？[r]爱神啊。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 10]
+[charaFadein C 0.1 1]
+
+＠迦摩
+……[r]……
+[k]
+
+[charaFace C 0]
+
+＠迦摩
+谁知道呢。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[se ad661]
+[seVolume ad661 0 0.7]
+[seStop ad661 0.6]
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[charaMove E -20,0 0.3]
+[wt 0.8]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 5]
+[charaFadein A 0.1 1]
+
+＠难敌
+！　你在干什么，她打算逃跑！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 -50,0]
+[wt 0.2]
+
+[se ad237]
+[wt 0.1]
+[fowardEffect bit_talk_strike_02]
+[se ad73]
+[charaEffect E bit_talk_quickmove]
+[charaSpecialEffect E erasureReverse 1 0.3]
+[wt 0.2]
+[seStop ad237 0.4]
+[wt 0.5]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth E 2]
+[charaDepth S 3]
+[charaDepth G 4]
+
+
+[charaFace G 22]
+[charaFadein M 0.5 90,-200]
+[charaFadein G 0.5 -165,-50]
+[charaMove M 120,-200 0.5]
+[charaMove G -120,-50 0.5]
+[wt 0.7]
+[charaPut E 140,0]
+[charaFace E 3]
+[se ad223]
+[charaPut S 140,0]
+[charaEffect S bit_talk_quickmove]
+[charaSpecialEffect E appearance 1 0.25]
+[wt 0.4]
+[charaMove E 120,-30 0.3]
+[wt 0.3]
+[se ad183]
+[charaMove E 120,0 0.3]
+[charaMove G -120,-20 0.3]
+[wt 0.5]
+
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+[se ad73]
+[fowardEffect bit_talk_quickmove 120,0]
+[fowardEffect bit_talk_quickmove -120,0]
+[charaSpecialEffect E erasureReverse 1 0.3]
+[charaSpecialEffect G erasureReverse 1 0.3]
+[wt 0.8]
+
+[charaFadeout M 0.5]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk A]
+
+＠难敌
+可恶！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠迦摩
+啊，对不起～。我一时大意了♡
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠希翁
+不过已经给她造成重伤了。[r]距灵核受损仅一步之遥。
+[k]
+
+＠希翁
+她不可能一直逃下去。[r]我们追吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+
+＠阿愈丝
+……说得对。如果放任她逃跑，[r]说不定又会无差别地袭击ＡＩ们。
+[k]
+
+[charaFace D 3]
+
+＠阿愈丝
+我只知道，无论发生什么，[r]她都不会放弃……
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_BATTLE_195 1.0 0.5]
+[wait fade]
+
+[charaFadeout D 0.1]
+[overlayFadein Q 0.1 0,-738]
+[overlayFadein R 0.1 0,738]
+[charaFadein M 0.1 0,-300]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_BATTLE_195 1.0 0.7]
+[wait fade]
+
+[charaPut E 0,-50]
+[charaPut S 1]
+[charaTalk E]
+[charaFace E 3]
+[se ad223]
+[charaEffect S bit_talk_quickmove]
+[charaSpecialEffect E appearance 1 0.25]
+[wt 0.75]
+
+[se ad73]
+[charaEffect E bit_talk_quickmove]
+[charaSpecialEffect E erasureReverse 1 0.3]
+[wt 0.3]
+
+[wipeout leftToRight 0.5 1.0]
+[wait wipe]
+
+[charaFadeout M 0.1]
+
+[scene 190300]
+[wt 0.5]
+
+[wipein rightToLeft 0.5 1.0]
+[wait wipe]
+
+[charaPut E 0,-50]
+[charaTalk E]
+[charaFace E 3]
+[se ad223]
+[seVolume ad223 0 0.8]
+[se ad984]
+[seStop ad984 0.5]
+[charaEffect S bit_talk_quickmove]
+[charaSpecialEffect E appearance 1 0.25]
+[wt 0.75]
+
+[se ad73]
+[charaEffect E bit_talk_quickmove]
+[charaSpecialEffect E erasureReverse 1 0.3]
+[wt 0.3]
+
+[wipeout leftToRight 0.5 1.0]
+[wait wipe]
+
+[scene 190400]
+[wt 0.5]
+
+[wipein rightToLeft 0.5 1.0]
+[wait wipe]
+
+
+[charaPut E 0,-50]
+[charaTalk E]
+[charaFace E 3]
+[se ad223]
+[seVolume ad223 0 0.8]
+[se ad443]
+[seStop ad443 0.5]
+[charaEffect S bit_talk_quickmove]
+[charaSpecialEffect E appearance 1 0.25]
+[wt 0.75]
+
+[bgmStop BGM_BATTLE_195 1.5]
+
+[charaTalk off]
+[charaDepth E 1]
+[charaDepth N 2]
+[charaDepth F 3]
+[charaDepth H 4]
+[charaDepth S 5]
+[charaDepth T 6]
+[charaDepth O 7]
+
+[charaScale F 1.2]
+[charaScale H 1.2]
+[charaFace F 3]
+[charaFadein N 1.0 -120,-220]
+[charaFadein F 1.0 0,45]
+[charaMove N -120,-250 1.5]
+[charaMove F 1 1.5]
+[charaMove Q 0,-850 1.5]
+[charaMove R 0,850 1.5]
+[wt 1.7]
+[charaFadeout E 0.1]
+[charaFadeout Q 0.1]
+[charaFadeout R 0.1]
+[charaTalk on]
+[charaTalk G]
+
+＠樱
+呵呵。[#Saber:剑士]……
+[k]
+
+[charaTalk F]
+[charaFace F 1]
+
+＠F：美杜莎
+！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMove N -20,-250 1.5]
+[charaMove F 150,0 1.5]
+[wt 1.7]
+
+[bgm BGM_EVENT_69 0.1]
+
+[charaFace H 17]
+[charaFadein H 0.4 -180,-50]
+[wt 0.4]
+[charaTalk on]
+[charaTalk H]
+
+＠H：樱
+这身打扮……[r]抱着我，帅气地跳啊，跳啊……
+[k]
+
+＠H：樱
+感觉就像……王子殿下，呢？
+[k]
+
+[charaTalk F]
+[charaFace F 4]
+
+＠F：美杜莎
+樱，你醒了啊。[r]……感觉如何？
+[k]
+
+[charaTalk H]
+[charaFace H 6]
+
+＠H：樱
+没事。[r]我[line 3]很有精神，哦？
+[k]
+
+＠H：樱
+你瞧，我还能像往常那样，呣，地……[r]给自己，鼓劲。
+[k]
+
+[charaTalk F]
+[charaFace F 11]
+
+＠F：美杜莎
+……[r]……
+[k]
+
+[charaTalk H]
+[charaFace H 5]
+
+＠H：樱
+但是啊，[r]不知道，什么时候，又会睡着。
+[k]
+
+＠H：樱
+所以就趁现在，说出来吧。[r]谢谢你，对不起啦，[#Saber:剑士]。我……
+[k]
+
+[charaTalk F]
+[charaFace F 0]
+
+＠F：美杜莎
+我不听。
+[k]
+
+[charaTalk H]
+[charaFace H 15]
+
+＠H：樱
+哎？
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaMove F 120,0 0.3]
+[wt 0.3]
+[se ad183]
+[charaMove F 150,0 0.4]
+[wt 0.1]
+[charaMove H -150,-50 0.3]
+[wt 0.6]
+[charaTalk on]
+[charaTalk F]
+[charaFace F 0]
+
+＠F：美杜莎
+我们目前，正在逃跑。
+[k]
+
+＠F：美杜莎
+我并没有放弃。
+[k]
+
+[charaFace F 4]
+
+＠F：美杜莎
+因此[line 3]还没结束。[r]我们就一直逃一直逃，一直逃下去吧。
+[k]
+
+＠F：美杜莎
+只要逃下去，总有一天能得到你渴望的东西。[r]……肯定，能得到。
+[k]
+
+[charaTalk H]
+[charaFace H 15]
+
+＠H：樱
+可是……该逃去，哪里呢？
+[k]
+
+[charaTalk F]
+[charaFace F 6]
+
+＠F：美杜莎
+谁知道呢。只要是能让你活下去的地方，哪里都可以。
+[k]
+
+[messageOff]
+[se ad73]
+[charaScale S 1.2]
+[charaScale T 1.2]
+[charaPut S 150,50]
+[charaPut T -150,50]
+[charaEffect S bit_talk_quickmove]
+[charaEffect T bit_talk_quickmove]
+[charaSpecialEffect F erasureReverse 1 0.3]
+[charaSpecialEffect H erasureReverse 1 0.3]
+[wt 0.8]
+[charaFadein O 1.0 -660,-720]
+[charaMove O -800,-830 25.0]
+[charaMoveScale O 2.2 25.0]
+[wt 1.2]
+[charaFadeout N 0.1]
+
+＠
+这番话，确实没错。
+[k]
+
+＠
+只要能让她活下去，什么都可以，[r]哪里都可以。
+[k]
+
+＠
+如果她在这个世界活不下去，[r]就算是世界之壁，我也会破坏。
+[k]
+
+＠
+啊啊，但愿在打破虚伪的天花板之后，[r]出现在眼前会是一片乐园。
+[k]
+
+＠
+与世界为敌的觉悟，[r]不惜破坏世界也要活下去的觉悟。
+[k]
+
+＠
+这份觉悟[line 3][r]让自己想到了略为现实的手段。
+[k]
+
+＠美杜莎
+综合统管ＡＩ……拉妮－ⅩⅡ。[r]身为监督官，她应该拥有预备令咒。
+[k]
+
+＠美杜莎
+只要能袭击她并夺走令咒，说不定……
+[k]
+
+[scene 10000]
+
+＠
+而事情就发生在决定了跳跃方向的[r]那一瞬间。
+[k]
+
+[bgmStop BGM_EVENT_69 0.1]
+
+[messageOff]
+[charaFadeout O 0]
+[wt 1.0]
+
+[sceneSet M 192000 1]
+[charaScale M 1.01]
+
+[sceneSet O 190400 1]
+[charaScale O 1.3]
+
+[cueSe SE_22 22_ad1169 1.0 0.2]
+
+＠
+检测到禁止事项。[r]请求执行应对处理。
+[k]
+
+＠
+部分许可。[r]不认同现阶段直接排除。
+[k]
+
+＠
+因此，作为应急补正[line 3][r]应该，只夺走其移动能力。
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.1]
+[cueSeStop 22_ad1169 0.5]
+[wait fade]
+
+[charaDepth L 1]
+[charaDepth O 2]
+[charaFadein L 0.1 0,-200]
+[charaFadein O 0.1 -190,-250]
+
+[subCameraOn 1]
+[charaLayer F sub #A]
+[subCameraFilter #A through]
+
+[charaDepth N 1]
+[charaDepth H 2]
+[charaDepth F 3]
+
+[charaScale F 1.3]
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 150,0]
+[subRenderFadein #A 0.1 0,0]
+[wt 0.1]
+[subBlur #A lens 0.1 2 20 1.0 subBlur]
+[scene 190400]
+[wt 1.0]
+
+[fadein black 0.5]
+[wait fade]
+
+[se ade458]
+[effect bit_talk_rarrow01or 150,0]
+[wt 1.3]
+[cueSe Servants_100900 bac714]
+[flashin once 0.1 0.2 FF000080 FF000080]
+[wt 0.1]
+[effectDestroy bit_talk_rarrow01or]
+[subBlurOff #A lens 0 normal]
+[charaFadeout O 0]
+[charaFadeout F 0]
+[wt 0.3]
+
+[messageOff]
+[se ad161]
+[fowardEffect bit_talk_35]
+[wt 2.0]
+[subRenderFadeout #A 0.1]
+[charaFadeout L 0.5]
+[wt 0.7]
+
+[bgm BGM_BATTLE_135 0.1]
+
+[charaTalk E]
+[charaFace E 19]
+[charaFadein E 0.1 1]
+[charaMove E 0,-50 0.3]
+[wt 0.3]
+[se ad775]
+[charaShake E 0.05 4 4 0.5]
+
+＠美杜莎
+呜……！？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 21]
+[charaFadein G 0.1 0,-50]
+
+＠樱
+[#Saber:剑士]！　啊啊，你的，脚……！[r]刚才那个，是……！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 17]
+[charaFadein E 0.1 0,-50]
+
+＠美杜莎
+我，不知道……！
+[k]
+
+[bgm BGM_BATTLE_135 0.5 0.5]
+
+[charaDepth K 1]
+[charaDepth E 2]
+[charaDepth P 3]
+[charaPut K 0,-200]
+[charaFadeTime K 0.2 0.5]
+
+＠美杜莎
+（来自超远距离的攻击。[r]　要是对方有意杀我，恐怕我已经被杀了。）
+[k]
+
+＠美杜莎
+（是刻意瞄准了我的脚。[r]　这是[#无意杀我却也不会放过我]的一击。）
+[k]
+
+＠美杜莎
+（是刚才的他们……？　不对。[r]　[#Lancer:枪兵]……恐怕也不对。）
+[k]
+
+＠美杜莎
+（那么，究竟是谁，基于什么目的，要这样做……？）
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaLayer N sub #A]
+[charaLayer H sub #A]
+[charaScale F 1.2]
+[charaFace H 15]
+[charaFace F 17]
+[charaFadein N 0.1 -20,-250]
+[charaFadein H 0.1 -180,-50]
+[charaFadein F 0.1 180,-50]
+[wt 0.1]
+
+[bgm BGM_BATTLE_135 0.5 1.0]
+[subRenderFadein #A 0.5 0,0]
+[wt 0.7]
+[charaFadeout K 0.1]
+[charaFadeout E 0.1]
+
+[charaTalk on]
+[charaTalk H]
+
+＠H：樱
+[#Saber:剑士]，只要放我下来，凭你现在的双腿也……
+[k]
+
+[charaTalk F]
+[charaFace F 16]
+
+＠F：美杜莎
+请不要开玩笑了，樱。
+[k]
+
+[charaFace F 1]
+
+＠F：美杜莎
+不，对方开的玩笑更大呢。
+[k]
+
+[charaTalk H]
+
+＠H：樱
+[#Saber:剑士]……？
+[k]
+
+[messageOff]
+[scene 10000]
+[charaFadein P 0.1 60,-250]
+[charaTalk F]
+[se ade446]
+[seVolume ade446 0 0]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ade446 0.4 0.2]
+[seVolume ad556 0.4 0.2]
+[charaFace F 25]
+[charaEffect F bit_talk_lightning_01r]
+[subCameraMove #A 2.5 -50,-20 1.1]
+[wt 1.5]
+
+[charaMove P -120,-300 40.0]
+[subRenderFadeout #A 1.0]
+[wt 1.0]
+[charaEffectDestroy F bit_talk_lightning_01r]
+[charaFadeout N 0.1]
+[charaFadeout H 0.1]
+[charaFadeout F 0.1]
+[wt 0.1]
+[charaLayer N normal]
+[charaLayer H normal]
+[charaLayer F normal]
+[subCameraOff]
+
+[charaSet E 1098267150 1 美杜莎]
+[charaSet F 1098267150 1 美杜莎2]
+
+＠美杜莎
+对方恐怕身处超远距离外。[r]看不见身影。
+[k]
+
+＠美杜莎
+但既然发动了攻击，就代表对方毫无疑问[r]察觉到了我们……在[#看着]我们。
+[k]
+
+＠美杜莎
+既是如此，就还有办法。
+[k]
+
+＠美杜莎
+我的魔眼库柏勒本就拥有能让[r]『看着我的人』变成石头的性质。
+[k]
+
+＠美杜莎
+换言之，只要让石化效果由『被注视着』的我[r]沿着视线回溯过去即可[line 3]
+[k]
+
+[messageOff]
+[wt 1.5]
+
+＠美杜莎
+不要，妨碍我……
+[k]
+
+[messageOff]
+[seStop ade446 1.0]
+[seStop ad556 1.0]
+[overlayFadein M 0.5 0,-200]
+[wt 0.7]
+[charaFadeout P 0.1]
+
+＠美杜莎
+极限解放[line 3]库柏勒！
+[k]
+
+[messageOff]
+[criMovie talk_mov175 bgmPlay false]
+[wt 0.5]
+[charaFadeout M 1.0]
+[wt 21.5]
+
+
+
+
+
+
+[fadeout white 3.0]
+[bgmStop BGM_BATTLE_135 1.5]
+[wait fade]
+
+[scene 10001]
+[wt 0.3]
+
+[fadein white 0.2]
+[wait fade]
+
+[se ad161]
+[fowardEffect bit_talk_35]
+
+[wt 2.2]
+
+[fadeout white 0.5]
+[wait fade]
+
+[scene 190400]
+
+[charaTalk off]
+[charaDepth N 1]
+[charaDepth H 2]
+[charaDepth K 3]
+[charaDepth F 4]
+
+[charaScale F 1.2]
+[charaFace H 15]
+[charaFace F 17]
+[charaFadein N 0.1 -20,-250]
+[charaFadein H 0.1 -180,-50]
+[charaFadein F 0.1 180,-50]
+[cameraMove 0.1 -50,-20 1.1]
+[wt 0.25]
+
+[bgm BGM_BATTLE_166 0.1]
+
+[cameraHome 1.5]
+[fadein white 1.0]
+[wait fade]
+
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk F]
+[charaShake F 0.03 2 2 0.5]
+＠F：美杜莎
+呜，啊……！
+[k]
+
+[charaTalk H]
+[charaFace H 20]
+
+＠H：樱
+[#Saber:剑士]！？　为什么！？
+[k]
+
+[charaTalk F]
+[charaFace F 1]
+
+＠F：美杜莎
+魔眼被弹开了……！？[r]而且还，弹回了，如此强的，反作用。
+[k]
+
+[charaFace F 19]
+＠F：美杜莎
+这股魔力与存在强度。[r][line 3]是[#神灵级的]，[#从者]……！
+[k]
+
+[charaTalk H]
+[charaFace H 15]
+
+＠H：樱
+怎么，回事……？
+[k]
+
+[bgm BGM_BATTLE_166 0.5 0.5]
+
+[charaTalk F]
+[charaFace F 3]
+[charaPut K 0,-200]
+[charaFadeTime K 0.2 0.5]
+
+＠F：美杜莎
+（没错……这是，怎么回事。[r]　不应该存在，这样的从者才[line 3]）
+[k]
+
+[charaFace F 1]
+
+＠F：美杜莎
+（不，实际上的确存在。[r]　既然如此，这意味着……）
+[k]
+
+[bgm BGM_BATTLE_166 0.5 1.0]
+
+[charaFadeout K 0.2]
+[charaFace F 2]
+
+＠F：美杜莎
+呜……
+[k]
+
+[bgm BGM_BATTLE_166 1.0 0.7]
+
+[messageOff]
+[se ad443]
+[seVolume ad443 0 0]
+[wt 0.1]
+[se ad444]
+[seVolume ad444 0 0]
+[seVolume ad443 1.5 1.0]
+[seVolume ad444 1.5 1.0]
+[charaFadeout N 1.0]
+[charaFadeout H 1.0]
+[charaFadeout F 1.0]
+[wt 2.0]
+
+[seStop ad443 0.4]
+[seStop ad444 0.4]
+[charaTalk off]
+[charaDepth G 1]
+[charaDepth E 2]
+[charaFace G 15]
+[charaFace E 2]
+[charaFadein G 0.1 -150,-50]
+[charaFadein E 0.1 150,-50]
+[wt 1.0]
+
+[bgm BGM_BATTLE_166 0.5 1.0]
+
+？1：追上了……！
+？！
+
+[charaTalk on]
+[charaTalk E]
+[charaFace E 0]
+
+＠美杜莎
+是吗。那边认为……终究应该[r]让圣杯战争的参加者来解决掉我吧。
+[k]
+
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠难敌
+你在说什么呢？　这次可不会让你再逃掉了。[r]认命吧。
+[k]
+
+＠难敌
+你看上去怎么比刚才更伤痕累累了，[r]这表示……
+[k]
+
+[charaFace A 3]
+
+＠难敌
+你非要毫无意义地乱跑，[r]本老爷造成的伤口裂得更大了吧！
+[k]
+
+＠难敌
+呵哈哈，可怜可怜！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 14]
+[charaFadein C 0.1 1]
+
+＠迦摩
+是这样吗？[r]怎么看这都不是那种级别的伤吧。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 8]
+[charaFadein B 0.1 1]
+
+＠希翁
+[#Saber:剑士]，你该不会是……
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace G 15]
+[charaFace E 3]
+[charaFadein G 0.1 -150,-50]
+[charaFadein E 0.1 150,-50]
+
+＠美杜莎
+既然无意放过我们，[r]谈论我的伤势也毫无意义。
+[k]
+
+[messageOff]
+[se ad984]
+[charaMove E 150,0 0.5]
+[charaShake E 0.03 2 2 0.5]
+[wt 0.5]
+
+＠美杜莎
+[line 3]放马过来吧。[r]只要身体还能动，我就不会放弃。
+[k]
+
+[charaTalk G]
+
+＠樱
+[#Saber:剑士]……！
+[k]
+
+[messageOff]
+[charaTalk off]
+[se ad60]
+[seStop ad60 0.5]
+[charaShake E 0.03 2 2 0.5]
+[charaFadeout E 0.7]
+[charaMove E 100,0 0.5]
+[wt 0.7]
+
+[charaDepth N 3]
+[charaDepth H 4]
+[charaDepth F 5]
+
+[charaScale H 1.05]
+[charaFace H 15]
+[charaFadein N 1.0 90,-300]
+[charaFadein H 1.0 55,-45]
+[charaMove N 120,-300 1.0]
+[charaMove H 100,-45 1.0]
+[wt 1.2]
+[charaFadeout G 0.1]
+[charaFadeout E 0.1]
+
+[se ad60]
+[seStop ad60 0.5]
+[charaFace F 3]
+[charaShake F 0.03 2 2 0.5]
+[charaFadein F 0.4 -90,0]
+[charaMove F -120,0 0.5]
+[wt 1.0]
+[charaFace F 0]
+
+＠F：美杜莎
+请退后，樱。
+[k]
+
+[charaFace F 4]
+
+＠F：美杜莎
+不要紧。[r]我会一直站在你这边，直至最后一刻[line 3]
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStopEnd BGM_BATTLE_166 0.4]
+[wait fade]
+[soundStopAllEnd]
+[end]

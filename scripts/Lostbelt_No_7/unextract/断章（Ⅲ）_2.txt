@@ -1,0 +1,278 @@
+
+
+
+＄03-00-13-17-2-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253200 1 U－奥尔加玛丽]
+[charaSet B 1098257500 1 拉斯普京]
+
+[sceneSet Q 168900 1]
+[charaScale Q 1.2]
+
+[pictureFrame cut063_cinema]
+
+[scene 168900]
+
+[charaFadein Q 0.1 60,-300]
+[wt 0.1]
+
+[charaMove Q -60,-300 15.0]
+[fadein black 1.0]
+[wait fade]
+
+[wt 3.0]
+
+[charaFadeout Q 1.5]
+[wt 2.0]
+
+[bgm BGM_EVENT_11 0.1]
+
+[charaTalk B]
+[charaFace B 5]
+[charaFadein B 0.1 0,-50]
+
+＠拉斯普京
+选择特佩乌氏的草庵的确是个好主意。
+[k]
+
+＠拉斯普京
+待在这里就不会引起任何人的注意。[r]而且从这里前往地表也很方便。
+[k]
+
+＠拉斯普京
+就算米克特兰崩毁，[r]只要离开异闻带就没有危险了。
+[k]
+
+[charaFace B 2]
+
+＠拉斯普京
+虽然有必要阻止ORT破坏地球的未来，
+[k]
+
+＠拉斯普京
+届时就由我和[#他]竭尽全力阻止ORT吧。[r]然后，您只需与ORT融合即可。
+[k]
+
+＠拉斯普京
+还请『异星之神』安心在此疗伤，[r]并守望整个大局吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 18]
+[charaFadein A 0.1 0,-50]
+
+＠U－奥尔加玛丽
+……不需要逐一进言了，拉斯普京。[r]我本就有这个打算。
+[k]
+
+＠U－奥尔加玛丽
+虽然记忆还不完全，[r]但我已经掌握了自己的身份。
+[k]
+
+＠U－奥尔加玛丽
+这异闻带中能与我对抗的『敌人』有[r]库库尔坎、ORT，以及[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠拉斯普京
+卡玛佐茨吧。[r]他是诞生于这异闻带的[line 3]呢。
+[k]
+
+＠拉斯普京
+任由他被迦勒底击败就好。[r]他们定能成功打败死神吧。
+[k]
+
+[charaFace B 4]
+
+＠拉斯普京
+只不过，应该会造成大量牺牲吧。[r]看来高扬斯卡娅也抽了个下下签呢。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 0,-50]
+[wt 1.0]
+[charaFace A 23]
+
+＠U－奥尔加玛丽
+话说……以前都没意识到，[r]这空间……令人有种莫名的不自在感。
+[k]
+
+＠U－奥尔加玛丽
+这种皮肤上的触感，很像冥界线……[r]特佩乌究竟在研究些什么啊？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 0,-50]
+
+＠拉斯普京
+对哦，我还没告诉大小姐吧。
+[k]
+
+＠拉斯普京
+在魔术世界中，有种名为魔眼的存在。
+[k]
+
+＠拉斯普京
+魔眼所视之物有魔力的流动、时间的流动、[r]运气的流动，不一而足[line 3]
+[k]
+
+＠拉斯普京
+而其中最为特殊的就是『直死之魔眼』。
+[k]
+
+＠拉斯普京
+无论对手是什么样的生命、存在，[r]都能目视并确定『死亡』本身的天界外之理。
+[k]
+
+＠拉斯普京
+在这异闻带中，特佩乌氏就是该魔眼的保有者。[r]虽说魔眼的力量非常微弱。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 23]
+[charaFadein A 0.1 0,-50]
+
+＠U－奥尔加玛丽
+是吗，反正也无所谓了。[r]无论是什么样的神秘，在迪诺斯手里都是暴殄天物。
+[k]
+
+＠U－奥尔加玛丽
+没有战斗意愿的种族就算拥有这种眼睛，[r]也只会感到痛苦。
+[k]
+
+＠U－奥尔加玛丽
+重要的是[line 3]
+[k]
+
+[bgmStop BGM_EVENT_11 1.0]
+[se ad677]
+[seVolume ad677 0 0.4]
+
+[messageOff]
+[blur motion 0.2 4 1000 0.5 0.6 0.02 100]
+[cameraMove 1.0 0,-30 1.15]
+[wt 0.2]
+[blurOff motion 0.8]
+[wt 1.3]
+[seStop ad677 0.5]
+[wt 0.5]
+
+[charaFace A 6]
+[wt 1.0]
+
+[bgm BGM_EVENT_122 0.1]
+
+[charaFace A 10]
+[charaShake A 0.02 2 2 0.3]
+[wt 0.3]
+
+＠U－奥尔加玛丽
+……慢着，这是怎么回事。[r]第三层为何会有这样的反应？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 0,-50]
+
+＠拉斯普京
+……您感知到什么了吗？[r]这般慌乱的样子可不像『异星之神』哦。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 12]
+[charaFadein A 0.1 0,-50]
+
+＠U－奥尔加玛丽
+……是奥塞洛特尔。[r]一大批奥塞洛特尔正往第三层移动。
+[k]
+
+[charaFace A 9]
+
+＠U－奥尔加玛丽
+难道说……[r]他们打算包围奇琴伊察……！？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 0,-50]
+[wt 1.0]
+[charaFace B 7]
+
+＠拉斯普京
+……原来如此。趁库库尔坎与[%1]同行的当下，
+[k]
+
+＠拉斯普京
+奇琴伊察防御薄弱。[r]对特斯卡特利波卡来说是个绝佳的机会吧。
+[k]
+
+[charaFace B 0]
+
+＠拉斯普京
+奇琴伊察虽然于我们有一饭一宿之恩，[r]但那都是您『还丧失着记忆』时的事了。
+[k]
+
+＠拉斯普京
+迪诺斯与奥塞洛特尔的战斗[r]并非我们的战斗。
+[k]
+
+＠拉斯普京
+现在的您是『异星之神』。[r]您应该比任何人都清楚这件事才对。
+[k]
+
+＠拉斯普京
+请千万不要采取任何轻率的行动。[r][line 3]一切都是为了即将到来的人理编纂之刻。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[cameraMove 7.0 0,-40 1.2]
+[charaTalk A]
+[charaFace A 27]
+[charaFadein A 0.1 0,-50]
+[wt 2.5]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_122 2.0]
+[wait fade]
+[cameraHome 0.1]
+[wt 0.5]
+[soundStopAll]
+[end]
+

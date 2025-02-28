@@ -1,0 +1,950 @@
+
+＄94-07-94-06-1-0
+
+
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098209670 1 奥伯龙·伏提庚]
+[charaSet B 5045002 1 阿尔托莉雅]
+[charaSet C 1098231510 1 玛修]
+
+[charaSet D 5045000 1 玛修(阿尔托莉雅)]
+[charaSet E 1098208900 1 妖精少女]
+
+[charaSet T 98115000 1 特效用]
+
+[scene 10000]
+
+[fadein black 1.5]
+[wait fade]
+
+[cueSe SE_21 21_ad1109]
+[wt 1.5]
+[cueSeStop 21_ad1109 3.0]
+＠
+耳边传来了钟声。[r]并非无数次被迫倾听的强制之钟。
+[k]
+
+＠
+而是呼唤着你，相信着你，[r]令人怀念的钟声。
+[k]
+
+[messageOff]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 2.5 0.6]
+[scene 123100 2.5]
+[wt 1.5]
+
+[seVolume ad556 2.5 0.2]
+
+[effect bit_talk_light_loop]
+
+[bgm BGM_EVENT_69 0.1]
+
+＠
+一直都是在这风暴中奔跑着。[r]恶性的漩涡、本性的狂潮。
+[k]
+
+＠
+在与臭水沟没什么两样的[r]阴暗、冰冷、震耳欲聋的众人声音中奔跑着。
+[k]
+
+[seStop ad556 3.0]
+＠年幼的我
+讨厌、讨厌、讨厌、讨厌[line 3]
+[k]
+
+＠
+已经不知道多少次觉得[r]坚持不下去，想要一死了之。
+[k]
+
+＠
+之所以还能毫不迷惘地留下，[r]之所以还能坚持奔走下去，
+[k]
+
+＠
+是因为有那道光。[r]就是那一颗在风暴对面远处独自闪耀的，小小的蓝色星辰。
+[k]
+
+＠年幼的我
+呼、呼、呼、呼[line 3]！
+[k]
+
+＠
+摔倒时，会哭着鼻子爬起来。[r]疲惫时，会犟着脾气抬起头。
+[k]
+
+＠
+无论何时，星星都在远处闪耀着。
+[k]
+
+＠
+『藏在恶意中的，一小撮人类的善意。』
+[k]
+
+＠
+『总有一天会赐予我的光辉未来。』
+[k]
+
+＠年幼的我
+不可能，怎么可能。[r]不，那种事无关紧要。
+[k]
+
+＠
+对你来说，那颗星星纯粹是闪耀光芒之物。
+[k]
+
+＠
+仅此而已，它便成了你的目的。
+[k]
+
+＠
+除你以外，希望还有其他人[r]在某个地方仰望那颗星星。
+[k]
+
+＠
+你的愿望仅此而已。[r]无论置身什么样的风暴，都决不会改变这个事实。
+[k]
+
+＠年幼的我
+啊啊[line 3]没错。[r]我就是，仅此而已。
+[k]
+
+＠年幼的我
+虽说我害怕很多东西，[r]不信任很多东西。
+[k]
+
+＠
+一直在被那道星光鼓舞着。
+[k]
+
+＠
+纵使你与那颗星星，[r]没有任何关系，没有任何关联。
+[k]
+
+＠
+纵使那颗星星决不会面向你那边，[r]也不会为了你而降落。
+[k]
+
+＠年幼的我
+……嗯，虽说无论是不列颠，[r]还是未来，对我来说都无关紧要，
+[k]
+
+＠年幼的我
+但只要那颗星星还在闪耀，我就决不会[line 2]
+[k]
+
+＠
+无论人世间是何等猛烈的风暴。[r]哪怕在时光中获得的回报总是不如痛苦。
+[k]
+
+＠
+自年幼时，就一直注视着你的光，
+[k]
+
+＠
+风暴中唯一闪耀之物。
+[k]
+
+＠
+并非为了社会，并非为了和平，[r]也并非为了自己[line 2]
+[k]
+
+＠年幼的我
+我，唯独不想辜负那一直以来[r]都在闪耀着的微弱星光。
+[k]
+
+
+[messageOff]
+[effect bit_talk_strongwind01_bk]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 2.5 0.7]
+[se ad664]
+[seVolume ad664 0 0]
+[seVolume ad664 1.0 0.7]
+
+[effectStop bit_talk_light_loop]
+[wt 3.5]
+
+[seVolume ad556 1.0 0.3]
+[seVolume ad664 1.0 0.3]
+[wt 0.5]
+
+＠失意的你
+啊[line 3]
+[k]
+
+＠
+但是，再往后的将来，并不存在。
+[k]
+
+＠
+接受那道钟声，[r]结束你的旅程。
+[k]
+
+＠
+从此往后，就没有你的人生了。[r]就像白垩之城的她，从未有过自己的幸福一样。
+[k]
+
+＠
+再继续前进的话，咏唱着王之名的你[r]便会消失，便不再需要存在了。
+[k]
+
+＠
+做得到吗？[r]为了那种只有一颗的渺小星星。
+[k]
+
+＠
+什么“不愿辜负美丽的星星”。
+[k]
+
+＠
+就为了那种无关紧要、不值一提、[r]无聊至极的理由？
+[k]
+
+[messageOff]
+[cueSe SE_21 21_ad1136]
+[seVolume 21_ad1136 0 0.6]
+[wt 1.8]
+[cueSe SE_21 21_ad1118]
+[wt 0.7]
+
+＠失意的你
+咿[line 6]啊。[r]啊啊，嘎咿咿，啊啊，啊[line 3]
+[k]
+
+＠
+诅咒我的声音，因我终结了不列颠，[r]怨恨我的声音，因我实现了乐园的使命。
+[k]
+
+＠
+成千上万的控诉，[r]数以亿计责备我的声音。
+[k]
+
+＠
+恶意就是这样的。[r]闪耀于风暴中的星辰，在现实中根本不存在。
+[k]
+
+＠
+将[#那种东西]视作理由的我，[wt 1.0][r]拯救不了自己以外的任何人。
+[k]
+
+[messageOff]
+[cueSe Servants_102800 bac658]
+[wt 0.6]
+[cueSe SE_21 21_ad1125]
+[wt 0.7]
+
+[fadeout black 1.0]
+[wait fade]
+
+＠失意的你
+哈[line 3]啊[line 3][r]啊……啊……[line 3]啊？
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_69 1.5]
+[wt 1.5]
+
+[wipeout openEye 0.1 0.5]
+[wait wipe]
+[fadein black 0.1]
+[wait fade]
+[seStop ad556 2.5]
+[seStop ad664 2.5]
+
+[fowardEffect bit_talk_strongwind_light 0,-220]
+[wt 1.5]
+[wipein openEye 2.0 1.0]
+[wait wipe]
+
+[charaPut T 0,-100]
+[wt 2.5]
+
+[bgm BGM_EVENT_140 0.1]
+
+＠失意的你
+……谁？[r]是谁，在保护我[line 3]
+[k]
+
+＠失意的你
+虽然完全没保护好，[r]却伸出了手，拼命想要保护我[line 3]
+[k]
+
+＠
+因你的心血来潮而丢了性命的某人。
+[k]
+
+＠
+是你早已忘记了的，[r]与你没什么差别的，尽头的某人。
+[k]
+
+＠
+她的名字是[line 2]
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_140 1.0 0.5]
+[wait fade]
+
+[fowardEffectDestroy bit_talk_strongwind_light]
+[effectDestroy bit_talk_strongwind01_bk]
+
+[scene 122500]
+[effect bit_sepia01_depth_fs]
+[pictureFrame cut063_cinema]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_140 1.0 1.0]
+[wait fade]
+
+[charaTalk depthOff]
+[charaDepth D 1]
+[charaDepth E 2]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFace E 4]
+[charaFadeinFSR D 0.1 256,-50]
+[charaFadeinFSL E 0.1 -256,-50]
+
+＠D：玛修
+是这样啊。[r]原来没有名字是如此悲伤的事啊。
+[k]
+
+＠D：玛修
+要不这样如何。[r]这其实是我刚想到的点子[line 3]
+[k]
+
+＠D：玛修
+请把我的名字拿去用吧。[r]阿尔托莉雅·卡斯特。
+[k]
+
+[charaFace D 5]
+
+＠D：玛修
+无论用阿尔托莉雅，还是用卡斯特，[r]或者干脆两个一起用！
+[k]
+
+＠D：玛修
+哼，反正我不会再用这个名字了，[r]不用客气，尽管这样自称吧！
+[k]
+
+[charaFace E 1]
+
+＠妖精少女
+[line 3]谢谢你。[r]我会珍惜的[line 3]会好好珍惜的。
+[k]
+
+＠妖精少女
+不只是这个名字，[r]还有你的心意，我会永远、永远地珍惜的。
+[k]
+
+[messageOff]
+[charaTalk off]
+[wt 1.0]
+[fadeout black 2.0]
+[bgm BGM_EVENT_140 2.0 0.5]
+[wait fade]
+
+[charaTalk depthOn]
+[effectStop bit_sepia01_depth_fs]
+[pictureFrame]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+
+[effect bit_talk_strongwind01_bk]
+[scene 123100]
+[fowardEffect bit_talk_strongwind_light 0,-220]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_140 1.0 1.0]
+[wait fade]
+
+[cueSe Servants_102800 bac658]
+[seVolume bac658 0 0.2]
+[shake 0.05 2 2 0.2]
+[se ad32]
+[wt 0.6]
+[shake 0.05 2 2 0.2]
+[se ad618]
+[wt 0.7]
+
+＠阿尔托莉雅
+[line 3]啊啊。[r]啊啊[line 3]啊[line 3]
+[k]
+
+
+＠
+她的名字是[#霍普:Hope]。[r]是在最后的最后，觅见了星光的存在。
+[k]
+
+＠
+是对为大家播撒希望的职责疲惫、哀叹，[r]却依然不忘露出笑容的存在。
+[k]
+
+＠
+只因那种不过是心血来潮的行为，[r]就一直守护着我。
+[k]
+
+＠
+只因那种无关紧要的事情，[r]到现在还愿意相信我。
+[k]
+
+＠
+[line 3]即便那并不特别，[r]也不崇高。
+[k]
+
+＠
+即便在他人看来，那只是微不足道的理由。
+[k]
+
+＠阿尔托莉雅
+……不对。[r]谢谢你那么爱护我。
+[k]
+
+＠
+没错。[r]其实我也没什么了不起的理由。
+[k]
+
+＠
+其实我跟她也没什么不同。
+[k]
+
+＠
+不知道自己有什么值得骄傲，[r]受称赞的才能肯定也只是徒有其表。
+[k]
+
+＠
+我肯定一辈子都遇不到什么[r]无人不称羡的理由吧。
+[k]
+
+＠
+但是。[r]嗯，但是[line 3]
+[k]
+
+＠
+那又如何。[r]我已经满足于此了。
+[k]
+
+＠
+我只是不愿辜负那颗星星，[r]我只是不愿舍弃这份心情。
+[k]
+
+＠
+我们、你们，[r]就因为那种无关紧要的理由[line 3]
+[k]
+
+＠阿尔托莉雅
+才无论何时！[r]都决不能，放弃努力……！
+[k]
+
+[messageOff]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.0 0.5]
+[se ad664]
+[seVolume ad664 0 0]
+[seVolume ad664 1.0 0.5]
+[fowardEffectStop bit_talk_strongwind_light]
+[fowardEffect bit_talk_light_loop]
+[wt 2.5]
+
+[effectStop bit_talk_strongwind01_bk]
+
+[effect bit_talk_avalon_light01]
+[effect bit_talk_avalon_light02]
+
+[cueSe SE_21 21_ad1143]
+[wt 1.0]
+
+[cameraMove 3.5 0,0 1.2]
+
+[fadeout white 2.5]
+[bgm BGM_EVENT_140 1.5 0.5]
+[wait fade]
+
+[fowardEffectStop bit_talk_light_loop]
+
+[scene 10000]
+[cameraHome 0.1]
+[wt 1.5]
+
+[effectStop bit_talk_avalon_light02]
+
+[seVolume ad556 2.0 0.2]
+[seVolume ad664 2.0 0.2]
+[seVolume 21_ad1143 2.0 0.6]
+[fadein white 2.5]
+[bgm BGM_EVENT_140 1.5 1.0]
+[wait fade]
+
+＠
+即便是逞强，即便是自我满足，[r]即便没有自信，最后都不知道答案，
+[k]
+
+＠
+即便在旁人看来，那只是微不足道、无聊至极的理由。
+[k]
+
+＠
+唯独这点会相信，[r]唯独这点值得相信，
+[k]
+
+＠
+唯独这点，[r]时至今日仍这样不断推动我向前奔跑。
+[k]
+
+[messageOff]
+[seStop 21_ad1143 3.0]
+[seStop ad556 3.0]
+[seStop ad664 3.0]
+[fadeout white 3.0]
+[bgm BGM_EVENT_140 3.0 0.5]
+[wait fade]
+
+[effectStop bit_talk_avalon_light01]
+[scene 10001]
+[wt 1.0]
+
+[fadein white 0.5]
+[wait fade]
+
+[bgm BGM_EVENT_140 2.0 1.0]
+
+＠
+再见了，年幼的你。[r]无论是过去，还是将来，永远地再见了。
+[k]
+
+＠
+蕴藏在胸中的星之搏动。[r]那钟声，终将在自己的体内回响吧。
+[k]
+
+
+[messageOff]
+[se ad952]
+[scene 132400 3.0]
+[wt 6.0]
+[fadeout black 2.5]
+[bgm BGM_EVENT_140 2.5 0.5]
+[wait fade]
+
+[scene 122604]
+[wt 1.5]
+
+[fadein black 1.5]
+[bgm BGM_EVENT_140 1.5 1.0]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.4 1]
+[wt 0.5]
+
+＠阿尔托莉雅
+基于与『异邦的魔术师』的契约，[r]应召唤前来。
+[k]
+
+＠阿尔托莉雅
+此番并非为了纠正不列颠，[r]而是为拯救世界之战。
+[k]
+
+＠阿尔托莉雅
+纵使位于时间尽头，[r]此剑亦将交予[&他:她]手。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠奥伯龙·伏提庚
+[line 3]不会吧。[r]不，虽然我确实让你成为王。
+[k]
+
+＠奥伯龙·伏提庚
+结果真的直接作为『乐园妖精』成了英灵？[r]真令人惊讶。你的王者气质到底多强啊？
+[k]
+
+[charaFace A 10]
+
+＠奥伯龙·伏提庚
+但是啊，不觉得有点丢脸吗？[r]你已经退场了吧？
+[k]
+
+＠奥伯龙·伏提庚
+[907ca1]我[-]不管这是你未来的样貌，[r]还是说你就是这种范畴的守护者。
+[k]
+
+＠奥伯龙·伏提庚
+但不列颠已经毁灭，你已经输了。[r]早就没有你出场的余地了。
+[k]
+
+＠奥伯龙·伏提庚
+因实力不足而退出舞台的演员[r]可不该重新登台亮相哦。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠阿尔托莉雅
+……是啊。[r]我守护的事物已经不在此地了。
+[k]
+
+＠阿尔托莉雅
+但是[line 3]妖精王奥伯龙，[r]渴望不列颠末日之人啊。
+[k]
+
+＠阿尔托莉雅
+已死之物继续存活的世界确实丑陋不堪。
+[k]
+
+＠阿尔托莉雅
+你试图令其终结的行动，[r]是正确的。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠奥伯龙·伏提庚
+对吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 16]
+[charaFadein B 0.1 1]
+
+＠阿尔托莉雅
+但将范围扩散至四周就不可容忍了。
+[k]
+
+＠阿尔托莉雅
+纵使妖精们得不到救赎，[r]我们的未来没有任何希望，
+[k]
+
+＠阿尔托莉雅
+夺走其他还有未来之人当下的这种行为，[r]是错误的。
+[k]
+
+[charaFace B 5]
+
+＠阿尔托莉雅
+这比逃避毁灭更加丢人现眼。
+[k]
+
+＠阿尔托莉雅
+是吧，奥伯龙。[r]你的行为可不是有点，而是相当丢脸。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+[wt 1.0]
+[charaFaceFade A 3 0.2]
+[wt 1.5]
+
+？1：（双倍奉还……！）
+？2：（这个阿尔托莉雅超严厉……！）
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaShake C 0.05 3 3 0.4]
+[charaFadein C 0.4 0,-20]
+[charaMove C 0,0 0.4]
+[wt 0.4]
+
+＠玛修
+呜[line 3]这里是……我，究竟[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 1]
+
+＠阿尔托莉雅
+哎呀，突然冒出来。
+[k]
+
+？1：玛修！
+？2：太好了，你醒啦！
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 36]
+[charaFadein C 0.1 1]
+
+＠玛修
+是，是的，我做了一个无以言表，[r]仿佛一直在往下坠落的梦[line 3]
+[k]
+
+[charaFace C 6]
+
+＠玛修
+哎，前辈、阿尔托莉雅小姐！？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠奥伯龙·伏提庚
+连玛修也醒了。[r]哦，是阿尔托莉雅干的好事吧。
+[k]
+
+＠奥伯龙·伏提庚
+那管制室的那帮家伙也会醒过来吧。[r]真麻烦。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+
+＠阿尔托莉雅
+玛修，详情稍后再说，[r][%1]会告诉你的。
+[k]
+
+＠阿尔托莉雅
+现在我们需要你的力量。
+[k]
+
+＠阿尔托莉雅
+要赶在奈落之虫扩散到不列颠外部之前，[r]在此毁灭其根源。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+[wt 1.0]
+[se bac170]
+[charaFace C 7]
+
+＠玛修
+是！[r]请交给我吧！
+[k]
+
+[bgmStop BGM_EVENT_140 2.0]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+
+＠奥伯龙·伏提庚
+你还是老样子，状态切换很快嘛。[r]不过也无所谓啦。
+[k]
+
+[charaFace A 3]
+[bgm BGM_EVENT_115 0.1]
+
+＠奥伯龙·伏提庚
+毕竟打倒敌人就是迦勒底的宗旨嘛。[r]好啊，[907ca1]我[-]愿意奉陪。
+[k]
+
+＠奥伯龙·伏提庚
+正好聊天也聊腻了。[r][907ca1]我[-]是什么人已经说明得很清楚了。
+[k]
+
+＠奥伯龙·伏提庚
+倘若在舞台上，此刻已经进入高潮了。[r]白璧微瑕的是一位观众也没有。
+[k]
+
+＠奥伯龙·伏提庚
+反正是三流的剧目嘛，[r]就当作无人问津的戏院吧。
+[k]
+
+＠奥伯龙·伏提庚
+好啊，放出来吧，[%1]。[r]现在应该能自如地使用你擅长的召唤了。
+[k]
+
+＠奥伯龙·伏提庚
+摆出得意洋洋的表情，[r]开始所谓的守护人理之战吧！
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[branchMaterial FLAG_ON8]
+[branchRouteSelectCount truthflag8 2 EQUAL 3000910,3000919 2030,2060]
+[branch FLAG_OFF8]
+
+[label truthflag8]
+[branchRouteSelectCount FLAG_ON8 3 ABOVE 3000902,3000903,3000905,3000916,3000919,3001003,3001005 2000,2010,2020,2040,2050,2070,1080]
+[branch FLAG_OFF8]
+
+[label FLAG_ON8]
+
+？1：正合我意！
+
+[branch select01_01]
+
+？2：[FF0000]……我最后再问你一遍。[-]
+
+[branch select01_02]
+
+？！
+
+[branch user_join8]
+[label FLAG_OFF8]
+
+？1：正合我意！
+[branch select01_01]
+
+？！
+
+[branch user_join8]
+
+[label user_join8]
+
+
+[label select01_01]
+
+[messageOff]
+[bgmStop BGM_EVENT_115 1.5]
+[wt 1.5]
+
+[branch select01_end]
+
+[label select01_02]
+
+＠奥伯龙·伏提庚
+[FFFFFF]？[-]　什么？
+[k]
+
+？1：你的目的是什么？
+
+？！
+
+[charaFace A 6]
+
+＠奥伯龙·伏提庚
+什么目的呀，只是想让一切都化作纯白啊。
+[k]
+
+＠奥伯龙·伏提庚
+[907ca1]我[-]不是已经说了很多了吗？[r]人类与妖精都同样令[907ca1]我[-]无比恶心。
+[k]
+
+[charaFace A 12]
+
+＠奥伯龙·伏提庚
+所以要将一切都收拾干净。[r][907ca1]我[-]就是为此才利用了你们。
+[k]
+
+＠奥伯龙·伏提庚
+难道你以为那是一段愉快的旅途吗？[r]若真是如此，那真是节哀顺变啦。
+[k]
+
+＠奥伯龙·伏提庚
+[907ca1]我[-]的话全都是谎言，不值得相信。
+[k]
+
+＠奥伯龙·伏提庚
+无论是不列颠的和平，还是阿尔托莉雅的使命，[r]所有一切都无关紧要。
+[k]
+
+？1：或许确实如此吧……
+
+？！
+
+[messageOff]
+[wt 0.4]
+
+？1：但关于[#闪耀之星:缇坦妮娅]的话也是吗？
+
+？！
+
+[charaFace A 0]
+[wt 1.8]
+[charaFaceFade A 9 0.3]
+
+[bgmStop BGM_EVENT_115 2.0]
+
+＠奥伯龙·伏提庚
+哎呀。[r]我真的很讨厌你的这点。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[charaFaceFade A 3 0.2]
+
+[label select01_end]
+
+
+＠奥伯龙·伏提庚
+崩落之咎、黄昏之迹，[bgm BGM_EVENT_105 0.1][r]一切皆如仲夏夜之梦。
+[k]
+
+＠奥伯龙·伏提庚
+[907ca1]我[-]名叫奥伯龙，[r]奥伯龙·伏提庚。
+[k]
+
+[charaFace A 12]
+
+＠奥伯龙·伏提庚
+是无论如何都会与你们敌对的[r]人类之威胁兼陷阱之末日装置。
+[k]
+
+＠奥伯龙·伏提庚
+与野兽们不同，决不会有所谓的爱。[r]就通过此战来证明这点吧。
+[k]
+
+＠奥伯龙·伏提庚
+来吧，狠狠掀起悲剧的帷幕！[r]巡礼之旅将在此终结！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_105 0.4]
+[wait fade]
+[soundStopAll]
+[end]

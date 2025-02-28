@@ -1,0 +1,1251 @@
+
+＄03-00-13-19-1-0
+
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 1098255100 1 戈尔德鲁夫]
+[charaSet B 1098257300 1 达·芬奇]
+[charaSet C 98001000 1 玛修]
+[charaSet D 1098257800 1 玛修_追加]
+[charaSet E 1098239310 1 卡多克]
+[charaSet F 1098257400 1 希翁]
+[charaSet G 1098158330 1 尼莫]
+[charaSet H 6042000 1 高扬斯卡娅]
+[charaSet I 1098253800 1 瓦克昌]
+
+[sceneSet L 173502 1]
+[charaScale L 1.2]
+[charaDepth L 2]
+
+[sceneSet K 10000 1]
+[charaScale K 1.01]
+[charaDepth K 1]
+
+[scene 132900]
+[fadein black 2.0]
+[wait fade]
+
+[bgm BGM_SHINYAMA_1 0.1 0.6]
+
+[charaTalk off]
+[charaDepth F 1]
+[charaDepth E 3]
+[charaDepth A 4]
+[charaDepth B 2]
+[charaDepth C 5]
+[charaFace F 18]
+[charaFadeinFSL F 0.1 -450,0]
+[charaFace E 9]
+[charaFadeinFSL E 0.1 -225,0]
+[charaFace A 9]
+[charaFadein A 0.1 1]
+[charaFace B 23]
+[charaFadeinFSR B 0.1 225,0]
+[charaFace C 4]
+[charaFadeinFSR C 0.1 450,0]
+[wt 1.5]
+
+？1：…………
+？2：（大家都不作声……）
+
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk on]
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+
+＠尼莫
+…………
+[k]
+
+[charaFace G 4]
+
+＠尼莫
+各位可以为城市的情况感到痛心，[r]但当前还在执行作战。
+[k]
+
+＠尼莫
+虽然残忍，但我们没有时间[r]去吊唁那些战死者了。
+[k]
+
+＠尼莫
+对吧，戈尔德鲁夫司令官。
+[k]
+
+＠尼莫
+能麻烦你确认一下我们的现状，[r]并总结今后的方针吗？
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[bgmStop BGM_SHINYAMA_1 2.0]
+[wt 1.2]
+[charaFace A 0]
+
+＠戈尔德鲁夫
+……唔嗯，说得也是。[r]等作战结束后，再考虑为死者安魂吧。
+[k]
+
+[bgm BGM_MAP_91 0.1]
+
+＠戈尔德鲁夫
+奇琴伊察在奥塞洛特尔的攻击下沦陷了。
+[k]
+
+＠戈尔德鲁夫
+恐龙王死亡。控制太阳位置的太阳遍历[r]转移到了墨西哥城。
+[k]
+
+＠戈尔德鲁夫
+幸存下来的迪诺斯有60多名。[r]奥塞洛特尔则以几乎全军覆没的状态撤退。
+[k]
+
+＠戈尔德鲁夫
+……关于那些奥塞洛特尔……
+[k]
+
+＠戈尔德鲁夫
+已查明他们既不是异闻带中的人类，[r]也不是特斯卡特利波卡准备的泛人类史士兵。
+[k]
+
+＠戈尔德鲁夫
+而是生活在米克特兰的猿类……[r]极其接近人类的类人猿。
+[k]
+
+＠戈尔德鲁夫
+奥塞洛特尔与迪诺斯的战争，[r]并非泛人类史与异闻带之争，
+[k]
+
+＠戈尔德鲁夫
+而是自然界中的生存竞争……[r]米克特兰内的自然法则。
+[k]
+
+＠戈尔德鲁夫
+奥塞洛特尔确实是残暴的种族，[r]但并不是与泛人类史敌对的生物。
+[k]
+
+[charaFace A 9]
+
+＠戈尔德鲁夫
+……啊，不对，一部分不一样。[r]伊斯卡利明确敌视[#泛人类史:我们]。
+[k]
+
+＠戈尔德鲁夫
+不过……
+[k]
+
+？1：…………
+？2：（伊斯卡利他……大概……）
+
+？！
+
+[charaFace A 13]
+
+＠戈尔德鲁夫
+不，别提那种杀人魔了。[r]问题在于今后。
+[k]
+
+＠戈尔德鲁夫
+在这场战斗中，我们也蒙受了大量损失。
+[k]
+
+＠戈尔德鲁夫
+耍帅前去保卫奇琴伊察的高扬斯卡娅[r]束手无策地输给了特斯卡特里波卡。
+[k]
+
+＠戈尔德鲁夫
+被[%1]救回来后，[r]目前正在治疗室里夹着尾巴，不，是夹着舌头说胡话。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth H 0]
+[charaPut H -200,0]
+[charaTalk H]
+[charaFace H 2]
+[charaFadeTime H 0.4 0.7]
+[charaMove H -250,0 0.4]
+[wt 0.7]
+
+＠高扬斯卡娅
+我可是没有御主，自主魔力供给的哦！[r]如果彼此条件相当的话，我才不会输呢！
+[k]
+
+[charaFadeout H 0.2]
+[wt 0.2]
+[charaFace A 1]
+
+＠戈尔德鲁夫
+呵，真能吹。
+[k]
+
+＠戈尔德鲁夫
+不过迦勒底可没有什么冒险小子[r]会给那个危险的从者提供魔力啦。
+[k]
+
+＠戈尔德鲁夫
+都明白了吧。[r]你们也要保持这样的认知。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+[wt 1.2]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 16]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+另外……为击退潜航艇周边的奥塞洛特尔[r]而出击的恐爪龙们下落不明。
+[k]
+
+＠戈尔德鲁夫
+出击时，我收到了老七给[%1][r]和基列莱特的留言。
+[k]
+
+＠戈尔德鲁夫
+“不用在意，在补时阶段翻盘吧！”[r][line 3]就是这样。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 29]
+[charaFadein D 0.1 1]
+[wt 1.0]
+
+？1：…………
+
+？！
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+还有，在[%1]与特斯卡特利波卡战斗时[r]现身的U－奥尔加玛丽……
+[k]
+
+＠戈尔德鲁夫
+『异星之神』已恢复记忆，[r]飞离了奇琴伊察。
+[k]
+
+＠戈尔德鲁夫
+……我一直都担心会发生这种事，[r]但不得不说现在已经板上钉钉。
+[k]
+
+＠戈尔德鲁夫
+今后应该无法指望[r]此前的那种合作体制了吧。
+[k]
+
+＠戈尔德鲁夫
+虽然我们在这异闻带中的敌人[r]目前还是戴比特与特斯卡特利波卡，
+[k]
+
+＠戈尔德鲁夫
+但[#人理保障:Grand Order]中最大的敌人是『异星之神』。[r]这点要铭记于心，明白了吗？
+[k]
+
+？1：可是，这……
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+
+＠玛修
+没错，U－奥尔加玛丽小姐就是[r]我们熟悉的奥尔加玛丽小姐！
+[k]
+
+＠玛修
+哪怕恢复了记忆，[r]只要能好好沟通[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 14]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+那已经　不是　什么　奥尔加了！[r]无论长得多像奥尔加玛丽·阿尼姆斯菲亚，
+[k]
+
+＠戈尔德鲁夫
+不，就算给人一种“这基本就是[r]奥尔加玛丽·阿尼姆斯菲亚嘛”的感觉，
+[k]
+
+＠戈尔德鲁夫
+那家伙也是『异星之神』！[r]那可是在先前的战斗中拥有恒星级灵基的怪物啊！？
+[k]
+
+[charaFace A 15]
+
+＠戈尔德鲁夫
+你知道太阳1秒钟能产生多少能量吗？[r]好像比我们人类迄今为止消耗的能量总量还要多！
+[k]
+
+[charaFace A 18]
+
+＠戈尔德鲁夫
+那是决不能让它爆炸的危险品……！[r]你们也多少顾虑一下自己的人身安全啊！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+[wt 1.2]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 16]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+卡多克，你也一样哦。
+[k]
+
+＠戈尔德鲁夫
+要盯紧[%1]和基列莱特。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+
+＠达·芬奇
+……是啊。[r]关于U－奥尔加玛丽，也只能这样应对了。
+[k]
+
+＠达·芬奇
+但是还有一个差不多危险的家伙。[r]库库尔坎怎么办？
+[k]
+
+＠达·芬奇
+她是创造出该异闻带的地外生命体的代表……[r]是米克特兰的Archetype。
+[k]
+
+＠达·芬奇
+特斯卡特利波卡也说过吧。[r]『她迟早会成为敌人』。我也同意。
+[k]
+
+＠达·芬奇
+以往的我们从未对米克特兰展露过[r]加害之意，或是发起过攻击。
+[k]
+
+＠达·芬奇
+可今后就不一样了。[r]必须切除空想树的我们。
+[k]
+
+＠达·芬奇
+试图让ORT苏醒过来[r]破坏地球的[#隐匿者:Crypter]。
+[k]
+
+＠达·芬奇
+两者都会是米克特兰的敌害。[r]换言之，
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaFadein F 0.1 1]
+
+＠希翁
+对库库尔坎来说，非米克特兰产的生命体[r]全都是敌人，是这样吧。
+[k]
+
+＠希翁
+她之所以在地表攻击Storm Border，[r]也是该逻辑的一环嘛。
+[k]
+
+＠希翁
+由于我们……不，是[%1]对迪诺斯[r]表现出了理解，
+[k]
+
+＠希翁
+库库尔坎才成为了我们的伙伴，[r]但既然已经不需要再守护迪诺斯了，
+[k]
+
+＠希翁
+下次她就会作为米克特兰的全体意见[r]抹杀我们了吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+[charaFadeTime K 0.2 0.5]
+[wt 0.1]
+
+＠达·芬奇
+（嗯。从米克特兰的立场来看，[r]　想最先杀死的应该是戴比特与特斯卡特利波卡。）
+[k]
+
+＠达·芬奇
+（随后就是我们。[r]　不过……库库尔坎真的是迈雅的代表吗？）
+[k]
+
+＠达·芬奇
+（她是否采取过像是遵从迈雅方针的行动，[r]　以及像是违背迈雅方针的行动呢？）
+[k]
+
+[charaFadeout B 0.1]
+[charaFadeout K 0.2]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠戈尔德鲁夫
+原来如此。[r]那么也把库库尔坎设想为敌人吧。
+[k]
+
+[charaFace A 1]
+
+＠戈尔德鲁夫
+放心吧。顺利的话，说不定还能让其他势力[r]相互争斗，我们坐收渔翁之利。
+[k]
+
+[charaFace A 0]
+
+＠戈尔德鲁夫
+现状的确认到此为止。[r]司令部将会根据这些情报来拟定作战计划。
+[k]
+
+＠戈尔德鲁夫
+[%1]、玛修·基列莱特、[r]卡多克·泽姆露普斯，给你们2小时的休息时间。
+[k]
+
+＠戈尔德鲁夫
+可以去外面吹吹风，也可以小睡一会儿，[r]随你们自由支配时间。
+[k]
+
+＠戈尔德鲁夫
+2小时后重新集合，严禁迟到。
+[k]
+
+[messageOff]
+[bgmStop BGM_MAP_91 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout A 0.1]
+[scene 173502]
+[charaFadein L 0.1 40,-250]
+[wt 1.5]
+[charaMove L -40,-250 5.5]
+[fadein black 1.5]
+[wait fade]
+
+[se ad951 0]
+[seVolume ad951 1.0 1.0]
+[wt 2.5]
+[charaFadeout L 1.0]
+[seVolume ad951 1.0 0.5]
+[wt 1.0]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.4 1]
+[wt 0.4]
+[seStop ad951 2.0]
+[bgm BGM_MAP_10 0.1]
+
+＠玛修
+果然还漆黑一片呢……
+[k]
+
+＠玛修
+换作以往的奇琴伊察，[r]现在应该还是傍晚时分……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠卡多克
+我就这样被带着出来了……
+[k]
+
+＠卡多克
+是找我有事吗，基列莱特、[r][%1]？
+[k]
+
+？1：去看一下迪诺斯的情况。
+？2：……去找一下有没有认识的人。
+
+？！
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.4 1]
+[wt 0.4]
+
+＠瓦克昌
+哦，噢。[r]你们的那个谈话结束了吗？
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+
+＠玛修
+瓦克昌先生！[r]您平安无事呀！
+[k]
+
+[charaFace C 4]
+
+＠玛修
+啊……请问，您知道各位恐爪龙先生[r]和特佩乌先生在哪吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠瓦克昌
+恐爪龙兄弟倒是没见到，[r]特佩乌说要先回一趟家。
+[k]
+
+＠瓦克昌
+其他迪诺斯都聚集在祭祀场。[r]去那里看看说不定就能找到恐爪龙兄弟了吧？
+[k]
+
+？1：！　谢谢你，瓦克昌！
+？2：去祭祀场吧，玛修！
+
+？！
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+[wt 0.1]
+[charaMoveReturn C 0,-7 0.4]
+[wt 0.7]
+[se ad132]
+[charaMove C -50,0 0.4]
+[charaFadeout C 0.7]
+[bgmStop BGM_MAP_10 3.0]
+[wipeout leftToRight 0.4 1]
+[wait wipe]
+[charaFadeout C 0.1]
+[seStop ad132 1.6]
+[wt 0.2]
+[wipein rightToLeft 0.4 1]
+[wait wipe]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠卡多克
+（笨蛋，这不意味着他们正在办葬礼吗！？）[wt 1.0][r]慢着，我们这些外人就算去了也[line 3]！
+[k]
+
+[charaFace E 1]
+
+＠卡多克
+该死，都走远了。[r]……没办法，我也一起去招人厌吧……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠瓦克昌
+不，等一下，小哥。[r]麻烦你陪我一会儿，我有事想问你。
+[k]
+
+＠瓦克昌
+……我问你，奥尔加去哪里了？[r]还有奥尔加跟你们是什么关系？
+[k]
+
+＠瓦克昌
+这事特佩乌不肯具体告诉我。[r]难道是我不该知道的事吗？
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[wt 1.2]
+[charaFace E 6]
+
+＠卡多克
+……好吧，我来告诉你。
+[k]
+
+＠卡多克
+听说我们被绑架到墨西哥城的时候，[r]你一直帮忙守护潜航艇嘛。作为那次的谢礼。
+[k]
+
+[charaFace E 1]
+
+＠卡多克
+刚好是个让人改变主意的好机会。[r]瓦克昌，令你着迷不已的那家伙啊[line 3]
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+[wt 1.5]
+
+[bgmStop BGM_EVENT_5 1.5]
+[fadeout black 1.5]
+[wait fade]
+[charaFadeout I 0.1]
+[charaSet A 1098256800 1 温和的迪诺斯]
+[charaSet B 1098258600 1 有些遗憾的迪诺斯]
+[charaSet E 1098258310 1 聚过来的迪诺斯]
+[charaSet F 1098258210 1 慌张的迪诺斯]
+[charaSet G 1098258300 1 面带笑容的迪诺斯]
+[charaSet H 1098258400 1 微笑的迪诺斯]
+[charaSet I 1098256900 1 青梅竹马感的迪诺斯]
+[charaSet J 1098124800 1 异星的巫女]
+[sceneSet L 169903 1]
+[charaScale L 1.2]
+[charaDepth L 2]
+[sceneSet M 169903 1]
+
+[imageSet X back10000 1 1]
+[charaScale X 1.01]
+[imageSet Y back10000 1 1]
+[charaScale Y 1.01]
+
+[subCameraOn]
+[charaLayer M sub]
+[charaLayer A sub]
+[charaLayer B sub]
+[charaLayer F sub]
+[charaLayer G sub]
+[charaLayer H sub]
+[charaDepth M 2]
+[charaDepth A 7]
+[charaDepth B 4]
+[charaDepth F 5]
+[charaDepth G 6]
+[charaDepth H 3]
+[charaScale M 1.0]
+[charaScale B 0.6]
+[charaScale F 0.5]
+[charaScale G 0.8]
+[charaScale H 0.8]
+[subRenderScale 1.25]
+[subCameraFilter through]
+[charaTalk off]
+[charaFace H 0]
+[charaFadein H 0.1 -600,0]
+[charaFace B 0]
+[charaFadein B 0.1 -240,-160]
+[charaFace F 0]
+[charaFadein F 0.1 -150,-250]
+[charaFace G 0]
+[charaFadein G 0.1 400,-100]
+[charaFace A 0]
+[charaFadein A 0.1 600,0]
+[charaFadein M 0.1 0,-200]
+[subRenderFadein 0.1 100,0]
+[wt 0.1]
+[scene 169903]
+[wt 1.5]
+[subRenderMove -100,0 7.0]
+[fadein black 1.5]
+[wait fade]
+
+[wt 4.5]
+[subRenderFadeout 1.0]
+[wt 1.0]
+
+[charaFadeout A 0.1]
+[charaFadeout B 0.1]
+[charaFadeout F 0.1]
+[charaFadeout G 0.1]
+[charaFadeout H 0.1]
+[charaFadeout M 0.1]
+[wt 0.1]
+[charaLayer M normal]
+[charaLayer A normal]
+[charaLayer B normal]
+[charaLayer F normal]
+[charaLayer G normal]
+[charaLayer H normal]
+[charaScale M 1.0]
+[charaScale A 1.0]
+[charaScale B 1.0]
+[charaScale F 1.0]
+[charaScale G 1.0]
+[charaScale H 1.0]
+[subCameraOff]
+
+[bgm BGM_EVENT_156 0.1]
+
+[charaTalk on]
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠玛修
+各位恐爪龙先生……不在呢。
+[k]
+
+＠玛修
+感觉整座城市的迪诺斯都聚集在这里了……[r]大家好像正在举行会谈。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠温和的迪诺斯
+哎呀，[%1]、玛修。[r]又来给我们讲泛人类史故事了吗？
+[k]
+
+＠温和的迪诺斯
+那可太令人高兴了。来，去圈子中心吧。[r]这次请一定要讲讲中南美的故事。
+[k]
+
+？1：……抱歉，我现在的心情讲不好故事……
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠有些遗憾的迪诺斯
+这样啊。偶尔也会有这种时候吧。[r]毕竟用语言传达事象是非常困难的嘛。
+[k]
+
+＠有些遗憾的迪诺斯
+哪怕在表达或描述上犯一点小错，[r]也不再是『完美的传达』了嘛。
+[k]
+
+？2：……为什么没人感到愤怒呢？
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠歪着头的迪诺斯
+[FFFFFF]？[-]　发生了什么值得愤怒的事吗？[r]哦哦，你是指把乌库伯关进牢房啊，确实。
+[k]
+
+＠歪着头的迪诺斯
+我们也不想对同胞做那种事，[r]但最终还是决定参考泛人类史的故事……
+[k]
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠玛修
+……请问，[r]各位迪诺斯接下来打算怎么办？
+[k]
+
+＠玛修
+大家都知道太阳会爆炸了吧？[r]而且同伴还被杀害，城市也被破坏了……
+[k]
+
+＠玛修
+太阳的问题姑且不论，城市遭破坏是戴比特先生……[r]不，是泛人类史的知识所致。
+[k]
+
+＠玛修
+各位有权利追究我们的责任。[r]然而，为什么[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠聚过来的迪诺斯
+喂～，你在干什么啦，奇塔姆！[r]可别弄哭玛修哦～？　这样很逊哦～？
+[k]
+
+＠聚过来的迪诺斯
+难道是拿刚才那个乱七八糟的算式给她看了～？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 1]
+
+＠慌张的迪诺斯
+没有，不是这样……这下头疼了。
+[k]
+
+＠慌张的迪诺斯
+我并没有打算让两位的精神状态变得忧郁……[r]但原来是这样啊。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠微笑的迪诺斯
+两位脑海中刚才闪过的脑波，[r]就是所谓的『罪恶感』吧。
+[k]
+
+＠微笑的迪诺斯
+你们以前就很在意了吧。[r]还问我们是否对泛人类史怀有敌意。
+[k]
+
+[charaFace H 1]
+
+＠微笑的迪诺斯
+其实听到这个问题时，我们非常高兴。
+[k]
+
+＠微笑的迪诺斯
+因为这证明了你们一直是在认同异闻带[r]存在方式的前提下战斗的，也从未遗忘。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠聚过来的迪诺斯
+嗯，说得对。[r]不过，令人稍微有些悲伤呢。
+[k]
+
+＠聚过来的迪诺斯
+你们一直记得那些痛苦的事，[r]还重复了六次吧？
+[k]
+
+＠聚过来的迪诺斯
+要是每次都能忘记就好了。[r]不过泛人类史也因此才有了故事呢。
+[k]
+
+？1：因为不会忘记[line 3]才有了故事？
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠温和的迪诺斯
+嗯。这就是泛人类史和我们最大的差别哦。
+[k]
+
+＠温和的迪诺斯
+我们没有历史，没有故事。[r]所以才能将灭绝当作日常功课来接受。
+[k]
+
+＠温和的迪诺斯
+因为[#它没有被记录为痛苦的事]。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠面带笑容的迪诺斯
+真是乐天派呢～！　虽然是在知道了[r]异闻带构造的当下才说得出这种话～！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠玛修
+……那个，难道说，大家……
+[k]
+
+＠玛修
+我知道这么问非常没礼貌……
+[k]
+
+＠玛修
+难道说其实不是特佩乌先生的理解能力特别强，[r]而是各位迪诺斯全都，那个……
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠温和的迪诺斯
+你想说我们大脑的构造、智能水平都一样吗？[r]这个嘛，说得对。
+[k]
+
+＠温和的迪诺斯
+迪诺斯并没有『天才』『优秀』[r]这类形容或个体差异哦。
+[k]
+
+＠温和的迪诺斯
+特佩乌不同于我们的地方不在于思考精确度，[r]而是源于肉体的『看待事物的角度差异』。
+[k]
+
+＠温和的迪诺斯
+所有迪诺斯在听到各位的故事时，[r]就理解了米克特兰是异闻带[line 3]是空想。
+[k]
+
+＠温和的迪诺斯
+在此前提下，我们依然向往着各位的故事。[r]与此同时，也感受到了名为寂寞的情绪。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠面带笑容的迪诺斯
+我倒是一直听得很开心呢！[r]好想在亚特兰蒂斯游泳啊！
+[k]
+
+＠面带笑容的迪诺斯
+为实现这目标，也必须延续到下一次才行呢！[r]延续到水生类能够出现的世界！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 0]
+[charaFadein I 0.1 1]
+
+＠青梅竹马感的迪诺斯
+库克莫当不了蛇颈龙吧。[r]性子那么急，真能伸长脖子翘首期盼进化吗？
+[k]
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaScale B 0.8]
+[charaScale E 0.8]
+[charaScale G 1.0]
+[charaScale H 1.0]
+[charaScale M 1.1]
+[charaDepth B 4]
+[charaDepth E 5]
+[charaDepth G 6]
+[charaDepth H 3]
+[charaDepth M 1]
+[charaFadein M 0.4 0,-200]
+[charaFace H 1]
+[charaFadein H 0.4 -400,0]
+[charaFace B 2]
+[charaFadein B 0.4 -40,-160]
+[charaFace E 2]
+[charaFadein E 0.4 300,-180]
+[charaFace G 1]
+[charaFadein G 0.4 700,-80]
+
+[cueSe SE_22 22_ad1205]
+[wt 3.0]
+
+[charaFadeout B 0.4]
+[charaFadeout E 0.4]
+[charaFadeout G 0.4]
+[charaFadeout H 0.4]
+[charaFadeout M 0.4]
+[wt 0.7]
+[charaScale B 1.0]
+[charaScale E 1.0]
+
+[charaTalk on]
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠温和的迪诺斯
+好了，[r]时间差不多了。
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[wt 0.4]
+[cueSe SE_22 22_ad1210]
+[seStop 22_ad1210 2.0]
+[charaMove B 80,0 1.7]
+[wt 1.0]
+[charaFadeout B 0.7]
+[wt 0.7]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+[wt 0.4]
+[charaMove E -100,0 1.7]
+[cueSe SE_22 22_ad1208]
+[seStop 22_ad1208 2.0]
+[wt 1.0]
+[charaFadeout E 0.7]
+[wt 0.7]
+
+[wt 1.0]
+
+
+？1：大家要去哪里……？
+？2：请问，差不多是指……？
+
+？！
+
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠玛修
+[line 3]大家没去奇琴伊察，[r]而是往树海的方向[line 3]？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠温和微笑的迪诺斯
+是的。在失去了太阳遍历和恐龙王的当下，[r]我们已经没理由再聚集在奇琴伊察了。
+[k]
+
+[charaFace H 1]
+
+＠温和微笑的迪诺斯
+两位还请为泛人类史竭尽全力吧。
+[k]
+
+＠温和微笑的迪诺斯
+不必为我们担心。[r]反正我们是注定在此灭绝的种族。
+[k]
+
+[bgmStop BGM_EVENT_156 2.5]
+[messageOff]
+[charaMove H 100,0 1.7]
+[cueSe SE_22 22_ad1208]
+[seStop 22_ad1208 2.0]
+[wt 1.0]
+[charaFadeout H 0.7]
+[wt 3.0]
+
+？1：……大家都走掉了……
+？2：原本那么热闹的城市，已经一个人都……
+
+？！
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠D：玛修
+…………是啊。
+[k]
+
+＠D：玛修
+不但不哀叹自己的命运，[r]还担心我们的安全……
+[k]
+
+[charaFace D 29]
+
+＠D：玛修
+不憎恨他人，不埋怨环境，[r]分享自己力所能及幸福的人们[line 3]
+[k]
+
+＠D：玛修
+这本是很美好的事，[r]然而我为什么[line 3]会如此悲伤呢。
+[k]
+
+[messageOff]
+[wt 0.6]
+
+？1：…………我知道，这是种什么样的心情。
+
+[branch lbl_sel01a]
+
+？2：……（哪怕灭绝已然注定……）
+
+[branch lbl_sel01b]
+
+？！
+
+[label lbl_sel01a]
+[cueSe SE_22 22_ad1177]
+[fadeout white 1.0]
+[wait fade]
+[charaFadeout D 0.1]
+[charaTalk C]
+[charaFace C 13]
+[charaFadein C 0.1 1]
+[cameraFilter gray]
+[scene 105500]
+[wt 0.1]
+[fadein white 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[fadeout white 1.0]
+[wait fade]
+[charaFadeout C 0.1]
+[charaTalk D]
+[charaFace D 29]
+[charaFadein D 0.1 1]
+[cameraFilter normal]
+[scene 169903]
+[wt 0.1]
+[fadein white 1.0]
+[wait fade]
+[wt 1.0]
+[branch lbl_sel01end]
+
+[label lbl_sel01b]
+？1：（[line 3]也应该还有能做的事。）
+
+？！
+
+[wt 0.2]
+[label lbl_sel01end]
+
+[charaFadeout D 0.7]
+[wt 0.7]
+[se ad173]
+[se ad987]
+[wt 1.0]
+[seStop ad173 0.5]
+[seStop ad987 0.5]
+[wt 1.5]
+[charaScale L 1.4]
+[charaFadein L 1.0 -100,-250]
+[charaMove L -120,-250 1.5]
+[wt 1.5]
+[blur lens 1.5 2 20]
+[wt 1.5]
+[charaTalk off]
+[subCameraOn 1]
+[subCameraFilter #A through]
+[charaLayer J sub #A]
+[charaDepth J 3]
+[charaDepth L 2]
+
+[charaScale J 0.8]
+[charaFace J 0]
+[charaFadein J 0.1 300,120]
+[subRenderFadein #A 0.7 0,-200]
+[wt 3.5]
+
+[fadeout black 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

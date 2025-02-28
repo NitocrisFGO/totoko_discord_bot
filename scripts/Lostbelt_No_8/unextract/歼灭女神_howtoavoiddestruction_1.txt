@@ -1,0 +1,1473 @@
+
+
+＄04-00-02-14-1-0
+
+[soundStopAll]
+[enableFullScreen]
+
+
+[charaSet A 7046001 1 难敌]
+[charaSet B 7046001 1 难敌2]
+[charaSet C 1098270000 1 希翁]
+[charaSet D 1098270200 1 迦摩]
+[charaSet E 1098270300 1 阿愈丝]
+[charaSet F 1098267000 1 杜尔伽]
+[charaSet G 1098269100 1 拉妮－ⅩⅡ]
+[charaSet H 1098269100 1 拉妮－ⅩⅡ2]
+[charaSet I 3054001 1 怖军]
+[charaSet J 1098269300 1 塞蕾雪拉]
+[charaSet K 1098269800 1 玛奇里_少年]
+[charaScale K 1.2]
+[charaSet L 1098269500 1 莱诺尔]
+[charaScale L 1.2]
+[charaSet M 1098268900 1 樱]
+[charaScale M 1.1]
+[charaSet N 1098269200 1 奥西里斯之尘]
+[charaSet O 1098269200 1 奥西里斯之尘2]
+
+[sceneSet P 10000 1]
+[charaScale P 1.05]
+[sceneSet Q 189600 1]
+[charaScale Q 1.2]
+
+[charaSet T 5009000 1 特效用1]
+
+
+[scene 189600]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+这就是我所观测到的对抗毁灭的最强攻略方案。[r]不认可异议。
+[k]
+
+＠拉妮－ⅩⅡ
+因此，能请你们继续圣杯战争吗？
+[k]
+
+＠拉妮－ⅩⅡ
+我只不过是监督官。
+[k]
+
+＠拉妮－ⅩⅡ
+杜尔伽也是系统方的存在，[r]与圣杯战争的争斗本身并无关系。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 4]
+[charaFadein D 0.1 1]
+
+＠迦摩
+没关系？　攻击了[#Rider:骑兵]的御主和[#Saber:剑士]，[r]亏你还好意思说得出口呢。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 30]
+[charaFadein F 0.1 1]
+
+＠杜尔伽
+因为那是我被赋予的神务。[r]本女神是为完成神务而存在的。
+[k]
+
+＠杜尔伽
+解析、接触、介入系统的根基，[r]可能对运营造成障碍的[#Rider:骑兵]御主。
+[k]
+
+＠杜尔伽
+表现出要加害我的御主，也就是监督官的意思，[r]并实际采取了行动的[#Saber:剑士]。
+[k]
+
+＠杜尔伽
+两者皆为歼灭对象。因此加以排除。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠迦摩
+这场圣杯战争整体的守护者、监督官持有的武力……[r]我不认为你的存在意义仅此而已。
+[k]
+
+[charaFace D 4]
+
+＠迦摩
+杜尔伽，根据我的判断，[r]你与这场圣杯战争的根基之间有着更深层的关联。
+[k]
+
+[charaFace D 1]
+
+＠迦摩
+因为若非如此，[r]你怎么会披着ＡＩ的皮躲藏起来呢？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+在型号[#Ｄ:Defend]中也算特别的Ｘ。[r]身为不明Ｘ的[#Ｄ:杜尔伽]……
+[k]
+
+[charaFace G 4]
+
+＠拉妮－ⅩⅡ
+命名品味相当不错。[r]身为御主，我倍感骄傲。
+[k]
+
+[charaFace G 5]
+
+＠拉妮－ⅩⅡ
+不管怎么说[line 3]确实。
+[k]
+
+[charaFace G 4]
+
+＠拉妮－ⅩⅡ
+正如你的推测，这场圣杯战争正因为有杜尔伽在[r]才得以成立。这是事实。
+[k]
+
+[charaFace G 6]
+
+＠拉妮－ⅩⅡ
+由我为各位说明吧。毕竟我希望[r]你们务必能理解这美丽的系统管理方式。
+[k]
+
+[charaFace G 4]
+＠拉妮－ⅩⅡ
+杜尔伽拥有具有超大规模容量的『孔洞』。
+[k]
+
+＠拉妮－ⅩⅡ
+那是用来接收诸神授予的力量，[r]并予以安全行使的[#保管场所:存储空间]吧。
+[k]
+
+[charaFace G 7]
+＠拉妮－ⅩⅡ
+我用圣杯的力量先召唤了五骑从者，[r]以灵基未觉醒的状态保存进了杜尔伽的『孔洞』。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_81 0.5 0.5]
+
+[charaTalk depthOff]
+[charaDepth P 1]
+[charaDepth C 2]
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+[charaPut P 0,-200]
+[charaFadeTime P 0.2 0.5]
+
+＠希翁
+（也就是……[r]　参加ＡＩ圣杯战争的从者的，本体吧。）
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaDepth Q 3]
+[charaDepth G 4]
+
+[bgm BGM_EVENT_81 0.5 1.0]
+
+[charaScale G 1.2]
+[charaFace G 6]
+[charaFadein Q 1.0 -60,-300]
+[charaFadein G 1.0 -90,0]
+[charaMove Q 0,-300 60.0]
+[charaMove G 1 60.0]
+[wt 1.2]
+[charaFadeout P 0.1]
+
+＠拉妮－ⅩⅡ
+然后用剩余的力量进行了最初的『旋转』，[r]创造出了五骑[#Alterego:他人格]从者。
+[k]
+
+[charaFace G 2]
+
+＠拉妮－ⅩⅡ
+……对了，出现在这个世界的[r]类似于『英灵之影』的东西，
+[k]
+
+＠拉妮－ⅩⅡ
+算是当时的冲击所产生的未及人格的残渣，[r]类似于[#Alterego:他人格]的碎片。
+[k]
+
+＠拉妮－ⅩⅡ
+它们作为英灵的碎片，还是拥有些许力量的，[r]应该是与故障相结合，成为了特殊的敌对个体吧。
+[k]
+
+[charaFace G 0]
+
+＠拉妮－ⅩⅡ
+好啦，这场圣杯战争的目的，[r]是将从者相互战斗时与退去时所产生的能量，
+[k]
+
+＠拉妮－ⅩⅡ
+进一步被同时与平面之月世界相连的[r]杜尔伽的『孔洞』所吸收。
+[k]
+
+＠拉妮－ⅩⅡ
+经过估算可知，
+[k]
+
+＠拉妮－ⅩⅡ
+这些能量相当于进行两次[r]『旋转平面之月世界并创造出[#Alterego:他人格]』的动力。
+[k]
+
+[charaFace G 7]
+
+＠拉妮－ⅩⅡ
+换言之，当圣杯战争结束时，将会发生这些事。
+[k]
+
+[charaFace G 4]
+＠拉妮－ⅩⅡ
+获得了四骑退去能量的杜尔伽，[r]将凭借这股力量转动世界。
+[k]
+
+＠拉妮－ⅩⅡ
+通过这样做，就又能从保管在孔洞里的[r]五骑从者诞生出新的[#Alterego:他人格]。
+[k]
+
+[charaFace G 5]
+
+＠拉妮－ⅩⅡ
+这五骑[#Alterego:他人格]从者则会被加以[#保管:Keep]，[r]用来当作回避毁灭的战力。
+[k]
+
+[charaFace G 4]
+
+＠拉妮－ⅩⅡ
+然后再进行第二次旋转。由此产生的从者，[r]将成为下一场圣杯战争的参加者。
+[k]
+
+＠拉妮－ⅩⅡ
+通过重复上述行为，理论上[r]可以无限创造[#Alterego:他人格]。
+[k]
+
+[messageOff]
+[charaFadeout Q 0.8]
+[charaFadeout G 0.8]
+[wt 1.0]
+[charaSet G 1098269100 1 拉妮－ⅩⅡ]
+[sceneSet Q 189600 1]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 10]
+
+＠希翁
+只是理论而已吧。[r]正可谓纸上谈兵。
+[k]
+
+[charaFace C 6]
+＠希翁
+比方说[line 3]像这样反复用概念性离心力[r]强行创造[#Alterego:他人格]到最后，
+[k]
+
+＠希翁
+最开始保存的那些原型从者的灵魂……[r]难道不会磨损殆尽吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+不去尝试怎么能知道结果呢。
+[k]
+
+＠拉妮－ⅩⅡ
+提取[#Alterego:他人格]会对本体造成什么样的影响，[r]还需要进一步的数据收集与验证。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠阿愈丝
+话，话说哦？[r]这些话让我听得一头雾水……
+[k]
+
+＠阿愈丝
+但请允许我就确认一件事，综合统管。
+[k]
+
+＠阿愈丝
+假如圣杯战争就这样继续下去，将会怎么样？[r]具体说，会发生什么事？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+获胜的[#Alterego:他人格]从者将被保存为战力。[r]获胜的[#Alterego:他人格]御主则被融合为综合统管。
+[k]
+
+＠拉妮－ⅩⅡ
+然后再开启下一轮ＡＩ圣杯战争。
+[k]
+
+＠拉妮－ⅩⅡ
+通过重复这种行为，[r]就可以无限生成能充当战力的[#Alterego:他人格]。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠阿愈丝
+我们的……愿望，会实现吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+啊啊……我的确设置了愿望的发生来作为动机呢。
+[k]
+
+[charaFace G 6]
+
+＠拉妮－ⅩⅡ
+应该会实现吧。胜利者将会与[#监督官:我]合为一体，
+[k]
+
+＠拉妮－ⅩⅡ
+作为版本升级后的下一任综合统管，[r]管理下一轮圣杯战争。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠阿愈丝
+下一轮……圣杯战争？[r]战争，不会结束吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+那当然。为了回避世界毁灭，[r]战力自然越多越好。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠阿愈丝
+我……想要家人。[r]只是想要家人。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+只要你赢了，等到下一轮圣杯战争时，[r]就能随心所欲地设计这方面的参数了。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠阿愈丝
+不对。我希望的是在不会发生什么战争的[r]安宁之地与家人们一起生活啊！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+应该不碍事吧。
+[k]
+
+＠拉妮－ⅩⅡ
+一旦获得了综合统管的身份，[r]回避灭亡，也就是延续圣杯战争便会成为首要任务。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠阿愈丝
+怎么会这样……所以这个愿望，在我心里，[r]将会变得不再重要吗……？
+[k]
+
+＠阿愈丝
+毫无意义啊。这样，就毫无……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+不必在意。[r]归根结底[line 3]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 0]
+[charaFadein J 0.1 1]
+
+＠塞蕾雪拉
+你刚才提到了……[#Alterego御主:他人格御主]吧。[r]这是什么意思？
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+……[#乱数器:Randomizer]。[r]给你们这些ＡＩ赋予人格的[#装置:系统]。
+[k]
+
+[bgmStop BGM_EVENT_81 1.5]
+
+＠拉妮－ⅩⅡ
+其实就是用来让你们[r]随机[#Alterego:他人格]化的东西。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠阿愈丝
+哎……？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[bgm BGM_MAP_36 0.1]
+
+[charaTalk G]
+[charaFace G 2]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+在无限[#Alterego:他人格]制造计划中，[r]也存在御主方面的问题。
+[k]
+
+＠拉妮－ⅩⅡ
+就算能无限创造出[#Alterego:他人格]战力，[r]光靠迦勒底的一个御主，也可能无法完全掌控。
+[k]
+
+[charaFace G 0]
+
+＠拉妮－ⅩⅡ
+因此我认为还需要准备御主。
+[k]
+
+＠拉妮－ⅩⅡ
+最适合管理[#Alterego:他人格]的御主，[r]是怎样的御主呢？
+[k]
+
+[charaFace G 4]
+＠拉妮－ⅩⅡ
+为得到这一答案，[r]我决定为御主也准备[#Alterego:他人格]。
+[k]
+
+＠拉妮－ⅩⅡ
+为了准备各式各样的人格模型，[r]这样做是最有效率的。
+[k]
+
+[charaFace G 5]
+
+＠拉妮－ⅩⅡ
+为确保多样性，[r]我从各种地方选出了作为根基的原型。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadeout G 0.1]
+[scene 10000]
+[wt 0.5]
+
+[fadein black 0.5]
+[wait fade]
+
+
+[charaTalk off]
+[charaFace K 0]
+[charaFadein K 1.0 -100,0]
+[charaMove K -200,0 40.0]
+[wt 1.5]
+
+＠拉妮－ⅩⅡ
+[#Caster:魔术师]的御主人格是『创造』型，[r]Alterego Invented。
+[k]
+
+＠拉妮－ⅩⅡ
+目标是几乎等同于凭空创造出来的，[r]竞争心很强的人格。
+[k]
+
+＠拉妮－ⅩⅡ
+不过外表与名字倒是随便偷看了[r]迦勒底的[#记录:数据]并套用了进去。
+[k]
+
+＠拉妮－ⅩⅡ
+自尊心强，过度自信，能与他人共情，[r]但身为魔术师的合理性与计算又凌驾于其上。
+[k]
+
+＠拉妮－ⅩⅡ
+因其性格，我期待他能扮演[r]积极推进战斗，引导圣杯战争的角色。
+[k]
+
+[messageOff]
+[charaCrossFade K 1098269900 0 1.0]
+[wait charaCrossFade K]
+
+＠拉妮－ⅩⅡ
+虽然中途出现了需要提供支援与调整的必要，[r]但也算是合格了吧。
+[k]
+
+[messageOff]
+[charaFadeout K 1.0]
+
+[charaFace L 0]
+[charaFadein L 1.0 100,0]
+[charaMove L 200,0 40.0]
+[wt 1.5]
+
+＠拉妮－ⅩⅡ
+[#Rider:骑兵]的御主人格是『收受』型，[r]Alterego Import。
+[k]
+
+＠拉妮－ⅩⅡ
+这是我读取了曾在现实中接触过[r]这平面之月的某个人类的要素，
+[k]
+
+＠拉妮－ⅩⅡ
+并从中分离出来的[#Alterego:他人格]。
+[k]
+
+＠拉妮－ⅩⅡ
+在所有御主中，对状况的理解度与应对能力最高，[r]也因此犯下了脱轨行为。很遗憾。
+[k]
+
+＠拉妮－ⅩⅡ
+根据他与[#Alterego:他人格]化的亲和性来看，[r]可以推测他原本就拥有类似多重人格者的性质。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth M 1]
+[charaDepth L 2]
+[charaFadeout L 1.0]
+
+[charaFace M 0]
+[charaFadein M 1.0 1]
+[charaMoveScale M 1.2 30.0]
+[wt 1.5]
+
+＠拉妮－ⅩⅡ
+[#Saber:剑士]的御主人格是『仿造』型。[r]Alterego Imitate。
+[k]
+
+＠拉妮－ⅩⅡ
+这是先有了某个人类的形貌，
+[k]
+
+＠拉妮－ⅩⅡ
+再根据『这个人类应该会拥有这种精神吧』[r]的模拟人格进行仿造的产物。
+[k]
+
+＠拉妮－ⅩⅡ
+说起我可以干涉的人类原型，[r]选项其实并不多。
+[k]
+
+＠拉妮－ⅩⅡ
+估计一目了然吧。[r]说白了，她就是作为杜尔伽凭依之躯的少女。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+
+[charaFadeout M 0.1]
+
+[scene 189600]
+[wt 0.5]
+
+[fadein black 0.5]
+[wait fade]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+举这些例子就够了吧。
+[k]
+
+[charaFace G 4]
+＠拉妮－ⅩⅡ
+在这些拥有各式各样人格的御主中，[r]能赢得ＡＩ圣杯战争的那个人，
+[k]
+
+＠拉妮－ⅩⅡ
+相当于是这轮中最适合管理[#Alterego:他人格]的御主，
+[k]
+
+＠拉妮－ⅩⅡ
+那人将获得这份经验值，成为下一任监督官，[r]举行下一轮圣杯战争，做出同样的事。
+[k]
+
+＠拉妮－ⅩⅡ
+如此一来，『适合管理[#Alterego:他人格]的御主』[r]将会不断迭代升级……这就是我的思路。
+[k]
+
+[charaFace G 0]
+
+＠拉妮－ⅩⅡ
+换言之[line 3]ＡＩ御主心怀的愿望，[r]是其[#Alterego:他人格]性的流露。
+[k]
+
+＠拉妮－ⅩⅡ
+那是身为[#Alterego:他人格]才会产生的愿望，[r]并不是自身为ＡＩ的你心中萌生的存在。
+[k]
+
+＠拉妮－ⅩⅡ
+终究只是从他人那里借来的东西。[r]因此，并不是什么值得重视的东西吧。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠阿愈丝
+怎么能这样。这样未免……！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 1]
+[charaFadein J 0.1 1]
+
+＠塞蕾雪拉
+……别开玩笑了。[r]那我的这种罪恶感又是什么。
+[k]
+
+[charaFace J 2]
+
+＠塞蕾雪拉
+为什么我要因为这种玩意……！
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MAP_36 1.5]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠难敌
+[line 3]好！　到此为止！
+[k]
+
+＠难敌
+就由本老爷来打断这无聊的话题吧。
+[k]
+
+[messageOff]
+[wt 1.0]
+[charaFace A 5]
+
+＠难敌
+其实·[wt 0.5]无关·[wt 0.5][messageShake 0.05 5 5 0.5]紧要啦～！[bgm BGM_MAP_89 0.1]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 21]
+[charaFadein D 0.1 1]
+
+＠迦摩
+……哈？
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth Q 3]
+[charaDepth B 4]
+
+
+[charaScale Q 1.2]
+[charaScale B 1.2]
+[charaFace B 0]
+[charaFadein Q 0.8 60,-300]
+[charaFadein B 0.8 1]
+[charaMove Q 0,-300 30.0]
+[charaMove B -90,0 30.0]
+[wt 1.0]
+[charaFadeout D 0.1]
+
+[charaTalk on]
+[charaTalk B]
+
+＠B：难敌
+哎呀，真心无所谓啦。[r]他人的愿望本老爷既不在乎，也不感兴趣。
+[k]
+
+[charaFace B 7]
+
+＠B：难敌
+重要的只有自己的愿望。
+[k]
+
+[charaFace B 10]
+
+＠B：难敌
+决不允许你蔑视本老爷的愿望。
+[k]
+
+[charaFace B 6]
+
+＠B：难敌
+最关键的问题在于，本老爷的愿望会怎么样吧！[r]最后就算本老爷获胜，怎么着，还得充当战力？
+[k]
+
+[charaFace B 5]
+
+＠B：难敌
+[line 3]那肯定不愿意啦！
+[k]
+
+＠B：难敌
+本老爷可不是为了那种结局而战的！
+[k]
+
+＠B：难敌
+获得一切，生活得快乐逍遥！[r]本老爷就是为此而战的！
+[k]
+
+[charaDepth A 1]
+[charaDepth E 2]
+[charaFace A 5]
+[charaFace E 3]
+[charaFadein A 0.1 0]
+[charaFadein E 0.1 2]
+
+＠B：难敌
+其他问题关我屁事！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaFadeout Q 0.5]
+[charaFadeout B 0.5]
+[wt 0.7]
+[sceneSet Q 189600 1]
+
+[charaTalk on]
+[charaTalk E]
+
+＠阿愈丝
+[#Berserker:狂战士]……？
+[k]
+
+[charaTalk A]
+[charaFace A 11]
+
+＠难敌
+没错，所以你也一样。
+[k]
+
+[charaFace A 5]
+
+＠难敌
+自己的愿望该怎么办！[r]其他问题关我屁事！
+[k]
+
+[charaFace A 0]
+
+＠难敌
+你应该抱持着这样的心态才对。[r]一旦遭到妨碍就该大闹一场。
+[k]
+
+＠难敌
+所以本老爷问你，我难敌的御主啊。
+[k]
+
+[charaFace A 11]
+
+＠难敌
+[#你心里]，[#还有愿望吗]？[r]还有无论如何都想实现的欲望吗？
+[k]
+
+[messageOff]
+[cameraMove 1.5 -60,-20 1.1]
+[charaTalk E]
+[wt 2.0]
+[charaFace E 9]
+
+＠阿愈丝
+……嗯。
+[k]
+
+[charaFace E 8]
+[charaMoveReturn E 256,-10 0.3]
+
+＠阿愈丝
+[line 3]嗯！
+[k]
+
+[messageOff]
+[cameraMove 0.5 0,-20 1.1]
+[wt 0.5]
+
+[charaTalk A]
+[charaFace A 7]
+
+＠难敌
+既然如此！　除了考虑该如何将其收入囊中，[r]你根本不需要考虑其他事！
+[k]
+
+＠难敌
+既然正经参加圣杯战争也实现不了，
+[k]
+
+＠难敌
+那实现愿望的方法只有一个！[r]就是打倒这些家伙，抢占系统！
+[k]
+
+[charaFace A 0]
+
+＠难敌
+阻止这场什么[#Alterego:他人格]云云的无聊圣杯战争。
+[k]
+
+[charaFace A 3]
+
+＠难敌
+然后再夺取权限或是做别的什么就行了。[r]愿望实现之地就在眼前！
+[k]
+
+[messageOff]
+[cameraHome 1.0]
+[charaFadeout A 0.1]
+[charaFadeout E 0.1]
+[wt 1.0]
+
+[bgm BGM_MAP_89 0.5 0.5]
+
+[charaDepth P 1]
+[charaDepth I 2]
+
+[charaTalk I]
+[charaFace I 12]
+[charaFadein I 0.1 1]
+[charaPut P 0,-200]
+[charaFadeTime P 0.2 0.5]
+
+＠怖军
+（[line 3]哈。）
+[k]
+
+＠怖军
+（啊啊，没错。你就是这种家伙。[r]　只看得见眼前欲望的混账大笨蛋。）
+[k]
+
+[charaFace I 3]
+
+＠怖军
+（不过……也有些事，[r]　还得是这种笨蛋，才能做到吧。）
+[k]
+
+[charaFadeout P 0.2]
+[charaFadeout I 0.2]
+[wt 0.2]
+
+[bgm BGM_MAP_89 0.5 1.0]
+
+[charaTalk depthOn]
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠希翁
+获胜的御主将成为综合统管ＡＩ。
+[k]
+
+＠希翁
+那么[line 3]如果[%1][&先生:小姐]获胜，[r]将会怎么样？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+你们在我的计算之外。恐怕只是出于某种原因，[r]被卷入了最初旋转的……
+[k]
+
+＠拉妮－ⅩⅡ
+非要说的话，应该算Alterego Irregular。
+[k]
+
+＠拉妮－ⅩⅡ
+不过，这与要在最终决战时完成[r]统合ＡＩ圣杯战争的御主经验值、
+[k]
+
+＠拉妮－ⅩⅡ
+专精于管理[#Alterego:他人格]的御主……[r]这一目的并不存在矛盾。
+[k]
+
+＠拉妮－ⅩⅡ
+至于外部的你们会怎么样的问题，
+[k]
+
+＠拉妮－ⅩⅡ
+只要我这边准备的战力能达到所需数量，[r]也没必要考虑了。
+[k]
+
+＠拉妮－ⅩⅡ
+因此，你们也能顺利地成为[r]这个世界的新任监督官。
+[k]
+
+＠拉妮－ⅩⅡ
+只是我觉得应该会需要一些特殊的改造就是了。
+[k]
+
+[charaFace G 1]
+
+＠拉妮－ⅩⅡ
+……补充。
+[k]
+
+[charaFace G 0]
+
+＠拉妮－ⅩⅡ
+虽说是偶然的事故，但你出现在此[r]也称得上是一种幸运，迦勒底的御主。
+[k]
+
+＠拉妮－ⅩⅡ
+哪怕存在不足的可能性，根据此前战斗的评价值，[r]最优解从你这里诞生的概率其实也相当高。
+[k]
+
+[charaFace G 4]
+
+＠拉妮－ⅩⅡ
+你是赛马围场里最受欢迎的头马御主。
+[k]
+
+[charaFace G 6]
+
+＠拉妮－ⅩⅡ
+我不会偏袒你，[r]但我会格外有兴趣地注视着你的前路。奋战吧。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 8]
+[charaFadein D 0.1 1]
+
+＠迦摩
+你这补充根本无关紧要啊……
+[k]
+
+[charaFace D 1]
+
+＠迦摩
+也就是说，就算打赢了圣杯战争，[r]也没办法回到外部吧。
+[k]
+
+＠迦摩
+大前提都崩塌了哦？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠希翁
+除非破坏这个名为圣杯战争的系统，[r]否则我们就回不到原来的世界，
+[k]
+
+＠希翁
+平面之月这个装置也会一直损坏无法修复。
+[k]
+
+＠希翁
+看来，我们没得选择。
+[k]
+
+[messageOff]
+[wt 0.5]
+
+？1：反正我也不认为[line 3]
+？2：无限[#Alterego:他人格]制造计划能成功。
+？！
+
+？1：也不能一直在这里打圣杯战争。
+？2：[line 3]返回，外部吧！
+？！
+
+[charaFace C 10]
+
+＠希翁
+你应该很清楚吧，[%1][&先生:小姐]。[r]为此所需的手段非常简单。
+[k]
+
+[charaFace C 8]
+
+＠希翁
+对方称与圣杯战争这一系统直接相连的存在，[r]就在我们的眼前。
+[k]
+
+＠希翁
+将其破坏掉才是最便捷的方法吧。
+[k]
+
+[charaFace C 2]
+
+＠希翁
+也就是说[line 3]破坏拉妮－ⅩⅡ的从者，[r]杜尔伽。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 30]
+[charaFadein F 0.1 1]
+[wt 1.5]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 9]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+……呼。
+[k]
+
+[charaFace G 8]
+
+＠拉妮－ⅩⅡ
+为什么不愿理解回避毁灭的方案呢。[r]倘若这个方案不成功，世界可就要终结了啊。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠希翁
+毁灭的确切性与回避毁灭方案的正确性，[r]都只有观测者本人才能理解[line 3]
+[k]
+
+＠希翁
+这在阿特拉斯院也是常有的事。
+[k]
+
+＠希翁
+要是在这种情况下给他人造成伤害，[r]会遭到阻止也是理所当然的吧？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+否定。这是我的[#星球:计算]指示的结果。[r]这个结局是毫无疑问的。
+[k]
+
+＠拉妮－ⅩⅡ
+我是这个世界的[#第五元素:普纽玛]。[r]换言之，即是存在原理本身。
+[k]
+
+[charaFace G 11]
+
+＠拉妮－ⅩⅡ
+我们实际不该对立……[r]但也无可奈何。
+[k]
+
+[charaFace G 10]
+
+＠拉妮－ⅩⅡ
+毕竟唯有杜尔伽是无可替代的。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 17]
+[charaFadein F 0.1 1]
+
+＠杜尔伽
+执行战力分析[line 3][r]判断对本女神的破坏极为困难。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+我知道。我也不认为他们能破坏你，[r]但还是保险起见。
+[k]
+
+[bgmStop BGM_MAP_89 1.5]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth F 2]
+[charaDepth H 3]
+
+[se ad95]
+[charaMove G 30,0 0.5]
+[charaFadeout G 0.4]
+[wt 0.3]
+
+[charaScale F 1.1]
+[charaScale H 1.1]
+[charaScale Q 1.2]
+
+[charaFace F 16]
+[charaFadein Q 1.0 30,-300]
+[charaFadein F 1.0 265,0]
+[charaMove Q 0,-300 1.0]
+[charaMove F 220,0 1.0]
+[wt 1.0]
+[seStop ad95 0.5]
+[charaFace H 10]
+[charaFadein H 0.4 -240,0]
+[charaMove H -220,0 0.5]
+[wt 0.5]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+[wt 1.5]
+
+[bgm BGM_BATTLE_166 0.1]
+
+[charaFadeout Q 0.5]
+[charaFadeout F 0.5]
+[charaFadeout H 0.5]
+[wt 0.7]
+[charaScale F 1.0]
+
+[charaTalk om]
+[charaTalk depthOn]
+[charaTalk D]
+
+＠迦摩
+哎呀，你也打算动手吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+我好歹也是一名御主。
+[k]
+
+[charaFace G 1]
+
+＠拉妮－ⅩⅡ
+杜尔伽并非圣杯战争的参加者，[r]由于规格相差甚大，
+[k]
+
+＠拉妮－ⅩⅡ
+就算杀死你们这些[#Alterego:他人格]从者，[r]也积攒不了多少能量。
+[k]
+
+[charaFace G 8]
+
+＠拉妮－ⅩⅡ
+因此虽然我也不想动手，[r]但既然麻烦找上门来，总得解决才行。
+[k]
+
+[charaFace G 1]
+
+＠拉妮－ⅩⅡ
+根据计算，加上迄今为止积攒的量，
+[k]
+
+＠拉妮－ⅩⅡ
+勉强能够重新举办下一轮[#ＡＩ圣杯战争:System Grail War]，[r]以及制造参赛的[#Alterego:他人格]。
+[k]
+
+[charaFace G 10]
+＠拉妮－ⅩⅡ
+因此身为监督官，我将排除妨碍圣杯战争[r]进展的瑕疵品，尝试[#重置:Reset]。
+[k]
+
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠难敌
+嚯。那就试试看啊，你这小不点！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 10]
+[charaFadein G 0.1 1]
+
+＠拉妮－ⅩⅡ
+虽然与你这武断的污蔑无关，[r]不过我断然决定改变模式。
+[k]
+
+＠拉妮－ⅩⅡ
+切换为御主最合适的形态。
+[k]
+
+＠拉妮－ⅩⅡ
+切换为不只是平面之月的综合统管ＡＩ，[r]也是对抗世界毁灭之存在的我。
+[k]
+
+[charaFace G 2]
+＠拉妮－ⅩⅡ
+……我能看见。
+[k]
+
+＠拉妮－ⅩⅡ
+如尘埃般飞舞的[#灵魂:Alterego]们，反抗毁灭的冥界天空，[r]我既为引导尘埃的羽翼，亦为尘埃本身。
+[k]
+
+[charaFace G 3]
+
+＠拉妮－ⅩⅡ
+若要[#重命名:Rename]的话[line 3]
+[k]
+
+[messageOff]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 0.5 0.3]
+[cueSe SE_22 22_ad1181 0.5 0.5]
+[charaEffectEdgeBlur G FFF9A5 FFF9A5 4 6]
+[backEffect bit_talk_avalon_light01]
+[backEffect bit_talk_avalon_light02]
+[wt 1.5]
+[se ad744]
+[wt 0.5]
+
+[fadeout white 1.0]
+[wait fade]
+[cueSeStop 22_ad1181 2.0]
+[seStop ad556 2.0]
+
+[charaFadeout G 0.1]
+[charaEffectEdgeBlurDestroy G]
+[backEffectDestroy bit_talk_avalon_light01]
+[backEffectDestroy bit_talk_avalon_light02]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth Q 1]
+[charaDepth O 2]
+
+[charaScale Q 1.2]
+[charaScale O 1.2]
+[charaFace N 0]
+[charaFace O 1]
+[charaFadein N 0.1 1]
+[charaFadein Q 0.1 0,-265]
+[charaFadein O 0.1 0,60]
+[wt 1.5]
+
+[charaMove Q 0,-315 7.0]
+[charaMove O 0,-15 7.0]
+[fadein white 2.0]
+[wait fade]
+[wt 0.5]
+
+[charaFaceFade O 0 0.4]
+[wt 2.0]
+
+[charaFadeout Q 1.0]
+[charaFadeout O 1.0]
+[wt 1.5]
+
+[charaTalk on]
+[charaTalk N]
+
+＠奥西里斯之尘
+我乃『奥西里斯之尘』。[r]目睹并否定世界毁灭之人。
+[k]
+
+＠奥西里斯之尘
+全高速思考，乘速，无限制。[r][#舵朝北天:Mode Osiris]。
+[k]
+
+＠奥西里斯之尘
+以御主的身份下令。[r]我的从者，杜尔伽啊。
+[k]
+
+[charaFaceFade N 10 0.2]
+
+＠奥西里斯之尘
+此乃背离末日的正确[#一步:Process]。[r]赐予无法理解我这答案之人，迅速的[#停止:死]吧。
+[k]
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 16]
+[charaFadein F 0.1 1]
+
+＠杜尔伽
+……[r]……
+[k]
+
+[messageOff]
+[se ade446]
+[seVolume ade446 0 0]
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 0.5 0.3]
+[seVolume ade446 0.5 0.4]
+[cueSe SE_22 22_ad1169 0.5 0.5]
+[charaFaceFade F 30 0.4]
+[charaPut T 1]
+[charaEffect T bit_talk_lightning_01r_fs]
+[wt 0.5]
+[effect bit_talk_charge_red]
+[wt 2.0]
+
+＠杜尔伽
+受理新神务。[r]开始执行[line 3]
+[k]
+
+
+
+
+
+
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 0.5]
+[cueSeStop 22_ad1169 0.4]
+[seStop ad556 0.4]
+[seStop ade446 0.4]
+[bgmStopEnd BGM_BATTLE_166 0.4]
+[wait fade]
+[soundStopAllEnd]
+[end]

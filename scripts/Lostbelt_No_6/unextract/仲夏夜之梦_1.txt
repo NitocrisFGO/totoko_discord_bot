@@ -1,0 +1,757 @@
+
+＄03-00-10-08-1-0
+
+
+
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098209680 1 奥伯龙·伏提庚]
+[charaSet C 1098124510 1 达·芬奇]
+[charaSet D 9005001 1 福尔摩斯]
+[charaSet E 1098123200 1 戈尔德鲁夫]
+[charaSet F 4037000 1 尼莫]
+[charaSet G 1098181900 1 尼莫水兵]
+[charaSet H 1098123000 1 穆尼尔]
+
+[imageSet I back10000 1]
+[charaScale I 1.05]
+
+[sceneSet J 122900 1]
+[charaScale J 1.8]
+[sceneSet K 122900 1]
+[charaScale K 2.0]
+
+[charaDepth J 2]
+[charaDepth K 1]
+
+[scene 122900]
+
+[fadein black 1.0]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.8]
+[se ad241]
+[seVolume ad241 0 0]
+[seVolume ad241 1.0 0.4]
+[wait fade]
+[wt 2.0]
+
+[bgm BGM_EVENT_71 0.1]
+
+＠
+不列颠岛逐渐崩溃。
+[k]
+
+[messageOff]
+[wt 0.5]
+[charaFadein J 1.0 450,-450]
+[charaMove J 350,-450 8.0]
+
+＠
+模仿了人类文明的建筑物、
+[k]
+
+[charaFadein K 0.1 500,-100]
+
+＠
+自遥远过去堆积至今的尸骸、[r]现因『灾厄』而气绝身亡的尸体。
+[k]
+
+＠
+这一切都在每分每秒地漂浮起来，[r]并被一只虫子逐渐吞下。
+[k]
+
+[messageOff]
+[charaFadeout J 1.0]
+[charaMove K 650,-100 8.0]
+
+＠
+北部的大地如雪般消散，[r]南部的大地如灰般流逝。
+[k]
+
+＠
+连勉强逃过一劫的人们[r]也全都手牵着手掉下去了。
+[k]
+
+＠
+仿佛所有一切由始至终[r]都不过是一夜之梦。
+[k]
+
+[messageOff]
+[charaFadeout K 1.0]
+[wt 2.5]
+[seStop ade393 1.5]
+[seStop ad241 1.5]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_71 1.5]
+[wait fade]
+
+[scene 132902]
+[pictureFrame cut063_cinema]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_72 0.1]
+
+
+[charaTalk G]
+[charaFace G 7]
+[charaFadein G 0.1 0,-50]
+
+＠尼莫水兵
+神秘从者的灵基模式无法特定啊～（泪）！
+[k]
+
+＠尼莫水兵
+既不符合堪称灵基模具的七大职阶，[r]额外职阶中也没有对得上的！
+[k]
+
+＠尼莫水兵
+那种职阶见都没见过！[r]福尔摩斯，那是什么[line 2]！？
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0,-50]
+
+＠福尔摩斯
+……只能说是个未知的职阶了。
+[k]
+
+＠福尔摩斯
+作为正确化身众人憧憬，[r]引导时代之成就者的『英雄』。
+[k]
+
+＠福尔摩斯
+作为良善成立所需的障碍……[r]英雄之对立面的『反英雄』。
+[k]
+
+＠福尔摩斯
+其中想必也有靠谎言[line 3]靠欺瞒、[r]哄骗众人来达成伟业之人吧。
+[k]
+
+＠福尔摩斯
+[#赝品:Fake]……不，是连灵魂都加以欺骗，[r]从而留下超越正牌货力量与功绩的“某人”。
+[k]
+
+＠福尔摩斯
+不是复仇者，不是裁定者，[r]不是领域外的生命，也不是分割出来的他人格。
+[k]
+
+＠福尔摩斯
+[line 3]『[#身披角色者:Pretender]』。[r]并非以人类或野兽为对象，而是与世界为敌的虚报英灵。
+[k]
+
+＠福尔摩斯
+确实与奥伯龙之名非常相称……！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace E 5]
+[charaFadein E 0.1 0,-50]
+
+＠戈尔德鲁夫
+开，开，开[line 3]
+[k]
+
+[charaFace E 6]
+
+＠戈尔德鲁夫
+开什么玩笑，到底是怎么回事！
+[k]
+
+＠戈尔德鲁夫
+[&小家伙:小丫头]已经赢了啊，[r]基列莱特已经成功了啊！
+[k]
+
+＠戈尔德鲁夫
+我们的立场确实与异闻带[r]无法相容[line 3]
+[k]
+
+＠戈尔德鲁夫
+但这也不代表我们想毁灭它啊！[r]我们拯救了不列颠！
+[k]
+
+＠戈尔德鲁夫
+可事情为什么会变成这样！
+[k]
+
+＠戈尔德鲁夫
+回答我，福尔摩斯！[r]那个怪物究竟是什么！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0,-50]
+
+＠福尔摩斯
+[line 3]那恐怕，[r]是空洞的概念。
+[k]
+
+＠福尔摩斯
+只是看起来像生物，[r]并没有肌肉、骨头及消化器官。
+[k]
+
+＠福尔摩斯
+那应该是『洞』，而非嘴巴。
+[k]
+
+＠福尔摩斯
+地面看上去像是被吸起来了，[r]实际却是在『坠落』。
+[k]
+
+＠福尔摩斯
+可以想象一下装满了水的浴桶。[r]我们的世界就是浴桶里的水，
+[k]
+
+＠福尔摩斯
+而它则是浴桶上的『塞子』。[r]如果拔掉塞子的话，水会怎么样呢？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 0,-50]
+
+＠戈尔德鲁夫
+不，毕竟那是水嘛，[r]当然会旋着水涡，唰地流入下水管……
+[k]
+
+[charaFace E 9]
+
+＠戈尔德鲁夫
+…………也就是说，[r]它并不是在吸收……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 0,-50]
+
+＠福尔摩斯
+没错。是我们这边……[r]空间本身[#正朝着它坠落]。
+[k]
+
+＠福尔摩斯
+就算我们能顺利逃脱这片空域，[r]也没有意义。
+[k]
+
+＠福尔摩斯
+既然『塞子』已被打开，[r]那地表上的一切都会掉进那个『洞』里。
+[k]
+
+＠福尔摩斯
+名副其实的“陷坑”[line 3]Pitfall。
+[k]
+
+＠福尔摩斯
+竟然是能让世界本身掉进去的『洞』，[r]真令人始料未及啊。
+[k]
+
+[messageOff]
+[wt 1.0]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_72 1.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+[pictureFrame]
+
+[scene 124300]
+[wt 1.0]
+
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.8]
+[se ad241]
+[seVolume ad241 0 0]
+[seVolume ad241 1.0 0.4]
+[fadein black 2.0]
+[wait fade]
+
+[wt 2.0]
+
+
+[scene 122603 1.0]
+[wt 1.5]
+
+[seStop ade393 1.5]
+[seStop ad241 1.5]
+
+
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+伏提庚……[r]杀害了亚瑟王父亲尤瑟的卑王……
+[k]
+
+＠玛修
+换言之[line 3]是这异闻带中的，[r]亚瑟王的敌人……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+[bgm BGM_EVENT_139 0.1]
+
+＠奥伯龙·伏提庚
+不哦？[r]亚瑟王根本无关紧要吧？
+[k]
+
+[charaFace B 1]
+
+＠奥伯龙·伏提庚
+要将格局打开来嘛，玛修。[r][907ca1]我[-]是人类的敌人。
+[k]
+
+＠奥伯龙·伏提庚
+在你们那边的世界，[r]伏提庚不也是不列颠岛的命运本身吗？
+[k]
+
+＠奥伯龙·伏提庚
+决不承认人类的时代。
+[k]
+
+＠奥伯龙·伏提庚
+既然神秘会遭到人类践踏，[r]不如让不列颠岛在神秘的时代中结束。
+[k]
+
+＠奥伯龙·伏提庚
+也就是自杀愿望啦。
+[k]
+
+[charaFace B 8]
+
+＠奥伯龙·伏提庚
+嗯，我懂我懂！
+[k]
+
+＠奥伯龙·伏提庚
+自己讨厌的东西竟然流行起来，[r]换作是谁都会受不了嘛！
+[k]
+
+[charaFace B 10]
+
+＠奥伯龙·伏提庚
+不过，最终却被亚瑟王打倒了，[r]真令人没辙。
+[k]
+
+＠奥伯龙·伏提庚
+[#泛人类史:你们那边]的善恶双方呀，手段都太天真了。
+[k]
+
+
+＠奥伯龙·伏提庚
+毁灭人类，[r]就意味着毁灭世界。
+[k]
+
+＠奥伯龙·伏提庚
+就因为无法狠下决心，[r]你们那边的伏提庚才会翘辫子啦。
+[k]
+
+？1：……你又是为了什么，出于什么理由才要毁灭人类。
+
+？！
+
+[charaFace B 1]
+
+＠奥伯龙·伏提庚
+因为恶心。
+[k]
+
+＠奥伯龙·伏提庚
+除此以外没有别的理由了，有问题吗？
+[k]
+
+[charaFace B 12]
+
+＠奥伯龙·伏提庚
+换作是你，[r]如果在房间角落发现害虫，也会觉得很恶心吧？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 36]
+[charaFadein A 0.1 1]
+
+＠玛修
+恶心……是指这不列颠吗？[r]说妖精与人类居住的妖精国恶心……！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+
+＠奥伯龙·伏提庚
+哎。难道你很喜欢吗，玛修？[r]不得了，令人怀疑你的品味耶。
+[k]
+
+[charaFace B 4]
+
+＠奥伯龙·伏提庚
+不过，[907ca1]我[-]觉得映入眼帘的[r]所有东西都很恶心哦。
+[k]
+
+＠奥伯龙·伏提庚
+其实不只是妖精国，[r]你们的世界看起来也像是个粪坑。
+[k]
+
+[charaFace B 1]
+
+＠奥伯龙·伏提庚
+……哎哟，抱歉，不小心讲了脏话。[r][907ca1]我[-]不想用这种不符合妖精王身份的词呢。
+[k]
+
+＠奥伯龙·伏提庚
+下次会注意的，刚才那次就别计较啦。[r]可以吧，我俩什么关系嘛。
+[k]
+
+＠奥伯龙·伏提庚
+要不然，[907ca1]我[-]对以往说过的所有话向你谢罪好了。
+[k]
+
+＠奥伯龙·伏提庚
+如果你不喜欢，[r]那以往那些话都当[907ca1]我[-]没说过好啦。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+哎[line 3]好，好的。[r]那，那个……奇怪？
+[k]
+
+[charaFace A 12]
+
+＠玛修
+……御主。我刚才从奥伯龙先生身上[r]感受到了纯粹无瑕的信任感……
+[k]
+
+？1：……别再蛊惑玛修了。
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠奥伯龙·伏提庚
+此话怎讲？
+[k]
+
+[branchMaterial FLAG_ON7]
+[branchRouteSelectCount truthflag7 2 EQUAL 3000910,3000919 2030,2060]
+[branch FLAG_OFF7]
+
+[label truthflag7]
+[branchRouteSelectCount FLAG_ON7 3 ABOVE 3000902,3000903,3000905,3000916,3000919,3001003,3001005 2000,2010,2020,2040,2050,2070,1080]
+[branch FLAG_OFF7]
+
+[label FLAG_ON7]
+
+？1：你嘴里说出的全是谎言。
+？2：[FF0000]因为你是大骗子奥伯龙。[-]
+
+？！
+
+[branch user_join7]
+[label FLAG_OFF7]
+
+？1：你嘴里说出的全是谎言。
+？！
+
+
+[branch user_join7]
+
+[label user_join7]
+
+
+[charaFace B 3]
+
+＠奥伯龙·伏提庚
+[line 3]你这不是很懂嘛。[r]好高兴哦，[%1]。
+[k]
+
+[charaFace B 8]
+
+＠奥伯龙·伏提庚
+[907ca1]我[-]确实是个骗子。[r][907ca1]我[-]敢发誓自己从未说过一句真话！
+[k]
+
+[charaFace B 2]
+
+＠奥伯龙·伏提庚
+但[907ca1]我[-]也非常认真！[r]认真地为了不列颠的崩溃而奋斗着。
+[k]
+
+＠奥伯龙·伏提庚
+最重要的是[line 3][r][907ca1]我[-]比任何人都要信任、信赖着你。
+[k]
+
+[charaFace B 4]
+
+＠奥伯龙·伏提庚
+话虽如此啊，正常情况下，就算被命令[r]去毁灭不列颠也只会感到不知所措吧？
+[k]
+
+[charaFace B 6]
+
+＠奥伯龙·伏提庚
+其实[907ca1]我[-]原本也是这样啦，[r]头疼得要死。
+[k]
+
+[charaFace B 4]
+
+＠奥伯龙·伏提庚
+而且仔细想来就会发现，[r]不是只要打倒摩根就能完事的。
+[k]
+
+[charaFace B 10]
+
+＠奥伯龙·伏提庚
+破坏妖精国需要各种各样的条件，[r]需要各种各样的欲望。
+[k]
+
+＠奥伯龙·伏提庚
+根本不是光靠摩根，[r]或者光靠迦勒底就能解决的问题。
+[k]
+
+＠奥伯龙·伏提庚
+需要用上一切。[r]而且时机、机会只有一次。
+[k]
+
+＠奥伯龙·伏提庚
+唯独这点，连[907ca1]我[-]也不得不谨慎行事。[r]然而[line 3]
+[k]
+
+[charaFace B 1]
+＠奥伯龙·伏提庚
+在那片海滩见到你的时候，[907ca1]我[-]就产生各类直觉。
+[k]
+
+[charaFace B 3]
+
+＠奥伯龙·伏提庚
+这家伙是个货真价实的笨蛋，是最棒的演员。[r]这家伙一定能回应[907ca1]我[-]的期待！
+[k]
+
+＠奥伯龙·伏提庚
+[907ca1]我[-]由衷相信这家伙绝对是个最糟而最棒的观众，[r]能让所有一切都终结得一干二净！
+[k]
+
+？1：……那还真是多谢夸奖。
+
+？2：既是演员，又是观众，到底是什么啊。
+
+[charaFace B 0]
+
+＠奥伯龙·伏提庚
+…………抱歉，换个说法。[r]是个挑剔的批评家，这样满意了吧？
+[k]
+
+？！
+
+[charaFace B 4]
+
+＠奥伯龙·伏提庚
+总之[line 3][r]你完美地回应了[907ca1]我[-]的期望。
+[k]
+
+＠奥伯龙·伏提庚
+所以放你一条生路倒也不是不可以[line 3]
+[k]
+
+[charaFace B 6]
+
+＠奥伯龙·伏提庚
+但是，迦勒底还是必须毁灭才行呢。
+[k]
+
+＠奥伯龙·伏提庚
+伏提庚的目的是消灭自己死后依然[r]恬不知耻地存续下去的冒牌不列颠……
+[k]
+
+＠奥伯龙·伏提庚
+而[#我]的目的则是根绝你们人类史。
+[k]
+
+＠奥伯龙·伏提庚
+毕竟迦勒底那啥，是打算守护泛人类史吧？[r]那我们就是敌人。
+[k]
+
+[charaFace B 12]
+
+＠奥伯龙·伏提庚
+[907ca1]我[-]要在此收拾掉你们。[r]要是日后游戏被翻盘就麻烦了嘛。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth B 1]
+[charaDepth H 2]
+[charaDepth F 3]
+[charaDepth I 5]
+
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 1.0]
+[se ad241]
+[seVolume ad241 0 0]
+[seVolume ad241 1.0 0.6]
+
+[charaPut I 1]
+[charaFadeTime I 1.5 0.5]
+[wt 1.5]
+
+？1：[line 3]奈落之虫，掉下来了[line 3]
+
+？！
+
+[seVolume ade393 1.0 0.5]
+[seVolume ad241 1.0 0.3]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_139 1.0]
+[wait fade]
+
+[charaFadeout I 0.1]
+[charaFadeout B 0.1]
+
+[scene 132902]
+[pictureFrame cut063_cinema]
+[wt 1.0]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_24 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 0,-50]
+
+＠穆尼尔
+怎么回事，无论怎么飞都没法远离！
+[k]
+
+＠穆尼尔
+船长！　达·芬奇！　福尔摩斯！[r]这种时候就算大叔也行啦！
+[k]
+
+＠穆尼尔
+快去将甲板上的那两人带回舰内！[r]不行，来不及了[line 2]！
+[k]
+
+＠穆尼尔
+『崩落』接近Storm Border正上方！[r]无法回避，要被吞下去了……！
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[scene 10000 1.5]
+[se ade132]
+[wt 2.2]
+[charaPut I 1]
+[charaFadeTime I 0.1 0.5]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 2]
+[charaFadein H 0.1 0,-50]
+
+＠穆尼尔
+测量仪器全部停摆，[r]也无法监控外面的情况！
+[k]
+
+＠穆尼尔
+话说彻底陷入黑暗了！[r]没有声音也没有光！
+[k]
+
+＠穆尼尔
+该怎么办，船长，[r]对这种已经束手无[line 3]
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 2]
+[charaFadein F 0.1 0,-50]
+
+＠尼莫
+固定甲板地面的重力值，垂直提升舰首，[r]用引擎第二阶段固定！
+[k]
+
+＠尼莫
+既然在坠落，那自然只能往上飞！
+[k]
+
+＠尼莫
+哪怕周围一片漆黑，[r]哪怕这里是无尽的『空洞』[line 3]
+[k]
+
+＠尼莫
+在引擎停摆之前都不能放弃！[r]全员，维持临战态势！
+[k]
+
+＠尼莫
+外头有『崩落』元凶的敌对生命体，[r]以及[%1]与玛修！
+[k]
+
+＠尼莫
+一定[line 3]
+[k]
+
+＠尼莫
+一定能找到突破口！
+[k]
+
+
+[messageOff]
+[seStop ade393 2.0]
+[seStop ad241 2.0]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_24 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

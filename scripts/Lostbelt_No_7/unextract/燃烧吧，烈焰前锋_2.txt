@@ -1,0 +1,816 @@
+
+
+＄03-00-13-06-2-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253300 1 神官乌库伯]
+[charaSet B 98001000 1 玛修]
+[charaSet C 1098253530 1 恐爪龙十一兄弟]
+[charaSet D 1098253500 1 恐爪龙十一兄弟]
+[charaSet E 1098253510 1 恐爪龙十一兄弟]
+
+[charaSet F 1098253700 1 无可逃脱死亡钩爪]
+[charaSet G 1098255200 1 哈贝特洛特]
+[charaSet H 1098253200 1 U－奥尔加玛丽]
+
+
+[charaSet I 1098254300 1 迪诺斯1]
+[charaSet J 1098252700 1 迪诺斯2]
+[charaSet K 1098252700 1 迪诺斯3]
+[charaSet L 1098254300 1 迪诺斯4]
+[charaSet M 1098254300 1 迪诺斯5]
+[charaSet N 1098257520 1 言峰教练]
+[sceneSet O 169901 1]
+[charaSet S 98115000 1 特效用dummy1]
+[charaSet T 98115000 1 特效用dummy2]
+[charaSet U 98115000 1 特效用dummy3]
+
+[imageSet X cut425_uom 1]
+
+[scene 169500]
+[se ad5]
+[seVolume ad5 0 0]
+[se ad877]
+[seVolume ad877 0 0]
+[wt 0.1]
+
+[seVolume ad5 1.5 0.2]
+[seVolume ad877 1.5 0.2]
+[fadein black 1.5]
+[wait fade]
+
+[wt 1.2]
+
+[wipeout leftToRight 1.0 1.0]
+[seVolume ad5 1.0 0]
+[seVolume ad877 1.0 0]
+[wait wipe]
+
+[scene 169901]
+[wt 0.8]
+
+[cueSe SE_22 22_ad1207]
+[se ad6]
+[seVolume ad6 0 0]
+[se ade76]
+[seVolume ade76 0 0]
+[se ad335]
+[seVolume ad335 0 0]
+[se ad647]
+[seVolume ad647 0 0]
+[se ad889]
+[seVolume ad889 0 0]
+[seVolume ad6 1.0 1.0]
+[seVolume ade76 1.0 0.6]
+[seVolume ad335 1.0 0.6]
+[seVolume ad647 1.0 0.6]
+[seVolume ad889 1.0 1.0]
+[seVolume ad5 1.0 0.2]
+[seVolume ad877 1.0 0.2]
+[wipein rightToLeft 1.0 1.0]
+[wait wipe]
+[cueSe SE_22 22_ad1209]
+[wt 1.2]
+
+[seStop ad5 1.5]
+[seStop ad6 1.5]
+[seStop ade75 1.5]
+[seStop ad335 1.5]
+[seStop ad647 1.5]
+[seStop ad889 1.5]
+[seStop ad877 1.5]
+[wt 0.5]
+
+
+[subCameraOn 1]
+
+[charaLayer A sub #A]
+[charaLayer O sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask07 3 255,255,255,255 0]
+
+[charaScale A 1.3]
+[charaScale O 1.4]
+
+[charaTalk depthOff]
+[charaDepth O 2]
+[charaDepth A 3]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 100,150]
+[charaFadein O 0.1 0,-280]
+
+[subRenderFadein #A 0.7 0,-140]
+[wt 1.5]
+
+[bgm BGM_EVENT_160 0.1]
+
+＠神官乌库伯
+礼赞太阳吧！[r]礼赞既为父亦为母的吾等之太阳吧！
+[k]
+
+＠神官乌库伯
+礼赞太阳御座的黄金都市奇琴伊察，[r]礼赞太阳使者的吾等之王吧！
+[k]
+
+＠神官乌库伯
+宇宙树正是吾等之枢纽，连接地底世界之柱！[r]吾乃神官乌库伯，测量迈雅血管之人！
+[k]
+
+＠神官乌库伯
+以吾之名，向聚集于现场的迪诺斯们承诺，[r]这将是本期最为精彩耀眼的蹴球！
+[k]
+
+[messageOff]
+[subRenderFadeout #A 0.3]
+[wt 0.3]
+[charaFadeout A 0.1]
+[charaFadeout O 0.1]
+
+
+[cueSe SE_22 22_ad1209]
+[seVolume 22_ad1209 0 0]
+[cueSe SE_22 22_ad1207]
+[seVolume 22_ad1207 0 0]
+[se ad6]
+[seVolume ad6 0 0]
+[se ade76]
+[seVolume ade76 0 0]
+[se ad335]
+[seVolume ad335 0 0]
+[se ad647]
+[seVolume ad647 0 0]
+[se ad889]
+[seVolume ad889 0 0]
+[seVolume 22_ad1209 0.4 1.0]
+[seVolume 22_ad1207 0.4 0.6]
+[seVolume ad6 0.4 1.0]
+[seVolume ade76 0.4 0.6]
+[seVolume ad335 0.4 0.6]
+[seVolume ad647 0.4 0.6]
+[seVolume ad889 0.4 1.0]
+[wt 2.0]
+
+[subCameraOff]
+
+[charaLayer A normal]
+[charaLayer O normal]
+[charaScale A 1.0]
+[charaScale O 1.0]
+
+[seStop ad6 1.5]
+[seStop ade75 1.5]
+[seStop ad335 1.5]
+[seStop ad647 1.5]
+[seStop ad889 1.5]
+[wt 1.0]
+
+？1：好狂热啊……！
+？2：开始紧张了……！
+
+？！
+
+
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 21]
+[charaFadein B 0.1 1]
+＠玛修
+是的，万万没想到竟然还有机会站上专业的球场！
+[k]
+
+[charaFace B 7]
+＠玛修
+可是，既然以选手的身份参赛，[r]我们一定要全力以赴。
+[k]
+
+＠玛修
+御主担任[#DF:后卫]的中枢，[r]我和哈贝特洛特小姐会努力踢好[#MF:中场]的！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+
+[charaPut S 2500,2500]
+[charaPut T 2500,2500]
+[charaPut U 2500,2500]
+[charaEffect S bit_talk_back_splash_bl]
+[charaEffect T bit_talk_back_splash_re]
+[charaEffect U bit_talk_back_splash_gr]
+[charaRoll T 180 0,0]
+[charaRoll U 270 0,0]
+
+[charaTalk depthOff]
+[charaDepth C 2]
+[charaDepth D 3]
+[charaDepth E 4]
+
+[charaTalk depthOff]
+[subCameraOn 4]
+[charaLayer S sub #A]
+[charaLayer C sub #A]
+[charaLayer T sub #B]
+[charaLayer D sub #B]
+[charaLayer U sub #C]
+[charaLayer E sub #C]
+
+[subRenderDepth #A 1]
+[subRenderDepth #B 2]
+[subRenderDepth #C 3]
+
+[charaPut S 0,200]
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 0,250]
+[subCameraFilter #A maskEdge cut359_mask06 3]
+[subCameraRoll #A 22 0,0]
+[subRenderScale #A 1.1]
+[wt 0.1]
+
+[se ad326]
+[seVolume ad326 0 0.6]
+[charaMove C 170,250 0.5]
+[subRenderFadein #A 0.1 0,-400]
+[wt 1.0]
+
+＠C：恐爪龙十一兄弟
+说得没错，玛修大姐头！
+[k]
+
+[messageOff]
+[charaPut T 0,-200]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0,225]
+[subCameraFilter #B maskEdge cut359_mask06 3]
+[subCameraRoll #B 340 0,0]
+[subRenderScale #B 1.1]
+[wt 0.1]
+
+[se ad326]
+[seVolume ad326 0 0.6]
+[charaMove D -170,225 0.5]
+[subRenderFadein #B 0.1 0,-405]
+[wt 1.0]
+
+＠D：恐爪龙十一兄弟
+我们是！
+[k]
+
+[messageOff]
+[charaPut U 200,0]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 -80,220]
+[subCameraFilter #C maskEdge cut359_mask05 3]
+[wt 0.1]
+
+[se ad325]
+[seVolume ad325 0 0.6]
+[charaMove E -80,50 0.5]
+[subRenderFadein #C 0.1 0,-150]
+[wt 1.0]
+
+＠E：恐爪龙十一兄弟
+绝对要赢！　恐爪龙十一兄弟！
+[k]
+
+
+
+[messageOff]
+[charaTalk off]
+[se ade346]
+[seVolume ade346 0 0.8]
+[flashin once 0.1 0.3 FFFFFFFF FFFFFF00]
+[fowardEffect bit_talk_thunder_04]
+[wt 1.5]
+
+[seStop ade346 1.0]
+[wt 1.0]
+
+[subRenderFadeout #A 0.1]
+[subRenderFadeout #B 0.1]
+[subRenderFadeout #C 0.1]
+[wt 0.1]
+
+[charaRoll T 0 0,0]
+[charaRoll U 0 0,0]
+[charaPut S 2500,2500]
+[charaPut T 2500,2500]
+[charaPut U 2500,2500]
+[charaEffectDestroy S bit_talk_back_splash_bl]
+[charaEffectDestroy T bit_talk_back_splash_re]
+[charaEffectDestroy U bit_talk_back_splash_gr]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[subCameraOff]
+[charaLayer C normal]
+[charaLayer D normal]
+[charaLayer E normal]
+[charaLayer S normal]
+[charaLayer T normal]
+[charaLayer U normal]
+
+
+[charaTalk off]
+[charaDepth C 1]
+[charaDepth S 2]
+[charaDepth D 3]
+[charaDepth T 4]
+[charaDepth E 5]
+[charaDepth U 6]
+
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+
+[se ad223]
+[charaPutFSR C 2]
+[charaPutFSR S 2]
+[charaPutFSL D -200,0]
+[charaPutFSL T -200,0]
+[charaPut E 1]
+[charaPut U 1]
+[charaEffect S bit_talk_quickmove]
+[charaEffect T bit_talk_quickmove]
+[charaEffect U bit_talk_quickmove]
+[charaSpecialEffect C appearance 1 0.25]
+[charaSpecialEffect D appearance 1 0.25]
+[charaSpecialEffect E appearance 1 0.25]
+[wt 0.3]
+
+
+＠恐爪龙十一兄弟
+[line 3]呷！（落地声）
+[k]
+
+？1：呷！
+？2：大家都干劲十足呢。
+？！
+
+[charaEffectDestroy S bit_talk_quickmove]
+[charaEffectDestroy T bit_talk_quickmove]
+[charaEffectDestroy U bit_talk_quickmove]
+
+[clear]
+[charaTalk on]
+[charaTalk D]
+[charaFace D 1]
+＠D：恐爪龙十一兄弟·左
+是的说！　有[%1]辈前[r]教给我们的众多最新战术[line 3]
+[k]
+
+＠D：恐爪龙十一兄弟·左
+球动人动、边路进攻、回防……
+[k]
+
+＠D：恐爪龙十一兄弟·左
+有了这么多武器，还怎么可能会输？[r]不，绝无可能吧。
+[k]
+
+＠C：恐爪龙十一兄弟·右
+是啊，真想早点在仪式上试试……[r]会顺利吗？　会顺利吗？
+[k]
+
+[charaFace C 1]
+
+＠C：恐爪龙十一兄弟·右
+呱～～！　要是能顺利使出，一定会非常痛快吧～！[r]输赢已经无所谓了啦～！
+[k]
+
+＠E：恐爪龙十一兄弟·正中
+冷静点，兄弟，胜利还是很重要的。[r]要牢记谨慎而大胆地比赛。
+[k]
+
+＠E：恐爪龙十一兄弟·正中
+回想起跟[%1]、玛修、哈贝喵[r]一起经历的艰苦特训吧。
+[k]
+
+＠E：恐爪龙十一兄弟·正中
+尤其是玛修的训练，[r]真有必要背着巨石运球吗？
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+[wt 1.2]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+
+[charaTalk E]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSR C 0.1 2]
+[charaFadeinFSL D 0.1 -200,0]
+[charaFadein E 0.1 1]
+＠E：恐爪龙十一兄弟·正中
+总之，[&他们:她们]仨已形同我们的手足了。[r]手足的愿望我无论如何都想实现。
+[k]
+
+＠E：恐爪龙十一兄弟·正中
+[line 3]要上了，恐爪龙十一兄弟！
+[k]
+
+＠E：恐爪龙十一兄弟·正中
+无论如何都要让[%1][&他们:她们]去谒见恐龙王！
+[k]
+
+＠恐爪龙十一兄弟们=spot[C,D]
+呱～～！[r]不带这么强人所难的呱～！
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.15]
+
+[shake 0.05 0 2 1.5]
+[cueSe SE_22 22_ad1208]
+[charaScale F 1.02]
+[wt 0.8]
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.7 1]
+[wt 0.7]
+[seStop 22_ad1208 0.1]
+[wt 0.4]
+
+＠？？？
+哼哼哼。[r]弱队好像在胡说八道些什么呢？
+[k]
+
+＠？？？
+就算有年轻气盛的新人加入，也不过是鸟落烤焦的仙人掌。[r]不管再往废柴上面添什么也不改废柴本质吧？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+＠恐爪龙十一兄弟
+你是[line 3]蹴球的破坏者，TA·I·GA队的队长，[r][#无可逃脱死亡钩爪:Great Death Claw]！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠无可逃脱死亡钩爪
+是的，感谢你的介绍。[r]你们不需要自我介绍吗？
+[k]
+
+＠无可逃脱死亡钩爪
+也罢，要是不想死，就趁现在先准备好替身吧！
+[k]
+
+＠无可逃脱死亡钩爪
+毕竟我用控球能力暴跌为代价，[r]换来了身体冲撞破坏力的暴增！
+[k]
+
+＠无可逃脱死亡钩爪
+再见啦，主动送上门来被撞飞的[r]诸位死脑筋恐爪龙！
+[k]
+
+＠无可逃脱死亡钩爪
+我会用这爪子把你们全都送去坐板凳的！[r]嘎[line 3]哈哈哈哈！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_160 1.5]
+[cueSe SE_22 22_ad1208]
+[seStop 22_ad1208 3.0]
+[charaFadeout F 0.4]
+[wt 1.7]
+
+？1：（……在这种时候出现吗……！）
+？2：第一轮好像能轻松取胜呢。
+
+？！
+
+[charaTalk off]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSR C 0.1 2]
+[charaFadeinFSL D 0.1 -200,0]
+[charaFadein E 0.1 1]
+＠恐爪龙十一兄弟们
+嗯。[r]我们好像也有这种感觉了。
+[k]
+
+[messageOff]
+[wt 0.5]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+
+[scene 170300]
+[effect bit_talk_lens_flare_fs]
+[wt 1.5]
+
+[fadein black 1.0]
+[wait fade]
+[wt 1.5]
+
+[effectForceStop bit_talk_lens_flare_fs]
+
+[cueSe SE_22 22_ad1209]
+[seVolume 22_ad1209 0 0]
+[cueSe SE_22 22_ad1207]
+[seVolume 22_ad1207 0 0]
+[se ad6]
+[seVolume ad6 0 0]
+[se ade76]
+[seVolume ade76 0 0]
+[se ad335]
+[seVolume ad335 0 0]
+[se ad647]
+[seVolume ad647 0 0]
+[se ad889]
+[seVolume ad889 0 0]
+[seVolume 22_ad1209 0.4 0.6]
+[seVolume 22_ad1207 0.4 0.6]
+[seVolume ad6 0.4 1.0]
+[seVolume ade76 0.4 0.6]
+[seVolume ad335 0.4 0.6]
+[seVolume ad647 0.4 0.6]
+[seVolume ad889 0.4 1.0]
+[scene 169901 1.2]
+[wt 1.5]
+[seStop ad6 1.5]
+[seStop ade75 1.5]
+[seStop ad335 1.5]
+[seStop ad647 1.5]
+[seStop ad889 1.5]
+[wt 1.0]
+
+[bgm BGM_EVENT_160 0.1]
+[effectDestroy bit_talk_lens_flare_fs]
+
+[charaTalk on]
+[charaTalk E]
+[charaFace C 0]
+[charaFace D 0]
+[charaFace E 0]
+[charaFadeinFSR C 0.1 2]
+[charaFadeinFSL D 0.1 -200,0]
+[charaFadein E 0.1 1]
+＠E：恐爪龙十一兄弟
+激战，大胜，感谢！[r]可喜可贺突破第一轮，观众也心满意足！
+[k]
+
+＠E：恐爪龙十一兄弟
+我还是第一次踢那么开心的蹴球！[r]请容我向你们道谢，[%1]、玛修！
+[k]
+
+？1：大家也踢得很不错！
+
+[clear]
+＠C：恐爪龙十一兄弟
+是吗～？　果然如此吗～？[r]刚开始我还很害怕死亡钩爪的猛攻，
+[k]
+
+[charaFace C 1]
+
+＠C：恐爪龙十一兄弟
+熟悉后就一直在尝试能拖住对方多久，[r]原来都暴露了？
+[k]
+
+＠C：恐爪龙十一兄弟
+哎呀，那个杀人铲球到了后半场[r]在我眼中已经完全是射门机会了呢～！
+[k]
+
+？2：别这样，兄弟间道什么谢嘛。
+
+[clear]
+[charaFace D 1]
+＠D：恐爪龙十一兄弟
+就是嘛～！[r]真会说，真会说～！
+[k]
+
+＠D：恐爪龙十一兄弟
+感谢你精准的指示与华丽的传球！[r]简直酷毙了！
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[charaFadeout D 0.1]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 26]
+[charaFadein B 0.1 1]
+＠玛修
+第一轮仪式全都结束了。[r]水兵先生他们的队伍也晋级了！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.1 1]
+＠哈贝特洛特
+咱就知道。水兵看上去就很擅长足球嘛，[r]而且还有特佩乌跟着。咱就知道肯定能晋级。
+[k]
+
+？1：如果下一场也赢了，决赛就会对上水兵他们了吧。
+？2：死亡翻滚队肯定能行啦！
+
+？！
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_160 1.5]
+
+＠H：？？？
+很遗憾，但你这梦想是无法实现的。[r]毕竟[line 3]
+[k]
+
+＠H：？？？
+你们接下来的对手可是我！[r]U－奥尔加玛丽率领的大型迪诺斯队伍！
+[k]
+
+[messageOff]
+[wt 0.15]
+
+[sceneSet O 169901 1]
+
+
+[charaTalk off]
+[charaScale X 1.8]
+[charaDepth X 8]
+[charaDepth J 5]
+[charaDepth K 6]
+[charaDepth O 1]
+
+[charaScale I 1.1]
+[charaScale J 1.2]
+[charaScale K 1.2]
+[charaScale L 1.1]
+[charaScale M 1.1]
+[charaScale O 1.5]
+
+[se ad173]
+[wt 0.4]
+[charaFadein X 0.7 0,-450]
+[charaFadein O 0.7 0,-250]
+[wt 0.4]
+[seStop ad173 0.2]
+[wt 1.2]
+[charaMove X 0,-550 1.5]
+[charaMove O 0,-200 1.5]
+[wt 1.3]
+
+[se ade311]
+[shake 0.05 0 2 1.0]
+[wt 0.1]
+[charaFace J 0]
+[charaFace K 0]
+[charaFadein J 0.4 300,100]
+[wt 0.4]
+[charaFadein K 0.4 -500,100]
+[wt 0.4]
+[se ade311]
+[wt 1.4]
+
+[bgm BGM_BATTLE_62 0.1]
+[charaFadeout X 0.6]
+[charaFadeout O 0.6]
+[charaFadeout J 0.6]
+[charaFadeout K 0.6]
+[wt 0.8]
+
+[charaScale H 1.0]
+
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠玛修
+奥，奥尔加玛丽所长！？[r]您成功组建队伍了吗！？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.15]
+
+[se ad60]
+[wt 0.1]
+[charaTalk N]
+[charaFace N 0]
+[charaFadein N 0.4 1]
+[wt 0.3]
+[seStop ad60 0.2]
+[wt 0.4]
+＠言峰教练
+正是。毛骨悚然11队是我们击败夺冠热门队伍后，[r]重新编组的备受期待的新队伍。
+[k]
+
+＠言峰教练
+是一支由大小姐过剩的攻击性，[r]与我冷静透彻的战术组合而成的
+[k]
+
+＠言峰教练
+焕然一新的足球队。[r]首战我们就以100比0获胜了哦。
+[k]
+
+[charaFace N 1]
+＠言峰教练
+顺带一提，[r]这个『11』可以用英语来念。
+[k]
+
+？1：毛骨悚然……Eleven……！
+？2：神父你该不会很闲吧？
+
+？！
+
+[charaFadeout N 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 14]
+[charaFadein H 0.1 1]
+＠U－奥尔加玛丽
+随你们怎么说，迦勒底！
+[k]
+
+＠U－奥尔加玛丽
+谒见所谓的恐龙王，[r]抢夺通行许可的任务就包在我身上吧！
+[k]
+
+＠U－奥尔加玛丽
+你们要重新认识到我的伟大，[r]在受伤前离开球场！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠玛修
+感谢您的关心！[r]可是，我们也是死亡翻滚队的选手！
+[k]
+
+＠玛修
+就算对手是地球总统，[r]蹴球的[#仪式:比赛]是不到最后一秒都不知结果如何的！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 8]
+[charaFadein H 0.1 1]
+[wt 1.0]
+
+[charaFace H 14]
+＠U－奥尔加玛丽
+好吧！[r]就如你所愿，来一次公平竞赛节吧！
+[k]
+
+＠U－奥尔加玛丽
+要上了哦，玛修、[%1]！[r]这就是真正意义上的决胜局！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_BATTLE_62 0.4]
+[wait fade]
+[soundStopAll]
+[end]

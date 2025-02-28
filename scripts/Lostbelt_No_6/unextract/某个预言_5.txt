@@ -1,0 +1,543 @@
+
+＄03-00-10-07-5-0
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098123000 1 穆尼尔]
+[charaSet B 1098231510 1 玛修]
+
+[charaSet C 1007002 1 太阳骑士]
+[charaSet D 1007002 1 太阳骑士（剪影）]
+[charaFilter D silhouette FFFFFF80]
+[charaSet E 1020002 1 湖上骑士]
+[charaSet F 1020002 1 湖上骑士（剪影）]
+[charaFilter F silhouette FFFFFF80]
+
+[charaSet S 98115000 1 特效用]
+[charaSet T 98115000 1 特效用]
+
+[cameraMove 0 0,0 1.01]
+
+[scene 51608]
+
+[bgm BGM_EVENT_24 0.1]
+[wt 0.5]
+
+[se ad231]
+[shake 0.02 3 4 0.8]
+[fadein black 1.2]
+[wait fade]
+
+[se ad240]
+[effect bit_talk_35]
+[shake 0.02 3 4 0.6]
+[wt 1.0]
+
+[wt 0.1]
+[blur lens 5.0 1 2]
+[wt 1.8]
+
+[cameraMove 0.3 0,30 1.01]
+[wt 0.1]
+[se ad775]
+[shake 0.01 1 3 0.3]
+[wt 1.0]
+
+[effectDestroy bit_talk_35_fs]
+
+？1：呜……！
+
+？！
+
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠穆尼尔
+[%1]，振作一点！[r]我早就说了吧，谁让你逞强！
+[k]
+
+＠穆尼尔
+这边也在监视，那样可不行！[r]不光是战力问题，魔力吞食简直太魔术师杀手了！
+[k]
+
+＠穆尼尔
+光靠玛修没有胜算，快撤退吧！[r]立刻联络玛修[line 3]
+[k]
+
+[bgm BGM_EVENT_24 2.0 0.5]
+
+[charaFace A 3]
+＠穆尼尔
+[line 3]那是什么？[r]玛修的盾牌是不是在发光……？
+[k]
+
+＠穆尼尔
+唔？　有新的灵基反应？
+[k]
+
+＠穆尼尔
+我将灵基情报投到画面上啦，[%1]。[r]你有印象吗？
+[k]
+
+？1：这是……
+？2：不会错……！
+
+？！
+
+[messageOff]
+[wt 0.1]
+
+[cueSe SE_21 21_ad1104]
+[wt 0.8]
+[se ad775]
+[seVolume ad775 0 0.4]
+[wt 0.1]
+[blurOff lens 0.7]
+[shake 0.02 1 1 0]
+[cameraMove 0.7 0,0 1.01]
+[wt 0.7]
+[shakeStop]
+[wt 0.5]
+
+[charaFace A 0]
+＠穆尼尔
+干嘛突然站起来[line 3][wt 0.5][charaFace A 8][r]喂，你注射了活性安瓿吧！？
+[k]
+
+＠穆尼尔
+还打算继续吗！？[r]我说过两骑已经是极限了吧！？
+[k]
+
+？1：嗯，毕竟[line 3]
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.6]
+
+
+？1：那是玛修的战斗啊！
+
+？！
+
+[messageOff]
+[wt 0.1]
+
+[se ad39]
+[effect bit_talk_summon_fs]
+[wt 3.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+[effectDestroy bit_talk_summon_fs]
+
+[scene 124800]
+
+[wt 1.5]
+
+[se ade215]
+[se ad526]
+
+[cueSe SE_21 21_ad1114]
+[seVolume 21_ad1114 0 0]
+[seVolume 21_ad1114 1.0 0.5]
+[se ad632]
+[seVolume ad632 0 0]
+[seVolume ad632 1.0 0.4]
+[se ad57]
+
+[fadein black 1.5]
+[wait fade]
+[wt 1.0]
+[seStop ad57 1.0]
+
+[se ad564]
+[se ad423]
+[se ad425]
+[shake 0.05 3 3 2.5]
+[wt 3.8]
+[seStop ad632 3.0]
+[seStop 21_ad1114 3.0]
+
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+
+[scene 119801]
+[wt 0.6]
+
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 36]
+[charaFadein B 0.1 0,-15]
+＠玛修
+……燃烧城市的火焰……[r]焚烧妖精，吞食其黑烟与雷电的魔犬……
+[k]
+
+＠玛修
+……您已彻底变成另一种生物了吧……
+[k]
+
+＠玛修
+无论是这城市名为诺里奇，[r]还是您自己的名字，都无法映在您的眼中了……
+[k]
+
+＠玛修
+……您是我无法打倒的对手。[r]恐怕寻常英灵只会沦为您的饵食……
+[k]
+
+[bgmStop BGM_EVENT_24 3.0]
+
+[cueSe SE_21 21_ad1108]
+[seVolume 21_ad1108 0 0.4]
+[se ad952]
+[seVolume ad952 0 0.4]
+[charaPut S 0,-15]
+[charaEffect S bit_talk_shield_light02 15,-15]
+
+[charaFace B 7]
+＠玛修
+……即便如此！[r]我也决不能在这座城市输给您！
+[k]
+
+＠玛修
+曾有人将您视为骄傲！[r]曾有人期盼您能回到这座城市！
+[k]
+
+＠玛修
+仰慕您[line 3]不对，您所仰慕的[r]正义骑士之盾，就在此处！
+[k]
+
+＠玛修
+罗布、瓦格、温基……
+[k]
+
+＠玛修
+他们所相信的，决不是[r]会在这种地方挫败的我……！
+[k]
+
+[charaFace B 35]
+＠玛修
+我是谢菲尔德的骑士，[r]玛修·基列莱特！
+[k]
+
+[messageOff]
+
+[charaMove B 0,0 0.6]
+[charaMove S 0,0 0.6]
+[wt 0.1]
+[se ad984]
+[wt 0.3]
+[wt 0.8]
+[se bac170]
+
+＠玛修
+是祓除『灾厄』！[r]拯救不列颠的圆桌一员！
+[k]
+
+[messageOff]
+[se ad928]
+[seVolume ad928 0 0.4]
+[se ad948]
+[seVolume ad948 0 0.2]
+[se ad852]
+[seVolume ad852 0 0.4]
+[charaPut T 1]
+[charaEffect T bit_talk_shield_light 15,-15]
+[wt 2.2]
+
+[seStop 21_ad1108 1.0]
+
+[se ad835]
+[se ad574]
+[fadeout white 0.5]
+[cueSeStop 21_ad1114 1.5]
+[seStop ad928 1.5]
+[seStop ad948 1.5]
+[seStop ad852 1.5]
+
+[seStop ad835 1.5]
+[seStop ad952 1.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaPut T 2000,2500]
+[charaEffectStop T bit_talk_shield_light]
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_shield_light02]
+
+[charaTalk off]
+[charaDepth D 5]
+[charaDepth F 5]
+[charaDepth C 6]
+[charaDepth E 6]
+
+[charaPut D 1]
+[charaFace D 0]
+[charaFadeTime D 0.2 0.97]
+
+[se ad632]
+[seVolume ad632 0 0]
+[seVolume ad632 3.0 0.2]
+[wt 3.5]
+
+[seStop ad632 3.0]
+[fadein white 2.0]
+[wait fade]
+
+[charaFace C 0]
+[charaFadein C 1.0 1]
+[wt 0.3]
+[cueSe SE_21 21_ad1119]
+[seVolume 21_ad1119 0 0.8]
+[wt 0.3]
+[cueSeStop 21_ad1119 0.2]
+[wt 0.4]
+[charaFadeout D 1.0]
+[wt 1.0]
+
+[bgm BGM_EVENT_125 0.1]
+
+[charaTalk on]
+＠太阳骑士
+说得不错。[r]并非宣泄对敌人的怒火，而是鼓舞自己的呐喊。
+[k]
+
+＠太阳骑士
+既然听到了这样的声音，[r]那我怎么可能还坐得住。
+[k]
+
+＠太阳骑士
+突然现身摆出一副前辈架子或许挺招人烦的，[r]还望多加海涵。
+[k]
+
+＠太阳骑士
+能否允许我与您同在战场呢，[r]玛修女爵。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠玛修
+[line 6]。
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[se ad835]
+[se ad574]
+[fadeout white 0.5]
+[wait fade]
+[seStop ad835 1.5]
+
+[charaTalk off]
+
+[charaPut F 1]
+[charaFace F 0]
+[charaFadeTime F 0.1 0.97]
+
+[se ad632]
+[seVolume ad632 0 0]
+[seVolume ad632 3.0 0.2]
+[wt 1.0]
+
+[seStop ad632 3.0]
+[fadein white 2.0]
+[wait fade]
+[wt 0.5]
+
+[charaFace E 0]
+[charaFadein E 0.6 1]
+[se ad921]
+[seVolume ad921 0 0.7]
+[wt 0.6]
+[charaFadeout F 1.0]
+[wt 1.0]
+[charaFace E 1]
+
+[charaTalk on]
+＠湖上骑士
+没想到会被卿捷足先登。[r]我自认守护窈窕淑女可是我的使命哦。
+[k]
+
+＠湖上骑士
+[line 3]但看来这也是我一厢情愿。[r]她可不需要什么护花使者。
+[k]
+
+＠湖上骑士
+这斗志、这勇气惊若春雷。[r]不知我辈中又有几人能及。
+[k]
+
+＠湖上骑士
+休想独占与她并肩奋战的荣誉哦，[r]高文爵士。
+[k]
+
+＠湖上骑士
+哪怕会被称作女儿奴，我也决不退让。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 21]
+[charaFadein B 0.1 1]
+＠玛修
+您，您以为自己是来旁听公开课的吗，爸爸！
+[k]
+
+[charaFace B 14]
+＠玛修
+不，不对，重点不是这个，这是怎么回事[line 3][r]两位为什么会出现在这里！？
+[k]
+
+＠玛修
+这不列颠应该是无法召唤出[r]泛人类史的英灵才对……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth C 6]
+[charaDepth E 4]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFace E 0]
+[charaFadeinFSL C 0.1 0]
+[charaFadeinFSR E 0.1 2]
+＠太阳骑士
+好像确实如此。[r]但看来只有我们另当别论呢。
+[k]
+
+＠太阳骑士
+想必是这个国家有人继承了我们的名字吧。
+[k]
+
+＠太阳骑士
+既然都随意滥用了，[r]那多少也该给我们准备几个席位吧。
+[k]
+
+＠太阳骑士
+说白了，相当于存在的互换啦。
+[k]
+
+＠湖上骑士
+嗯，虽然无从知晓是哪一位[r]继承了我的名号[line 3]
+[k]
+
+＠湖上骑士
+但得感谢那位的蛮勇，不，是活跃。[r]多亏如此，我才有幸参与这精彩的时刻。
+[k]
+
+＠湖上骑士
+这灵基撑不了几分钟，但足够了。[r]左脚就交给你啦，高文。
+[k]
+
+＠湖上骑士
+对手是犹如凯茜·帕鲁格的魔犬。[r]现在可不是相互争抢的时候了吧。
+[k]
+
+[charaFace C 5]
+＠太阳骑士
+应该说你吧。可不能因为在玛修女爵面前，[r]就采取轻率的作战哦。
+[k]
+
+＠太阳骑士
+在场可是到齐了[#三名圆桌骑士]，[r]只许胜不许败。
+[k]
+
+[charaFace C 2]
+＠太阳骑士
+要上了，圆桌的[#同胞:朋友]啊！[r]由我们亲手开辟盾之骑士的道路吧！
+[k]
+
+[charaFace E 2]
+＠湖上骑士
+好！　兰斯洛特，出击！
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+[wt 1.2]
+
+[charaFace B 7]
+[wt 1.0]
+
+[wipeout rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+
+[charaFadeout B 0.1]
+
+[scene 124800]
+[wt 0.6]
+
+[se ade215]
+[se ad526]
+
+[cueSe SE_21 21_ad1114]
+[seVolume 21_ad1114 0 0]
+[seVolume 21_ad1114 1.0 1.0]
+[se ad632]
+[seVolume ad632 0 0]
+[seVolume ad632 1.0 0.4]
+
+[wipein rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+＠玛修
+两位，太感谢了！
+[k]
+
+＠玛修
+请赐予我打倒她的力量……[r]不，请赐予我拯救她的机会！
+[k]
+
+[seStop ad632 3.0]
+[seStop 21_ad1114 3.0]
+
+＠玛修
+她名为巴格斯特，[r]是一直守护着这不列颠的忠诚骑士。
+[k]
+
+＠玛修
+是履行了强者的义务，[r]渴望弱者能生存下去之人。
+[k]
+
+＠玛修
+漆黑灾厄，[r]吞食妖精的野兽首领啊。
+[k]
+
+＠玛修
+作为名列圆桌之人[line 3][r]我们要在此，阻挡你的前进！
+[k]
+
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_125 0.4]
+[wait fade]
+[soundStopAll]
+[end]

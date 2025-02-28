@@ -1,0 +1,1264 @@
+
+＄03-00-10-07-4-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1050000 1 巴格斯特]
+[charaSet B 98014000 1 斯普里根的卫士A]
+[charaSet C 98014000 1 斯普里根的卫士B]
+[charaSet D 1098210000 1 斯普里根]
+[charaSet E 1098123000 1 穆尼尔]
+[charaSet F 1098231510 1 玛修]
+[imageSet G back10000 1]
+[charaFilter G silhouette 9E0A0080]
+[imageSet H back10000 1]
+[charaScale H 1.1]
+[charaDepth H 2]
+[sceneSet I 124800 1]
+
+[charaSet J 98115000 1 特效用dummy]
+
+[scene 10000]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_69 0.1]
+
+＠
+被诅咒吧，被诅咒吧。[r]愿牙之氏族诅咒缠身。
+[k]
+
+＠
+你们中迟早会出现一头野兽。[r]极其强大，有人型外貌的黑犬终将诞生。
+[k]
+
+＠
+『没什么，这是对祓除了摩耳斯之王的奖赏。[r]　不必客气，尽管收下吧。』
+[k]
+
+＠
+寄宿了野性法则的存在，[r]凭弱肉强食之理成长的存在，
+[k]
+
+＠
+靠[#吞食心爱之物]生存，[r]可怕到难以想象存在于世的可怕妖精。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[effect bit_sepia01_depth_fs]
+[scene 118100]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.2]
+[shake 0.03 3 3 0.4]
+[se ad191]
+[wt 0.4]
+[se adm26]
+[seStop adm26 2.5]
+[wt 3.5]
+
+＠巴格斯特
+呜呜……啊啊……啊啊啊啊啊……
+[k]
+
+＠巴格斯特
+呜啊……啊啊啊啊，啊，啊[line 3]呜啊啊啊……！
+[k]
+
+＠
+边哽咽地哭泣，[r]边吃下曾为恋人的妖精之肉。
+[k]
+
+＠
+这次的恋人并非氏族出身，[r]而是衍生自森之子的新妖精。
+[k]
+
+＠
+那是个臂力胜于自己，身材魁梧、性情随和的妖精。[r]一眼便认同了他的实力，坠入爱河，彼此相爱。
+[k]
+
+＠
+真的打从心底敬爱他。[r]所以，原本以为这次[#不会这样]。
+[k]
+
+[messageOff]
+[shake 0.03 3 3 0.4]
+[se ad191]
+[wt 0.4]
+[se adm26]
+[seStop adm26 2.5]
+[wt 3.5]
+
+＠巴格斯特
+啊啊……啊咕，啊呜，啊，啊哈……[r]……呼……啊啊啊，啊[line 3]
+[k]
+
+＠
+无法遏制食欲。
+[k]
+
+＠
+虽然自我厌恶令自己多次呕吐，[r]但凌驾其上的快感逐渐润湿了口腔、喉咙、食道。
+[k]
+
+＠
+美味、可爱、可恨。[r]正因为真心爱他，他的肉才显得香浓可口。
+[k]
+
+＠
+诞生于这不列颠已有400年。
+[k]
+
+＠
+交织着爱与喜悦、哀叹与苦痛的捕食[r]令她的精神早已崩溃。
+[k]
+
+＠
+每次失去恋人，她都试图自尽，[r]然后打消这个念头。
+[k]
+
+＠
+要寻死易如反掌。[r]但那样只会导致以往的行为都沦为单纯的食欲。
+[k]
+
+＠
+最初的捕食，是城塞公福尔·韦瑟。[r]之所以■掉他，纯粹是为了守护不列颠。
+[k]
+
+＠
+通过将那优质的神秘化作自身血肉，[r]她得以与『灾厄』战斗。
+[k]
+
+＠
+喜爱强者是出于自身的本性。[r]将他们化作自身血肉，则是为了获得那份能力。
+[k]
+
+＠
+所谓『弱肉强食』就是这么一回事。
+[k]
+
+＠
+既然是靠吞食心爱之物活下来的，[r]自然不能只因“想死”这种理由就去死。
+[k]
+
+＠
+既然作为强者诞生，作为氏族之女被抚养长大，[r]自当承担起掠夺了的责任才行。
+[k]
+
+＠
+既然还有人愿意信任『灾厄之子』，[r]就必须比任何人都展示正义才行。
+[k]
+
+＠
+只有这份尊严，一直修补着她破碎的心灵。
+[k]
+
+＠巴格斯特
+呜呜……呜呜呜，呜呜呜呜呜……！
+[k]
+
+＠
+然而至此也到极限了。
+[k]
+
+＠
+自己这种不祥的妖精，[r]就不该活在这世上。
+[k]
+
+＠
+当哭着拔出自己的[#角:剑]，[r]打算结束生命的时候[line 2]
+[k]
+
+[bgmStop BGM_EVENT_69 1.0]
+
+＠拄着拐杖的少年
+不好意思？[r]请问在那边哭泣的人是你吗？
+[k]
+
+＠
+女王历2000年。[r]她，遇见了一位弱不禁风的人类孩童。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+[effectDestroy bit_sepia01_depth_fs]
+[scene 107801]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[cueSe SE_21 21_ad1119]
+[seVolume 21_ad1119 0 0.4]
+[wt 0.3]
+[seStop 21_ad1119 0.3]
+[wt 1.2]
+[cueSe SE_21 21_ad1119]
+[seVolume 21_ad1119 0 0.4]
+[wt 0.3]
+[seStop 21_ad1119 0.3]
+
+[bgm BGM_MAP_75 0.1]
+
+＠巴格斯特
+呼……呼……呼……
+[k]
+
+＠巴格斯特
+曼彻斯特……[r]必须，赶紧回，曼彻斯特……
+[k]
+
+＠巴格斯特
+将曼彻斯特的妖精们，[r]交给，迦勒底[line 3]
+[k]
+
+＠巴格斯特
+给他……给阿多尼斯，再争取，一点时间[line 3]
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[se ad754]
+[seVolume ad754 0 0]
+[seVolume ad754 1.0 0.2]
+[se ad162]
+[seVolume ad162 0 0]
+[seVolume ad162 1.0 0.05]
+[wt 1.5]
+
+＠
+……自从那天，遇见了人类孩童以来，已有17年。
+[k]
+
+＠
+那之后的时间，是一段幸福的时光。
+[k]
+
+＠
+那是初次体会到的，安稳而满足的时光。
+[k]
+
+＠
+『只会爱上强者』……有违这个规矩的爱[r]令她感到困惑，同时也令她感到欣喜。
+[k]
+
+＠
+他显然是个弱者，[r]并不会成为捕食的对象。
+[k]
+
+＠
+对于为了变强而吞食强者的她来说，
+[k]
+
+＠
+这份爱是自己并非野兽的证明，[r]也是一种治愈。
+[k]
+
+＠
+……因此，她发誓不惜付出任何牺牲也要守护他，
+[k]
+
+＠
+决意为那美丽的心灵而战。
+[k]
+
+＠
+人类与妖精的共存，[r]对等的关系。
+[k]
+
+＠
+就算难以在全不列颠实现，[r]在自己的领地还是可能的。
+[k]
+
+＠
+曼彻斯特的妖精们表示了赞同，[r]也很乐意移居到泛人类史。
+[k]
+
+＠巴格斯特
+……不列颠，将终结……
+[k]
+
+＠巴格斯特
+卡美洛充斥着摩耳斯，再过不久，[r]其他城市也会被吞没……但是……
+[k]
+
+＠巴格斯特
+在那之前，我必须集结曼彻斯特的居民，[r]带他们前往迦勒底所在的海岸……
+[k]
+
+＠巴格斯特
+……虽然我，不能，一同前去……[r]……但至少，要将这件事[line 3]
+
+[k]
+
+＠
+穿过森林，[r]抵达曼彻斯特市。
+[k]
+
+＠
+在那里的是[line 2]
+[k]
+
+[messageOff]
+[bgmStop BGM_MAP_75 1.0]
+[seVolume ad754 1.0 0.4]
+[seVolume ad162 1.0 0.4]
+
+[scene 123201]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+＠巴格斯特
+[line 3]哎？
+[k]
+
+[seStop ad754 4.0]
+[seStop ad162 4.0]
+
+＠
+笑着将人类当作■■的，[r]曼彻斯特妖精们的住家。
+[k]
+
+[bgm BGM_EVENT_126 0.1]
+
+＠妖精们
+收拾掉，收拾掉！[r]马上就要搬家啦，旧玩具都收拾掉！
+[k]
+
+＠妖精们
+拧断手脚真好玩！[r]抽出肠子真好玩！
+[k]
+
+＠妖精们
+最开始的哭喊声最棒啦！[r]之后的惨叫声就不怎么样了！
+[k]
+
+＠妖精们
+快■吧，快■吧！[r]赶在巴格斯特回来前收拾掉，不要让她知道！
+[k]
+
+＠妖精们
+一旦被知道我们一直将他们关在仓库里，[r]巴格斯特肯定会勃然大怒哦。
+[k]
+
+＠妖精们
+一旦被知道我们每天都在仓库里■■他们，[r]巴格斯特肯定会火冒三丈哦！
+[k]
+
+＠妖精们
+贪吃的巴格斯特！[r]多情的巴格斯特！
+[k]
+
+＠妖精们
+她肯定会揍我们一顿，[r]怒骂“为什么不叫上我！”哦！
+[k]
+
+＠巴格斯特
+[line 3]怎么，回事[line 3]
+[k]
+
+＠巴格斯特
+[line 3]这是，怎么回事[line 3][r][line 3]你们，究竟在干什么[line 3]！
+[k]
+
+＠
+她对化作邪恶妖精的居民们怒吼，[r]而妖精们却咧着嘴笑了起来，
+[k]
+
+＠妖精们
+什么叫干什么，这是在模仿领主大人啦！[r]我们全都知道哦！
+[k]
+
+＠妖精们
+我们在宅邸深处看到啦！[r]看到你平常隐瞒的事啦！
+[k]
+
+＠妖精们
+无比快乐的过家家。[r]无比美妙的故事。
+[k]
+
+＠妖精们
+看起来每天都很开心！[r]所以我们也模仿起来啦！
+[k]
+
+＠巴格斯特
+模仿……我……[r]这种事……？　杀害人类？
+[k]
+
+＠巴格斯特
+杀害人类[line 3][r]我，将人类[line 3]
+[k]
+
+[messageOff]
+[wt 0.4]
+[se ad592]
+[seVolume ad592 0 0.5]
+[fadeout white 0.4]
+[wait fade]
+[scene 123200]
+[wt 0.4]
+[fadein white 0.4]
+[wait fade]
+
+[wt 1.5]
+
+[fadeout white 0.4]
+[wait fade]
+[scene 123201]
+[wt 0.4]
+[fadein white 0.4]
+[wait fade]
+
+＠巴格斯特
+啊。[r][line 3]啊，啊[line 3]
+[k]
+
+＠妖精们
+原本分明那么温柔！[r]原本分明那么珍惜！
+[k]
+
+＠妖精们
+巴格斯特却吃掉了！[r]在宅邸深处吃掉了！
+[k]
+
+＠妖精们
+非常，非常有意思哦！[r]所以我们也这么干啦！
+[k]
+
+＠妖精们
+有意思，有意思，动手比看更有意思！[r]■掉人类真是非常非常有意思！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_126 2.0]
+[scene 123200 0.4]
+[wt 0.6]
+[scene 123201 0.4]
+[wt 0.6]
+[scene 123200 0.3]
+[wt 0.5]
+[scene 123201 0.3]
+[wt 0.5]
+[scene 123200 0.2]
+[wt 0.4]
+[scene 123201 0.2]
+[wt 0.4]
+[scene 123200 0.1]
+[wt 0.3]
+[scene 123201 0.1]
+[wt 0.2]
+[scene 123200 0.1]
+[wt 0.8]
+[cueSe SE_21 21_ad1125]
+[effect bit_talk_35]
+[wt 1.5]
+
+＠巴格斯特
+啊[line 3][r]啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+[charaFadeout H 0.1]
+[scene 10000]
+[wt 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[wt 0.4]
+[effect bit_talk_35]
+[cueSe SE_21 21_ad1125]
+[se ad863]
+[wt 1.5]
+
+＠巴格斯特
+呜呜……呜啊啊……呜啊啊啊……！
+[k]
+
+[messageOff]
+[shake 0.03 3 3 0.4]
+[se ad191]
+[wt 0.4]
+[se adm26]
+[seStop adm26 2.5]
+[wt 3.5]
+
+[bgm BGM_EVENT_110 0.1]
+
+＠
+梦到了不知第几次『行为』的梦。
+[k]
+
+＠
+我在哭泣。[r]边哭边■着曾经的恋人。
+[k]
+
+＠床上的少年
+你又在哭了呢，■■■■。[r]来，到这边来。
+[k]
+
+＠床上的少年
+边哭边说也没关系，[r]说说今天发生了什么吧。
+[k]
+
+＠床上的少年
+放心吧，不管是多么丢脸的事，[r]我都不会讨厌你哦。
+[k]
+
+＠
+我只会■掉强者，[r]因此没有■掉他的理由。
+[k]
+
+＠床上的少年
+来吧，难过时就该聊些开心的话题。[r]我们来聊聊你最喜欢的圆桌骑士吧。
+[k]
+
+＠床上的少年
+因“[#调换:Changeling]”漂流而来的漂流物，[r]华美、骄傲，却又有些寂寥的，
+[k]
+
+＠床上的少年
+你一直仰慕的，那群英勇骑士的故事。
+[k]
+
+＠
+但是，我早就已经坏掉了。[r]无关什么强弱，
+[k]
+
+＠床上的少年
+来，看看庭院。[r]你种下的花非常漂亮。
+[k]
+
+＠床上的少年
+今天，你又为无法行走的我[r]送上了一朵新的花呢。
+[k]
+
+[messageOff]
+[wt 0.2]
+[effect bit_talk_fang_02]
+[cueSe SE_21 21_ad1147]
+[wt 3.2]
+[seStop 21_ad1147 1.0]
+[wt 2.0]
+[cueSe SE_21 21_ad1125]
+[se ad191]
+[se ad161]
+[wt 2.0]
+
+[charaFadein G 1.0 1]
+[wt 2.0]
+
+＠
+我只是个想■掉心爱之物的卑劣野兽。
+[k]
+
+[messageOff]
+[charaFadeout G 2.0]
+[wt 2.4]
+[se ade243]
+[seStop ade243 1.0]
+[wt 2.0]
+
+＠？？？
+想自绝性命来赎罪吗？[r]这种心情能够理解，但还是先冷静下来吧。
+[k]
+
+＠？？？
+在妖精中堪称最为高洁的你如果[r]自我了断，也未免太悲哀了。
+[k]
+
+＠？？？
+缔结契约吧，巴格斯特。[r]你现在接受诅咒还为时尚早。
+[k]
+
+＠？？？
+这记忆就帮你掩盖起来吧。[r]让他永远活在你的心中。
+[k]
+
+＠？？？
+没事，痛苦时大可以返回这个房间。[r]将与他的最后一天，如梦境般重复上演。
+[k]
+
+[bgmStop BGM_EVENT_110 2.0]
+
+[messageOff]
+[wt 0.2]
+[fadeout black 1.0]
+[wait fade]
+
+[fadein black 0.1]
+[wait fade]
+
+[se ad31]
+[se ad539]
+[se ad438]
+[charaPut J 1]
+[charaEffect J bit_talk_noise_gr]
+[wt 1.6]
+[seStop ad539 0.3]
+[seStop ad31 2.0]
+
+[wipeout noise 1.0]
+[wait wipe]
+
+[scene 123201]
+[wt 0.5]
+
+[charaPut J 3000,3000]
+[charaEffectStop J bit_talk_noise_gr]
+
+[se ad754]
+[seVolume ad754 0 0]
+[seVolume ad754 1.0 0.4]
+[se ad162]
+[seVolume ad162 0 0]
+[seVolume ad162 1.0 0.4]
+[wipein noise 1.5]
+[wait wipe]
+[wt 2.2]
+
+[seStop ad754 2.0]
+[seStop ad162 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[scene 10000]
+
+[fadeout black 0.1]
+[wait fade]
+
+[cameraMove 0.1 0,0 1.2]
+[effect bit_talk_marblebg]
+[wt 1.5]
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_129 0.1]
+
+＠妖精们
+快出发吧，立刻出发吧！[r]飞奔至有一大堆人类的外部世界吧！
+[k]
+
+＠妖精们
+好开心，好开心！[r]肯定会开心上好几十倍！
+[k]
+
+＠妖精们
+玩耍吧，玩耍吧，拿人类取乐吧！[r]我在漂流物上读到过！
+[k]
+
+＠妖精们
+这样的，被叫做恶魔哦！
+[k]
+
+＠巴格斯特
+[line 6]，[line 3].
+[k]
+
+＠
+[line 3]心想，必须杀掉。
+[k]
+
+＠
+一直都搞错了，搞错了该守护的对象。[r]打从一开始，这座岛上就没有什么正义可言。
+[k]
+
+＠巴格斯特
+[line 3]啊，啊[line 3]
+[k]
+
+＠
+“必须负起责任才行。[r][f small]  [f -]决不能让他们去外部世界。”
+[k]
+
+＠妖精们
+大家快看，巴格斯特在笑！[r]平时那愉快戏剧又要开演啦！
+[k]
+
+＠妖精们
+哭鼻子的巴格斯特！[r]喜极而泣的巴格斯特！
+[k]
+
+＠妖精们
+这次又会是什么样的猎物呢？[r]别小气啦，让我们也尝尝嘛！
+[k]
+
+[bgmStop BGM_EVENT_129 1.0]
+
+＠
+“这种邪恶的生物，[r][f small]  [f -]必须一只不剩地，全部杀光才行。”
+[k]
+
+[messageOff]
+[cueSe Servants_502100 m45015]
+[seVolume m45015 0 0.8]
+[se ad963]
+[seVolume ad963 0 0.8]
+
+[seStop ad963 1.0]
+[se ad969]
+[se ad960]
+[se ad961]
+
+[fadeout black 1.5]
+[wait fade]
+
+
+[wt 1.5]
+[seStop ad969 1.0]
+[seStop ad960 1.0]
+[seStop ad961 1.0]
+
+[cameraMove 0.1 0,0 1.01]
+[effectDestroy bit_talk_marblebg]
+[scene 20602]
+[wt 2.5]
+
+[shake 0.02 3 3 2.5]
+[se ad228]
+[seVolume ad228 0 0.1]
+[seVolume ad228 1.5 1.0]
+[se ad10]
+[se ad892]
+[fadein black 1.5]
+[wait fade]
+[seStop ad228 0.8]
+
+[wt 1.5]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFace C 3]
+[charaFadeinFSL B 0.1 0]
+[charaFadeinFSR C 0.1 2]
+
+＠斯普里根的卫士A
+呜哇，又开始摇晃了！？[r]金库城也不行了！　诺里奇已经完啦！
+[k]
+
+[charaFace C 2]
+
+＠斯普里根的卫士B
+逃出去吧！　待在这里也只有死路一条！[r]只会像城墙一样被那家伙啃个稀碎！
+[k]
+
+[charaFace B 5]
+
+＠斯普里根的卫士A
+斯普里根大人呢！？[r]不用护送他离开吗！？
+[k]
+
+[charaFace C 5]
+
+＠斯普里根的卫士B
+关我屁事，他自己跑进宝物库躲起来了！[r]早就不算什么领主了！
+[k]
+
+＠斯普里根的卫士B
+听好了，我要开门啦！[r]一离开这里就往港口跑！
+[k]
+
+＠斯普里根的卫士B
+到了海上至少不至于被烧死[line 3]
+[k]
+
+[messageOff]
+[charaTalk off]
+[se ad963]
+[se ad429]
+[seVolume ad429 0 0.3]
+[fowardEffect bit_talk_fire_wall]
+[wt 1.0]
+[se ad828]
+[shake 0.05 3 3 1.5]
+[seStop ad429]
+[fadeout white 1.5]
+[wait fade]
+
+[wt 1.5]
+
+[charaFilter B silhouette 00000080]
+[charaFilter C silhouette 00000080]
+
+[shake 0.05 3 3 3.5]
+[fadein white 3.5]
+[wait fade]
+
+[se ad227]
+[charaEffect B bit_talk_atomization]
+[charaEffect C bit_talk_atomization]
+[wt 0.5]
+[charaFadeout B 2.0]
+[charaFadeout C 2.0]
+
+[wt 4.0]
+
+[wipeout rectangleStripLeftToRight 0.4 1]
+[wait wipe]
+[scene 118002]
+[wt 0.4]
+[wipein rectangleStripRightToLeft 0.4 1]
+[wait wipe]
+
+[se ad882]
+[seVolume ad882 0 0.7]
+[se ad914]
+[seVolume ad914 0 0.7]
+[se ade393]
+[seVolume ade393 0 0.6]
+[shake 0.02 4 4 0.2]
+[wt 0.3]
+[shake 0.02 5 5 1.5]
+[se ad10]
+[se ad892]
+[seVolume ade393 1.0 0.5]
+[wt 2.0]
+[seStop ade393 2.0]
+
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+
+＠斯普里根
+想逃？　蠢货，丢下这件艺术品[r]想跑去哪儿啊，一群俗人。
+[k]
+
+＠斯普里根
+金库城永不倒。
+[k]
+
+＠斯普里根
+这可是耗费100年对撞钟堂进行修补、改建而成，[r]在不列颠亦属最坚固的铁塔。
+[k]
+
+＠斯普里根
+区区摩耳斯无论来多少只，[r]这座塔都绝不会倒下！
+[k]
+
+[messageOff]
+[effect bit_talk_rubble]
+[shake 0.02 3 3 2.5]
+[se ad228]
+[seVolume ad228 0 0.1]
+[seVolume ad228 1.5 1.0]
+[se ad10]
+[se ad892]
+[wt 0.6]
+[effectStop bit_talk_rubble]
+[wt 2.0]
+[seStop ad228 0.8]
+
+[charaFace D 2]
+
+＠斯普里根
+呜啊啊，住手，还不快住手！[r]这也太危险了！
+[k]
+
+＠斯普里根
+要是伤到了我长年收集的艺术品该怎么办！？[r]到时谁来赔偿给我啊！？
+[k]
+
+[charaFace D 5]
+
+＠斯普里根
+没有人！　没错，一个都没有！[r]连摩根也不理解这些东西的价值！
+[k]
+
+＠斯普里根
+怎么能说这是模仿人类呢！[r]虽然九成都是冒牌货，是没有内涵的破烂。
+[k]
+
+＠斯普里根
+但剩下一成[line 3]没错，是自污泥中现身，[r]奇迹般的真品啊！
+[k]
+
+＠斯普里根
+是堪称真理的“艺术”！[r]是只会诞生于这个国度的极致作品！
+[k]
+
+[charaFace D 3]
+
+＠斯普里根
+没错，就是这样！
+[k]
+
+＠斯普里根
+不理解箇中价值也就罢了，[r]逐一去为那群凡夫俗子解释也只是对牛弹琴！
+[k]
+
+＠斯普里根
+不列颠的艺术品是属于我的，[r]我就是为此而活下来的！
+[k]
+
+＠斯普里根
+从那天起！　从那晚起！[r]从误闯这个世界的那刻起！
+[k]
+
+＠斯普里根
+我的灵魂就被这个世界迷住了！[r]收集这些宝物就成了我的存在意义！
+[k]
+
+＠斯普里根
+不会交给任何人！　不会让给任何人！
+[k]
+
+＠斯普里根
+若要我舍弃这座金库城，[r]我宁愿这不列颠走向毁灭！
+[k]
+
+[messageOff]
+[effect bit_talk_rubble]
+[se ad882]
+[seVolume ad882 0 0.7]
+[se ad914]
+[seVolume ad914 0 0.7]
+[se ade393]
+[seVolume ade393 0 0.6]
+[shake 0.02 4 4 0.2]
+[wt 0.3]
+[shake 0.02 5 5 1.5]
+[se ad10]
+[se ad892]
+[charaFace D 5]
+[seVolume ade393 1.0 0.5]
+[wt 1.2]
+[effectStop bit_talk_rubble]
+[wt 0.8]
+[seStop ade393 2.0]
+
+＠斯普里根
+可恶，给我适可而止！[r]又不是传说中的大鲶，到底是什么[line 3]
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+[cameraMove 1.0 10,0 1.1]
+[se ad605]
+[seVolume ad605 0 0.5]
+[bgmStop BGM_EVENT_81 1.0]
+[wt 0.4]
+[seStop ad605 2.0]
+
+[wt 2.5]
+
+[charaScale D 0.9]
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 0,-25]
+[wt 0.8]
+
+＠斯普里根
+[line 6]怎么会。
+[k]
+
+[charaFace D 4]
+
+＠斯普里根
+………………怎么会。
+[k]
+
+[bgm BGM_EVENT_69 0.1]
+
+＠斯普里根
+……哎呀呀。[r]我怎会如此忽冷忽热。
+[k]
+
+＠斯普里根
+还说什么宁愿毁灭……[r]看到那种东西，狂乱也消失无踪了。
+[k]
+
+＠斯普里根
+……真是的。没想到我不仅误判了交易对象，[r]还不小心流露出抽身之际的狂热。
+[k]
+
+＠斯普里根
+嗯。我确实想要愚蠢的傀儡。[r]但也要有个限度。
+[k]
+
+＠斯普里根
+世上再没有比俗不可耐的俗人更棘手的对象了。[r]原来一直瞧不起对方的我，才是小丑啊。
+[k]
+
+＠斯普里根
+只不过[line 3]
+[k]
+
+＠斯普里根
+没想到毁灭不列颠的既非摩根陛下，[r]亦非迦勒底，而是愚蠢女人的心血来潮。
+[k]
+
+[charaFace D 0]
+
+＠斯普里根
+无论如何繁荣，[r]起始的地基总是狭小的。
+[k]
+
+＠斯普里根
+以至于被小虫轻轻一咬，[r]就会轻易轰然崩塌。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_69 2.0]
+[effect bit_talk_rubble]
+
+[se ad882]
+[seVolume ad882 0 0.7]
+[se ad914]
+[seVolume ad914 0 0.7]
+[se ade393]
+[seVolume ade393 0 0.6]
+[shake 0.02 4 4 0.2]
+[wt 0.3]
+[shake 0.02 5 5 1.5]
+[se ad10]
+[se ad892]
+[seVolume ade393 1.0 0.5]
+[seStop ade393 2.0]
+
+[se ad915]
+[se ad228]
+[seVolume ad228 0 0.1]
+[seVolume ad228 1.0 1.0]
+[wt 1.0]
+
+[seVolume ad228 0.5 0.7]
+[wt 0.5]
+
+[fadeout black 2.5]
+[wait fade]
+
+[cameraHome 0.1]
+[effectStop bit_talk_rubble]
+
+[seStop ad228 1.5]
+[se ad10]
+[wt 4.0]
+[seStop ad915 1.5]
+[wt 3.0]
+
+[charaFadeout D 0.1]
+
+[scene 51608]
+[wt 1.5]
+
+[se ad126]
+[se ad554]
+[seVolume ad554 0 0.4]
+[se ade328]
+[seVolume ade328 0 0.4]
+[se ad729]
+[seVolume ad729 0 0.2]
+[wt 0.5]
+[seVolume ad729 0.4 0.4]
+[seVolume ad554 0.4 0.4]
+[fadein black 1.0]
+[wait fade]
+
+[se ad222]
+[se ad542]
+[se ad882]
+[se ad731]
+[se ad671]
+[cameraMove 0.3 0,-10 1.0]
+[wt 0.4]
+[cameraMove 0.15 0,0 1.0]
+[wt 0.2]
+[shake 0.03 3 3 0.4]
+[wt 0.7]
+
+[seVolume ad729 0.4 0.2]
+[seVolume ad554 0.4 0.2]
+[wt 0.8]
+
+[bgm BGM_EVENT_82 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠穆尼尔
+很好，着陆得漂亮！[r]诺里奇就在眼前，就这样冲过去咯！
+[k]
+
+[seStop ad729 4.0]
+[seStop ad554 4.0]
+
+[charaFace E 2]
+
+＠穆尼尔
+外面的气温与曼彻斯特一样，超过1000℃！[r]还有泛滥成灾的黑犬！
+[k]
+
+＠穆尼尔
+[%1]，[r]我要复述一遍福尔摩斯的指示！
+[k]
+
+＠穆尼尔
+考虑到过去与巴格斯特的战斗，[r]以及在曼彻斯特的接触，
+[k]
+
+＠穆尼尔
+魔力抗性低的人类光是靠近那家伙[r]就会被吸走生命力！
+[k]
+
+＠穆尼尔
+也就是说，你不能站上前线！[r]要在Shadow Border里进行远程召唤！
+[k]
+
+＠穆尼尔
+巴格斯特魔力吞食射程是半径1㎞！[r]如此距离的远程召唤还是头一遭！
+[k]
+
+＠穆尼尔
+根据尼莫教授的计算，[r]最多只能召唤一骑！　哪怕挑战极限也只有两骑！
+[k]
+
+＠穆尼尔
+顺便尼莫护士也让我代为传话！[r]“若胆敢召唤两骑，战斗后就要去反省室”！
+[k]
+
+？1：明白，那就召唤两骑战斗……！
+？2：这是在支援玛修，当然要全力以赴。
+
+？！
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 13]
+[charaFadein F 0.1 1]
+
+＠玛修
+……！[r]拜托您了，御主！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+＠穆尼尔
+我就知道说了你也不会听啦！[r]届时我也陪你一起去接受护士训话！
+[k]
+
+[charaFace E 0]
+
+[bgmStop BGM_EVENT_82 2.0]
+
+＠穆尼尔
+[line 3]哎哟，确认高魔力反应！[r]前方6㎞，诺里奇中心！
+[k]
+
+＠穆尼尔
+我放出远距离观测器拍到的影像啦！[r]那就是现在的巴格斯特[line 3][wt 1.1][charaFace E 2][messageShake 0.05 3 3 0.2]呜哇啊啊啊啊！？
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.6 1.0]
+[wait wipe]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[scene 10000]
+
+[wipein rectangleStripRightToLeft 0.1 1.0]
+[wait wipe]
+
+[fadeout black 0.1]
+[wait fade]
+
+[fadein black 2.0]
+[wait fade]
+
+[se ade215]
+[se ad526]
+
+[cueSe SE_21 21_ad1114]
+[seVolume 21_ad1114 0 0]
+[seVolume 21_ad1114 1.0 0.5]
+[se ad632]
+[seVolume ad632 0 0]
+[seVolume ad632 1.0 0.4]
+[se ad57]
+[charaScale I 1.2]
+[charaFadein I 1.0 40,-300]
+[charaMove I 140,-300 6.0]
+[wt 5.0]
+[scene 124800]
+[wt 0.1]
+
+[se ad564]
+[se ad423]
+[se ad425]
+[shake 0.05 3 3 2.5]
+[charaFadeout I 1.0]
+[wt 3.8]
+[seStop ad632 3.0]
+[seStop ad57 3.0]
+[seStop 21_ad1114 3.0]
+
+[bgm BGM_EVENT_24 0.1]
+＠穆尼尔
+超过40公尺了哦！？[r]而且还在吞食着雷霆！
+[k]
+
+＠穆尼尔
+那种怪物不靠Storm Border根本无法抗衡！
+[k]
+
+＠穆尼尔
+现在还来得及，要转向吗！？
+[k]
+
+＠穆尼尔
+福尔摩斯也说过吧，[r]最糟的情况下，不交战也没关系！
+[k]
+
+＠玛修
+[line 6]不。[r]我要出击，请让我去吧！
+[k]
+
+＠玛修
+那种东西不足为惧！[r]以前的巴格斯特小姐看起来比较强！
+[k]
+
+＠穆尼尔
+不会吧，巴格斯特还真是个厉害的家伙啊！[r]该死，没问题吗，[%1]！
+[k]
+
+＠穆尼尔
+如果你不阻止，那就只能动手了哦！
+[k]
+
+？1：保持方向不变。
+？2：玛修，多加小心！
+
+？！
+
+＠玛修
+是！　打开舱门，腿部魔力强化，开始[line 3][r]玛修·基列莱特，出击！
+[k]
+
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_24 0.4]
+[wait fade]
+[soundStopAll]
+[end]

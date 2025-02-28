@@ -1,0 +1,535 @@
+
+
+
+＄03-00-13-19-2-0
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 1098255300 1 尼托克丽丝]
+[charaSet B 6042000 1 高扬斯卡娅]
+[charaSet C 1098239310 1 卡多克]
+[charaSet D 98001000 1 玛修]
+[charaSet E 1098257300 1 达·芬奇]
+[charaSet F 1098257400 1 希翁]
+[charaSet G 1098158330 1 尼莫]
+[charaSet H 1098182100 1 尼莫教授]
+[charaSet I 1098254800 1 水兵]
+[charaSet J 1098254800 1 水兵2]
+[charaSet K 1098254800 1 水兵3]
+[charaSet L 1098255100 1 戈尔德鲁夫]
+
+[sceneSet M 10000 1]
+[charaScale M 1.01]
+[charaDepth M 1]
+
+[sceneSet N 132900 1]
+[sceneSet O 132900 1]
+[sceneSet P 132900 1]
+
+[charaScale N 1.2]
+[charaScale O 1.2]
+[charaScale P 1.2]
+
+[scene 132900]
+[fadein black 2.0]
+[wait fade]
+
+[bgm BGM_KYOSU_1 0.1]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth N 1]
+[charaDepth B 3]
+[charaDepth C 4]
+[charaDepth A 2]
+
+[charaDepth O 7]
+[charaDepth F 9]
+[charaDepth E 8]
+[charaDepth D 9]
+
+[charaDepth P 1]
+[charaDepth H 5]
+[charaDepth G 6]
+[charaDepth I 4]
+[charaDepth J 3]
+[charaDepth K 2]
+
+[charaFadein N 0.6 120,-200]
+[charaMove N 100,-200 2.2]
+[charaFace B 8]
+[charaFadein B 0.6 -320,0]
+[charaMove B -340,0 2.2]
+[charaFace C 0]
+[charaFadein C 0.6 0,0]
+[charaMove C -20,0 2.2]
+[charaFace A 9]
+[charaFadein A 0.6 320,0]
+[charaMove A 300,0 2.2]
+[wt 1.8]
+
+[charaFadein O 0.4 -120,-200]
+[charaMove O -100,-200 2.2]
+
+
+[charaFace F 9]
+[charaFadein F 0.6 -320,0]
+[charaMove F -300,0 2.2]
+[charaFace E 23]
+[charaFadein E 0.6 0,0]
+[charaMove E 20,0 2.2]
+[charaFace D 7]
+[charaFadein D 0.6 320,0]
+[charaMove D 340,0 2.2]
+[wt 1.0]
+[charaFadeout N 0.1]
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout A 0.1]
+[charaFadein P 0.4 120,-200]
+
+
+[charaFace H 3]
+[charaFadein H 0.1 -200,0]
+[charaFace G 4]
+[charaFadein G 0.1 0,0]
+[charaFace I 5]
+[charaFadein I 0.1 200,-7]
+[charaFace J 5]
+[charaFadein J 0.1 -400,0]
+[charaFace K 5]
+[charaFadein K 0.1 400,0]
+
+[wt 0.8]
+
+[charaFadeout O 0.6]
+[charaFadeout F 0.6]
+[charaFadeout E 0.6]
+[charaFadeout D 0.6]
+
+[charaMove P 100,-200 2.2]
+[charaMove H -220,0 2.2]
+[charaMove G -20,0 2.2]
+[charaMove I 180,-7 2.2]
+[charaMove J -420,0 2.2]
+[charaMove K 380,0 2.2]
+
+[wt 1.6]
+[charaFadeout P 0.6]
+[charaFadeout H 0.6]
+[charaFadeout G 0.6]
+[charaFadeout I 0.6]
+[charaFadeout J 0.6]
+[charaFadeout K 0.6]
+[wt 0.8]
+
+[charaTalk on]
+[charaTalk depthOn]
+
+[charaTalk L]
+[charaFace L 14]
+[charaFadein L 0.1 1]
+
+＠戈尔德鲁夫
+唔嗯，都很准时！
+[k]
+
+＠戈尔德鲁夫
+接下来开始南美异闻带最终任务的作战会议！
+[k]
+
+＠戈尔德鲁夫
+尼莫教授、希翁！[r]说明Storm Border的修理情况！
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠希翁
+除轮机室外，舰内设施均已修复完毕。[r]目前正开始准备重启特里同引擎。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+
+＠尼莫教授
+是的，读秒阶段～。[r]遭库库尔坎破坏的外部装甲的电磁屏障，
+[k]
+
+＠尼莫教授
+以及对灵、对咒膜的重新涂装[r]已经开始啦～。
+[k]
+
+＠尼莫教授
+只要再给我们10小时左右，[r]就能恢复至可以战斗的状态～。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 4]
+[charaFadein G 0.1 1]
+
+＠尼莫
+然后边重启引擎，边生成灵子鱼雷，[r]为主炮发射所需电力充电。
+[k]
+
+＠尼莫
+预计本舰要恢复至能以战斗状态飞行[r]总计还需要20小时。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 1]
+[charaFadein L 0.1 1]
+
+＠戈尔德鲁夫
+唔嗯，干得漂亮。差点被劈成两半时，[r]我内心还直哆嗦着担心“这要怎么修啊？”，
+[k]
+
+[charaFace L 2]
+
+＠戈尔德鲁夫
+没想到竟能完全修复！[r]得感谢米克特兰的地下资源呢！
+[k]
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 17]
+[charaFadein E 0.1 1]
+
+＠达·芬奇
+我这边也有报告。
+[k]
+
+＠达·芬奇
+一直充斥于米克特兰第八层的有毒气体[r]浓度急速降低。
+[k]
+
+＠达·芬奇
+据特里斯墨吉斯忒斯Ⅱ的描述，再过大概10个小时，[r]第八、第九层就会恢复为正常的大气成分。
+[k]
+
+＠达·芬奇
+也就是说，下冥界的季节终于到了。
+[k]
+
+[charaFace E 8]
+
+＠达·芬奇
+不过正如尼莫所言，潜航艇还无法行动。
+[k]
+
+＠达·芬奇
+要是在屏障都打不开的状态下飞行，[r]这次真的会被库库尔坎的手刀劈成两半了。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 11]
+[charaFadein L 0.1 1]
+
+＠戈尔德鲁夫
+可是啊，[#隐匿者:Crypter]，[r]戴比特那家伙也正在准备下冥界吧。
+[k]
+
+＠戈尔德鲁夫
+如果那家伙在潜航艇重新启动的期间抵达了[r]最底层，ORT就会苏醒！
+[k]
+
+[charaFace L 14]
+
+＠戈尔德鲁夫
+因此！　虽然已经成了惯例，[r]也只能让现场调查员先行一步了！
+[k]
+
+＠戈尔德鲁夫
+御主[%1]。[r]专属从者，玛修·基列莱特！
+[k]
+
+＠戈尔德鲁夫
+还有尼托克丽丝、高扬斯卡娅、[r]以及我不太想让你去的技术顾问！
+[k]
+
+＠戈尔德鲁夫
+诸位面前有两个选项！
+[k]
+
+[charaFace L 12]
+
+＠戈尔德鲁夫
+A计划，戴比特袭击作战！
+[k]
+
+＠戈尔德鲁夫
+在第六～第八层找到并袭击正前往最深处的戴比特，[r]瘫痪他的战斗力！
+[k]
+
+＠戈尔德鲁夫
+犯不着专门跑一趟最底层也能用这种方法解决[r]当前的威胁。简单说，只要制止ORT苏醒就行了！
+[k]
+
+[charaFace L 11]
+
+＠戈尔德鲁夫
+B计划，空想树切除作战！
+[k]
+
+＠戈尔德鲁夫
+赶在戴比特之前抵达最深处，找到空想树，[r]并进行切除！
+[k]
+
+＠戈尔德鲁夫
+就算是ORT，只要是异闻带的存在，[r]那一旦异闻带消灭，它应该也会随之消失！
+[k]
+
+[charaFace L 0]
+
+＠戈尔德鲁夫
+特里斯墨吉斯忒斯Ⅱ计算出这两个计划的[r]成功率都一样，五五对半开。
+[k]
+
+[charaFace L 16]
+
+＠戈尔德鲁夫
+……于是乎，为了参考姑且问一下，[r]御主[%1]。
+[k]
+
+＠戈尔德鲁夫
+你觉得哪种计划可行？[r]尽管直言不讳地给出意见吧。
+[k]
+
+？1：……戴比特袭击作战？
+？2：……空想树切除作战？
+
+？！
+
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠卡多克
+不，两种都选。[r]A与B同时进行吧。
+[k]
+
+？1：两种！？
+？2：……也就是说，难道卡多克要……
+
+？！
+
+[charaFace C 1]
+
+＠卡多克
+不必死心眼地非要二选一。[r]我们分成戴比特袭击队和下冥界队行动吧。
+[k]
+
+＠卡多克
+就算戴比特袭击队没能打倒戴比特，[r]也能拖住他。
+[k]
+
+＠卡多克
+下冥界队趁此期间抵达最深处，[r]切除空想树，消灭这异闻带。
+[k]
+
+[charaFace C 0]
+
+＠卡多克
+这才是最可靠的方案吧。
+[k]
+
+＠卡多克
+戴比特袭击队当然由我来。[r]再算上Shadow Border和高扬斯卡娅。
+[k]
+
+＠卡多克
+还有，再来一名车技最优秀的驾驶员。[r]要在那什么第三冥界迎击戴比特。
+[k]
+
+＠卡多克
+驾驶员若是魔术回路的量与质均为[r]最高水准的魔术师就更好了。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 4]
+[charaFadein L 0.1 1]
+
+＠戈尔德鲁夫
+嚯，虽然当初巴黎达喀尔拉力赛没能跑完全程，[r]但驾驶技术超越我这个对越野也颇有见地的高手，
+[k]
+
+＠戈尔德鲁夫
+且还拥有最高水准魔术回路的驾驶员。[r]这世上要上哪儿才能找这种人才啊？
+[k]
+
+[messageOff]
+[charaFadeout L 0.1]
+[wt 0.1]
+
+[charaTalk off]
+[charaFace B 9]
+[charaFadein B 0.1 0]
+[charaFace A 0]
+[charaFadein A 0.1 2]
+[wt 1.2]
+[charaFadeout B 0.1]
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaFace F 7]
+[charaFadeinFSL F 0.1 -320,0]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+[charaFace D 13]
+[charaFadeinFSR D 0.1 320,0]
+[wt 1.2]
+
+？1：原来如此。
+？2：原来如此。
+
+？！
+
+[charaFadeout F 0.1]
+[charaFadeout E 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠卡多克
+你看？[r]所以不用担心我这边。
+[k]
+
+[charaFace C 0]
+
+＠卡多克
+你们去挑战下冥界吧。
+[k]
+
+＠卡多克
+反正我没通过第三冥界，[r]也无法加入你们那队。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+
+＠尼莫
+好吧。[r]反正作战计划本就计划动用Shadow Border。
+[k]
+
+＠尼莫
+先遣队搭乘Shadow Border移动至第六层……[r]第三冥界。
+[k]
+
+＠尼莫
+切除空想树的下冥界队在那里下车，[r]前往更深层。
+[k]
+
+＠尼莫
+戴比特袭击队则留在第三冥界，[r]布下罗网，靠Shadow Border执行作战。
+[k]
+
+＠尼莫
+不过，下冥界队徒步前往还是令人放心不下。[r]需要愿意成为你们代步工具的迪诺斯帮忙。
+[k]
+
+＠尼莫
+我听说他们已经离开了奇琴伊察，[r]但说不定还有人留在那里。
+[k]
+
+＠尼莫
+我会派水兵们去搜寻奇琴伊察，[r]寻找搬运工。
+[k]
+
+＠尼莫
+……作为行动的一环，[r]我还要提一下特佩乌氏。
+[k]
+
+＠尼莫
+他虽然是个善意的协助者，但接下来纯属泛人类史的问题，[r]是[#隐匿者:Crypter]与迦勒底之战。
+[k]
+
+＠尼莫
+我其实不太忍心把他卷入战火。[r][%1]，你的判断呢？
+[k]
+
+？1：我去找他说清楚。
+？2：事到如今还瞒着他才是不讲道义。
+
+？！
+
+[charaFace G 2]
+
+＠尼莫
+是吗，那就交给你了。[r]特佩乌氏总是装得很成熟，其实相当好奇。
+[k]
+
+＠尼莫
+只要我们主动开口，他肯定愿意帮助我们。[r]倒不如说，感觉如果不告诉他，他反而会恨我们一辈子。
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 37]
+[charaFadein E 0.1 1]
+
+＠达·芬奇
+我想也是。特佩乌分明很害羞，却又很记仇嘛！[r]让我们来推这个家里蹲一把吧！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk L]
+[charaFace L 2]
+[charaFadein L 0.1 1]
+
+＠戈尔德鲁夫
+是吗是吗，是位颇能让人萌生亲近感的迪诺斯嘛！[r]虽然我不太清楚，但你们去吧！
+[k]
+
+[charaFace L 1]
+
+＠戈尔德鲁夫
+我们这边会同时进行作战准备！
+[k]
+
+＠戈尔德鲁夫
+这将是看奇琴伊察的最后一面！[r]虽然没多少时间了，但去好好感受吧！
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_KYOSU_1 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

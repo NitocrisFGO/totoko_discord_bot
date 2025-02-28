@@ -1,0 +1,1327 @@
+
+
+＄03-00-13-02-1-0
+
+
+
+[soundStopAll]
+[enableFullScreen]
+[charaSet A 1098259200 1 男人]
+[sceneSet B 168800 1]
+[sceneSet C 168801 1]
+[imageSet D cut398_fall 1]
+[imageSet E cut399_skull 1]
+[charaSet F 1098259200 1 男人_副图层用]
+[sceneSet G 170300 1]
+
+[sceneSet I 10000 1]
+[charaSet H 98115000 1 特效用]
+[charaSet J 98115000 1 特效用2]
+[charaSet K 1098259200 1 男人_副图层用2]
+[sceneSet L 168801 1]
+
+[imageSet M cut398_fall 1]
+[charaScale M 2.3]
+
+[scene 10000]
+[subCameraOn 2]
+[charaLayer F sub #A]
+[subCameraFilter #A through]
+
+[fadein black 0.1]
+[wait fade]
+
+[wipeout openEye 0.1 0.1]
+[wait wipe]
+
+[scene 168800]
+
+[blur lens 0.1 2 10]
+[charaScale B 1.2]
+[wt 0.1]
+
+[wipein openEye 0.6 1.0]
+[wait wipe]
+
+[wipeout openEye 0.6 1.0]
+[wait wipe]
+
+[wt 0.5]
+
+[wipein openEye 0.8 1.0]
+[wait wipe]
+
+[cueSe SE_21 21_ade649]
+[cueSeVolume 21_ade649 0 0]
+[se ad986]
+[seVolume ad986 0 0]
+[cueSeVolume 21_ade649 3.0 0.1]
+[seVolume ad986 3.0 0.1]
+[wipeout openEye 0.8 1.0]
+[wait wipe]
+
+[blurOff lens 0.1]
+[wt 0.5]
+
+[wipein openEye 1.5 1.0]
+[wait wipe]
+
+[wt 1.0]
+
+
+[charaFadein B 1.0 60,-220]
+[charaMove B -60,-220 5.0]
+[wt 2.0]
+
+[wt 2.0]
+[seStop 21_ade649 1.0]
+[seStop ad986 1.0]
+[charaFadeout B 1.0]
+[wt 2.0]
+
+？1：…………这里是…………
+
+？！
+
+[wt 0.5]
+
+？1：…………死后的，世界…………？
+
+？！
+
+[wt 1.0]
+
+？1：……什么都看不见……也没有人……
+
+？！
+
+？1：……然而，心里却不可思议地感到很充实……
+
+？！
+
+[wt 2.0]
+
+
+？1：……总之，先移动吧。
+
+？！
+
+[se ad173]
+[wipeout leftToRight 1.5 1]
+[wait wipe]
+
+[cameraMove 0.1 0,0 1.01]
+[seStop ad173 1.0]
+[scene 168801]
+
+[charaTalk depthOff]
+[charaTalk off]
+[charaDepth C 3]
+[charaDepth F 4]
+[charaDepth A 5]
+[charaDepth K 6]
+[charaDepth M 7]
+[charaDepth D 8]
+
+[charaScale C 1.8]
+[charaFadein C 0.1 -50,-130]
+[wt 0.5]
+
+[subRenderFadein #A 1.0 0,0]
+[subBlur #A lens 1.5 2 10 1.0 subBlur]
+[charaFadeout F 0.1]
+
+[se ad173]
+[wt 1.4]
+[seStop ad173 0.3]
+[wt 0.9]
+
+[se ade24]
+[seVolume ade24 0 0]
+[seVolume ade24 2.0 0.4]
+[wt 1.0]
+
+
+[wipein rightToLeft 1.5 1]
+[wait wipe]
+[wt 1.0]
+
+？1：篝火……？
+
+？！
+
+[seStop ade24 1.5]
+
+[charaMoveScale C 1.5 2.0]
+[charaMove C 0,-130 2.0]
+[wt 2.4]
+[charaFace F 3]
+[charaFadein F 1.2 1]
+[wt 1.5]
+[wipeout openEye 0.5 1.0]
+[wait wipe]
+
+[subBlurOff #A lens 0.1 normal]
+[wt 0.1]
+[subRenderFadeout #A 0.1]
+
+[charaLayer F normal]
+[charaLayer C normal]
+[wt 0.3]
+
+[charaFace F 3]
+[charaFadein F 0.1 1]
+[charaScale L 1.8]
+[charaFadein L 0.1 -50,-120]
+[wt 0.1]
+
+[wipein openEye 0.5 1.0]
+[wait wipe]
+[wt 1.0]
+
+
+[charaTalk on]
+
+[bgm BGM_EVENT_38 0.1]
+
+＠F：男人
+唔……？　怎么，是新来的吗。[r]穿得相当轻便嘛……你是哪个时代的人类？
+[k]
+
+[charaFaceFade F 6 0.2]
+
+＠F：男人
+也罢，既然[#都来这里了]，就算是同伴。[r]坐下吧，你很累了吧？
+[k]
+
+？1：啊，好。打扰了。
+
+[messageOff]
+[cameraMove 0.7 0,10 1.01]
+[wt 0.3]
+[se ad27]
+[seVolume ad27 0 0.6]
+[wt 1.2]
+
+[charaFaceFade F 8 0.2]
+
+＠F：男人
+坐到我对面。[r]你很有种吗？　还是说已经习惯旅途上的邂逅了？
+[k]
+
+？2：…………（警惕）
+
+[charaFaceFade F 5 0.2]
+
+＠F：男人
+别那么紧张嘛。[r]是生前的习惯还没改掉吗。
+[k]
+
+＠F：男人
+在这里谁都不会受伤。[r]毕竟都是群已经结束战斗的家伙。
+[k]
+
+＠F：男人
+如果你还想站着那就随你的便吧。[r]反正也不强迫你。
+[k]
+
+？！
+
+[charaFaceFade F 0 0.2]
+
+＠F：男人
+对了，不需要自报姓名。[r]反正已经不需要那玩意了。
+[k]
+
+＠F：男人
+要打招呼握手就够了。[r]现在比较流行这样做吧？
+[k]
+
+？1：……握手稍微有点……
+？2：『身为魔术师，不能随便把手交给别人』。
+
+？！
+
+[charaFaceFade F 8 0.2]
+
+＠F：男人
+是吗，那太遗憾了。[r]我还想见识一下所谓的『毫无伤痕的战士之手』呢。
+[k]
+
+[messageOff]
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 0.8 0.2]
+[se ad241]
+[seVolume ad241 0 0]
+[seVolume ad241 0.8 1.0]
+[wt 1.5]
+
+[wipeout rectangleStripUpToDown 0.7 1]
+[wait wipe]
+
+[charaFadeout K 0.1]
+[charaFadeout F 0.1]
+
+[charaScale D 2.8]
+[charaFadein D 0.1 -300,-740]
+[wt 0.5]
+
+[wipein rectangleStripDownToUp 0.7 1]
+[charaMove D -200,-640 5.0]
+[wait wipe]
+[wt 5.0]
+
+
+？1：那是……
+？2：Storm Border……！
+
+？！
+[wipeout rectangleStripDownToUp 0.7 1]
+[seStop ad556 1.0]
+[seStop ad241 1.0]
+[wait wipe]
+
+[cameraMove 0.1 0,0 1.01]
+[charaFadeout D 0.1]
+[wt 0.5]
+
+[charaTalk on]
+
+[charaTalk K]
+[charaFace K 0]
+[charaFadein K 0.1 1]
+[wt 0.1]
+
+[wipein rectangleStripUpToDown 0.7 1]
+[wait wipe]
+
+
+＠K：男人
+那武器真不错。是你们的吗？
+[k]
+
+＠K：男人
+现代武器很棒。[r]既麻烦又丑陋，最重要的是极其昂贵。
+[k]
+
+＠K：男人
+我很欢迎哦，毕竟正如生命一样，[r]战斗的工具也该有所成长才对。
+[k]
+
+[charaFaceFade K 5 0.2]
+
+＠K：男人
+但我对使用那个的你只有不好的印象。[r]你的战斗能够配得上那件武器吗？
+[k]
+
+＠K：男人
+你所认可的战斗，[r]正是我最为厌恶的战斗。
+[k]
+
+＠K：男人
+战斗的目的、奔赴战场的气魄，[r]我认同这些都拾掇得很体面，
+[k]
+
+＠K：男人
+然而你那种战斗方针我不喜欢。[r][#不会死人的战斗]？　那算啥。
+[k]
+
+[charaFaceFade K 3 0.2]
+
+＠K：男人
+敌方的死者与己方的死者数量就该相等。[r]不会死人的那种战斗，我可不承认是战斗。
+[k]
+
+[charaFaceFade K 5 0.2]
+
+＠K：男人
+给我记住，迄今为止之所以没有自己人死去，[r]不是因为你们的战斗是良善的。
+[k]
+
+＠K：男人
+只是恰好走运罢了。[r]而运气必然会平均化。
+[k]
+
+
+＠K：男人
+首当其冲的就是那艘空中飞船。[r]里面的人类一个都活不下来。
+[k]
+
+＠K：男人
+他们中没有战士。[r]死后也不会来这里。
+[k]
+
+＠K：男人
+……唔？　慢着，这代表[#我][r]认可你是一名战士吗？
+[k]
+
+[charaFaceFade K 3 0.2]
+
+＠K：男人
+……搞不懂蓝的想法呢。[r]也罢，反正只是一如既往的『混杂』而已吧。
+[k]
+
+？1：[line 3]一个都活不下来[line 3]
+？2：[line 3]必须去救他们才行……！
+
+？！
+
+[messageOff]
+[se ad443]
+[wipeout leftToRight 0.8 1.0]
+[bgm BGM_EVENT_38 0.8 0.5]
+[seVolume ad443 0.8 0.5]
+[wait wipe]
+
+[charaFadeout B 0.1]
+[charaFadeout C 0.1]
+[charaFadeout G 0.1]
+[charaFadeout L 0.1]
+[charaFadeout A 0.1]
+[charaFadeout F 0.1]
+[charaFadeout K 0.1]
+[wt 0.8]
+
+[scene 168800]
+
+[seVolume ad443 0.8 1.0]
+[bgm BGM_EVENT_38 0.8 1.0]
+[wipein rightToLeft 0.8 1.0]
+[wait wipe]
+[wt 1.0]
+
+[wipeout leftToRight 0.8 1.0]
+[seVolume ad443 0.8 0.5]
+[bgm BGM_EVENT_38 0.8 0.5]
+[wait wipe]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+[wt 0.8]
+[scene 168801]
+
+[wt 0.2]
+[seVolume ad443 0.8 1.0]
+[bgm BGM_EVENT_38 0.8 1.0]
+[wipein rightToLeft 0.8 1.0]
+[wait wipe]
+[seStop ad443 0.2]
+[wt 0.8]
+
+[charaFaceFade A 5 0.2]
+＠男人
+真是个沉不住气的[&家伙:姑娘]，[r]你是到不了那艘船的，毕竟他们还活着。
+[k]
+
+＠男人
+那玩意正从地表……从『沉默的伊尔维卡特尔』[r]坠落当中。
+[k]
+
+＠男人
+跟[#已死的]你身处不同的两个世界。[r]即便如此，你还想去他们那边吗？　明知是白费力气？
+[k]
+
+？1：[line 3]是的，哪怕是白费力气。
+
+？！
+
+[charaFaceFade A 2 0.2]
+
+＠男人
+是吗。我对你的印象愈发糟糕了，[r]但既然在此遇见，就必须引导你才行。
+[k]
+
+[charaFaceFade A 0 0.2]
+
+＠男人
+如果你愿意拿武器交换，[r]倒也不是不能给你指明一条道路。
+[k]
+
+＠男人
+如你所见，我是个现代粉呢。[r]尤其沉迷于21世纪的枪械。
+[k]
+
+＠男人
+如何？　你愿意为了行将死去的同伴献上些什么？[r]你身上带着什么有价值的武器吗？
+[k]
+
+？1：……我身上一件武器都没有。
+
+？！
+
+[charaFaceFade A 0 0.2]
+
+＠男人
+啊，那样可不行啊。[r]我不会让你回[#那边]，你就有点死人样子留在这边[line 2]
+[k]
+
+？1：可是，对我来说称得上武器的东西是[line 3]
+
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.15]
+
+[cueSe SE_22 22_ad1270]
+[masterBranch _Male _Female]
+
+[label _Male]
+[effect bit_talk_CommandMantra_21 0,32]
+[branch _branchEnd]
+
+[label _Female]
+[effect bit_talk_CommandMantra_22 0,32]
+[branch _branchEnd]
+
+[label _branchEnd]
+
+[wt 8.5]
+
+[charaTalk A]
+[charaFace A 4]
+[charaFadein A 0.1 1]
+[wt 1.0]
+[charaFaceFade A 1 0.2]
+＠男人
+！　真没想到竟把整个都给出来了。[r]令人怀疑双眼的愚蠢判断、夺人目光的决断力！
+[k]
+
+＠男人
+好啊，虽然对我来说毫无用处，[r]但能看出对你来说却是最顶级的武器。
+[k]
+
+＠男人
+我收下了。[r]就将你推离死亡的命运吧。
+[k]
+
+＠男人
+离开火堆吧。[r]我立刻[#将你送上那边]。
+[k]
+
+[charaFaceFade A 5 0.2]
+
+＠男人
+啊？　那是什么表情。[r]你不必感激涕零地向我道谢。
+[k]
+
+＠男人
+毕竟这是一场正式的交易，是[#生意:Business]。[r]对了，但有一个问题，你等一下。
+[k]
+
+＠男人
+这件武器比你的性命更有价值，[r]而你刚才的决断，价值又更甚于之。
+[k]
+
+＠男人
+因此，『只恢复为生者』就不等价了。[r]给，这是找零，这样就够了吧。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth A 3]
+[charaDepth I 5]
+[charaDepth E 7]
+[wt 0.1]
+
+[charaScale I 1.2]
+[charaPut I 0,-200]
+[charaFadeTime I 0.4 0.5]
+[charaFadein E 0.4 0,-200]
+[wt 0.05]
+[se ade353]
+[wt 0.3]
+[seStop ade353 0.2]
+[wt 1.4]
+
+？1：这是……？
+？2：非常……感谢？
+
+？！
+
+[messageOff]
+[charaFadeout I 0.4]
+[charaFadeout E 0.4]
+[wt 0.5]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaFaceFade A 0 0.2]
+＠男人
+[#骷髅糖果:Calavera de Azúcar]。[r]是喜欢的家伙会难以抵挡的嗜好品。
+[k]
+
+＠男人
+只要带在身上，也许会派上某种用场。[r][line 3]再见啦。
+[k]
+
+[messageOff]
+[charaTalk depthOff]
+[charaDepth A 2]
+[charaDepth J 3]
+[charaDepth H 4]
+[bgmStop BGM_EVENT_38 1.0]
+
+[se ad7]
+[charaScale J 1.5]
+[charaPut J 0,220]
+[charaMoveScale A 1.1 0.2]
+[wt 0.05]
+
+[wt 0.25]
+[se bac9]
+[shake 0.05 3 3 0.3]
+[cameraMove 0.2 0,0 1.0]
+[charaPut H 1]
+[charaEffect H bit_talk_41_r]
+[wt 0.2]
+[wipeout circleIn 0.3 1.0]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[charaPut H 1200,1200]
+[charaEffectStop H bit_talk_41_r]
+[scene 10000]
+[wt 0.1]
+
+[se ad556]
+[seVolume ad556 0 0]
+[wipein circleIn 0.1 1.0]
+[wait wipe]
+[wt 0.1]
+
+[se ade338]
+[seVolume ade338 0 0.3]
+[effect bit_talk_43h_fs 0,0 V]
+[wt 0.2]
+[seVolume ad556 1.0 0.1]
+[wt 1.0]
+
+
+？1：背后什么时候多了个陷坑！？
+？2：要，要掉下去了[line 3]！？
+
+？！
+
+[effect bit_talk_under_light]
+[wt 3.0]
+[effectStop bit_talk_under_light]
+[wt 1.0]
+[seStop ad556 2.0]
+[wt 0.5]
+
+
+[scene 10001 0.5]
+[wt 2.0]
+[fadeout black 2.0]
+[wait fade]
+
+[sceneSet L 168801 1]
+
+[effectDestroy bit_talk_43h_fs]
+
+[charaSet A 1098254800 1 尼莫水兵]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098252560 1 奥塞洛特尔]
+[charaSet D 1098259200 1 男人]
+[sceneSet E 171600 1]
+[charaScale E 1.2]
+[sceneSet F 171700 1]
+[charaScale F 1.5]
+[sceneSet G 171700 1]
+[charaScale G 1.5]
+[sceneSet H 169100 1]
+[charaScale H 1.05]
+[sceneSet I 169100 1]
+[charaScale I 1.05]
+[sceneSet J 171700 1]
+[charaScale J 1.5]
+[charaSet K 1098254800 1 水兵（演出用）]
+[charaSet L 98115000 1 特效用]
+[charaSet M 98115000 1 特效用]
+[charaSet N 98115000 1 特效用]
+
+[imageSet O black_fade_re 1]
+[imageSet P black_fade_re 1]
+[charaScale O 2.0]
+[charaScale P 2.0]
+[charaFadein O 0 0,-1000]
+[charaFadein P 0 0,200]
+
+[charaSet Q 1098252540 1 奥塞洛特尔2]
+[charaSet S 1098252540 1 奥塞洛特尔3]
+
+[sceneSet T 171600 1]
+[charaScale T 1.5]
+[sceneSet U 171600 1]
+[charaScale U 1.2]
+
+[charaPut M 2000,2500]
+[charaEffect M bit_sepia01_depth_fs]
+[charaPut D 2000,2500]
+[charaEffect D bit_sepia01_depth_fs]
+
+[scene 10000]
+[wt 2.0]
+
+[fadein black 0.1]
+[wait fade]
+
+[wipeout openEye 0.1 1.0]
+[wait wipe]
+
+[scene 104300]
+
+[blur lens 0.1 2 2]
+[wt 0.2]
+
+[wipein openEye 1.5 1.0]
+[wait wipe]
+[wt 0.6]
+
+＠？？？
+[f x-small]……来！[r][f x-small]……快起来啦～，[%1]！
+[k]
+
+＠？？？
+[f x-small]这样下去大家都会被干掉啦～～！（泪）[r][f x-small]只能倚靠[%1]啦～～！（泪）
+[k]
+
+[messageOff]
+[wt 0.6]
+
+？1：唔……
+？2：这里是……
+
+？！
+
+[messageOff]
+[wipeout openEye 0.4 1.0]
+[wait wipe]
+
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+[wt 0.1]
+
+[wipein openEye 0.4 1.0]
+[wait wipe]
+[wt 0.4]
+
+[wipeout openEye 0.6 1.0]
+[wait wipe]
+[wt 0.1]
+
+[wipein openEye 0.6 1.0]
+[wait wipe]
+[wt 0.4]
+
+[wipeout openEye 0.8 1.0]
+[wait wipe]
+[wt 0.1]
+
+[blurOff lens 1.0]
+[wipein openEye 1.5 1.0]
+[wait wipe]
+[wt 0.8]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 1]
+[wt 0.8]
+
+[bgm BGM_EVENT_77 0.1]
+
+＠尼莫水兵
+[f small]哈哇！[r][f small]太好了～～，你醒过来了～～！
+[k]
+
+＠尼莫水兵
+[f small]抱歉没能把你拉回船上～～！[r][f small]不过你没事真是太好啦～～！
+[k]
+
+[charaFace A 1]
+
+＠尼莫水兵
+[f small]呃，对哦，你一定一头雾水吧！[r][f small]这里是某座莫名其妙的洞窟里头。
+[k]
+
+＠尼莫水兵
+[f small]Storm的走廊断裂了，[r][f small][%1]被甩到外面去了，
+[k]
+
+[charaFace A 2]
+
+＠尼莫水兵
+[f small]那个，对了，我也被甩了出去，[r][f small]所以就紧紧抱住了[%1]，
+[k]
+
+＠尼莫水兵
+[f small]一起掉了下来！
+[k]
+
+[charaFace A 0]
+
+＠尼莫水兵
+[f small]等回过神来时，发现我们已经在洞窟里了。[r][f small]说明到此结束～☆
+[k]
+
+？1：……那个迷雾世界呢？
+
+[charaFace A 4]
+
+＠尼莫水兵
+[f small]雾？　你是指什么？[r][f small]我们在坠落途中失去了意识，然后就在这里了哦？
+[k]
+
+？2：……是这样啊……
+
+？！
+
+[messageOff]
+[wt 0.4]
+
+？1：先不提这个，你为什么那么小声说话？
+
+？！
+
+[bgmStop BGM_EVENT_77 1.5]
+
+[charaFace A 4]
+＠尼莫水兵
+[f small]………………嗯，这个嘛。
+[k]
+
+＠尼莫水兵
+[f small][%1]，你看那边。[r][f small]要悄悄地，悄悄地哦？
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 1.2 1]
+[wait wipe]
+
+[charaFadeout A 0.1]
+[scene 10000]
+[wt 0.1]
+
+[wipein rectangleStripRightToLeft 0.1 1]
+[wait wipe]
+
+[fadeout black 0.1]
+[wait fade]
+
+[scene 171600]
+
+[charaScale T 1.5]
+[charaScale E 1.5]
+[charaScale U 1.2]
+[charaDepth E 3]
+[charaDepth T 2]
+[charaDepth U 1]
+[charaFadein E 0.1 0,-220]
+[charaFadein T 0.1 300,-400]
+[charaFadein U 0.1 50,-260]
+[wt 0.8]
+
+[charaMove E 60,-220 5.5]
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_MAP_41 1.0]
+
+[wt 2.0]
+[charaMove T 300,-460 5.0]
+[charaFadeout E 1.0]
+[wt 4.0]
+[charaFadeout T 1.0]
+[charaMove U 0,-200 6.0]
+[charaMoveScale U 1.0 6.0]
+[wt 6.0]
+[charaFadeout U 1.0]
+[wt 1.0]
+
+＠U－奥尔加玛丽
+………………
+[k]
+
+？1：奥尔加玛丽所长！？
+？2：地球总统！？
+
+？！
+
+＠尼莫水兵
+啊哇哇，不行不行不行[line 3]！[r]难得她在睡觉（？），这下要吵醒她了啦[line 3]！
+[k]
+
+[messageOff]
+[charaFadein T 0.6 300,-460]
+[wt 0.8]
+
+＠U－奥尔加玛丽
+唔……唔唔～～～？[r]干嘛啦，吵死了……
+[k]
+
+＠U－奥尔加玛丽
+你们完全不打算好好招待一番[r]从宇宙远道而来的贵人吗……？
+[k]
+
+＠U－奥尔加玛丽
+我还满心期待礼宾队列呢，[r]结果竟然连个掌声都没人送上……
+[k]
+
+＠U－奥尔加玛丽
+[line 3][messageShake 0.05 4 3 0.3]啊！？
+[k]
+
+[messageOff]
+[fadeout black 0.4]
+[bgm BGM_MAP_41 0.4 0.5]
+[wait fade]
+
+[charaFadeout T 0.1]
+[scene 104300]
+[wt 0.3]
+
+[bgm BGM_MAP_41 0.4 1.0]
+[fadein black 0.4]
+[wait fade]
+[wt 0.3]
+
+[se ad7]
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.4 0,-15]
+[charaMove B 1 0.3]
+[wt 0.5]
+
+
+＠U－奥尔加玛丽
+你们是什么人！[r]难道知道这里是我的居城吗！
+[k]
+
+＠U－奥尔加玛丽
+不对，应该不知道吧，[r]如果知道，是根本不会『[#入侵:进来]』的！
+[k]
+
+[charaFace B 13]
+＠U－奥尔加玛丽
+而且从处于停止状态的我[r]并未遭到袭击的情况来看……
+[k]
+
+＠U－奥尔加玛丽
+这意味着……？
+[k]
+
+[charaFace B 14]
+＠U－奥尔加玛丽
+原来如此，看来你们是无害的原生生物吧！
+[k]
+
+＠U－奥尔加玛丽
+我也不是那种选择余地狭隘到会对[r]误闯进来的地球人施加毒手的生命。
+[k]
+
+＠U－奥尔加玛丽
+听好了，原生生物！[r]我正是前来统治这颗行星的高维生命！
+[k]
+
+＠U－奥尔加玛丽
+名为[line 2]
+[k]
+
+[bgmStop BGM_MAP_41 1.5]
+
+？1：奥尔加玛丽所长，对吧？
+
+？！
+
+＠U－奥尔加玛丽
+没错，正是U－奥尔加玛丽[line 2]
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaFace B 12]
+＠U－奥尔加玛丽
+…………你为何会知道？[r]你是什么人？　难道不是个普通的[#迷途生物:谜之生物]吗？
+[k]
+
+＠U－奥尔加玛丽
+不对，说起来[line 3]
+[k]
+
+[charaFace B 20]
+＠U－奥尔加玛丽
+……我，是谁？[r]为什么会在这种地方，说着这种话啊？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 11]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+[%1]。[r]难道说，难道说，这是[line 3]
+[k]
+
+？1：失忆了[line 5]！
+？2：（医学上是叫）记忆障碍[line 4]！
+？！
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 20]
+[charaFadein B 0.1 1]
+[wt 1.6]
+
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_7 1.5]
+[wait fade]
+
+
+[charaFadeout B 0.1]
+[wt 1.5]
+
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.4]
+
+
+[bgm BGM_REQUIEM 0.1]
+
+？1：那我总结一下情况，
+
+？！
+
+[messageOff]
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+[wt 1.0]
+
+？1：U小姐是从宇宙到来的外星人，
+？！
+
+[messageOff]
+[charaFace B 13]
+[charaMoveReturn B 0,-7 0.3]
+[wt 0.35]
+[charaMoveReturn B 0,-7 0.3]
+[wt 1.0]
+
+？1：虽然很清楚自己的名字与目的，
+？！
+
+[messageOff]
+[charaFace B 13]
+[charaMoveReturn B 0,-7 0.3]
+[wt 0.35]
+[charaMoveReturn B 0,-7 0.3]
+[wt 1.0]
+
+
+？1：却在某场事故中受了足以致命的伤，
+？！
+
+[messageOff]
+[charaFace B 13]
+[charaMoveReturn B 0,-7 0.3]
+[wt 0.35]
+[charaMoveReturn B 0,-7 0.3]
+[wt 1.0]
+
+？1：导致除此以外一件事都不记得了，是这样吗？
+
+？！
+
+[charaFace B 14]
+＠U－奥尔加玛丽
+没错哦！　[#整理:总结]能力挺优秀的嘛，地球人！[r]我倒是可以考虑雇你当我的私人秘书哦！
+[k]
+
+[charaFace B 22]
+＠U－奥尔加玛丽
+其实说得更细致一点，我应该算『转移来』的，[r]而不是『到来』的。
+[k]
+
+＠U－奥尔加玛丽
+是为了在这个时空行动才打造了『这具容器』。[r]做得很棒吧？
+[k]
+
+[charaFace B 0]
+＠U－奥尔加玛丽
+那么，你呢？　名称呢？　目的呢？[r]当然啦，那边的打杂单位也要说哦。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+呜哇～，我是水兵四号～！[r]别杀我啊～！　别杀我啊～！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+[wt 1.2]
+
+？1：我叫[%1]。
+
+[charaFace B 25]
+＠U－奥尔加玛丽
+[line 3]啊？[r][%1]？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+果[messageShake 0.05 4 3 0.5]然生气啦[line 3]！[r]别·杀·我·啊[line 3]！！！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 20]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+我不会毫无理由杀人的啦。[r]……只是，真奇怪。
+[k]
+
+＠U－奥尔加玛丽
+不知为何，一听到[%1]这个发音，[r]就想狠狠揍你一拳。无法理解呢。
+[k]
+
+？2：别杀我啊[line 4]！
+
+[charaFace B 24]
+＠U－奥尔加玛丽
+[FFFFFF]？[-]　这就是目的？[r]唔～，挺有趣的嘛，主要目的就是延长寿命吗。
+[k]
+
+＠U－奥尔加玛丽
+然后名字是？[wt 1.0][r]唔～，[%1]……
+[k]
+
+[charaFace B 25]
+＠U－奥尔加玛丽
+[%1]？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+果[messageShake 0.05 4 3 0.5]然生气啦[line 3]！[r]别·杀·我·啊[line 3]！！！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 17]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+我不会毫无理由杀人的啦。[r]而且我刚听完你们的目的。
+[k]
+
+＠U－奥尔加玛丽
+……只是，真奇怪。
+[k]
+
+[charaFace B 18]
+＠U－奥尔加玛丽
+不知为何，一听到[%1]这个发音，[r]就想狠狠揍你一拳。无法理解呢。
+[k]
+
+？！
+
+[charaFace B 1]
+＠U－奥尔加玛丽
+也罢，既然能像这样邂逅，[r]我们就算朋友了哦。虽说这并非出自我的本意。
+[k]
+
+[charaFace B 13]
+＠U－奥尔加玛丽
+在地球上初次结交的朋友竟是这么[r]不起眼的两只，这虽然令我心存不满，
+[k]
+
+＠U－奥尔加玛丽
+但必须珍视[#第一次接触:First Contact]才行呢。[r]而且相向而行就是交涉的第一步。
+[k]
+
+[charaFace B 7]
+＠U－奥尔加玛丽
+综上所述，来，带我参观地球吧！
+[k]
+
+＠U－奥尔加玛丽
+[%1]！　水兵！[r]我要任命你们为异星际[#亲善大使:Ambassador]！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+怎么办，[%1]～～！[r]这个总统根本听不懂人话啦～～！（泪）
+[k]
+
+？1：我是……异星际，亲善大使……！
+？2：终于[#走:升官]到这一步了吗……
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+＠U－奥尔加玛丽
+啊，好啦好啦，犯不着说出来啦。[r]感谢之辞还是留待之后再说吧。
+[k]
+
+＠U－奥尔加玛丽
+从精神波长就能看出[r]你们正处于『穷困』状态。
+[k]
+
+＠U－奥尔加玛丽
+我是前来统治这颗行星的存在，[r]自然不会对遇到困难的智慧生命见死不救。
+[k]
+
+[charaFace B 0]
+
+＠U－奥尔加玛丽
+那我们一起出去外面吧。[r]出口大概是在那个方向。
+[k]
+
+[messageOff]
+[se ade422]
+[seVolume ade422 0 0.6]
+[charaMove B -50,0 0.4]
+[charaFadeout B 0.4]
+[seStop ade422 1.0]
+[wt 1.6]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+＠尼莫水兵
+总感觉这下事情大条啦！[r]不听她的话大概就会被杀掉吧！？
+[k]
+
+？1：唔～，虽然没有确切的证据……
+
+？！
+
+[messageOff]
+[wt 0.5]
+
+？1：但估计不会发生那种事吧？
+
+？！
+
+[charaFace A 11]
+＠尼莫水兵
+[FFFFFF]？[-]　是这样吗？
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[bgmStop BGM_REQUIEM 1.5]
+[wait fade]
+
+[charaFadeout A 0.1]
+
+[scene 10000]
+[wt 0.3]
+
+[fadein black 0.5]
+[wait fade]
+
+[se ad60]
+[seVolume ad60 0 0.8]
+[wt 0.1]
+[se ade422]
+[seVolume ade422 0 0.8]
+[wt 0.1]
+[se ad95]
+[seVolume ad95 0 0.8]
+[wt 2.9]
+
+[seStop ad60 1.0]
+[seStop ade422 1.0]
+[seStop ad95 1.0]
+[wt 0.2]
+
+[fadeout white 1.0]
+[wait fade]
+
+[scene 169100]
+
+[charaTalk depthOff]
+[charaDepth A 2]
+[charaDepth F 2]
+[charaDepth G 3]
+[charaDepth J 4]
+
+[charaFadein F 0.1 200,-125]
+
+[wt 2.3]
+
+[charaMove F -200,-125 20.0]
+
+[bgm BGM_MAP_97 1.5]
+[fadein white 1.5]
+[wait fade]
+
+[wt 4.0]
+
+[charaFadein G 1.2 0,-375]
+[charaMove G 0,-475 7.3]
+[wt 1.2]
+
+[charaFadeout F 0.1]
+[wt 4.4]
+[charaScale J 1.07]
+[charaFadein J 1.2 0,-220]
+[charaMove J 0,-200 20.0]
+[charaMoveScale J 1.01 10.0]
+[wt 1.2]
+[charaFadeout G 0.1]
+[wt 6.0]
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_MAP_97 2.0]
+[wait fade]
+[wt 1.5]
+[soundStopAll]
+[end]

@@ -1,0 +1,823 @@
+
+
+＄03-00-13-11-5-1
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098257900 1 玛修]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098239310 1 卡多克]
+[charaSet D 1098252410 1 库库尔坎]
+[charaSet E 1098255100 1 戈尔德鲁夫]
+[charaSet F 1098253800 1 瓦克昌]
+[charaSet G 1098253800 1 瓦克昌_扩大]
+[charaScale G 1.3]
+[charaSet H 1098158330 1 尼莫]
+
+[sceneSet I 10000 1]
+[charaScale I 1.01]
+[sceneSet J 170000 1]
+[charaScale J 1.3]
+[sceneSet K 172700 1]
+[charaScale K 1.5]
+[sceneSet L 172700 1]
+[charaScale L 1.5]
+[sceneSet M 172700 1]
+[charaScale M 1.2]
+
+[sceneSet N 170503 1]
+
+[charaSet S 5009000 1 特效用1]
+
+[cameraMove 0.1 0,0 1.01]
+[scene 10000]
+
+[bgm BGM_BATTLE_179 0.1]
+[fadein black 1.0]
+[wait fade]
+
+[cueSe SE_22 22_ad1220]
+[wt 0.4]
+[effect bit_talk_ort_beam]
+[wt 2.3]
+
+[fadeout white 0.1]
+[wait fade]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+[fowardEffect bit_talk_lightning_U_01]
+
+[scene 170503]
+[wt 0.3]
+
+[effectDestroy bit_talk_ort_beam]
+
+[se ad626]
+[seVolume ad626 0 0]
+[seVolume ad626 0.2 0.3]
+[cueSe SE_22 22_adm89 0 0.3]
+[se ad632]
+[seVolume ad632 0 0]
+[seVolume ad632 0.5 0.3]
+[fadein white 0.3]
+[wait fade]
+
+[wt 0.3]
+
+[seStop ad626 0.3]
+[cueSeStop 22_adm89 0.3]
+[fowardEffectStop bit_talk_lightning_U_01]
+[se ad842]
+[seVolume ad842 0 0.6]
+[fowardEffect bit_talk_lightning_U_02]
+[wt 1.0]
+[se ad477]
+[seVolume ad477 0 0.6]
+[fadeout white 0.4]
+[wait fade]
+
+[se ad284]
+[seVolume ad284 0 0.6]
+[shake 0.03 5 4 3.0]
+[fowardEffectStop bit_talk_lightning_U_02]
+[seStop ad632 4.0]
+[wt 1.0]
+
+[seStop ad284 1.5]
+[wt 1.0]
+[fadein white 0.4]
+[wait fade]
+
+[cueSe SE_21 21_ade633 0 0.7]
+[wt 0.5]
+[charaFace B 19]
+[charaShake B 0.03 3 3 0.5]
+[wt 0.7]
+
+＠U－奥尔加玛丽
+咕，呜……！
+[k]
+
+[charaFace B 7]
+
+＠U－奥尔加玛丽
+振作一点，你平常的判断力上哪去了！？[r]这种东西，可不是能打得赢的对象吧！
+[k]
+
+＠U－奥尔加玛丽
+特斯卡特利波卡看准时机就脚底抹油了，[r]戴比特也掉到下面去了！
+[k]
+
+＠U－奥尔加玛丽
+被抓住的那两人被管家和高扬斯卡娅救下逃出去了，[r]我们也快撤退！
+[k]
+
+？1：好，好的……！
+？2：真丢脸，毕竟受到的冲击太大了……！
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠卡多克
+不只[%1]。[r]被迫见识那种景象，任谁都会陷入恐慌。
+[k]
+
+[charaFace C 7]
+
+＠卡多克
+不过多亏有你，我们才清醒过来了！[r]原来你不是光会冲着别人发脾气啊，奥尔加玛丽！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 20]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+[FFFFFF]？[-]　你也是记不住个体名的那种人类吗？[r]还是说这年头流行去掉首字母呢？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 24]
+[charaFadein A 0.1 1]
+
+＠玛修
+！　ORT正在离开墨西哥城！[r]不过那个方位是[line 3]
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠卡多克
+Storm Border！？
+[k]
+
+[charaFace C 4]
+
+＠卡多克
+糟了，完全就是冲着潜航艇去的！[r]那玩意看起来像是能填饱肚子的吗！？
+[k]
+
+＠卡多克
+玛修，紧急联络戈尔德鲁夫他们！
+[k]
+
+＠卡多克
+单方面接收讯号应该没问题！[r]叫他们全员避难，放弃潜航艇！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 28]
+[charaFadein A 0.1 1]
+＠玛修
+紧急线路无法接通！[r]估计是时空连续统存在断层！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaSet A 8001400 1 玛修]
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠卡多克
+唔……是因为所谓的未来与现在的对调吗！[r]潜航艇附近仍处于『现在』！
+[k]
+
+＠卡多克
+潜航艇上的大家看不见这种异常状况！[r]等ORT靠近后，才会映入他们的眼帘！
+[k]
+
+？1：不妙……！
+？2：无论如何都赶不上了[line 3]！
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+
+＠库库尔坎
+[FFFFFF]？[-]　那个，是你们很重要的东西吗？
+[k]
+
+？1：相当重要！
+？2：那是我们的家！
+
+？！
+
+[charaFace D 2]
+
+＠库库尔坎
+原来如此！[r]那必须守护好才行呢！
+[k]
+
+[messageOff]
+[se ad73]
+[charaEffect D bit_talk_quickmove]
+[charaSpecialEffect D erasureReverse 1 0.3]
+[wt 1.0]
+
+[wipeout rightToLeft 0.7 1.0]
+[bgmStop BGM_BATTLE_179 1.0]
+[wait wipe]
+
+[scene 170000]
+[pictureFrameTop cut063_cinema]
+[charaFadeout D 0.1]
+[wt 1.0]
+
+[wipein leftToRight 0.7 1.0]
+[wait wipe]
+
+[wt 0.3]
+
+[charaPut D 0,-50]
+[charaTalk D]
+[charaFace D 0]
+[se ad223]
+[fowardEffect bit_talk_quickmove]
+[charaSpecialEffect D appearance 1 0.25]
+[wt 0.4]
+
+[bgm BGM_EVENT_24 0.1]
+
+＠库库尔坎
+这就是『空中飞岩』吗～！[r]好帅～！
+[k]
+
+＠库库尔坎
+唔……是外来的机器文明技术与泛人类史合作的产物吧？
+[k]
+
+＠库库尔坎
+啊，那边的你！[r]能不能通知各位船员进入船内系好安全带？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 0,-50]
+
+＠戈尔德鲁夫
+虽说因为美女的突然登场而陷入混乱，[r]但幸好高扬斯卡娅的重来已让我具备了免疫力。
+[k]
+
+[charaFace E 1]
+
+＠戈尔德鲁夫
+因此，我倒要冷静地反问你。[r][line 3]你在说些什么呢？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0,-50]
+
+＠瓦克昌
+咦，[#太阳的教诲:库库尔坎]大人？[r]哟，是发生什么麻烦事吗？　看您慌慌张张的？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 0,-50]
+
+＠库库尔坎
+嗯，相当麻烦。[r]所以能帮我叫大家……吗？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 0,-50]
+[wt 0.1]
+[charaMoveReturn F 0,-20 0.3]
+
+＠瓦克昌
+真的假的，不过库库尔坎大人确实做得出来呢。[r]好～～～嘞，交给我吧～～～～！
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth J 1]
+[charaDepth G 2]
+[charaScale G 1.6]
+[charaDepth E 3]
+[charaScale E 0.8]
+
+[cueSe SE_22 22_ad1219]
+[charaFadeout F 0.4]
+[charaMove F -150,-50 0.5]
+[wt 0.8]
+
+[charaFace E 1]
+[charaFadein J 1.0 -190,-400]
+[charaFadein E 1.0 -100,-180]
+[charaMove J -90,-400 1.0]
+[charaMove E 0,-180 1.0]
+[wt 1.0]
+
+[cueSeStop 22_ad1219 0.6]
+[charaFace G 0]
+[charaFadein G 0.4 550,100]
+[charaMove G 350,100 0.5]
+[wt 0.8]
+[charaMoveReturn G 350,45 0.4]
+[wt 0.2]
+[se ad183]
+[charaFace E 5]
+[charaMove E 0,-160 0.3]
+[wt 1.0]
+
+[cueSe SE_22 22_ad1219]
+[charaFadeout G 0.4]
+[charaFadeout E 0.4]
+[charaMove G 50,100 0.4]
+[charaMove E -300,-160 0.4]
+[wt 0.5]
+[cueSeStop 22_ad1219 1.5]
+[wt 1.0]
+[charaFadeout J 0.5]
+[wt 0.7]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 0,-50]
+
+＠库库尔坎
+很高兴你决断如此迅速。[r]嗯，关键时刻还得是可靠的人类！
+[k]
+
+[charaFace D 11]
+
+＠库库尔坎
+那我动手啦！[r]潜航艇的各位，抓紧扶稳咯！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgmStop BGM_EVENT_24 1.0]
+[wait fade]
+
+[charaFadeout D 0.1]
+[pictureFrame]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth K 1]
+[charaDepth L 2]
+[charaDepth M 3]
+[charaDepth A 4]
+[charaDepth C 5]
+[charaDepth B 5]
+[charaFadein K 0.1 300,-120]
+[scene 172700]
+[wt 0.5]
+
+[se ad876]
+[seVolume ad876 0 0.7]
+[se ad898]
+[seVolume ad898 0 0.3]
+[wt 4.5]
+
+[charaMove K 250,-220 5.5]
+[se ad624]
+[seVolume ad624 0 0]
+[seVolume ad624 1.0 0.6]
+[bgm BGM_MAP_55 1.0 1.2]
+[fadein black 1.0]
+[wait fade]
+
+[wt 2.5]
+
+[charaFadein L 1.0 0,-360]
+[charaMove L -80,-440 5.0]
+[wt 1.0]
+
+[charaFadeout K 0.1]
+[wt 2.5]
+
+[charaFadein M 1.0 150,-150]
+[charaMove M 0,-200 2.5]
+[charaMoveScale M 1.01 2.5]
+[wt 1.0]
+
+[charaFadeout L 0.1]
+[wt 0.5]
+
+[seStop ad624 2.0]
+[wt 1.5]
+
+[subCameraOn 1]
+[charaLayer A sub #A]
+[charaLayer C sub #A]
+[charaLayer B sub #A]
+[charaLayer N sub #A]
+
+[charaTalk depthOff]
+[charaDepth N 1]
+[charaDepth A 2]
+[charaDepth C 3]
+[charaDepth B 4]
+
+[charaScale N 1.5]
+[charaFadein N 0.1 0,0]
+[charaFace A 6]
+[charaFadein A 0.1 -30,310]
+[charaFace C 3]
+[charaFadein C 0.1 -110,180]
+
+[subCameraFilter #A maskEdge cut359_mask16 5 0,0,0,255 0]
+[subRenderFadeinFSSideR #A 0.5 400,-400]
+[subRenderMoveFSSideR #A 400,-350 0.3]
+[wt 0.8]
+
+？1：[line 3]（哑然）
+
+？！
+
+[charaTalk on]
+[charaTalk A]
+
+＠玛修
+前辈……Storm Border，蹦蹦，跳跳的，[r]就像是在密林里跳跃的兔子一样……
+[k]
+
+[charaTalk C]
+[charaFace C 2]
+
+＠卡多克
+……那个自称库库尔坎的女人……[r]独力将舰艇举起来搬走了……
+[k]
+
+[charaFadeout A 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.2 -30,260]
+
+＠U－奥尔加玛丽
+那点小事，我状态正常时也能做到哦！？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 -80,310]
+
+＠玛修
+潜航艇正被搬往奇琴伊察西南方的树海……[r]啊，现在被放下来了。
+[k]
+
+[messageOff]
+[fadeout black 0.7]
+[bgmStop BGM_MAP_55 0.7]
+[wait fade]
+
+[charaFadeout N 0.1]
+[charaFadeout M 0.1]
+[charaFadeout A 0.1]
+[scene 170503]
+[wt 0.5]
+
+[charaLayer A NORMAL]
+[charaLayer C NORMAL]
+[charaLayer B NORMAL]
+[charaLayer N NORMAL]
+[subCameraOff]
+
+[se ad619]
+[seVolume ad619 0 0]
+[seVolume ad619 0.3 0.3]
+[se ad238]
+[seVolume ad238 0 0.8]
+[wt 1.0]
+[seStop ad619 3.5]
+[se ad937]
+[seVolume ad937 0 0.4]
+[seStop ade79 0.1]
+[wt 4.3]
+
+[fadein black 0.7]
+[wait fade]
+
+[wt 1.3]
+
+[se ad949]
+[seVolume ad949 0 0.8]
+[scene 170500 2.0]
+[wt 0.5]
+[seStop ad949 2.5]
+[wt 3.0]
+
+？1：恢复原状了……？
+？2：ORT也……消失了？
+
+？！
+
+[bgm BGM_EVENT_70 0.1]
+
+[charaTalk depthOn]
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.4 1]
+[wt 0.4]
+
+＠尼莫
+看来是这样。被[#对调:Slide]的[r]『未来』与『现在』的[#场面:Card]恢复原状了。
+[k]
+
+＠尼莫
+既然说是对调，就表示不是无限期的。[r]应该是有时间限制的权能吧。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+啊[line 3]太好了。[r]尼莫先生也平安无事呢。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠卡多克
+……是因为回到了『现在』吗？
+[k]
+
+＠卡多克
+那尼莫，如果时间流逝，又到了刚才[r]那个『未来』，你就会消失吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 4]
+[charaFadein H 0.1 1]
+
+＠尼莫
+不。刚才的现象终究是在预支未确认巨大生物……[r]『ORT假如真的现身的话』这一未来。
+[k]
+
+＠尼莫
+已确定下来的只有这点。
+[k]
+
+＠尼莫
+假设刚才的未来是在10天后，[r]就这样过上10天也不会对我造成任何影响。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 8]
+[charaFadein C 0.1 1]
+
+＠卡多克
+这样啊。其实我知道，但姑且确认一下。
+[k]
+
+[charaFace C 0]
+
+＠卡多克
+话说回来，你知道我为什么[r]会知道吗，[%1]？
+[k]
+
+？1：因为城市也恢复了原状？
+？2：因为聚集在[#地面上:下面]的奥塞洛特尔们都在看着这边。
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+哇哇，说得没错！
+[k]
+
+＠玛修
+大街上的各位奥塞洛特尔[r]都在分发着枪械瞄准着我们！
+[k]
+
+＠玛修
+那毫无疑问是要[line 3][bgmStop BGM_EVENT_70 1.0]
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.4]
+
+[charaPut S 150,-70]
+
+[se bac179]
+[cueSe Servants_604300 m50402]
+[seVolume m50402 0 0.5]
+[charaEffect S bit_shot_01]
+[wt 0.7]
+
+[se bac179]
+[effect bit_shot_01 -150,70]
+[wt 0.5]
+[seStop m50402 0.3]
+[wt 0.2]
+
+[bgm BGM_EVENT_80 0.1]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+[charaShake C 0.05 3 3 0.5]
+[wt 1.5]
+
+[charaPut S 2000,2500]
+[effectDestroy bit_shot_01]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+
+＠尼莫
+毕竟在他们看来，我们不仅对伊斯卡利找茬，[r]还挑衅了特斯卡特利波卡。
+[k]
+
+＠尼莫
+虽然这座祭坛就像是圣域，但看他们那愤怒的样子，[r]估计马上就会冲上来了吧。
+[k]
+
+＠尼莫
+奥塞洛特尔不抓人质。一旦被抓住，[r]就会被活生生地扯断手脚，挖出心脏。
+[k]
+
+[charaFace H 5]
+
+＠尼莫
+抓紧时间脱身吧。[r]虽说Storm Border现在还离我们相当远。
+[k]
+
+？1：放心吧，那边是迪诺斯的城市。
+？2：先和城外的大家会合吧。
+
+？！
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+明白了，御主。[r]高扬斯卡娅小姐他们留下的绳梯在那边……
+[k]
+
+[charaFace A 12]
+
+＠玛修
+所长？　您怎么了？
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 31]
+[charaFadein B 0.1 1]
+[wt 1.4]
+[charaFaceFade B 27 0.2]
+
+＠U－奥尔加玛丽
+没什么，只是在细细回味胜利的滋味而已。[r][line 3]是要回舰艇吧，我不反对。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth I 1]
+[charaDepth H 2]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+[charaPut I 0,-200]
+[charaFadeTime I 0.2 0.5]
+
+＠尼莫
+（……此前因为事态紧急而暂且搁置了，[r]　其实她直到最后都在帮助我们，而且奋不顾身。）
+[k]
+
+＠尼莫
+（在战力层面可以说值得信任。[r]　也值得信赖……不，还不能妄加判断。）
+[k]
+
+[charaFadeout I 0.2]
+[charaFace H 8]
+
+＠尼莫
+明白了。玛修·基列莱特打头阵，[r]御主[%1]紧随其后，
+[k]
+
+＠尼莫
+之后是卡多克·泽姆露普斯，[r]最后是我下梯子。
+[k]
+
+[charaFace H 0]
+
+＠尼莫
+你看起来不需要使用梯子吧。[r]能麻烦你在空中帮忙掩护，直至全员落地吗，总统？
+[k]
+
+[messageOff]
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaSet A 1098257900 1 玛修]
+
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 24]
+[charaFadein B 0.1 1]
+[wt 1.0]
+
+[charaFace B 14]
+
+＠U－奥尔加玛丽
+我本就正有此意！[r]这决断不错，我很中意哦，船长！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 22]
+[charaFadein A 0.1 1]
+[wt 1.5]
+
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_80 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

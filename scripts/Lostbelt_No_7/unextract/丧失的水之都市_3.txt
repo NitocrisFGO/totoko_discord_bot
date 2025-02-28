@@ -1,0 +1,1303 @@
+
+
+＄03-00-13-10-3-0
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098253900 1 伊斯卡利]
+[charaSet B 1098259310 1 特拉洛克]
+[charaSet C 1098259310 1 特拉洛克_扩大]
+[charaScale C 1.2]
+[charaSet D 1098257400 1 希翁]
+[charaSet E 1098239310 1 卡多克]
+[charaSet F 1098124330 1 戴比特]
+[charaScale F 1.2]
+
+[sceneSet G 10000 1]
+[charaScale G 1.01]
+[sceneSet H 170501 1]
+[charaScale H 1.2]
+[sceneSet I 170501 1]
+[charaScale I 1.2]
+[sceneSet J 151001 1]
+[charaScale J 2.0]
+
+[imageSet K cut424_prison_v 1]
+[charaScale K 2.7]
+
+[scene 170301]
+
+[pictureFrame cut063_cinema]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 1.5]
+
+[scene 170501 1.5]
+[wt 2.0]
+
+[bgm BGM_EVENT_156 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 0,-50]
+
+＠伊斯卡利
+大街上篝火通明……[r]仪式开始以来，即将满一年了。
+[k]
+
+＠伊斯卡利
+将城市一分为二的水路与月路清澈湛蓝的景象，[r]今晚也是最后一次见到了吧。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth B 2]
+[charaFadein H 0.4 0,-200]
+[charaMove H -120,-200 2.0]
+
+
+[se ad60]
+[seVolume ad60 0 0]
+[seVolume ad60 0.5 1.0]
+[wt 1.5]
+[seStop ad60 0.5]
+[charaScale B 1.2]
+[charaTalk B]
+[charaFace B 5]
+[charaFadeinFSR B 0.5 286,150]
+[charaMoveFSR B 256,150 0.5]
+[wt 1.6]
+
+[charaMove H -120,-300 1.8]
+[charaMoveFSR B 256,-50 1.8]
+[wt 2.0]
+
+＠特拉洛克
+竟然在没有太阳的夜晚单独行动。
+[k]
+
+＠特拉洛克
+你也太粗心大意了，伊斯卡利。[r]你忘记了身为王的自觉，是吗？
+[k]
+
+[messageOff]
+[charaFadeout H 0.5]
+[charaFadeout B 0.5]
+[wt 0.7]
+[charaScale B 1.0]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace A 1]
+
+＠伊斯卡利
+特拉洛克神！？[r]不，岂敢。
+[k]
+
+[charaFace A 0]
+
+＠伊斯卡利
+这里是墨西哥城的圣域。[r]是只有王与神，以及活祭才可以进入的高处。
+[k]
+
+＠伊斯卡利
+不法之徒是不会来这里的。[r]我孤身一人也不会有任何问题。
+[k]
+
+＠伊斯卡利
+倒是……您这打扮是？[r]简直就像泛人类史的人类……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.1 0,-50]
+
+＠特拉洛克
+……不用在意。[r]我只是在配合兄长而已，哦。
+[k]
+
+＠特拉洛克
+『既然要守护墨西哥城，[r]就向我展现为融入文明而做出的努力吧。』
+[k]
+
+＠特拉洛克
+还说老土的神会遭到嫌弃，[r]会被奥塞洛特尔们说成过时的。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+
+＠伊斯卡利
+不，我对特拉洛克神平常的打扮并无不满。
+[k]
+
+＠伊斯卡利
+那是体现了恩惠之雨及河水泛滥导致死亡的，[r]与这米克特兰相符的形象。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0,-50]
+
+＠特拉洛克
+……说得对。[r]这里是异闻带的米克特兰。
+[k]
+
+[charaFace B 13]
+
+＠特拉洛克
+跟不上不下的泛人类史米克特兰不一样。[r]唯有战士才被允许生存。
+[k]
+
+＠特拉洛克
+你知道吗，伊斯卡利？[r]阿兹特克神话中乐园的定义。
+[k]
+
+＠特拉洛克
+奔赴米克特兰的都是“并非战士之人”。
+[k]
+
+＠特拉洛克
+无关善恶，只有并非在战斗中死亡，[r]而是自然死亡的人类才会被送往那个世界。
+[k]
+
+＠特拉洛克
+与这个米克特兰截然相反。[r]至少，对奥塞洛特尔们而言是这样。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+
+＠伊斯卡利
+是的。奥塞洛特尔都是勇敢的战士。[r]只有在战斗中死去，才能成为献给特斯卡特利波卡神的供品。
+[k]
+
+[charaFace A 4]
+
+＠伊斯卡利
+……泛人类史的阿兹特克在这方面是错的。[r]不止新生仪式，
+[k]
+
+＠伊斯卡利
+还有基本每天都在举行的活祭仪式。[r]作为献给神的供品，作为求雨的代价，
+[k]
+
+＠伊斯卡利
+每天，每天都要挖出非战士之人的心脏，[r]让他们流淌的鲜血浸染这座美丽的城市。
+[k]
+
+＠伊斯卡利
+大街就没有不被鲜血浸湿之时，[r]月之路就没有不被染红之刻。
+[k]
+
+[charaFace A 6]
+
+＠伊斯卡利
+[line 3]愚蠢，愚蠢透顶。[r]靠毫无自觉的奴隶之血，又能改变世界的什么！
+[k]
+
+[charaFace A 4]
+
+＠伊斯卡利
+我们不一样，不会让那种无谓的血白流。[r]我们只挖取有力量的内脏。
+[k]
+
+＠伊斯卡利
+只挖取足以让神复苏的强大器官。
+[k]
+
+＠伊斯卡利
+而且，这也即将到达所需数量。[r]迦勒底的魔术师，与优质的人造人，
+[k]
+
+[charaFace A 0]
+
+＠伊斯卡利
+那两人的心脏比迪诺斯更稀有。
+[k]
+
+＠伊斯卡利
+非常适合用作真正特斯卡特利波卡神[r]复活的最后一步。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 0,-50]
+
+＠特拉洛克
+那么多收集来的迪诺斯的心脏，[r]正通过月之路送往米克特兰的最底层……
+[k]
+
+＠特拉洛克
+你有听兄长说过最底层是什么样的地方吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 0,-50]
+
+＠伊斯卡利
+听说过。[r]那里沉睡着毁灭泛人类史的『兵器』。
+[k]
+
+＠伊斯卡利
+一年前，特斯卡特利波卡神从最底层登上[r]这第五层，并授予了我们武器。
+[k]
+
+＠伊斯卡利
+这都是为了在一年后，再度返回最底层，[r]拿到兵器并毁灭泛人类史。
+[k]
+
+＠伊斯卡利
+我们遵从他的旨意。[r]驱逐迪诺斯，掌握米克特兰的霸权[line 3]
+[k]
+
+＠伊斯卡利
+我们，这座墨西哥城，将取代愚蠢的[r]泛人类史，继任人类的“下一代”。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 0,-50]
+
+＠特拉洛克
+……总体来说，也不算有错，吧。
+[k]
+
+＠特拉洛克
+好吧，毫不迷惘的伊斯卡利。[r]耗费一年时间成长起来的，人类特斯卡特利波卡。
+[k]
+
+＠特拉洛克
+你定要保证明天的仪式获得成功。[r]失败就意味着你的死，千万别忘记这点。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 8]
+[charaFadein A 0.1 0,-50]
+
+＠伊斯卡利
+是。我定会回应特拉洛克神的期待，[r]毁灭[#泛人类史:那些家伙]的世界。
+[k]
+
+＠伊斯卡利
+要是迦勒底残党还有些骨气的话，[r]肯定会现身妨碍仪式吧。
+[k]
+
+＠伊斯卡利
+魔术师自然具备当活祭的资格。[r]我定会在祭坛上将那两人的脑袋一并斩断，
+[k]
+
+＠伊斯卡利
+将他们搏动的心脏献给特拉洛克神您，[r]献给特斯卡特利波卡神。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 14]
+[charaFadein B 0.1 0,-50]
+
+＠特拉洛克
+……哪怕你已经输过一次了？[r]你是因为不死，才骄傲自大了吗，伊斯卡利？
+[k]
+
+＠特拉洛克
+是我把在Storm Border中了闪电，[r]烧得浑身焦黑顺着河流飘荡的你捡了回来。
+[k]
+
+＠特拉洛克
+就当作报答我这份恩情，你要真心诚意地扪心自问。[r]你是否小瞧了泛人类史？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 0,-50]
+[wt 1.4]
+
+＠伊斯卡利
+[line 3]我确实有小瞧他们。[r]但这并非出于轻视。
+[k]
+
+＠伊斯卡利
+那些家伙是面对同胞之死就会惊慌失措的半吊子。[r]身为战士，我无法理解那种感情。
+[k]
+
+＠伊斯卡利
+就算有杀死我们这些敌人的意志，[r]却没有做好同胞之死的觉悟[line 3]
+[k]
+
+[charaFace A 4]
+
+＠伊斯卡利
+这还是第一次有人让我感到如此可憎。[r]泛人类史的人类太丑陋了。
+[k]
+
+＠伊斯卡利
+对于被当作特斯卡特利波卡培养的我来说，[r]那些家伙的文明根本不值一提。
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth H 1]
+[charaDepth B 2]
+
+[charaScale B 1.2]
+[charaFace B 14]
+[charaFadein H 1.0 -60,-300]
+[charaFadeinFSR B 1.0 256,-50]
+[wt 1.2]
+
+[charaFadeout A 0.1]
+[charaTalk B]
+[charaFaceFade B 8 0.7]
+[wt 0.7]
+
+＠特拉洛克
+……是吗。说是不值一提，[r]却无法割舍憎恨，呢。
+[k]
+
+[messageOff]
+[charaDepth I 3]
+[charaDepth A 4]
+
+[charaScale A 1.2]
+[charaFace A 1]
+[charaFadein I 0.5 60,-300]
+[charaFadeinFSL A 0.5 -256,-50]
+[wt 0.7]
+
+[charaFadeout H 0.1]
+[charaMove B 0,-50 0.1]
+[charaScale B 1.0]
+
+＠伊斯卡利
+特拉洛克神？
+[k]
+
+[messageOff]
+[charaFadeout I 1.0]
+[charaFadeout A 1.0]
+[wt 1.2]
+[charaScale A 1.0]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk B]
+[charaFace B 13]
+
+＠特拉洛克
+只是在自言自语。但既然你听到了，[r]就仔细琢磨其含义吧。
+[k]
+
+[messageOff]
+[se ad60]
+[seStop ad60 1.5]
+[charaFadeout B 0.4]
+[wt 1.5]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadeinFSL A 0.1 -256,-50]
+
+＠伊斯卡利
+啊[line 3]那个。[r]请等一下，特拉洛克神。
+[k]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadeinFSR B 0.2 256,-50]
+
+＠特拉洛克
+干嘛？
+[k]
+
+[charaTalk A]
+[charaFace A 7]
+
+＠伊斯卡利
+请问……您被特斯卡特利波卡神开枪[r]击中的额头还好吧？
+[k]
+
+＠伊斯卡利
+如果还痛的话，我可以立刻取药过来[line 3]
+[k]
+
+[charaTalk B]
+[charaFace B 2]
+
+＠特拉洛克
+[line 3]不需要。[r]不是说过了吗，我很结实。
+[k]
+
+＠特拉洛克
+虽然作为特斯卡特利波卡，你这体贴必须扣分，[r]但我会帮你瞒着兄长，哦。
+[k]
+
+[messageOff]
+[charaTalk off]
+[se ad60]
+[seStop ad60 2.2]
+[charaFadeout B 0.4]
+[wt 0.5]
+[charaFaceFade A 7 0.5]
+
+[cameraMove 7.0 50,-20 1.1]
+[wt 3.0]
+
+[messageOff]
+[fadeout black 1.5]
+[bgmStop BGM_EVENT_156 1.5]
+[wait fade]
+
+[cameraHome 0.1]
+[pictureFrame]
+[charaFadeout A 0.1]
+[scene 151001]
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_5 0.1]
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 17]
+[charaFadein D 0.1 1]
+＠希翁
+通讯果然连不上呢～。[r]看来这栋建筑整体都成了圣域。
+[k]
+
+＠希翁
+应该是相当强大神灵的居所吧……[r]不，光凭这个理由也解释不了这种妨碍。
+[k]
+
+＠希翁
+仿佛整个世界都不一样……[r]就像是在生物体内……
+[k]
+
+＠希翁
+又仿佛身处能遮蔽信号的宇宙飞船内……
+[k]
+
+[charaFace D 14]
+
+＠希翁
+听得到吗，卡多克氏！[r]你打算怄气到什么时候？
+[k]
+
+＠希翁
+我们明天就要被当活祭献祭了啊！？[r]你倒是再紧迫一点啊！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠卡多克
+我没在怄气，只是在保存体力而已！
+[k]
+
+＠卡多克
+经过彻底调查后只明白了『不可能逃脱』。[r]所以，现在也只能等那些家伙了。
+[k]
+
+[charaFace E 6]
+
+＠卡多克
+万一……不，没有什么万一，[r]那些家伙肯定会来救我们的……
+[k]
+
+[charaFace E 0]
+
+＠卡多克
+放心吧，我只是不想在[#那一刻]到来时，[r]自己却疲惫不堪拖大家后腿。
+[k]
+
+＠卡多克
+……被关在其他牢房的达·芬奇与尼莫固然[r]令人担心，但现在也做不了什么。
+[k]
+
+＠卡多克
+只需睡觉静候那群爱管闲事的[r]访客上门[line 3]
+[k]
+
+[bgmStop BGM_EVENT_5 1.5]
+
+[messageOff]
+[charaTalk F]
+[se ad60]
+[seVolume ad60 0 0]
+[seVolume ad60 1.0 1.0]
+[wt 1.5]
+[seStop ad60 0.5]
+[wt 0.7]
+
+[charaTalk E]
+[charaFace E 8]
+
+＠卡多克
+我就说嘛，果然赶上了[line 3]
+[k]
+
+[messageOff]
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth J 1]
+[charaDepth F 2]
+[charaDepth K 3]
+
+[se ad60]
+[charaTalk F]
+[charaFace F 9]
+[charaFadein K 1.0 460,-900]
+[charaFadein J 1.0 462,-545]
+[charaMove K 500,-900 1.0]
+[charaMove J 502,-545 1.0]
+[wt 1.0]
+[seStop ad60 0.5]
+[charaFadein F 0.4 -240,0]
+[wt 0.7]
+[charaFadeout E 0.1]
+
+[bgm BGM_EVENT_71 0.1]
+
+＠戴比特
+抱歉。[r]恐怕我并非你想象中的来客。
+[k]
+
+[messageOff]
+[charaFadeout J 0.5]
+[charaFadeout F 0.5]
+[charaFadeout K 0.5]
+[wt 0.7]
+
+[charaScale F 1.0]
+
+[charaTalk on]
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 5]
+[charaFadein D 0.1 1]
+[wt 1.5]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠卡多克
+戴比特！？
+[k]
+
+[charaFace E 1]
+
+＠卡多克
+……不，也没什么好惊讶的。[r]这里是你负责的异闻带嘛。
+[k]
+
+＠卡多克
+第一时间派人袭击迫降的潜航艇[r]也确实是你的作风。
+[k]
+
+＠卡多克
+早前的会议上你还说什么『杀伤行为是罕见的经历』，[r]跟贝里尔竞赛来着吧。
+[k]
+
+[charaFace E 0]
+
+＠卡多克
+不过，我确实没想到你竟会给异闻带的人类配备枪械，[r]打造军队就是了。
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[cueSe SE_22 22_ad1167]
+[wt 1.0]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠戴比特
+前去参观你们的舰艇是从者的独断专行。
+[k]
+
+＠戴比特
+我之前在其他地方忙别的事，[r]才刚回到墨西哥城而已。
+[k]
+
+[charaFace F 7]
+
+＠戴比特
+但就算我在，应该也会采取相同的行动吧。[r]不同之处就在于不会捉俘虏，而是当场做掉。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.1 1]
+
+＠希翁
+这位就是戴比特·泽姆·沃伊德……
+[k]
+
+[charaFace D 0]
+
+＠希翁
+初次见面。我是迦勒底的协助者，[r]希翁·艾尔特纳姆·索卡里斯。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+
+＠戴比特
+是我失礼了，竟然由你主动报上了名字。[r]叫我戴比特就行了。
+[k]
+
+＠戴比特
+你是为彷徨海和迦勒底搭桥牵线之人，[r]也是对『异星之神』武器的技术提供者吧？
+[k]
+
+[charaFace F 1]
+
+＠戴比特
+我记住你的名字与样貌了。[r]确实是该杀的对象。
+[k]
+
+＠戴比特
+我这人没有沃戴姆那么优秀，[r]但只有记忆力不落于人后。
+[k]
+
+＠戴比特
+要是下次有机会同席，我会最先对你出手。[r]我向你保证。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 15]
+[charaFadein D 0.1 1]
+
+＠希翁
+啊，嗯。
+[k]
+
+＠希翁
+（呜哇～，这是抹杀宣言吧，卡多克氏？）
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠卡多克
+（要是能听出求婚的意思，你也算是个大人物了。[r]　[line 3]但重点在于，）
+[k]
+
+[charaFace E 1]
+
+＠卡多克
+下次，也就意味着现在不杀我们吧。[r]为什么？　你可是最后的[#隐匿者:Crypter]。
+[k]
+
+＠卡多克
+而且你不同于基尔什塔利亚，[r]没有对『异星之神』掀起反旗。
+[k]
+
+＠卡多克
+应该没有理由放迦勒底的人，[r]以及倒戈迦勒底的我一条活路才对。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠戴比特
+抓你们的是特斯卡特利波卡，[r]不是我。
+[k]
+
+＠戴比特
+那家伙有他自己的思想与目的。[r]迟来的我横刀夺爱未免不妥。
+[k]
+
+[charaFace F 4]
+
+＠戴比特
+[line 3]不过，也可以说是我被他抢先了一步吧。
+[k]
+
+[charaFace F 0]
+
+＠戴比特
+那家伙是出门时一声不吭的那种人。[r]随后突然有一天跑回来，
+[k]
+
+＠戴比特
+若无其事地丢下一句[r]『啊，抱歉，你的存款全都被我花光了』。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 13]
+[charaFadein D 0.1 1]
+
+＠希翁
+（这算是家暴吧？）
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+
+＠卡多克
+哈。意思是你跟从者的关系糟透了吧。[r]那我可以理解为，现在之所以不杀我们……
+[k]
+
+＠卡多克
+是因为你害怕自己的从者……特斯卡特利波卡吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 1]
+[charaFadein F 0.1 1]
+
+＠戴比特
+嗯，那家伙是个了不起的从者。
+[k]
+
+＠戴比特
+短短一年间，就让这个[#受到地外生命支配]的[r]米克特兰落实了泛人类史的规则。
+[k]
+
+＠戴比特
+实际上，墨西哥城是那家伙的城市。
+[k]
+
+＠戴比特
+那家伙召唤神殿，培养奥塞洛特尔，[r]让他们建造都市，选出了都市之王。
+[k]
+
+[charaFace F 0]
+
+＠戴比特
+我不过是特斯卡特利波卡的召唤者而已。
+[k]
+
+＠戴比特
+既然迦勒底要与这异闻带战斗，
+[k]
+
+＠戴比特
+在这种情况下，你们该打倒的敌人就不是我，[r]而是特斯卡特利波卡吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 1]
+
+＠希翁
+也就是说，戴比特氏对这异闻带漠不关心吗？
+[k]
+
+＠希翁
+哪怕这异闻带被迦勒底的各位切除也无妨？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 7]
+[charaFadein F 0.1 1]
+＠戴比特
+现在就被切除会有问题。[r]但10天后的话，我就不妨碍你们了。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 12]
+[charaFadein D 0.1 1]
+
+＠希翁
+嚯嚯。那如果迦勒底在那之前就切除了空想树，[r]你的目的就破产了吧？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠戴比特
+如果你们能做到的话。[r]我个人倒是并不在乎[line 3]
+[k]
+
+[charaFace F 7]
+
+＠戴比特
+但既然沃戴姆已经完成到了最后，[r]那我也要实现[#指定:Order]。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠卡多克
+……别说蠢话了。[r]基尔什塔利亚没能完成。
+[k]
+
+＠卡多克
+他不是在最后关头遭到贝里尔的背叛，死了吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.1 1]
+
+＠戴比特
+不是指结果，而是指意志。
+[k]
+
+＠戴比特
+那家伙并非基于『自己的作战[r]必定会成功』的预设而行动。
+[k]
+
+＠戴比特
+驱动那濒死之躯的，[r]纯粹是不得不这样做的意志。
+[k]
+
+＠戴比特
+直至临死之际都在贯彻坚持。[r]哪怕心存遗憾，也没有后悔。
+[k]
+
+＠戴比特
+[line 3]所以可以说，是完成了吧。[r]纵使那家伙所追求的理想没能实现。
+[k]
+
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+[bgmStop BGM_EVENT_71 1.5]
+
+＠卡多克
+………………这个嘛。[r]………………或许吧。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠戴比特
+话题扯远了。我要回去了。[r]今天的时间所剩无几。[bgm BGM_EVENT_76 0.1]
+[k]
+
+＠戴比特
+我有个疑问，卡多克。[r]你为何没带自己的从者？
+[k]
+
+＠戴比特
+你是御主。只要使用从者，[r]要逃离监狱应该易如反掌才对。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠卡多克
+怎么可能有嘛。[r]我可是从[#隐匿者:Crypter]倒戈来的。
+[k]
+
+＠卡多克
+迦勒底不可能允许我召唤从者，[r]我也不会主动要求。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+
+＠戴比特
+不是这个意思。为何不用你拥有的东西。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+
+＠卡多克
+哈？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠戴比特
+…………受不了。真是个幸福的男人。[r]难怪佩佩隆奇诺会对你放心不下。
+[k]
+
+[charaFace F 0]
+
+＠戴比特
+你还有[#大令咒:Sirius Light]。
+[k]
+
+＠戴比特
+那是能产生令咒数十倍魔力的术式，[r]是能瞬间增幅术者魔术回路的引爆装置。
+[k]
+
+＠戴比特
+一旦发动大令咒，[#隐匿者:Crypter]便会死亡。[r]毕竟会内爆嘛。
+[k]
+
+＠戴比特
+所谓大令咒，就是炸弹。[r]是马里斯比利准备的[line 3]
+[k]
+
+＠戴比特
+当[#隐匿者:Crypter]在灵子转移目的地失败时，[r]就[#消灭整个地区]来完成[#指定:Order]的保险。
+[k]
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 3]
+[charaFadein E 0.1 1]
+[wt 1.5]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+
+＠戴比特
+幸好奥菲莉娅当时已经奄奄一息了。[r]因为在大令咒启动之前，术者就已死亡。
+[k]
+
+＠戴比特
+万一奥菲莉娅在身负重伤前就使用了大令咒，
+[k]
+
+＠戴比特
+迦勒底残党恐怕就会连同Shadow Border[r]一起被炸得灰飞烟灭吧。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠卡多克
+……我已经隐约猜到可能会是这么回事。[r]贝里尔就是为了强制我们使用大令咒所配备的人员吧。
+[k]
+
+＠卡多克
+当[#隐匿者:Crypter]中有人因为不想死而打算[r]逃离特异点时，便强行发动大令咒，
+[k]
+
+＠卡多克
+[#消除:清除]特异点的扭曲。[r][#隐匿者:Crypter]之所以有七人，就是由于这个原因。
+[k]
+
+＠卡多克
+马里斯比利打从一开始，[r]就不相信我们能完成人理修复。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 10]
+[charaFadein F 0.1 1]
+
+＠戴比特
+[line 3]是啊。[r]那家伙打从一开始就有此意。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠卡多克
+哼。所以你什么意思，你想说我只要在此使用大令咒，[r]把你连同我一起杀掉就行了吗？
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 0]
+[charaFadein F 0.1 1]
+＠戴比特
+这样倒也可以，[r]只是达·芬奇和尼莫还在其他牢房里。
+[k]
+
+＠戴比特
+如果你不在乎的话，我倒不会阻拦……[r]不过，我不推荐这样做就是了。
+[k]
+
+[charaFace F 7]
+
+＠戴比特
+大令咒既是炸弹，[r]对御主而言也是一张鬼牌。
+[k]
+
+＠戴比特
+大令咒是对自己的从者下达破格命令的机会。
+[k]
+
+＠戴比特
+我提到了奥菲莉娅的情况吧。[r][#只要在使用后自尽就不会内爆]。
+[k]
+
+[charaFace F 9]
+
+＠戴比特
+就是要么死，要么在死前有一番作为。[r]剩下的就取决于你自己了，卡多克。
+[k]
+
+[messageOff]
+[se ad60]
+[charaMove F -50,0 0.8]
+[charaFadeout F 0.4]
+[wt 0.5]
+[seStop ad60 1.0]
+[wt 1.0]
+
+[charaTalk E]
+[charaFace E 4]
+[charaFadein E 0.1 1]
+
+＠卡多克
+……就这样吗！？[r]你到底是来干什么的！
+[k]
+
+[cueSe SE_22 22_ad1167]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+＠戴比特
+还用问吗，当然是来确认敌方战力。
+[k]
+
+＠戴比特
+既然现在无法杀死你们，[r]这也算最低限度的[#必要举措]。
+[k]
+
+[bgmStop BGM_EVENT_76 2.0]
+
+[messageOff]
+[se ad60]
+[wt 0.5]
+[seStop ad60 2.0]
+[wt 3.0]
+
+[bgm BGM_EVENT_81 0.1]
+
+[charaTalk D]
+[charaFace D 15]
+[charaFadein D 0.1 1]
+
+＠希翁
+唔～，不行不行。[r]应该说百闻不如一见吧。
+[k]
+
+＠希翁
+人明明就在眼前却毫无真实感，[r]或者说完全不知道他在说些什么！
+[k]
+
+[charaFace D 13]
+
+＠希翁
+卡多克氏，真亏你能与那家伙组成一队呢？
+[k]
+
+＠希翁
+简直就像在与世界上骤然掏空的孔洞说话哦？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 6]
+[charaFadein E 0.1 1]
+
+＠卡多克
+……差不多吧。[r]最开始我也有这种感觉啦。
+[k]
+
+＠卡多克
+不过那家伙其实很会照顾人，很细心，[r]很会察言观色。
+[k]
+
+＠卡多克
+他是个无论对任何人都只会讲必要话的人。[r]所以[line 3]
+[k]
+
+[charaTalk depthOff]
+[charaDepth G 1]
+[charaDepth E 2]
+
+[charaPut G 0,-200]
+[charaFace E 12]
+[charaFadeTime G 0.2 0.5]
+
+＠卡多克
+（……所以。刚才那些大令咒的情报是有意义的。[r]　他是要我去思考为何而用[line 3]用在哪里。）
+[k]
+
+[charaFadeout G 0.2]
+[charaFace E 0]
+
+＠卡多克
+希翁，我有事相求。[r]关于刚才那番话……
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+[charaTalk D]
+[charaFace D 17]
+[charaFadein D 0.1 1]
+
+＠希翁
+……哎呀呀。好啦好啦，[#同意:Copy][#同意:Copy]。[r]“帮你瞒着大令咒的用途别说出去”吧？
+[k]
+
+＠希翁
+其实我很想反对，但也怪我力有不逮，[r]无法从卡多克氏身上切除掉[#大令咒:那个]……
+[k]
+
+[charaFace D 3]
+
+＠希翁
+那我就跟你统一口径好了。[r]我好歹也懂得察言观色嘛！
+[k]
+
+[messageOff]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 8]
+[charaFadein E 0.1 1]
+[wt 1.5]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_81 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]
+

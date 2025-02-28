@@ -1,0 +1,605 @@
+
+
+＄03-00-13-15-4-0
+
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098252900 1 特佩乌]
+[charaSet C 1098252410 1 库库尔坎]
+[charaSet D 1098257300 1 达·芬奇]
+[charaSet E 1098255300 1 尼托克丽丝]
+[charaSet F 1098255200 1 哈贝特洛特]
+[charaSet G 6028000 1 水着尼托克丽丝]
+
+[sceneSet H 173900 1]
+
+[sceneSet I 10001 1]
+[charaScale I 1.05]
+
+[charaSet T 98115000 1 特效用]
+
+[charaPut T 2000,2000]
+[charaEffect T bit_talk_sand_dust_back_fs]
+
+[cameraMove 0.1 0,0 1.01]
+
+[scene 173900]
+
+[charaTalk depthOff]
+[charaDepth E 8]
+[charaDepth G 7]
+[charaDepth F 6]
+[charaDepth A 5]
+[charaDepth B 4]
+[charaDepth D 3]
+[charaDepth C 2]
+[charaDepth I 1]
+
+[charaPut I 0,-200]
+[charaFadeTime I 0.1 0.7]
+[wt 0.1]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_71 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+这究竟是[line 3][r]布？　布状的东西把我们包裹起来了！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+闭嘴，安静点……！[r]这可是神圣的梅杰德大人的加护。
+[k]
+
+＠尼托克丽丝
+只要不动就不会被发现。[r]我们就待在这里想办法掌握现状吧。
+[k]
+
+？1：对哦，尼托克丽丝曾一度是梅杰德大人的[line 3]
+
+[messageOff]
+[charaTalk E,G]
+[charaFace G 0]
+[charaPut G 220,0]
+[charaFadeTime G 0.4 0.6]
+[charaMove G 270,0 0.4]
+[wt 1.0]
+
+[charaFace E 14]
+
+＠尼托克丽丝
+你在说什么？[r]这只是我碰巧带在身上的魔术品哦。
+[k]
+
+？2：难不成，梅杰德大人的[#真身:内在]是尼托克丽丝[line 3]
+
+[messageOff]
+[charaTalk E,G]
+[charaFace G 0]
+[charaPut G 220,0]
+[charaFadeTime G 0.4 0.6]
+[charaMove G 270,0 0.4]
+[wt 1.0]
+
+[charaFace E 1]
+
+＠尼托克丽丝
+怎么可能嘛，这可太不敬了哦？[r]更何况，无论外形如何，都不存在什么里面的人。
+[k]
+
+？！
+
+[charaFadeout G 0.2]
+[charaFadeout E 0.2]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+唉～……总之得救了。[r]谢谢你，尼托克丽丝。这简直就像简易营地。
+[k]
+
+＠达·芬奇
+这样就能冷静下来观望外面的情况了。[r]刚才的影子……
+[k]
+
+[messageOff]
+[charaFadeout D 0.2]
+[bgm BGM_EVENT_71 1.0 0.6]
+[wt 0.5]
+
+[subCameraOn 1]
+
+[charaLayer T sub #A]
+[charaLayer H sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask08 3 255,255,255,255]
+
+[charaDepth T 2]
+[charaDepth H 1]
+
+[charaPut T 0,320]
+
+[charaScale H 1.2]
+[charaFadein H 0.1 0,220]
+[wt 0.1]
+
+[subRenderFadein #A 1.0 0,-350]
+[wt 1.6]
+
+[charaShake H 0.05 5 5 0.7]
+[se ade311]
+[se ad882]
+[wt 2.2]
+
+[charaShake H 0.05 5 5 0.7]
+[se ade311]
+[se ad882]
+[wt 2.0]
+
+[subRenderFadeout #A 1.0]
+[bgm BGM_EVENT_71 1.0 1.0]
+[wt 1.0]
+[charaEffectDestroy T bit_talk_sand_dust_back_fs]
+[charaFadeout H 0.1]
+[wt 0.1]
+[subCameraOff]
+[charaLayer H normal]
+
+[charaTalk D]
+[charaFace D 9]
+[charaFadein D 0.2 1]
+[wt 0.2]
+
+＠达·芬奇
+……看来还在附近呢。[r]那玩意离开之前，就在这里待命吧。
+[k]
+
+＠达·芬奇
+对了，我先确认一下。[r]大家都没事吧？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+是的。[r]我对这神秘的密闭空间好奇得不得了。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+我没有异常。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 9]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+
+＠哈贝特洛特
+咱也没受伤哦。[r]只是事出突然，忘记灵体化了而已。
+[k]
+
+？1：我也没受伤哦。
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 11]
+[charaFadein C 0.1 1]
+
+＠库库尔坎
+我也没问题。[r]这块布很方便呢？　难道是异空间？
+[k]
+
+？2：库库尔坎呢？
+
+[messageOff]
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+[wt 1.2]
+[charaFace C 2]
+
+＠库库尔坎
+嗯，完全没被吓到！[r]反倒是被你这么一关心，我更有精神了！
+[k]
+
+？！
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_71 1.5]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+好，那我们压低声音说话吧。[r]这里是第三冥界线，索索亚乌基。
+[k]
+
+[bgm BGM_EVENT_70 0.1]
+
+＠达·芬奇
+一眼望去，遍地沙漠，刮着强风，[r]而且还是无重力的世界。
+[k]
+
+＠达·芬奇
+恐怕相当于阿兹特克神话中[r]米克特兰的第五层潘奎特拉卡洛扬。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玛修
+……潘奎特拉卡洛扬。[r]是辽阔的沙漠地带冥界吧。
+[k]
+
+＠玛修
+『途中虽有八座绿洲，[r]　但都刮着足以把人掀飞的强风，
+[k]
+
+＠玛修
+　为避免被囚禁在空中，死者要牢牢抱住树木，[r]　像旗子一样一点点横跨过去……』
+[k]
+
+＠玛修
+确实有许多符合的要素。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+唔。所以，想突破当前发生变化的冥界线，
+[k]
+
+＠特佩乌
+需要依次跨越八座绿洲……[r]是这个意思吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 6]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+
+＠哈贝特洛特
+然而绿洲漂浮在空中呢。[r]咱虽然也能飞起来一点，但在这股强风中绝对不行。
+[k]
+
+＠哈贝特洛特
+而且[#空中:上面]处于无重力状态吧？
+[k]
+
+＠哈贝特洛特
+一到半空，就会分辨不清[r]该朝哪个方向『漂浮』了。
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+[FFFFFF]？[-]　重力就是指引力吧。[r]都不存在那重力了，却会分辨不清是什么意思？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+作为万物的法则，[r]轻的东西会被重的东西吸引过去。
+[k]
+
+＠达·芬奇
+严格来说，所谓的无重力状态[r]并不存在哦，特佩乌。
+[k]
+
+＠达·芬奇
+所谓的无重力就会『轻飘飘地漂浮』，[r]其实只是靠某种力相抵消了而已。
+[k]
+
+[charaFace D 22]
+
+＠达·芬奇
+哪怕来到外太空，轻的东西依旧[r]会被比自己重的东西吸引过去。
+[k]
+
+＠达·芬奇
+刚才那片天空看起来虽然像是只要升上半空，[r]就能坠向绿洲所在的大地……
+[k]
+
+[charaFace D 23]
+
+＠达·芬奇
+然而哈贝特洛特的飞行是『缓和目前所处大地的引力』。[r]必须落地一次才能漂浮起来。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 3]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+原来如此。若想在位于空中的绿洲飞行，[r]就必须先掉下去一次摔成肉饼才行。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 5]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+
+＠哈贝特洛特
+注意措辞！　还有咱只要接近地面就能漂浮起来！[r]或许能够在即将坠地时得救吧！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaSet B 1098252940 1 特佩乌]
+[charaDepth B 4]
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+
+＠特佩乌
+拿哈贝特洛特的漂浮力与坠落速度比较的话……[r]不，没什么。
+[k]
+
+[charaFaceFade B 0 0.2]
+
+＠特佩乌
+话说，在大家的认知范围内[r]『最重的东西』是什么呢？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 17]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+当然是这地球啦。[r]这可是约6000000000000000000000吨的巨大质量。
+[k]
+
+＠达·芬奇
+唯有这种数值才能让人信服飞机就算试图[r]远离地表也会被地球吸回来……掉落下来吧。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠库库尔坎
+然而在这里，只要抵达上空400米，[r]就能摆脱地球的重力，是这样吧？
+[k]
+
+＠库库尔坎
+刚才我虽然说这样做『很危险』，[r]但这不就是接近绿洲的方法吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 9]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+前提是能在那阵强风中飞起来吧。
+[k]
+
+＠尼托克丽丝
+我和哈贝特洛特都不行。眼下应该踏踏实实地徒步移动，[r]探索前往绿洲的道路。
+[k]
+
+？1：在来路不明的巨大生物徘徊的情况下？
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 34]
+[charaFadein D 0.1 1]
+
+＠达·芬奇
+……确实很危险，但也别无他法了。[r]幸好我们这里有沙漠女王尼托克丽丝。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+？2：要不，就这么静等强风过去？
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 10]
+[charaPut F 1]
+[charaFadeTime F 0.1 0.7]
+
+＠哈贝特洛特
+咱倒是很想这么办啦……[r]但这里模仿的是泛人类史的冥界吧？
+[k]
+
+[charaFace F 6]
+
+＠哈贝特洛特
+所以强风根本不会停歇吧？[r]而且，还要担心不知何时就会被巨人踩扁……
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+是的。不能一直这样下去。[r]不过还请放心，哈贝特洛特小姐。
+[k]
+
+＠玛修
+我们这里有横跨沙漠的专家，[r]尼托克丽丝小姐在哦！
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+？！
+
+[bgmStop BGM_EVENT_70 1.5]
+
+[charaTalk E]
+[charaFace E 13]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+[line 3]啊。[r]（突然有种不祥的预感。）
+[k]
+
+[charaFace E 0]
+
+＠尼托克丽丝
+咳咳。我刚才说过我没法飞哦。而且还说了两遍。[r]法老就该准确地传达事实。
+[k]
+
+[charaFace E 6]
+
+＠尼托克丽丝
+因此，我和大家条件相同。[r]现在难道不该冷静商量一下吗？
+[k]
+
+[messageOff]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaScale B 1.2]
+[charaScale C 0.9]
+[charaScale D 0.9]
+
+[charaTalk off]
+
+[charaFace B 0]
+[charaFadein B 0.1 380,50]
+[charaFace D 0]
+[charaFadein D 0.1 0,-110]
+[charaFace C 0]
+[charaFadein C 0.1 -350,-110]
+[wt 1.2]
+
+[cueSe SE_21 21_ad1065]
+[seStop 21_ad1065 1.5]
+[charaMove B 330,50 0.5]
+[charaMove D -50,-110 0.5]
+[charaMove C -400,-110 0.5]
+[charaFadeout B 0.4]
+[charaFadeout D 0.4]
+[charaFadeout C 0.4]
+[wt 1.2]
+[charaScale C 1.0]
+[charaScale D 1.0]
+
+[charaFace A 13]
+[charaFadein A 0.1 300,0]
+[charaFace F 2]
+[charaPut F -300,0]
+[charaFadeTime F 0.1 0.7]
+[wt 1.2]
+
+[cueSe SE_21 21_ad1065]
+[seStop 21_ad1065 1.0]
+[charaMove A 250,0 0.5]
+[charaMove F -350,0 0.5]
+[charaFadeout A 0.4]
+[charaFadeout F 0.4]
+[wt 0.6]
+
+＠全体
+…………[r]（兴冲冲地开始准备外出。）
+[k]
+
+[bgm BGM_EVENT_7 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠尼托克丽丝
+领头是由抽签决定的吧？[r]这才算是所谓的迦勒底式。对吧，同盟者？
+[k]
+
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_7 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+

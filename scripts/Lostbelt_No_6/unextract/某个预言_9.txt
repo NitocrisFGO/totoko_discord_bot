@@ -1,0 +1,3472 @@
+
+＄03-00-10-07-9-0
+
+
+
+
+[soundStopAll]
+[enableFullScreen]
+
+[charaSet A 1098219010 1 贤者格里姆]
+[charaSet B 1098231510 1 玛修]
+[charaSet C 5045001 1 阿尔托莉雅]
+[charaSet E 1098181900 1 尼莫水兵]
+[charaSet F 1098123200 1 戈尔德鲁夫]
+[charaSet G 1098158300 1 尼莫]
+[charaSet H 1098216200 1 哈贝特洛特]
+[charaSet I 1098215200 1 梣]
+[charaSet J 1098124500 1 达·芬奇]
+[charaSet K 9005001 1 福尔摩斯]
+
+[sceneSet L 129202 1 1]
+[charaScale L 1.6]
+
+[charaSet M 1098209610 1 ？？？]
+
+[imageSet O cut268_atc 1 1]
+[sceneSet P 118701 1 1]
+[charaScale P 2.0]
+
+
+[sceneSet Q 129000 1 1]
+[charaScale Q 1.3]
+
+[imageSet R cut252_brk 1]
+
+[charaSet S 98115000 1 特效用]
+[charaSet T 98115000 1 特效用]
+[charaSet U 98115000 1 特效用]
+
+[sceneSet V 129200 1 1]
+[charaScale V 1.01]
+
+[charaPut S 2000,2500]
+[charaEffect S bit_sepia01_depth_fs]
+
+[cameraMove 0 0,0 1.01]
+
+[scene 123400]
+
+[bgm BGM_EVENT_120 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+[cueSe SE_21 21_ad1145]
+[shake 0.05 2 2 3.5]
+[wt 4.0]
+
+？1：分明打倒了……！？
+？2：完全……没有效果吗！？
+
+？！
+
+＠穆尼尔
+科尔努诺斯的魔力反应停止后，[r]当即开始再生！　完全看不到外伤！
+[k]
+
+＠穆尼尔
+不行，停不下来！[r]刚才那个只剥掉他的几层外皮！
+[k]
+
+＠穆尼尔
+玛修！　你那边的感觉如何！？[r]有没有什么在意的事！？
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.4 1.0]
+[wait wipe]
+
+[scene 122601]
+[wt 0.5]
+
+[se ade343]
+[seVolume ade343 0 0]
+[seVolume ade343 1.0 0.5]
+[wipein rectangleStripLeftToRight 0.4 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠玛修
+是……！
+[k]
+
+＠玛修
+虽然数次击破了科尔努诺斯，[r]但造成的伤害完全没有累积的迹象！
+[k]
+
+＠玛修
+恐怕诅咒涌现的速度[r]会超过我方击破它的速度！
+[k]
+
+＠玛修
+我们目前见到的是[r]因诅咒而扩大化的腐肉，
+[k]
+
+＠玛修
+推测唯有断绝诅咒的根源，[r]才能祓除掉这个『灾厄』……！
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.2]
+
+[seStop ade343 2.0]
+
+[se ade512]
+[wt 1.1]
+
+[se ad421]
+[wt 0.8]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.4 1]
+[wt 0.6]
+
+＠贤者格里姆
+好了……应急处理差不多就这样吧。
+[k]
+
+[charaFace A 1]
+＠贤者格里姆
+噢噢，毕竟再烂也是神，[r]不，正因为已经腐烂了，才更不好对付吗。
+[k]
+
+＠贤者格里姆
+我通过交手明白了。[r]那家伙有神核哦。
+[k]
+
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.1 1]
+＠玛修
+神核……是神灵的灵魂吗？[r]可是科尔努诺斯已经死了[line 3]
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+＠贤者格里姆
+应该是有什么东西进了神核这口棺柩里吧。[r]极致的活祭，诅咒妖精的某种东西。
+[k]
+
+＠贤者格里姆
+获得了那个活祭的科尔努诺斯[r]作为腐肉重新启动，来到地面。
+[k]
+
+＠贤者格里姆
+零零碎碎地削掉外皮也只是白费力气啦。[r]只能将神核连同那巨大的身躯一并轰飞才行。
+[k]
+
+？1：可那样的火力该如何[line 3]
+
+？！
+
+[charaFace A 4]
+＠贤者格里姆
+……当然有。[r]很久以前就准备好了。
+[k]
+
+＠贤者格里姆
+部署在卡美洛正面的十二门圣枪。[r]只要能启动它们，就能打倒科尔努诺斯。
+[k]
+
+＠贤者格里姆
+这就是这场战斗的目的。
+[k]
+
+＠贤者格里姆
+光是阻止卡美洛遭破坏还不够，[r]缺少了一步。
+[k]
+
+＠贤者格里姆
+我们的任务是在这里拖住科尔努诺斯，[r]将『圣剑的守护者』送往玉座。
+[k]
+
+＠贤者格里姆
+而这个任务已经完成了。[r]接下来只需在此见证旅途的结束即可。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠玛修
+哎[line 3]
+[k]
+
+
+？1：[line 3]慢着。
+？2：[line 3]玛修，阿尔托莉雅呢……？
+
+？！
+
+[charaFace B 15]
+＠玛修
+不在……[r]阿尔托莉雅小姐消失了！
+[k]
+
+＠玛修
+不知不觉从甲板上消失了[line 3]
+[k]
+
+？1：[line 3]所以。
+
+？！
+
+[messageOff]
+[se ad592]
+[seVolume ad592 0 0.5]
+[fadeout white 0.4]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[scene 132901]
+
+[charaPut S 1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+[wt 0.6]
+
+[fadein white 0.4]
+[wait fade]
+[wt 1.6]
+
+[fadeout white 0.4]
+[wait fade]
+
+[charaFadeout C 0.1]
+[charaPut S 2000,2500]
+
+[scene 122601]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+[wt 0.6]
+
+[fadein white 1.0]
+[wait fade]
+[wt 0.2]
+
+
+？1：所以，刚才她才会[line 3]
+
+？！
+
+[messageOff]
+[wt 1.0]
+
+？1：呜…………玛修，开始防卫战！
+
+？！
+
+[messageOff]
+
+[charaTalk B]
+[charaFace B 6]
+[wt 1.2]
+
+[charaFace B 2]
+＠玛修
+是！　我们只能做我们力所能及的事[line 3]
+[k]
+
+＠玛修
+继续与科尔努诺斯交战！[r]我定会挡下所有攻击！
+[k]
+
+[bgmStop BGM_EVENT_120 1.5]
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[scene 10000]
+
+[cueSe SE_21 21_ad1143 0 0]
+[wt 1.5]
+
+[seVolume 21_ad1143 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+[wt 1.5]
+
+＠
+卡美洛已经是一座死城了。
+[k]
+
+＠
+没有妖精，没有人类，[r]没有尸体，也没有摩耳斯。
+[k]
+
+＠
+在所有生命、诸多繁华[r]均已断绝的街道上，她奔跑着。
+[k]
+
+＠阿尔托莉雅
+呼、呼、呼、呼[line 3]！
+[k]
+
+＠
+从Storm Border上跳下来，[r]在还没损坏的卡美洛外墙上着陆，
+[k]
+
+＠
+而如今，她正奔跑在通往玉座的道路上。
+[k]
+
+＠阿尔托莉雅
+大概是这边，肯定是这边……！
+[k]
+
+＠阿尔托莉雅
+以前与[%1]来过一次，[r]相信直觉，不要停下来啊，我[line 3]！
+[k]
+
+＠
+跑得上气不接下气，[r]刚才的战斗并没有带来多少疲劳。
+[k]
+
+＠
+之所以气喘吁吁，是因为隔着城墙的另一边，[r]位于城外的巨大野兽。
+[k]
+
+＠
+祭神科尔努诺斯那压缩了空气般的，[r]寂然无声的“诅咒”。
+[k]
+
+[seVolume 21_ad1143 1.0 0.4]
+
+＠阿尔托莉雅
+我知道，要来了，要来了……！[r]要从洞穴底部爬上来了……！
+[k]
+
+＠
+在前往灵洞前，卡美洛曾因[r]顺大洞穴而上的诅咒陷入崩溃。
+[k]
+
+＠
+那些诅咒是在科尔努诺斯现身的[r]一小时后抵达的。
+[k]
+
+＠
+时间所剩无几。[r]最多还有10分钟，最短只剩5分钟。
+[k]
+
+＠
+要赶在那之前抵达玉座，[r]解析摩根留下的玉座构造，
+[k]
+
+＠
+改造成适用于自己的以便使用。
+[k]
+
+＠阿尔托莉雅
+呼[line 3]呼、呼、呼[line 3]！
+[k]
+
+＠
+如果是以前的自己，应该会以[r]“做不到”为由，摸索其他手段吧。
+[k]
+
+＠
+然而她确信，现在的自己定能做到。
+[k]
+
+＠
+从『选定之地』返回的自己，[r]已不再是以前的自己了。
+[k]
+
+＠
+超过一半是空想的存在。
+[k]
+
+＠
+迟早会拔出选定之剑，手握圣剑，[r]引导不列颠走向下个时代的某位王。
+[k]
+
+＠
+她感觉到自己正被嵌入那个存在方式，[r]正被嵌入人类史的那个概念中。
+[k]
+
+＠阿尔托莉雅
+哪怕不是位于世界的中心，而是在边缘，
+[k]
+
+＠阿尔托莉雅
+于尽头的灯塔，[r]无论什么样的时间尽头[line 3]
+[k]
+
+＠
+……想起了以前魔术老师说过的话。
+[k]
+
+＠
+令人怀念的童话故事。[r]以众多希望构成的，某个无名之人的故事。
+[k]
+
+＠阿尔托莉雅
+找到了，这个十字路口我有印象！[r]那前面就是[line 3]！
+[k]
+
+[messageOff]
+[seVolume 21_ad1143 1.0 1.0]
+[fadeout black 1.0]
+[wait fade]
+[seStop 21_ad1143 1.5]
+
+[scene 118701]
+
+[charaFadein P 0.1 0,-735]
+[wt 2.6]
+
+[charaMove P 0,-400 6.5]
+[bgm BGM_BATTLE_171 1.0]
+[fadein black 1.0]
+[wait fade]
+
+
+[wt 6.5]
+
+[charaFadeout P 1.5]
+[wt 2.5]
+
+
+
+＠
+摩根的玉座。
+[k]
+
+＠
+储藏了从整个不列颠的妖精身上收集来的魔力，[r]用来控制圣枪的，救世主梣的至高杰作。
+[k]
+
+＠阿尔托莉雅
+呼[line 3][r]呼……呼……呼……
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[se ad882]
+[seVolume ad882 0 0.7]
+[se ad914]
+[seVolume ad914 0 0.7]
+[se ade393]
+[seVolume ade393 0 0.6]
+[charaPut U 1]
+[charaEffect U bit_talk_rubble]
+[shake 0.02 4 4 0.2]
+[wt 0.3]
+[shake 0.02 5 5 1.5]
+[se ad10]
+[se ad892]
+[seVolume ade393 1.0 0.5]
+[shake 0.01 2 3 1.6]
+[wt 2.0]
+[seStop ade393 2.0]
+[charaEffectStop U bit_talk_rubble]
+
+＠
+玉座后是可以俯视大洞穴的露台。[r]在那里[line 2]
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[scene 128901 1.5]
+[wt 2.0]
+
+[charaPut U 2000,2500]
+
+＠
+“只存在于那里”的祭神，[r]一万四千年的腐肉正耸立着。
+[k]
+
+＠阿尔托莉雅
+[line 3]呼。
+[k]
+
+＠
+呼吸困难。那不祥的身姿、[r]那『沉默』的意义令人畏缩不前。
+[k]
+
+＠
+神的愤怒是正确的，[r]神的诅咒是正确的。
+[k]
+
+＠
+他被妖精们杀害，[r]怀着善意伸出援手，却遭到欺骗。
+[k]
+
+＠
+心爱巫女的生命与尊严都惨遭剥夺。[r]而罪人们却繁荣了一万四千年之久。
+[k]
+
+＠
+『灾厄』并非憎恨所致，[r]而是基于愤怒与哀叹的『责任』。
+[k]
+
+＠
+『决不能放任这些生物肆意妄为』的责任。
+[k]
+
+＠
+作为曾让他们活命的存在，[r]试图阖上世界之盖。
+[k]
+
+＠阿尔托莉雅
+[line 3]即便如此，[r]你终究还是错了。
+[k]
+
+＠阿尔托莉雅
+如果说不列颠是罪人们的国度。[r]……如果执意认为全都是如此的话，
+[k]
+
+＠阿尔托莉雅
+就不该只降下惩罚，还应该建立宽恕罪孽的系统，[r]应该规定好罪人们能获得宽恕的时刻。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[wait fade]
+
+[scene 118701]
+[wt 1.0]
+
+[fadein black 2.0]
+[wait fade]
+[wt 0.5]
+
+[charaTalk off]
+[charaTalk depthOff]
+[charaDepth T 1]
+[charaDepth O 6]
+
+[se ad632]
+[seVolume ad632 0 0]
+[seVolume ad632 0.5 0.4]
+[wt 1.0]
+[seStop ad632 1.0]
+[wt 1.0]
+
+[cueSe SE_21 21_ad1108]
+[charaEffect T bit_talk_throne_light]
+[wt 1.5]
+
+
+[cueSeStop 21_ad1108 1.0]
+＠
+将意识连接上玉座，[r]与装设在正面的十二台圣枪合为一体。
+[k]
+
+[messageOff]
+[wipeout rectangleStripUpToDown 0.6 1.0]
+[wait wipe]
+[wt 0.1]
+
+[charaPut T 2000,2000]
+
+[scene 123300]
+[wt 0.5]
+
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 1.0]
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.0 0.1]
+[wipein rectangleStripDownToUp 0.6 1.0]
+[wait wipe]
+[wt 1.0]
+
+
+[se ad295]
+[se ad238]
+[se ad913]
+[seVolume ad913 0 0.8]
+[se ad886]
+[scene 123301 1.5]
+[shake 0.05 3 3 2.5]
+[wt 1.0]
+[seStop ad886 1.0]
+[seStop ad295 2.0]
+[wt 1.5]
+
+[messageOff]
+[wipeout rectangleStripDownToUp 0.6 1.0]
+[wait wipe]
+[wt 0.5]
+
+[charaPut T 1]
+[scene 118701]
+
+[wipein rectangleStripUpToDown 0.6 1.0]
+[wait wipe]
+
+[messageOff]
+[effect bit_talk_rubble]
+[se ad228]
+[seVolume ad228 0 0.1]
+[seVolume ad228 1.5 1.0]
+[se ad882]
+[seVolume ad882 0 0.7]
+[se ad914]
+[seVolume ad914 0 0.7]
+[se ade393]
+[seVolume ade393 0 0.6]
+[shake 0.02 4 4 0.2]
+[wt 0.3]
+[shake 0.02 5 5 1.5]
+[se ad10]
+[se ad892]
+[seVolume ade393 1.0 0.5]
+[wt 1.2]
+[effectStop bit_talk_rubble]
+[wt 0.8]
+[seStop ade393 2.0]
+[seStop ad556 2.0]
+[seStop ad228 1.2]
+[seStop ad14 0.6]
+[seStop ad892 0.6]
+[wt 0.4]
+
+[charaTalk on]
+
+＠
+往上爬着，[r]往上爬着。
+[k]
+
+＠
+以闪电般的速度，从地底往上爬着。
+[k]
+
+＠
+预感诅咒的终结、诅咒的解除，[r]呼喊着“休想得逞”的众多[#怨嗟:声音]往上爬着。
+[k]
+
+＠
+一万四千年间不断堆积的妖精之死[r]化作奔流袭涌而至。
+[k]
+
+＠阿尔托莉雅
+……好厉害。[r]真是个天才啊。
+[k]
+
+＠
+然而，她脑海中浮现的，并非焦急，[r]而是对摩根的赞美。
+[k]
+
+＠
+不仅是对她身为妖精的能力，[r]还有将整个卡美洛当作礼装的构思。
+[k]
+
+＠
+作为如此庞大的术式，[r]魔术回路的连接、魔力循环却毫无窒碍。
+[k]
+
+＠
+正可谓神域的天才，[r]在历代『乐园妖精』中也是最顶级的。
+[k]
+
+＠
+问题在于，这构造是以那位天才[r]亲自使用为前提组建的。
+[k]
+
+[messageOff]
+[cueSe SE_21 21_ad1108]
+[se ad733]
+[fadeout white 1.5]
+[wait fade]
+[wt 0.1]
+
+[charaPut T 2000,2000]
+[charaPut U 2000,2000]
+[charaEffectStop U bit_talk_rubble]
+[charaEffectStop T bit_talk_throne_light]
+
+[charaTalk off]
+[charaDepth Q 8]
+
+[se ad632]
+[seVolume ad632 0 0]
+[cueSe SE_21 21_ad1116]
+[seVolume 21_ad1116 0 0]
+[scene 129000]
+[wt 0.1]
+
+[seVolume ad632 3.0 0.3]
+[seVolume 21_ad1116 3.0 0.1]
+[fadein white 3.0]
+[wait fade]
+[seVolume 21_ad1116 3.0 0.05]
+[seVolume 21_ad1108 1.0 0.4]
+[seVolume ad632 1.0 0.15]
+[wt 1.0]
+
+[se ad231]
+[charaPut Q 0,-250]
+[charaFadeTime Q 0.4 0.5]
+[wt 0.4]
+[charaFadeout Q 0.5]
+[wt 1.5]
+
+＠阿尔托莉雅
+呜[messageShake 0.05 3 3 0.2]……[r]……呜啊，啊[line 3]！
+[k]
+
+＠
+过剩的魔力流经全身。
+[k]
+
+＠
+光靠她的回路，并不足以使用十二台炮门，[r]从玉座流入的魔力化作了火花，
+[k]
+
+＠
+使她的血管、神经、骨肉[r]逐渐由内往外扩张。
+[k]
+
+＠
+意识远离，眼球破裂，[r]呼吸器官被灼烧，双膝即将跪地。
+[k]
+
+＠阿尔托莉雅
+[line 3]但是，这样的话[line 3]
+[k]
+
+＠
+[#这次不会逃跑了]。[r]她确信这次一定能行。
+[k]
+
+[messageOff]
+[charaFadein O 0.6 0,-300]
+[wt 1.2]
+
+＠阿尔托莉雅
+[#灵脉闭塞型兵装:伦戈米尼亚德]，装填。[r][#圆桌圣枪:Round Lance]，十二台并列拔锚。
+[k]
+
+＠阿尔托莉雅
+对灾厄大仪式，开门[line 3]！[r]救世之枪啊，化作洗刷罪孽的[#止境:奥克尼]之雨吧！
+[k]
+
+[messageOff]
+[bgmStop BGM_BATTLE_171 2.0]
+[charaFadeout O 0.6]
+[seStop 21_ad1116 2.0]
+[seStop 21_ad1108 2.0]
+[seStop ad632 2.0]
+[fadeout white 2.0]
+[wait fade]
+[seStop 21_ad1117 2.0]
+[wt 2.0]
+
+[scene 10000]
+[charaFadeout O 0.1]
+[wt 0.1]
+
+[fadein white 1.0]
+[wait fade]
+[bgm BGM_EVENT_144 0.1]
+
+[criMovie talk_mov107 bgmPlay true]
+[wt 1.0]
+[fadeout black 0.1]
+[wait fade]
+
+[scene 118701]
+
+[se ad728]
+[fadein black 3.0]
+[effect bit_talk_rubble]
+[se ad228]
+[seVolume ad228 0 0.1]
+[seVolume ad228 1.5 1.0]
+[se ad882]
+[seVolume ad882 0 0.7]
+[se ad914]
+[seVolume ad914 0 0.7]
+[se ade393]
+[seVolume ade393 0 0.6]
+[shake 0.02 4 4 0.2]
+[wt 0.3]
+[shake 0.02 5 5 1.5]
+[se ad10]
+[se ad892]
+[seVolume ade393 1.0 0.5]
+[wt 1.2]
+[effectStop bit_talk_rubble]
+[wt 0.8]
+[bgmStop BGM_EVENT_144 2.0]
+[seStop ade393 2.0]
+[seStop ad228 1.2]
+[seStop ad14 0.6]
+[seStop ad892 0.6]
+
+[wait fade]
+
+＠阿尔托莉雅
+咳[messageShake 0.05 3 3 0.2]，啊……！
+[k]
+
+[messageOff]
+[se ad240]
+[cueSe SE_21 21_ad1118]
+[seVolume 21_ad1118 0 0.3]
+[effect bit_talk_35]
+[wt 2.0]
+
+＠
+火力很充分、威力也很充分。[r]那威力甚至能让卡美洛的城墙化作灰烬。
+[k]
+
+＠
+可还是不够，[r]若想祓除这层层堆叠的诅咒，还是太弱了。
+[k]
+
+＠
+如果这里有妖精的话，肯定会被嘲笑吧。
+[k]
+
+＠
+嘲笑女王摩根准备的兵装[r]根本不足以弑神。
+[k]
+
+[bgm BGM_BATTLE_165 0.1]
+
+＠阿尔托莉雅
+不对……！[r]只是我无法运用自如罢了……！
+[k]
+
+＠
+绷紧已然丧失功能的双眼，[r]咽下反流至口腔的血液。
+[k]
+
+＠
+怒意并非针对妖精们，[r]也并非针对科尔努诺斯。
+[k]
+
+＠
+而是针对[#仍有所保留]的自己。[r]事到如今，竟还想保留回去的余力。
+[k]
+
+＠阿尔托莉雅
+什么叫，还想，多逗留一会儿啊……！[r]我已经得到足够多的所谓『一会儿』了……！
+[k]
+
+＠
+原本应该在选定之地消失的自己，[r]之所以还能残存到现在，
+[k]
+
+＠
+是因为某位旅伴挺身而出，[r]替自己争取了些许的时间。
+[k]
+
+＠阿尔托莉雅
+[line 3]一切。[r]身在此处的我、曾在此处的我。
+[k]
+
+＠阿尔托莉雅
+把全部力量都使出来。[r]我就是为此，才来到这里的。
+[k]
+
+[messageOff]
+[cueSe SE_21 21_ad1108]
+[seVolume 21_ad1108 0 0]
+[se ad632]
+[seVolume ad632 0 0]
+[cueSe SE_21 21_ad1116]
+[seVolume 21_ad1116 0 0]
+[cueSe SE_21 21_ad1117]
+[seVolume 21_ad1117 0 0]
+[seVolume 21_ad1108 1.5 0.5]
+[seVolume ad632 1.5 0.3]
+[seVolume 21_ad1116 1.5 0.2]
+[seVolume 21_ad1117 1.5 0.2]
+[scene 129001 1.5]
+[wt 2.5]
+
+＠
+圣枪伦戈米尼亚德是摩根的魔术，[r]无法完美发挥实属正常。
+[k]
+
+＠
+她无法自如运用圣枪，[r]但可以利用其构造。
+[k]
+
+＠
+既然圣枪是炮塔，[r]那只需装上不同的炮弹即可。
+[k]
+
+＠
+现在的她是『圣剑的概念』。[r]既是如此，要重新装填的术式就是[line 3]
+[k]
+
+＠阿尔托莉雅
+……线路自玉座，变奏为这颗心脏。
+[k]
+
+＠阿尔托莉雅
+消耗的魔力自卡美洛，[r]变奏为阿瓦隆·勒·菲。
+[k]
+
+＠阿尔托莉雅
+自[#灵脉闭塞型兵装:伦戈米尼亚德]，[r]变奏为[#龙脉烧却型兵装:Excalibur]。
+[k]
+
+[messageOff]
+[shake 0.05 3 3 0.2]
+[fadeout white 0.2]
+[wait fade]
+
+[cameraFilter gray]
+
+[se ad231]
+[fadein white 0.2]
+[wait fade]
+
+[fadeout white 0.2]
+[wait fade]
+
+[cameraFilter normal]
+
+[fadein white 0.2]
+[wait fade]
+
+＠
+数十兆细胞全在燃烧的痛楚，[r]仿佛宇宙在燃烧的痛楚。
+[k]
+
+＠
+诅咒之手、数不胜数的手指[r]已经爬上了玉座的露台。
+[k]
+
+＠
+瞬间。因痛楚而加速的思考[r]令瞬间变作永恒，
+[k]
+
+＠
+平静地、缓慢地回顾了[r]曾是那女孩之存在的记忆。
+[k]
+
+[messageOff]
+[se ad592]
+[seVolume ad592 0 0.3]
+[fadeout white 0.4]
+[bgm BGM_BATTLE_165 0.4 0.4]
+[wait fade]
+
+[charaSet B 1098231500 1 玛修]
+
+[charaPut S 1]
+[wt 0.5]
+
+[masterBranch _cutMale _cutFemale]
+
+[label _cutMale]
+[scene 122700]
+
+[branch _branchMasterEnd]
+
+[label _cutFemale]
+[scene 122701]
+
+[branch _branchMasterEnd]
+[label _branchMasterEnd]
+
+[fadein white 1.5]
+[wait fade]
+[wt 1.0]
+
+[fadeout white 1.5]
+[wait fade]
+
+[charaPut S 2000,2000]
+
+[scene 10001]
+
+[fadein white 0.1]
+[wait fade]
+
+＠阿尔托莉雅
+[line 3]摩根。[r]遥远世界中的，我的仇敌。
+[k]
+
+＠
+回想起[#港都:诺里奇]的事。
+[k]
+
+[messageOff]
+[fadeout white 0.1]
+[wait fade]
+
+
+
+
+
+
+[charaPut S 1]
+
+
+
+[scene 119604]
+
+
+[fadein white 1.0]
+[wait fade]
+[wt 2.0]
+
+[fadeout white 3.0]
+[wait fade]
+
+[scene 10001]
+
+
+[charaPut S 3000,3000]
+
+
+
+
+[masterBranch _Male _Female]
+[label _Male]
+[imageSet D cut289_mstm 1 1]
+[branch _branchEnd]
+
+[label _Female]
+[imageSet D cut289_mstw 1 1]
+[label _branchEnd]
+
+[wt 0.5]
+
+[fadein white 0.1]
+[wait fade]
+
+＠
+如果这样做就好了，[r]如果那样做就好了。
+[k]
+
+＠
+并非诸如此类的后悔，[r]只是想起了那炫目的光景。
+[k]
+
+＠阿尔托莉雅
+[line 3]我没能赢过你呢。[r]由始至终都没能赢过你。
+[k]
+
+＠阿尔托莉雅
+既没能靠力量展现自己，[r]也没能反唇相讥。
+[k]
+
+[messageOff]
+[seStop ade446 1.5]
+[wt 0.1]
+[seStop 21_ad1108 1.5]
+[seStop ad632 1.5]
+[seStop 21_ad1116 1.5]
+[seStop 21_ad1117 1.5]
+
+
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.5 1.0]
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.5 0.1]
+[wt 1.0]
+[scene 123300 1.5]
+[wt 2.2]
+
+[se ad295]
+[se ad238]
+[se ad913]
+[seVolume ad913 0 0.8]
+[se ad886]
+[scene 123301 1.5]
+[shake 0 3 3 2.5]
+[wt 1.3]
+[se ad609]
+[seVolume ad609 0 0.5]
+[seStop ad886 1.0]
+[seStop ad295 2.0]
+[wt 2.5]
+
+
+
+
+[seStop ade393 3.0]
+[seStop ad556 3.0]
+＠
+但是得到了一个机会。[r]一个在最后的最后，
+[k]
+
+＠
+将这身体残留的最后魔力全部用尽，[r]展现自己究竟是谁的机会。
+[k]
+
+[messageOff]
+[se ad592]
+[seVolume ad592 0 0.5]
+[fadeout white 0.4]
+[bgm BGM_BATTLE_165 0.4 0.4]
+[wait fade]
+
+[charaSet B 1098231510 1 玛修]
+
+[scene 132901]
+
+[charaPut S 1]
+
+[wt 0.6]
+
+[fadein white 0.4]
+[wait fade]
+[wt 0.2]
+
+[charaFadein D 0.7 0,-300]
+[wt 1.6]
+
+＠[%1]
+你找到理由了吗？
+[k]
+
+[messageOff]
+[fadeout white 0.4]
+[wait fade]
+
+[charaFadeout D 0.1]
+
+[scene 129000]
+
+[charaPut S 2000,2500]
+[wt 0.6]
+
+[seVolume 21_ad1108 1.5 0.5]
+[seVolume ad632 1.5 0.3]
+[seVolume 21_ad1116 1.5 0.2]
+[seVolume 21_ad1117 1.5 0.2]
+
+[cueSe SE_21 21_ad1108]
+[seVolume 21_ad1108 0 0]
+[se ad632]
+[seVolume ad632 0 0]
+[cueSe SE_21 21_ad1116]
+[seVolume 21_ad1116 0 0]
+[cueSe SE_21 21_ad1117]
+[seVolume 21_ad1117 0 0]
+[seVolume 21_ad1108 1.5 0.5]
+[seVolume ad632 1.5 0.3]
+[seVolume 21_ad1116 1.5 0.2]
+[seVolume 21_ad1117 1.5 0.2]
+
+[bgm BGM_BATTLE_165 0.4 1.0]
+[fadein white 1.2]
+[wait fade]
+[wt 0.2]
+
+＠阿尔托莉雅
+[line 3]不。[r]我没能成为理想的我哦。
+[k]
+
+＠
+但是，定能在此展现。[r]并非为了一直守护这玉座的无情女王，
+[k]
+
+＠
+而是为了回报伟大而值得尊敬的救世主，[r]回报她的人生。
+[k]
+
+＠阿尔托莉雅
+本应由你在2000年前完成的工作，[r]就由我来解决吧[line 3]！
+[k]
+
+＠
+抬头面对耸立的罪孽，[r]倾注作为『乐园妖精』最后的力量，
+[k]
+
+＠
+倾注维持自身形体的[r]所有魔力[line 2]
+[k]
+
+[cueSe SE_21 21_ad1110]
+[seVolume 21_ad1110 0 0.6]
+[seStop 21_ad1110 4.5]
+[seStop 21_ad1108 1.5]
+[seStop ad632 1.5]
+[seStop 21_ad1116 1.5]
+[seStop 21_ad1117 1.5]
+
+＠阿尔托莉雅
+圣剑，拔刀[line 3]！
+[k]
+
+＠阿尔托莉雅
+祭神啊，宽恕我等的罪孽吧[line 3]！
+[k]
+
+[messageOff]
+[bgmStop BGM_BATTLE_165 1.0]
+[fadeout black 1.0]
+[wait fade]
+
+[scene 10000]
+[charaPut T 2000,2500]
+[wt 0.1]
+
+[fadein black 1.0]
+[wait fade]
+
+
+
+
+
+
+[criMovie talk_mov113 bgmPlay true]
+
+[fadeout black 0.1]
+[wait fade]
+
+[charaSet C 1098220700 1 阿尔托莉雅]
+[scene 118701]
+
+[charaTalk C]
+[charaFace C 0]
+[charaPut C 1]
+[charaFadeTime C 0.1 0.7]
+
+[wt 1.5]
+
+[se ad951]
+[seVolume ad951 0 0]
+[seVolume ad951 3.0 1.0]
+[fadein black 3.0]
+[wait fade]
+
+[cueSe SE_21 21_ad1142]
+[seVolume 21_ad1142 0 0]
+[seVolume 21_ad1142 5.0 0.7]
+[charaPut T 1]
+[charaEffect T bit_talk_atc_atomization]
+[wt 0.6]
+[charaSpecialEffect C erasure 1 4.8]
+[wt 4.5]
+
+[seStop ad951 3.0]
+[wt 4.2]
+
+＠
+[line 3]残存的事物仅剩一件。
+[k]
+
+＠
+完成使命的槲寄生之杖，[r]如剑一般被放在冬之玉座上。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[wait fade]
+
+[charaPut T 2000,2500]
+[charaEffectStop T bit_talk_atc_atomization]
+
+
+[scene 122601]
+[wt 2.5]
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 1.0 0.8]
+[fadein black 1.0]
+[wait fade]
+[wt 1.0]
+
+[seStop ad556 2.0]
+
+[fadeout black 1.5]
+[wait fade]
+
+[scene 132901]
+[wt 0.6]
+
+[fadein black 1.0]
+[wait fade]
+
+[bgm BGM_EVENT_120 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+＠尼莫水兵
+同时确认十二发来自卡美洛正面的超常级魔术反应！[r]直接命中目标！
+[k]
+
+＠尼莫水兵
+科尔努诺斯的灵基反应[r]从负值变为正值！
+[k]
+
+[charaFace E 6]
+＠尼莫水兵
+外部咒层九成已蒸发、剥离！[r]！　好像能看到什么，好像能看到什么！
+[k]
+
+[charaFace E 2]
+＠尼莫水兵
+那个是神核[line 2]！[r]神明的气息扑面而来！
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[se ad1]
+[wt 0.1]
+
+[scene 123402 0.7]
+[charaFadeout E 0.7]
+[wt 2.8]
+
+？1：那就是[line 3]
+？2：科尔努诺斯之核……！
+
+？！
+
+[messageOff]
+[wt 0.1]
+
+[scene 132901 1.0]
+[wt 1.2]
+
+[charaTalk F]
+[charaFace F 6]
+[charaFadein F 0.1 1]
+＠戈尔德鲁夫
+干得漂亮，阿尔托莉雅·卡斯特！[r]但是[line 3]
+[k]
+
+[charaFace F 9]
+＠戈尔德鲁夫
+周围的肉是不是还在蠢动？[r]看起来好像还打算再生吧！？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+＠尼莫水兵
+嗯，已经开始再生了～～（泪）！[r]连伦戈米尼亚德也没法彻底打倒！
+[k]
+
+＠尼莫水兵
+距离科尔努诺斯恢复原本状态还剩360秒！[r]怎么办，该怎么办啊，船长！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠尼莫
+既然那就是神核，[r]那凭本舰的武装是无法破坏的。
+[k]
+
+＠尼莫
+[line 3]达·芬奇，[r]发布全体工作人员离舰命令。
+[k]
+
+＠尼莫
+用Shadow Border。[r]管制室里只留我和尼莫系列。
+[k]
+
+[charaFace G 2]
+＠尼莫
+等确认全员均离舰后，Storm Border就开启最大加速度，[r]作为质量兵器，直接撞击那家伙！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaTalk F]
+[charaFace F 8]
+[charaFadein F 0.1 1]
+＠戈尔德鲁夫
+！　自自，自杀式攻击吗！？[r]荒谬，我不会让你做这种蠢事的！　太浪费了！
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk G]
+[charaFace G 5]
+[charaFadein G 0.1 1]
+＠尼莫
+没时间跟你争论了。[r][%1]，你也赶紧[line 3]
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_120 2.0]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]不，没有这个必要。[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]既然科尔努诺斯的神核已经暴露，[-][r][51ffff]这作战就结束了。[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff][%1][-][51ffff]，赶紧去甲板。[-][r][51ffff]玛修在等你。[-]
+[k]
+
+＠[51ffff]达·芬奇[-]
+[51ffff]弑神需要你的令咒。[-][r][51ffff][line 3]你明白我的意思吧？[-]
+[k]
+
+？1：啊……[line 3]是！
+
+？！
+
+[messageOff]
+[wt 0.5]
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 123401]
+[wt 1.5]
+
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 2.0 0.6]
+
+[se ad556]
+[seVolume ad556 0 0]
+[seVolume ad556 2.0 0.4]
+[fadein black 2.0]
+[wait fade]
+
+＠玛修
+[line 3]目标神核，暴露[line 3][r]但那样下去很快就会……！
+[k]
+
+＠玛修
+阿尔托莉雅小姐为我们创造的机会……[r]我们原本应该有能有效利用这机会的手段[line 3]
+[k]
+
+＠玛修
+如果那时，我能[line 3][r]都因为，我太胆小了……
+[k]
+
+＠玛修
+如果我没有逃避自己的选择、逃避[r]自己的责任，也不至于变成这样……！
+[k]
+
+[seStop ade393 3.0]
+[seStop ad556 3.0]
+
+＠？？？
+懊悔到哭泣吗。[r]咱知道哦，当时的你逃避了战斗。
+[k]
+
+＠？？？
+无论多么勇敢地挤出勇气来，[r]你还是从根本上厌恶着战斗。
+[k]
+
+＠？？？
+这到现在也依然未变。[r]但是[line 3]你注视的方向却发生了变化。
+[k]
+
+＠？？？
+你已知晓了战斗的心、战斗的意志。[r]那咱也不需要再帮你保管啦。
+[k]
+
+＠玛修
+哎[line 3]？
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.5 1.0]
+[wait wipe]
+
+[scene 122601]
+[wt 0.6]
+
+[wipein rectangleStripLeftToRight 0.5 1.0]
+[wait wipe]
+[wt 0.2]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.4 1]
+[wt 1.6]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 36]
+[charaFadein B 0.1 1]
+＠玛修
+您是[line 3][r]哈贝特洛特，小姐？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 6]
+[charaFadein H 0.1 1]
+＠哈贝特洛特
+嗯。在谢菲尔德城被使用过，[r]却被你转身背对弃之不顾的存在。
+[k]
+
+＠哈贝特洛特
+不可存在于这不列颠之物，[r]用来展现你今后的珍贵之物。
+[k]
+
+[charaFace H 7]
+＠哈贝特洛特
+是叫[#黑色炮身:Black Barrel]吧？[r]这次可千万不能再忘了哦，玛修。
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+＠玛修
+[line 6]
+[k]
+
+[messageOff]
+[se ad592]
+[seVolume ad592 0 0.5]
+[fadeout white 0.4]
+[wait fade]
+
+[charaSet B 1098230710 1 玛修]
+
+[scene 57600]
+
+[cameraFilter gray]
+
+[charaTalk off]
+[charaDepth H 2]
+[charaDepth B 1]
+
+[charaFace H 0]
+[charaFace B 16]
+[charaFadeinFSL H 0.1 0]
+[charaFadeinFSR B 0.1 2]
+[wt 0.6]
+
+[fadein white 0.4]
+[wait fade]
+[wt 1.6]
+
+
+[fadeout white 0.4]
+[wait fade]
+
+[charaFadeout H 0.1]
+[charaFadeout B 0.1]
+[wt 0.1]
+[charaSet B 1098231510 1 玛修]
+[scene 119201]
+
+[charaFace H 5]
+[charaFace B 7]
+[charaFadeinFSL H 0.1 0]
+[charaFadeinFSR B 0.1 2]
+[wt 0.6]
+
+[fadein white 0.4]
+[wait fade]
+[wt 1.6]
+
+
+[fadeout white 0.4]
+[wait fade]
+
+[charaFadeout B 0.1]
+[charaFadeout H 0.1]
+
+[charaSet B 1098231510 1 玛修]
+
+[scene 122601]
+
+[cameraFilter normal]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 6]
+[charaFadein B 0.1 1]
+[wt 0.6]
+
+[fadein white 0.4]
+[wait fade]
+[wt 1.4]
+
+
+[messageOff]
+[fadeout black 1.5]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[scene 117101]
+
+[charaPut S 1]
+
+[pictureFrame cut063_cinema]
+[wt 1.0]
+
+[fadein black 2.0]
+[wait fade]
+
+[bgm BGM_EVENT_142 0.1]
+
+[charaTalk I]
+[charaFace I 25]
+[charaFadein I 0.1 0,-50]
+＠梣
+现在的我们是空想树模拟出来的，[r]假设世界中的我们。
+[k]
+
+＠梣
+在实际的历史中，玛修并不存在于妖精历，[r]有的只有加拉哈德。根据这个前提来推进。
+[k]
+
+＠梣
+无论是我，还是你，[r]都决不能记住有关玛修的信息。
+[k]
+
+[charaFadeout I 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 0,-50]
+＠H：特特洛特
+不要！[r]咱不想忘记玛修！
+[k]
+
+＠H：特特洛特
+玛修在女王历又会遭遇悲惨的经历吧！[r]届时咱一定要帮她才行！
+[k]
+
+＠H：特特洛特
+梣不是到了女王历也还在吗！？[r]咱也会想办法的！
+[k]
+
+[charaFace H 2]
+＠H：特特洛特
+冰之棺柩！[r]找格里姆，让他帮忙制造跟玛修一样的棺柩！
+[k]
+
+＠H：特特洛特
+因为，咱还没有履行约定啊！[r]咱说过要赠送玛修一件最漂亮的新娘嫁衣！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk I]
+[charaFace I 24]
+[charaFadein I 0.1 0,-50]
+＠梣
+……自进入女王历的那刻起，[r]所有的摇摆不定都将消散。
+[k]
+
+＠梣
+你无法跨越时代。[r]不，是无法带着这份记忆跨越时代。
+[k]
+
+＠梣
+连我也做不到。会导致矛盾的。
+[k]
+
+＠梣
+要是将这一轮的情报付与女王历的我，[r]『我』就会无法成立。
+[k]
+
+＠梣
+我们只能忘记玛修。
+[k]
+
+[charaFace I 25]
+＠梣
+……如果即便如此，你还是希望活到[r]女王历，且还记得玛修的话……
+[k]
+
+＠梣
+就要做好觉悟了。
+[k]
+
+＠梣
+只要还拥有玛修的记忆，[r]你就会成为“不可存在之物”。
+[k]
+
+＠梣
+你迄今为止的经历，[r]应该会在玛修从诺里奇被传送走的那一刻消散吧。
+[k]
+
+＠梣
+届时谁都将说不出初代妖精骑士的名字了。
+[k]
+
+＠梣
+听好了。在女王历中，[r]决不能被人知道你就是初代骑士。
+[k]
+
+＠梣
+哪怕有任何一人将你认知为特特洛特，[r]你都会从女王历消失。
+[k]
+
+＠梣
+自[#异闻带:空想]延续下来的你，[r]是无法在[#特异点:现实]中生存下去的。
+[k]
+
+＠梣
+所以……我会从玛修身上抹除关于你的记忆。
+[k]
+
+＠梣
+女王历2018年，从她在名为谢菲尔德的城市[r]遇见你开始，到进入棺柩为止的记忆。
+[k]
+
+＠梣
+只要她不知道这些记忆，[r]你在女王历应该也能活动吧。
+[k]
+
+＠梣
+听好了。玛修从『棺柩』中解放出来后，[r]你决不能与玛修扯上关系。
+[k]
+
+＠梣
+万一她想起了你，[r]你就会从女王历消失。
+[k]
+
+＠梣
+犹如短暂的仲夏夜之梦。[r]朝之云雀啼鸣之刻，便是你的梦境苏醒之时。
+[k]
+
+[messageOff]
+[fadeout black 2.0]
+[bgmStop BGM_EVENT_142 2.0]
+[wait fade]
+
+[charaFadeout I 0.1]
+
+[charaPut S 2000,2500]
+[charaEffectStop S bit_sepia01_depth_fs]
+
+[scene 122601]
+
+[pictureFrame]
+[wt 1.0]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_136 1.0]
+
+[charaTalk B]
+[charaFace B 34]
+[charaFadein B 0.1 1]
+＠玛修
+特特洛特[line 3][r]不，哈贝特洛特小姐……！
+[k]
+
+＠玛修
+为何会忘记呢！？[r]对不起，对不起……！
+[k]
+
+＠玛修
+但是，但是我好高兴，好高兴！[r]竟然能再次遇见您……
+[k]
+
+＠玛修
+不对，其实您一直都在我面前，[r]一直都在守护着我吧……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 0]
+[charaFadein H 0.1 1]
+＠H：妖精骑士特特洛特
+是啊，毕竟都约好了嘛。[r]那么，这个就还给玛修啦。
+[k]
+
+＠H：妖精骑士特特洛特
+咱放进了[#纺车:Spinning Wheel]，藏起来了。[r]你完全没发现吧？
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[charaMove H 0,-30 0.6]
+[wt 0.4]
+
+[cueSe SE_21 21_ad1075]
+[seVolume 21_ad1075 0 0.6]
+[wt 1.4]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 21]
+[charaFadein B 0.1 1]
+＠玛修
+连，连[#黑色炮身:Black Barrel]也……！[r]难道当时，您从空中晃晃悠悠地落下就是因为……！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk H]
+[charaFace H 1]
+[charaFadein H 0.1 1]
+＠H：妖精骑士特特洛特
+没错，咱趁贝里尔·伽特在唠唠叨叨的空档，[r]迅速将这收纳起来了！　很厉害吧～！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 1]
+[charaFadein B 0.1 1]
+＠玛修
+是啊！　确实神速！[r]我也完全没有察觉[line 3]
+[k]
+
+[charaFace B 6]
+＠玛修
+……哈贝特洛特小姐？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.4]
+
+[charaDepth V 6]
+[charaDepth B 5]
+
+[se ad951]
+[seVolume ad951 0 0]
+[seVolume ad951 3.0 1.0]
+
+[se ad598]
+[seVolume ad598 0 0.4]
+[charaScale V 1.5]
+[charaFadein V 1.5 -330,-350]
+[wt 1.5]
+[seVolume ad951 3.0 0.5]
+[scene 129200]
+[wt 1.0]
+[charaFadeout V 2.0]
+[wt 3.0]
+
+[scene 129201 0.4]
+[wt 1.2]
+＠妖精骑士特特洛特
+[line 3]因为朝之云雀已经啼鸣。[r]咱的梦就到此结束啦。
+[k]
+
+＠妖精骑士特特洛特
+想做的事情大部分都已做完，[r]最重要的约定也早就实现了。
+[k]
+
+＠妖精骑士特特洛特
+哈贝特洛特要就此退场啦。[r]虽然无法亲眼见证皆大欢喜[line 3]
+[k]
+
+＠妖精骑士特特洛特
+不过，你们办事咱很放心！[r]纪念日肯定会是个好天气吧！
+[k]
+
+[seStop ad951 2.0]
+
+＠玛修
+等一下[line 3]啊。[r]啊啊[line 3]啊，啊……！
+[k]
+
+＠玛修
+是，是因为[line 3]因为我回想起来了吗？[r]是因为我想起了特特洛特小姐吗！？
+[k]
+
+＠玛修
+为什么[line 3]为什么，要这样[line 3][r]我根本没有资格让您为我这么做啊[line 3]！
+[k]
+
+[scene 129200 0.4]
+＠妖精骑士特特洛特
+有哦。资格或价值这类东西[r]对咱来说都无关紧要。
+[k]
+
+＠妖精骑士特特洛特
+咱只希望你能获得幸福。[r]因为，大家都很努力吧？
+[k]
+
+＠妖精骑士特特洛特
+梣、埃克特、赖内克……[r]连格里姆也是个好人。
+[k]
+
+＠妖精骑士特特洛特
+虽说大家都已经不在了，[r]但咱们的旅途依然是一趟很棒的旅途。
+[k]
+
+＠妖精骑士特特洛特
+而且，咱可是新娘的伙伴嘛。[r]自然希望未来的你也能保持笑容。
+[k]
+
+＠玛修
+[line 3]啊[line 3]啊，啊[line 3][r]不要消失[line 3]请不要消失……！
+[k]
+
+＠玛修
+我还给你，我会还给你……！[r]也会想不起哈贝特洛特小姐……！
+[k]
+
+＠玛修
+所以[line 3]请不要消失[line 3]
+[k]
+
+＠玛修
+比任何人……都要努力……[r]哭着，去实现梦想的……
+[k]
+
+＠玛修
+分明是，您啊[line 3]
+[k]
+
+＠妖精骑士特特洛特
+真是的，别再说这种不识趣的话啦。
+[k]
+
+＠妖精骑士特特洛特
+……不过，说得也是。[r]那就请你永远都不要忘记。
+[k]
+
+＠妖精骑士特特洛特
+不要忘记咱，不要忘记梣，[r]也不要忘记，咱们这美丽的不列颠。
+[k]
+
+＠玛修
+[line 6]好的。[r]好的[line 3]…………！
+[k]
+
+[messageOff]
+[cueSe SE_21 21_ad1146]
+[cueSeVolume 21_ad1146 0 0.6]
+[shake 0.05 2 2 3.5]
+[wt 2.7]
+[wt 1.2]
+
+[se ad951]
+[seVolume ad951 0 0]
+[seVolume ad951 3.0 0.5]
+
+＠妖精骑士特特洛特
+哎哟，没时间啦。[r][%1]也正从那边跑过来。
+[k]
+
+＠妖精骑士特特洛特
+请让科尔努诺斯安眠。[r]那家伙多半也很痛苦。
+[k]
+
+＠妖精骑士特特洛特
+这是为你而等待的梦之清算。[r]无论离别有多难受，肯定也包含着闪耀之物。
+[k]
+
+[seStop ad951 2.0]
+
+[scene 129201 0.4]
+＠妖精骑士特特洛特
+好了，抬起头来！
+[k]
+
+＠妖精骑士特特洛特
+请让妖精骑士特特洛特[r]见识一下玛修帅气的一面吧！
+[k]
+
+＠玛修
+[line 3]当然没问题！[r]请看好了，特特洛特小姐！
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_136 1.5]
+
+[wt 0.1]
+
+[scene 122601 1.5]
+
+[charaSet B 8001410 1 玛修]
+[wt 2.0]
+
+
+
+？1：玛修，收下这令咒[line 3]！
+
+？！
+
+[wt 0.7]
+[charaPut T 0,0]
+[masterBranch lblBoy lblGirl]
+[label lblBoy]
+[charaEffect T bit_talk_CommandMantra_07]
+[branch lblBranchEnd]
+[label lblGirl]
+[charaEffect T bit_talk_CommandMantra_10]
+[label lblBranchEnd]
+
+[cueSe Battle bas16]
+[wait charaEffect T]
+[charaPut T 1200,1200]
+[charaEffectStop T]
+
+[wt 0.2]
+
+
+[se ad879]
+[seVolume ad879 0 0.4]
+[se ad896]
+[wt 1.6]
+[seStop ad879 0.3]
+[seStop ad896 0.3]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.7 1]
+[wt 1.4]
+
+[bgm BGM_EVENT_120 0.1]
+
+＠玛修
+是，我不会再逃避了！[r]身为结束了巡礼之旅的骑士[line 3]
+[k]
+
+[charaFace B 2]
+＠玛修
+我将用这份力量，粉碎不列颠的『灾厄』！
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[bgm BGM_EVENT_120 1.0 0.4]
+[wait fade]
+
+[charaFadeout B 0.1]
+
+[scene 10000]
+[wt 1.0]
+
+[fadein black 1.0]
+[bgm BGM_EVENT_120 1.0 1.0]
+[wait fade]
+
+[criMovie talk_mov108 bgmPlay false]
+[wt 28.0]
+[bgmStop BGM_EVENT_120 0.3]
+[wt 5.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 122601]
+[wt 1.0]
+
+
+[fadein black 1.0]
+[wait fade]
+[wt 0.2]
+
+[se ad879]
+
+[charaSet B 1098231510 1 玛修]
+
+[wt 2.0]
+
+[charaTalk B]
+[charaFace B 7]
+[charaFadein B 0.4 1]
+[wt 0.4]
+＠玛修
+确认目标消灭[line 3]！[wt 0.6][charaFace B 1][r]您看到了吗，哈贝特洛[line 3]
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[se ad207]
+
+[charaTalk off]
+[charaDepth B 4]
+[charaDepth L 6]
+
+[charaFadein L 1.5 -375,-350]
+[wt 2.5]
+
+[scene 129202]
+[charaFadeout B 0.1]
+[wt 0.5]
+
+[charaFadeout L 2.0]
+[wt 4.5]
+
+[seStop ad207 1.0]
+＠玛修
+……呜，呜……呜，啊……[r]…………呜，……[line 3]
+[k]
+
+＠玛修
+[line 4]非常，感谢。
+[k]
+
+＠玛修
+妖精骑士特特洛特，纺线的哈贝特洛特。[r]倘若我能成为您的梦想[line 3]
+[k]
+
+＠玛修
+那便是我，最为骄傲的事。
+[k]
+
+＠玛修
+……永别了。[r]但愿您也能获得花朵般的祝福[line 3]
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 1.5]
+[wait fade]
+
+[scene 122603]
+
+[charaSet E 1098181900 1 尼莫水兵]
+[charaSet G 1098158310 1 尼莫]
+
+[charaSet K 9005001 1 福尔摩斯]
+
+[sceneSet V 122900 1 1]
+[charaScale V 1.01]
+[sceneSet W 123301 1 1]
+[charaScale W 1.01]
+
+
+[wt 1.5]
+
+[fadein black 1.5]
+[wait fade]
+[wt 0.5]
+
+[branchMaterial FLAG_ON1]
+[branchRouteSelectCount truthflag1 2 EQUAL 3000910,3000919 2030,2060]
+[branch FLAG_OFF1]
+
+[label truthflag1]
+[branchRouteSelectCount FLAG_ON1 3 ABOVE 3000902,3000903,3000905,3000916,3000919,3001003,3001005 2000,2010,2020,2040,2050,2070,1080]
+[branch FLAG_OFF1]
+
+[label FLAG_ON1]
+
+？1：天空变回原本的黄昏了……
+？2：[FF0000]………………（剩下就是……）[-]
+？！
+
+[branch user_join1]
+[label FLAG_OFF1]
+
+？1：天空变回原本的黄昏了……
+？！
+
+[branch user_join1]
+
+[label user_join1]
+
+[messageOff]
+[wt 0.2]
+
+[charaPut S 1]
+[charaEffect S bit_talk_10_LowLevel]
+[wt 0.1]
+[se ad13]
+[charaTalk G]
+[charaFace G 0]
+[charaFadein G 0.1 1]
+[wt 0.3]
+＠尼莫
+向位于甲板的[%1]、[r]玛修·基列莱特传达现状。
+[k]
+
+＠尼莫
+确认祭神科尔努诺斯消灭。[r]源自『大洞穴』的诅咒喷发停止了。
+[k]
+
+＠尼莫
+原本深不见底的大洞穴底部[r]现在也能清楚地观测了。
+[k]
+
+＠尼莫
+出现在不列颠异闻带的『灾厄』……[r]危害泛人类史的威胁均已被讨伐。
+[k]
+
+＠尼莫
+为了补给，本舰接下来将再度[r]前往西之海岸，并降落在水面。
+[k]
+
+＠尼莫
+待确认完不列颠异闻带的安全后，[r]就立刻启程返回[#新:Novum]·迦勒底。
+[k]
+
+[charaFace G 7]
+
+＠尼莫
+辛苦你们了。暂时都会以低速飞行，[r]你们慢慢回来就行了。
+[k]
+
+[messageOff]
+[se ad1]
+[charaFadeout G 0.1]
+[wt 0.1]
+[charaPut S 1200,1200]
+[charaEffectStop S bit_talk_10_LowLevel]
+[wt 1.5]
+
+[bgm BGM_EVENT_6 1.0 0.4]
+
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+＠贤者格里姆
+[line 3]呼。[r]总算渡过难关啦。
+[k]
+
+＠贤者格里姆
+当伦戈米尼亚德也没能彻底打倒它时，[r]我冷汗都出来了，
+[k]
+
+[charaFace A 3]
+＠贤者格里姆
+结果你们俩居然带着这么不得了的武器！[r]弑神，那可是跟村正抢饭碗的王牌啊！
+[k]
+
+？1：……但是，阿尔托莉雅她……
+？2：……多亏了哈贝特洛特小心翼翼地帮我们保管着……
+
+？！
+
+[charaFace A 4]
+＠贤者格里姆
+……这个嘛，也是呢。[r]这不是一次没有牺牲的胜利。
+[k]
+
+＠贤者格里姆
+全员平安无事地继续往下走，这种情况反而很罕见。[r]基本上都会失去些什么。
+[k]
+
+＠贤者格里姆
+而这次也不例外……
+[k]
+
+[charaFace A 0]
+＠贤者格里姆
+但我认为那两位已经心满意足了哦。[r]她们以最大限度的形式完成了能做的事嘛。
+[k]
+
+＠贤者格里姆
+因为她们坚信你们终将获胜。[r]她们比任何人都想看到你们获胜。
+[k]
+
+＠贤者格里姆
+信赖……不，是友爱吧。[r]既然要铭刻在心，比起悲伤，还是应该优先那边吧。
+[k]
+
+＠贤者格里姆
+你们的战斗并不会在不列颠结束。
+[k]
+
+＠贤者格里姆
+因为之后还有『异星之神』这个真正的目标[r]在等待着嘛。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+＠玛修
+……是的。我对她们两位有道不尽的感谢。[r]对您也一样，贤者格里姆。
+[k]
+
+[charaFace B 21]
+＠玛修
+刚才在战斗中不方便问您……[r]请问您的眼睛还好吗！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+＠贤者格里姆
+噢，这算是神话性质的表演吧！[r]弄瞎一只眼睛的话，魔术本领就能愈发高超啦！
+[k]
+
+[messageOff]
+[charaPut T 1]
+[charaEffect T bit_talk_06]
+[wt 1.5]
+
+？1：格里姆，你的身体……
+？2：这样啊……因为使命已经完成了……
+
+？！
+
+[charaFace A 0]
+＠贤者格里姆
+看来是这样。
+[k]
+
+＠贤者格里姆
+『智慧之神』硬塞给我的使命，[r]就是把『圣剑』赐予迦勒底。
+[k]
+
+＠贤者格里姆
+作为凯尔特出身的英灵，[r]我也见证了科尔努诺斯的逝去。
+[k]
+
+＠贤者格里姆
+我在这异闻带中的战斗到此结束了。
+[k]
+
+＠贤者格里姆
+作为唯一来自泛人类史的帮手，[r]姑且算是保住了颜面。
+[k]
+
+[branchMaterial FLAG_ON2]
+[branchRouteSelectCount truthflag2 2 EQUAL 3000910,3000919 2030,2060]
+[branch FLAG_OFF2]
+
+[label truthflag2]
+[branchRouteSelectCount FLAG_ON2 3 ABOVE 3000902,3000903,3000905,3000916,3000919,3001003,3001005 2000,2010,2020,2040,2050,2070,1080]
+[branch FLAG_OFF2]
+
+[label FLAG_ON2]
+
+？1：？
+？2：[FF0000]（……泛人类史，唯一的……）[-]
+
+？！
+
+[branch user_join2]
+[label FLAG_OFF2]
+
+？1：？
+
+？！
+
+[branch user_join2]
+
+[label user_join2]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+[charaPut T 2000,2500]
+
+[charaTalk B]
+[charaFace B 13]
+[charaFadein B 0.1 1]
+＠玛修
+……非常感谢。[r]不过接下来会怎么样呢？
+[k]
+
+＠玛修
+库·丘林先生会作为Caster被记录在迦勒底吗？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaPut T 1]
+[charaTalk A]
+[charaFace A 2]
+[charaFadein A 0.1 1]
+＠贤者格里姆
+格里姆！　是格里姆啦！[r]既然知道了内情，麻烦今后叫我格里姆！
+[k]
+
+[charaFace A 0]
+＠贤者格里姆
+……不过，我确实欠你们一份人情。[r]不只是我，连『智慧之神』也这样说哦。
+[k]
+
+＠贤者格里姆
+等返回座之后，如果这灵基还能被允许存在的话，[r]我就会作为[#魔术师:Caster]去你们那边。
+[k]
+
+＠贤者格里姆
+届时还请多关照啦！[r][line 3]虽然感觉还会跟你们打一次照面！
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[se ad52]
+[charaSpecialEffect A flashErasure 1 2.0]
+[wait charaSpecialEffect A]
+[charaEffectStop T bit_talk_06]
+[wt 1.5]
+
+[charaPut T 2000,2500]
+
+[branchMaterial FLAG_ON3]
+[branchRouteSelectCount truthflag3 2 EQUAL 3000910,3000919 2030,2060]
+[branch FLAG_OFF3]
+
+[label truthflag3]
+[branchRouteSelectCount FLAG_ON3 3 ABOVE 3000902,3000903,3000905,3000916,3000919,3001003,3001005 2000,2010,2020,2040,2050,2070,1080]
+[branch FLAG_OFF3]
+
+[label FLAG_ON3]
+
+？1：格里姆也走了呢……
+？2：[FF0000]……剩下就是……[-]
+
+？！
+
+[branch user_join3]
+[label FLAG_OFF3]
+
+
+？1：格里姆也走了呢……
+？！
+
+[branch user_join3]
+
+[label user_join3]
+
+
+[charaTalk B]
+[charaFace B 4]
+[charaFadein B 0.1 1]
+＠玛修
+……我们也将离开这异闻带……[r]不，是离开这异闻世界……
+[k]
+
+＠玛修
+『灾厄』对岛屿造成了毁灭性的打击。
+[k]
+
+＠玛修
+幸存下来的人们恐怕少之又少。[r]即便如此，也不代表他们就灭亡了。
+[k]
+
+＠玛修
+真希望至少见证了不列颠的复兴后，[r]再返回迦勒底……
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_6 1.5]
+[wipeout rectangleStripDownToUp 0.7 1.0]
+[wait wipe]
+
+[sceneSet A 122900 1]
+
+[imageSet V cut274_ins1 1 1]
+[charaScale V 2.0]
+[imageSet W cut274_ins2 1 1]
+[charaScale W 2.0]
+[imageSet X cut274_ins3 1 1]
+[charaScale X 2.0]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+[scene 132902]
+[wt 0.5]
+
+[wipein rectangleStripUpToDown 0.7 1.0]
+[wait wipe]
+
+[charaTalk J]
+[charaFace J 23]
+[charaFadein J 0.1 1]
+＠达·芬奇
+嗯，说得对……咦，奇怪？[r]诅咒与火焰确实都消失了……
+[k]
+
+＠达·芬奇
+但岛屿土地的流出却没有停止……[r]不对，这反而[line 3]
+[k]
+
+[charaFadeout J 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadein E 0.1 1]
+
+＠尼莫水兵
+通知，通知[line 3]！[r]确认不列颠岛全境出现重力变动！
+[k]
+
+[messageOff]
+[se ade393]
+[seVolume ade393 0 0]
+[seVolume ade393 1.0 0.8]
+[charaScale A 1.8]
+[charaFadeout E 1.0]
+[charaFadein A 1.0 540,-440]
+[wt 1.5]
+[bgm BGM_EVENT_72 0.1]
+
+＠尼莫水兵
+应该没有能产生重力的力量在运作才对，[r]可是地面，大地却飘起来了[line 3]
+[k]
+
+＠尼莫水兵
+简直就像坠落！　这是什么，莫名其妙！[r][#所有东西都在下坠]！
+[k]
+
+＠尼莫水兵
+观测透镜·示巴发出第一级危险观测！
+[k]
+
+＠尼莫水兵
+虽然原因不明，但是再这样下去的话，[r]1小时后地球就糟了！
+[k]
+
+＠尼莫水兵
+是“崩落”！[r]崩落现象开始了！
+[k]
+
+[messageOff]
+[seStop ade393 1.0]
+[charaFadeout A 0.6]
+[wt 0.8]
+
+
+[charaTalk off]
+
+[charaFace J 22]
+[charaFadeinFSR J 0.1 2]
+
+[charaFace K 5]
+[charaFadeinFSL K 0.1 0]
+
+＠福尔摩斯＆达·芬奇
+！
+[k]
+
+[messageOff]
+[charaFadeout J 1.0]
+[charaFadeout K 1.0]
+[scene 122603 1.0]
+[wt 1.5]
+
+[branchMaterial FLAG_ON4]
+[branchRouteSelectCount truthflag4 2 EQUAL 3000910,3000919 2030,2060]
+[branch FLAG_OFF4]
+
+[label truthflag4]
+[branchRouteSelectCount FLAG_ON4 3 ABOVE 3000902,3000903,3000905,3000916,3000919,3001003,3001005 2000,2010,2020,2040,2050,2070,1080]
+[branch FLAG_OFF4]
+
+[label FLAG_ON4]
+
+？1：怎么回事！？
+？2：[FF0000]…………[-]
+
+？！
+
+
+[branch user_join4]
+[label FLAG_OFF4]
+
+？1：怎么回事！？
+？！
+
+
+[branch user_join4]
+
+[label user_join4]
+
+[charaTalk on]
+[charaTalk B]
+[charaFace B 2]
+[charaFadein B 0.1 1]
+＠玛修
+『灾厄』全都被祓除了啊！[r]已经没有威胁不列颠的东西了啊！
+[k]
+
+＠玛修
+然而崩落为何会开始！？[r]哪儿都找不到可能构成威胁的敌人身影啊！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[bgmStop BGM_EVENT_72 1.5]
+
+＠？？？
+当然有啦。你们从一开始就能看到，[r]只是没有认识到而已。
+[k]
+
+＠？？？
+还记得伦蒂尼恩的壁画吗？
+[k]
+
+＠？？？
+那幅壁画表现了科尔努诺斯的巫女[r]即将被肢解时留下的『毁灭的预言』。
+[k]
+
+＠？？？
+“世界的面貌越是崭新，根基越是古旧，[r][f small]  [f -]于是在无人所知的情况下，就像这样。”
+[k]
+
+＠？？？
+“被微不足道的小虫轻轻一咬，[r][f small]  [f -]便会轰然崩塌。”
+[k]
+
+＠？？？
+那描述的并不是不列颠的未来。
+[k]
+
+＠？？？
+无论多么牢固的人类史，[r]只要根基遭到啃咬，便会如你们所见，
+[k]
+
+＠？？？
+连同这颗星球，一并消失无踪。
+[k]
+
+[messageOff]
+[wt 0.2]
+
+[charaTalk M]
+[charaFace M 1]
+[charaFadein M 0.7 1]
+[wt 1.6]
+
+[branchMaterial FLAG_ON5]
+[branchRouteSelectCount truthflag5 2 EQUAL 3000910,3000919 2030,2060]
+[branch FLAG_OFF5]
+
+[label truthflag5]
+[branchRouteSelectCount FLAG_ON5 3 ABOVE 3000902,3000903,3000905,3000916,3000919,3001003,3001005 2000,2010,2020,2040,2050,2070,1080]
+[branch FLAG_OFF5]
+
+[label FLAG_ON5]
+
+？1：奥伯龙！？
+
+[bgm BGM_EVENT_129 0.1]
+
+
+？2：[FF0000]……果然……是这样啊。[-]
+
+[bgm BGM_EVENT_129 0.1]
+
+[charaFace M 3]
+＠？？？
+咦。[r]你已经发现了吗，[%1]？
+[k]
+
+＠？？？
+真头疼。这样一来，特地看准时机[r]登场不就显得很丢脸了吗……
+[k]
+
+[charaFace M 10]
+＠？？？
+算了，那又如何呢。[r]反正原本就没有瞒着你啦。
+[k]
+
+[charaFace M 1]
+＠？？？
+毕竟你是无关紧要的棋子中，[r]最为无关紧要的棋子嘛。
+[k]
+
+？！
+
+[branch user_join5]
+[label FLAG_OFF5]
+
+？1：奥伯龙！？
+
+[bgm BGM_EVENT_129 0.1]
+
+？！
+
+[branch user_join5]
+
+[label user_join5]
+
+[messageOff]
+[charaFadeout M 0.1]
+[wt 0.2]
+
+[charaFadein R 0.4 0,-200]
+[wt 2.0]
+
+[charaFadeout R 0.2]
+[wt 0.4]
+
+[charaTalk M]
+[charaFace M 4]
+[charaFadein M 0.1 1]
+＠？？？
+咦？　怎么了，布兰卡。[r]你那漂亮的触角怎么完全不动了。
+[k]
+
+＠？？？
+哦哦，你死了吗。[r]难道说，是被摩耳斯的黑斑……
+[k]
+
+＠？？？
+你代我承受了整个不列颠冲我而来的毒吗？
+[k]
+
+＠？？？
+谢谢你。[r]不过，这也无关紧要啦。
+[k]
+
+[messageOff]
+[wt 0.1]
+
+[cueSe Battle bac23]
+[charaMoveReturn M -6,0 0.2]
+[wt 1.2]
+
+[charaFadeout M 1.0]
+[scene 132902 1.0]
+[wt 1.5]
+
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadein K 0.1 1]
+＠福尔摩斯
+[line 3]奥伯龙。[r]他就是奥伯龙？
+[k]
+
+＠福尔摩斯
+不，他确实散发着妖精王那种氛围……[r]不过究竟是怎么回事，达·芬奇。
+[k]
+
+＠福尔摩斯
+根据你的报告，奥伯龙是当地的协助者……[r]是被土地召唤的泛人类史方的从者。
+[k]
+
+＠福尔摩斯
+然而他的灵基并不属于泛人类史。
+[k]
+
+＠福尔摩斯
+不，既非人类亦非妖精，[r]根本不存在符合的生命体！
+[k]
+
+[charaFace K 4]
+＠福尔摩斯
+那个[line 3]真的是妖精王奥伯龙吗？
+[k]
+
+[charaFadeout K 0.1]
+[wt 0.1]
+
+[charaTalk J]
+[charaFace J 34]
+[charaFadein J 0.1 1]
+＠达·芬奇
+什么是不是真的啊，这我已经确认过好几[line 3]
+[k]
+
+[charaFace J 21]
+＠达·芬奇
+！[messageShake 0.04 4 3 0.3]？　[wt 0.5]潜航艇的雷达无法探测到魔力反应！？[r]不，能探测到，虽说探测到了……
+[k]
+
+＠达·芬奇
+所有的数据都不吻合！[r]灵基正以秒为单位发生变动！
+[k]
+
+＠达·芬奇
+[#灵基情报根本没有可信度]！
+[k]
+
+＠达·芬奇
+这简直就跟身在此处又不在此处的透明人[r]没什么两样啊！？
+[k]
+
+[messageOff]
+[charaFadeout J 1.0]
+[scene 122603 1.0]
+[wt 1.5]
+
+[charaTalk B]
+[charaFace B 15]
+[charaFadein B 0.1 1]
+＠玛修
+那，那么那位[line 3][r]究竟是谁啊？
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk M]
+[charaFace M 1]
+[charaFadein M 0.1 1]
+＠？？？
+[line 6]。
+[k]
+
+[messageOff]
+[charaFadeout M 1.0]
+[scene 132902 1.0]
+[wt 1.5]
+
+[charaTalk E]
+[charaFace E 2]
+[charaFadeinFSR E 0.1 2]
+＠尼莫水兵
+！　确认不列颠岛北部出现巨大异空间！[r]骗人骗人骗人，那是什么时候冒出来的！？
+[k]
+
+[charaTalk K]
+[charaFace K 5]
+[charaFadeinFSL K 0.1 0]
+＠福尔摩斯
+抱歉，光说异空间也听不明白！[r]麻烦描述得具体一点！
+[k]
+
+[charaFace E 6]
+
+＠尼莫水兵
+那个，那个，总之就是有某种奇怪的东西！[r]那是什么……生……物？
+[k]
+
+＠尼莫水兵
+无法说明，重复一遍，[r]我们无法说明！
+[k]
+
+[charaFace E 2]
+＠尼莫水兵
+在地球上压根没有见过那种生物！
+[k]
+
+[charaFace E 7]
+＠尼莫水兵
+我们投射了探测波，[r]结果没有返回任何反应～（泪）！
+[k]
+
+＠尼莫水兵
+不过不太妙啊，示巴漆黑一片！[r]或许难以置信，但我们[#已经完蛋了]！
+[k]
+
+＠尼莫水兵
+『无法返回』『永世未抵达』『目前正无限航海中』，[r]还有这样的状态报告！？
+[k]
+
+＠尼莫水兵
+船长，好可怕，感觉好可怕！[r]我们是不是沉船了啊！？
+[k]
+
+[bgmStop BGM_EVENT_129 2.0]
+
+[charaFace K 4]
+＠福尔摩斯
+不列颠北部确实存在[r]只能描述为空间之洞的某种东西在流动……
+[k]
+
+＠福尔摩斯
+无法在显示器上看到吗。
+[k]
+
+[charaFace K 2]
+＠福尔摩斯
+[&Mr.:Miss][%1]！[r]从甲板上能用肉眼确认吗！？
+[k]
+
+[messageOff]
+[charaFadeout K 1.0]
+[charaFadeout E 1.0]
+[scene 122603 1.0]
+
+[wt 1.5]
+
+？1：嗯……
+？2：从刚才起就能看到……
+
+？！
+
+[messageOff]
+[se ade393]
+[seVolume ade393 0 0]
+[se ad294]
+[seVolume ad294 0 0]
+[seVolume ade393 2.0 0.6]
+[seVolume ad294 2.0 0.2]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 0.4]
+[charaFadein V 0.1 250,-700]
+
+[charaMoveScale V 2.1 1.8]
+
+
+[fadein black 0.5]
+[wait fade]
+[wt 0.3]
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout V 0.1]
+[wt 0.3]
+
+[charaFadein W 0.1 250,-700]
+
+[charaMoveScale W 2.1 1.8]
+[charaMove W 250,-720 1.8]
+
+[fadein black 0.5]
+[wait fade]
+[wt 0.3]
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout W 0.1]
+[wt 0.3]
+
+[charaFadein X 0.1 250,-700]
+
+[charaMoveScale X 2.1 1.8]
+[charaMove X 250,-720 1.8]
+
+[fadein black 0.5]
+[wait fade]
+[wt 0.3]
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout X 0.1]
+[wt 0.6]
+
+[cameraMove 0.1 0,0 1.1]
+[wt 0.1]
+
+[scene 124300]
+
+[cameraMove 4.5 0,0 1.01]
+[fadein black 2.5]
+[wait fade]
+[wt 4.5]
+
+[bgm BGM_EVENT_79 0.1]
+＠玛修
+[line 6]御主。[r]那是什么啊。
+[k]
+
+＠玛修
+黑雾般的东西将地面吸起来了……[r]不，那是在，吞食，岛屿。
+[k]
+
+＠玛修
+那是[line 3][r]那骇人的生物究竟是……！
+[k]
+
+[messageOff]
+[seStop ade393 3.0]
+[seStop ad294 3.0]
+
+？1：那大概是[line 3]
+
+？！
+
+[wt 0.3]
+
+？1：[line 3]虫子。
+
+？！
+
+[messageOff]
+[wt 0.1]
+
+[scene 122603 1.5]
+[wt 1.9]
+
+＠？？？
+没错，是[#一只虫子]。
+[k]
+
+＠？？？
+不过正如你们所见，是概念上的虫子。[r]是毁灭不列颠，颠覆星球的无限之洞。
+[k]
+
+＠？？？
+总之，当作没有尽头的空洞就行了。
+[k]
+
+[charaTalk M]
+[charaFace M 4]
+[charaFadein M 0.1 1]
+
+＠？？？
+同时，那也是我本身。
+[k]
+
+[charaFace M 10]
+
+＠？？？
+虽然不知道哪个是本体，[r]哪个是影子就是了。
+[k]
+
+[branchMaterial FLAG_ON6]
+[branchRouteSelectCount truthflag6 2 EQUAL 3000910,3000919 2030,2060]
+[branch FLAG_OFF6]
+
+[label truthflag6]
+[branchRouteSelectCount FLAG_ON6 3 ABOVE 3000902,3000903,3000905,3000916,3000919,3001003,3001005 2000,2010,2020,2040,2050,2070,1080]
+[branch FLAG_OFF6]
+
+[label FLAG_ON6]
+
+？1：你到底[line 3]是什么人！
+？2：[FF0000]揭晓真名吧，奥伯龙。[-]
+
+？！
+
+[branch user_join6]
+[label FLAG_OFF6]
+
+？1：你到底[line 3]是什么人！
+
+？！
+
+[branch user_join6]
+
+[label user_join6]
+
+[charaFace M 1]
+＠？？？
+[line 6]嗯。[r]既然是你的请求，那我就告诉你吧。
+[k]
+
+[messageOff]
+[wt 0.1]
+[bgmStop BGM_EVENT_79 3.0]
+
+
+[charaTalk off]
+[charaDepth M 5]
+[charaDepth S 6]
+[charaDepth T 7]
+
+[se ad644]
+[seVolume ad644 0 0.4]
+[cueSe SE_21 21_ad1112]
+[cueSe SE_21 21_ad1084]
+[seVolume 21_ad1084 0 0.2]
+[cueSe SE_21 21_ad1082]
+[seVolume 21_ad1082 0 0.2]
+[charaPut S 1]
+[charaEffect S bit_talk_black_insect02]
+[wt 3.5]
+[se ad644]
+[seVolume ad644 0 0.4]
+[wt 1.5]
+
+[cueSe SE_21 21_ad1113]
+[cueSe SE_21 21_ad1083]
+[seVolume 21_ad1083 0 0.4]
+[wt 3.5]
+[se ad644]
+[seVolume ad644 0 0.4]
+
+
+[fadeout black 1.0]
+[wait fade]
+
+[scene 124200]
+
+[charaFadeout M 0.1]
+
+[cueSeStop 21_ad1112 3.0]
+[cueSeStop 21_ad1082 3.0]
+[charaEffectStop S bit_talk_black_insect02]
+
+[imageSet A cut275_obr1 1]
+[imageSet V cut275_obr2 1]
+[imageSet W cut275_obr3 1]
+[charaScale A 2.0]
+[charaScale V 2.0]
+[charaScale W 2.3]
+[charaFadein A 0.1 290,-700]
+
+[wt 6.5]
+
+
+
+[charaEffectDestroy S bit_talk_black_insect02]
+
+[fadein black 1.0]
+[charaMove A 150,-700 4.0]
+[wait fade]
+[bgm BGM_EVENT_129 0.1]
+
+[wt 2.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadein V 0.1 150,-700]
+[wt 0.1]
+
+[fadein black 1.0]
+[charaMove V 290,-700 4.0]
+[wait fade]
+
+[wt 2.0]
+
+[fadeout black 1.0]
+[wait fade]
+[charaFadeout V 0.1]
+[charaFadein W 0.1 440,-600]
+
+[wt 0.1]
+
+[fadein black 1.0]
+[charaMove W 490,-850 6.0]
+[wait fade]
+
+[wt 4.0]
+
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout W 0.1]
+[wt 1.0]
+
+[imageSet A cut275_obr4 1]
+[charaScale A 2.0]
+
+[fadein black 3.0]
+[wait fade]
+
+[charaTalk on]
+＠玛修
+……前辈。奥伯龙先生的样貌……[r]不，连灵基的形态也[line 3]
+[k]
+
+
+＠？？？
+真是的，妖精们真是无可救药呢。
+[k]
+
+＠？？？
+在因自己的过失而消失的土地上，[r]杀害神明，创造小岛。
+[k]
+
+＠？？？
+而且还不满足于此，[r]竟又拿尸体填平海洋，创造大地。
+[k]
+
+＠？？？
+这种厚颜无耻，为求活命不择手段的模样真令人作呕。[r]对吧，[%1]？
+[k]
+
+＠？？？
+连身为人类的你应该也难以苟同吧。
+[k]
+
+＠？？？
+在化为乌有的原本的不列颠岛看来，[r]更是恶心得难以忍受。
+[k]
+
+＠？？？
+恶心到不惜散播『灾厄』，[r]也想根绝他们。
+[k]
+
+？1：奥伯龙[line 3]
+
+？！
+
+[messageOff]
+[charaFadein A 1.0 320,-700]
+[charaMove A 0,-700 40.0]
+[wt 2.0]
+
+＠？？？
+只不过，科尔努诺斯就另当别论了。[r]人不可貌相，他其实是个妖精拥护派。
+[k]
+
+＠？？？
+只要那家伙一日不消失，[r][907ca1][#我][-]就永远无法来地表。
+[k]
+
+＠？？？
+被摩根作为妖精国“前提”的，[r]并不是打倒科尔努诺斯，而是封印他。
+[k]
+
+＠？？？
+事实上，真令人头疼呢。[r]因为[907ca1]我[-]并没有打倒摩根的手段。
+[k]
+
+＠？？？
+所以才会等待。等待有实力打倒摩根的人类，
+[k]
+
+＠？？？
+等待揭开科尔努诺斯的盖子，[r]还能打败他的家伙。
+[k]
+
+＠？？？
+『预言之子』的预言可谓顺水推舟。[r]甚至令人觉得事情有趣起来了。
+[k]
+
+＠？？？
+所以啦，就稍微帮了点忙。
+[k]
+
+＠？？？
+为了让『预言之子』能踏上旅程，[r]为了让『巡礼之旅』能获得成功。
+[k]
+
+＠？？？
+[line 3]以及像这样，[r]为了让你们亲手毁掉一切。
+[k]
+
+？1：报上名来，奥伯龙！
+
+？！
+
+
+＠？？？
+当然可以。
+[k]
+
+[messageOff]
+[bgmStop BGM_EVENT_129 1.0]
+[fadeout black 1.0]
+[wait fade]
+
+[wt 0.1]
+
+[sceneSet A 124201 1]
+[charaScale A 2.0]
+[imageSet V cut270_obr 1]
+[charaScale V 2.0]
+[imageSet W cut270_obr 1]
+[charaScale W 1.6]
+[sceneSet X 124201 1]
+[charaScale X 2.0]
+
+[charaDepth X 1]
+[charaDepth A 2]
+[charaDepth V 3]
+[charaDepth W 4]
+
+[charaFadein A 0.1 300,-400]
+[charaFadein V 0.1 -100,-330]
+
+[wt 1.0]
+
+
+[fadein black 1.0]
+[charaMove A 360,-400 6.0]
+[charaMove V 0,-330 6.0]
+[bgm BGM_BATTLE_135 0.1]
+[wait fade]
+
+
+＠？？？
+[907ca1]我[-]是藉由你们泛人类史创造出来的空想，[r]藉由妖精王奥伯龙的形体获得这容貌的存在。
+[k]
+
+[messageOff]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout A 0.1]
+[charaFadeout V 0.1]
+[wt 0.1]
+
+[charaFadein X 0.1 -400,-100]
+[charaFadein W 0.1 -30,550]
+[wt 1.0]
+
+[fadein black 1.0]
+[charaMove X -400,-60 6.0]
+[charaMove W -30,620 6.0]
+[wait fade]
+
+＠？？？
+是随着神秘时代的终结，[r]渴望自身破灭的不列颠岛意志的具现。
+[k]
+
+[messageOff]
+[wt 0.1]
+
+
+[cueSe SE_21 21_ad1082]
+[cueSeVolume 21_ad1082 0 0]
+[se ad1052]
+[seVolume ad1052 0 0]
+[se ad556]
+[seVolume ad556 0 0]
+[charaPut T 1]
+[charaEffect T bit_talk_strongwind01_bk]
+[wt 0.1]
+
+[cueSeVolume 21_ad1082 0.8 0.6]
+[seVolume ad1052 0.8 1.0]
+[seVolume ad556 0.8 1.0]
+[wt 1.5]
+
+[fadeout black 2.0]
+[wait fade]
+
+
+[scene 122603]
+
+[charaSet M 1098209680 1 奥伯龙·伏提庚]
+[wt 1.0]
+
+[charaFadeout X 0.1]
+[charaFadeout W 0.1]
+
+[charaPut S 2000,2500]
+[charaEffectStop S bit_talk_black_insect03]
+
+[cueSeStop 21_ad1082 2.0]
+[seStop ad1052 2.0]
+[seStop ad556 2.0]
+[wt 0.5]
+[charaEffectStop T bit_talk_strongwind01_bk]
+
+[fadein black 1.0]
+[wait fade]
+
+[wt 2.5]
+
+
+[charaTalk M]
+[charaFace M 3]
+[charaFadein M 0.7 1]
+[wt 1.6]
+
+
+＠？？？
+[line 3]名为伏提庚。
+[k]
+
+＠？？？
+奥伯龙·伏提庚。
+[k]
+
+＠奥伯龙·伏提庚
+是与你们一同毁灭了妖精国不列颠的，[r]『奈落之虫』哦。
+[k]
+
+[messageOff]
+[wt 1.0]
+
+[fadeout black 2.0]
+[bgmStop BGM_BATTLE_135 2.0]
+[wait fade]
+
+[charaFadeout M 0.1]
+[charaPut T 2000,2500]
+[scene 10000]
+[wt 0.2]
+
+[fadein black 0.1]
+[wait fade]
+
+[skip false]
+[wt 1.0]
+
+[input selectBranch]
+
+[messageOff]
+[skip false]
+
+[charaSet A 98115000 1 特效用]
+[charaSet B 98115000 1 特效用]
+[charaSet C 98115000 1 特效用]
+[charaSet D 98115000 1 特效用]
+[charaSet E 98115000 1 特效用]
+[charaSet F 98115000 1 特效用]
+[charaSet G 98115000 1 特效用]
+[charaSet H 98115000 1 特效用]
+[charaSet I 98115000 1 特效用]
+[charaSet J 98115000 1 特效用]
+[charaSet K 98115000 1 特效用]
+[charaSet L 98115000 1 特效用]
+[charaSet M 98115000 1 特效用]
+[charaSet N 98115000 1 特效用]
+[charaSet O 98115000 1 特效用]
+[charaSet P 98115000 1 特效用]
+[charaSet Q 98115000 1 特效用]
+[charaSet R 98115000 1 特效用]
+[charaSet S 98115000 1 特效用]
+[charaSet T 98115000 1 特效用]
+[charaSet U 98115000 1 特效用]
+[charaSet V 98115000 1 特效用]
+[charaSet W 98115000 1 特效用]
+[charaSet X 98115000 1 特效用]
+[charaSet Y 98115000 1 特效用]
+[charaSet Z 98115000 1 特效用]
+
+[soundStopAllFade 0.4]
+
+[scene 10000]
+[wt 0.4]
+[soundStopAll]
+[maskin black 1]
+[wait mask]
+[label selectBranch]
+
+[wt 1.0]
+[criMovie talk_mov109 bgmPlay true]
+
+[wt 1.0]
+[soundStopAll]
+[end]

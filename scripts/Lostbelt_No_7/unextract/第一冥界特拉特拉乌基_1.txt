@@ -1,0 +1,872 @@
+
+
+＄03-00-13-03-1-0
+
+
+
+
+[enableFullScreen]
+[soundStopAll]
+
+[charaSet A 1098231510 1 玛修]
+[charaSet B 1098253200 1 U－奥尔加玛丽]
+[charaSet C 1098252940 1 特佩乌]
+[charaSet D 1098254800 1 尼莫水兵]
+[charaSet E 1098255200 1 哈贝特洛特]
+
+[imageSet F cut400_dog 1]
+
+[sceneSet G 10000 1]
+[charaScale G 1.05]
+[sceneSet H 169100 1]
+[charaScale H 1.2]
+[sceneSet I 171900 1]
+[charaScale I 1.3]
+[sceneSet J 171900 1]
+[charaScale J 1.1]
+
+[scene 169100]
+[charaFadein H 0.1 70,-200]
+[wt 0.1]
+[charaMove H -70,-200 15.0]
+
+[se ad510]
+[seVolume ad510 0 0.1]
+[seVolume ad510 1.5 1.0]
+
+[cueSe SE_22 22_ad1170]
+[seVolume 22_ad1170 0 0]
+[seVolume 22_ad1170 1.5 0.1]
+
+[fadein black 1.5]
+[wait fade]
+
+[bgm BGM_EVENT_147 0.1]
+
+[cueSe SE_21 21_ade649]
+[seVolume 21_ade649 0 0.1]
+[wt 3.0]
+
+[charaFadeout H 1.5]
+[seStop ad510 1.5]
+[seStop 22_ad1170 1.5]
+[seStop 21_ade649 1.5]
+[wt 2.0]
+
+[charaTalk B]
+[charaFace B 0]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+所以呢，特佩乌！[r]『冥界线』究竟是什么啊！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 6]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+『冥界线』是米克特兰中的异常地带。[r]是磁场扭曲强烈，迈雅的恩惠无法遍及之处。
+[k]
+
+＠特佩乌
+我用的虽然是磁场这个词，[r]但准确地说应该是次元的扭曲吧。
+[k]
+
+＠特佩乌
+过去是失智迪诺斯的徘徊之地，[r]但特斯卡特利波卡到来以后，
+[k]
+
+＠特佩乌
+所谓的冥界，就成了死者为迎接『完全的死亡』[r]而不得不突破的试炼之地。
+[k]
+
+＠特佩乌
+只要各位的精神状态[line 3]
+[k]
+
+＠特佩乌
+没有『已经克服了这场试练』的认知，[r]『冥界线』就会成为难以突破的魔境。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+原来如此。只要能突破一次，[r]就算是『已经克服了试练』，就不再构成威胁了，
+[k]
+
+[charaFace A 0]
+
+＠玛修
+但对我们来说是初次来到的场所，[r]所以冥界线会很难对付，对吧。
+[k]
+
+＠玛修
+因此也就有了理所当然的疑问，[r]特佩乌先生已经突破了吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+嗯，毕竟第一冥界是相对比较温柔的试炼。[r]我已经突破到第三冥界了。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+
+＠玛修
+话说您昨晚说过，[r]第一冥界有一只巨大的鬣蜥……
+[k]
+
+＠玛修
+它的名称该不会是『[#索奇托纳尔:Xochitonal]』吧？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaSet C 1098252900 1 特佩乌]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+哎呀。你知道啊，玛修。[r]泛人类史也有同样的冥界吗？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 0]
+[charaFadein A 0.1 1]
+
+＠玛修
+是的，在泛人类史，米克特兰这个名称[r]就是指阿兹特克神话中的地下冥界。
+[k]
+
+＠玛修
+阿兹特克神话的世界[r]存在着『天上』『地表』『地底』，
+[k]
+
+＠玛修
+诸神世界的十三层天上世界、[r]人类居住的地表世界，
+[k]
+
+＠玛修
+以及于地底展开的九层地下冥界，[r]这地下冥界就叫做米克特兰。
+[k]
+
+＠玛修
+并非『战死』而是『自然死亡』的人类[r]会下到由九层构成的[#地下冥界:米克特兰]，
+[k]
+
+＠玛修
+克服各式各样的试炼，在最底层奇科纳瓦洛扬[r]直面自己的人生，然后其灵魂回归自然。
+[k]
+
+[charaFace A 1]
+
+＠玛修
+虽然阿兹特克文明有活祭、奴隶、永不间断的战争，[r]这种放在人类史中亦算残酷的世界构造，
+[k]
+
+＠玛修
+但位于其根源的是与自然和谐共处，[r]以及对诸神[line 3]世界的感谢。
+[k]
+
+＠玛修
+虽然这边的米克特兰没有诞生对诸神的信仰，
+[k]
+
+＠玛修
+不过根据重视与自然和谐相处这点来看，[r]可以推测根源是相同的。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+原来如此，泛人类史的米克特兰。[r]所以，你们那边也存在[#索奇托纳尔:Xochitonal]吧？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+是的。地下第一层伊兹昆特兰。[r]据说在那宽阔的大河，阿帕诺瓦卡尔维亚河的领域，
+[k]
+
+＠玛修
+死者会得到无毛狗的帮助，[r]必须边小心不让巨大鬣蜥[#索奇托纳尔:Xochitonal]吃掉，
+[k]
+
+＠玛修
+边渡河才行。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+狗。狗是什么？
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 2]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+一种帅气的动物！　口头很难解释清楚，[r]待会我画给你看吧！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+谢谢你，水兵。[r]不过我猜，
+[k]
+
+[messageOff]
+[cueSe SE_21 22_ade781]
+[charaFadeout C 0.2]
+[wt 1.0]
+[seStop 22_ade781 1.0]
+[wt 0.5]
+[se ade277]
+
+[charaFadein F 0.5 0,-200]
+[wt 1.5]
+
+＠特佩乌
+该不会是这种动物吧？
+[k]
+
+[messageOff]
+[charaFadeout F 0.5]
+[wt 0.5]
+
+[charaTalk D]
+[charaFace D 11]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+唔哎，为什么你会知道！？[r]而且素描画得好棒啊！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 13]
+[charaFadein A 0.1 1]
+
+＠玛修
+惊人的想象力……不，是研究能力。[r]特佩乌先生已经能算泛人类史学家了呢。
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 1]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+嗯，我希望尽可能多去学习。
+[k]
+
+＠特佩乌
+你们的历史非常可怕，[r]但同时也非常有魅力。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+唔～，泛人类史的米克特兰，[r]以及这里异闻带的米克特兰啊……
+[k]
+
+＠U－奥尔加玛丽
+泛人类史的人类住在地表，[r]而迪诺斯们则住在地底……
+[k]
+
+[charaFace B 24]
+＠U－奥尔加玛丽
+这是为何？[r][#恐龙人:你们]又不全都是死者吧。
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaSet C 1098252940 1 特佩乌]
+
+[charaTalk C]
+[charaFace C 0]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+因为我们世界的地表已经[r]不是生物所能居住的环境了吧。
+[k]
+
+＠特佩乌
+在很久很久，很久的过去，[r]地表被从宇宙飞来的陨石烧成灰烬。
+[k]
+
+＠特佩乌
+我们只得逃往地底，[r]在迈雅创造的这米克特兰繁衍生息。
+[k]
+
+＠特佩乌
+作为无法回到至今仍在燃烧的地表，[r]只能生活在地底世界的[#人类:人]。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 20]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+……至今仍在燃烧……？
+[k]
+
+＠U－奥尔加玛丽
+就算陨石冲撞导致整个地表都被热风席卷熊熊燃烧，[r]数万年也就能恢复了吧？
+[k]
+
+＠U－奥尔加玛丽
+这颗[#行星:星球]那么没有干劲吗……？
+[k]
+
+[charaFace B 13]
+
+＠U－奥尔加玛丽
+也罢，不深究细枝末节了。[r]重要的是[line 3]
+[k]
+
+[charaFace B 0]
+
+＠U－奥尔加玛丽
+我问你，特佩乌。[r]当然[%1]你们也可以回答。
+[k]
+
+[bgmStop BGM_EVENT_147 1.5]
+
+＠U－奥尔加玛丽
+你们知道『ORT』吗？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaDepth A 1]
+[charaDepth D 2]
+
+[charaTalk A,D]
+[charaFace A 7]
+[charaFadeinFSR A 0.1 2]
+
+[charaFace D 11]
+[charaFadeinFSL D 0.1 0]
+[wt 1.5]
+
+？1：[line 3]
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk C]
+[charaFace C 2]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+奥尔特……吗？[r]好陌生的发音呢，各位怎么样？
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+？2：……我只听说过传闻。
+
+[charaFadeout A 0.1]
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 24]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+[FFFFFF]？[-]　怎么，一脸严肃的表情。[r]是什么样的传闻？
+[k]
+
+[messageOff]
+[charaFadeout B 0.1]
+[wt 0.1]
+
+？！
+
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+[wt 0.5]
+
+[charaMoveReturn A 0,-5 0.5]
+[wt 0.7]
+
+＠玛修
+……其实，我们的目标之一，[bgm BGM_EVENT_81 0.1][r]就是那个ORT。
+[k]
+
+＠玛修
+泛人类史中存在被如此称呼的生物，[r]迦勒底就是为了抢先在所有人之前发现它，
+[k]
+
+＠玛修
+才来到了南美异闻带。[r]……可是现在……
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk B]
+[charaFace B 24]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+现在？　怎么了？
+[k]
+
+？1：该说已经顾不上这件事了……
+？2：还是说已经没必要找了呢……
+
+？！
+
+[charaFace B 13]
+
+＠U－奥尔加玛丽
+毕竟返回Storm Border才是最优先事项嘛。[r]还有就是解决地球白纸化，嗯嗯。
+[k]
+
+[charaFace B 14]
+
+＠U－奥尔加玛丽
+确实没空去找那种莫名其妙的生物了呢！[r]我也同意哦！
+[k]
+
+[bgmStop BGM_EVENT_81 1.5]
+
+＠U－奥尔加玛丽
+何况还有我在！[r]已经不需要更多战斗力了！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 3]
+[charaFadein A 0.1 1]
+
+＠玛修
+U，U－奥尔加玛丽小姐不需要找ORT吗？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[bgm BGM_EVENT_77 0.1]
+
+[charaTalk B]
+[charaFace B 24]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+为什么？　这是留存在记忆中为数不多的词语，[r]所以才想着问一下而已啊？
+[k]
+
+[charaFace B 23]
+
+＠U－奥尔加玛丽
+不过嘛……听你这么一说，我好像……[r]确实一直在找它，又好像……根本无所谓了？
+[k]
+
+[charaFace B 22]
+
+＠U－奥尔加玛丽
+这点小事无所谓啦！
+[k]
+
+＠U－奥尔加玛丽
+我又不讨厌渺小的生物，[r]这点小问题得放任不管才行！
+[k]
+
+？1：是，是这样啊。这是好事。
+？2：（虽然让人松了口气，但总统你这样真的没问题吗？）
+
+？！
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+啊，水声已经很近了！[r]就要到河边了吧！
+[k]
+
+[charaFace D 2]
+
+＠尼莫水兵
+好～，水兵船长，第一名～～～！
+[k]
+
+＠尼莫水兵
+赌上特里同之名，小小丛林之河，[r]看我轻轻松松游览过去～！
+[k]
+
+[messageOff]
+[charaMove D -100,0 0.5]
+[charaFadeout D 0.4]
+[se ad443]
+[seStop ad443 1.5]
+[wt 1.5]
+
+[wipeout leftToRight 1.0 1.0]
+[bgmStop BGM_EVENT_77 1.0]
+[wait wipe]
+
+[scene 10000]
+[wt 2.0]
+
+[wipein rightToLeft 0.1 1.0]
+[wait wipe]
+
+[cueSe SE_22 22_ad1176]
+[seVolume 22_ad1176 0 0]
+[seVolume 22_ad1176 1.5 0.4]
+[fadeout white 1.5]
+[wt 0.5]
+
+[wait fade]
+
+
+[scene 169200]
+
+[charaDepth I 4]
+[charaDepth J 3]
+
+[charaFadein I 0.1 0,-200]
+[charaFadein J 0.1 0,-200]
+[wt 1.5]
+[charaMove I 0,-400 15.0]
+[seVolume 22_ad1176 1.5 1.0]
+
+[fadein white 1.5]
+[wait fade]
+[wt 4.0]
+
+[bgm BGM_MAP_55 0.1]
+[charaMoveScale J 1.0 3.0]
+[charaFadeout I 1.5]
+[seVolume 22_ad1176 1.5 0.4]
+[wt 3.5]
+
+？1：这就是第一道冥界线[line 3]！
+？2：不，这已经不算是河了吧！？
+
+？！
+
+[charaFadeout J 1.0]
+[wt 1.5]
+
+[seStop 22_ad1176 2.5]
+
+[charaTalk D]
+[charaFace D 6]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+这种不行啦～～～！[r]我们水兵24人全员到齐也不行～！
+[k]
+
+[charaFace D 2]
+
+＠尼莫水兵
+不过景色如此雄伟，心情上还是没问题的！[r]这大瀑布，看起来心情舒畅～～～！
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 1]
+[charaFadein E 0.1 1]
+
+＠哈贝特洛特
+嗯。妖精乡也找不到如此壮观的风景。
+[k]
+
+[charaFace E 9]
+
+＠哈贝特洛特
+南美神话挺厉害的嘛！[r]自然的[#雄伟程度:规模]超乎寻常！
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk A]
+[charaFace A 1]
+[charaFadein A 0.1 1]
+
+＠玛修
+是的，不愧是以地球最后的秘境而著称的[r]圭亚那高原所在的南美！
+[k]
+
+[charaFace A 7]
+
+＠玛修
+而且，特佩乌先生已经跨越过这条大瀑布了吧。
+[k]
+
+＠玛修
+这脚力与探险能力，[r]就算称其为超人也毫不为过。
+[k]
+
+[charaFace A 13]
+
+＠玛修
+请务必指点一二。[r]顺带一问，您是由什么样的路线横渡过去的？
+[k]
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 7]
+[charaFadein C 0.1 1]
+[charaShake C 0.1 2 2 0]
+
+＠特佩乌
+嗯。[r]我觉得特佩乌应该成功过。
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+[charaShakeStop C]
+
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.1 1]
+
+＠玛修
+Mr.特佩乌？
+[k]
+
+？1：超人特佩乌？
+
+？！
+
+[charaFadeout A 0.1]
+[wt 0.1]
+
+
+[charaTalk C]
+[charaFace C 4]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+不，不是这样的，这是什么，好可怕。
+[k]
+
+[messageOff]
+[charaChange C 1098252900 3 fade 0.3]
+[wt 0.3]
+
+＠特佩乌
+对不起，这跟我突破的那个不一样。[r]虽然确实是宽阔的河，但没到这种程度……
+[k]
+
+＠特佩乌
+[%1]、玛修。[r]你们有想象过这样的风景吗？
+[k]
+
+？1：完全
+？2：没有
+
+？！
+
+＠特佩乌
+也就是说……这并不是你们的精神状态[r]造成的变化吧。
+[k]
+
+＠特佩乌
+……就和[#隐匿者:Crypter]那时一样，[r]迦勒底的到来导致『冥界线』发生了变化。
+[k]
+
+＠特佩乌
+应该可以这么认为吧……[r]不，但即便如此[line 3]
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaTalk D]
+[charaFace D 0]
+[charaFadein D 0.1 1]
+
+＠尼莫水兵
+即便如此？
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaSet C 1098252940 1 特佩乌]
+
+[charaTalk C]
+[charaFace C 3]
+[charaFadein C 0.1 1]
+
+＠特佩乌
+这景象真令人心潮澎湃呢！[r]我真想让熟人也见识一下如此壮观的饮水地！
+[k]
+
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[bgmStop BGM_MAP_55 1.0]
+
+[charaTalk B]
+[charaFace B 23]
+[charaFadein B 0.1 1]
+
+＠U－奥尔加玛丽
+！
+[k]
+
+[charaFace B 7]
+
+＠U－奥尔加玛丽
+要兴奋稍后再说，特佩乌、水兵、[r][%1]快退到后面去！
+[k]
+
+[bgm BGM_EVENT_80 0.1]
+
+＠U－奥尔加玛丽
+有什么从瀑布底下冒出来了！[r]那就是所谓的巨大鬣蜥吧！ 
+[k]
+
+＠U－奥尔加玛丽
+交给玛修和我来解决！[r]哈贝喵负责护卫非战斗人员！　明白了吗，两位！
+[k]
+
+[charaFadeout B 0.1]
+[wt 0.1]
+
+[charaTalk depthOff]
+[charaDepth E 5]
+[charaDepth G 1]
+
+[charaPut G 1]
+[charaFadeTime G 0.2 0.5]
+
+[charaTalk E]
+[charaFace E 14]
+[charaFadein E 0.1 1]
+
+＠哈贝特洛特
+（哈贝喵！？）
+[k]
+
+[messageOff]
+[charaFadeout G 0.2]
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaTalk depthOn]
+
+[se ad15]
+[charaTalk A]
+[charaFace A 7]
+[charaFadein A 0.1 1]
+[wt 0.4]
+
+[cueSe SE_21 21_adm82]
+[seVolume 21_adm82 0 0.5]
+[se ad879]
+[seVolume ad879 0 0.8]
+[fadeout white 0.5]
+[wait fade]
+
+[charaCrossFade A 8001400 7 0.4]
+[wait charaCrossFade A]
+
+[fadein white 0.5]
+[wait fade]
+[wt 0.5]
+
+[se bac170]
+[charaFace A 2]
+
+＠玛修
+是，准备战斗！[r]请交给我吧，奥尔加玛丽小姐！
+[k]
+
+
+[messageOff]
+[fadeout black 0.5]
+[bgmStop BGM_EVENT_80 0.4]
+[wait fade]
+[soundStopAll]
+[end]
+
