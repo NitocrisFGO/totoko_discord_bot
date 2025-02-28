@@ -6,7 +6,6 @@ import random
 import discord
 import torch
 from discord.ext import commands
-from openai import OpenAI
 from peft import PeftModel
 from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer
 
@@ -66,9 +65,6 @@ rps_win_text = ["哎，杂鱼就是杂鱼，一边呆着去吧~", "去~去~你�
                 "玩原神玩的，🤣", "你有试过和蚂蚁比举重吗？", "噗~如果我道歉，你会好受些吗？", "菜，就多练，输不起就别玩。接下来的忘了",
                 "托托子是石头剪刀布界最高的山，最长的河，输给咱是很正常的。",
                 "https://baike.baidu.com/item/%E8%BC%95%E5%BA%A6%E5%BC%B1%E6%99%BA/4265374"]
-
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "sk-proj-ESdEUX1qNSKwXETDMZJNT3BlbkFJtOYzzLghfoteonNm5Arj"))
-MODEL = "gpt-4o-mini"
 
 play_list = []
 play_model = '列表循环'
