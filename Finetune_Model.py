@@ -1,63 +1,70 @@
+# 导入必要的库
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+from peft import get_peft_model, LoraConfig
 from datasets import load_dataset
-from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
+from trl import SFTTrainer, SFTConfig
 
-# load JSON file as Hugging Face Dataset
-dataset = load_dataset("json", data_files="data.json")
+# 导入模型
+model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
 
-device = "cuda"
-tokenizer = AutoTokenizer.from_pretrained("kxdw2580/Qwen2.5-3B-Instruct-Uncensored-Test")
-model = AutoModelForCausalLM.from_pretrained("kxdw2580/Qwen2.5-3B-Instruct-Uncensored-Test")
-
-# function for data pre-process
-def preprocess_data(examples):
-    inputs = [f"<|User|>{inp}<|Assistant|>" for inp in examples["content"]]
-    outputs = examples["response"]
-    model_inputs = tokenizer(
-        inputs,
-        max_length=512,
-        truncation=True,
-        padding="max_length",
-    )
-    # set labels，what need to be generated
-    with tokenizer.as_target_tokenizer():
-        labels = tokenizer(
-            outputs,
-            max_length=512,
-            truncation=True,
-            padding="max_length",
-        )
-    model_inputs["labels"] = labels["input_ids"]
-    return model_inputs
-
-
-# print info for dataset
-tokenized_dataset = dataset["train"].map(preprocess_data, batched=True)
-print(tokenized_dataset[0])
-
-# training parameters
-training_args = TrainingArguments(
-    output_dir="./results",
-    evaluation_strategy="no",
-    save_strategy="steps",
-    logging_dir="./logs",
-    num_train_epochs=3,
-    per_device_train_batch_size=4,
-    learning_rate=5e-5,
-    fp16=True,
+quantization_config = BitsAndBytesConfig(
+    load_in_4bit=True,  # 启用 4-bit 量化
+    bnb_4bit_compute_dtype=torch.float16,  # 使用 float16 计算
+    bnb_4bit_use_double_quant=True,  # 启用双量化（减少显存）
 )
 
-# create Trainer
-trainer = Trainer(
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    quantization_config=quantization_config,  # 4-bit 量化配置
+)
+
+lora_config = LoraConfig(
+    r=16,
+    lora_alpha=16,
+    lora_dropout=0.05,
+    target_modules=["q_proj", "v_proj"],
+    bias="none",
+    task_type="CAUSAL_LM",
+)
+
+model = get_peft_model(model, lora_config)
+
+print(model)
+
+dataset = load_dataset("json", data_files="data.json")["train"]
+
+
+def convert_to_conversation(sample):
+    return {
+        "messages": [
+            {"role": "user", "content": sample["content"]},
+            {"role": "assistant", "content": sample["response"]},
+        ]
+    }
+
+
+train_data = dataset.map(convert_to_conversation)
+
+trainer = SFTTrainer(
     model=model,
-    args=training_args,
-    train_dataset=tokenized_dataset,
     tokenizer=tokenizer,
+    train_dataset=train_data,
+    args=SFTConfig(
+        per_device_train_batch_size=1,
+        gradient_accumulation_steps=8,
+        max_steps=100,
+        learning_rate=1e-4,
+        fp16=True,
+        optim="adamw_8bit",
+        max_seq_length=1024,
+        remove_unused_columns=False,
+    ),
 )
 
-# start training
 trainer.train()
 
-# save model
-model.save_pretrained("./finetuned_model")
-tokenizer.save_pretrained("./finetuned_model")
-
+model.save_pretrained("finetuned_model")
+tokenizer.save_pretrained("finetuned_model")
