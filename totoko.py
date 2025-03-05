@@ -499,5 +499,9 @@ if __name__ == '__main__':
     # 合并 LoRA 并卸载多余参数
     chat_model = lora_model.merge_and_unload()
 
+    print("Please give the key of the bot: ")
+
+    bot_key = input()
+
     # 启动机器人
-    bot.run('MTI5OTU1MzExOTA4ODE1MjYwOA.GgzRBr.J2uWpHXPDx0o3ezDbhGIZCV-kEeAlgPx8TiWek')
+    bot.run(bot_key)
