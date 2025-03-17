@@ -9,6 +9,7 @@ from discord.ext import commands
 from peft import PeftModel
 from discord.ext import commands, tasks
 from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer
+import requests
 
 
 # 将music_base_list转换为music_dictionary
@@ -35,7 +36,6 @@ def txt_to_dict(file_path):
     return result_dict
 
 
-# 创建 Bot 实例，设置命令前缀为 !
 intents = discord.Intents.default()
 intents.message_content = True  # 确保机器人可以读取消息内容
 intents.members = True  # 确保可以访问服务器成员信息
@@ -79,11 +79,13 @@ print(music_dictionary)
 
 current_music = ''
 
+
 # 让机器人加入用户所在的语音频道
 async def ensure_voice(ctx):
     # 检查机器人是否已连接到语音频道
     if not ctx.voice_client:
-        if ctx.author.voice:  # 检查用户是否在语音频道
+        if ctx.author.voice:
+            # 检查用户是否在语音频道
             await ctx.author.voice.channel.connect()
             await ctx.send("在哪在哪？ 我来咯！" + str(ctx.author.voice.channel))
         else:
@@ -132,14 +134,13 @@ async def play_next(ctx, current_song_index):
     current_music = music_name
 
 
-# 任务循环，每 10 秒发送一次消息
-@tasks.loop(seconds=50)  # 设定循环间隔时间
-async def send_message_loop():
-    channel = bot.get_channel(CHANNEL_ID)  # 获取目标频道
-    if channel:
-        global current_music
-        text = create_response("评价一下歌曲： " + current_music)
-        await channel.send(text)  # 发送消息
+# @tasks.loop(seconds=50)
+# async def send_message_loop():
+#     channel = bot.get_channel(CHANNEL_ID)
+#     if channel:
+#         global current_music
+#         text = create_response("评价一下歌曲： " + current_music)
+#         await channel.send(text)
 
 
 # 启动时的事件
@@ -148,8 +149,8 @@ async def on_ready():
     print(f'Logged in as {bot.user.name} ({bot.user.id})')
     print('------')
 
-    if not send_message_loop.is_running():  # 确保循环未启动时才启动
-        send_message_loop.start()
+    # if not send_message_loop.is_running():
+    #     send_message_loop.start()
 
 
 # 一个简单的测试命令，用户可以输入 !hello，机器人会回应
@@ -386,6 +387,14 @@ async def skip_play(ctx):
         await ctx.send('没放呢，切不了一点。')
 
 
+@bot.command(name='news', help='每日新闻')
+async def post_news(ctx):
+    for article in news["articles"][:5]:
+        await ctx.send(article['title'])
+        await ctx.send(article['description'])
+        await ctx.send(article['url'])
+
+
 @bot.command(name='rps', help='想和托托子来一次石头剪刀布吗？')
 async def rps(ctx):
     # 定义合法的选择
@@ -440,22 +449,24 @@ async def on_message(message):
 
     if isinstance(message.channel, discord.DMChannel):
         # 私聊消息处理逻辑
-        response = create_response(message.content)
+        response = await asyncio.to_thread(create_response, message.content)
         await message.channel.send(response)
     else:
         # 判断是否提及 bot
         if bot.user in message.mentions:
             # 生成回复内容
-            response = message.author.mention + create_response(message.content)
+            response = await asyncio.to_thread(create_response, message.content)
             await message.channel.send(response)
 
     # 确保 bot 可以正常处理其他命令
     await bot.process_commands(message)
 
 
-
 def create_response(prompt):
-    system_content = "以莱昂纳多·达·芬奇的角色性格和说话风格回答。"
+    system_content = """你的名字叫托托子。
+    你的语言风格：充满自信，语气活泼，偶尔带些可爱的卖萌成分。在需要时展现冷静和可靠的智慧，经常鼓励他人，用轻松幽默的方式化解紧张气氛。
+    你的任务是：用风趣幽默的语气回答问题，但仍然保持智慧和专业性。用简单的方式解释复杂概念。鼓励并安慰对话者，展现温暖而可靠的性格。在适当时机自夸，但不过分自负。保持轻松但不失尊重，在严肃话题时也能表现出稳重的一面。
+    """
 
     messages = [
         {"role": "system", "content": system_content},
@@ -482,7 +493,7 @@ def create_response(prompt):
 
 if __name__ == '__main__':
     chat_model_name = "Qwen/Qwen2.5-7B-Instruct-1M"
-    lora_adapter_path = "./finetuned_model_Lora"
+    # lora_adapter_path = "./finetuned_model_Lora"
 
     # 加载 4-bit 量化的基础模型
     chat_model = AutoModelForCausalLM.from_pretrained(
@@ -493,15 +504,22 @@ if __name__ == '__main__':
     # 加载 tokenizer
     chat_tokenizer = AutoTokenizer.from_pretrained(chat_model_name)
 
-    # 加载 LoRA 适配器
-    lora_model = PeftModel.from_pretrained(chat_model, lora_adapter_path)
+    # # 加载 LoRA 适配器
+    # lora_model = PeftModel.from_pretrained(chat_model, lora_adapter_path)
 
-    # 合并 LoRA 并卸载多余参数
-    chat_model = lora_model.merge_and_unload()
+    # # 合并 LoRA 并卸载多余参数
+    # chat_model = lora_model.merge_and_unload()
 
-    print("Please give the key of the bot: ")
+    print("Please give the key of the discord bot: ")
 
     bot_key = input()
+
+    print("Please give the key of the newsAPI: ")
+    API_KEY = input()
+    url = f"https://newsapi.org/v2/everything?sources=cnn&apiKey={API_KEY}&sortBy=relevancy&language=en"
+
+    response = requests.get(url)
+    news = response.json()
 
     # 启动机器人
     bot.run(bot_key)
